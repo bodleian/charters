@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <!-- 71 charters
+   dates all done
+   
+   -->
+  <text>
+      <body>
+         <div type="county">
+            <head>CAMBRIDGESHIRE. </head>
+            <div type="charter">
+               <p> ABINGTON (Little). <persName>Margery, daughter and heir of <forename>John</forename> de <surname>Bhey</surname>, of <placeName  key="place_100050">Little Abinton</placeName></persName>,
+                  grants to <persName>Richard, brother of <forename>Peter</forename> le <surname>Baker</surname>, of <placeName  key="place_100029">Cambridge</placeName></persName>, one messuage in <placeName  key="place_100050">Little
+                  Abinton</placeName><!-- not in TGN --> and land lying in the fields of the same village, with other land in the
+                  fields of <placeName  key="place_100024">Badberham</placeName><!-- in TGN -->. (<date notBefore="1280" notAfter="1290" precision="low">c. 1280-90</date>.) (With
+                  seal.) <bibl type="shelfmark">MS. Ch. Cambs. 1</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p><persName><forename>John</forename>  <surname>Mansel</surname>  of <placeName  key="place_100050">Little Abington</placeName></persName> grants to <persName><forename>John</forename>  <surname>Attebeye</surname>  of the same place</persName>, one rood
+                  of land in the field of <placeName  key="place_100050">Little Abington</placeName>, at 'Le gore' at an annual rent of ½d.
+                     (<date when="1280" precision="low">c. 1280</date>.) <bibl type="shelfmark">MS. Ch. Cambs.
+                     4</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>Joan</forename> le <surname>Warner</surname>, formerly wife of <forename>Thomas</forename> le <surname>Warner</surname>, of <placeName  key="place_100042">Hyldrisham</placeName>, widow</persName>, grants
+                  to <persName><forename>John</forename>  <surname>Bonsqueir</surname> <!-- check: m/f illeg --> of <placeName  key="place_100050">Little Abynton</placeName></persName> and <persName>Joan his wife</persName>, one piece of arable land in
+                  the fields of <placeName  key="place_100050">Little Abynton</placeName>. Dated at <placeName role="date"  key="place_100050">Little Abynton</placeName> the Sunday next after the
+                  feast of the apostles SS. Peter and Paul, <date notBefore="1333-01-25" notAfter="1334-01-24">7 Ed. III</date>. <bibl type="shelfmark">MS. Ch. Cambs. 2</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Indenture made 28 June, <date notBefore="1596-11-17" notAfter="1597-11-16">39 Eliz.</date>, by which <persName>Philip <surname>Dalton</surname> of
+                  <orgName  key="org_100012">Lincoln's Inn, London</orgName></persName>, leases to <persName><forename>Henry</forename>  <surname>Amye</surname>  of <placeName  key="place_100042">Hildersham</placeName></persName>, Cambridge, the rectory
+                  and parsonage of <placeName  key="place_100050">Little Abington</placeName> for 21 years, at an annual rent of £66 13s. 4d.
+                     <bibl type="shelfmark">MS. Ch. Cambs. 3</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> ASCHELEY, SYLVERLEY, and CHEVELEY. Indenture made 22 March, <date notBefore="1536-04-22" notAfter="1537-04-21">28 Hen.
+                  VIII</date>, by which <persName><forename>Thomas</forename>  <surname>Lancaster</surname>  of <placeName key="place_100023">Ascheley</placeName>, gentleman</persName>, sells to <persName><forename>Henry</forename>  <surname>Everard</surname>  of <placeName key="place_100033">Denerston</placeName>, co. Suffolk</persName>, esq., his manors of <placeName type="manor" key="place_100008">Gynes</placeName><!-- Gayneshall in Ashley cum Silverley: VCH --> and <placeName type="manor" key="place_100011">Sylverley</placeName><!-- Silverleyhall in Ashley cum Silverley: VCH --> in the
+                  county of Cambridge, with all their appurtenances, together with all lands,
+                  &amp;c., in the said townships and in <placeName  key="place_100032">Cheveley</placeName>. <bibl type="shelfmark">MS. Ch. Cambs.
+                     5</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> BARENTON (Barrington) (Manor of). Letters patent of <persName>King Edward [II?]</persName>, dated at <placeName key="place_100058">Strugoill</placeName>, <date when="1326-11-18" cert="low">18
+                  Oct., 20th year of his reign</date>, being a licence to <persName>Sir <forename>John</forename> de <surname>Lancaster</surname>, kt.</persName>, and
+                  <persName>Annora</persName> his wife, to enable them to infeoff <persName>Hervy de Staunton, clerk</persName>, with their manor of
+                  <placeName type="manor" key="place_100002">Barenton</placeName> and the <pb n="35"/> <placeName type="advowson" key="place_100012">advowson</placeName> of the church of the said manor, also to
+                  enable the said Hervy to reinfeoff John and Annora with the said manor for their
+                  lives. <bibl type="shelfmark">MS. Ch. Cambs. 6<!-- MS. Ch. Cambs.ck: m/f illeg. --></bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> BODKESHAM.<!-- Bottisham --> <persName>Geffrey the son of Humphrey</persName>, quit-claims to <persName>Wimer de Holm</persName> and his
+                  heirs all his right in half a virgate and the fourth part of one virgate of land
+                  in <placeName  key="place_100027">Bodkesham</placeName>. (<date when="1210" precision="low">c. 1210</date>.) <bibl type="shelfmark">MS. Ch. Cambs. 9</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAMBRIDGE. <persName>Giffard de Yezan, chamberlain of the Pope</persName>, acknowledges to have
+                  received of <persName>sir <forename>Thomas</forename> de <surname>Belhus</surname>, sheriff of Cambridge</persName>, £1140 6s. in old money,
+                  weighing £1018 9s. 1d. in 13 sacks of money collected in England for the holy land
+                  and deposited in the treasury of <orgName  key="org_100015">Ely</orgName> by <persName>J., archbishop of Dublin</persName>, and <persName>Arditio,
+                     now bishop of Mutin</persName>. Dated at <placeName role="date" key="place_100051">London</placeName>, 2 Ides Feb., <date when="1285">1285</date>.
+                     <bibl type="shelfmark">MS. Ch. Cambs. 10</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Value and extent of the manors, lands, and tenements of <persName><forename>Thomas</forename>  <surname>Dalton</surname>, gentleman</persName>,
+                  deceased, in the <placeName type="county" key="place_000014">county of Cambridge</placeName>, taken 20 Nov., <date notBefore="1602-11-17" notAfter="1603-11-16">45 Eliz.</date> Also of
+                  a messuage in <placeName key="place_100034">Depden</placeName>, co. Essex. <bibl type="shelfmark">MS. Ch. Cambs. 11</bibl>.</p>
+            </div>
+            <div type="charter">
+               <p> Copy of the letters patent of <persName>King Charles I</persName> appointing <persName>Thomas, earl of Suffolk,
+                  K.G.</persName>, lieutenant within the counties of <placeName type="county" key="place_000014">Cambridge</placeName> and <placeName type="county" key="place_100015">Suffolk</placeName>. Signed by 'T.
+                  Suffolke' (<note type="material">on paper</note>). Dated <date when="1625-05-09">9 May, 1st year of his reign</date>. <bibl type="shelfmark">MS. Ch. Cambs. 14</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Appointment of <persName><forename>Edward</forename>  <surname>Snagg</surname></persName> as deputy lieutenant of the county of <placeName type="county" key="place_000014">Cambridge</placeName>, by
+                  the <persName>rt. hon. <forename>Henry</forename>  <surname>Bromley</surname>, esq., lord lieutenant, &amp;c., of the said county</persName>.
+                  Dated 16 Aug., <date when="1738-08-16">12 Geo. II</date>. <bibl type="shelfmark">MS. Ch. Cambs. 15</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Orders promulgated by <persName>Matthew, bishop of Ely</persName>, to be observed by those who offer
+                  themselves for the office of deacon or priest. Dated at <placeName role="date"  key="place_100062">Wilberton</placeName>, within the
+                  island of Ely, 1 Sept., <date when="1662">1662</date>. <bibl type="shelfmark">MS. Ch. Cambs.
+                     36</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>William</forename>  <surname>Thorburgh</surname>, LL. D., warden of <orgName key="org_100017">the chapel of the Blessed Virgin 'in mari'</orgName></persName>
+                  admits <persName><forename>Richard</forename>  <surname>Bardar</surname>, esq.</persName>, in full and perpetual participation to all
+                  indulgences and privileges of the brethren and sisters of the said chapel. Dated
+                     <date when="1502">1502</date>. <bibl type="shelfmark">MS. Ch. Cambs. 35</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAMBRIDGE (Hospital of St. John the Evangelist). <persName><forename>William</forename> de <surname>Gosefeld</surname>, master of
+                  the <orgName key="org_100008">Hosp. St. John  Evang .</orgName></persName>, and the brethren of <orgName key="org_100008">the same</orgName><!-- not in VIAF -->, in consideration of the
+                  charity, &amp;c., moving <persName>John, bishop of Ely</persName>, in allowing the hospital to elect
+                  their own master so often as a vacancy occurs, agree that he and his successors
+                  shall participate in all their prayers, &amp;c., for ever, and that they will
+                  offer at the shrine of St. Etheldreda a wax candle of three pounds weight - in case
+                  of default distraint to be made upon their lands or possessions, or upon the
+                  rectory of <placeName key="place_100044">Hornyngestrete</placeName>. Dated 13 Jan., <date when="1332">1332</date>. <bibl type="shelfmark">MS. Ch. Cambs. 31</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAMBRIDGE (St. Michael's parish). <persName><forename>John</forename> de <surname>Popelington</surname>, burgess of <placeName  key="place_100029">Cambridge</placeName></persName>,
+                  grants to <persName><forename>Robert</forename> de <surname>Swanton</surname></persName> and others a tenement, &amp;c., in the <placeName key="place_100055">parish of St.
+                  Michael, Cambridge</placeName>. Dated at <placeName role="date" key="place_100029">Cambridge</placeName> the Monday next after the Purification
+                  B.V.M., <date notBefore="1369-01-25" notAfter="1370-01-24">43 Ed. III</date>. <bibl type="shelfmark">MS. Ch. Cambs. 16.</bibl></p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>John</forename>  <surname>Poppelyngton</surname>, burgess of <placeName  key="place_100029">Cambridge</placeName></persName>, grants to <persName><forename>William</forename>  <surname>Fishewyk</surname>, bedel of the
+                  <orgName  key="org_100019">university of Cambridge</orgName></persName>, a garden lying in the parish of <placeName key="place_100055">St. Michael's, Cambridge</placeName>, 
+                  between the <orgName key="org_100009">hospice of St Margaret</orgName> and tenements belonging to the <orgName key="org_100002">chapel of St Edmund</orgName>.
+                  Dated at <placeName role="date"  key="place_100029">Cambridge</placeName> the Monday next before the feast of St. Bartholomew the
+                  apostle, <date notBefore="1379-06-22" notAfter="1380-06-21">3 Rich. II</date>. [Seal, a squirrel.] <bibl type="shelfmark">MS. Ch. Cambs. 17</bibl>
+               </p>
+            </div>
+            <div type="charter">
+               <p>
+                  <pb n="36"/> Bond given by <persName><forename>Richard</forename>  <surname>Asshewell</surname></persName> and <persName>Beatrice</persName> his wife in a sum of £40
+                  to be paid to <persName><forename>Robert</forename>  <surname>Cokkesford</surname></persName> and <persName>Juliana Bedelle, late wife of <persName><forename>Richard</forename>  <surname>Bedell</surname></persName></persName>, at <placeName  key="place_100029">Cambridge</placeName> on the feast of
+                  St. Michael next following the date of these presents. Dated at <placeName role="date"  key="place_100029">Cambridge</placeName> the
+                  Tuesday next after the feast of St. Barnabas, <date notBefore="1381-06-22" notAfter="1382-06-21">5 Rich. II</date>. [Seals.]
+                     <bibl type="shelfmark">MS. Ch. Cambs. 18</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>Richard</forename>  <surname>Asshewell</surname>  of <placeName  key="place_100029">Cambridge</placeName></persName> and <persName>Beatrice</persName> his wife, by a bond in £40, covenant
+                  with <persName><forename>Robert</forename>  <surname>Cokkesford</surname></persName> and <persName>Juliana Bedelle, late wife of <persName><forename>Richard</forename>  <surname>Bedell</surname></persName></persName>, to levy
+                  a fine in the King's court at <placeName  key="place_100060">Westminster</placeName> or <placeName  key="place_100029">Cambridge</placeName> for a messuage and parcell
+                  of 'vynes' in the parish of <placeName key="place_100055">St. Michael's, Cambridge</placeName>. Dated at <placeName role="date"  key="place_100029">Cambridge</placeName> the
+                  Wednesday next after the feast of St. Barnabas the apostle, <date notBefore="1381-06-22" notAfter="1382-06-21">5 Rich.
+                     II</date>. [Seals.] <bibl type="shelfmark">MS. Ch. Cambs. 19</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>Richard</forename>  <surname>Asshewell</surname></persName> and <persName>Beatrice his wife, formerly daughter of <persName><forename>Geoffrey</forename>  <surname>Pawe</surname>  of
+                  <placeName  key="place_100029">Cambridge</placeName></persName></persName>, grant to <persName><forename>Robert</forename>  <surname>Cokkesford</surname></persName> and <persName>Juliana Bedell, formerly wife of <persName><forename>Richard</forename>  <surname>Bedell</surname></persName></persName>, a tenement, garden, and parcell of vines, in the parish of <placeName key="place_100055">St. Michael,
+                     Cambridge</placeName>. Dated at <placeName role="date"  key="place_100029">Cambridge</placeName> the Monday after the feast of St. Barnabas the
+                  apostle, <date notBefore="1381-06-22" notAfter="1382-06-21">5 Rich. II</date>. [Seals.] <bibl type="shelfmark">MS. Ch. Cambs. 20</bibl>.
+               </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>William</forename>  <surname>Fysshewyk</surname>, <roleName>bedel of the <orgName  key="org_100019">university of Cambridge</orgName></roleName></persName>, grants to <persName><forename>William</forename>  <surname>Irby</surname></persName>
+                  and others a messuage in the parish of <placeName key="place_100055">St. Michael, Cambridge</placeName>. Dated at <placeName role="date"  key="place_100029">Cambridge</placeName>
+                  on the feast of the translation of St. Thomas the martyr, <date notBefore="1381-06-22" notAfter="1382-06-21">5 Rich. II</date>.
+                     <bibl type="shelfmark">MS. Ch. Cambs. 21</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>Robert</forename> de <surname>Swanton</surname>  of <placeName  key="place_100029">Cambridge</placeName></persName> and <persName>Simon Bentybowe</persName> quit-claim to <persName><forename>Richard</forename>  <surname>Asshewell</surname>  of <placeName  key="place_100029">Cambridge</placeName></persName> and <persName>Beatrice</persName> his wife all their right in a tenement with a
+                  garden and parcell of vynes, which they had by the gift of <persName><forename>John</forename> de <surname>Popelyngton</surname></persName>.
+                  Dated at <placeName  role="date" key="place_100029">Cambridge</placeName> the Monday in Whitsun week, <date notBefore="1381-06-22" notAfter="1382-06-21">5 Rich. II</date>. <bibl type="shelfmark">MS. Ch. Cambs. 22</bibl> .</p>
+            </div>
+            <div type="charter">
+               <p> Final concord made in the court at <placeName  key="place_100029">Cambridge</placeName> the Monday next after the feast of
+                  the Holy Trinity, <date notBefore="1382-06-22" notAfter="1383-06-21">6 Rich. II</date>, by which Richard and Beatrice Asshewell
+                  acknowledge a messuage in <placeName  key="place_100029">Cambridge</placeName> to be the right of Juliana Bedell, for which
+                  acknowledgment the said Juliana gave Richard and Beatrice £11. <bibl type="shelfmark">MS. Ch. Cambs. 23</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>William</forename>  <surname>Fysshewyk</surname>, <roleName>bedel of <orgName  key="org_100019">Cambridge</orgName></roleName><!-- university --></persName>, grants to <persName>master <forename>William</forename>  <surname>Irby</surname></persName>, <persName>master Richard .aldewyk</persName>
+                  <!-- check: m/f illeg. --> and <persName>Juliana Bedelle</persName>
+                  one messuage in the parish of <placeName key="place_100055">St. Michael's, Cambridge</placeName>. Dated at <placeName role="date"  key="place_100029">Cambridge</placeName> on the
+                  feast of the translation of St. Thomas the martyr, <date notBefore="1386-06-22" notAfter="1387-06-21">10 Rich. II</date>. Witnesses <!-- check: m/f illeg -->
+               [With
+                  seal.] <bibl type="shelfmark">MS. Ch. Cambs. 24</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> The will of <persName>W. Fyswyk, <roleName>bedel of the <orgName  key="org_100019">university of Cambridge</orgName></roleName></persName>. Dated 4 Kl. April,
+                     <date when="1393">1393</date>. <bibl type="shelfmark">MS. Ch. Cambs. 25</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>William</forename>  <surname>Irby</surname>, clerk</persName>, quit-claims to <persName>Juliana Bedell, formerly wife of <persName><forename>Richard</forename>  <surname>Bedell</surname>  of <placeName  key="place_100029">Cambridge</placeName></persName></persName>, all her right in a messuage in the parish of <placeName key="place_100055">St. Michael,
+                  Cambridge</placeName>. Dated at <placeName role="date"  key="place_100029">Cambridge</placeName>, 2 Jan., <date notBefore="1393-06-22" notAfter="1394-06-21">17 Rich. II</date>. <bibl type="shelfmark">MS. Ch. Cambs. 26</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName>Juliana Bedell, formerly wife of <persName><forename>Richard</forename>  <surname>Bedell</surname>  of <placeName  key="place_100029">Cambridge</placeName></persName></persName>, grants to the
+                  warden and fellows of <orgName key="org_100007">St. Mary's, Cambridge</orgName>, a messuage lying in <placeName key="place_100055">St. Michael's
+                  parish, Cambridge</placeName>. Dated at <placeName role="date"  key="place_100029">Cambridge</placeName> the Saturday next before the feast of St.
+                  Katherine, <date notBefore="1394-06-22" notAfter="1395-06-21">18 Rich. II</date>. <note type="seal">[With seal]</note> <bibl type="shelfmark">MS. Ch. Cambs.
+                     29</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p>
+                  <pb n="37"/> <persName>Juliana Bedell, formerly wife of <persName><forename>Richard</forename>  <surname>Bedell</surname>  of <placeName  key="place_100029">Cambridge</placeName></persName></persName>, grants
+                  to the warden and fellows of <orgName key="org_100007">St. Mary's College, Cambridge</orgName>, a messuage lying in
+                  the parish of <placeName key="place_100055">St. Michael, Cambridge</placeName>. Dated at <placeName role="date"  key="place_100029">Cambridge</placeName> the Saturday next before
+                  the feast of St. Katherine the virgin, <date notBefore="1394-06-22" notAfter="1395-06-21">18 Rich. II</date>. Duplicate of Ch. 29. <note type="seal">[With seal.]</note>
+                     <bibl type="shelfmark">MS. Ch. Cambs. 30</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>Edward</forename>  <surname>Story</surname>, clerk</persName>, warden, and the scholars of the <orgName key="org_100016">college of St. Michael,
+                  Cambridge</orgName>, grant to <persName>master <forename>Thomas</forename>  <surname>Bolayn</surname>, clerk</persName>, warden and scholars of
+                  <orgName key="org_100007">Gunwilhalle</orgName>, a certain messuage or inn called <orgName key="org_100009">'Seynt Margaretishostell,'</orgName> in
+                  Cambridge, in the parish of <placeName key="place_100055">St. Michaell</placeName>. Dated at <placeName role="date"  key="place_100029">Cambridge</placeName>, 10 March, <date notBefore="1278-11-20" notAfter="1279-11-19">7
+                     Ed. IV</date>. <bibl type="shelfmark">MS. Ch. Cambs. 32</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>Thomas</forename>  <surname>Bolayn</surname>, clerk</persName>, warden of the college of <orgName key="org_100007">St. Mary called Gunwillhalle</orgName>, and
+                  the fellows of the same, constitute <persName><forename>John</forename>  <surname>Carter</surname>, clerk</persName>, their attorney to receive
+                  and take possession and seisin of a messuage called '<orgName key="org_100009">Seynt Margaretishostell</orgName>'.
+                  Dated 10 March, <date notBefore="1278-11-20" notAfter="1279-11-19">7 Ed. IV</date>. <bibl type="shelfmark">MS. Ch. Cambs. 44</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>Edward</forename>  <surname>Story</surname>, warden</persName>, and the scholars of the College of <orgName key="org_100016">St. Michael, Cambridge</orgName>,
+                  appoint <persName><forename>William</forename>  <surname>Smith</surname></persName> and <persName><forename>William</forename>  <surname>Reynoldson</surname></persName> their attorneys to deliver seisin to
+                  <persName><forename>Thomas</forename>  <surname>Bolayn</surname>, warden</persName>, and the scholars of <!-- check: m/f illeg. --> <orgName key="org_100007">Gunvylhalle</orgName>, of a messuage or inn
+                  called '<orgName key="org_100009">Seynt Margaretishostell</orgName>.' Dated 10 March, <date notBefore="1278-11-20" notAfter="1279-11-19">7 Ed. IV</date>. [With
+                  seal.] <bibl type="shelfmark">MS. Ch. Cambs. 33</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Deed (indented) by which <persName><forename>John</forename>  <surname>Wulrich</surname>, master mason of the workes of the <orgName key="org_100011">King's
+                  College Roial of our Lady and Seynt Nicholas, of Cambridge</orgName></persName>, and others, arbitrate
+                  in a matter between <orgName key="org_100016">St. Michael's College, of Cambridge</orgName>, and <orgName key="org_100007">Gonville hall</orgName>,
+                  concerning an eves drop into the garden of '<orgName key="org_100006">Fysshwykehostell</orgName>.' Dated at
+                  <placeName role="date"  key="place_100029">Cambridge</placeName>, 17 Aug., <date when="1476">1476</date>. <note type="language">English.</note> [With seals.] <bibl type="shelfmark">MS. Ch. Cambs. 34</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAMBRIDGE (University of). Licence of <persName><forename>John</forename>  <surname>Boilston</surname>, B.D.</persName>, by the <orgName  key="org_100019">university
+                  of Cambridge</orgName> as a preacher under the act of parliament of 13 Eliz.
+                  Dated at <placeName role="date"  key="place_100029">Cambridge</placeName>, 4 Nov. <date when="1643">1643</date>. <note type="seal">[With seal.]</note> <bibl type="shelfmark">MS. Ch. Cambs. 51</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Certificate of <persName>Ralph, bishop of Exeter</persName>, of the admission of <persName><forename>William</forename>  <surname>Gale</surname>  of
+                  <orgName key="org_100018">Trinity College, Cambridge</orgName></persName>, to the order of priest. Dated 19 May, <date when="1656">1656</date>. <bibl type="shelfmark">MS. Ch. Cambs. 37</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Certificate of <persName><forename>Edward</forename>  <surname>Mountague</surname>, <!-- check: m/f illeg. --> the chancellor of the <orgName  key="org_100019">university of Cambridge</orgName></persName>,
+                  and master and scholars of <orgName key="org_100019">the same</orgName>, that in 1659 <persName><forename>Richard</forename>  <surname>Perrott</surname></persName> was admitted to
+                  the degree of S.T.B. Dated 11 June, <date when="1661">1661</date>. <note type="seal">[With seal.]</note> <bibl type="shelfmark">MS. Ch. Cambs. 38</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Licence of <persName><forename>Thomas</forename>  <surname>Hall</surname></persName> by the <orgName  key="org_100019">university of Cambridge</orgName> as a preacher under the
+                  authority of the act of parliament of 13 Eliz. Dated at <placeName role="date"  key="place_100029">Cambridge</placeName>, 4
+                  Nov. <date when="1669">1669</date>. <note type="seal">[With seal]</note> <bibl type="shelfmark">MS. Ch. Cambs.
+                     50</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAMBRIDGE (Christ's College). Roll of receipts and expenditure of <orgName key="org_100004">Christ's
+                  College, Cambridge</orgName>, for the year ending Michaelmas, <date notBefore="1509-04-22" notAfter="1510-04-21">1 Hen. VIII</date>.
+                     <bibl type="shelfmark">MS. Ch. Cambs. 39</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> The letters of deacon's orders of <persName><forename>William</forename>  <surname>Sherlock</surname>, M.A., of <orgName key="org_100004">Christ's College,
+                  Cambridge</orgName></persName>, from <persName>Henry, bishop of London</persName>. Dated 8 June, <date when="1707">1707</date>. <bibl type="shelfmark">MS. Ch. Cambs. 41</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p>
+                  <pb n="38"/> Indenture made 3 Nov., <date notBefore="1574-11-17" notAfter="1575-11-16">17 Eliz.</date>, by which <persName>Mr. <forename>Edward</forename>  <surname>Hawford</surname>, D.D., master of <orgName key="org_100004">Christ's College, Cambridge</orgName></persName>, and the fellows of the same,
+                  demise to <persName><forename>Robert</forename>  <surname>Colet</surname>, citizen and bowyer of <placeName role="person" key="place_100051">London</placeName></persName>, their manor of <placeName type="manor" key="place_100004">Bourne</placeName> in the
+                  county of Cambridge, with the parsonage of the same, &amp;c., for 58 years, at an
+                  annual rent of £28. <note type="seal">[With seal]</note>  <note type="language">English</note>. <bibl type="shelfmark">MS. Ch. Cambs. 40</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Letters of priest's orders, from <persName>Henry, bishop of London</persName>, to <persName><forename>William</forename>  <surname>Sherlock</surname>,
+                  M.A., of <orgName role="person" key="org_100004">Christ's College, Cambridge</orgName></persName>. Dated 19 Sept., <date when="1708">1708</date>. <bibl type="shelfmark">MS. Ch. Cambs. 42</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAMBRIDGE (Corpus Christi College). Letters testimonial of <persName>Robert, bishop of
+                  Lincoln</persName>, to <persName><forename>Thomas</forename>  <surname>Hall</surname>  of <orgName role="person" key="org_100005">Corpus Christi College</orgName></persName>, upon his ordination as deacon.
+                  Dated 21 Sept., <date when="1662">1662</date>. <bibl type="shelfmark">MS. Ch. Cambs.
+                     43</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAMBRIDGE (Jesus College). Certificate of the conferring of the degree of Doctor
+                  of Medicine on <persName><forename>Thomas</forename>  <surname>Man</surname>, fellow of <orgName role="person" key="org_100010">Jesus College</orgName></persName>, by <persName>Christopher, duke of
+                  Albemarle</persName>, the chancellor, and the senate of the <orgName  key="org_100019">university of Cambridge</orgName>. Dated
+                  <placeName  key="place_100029">Cambridge</placeName>, 20 Jan., <date when="1687">1687</date>. <bibl type="shelfmark">MS. Ch. Cambs.
+                     45</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAMPES (Great). Licence from <persName>Benjamin <surname>Laney</surname>, bishop of Ely</persName>, to <persName><forename>Thomas</forename>  <surname>Hall</surname>,
+                  clerk, M.A.</persName>, to enable him to preach within the <placeName type="diocese" key="place_100022">diocese of Ely</placeName>. Dated at <placeName role="date" key="place_100043">Holborn</placeName>,
+                  5 March, <date when="1668">1668</date>. <bibl type="shelfmark">MS. Ch. Cambs. 46</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Institution of <persName><forename>Thomas</forename>  <surname>Hall</surname>, M. A.</persName>, to the rectory of <placeName type="rectory" key="place_100016">Campes alias Great Campes</placeName> on
+                  the death of <persName>Martin <surname>Frances</surname></persName>, on the preseutation of the governors of the
+                  <orgName key="org_100003">Charter-house</orgName>. Dated <placeName role="date" key="place_100043">Holborn</placeName>, 5 March, <date when="1668">1668</date>. <bibl type="shelfmark">MS. Ch. Cambs. 48</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAMPS (Castle). Certificate of <persName>Benjamin, bishop of Ely</persName>, that <persName><forename>Thomas</forename>  <surname>Hall</surname>, M.A.</persName>,
+                  subscribed the oaths on his presentation to the rectory of <placeName type="rectory" key="place_100016">Castle Camps</placeName>. Dated at
+                  <placeName role="date" key="place_100043">Holborn</placeName>, 5 March, <date when="1668">1668</date>. <bibl type="shelfmark">MS. Ch. Cambs.
+                     49</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAXTON. <persName><forename>Adam</forename> le <surname>Somonour</surname></persName> grants to <persName>Thomas</persName> his son, and <persName>Joan</persName>, mother of the said
+                  Thomas, the whole of his messuage with two buildings in the village of <placeName key="place_100030">Caxstun</placeName>.
+                  Dated at <placeName role="date" key="place_100030">Caxstun</placeName> the Sunday before St. Luke the evangelist, <date notBefore="1333-01-25" notAfter="1334-01-24">7 Ed.
+                  III</date>. <bibl type="shelfmark">MS. Ch. Cambs. 53</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <persName><forename>Thomas</forename>  <surname>Passhe</surname>, clerk</persName>, and <persName><forename>Roger</forename>  <surname>Misterton</surname></persName>, demise to <persName><forename>John</forename>  <surname>Ward</surname>, chaplain, vicar
+                  of <placeName role="person" key="place_100030">Caxton</placeName></persName>, one messuage with a garden and 9 acres of land in the fields of <placeName key="place_100030">Caxton</placeName>.
+                  Dated 3 Jan., <date notBefore="1274-11-20" notAfter="1275-11-19">3 Ed. IV</date>. <bibl type="shelfmark">MS. Ch. Cambs. 54</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CHIEVELEY. <persName>Sir <forename>Walter</forename>  <surname>Mauntell</surname>, kt.</persName>, <persName><forename>Edmund</forename>  <surname>Rede</surname>, kt.</persName>, and others, demise and
+                  confirm to <persName><forename>Thomas</forename>  <surname>Peyton</surname>, esq.</persName>,<!-- check: Cotton? cf VCH --> and others, their manor of <placeName type="manor" key="place_100006">Cheuele</placeName> with the
+                  <placeName type="advowson" key="place_100013">advowson</placeName> of the church in the co. of Cambridge. Dated at <placeName role="date" key="place_100032">Cheuele</placeName>, 19 Nov., 6 Ed.
+                  IV. <bibl type="shelfmark">MS. Ch. Cambs. 52</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CHESTERTON. Charter of concession of <persName>King Henry III</persName>, that the <orgName key="org_100014">prior and canons of
+                  Bernwell</orgName> may hold the village of <placeName key="place_100031">Cestreton</placeName> at fee farm for an annual payment of
+                  £31, the said manor to be quit of view of frankpledge. Dated at <placeName role="date" key="place_100060">Westminster</placeName>, 20
+                  Feb., <date notBefore="1226-10-28" notAfter="1227-10-27">11 Hen. III</date>. <bibl type="shelfmark">MS. Ch. Cambs. 7</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Charter of <persName>King Edward I</persName>, confirming to the <orgName key="org_100014">priory of Bernwell</orgName> the <pb n="39"/>
+                  manor of <placeName type="manor" key="place_100005">Cestreton</placeName>, the gift of <persName>King Henry III</persName> and <persName>King John</persName>, at a rent of £31
+                  annually. Dated at <placeName key="place_100060">Westminster</placeName>, 12 June, <date when="1285-06-12">13th year of his reign</date>. <bibl type="shelfmark">MS. Ch. Cambs. 8</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CHILFORD, RADFORD, and WITTLESFORD. Copy of the subsidy for the three hundreds of
+                  <placeName type="hundred" key="place_100017">Chilford</placeName>, <!-- check: Radfield? --><placeName type="hundred" key="place_100018">Radford</placeName>, and <placeName type="hundred" key="place_100019">Wittlesford</placeName>, within the county of Cambridge, granted by
+                  Parliament <date notBefore="1620-03-24" notAfter="1621-03-23">18 James I</date>. <bibl type="shelfmark">MS. Ch. Cambs. 13</bibl>. </p>
+            </div>
+            
+            <div type="charter">
+               <p> ELY (Priory of). Letters patent of <persName>R., archdeacon of Huntingdon</persName>, to the <orgName key="org_100015">prior and
+                  convent of Ely</orgName>, reciting and confirming a mandate of <persName>Pope Gregory X</persName>, for the
+                  support of <persName><forename>Adam</forename> de <surname>Alkemundebyr</surname></persName> and one servant so long as he should live, from
+                  the revenues of the said priory of Ely. Dated the Thursday next before the feast
+                  of St. Martin, <date when="1273">1273</date>. <bibl type="shelfmark">MS. Ch. Cambs.
+                  56</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> HADDENHAM. <persName>Alan de <surname>Colne</surname></persName> and <persName>Agnes</persName> his wife grant to <persName>Alice, daughter of the said
+                  Alan</persName>, and <persName>John</persName> her son, the half of a messuage in <placeName key="place_100039">Hadenham</placeName>, with 2d. of annual
+                  rent pertaining to the same, with appurtenances lying between a messuage of
+                  <persName><forename>William</forename> le <surname>Rede</surname></persName> on the south part and a common lane on the north. Dated at
+                  <placeName role="date" key="place_100039">Hadenham</placeName> the Saturday after the feast of ..., <date notBefore="1281-11-20" notAfter="1282-11-19">10 Ed. I</date>. <bibl type="shelfmark">MS. Ch. Cambs. 58</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> Letters testimonial of <persName>Matthew, bishop of Ely</persName>, to <persName><forename>Thomas</forename>  <surname>Hall</surname>, M. A.</persName>, on his
+                  ordination as priest in the church of <placeName type="church" key="place_100020">Haddenham</placeName>, 11 March, 1665. Signed and
+                  sealed, 12 March, <date when="1665">1665</date>. <note type="seal">[With fragment of seal.]</note> <bibl type="shelfmark">MS. Ch. Cambs. 47</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> ISELHAM. Public notarial instrument by <persName><forename>Robert</forename>  <surname>Bredon</surname>, clerk</persName>, witnessing the record by <persName>Simon <surname>Burgoyne</surname>, ..., official of the bishop of Rochester</persName>, of the gift by 
+                  <persName><forename>Thomas</forename>  <surname>Peyton</surname>, esq.</persName>,  to the village of <placeName key="place_100046">Iselham</placeName>, Rochester diocese, of a 
+                  small bell called 'Gabriell,' to be used as a passing bell, with directions for its use under the churchwardens. Dated in the church
+                  of <placeName role="date" key="place_100046">Iselham</placeName>, 12 Dec., <date when="1471">1471</date>. <bibl type="shelfmark">MS. Ch. Cambs.
+                     60</bibl>.<!-- check: m/f illeg. --> </p>
+            </div>
+            <div type="charter">
+               <p> LYNTON. Indenture made 15 Jan., <date notBefore="1585-11-17" notAfter="1586-11-16">28 Eliz.</date>, by which <persName><forename>Robert</forename>  <surname>Mylsent</surname>  of
+                  <placeName role="person" key="place_100045">Hinton</placeName></persName> demises to <forename>Thomas</forename>  <surname>Dalton</surname>  one third part of the manor of <placeName type="manor" key="place_100003">Bergham</placeName> als Berkham
+                  for 100 years at a peppercorn rent. <bibl type="shelfmark">MS. Ch. Cambs. 59</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> SAHAM. <persName>Philippa, queen of England</persName>, &amp;c., quit-claims to the <orgName key="org_100015">prior and convent
+                  of Ely</orgName> all right of action against them to this date by reason of any debt due
+                  from the manor of <placeName type="manor" key="place_100009">Saham</placeName>. Dated at <placeName role="date" key="place_100053">Reading</placeName>, 20 Oct., <date notBefore="1358-01-25" notAfter="1359-01-24">32 Ed. III</date>.
+                     <bibl type="shelfmark">MS. Ch. Cambs. 57</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> STAPLEFORD. Inquisition (signed by <persName><forename>John</forename>  <surname>Killingworth</surname></persName> and <persName>Michael Dalton</persName>, before
+                  whom it was taken) concerning a riot at <placeName key="place_100056">Stapleford</placeName>. Taken 29 June, <date notBefore="1613-03-24" notAfter="1614-03-23">11 James I</date>.
+                     <bibl type="shelfmark">MS. Ch. Cambs. 12</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> SWASYE (Chantry of). <persName><forename>William</forename>  <surname>Ward</surname>, of <placeName role="person" key="place_100051">London</placeName>, gent.</persName>, and <persName><forename>Richard</forename>  <surname>Venables</surname></persName>, sell
+                  to <persName>Stephen <surname>Bull</surname></persName> 60 acres of land in the fields of <placeName key="place_100037">Enesbury</placeName>, co. Huntingdon,
+                  parcell of the possessions of the late dissolved <orgName key="org_100001">chantry of Swasye</orgName>, co. Cambridge.
+                  Dated 14 Sept., <date when="1548-09-14">2 Ed. VI</date>. <bibl type="shelfmark">MS. Ch. Cambs. 61</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> TEVERSHAM. <persName>Hugh, of the manor ('de <surname>manerio</surname>')</persName>, grants in <pb n="40"/>
+                  frankalmoigne for himself and his wife <persName>Berta</persName> to the <orgName key="org_100015">prior and monks of Ely</orgName> 12d. annual rent 
+                  payable by his son <persName>William</persName> arising out of six
+                  acres of land and a messuage in <placeName key="place_100059">Theversham</placeName> for maintenance of a light at the altar of St Mary. <note type="seal">[With seal: lion, 'Sigill. Hugonis del manerio']</note> [<date notAfter="1240" notBefore="1230" precision="low">c. 1230-40</date>] <bibl type="shelfmark">MS. Ch. Cambs. 55</bibl></p>
+            </div>
+            <div type="charter">
+               <p> WYKEN. <persName><forename>Thomas</forename>  <surname>Cotton</surname>, of <placeName role="person" key="place_100048">Landwade</placeName>, esq.</persName>, son and heir of <persName><forename>William</forename>  <surname>Cotton</surname>, esq.</persName>,
+                  grants to <persName><forename>Robert</forename>  <surname>Byrde</surname>, of <placeName role="person" key="place_100064">Wyken</placeName></persName>, and others, two acres of land lying in the
+                  village of <placeName key="place_100064">Wyken</placeName>, and appointing <persName><forename>William</forename>  <surname>Michell</surname>, of <placeName role="person" key="place_100047">Ixnyng</placeName></persName>, his attorney, to give
+                  seisin of the same. Dated at <placeName role="date" key="place_100064">Wyken</placeName>, 10 May, <date notBefore="1283-11-20" notAfter="1284-11-19">12 Ed. IV</date>. <bibl type="shelfmark">MS. Ch. Cambs. 62</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAMBRIDGE UNIVERSITY. Payments to be made by those who receive degrees in the
+                  <orgName  key="org_100019">university of Cambridge</orgName> (signed by <persName>Anthony <surname>Tuckney</surname></persName>, vice-chancellor <date notBefore="1648" notAfter="1649">1648-9</date>). 
+                  <bibl type="shelfmark">MS. Rolls Cambs. 1</bibl>.</p></div>
+            
+            <div type="charter"><p> ELY
+                  (Bishoprick of). 'Taxatio omnium ecclesiarum minutarum decimararum et temporalium domorum religiosorum per dominium Norwic. facta in episcopatu Eliensi', being the account of 'recepta <persName>Henrici, prioris de Bernewell</persName>, et <persName>magistri Symonis de Assele</persName>, collectorum decimarum de predictis per magistrum <persName>Bustandum</persName> negocii Crucis executorem domini pape deputatum'. (<date when="1255">1255</date>.) <bibl type="shelfmark">MS. Rolls Cambs. 2</bibl>. <!-- check: m/f illeg. --></p>
+            </div>
+            <div type="charter">
+               <p> ELY (Priory of). (a) Taxation of the spiritualities and temporalities of the
+                  <orgName key="org_100015">prior and convent of Ely</orgName> in all places except the portion of the sacrist in the
+                  vill of <placeName key="place_100054">St. Botulph</placeName>. (<date notAfter="1377" notBefore="1327">temp. Edw. III</date>) (b)
+                  Fifteenth of the <orgName key="org_100015">prior of Ely</orgName> from his manors in <placeName type="county" key="place_000014">Cambridge</placeName> and in the <placeName type="region" key="place_100021">isle of Ely</placeName>. (<date when="1300" precision="low">c. 1300</date>.) [2 membranes.] <bibl type="shelfmark">MS. Rolls Cambs. 3</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> 'Compotus fratris <persName><forename>Thome</forename> de <surname>Stokton</surname></persName>, custodis capelle beate Marie de omnibus receptis et expensis per ipsum factis', from the feast of the Nativity B. V. M. to the same feast,
+                     <date notBefore="1371-01-25" notAfter="1372-01-24">45 Ed. III</date>. <bibl type="shelfmark">MS. Rolls Cambs. 4</bibl>. <!-- check: m/f illeg. --></p>
+            </div>
+            <div type="charter">
+               <p> ELY (Diocese of). The account of the <orgName key="org_100015">prior and convent of Ely</orgName>, collectors in the diocese of <placeName type="diocese" key="place_100022">Ely</placeName> of the
+                  first moeity of the tenth granted to <persName>King Henry VI</persName> in the convocation of Canterbury, 22 June,
+                  <date notBefore="1445-09-01" notAfter="1446-08-31">24 Hen. VI</date>. [Roll 3½ft. long, of 2 membranes.]<!-- check: m/f illeg. --> <bibl type="shelfmark">MS. Rolls Cambs. 5</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> EVERSDON and ABBOTESLEY. Roll of 3 membranes. Court Rolls for the manor of
+                  <placeName type="manor" key="place_100007">Eversdon</placeName>, <date notAfter="1503" notBefore="1496">12, 17, and 18 Hen. VII</date>. Court Roll for <placeName type="manor" key="place_100001">Abbotesley</placeName> <supplied>Hunts.</supplied>, held
+                  the Tuesday next before the feast of St. Margaret, <date notBefore="1502-08-22" notAfter="1503-08-21">18 Hen. VII</date>. <bibl type="shelfmark">MS. Rolls Cambs. 6</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> <placeName type="manor" key="place_100010">SWAFFAM PRIORY</placeName>. View of frankpledge, with court, of the <orgName key="org_100013">master and fellows of
+                  the college of Queen, S. Margaret and S. Bernard in Cambridge</orgName>, from <date notBefore="1520" notAfter="1525">17 April,
+                     12 Hen. VIII, to 26 Sept., 16 Hen. VIII</date>. (6 courts.)
+                     <bibl type="shelfmark">MS. Rolls Cambs. 7</bibl>. </p>
+            </div>
+            <div type="charter" xml:id="p1">
+               <p> THEVERSHAM, HADDENHAM, DITTON, FALBURNE, HADFEUD, LITTLEBURY, and WYLINGHAM. 
+                 <bibl type="shelfmark">MS. Rolls Cambs. 9</bibl> Transcripts on three rolls (formerly joined, now separate), made in the <date type="document" notBefore="1275" notAfter="1300">latter part
+                  of the 13th century</date>, of charters relating to lands in the above villages, part of the possessions of the <orgName key="org_100015">prior and convent of Ely</orgName>. In large part defaced and illegible. 
+                  (a) <persName><forename>Peter</forename> le <surname>Cornwaleys</surname></persName> grants to <persName>Reginald de <surname>Gatesbere</surname></persName>, for his <pb n="41"/>
+                  homage and service and for 8 marks of silver, four acres of land in the field of
+                  <placeName key="place_100041">Honegetone</placeName>, paying annually one pair of gloves of the value of one penny. 
+                  </p><p>(b) <persName><forename>John</forename>  <surname>Parleben</surname>  of <placeName role="person" key="place_100039">Hadenham</placeName></persName> grants to <persName>Reginald de <surname>Gatesbere</surname></persName> for his homage and service
+                  and for four marks of silver, 2 acres of land in the fields of <placeName key="place_100039">Hadenham</placeName>, paying
+                  annually one halfpenny at the feast of St. Michael. 
+                  </p><p>(c) <persName>Geoffrey, son of <persName>Warine de
+                  <surname>Aldershethe</surname></persName></persName>, grants to <persName>Reginald de <surname>Gatesbere</surname></persName>, for his service and 30s. sterling,
+                  two acres of land in the field of <placeName key="place_100041">Henegeton</placeName>, paying annually one root of ginger.
+                  </p><p>(d) <persName>Matilda <surname>Passelewe</surname>, widow</persName>, grants to <persName>Reginald de <surname>Gatesbere</surname></persName>, one messuage with a
+                  croft adjacent which she bought of <persName><forename>Robert</forename> le <surname>Bonde<supplied>man</supplied></surname></persName> for 4 marks of silver and for 3
+                  selions of his land which he gave to her in exchange, of which 2 lie in the west
+                  field of <placeName key="place_100039">Hadenham</placeName> upon 'Afledishone' and one selion lies in le Hangrange(?). 
+                  </p><p>(e) <persName>Lecia,
+                  daughter of <persName><forename>William</forename>  <surname>Quatreventre</surname></persName></persName>, grants to <persName>Ralph</persName> her son, the whole of the land
+                  with messuages and appurtenances, as they descended to her in heirship from the
+                  land of <persName>William</persName> her father in the village of <placeName key="place_100059">Theversham</placeName>, for his homage and
+                  service, paying annually to her and her heirs one pound <supplied>of cummin</supplied> at Easter, and
+                  to her lord <persName><forename>William</forename> de <surname>Monceus</surname></persName> and his heirs 2s. per annum, and to her lord the
+                  <persName>earl of Britanny</persName> and his heirs 18d. For this charter the said Ralph gave her a gold
+                  ring. 
+                  </p><p>(f) <persName>John, son of <persName>James de <surname>Balsham</surname></persName></persName>, confirms to <persName>Ralph</persName> his brother the
+                  donation of <persName>Lecia</persName> his mother in the village of <placeName key="place_100059">Theversham</placeName>. For this confirmation
+                  the said Ralph gave 40s. 
+                  </p><p>(g) <persName>Alexander, son of <persName>Hamo <surname>Richer</surname> of <placeName role="person" key="place_100059">Theversham</placeName></persName></persName>, grants
+                  to <persName>Thomas, son of <persName>Ralph de <surname>Balsham</surname></persName></persName>, for his service and five marks of silver, a
+                  certain messuage with houses and buildings existing upon it with a croft adjacent
+                  in the village of <placeName key="place_100059">Theversham</placeName>; paying annually to the lords of the fee 6d. 
+                  </p><p>(h)
+                  <persName><forename>William</forename>  <surname>Muschet</surname>  of <placeName role="person" key="place_100035">Ditton</placeName></persName> grants to <persName>Thomas, son of <persName>Ralph de <surname>Balsham</surname></persName></persName>, for his
+                  homage and service and for 15 marks of silver, a certain messuage with houses and
+                  edifices existing upon it with the whole of a croft and meadow adjacent to the
+                  same in the village of <placeName key="place_100035">Dittone</placeName>, paying annually to him and his heirs one pound of
+                  cummin. 
+                  </p><p>(i) <persName><forename>William</forename>  <surname>Muschet</surname>  of <placeName role="person" key="place_100035">Ditton</placeName></persName> grants to <persName>Thomas, son of <persName>Ralph de <surname>Balsham</surname></persName></persName>,
+                  one half acre of land lying in the field of <placeName key="place_100035">Ditton</placeName> at 'le Biginge,' in exchange
+                  for half an acre which lies in the field of <placeName key="place_100035">Ditton</placeName> at 'le Reddelond;' paying
+                  annually for the same 6d. 
+                  </p><p>(k) <persName>Reginald, son of <persName><forename>Walter</forename> de <surname>Gatesbire</surname></persName></persName>, grants to
+                  <persName>master Nicholas, archdeacon of Ely</persName>, the whole of his land of <placeName key="place_100039">Hadenham</placeName> and of 'Wynteworthe'
+                  with appurtenances, for his homage and service and for 40 marks
+                  sterling, paying annually for the same one halfpenny. 
+                  </p><p>(l) <persName>Reginald de Gatesbire</persName>
+                  grants to <persName><forename>John</forename>  <surname>Walraunt</surname></persName> and his heirs, for his service, a messuage with
+                  appurtenances in <placeName key="place_100039">Hadenham</placeName> ; paying annually one clove at Easter. 
+                  <pb n="42"/> 
+                  </p><p>(m) <persName><forename>Thomas</forename>  <surname>Peverel</surname>, son and heir of <persName>sir Andrew <surname>Peverel</surname>, kt.</persName></persName>, and <persName>... daughter of
+                  <persName>Walerand de <surname>Munceaus</surname></persName>, his wife</persName>, grant to <persName>Thomas, son of <persName>Ralph de <surname>Theversham</surname></persName></persName>, for
+                  £300 in hand paid certain land, rents and services in <placeName key="place_100059">Theversham</placeName>, rending annually
+                  one pair of gilded spurs. [partly illegible.] 
+                  </p><p>(n) <persName><forename>Robert</forename>  <surname>Matefrey</surname>  of <placeName role="person" key="place_100059">Theversham</placeName></persName> grants to <persName>Thomas, son of <persName>Ralph de <surname>Balsham</surname></persName></persName>, for his
+                  service and for four marks of silver, one acre of land in the field of <placeName key="place_100059">Theversham</placeName>,
+                  paying annually one penny. 
+                  </p><p>(o) <persName><forename>Robert</forename>  <surname>Matefrey</surname>  of <placeName role="person" key="place_100059">Theversham</placeName></persName> grants to <persName>Thomas,
+                  son of <persName>Ralph de <surname>Balsham</surname></persName></persName>, for his service and for 40s. of silver, one acre of land
+                  in the field of <placeName key="place_100059">Theversham</placeName>, paying annually one penny. 
+                  </p><p>(p) <persName><forename>Henry</forename> de <surname>Maneriis</surname></persName> [sic] in Theversham, quit-claims to <persName>Thomas, son of <persName>Ralph de <surname>Balsham</surname></persName></persName>, 1½
+                  rood of land with appurtenances in <placeName key="place_100059">Theversham</placeName> lying between the lands of the said
+                  Thomas on either side in his messuage and one head abuts upon the highway of
+                  Theversham, in exchange for 1½ rood of land lying between the land of <persName><forename>Robert</forename>  <surname>Matefrey</surname>, jun.</persName>, and the land of the said Henry and one head abuts upon a messuage
+                  of <persName>Stephen <surname>Burs</surname></persName>. 
+                  </p><p>(q) <persName><forename>John</forename>  <surname>Godwyne</surname>  of <placeName role="person" key="place_100059">Theversham</placeName></persName> grants to <persName>Thomas, son of <persName>Ralph de
+                  <surname>Balsham</surname></persName></persName>, half an acre of land lying in the field of <placeName key="place_100059">Theversham</placeName> towards <placeName key="place_100045">Hyntone</placeName>,
+                  near the land of <persName>Walter, <surname type="patronymic">son of Stephen</surname></persName>, in exchange for half an acre lying in the
+                  same field at Wodeweye<!-- considered to be a minor name -->. 
+                  </p><p>(r) <persName><forename>Henry</forename> de <surname>Abbodesle</surname></persName> and <persName>Joan</persName> his wife grant to <persName>Thomas,
+                  son of <persName>Ralph de <surname>Balsham</surname></persName></persName>, for his homage and service and . . marks of silver seven
+                  roods of land in the village of <placeName key="place_100059">Theversham</placeName> ; paying annually 1d. 
+                  </p><p>(s) <persName>John, son of
+                  <persName>master <forename>Henry</forename> de <surname>Hynton</surname></persName></persName>, grants to <persName>Thomas, son of <persName>Ralph de <surname>Balsham</surname></persName></persName>, for his
+                  service and 28s. of silver, two selions of land lying in <placeName type="minor">Wytrichiscrofte</placeName>,<!-- treated as a minor name --> paying
+                  annually to the lords of the fee the accustomed service and to master Henry and
+                  his heirs one rose at the feast of St. John the baptist. 
+                  </p><p>(t) <persName>Sir Alan la <surname>Zuche</surname>,
+                  kt.</persName>, grants to <persName>Thomas, son of Ralph de <surname>Balsham</surname></persName>, for his homage and service and for
+                  one red hawk </p><p>(pro uno hostorio rubeo), one acre of land in <placeName key="place_100038">Fulburne</placeName>, with the
+                  liberty of folding in the same village pertaining to the half virgate of land he
+                  had by gift of <persName>Richard the chaplain</persName>, which acre of land lies in the field of Cors,
+                  paying annually one rose at the feast of the Nativity of St. John the baptist. 
+                  </p><p>(u)
+                  <persName>Reginald de <surname>Gatesbere</surname></persName> grants to <persName>John</persName>, his son, for his homage and service, the
+                  whole of the tenement which he has in the village of <placeName key="place_100065">Wylingham</placeName>. 
+                  </p><p>(w) <persName>Reginald de
+                  <surname>Gatesbere</surname></persName> grants to <persName>Robert, the prior</persName>, and <orgName key="org_100015">convent of Ely</orgName> three messuages in the
+                  village of <placeName key="place_100039">Hadenham</placeName>, to hold the same in frankalmoigne. [<date type="grant" notAfter="1270" notBefore="1260" precision="low">c. 1260-70</date>] 
+                  </p><p>(x) <persName>Reginald de <surname>Gatesbere</surname></persName>
+                  grants to <persName>Robert, the prior</persName>, and <orgName key="org_100015">convent of Ely</orgName> the whole of his tenement which he
+                  has within the island of <placeName key="place_100036">Ely</placeName>; for this charter the said prior and convent gave 60
+                  marks sterling. [<date type="grant" notAfter="1270" notBefore="1260" precision="low">c. 1260-70</date>] <pb n="43"/> 
+                  </p><p>(y) <persName><forename>Nicholas</forename> le <surname>Coylter</surname>  of <placeName role="person" key="place_100036">Ely</placeName></persName> grants to <persName>Reginald de
+                  <surname>Gatesbire</surname></persName>, for his homage and service and for 25s. sterling, two selions of land
+                  in the field of <placeName key="place_100039">Hadenham</placeName>; paying annually one penny. 
+                  </p><p>(z) <persName><forename>William</forename> de <surname>Swaffham</surname></persName>
+                  grants to <persName>Thomas, son of <persName>Ralph de <surname>Balsham</surname></persName></persName>, for his homage and service and for ....
+                  sterling, 16½ acres of land in the fields of <placeName key="place_100059">Theversham</placeName> and <placeName key="place_100038">Fulburne</placeName>. 
+                  </p><p>(aa) <persName>Robert <surname>Matefrey</surname>
+                  de <placeName role="person" key="place_100059">Theversham</placeName></persName> grants to <persName><forename>William</forename> de <surname>Swaffham</surname></persName> and <persName>Margery his wife</persName>, daughter of the
+                  said Robert, for their homage and service and for 40s., 6 acres of land in the
+                  field of <placeName key="place_100059">Theversham</placeName>. 
+                  </p><p>(bb) <persName><forename>William</forename>  <surname>Fraunceys</surname></persName> grants to <persName><forename>William</forename> de <surname>Swaffham</surname></persName> certain
+                  land .... in at an annual rent of 2d. [Illegible.] 
+                  </p><p>(cc) <persName><forename>William</forename> de <surname>Warbeltone</surname>, son of
+                  <persName><forename>Peter</forename> de <surname>Warbeltone</surname></persName></persName>, grants to <persName><forename>William</forename> de <surname>Swaffham</surname>  of <placeName role="person" key="place_100059">Theversham</placeName></persName> for his homage
+                  and service the whole of that croft called 'Pottokescrofte' in the village of
+                  <placeName key="place_100059">Theversham</placeName>, paying annually one penny at Easter to celebrate one mass for the soul
+                  of <forename>Peter</forename> de <surname>Warbeltone</surname>  and <persName>Agnes</persName> his wife. 
+                  </p><p>(dd) <persName>Agnes, formerly the wife of
+                  <persName>Gilbert de <surname>Elmedon</surname></persName> (?)</persName>, and <persName>Margery</persName> her daughter grant to <persName><forename>William</forename> de <surname>Swaffham</surname></persName>, for his
+                  service and 40s. of silver, one acre of land in <placeName key="place_100059">Theversham</placeName> at 'Flemesdich,'
+                  paying annually 8d. for the same. 
+                  </p><p>(ee) <persName><forename>William</forename> de <surname>Swaffham</surname></persName> grants to <persName>Thomas, son
+                  of <persName>Ralph de <surname>Balsham</surname></persName></persName>, for his service and a certain sum of money, three roods of
+                  land which he had by exchange of <persName>Amice de <surname>Warbeltone</surname></persName>, near the land of <persName>Warine le
+                  <surname>Graunt</surname></persName> ; paying annually for the same 2d. 
+                  </p><p>(ff) <persName><forename>John</forename>  <surname>Atefen</surname>  of <placeName role="person" key="place_100059">Theversham</placeName></persName> grants to
+                  <persName><forename>William</forename> de <surname>Swaffham</surname></persName>, for his service and 6 marks, two acres and one rood of land
+                  lying upon 'Langelond.' <supplied><placeName key="place_100059">Theversham</placeName>?</supplied>
+                  </p><p>(gg) <persName><forename>John</forename>  <surname>Atefen</surname>  of <placeName role="person" key="place_100059">Theversham</placeName></persName> grants to <persName><forename>William</forename> de <surname>Swaffham</surname></persName>, for his service and 40s. of silver, one acre of his land in the field of
+                  <placeName key="place_100059">Theversham</placeName>, paying annually one halfpenny. 
+                  </p><p>(hh) <persName><forename>John</forename>  <surname>Atefen</surname>  of <placeName role="person" key="place_100059">Theversham</placeName></persName> grants
+                  to <persName><forename>William</forename> de <surname>Swaffham</surname></persName>, for his service and 2 marks of silver, three roods of land
+                  in the fields of <placeName key="place_100059">Theversham</placeName>, paying annually one penny at Easter. [Almost entirely illegible.]
+                  </p><p>(ii) <persName>John, son
+                  of <persName><forename>John</forename>  <surname>Atefen</surname>  of <placeName role="person" key="place_100059">Theversham</placeName></persName></persName>, grants to <persName><forename>William</forename> de <surname>Swaffham</surname></persName>, for his service and
+                  .... of silver, three roods of land lying in the fields of <placeName key="place_100059">Theversham</placeName>. [Almost entirely illegible.] 
+                  </p><p>(kk) <persName>Osebert,
+                  son of <persName>Gregory de <surname>Triplowe</surname></persName></persName>, quit-claims to <persName>Thomas de la <surname>Chaumbre</surname></persName> all his right in
+                  one messuage and half an acre of land in the village of <placeName key="place_100049">Litlebery [Essex]</placeName>. 
+                  </p><p>(ll) <persName>Henry, son of
+                  <persName><forename>Robert</forename>  <surname>Matefrey</surname></persName></persName>, grants to <persName>Thomas, son of <persName>Ralph de <surname>Balsham</surname></persName></persName>, for his service, seven
+                  acres of land in the field of <placeName key="place_100059">Theversham</placeName>, paying annually 4d. 
+                  </p><p>(mm) <persName>Agatha, daugher of <persName>Ralph de <surname>Balsham</surname></persName> and relict
+                  of <persName><forename>Henry</forename>  <surname>Pecche</surname>  of <placeName role="person" key="place_100036">Ely</placeName></persName></persName>, grants to <persName>Thomas, son of <persName>Ralph de Theveresham</persName></persName>, her father,
+                  three acres of land in <placeName key="place_100059">Theversham</placeName>, which the said Ralph gave to her in free
+                  marriage with <forename>Henry</forename>  <surname>Pecche</surname> . For this donation the said Thomas gave her 60s.
+                  sterling. 
+                  <pb n="44"/> 
+                  </p><p>(nn) <persName><forename>Robert</forename> de <surname>Romely</surname>  of <placeName role="person" key="place_100059">Theveresham</placeName></persName> grants to <persName>Ralph de
+                  <placeName role="person" key="place_100025">Balsham</placeName></persName>, for his homage and service and 2 marks of silver, half an acre of land in
+                  a croft of the said Ralph between his lands on both sides, paying annually one
+                  halfpenny. 
+                  </p><p>(oo) <persName>Sir <forename>William</forename> de <surname>Lodewyk</surname>, kt.</persName>, and <persName>Cecilia</persName> his wife quit-claim to
+                  <persName><forename>Thomas</forename> de <surname>Theveresham</surname></persName> and <persName>Matilda</persName> his wife a messuage with all lands and
+                  appurtenances, that <persName><forename>William</forename> de <surname>Methewolde</surname></persName>, father of the said Matilda, acquired in
+                  the village of <placeName key="place_100040">Hadfeud</placeName> of the <persName>bishop of Ely</persName>. 
+                  </p><p>(pp) <persName>Joan, who was the wife of
+                  <persName>William <surname type="patronymic">son of Fulk</surname></persName></persName>, quit-claims to <persName><forename>Thomas</forename> de <surname>Balsham</surname></persName> all right in ten acres of
+                  land with appurtenances. [Partly illegible.]
+                  </p><p>(qq) <persName>Alice, relict of <persName>Andrew de la <surname>Lade</surname></persName> in <placeName role="person" key="place_100027">Bodekesham</placeName></persName>,
+                  grants to <persName>Thomas, son of <persName>Ralph de <surname>Balsham</surname></persName></persName>, for his service and 12 marks of silver,
+                  a certain messuage with houses, trees, &amp;c., in the village of <placeName key="place_100027">Bodekisham</placeName>, in
+                  one place which is called 'la lade,' paying annually 18d. 
+                  </p><p>(rr) <persName>Nicholas,
+                  archdeacon of Ely</persName>, grants to <persName>sir Ralph de <surname>Theversham</surname></persName> all his lands and tenements
+                     which he bought of <persName>Reginald de <surname>Gatesbere</surname></persName> within the <placeName key="place_100021">isle of Ely</placeName>, to hold the same
+                  for ever. 
+                  </p><p>(ss) <persName>Isabella, wife of <persName>Reginald de <surname>Gatesbere</surname></persName></persName>, quit-claims to <persName>Ralph de
+                  <surname>Balsham</surname></persName> all her right by name of dower in all lands &amp;c. in .... 
+                  [Almost entirely illegible.]
+                  </p><p>(tt) <persName>Ralph le
+                  <surname>Rus</surname> of <placeName role="person" key="place_100057">Steple</placeName></persName> grants to <persName>Reginald de <surname>Gatesbery</surname></persName>, for his homage and service and for
+                  five marks of silver, seven selions of land in the field of <placeName key="place_100039">Hadenham</placeName>, paying
+                  annually one clove at the nativity of our Lord. 
+                  </p><p>(uu) <persName>Ralph le Rus of <placeName role="person" key="place_100057">Steple</placeName></persName>
+                  grants to <persName>Reginald de Gatesbery</persName>, for his homage and service and for 28s. sterling,
+                  three selions of land in <placeName key="place_100039">Hadenham</placeName>, paying annually one clove at the feast of the
+                  nativity of our Lord. [Partly illegible.]
+                  </p><p>(ww) <persName>Ralph le <surname>Rus</surname> of <placeName role="person" key="place_100057">Steple</placeName></persName> grants to <persName>Reginald de <surname>Gatesbere</surname></persName>,
+                  for his homage and service and for 18s., two selions of land in <placeName key="place_100039">Hadenham</placeName>. [Partly illegible.]
+                  </p><p>(xx)
+                  Charter of liberties from <persName>sir Alan la <surname>Zuche</surname>, kt.</persName>, to <persName>Thomas, son of <persName>Ralph de
+                  <surname>Balsham</surname></persName></persName>. [Illegible.] 
+                  </p><p>(yy) <persName><forename>Henry</forename>  <surname>Barat</surname>  of <placeName role="person" key="place_100038">Fulburne</placeName></persName> grants to <persName>Thomas, son of <persName>Ralph
+                  de <surname>Balsham</surname></persName></persName>, for his homage and service and for 20s., 3 roods of land lying in the
+                  field of <placeName key="place_100038">Fulburne</placeName>, namely in '<placeName type="minor">Eyefeld</placeName>,' paying annually 3d. for all services.
+                  </p><p>(zz) <persName>Hugh de <surname>Manerio</surname></persName> grants to <persName>Ralph, son of <persName>James de <surname>Balsham</surname></persName></persName>, 6 acres of land
+                  in the fields of <placeName key="place_100059">Theversham</placeName> ; paying annually 12d. for all services. 
+                  </p><p>(aaa) <persName><forename>Henry</forename>  <surname>Lenweyse</surname></persName> grants to <persName>Thomas, son of <persName>Ralph de <surname>Balsham</surname></persName> of <placeName role="person" key="place_100059">Theversham</placeName></persName>, for his service
+                  and for 16s. sterling, one half acre of land in the field of <placeName type="minor">Wodebrege</placeName> near the
+                  land of the said Thomas : paying annually 2d. <!-- check: m/f illeg. -->
+                  <pb n="45"/>
+                  
+                  </p><p>(bbb) <persName>Henry, son of <persName><forename>Adam</forename> de <surname>Fulburne</surname></persName></persName>, grants to <persName>Thomas de '<surname>Camera</surname>' of <placeName role="person" key="place_100059">Theversham</placeName></persName>, for his service
+                  and for 20s., 3 roods of land in the fields of <placeName type="minor">Eye</placeName><!-- presumably a minor name, 'Eyefeld' above --> ; paying annually for the same
+                  3d. 
+                  </p><p>(ccc) <persName>Lecia, relict of <persName><forename>Adam</forename>  <surname>Powyll</surname></persName> of <placeName role="person" key="place_100028">Borewell</placeName></persName>, remits and quit-claims to
+                  <persName>Thomas, son of <persName>Ralph de <surname>Ballesham</surname></persName> in <placeName key="place_100059">Theversham</placeName></persName>, all right which she has by heirship
+                  or dower in the whole of that land and appurtenances lying in the village and
+                  field of <placeName key="place_100059">Theversham</placeName>, which land <persName><forename>Adam</forename>  <surname>Powyll</surname> </persName> her husband gave to the same Thomas.
+                  For this concession the said Thomas gave her 6s. of silver. 
+                  </p><p>(ddd) [Illegible.]
+                  
+                  </p></div>
+            <div type="charter"><p><placeName key="place_100061">Whitlesey</placeName>. Plan of a freehold and leasehold estate belonging
+               to <persName>Arthur, earl of Torrington</persName>, late of <persName><forename>George</forename>  <surname>Underwood</surname>, esq.</persName>, deceased
+                  surveyed by <persName><forename>Thomas</forename>  <surname>Boyce</surname></persName>. <bibl type="shelfmark">MS. Rolls Cambs. 8</bibl>.
+               </p>
+            </div>
+            <div type="charter">
+               <p><supplied><placeName key="place_100061">Whitlesey</placeName></supplied> Land there, belonging to the <persName>earl of Lincoln</persName>, surveyed by <persName><forename>Thomas</forename>  <surname>Boyce</surname></persName>. <bibl type="shelfmark">MS. Rolls Cambs. 11</bibl>.</p></div>
+            <div type="charter"><p>
+                  <placeName key="place_100061">Whitlesey</placeName> and <placeName key="place_100063">Wisbeach</placeName>. Survey of ground lying in Whitlesey and Wisbeach fens,
+                  with the tenants' names taken by <persName>Val. Deepup</persName>, <placeName key="place_100052">Peterborough</placeName>, for <persName>Arthur, earl of Torrington</persName>. Nov. 2, <date when="1706">1706</date>. <bibl type="shelfmark">MS. Rolls Cambs. 10</bibl>. </p>
+            </div>
+            
+            <!-- the following are from the appendix -->
+            <div type="charter"><p> <pb n="645"/>.
+               ALBOROWE and COTTENHAM. Inquisition taken at <placeName role="date" key="place_100029">Cambridge</placeName> 24 March, <date notBefore="1617-03-24" notAfter="1618-03-23">15 James
+                  I</date>, before <persName>Peter <surname>Phelips</surname>, esq.</persName>, escheator, on the death of <persName>George <surname>Peapes</surname>,
+               gent.</persName> The jury say he died possessed in his demesne as of fee of and in a moiety of 3
+               messuages 18 ac. 3 roods of meadow, and 40 acres of land in <placeName key="place_100067">Cottenham</placeName>, and the half
+               of a close in <placeName type="minor">Alborowe</placeName><!-- https://archive.org/stream/commonrightsatco00cunnrich/commonrightsatco00cunnrich_djvu.txt -->, and in one close called <placeName type="minor">Brockhill close</placeName> in Cottenham. <bibl type="shelfmark">MS. Ch. Cambs. 63</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> CAMBRIDGE. Diploma of the admission of <persName>Thomas <surname>Witherley</surname> M.D.</persName> as honorary fellow of the
+                  <orgName key="org_100020">College of Physicians</orgName>. Dated 6th Cal. July, <date when="1665">1665</date>. <note type="seal">[7 seals of arms]</note><bibl type="shelfmark">MS. Ch. Cambs. 64</bibl>. </p>
+            </div>
+            <div type="charter" n="copy">
+               <p> SWAFHAM PRIORS:- Copies, <date when="1300" precision="low">c. 1300</date>, of: I. Final concord made at <placeName role="date" key="place_100060">Westminster</placeName> on the octave of the Holy
+                  Trinity, <date notBefore="1280-11-20" notAfter="1281-11-19">9 Ed. I</date>, between <persName>Robert de <surname>Leycestre</surname></persName>, plaintiff, and <persName>Gilbert
+                  <surname>Peche</surname></persName> and <persName>Joan</persName> his wife, defendants, concerning one messuage, certain lands and rents
+                  in <placeName key="place_100069">Swafham Priors</placeName>.</p><p> II. Grant (by fine) from <persName>Gilbert <surname>Peche</surname></persName> and <persName>Joan</persName> his wife to <persName>John
+                     <surname>Peche</surname></persName> of the manor of <placeName type="manor" key="place_100066">Plecheden co. Essex</placeName>, and of <placeName type="manor" key="place_100010">Swafham</placeName> co. Cambridge. Dated on St.
+                  John Baptist's day, <date notBefore="1273-11-20" notAfter="1274-11-19">2 Ed. I</date>. <bibl type="shelfmark">MS. Ch. Cambs. 65</bibl>. </p>
+            </div>
+            <div type="charter">
+               <p> TEVERSHAM. <persName>William, son of Hugh of the <surname>Manor</surname></persName>, grants to <persName>Geoffrey the <surname>merchant</surname> of
+                  <placeName role="person" key="place_100035">Dittun</placeName></persName> six acres of land which his father gave to him in the field of <placeName key="place_100059">Teversham</placeName> ;
+                  paying annually to the <orgName key="org_100015">monks of Ely</orgName> i2d. (<date notBefore="1240" notAfter="1250" precision="low">c. 1240-50</date>.) <bibl type="shelfmark">MS. Ch. Cambs. 66</bibl>. </p>
+            </div>
+            
+         </div>
+         <!-- text checked 3.3.20. Took about an hour. 71 charters (one very long). -->
+      </body>
+  </text>
+</TEI>

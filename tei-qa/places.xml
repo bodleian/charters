@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPlace>
+            <!-- counties -->
+            <place type="county" xml:id="place_000010">
+               <placeName type="index">Berkshire</placeName>
+               <idno>https://www.visionofbritain.org.uk/unit/10024894</idno>
+            </place>
+            <place type="county" xml:id="place_000014">
+               <placeName type="index">Cambridgeshire</placeName>
+               <placeName type="formInDocument">Cambridge</placeName>
+               <placeName type="formInDocument">county of Cambridge</placeName>
+               <idno>https://www.visionofbritain.org.uk/unit/10024882</idno>
+               <note type="charter">MS. Ch. Cambs. 11</note>
+               <note type="charter">MS. Ch. Cambs. 1</note>
+               <note type="charter">MS. Ch. Cambs. 14</note>
+               <note type="charter">MS. Ch. Cambs. 15</note>
+               <note type="charter">MS. Ch. Cambs. 16.</note>
+               <note type="charter">MS. Ch. Cambs. 17</note>
+               <note type="charter">MS. Ch. Cambs. 18</note>
+               <note type="charter">MS. Ch. Cambs. 19</note>
+               <note type="charter">MS. Ch. Cambs. 20</note>
+               <note type="charter">MS. Ch. Cambs. 21</note>
+               <note type="charter">MS. Ch. Cambs. 22</note>
+               <note type="charter">MS. Ch. Cambs. 23</note>
+               <note type="charter">MS. Ch. Cambs. 24</note>
+               <note type="charter">MS. Ch. Cambs. 26</note>
+               <note type="charter">MS. Ch. Cambs. 29</note>
+               <note type="charter">MS. Ch. Cambs. 30</note>
+               <note type="charter">MS. Ch. Cambs. 32</note>
+               <note type="charter">MS. Ch. Cambs. 34</note>
+               <note type="charter">MS. Ch. Cambs. 51</note>
+               <note type="charter">MS. Ch. Cambs. 50</note>
+               <note type="charter">MS. Ch. Cambs. 45</note>
+               <note type="charter">MS. Rolls Cambs. 3</note>
+            </place>
+            <place type="county" xml:id="place_000020">
+               <placeName type="index">Essex</placeName>
+               <idno>https://www.visionofbritain.org.uk/unit/10001079</idno>
+            </place>
+            <place type="county" xml:id="place_000030">
+               <placeName type="index">Huntingdonshire</placeName>
+               <idno>https://www.visionofbritain.org.uk/unit/10090295</idno>
+            </place>
+            <place type="county" xml:id="place_000040">
+               <placeName type="index">Lincolnshire</placeName>
+               <idno>https://www.visionofbritain.org.uk/unit/10073777</idno>
+            </place>
+            <place type="county" xml:id="place_000050">
+               <placeName type="index">Middlesex</placeName>
+               <idno>https://www.visionofbritain.org.uk/unit/10073790</idno>
+            </place>
+            <place type="county" xml:id="place_000060">
+               <placeName type="index">Monmouthshire</placeName>
+               <idno>https://www.visionofbritain.org.uk/unit/10024870</idno>
+            </place>
+            <place type="county" xml:id="place_000070">
+               <placeName type="index">Suffolk</placeName>
+               <idno>https://www.visionofbritain.org.uk/unit/10213496</idno>
+            </place>
+            
+            
+            <!-- data from Cambridgeshire data entry -->
+            
+            <place type="manor" xml:id="place_100001">
+               <placeName type="index">Abbotsley, Scot's</placeName>
+               <placeName type="formInDocument">Abbotesley</placeName>
+               <region type="parish" key="place_100070">Abbotsley</region>
+               <region type="county" key="place_000030">Huntingdonshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F271841</idno>
+               <note type="charter">MS. Rolls Cambs. 6</note>
+            </place>
+            <place type="manor" xml:id="place_100002">
+               <placeName type="index">Barrington, Lancasters</placeName>
+               <region type="parish" key="place_100026">Barrington</region>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <placeName type="formInDocument">Barenton</placeName>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F274818</idno>
+               <bibl>VCH Cambs. V.147-60</bibl>
+               <note type="charter">MS. Ch. Cambs. 6</note>
+            </place>
+            <place type="manor" xml:id="place_100003">
+               <placeName type="index">Barham</placeName>
+               <placeName type="formInDocument">Bergham</placeName>
+               <region type="parish" key="place_100072">Linton</region>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F274656</idno>
+               <bibl>VCH: Cambs. VI.80-105</bibl>
+               <note type="charter">MS. Ch. Cambs. 59</note>
+            </place>
+            <place type="manor" xml:id="place_100004">
+               <placeName type="index">Bourn, Christ's College manor</placeName>
+               <placeName type="formInDocument">Bourne</placeName>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F274672</idno>
+               <bibl>VCH Cambs. V.4-16</bibl>
+               <note type="charter">MS. Ch. Cambs. 40</note>
+            </place>
+            <place type="manor" xml:id="place_100005">
+               <placeName type="index">Chesterton</placeName>
+               <placeName type="formInDocument">Cestreton</placeName>
+               <region type="parish" key="place_100031">Chesterton</region>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F274702</idno>
+               <bibl>VCH: Cambs. IX. 13-18</bibl>
+               <note type="charter">MS. Ch. Cambs. 7</note>
+               <note type="charter">MS. Ch. Cambs. 8</note>
+            </place>
+            <place type="manor" xml:id="place_100006">
+               <placeName type="index">Cheveley</placeName>
+               <placeName type="formInDocument">Cheuele</placeName>
+               <region type="parish" key="place_100032">Cheveley</region>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F274704</idno>
+               <bibl>VCH Cambs. X.46-9</bibl>
+               <note type="charter">MS. Ch. Cambs. 52</note>
+            </place>
+            <place type="manor" xml:id="place_100007">
+               <placeName type="index">Great Eversden, Eversden alias Perrers</placeName>
+               <placeName type="formInDocument">Eversdon</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <bibl>VCH: Cambs. V</bibl>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F274754</idno>
+               <!-- the manor held by Queen's College, Cambridge -->
+               <note type="charter">MS. Rolls Cambs. 6</note>
+            </place>
+            <place type="manor" xml:id="place_100008">
+               <placeName type="index">Ashley cum Silverley, Gayneshall</placeName>
+               <placeName type="variant">Gaynes Hall</placeName>
+               <region type="parish" key="place_100023">Ashley cum Silverley</region>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <placeName type="formInDocument">Gynes</placeName>
+               <!-- not in MDR -->
+               <bibl>VCH:Cambs. X.33-4</bibl>
+               <note type="charter">MS. Ch. Cambs. 5</note>
+            </place>
+            <place type="manor" xml:id="place_100009">
+               <placeName type="index">Soham, Soham and Fordham alias Duchy manor</placeName>
+               <placeName type="formInDocument">Saham</placeName>
+               <region type="parish" key="place_100073">Soham</region>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F274902</idno>
+               <bibl>VCH:Cambs. X.500-7</bibl>
+               <note type="charter">MS. Ch. Cambs. 57</note>
+            </place>
+            <place type="manor" xml:id="place_100010">
+               <placeName type="index">Swaffham Prior, Shadworths alias Brighams</placeName>
+               <placeName type="formInDocument">SWAFFAM PRIORY</placeName>
+               <placeName type="formInDocument">Swafham</placeName>
+               <region type="parish" key="place_100069">Swaffham Prior</region>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <bibl>VCH: Cambs. X, pp. 278-285</bibl>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F274891</idno>
+               <note type="charter">MS. Rolls Cambs. 7</note>
+               <note type="charter">MS. Ch. Cambs. 65</note>
+            </place>
+            <place type="manor" xml:id="place_100011">
+               <placeName type="index">Ashley cum Silverley, Silverleyhall</placeName>
+               <placeName type="variant">Silverley Hall</placeName>
+               <region type="parish" key="place_100023">Ashley cum Silverley</region>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <placeName type="formInDocument">Sylverley</placeName>
+               <!-- not in MDR -->
+               <bibl>VCH:Cambs. X.33-4</bibl>
+               <note type="charter">MS. Ch. Cambs. 5</note>
+            </place>
+            <place type="advowson" xml:id="place_100012">
+               <placeName type="index">Barrington</placeName>
+               <placeName type="formInDocument">advowson</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 6</note>
+            </place>
+            <place type="advowson" xml:id="place_100013">
+               <placeName type="index">Cheveley</placeName>
+               <placeName type="formInDocument">advowson</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 52</note>
+            </place>
+          
+            <place type="county" xml:id="place_100015">
+               <placeName type="index">Suffolk</placeName>
+               <placeName type="formInDocument">Suffolk</placeName>
+               <note type="charter">MS. Ch. Cambs. 14</note>
+            </place>
+            <place type="rectory" xml:id="place_100016">
+               <placeName type="index">Castle Camps</placeName>
+               <placeName type="formInDocument">Campes alias Great Campes</placeName>
+               <placeName type="formInDocument">Castle Camps</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 49</note>
+               <note type="charter">MS. Ch. Cambs. 48</note>
+            </place>
+            <place type="hundred" xml:id="place_100017">
+               <placeName type="index">Chilford</placeName>
+               <placeName type="formInDocument">Chilford</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10000828</idno>
+               <note type="charter">MS. Ch. Cambs. 13</note>
+            </place>
+            <place type="hundred" xml:id="place_100018">
+               <placeName type="index">Radfield</placeName>
+               <placeName type="formInDocument">Radford</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10031229</idno>
+               <note type="charter">MS. Ch. Cambs. 13</note>
+            </place>
+            <place type="hundred" xml:id="place_100019">
+               <placeName type="index">Whittlesford</placeName>
+               <placeName type="formInDocument">Wittlesford</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10005784</idno>
+               <note type="charter">MS. Ch. Cambs. 13</note>
+            </place>
+            <place type="church" xml:id="place_100020">
+               <placeName type="formInDocument">Haddenham</placeName>
+               <note type="charter">MS. Ch. Cambs. 47</note>
+            </place>
+            <place type="region" xml:id="place_100021">
+               <placeName type="index">Ely, isle of</placeName>
+               <placeName type="formInDocument">isle of Ely</placeName>
+               <placeName type="formInDocument">isle of Ely</placeName>
+               <note type="charter">MS. Rolls Cambs. 3</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+
+               <note type="charter">MS. Rolls Cambs. 3</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="diocese" xml:id="place_100022">
+               <placeName type="index">Ely, diocese</placeName>
+               <placeName type="formInDocument">diocese of Ely</placeName>
+               <placeName type="formInDocument">Ely</placeName>
+               <note type="charter">MS. Ch. Cambs. 46</note>
+               <note type="charter">MS. Rolls Cambs. 5</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+
+            <place type="parish" xml:id="place_100023">
+               <placeName type="index">Ashley</placeName>
+               <placeName type="variant">Ashley cum Silverley</placeName>
+               <placeName type="formInDocument">Ascheley</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10158539#tab02</idno>
+               <note type="charter">MS. Ch. Cambs. 5</note>
+            </place>
+            <place type="parish" xml:id="place_100024">
+               <placeName type="index">Babraham</placeName>
+               <placeName type="formInDocument">Badberham</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10047298#tab02</idno>
+               <note type="charter">MS. Ch. Cambs. 1</note>
+            </place>
+            <place type="parish" xml:id="place_100025">
+               <placeName type="index">Balsham</placeName>
+               <placeName type="formInDocument">Balsham</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10118529#tab02</idno>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="parish" xml:id="place_100026">
+               <placeName type="index">Barrington</placeName>
+               <placeName type="formInDocument">Barrington</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10066220#tab02</idno>
+               <note type="charter">MS. Ch. Cambs. 6</note>
+            </place>
+            <place type="parish" xml:id="place_100027">
+               <placeName type="index">Bottisham</placeName>
+               <placeName type="formInDocument">Bodekesham</placeName>
+               <placeName type="formInDocument">Bodekisham</placeName>
+               <placeName type="formInDocument">Bodkesham</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10011243#tab02</idno>
+               <note type="charter">MS. Ch. Cambs. 9</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="parish" xml:id="place_100028">
+               <placeName type="index">Burwell</placeName>
+               <placeName type="formInDocument">Borewell</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10119947#tab02</idno>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="borough" xml:id="place_100029">
+               <placeName type="index">Cambridgeshire</placeName>
+               <placeName type="formInDocument">Cambridge</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 1</note>
+               <note type="charter">MS. Ch. Cambs. 14</note>
+               <note type="charter">MS. Ch. Cambs. 15</note>
+               <note type="charter">MS. Ch. Cambs. 16.</note>
+               <note type="charter">MS. Ch. Cambs. 17</note>
+               <note type="charter">MS. Ch. Cambs. 18</note>
+               <note type="charter">MS. Ch. Cambs. 19</note>
+               <note type="charter">MS. Ch. Cambs. 20</note>
+               <note type="charter">MS. Ch. Cambs. 21</note>
+               <note type="charter">MS. Ch. Cambs. 22</note>
+               <note type="charter">MS. Ch. Cambs. 23</note>
+               <note type="charter">MS. Ch. Cambs. 24</note>
+               <note type="charter">MS. Ch. Cambs. 26</note>
+               <note type="charter">MS. Ch. Cambs. 29</note>
+               <note type="charter">MS. Ch. Cambs. 30</note>
+               <note type="charter">MS. Ch. Cambs. 32</note>
+               <note type="charter">MS. Ch. Cambs. 34</note>
+               <note type="charter">MS. Ch. Cambs. 51</note>
+               <note type="charter">MS. Ch. Cambs. 50</note>
+               <note type="charter">MS. Ch. Cambs. 45</note>
+               <note type="charter">MS. Rolls Cambs. 3</note>
+            </place>
+            <place type="parish" xml:id="place_100030">
+               <placeName type="index">Caxton</placeName>
+               <placeName type="formInDocument">Caxstun</placeName>
+               <placeName type="formInDocument">Caxton</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10047638#tab02</idno>
+               <note type="charter">MS. Ch. Cambs. 54</note>
+               <note type="charter">MS. Ch. Cambs. 53</note>
+            </place>
+            <place type="parish" xml:id="place_100031">
+               <placeName type="index">Chesterton</placeName>
+               <placeName type="formInDocument">Cestreton</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 7</note>
+               <note type="charter">MS. Ch. Cambs. 8</note>
+            </place>
+            <place type="parish" xml:id="place_100032">
+               <placeName type="index">Cheveley</placeName>
+               <placeName type="formInDocument">Cheuele</placeName>
+               <placeName type="formInDocument">Cheveley</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10011784</idno>
+               <note type="charter">MS. Ch. Cambs. 5</note>
+               <note type="charter">MS. Ch. Cambs. 52</note>
+            </place>
+            <place type="parish" xml:id="place_100033">
+               <placeName type="index">Denston</placeName>
+               <placeName type="formInDocument">Denerston</placeName>
+               <region type="county" key="place_000070">Suffolk</region>
+               <note type="charter">MS. Ch. Cambs. 5</note>
+            </place>
+            <place type="parish" xml:id="place_100034">
+               <placeName type="index">Depden</placeName>
+               <placeName type="formInDocument">Depden</placeName>
+               <region type="county" key="place_000020">Essex</region>
+               <note type="charter">MS. Ch. Cambs. 11</note>
+            </place>
+
+            <place type="parish" xml:id="place_100035">
+               <placeName type="index">Fen Ditton</placeName>
+               <placeName type="formInDocument">Ditton</placeName>
+               <placeName type="formInDocument">Dittun</placeName>
+               <placeName type="formInDocument">Dittone</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10103587</idno>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="borough" xml:id="place_100036">
+               <placeName type="index">Ely</placeName>
+               <placeName type="formInDocument">Ely</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Rolls Cambs. 5</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="parish" xml:id="place_100037">
+               <placeName type="index">Eynesbury</placeName>
+               <placeName type="formInDocument">Enesbury</placeName>
+               <region type="county" key="place_000030">Huntingdonshire</region>
+               <note type="charter">MS. Ch. Cambs. 61</note>
+            </place>
+            <place type="parish" xml:id="place_100038">
+               <placeName type="index">Fulbourn</placeName>
+               <placeName type="formInDocument">Fulburne</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10120196#tab02</idno>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+
+            <place type="parish" xml:id="place_100039">
+               <placeName type="index">Haddenham</placeName>
+               <placeName type="formInDocument">Hadenham</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10178538</idno>
+               <note type="charter">MS. Ch. Cambs. 58</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="place" xml:id="place_100040">
+               <placeName type="index">Hadfeud [unidentified]</placeName>
+               <placeName type="formInDocument">Hadfeud</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="place" xml:id="place_100041">
+               <placeName type="index">Hinton Hall</placeName>
+               <placeName type="formInDocument">Henegeton</placeName>
+               <placeName type="formInDocument">Honegetone</placeName>
+               <region type="parish" key="place_100039">Haddenham</region>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="parish" xml:id="place_100042">
+               <placeName type="index">Hildersham</placeName>
+               <placeName type="formInDocument">Hildersham</placeName>
+               <placeName type="formInDocument">Hyldrisham</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10159260</idno>
+               <note type="charter">MS. Ch. Cambs. 2</note>
+               <note type="charter">MS. Ch. Cambs. 3</note>
+            </place>
+            <place type="place" xml:id="place_100043">
+               <placeName type="index">Holborn</placeName>
+               <placeName type="formInDocument">Holborn</placeName>
+               <region type="county" key="place_000050">Middlesex</region>
+               <note type="charter">MS. Ch. Cambs. 46</note>
+               <note type="charter">MS. Ch. Cambs. 48</note>
+               <note type="charter">MS. Ch. Cambs. 49</note>
+               <!-- TODO: check id! -->
+            </place>
+            <place type="parish" xml:id="place_100044">
+               <placeName type="index">Horningsea</placeName>
+               <placeName type="formInDocument">Hornyngestrete</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10207769</idno>
+               <note type="charter">MS. Ch. Cambs. 31</note>
+            </place>
+            <place type="parish" xml:id="place_100045">
+               <placeName type="index">Cherry Hinton</placeName>
+               <placeName type="formInDocument">Hyntone</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <!-- theversham towards Hinton -->
+               <idno>https://www.visionofbritain.org.uk/unit/10158898</idno>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="parish" xml:id="place_100046">
+               <placeName type="index">Isleham</placeName>
+               <placeName type="formInDocument">Iselham</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10178599</idno>
+               <note type="charter">MS. Ch. Cambs. 60</note>
+            </place>
+
+            <place type="parish" xml:id="place_100047">
+               <placeName type="index">Exning</placeName>
+               <placeName type="formInDocument">Ixnyng</placeName>
+               <region type="county" key="place_000070">Suffolk</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10254309</idno>
+               <note type="charter">MS. Ch. Cambs. 62</note>
+            </place>
+            <place type="parish" xml:id="place_100048">
+               <placeName type="index">Landwade</placeName>
+               <placeName type="formInDocument">Landwade</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10119960</idno>
+               <note type="charter">MS. Ch. Cambs. 62</note>
+            </place>
+            <place type="parish" xml:id="place_100049">
+               <placeName type="index">Littlebury</placeName>
+               <placeName type="formInDocument">Litlebery [Essex]</placeName>
+               <region type="county" key="place_000020">Essex</region>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="parish" xml:id="place_100050">
+               <placeName type="index">Little Abington</placeName>
+               <placeName type="formInDocument">Little Abinton</placeName>
+               <placeName type="formInDocument">Little Abington</placeName>
+               <placeName type="formInDocument">Little Abinton</placeName>
+               <placeName type="formInDocument">Little Abynton</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10088987</idno>
+               <note type="charter">MS. Ch. Cambs. 2</note>
+               <note type="charter">MS. Ch. Cambs. 1</note>
+               <note type="charter">MS. Ch. Cambs. 4</note>
+               <note type="charter">MS. Ch. Cambs. 3</note>
+               <note type="charter">MS. Ch. Cambs. 1</note>
+            </place>
+            <place type="city" xml:id="place_100051">
+               <placeName type="index">London</placeName>
+               <placeName type="formInDocument">London</placeName>
+               <note type="charter">MS. Ch. Cambs. 10</note>
+               <note type="charter">MS. Ch. Cambs. 40</note>
+               <note type="charter">MS. Ch. Cambs. 61</note>
+            </place>
+            <place type="borough" xml:id="place_100052">
+               <placeName type="index">Peterborough</placeName>
+               <placeName type="formInDocument">Peterborough</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Rolls Cambs. 10</note>
+            </place>
+            <place type="borough" xml:id="place_100053">
+               <placeName type="index">Reading</placeName>
+               <placeName type="formInDocument">Reading</placeName>
+               <region type="county" key="place_000010">Berkshire</region>
+               <note type="charter">MS. Ch. Cambs. 57</note>
+            </place>
+
+            <place type="borough" xml:id="place_100054">
+               <placeName type="index">Boston</placeName>
+               <region type="county" key="place_000040">Lincolnshire</region>
+               <placeName type="formInDocument">St. Botulph</placeName>
+               <note type="charter">MS. Rolls Cambs. 3</note>
+            </place>
+            <place type="parish" xml:id="place_100055">
+               <placeName type="index">Cambridge, St Michael's</placeName>
+               <placeName type="formInDocument">St. Michael's parish, Cambridge</placeName>
+               <placeName type="formInDocument">St. Michael's, Cambridge</placeName>
+               <placeName type="formInDocument">St. Michael, Cambridge</placeName>
+               <placeName type="formInDocument">St. Michael, Cambridge</placeName>
+               <placeName type="formInDocument">St. Michael, Cambridge</placeName>
+               <placeName type="formInDocument">St. Michaell</placeName>
+               <placeName type="formInDocument">parish of St. Michael, Cambridge</placeName>
+               <idno>https://www.visionofbritain.org.uk/unit/10047470</idno>
+               <note type="charter">MS. Ch. Cambs. 16.</note>
+               <note type="charter">MS. Ch. Cambs. 32</note>
+               <note type="charter">MS. Ch. Cambs. 21</note>
+               <note type="charter">MS. Ch. Cambs. 30</note>
+               <note type="charter">MS. Ch. Cambs. 26</note>
+               <note type="charter">MS. Ch. Cambs. 20</note>
+               <note type="charter">MS. Ch. Cambs. 17</note>
+               <note type="charter">MS. Ch. Cambs. 19</note>
+               <note type="charter">MS. Ch. Cambs. 24</note>
+               <note type="charter">MS. Ch. Cambs. 29</note>
+            </place>
+            <place type="parish" xml:id="place_100056">
+               <placeName type="index">Stapleford</placeName>
+               <placeName type="formInDocument">Stapleford</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10012703</idno>
+               <note type="charter">MS. Ch. Cambs. 12</note>
+            </place>
+            <place type="place" xml:id="place_100057">
+               <placeName type="index">Steple [unidentified]</placeName>
+               <placeName type="formInDocument">Steple</placeName>
+               <!-- Steeple Morden? -->
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note>Possibly Steeple Morden</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="parish" xml:id="place_100058">
+               <placeName type="index">Chepstow</placeName>
+               <region type="county" key="place_000060">Monmouthshire</region>
+               <placeName type="formInDocument">Strugoill</placeName>
+               <note type="charter">MS. Ch. Cambs. 6</note>
+            </place>
+            <place type="parish" xml:id="place_100059">
+               <placeName type="index">Teversham</placeName>
+               <placeName type="formInDocument">Theveresham</placeName>
+               <placeName type="formInDocument">Theversham</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10159519</idno>
+               <note type="charter">MS. Ch. Cambs. 55</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="borough" xml:id="place_100060">
+               <placeName type="index">Westminster</placeName>
+               <placeName type="formInDocument">Westminster</placeName>
+               <region type="county" key="place_000050">Middlesex</region>
+               <note type="charter">MS. Ch. Cambs. 19</note>
+               <note type="charter">MS. Ch. Cambs. 7</note>
+               <note type="charter">MS. Ch. Cambs. 8</note>
+            </place>
+            <place type="parish" xml:id="place_100061">
+               <placeName type="index">Whittlesey</placeName>
+               <placeName type="formInDocument">Whitlesey</placeName>
+               <!-- two parishes -->
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Rolls Cambs. 8</note>
+               <note type="charter">MS. Rolls Cambs. 10</note>
+            </place>
+            <place type="parish" xml:id="place_100062">
+               <placeName type="index">Wilburton</placeName>
+               <placeName type="formInDocument">Wilberton</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10120408</idno>
+               <note type="charter">MS. Ch. Cambs. 36</note>
+            </place>
+            <place type="borough" xml:id="place_100063">
+               <placeName type="index">Wisbech</placeName>
+               <placeName type="formInDocument">Wisbeach</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Rolls Cambs. 10</note>
+            </place>
+            <place type="parish" xml:id="place_100064">
+               <placeName type="index">Wicken</placeName>
+               <placeName type="formInDocument">Wyken</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10012818</idno>
+               <note type="charter">MS. Ch. Cambs. 62</note>
+            </place>
+            <place type="parish" xml:id="place_100065">
+               <placeName type="index">Willingham</placeName>
+               <placeName type="formInDocument">Wylingham</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10159581</idno>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            <place type="manor" xml:id="place_100066">
+               <placeName type="index">Plegdon Hall</placeName>
+               <placeName type="formInDocument">Plecheden co. Essex</placeName>
+               <region type="parish" key="place_100071">Henham</region>
+               <region type="county" key="place_000020">Essex</region>
+               <bibl>Morant, Essex, </bibl><!-- TODO: needs to be checked -->
+            </place>
+
+            <place type="parish" xml:id="place_100067">
+               <placeName type="index">Cottenham</placeName>
+               <placeName type="formInDocument">Cottenham</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10203429</idno>
+            </place>
+
+            <place type="parish" xml:id="place_100069">
+               <placeName type="index">Swaffham Prior</placeName>
+               <placeName type="formInDocument">Swafham Priors</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+            </place>
+            <place type="parish" xml:id="place_100070">
+               <placeName type="index">Abbotsley</placeName>
+               <region type="county" key="place_000030">Huntingdonshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10253706</idno>
+            </place>
+            <place type="parish" xml:id="place_100071">
+               <placeName type="index">Henham</placeName>
+               <region type="county" key="place_000020">Essex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10242034</idno>
+            </place>
+            <place type="parish" xml:id="place_100072">
+               <placeName type="index">Linton</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10212443</idno>
+            </place>
+            <place type="parish" xml:id="place_100073">
+               <placeName type="index">Soham</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10178745</idno>
+            </place>
+         </listPlace>
+
+
+         <listOrg>
+
+            <org xml:id="org_100001">
+               <orgName type="index">Swavesey, chantry</orgName>
+               <orgName type="formInDocument">chantry of Swasye</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 61</note>
+            </org>
+            <org xml:id="org_100002">
+               <orgName type="index">Cambridge, St Edmund's chapel, afterwards St Edmund's
+                  priory</orgName>
+               <orgName type="formInDocument">chapel of St Edmund</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <bibl>VCH Cambs. II.254-6 and III.132-3</bibl>
+               <note type="charter">MS. Ch. Cambs. 17</note>
+            </org>
+            <org xml:id="org_100003">
+               <orgName type="index">London, Sutton's hospital in Charterhouse</orgName>
+               <orgName type="formInDocument">Charter-house</orgName>
+               <note type="charter">MS. Ch. Cambs. 48</note>
+            </org>
+            <org xml:id="org_100004">
+               <orgName type="index">Cambridge, Christ's College</orgName>
+               <orgName type="formInDocument">Christ's College, Cambridge</orgName>
+               <orgName type="formInDocument">Christ's College, Cambridge</orgName>
+               <orgName type="formInDocument">Christ's College, Cambridge</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 40</note>
+               <note type="charter">MS. Ch. Cambs. 42</note>
+               <note type="charter">MS. Ch. Cambs. 41</note>
+               <note type="charter">MS. Ch. Cambs. 39</note>
+            </org>
+            <org xml:id="org_100005">
+               <orgName type="index">Cambridge, Corpus Christi College</orgName>
+               <orgName type="formInDocument">Corpus Christi College</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 43</note>
+            </org>
+            <org xml:id="org_100006">
+               <orgName type="index">Cambridge, Physwick Hostel</orgName>
+               <orgName type="formInDocument">Fysshwykehostell</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <bibl>VCH: Cambs. III.356-62</bibl>
+               <note type="charter">MS. Ch. Cambs. 34</note>
+            </org>
+            <org xml:id="org_100007">
+               <orgName type="index">Cambridge, the Hall of the Annunciation of the Blessed Virgin
+                  Mary, alias Gonville Hall, afterwards Gonville and Caius college</orgName>
+               <orgName type="formInDocument">Gonville hall</orgName>
+               <orgName type="formInDocument">Gunvylhalle</orgName>
+               <orgName type="formInDocument">Gunwilhalle</orgName>
+               <orgName type="formInDocument">St. Mary called Gunwillhalle</orgName>
+               <orgName type="formInDocument">St. Mary's College, Cambridge</orgName>
+               <orgName type="formInDocument">St. Mary's, Cambridge</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 29</note>
+               <note type="charter">MS. Ch. Cambs. 30</note>
+               <note type="charter">MS. Ch. Cambs. 44</note>
+               <note type="charter">MS. Ch. Cambs. 32</note>
+               <note type="charter">MS. Ch. Cambs. 33</note>
+               <note type="charter">MS. Ch. Cambs. 34</note>
+            </org>
+            <org xml:id="org_100008">
+               <orgName type="index">Cambridge, hospital of St John the Evangelist</orgName>
+               <orgName type="formInDocument">Hosp. St. John Evang .</orgName>
+               <orgName type="formInDocument">the same</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <bibl>VCH Cambs. II.303-307</bibl>
+               <note type="charter">MS. Ch. Cambs. 31</note>
+               <note type="charter">MS. Ch. Cambs. 31</note>
+            </org>
+            <org xml:id="org_100009">
+               <orgName type="index">Cambridge, St Margaret's hostel</orgName>
+               <orgName type="formInDocument">hospice of St Margaret</orgName>
+               <orgName type="formInDocument">Seynt Margaretishostell</orgName>
+               <orgName type="formInDocument">'Seynt Margaretishostell,'</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <bibl>VCH Cambs. III.</bibl>
+               <note type="charter">MS. Ch. Cambs. 32</note>
+               <note type="charter">MS. Ch. Cambs. 44</note>
+               <note type="charter">MS. Ch. Cambs. 33</note>
+               <note type="charter">MS. Ch. Cambs. 17</note>
+            </org>
+            <org xml:id="org_100010">
+               <orgName type="index">Cambridge, Jesus College</orgName>
+               <orgName type="formInDocument">Jesus College</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 45</note>
+            </org>
+            <org xml:id="org_100011">
+               <orgName type="index">Cambridge, King's College</orgName>
+               <orgName type="formInDocument">King's College Roial of our Lady and Seynt Nicholas,
+                  of Cambridge</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 34</note>
+            </org>
+            <org xml:id="org_100012">
+               <orgName type="index">London, Lincoln's Inn</orgName>
+               <orgName type="formInDocument">Lincoln's Inn, London</orgName>
+               <note type="charter">MS. Ch. Cambs. 3</note>
+            </org>
+            <org xml:id="org_100013">
+               <orgName type="index">Cambridge, Queen's College</orgName>
+               <orgName type="formInDocument">master and fellows of the college of Queen, S.
+                  Margaret and S. Bernard in Cambridge</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Rolls Cambs. 7</note>
+            </org>
+            <org xml:id="org_100014">
+               <orgName type="index">Barnwell, Priory</orgName>
+               <orgName type="formInDocument">prior and canons of Bernwell</orgName>
+               <orgName type="formInDocument">priory of Bernwell</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 8</note>
+               <note type="charter">MS. Ch. Cambs. 7</note>
+            </org>
+            <org xml:id="org_100015">
+               <orgName type="index">Ely, cathedral priory</orgName>
+               <orgName type="formInDocument">prior and convent of Ely</orgName>
+               <orgName type="formInDocument">prior and convent of Ely</orgName>
+               <orgName type="formInDocument">prior and convent of Ely</orgName>
+               <orgName type="formInDocument">prior and monks of Ely</orgName>
+               <orgName type="formInDocument">prior of Ely</orgName>
+               <orgName type="formInDocument">convent of Ely</orgName>
+               <orgName type="formInDocument">Ely</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 10</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+               <note type="charter">MS. Rolls Cambs. 3</note>
+               <note type="charter">MS. Ch. Cambs. 55</note>
+               <note type="charter">MS. Ch. Cambs. 56</note>
+               <note type="charter">MS. Ch. Cambs. 57</note>
+               <note type="charter">MS. Rolls Cambs. 3</note>
+               <note type="charter">MS. Rolls Cambs. 5</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </org>
+            <org xml:id="org_100016">
+               <orgName type="index">Cambridge, Michaelhouse</orgName>
+               <orgName type="formInDocument">St. Michael, Cambridge</orgName>
+               <orgName type="formInDocument">St. Michael's College, of Cambridge</orgName>
+               <orgName type="formInDocument">college of St. Michael, Cambridge</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 32</note>
+               <note type="charter">MS. Ch. Cambs. 34</note>
+               <note type="charter">MS. Ch. Cambs. 33</note>
+            </org>
+            <org xml:id="org_100017">
+               <orgName type="index">Ely, chapel of St Mary 'in Mari' </orgName>
+               <orgName type="formInDocument">the chapel of the Blessed Virgin 'in mari'</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <bibl>https://www.britishmuseum.org/collection/object/H_2000-0103-123</bibl>
+               <note type="charter">MS. Ch. Cambs. 35</note>
+            </org>
+
+            <org xml:id="org_100018">
+               <orgName type="index">Cambridge, Trinity College</orgName>
+               <orgName type="formInDocument">Trinity College, Cambridge</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 37</note>
+            </org>
+            <org xml:id="org_100019">
+               <orgName type="index">Cambridge, University</orgName>
+               <orgName type="formInDocument">university of Cambridge</orgName>
+               <orgName type="formInDocument">university of Cambridge</orgName>
+               <orgName type="formInDocument">Cambridge</orgName>
+               <orgName type="formInDocument">the same</orgName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 38</note>
+               <note type="charter">MS. Ch. Cambs. 24</note>
+               <note type="charter">MS. Ch. Cambs. 51</note>
+               <note type="charter">MS. Ch. Cambs. 17</note>
+               <note type="charter">MS. Ch. Cambs. 21</note>
+               <note type="charter">MS. Ch. Cambs. 25</note>
+               <note type="charter">MS. Ch. Cambs. 38</note>
+               <note type="charter">MS. Ch. Cambs. 50</note>
+               <note type="charter">MS. Ch. Cambs. 45</note>
+               <note type="charter">MS. Rolls Cambs. 1</note>
+            </org>
+            <org xml:id="org_100020">
+               <orgName type="index">London, Royal College of Physicians</orgName>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>
