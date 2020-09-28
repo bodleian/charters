@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100038">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100031">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Cambs. 40</title>
+            <title>MS. Ch. Cambs. 34</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,33 +30,31 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Cambs_40</idno>
+            <idno type="msID">MS_Ch_Cambs_34</idno>
             <idno type="collection">Cambs</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Cambs_40" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Cambs_34" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Cambs. 40</idno>
+                  <idno type="shelfmark">MS. Ch. Cambs. 34</idno>
                </msIdentifier>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p>
-                        <pb n="38"/> Indenture made 3 Nov., <origDate notBefore="1574-11-17" notAfter="1575-11-16">17 Eliz.</origDate>, by which <persName>Mr. <forename>Edward</forename>  
-                           <surname>Hawford</surname>, D.D., master of <orgName key="org_100004">Christ's College, Cambridge</orgName>
-                        </persName>, and the fellows of the same,
-                  demise to <persName>
-                           <forename>Robert</forename>  
-                           <surname>Colet</surname>, citizen and bowyer of <placeName role="person" key="place_100051">London</placeName>
-                        </persName>, their manor of <placeName type="manor" key="place_100004">Bourne</placeName> in the
-                  county of Cambridge, with the parsonage of the same, &amp;c., for 58 years, at an
-                  annual rent of £28. [With seal]  English. . </p>
+                     <p> Deed (indented) by which <persName>
+                           <forename>John</forename>  
+                           <surname>Wulrich</surname>, master mason of the workes of the <orgName key="org_100011">King's
+                  College Roial of our Lady and Seynt Nicholas, of Cambridge</orgName>
+                        </persName>, and others, arbitrate
+                  in a matter between <orgName key="org_100016">St. Michael's College, of Cambridge</orgName>, and <orgName key="org_100007">Gonville hall</orgName>,
+                  concerning an eves drop into the garden of '<orgName key="org_100006">Fysshwykehostell</orgName>.' Dated at
+                  <placeName role="date" key="place_100029">Cambridge</placeName>, 17 Aug., <origDate when="1476">1476</origDate>.   </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -66,9 +64,21 @@
                      </supportDesc>
                   </objectDesc>
                   <authDesc>
-                     <seal><p>Christ's College, Cambridge (chipped)</p>
-                     <idno>MS. Ch. Cambs. 40*</idno>
-                  </seal>
+                     <seal><p>St Michael's College, Cambridge</p>
+                        <idno>MS. Ch. Cambs. 34*/a</idno>
+                     </seal>
+                     <seal><p>[Broken]</p>
+                        <idno>MS. Ch. Cambs. 34*/b</idno>
+                     </seal>
+                     <seal><p>Initial H</p>
+                        <idno>MS. Ch. Cambs. 34*/c</idno>
+                     </seal>
+                     <seal><p>Eagle displayed</p>
+                        <idno>MS. Ch. Cambs. 34*/d</idno>
+                     </seal>
+                     <seal><p>Initial I crowned</p>
+                        <idno>MS. Ch. Cambs. 34*/e</idno>
+                     </seal>
                   </authDesc>
                </physDesc>
                <additional>
@@ -76,7 +86,7 @@
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="37" to="38">37-38</citedRange>
+                                <citedRange unit="page" from="37" to="37">37</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

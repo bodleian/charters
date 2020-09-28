@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100017">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100035">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Cambs. 18</title>
+            <title>MS. Ch. Cambs. 50</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,39 +30,29 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Cambs_18</idno>
+            <idno type="msID">MS_Ch_Cambs_50</idno>
             <idno type="collection">Cambs</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Cambs_18" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Cambs_50" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Cambs. 18</idno>
+                  <idno type="shelfmark">MS. Ch. Cambs. 50</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p>
-                        <pb n="36"/> Bond given by <persName>
-                           <forename>Richard</forename>  
-                           <surname>Asshewell</surname>
-                        </persName> and <persName>Beatrice</persName> his wife in a sum of £40
-                  to be paid to <persName>
-                           <forename>Robert</forename>  
-                           <surname>Cokkesford</surname>
-                        </persName> and <persName>Juliana Bedelle, late wife of <persName>
-                              <forename>Richard</forename>  
-                              <surname>Bedell</surname>
-                           </persName>
-                        </persName>, at <placeName key="place_100029">Cambridge</placeName> on the feast of
-                  St. Michael next following the date of these presents. Dated at <placeName role="date" key="place_100029">Cambridge</placeName> the
-                  Tuesday next after the feast of St. Barnabas, <origDate notBefore="1381-06-22" notAfter="1382-06-21">5 Rich. II</origDate>. [Seals.]
-                     . </p>
+                     <p> Licence of <persName>
+                           <forename>Thomas</forename>  
+                           <surname>Hall</surname>
+                        </persName> by the <orgName key="org_100019">university of Cambridge</orgName> as a preacher under the
+                  authority of the act of parliament of 13 Eliz. Dated at <placeName role="date" key="place_100029">Cambridge</placeName>, 4
+                  Nov. <origDate when="1669">1669</origDate>.  </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -71,23 +61,16 @@
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p>[Richard Asshewell]</p>
-                        <idno>MS. Ch. Cambs. 18*/a</idno>
-                     </seal>
-                     <seal>
-                        <p>Device 'T'</p>
-                        <idno>MS. Ch. Cambs. 18*/b</idno>
-                     </seal>
-                  </authDesc>
+                  <authDesc><seal><p>University of Cambridge (chipped)</p>
+                     <idno>MS. Ch. Cambs. 50*</idno>
+                  </seal></authDesc>
                </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="35" to="36">35-36</citedRange>
+                                <citedRange unit="page" from="37" to="37">37</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

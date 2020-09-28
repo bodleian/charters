@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100034">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100018">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Cambs. 38</title>
+            <title>MS. Ch. Cambs. 19</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,32 +30,40 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Cambs_38</idno>
+            <idno type="msID">MS_Ch_Cambs_19</idno>
             <idno type="collection">Cambs</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Cambs_38" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Cambs_19" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Cambs. 38</idno>
+                  <idno type="shelfmark">MS. Ch. Cambs. 19</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> Certificate of <persName>
-                           <forename>Edward</forename>  
-                           <surname>Mountague</surname>, <!-- check: m/f illeg. --> the chancellor of the <orgName key="org_100019">university of Cambridge</orgName>
-                        </persName>,
-                  and master and scholars of <orgName key="org_100019">the same</orgName>, that in 1659 <persName>
+                     <p> 
+                        <persName>
                            <forename>Richard</forename>  
-                           <surname>Perrott</surname>
-                        </persName> was admitted to
-                  the degree of S.T.B. Dated 11 June, <origDate when="1661">1661</origDate>. [With seal.] . </p>
+                           <surname>Asshewell</surname>  of <placeName key="place_100029">Cambridge</placeName>
+                        </persName> and <persName>Beatrice</persName> his wife, by a bond in £40, covenant
+                  with <persName>
+                           <forename>Robert</forename>  
+                           <surname>Cokkesford</surname>
+                        </persName> and <persName>Juliana Bedelle, late wife of <persName>
+                              <forename>Richard</forename>  
+                              <surname>Bedell</surname>
+                           </persName>
+                        </persName>, to levy
+                  a fine in the King's court at <placeName key="place_100060">Westminster</placeName> or <placeName key="place_100029">Cambridge</placeName> for a messuage and parcell
+                  of 'vynes' in the parish of <placeName key="place_100055">St. Michael's, Cambridge</placeName>. Dated at <placeName role="date" key="place_100029">Cambridge</placeName> the
+                  Wednesday next after the feast of St. Barnabas the apostle, <origDate notBefore="1381-06-22" notAfter="1382-06-21">5 Rich.
+                     II</origDate>. </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -64,16 +72,23 @@
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc><seal><p>University of Cambridge (broken)</p>
-                     <idno>MS. Ch. Cambs. 38*</idno>
-                  </seal></authDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[Richard Asshewell]</p>
+                        <idno>MS. Ch. Cambs. 19*/a</idno>
+                     </seal>
+                     <seal>
+                        <p>Device 'T'</p>
+                        <idno>MS. Ch. Cambs. 19*/b</idno>
+                     </seal>
+                  </authDesc>
                </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="37" to="37">37</citedRange>
+                                <citedRange unit="page" from="36" to="36">36</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

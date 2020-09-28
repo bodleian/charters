@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100059">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100034">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Cambs. 55</title>
+            <title>MS. Ch. Cambs. 38</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,27 +30,32 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Cambs_55</idno>
+            <idno type="msID">MS_Ch_Cambs_38</idno>
             <idno type="collection">Cambs</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Cambs_55" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Cambs_38" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Cambs. 55</idno>
+                  <idno type="shelfmark">MS. Ch. Cambs. 38</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> TEVERSHAM. <persName>Hugh, of the manor ('de <surname>manerio</surname>')</persName>, grants in <pb n="40"/>
-                  frankalmoigne for himself and his wife <persName>Berta</persName> to the <orgName key="org_100015">prior and monks of Ely</orgName> 12d. annual rent 
-                  payable by his son <persName>William</persName> arising out of six
-                  acres of land and a messuage in <placeName key="place_100059">Theversham</placeName> for maintenance of a light at the altar of St Mary. [With seal: lion, 'Sigill. Hugonis del manerio'] [<origDate notAfter="1240" notBefore="1230" precision="low">c. 1230-40</origDate>] </p>
+                     <p> Certificate of <persName>
+                           <forename>Edward</forename>  
+                           <surname>Mountague</surname>, <!-- check: m/f illeg. --> the chancellor of the <orgName key="org_100019">university of Cambridge</orgName>
+                        </persName>,
+                  and master and scholars of <orgName key="org_100019">the same</orgName>, that in 1659 <persName>
+                           <forename>Richard</forename>  
+                           <surname>Perrott</surname>
+                        </persName> was admitted to
+                  the degree of S.T.B. Dated 11 June, <origDate when="1661">1661</origDate>.  </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -59,8 +64,8 @@
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc><seal><p>Hugh of the Manor</p>
-                     <idno>MS. Ch. Cambs. 55*</idno>
+                  <authDesc><seal><p>University of Cambridge (broken)</p>
+                     <idno>MS. Ch. Cambs. 38*</idno>
                   </seal></authDesc>
                </physDesc>
                <additional>
@@ -68,7 +73,7 @@
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="39" to="40">39-40</citedRange>
+                                <citedRange unit="page" from="37" to="37">37</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

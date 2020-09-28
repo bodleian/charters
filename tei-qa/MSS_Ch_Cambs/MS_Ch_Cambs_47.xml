@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100073">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100053">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Cambs. 64</title>
+            <title>MS. Ch. Cambs. 47</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,25 +30,28 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Cambs_64</idno>
+            <idno type="msID">MS_Ch_Cambs_47</idno>
             <idno type="collection">Cambs</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Cambs_64" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Cambs_47" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Cambs. 64</idno>
+                  <idno type="shelfmark">MS. Ch. Cambs. 47</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> CAMBRIDGE. Diploma of the admission of <persName>Thomas <surname>Witherley</surname> M.D.</persName> as honorary fellow of the
-                  <orgName key="org_100020">College of Physicians</orgName>. Dated 6th Cal. July, <origDate when="1665">1665</origDate>. [7 seals of arms]. </p>
+                     <p> Letters testimonial of <persName>Matthew, bishop of Ely</persName>, to <persName>
+                           <forename>Thomas</forename>  
+                           <surname>Hall</surname>, M. A.</persName>, on his
+                  ordination as priest in the church of <placeName type="church" key="place_100020">Haddenham</placeName>, 11 March, 1665. Signed and
+                  sealed, 12 March, <origDate when="1665">1665</origDate>. </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -57,13 +60,16 @@
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
+                  <authDesc><seal><p>Matthew, bishop of Ely (broken)</p>
+                     <idno>MS. Ch. Cambs. 47*</idno>
+                  </seal></authDesc>
                </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="645" to="645">645</citedRange>
+                                <citedRange unit="page" from="39" to="39">39</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
