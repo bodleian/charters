@@ -18,8 +18,8 @@
             <place type="manor" xml:id="place_101001">
                <placeName type="formInDocument">Batenhale</placeName>
                <placeName type="index">Battenhall</placeName>
-               <region type="parish">Worcester St Peter</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101072">Worcester St Peter</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno type="discovery">https://discovery.nationalarchives.gov.uk/details/c/F275591</idno>
                <bibl>VCH Worcs. III.514-8</bibl>
                <!-- one manor -->
@@ -28,8 +28,8 @@
             <place type="manor" xml:id="place_101002">
                <placeName type="index">Caldwall</placeName>
                <placeName type="formInDocument">CALDWELL (Manor), KIDDERMINSTER</placeName>
-               <region type="parish">Kidderminster</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101069">Kidderminster</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <!-- one manor -->
                <note type="charter">MS. Rolls Worcs. 1.</note>
                <note type="charter">MS. Rolls Worcs. 2</note>
@@ -39,15 +39,15 @@
             <place type="manor" xml:id="place_101003">
                <placeName type="index">Cavernestok [unidentified]</placeName>
                <placeName type="formInDocument">Cavernestok</placeName>
-               <region type="county" cert="low">Worcestershire (?)</region>
+               <region type="county" cert="low" key="place_000090">Worcestershire (?)</region>
                <note type="charter">MS. Ch. Worcs. 5</note>
             </place>
             <place type="manor" xml:id="place_101004">
                <placeName type="index">Chadwich</placeName>
                <placeName type="variant">Chadwick</placeName>
                <placeName type="formInDocument">Chadleswich</placeName>
-               <region type="parish">Bromsgrove</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101021">Bromsgrove</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno type="discovery">https://discovery.nationalarchives.gov.uk/details/c/F275626</idno>
                <note type="charter">MS. Ch. Worcs. 6</note>
                <note type="charter">MS. Ch. Worcs. 7</note>
@@ -61,7 +61,7 @@
             <place type="manor" xml:id="place_101005">
                <placeName type="index">Crowle, St Wulfstan's</placeName>
                <placeName type="formInDocument">Crowele</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 81</note>
                <idno type="mdr">https://discovery.nationalarchives.gov.uk/details/c/F275572</idno>
                <bibl>VCH Worcs III.329-334</bibl>
@@ -70,7 +70,7 @@
                <placeName type="index">Fladbury</placeName>
                <placeName type="formInDocument">Fladbury</placeName>
                <!-- a parish -->
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno type="discovery">https://discovery.nationalarchives.gov.uk/details/c/F275663</idno>
 
                <note type="charter">MS. Rolls Worcs. 4</note>
@@ -80,7 +80,7 @@
                <placeName type="formInDocument">Hindelep</placeName>
                <placeName type="index">Hindlip</placeName>
                <!-- also parish -->
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F275687</idno>
                <note type="charter">MS. Ch. Worcs. 13</note>
                <note type="charter">MS. Ch. Worcs. 18</note>
@@ -88,8 +88,8 @@
             <place type="manor" xml:id="place_101008">
                <placeName type="formInDocument">Northwick</placeName>
                <placeName type="index">Northwick</placeName>
-               <region type="parish">Claines</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101075">Claines</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F275719</idno>
                <note type="charter">MS. Ch. Worcs. 58</note>
                <note type="charter">MS. Ch. Worcs. 59</note>
@@ -100,8 +100,8 @@
                <placeName type="variant">Pirton Court</placeName>
                <placeName type="formInDocument">Pyrton Folliott</placeName>
                <placeName type="variant">Folliott's Court</placeName>
-               <region type="parish">Pirton</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101049">Pirton</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F275734</idno>
 
                <note type="charter">MS. Rolls Worcs. 5</note>
@@ -116,8 +116,8 @@
                <placeName type="formInDocument">Pirye</placeName>
                <placeName type="formInDocument">Pyrie</placeName>
                <placeName type="formInDocument">Pirie</placeName>
-               <region type="parish">Worcester St Martin</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101073">Worcester St Martin</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 72</note>
                <note type="charter">MS. Ch. Worcs. 59</note>
                <note type="charter">MS. Ch. Worcs. 67</note>
@@ -131,7 +131,7 @@
             <place type="manor" xml:id="place_101012">
                <placeName type="formInDocument">Tredinton</placeName>
                <placeName type="index">Tredington</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F275780</idno>
                <note type="charter">MS. Rolls Worcs. 4</note>
             </place>
@@ -143,8 +143,8 @@
                <placeName type="formInDocument">Alcreton</placeName>
                <placeName type="formInDocument">Alcretone</placeName>
                <placeName type="formInDocument">Alkerton</placeName>
-               <region type="parish">Hindlip</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101038">Hindlip</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 15</note>
                <note type="charter">MS. Ch. Worcs. 29</note>
                <note type="charter">MS. Ch. Worcs. 12</note>
@@ -155,7 +155,7 @@
             <place type="place" xml:id="place_101014">
                <placeName type="formInDocument">Baddeby</placeName>
                <placeName type="index">Badby</placeName>
-               <region type="county">Northamptonshire</region>
+               <region type="county" key="place_000062">Northamptonshire</region>
                <note type="charter">MS. Ch. Worcs. 2</note>
                <!-- the manor of Badby was held by Evesham: see
                https://discovery.nationalarchives.gov.uk/browse/r/h/a2c5695d-6f30-46a0-b473-5dd168331c01 
@@ -163,8 +163,8 @@
             </place>
             <place type="place" xml:id="place_101015">
                <placeName type="index">Battenhall</placeName>
-               <region type="parish">Worcester St Peter</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101072">Worcester St Peter</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <placeName type="formInDocument">Batenhale</placeName>
                <note type="charter">MS. Ch. Worcs. 49</note>
             </place>
@@ -178,25 +178,25 @@
             <place type="place" xml:id="place_101017">
                <placeName type="index">Bodyntone [unidentified]</placeName>
                <placeName type="formInDocument">Bodyntone</placeName>
-               <region type="county" cert="low">Worcestershire (?)</region>
+               <region type="county" cert="low" key="place_000090">Worcestershire (?)</region>
                <note type="charter">MS. Ch. Worcs. 78</note>
             </place>
             <place type="place" xml:id="place_101019"><!-- same as next? -->
                <placeName type="index">Bromleye [unidentified]</placeName>
                <placeName type="formInDocument">Bromleye</placeName>
-               <region type="county" cert="low">Staffordshire (?)</region>
-               <region type="county" cert="low">Worcestershire (?)</region>
+               <region type="county" cert="low" key="place_000069">Staffordshire (?)</region>
+               <region type="county" cert="low" key="place_000090">Worcestershire (?)</region>
                <note type="charter">MS. Ch. Worcs. 60</note>
             </place>
             <place type="place" xml:id="place_101020">
                <placeName type="index">Abbots Bromley</placeName>
-               <region type="county">Staffordshire</region>
+               <region type="county" key="place_000069">Staffordshire</region>
                <placeName type="formInDocument">Bromleye Abbates</placeName>
                <note type="charter">MS. Ch. Worcs. 62</note>
             </place>
             <place type="place" xml:id="place_101021">
                <placeName type="index">Bromsgrove</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <placeName type="formInDocument">BROMSGROVE</placeName>
                <placeName type="formInDocument">Bremesgrave</placeName>
                <idno>https://www.visionofbritain.org.uk/unit/10329462</idno>
@@ -205,15 +205,15 @@
             </place>
             <place type="place" xml:id="place_101022">
                <placeName type="index">Bitterley</placeName>
-               <region type="county">Shropshire</region>
+               <region type="county" key="place_000067">Shropshire</region>
                <placeName type="formInDocument">Bytterley</placeName>
                <note type="charter">MS. Ch. Worcs. 83</note>
             </place>
             <place type="place" xml:id="place_101023">
                <placeName type="index">Chadwich</placeName>
                <placeName type="variant">Chadwick</placeName>
-               <region type="parish">Bromsgrove</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101021">Bromsgrove</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <placeName type="formInDocument">CHADDLESWICK</placeName>
                <placeName type="formInDocument">Chaddelwich</placeName>
                <placeName type="formInDocument">Chaddleswych</placeName>
@@ -239,14 +239,14 @@
             <place type="place" xml:id="place_101024">
                <placeName type="index">Clifton upon Teme</placeName>
                <placeName type="formInDocument">Clifton upon Teme</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10336107</idno>
                <note type="charter">MS. Ch. Worcs. 75</note>
             </place>
             <place type="place" xml:id="place_101025">
                <placeName type="index">Much Cowarne</placeName>
                <placeName type="formInDocument">Much Cowarne</placeName>
-               <region type="county">Herefordshire</region>
+               <region type="county" key="place_000027">Herefordshire</region>
                <note type="charter">MS. Ch. Worcs. 7a</note>
             </place>
             <place type="place" xml:id="place_101026">
@@ -254,7 +254,7 @@
                <placeName type="formInDocument">Croule</placeName>
                <placeName type="formInDocument">CROWLE</placeName>
                <placeName type="formInDocument">Crowle</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10479812</idno>
                <note type="charter">MS. Ch. Worcs. 91</note>
                <note type="charter">MS. Ch. Worcs. 107</note>
@@ -269,47 +269,47 @@
             <place type="place" xml:id="place_101028">
                <placeName type="index">Dormonsiton [unidentified]</placeName>
                <placeName type="formInDocument">Dormonsiton</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 4b</note>
             </place>
             <place type="place" xml:id="place_101029">
                <placeName type="index">Elmley Castle</placeName>
                <placeName type="formInDocument">Elmley Castle</placeName>
                
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10333623</idno>
                <note type="charter">MS. Ch. Worcs. 1</note>
             </place>
             <place type="place" xml:id="place_101030">
                <placeName type="index">Evesham</placeName>
                <placeName type="formInDocument">Evesham</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 3</note>
             </place>
             <place type="place" xml:id="place_101031">
                <placeName type="formInDocument">Falevesle</placeName>
                <placeName type="index">Fawlsey</placeName>
-               <region type="county">Northamptonshire</region>
+               <region type="county" key="place_000062">Northamptonshire</region>
                <note type="charter">MS. Ch. Worcs. 2</note>
             </place>
             <place type="place" xml:id="place_101032">
                <placeName type="formInDocument">Frankeley</placeName>
                <placeName type="index">Frankley</placeName>
-               <region type="parish">Halesowen</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101037">Halesowen</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 5</note>
             </place>
             <place type="place" xml:id="place_101033">
                <placeName type="formInDocument">Godestowe</placeName>
                <placeName type="index">Godstow</placeName>
-               <region type="parish">Binsey</region>
-               <region type="county">Oxfordshire</region>
+               <region type="parish" key="place_101074">Binsey</region>
+               <region type="county" key="place_000065">Oxfordshire</region>
                <note type="charter">MS. Ch. Worcs. 57b</note>
             </place>
             <place type="place" xml:id="place_101034">
                <placeName type="index">Great Hampton</placeName>
                <placeName type="formInDocument">Great Hampton</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10334184#tab02</idno>
                <note type="charter">MS. Ch. Worcs. 3</note>
             </place>
@@ -317,21 +317,21 @@
                <placeName type="formInDocument">HADSOR</placeName>
                <placeName type="index">Hadzor</placeName>
                <placeName type="variant">Hadsor</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10334070</idno>
                <note type="charter">MS. Ch. Worcs. 1</note>
             </place>
             <place type="place" xml:id="place_101036">
                <placeName type="index">Holywell</placeName>
                <placeName type="formInDocument">Haliwell</placeName>
-               <region type="parish">Bromsgrove</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101021">Bromsgrove</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 6</note>
             </place>
             <place type="place" xml:id="place_101037">
                <placeName type="index">Halesowen</placeName>
                <placeName type="formInDocument">Hayles</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10364656</idno>
                <note type="charter">MS. Ch. Worcs. 3</note>
             </place>
@@ -341,7 +341,7 @@
                <placeName type="formInDocument">HINDLIP</placeName>
                <placeName type="formInDocument">Hindelupe</placeName>
                <placeName type="formInDocument">Hyndelep</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10334652</idno>
                <note type="charter">MS. Ch. Worcs. 10</note>
                <note type="charter">MS. Ch. Worcs. 9</note>
@@ -352,8 +352,8 @@
             <place type="place" xml:id="place_101039">
                <placeName type="index">Oldbury</placeName>
                <placeName type="formInDocument">Holdebury</placeName>
-               <region type="county">St Johns in Bedwardine</region>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_101076">Bedwardine St John </region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 10</note>
             </place>
           <!--  <place type="place" xml:id="place_101040">
@@ -373,7 +373,7 @@
             <place type="place" xml:id="place_101043">
                <placeName type="index">Madresfield</placeName>
                <placeName type="formInDocument">Madersfeld</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10335656</idno>
                <note type="charter">MS. Ch. Worcs. 7a</note>
             </place>
@@ -381,14 +381,15 @@
                <placeName type="index">Littleton</placeName>
                <placeName type="formInDocument">Much Litleton</placeName>
                <region type="parish">North, Middle and South Littleton</region>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+               <!-- TODO: check -->
                <note type="charter">MS. Ch. Worcs. 4</note>
             </place>
             <place type="place" xml:id="place_101045">
                <placeName type="index">Naunton Beauchamp</placeName>
                <placeName type="formInDocument">NEUNETON</placeName>
                <placeName type="formInDocument">Newyntone</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10336004#tab02</idno>
                <note type="charter">MS. Ch. Worcs. 16</note>
                <note type="charter">MS. Ch. Worcs. 38</note>
@@ -398,7 +399,7 @@
             <place type="place" xml:id="place_101046">
                <placeName type="index">North Littleton</placeName>
                <placeName type="formInDocument">North Litleton</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10335474</idno>
                <note type="charter">MS. Ch. Worcs. 4</note>
             </place>
@@ -410,7 +411,7 @@
             <place type="place" xml:id="place_101048">
                <placeName type="index">Powick</placeName>
                <placeName type="formInDocument">Poywyke</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10343069</idno>
                <note type="charter">MS. Ch. Worcs. 21</note>
             </place>
@@ -418,7 +419,7 @@
                <placeName type="index">Pirton</placeName>
                <placeName type="formInDocument">Pyrton</placeName>
                <placeName type="formInDocument">Pyrton, alias Pyriton</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10343021#tab02</idno>
                <note type="charter">MS. Ch. Worcs. 5</note>
                <note type="charter">MS. Ch. Worcs. 5</note>
@@ -426,7 +427,7 @@
             <place type="place" xml:id="place_101050">
                <placeName type="index">Rockhampton</placeName>
                <placeName type="formInDocument">Rochampton, co. Gloucester</placeName>
-               <region type="county">Gloucestershire</region>
+               <region type="county" key="place_000025">Gloucestershire</region>
                <note type="charter">MS. Ch. Worcs. 101</note>
             </place>
             <place type="place" xml:id="place_101051">
@@ -438,8 +439,8 @@
                <placeName type="index">Sidenhale [unidentified]</placeName>
                <placeName type="formInDocument">Sidenhale</placeName>
                <placeName type="formInDocument">Sidunhale</placeName>
-               <region type="parish" cert="low">Bromsgrove (?)</region>
-               <region type="county" cert="low">Worcestershire (?)</region>
+               <region type="parish" cert="low" key="place_101021">Bromsgrove (?)</region>
+               <region type="county" cert="low"  key="place_000090">Worcestershire (?)</region>
                <note type="charter">MS. Ch. Worcs. 36</note>
                <note type="charter">MS. Ch. Worcs. 6</note>
             </place>
@@ -454,21 +455,21 @@
             <place type="place" xml:id="place_101055">
                <placeName type="index">Thorndon</placeName>
                <placeName type="formInDocument">Thorndon</placeName>
-               <region type="parish">Pershore Holy Cross</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101071">Pershore Holy Cross</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 3</note>
             </place>
             <place type="place" xml:id="place_101056">
                <placeName type="index">Warndon</placeName>
                <placeName type="formInDocument">Warmedone</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10348286#tab02</idno>
                <note type="charter">MS. Ch. Worcs. 13</note>
             </place>
             <place type="place" xml:id="place_101057">
                <placeName type="index">Westminster</placeName>
                <placeName type="formInDocument">Westminster</placeName>
-               <region type="county">Middlesex</region>
+               <region type="county" key="place_000050">Middlesex</region>
                <note type="charter">MS. Ch. Worcs. 3</note>
                <note type="charter">MS. Ch. Worcs. 7b</note>
             </place>
@@ -476,8 +477,8 @@
                <placeName type="formInDocument">Whytinton</placeName>
                <placeName type="formInDocument">Witinton</placeName>
                   <placeName type="index">Whittington</placeName>
-                  <region type="parish">Worcester St Peter</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101072">Worcester St Peter</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                   <placeName type="formInDocument">Wytinton</placeName>
                   <note type="charter">MS. Ch. Worcs. 18b</note>
                   <note type="charter">MS. Ch. Worcs. 28</note>
@@ -487,15 +488,15 @@
             <place type="place" xml:id="place_101059">
                <placeName type="index">Witton</placeName>
                <placeName type="formInDocument">Witton</placeName>
-               <region type="parish">Droitwich</region>
-               <region type="county">Worcestershire</region>
+               <region type="parish" key="place_101064">Droitwich</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 29</note>
             </place>
             <place type="place" xml:id="place_101060">
                <placeName type="index">Worcester</placeName>
                <placeName type="formInDocument">Worcester</placeName>
                <placeName type="formInDocument">WORCESTER</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 2</note>
                <note type="charter">MS. Ch. Worcs. 46</note>
                <note type="charter">MS. Ch. Worcs. 84</note>
@@ -571,7 +572,7 @@
             <place type="place" xml:id="place_101062">
                <placeName type="index">Wycham [unidentified]</placeName>
                <placeName type="formInDocument">Wycham</placeName>
-               <region type="county" cert="low">Worcestershire</region>
+               <region type="county" cert="low" key="place_000090">Worcestershire</region>
                <note type="charter">MS. Ch. Worcs. 45</note>
             </place>
             <place type="place" xml:id="place_101064">
@@ -581,23 +582,23 @@
             </place>
             <place type="place" xml:id="place_101065">
                <placeName type="index">Widenham</placeName>
-               <region type="parish">Hasfield</region>
+               <region type="parish" key="place_101070">Hasfield</region>
                <placeName type="formInDocument">Wydenham in the vill and manor of
                   Haffeld</placeName>
-               <region type="county">Gloucestershire</region>
+               <region type="county" key="place_000025">Gloucestershire</region>
                <note type="charter">MS. Ch. Worcs. 7a</note>
             </place>
             <place type="place" xml:id="place_101066">
                <placeName type="index">Wichenford</placeName>
                <placeName type="formInDocument">Wytheneford</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10348584</idno>
                <note type="charter">MS. Ch. Worcs. 41</note>
             </place>
             <place type="place" xml:id="place_101067">
                <placeName type="index">Elmley Lovett</placeName>
                <placeName type="formInDocument">Elmley Lovett</placeName>
-               <region type="county">Worcestershire</region>
+               <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10333659</idno>
                <note type="charter">MS. Ch. Worcs. 1</note>
             </place>
@@ -605,8 +606,40 @@
             <place type="place" xml:id="place_101068">
                <placeName type="index">Little Cowarne</placeName>
                <placeName type="formInDocument">Little Cowarne</placeName>
-               <region type="county">Herefordshire</region>
+               <region type="county" key="place_000027">Herefordshire</region>
                <note type="charter">MS. Ch. Worcs. 7a</note>
+            </place>
+            <place type="place" xml:id="place_101069">
+               <placeName type="index">Kidderminster</placeName>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            <place type="place" xml:id="place_101070">
+               <placeName type="index">Hasfield</placeName>
+               <region type="county" key="place_000025">Gloucestershire</region>
+            </place>
+            <place type="place" xml:id="place_101071">
+               <placeName type="index">Pershore Holy Cross</placeName>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            <place type="place" xml:id="place_101072">
+               <placeName type="index">Worcester St Peter</placeName>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            <place type="place" xml:id="place_101073">
+               <placeName type="index">Worcester St Martin</placeName>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            <place type="place" xml:id="place_101074"><placeName type="index">Binsey</placeName>
+               
+               <region type="county" key="place_000065">Oxfordshire</region>
+               </place>
+            <place type="place" xml:id="place_101075">
+               <placeName type="index">Claines</placeName>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            <place type="place" xml:id="place_101076">
+               <placeName type="index">Bedwardine St John</placeName>
+               <region type="county" key="place_000090">Worcestershire</region>
             </place>
          </listPlace>
 
@@ -614,6 +647,7 @@
 
          <listOrg>
             <org xml:id="org_101001">
+               <orgName type="index">Evesham, abbey</orgName>
                <orgName type="formInDocument">abbey of Evesham</orgName>
                <orgName type="formInDocument">convent of Evesham</orgName>
                <note type="charter">MS. Ch. Worcs. 2</note>
@@ -621,32 +655,39 @@
             </org>
            
             <org xml:id="org_101003">
+               <orgName type="index">Bromsgrove, parish church</orgName>
                <orgName type="formInDocument">church of Bremesgrave</orgName>
                <note type="charter">MS. Ch. Worcs. 42b</note>
             </org>
             <org xml:id="org_101004">
+               <orgName type="index">Daventry, priory</orgName>
                <orgName type="formInDocument">convent of Daventry</orgName>
                <note type="charter">MS. Ch. Worcs. 2</note>
             </org>
 
             <org xml:id="org_101005">
+               <orgName type="index">Christ Church, Oxford</orgName>
                <orgName type="formInDocument">dean and chapter of Christ Church, Oxford</orgName>
                <note type="charter">MS. Ch. Worcs. 4</note>
             </org>
             <org xml:id="org_101006">
+               <orgName type="index">Worcester, Franciscan friary</orgName>
                <orgName type="formInDocument">friars minor of Worcester</orgName>
                <note type="charter">MS. Ch. Worcs. 60</note>
             </org>
            
             <org xml:id="org_101007">
+               <orgName type="index">Whitstone, nunnery</orgName>
                <orgName type="formInDocument">nunnery of Wytston</orgName>
                <note type="charter">MS. Ch. Worcs. 101</note>
             </org>
             <org xml:id="org_101008">
+               <orgName type="index">Worcester, priory</orgName>
                <orgName type="formInDocument">priory of Worcester</orgName>
                <note type="charter">MS. Ch. Worcs. 63</note>
             </org>
             <org xml:id="org_101009">
+               <orgName type="index">Worcester, hospital of St Wolstan</orgName>
                <orgName type="formInDocument">St. Wlstan's</orgName>
                <orgName type="formInDocument">St. Wlstan</orgName>
                <orgName type="formInDocument">St. Wlstan, Worcester</orgName>
