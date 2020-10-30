@@ -231,14 +231,7 @@
                <note type="charter">MS. Ch. Cambs. 52</note>
             </place>
           
-            <place type="rectory" xml:id="place_100016">
-               <placeName type="index">Castle Camps</placeName>
-               <placeName type="formInDocument">Campes alias Great Campes</placeName>
-               <placeName type="formInDocument">Castle Camps</placeName>
-               <region type="county" key="place_000014">Cambridgeshire</region>
-               <note type="charter">MS. Ch. Cambs. 49</note>
-               <note type="charter">MS. Ch. Cambs. 48</note>
-            </place>
+          
             <place type="hundred" xml:id="place_100017">
                <placeName type="index">Chilford</placeName>
                <placeName type="formInDocument">Chilford</placeName>
@@ -465,6 +458,14 @@
                <note type="charter">MS. Ch. Cambs. 48</note>
                <note type="charter">MS. Ch. Cambs. 49</note>
                <!-- TODO: check id! -->
+            </place>
+            <place type="place" xml:id="place_100016">
+               <placeName type="index">Castle Camps</placeName>
+               <placeName type="formInDocument">Campes alias Great Campes</placeName>
+               <placeName type="formInDocument">Castle Camps</placeName>
+               <region type="county" key="place_000014">Cambridgeshire</region>
+               <note type="charter">MS. Ch. Cambs. 49</note>
+               <note type="charter">MS. Ch. Cambs. 48</note>
             </place>
             <place type="parish" xml:id="place_100044">
                <placeName type="index">Horningsea</placeName>
@@ -930,6 +931,7 @@
                <placeName type="formInDocument">Croule</placeName>
                <placeName type="formInDocument">CROWLE</placeName>
                <placeName type="formInDocument">Crowle</placeName>
+               <placeName type="formInDocument">Crule</placeName>
                <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10479812</idno>
                <note type="charter">MS. Ch. Worcs. 91</note>
@@ -1281,11 +1283,11 @@
                <region type="county" key="place_000090">Worcestershire</region>
             </place>
             <place type="place" xml:id="place_101072">
-               <placeName type="index">Worcester St Peter</placeName>
+               <placeName type="index">Worcester, St Peter</placeName>
                <region type="county" key="place_000090">Worcestershire</region>
             </place>
             <place type="place" xml:id="place_101073">
-               <placeName type="index">Worcester St Martin</placeName>
+               <placeName type="index">Worcester, St Martin</placeName>
                <region type="county" key="place_000090">Worcestershire</region>
             </place>
             <place type="place" xml:id="place_101074"><placeName type="index">Binsey</placeName>
@@ -1300,7 +1302,10 @@
                <placeName type="index">Bedwardine St John</placeName>
                <region type="county" key="place_000090">Worcestershire</region>
             </place>
-            
+            <place type="place" xml:id="place_101077">
+               <placeName type="index">Worcester, St Clement</placeName>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
          </listPlace>
 
 
@@ -1507,7 +1512,7 @@
             </org>
             
             <org xml:id="org_101005">
-               <orgName type="index">Christ Church, Oxford</orgName>
+               <orgName type="index">Oxford, Christ Church</orgName>
                <orgName type="formInDocument">dean and chapter of Christ Church, Oxford</orgName>
                <note type="charter">MS. Ch. Worcs. 4</note>
             </org>
