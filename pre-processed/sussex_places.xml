@@ -15,35 +15,46 @@
    <text>
       <body>
          <listPlace>
-            
+            <!--USE THE FOLLOWING AS AN EXAMPLE <place type="manor" xml:id="place_102007">-->
         
             <place type="manor" xml:id="place_102001">
                <placeName type="formInDocument">Alston</placeName>
-               <note type="charter">MS. Ch. Sussex
-                     85</note>
+               <!--<region type="parish"></region>
+               <region type="county"></region>-->
+               <note type="charter">MS. Ch. Sussex 85</note>
             </place>
-            <place type="manor" xml:id="place_102002">
-               <placeName type="formInDocument">atte Denne</placeName> <!-- same as Denne? -->
-               <note type="charter">MS. Ch. Sussex 155</note>
-            </place>
+            
             <place type="manor" xml:id="place_102003">
                <placeName type="formInDocument">BRADEBRUGGE manor, in Bosham</placeName>
+               <!--<region type="parish"></region>
+               <region type="county"></region>-->
+
                <note type="charter">MS. Ch. Sussex 80</note>
             </place>
             <place type="manor" xml:id="place_102004">
+               <placeName type="index">Denn</placeName>
+               <placeName type="formInDocument">atte Denne</placeName>
                <placeName type="formInDocument">Den</placeName>
                <placeName type="formInDocument">Denne</placeName>
                <placeName type="formInDocument">La Denne</placeName>
+               <region type="parish">Horsham</region>          
+               <region type="county">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F255240</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Warnham: Manors and other estates', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 207-212. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp207-212 [accessed 3 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 153</note>
-               <note type="charter">MS. Ch. Sussex
-                     154</note>
-               <note type="charter">MS. Ch.
-                     Sussex 160a</note>
+               <note type="charter">MS. Ch. Sussex 154</note>
+               <note type="charter">MS. Ch. Sussex 155</note>
+               <note type="charter">MS. Ch. Sussex 160a</note>
             </place>
             
             
             <place type="manor" xml:id="place_102005">
+               <placeName type="index">Downash</placeName>
                <placeName type="formInDocument">Downask</placeName>
+               <region type="parish">Hailsham</region>
+               <region type="county">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F254889</idno>
+               <!--<bibl>Pevensey rape, not available in VCH</bibl>-->
                <note type="charter">MS. Ch. Suffolk 1354</note>
             </place>
            
@@ -58,67 +69,108 @@
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F238929</idno>
                <bibl>'The parish and liberty of Havant', in A History of the County of Hampshire: Volume 3, ed. William Page (London, 1908), pp. 122-127. British History Online http://www.british-history.ac.uk/vch/hants/vol3/pp122-127 [accessed 29 October 2020].</bibl>
             </place>
+            
             <place type="manor" xml:id="place_102008">
-               <placeName type="formInDocument">manor of Otham</placeName>
+               <placeName type="index">Otham</placeName>
+               <placeName type="formInDocument">Otham</placeName>
+               <region type="parish">Hailsham</region>
+               <region type="county">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F255031</idno>
+               <bibl>'Houses of Premonstratensian canons: Abbey of Otham', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), p. 86. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/p86 [accessed 2 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 21</note>
             </place>
-            <place type="manor" xml:id="place_102009">
-               <placeName type="formInDocument">Mychelham</placeName>
+            
+            <place type="manor" xml:id="place_102009"> 
+               <placeName type="index">Michelham Parkgate</placeName>
+               <placeName type="formInDocument">Mychelham Parkgate</placeName>
+               <region type="parish">Arlingon</region>
+               <region type="county">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F255009</idno>
                <note type="charter">MS. Ch. Suffolk 1354</note>
-            </place>
-            <place type="manor" xml:id="place_102010">
-               <placeName type="formInDocument">Ovingdeane</placeName>
-               <note type="charter">MS. Ch. Sussex 168</note>
-            </place>
-            <place type="manor" xml:id="place_102011">
-               <placeName type="formInDocument">Parkgate</placeName>
-               <note type="charter">MS. Ch. Suffolk 1354</note>
-            </place>
-            <place type="manor" xml:id="place_102012">
-               <placeName type="formInDocument">Sneylham</placeName>
-               <note type="charter">MS. Ch. Sussex 261</note>
-            </place>
-            <place type="manor" xml:id="place_102013">
-               <placeName type="formInDocument">Sternfeld</placeName>
-               <note type="charter">MS. Ch. Suffolk 1354</note>
-            </place>
-            <place type="manor" xml:id="place_102014">
-               <placeName type="formInDocument">Stoneham</placeName>
-               <note type="charter">MS. Rolls Sussex 3</note>
-            </place>
-            <place type="manor" xml:id="place_102015">
-               <placeName type="formInDocument">Well</placeName>
-               <placeName type="formInDocument">Welle</placeName>
-               <placeName type="formInDocument">Wells</placeName><!-- really same? -->
-               <note type="charter">MS. Ch. Sussex
-                     253</note>
-               <note type="charter">MS. Ch.
-                     Sussex 99</note>
-               <note type="charter">MS. Ch. Sussex 254</note>
             </place>
             
-        
+            <place type="manor" xml:id="place_102010">
+               <placeName type="index">Ovingdean</placeName>
+               <placeName type="formInDocument">Ovingdeane</placeName>
+               <region type="parish">Ovingdean</region>
+               <region type="county">Sussex</region>
+               <!--?? TNA has this, but probably different: <idno>http://discovery.nationalarchives.gov.uk/details/c/F255344</idno>-->
+               <bibl>'Parishes: Ovingdean', in A History of the County of Sussex: Volume 7, the Rape of Lewes, ed. L F Salzman (London, 1940), pp. 227-232. British History Online http://www.british-history.ac.uk/vch/sussex/vol7/pp227-232 [accessed 2 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 168</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102012">
+               <placeName type="formInDocument">Sneylham</placeName>
+               <!--Cannot find this at all
+               <region type="parish"></region>
+               <region type="county"></region>-->
+               <note type="charter">MS. Ch. Sussex 261</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102013">
+               <placeName type="formInDocument">Sternfeld</placeName>
+               <!-- Cannot figure this out <region type="parish"></region>
+               <region type="county">Sussex (manor according to the charter, but cannot find it) 
+               or Suffolk (there is a parish of Sternfield) perhaps? http://www.gatehouse-gazetteer.info/Indexs/EngCounty/Suffolk.html lists Sternfield/Sternefeld as 'fortified manor house' in Suffolk</region>-->
+               <note type="charter">MS. Ch. Suffolk 1354</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102014">
+               <placeName type="index">Stoneham</placeName>
+               <placeName type="variant">Stonham</placeName>
+               <placeName type="variant">Stonhamme</placeName>
+               <placeName type="formInDocument">Stoneham</placeName>
+               <region type="parish">South Malling</region>
+               <region type="county">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F255102</idno>
+               <note type="charter">MS. Rolls Sussex 3</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102015">
+               <placeName type="index">Welle</placeName>
+               <placeName type="formInDocument">Well</placeName>
+               <placeName type="formInDocument">Welle</placeName>
+               <placeName type="formInDocument">Wells</placeName>
+               <region type="parish">Itchingfield</region>
+               <region type="county">Sussex</region>
+               <!-- cannot see in TNA, lots of Well(e/s) manors, but none marked in Sussex?
+                  <idno></idno>-->
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Itchingfield: Manors and other estates', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 10-13. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp10-13 [accessed 2 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 253</note>
+               <note type="charter">MS. Ch. Sussex 99</note>
+               <note type="charter">MS. Ch. Sussex 254</note>
+            </place>
          
             <place type="place" xml:id="place_102016">
                <placeName type="formInDocument">...combe, Kent</placeName>
+               <placeName type="county">Kent</placeName>
                <note type="charter">MS. Ch. Sussex 259</note>
             </place>
            
             <place type="place" xml:id="place_102017">
+               <placeName type="index">Abinger</placeName>
                <placeName type="formInDocument">Abinger</placeName>
+               <placeName type="county">Surrey</placeName>
+               <bibl>'Parishes: Abinger', in A History of the County of Surrey: Volume 3, ed. H E Malden (London, 1911), pp. 129-134. British History Online http://www.british-history.ac.uk/vch/surrey/vol3/pp129-134 [accessed 3 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 252</note>
             </place>
             
-            
             <place type="place" xml:id="place_102018">
                <placeName type="formInDocument">Adyngton</placeName>
+               <!--<placeName type="parish"></placeName> 
+                  <placeName type="county"></placeName>-->
                <note type="charter">MS. Ch. Sussex 242</note>
             </place>
+            
             <place type="place" xml:id="place_102019">
                <placeName type="formInDocument">Anedelle</placeName>
+               <!--<placeName type="parish"></placeName> 
+                  <placeName type="county"></placeName>-->
                <note type="charter">MS. Ch. Sussex 32</note>
             </place>
+            
             <place type="place" xml:id="place_102020">
+               <placeName type="index">Arundel</placeName>
                <placeName type="formInDocument">Arundel</placeName>
                <placeName type="formInDocument">Arundell</placeName>
                <note type="charter">MS. Ch. Sussex 52</note>
@@ -126,53 +178,64 @@
                <note type="charter">MS. Ch. Sussex 48</note>
                <note type="charter">MS. Ch. Sussex 53</note>
                <note type="charter">MS. Ch. Sussex 54</note>
+               <note type="charter">MS. Ch. Sussex 57</note>
                <note type="charter">MS. Ch. Sussex 58</note>
                <note type="charter">MS. Ch. Sussex 61</note>
                <note type="charter">MS. Ch. Sussex 62</note>
                <note type="charter">MS. Ch. Sussex 69</note>
                <note type="charter">MS. Ch. Sussex 72</note>
                <note type="charter">MS. Ch. Sussex 65</note>
+               <bibl>A P Baggs and H M Warne, 'Arundel', in A History of the County of Sussex: Volume 5 Part 1, Arundel Rape: South-Western Part, Including Arundel, ed. T P Hudson (London, 1997), pp. 10-101. British History Online http://www.british-history.ac.uk/vch/sussex/vol5/pt1/pp10-101 [accessed 3 November 2020].</bibl>
             </place>
-            <place type="place" xml:id="place_102021">
-               <placeName type="formInDocument">Arundel bridge</placeName> <!-- same as Causeway? -->
-               <placeName type="formInDocument">bridge at Arundel</placeName>
-               <placeName type="formInDocument">bridge of Arundel</placeName>
-               <note type="charter">MS. Ch. Sussex 48</note>
-               <note type="charter">MS. Ch. Sussex 72</note>
-               <note type="charter">MS. Ch. Sussex 57</note>
-            </place>
+            
             <place type="place" xml:id="place_102022">
+               <placeName type="index">Ashton Green</placeName>
                <placeName type="formInDocument">Ashton</placeName>
+               <placeName type="parish">Ringmer</placeName>
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ringmer/5328722fb47fc40c360007cb-Ashton+Green</idno>
                <note type="charter">MS. Rolls Sussex 3</note>
             </place>
+            
             <place type="place" xml:id="place_102023">
                <placeName type="formInDocument">Baddynggemere</placeName>
+               <!--<placeName type="parish"></placeName>
+               <placeName type="county"></placeName>-->
                <note type="charter">MS. Ch. Sussex 125</note>
                <note type="charter">MS. Ch. Sussex 126</note>
             </place>
+            
             <place type="place" xml:id="place_102024">
+               <placeName type="index">Battle</placeName>
                <placeName type="formInDocument">Battle</placeName>
-               <note type="charter">MS. Ch.
-                     Sussex 77</note>
+               <placeName type="parish">Battle</placeName>
+               <placeName type="county">Sussex</placeName> <idno>https://epns.nottingham.ac.uk/browse/Sussex/Battle/5328724eb47fc40c36000ca5-Battle</idno>
+               <note type="charter">MS. Ch. Sussex 77</note>
             </place>
+            
             <place type="place" xml:id="place_102025">
                <placeName type="formInDocument">Beaulieu</placeName>
                <note type="charter">MS. Ch. Sussex 7a</note>
             </place>
-            <place type="place" xml:id="place_102026">
              
-            </place>
             <place type="place" xml:id="place_102027">
+               <placeName type="index">Bayham</placeName>
                <placeName type="formInDocument">Begham</placeName>
                <placeName type="formInDocument">Begeham</placeName>
                <placeName type="formInDocument">Beghame</placeName>
                <placeName type="formInDocument">Beigham</placeName>
                <placeName type="formInDocument">Beiham</placeName>
                <placeName type="formInDocument">Be[igham</placeName>
-               <placeName type="formInDocument">St. Mary of Begeham</placeName>
+               <!-- these are likely the abbey > is it okay if I change them to orgName in the doc's and remove them as placeName and note refs from here?
+                  <placeName type="formInDocument">St. Mary of Begeham</placeName>
                <placeName type="formInDocument">St. Mary of Begham</placeName>
-               <placeName type="formInDocument">St. Mary of Beigham</placeName>
+               <placeName type="formInDocument">St. Mary of Beigham</placeName>-->
                <placeName type="formInDocument">Begham</placeName>
+               <region type="parish">Frant</region>
+               <region type="county">Sussex</region>
+               <!-- this id's the name also as a hamlet,
+                  <idno>https://www.visionofbritain.org.uk/descriptions/873180</idno>
+               other sources talk about the abbey, eg. https://epns.nottingham.ac.uk/browse/Sussex/Frant/5328722eb47fc40c360003ed-Bayham+Abbey-->
                <note type="charter">MS. Ch. Sussex 7b</note>
                <note type="charter">MS. Ch. Sussex 26</note>
                <note type="charter">MS. Ch. Sussex 4</note>
@@ -187,6 +250,7 @@
                <note type="charter">MS. Ch. Sussex 7b</note>
                <note type="charter">MS. Ch. Sussex 26</note>
             </place>
+            
             <place type="place" xml:id="place_102028">
                <placeName type="formInDocument">Billinghurst</placeName>
                <placeName type="formInDocument">Billingehurst</placeName>
@@ -551,15 +615,18 @@
                      152</note>
             </place>
             <place type="place" xml:id="place_102078">
+               <placeName type="index">Horsham</placeName>
                <placeName type="formInDocument">Horsham</placeName>
                <placeName type="formInDocument">Horesham</placeName>
+               <region type="parish">Horsham</region>
+               <region type="county">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Horsham/5328724eb47fc40c36000d18-Horsham</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Horsham: General history of the town', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 131-156. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp131-156 [accessed 3 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 147</note>
                <note type="charter">MS. Ch. Sussex 230</note>
-               <note type="charter">MS. Ch. Sussex
-                     83A</note>
+               <note type="charter">MS. Ch. Sussex 83A</note>
                <note type="charter">MS. Ch. Sussex 108</note>
-               <note type="charter">MS. Ch. Sussex
-                  109</note>
+               <note type="charter">MS. Ch. Sussex 109</note>
                <note type="charter">MS. Ch. Sussex 110</note>
                <note type="charter">MS. Ch. Sussex 111</note>
                <note type="charter">MS. Ch. Sussex 112</note>
@@ -569,8 +636,7 @@
                <note type="charter">MS. Ch. Sussex 116</note>
                <note type="charter">MS. Ch. Sussex 117</note>
                <note type="charter">MS. Ch. Sussex 118</note>
-               <note type="charter">MS. Ch. Sussex
-                     119</note>
+               <note type="charter">MS. Ch. Sussex 119</note>
                <note type="charter">MS. Ch. Sussex 121</note>
                <note type="charter">MS. Ch. Sussex 122</note>
                <note type="charter">MS. Ch. Sussex 123</note>
@@ -580,82 +646,64 @@
                <note type="charter">MS. Ch. Sussex 127</note>
                <note type="charter">MS. Ch. Sussex 128</note>
                <note type="charter">MS. Ch. Sussex 129</note>
-               <note type="charter">MS. Ch. Sussex
-                     130</note>
-               <note type="charter">MS. Ch. Sussex
-                     131</note>
+               <note type="charter">MS. Ch. Sussex 130</note>
+               <note type="charter">MS. Ch. Sussex 131</note>
                <note type="charter">MS. Ch. Sussex 132</note>
                <note type="charter">MS. Ch. Sussex 133</note>
                <note type="charter">MS. Ch. Sussex 134</note>
                <note type="charter">MS. Ch. Sussex 135</note>
                <note type="charter">MS. Ch. Sussex 136</note>
-               <note type="charter">MS. Ch. Sussex
-                     137</note>
+               <note type="charter">MS. Ch. Sussex 137</note>
                <note type="charter">MS. Ch. Sussex 138</note>
                <note type="charter">MS. Ch. Sussex 139</note>
-               <note type="charter">MS. Ch. Sussex
-                     140</note>
+               <note type="charter">MS. Ch. Sussex 140</note>
                <note type="charter">MS. Ch. Sussex 141</note>
                <note type="charter">MS. Ch. Sussex 142</note>
-               <note type="charter">MS. Ch. Sussex
-                     143</note>
+               <note type="charter">MS. Ch. Sussex 143</note>
                <note type="charter">MS. Ch. Sussex 144</note>
-               <note type="charter">MS. Ch.
-                     Sussex 145</note>
+               <note type="charter">MS. Ch. Sussex 145</note>
                <note type="charter">MS. Ch. Sussex 146</note>
                <note type="charter">MS. Ch. Sussex 147</note>
                <note type="charter">MS. Ch. Sussex 148</note>
                <note type="charter">MS. Ch. Sussex 149</note>
                <note type="charter">MS. Ch. Sussex 150</note>
                <note type="charter">MS. Ch. Sussex 151</note>
-               <note type="charter">MS. Ch. Sussex
-                     152</note>
+               <note type="charter">MS. Ch. Sussex 152</note>
                <note type="charter">MS. Ch. Sussex 153</note>
-               <note type="charter">MS. Ch. Sussex
-                     154</note>
+               <note type="charter">MS. Ch. Sussex 154</note>
                <note type="charter">MS. Ch. Sussex 155</note>
-               <note type="charter">MS. Ch. Sussex
-                     156</note>
+               <note type="charter">MS. Ch. Sussex 156</note>
                <note type="charter">MS. Ch. Sussex 157</note>
                <note type="charter">MS. Ch. Sussex 158</note>
                <note type="charter">MS. Ch. Sussex 159</note>
-               <note type="charter">MS. Ch.
-                     Sussex 160a</note>
+               <note type="charter">MS. Ch. Sussex 160a</note>
                <note type="charter">MS. Ch. Sussex 161</note>
                <note type="charter">MS. Ch. Sussex 162</note>
                <note type="charter">MS. Ch. Sussex 163</note>
                <note type="charter">MS. Ch. Sussex 88</note>
                <note type="charter">MS. Ch. Sussex 89</note>
-               <note type="charter">MS. Ch.
-                     Sussex 102</note>
+               <note type="charter">MS. Ch. Sussex 102</note>
                <note type="charter">MS. Ch. Sussex 174</note>
                <note type="charter">MS. Ch. Sussex 187</note>
                <note type="charter">MS. Ch. Sussex 188</note>
                <note type="charter">MS. Ch. Sussex 198</note>
-               <note type="charter">MS. Ch. Sussex
-                     200</note>
+               <note type="charter">MS. Ch. Sussex 200</note>
                <note type="charter">MS. Ch. Sussex 204</note>
                <note type="charter">MS. Ch. Sussex 205</note>
                <note type="charter">MS. Ch. Sussex 206</note>
                <note type="charter">MS. Ch. Sussex 213</note>
-               <note type="charter">MS. Ch. Sussex
-                     217</note>
+               <note type="charter">MS. Ch. Sussex 217</note>
                <note type="charter">MS. Ch. Sussex 218</note>
                <note type="charter">MS. Ch. Sussex 219</note>
-               <note type="charter">MS. Ch. Sussex
-                     220</note>
-               <note type="charter">MS. Ch. Sussex
-                     226</note>
-               <note type="charter">MS. Ch. Sussex
-                     227</note>
+               <note type="charter">MS. Ch. Sussex 220</note>
+               <note type="charter">MS. Ch. Sussex 226</note>
+               <note type="charter">MS. Ch. Sussex 227</note>
                <note type="charter">MS. Ch. Sussex 228</note>
                <note type="charter">MS. Ch. Sussex 235</note>
                <note type="charter">MS. Ch. Sussex 238</note>
-               <note type="charter">MS. Ch. Sussex
-                     239</note>
+               <note type="charter">MS. Ch. Sussex 239</note>
                <note type="charter">MS. Ch. Sussex 240</note>
-               <note type="charter">MS. Ch.
-                     Sussex 251</note>
+               <note type="charter">MS. Ch. Sussex 251</note>
                <note type="charter">MS. Ch. Sussex 256</note>
                <note type="charter">MS. Ch. Sussex 304</note>
                <note type="charter">MS. Ch. Sussex 160*</note>
@@ -831,9 +879,14 @@
                <note type="charter">MS. Ch. Sussex 167</note>
             </place>
             <place type="place" xml:id="place_102107">
+               <placeName type="index">Middleham</placeName>
                <placeName type="formInDocument">Middeham</placeName>
+               <placeName type="parish">Ringmer</placeName>
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ringmer/5328722fb47fc40c360007d0-Middleham</idno>
                <note type="charter">MS. Rolls Sussex 3</note>
             </place>
+            
             <place type="place" xml:id="place_102108">
                <placeName type="formInDocument">Midedhurst</placeName>
                <note type="charter">MS. Ch. Sussex 263</note>
@@ -853,7 +906,11 @@
                <note type="charter">MS. Ch. Sussex 4</note>
             </place>
             <place type="place" xml:id="place_102112">
+               <placeName type="index">Norlington</placeName>
                <placeName type="formInDocument">Norlington</placeName>
+               <placeName type="parish">Ringmer</placeName>
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ringmer/5328722fb47fc40c360007d1-Norlington</idno>
                <note type="charter">MS. Rolls Sussex 3</note>
             </place>
             <place type="place" xml:id="place_102113">
@@ -1277,10 +1334,15 @@
                <note type="charter">MS. Ch. Sussex 56</note>
             </place>
             <place type="place" xml:id="place_102169">
+               <placeName type="index">Warnham</placeName>
                <placeName type="formInDocument">Warnham</placeName>
                <placeName type="formInDocument">Warneham</placeName>
                <placeName type="formInDocument">Wernham</placeName>
                <placeName type="formInDocument">Wornham</placeName>
+               <region type="parish"></region>
+               <region type="county">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Warnham/5328724fb47fc40c36000d9f-Warnham</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Warnham', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 203-207. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp203-207 [accessed 3 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 180</note>
                <note type="charter">MS. Ch. Sussex 275</note>
                <note type="charter">MS. Ch. Sussex 94</note>
@@ -1297,30 +1359,24 @@
                <note type="charter">MS. Ch. Sussex 283</note>
                <note type="charter">MS. Ch. Sussex 289</note>
                <note type="charter">MS. Ch. Sussex 219</note>
-               <note type="charter">MS. Ch.
-                     Sussex 160a</note>
+               <note type="charter">MS. Ch. Sussex 160a</note>
                <note type="charter">MS. Ch. Sussex 162</note>
-               <note type="charter">MS. Ch.
-                     Sussex 102</note>
+               <note type="charter">MS. Ch. Sussex 102</note>
                <note type="charter">MS. Ch. Sussex 187</note>
                <note type="charter">MS. Ch. Sussex 188</note>
                <note type="charter">MS. Ch. Sussex 192</note>
-               <note type="charter">MS. Ch. Sussex
-                     193</note>
+               <note type="charter">MS. Ch. Sussex 193</note>
                <note type="charter">MS. Ch. Sussex 194</note>
                <note type="charter">MS. Ch. Sussex 204</note>
                <note type="charter">MS. Ch. Sussex 206</note>
                <note type="charter">MS. Ch. Sussex 207</note>
                <note type="charter">MS. Ch. Sussex 208</note>
                <note type="charter">MS. Ch. Sussex 213</note>
-               <note type="charter">MS. Ch. Sussex
-                     217</note>
+               <note type="charter">MS. Ch. Sussex 217</note>
                <note type="charter">MS. Ch. Sussex 219</note>
-               <note type="charter">MS. Ch. Sussex
-                     226</note>
+               <note type="charter">MS. Ch. Sussex 226</note>
                <note type="charter">MS. Ch. Sussex 236</note>
-               <note type="charter">MS. Ch. Sussex
-                     253</note>
+               <note type="charter">MS. Ch. Sussex 253</note>
                <note type="charter">MS. Ch. Sussex 256</note>
                <note type="charter">MS. Ch. Sussex 257</note>
                <note type="charter">MS. Ch. Sussex 279</note>
@@ -1350,14 +1406,19 @@
                <note type="charter">MS. Ch. Sussex 308</note>
                <note type="charter">MS. Ch. Sussex 310</note>
             </place>
+            
             <place type="place" xml:id="place_102170">
+               <placeName type="index">Wellingham</placeName>
                <placeName type="formInDocument">Wellingham</placeName>
+               <placeName type="parish">Ringmer</placeName>
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ringmer/5328722fb47fc40c360007d3-Wellingham</idno>
                <note type="charter">MS. Rolls Sussex 3</note>
             </place>
+            
             <place type="church" xml:id="place_102171">
                <placeName type="formInDocument">West Grinstead</placeName>
-               <note type="charter">MS. Ch.
-                  Sussex 84</note>
+               <note type="charter">MS. Ch. Sussex 84</note>
             </place>
             <place type="place" xml:id="place_102172">
                <placeName type="formInDocument">West Kechenham</placeName>
