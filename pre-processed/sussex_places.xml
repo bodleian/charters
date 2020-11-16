@@ -18,17 +18,20 @@
             <!--USE THE FOLLOWING AS AN EXAMPLE <place type="manor" xml:id="place_102007">-->
         
             <place type="manor" xml:id="place_102001">
+               <placeName type="index">Alciston</placeName>
                <placeName type="formInDocument">Alston</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>-->
+               <region type="parish">Alciston</region>
+               <region type="county">Sussex</region>
+               <!-- not included an IDNO as not sure which manor this is  -->
                <note type="charter">MS. Ch. Sussex 85</note>
             </place>
             
             <place type="manor" xml:id="place_102003">
+               <placeName type="index">Broadbridge</placeName>
                <placeName type="formInDocument">BRADEBRUGGE manor, in Bosham</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>-->
-
+               <region type="parish">Bosham</region>
+               <region type="county">Sussex</region>
+               <!-- not found in MDR/TNA -->
                <note type="charter">MS. Ch. Sussex 80</note>
             </place>
             <place type="manor" xml:id="place_102004">
@@ -44,7 +47,7 @@
                <note type="charter">MS. Ch. Sussex 153</note>
                <note type="charter">MS. Ch. Sussex 154</note>
                <note type="charter">MS. Ch. Sussex 155</note>
-               <note type="charter">MS. Ch. Sussex 160a</note>
+               <note type="charter">MS. Ch. Sussex 160a</note><!-- ckd MLH -->
             </place>
             
             
@@ -83,7 +86,7 @@
             <place type="manor" xml:id="place_102009"> 
                <placeName type="index">Michelham Parkgate</placeName>
                <placeName type="formInDocument">Mychelham Parkgate</placeName>
-               <region type="parish">Arlingon</region>
+               <region type="parish">Arlington</region>
                <region type="county">Sussex</region>
                <idno>http://discovery.nationalarchives.gov.uk/details/c/F255009</idno>
                <note type="charter">MS. Ch. Suffolk 1354</note>
@@ -100,19 +103,26 @@
             </place>
             
             <place type="manor" xml:id="place_102012">
+               <placeName type="index">Snailham</placeName>
                <placeName type="formInDocument">Sneylham</placeName>
-               <!--Cannot find this at all
-               <region type="parish"></region>
-               <region type="county"></region>-->
+               <region type="parish">Guestling</region>
+               <region type="county">Sussex</region>
                <note type="charter">MS. Ch. Sussex 261</note>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F255472</idno>
             </place>
             
             <place type="manor" xml:id="place_102013">
+               <placeName type="index">Sternfield, Mandeville's manor</placeName><placeName type="variant">Sternfield, Mundevilles</placeName>
                <placeName type="formInDocument">Sternfeld</placeName>
+               <region type="parish">Sternfield</region>
+               <region type="county">Suffolk</region>
                <!-- Cannot figure this out <region type="parish"></region>
                <region type="county">Sussex (manor according to the charter, but cannot find it) 
                or Suffolk (there is a parish of Sternfield) perhaps? http://www.gatehouse-gazetteer.info/Indexs/EngCounty/Suffolk.html lists Sternfield/Sternefeld as 'fortified manor house' in Suffolk</region>-->
+               <!-- plomesgate hundred. marriage settlement, Thomas duke of Norfolk. 1 Mary. -->
                <note type="charter">MS. Ch. Suffolk 1354</note>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F250179</idno>
+               <bibl>W. A. Copinger, <title>The Manors of Suffolk</title>, V.170-1</bibl>
             </place>
             
             <place type="manor" xml:id="place_102014">
@@ -139,7 +149,10 @@
                <note type="charter">MS. Ch. Sussex 253</note>
                <note type="charter">MS. Ch. Sussex 99</note>
                <note type="charter">MS. Ch. Sussex 254</note>
+               <!-- ckd MLH -->
             </place>
+         
+         <!-- end of manors -->
          
             <place type="place" xml:id="place_102016">
                <placeName type="formInDocument">...combe, Kent</placeName>
@@ -156,14 +169,14 @@
             </place>
             
             <place type="place" xml:id="place_102018">
+               <placeName type="index">Addington</placeName>
                <placeName type="formInDocument">Adyngton</placeName>
-               <!--<placeName type="parish"></placeName> 
-                  <placeName type="county"></placeName>-->
+                  <placeName type="county">Surrey</placeName>
                <note type="charter">MS. Ch. Sussex 242</note>
             </place>
             
             <place type="place" xml:id="place_102019">
-               <placeName type="formInDocument">Anedelle</placeName>
+               <placeName type="formInDocument">Anedelle</placeName><!-- MLH not found: error for Arundel? -->
                <!--<placeName type="parish"></placeName> 
                   <placeName type="county"></placeName>-->
                <note type="charter">MS. Ch. Sussex 32</note>
@@ -173,6 +186,7 @@
                <placeName type="index">Arundel</placeName>
                <placeName type="formInDocument">Arundel</placeName>
                <placeName type="formInDocument">Arundell</placeName>
+               <region type="county">Sussex</region>
                <note type="charter">MS. Ch. Sussex 52</note>
                <note type="charter">MS. Ch. Sussex 33</note>
                <note type="charter">MS. Ch. Sussex 48</note>
@@ -198,9 +212,10 @@
             </place>
             
             <place type="place" xml:id="place_102023">
+               <placeName type="index">Baddingmere</placeName>
                <placeName type="formInDocument">Baddynggemere</placeName>
-               <!--<placeName type="parish"></placeName>
-               <placeName type="county"></placeName>-->
+               <placeName type="parish">Horsham</placeName>
+               <placeName type="county">Sussex</placeName>
                <note type="charter">MS. Ch. Sussex 125</note>
                <note type="charter">MS. Ch. Sussex 126</note>
             </place>
@@ -213,11 +228,6 @@
                <note type="charter">MS. Ch. Sussex 77</note>
             </place>
             
-            <place type="place" xml:id="place_102025">
-               <placeName type="formInDocument">Beaulieu</placeName>
-               <note type="charter">MS. Ch. Sussex 7a</note>
-            </place>
-             
             <place type="place" xml:id="place_102027">
                <placeName type="index">Bayham</placeName>
                <placeName type="formInDocument">Begham</placeName>
@@ -236,6 +246,8 @@
                <!-- this id's the name also as a hamlet,
                   <idno>https://www.visionofbritain.org.uk/descriptions/873180</idno>
                other sources talk about the abbey, eg. https://epns.nottingham.ac.uk/browse/Sussex/Frant/5328722eb47fc40c360003ed-Bayham+Abbey-->
+                 <placeName type="formInDocument">Beaulieu</placeName>
+               <note type="charter">MS. Ch. Sussex 7a</note>
                <note type="charter">MS. Ch. Sussex 7b</note>
                <note type="charter">MS. Ch. Sussex 26</note>
                <note type="charter">MS. Ch. Sussex 4</note>
@@ -884,7 +896,7 @@
                <placeName type="parish">Ringmer</placeName>
                <placeName type="county">Sussex</placeName>
                <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ringmer/5328722fb47fc40c360007d0-Middleham</idno>
-               <note type="charter">MS. Rolls Sussex 3</note>
+               <note type="charter">MS. Rolls Sussex 3</note><!-- ckd MLH -->
             </place>
             
             <place type="place" xml:id="place_102108">
@@ -911,7 +923,7 @@
                <placeName type="parish">Ringmer</placeName>
                <placeName type="county">Sussex</placeName>
                <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ringmer/5328722fb47fc40c360007d1-Norlington</idno>
-               <note type="charter">MS. Rolls Sussex 3</note>
+               <note type="charter">MS. Rolls Sussex 3</note><!-- ckd MLH -->
             </place>
             <place type="place" xml:id="place_102113">
                <placeName type="formInDocument">Nutburn</placeName>
@@ -1413,7 +1425,7 @@
                <placeName type="parish">Ringmer</placeName>
                <placeName type="county">Sussex</placeName>
                <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ringmer/5328722fb47fc40c360007d3-Wellingham</idno>
-               <note type="charter">MS. Rolls Sussex 3</note>
+               <note type="charter">MS. Rolls Sussex 3</note><!-- ckd MLH -->
             </place>
             
             <place type="church" xml:id="place_102171">
@@ -1486,6 +1498,9 @@
                <note type="charter">MS. Ch. Sussex 71</note>
             </place>
          </listPlace>
+         
+         <!-- organizations -->
+         
          <listOrg>
             <org xml:id="org_102001">
                <orgName type="formInDocument">abbey and convent of Robert's Bridge</orgName>
