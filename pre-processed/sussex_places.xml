@@ -15,13 +15,14 @@
    <text>
       <body>
          <listPlace>
-            <!--USE THE FOLLOWING AS AN EXAMPLE <place type="manor" xml:id="place_102007">-->
         
             <place type="manor" xml:id="place_102001">
                <placeName type="index">Alciston</placeName>
                <placeName type="formInDocument">Alston</placeName>
                <region type="parish">Alciston</region>
                <region type="county">Sussex</region>
+               <!--<idno>http://discovery.nationalarchives.gov.uk/details/c/F254792</idno>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F254793</idno>-->
                <!-- not included an IDNO as not sure which manor this is  -->
                <note type="charter">MS. Ch. Sussex 85</note>
             </place>
@@ -34,6 +35,7 @@
                <!-- not found in MDR/TNA -->
                <note type="charter">MS. Ch. Sussex 80</note>
             </place>
+            
             <place type="manor" xml:id="place_102004">
                <placeName type="index">Denn</placeName>
                <placeName type="formInDocument">atte Denne</placeName>
@@ -112,7 +114,8 @@
             </place>
             
             <place type="manor" xml:id="place_102013">
-               <placeName type="index">Sternfield, Mandeville's manor</placeName><placeName type="variant">Sternfield, Mundevilles</placeName>
+               <placeName type="index">Sternfield, Mandeville's manor</placeName>
+               <placeName type="variant">Sternfield, Mundevilles</placeName>
                <placeName type="formInDocument">Sternfeld</placeName>
                <region type="parish">Sternfield</region>
                <region type="county">Suffolk</region>
@@ -171,14 +174,14 @@
             <place type="place" xml:id="place_102018">
                <placeName type="index">Addington</placeName>
                <placeName type="formInDocument">Adyngton</placeName>
-                  <placeName type="county">Surrey</placeName>
+               <placeName type="county">Surrey</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Addington/53287118b47fc40c23000a98-Addington</idno>
                <note type="charter">MS. Ch. Sussex 242</note>
             </place>
             
             <place type="place" xml:id="place_102019">
-               <placeName type="formInDocument">Anedelle</placeName><!-- MLH not found: error for Arundel? -->
-               <!--<placeName type="parish"></placeName> 
-                  <placeName type="county"></placeName>-->
+               <placeName type="formInDocument">Anedelle</placeName>
+               <!-- MLH not found: error for Arundel? -->
                <note type="charter">MS. Ch. Sussex 32</note>
             </place>
             
@@ -216,6 +219,7 @@
                <placeName type="formInDocument">Baddynggemere</placeName>
                <placeName type="parish">Horsham</placeName>
                <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Horsham/5328722eb47fc40c3600052d-Baddingmere</idno>
                <note type="charter">MS. Ch. Sussex 125</note>
                <note type="charter">MS. Ch. Sussex 126</note>
             </place>
@@ -224,7 +228,8 @@
                <placeName type="index">Battle</placeName>
                <placeName type="formInDocument">Battle</placeName>
                <placeName type="parish">Battle</placeName>
-               <placeName type="county">Sussex</placeName> <idno>https://epns.nottingham.ac.uk/browse/Sussex/Battle/5328724eb47fc40c36000ca5-Battle</idno>
+               <placeName type="county">Sussex</placeName> 
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Battle/5328724eb47fc40c36000ca5-Battle</idno>
                <note type="charter">MS. Ch. Sussex 77</note>
             </place>
             
@@ -236,17 +241,15 @@
                <placeName type="formInDocument">Beigham</placeName>
                <placeName type="formInDocument">Beiham</placeName>
                <placeName type="formInDocument">Be[igham</placeName>
-               <!-- these are likely the abbey > is it okay if I change them to orgName in the doc's and remove them as placeName and note refs from here?
-                  <placeName type="formInDocument">St. Mary of Begeham</placeName>
+               <placeName type="formInDocument">St. Mary of Begeham</placeName>
                <placeName type="formInDocument">St. Mary of Begham</placeName>
-               <placeName type="formInDocument">St. Mary of Beigham</placeName>-->
+               <placeName type="formInDocument">St. Mary of Beigham</placeName>
                <placeName type="formInDocument">Begham</placeName>
+               <placeName type="formInDocument">Beaulieu</placeName>
                <region type="parish">Frant</region>
                <region type="county">Sussex</region>
-               <!-- this id's the name also as a hamlet,
-                  <idno>https://www.visionofbritain.org.uk/descriptions/873180</idno>
-               other sources talk about the abbey, eg. https://epns.nottingham.ac.uk/browse/Sussex/Frant/5328722eb47fc40c360003ed-Bayham+Abbey-->
-                 <placeName type="formInDocument">Beaulieu</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Frant/5328722eb47fc40c360003ed-Bayham+Abbey</idno>
+               <idno>https://www.visionofbritain.org.uk/descriptions/873180</idno>
                <note type="charter">MS. Ch. Sussex 7a</note>
                <note type="charter">MS. Ch. Sussex 7b</note>
                <note type="charter">MS. Ch. Sussex 26</note>
@@ -254,16 +257,15 @@
                <note type="charter">MS. Ch. Sussex 16a</note>
                <note type="charter">MS. Ch. Sussex 9</note>
                <note type="charter">MS. Ch. Sussex 12</note>
-               <note type="charter">MS. Ch. Sussex 7a</note>
                <note type="charter">MS. Ch. Sussex 28a</note>
                <note type="charter">MS. Ch. Sussex 30</note>
                <note type="charter">MS. Ch. Sussex 21</note>
                <note type="charter">MS. Ch. Sussex 20</note>
-               <note type="charter">MS. Ch. Sussex 7b</note>
-               <note type="charter">MS. Ch. Sussex 26</note>
+               <!--separate abbey documents from refs to the hamlet?-->
             </place>
             
             <place type="place" xml:id="place_102028">
+               <placeName type="index">Billingshurst</placeName>
                <placeName type="formInDocument">Billinghurst</placeName>
                <placeName type="formInDocument">Billingehurst</placeName>
                <placeName type="formInDocument">Billynggushurst</placeName>
@@ -271,10 +273,12 @@
                <placeName type="formInDocument">Byllynggyshurst</placeName>
                <placeName type="formInDocument">Byllynghurst</placeName>
                <placeName type="formInDocument">Byllyngshurst</placeName>
+               <placeName type="parish">Billingshurst</placeName> 
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Billingshurst/5328724eb47fc40c36000cad-Billingshurst</idno>
                <note type="charter">MS. Ch. Sussex 245</note>
                <note type="charter">MS. Ch. Sussex 209</note>
-               <note type="charter">MS. Ch. Sussex
-                  220</note>
+               <note type="charter">MS. Ch. Sussex 220</note>
                <note type="charter">MS. Ch. Sussex 250</note>
                <note type="charter">MS. Ch. Sussex 218</note>
                <note type="charter">MS. Ch. Sussex 71</note>
@@ -282,88 +286,123 @@
                <note type="charter">MS. Ch. Sussex 38</note>
                <note type="charter">MS. Ch. Sussex 39</note>
                <note type="charter">MS. Ch. Sussex 49</note>
-              
             </place>
-            <place type="place" xml:id="place_102030">
-               <placeName type="formInDocument">Blakalond</placeName>
-               <placeName type="formInDocument">Blakelond</placeName>
-               <note type="charter">MS. Ch. Sussex 91</note>
-               <note type="charter">MS. Ch. Sussex 92</note>
-            </place>
-            <place type="place" xml:id="place_102031">
-               <placeName type="formInDocument">Blessed Mary of Thakham</placeName>
-               <note type="charter">MS. Ch. Sussex 264</note>
-            </place>
+             
             <place type="place" xml:id="place_102032">
+               <placeName type="index"></placeName>
                <placeName type="formInDocument">Boreham</placeName>
                <placeName type="formInDocument">Borham</placeName>
-               <note type="charter">MS. Ch. Sussex, 28b</note>
+               <placeName type="parish">Wartling</placeName>
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Wartling/53287230b47fc40c360009e6-Boreham+Street</idno>
+               <note type="charter">MS. Ch. Sussex 28b</note>
                <note type="charter">MS. Ch. Sussex 79</note>
             </place>
+            
             <place type="place" xml:id="place_102033">
-               <placeName type="formInDocument">Boughton Mun..chelston, Kent</placeName>
+               <!--potentially: <placeName type="index">Boughton Monchelsea</placeName>-->
+               <placeName type="formInDocument">Boughton Mun..chelston</placeName>
+               <!--<placeName type="parish"></placeName> -->
+               <placeName type="county">Kent</placeName>
+               <!--potentially: <idno>https://www.genuki.org.uk/big/eng/KEN/BoughtonMonchelsea</idno>-->
                <note type="charter">MS. Ch. Sussex 259</note>
             </place>
+            
             <place type="place" xml:id="place_102034">
+               <placeName type="index">Broad Bridge</placeName>
                <placeName type="formInDocument">Bradebrugge</placeName>
                <placeName type="formInDocument">Bradbrygges</placeName>
-               <note type="charter">MS. Ch. Sussex 308</note>
+               <placeName type="parish">Bosham</placeName> 
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Bosham/5328722cb47fc40c3600014a-Broad+Bridge</idno>
+               <note type="charter">MS. Ch. Sussex 308</note> 
                <note type="charter">MS. Ch. Sussex 80</note>
-               <note type="charter">MS. Ch. Sussex
-                     200</note>
+               <note type="charter">MS. Ch. Sussex 200</note>
             </place>
+            
             <place type="place" xml:id="place_102035">
+               <placeName type="index">Broadwater</placeName>
                <placeName type="formInDocument">Bradewatre</placeName>
                <placeName type="formInDocument">Bradewatere</placeName>
+               <placeName type="parish">Broadwater</placeName> 
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Broadwater+%28including+Worthing%29/5328724eb47fc40c36000cbc-Broadwater</idno>
                <note type="charter">MS. Ch. Sussex 209</note>
-               <note type="charter">MS. Ch. Sussex
-                     212</note>
+               <note type="charter">MS. Ch. Sussex 212</note>
             </place>
+            
             <place type="place" xml:id="place_102036">
+               <placeName type="index">Brenchley</placeName>
                <placeName type="formInDocument">Brenchysle</placeName>
-               <note type="charter">MS. Ch. Sussex 240*</note>
+               <placeName type="parish">Brenchley</placeName> 
+               <placeName type="county">Kent</placeName>
+               <note type="charter">MS. Ch. Sussex 240b</note>
             </place>
+            
             <place type="place" xml:id="place_102037">
+               <!--?? <placeName type="index"></placeName>-->
                <placeName type="formInDocument">BRIGHT WELL (Del Hame, near)</placeName>
                <placeName type="formInDocument">Britwelle</placeName>
-               <note type="charter">MS.
-                     Ch. Sussex 81</note>
-               <note type="charter">MS.
-                     Ch. Sussex 81</note>
+               <!--<placeName type="parish"></placeName> 
+               <placeName type="county"></placeName>-->
+               <note type="charter">MS. Ch. Sussex 81</note>
+               <note type="charter">MS. Ch. Sussex 81</note>
             </place>
+            
             <place type="place" xml:id="place_102038">
+               <!--?? placeName type="index"></placeName>-->
                <placeName type="formInDocument">Brokele</placeName>
+               <!--<placeName type="parish"></placeName> 
+               <placeName type="county"></placeName>-->
                <note type="charter">MS. Ch. Sussex 3</note>
             </place>
+            
             <place type="place" xml:id="place_102040">
-               <placeName type="formInDocument">Calcetum</placeName> <!-- check: are these both same as Causeway / bridge? -->
+               <!--?? <placeName type="index"></placeName>-->
                <placeName type="formInDocument">Cales</placeName>
+               <!--<placeName type="parish"></placeName> 
+               <placeName type="county"></placeName>-->
                <note type="charter">MS. Ch. Sussex 82</note>
-               <note type="charter">MS. Ch. Sussex 71</note>
             </place>
+            
             <place type="place" xml:id="place_102041">
+               <placeName type="index">Capel</placeName>
                <placeName type="formInDocument">Capelle</placeName>
+               <placeName type="parish">Capel</placeName> 
+               <placeName type="county">Surrey</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Capel/53287118b47fc40c23000aab-Capel</idno>
+               <bibl>'Parishes: Capel', in A History of the County of Surrey: Volume 3, ed. H E Malden (London, 1911), pp. 134-141. British History Online http://www.british-history.ac.uk/vch/surrey/vol3/pp134-141 [accessed 16 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 225</note>
                <note type="charter">MS. Ch. Sussex 308</note>
             </place>
+            
             <place type="place" xml:id="place_102042">
-               <placeName type="formInDocument">Causeway</placeName>
-               
-                  <placeName type="formInDocument">[at the Causeway] near Arundel</placeName>
+               <!--Perhaps all these refer to the priory of Pynham? see e.g. https://www.british-history.ac.uk/vch/sussex/vol2/pp80-81 -->
+               <!--<placeName type="index"></placeName>-->
+               <placeName type="formInDocument">Causeway</placeName> 
+               <placeName type="formInDocument">[at the Causeway] near Arundel</placeName>
                <placeName type="formInDocument">Causeway near Arundel</placeName>
-                  <placeName type="formInDocument">the Causeway</placeName>
-                  <note type="charter">MS. Ch. Sussex 69</note>
-                  <note type="charter">MS. Ch. Sussex 72</note>
+               <placeName type="formInDocument">the Causeway</placeName>
+               <placeName type="formInDocument">Calcetum</placeName> 
+               <placeName type="parish">Arundel</placeName> 
+               <placeName type="county">Sussex</placeName>
+               <bibl>A P Baggs and H M Warne, 'Arundel', in A History of the County of Sussex: Volume 5 Part 1, Arundel Rape: South-Western Part, Including Arundel, ed. T P Hudson (London, 1997), pp. 10-101. British History Online http://www.british-history.ac.uk/vch/sussex/vol5/pt1/pp10-101 [accessed 16 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 69</note>
+               <note type="charter">MS. Ch. Sussex 72</note>
                <note type="charter">MS. Ch. Sussex 66</note>
-                  <note type="charter">MS. Ch. Sussex 62</note>
-               
+               <note type="charter">MS. Ch. Sussex 62</note>
                <note type="charter">MS. Ch. Sussex 41</note>
                <note type="charter">MS. Ch. Sussex 54</note>
                <note type="charter">MS. Ch. Sussex 64</note>
+               <note type="charter">MS. Ch. Sussex 71</note>
             </place>
+            
             <place type="place" xml:id="place_102043">
+               <placeName type="index">Chichester</placeName>
                <placeName type="formInDocument">Chichester</placeName>
                <placeName type="formInDocument">Cicestre</placeName>
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/id/532871b0b47fc40c36000007-Chichester</idno>
                <note type="charter">MS. Ch. Sussex 228</note>
                <note type="charter">MS. Ch. Sussex 311</note>
                <note type="charter">MS. Ch. Sussex 50</note>
@@ -371,45 +410,63 @@
                <note type="charter">MS. Ch. Sussex 59</note>
                <note type="charter">MS. Ch. Sussex 36</note>
             </place>
+            
             <place type="place" xml:id="place_102044">
+               <placeName type="index">Chithurst</placeName>
                <placeName type="formInDocument">Chitehurst</placeName>
+               <placeName type="parish">Chithurst</placeName> 
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/53287233b47fc40c36000b5a-Chithurst</idno> 
+               <bibl>'Chithurst', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 4-6. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp4-6 [accessed 16 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 50</note>
                <note type="charter">MS. Ch. Sussex 60</note>
             </place>
             
             <place type="place" xml:id="place_102045">
+               <placeName type="index">Cuckfield</placeName>
                <placeName type="formInDocument">Cokefeld</placeName>
                <placeName type="formInDocument">COKEFELD</placeName>
                <placeName type="formInDocument">Cokefeld in Sussex</placeName>
                <placeName type="formInDocument">Cokefelde</placeName>
                <placeName type="formInDocument">Cookefeild</placeName>
                <placeName type="formInDocument">Cuckfield</placeName>
+               <placeName type="parish">Cuckfield</placeName> 
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Cuckfield/5328724eb47fc40c36000cd5-Cuckfield</idno>
+               <bibl>'Parishes: Cuckfield', in A History of the County of Sussex: Volume 7, the Rape of Lewes, ed. L F Salzman (London, 1940), pp. 147-163. British History Online http://www.british-history.ac.uk/vch/sussex/vol7/pp147-163 [accessed 16 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 163</note>
                <note type="charter">MS. Ch. Sussex 100</note>
-               <note type="charter">MS. Ch.
-                     Sussex 101</note>
+               <note type="charter">MS. Ch. Sussex 101</note>
                <note type="charter">MS. Ch. Sussex 255</note>
-               <note type="charter">MS. Ch.
-                     Sussex 99</note>
+               <note type="charter">MS. Ch. Sussex 99</note>
                <note type="charter">MS. Ch. Sussex 221</note>
                <note type="charter">MS. Ch. Sussex 83</note>
                <note type="charter">MS. Ch. Sussex 83</note>
                <note type="charter">MS. Ch. Sussex 162</note>
-               <note type="charter">MS. Ch. Sussex
-                     222</note>
-               <note type="charter">MS. Ch. Sussex
-                     223</note>
+               <note type="charter">MS. Ch. Sussex 222</note>
+               <note type="charter">MS. Ch. Sussex 223</note>
             </place>
+            
             <place type="place" xml:id="place_102046">
+               <placeName type="index">Crawley</placeName>
                <placeName type="formInDocument">Craule</placeName>
+               <placeName type="parish">Crawley</placeName> 
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Crawley/5328724eb47fc40c36000cd2-Crawley</idno>
+               <bibl>'Parishes: Crawley', in A History of the County of Sussex: Volume 7, the Rape of Lewes, ed. L F Salzman (London, 1940), pp. 144-147. British History Online http://www.british-history.ac.uk/vch/sussex/vol7/pp144-147 [accessed 16 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 265</note>
             </place>
+            
             <place type="place" xml:id="place_102047">
+               <placeName type="index">Crockhurst</placeName>
                <placeName type="formInDocument">Crochurst</placeName>
                <placeName type="formInDocument">Crokehurst</placeName>
                <placeName type="formInDocument">Crokhurst</placeName>
                <placeName type="formInDocument">Crothurst</placeName>
                <placeName type="formInDocument">Crochurst</placeName>
+               <placeName type="parish">Horsham</placeName> 
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Horsham/5328722eb47fc40c36000535-Crockhurst</idno>
                <note type="charter">MS. Ch. Sussex 122</note>
                <note type="charter">MS. Ch. Sussex 123</note>
                <note type="charter">MS. Ch. Sussex 124</note>
@@ -419,41 +476,59 @@
                <note type="charter">MS. Ch. Sussex 134</note>
                <note type="charter">MS. Ch. Sussex 125</note>
             </place>
+            
             <place type="place" xml:id="place_102048">
+               <!--??<placeName type="index">East Dean</placeName>
+                  https://epns.nottingham.ac.uk/browse/Sussex/East+Dean/5328724eb47fc40c36000ce5-East+Dean-->
                <placeName type="formInDocument">Dene</placeName>
+               <!--<placeName type="parish"></placeName> 
+               <placeName type="county"></placeName>-->
                <note type="charter">MS. Ch. Sussex 7b</note>
             </place>
+            cont here
             <place type="place" xml:id="place_102049">
+               <placeName type="index"></placeName>
                <placeName type="formInDocument">Denham</placeName>
+               <placeName type="parish"></placeName> 
+               <placeName type="county"></placeName>
                <note type="charter">MS. Ch. Sussex 100</note>
-               <note type="charter">MS. Ch.
-                     Sussex 101</note>
+               <note type="charter">MS. Ch. Sussex 101</note>
             </place>
             <place type="place" xml:id="place_102050">
+               <placeName type="index"></placeName>
                <placeName type="formInDocument">Dorkynge</placeName>
+               <placeName type="parish"></placeName> 
+               <placeName type="county"></placeName>
                <note type="charter">MS. Ch. Sussex 83C</note>
             </place>
             <place type="place" xml:id="place_102051">
+               <placeName type="index"></placeName>
                <placeName type="formInDocument">Dunnele</placeName>
                <note type="charter">MS. Ch. Sussex 271</note>
             </place>
             <place type="place" xml:id="place_102052">
+               <placeName type="index"></placeName>
                <placeName type="formInDocument">Durington</placeName>
+               <placeName type="parish"></placeName> 
+               <placeName type="county"></placeName>
                <note type="charter">MS. Ch. Sussex 42</note>
             </place>
             <place type="place" xml:id="place_102053">
+               <placeName type="index"></placeName>
                <placeName type="formInDocument">Echynfeld</placeName>
                <placeName type="formInDocument">Echyngfeld</placeName><!-- same as Hitchingfield below? -->
+               <placeName type="parish"></placeName> 
+               <placeName type="county"></placeName>
                <note type="charter">MS. Ch. Sussex 305</note>
                <note type="charter">MS. Ch. Sussex 308</note>
-              
             </place>
             <place type="place" xml:id="place_102054">
                <placeName type="formInDocument">Edgerton, co. Kent</placeName>
                <placeName type="formInDocument">Egerton</placeName>
+               <placeName type="parish"></placeName> 
+               <placeName type="county"></placeName>
                <note type="charter">MS. Ch. Sussex 310</note>
-               <note type="charter">MS. Ch.
-                     Sussex 102</note>
+               <note type="charter">MS. Ch. Sussex 102</note>
             </place>
             <place type="place" xml:id="place_102055">
                <placeName type="formInDocument">Ernly cum Almodington</placeName>
@@ -1297,13 +1372,14 @@
                <note type="charter">MS. Ch.
                      Sussex 251</note>
             </place>
+            
             <place type="place" xml:id="place_102160">
                <placeName type="formInDocument">Thakham</placeName>
+               <placeName type="formInDocument">Blessed Mary of Thakham</placeName>
                <note type="charter">MS. Ch. Sussex 264</note>
                <note type="charter">MS. Ch. Sussex 268</note>
                <note type="charter">MS. Ch. Sussex 269</note>
             </place>
-           
            
             <place type="place" xml:id="place_102161">
                <placeName type="formInDocument">the same</placeName>
@@ -1444,22 +1520,23 @@
                <placeName type="formInDocument">Westborne</placeName>
                <note type="charter">MS. Ch. Sussex 74</note>
             </place>
+            
             <place type="place" xml:id="place_102175">
+               <placeName type="index">West Dean</placeName>
                <placeName type="formInDocument">Westdene</placeName>
-               
-                  <placeName type="formInDocument">Westdene</placeName>
-                  <note type="charter">MS. Ch. Sussex 311</note>
-                  <note type="charter">MS. Ch. Sussex 7b</note>
-               
-               <note type="charter">MS. Ch. Sussex 311</note>
+               <placeName type="formInDocument">Westdene</placeName>
+               <placeName type="parish">West Dean</placeName> 
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/West+Dean/5328724fb47fc40c36000da5-West+Dean</idno>
+               <bibl>'West Dean', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 97-101. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp97-101 [accessed 16 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 7b</note>
-            </place>
+               <note type="charter">MS. Ch. Sussex 311</note>
+            </place> 
+            
             <place type="place" xml:id="place_102176">
                <placeName type="formInDocument">Westminster</placeName>
-               <note type="charter">MS. Ch. Sussex
-                     143</note>
-               <note type="charter">MS. Ch.
-                     Sussex 231</note>
+               <note type="charter">MS. Ch. Sussex 143</note>
+               <note type="charter">MS. Ch. Sussex 231</note>
             </place>
             <place type="place" xml:id="place_102177">
                <placeName type="formInDocument">Weybred</placeName>
