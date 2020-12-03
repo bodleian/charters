@@ -27,7 +27,7 @@
                <note type="charter">MS. Ch. Sussex 85</note>
             </place>
             
-            <place type="manor" >
+            <place type="manor" xml:id="place_102002">
                <placeName type="index">Almodington</placeName>
                <placeName type="formInDocument">Almodington</placeName>
                <placeName type="parish">Earnley</placeName> 
@@ -73,6 +73,10 @@
                <!--<bibl>Pevensey rape, not available in VCH</bibl>-->
                <note type="charter">MS. Ch. Suffolk 1354</note>
             </place>
+            
+            <place type="manor" xml:id="place_102006">
+              
+            </place>
            
             <place type="manor" xml:id="place_102007">
                <placeName type="index">Limborne</placeName>
@@ -113,6 +117,15 @@
                <!--?? TNA has this, but probably different: <idno>http://discovery.nationalarchives.gov.uk/details/c/F255344</idno>-->
                <bibl>'Parishes: Ovingdean', in A History of the County of Sussex: Volume 7, the Rape of Lewes, ed. L F Salzman (London, 1940), pp. 227-232. British History Online http://www.british-history.ac.uk/vch/sussex/vol7/pp227-232 [accessed 2 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 168</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102011">
+               <placeName type="index">Rockland</placeName>
+               <placeName type="formInDocument">Boreham and Rokelande</placeName>
+               <region type="parish">Wartling</region>
+               <region type="county">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F255068</idno>
+               <note type="charter">MS. Ch. Sussex 79</note>
             </place>
             
             <place type="manor" xml:id="place_102012">
@@ -299,15 +312,14 @@
                <note type="charter">MS. Ch. Sussex 49</note>
             </place>
              
-            <place type="place" xml:id="place_102032">
-               <placeName type="index"></placeName>
+             <place type="place" xml:id="place_102032">
+               <placeName type="index">Boreham Street</placeName>
                <placeName type="formInDocument">Boreham</placeName>
                <placeName type="formInDocument">Borham</placeName>
                <placeName type="parish">Wartling</placeName>
                <placeName type="county">Sussex</placeName>
                <idno>https://epns.nottingham.ac.uk/browse/Sussex/Wartling/53287230b47fc40c360009e6-Boreham+Street</idno>
                <note type="charter">MS. Ch. Sussex 28b</note>
-               <note type="charter">MS. Ch. Sussex 79</note>
             </place>
             
             <place type="place" xml:id="place_102033">
@@ -1376,29 +1388,17 @@
                <note type="charter">MS. Ch. Sussex 259</note>
                <note type="charter">MS. Ch. Sussex 252</note>
             </place>
-            cont here
+            
             <place type="place" xml:id="place_102136">
-               <placeName type="index"></placeName>
-               <placeName type="formInDocument">Robert's Bridge</placeName><!-- place or priory? -->
-               <placeName type="parish"></placeName>
-               <placeName type="county"></placeName>
-               <note type="charter">MS. Ch. Sussex 55</note>
+               
             </place>
             
             <place type="place" xml:id="place_102137">
-               <placeName type="index"></placeName>
-               <placeName type="formInDocument">Rokelande</placeName>
-               <placeName type="parish"></placeName>
-               <placeName type="county"></placeName>
-               <note type="charter">MS. Ch. Sussex 79</note>
+                
             </place>
             
             <place type="place" xml:id="place_102138">
-               <placeName type="index"></placeName>
-               <placeName type="formInDocument">Rokingeherst</placeName>
-               <placeName type="parish"></placeName>
-               <placeName type="county"></placeName>
-               <note type="charter">MS. Ch. Sussex 271</note>
+               
             </place>
             
             <place type="place" xml:id="place_102139">
@@ -1430,11 +1430,12 @@
                <note type="charter">MS. Ch. Sussex 266</note>
                <note type="charter">MS. Ch. Sussex 308</note>
             </place>
-            
+            cont here
             <place type="place" xml:id="place_102140">
                <placeName type="formInDocument">Royton</placeName>
-               <placeName type="parish"></placeName>
-               <placeName type="county"></placeName>
+               <placeName type="parish">Lenham</placeName>
+               <placeName type="county">Kent</placeName>
+               <!--SEP has not done Kent yet, nor i<idno></idno>-->
                <note type="charter">MS. Ch. Sussex 257</note>
                <note type="charter">MS. Ch. Sussex 258</note>
             </place>
@@ -1724,13 +1725,18 @@
                <note type="charter">MS. Ch. Sussex 240*</note>
                <note type="charter">MS. Ch. Sussex 270</note>
             </place>
+            
             <place type="place" xml:id="place_102166">
+               <placeName type="index">Waldron</placeName>
                <placeName type="formInDocument">Walderne</placeName>
-               <placeName type="parish"></placeName>
-               <placeName type="county"></placeName>
+               <placeName type="parish">Waldron</placeName>
+               <placeName type="county">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Waldron/5328724fb47fc40c36000d9c-Waldron</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Waldron</idno>
                <note type="charter">MS. Ch. Sussex 103</note>
                <note type="charter">MS. Ch. Sussex 271</note>
             </place>
+            
             <place type="place" xml:id="place_102167">
                <placeName type="formInDocument">Warblyngton</placeName>
                <placeName type="parish"></placeName>
@@ -1942,6 +1948,8 @@
          <listOrg>
             <org xml:id="org_102001">
                <orgName type="formInDocument">abbey and convent of Robert's Bridge</orgName>
+               <orgName type="formInDocument">Robert's Bridge</orgName>
+               <note type="charter">MS. Ch. Sussex 55</note>
                <note type="charter">MS. Ch. Sussex 171</note>
             </org>
             
