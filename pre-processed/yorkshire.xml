@@ -11,6 +11,7 @@
          <sourceDesc>
             <p>Information about the source</p>
          </sourceDesc>
+         <!-- status 11.1.2021 : proofread fully to end p. 613, less fully thereafter, all queries checked in the PDF as far as possible -->
       </fileDesc>
    </teiHeader>
    <text>
@@ -1200,10 +1201,10 @@
                   <persName><forename>Hugh</forename> <surname>Colvell</surname>, chaplain</persName>, grant to
                         <persName><forename>Thomas</forename> de <surname>Grymestone</surname> of 
                            <placeName role="person">Guthemundham</placeName></persName>, 
-                  one toft with a croft and bovate of land in <placeName>le Romondflethe</placeName> in
+                  one toft with a croft and bovate of land in <placeName type="minor">le Romondflethe</placeName><!-- check --> in
                   <placeName>Guthmundham</placeName> between the manor of the late
                   <persName><forename>Gerard</forename> de <surname>Grymestone</surname>, knt.</persName> 
-                  and a toft called <placeName type="minor">Proctour place</placeName>; and also one little flatte 
+                  and a toft called <placeName type="minor">Proctour place</placeName>; and also one little platte 
                   of two acres in <placeName>Esthorpe</placeName>. 
                   Dated at <placeName role="date">Guthmundham</placeName>, 29 May, <date notBefore="1402-09-30" notAfter="1403-09-29">4 Hen. IV</date>. 
                   <bibl type="shelfmark">MS. Ch. Yorks. 146</bibl>. </p>
@@ -1224,7 +1225,7 @@
                <p> HALIFAX. The will of <persName><forename>John</forename>
                      <surname>Schay</surname> of <placeName role="person">Halyfax</placeName></persName>, 
                   dated 4 June, <date notBefore="1498-08-22" notAfter="1499-08-21">14 Henry VII</date>.  
-                  Proved 17 June, <date when="1499">1499</date>. 
+                  Proved at <placeName role="date">Dewsbure</placeName>, 17 June, <date when="1499">1499</date>. 
                   <bibl type="shelfmark">MS. Ch. Yorks. 148</bibl></p>
             </div>
                
@@ -1239,10 +1240,11 @@
                
             <div type="charter">
                <p> <supplied resp="#TA"><placeName>Halifax</placeName>.</supplied> 
-                  <persName><forename>Richard</forename>, the clerk of <placeName role="perosn">Halifax</placeName></persName>, 
+                  <persName><forename>Richard</forename>, the <surname>clerk</surname> of <placeName role="perosn">Halifax</placeName></persName>, 
                   grants and quit-claims to <persName><forename>William</forename> de
                      <surname>Eland</surname>, chaplain</persName>, for a sum of money, two acres of land in 
-                  'Suthuverum' which lie in <placeName>Stonirode</placeName>, which the said Richard held of
+                  <placeName>Suthuverum</placeName> which lie in <placeName type="minor">Stonirode</placeName>, 
+                  which the said Richard held of
                   <persName><forename>John</forename> de <surname>Lasey</surname> of 
                      <placeName role="person">Crumbwelbothim</placeName></persName>; paying yearly to the said John 8d. 
                   (<date notBefore="1270" notAfter="1280" precision="low">c. 1270-80</date>.) 
@@ -1252,18 +1254,18 @@
                
             <div type="charter">
                <p> <supplied resp="#TA"><placeName>Halifax</placeName>.</supplied>
-                  <persName><forename>William</forename> de <surname>Eland</surname>,chaplain</persName>, 
+                  <persName><forename>William</forename> de <surname>Eland</surname>, chaplain</persName>, 
                   confirms to <persName><forename>Amabilla</forename>, daughter of<persName><forename>William</forename> 
-                     the tailor of <placeName role="person">Halifax</placeName></persName></persName>
+                     the <surname>tailor</surname> of <placeName role="person">Halifax</placeName></persName></persName>
                   and her children ("pueris suis"), viz. his foster-children ("alumpnis meis"), the whole of that land which he
-                  holds in <placeName>Suthuverum</placeName> at <placeName>Stonirock</placeName> and
-                  <!--CHK, unclear: <unclear><placeName>Lifkarpihelis</placeName></unclear>-->, with the new land held of 
+                  holds in <placeName>Suthuverum</placeName> at <placeName type="minor">Stonirode</placeName> <!--CHK, unclear and
+                  : <unclear><placeName>Lifkarpihelis</placeName></unclear>-->, with the new land held of 
                   <persName><forename>John</forename> de <surname>Eland</surname></persName> and the assart called 
                   <placeName type="minor">Hunarrode</placeName>; paying yearly to 
                   <persName><forename>John</forename> de <surname>Eland</surname></persName> 2s. and to the heirs of
                   <persName><forename>John</forename> the <surname>Clerk</surname> of 
                      <placeName role="person">Crumbwelbothim</placeName></persName> 9d. and to the heirs of 
-                  <persName><forename>John</forename> de <surname>Lasei</surname></persName> 8d. 
+                  <persName><forename>John</forename> de <surname>Lasci</surname></persName> 8d. 
                   Witness. <persName><forename>Ingelard</forename>, then vicar of <placeName role="vicar">Halifax</placeName></persName>. 
                   (<date notBefore="1270" notAfter="1280" precision="low">c. 1270-80</date>.) 
                   <note type="seal">[With seal.]</note> 
@@ -1273,7 +1275,7 @@
                <div type="charter">
                   <p> <persName><forename>John</forename>, son of <persName><forename>John</forename>
                      <surname>Clerk</surname> of <placeName role="person">Crumwelboym</placeName></persName></persName>, 
-                     grants to <persName><forename>Richard</forename> the clerk of <placeName role="person">Halifax</placeName></persName>
+                     grants to <persName><forename>Richard</forename> the <surname>clerk</surname> of <placeName role="person">Halifax</placeName></persName>
                      for a sum of money the whole of his land in the territory of <placeName>Huverum</placeName>, which 
                      <persName><forename>Thomas</forename> de <surname>Mora</surname> of 
                         <placeName role="person">Halifax</placeName></persName> used to hold of <persName><forename>John</forename> the <surname>Clerk</surname></persName>, 
@@ -1293,12 +1295,12 @@
                      <surname>Eure</surname></persName> to two messuages, 24 acres of land, and 10
                   acres of meadow in <placeName>Southbedburn</placeName> and <placeName>Hamsterle</placeName>. 
                   For this the said Ralph gave them a young sparrow-hawk. 
-                  <bibl type="shelfmark">MS. Ch. Yorks. 153</bibl>. </p>
+                  <bibl type="shelfmark">MS. Ch. Yorks. 153</bibl>. </p><!-- these are in Durham not Yorkshire -->
             </div>
                
             <div type="charter">
-               <p> HAUKESWORTH. <persName><forename>Isabella</forename>
-                     <surname>Keterynge</surname>, lady of Haukesworth</persName>, grants to
+               <p> <placeName>HAUKESWORTH</placeName>. <persName><forename>Isabella</forename>
+                     <surname>Keterynge</surname>, lady of <placeName role="lady">Haukesworth</placeName></persName>, grants to
                         <persName><forename>William</forename> de
                      <surname>Brerehagh</surname> de <placeName role="person">Menston</placeName></persName>, one messuage 
                   and one bovate of land which were formerly <persName><forename>William</forename> de
@@ -1311,13 +1313,13 @@
                 
             <div type="charter">
                <p>
-                  <pb n="611"/> HEDON. <persName><forename>John</forename>
+                  <pb n="611"/> <placeName>HEDON</placeName>. <persName><forename>John</forename>
                      <surname>Chekym</surname> of <placeName role="person">Hedon</placeName></persName> grants to 
                   <persName><forename>William</forename>, son of <persName><forename>Stephen</forename> 
                      de <surname>Hedon</surname></persName></persName> and <persName><forename>Agnes</forename> his wife</persName>, 
-                  a messuage lying between a messuage of the said William on the west part and a messuage of
+                  a messuage lying between a messuage of the said William on the west part and a messuage of the late
                   <persName><forename>Henry</forename> <surname>Brouneghe</surname></persName> on the east; paying yearly 14d. 
-                  to the service of B. Mary in the church of <placeName>St. Augustine of Hedon</placeName>. 
+                  to the service of B. Mary in the church of St. Augustine of <placeName role="church">Hedon</placeName>. 
                   (<date notBefore="1280" notAfter="1290" precision="low">c. 1280-1290</date>.) 
                   <bibl type="shelfmark">MS. Ch. Yorks. 154b</bibl>. </p>
             </div>
@@ -1325,7 +1327,7 @@
             <div type="charter">
                <p> HESLEY. <persName><forename>Richard</forename>, <surname type="patronymic">son of With</surname></persName>, 
                   grants to <persName><forename>Adam</forename> de <surname>Popelton</surname></persName> and his heirs in fee, 
-                  with the assent of <persName>his son <forename>Peter</forename></persName>, &amp;c. one
+                  with the assent of <persName>his son <forename>Peter</forename></persName>, one
                   carucate of land in <placeName>Helesseia</placeName>, paying annually 4s. 
                   <date notAfter="1230" notBefore="1220" precision="medium">(c. 1220-30.)</date>
                   <bibl type="shelfmark">MS. Ch. Yorks. 155</bibl>. </p>
@@ -1339,12 +1341,12 @@
                   <placeName type="manor">Holden</placeName>, with houses and lands in <placeName>Howden</placeName>
                   &amp;c., for the term of years unexpired of a lease made by <persName><forename>Richard</forename>, bp. of
                      <placeName role="bishop" type="diocese">Durham</placeName></persName>, 13 July last, to the crown of the said premises for 90 years, paying annually £34 0s. 8d.
-                  <note type="seal">[With seal.] </note>
+                  <note type="seal">[With seal, broken.] </note>
                   <bibl type="shelfmark">MS. Ch. Yorks. 330</bibl>. </p>
             </div>
                 
             <div type="charter">
-               <p> HOLME. <persName><forename>John</forename>, son of <persName><forename>Ralph</forename> de
+               <p> <placeName>HOLME</placeName>. <persName><forename>John</forename>, son of <persName><forename>Ralph</forename> de
                         <surname>Balnia</surname></persName></persName>, quit-claims to <persName><forename>Ralph</forename> 
                            his brother</persName> the whole of 12d. rent annually paid by the heirs of 
                   <persName><forename>William</forename>, formerly <surname>Flote</surname> ("quondam Flote") of
@@ -1379,7 +1381,7 @@
                <p> HOTON PAYNEL. <persName><forename>Adam</forename>
                      <surname>Paynel</surname> of <placeName role="person">Hoton Paynel</placeName></persName> grants to 
                   <persName><forename>Hugh</forename> his brother</persName> nine acres of land for his homage and service in .... 
-                  (<date notBefore="1270" notAfter="1280" precision="low">c. 1270-80</date>.)
+                  (<date notBefore="1250" notAfter="1260" precision="low">c. 1250-60</date>.)
                   [Partly effaced.]
                   <bibl type="shelfmark">MS. Ch. Yorks. 159</bibl>. </p>
             </div>
@@ -1389,8 +1391,8 @@
                         <surname>Melling</surname></persName>, widow</persName>, grants to 
                         <persName>Sir <forename>John</forename> de
                      <surname>Hodeleston</surname></persName> one acre of land in <placeName>Hoton Rufs, Westmorland</placeName>, between 
-                  <placeName>le Holde Milline</placeName> and <placeName>a le Milline More</placeName>,
-                  together with the advowson of the hospital of <placeName type="hospital">St. Leonard of Teneleshend</placeName> in the
+                  <placeName type="minor">le Holde Milline</placeName> and <placeName type="minor">le Milline More</placeName>,
+                  together with the advowson of the hospital of <placeName type="hospital" role="advowson">St. Leonard of Teneleshend</placeName> in the
                   same place. 
                   (<date notBefore="1280" notAfter="1290" precision="low">c. 1280-90</date>.) 
                   <bibl type="shelfmark">MS. Ch. Yorks. 160a</bibl>. </p>
@@ -1413,8 +1415,8 @@
                         <persName><forename>Robert</forename> de
                      <surname>Melmorby</surname></persName></persName>, in the village of <placeName>Hougrave</placeName>, 
                   and his wife resigns her right in case of survival by oath sworn upon the Holy Gospels 
-                  in the church of <placeName>B. Wilfrid of Rypon</placeName>. 
-                  Dated at <placeName role="date">Rypon</placeName> the Friday next before the feast of St. Mary Magdalene, <date when="1339">1339</date>. 
+                  in the church of <orgName>B. Wilfrid of Rypon</orgName>. 
+                  Dated at <placeName role="date">Rypon</placeName> the Friday next before the feast of St. Mary Magdalene, <date when="1339">1339</date>. Witness, <persName><forename>John</forename> de <surname>Clotherom</surname>, bailiff of the liberty of <placeName role="bailiff">Rypon</placeName></persName>, etc.
                   <note type="seal">[With seal.]</note> 
                   <bibl type="shelfmark">MS. Ch. Yorks. 161a</bibl>. </p>
             </div>
@@ -1423,11 +1425,9 @@
                <p> HUGBY and WYTHETON. <persName><forename>Ingelram</forename> de <surname>Munceus</surname></persName> grants to
                         <persName><forename>Thomas</forename> de <surname>Screvyn</surname></persName> and 
                   <persName><forename>Angnes</forename> his wife</persName> certain lands and
-                  tenements in <placeName>Hugby</placeName> and <placeName>Wytheton</placeName> in <placeName>Wherveldale</placeName>, 
-                  which formerly were <persName><forename>Adam</forename> de <surname>Thouhuses</surname></persName>'. 
+                  tenements in <placeName>Hugby</placeName> and <placeName>Wytheton</placeName> in Wherveldale, 
+                  which formerly were <persName><forename>Adam</forename> de <surname>Monhuses</surname></persName>'. 
                   (<date notBefore="1260" notAfter="1270" precision="low">c. 1260-70</date>.)
-                  Witness. <persName><forename>John</forename> de <surname>Clotherom</surname>, bailiff of the 
-                     liberty of <placeName role="bailiff">Rypon</placeName>, dr.</persName>
                   <bibl type="shelfmark">MS. Ch. Yorks. 161b</bibl>. </p>
             </div>
                
@@ -1437,7 +1437,7 @@
                         <persName><forename>John</forename> de <surname>Eure</surname></persName>
                   and <persName><forename>Agnes</forename> his wife</persName> the homage and service of
                         <persName><forename>William</forename> del <surname>How</surname></persName>
-                  and his heirs for lands and tenements which he holds in <placeName>Ingelbi</placeName> near <placeName>Grenehou</placeName>, and
+                  and his heirs for lands and tenements which he holds in <placeName>Ingelbi near Grenehou</placeName>, and
                   also the homage and service of the prioress of <orgName>Basadale</orgName> for lands, &amp;c. in the
                   same village, and the homage and service of <persName>Thomas the son of <persName><forename>Walter</forename>
                      <surname>Lane</surname></persName></persName> for lands, &amp;c. in the same, also the
@@ -1451,7 +1451,7 @@
                   <placeName role="person">Ingelby near Grenehou</placeName></persName> confirms to
                         <persName><forename>John</forename> de <surname>Eure</surname></persName>
                   the homage and service of <persName><forename>Adam</forename> de
-                        <surname>Elleredby</surname>, son of <persName>Robert the clerk of Ingelby</persName></persName>,
+                        <surname>Elleredby</surname>, son of <persName>Robert the <placeName>clerk</placeName> of <placeName role="person">Ingelby</placeName></persName></persName>,
                   of <persName><forename>William</forename> del <surname>Hok</surname></persName>, of 
                   <persName><forename>Robert</forename> de <surname>Fraiceby</surname></persName> and 
                   <persName><forename>Elena</forename> his wife</persName> and <persName><forename>Alice</forename> 
@@ -1485,7 +1485,7 @@
                   to <persName><forename>Robert</forename>
                      <surname>Snogel</surname> of <placeName role="person">Fayceby</placeName></persName> and 
                   <persName><forename>Ellen</forename> his wife</persName> one bovate
-                  of land in the village of <placeName>Ingelby</placeName>, near <placeName>Grenhou</placeName>, which
+                  of land in the village of <placeName>Ingelby, near Grenhou</placeName>, which
                   <persName><forename>Peter</forename> <surname>Snaubal</surname></persName> farmed of the grantor. 
                   Dated at <placeName role="date">Ingelby</placeName> the Thursday next before the
                   feast of St. Gregory, Pope, <date when="1305">1305</date>. 
@@ -1502,10 +1502,11 @@
                   Dated at <placeName role="date">Calde Ingilby</placeName> the Sunday next after the feast of the Assumption, 
                   <date notBefore="1315-07-08" notAfter="1316-07-07">9 Ed. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Yorks. 166</bibl>. </p>
+               <!-- note that Calde Ingilby = Ingleby Barwick, not Ingleby Greenhow as the preceding deeds -->
             </div>
                
             <div type="charter">
-               <p> <supplied resp="#TA"><placeName>Ingleby</placeName></supplied> 
+               <p> <!--<supplied resp="#TA"><placeName>Ingleby</placeName></supplied> -->
                   <persName>Sir <forename>Marmaduke</forename> <surname>Constable</surname>, kt.</persName>, 
                   releases <persName>sir <forename>John</forename> de <surname>Euer</surname>, kt.</persName>, 
                   and <persName><forename>Thomas</forename> <surname>Sturmy</surname> of <placeName role="person">Dromundby</placeName></persName> 
@@ -1539,31 +1540,32 @@
                   all lands and tenements which they had of the gift of <persName><forename>William</forename>
                      <surname>Chaumberlayn</surname>, formerly of <placeName role="person">Stokeslay</placeName></persName>., in the
                   village of <placeName>Ingleby, in Clyveland near Grenehowe</placeName> 
-                  Dated at <placeName role="date">Ingleby</placeName> 20 Sept. <date when="1426">1426</date>, <date notBefore="1426-09-01" notAfter="1427-08-31">5 Hen. VI</date>. 
+                  Dated at <placeName role="date">Ingleby</placeName> <date when="1426-09-20">20 Sept. 1426</date>, 5 Hen. VI. 
                   <note type="seal">[With two small broken seals.]</note>
                   <bibl type="shelfmark">MS. Ch. Yorks. 168</bibl> .</p>
             </div>
                
                <!--add div wrapper for the hospital charters? I have not added orgName to each charter-->
-            <div type="charter">
+           <div type="org">
+              <head>Hospital of St. John of Jerusalem</head><div type="charter">
                <p>
-                  <pb n="613"/> JERUSALEM (Hospital of St. John of). <persName><forename>William</forename>
+                  <pb n="613"/> <orgName>JERUSALEM (Hospital of St. John of)</orgName>. <persName><forename>William</forename>
                      <surname>Painel</surname></persName> grants to the hospital, in frankalmoigne,
                   the whole of his lands and tenements which <persName><forename>Robert</forename>
                      de <surname>Alta Ripa (Hawtrey)</surname></persName> held of him in <placeName>Cugric</placeName> and 
-                  Ploxlandes and Eeoffe, and Adel; paying 8s. yearly.
+                  Ploxlandes and Eeoffe<!-- check these names -->, and Adel; paying 8s. yearly.
                      (<date notBefore="1150" notAfter="1160" precision="low">c. 1150-60</date>)
-                  34 witnesses!
+                  34 witnesses.
                      <bibl type="shelfmark">MS. Ch. Yorks. 97</bibl>. </p>
             </div>
                
             <div type="charter">
                <p> <persName><forename>Gilbert</forename> de <surname>Notton</surname></persName> grants to 
-                  the hospital one bovate of land of the four bovates
+                  the <orgName>hospital of St John of Jerusalem</orgName> one bovate of land of the four bovates
                   called <placeName type="minor">Ravenesacre</placeName> in the village of <placeName>Notton</placeName>
-                  and two acres in <placeName>Adbaldehage</placeName>.
+                  and two acres in <placeName type="minor">Adbaldehage</placeName>.
                      (<date notBefore="1180" notAfter="1190" precision="low">c. 1180-90</date>.)
-                  <note type="seal">[With seal.]</note>
+                  <note type="seal">[With seal, broken.]</note>
                   <bibl type="shelfmark">MS. Ch. Yorks. 98</bibl>. </p>
             </div>
                
@@ -1572,7 +1574,7 @@
                   grants to <orgName>the hospital of St. John</orgName> two acres of land
                   in the territory of <placeName>Chivet</placeName>. which <persName><forename>William</forename> 
                      <surname type="patronymic">the son of Ote</surname> his father</persName> gave them, in
-                  frankalmoigne; and they re-grant them to him and to two after him at a yerly rent of 6d. 
+                  frankalmoigne; and they re-grant them to him and to two after him at a yearly rent of 6d. 
                   (<date notBefore="1190" notAfter="1200" precision="low">c. 1190-1200</date>)
                   <bibl type="shelfmark">MS. Ch. Yorks. 99</bibl>. </p>
             </div>
@@ -1581,7 +1583,7 @@
                <p> <persName><forename>Gilbert</forename> de <surname>Chivet</surname></persName> grants to 
                   <orgName>the hospital of St. John</orgName>, in frankalmoigne, three
                   acres of land in the fields of <placeName>Chivet</placeName>, and one toft in the same village,
-                  called <placeName type="minor">Stoecroft</placeName>, and 3 acres near the land of 
+                  called <placeName type="minor">Stoccroft</placeName>, and 3 acres near the land of 
                   <persName><forename>Henry</forename> the <surname>Forester</surname></persName>.
                      (<date notBefore="1230" notAfter="1240" precision="low">c. 1230-40</date>.)
                      <bibl type="shelfmark">MS. Ch. Yorks. 100</bibl>. </p>
@@ -1591,14 +1593,14 @@
                <p>
                   <persName><forename>Walter</forename> de <surname>Chyvet</surname>, son
                   of <persName><forename>Gilbert</forename> de <surname>Fechiston</surname></persName></persName>, 
-                  for himself and his heirs, is bound to the hospital at
-                  <placeName>Newland, co. York</placeName>, in 8d. annual rent, from land in <placeName>Chyvet</placeName>, 
-                  of which one toft is called <placeName role="minor">Stolecroft</placeName>, which
+                  for himself and his heirs, is bound to the <orgName>hospital of St John of Jerusalem at
+                  Newland, co. York</orgName>, in 8d. annual rent, from land in <placeName>Chyvet</placeName>, 
+                  of which one toft is called <placeName role="minor">Stokcroft</placeName>, which
                   <persName><forename>Gillebert</forename>his father</persName> and 
                   <persName><forename>Havisia</forename> his sister</persName> with his 
-                  counsel and consult and charter <!--CHK, unclear: (see the ....)--> gave to the blessed poor of 
+                  counsel and consent and charter <!--CHK, unclear: (sc the ....)--> gave to the blessed poor of 
                   the said hospital, in frankalmoigne. 
-                     (<date when="1240" precision="low">c. 1240</date>50.) 
+                     (<date notBefore="1240" notAfter="1250" precision="low">c. 1240-50</date>.) 
                   <bibl type="shelfmark">MS. Ch. Yorks. 101</bibl>. </p>
             </div>
                
@@ -1614,7 +1616,7 @@
             <div type="charter">
                <p>
                   <persName><forename>Richard</forename> de <surname>Rihil</surname></persName>
-                  grants to the hospital, in frankalmoigne, a messuage and land in the village of
+                  grants to the <orgName>hospital of St John of Jerusalem</orgName>, in frankalmoigne, a messuage and land in the village of
                   <placeName>Crossland</placeName>. 
                   (<date notBefore="1220" notAfter="1230" precision="low">c. 1220-30</date>.) 
                   <bibl type="shelfmark">MS. Ch. Yorks. 103</bibl>. </p>
@@ -1622,12 +1624,12 @@
                
             <div type="charter">
                <p> <persName><forename>Godit</forename>, formerly wife of <persName><forename>Adam</forename>, 
-                  <surname type="patronymic">son of Richer</surname></persName></persName>, grants to the hospital, in
+                  <surname type="patronymic">son of Richer</surname></persName></persName>, grants to the <orgName>hospital of St John of Jerusalem</orgName>, in
                   frankalmoigne, two acres of land in the village of <placeName>Latherton</placeName> 
                   which they had by the gift of her husband. 
                   (<date notBefore="1240" notAfter="1250" precision="low">c. 1240-50</date>.) 
                   <bibl type="shelfmark">MS. Ch. Yorks. 104</bibl>. </p>
-            </div>
+            </div></div>
                
             <div type="charter">
                <p> KELYNGTON. <persName><forename>Alexander</forename> de <surname>Kelyngton</surname>, clerk</persName>, 
@@ -1636,7 +1638,7 @@
                   who with the assent of  <persName><forename>Robert</forename> de <surname>Meleburn</surname></persName> 
                   his successor assigns to the said Alexander the tithes of vegetables of <placeName>Kelyngton</placeName> 
                   and <placeName>Beghale</placeName> until he is again presented to some ecclesiastical benefice. 
-                  Dated at <placeName role="date">Scroby</placeName>, 6 Id. Dec. <date when="1240" precision="low">1240</date>. 
+                  Dated at <placeName role="date">Scroby</placeName>, 6 Id. Dec. <date when="1240">1240</date>. 
                   Defaced.
                   <bibl type="shelfmark">MS. Ch. Yorks. 169</bibl>. </p>
             </div>
@@ -1670,6 +1672,8 @@
                   <note type="seal">[With seal.]</note> 
                   <bibl type="shelfmark">MS. Ch. Yorks. 172</bibl>. </p>
             </div>
+               
+               <!-- proofread in detail to here, 11.1.2021 -->
                
             <div type="charter">
                <p>
@@ -1766,8 +1770,9 @@
                   <bibl type="shelfmark">MS. Ch. Yorks. 180</bibl>. </p>
             </div>
                
-               <!--add div wrapper for abbey charters?-->
-            <div type="charter">
+            <div type="org">
+               <head>Kirkstall Abbey</head>
+               <div type="charter">
                <p> KIKKESTALL (Abbey of). Writ of protection for the <orgName>abbey of
                   Kirkstall</orgName>, by <persName>K. Hen. II</persName>. Dated at <placeName role="date">Nottingham</placeName>. 
                   (<date when="1160" precision="low">c. 1160?</date>)
@@ -2086,26 +2091,25 @@
                   (<date when="1550" precision="low">c. 1550?</date>)
                   <bibl type="shelfmark">MS. Ch. Yorks. 28</bibl>. 
                </p>
-            </div>
+            </div></div>
                
             <div type="charter">
                <p> KNAPTON (West). <persName><forename>Warine</forename> de <surname>Vescy</surname>, brother of 
                   <persName><forename>Eustachius</forename> de <surname>Vescy</surname></persName></persName>, grants to
                   <persName><forename>Gilbert</forename> de <surname>Aton</surname></persName> and 
-                  <persName><forename>Mariory</forename> his wife (daughter of the above Warine)</persName>, one bovate of
+                  <persName><forename>Marjory</forename> his wife (daughter of the above Warine)</persName>, one bovate of
                   land in <placeName>West Knapton</placeName>, which he had by the gift of the said Eustace, and Eustace by 
                   the gift of <persName><forename>Robert</forename> de <surname>Neville</surname></persName>. 
-                  <date notBefore="1310" notAfter="1320" precision="medium">(c. 1310-92.)</date> 
+                  <date notBefore="1310" notAfter="1320" precision="medium">(c. 1310-20.)</date> 
                   <note type="seal">[With broken seal.]</note> 
                   <bibl type="shelfmark">MS. Ch. Yorks. 181</bibl></p>
             </div>
                
-               <!--add div wrapper for this organisation-->
             <div type="charter">
-               <p> KNABESBOROUGH (The House of the Holy Trinity at). 
+               <p> KNARESBOROUGH (The House of the Holy Trinity at). 
                   Indulgence granted to <persName><forename>William</forename> <surname>Hepdenstall</surname></persName> and 
                   <persName><forename>Alice</forename></persName>, by <persName><forename>Robert</forename>, minister of the 
-                     house of St. Robert near Knaresburgh and provincial of the order for redemption of captives</persName>, 
+                     house of <orgName role="minister">St. Robert near Knaresburgh</orgName></persName> and provincial of the order for redemption of captives, 
                   of 80 days' relaxation from penance, by virtue of a bull of pope Innocent VIII, granting privileges 
                   to those giving alms to the House. 
                   Dated <date when="1491">1491</date>. (no date of day)
@@ -2113,20 +2117,20 @@
             </div>
                
             <div type="charter">
-               <p> Plenary indulgence granted to ... Bekwit (?) and <persName><forename>Alice</forename> 
-                  his wife</persName> by <persName><forename>Robert</forename>, minister of the house of St. Robert 
-                     near Knaresburgh</persName>. 
+               <p> Plenary indulgence granted to <persName>... <surname>Bekwit</surname></persName> (?) and <persName><forename>Alice</forename> 
+                  his wife</persName> by <persName><forename>Robert</forename>, minister of the house of <orgName role="minister">St. Robert 
+                     near Knaresburgh</orgName></persName>. 
                   Dated <date when="1503">1503</date>. 
                   (Hepdenstall's name has neen inserted in the place of the one erased.)
                   <note type="seal">[With small fragment of seal.]</note>
                   <bibl type="shelfmark">MS. Ch. Yorks. 66</bibl>. </p>
             </div>
                
-               <!--add div wrapper for this organisation-->
-            <div type="charter">
+           <div type="org">
+              <head>KNIGHTS TEMPLARS</head><div type="charter">
                <p>
                   <pb n="618"/> KNIGHTS TEMPLARS. <persName><forename>William</forename>
-                     <surname>Puter</surname>(?) of <placeName role="person">Heddigeley</placeName></persName> grants to 
+                     <surname>Puter</surname> (?) of <placeName role="person">Heddigeley</placeName></persName> grants to 
                   <orgName>the Knights Templars</orgName>, in frankalmoigne, his mill of <placeName>Heddigeley</placeName> 
                   and a culture near the mill "infra cruces circumpositas, cum alneatu in northe (sic) terre
                   <persName><forename>Simonis</forename> de <surname>Preston</surname></persName>",
@@ -2177,7 +2181,7 @@
                   from <placeName>Ychesty</placeName> to <placeName>Myzum</placeName>. 
                   (<date when="1260" precision="low">c. 1240</date>.) 
                   <bibl type="shelfmark">MS. Ch. Yorks. 96</bibl>. </p>
-            </div>
+            </div></div>
                
             <div type="charter">
                <p> LEEDS. <persName><forename>William</forename> <surname>Ledes</surname>, esq.</persName>, and 
@@ -2429,17 +2433,36 @@
             </div>
                
             <div type="charter">
-               <p> Indenture made <date when="1583-04-10">10 April, 25th year of [Elizabeth]</date>, by which <persName>the right
+               
+                  <p> An indenture made the <date when="1583-04-10">l0th of April, 25th year of Q. Elizabeth</date>, between the 
+                     <persName>rt. hon. <forename>William</forename> lord <surname>Eure</surname></persName> of the one part, and
+                     <persName><forename>Richard</forename> <surname>Medd</surname></persName>, 
+                     <persName><forename>Robert</forename> <surname>Bell</surname></persName>, and 
+                     <persName><forename>Christabell</forename> <surname>White</surname></persName>, of the second part,
+                     witnesseth that lord Eure has demised to <persName><forename>Richard</forename>
+                        <surname>Medd</surname></persName>, <persName><forename>Robert</forename>
+                           <surname>Bell</surname></persName>, and <persName><forename>Christabell</forename> 
+                              <surname>White</surname></persName> two closes called
+                     <placeName type="minor">Potter's</placeName> and <placeName type="minor">White's close</placeName>s, 
+                     with a cottage, for 21 years, or during the life of
+                     <persName><forename>Ralph</forename> <surname>Eure</surname>, son and heir of lord Eure</persName>. 
+                     <note type="language">[English]</note>
+                     
+                     <!--<bibl type="shelfmark">MS. Ch. Yorks. 200*</bibl> -->
+                     <!--WAS: <bibl type="shelfmark">MS. Ch. Yorks. 21</bibl> SEE PAGE 638; WHAT IS THE SHELFMARK FOR THIS, DOCS. Ch. Yorks. 200a and 200b already exists (see p. 620)-->
+               
+              <!-- <p> Indenture made <date when="1583-04-10">10 April, 25th year of [Elizabeth]</date>, by which <persName>the right
                   honble. <forename>Raffe</forename>, lord <surname>Eure</surname></persName>, demises to <persName><forename>Richard</forename>
                      <surname>Medd</surname></persName> and <persName><forename>Cristobell</forename> ....</persName> two closes and a cottage
                   within the lordship of <placeName>Old Malton</placeName>, for 21 years, at an annual rent of £30. 
-                  (See MS. Ch. Yorks. 200*)
-                  <bibl type="shelfmark">MS. Ch. Yorks. 200b</bibl>. </p>
+                  (See MS. Ch. Yorks. 200*)-->
+                  <!-- also on p. 638 in more detail -->
+                  <bibl type="shelfmark">MS. Ch. Yorks. 200b</bibl></p>
             </div>
                
             <div type="charter">
-               <p> MALTON (Old), WICKHAM, YEASTROP, STOKESLEY, STOKESLEY MOORE, BAYSDAILE, WELHAM,
-                  and SUTTON. Grant of free warren by <persName>K. James I</persName> to <persName><forename>Ralph</forename>
+               <p> <placeName>MALTON (Old)</placeName>, <placeName>WICKHAM</placeName>, <placeName>YEASTROP</placeName>, <placeName>STOKESLEY</placeName>, <placeName>STOKESLEY MOORE</placeName>, <placeName>BAYSDAILE</placeName>, <placeName>WELHAM</placeName>,
+                  and <placeName>SUTTON</placeName>. Grant of free warren by <persName>K. James I</persName> to <persName><forename>Ralph</forename>
                      <surname>Eure</surname> of <placeName role="person">New Malton</placeName>, esq.</persName>, for the above lands and
                   manors. 
                   Dated 11 July, <date notBefore="1619-03-24" notAfter="1620-03-23">17 James I</date>. 
@@ -2457,20 +2480,19 @@
             </div>
                
             <div type="charter">
-               <p> Confirmation by Rich. II of a licence of mortmain granted by <persName>Edw. III</persName> to 
+               <p> Confirmation by <persName>Rich. II</persName> of a licence of mortmain granted by <persName>Edw. III</persName> to 
                   <orgName>the prior and convent of Malton</orgName> authorizing 
                   <persName><forename>Thomas</forename> <surname>Grafton</surname>, chaplain</persName>, 
                   <persName><forename>John</forename> <surname>Ydyngham</surname>, chaplain</persName>, 
                   <persName><forename>William</forename> de de <surname>Herslone</surname></persName> and 
-                  <persName><forename>Thomas</forename> de <surname>Wharrnon</surname></persName>, to 
-                  the £10 work of <!--CHK, unclear: ... in Hofve, .... and Old Malton--> 
+                  <persName><forename>Thomas</forename> de <surname>Wharrton</surname></persName>, to 
+                  give £10 worth of land in <!--CHK, unclear: ... in Hofve, .... and Old Malton--> 
                   Dated at <placeName role="date">Westminster</placeName>, 28 January, <date notBefore="1386-06-22" notAfter="1387-06-21">10 Rich. II</date>.
                      <bibl type="shelfmark">MS. Ch. Yorks. 68</bibl>. </p>
             </div>
                
-               <!--add div wrapper, orgName?-->
             <div type="charter">
-               <p> MARRICK Nunnery. 'The forme of takyng the fownder'; i.e. the form of receiving descendants of the founder, 
+               <p> <orgName>MARRICK Nunnery</orgName>. 'The forme of takyng the fownder'; i.e. the form of receiving descendants of the founder, 
                   of the family of <persName><surname>Acke</surname></persName>, husnand and wife, into the fellowship of 
                   the convent, for participation in prayers and commemorations.  
                   [Temp. Hen. VII. (<date when="1500" precision="low">c. 1500</date>)] 
@@ -2670,7 +2692,7 @@
                   <persName><forename>William</forename>, son of <persName><forename>Richard</forename> de
                      <surname>Merbeck</surname></persName> of <placeName role="person">Mensyngton</placeName></persName>, 
                   all right which he had in that messuage and bovate of land in the village of <placeName>Mensyngton</placeName>, 
-                  which he holds of the grantor, <!--CHK, unclear, p. 622: expecting?--> an annual rent of 3d. 
+                  which he holds of the grantor, excepting an annual rent of 3d. 
                   Dated at <placeName role="date">Mensyngton</placeName> the Saturday next after the feast of the Conception of 
                   B. M. Virgin, <date when="1343">1343</date>. 
                   <bibl type="shelfmark">MS. Ch. Yorks. 220</bibl>. </p>
@@ -2860,8 +2882,8 @@
                   <persName><forename>William</forename> <surname>Grauer</surname> of <placeName role="person">Ottelay</placeName></persName>
                   grants to <persName><forename>Walter</forename> his son of <placeName role="person">Menston</placeName></persName> 
                   two messuages in the field and village of <placeName>Menston</placeName>, of which one is called 
-                  Morredy<!--CHK p. 624, unclear ..--> and 2 acres of land, and half an <!--chk, unclear: acre--> of meadow called 
-                  Spetilfe<!--CHK, unclear....--> 
+                  Morredy.. <!--CHK p. 624, unclear ..--> and 2 acres of land, and half an acre <!--chk, unclear--> of meadow called 
+                  Spetilfe.. <!--CHK, unclear....--> 
                   Dated at <placeName role="date">Menston</placeName>, 10 January, <date notBefore="1435-09-01" notAfter="1436-08-31">14 Hen. VI</date>. 
                   <note type="seal">[With small seal.]</note> 
                   <bibl type="shelfmark">MS. Ch. Yorks. 236</bibl>. </p>
@@ -2936,7 +2958,7 @@
                   <persName>sir <forename>Thomas</forename> <surname>Percy</surname></persName>, and 
                   <persName>sir <forename>John</forename> <surname>Tempes</surname></persName>, kts., the two messuages and 28 acres of land
                   in <placeName>Mensyngton</placeName>, which he had by the gift of <persName><forename>William</forename> <surname>Grawer</surname>, sen.</persName> 
-                  Dated at <placeName role="date">Menston</placeName>, i September, <date notBefore="1447-09-01" notAfter="1448-08-31">26 Hen. VI</date>. <bibl type="shelfmark">MS. Ch. Yorks. 242</bibl>. </p>
+                  Dated at <placeName role="date">Menston</placeName>, i September, <date notBefore="1447-09-01" notAfter="1448-08-31">26 Hen. VI</date>. <bibl type="shelfmark">MS. Ch. Yorks. 242a</bibl>. </p>
             </div>
                
             <div type="charter">
@@ -2977,10 +2999,10 @@
             <div type="charter">
                <p> Bond given by <persName><forename>William</forename> <surname>Graver</surname> of <placeName role="person">Spoford</placeName>, yeoman</persName> 
                   and <persName><forename>Richard</forename> <surname>Mawde</surname> of <placeName role="person">Menston</placeName></persName> 
-                  and <persName><forename>Richard</forename> <surname>Smyth</surname></persName> of <!--CHK, unclear ....--> to 
+                  and <persName><forename>Richard</forename> <surname>Smyth</surname></persName> of ... <!--CHK, unclear ....-->, husbandman, to 
                   <persName><forename>Percival</forename> <surname>Brerey</surname></persName> in a sum of £40
                   to abide by the award of <persName><forename>Geoffrey</forename> <surname>Pikard</surname></persName> 
-                  and others concerning the lands &amp;c. of late <persName><forename>Walter</forename>
+                  and others concerning the lands &amp;c. late <persName><forename>Walter</forename>
                      <surname>Graver</surname></persName>'s of <placeName>Menston</placeName>. 
                   Dated 24 Feb., <date notBefore="1511-04-22" notAfter="1512-04-21">3 Hen. VIII</date>. 
                   <bibl type="shelfmark">MS. Ch. Yorks. 246a</bibl>. </p>
@@ -3007,7 +3029,7 @@
                   <persName><forename>William</forename> <surname>Roods</surname></persName> one tenement with all the lands, 
                   fields, &amp;c. belonging to the same in <placeName>Menston</placeName>, now in the tenure of 
                   <persName><forename>William</forename> <surname>Hadylstone</surname></persName>, appointing 
-                  <persName><forename>Richard</forename> <!--CHK, unclear <surname>Han<unclear>hlu</unclear>worth</surname>--></persName> and <persName><forename>George</forename> <surname>Roods</surname></persName>, attorneys to give seisin. 
+                  <persName><forename>Richard</forename> <surname>Haukesworth</surname></persName> and <persName><forename>George</forename> <surname>Roods</surname></persName>, attorneys to give seisin. 
                   Dated 7 March, <date notBefore="1522-04-22" notAfter="1523-04-21">14 Hen. VIII</date>
                      <bibl type="shelfmark">MS. Ch. Yorks. 247</bibl>. </p>
             </div>
@@ -3019,7 +3041,7 @@
                   <persName><forename>William</forename> <surname>Roods</surname></persName> grant to 
                   <persName><forename>Percival</forename> <surname>Brerehagh</surname></persName> and 
                   <persName><forename>Joan</forename> his wife</persName> one tenement with land and 
-                  meadow in <placeName>Menston</placeName><!--CHK, how much to copy here: (as above)-->. 
+                  meadow in <placeName>Menston</placeName> [as in MS. Ch. Yorks. 247]
                   Dated 7 March, <date notBefore="1522-04-22" notAfter="1523-04-21">14 Hen. VIII</date>. 
                   <bibl type="shelfmark">MS. Ch. Yorks. 248</bibl>. </p>
             </div>
@@ -3042,8 +3064,8 @@
                   <persName><forename>Claricia</forename>, <pb n="626"/> daughter of <persName><forename>Thomas</forename> de <surname>Fenton</surname></persName></persName>, 
                   his manor of <placeName type="manor">Mydilton</placeName> near <placeName>Rothewell</placeName>,
                   paying annually, for the same £8 6s. 8d., to the said Gilbert during his life; 
-                  with reminder <!--CHK, unclear: ... -->heirs to <persName><forename>Richard</forename> <surname>Ekker</surname>, 
-                     son of <persName><forename>Adam</forename> <surname><!--CHK, unclear: <unclear>Mael</unclear>--></surname></persName></persName>. 
+                  with remainder failing heirs to <persName><forename>Richard</forename> elder
+                     son of <persName><forename>Adam</forename> <surname><unclear>Noel</unclear><!-- check --></surname></persName></persName>. 
                   Dated at <placeName role="date">Midilton</placeName> the [Monday] in Easter week, <date when="1332">1332</date>. 
                   (Witn. <persName><forename>Henry</forename> de <surname>Olton</surname></persName>)
                   <bibl type="shelfmark">MS. Ch. Yorks. 249b</bibl>. </p>
@@ -3165,7 +3187,8 @@
             </div>
                
                <!--create div wrap for priory?-->
-            <div type="charter">
+           <div type="org">
+              <head>NOSTEL PRIORY</head><div type="charter">
                <p> NOSTEL PRIORY. <persName><forename>Richard</forename>, son of <persName><forename>William</forename> the presbyter</persName></persName>, and 
                   <persName><forename>Beatrix</forename> his wife, daughter of <persName><forename>Swen</forename> <surname>Gunne</surname></persName></persName>, 
                   for the health of their souls grant to the church of <orgName>St. Oswald of Nostle</orgName>, and to 
@@ -3206,7 +3229,7 @@
                   same £6 10s. 
                   <note type="language">[English]</note>
                   <bibl type="shelfmark">MS. Ch. Yorks. 72</bibl>. </p>
-            </div>
+            </div></div>
                
             <div type="charter">
                <p> NUN-APPLETON PRIORY. <persName><forename>Richard</forename> de <surname>Faucomberge</surname></persName> 
@@ -3242,13 +3265,13 @@
             </div>
                
             <div type="charter">
-               <p> <persName><forename>William</forename>, son of <persName><forename>Robert</forename> of the cemetery, 
+               <p> <persName><forename>William</forename>, son of <persName><forename>Robert</forename> of the <surname>cemetery</surname>, 
                   of <placeName role="person">Allerton</placeName></persName></persName>, 
                   grants to <persName><forename>Alexander</forename>, son of <persName><forename>Alexander</forename> de
                      <forename>Oustorpe</forename></persName></persName>, and his heirs, the whole of his land in
-                  <placeName>Osemundtorpe</placeName>, which he had of the tonement of <persName><forename>Isabella</forename> 
-                     his mother</persName>; to hold of the house of the <!--CHK, unclear: knighthook of the Temple an Neus-->, 
-                  paying annually to the said house the due form. 
+                  <placeName>Osemundtorpe</placeName>, which he had of the tenement of <persName><forename>Isabella</forename> 
+                     his mother</persName>; to hold of the house of the <orgName>knighthood of the Temple at Neus'</orgName> 
+                  paying annually to the said house the due farm. 
                      (<date notBefore="1260" notAfter="1270" precision="low">c. 1260-70</date>.)
                      <bibl type="shelfmark">MS. Ch. Yorks. 264</bibl>. </p>
             </div>
@@ -3270,10 +3293,9 @@
                   and <persName><forename>Agnes</forename> his wife</persName>, one acre of arable land in <placeName>Osmundthorp</placeName>,
                   lying above les Mersiklendes. 
                   (<date notBefore="1280" notAfter="1290" precision="low">c. 1280-1290</date>.) 
-                  <note type="seal">[With seal of arm; a dounle/headed eagle, displayed.]</note> 
+                  <note type="seal">[With seal of arm; a dounle/headed eagle, displayed, "S' Joh'is Gane (or Tane) ... le ... natal..']</note> 
                   <bibl type="shelfmark">MS. Ch. Yorks. 266</bibl>. </p>
             </div>
-               <!--CHK, last annotation on p. 627, unclear where it belongs: "S" Joh'is Gane (or Tane) ... le ... natal.-->
                
             <div type="charter">
                <p> <persName><forename>Agnes</forename>, daughter of <persName><forename>William</forename>
@@ -3360,9 +3382,9 @@
             </div>
                
             <div type="charter">
-               <p> FARMANDBY, ESTHALGARTH, THORNETON, ELLERBURNE, PYKERING, and THURKYLBY. 
+               <p> <placeName>FARMANDBY</placeName>, <placeName>ESTHALGARTH</placeName>, <placeName>THORNETON</placeName>, E<placeName>LLERBURNE</placeName>, <placeName>PYKERING</placeName>, and <placeName>THURKYLBY</placeName>. 
                   Indenture made 15 December, <date notBefore="1504-08-22" notAfter="1505-08-21">20 Henry VII</date>, between 
-                  <persName>sir <forename>Edward</forename> <surname>Hastyngs</surname>, kt., lord des <placeName type="lord">Hastings and Hungerford</placeName>,
+                  <persName>sir <forename>Edward</forename> <surname>Hastyngs</surname>, kt., lord des Hastings and Hungerford,
                   son and heir of sir <persName><forename>William</forename> <surname>Hastyngs</surname>, kt., late lord 
                      de Hastyngs</persName></persName>, deceased,
                   <persName>sir <forename>Thomas</forename> <surname>Frowyk</surname>, kt., chief justice</persName>, and
@@ -3370,7 +3392,7 @@
                   <persName><forename>Geoffrey</forename><surname>Symeon</surname>, dean of St. George's, Windsor</persName>, and the
                   canons of the same, of the other part, reciting the foundation of a chantry by the
                   said William lord Hastyngs for the souls of himself and <persName><forename>Katherine</forename> his wife</persName> and
-                  others in the chapel of <placeName type="chapel">St. George's, Windsor</placeName>, and endowing the same with lands
+                  others in the chapel of <orgName>St. George's, Windsor</orgName>, and endowing the same with lands
                   of the annual value of £20.  but because the specified land do not amount to £20 per annum in Hil. term 17 Henry VII, 
                   but only to 18 6., the said Edward now gives an annual rent charge of 35s. from his manor of 
                   <placeName type="manor">Alterston, Yorkshire</placeName> for the said purposes; and Frowyk and Jakes appoint 
@@ -3385,9 +3407,9 @@
                   <pb n="629"/> PONTEFRACT. Letters patent of <persName>King <forename>Charles</forename> I</persName>, dated at 
                   <placeName role="date">Canbury</placeName> <date when="1628-07-21">21 July, 4 of his reign</date>, creating 
                   <persName>sir <forename>John</forename> <surname>Savill</surname>, kt., baron Savill of Pomfret in the
-                  county of York</persName>. 
+                  county of York</persName>. Illuminated borders.
                   <note type="seal">[Great seal, broken.]</note>
-                  <!--CHK: Annotation, reference : "see p. 638 MS. entry" (i.e. p. 638 has an added charter that is given the same Ch. number how to deal with this? should one of them ne Ch. 333b? or perhaps its just the same charter, p. 638 just annotated and this one printed? The p. 638 annotation adds: (Illuminated borders))-->
+                  <!-- also on p. 633(Illuminated borders))-->
                   <bibl type="shelfmark">MS. Ch. Yorks. 333</bibl>. </p>
             </div>
                
@@ -3430,7 +3452,6 @@
                      <bibl type="shelfmark">MS. Ch. Yorks. 277b</bibl>. </p>
             </div>
                 
-                <!--create div wrapper for the priory?-->
             <div type="charter">
                <p> PONTEFRACT (St. John's Priory at). <persName><forename>John</forename>, brother of 
                   <persName><forename>William</forename> de <surname>Kamesale</surname></persName></persName>, sells and for two marks
@@ -3471,7 +3492,7 @@
                   <persName><forename>Simon</forename>, <surname type="patronymic">son of Clariz</surname></persName>, and
                   <persName><forename>John</forename> <surname>Pie</surname></persName> used annually to pay him for certain lands
                   in <placeName>Pudkesay</placeName>, with the service of the said men; paying annually to this William 12d, 
-                  and John paying<!--CHK hardcopy: 6d-->. 
+                  and John paying ...<!--CHK hardcopy: 6d-->. 
                   (<date notBefore="1230" notAfter="1240" precision="low">c. 1230-40</date>.) 
                   <note type="seal">[With fragment of seal.] </note>
                   <bibl type="shelfmark">MS. Ch. Yorks. 279</bibl>,
@@ -3523,7 +3544,7 @@
                         <surname>Wirkelay</surname></persName> in <placeName>Pudsey</placeName>, in the parish of
                   <placeName>Calverley</placeName>; to hold for his life, with remainder to 
                   <persName><forename>John</forename> <surname>Rothelay</surname>, son of the said William</persName>, and to the 
-                  <!--CHK, unclear: igone--> of him and <persName>his wife, <forename>Katherine</forename></persName>. 
+                  issue of him and <persName>his wife, <forename>Katherine</forename></persName>. 
                   Dated at <placeName role="date">Pudsey</placeName>, 1 Jan., <date notBefore="1422-09-01" notAfter="1423-08-31">1 Hen. VI</date>. 
                   <note type="seal">[With small fragments of two seals.]</note> 
                   <bibl type="shelfmark">MS. Ch. Yorks. 282</bibl>. </p>
@@ -3784,13 +3805,13 @@
             </div>
                
             <div type="charter">
-               <p> ROTHERHAM. Bull of <persName>Pope Innocent VI</persName>, addressed to the <!--CHK hardcopy: Cropdn? of the 
-                  <placeName>East Riding</placeName>, and the chancellor and official of York--> granting to
+               <p> ROTHERHAM. Bull of <persName>Pope Innocent VI</persName>, addressed to the archdeacon of the 
+                  East Riding, and the chancellor and official of York granting to
                   <persName><forename>William</forename> <surname>Donke</surname></persName> the mediety of the vicarage of the
-                  parochial church of <placeName>Rotherham</placeName>, vacant by the death of
+                  parochial church of <placeName role="church">Rotherham</placeName>, vacant by the death of
                   <persName><forename>William</forename> <surname>Littester</surname></persName>, and unduly held by 
                   <persName><forename>Robert</forename> <surname>Mapelbek</surname>, a monk of 
-                     <placeName role="person">Rufforth</placeName></persName>. 
+                     <orgName role="person">Rufforth</orgName></persName>. 
                   Dated at <placeName role="date">Avignon</placeName> 3 Kl. May, 9th year of his pontificate (i.e. <date when="1361">1361</date>). 
                   <note type="seal">[With Bulla.]</note> 
                   <bibl type="shelfmark">MS. Ch. Yorks. 294b</bibl>. </p>
@@ -3834,8 +3855,8 @@
                <p> Inquisition taken on the death of <persName><forename>Robert</forename> <surname>Tailler</surname> 
                  son and heir of <persName><forename>John</forename> <surname>Tailler</surname></persName></persName> at
                   <placeName>Rothwell</placeName>, dated <date when="1561-04-07">7 April 3 Elizabeth</date>. 
-                  [Held lands at <placeName>Cofthouse</placeName> in <placeName>Rothwele</placeName>, for which he paid 
-                  10s. yearly to two almshouses at <placeName>Leeds</placeName>] 
+                  Held lands at <placeName>Lofthouse in Rothwele</placeName>, for which he paid 
+                  10s. yearly to two almshouses at <placeName>Leeds</placeName>. His heirs are his three sisters, Sibella, Elizabeth and Margaret). 
                   <bibl type="shelfmark">MS. Ch. Yorks. 297</bibl>. </p>
             </div>
                
@@ -3849,7 +3870,7 @@
                   (<date notBefore="1190" notAfter="1200" precision="low">c. 1190-1200</date>.) 
                   (31 witnesses)
                   ("e heredes", "e heredibus", so written all through the charter)
-                  <!--CHK, unclear to whom annotation refers: (His heirs are his three sisters, Sibella, Elizabeth and Margaret)-->
+                  
                   <bibl type="shelfmark">MS. Ch. Yorks. 298</bibl>. </p>
             </div>
                
@@ -3896,7 +3917,7 @@
                   Jerusalem</orgName></persName>, grants to the <orgName>friars minor of Scartheburg</orgName> one messuage in
                   <placeName>Scartheburg</placeName>, abutting on the town wall.
                   Dated at <placeName role="date">Melcheburn</placeName> on St. Barnabas' day, <date when="1300">1300</date>. 
-                  <note type="seal">[With seal of arms: a barpris Willi de Tothale.]</note> 
+                  <note type="seal">[With seal of arms: a bar. 'S. fris' Willi de Tothale'.]</note> 
                   <bibl type="shelfmark">MS. Ch. Yorks. 303b</bibl>. </p>
             </div>
                
@@ -3925,7 +3946,7 @@
                   <bibl type="shelfmark">MS. Ch. Yorks. 303a</bibl>. </p>
             </div>
                
-            <div type="charter">
+            <div type="charter"><!-- cf Halifax above -->
                <p> SOWTHOWROME. <persName><forename>Thomas</forename> <surname>Lacy</surname> of 
                   <placeName role="person">Crumwelbothome</placeName>, esq.</persName>, grants to
                   <persName><forename>Richard</forename> <surname>Mylner</surname> of 
@@ -3943,7 +3964,7 @@
                   The chancellor &amp;c. of the <orgName>University of Cambridge</orgName> against 
                   <persName>sir <forename>Marmaduke</forename> <surname>Wyuill</surname>, bart.</persName>, and
                   <persName><forename>Anthony</forename> <surname>Routh</surname></persName>,
-                  concerning the right of presentation to the church of <placeName>Spenythorne</placeName>. [Mutilated.]
+                  concerning the right of presentation to the church of <placeName role="church">Spenythorne</placeName>. [Mutilated.]
                      <bibl type="shelfmark">MS. Ch. Yorks. 304b</bibl>. </p>
             </div>
                
@@ -4002,7 +4023,7 @@
                   of <placeName role="person">Stokesley</placeName></persName></persName>, remits and quit-<pb n="634"/>claims
                   to <persName>sir <forename>John</forename> de <surname>Eure</surname>, kt.</persName>,
                   all right he had in one burgage lying in <placeName>Stokesley</placeName>. 
-                  Dated at <placeName>Stokesley</placeName> the Wednesday next after the feast of the translation of St. Thomas, 
+                  Dated at <placeName role="date">Stokesley</placeName> the Wednesday next after the feast of the translation of St. Thomas, 
                   <date notBefore="1347-01-25" notAfter="1348-01-24">21 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Yorks. 308</bibl>. </p>
             </div>
@@ -4011,9 +4032,10 @@
                <p> Indenture of agreement between <persName>sir <forename>Ralph</forename> de <surname>Eure</surname>, kt.</persName>, 
                   of the one part, and <persName><forename>William</forename> <surname>Colynson</surname> of 
                      <placeName role="person">Langnewton</placeName></persName> 
-                  <!--CHK, unclear: ... at Stokesley ... after .... 3 Henry IV--> of the other part,
+                  of the other part,
                   witnesseth that the latter acknowledges that he holds two burgages in <placeName>Stokesley</placeName> by an annual rent 
-                  of 8s. which burgages the  <!--CHK hardcopy .... to him and his wife Ann...--> 
+                  of 8s. which burgages the ... <!--CHK hardcopy .... to him and his wife Ann...--> 
+                  Dated at <placeName role="date">Stokesley</placeName> Thursday after Hillary <date notBefore="1401-09-30" notAfter="1402-09-29">3 Henry IV</date> 
                      <bibl type="shelfmark">MS. Ch. Yorks. 309</bibl>. </p>
             </div>
                
@@ -4138,7 +4160,7 @@
                      yeoman</persName> for property in <placeName>Wakefeld</placeName>, formerly
                   belonging to the <orgName>monastery of Monkebretton</orgName>, to <persName><forename>Richard</forename> 
                      <surname>Fymone</surname>, mercer</persName>. 
-                  With great seal.] 
+                  [With great seal.] 
                   <bibl type="shelfmark">MS. Ch. Yorks. 336</bibl>. </p>
             </div>
                
@@ -4148,7 +4170,7 @@
                      <surname>Wakefeld</surname></persName></persName>, all and singular the messuages, tofts,
                   crofts, lands, tenements, &amp;c. which he has within the bounds of <placeName>Stanlay</placeName>, 
                   and one tenement in <placeName>Wakefeld</placeName>, and 3s. of yearly rent from the shop in 
-                  <placeName>le <!--CHK, unclear: Fleschbothes--></placeName> of Wakefeld, and the half of his meadows 
+                  <placeName>le Fleschbothes</placeName> of Wakefeld, and the half of his meadows 
                   in <placeName>Neutown Enges</placeName>. 
                   Dated at <placeName role="date">Wakefeld</placeName> the Friday next after the feast of the Purification, 
                   <date when="1343">1343</date>. 
@@ -4170,13 +4192,12 @@
                
             <div type="charter">
                <p> WHITBY (Abbey of). Grant by the Crown to <persName><forename>William</forename>, lord <surname>Ewre</surname></persName> of 
-                  the reversion of ale the <!--CHK, unclear: ropessions? --> contained in a lease from the Crown granted, 
+                  the reversion of all the possessions contained in a lease from the Crown granted, 
                   by letters patent of 28 March, 3 Elizabeth, to 
-                  <persName><forename>Christopher</forename> <surname>Pykarde</surname> of the chapel of <placeName type="chapel">Newton</placeName>
-                  </persName>, in <placeName>Cleveland under Oversbury</placeName>, part of the rectory of <placeName>Ingleby</placeName>,
+                  <persName><forename>Christopher</forename> <surname>Pykarde</surname></persName>, by letters patent of 28 March 3 Eliz., of the chapel of <placeName type="chapel">Newton, in Cleveland under Oversbury</placeName>, part of the rectory of <placeName>Ingleby</placeName>,
                   and late belonging to the <orgName>monastery of Whitby</orgName>, for 21 years, at an annual rent of
                   33s. 4d.; in exchange for certain lands granted by the said lord Ewre. 
-                  Dated <date when="1571-07-27">27 July, 13 Q. Elizabeth</date>. 
+                  Dated <date when="1571-07-27">27 July, 13 Q. Elizabeth</date>.<!-- check: 18 rr? --> 
                   <bibl type="shelfmark">MS. Ch. Yorks. 36</bibl>. </p>
             </div>
                
@@ -4245,7 +4266,7 @@
                      <persName><forename>William</forename> his brother</persName> for £400, of the rectory of 
                      <placeName>Wresile</placeName> with messuages and lands in <placeName>Lofthosom</placeName>;
                   5 March <date notBefore="1605-03-24" notAfter="1606-03-23">3 James I</date>.
-                     <bibl type="shelfmark">MS. Ch. Yorks. 321b <!--see p. 636, WAS: 321* (nb. 321a marked below)--></bibl>.
+                     <bibl type="shelfmark">MS. Ch. Yorks. 321b <!--check: see p. 636, WAS: 321* (nb. 321a marked below)--></bibl>.
                   </p>
                </div>
                
@@ -4351,7 +4372,7 @@
                   and <persName><forename>Alice</forename> his wife</persName>, defendants, concerning the half of a
                   messuage in <placeName>York</placeName> held by <persName><forename>William</forename> de <surname>Wygan</surname></persName> 
                   and <persName><forename>Margery</forename> his wife</persName>, for the life of the said Margery and which is now 
-                  acknowledged to the <!--CHK, unclear ...--> of the said John de Berden for which he now pays 10 marks. 
+                  acknowledged to be the right of the said John de Berden for which he now pays 10 marks. 
                   <bibl type="shelfmark">MS. Ch. Yorks. 324</bibl>. </p>
             </div>
            
@@ -4359,17 +4380,17 @@
                   <p>YARM. Agreement between <persName><forename>Henry</forename> <surname>Bentley</surname></persName>, on one part 
                      and <persName><forename>Robert</forename> <surname>Bowes</surname></persName> and 
                      <persName><forename>Jane</forename> his wife</persName> on the other, respecting a burgage in 
-                     <placeName>Yaorm</placeName> let to <persName><forename>Nicholas</forename> <surname>Pearcson</surname></persName>;
+                     <placeName>Yarom</placeName> let to <persName><forename>Nicholas</forename> <surname>Pearcson</surname></persName>;
                      <date when="1622-09-27">27 Sept. 1622</date>.
                      <note type="language">[English]</note>
                      (Slightly mutilated and in small part effaced)
-                     <bibl type="shelfmark">MS. Ch. Yorks. 321c <!--see p. 636, WAS: 321**--></bibl>. 
+                     <bibl type="shelfmark">MS. Ch. Yorks. 321c <!--check see p. 636, WAS: 321**--></bibl>. 
                   </p>
                </div>
                
             <div type="charter">
                <p> Indenture made 12 Jan., <date when="1603">1603</date>, by which <persName><forename>Mathew</forename>
-                  <surname>[Hutton]</surname>, archbishop of <pb n="637"/><placeName role="archbishop" type="archdiocese">York</placeName></persName>, leases to <persName><forename>Edward</forename>
+                  <surname><supplied>Hutton</supplied></surname>, archbishop of <pb n="637"/><placeName role="archbishop" type="archdiocese">York</placeName></persName>, leases to <persName><forename>Edward</forename>
                      <surname>Croft</surname> of the city of <placeName role="person">York</placeName></persName> a messuage or tenement
                   in the flesh shambles in the city of <placeName>York</placeName>, for 21 years, at the yearly rent of 13/4d.. 
                   <note type="seal">[With fine impression of seal, noted by Rawlinson as having been engraved by the Society of Antiquaries in 1751.]</note> 
@@ -4379,20 +4400,20 @@
                
             <div type="charter">
                <p> Probate of the will of <persName><forename>Stephen</forename> <surname>Todd</surname> of 
-                  <placeName role="person">York</placeName>, gent.</persName>, dated at <!--CHK, unclear: weum--> <date when="1653-03-04">4 March, 1653</date>, and
+                  <placeName role="person">York</placeName>, gent.</persName>, dated at <placeName role="date">Westminster</placeName> <!--CHK, unclear--> <date when="1653-03-04">4 March, 1653</date>, and
                   granted to <persName><forename>Anne</forename> <surname>Todd</surname></persName>, relict and sole executrix. 
                   <bibl type="shelfmark">MS. Ch. Yorks. 325</bibl>. </p>
             </div>
                
             <div type="charter">
-               <p> A certificate by <persName><forename>Thomas</forename> <surname>[Arundel]</surname>, archbp. of <placeName role="archbishop" type="archdiocese">York</placeName></persName>, 
+               <p> A certificate by <persName><forename>Thomas</forename> <surname><supplied>Arundel</supplied></surname>, archbp. of <placeName role="archbishop" type="archdiocese">York</placeName></persName>, 
                   that it is found in the register of <persName><forename>John</forename> de <surname>Thoresby</surname></persName> 
                   his predecessor, that <persName><forename>Thomas</forename> de <surname>Saltmersse</surname>, acolyte</persName>, 
                   the Saturday on the vigil of St. Matthew, apostle, <date when="1371">1371</date>, in the parish
-                  church of <placeName>St. Mary, the old York</placeName>, was ordained sub-deacon, 
+                  church of <placeName role="church">St. Mary, the old York</placeName>, was ordained sub-deacon, 
                   on the vigil of St. Thomas ap. in the same year deacon  and the Saturday in the first week of Lent, same year 
                   and place, was ordained presbyter by the venerable <persName>Richard, "servien. ep." then suffragan</persName>, 
-                  on the <!--chk, unclear: title of the neuse of the nuns of Nunapilton-->. 
+                  on the title of the <orgName>house of the nuns of Nunapilton</orgName>. 
                   Dated at <placeName role="date">York</placeName>, 12 June, <date when="1392">1392</date>.
                      <bibl type="shelfmark">MS. Ch. Yorks. 327</bibl>. </p>
             </div>
@@ -4409,7 +4430,7 @@
             
             <div type="charter">
                <p> <persName><forename>Wimarca</forename>, daughter of <persName><forename>Gervase</forename> the
-                  constable</persName></persName>, remits and quit-claims to the <orgName>church of St. Mary of York</orgName> and 
+                  <surname>constable</surname></persName></persName>, remits and quit-claims to the <orgName>church of St. Mary of York</orgName> and 
                   the monks there, for 3½ marks all right in certain land of her fathers. &amp;c.
                   [Partly obliterated.] 
                   (<date notBefore="1220" notAfter="1230" precision="low">c. 1220-30</date>)
@@ -4417,8 +4438,7 @@
             </div>
             
             <div type="charter">
-               <p> Charter by which, <persName>...ftesse rector of <placeName ref="rector">Kirkeby in Hindoldale,
-                  Kvaderdale</placeName></persName>, grants to the <orgName>abbot and convent of St. Marie of York</orgName>, 
+               <p> Charter by which, <persName>... <surname>...ftesse</surname> rector of <placeName role="rector">Kirkeby in ?Niderdale</placeName></persName><!-- i.e. Kirkby Malzeard? -->, grants to the <orgName>abbot and convent of St. Marie of York</orgName>, 
                   the whole of that plot which he had by the gift of 
                   <persName><forename>Thomas</forename> <surname>Loundrays</surname> de <placeName role="person">Pokelington</placeName></persName> 
                   in <placeName>Boicchom</placeName> extending in length to the stone wall of the abbey. 
@@ -4426,7 +4446,6 @@
                   <bibl type="shelfmark">MS. Ch. Yorks. 39</bibl>. </p>
             </div>
             
-            <!-- ADD div wrapper for priory docs-->
             <div type="charter">
                <p> YORK (Priory of Holy Trinity). At a court of the venerable <persName><forename>Robert</forename>
                      <surname>Halowe</surname>, prior of the <orgName role="prior">Holy Trinity, York</orgName></persName>, held 16
@@ -4436,17 +4455,16 @@
                   <bibl type="shelfmark">MS. Ch. Yorks. 78</bibl>. </p>
             </div>
             
-            <!-- ADD div wrapper for priory docs-->
             <div type="charter">
                <p> YORK (Priory of St. Clement). <persName>Sir <forename>Peter</forename> de <surname>Percy</surname></persName> 
                   confirms and quit-claims to God and <orgName>the nuns of St. Clement</orgName> the whole of that area 
-                  which is against their gate towards the north, which William de Percy, his grandfather, had by their gift.
+                  which is against their gate towards the north, which <persName><forename>William</forename> de <surname>Percy</surname></persName>, his grandfather, had by their gift.
                   (<date notBefore="1250" notAfter="1255" precision="low">c. 1250-55</date>.)
                      <bibl type="shelfmark">MS. Ch. Yorks. 79</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> Nicholas, son and heir of Ernesius [ad Bar]ram de Walmegate, releases to 
+               <p> <persName><forename>Nicholas</forename>, son and heir of <persName><forename>Ernesius</forename> <supplied>ad Bar</supplied>ram de <surname>Walmegate</surname></persName></persName>, releases to 
                   <persName><forename>Agnes</forename> de <surname>Wyten</surname>, prioress</persName>, and 
                   <orgName>the nuns of St. Clement, York</orgName>, his right and claim to all the
                   lands and edifices in <placeName>Walmegate</placeName> in the suburbs of <placeName>York</placeName>, 
@@ -4456,7 +4474,6 @@
                   <bibl type="shelfmark">MS. Ch. Yorks. 80</bibl>. </p>
             </div>
             
-            <!-- ADD div wrapper for convent docs-->
             <div type="charter">
                <p> YORK (Convent of White Friars). Grant from <persName><forename>Mauger</forename>, prior of the <orgName role="prior">Carmelites of
                   York</orgName></persName>, to <persName><forename>Roger</forename><surname>Low</surname></persName>, 
@@ -4472,7 +4489,7 @@
                   <persName><forename>Joan</forename> his wife</persName> of the right and benefit
                   to and in the prayers of the convent during their lives, and commemoration after
                   their death. 
-                  Dated <date when="1473">1473</date>, "per fratrem Edwardum" (no date of day). 
+                  Dated <date when="1473">1473</date>, "per <persName>fratrem <forename>Edwardum</forename></persName>" (no date of day). 
                   <bibl type="shelfmark">MS. Ch. Yorks. 82</bibl>. </p>
             </div>
             
@@ -4491,7 +4508,6 @@
                   <bibl type="shelfmark">MS. Ch. Yorks. 83</bibl>. </p>
             </div>
             
-            <!-- ADD div wrapper for hospital docs-->
             <div type="charter">
                <p> YORK (Hospital of St. Leonard). 
                   <persName><forename>William</forename> de <surname>Kirtelington</surname>, chaplain</persName>, grants to the poor of 
@@ -4505,14 +4521,13 @@
                <p> Charter dated <date notBefore="1300-11-20" notAfter="1301-11-19">29 Ed. I</date>, the Friday on the feast of St. Katherine the
                   virgin, at York, being a convention between <persName><forename>Walter</forename>, bp. of <placeName role="bishop" type="diocese">Coventry and Lichfield</placeName>,
                   master of the <orgName>hospital of St Leonard, York</orgName></persName>, and <persName><forename>Roger</forename>, abbot of Melsa</persName>,
-                   and the convent concerning two mills (water) in <placeName>Great Wharrum</placeName>, by which the former 
+                   and the convent concerning two mills (water) in <placeName>Great Wharrum</placeName>, by which the former ...
                   <!--CHK hardcopy: reduces?
                   the rent of four medows paid according to the agreement between Hugh formerly the ... formerly abbot to 3 marks-->. 
                   [With seal.] 
                   <bibl type="shelfmark">MS. Ch. Yorks. 108</bibl>. </p>
             </div>
             
-            <!-- ADD div wrapper for hospital docs-->
             <div type="charter">
                <p> YORK (Hospital of St. Peter at) (afterwards St. Leonard). Grant from <persName><forename>Paulinus</forename>, 
                   the minister of the hospital and house of St. Peter</persName>, and 
@@ -4554,29 +4569,12 @@
                   controversy, was submitted to the judgement of the sire de Percy, who after deliberation
                   adjudged the arms to belong to <persName><forename>William</forename> de <surname>Aton</surname></persName>, 
                   who thereupon grants the same to <persName><forename>Robert</forename> de <surname>Boneton</surname></persName>
-                  and his heirs for ever. [Defaced.] Fr.
+                  and his heirs for ever. [Defaced.]<note type="language">French</note>
                   <note type="seal">[With seal.]</note> 
                   <bibl type="shelfmark">MS. Ch. Yorks. 335</bibl>. </p>
             </div>
              
-            <div type="charter">
-               <p> An indenture made the <date when="1583-04-10">l0th of April, 25th year of Q. Elizabeth</date>, between the 
-                  <persName>rt. hon. <forename>William</forename> lord <surname>Eure</surname></persName> of the one part, and
-                  <persName><forename>Richard</forename> <surname>Medd</surname></persName>, 
-                  <persName><forename>Robert</forename> <surname>Bell</surname></persName>, and 
-                  <persName><forename>Christabell</forename> <surname>White</surname></persName>, of the second part,
-                  witnesseth that lord Eure has demised to <persName><forename>Richard</forename>
-                     <surname>Medd</surname></persName>, <persName><forename>Robert</forename>
-                     <surname>Bell</surname></persName>, and <persName><forename>Christabell</forename> 
-                        <surname>White</surname></persName> two closes called
-                  <placeName type="minor">Potter's</placeName> and <placeName type="minor">White's close</placeName>s, 
-                  with a cottage, for 21 years, or during the life of
-                  <persName><forename>Ralph</forename> <surname>Eure</surname>, son and heir of lord Eure</persName>. 
-                  <note type="language">[English]</note>
-                  (see MS. Ch. Yorks. 200b)
-                  <bibl type="shelfmark">MS. Ch. Yorks. 200*</bibl> 
-                  <!--WAS: <bibl type="shelfmark">MS. Ch. Yorks. 21</bibl> SEE PAGE 638; WHAT IS THE SHELFMARK FOR THIS, DOCS. Ch. Yorks. 200a and 200b already exists (see p. 620)--></p>
-            </div>
+           
             
             <div type="charter">
                <p> Blank commission, signed and sealed by <persName><forename>Henry</forename>, duke of <placeName role="duke" type="dukedom">Newcastle</placeName></persName>, 
@@ -4589,15 +4587,15 @@
             <div type="charter">
                <p>
                   <pb n="639"/> ALLERTONSHIRE. Subsidy roll for <placeName>Langebarwhe</placeName>, 
-                  <placeName>Whilbystand</placeName> et <persName><forename>W</forename>. [lord] <surname>Eure</surname> of <placeName role="wapentake">Allertonshire</placeName></persName>. 
+                  <placeName>Whitbystand</placeName> et <persName><forename>W</forename>. [lord] <surname>Eure</surname> of <placeName role="wapentake">Allertonshire</placeName></persName>. 
                   <date notBefore="1558-11-17" notAfter="1603-03-24">Temp. Eliz. I</date>. Total at 1s. in the pound £101 14 8. Inutilated and partly effaced at the beginning.
                   <bibl type="shelfmark">MS. Rolls Yorks. 1</bibl>.</p>
             </div>
             
             <div type="charter">
                <p> EMELDON, SHEPLEIGH, STANFORD, DONSTANBURGH, and PIKERING. The accounts of the
-                  provosts and recounts of the lordship of <placeName>Pyckering</placeName>, <!--CHK hardcopy: the barony of-->
-                  <placeName>Emeldon</placeName> with <placeName>Donstanburgh</placeName>, <placeName>Burton</placeName>,
+                  provosts and recounts of the lordship of <placeName role="lordship">Pyckering</placeName>, <!--CHK hardcopy: the barony of-->
+                  <placeName role="barony">Emeldon</placeName> with <placeName>Donstanburgh</placeName>, <placeName>Burton</placeName>,
                   <placeName>Shepeleye</placeName> and <placeName>Staunford</placeName>, rendered to 
                   <persName>sir <forename>William</forename> de <surname>Blaby</surname></persName>, one of the auditors 
                   of the lands of the Duke of <placeName type="dukedom">Lancaster</placeName>, for the year 
@@ -4782,7 +4780,7 @@
             </div>
             
             <div type="charter">
-               <p> YORKSHIRE and DURHAM. A return of the passing of various fee farm rents, parcel
+               <p> <placeName type="county">YORKSHIRE</placeName> and <placeName type="county">DURHAM</placeName>. A return of the passing of various fee farm rents, parcel
                   of the dissolved monasteries, from the Crown to various persons, extracted from a
                   book and attested and signed by <persName><forename>Robert</forename> <surname>Paddon</surname>, 
                      auditor</persName>, Dec. 24, <date when="1610">1610</date>. 
