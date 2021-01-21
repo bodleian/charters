@@ -74,10 +74,7 @@
                <note type="charter">MS. Ch. Suffolk 1354</note>
             </place>
             
-            <place type="manor" xml:id="place_102006">
-              
-            </place>
-           
+            
             <place type="manor" xml:id="place_102007">
                <placeName type="index">Limborne</placeName>
                <placeName type="variant">Lymbourn</placeName>
@@ -178,6 +175,15 @@
                <note type="charter">MS. Ch. Sussex 254</note>
                <!-- ckd MLH -->
             </place>
+            
+            <place type="manor" xml:id="place_102122">
+               <placeName type="formInDocument">Cuckfield, Pains</placeName>
+               <placeName type="formInDocument">Paynes in Cokefeld</placeName>
+               <region type="parish">Cuckfield</region>
+               <region type="county">Sussex</region>
+               <note type="charter">MS. Ch. Sussex 253</note>
+               <bibl>VCH: Sussex VII.147-163</bibl>
+            </place>
          
          <!-- end of manors -->
          
@@ -204,9 +210,14 @@
             </place>
             
             <place type="place" xml:id="place_102019">
+               <!-- evidently the same as Hauedell - Hanedell below -->
+               <placeName type="index">Anedelle, Hanedell [unidentified]</placeName>
                <placeName type="formInDocument">Anedelle</placeName>
+               <placeName type="formInDocument">Havedell</placeName>
+               <region type="county">Sussex</region>
                <!-- MLH not found: error for Arundel? -->
                <note type="charter">MS. Ch. Sussex 32</note>
+                  <note type="charter">MS. Ch. Sussex 70</note>
             </place>
             
             <place type="place" xml:id="place_102020">
@@ -265,9 +276,6 @@
                <placeName type="formInDocument">Beigham</placeName>
                <placeName type="formInDocument">Beiham</placeName>
                <placeName type="formInDocument">Be[igham</placeName>
-               <placeName type="formInDocument">St. Mary of Begeham</placeName>
-               <placeName type="formInDocument">St. Mary of Begham</placeName>
-               <placeName type="formInDocument">St. Mary of Beigham</placeName>
                <placeName type="formInDocument">Begham</placeName>
                <placeName type="formInDocument">Beaulieu</placeName>
                <region type="parish">Frant</region>
@@ -285,7 +293,6 @@
                <note type="charter">MS. Ch. Sussex 30</note>
                <note type="charter">MS. Ch. Sussex 21</note>
                <note type="charter">MS. Ch. Sussex 20</note>
-               <!--separate abbey documents from refs to the hamlet?-->
             </place>
             
             <place type="place" xml:id="place_102028">
@@ -322,12 +329,13 @@
                <note type="charter">MS. Ch. Sussex 28b</note>
             </place>
             
-            <place type="place" xml:id="place_102033">
-               <!--potentially: <placeName type="index">Boughton Monchelsea</placeName>-->
+          <place type="place" xml:id="place_102033">
+               <placeName type="index">Boughton Monchelsea</placeName>
                <placeName type="formInDocument">Boughton Mun..chelston</placeName>
-               <!--<region type="parish"></placeName> -->
+             <region type="parish">Boughton Monchelsea</region> 
                <region type="county">Kent</region>
                <!--potentially: <idno>https://www.genuki.org.uk/big/eng/KEN/BoughtonMonchelsea</idno>-->
+                <!-- i think this must be right although the spelling is not in Wallenberg -->
                <note type="charter">MS. Ch. Sussex 259</note>
             </place>
             
@@ -348,7 +356,8 @@
                <placeName type="formInDocument">Bradewatre</placeName>
                <placeName type="formInDocument">Bradewatere</placeName>
                <region type="parish">Broadwater</region> 
-               <region type="county">Sussex</region> <idno>https://epns.nottingham.ac.uk/browse/Sussex/Broadwater+%28including+Worthing%29/5328724eb47fc40c36000cbc-Broadwater</idno>
+               <region type="county">Sussex</region> 
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Broadwater+%28including+Worthing%29/5328724eb47fc40c36000cbc-Broadwater</idno>
                <note type="charter">MS. Ch. Sussex 209</note>
                <note type="charter">MS. Ch. Sussex 212</note>
             </place>
@@ -361,12 +370,11 @@
                <note type="charter">MS. Ch. Sussex 240b</note>
             </place>
             
-      ?      <place type="place" xml:id="place_102037">
-               <!--?? <placeName type="index"></placeName>-->
+            <place type="place" xml:id="place_102037">
+               <placeName type="index">Brightwell</placeName>
                <placeName type="formInDocument">BRIGHT WELL (Del Hame, near)</placeName>
-               <placeName type="formInDocument">Britwelle</placeName>
-               <!--<region type="parish"></region> 
-               <region type="county"></region>-->
+               <placeName type="formInDocument">Britwelle</placeName><!-- a parish -->
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Sussex 81</note>
                <note type="charter">MS. Ch. Sussex 81</note>
             </place>
@@ -381,10 +389,12 @@
             </place>
             
             <place type="place" xml:id="place_102040">
-               <!--?? <placeName type="index"></placeName>-->
+               <placeName type="index">Calais</placeName>
                <placeName type="formInDocument">Cales</placeName>
                <!--<region type="parish"></region> 
                <region type="county"></region>-->
+               <country>France</country>
+               <idno>https://dicotopo.cths.fr/places/P84710378</idno>
                <note type="charter">MS. Ch. Sussex 82</note>
             </place>
             
@@ -399,9 +409,9 @@
                <note type="charter">MS. Ch. Sussex 308</note>
             </place>
             
-            <place type="place" xml:id="place_102042">
-               <!--Perhaps all these refer to the priory of Pynham? see e.g. https://www.british-history.ac.uk/vch/sussex/vol2/pp80-81 -->
-               <!--<placeName type="index"></placeName>-->
+            <place type="street" xml:id="place_102042">
+            <!--Perhaps all these refer to the priory of Pynham? see e.g. https://www.british-history.ac.uk/vch/sussex/vol2/pp80-81 (this is not so, as is clear from the charters) -->
+               <placeName type="index">Arundel, the causeway</placeName>
                <placeName type="formInDocument">Causeway</placeName> 
                <placeName type="formInDocument">[at the Causeway] near Arundel</placeName>
                <placeName type="formInDocument">Causeway near Arundel</placeName>
@@ -499,20 +509,20 @@
             </place>
             
             <place type="place" xml:id="place_102048">
-               <!--??<placeName type="index">East Dean</placeName>
-                  https://epns.nottingham.ac.uk/browse/Sussex/East+Dean/5328724eb47fc40c36000ce5-East+Dean-->
+        <placeName type="index">Westdean</placeName>
+        <!-- note: in Pevensey hundred: differetn from West Dean -->
                <placeName type="formInDocument">Dene</placeName>
-               <!--<region type="parish"></region> 
-               <region type="county"></placeName>-->
+               <region type="parish">Westdean</region> 
+               <region type="county">Sussex</region>
                <note type="charter">MS. Ch. Sussex 7b</note>
             </place>
             
             <place type="place" xml:id="place_102049">
-               <!--possibly: <placeName type="index">Denham</placeName>-->
+               <placeName type="index">Denham</placeName>
                <placeName type="formInDocument">Denham</placeName>
-               <!--<region type="parish">Denham</region> 
-               <region type="county">Buckinghamshire</region>-->
-               <!--possibly: <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Denham/53282ee4b47fc407e300034b-Denham</idno>-->
+               <region type="parish">Denham</region> 
+               <region type="county">Suffolk</region>
+               <!-- see: https://en.wikipedia.org/wiki/Edward_Lewknor_(died_1605) -->
                <note type="charter">MS. Ch. Sussex 100</note>
                <note type="charter">MS. Ch. Sussex 101</note>
             </place>
@@ -602,11 +612,11 @@
             </place>
             
             <place type="place" xml:id="place_102059">
-               <!--? perhaps the same as?: 
-               <placeName type="index">Fel Bridge</placeName> https://epns.nottingham.ac.uk/browse/Sussex/East+Grinstead/5328722db47fc40c360002d8-Fel+Bridge, see also Strode-->
+               <placeName type="index">'Felde'</placeName>
                <placeName type="formInDocument">Felde</placeName>
-               <!--<region type="parish"></region> 
-               <region type="county"></region>-->
+               <region type="parish" cert="low">Warnham</region> 
+               <region type="county" cert="low">Sussex</region>
+               <note>Perhaps to be identified with the later estate of Field Place in Warnham (VCH: Sussex VI part 2, 207-12) </note>
                <note type="charter">MS. Ch. Sussex 276</note>
             </place>
             
@@ -642,7 +652,7 @@
             </place>
             
             <place type="place" xml:id="place_102064">
-               <placeName type="index">Littlehampton</placeName>
+          <!--checked-->     <placeName type="index">Littlehampton</placeName>
                <placeName type="formInDocument">Hampton</placeName>
                <region type="parish">Littlehampton</region> 
                <region type="county">Sussex</region>
@@ -652,8 +662,10 @@
             </place>
              
             <place type="place" xml:id="place_102065">
-               <!--could it be this?: <placeName type="index">Harberg</placeName>
+      <!--check 
+               (could be Market Harborough ???)--> <!--could it be this?: <placeName type="index">Harberg</placeName>
                https://epns.nottingham.ac.uk/browse/Lincolnshire/Killingholme/58f86702756ff4cf4246610c-Harberg-->
+               <placeName type="index">Harberg, Harbergh [unidentified]</placeName>
                <placeName type="formInDocument">Harberg</placeName>
                <placeName type="formInDocument">Harbergh</placeName>
                <!--<region type="parish"></region> 
@@ -671,13 +683,7 @@
                <note type="charter">MS. Ch. Sussex 310</note>
             </place>
             
-            <place type="place" xml:id="place_102067">
-               <!--?? untraced -->
-               <placeName type="formInDocument">Havedell</placeName>
-               <!--<region type="parish"></region> 
-               <region type="county"></region>-->
-               <note type="charter">MS. Ch. Sussex 70</note>
-            </place>
+           
             
             <place type="place" xml:id="place_102068">
                <placeName type="index">Hailsham</placeName>
@@ -766,7 +772,7 @@
             </place>
             
             <place type="place" xml:id="place_102073">
-               <placeName type="index">Hardham</placeName>
+    <!--checked-->           <placeName type="index">Hardham</placeName>
                <placeName type="formInDocument">Heryngham</placeName>
                <region type="parish">Hardham</region> 
                <region type="county">Sussex</region>
@@ -787,15 +793,17 @@
             </place>
             
             <place type="place" xml:id="place_102075">
+    <!--not found 20.1.21         -->
+               <placeName type="index">Highsted [unidentified]</placeName>
                <placeName type="formInDocument">Highsted</placeName>
-               <!--potential location, how to verify? There's a Highstead Road and Highstead Grammar school here
+               <!--potential location, how to verify? There's a Highstead Road and Highstead Grammar school here - also Highsted in Chislet in Hasted
                   <region type="parish">Sittingbourne</region> 
                <region type="county">Kent</region>-->
                <note type="charter">MS. Ch. Sussex 253</note>
             </place>
 
             <place type="place" xml:id="place_102077">
-               <placeName type="index">Horleigh Green Fm</placeName>
+               <placeName type="index">Horleigh</placeName>
                <placeName type="formInDocument">Horle</placeName>
                <region type="parish">Mayfield</region> 
                <region type="county">Sussex</region>
@@ -946,18 +954,7 @@
                <note type="charter">MS. Ch. Sussex 165</note>
             </place>
             
-            <place type="place" xml:id="place_102082">
-               <placeName type="formInDocument">Inner Temple</placeName>
-                <placeName type="formInDocument">the Inner Temple</placeName>
-               <!--Would this be the same as the Temple in London?
-                  <placeName type="borough">The Temple</placeName>
-               <region type="county">Middlesex</placeName>
-               <idno>https://www.genuki.org.uk/big/eng/LND/TheTemple</idno>
-               <idno>https://epns.nottingham.ac.uk/browse/id/53282a40b47fc407a0000017-The+Temple</idno>-->
-               <note type="charter">MS. Ch. Sussex 100</note>
-                <note type="charter">MS. Ch. Sussex 101</note>
-               <note type="charter">MS. Ch. Sussex 253</note>
-            </place>
+           
             
             <place type="church" xml:id="place_102083">
                <placeName type="index">Exning</placeName>
@@ -1089,27 +1086,29 @@
             </place>
             
             <place type="place" xml:id="place_102104">
-               <!-- perhaps this place?:
-                  <placeName type="index">Matfield</placeName>-->
+      <!--checked         -->
+                  <placeName type="index">Matfield</placeName>
                <placeName type="formInDocument">Mattefeld</placeName>
-               <!-- perhaps this place? 
                   <region type="parish">Brenchley</region>
                <region type="county">Kent</region>
-               <idno>https://www.genuki.org.uk/big/eng/KEN/Brenchley</idno>-->
+               <idno>https://www.genuki.org.uk/big/eng/KEN/Brenchley</idno>
                <note type="charter">MS. Ch. Sussex 12</note>
             </place>
             
             <place type="place" xml:id="place_102105">
+     <!-- not found 20.1.21    -->    
+               <placeName type="index">Mereshale [unidentified]</placeName>
                <placeName type="formInDocument">Mereshale</placeName>
-              <!-- <region type="parish"></region>
-               <region type="county"></region>-->
+              <!-- <region type="parish"></region>-->
+               <region type="county">Sussex</region>
                <note type="charter">MS. Ch. Sussex 7b</note>
             </place>
             
             <place type="place" xml:id="place_102106">
-               <placeName type="formInDocument">Michelham</placeName>
-               <!--<region type="county"></placeName>
-               <region type="parish"></placeName>-->
+               <placeName type="index">Michelham</placeName>
+    <!--checked-->           <placeName type="formInDocument">Michelham</placeName>
+               <region type="county">Sussex</region>
+               <region type="parish">Arlington</region>
                <note type="charter">MS. Ch. Sussex 167</note>
             </place>
             
@@ -1134,10 +1133,14 @@
             </place>
             
             <place type="place" xml:id="place_102109">
+               <placeName type="index">Neubrugge, Niwebrugge [unidentified]</placeName>
                <placeName type="formInDocument">Neubrugge</placeName>
                <placeName type="formInDocument">Niwebrugge</placeName>
                <!-- ?<region type="parish"></region>
                <region type="county"></region>-->
+               
+               <!-- might be Newbridge in Wisborough Green, 20.1.21 -->
+               
                <note type="charter">MS. Ch. Sussex 49</note>
                <note type="charter">MS. Ch. Sussex 218</note>
             </place>
@@ -1154,7 +1157,9 @@
             </place>
             
             <place type="place" xml:id="place_102111">
-               <!--<placeName type="index"></placeName>-->
+    <!-- not found 20.1.21
+               elsewhere 'Hodingeford'-->
+               <placeName type="index">Nodingeford [unidentified]</placeName>
                <placeName type="formInDocument">Nodingeford</placeName>
                <!--? <region type="parish"></region>
                <region type="county"></region>-->
@@ -1202,7 +1207,7 @@
             </place>
             
             <place type="place" xml:id="place_102116">
-               <placeName type="index">Islinghurst</placeName>
+    <!--ok-->           <placeName type="index">Islinghurst</placeName>
                <placeName type="formInDocument">Oslynhhurst</placeName>
                <region type="parish">Ockley</region>
                <region type="county">Surrey</region>
@@ -1211,7 +1216,7 @@
             </place>
              
             <place type="place" xml:id="place_102117">
-               <placeName type="index">Otham Court</placeName>
+               <placeName type="index">Otham</placeName>
                <placeName type="formInDocument">Otham</placeName>
                <placeName type="formInDocument">Oteham</placeName>
                <placeName type="formInDocument">Otteham</placeName>
@@ -1224,17 +1229,16 @@
             </place>
             
             <place type="place" xml:id="place_102118">
-               <!--<placeName type="index"></placeName>-->
+             <!--  not found 20.1.21-->              <placeName type="index">Oxedon [unidentified]</placeName>
                <placeName type="formInDocument">Oxedon</placeName>
-               <!--? <region type="parish"></region>
-               <region type="county"></region>-->
+               <!--? <region type="parish"></region>-->
+              <!-- <region type="county">Sussex</region>-->
                <note type="charter">MS. Ch. Sussex 202</note>
             </place>
             
             <place type="place" xml:id="place_102119">
                <placeName type="index">Oxford</placeName>
                <placeName type="formInDocument">Oxford</placeName>
-               <!-- type=town? <region type="parish"></region>-->
                <region type="county">Oxford</region>
                <idno>https://epns.nottingham.ac.uk/browse/id/53286dedb47fc40beb000001-Oxford</idno>
                <idno>https://www.genuki.org.uk/big/eng/OXF/oxford</idno>
@@ -1262,14 +1266,7 @@
                <note type="charter">MS. Ch. Sussex 261</note>
             </place>
             
-            <place type="place" xml:id="place_102122">
-               <!--could this be the the Pains manor in Cuckfield:
-                  https://www.british-history.ac.uk/vch/sussex/vol7/pp147-163-->
-               <placeName type="formInDocument">Paynes in Cokefeld</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>-->
-               <note type="charter">MS. Ch. Sussex 253</note>
-            </place>
+         
             
             <place type="place" xml:id="place_102123">
                <placeName type="index">Peasmarsh</placeName>
@@ -1282,7 +1279,7 @@
             </place>
             
             <place type="place" xml:id="place_102124">
-               <!--<placeName type="index">??</placeName>-->
+ <!--not found 20.1.21 -->             <placeName type="index">Penham [unidentified]</placeName>
                <placeName type="formInDocument">Penham</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>-->
@@ -1328,23 +1325,23 @@
                <note type="charter">MS. Ch. Sussex 170</note>
             </place>
             
+         <!--   minor name?
             <place type="place" xml:id="place_102130">
-               <!--<placeName type="index">??</placeName>-->
+               <!-\-<placeName type="index">??</placeName>-\->
                <placeName type="formInDocument">Polebererer(?)</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>-->
+               <!-\-<region type="parish"></region>
+               <region type="county"></region>-\->
                <note type="charter">MS. Ch. Sussex 262</note>
-            </place>
+            </place>-->
             
-            <!--<place type="place" xml:id="place_102131">
-               How are we marking street names? 
-               <placeName type="index">Potente Street</placeName>
+            <place type="place" xml:id="place_102131">
+               <placeName type="index">Arundel, Potente Street</placeName>
                <placeName type="formInDocument">Potentestrete</placeName>
                <region type="parish">Arundel</region>
                <region type="county">Sussex</region>
                <bibl>A P Baggs and H M Warne, 'Arundel', in A History of the County of Sussex: Volume 5 Part 1, Arundel Rape: South-Western Part, Including Arundel, ed. T P Hudson (London, 1997), pp. 10-101. British History Online http://www.british-history.ac.uk/vch/sussex/vol5/pt1/pp10-101 [accessed 25 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 61</note>
-            </place>-->
+            </place>
             
             <place type="place" xml:id="place_102132">
                <placeName type="index">Preston</placeName>
@@ -1357,13 +1354,10 @@
             </place>
             
             <place type="place" xml:id="place_102133">
-               <placeName type="index">Rogate</placeName>
+    <!-- Rogate, Suss, is possible but less likely -->       <placeName type="index">Reigate</placeName>
                <placeName type="formInDocument">Reygate</placeName> 
-               <region type="parish">Rogate</region>
-               <region type="county">Sussex</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Rogate/5328724fb47fc40c36000d65-Rogate</idno>
-               <idno>https://www.genuki.org.uk/big/eng/SSX/Rogate</idno>
-               <bibl>'Rogate', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 21-27. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp21-27 [accessed 25 November 2020].</bibl>
+               <region type="parish">Reigate</region>
+               <region type="county">Surrey</region>
                <note type="charter">MS. Ch. Sussex 83</note>
             </place>
             
@@ -1420,20 +1414,22 @@
             </place>
              
             <place type="place" xml:id="place_102140">
-               <placeName type="formInDocument">Royton</placeName>
+               <placeName type="index">Royton</placeName>
+               <placeName type="formInDocument">Royton in the parish of Lenhem</placeName>
                <region type="parish">Lenham</region>
                <region type="county">Kent</region>
                <!--SEP has not done Kent yet<idno></idno>-->
                <note type="charter">MS. Ch. Sussex 257</note>
                <note type="charter">MS. Ch. Sussex 258</note>
             </place>
-            chk
+            
+            <!--minor name?
             <place type="place" xml:id="place_102142">
                <placeName type="formInDocument">Scharpeshull</placeName>
                <region type="parish"></region>
                <region type="county"></region>
                <note type="charter">MS. Ch. Sussex 20</note>
-            </place>
+            </place>-->
             
             <place type="place" xml:id="place_102144">
                <placeName type="index">Seaford</placeName>
@@ -1455,11 +1451,13 @@
                <bibl>'Selham', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 80-82. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp80-82 [accessed 4 December 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 164</note>
             </place>
-            chk
+
             <place type="place" xml:id="place_102146">
-               <placeName type="formInDocument">Selwoke(?)</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
+               <placeName type="index">Silkden</placeName>
+               <placeName type="formInDocument">Seweden</placeName>
+               <region type="parish">Angmering</region>
+               <region type="county">Sussex</region>
+               <!-- identification not fully certain -->
                <note type="charter">MS. Ch. Sussex 73</note>
             </place>
             
@@ -1597,29 +1595,39 @@
                <note type="charter">MS. Ch. Sussex 179</note>
                <note type="charter">MS. Ch. Sussex 230</note>
             </place>
-            chk
+            
             <place type="place" xml:id="place_102149">
+               <placeName type="index">Sompting</placeName>
                <placeName type="formInDocument">Somtynge</placeName>
-               <region type="parish"></region>
-                  <region type="county"></region>
+               <region type="parish">Sompting</region>
+                  <region type="county">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Sompting/5328724fb47fc40c36000d7a-Sompting</idno>
                <note type="charter">MS. Ch. Sussex 209</note>
             </place>
-            chk<place type="place" xml:id="place_102150">
+            
+            <place type="place" xml:id="place_102150">
+               <placeName type="index">Southerham</placeName>
                <placeName type="formInDocument">Southeram</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
+               <region type="parish">South Mallling Without</region>
+               <region type="county">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/South+Malling+Without/53287230b47fc40c360008d0-Southerham+Fm</idno>
                <note type="charter">MS. Rolls Sussex 3</note>
             </place>
-           chk <place type="place" xml:id="place_102151">
+            
+           <place type="place" xml:id="place_102151">
+              <placeName type="index">Chichester, St Peter</placeName>
                <placeName type="formInDocument">St. Peter in Chichester</placeName><!-- a church? -->
-                <region type="parish"></region>
-                <region type="county"></region>
+                <region type="parish">Chichester, St Peter</region>
+                <region type="county">Sussex</region>
                <note type="charter">MS. Ch. Sussex 59</note>
             </place>
-            chk<place type="place" xml:id="place_102152">
+            
+            
+         <place type="place" xml:id="place_102152">
+               <placeName type="index">Stammerham</placeName>
                <placeName type="formInDocument">Stamerham</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
+               <region type="parish">Rusper</region>
+               <region type="county">Sussex</region>
                <note type="charter">MS. Ch. Sussex 232</note>
                <note type="charter">MS. Ch. Sussex 242</note>
                <note type="charter">MS. Ch. Sussex 243</note>
@@ -1639,8 +1647,12 @@
             </place>
             
             <place type="place" xml:id="place_102154">
-        chk       <!--perhaps: <placeName type="index">Shovelstrode Fm</placeName> https://epns.nottingham.ac.uk/browse/Sussex/East+Grinstead/5328722db47fc40c360002e1-Shovelstrode+Fm , see also Felde-->
+         <!--perhaps: <placeName type="index">Shovelstrode Fm</placeName> https://epns.nottingham.ac.uk/browse/Sussex/East+Grinstead/5328722db47fc40c360002e1-Shovelstrode+Fm , see also Felde-->
+               <placeName type="index">'Strode'</placeName>
                <placeName type="formInDocument">Strode</placeName>
+               <region type="parish" cert="low">Slinfold</region>
+               <region type="county" cert="low">Sussex</region>
+               <note>Perhaps to be identified with the later estate of Strood Park in Slinford (https://discovery.nationalarchives.gov.uk/details/c/F105812)</note>
                <note type="charter">MS. Ch. Sussex 276</note>
             </place>
             
@@ -1669,25 +1681,34 @@
                <note type="charter">MS. Ch. Sussex 105</note>
                <note type="charter">MS. Ch. Sussex 167</note>
             </place>
-            chk
-            <place type="church" xml:id="place_102157">
+            
+            
+            
+            <place type="place" xml:id="place_102157">
+               <placeName type="index">Shereford</placeName>
                <placeName type="formInDocument">Syrefort</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
+               <region type="parish">Shereford</region>
+               <region type="county">Norfolk</region>
                <note type="charter">MS. Ch. Sussex 165</note>
+               <bibl>Francis Blomefield, 'Gallow and Brothercross Hundreds: Shereford', in An Essay Towards A Topographical History of the County of Norfolk: Volume 7 (London, 1807), pp. 178-179. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp178-179 [accessed 20 January 2021].
+               </bibl>
             </place>
-            chk
+            
             <place type="place" xml:id="place_102158">
+               <placeName type="index">Tilton</placeName>
                <placeName type="formInDocument">Teletune</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
+               <region type="parish">Alciston</region>
+               <region type="parish">Selmeston</region>
+               <region type="county">Sussex</region>
+               <!-- described as being in both parishes in different sources -->
                <note type="charter">MS. Ch. Sussex 6b</note>
             </place>
-            chk
+            
             <place type="place" xml:id="place_102159">
+               <placeName type="index">Tarring Neville</placeName>
                <placeName type="formInDocument">Terryng</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
+               <region type="parish">Tarring Neville</region>
+               <region type="county">Sussex</region>
                <note type="charter">MS. Ch. Sussex 251</note>
             </place>
             
@@ -1706,12 +1727,13 @@
             </place>
             
             <place type="church" xml:id="place_102162">
+               <placeName type="index">Tofts</placeName>
                <placeName type="formInDocument">Toftes</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
+               <region type="parish">Tofts</region>
+               <region type="county">Norfolk</region>
                <note type="charter">MS. Ch. Sussex 165</note>
             </place>
-            chk
+            
             <place type="place" xml:id="place_102163">
                <placeName type="index">Tonge</placeName>
                <placeName type="formInDocument">Tonge</placeName>
@@ -1720,14 +1742,15 @@
                <idno>https://www.genuki.org.uk/big/eng/KEN/Tonge</idno>
                <note type="charter">MS. Ch. Sussex 9</note>
             </place>
-            chk
+            
+          <!--  minor name?
             <place type="place" xml:id="place_102164">
                <placeName type="formInDocument">Tounlond</placeName>
                <region type="parish"></region>
                <region type="county"></region>
                <note type="charter">MS. Ch. Sussex 185</note>
             </place>
-            
+            -->
             <place type="place" xml:id="place_102165">
                <placeName type="index">Wadhurst</placeName>
                <placeName type="formInDocument">Wadehurst</placeName>
@@ -1862,7 +1885,7 @@
             </place>
             
             <place type="church" xml:id="place_102171">
-               <placeName type="index">West Grinstead</placeName>
+               <placeName type="index">Grinstead, West</placeName>
                <placeName type="formInDocument">West Grinstead</placeName>
                <region type="parish">West Grinstead</region>
                <region type="county">Sussex</region>
@@ -1873,7 +1896,7 @@
             </place>
             
             <place type="place" xml:id="place_102172">
-               <placeName type="formInDocument">West Kechenham</placeName>
+       <!--EPNS confirms-->        <placeName type="formInDocument">West Kechenham</placeName>
                <region type="parish">Ashburnham</region>
                <region type="county">Sussex</region>
                <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ashburnham/5328722cb47fc40c36000075-Kitchenham</idno>
@@ -1881,6 +1904,7 @@
             </place>
              
             <place type="place" xml:id="place_102173">
+         <placeName type="index">'West Wodesham'</placeName>     
                <placeName type="formInDocument">West Wodesham</placeName>
                <region type="parish">Billingshurst</region>
                <region type="county">Sussex</region>
@@ -1900,7 +1924,7 @@
             </place>
             
             <place type="place" xml:id="place_102175">
-               <placeName type="index">West Dean</placeName>
+               <placeName type="index">Dean, West</placeName>
                <placeName type="formInDocument">Westdene</placeName>
                <placeName type="formInDocument">Westdene</placeName>
                <region type="parish">West Dean</region> 
@@ -2022,6 +2046,9 @@
                <orgName type="formInDocument">convent of Beghame</orgName>
                <orgName type="formInDocument">convent of Beigham</orgName>
                <orgName type="formInDocument">the abbot and convent of Beigham</orgName>
+               <orgName type="formInDocument">St. Mary of Begeham</orgName>
+               <orgName type="formInDocument">St. Mary of Begham</orgName>
+               <orgName type="formInDocument">St. Mary of Beigham</orgName>
                <region type="county">Sussex</region>
                <idno>http://viaf.org/viaf/130259128</idno>
                <bibl>'Houses of Premonstratensian canons: Abbey of Bayham', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 86-89. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp86-89 [accessed 14 December 2020].</bibl>
@@ -2060,12 +2087,14 @@
             </org>
             
             <org xml:id="org_102005">
-               <orgName type="index">Wellesford, Premonstratensian (?) priory</orgName>
-               <!--how to index this? I cannot find it in VIAF, VCH, Wikidata, but there is a ref. to a 'premonstratensian monastery' in Brockley on Vision of Britain-->
+               <!-- check? -->
+               <orgName type="index">Brockley ('Wellesford'), Premonstratensian priory</orgName>
                <orgName type="formInDocument">canons of Wellesford</orgName>
                <region type="county">Kent</region>
-               <idno>https://www.visionofbritain.org.uk/place/20690</idno>
-               <bibl>GB Historical GIS / University of Portsmouth, History of Brockley, in Lewisham and Kent | Map and description, A Vision of Britain through Time. URL: http://www.visionofbritain.org.uk/place/20690 [Date accessed: 14th December 2020].</bibl>
+              <!-- <idno>https://www.visionofbritain.org.uk/place/20690</idno>
+               <bibl>GB Historical GIS / University of Portsmouth, History of Brockley, in Lewisham and Kent | Map and description, A Vision of Britain through Time. URL: http://www.visionofbritain.org.uk/place/20690 [Date accessed: 14th December 2020].</bibl>-->
+               <bibl>'Houses of Premonstratensian canons: Abbey of Bayham', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 86-89. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp86-89 [accessed 20 January 2021].</bibl>
+               <!--  Sir Robert de Turnham ... Hither [Bayham], too, Sir Robert brought the canons of the small Premonstratensian house of Brockley in Deptford, -->
                <note type="charter">MS. Ch. Sussex 3</note>
             </org>
             
@@ -2152,7 +2181,7 @@
             </org>
             
             <org xml:id="org_102016">
-               <orgName type="index">Leeds, Austin priory</orgName>
+               <orgName type="index">Leeds, Kent, Austin priory</orgName>
                <orgName type="formInDocument">prior and convent of Ledes</orgName>
                <region type="county">Kent</region>
                <idno>https://www.wikidata.org/wiki/Q6516072</idno>
@@ -2160,17 +2189,17 @@
                <note type="charter">MS. Ch. Sussex 171</note>
             </org>
             
-            <org xml:id="org_102017">
+           <!-- 
+              misunderstanding
+              <org xml:id="org_102017">
                <orgName type="index">Convent of Luke Shorte [unidentified]</orgName>
                <orgName type="formInDocument">prior and convent of Luke Shorte</orgName>
                <note type="charter">MS. Ch. Sussex 76</note>
             </org>
-            
-            <org xml:id="org_102018">
-            </org>
+            -->
             
             <org xml:id="org_102019">
-               <orgName type="index">Calcetto, Augustinian priory</orgName> 
+               <orgName type="index">Pynham ('de Calceto'), Augustinian priory of Saint Bartholemew and Saint Thomas of Canterbury</orgName> 
                <!--a.k.a. The Priory Church of Saint Bartholemew, Pynham;  The Priory Church of Saint Bartholemew and Saint Thomas of Canterbury, Pynham; Pynham Priory; Pyneham Priory; Priory de Calceto (Priory of the Causeway)-->
                <orgName type="formInDocument">prior and convent of St. Bartholomew, Arundel</orgName>
                <orgName type="formInDocument">prior and convent of the Causeway</orgName>
@@ -2247,6 +2276,19 @@
                <idno>https://www.wikidata.org/wiki/Q56362405</idno>
                <bibl>'Houses of Augustinian canons: Priory of Tortington', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 82-83. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp82-83 [accessed 14 December 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 173**</note>
+            </org>
+            
+            <org xml:id="org_102022">
+               <orgName type="formInDocument">London, Inner Temple</orgName>
+               <orgName type="formInDocument">the Inner Temple</orgName>
+                     <!--Would this be the same as the Temple in London?
+                  <placeName type="borough">The Temple</placeName>
+               <region type="county">Middlesex</placeName>
+               <idno>https://www.genuki.org.uk/big/eng/LND/TheTemple</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/id/53282a40b47fc407a0000017-The+Temple</idno>-->
+               <note type="charter">MS. Ch. Sussex 100</note>
+               <note type="charter">MS. Ch. Sussex 101</note>
+               <note type="charter">MS. Ch. Sussex 253</note>
             </org>
          </listOrg>
       </body>
