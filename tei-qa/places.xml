@@ -115,6 +115,96 @@
             </place>
             
             
+            <!-- dioceses -->
+            <place type="diocese" xml:id="place_100022">
+               <placeName type="index">Ely, diocese</placeName>
+               <placeName type="formInDocument">diocese of Ely</placeName>
+               <placeName type="formInDocument">Ely</placeName>
+               <note type="charter">MS. Ch. Cambs. 46</note>
+               <note type="charter">MS. Rolls Cambs. 5</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            
+            <place type="diocese" xml:id="place_101016">
+               <placeName type="index">St David's, diocese</placeName>
+               <placeName type="formInDocument">bishopric of St. David's</placeName>
+               <note type="charter">MS. Ch. Worcs. 7b</note>
+            </place>
+            
+            <place type="diocese" xml:id="place_100077">
+               <placeName type="index">Exeter, diocese</placeName>
+            </place>
+            
+            <place type="archdiocese" xml:id="place_100075">
+               <placeName type="index">Dublin, archdiocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_100078">
+               <placeName type="index">London, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_100079">
+               <placeName type="index">Lincoln, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_100084">
+               <placeName type="index">Modena, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_101088">
+               <placeName type="index">Worcester, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_101089">
+               <placeName type="index">Winchester, diocese</placeName>
+            </place>
+            
+            <!-- earldoms, duchies -->
+            
+            <place type="earldom" xml:id="place_100076">
+               <placeName type="index">Suffolk, earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100081">
+               <placeName type="index">Brittany, earldom</placeName>
+            </place>
+            
+            <place type="duchy" xml:id="place_100085">
+               <placeName type="index">Aumale (Albermarle), earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100082">
+               <placeName type="index">Torrington, earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100083">
+               <placeName type="index">Lincoln, earldom</placeName>
+            </place>
+            
+            <!-- regions -->
+            <place type="region" xml:id="place_100021">
+               <placeName type="index">Ely, isle of</placeName>
+               <placeName type="formInDocument">isle of Ely</placeName>
+               <placeName type="formInDocument">isle of Ely</placeName>
+               <note type="charter">MS. Rolls Cambs. 3</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+               <note type="charter">MS. Rolls Cambs. 3</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            
+            <!-- deaneries, archdeaconries -->
+            <place type="archdeaconry" xml:id="place_100074">
+               <placeName type="index">Ely, archdeaconry</placeName>
+            </place>
+            
+            <place type="archdeaconry" xml:id="place_100080">
+               <placeName type="index">Huntingdon, archdeaconry</placeName>
+            </place>
+            
+            <place type="archdeaconry" xml:id="place_101078">
+               <placeName type="index">Worcester, deanery</placeName>
+            </place>
+            
             <!-- data from Cambridgeshire data entry -->
             
             <place type="manor" xml:id="place_100001">
@@ -258,24 +348,8 @@
                <placeName type="formInDocument">Haddenham</placeName>
                <note type="charter">MS. Ch. Cambs. 47</note>
             </place>-->
-            <place type="region" xml:id="place_100021">
-               <placeName type="index">Ely, isle of</placeName>
-               <placeName type="formInDocument">isle of Ely</placeName>
-               <placeName type="formInDocument">isle of Ely</placeName>
-               <note type="charter">MS. Rolls Cambs. 3</note>
-               <note type="charter">MS. Rolls Cambs. 9</note>
-
-               <note type="charter">MS. Rolls Cambs. 3</note>
-               <note type="charter">MS. Rolls Cambs. 9</note>
-            </place>
-            <place type="diocese" xml:id="place_100022">
-               <placeName type="index">Ely, diocese</placeName>
-               <placeName type="formInDocument">diocese of Ely</placeName>
-               <placeName type="formInDocument">Ely</placeName>
-               <note type="charter">MS. Ch. Cambs. 46</note>
-               <note type="charter">MS. Rolls Cambs. 5</note>
-               <note type="charter">MS. Rolls Cambs. 9</note>
-            </place>
+           
+          
 
             <place type="parish" xml:id="place_100023">
                <placeName type="index">Ashley</placeName>
@@ -691,6 +765,8 @@
             </place>
             
             
+         
+            
             <!-- Worcs -->
             
                <place type="manor" xml:id="place_101001">
@@ -847,11 +923,7 @@
                <note type="charter">MS. Ch. Worcs. 49</note>
             </place>
             
-            <place type="diocese" xml:id="place_101016">
-               <placeName type="index">St David's</placeName>
-               <placeName type="formInDocument">bishopric of St. David's</placeName>
-               <note type="charter">MS. Ch. Worcs. 7b</note>
-            </place>
+           
             
             <place type="place" xml:id="place_101017">
                <placeName type="index">Bodyntone [unidentified]</placeName>
@@ -1285,10 +1357,12 @@
             </place>
             <place type="place" xml:id="place_101072">
                <placeName type="index">Worcester, St Peter</placeName>
+               <region key="place_101060">Worcester</region>
                <region type="county" key="place_000090">Worcestershire</region>
             </place>
             <place type="place" xml:id="place_101073">
                <placeName type="index">Worcester, St Martin</placeName>
+               <region key="place_101060">Worcester</region>
                <region type="county" key="place_000090">Worcestershire</region>
             </place>
             <place type="place" xml:id="place_101074"><placeName type="index">Binsey</placeName>
@@ -1305,8 +1379,60 @@
             </place>
             <place type="place" xml:id="place_101077">
                <placeName type="index">Worcester, St Clement</placeName>
+               <region key="place_101060">Worcester</region>
                <region type="county" key="place_000090">Worcestershire</region>
             </place>
+            
+            
+            
+            
+            <!-- streets, etc. -->
+            
+            <!-- Worcester  -->
+            <!-- https://www.worcesterpeopleandplaces.org.uk/news/96/146/Old-Street-Names.html -->
+            <place type="street" xml:id="place_101080">
+               <placeName type="index">Worcester, Sudbury (street)</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101081">
+               <placeName type="index">Worcester, High Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101082">
+               <placeName type="index">Worcester, Glover Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101083">
+               <placeName type="index">Worcester, Bridport (Brittleport) Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101084">
+               <placeName type="index">Worcester, Friar Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101086">
+               <placeName type="index">Worcester, Needler Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101087">
+               <placeName type="index">Worcester, Eport Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            
          </listPlace>
 
 
@@ -1501,11 +1627,11 @@
                <note type="charter">MS. Ch. Worcs. 3</note>
             </org>
             
-            <org xml:id="org_101003">
+           <!-- <org xml:id="org_101003">
                <orgName type="index">Bromsgrove, parish church</orgName>
                <orgName type="formInDocument">church of Bremesgrave</orgName>
                <note type="charter">MS. Ch. Worcs. 42b</note>
-            </org>
+            </org>-->
             <org xml:id="org_101004">
                <orgName type="index">Daventry, priory</orgName>
                <orgName type="formInDocument">convent of Daventry</orgName>
@@ -1649,6 +1775,14 @@
                <note type="charter">MS. Ch. Worcs. 17</note>
                <note type="charter">MS. Ch. Worcs. 18</note>
                <note type="charter">MS. Ch. Worcs. 78</note>
+            </org>
+            
+            <org xml:id="org_101010">
+               <orgName>Gloucester, Benedictine abbey of St Peter</orgName>
+            </org>
+            
+            <org xml:id="org_101011">
+               <orgName>Lanthony, Benedictine priory</orgName><!-- CHECK: which one? -->
             </org>
             
          </listOrg>
