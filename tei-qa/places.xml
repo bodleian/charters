@@ -165,6 +165,18 @@
                <placeName type="index">Winchester, diocese</placeName>
             </place>
             
+            <place type="diocese" xml:id="place_101090">
+               <placeName type="index">Norwich, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_101091">
+               <placeName type="index">Chichester, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_101092">
+               <placeName type="index">Rochester, diocese</placeName>
+            </place>
+            
             <!-- earldoms, duchies -->
             
             <place type="earldom" xml:id="place_100076">
@@ -185,6 +197,22 @@
             
             <place type="earldom" xml:id="place_100083">
                <placeName type="index">Lincoln, earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100091">
+               <placeName type="index">Arundel, earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100092">
+               <placeName type="index">Surrey, earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100093">
+               <placeName type="index">Sussex, earldom</placeName>
+            </place>
+            
+            <place type="duchy" xml:id="place_100094">
+               <placeName type="index">Norfolk, duchy</placeName>
             </place>
             
             <!-- regions -->
@@ -209,6 +237,10 @@
             
             <place type="archdeaconry" xml:id="place_101078">
                <placeName type="index">Worcester, deanery</placeName>
+            </place>
+            
+            <place type="archdeaconry" xml:id="place_101092">
+               <placeName type="index">Chichester, archdeaconry</placeName>
             </place>
             
             <!-- data from Cambridgeshire data entry -->
@@ -1472,6 +1504,12 @@
                <note type="charter">MS. Ch. Sussex 260</note>
             </place>
             
+            <place type="manor" xml:id="place_102203">
+               <placeName type="index">Bishopstone</placeName>
+               <region type="parish" key="place_102204">Bishopstone</region>
+               <region type="county" key="place_000072">Sussex</region>
+            </place>
+            
             <place type="manor" xml:id="place_102003">
                <placeName type="index">Broadbridge</placeName>
                <placeName type="formInDocument">BRADEBRUGGE manor, in Bosham</placeName>
@@ -2013,7 +2051,7 @@
             </place>
             
             <place type="place" xml:id="place_102056">
-               <placeName type="index">Ewkene's Fm</placeName>
+               <placeName type="index">Ewkene</placeName>
                <placeName type="formInDocument">Ewekene</placeName>
                <placeName type="formInDocument">Euwekene</placeName>
                <region type="parish" key="place_102041">Capel</region> 
@@ -3322,7 +3360,7 @@
                <note type="charter">MS. Rolls Sussex 3</note><!-- ckd MLH -->
             </place>
             
-            <place type="church" xml:id="place_102171">
+            <place type="place" xml:id="place_102171">
                <placeName type="index">West Grinstead</placeName>
                <placeName type="formInDocument">West Grinstead</placeName>
               <!-- <region type="parish">West Grinstead</region>-->
@@ -3565,6 +3603,32 @@
                <idno>https://www.visionofbritain.org.uk/unit/10282159</idno>
             </place>
             
+            <place type="place" xml:id="place_102204">
+               <placeName type="index">Bishopstone</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10283413</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102205">
+               <placeName type="index">Friston</placeName>
+               <placeName type="formInDocument">Fristhon</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10290284</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102206">
+               <placeName type="index">Shoreham</placeName>
+               <!-- new or old -->
+               <region type="county" key="place_000072">Sussex</region>
+             
+            </place>
+            
+            <place type="place" xml:id="place_102207">
+               <placeName type="index">Haryngham [unidentified]</placeName>
+               <!-- new or old -->
+               <region type="county" key="place_000072" cert="low">Sussex</region>
+               
+            </place>
             
          </listPlace>
 
