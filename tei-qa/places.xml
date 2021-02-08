@@ -60,6 +60,9 @@
             <place type="county" xml:id="place_000025">
                <placeName type="index">Gloucestershire</placeName>
             </place>
+            <place type="county" xml:id="place_000026">
+               <placeName type="index">Hampshire</placeName>
+            </place>
             <place type="county" xml:id="place_000027">
                <placeName type="index">Herefordshire</placeName>
             </place>
@@ -83,6 +86,9 @@
             <place type="county" xml:id="place_000060">
                <placeName type="index">Monmouthshire</placeName>
                <idno>https://www.visionofbritain.org.uk/unit/10024870</idno>
+            </place>
+            <place type="county" xml:id="place_000061">
+               <placeName type="index">Norfolk</placeName>
             </place>
             <place type="county" xml:id="place_000062">
                <placeName type="index">Northamptonshire</placeName>
@@ -115,7 +121,131 @@
             </place>
             
             
+            <!-- dioceses -->
+            <place type="diocese" xml:id="place_100022">
+               <placeName type="index">Ely, diocese</placeName>
+               <placeName type="formInDocument">diocese of Ely</placeName>
+               <placeName type="formInDocument">Ely</placeName>
+               <note type="charter">MS. Ch. Cambs. 46</note>
+               <note type="charter">MS. Rolls Cambs. 5</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            
+            <place type="diocese" xml:id="place_101016">
+               <placeName type="index">St David's, diocese</placeName>
+               <placeName type="formInDocument">bishopric of St. David's</placeName>
+               <note type="charter">MS. Ch. Worcs. 7b</note>
+            </place>
+            
+            <place type="diocese" xml:id="place_100077">
+               <placeName type="index">Exeter, diocese</placeName>
+            </place>
+            
+            <place type="archdiocese" xml:id="place_100075">
+               <placeName type="index">Dublin, archdiocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_100078">
+               <placeName type="index">London, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_100079">
+               <placeName type="index">Lincoln, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_100084">
+               <placeName type="index">Modena, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_101088">
+               <placeName type="index">Worcester, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_101089">
+               <placeName type="index">Winchester, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_101090">
+               <placeName type="index">Norwich, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_101091">
+               <placeName type="index">Chichester, diocese</placeName>
+            </place>
+            
+            <place type="diocese" xml:id="place_101092">
+               <placeName type="index">Rochester, diocese</placeName>
+            </place>
+            
+            <!-- earldoms, duchies -->
+            
+            <place type="earldom" xml:id="place_100076">
+               <placeName type="index">Suffolk, earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100081">
+               <placeName type="index">Brittany, earldom</placeName>
+            </place>
+            
+            <place type="duchy" xml:id="place_100085">
+               <placeName type="index">Aumale (Albermarle), earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100082">
+               <placeName type="index">Torrington, earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100083">
+               <placeName type="index">Lincoln, earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100091">
+               <placeName type="index">Arundel, earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100092">
+               <placeName type="index">Surrey, earldom</placeName>
+            </place>
+            
+            <place type="earldom" xml:id="place_100093">
+               <placeName type="index">Sussex, earldom</placeName>
+            </place>
+            
+            <place type="duchy" xml:id="place_100094">
+               <placeName type="index">Norfolk, duchy</placeName>
+            </place>
+            
+            <!-- regions -->
+            <place type="region" xml:id="place_100021">
+               <placeName type="index">Ely, isle of</placeName>
+               <placeName type="formInDocument">isle of Ely</placeName>
+               <placeName type="formInDocument">isle of Ely</placeName>
+               <note type="charter">MS. Rolls Cambs. 3</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+               <note type="charter">MS. Rolls Cambs. 3</note>
+               <note type="charter">MS. Rolls Cambs. 9</note>
+            </place>
+            
+            <!-- deaneries, archdeaconries -->
+            <place type="archdeaconry" xml:id="place_100074">
+               <placeName type="index">Ely, archdeaconry</placeName>
+            </place>
+            
+            <place type="archdeaconry" xml:id="place_100080">
+               <placeName type="index">Huntingdon, archdeaconry</placeName>
+            </place>
+            
+            <place type="archdeaconry" xml:id="place_101078">
+               <placeName type="index">Worcester, deanery</placeName>
+            </place>
+            
+            <place type="archdeaconry" xml:id="place_101092">
+               <placeName type="index">Chichester, archdeaconry</placeName>
+            </place>
+            
             <!-- data from Cambridgeshire data entry -->
+            
+            <!-- manors -->
             
             <place type="manor" xml:id="place_100001">
                <placeName type="index">Abbotsley, Scot's</placeName>
@@ -218,18 +348,19 @@
                <bibl>VCH:Cambs. X.33-4</bibl>
                <note type="charter">MS. Ch. Cambs. 5</note>
             </place>
-            <place type="advowson" xml:id="place_100012">
+            
+          <!--  <place type="advowson" xml:id="place_100012">
                <placeName type="index">Barrington</placeName>
                <placeName type="formInDocument">advowson</placeName>
                <region type="county" key="place_000014">Cambridgeshire</region>
                <note type="charter">MS. Ch. Cambs. 6</note>
-            </place>
-            <place type="advowson" xml:id="place_100013">
+            </place>-->
+          <!--  <place type="advowson" xml:id="place_100013">
                <placeName type="index">Cheveley</placeName>
                <placeName type="formInDocument">advowson</placeName>
                <region type="county" key="place_000014">Cambridgeshire</region>
                <note type="charter">MS. Ch. Cambs. 52</note>
-            </place>
+            </place>-->
           
           
             <place type="hundred" xml:id="place_100017">
@@ -253,28 +384,12 @@
                <idno>https://www.visionofbritain.org.uk/unit/10005784</idno>
                <note type="charter">MS. Ch. Cambs. 13</note>
             </place>
-            <place type="church" xml:id="place_100020">
+           <!-- <place type="church" xml:id="place_100020">
                <placeName type="formInDocument">Haddenham</placeName>
                <note type="charter">MS. Ch. Cambs. 47</note>
-            </place>
-            <place type="region" xml:id="place_100021">
-               <placeName type="index">Ely, isle of</placeName>
-               <placeName type="formInDocument">isle of Ely</placeName>
-               <placeName type="formInDocument">isle of Ely</placeName>
-               <note type="charter">MS. Rolls Cambs. 3</note>
-               <note type="charter">MS. Rolls Cambs. 9</note>
-
-               <note type="charter">MS. Rolls Cambs. 3</note>
-               <note type="charter">MS. Rolls Cambs. 9</note>
-            </place>
-            <place type="diocese" xml:id="place_100022">
-               <placeName type="index">Ely, diocese</placeName>
-               <placeName type="formInDocument">diocese of Ely</placeName>
-               <placeName type="formInDocument">Ely</placeName>
-               <note type="charter">MS. Ch. Cambs. 46</note>
-               <note type="charter">MS. Rolls Cambs. 5</note>
-               <note type="charter">MS. Rolls Cambs. 9</note>
-            </place>
+            </place>-->
+           
+          
 
             <place type="parish" xml:id="place_100023">
                <placeName type="index">Ashley</placeName>
@@ -531,6 +646,12 @@
                <note type="charter">MS. Ch. Cambs. 40</note>
                <note type="charter">MS. Ch. Cambs. 61</note>
                <note type="charter">MS. Ch. Worcs. 106</note>
+               <note type="charter">MS. Ch. Sussex 83</note>
+               <note type="charter">MS. Ch. Sussex 141</note>
+               <note type="charter">MS. Ch. Sussex 150</note>
+               <note type="charter">MS. Ch. Sussex 102</note>
+               <note type="charter">MS. Ch. Sussex 168</note>
+               <note type="charter">MS. Ch. Sussex 173</note>
             </place>
             <place type="borough" xml:id="place_100052">
                <placeName type="index">Peterborough</placeName>
@@ -612,6 +733,8 @@
                <note type="charter">MS. Ch. Cambs. 8</note>
                <note type="charter">MS. Ch. Worcs. 3</note>
                <note type="charter">MS. Ch. Worcs. 7b</note>
+               <note type="charter">MS. Ch. Sussex 143</note>
+               <note type="charter">MS. Ch. Sussex 231</note>
             </place>
             <place type="parish" xml:id="place_100061">
                <placeName type="index">Whittlesey</placeName>
@@ -689,6 +812,8 @@
                <idno>https://www.visionofbritain.org.uk/unit/10178745</idno>
             </place>
             
+            
+         
             
             <!-- Worcs -->
             
@@ -846,11 +971,7 @@
                <note type="charter">MS. Ch. Worcs. 49</note>
             </place>
             
-            <place type="diocese" xml:id="place_101016">
-               <placeName type="index">St David's</placeName>
-               <placeName type="formInDocument">bishopric of St. David's</placeName>
-               <note type="charter">MS. Ch. Worcs. 7b</note>
-            </place>
+           
             
             <place type="place" xml:id="place_101017">
                <placeName type="index">Bodyntone [unidentified]</placeName>
@@ -1053,7 +1174,7 @@
             <place type="place" xml:id="place_101044">
                <placeName type="index">Littleton</placeName>
                <placeName type="formInDocument">Much Litleton</placeName>
-               <region type="parish">North, Middle and South Littleton</region>
+               <!--<region type="parish">North, Middle and South Littleton</region>-->
                <region type="county" key="place_000090">Worcestershire</region>
                <!-- TODO: check -->
                <note type="charter">MS. Ch. Worcs. 4</note>
@@ -1284,10 +1405,12 @@
             </place>
             <place type="place" xml:id="place_101072">
                <placeName type="index">Worcester, St Peter</placeName>
+               <region key="place_101060">Worcester</region>
                <region type="county" key="place_000090">Worcestershire</region>
             </place>
             <place type="place" xml:id="place_101073">
                <placeName type="index">Worcester, St Martin</placeName>
+               <region key="place_101060">Worcester</region>
                <region type="county" key="place_000090">Worcestershire</region>
             </place>
             <place type="place" xml:id="place_101074"><placeName type="index">Binsey</placeName>
@@ -1304,8 +1427,2209 @@
             </place>
             <place type="place" xml:id="place_101077">
                <placeName type="index">Worcester, St Clement</placeName>
+               <region key="place_101060">Worcester</region>
                <region type="county" key="place_000090">Worcestershire</region>
             </place>
+            
+            
+            
+            
+            <!-- streets, etc. -->
+            
+            <!-- Worcester  -->
+            <!-- https://www.worcesterpeopleandplaces.org.uk/news/96/146/Old-Street-Names.html -->
+            <place type="street" xml:id="place_101080">
+               <placeName type="index">Worcester, Sudbury (street)</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101081">
+               <placeName type="index">Worcester, High Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101082">
+               <placeName type="index">Worcester, Glover Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101083">
+               <placeName type="index">Worcester, Bridport (Brittleport) Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101084">
+               <placeName type="index">Worcester, Friar Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101086">
+               <placeName type="index">Worcester, Needler Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <place type="street" xml:id="place_101087">
+               <placeName type="index">Worcester, Eport Street</placeName>
+               <region key="place_101060">Worcester</region>
+               <region type="county" key="place_000090">Worcestershire</region>
+            </place>
+            
+            <!-- Sussex -->
+            
+            <!-- manors -->
+            <place type="manor" xml:id="place_102001">
+               <placeName type="index">Alciston</placeName>
+               <placeName type="formInDocument">Alston</placeName>
+               <region type="parish" key="place_102191">Alciston</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <!--<idno>http://discovery.nationalarchives.gov.uk/details/c/F254792</idno>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F254793</idno>-->
+               <!-- not included an IDNO as not sure which manor this is  -->
+               <note type="charter">MS. Ch. Sussex 85</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102002">
+               <placeName type="index">Almodington</placeName>
+               <placeName type="formInDocument">Almodington</placeName>
+               <region type="parish" key="place_102055">Earnley</region> 
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F255153</idno>
+               <bibl>'Earnley', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 201-203. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp201-203 [accessed 18 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 260</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102203">
+               <placeName type="index">Bishopstone</placeName>
+               <region type="parish" key="place_102204">Bishopstone</region>
+               <region type="county" key="place_000072">Sussex</region>
+            </place>
+            
+            <place type="manor" xml:id="place_102003">
+               <placeName type="index">Broadbridge</placeName>
+               <placeName type="formInDocument">BRADEBRUGGE manor, in Bosham</placeName>
+               <region type="parish" key="place_102192">Bosham</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <!-- not found in MDR/TNA -->
+               <note type="charter">MS. Ch. Sussex 80</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102004">
+               <placeName type="index">Denn</placeName>
+               <placeName type="formInDocument">atte Denne</placeName>
+               <placeName type="formInDocument">Den</placeName>
+               <placeName type="formInDocument">Denne</placeName>
+               <placeName type="formInDocument">La Denne</placeName>
+               <region type="parish" key="place_102078">Horsham</region>          
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F255240</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Warnham: Manors and other estates', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 207-212. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp207-212 [accessed 3 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 153</note>
+               <note type="charter">MS. Ch. Sussex 154</note>
+               <note type="charter">MS. Ch. Sussex 155</note>
+               <note type="charter">MS. Ch. Sussex 159</note>
+               <note type="charter">MS. Ch. Sussex 160a</note><!-- ckd MLH -->
+            </place>
+            
+            
+            <place type="manor" xml:id="place_102005">
+               <placeName type="index">Downash</placeName>
+               <placeName type="formInDocument">Downask</placeName>
+               <region type="parish" key="place_102068">Hailsham</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F254889</idno>
+               <!--<bibl>Pevensey rape, not available in VCH</bibl>-->
+               <note type="charter">MS. Ch. Suffolk 1354</note>
+            </place>
+            
+            
+            <place type="manor" xml:id="place_102007">
+               <placeName type="index">Limborne</placeName>
+               <placeName type="variant">Lymbourn</placeName>
+               <placeName type="variant">Limbourne</placeName>
+               <region type="parish" key="place_102193">Havant</region>
+               <region type="county" key="place_000026">Hampshire</region>
+               <placeName type="formInDocument">Lymbourne</placeName>
+               <note type="charter">MS. Ch. Sussex 68</note>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F238929</idno>
+               <bibl>'The parish and liberty of Havant', in A History of the County of Hampshire: Volume 3, ed. William Page (London, 1908), pp. 122-127. British History Online http://www.british-history.ac.uk/vch/hants/vol3/pp122-127 [accessed 29 October 2020].</bibl>
+            </place>
+            
+            <place type="manor" xml:id="place_102008">
+               <placeName type="index">Otham</placeName>
+               <placeName type="formInDocument">Otham</placeName>
+               <region type="parish" key="place_102068">Hailsham</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F255031</idno>
+               <bibl>'Houses of Premonstratensian canons: Abbey of Otham', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), p. 86. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/p86 [accessed 2 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 21</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102009"> 
+               <placeName type="index">Michelham Parkgate</placeName>
+               <placeName type="formInDocument">Mychelham Parkgate</placeName>
+               <region type="parish" key="place_102185">Arlington</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F255009</idno>
+               <note type="charter">MS. Ch. Suffolk 1354</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102010">
+               <placeName type="index">Ovingdean</placeName>
+               <placeName type="formInDocument">Ovingdeane</placeName>
+               <region type="parish" key="place_102194">Ovingdean</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <!--?? TNA has this, but probably different: <idno>http://discovery.nationalarchives.gov.uk/details/c/F255344</idno>-->
+               <bibl>'Parishes: Ovingdean', in A History of the County of Sussex: Volume 7, the Rape of Lewes, ed. L F Salzman (London, 1940), pp. 227-232. British History Online http://www.british-history.ac.uk/vch/sussex/vol7/pp227-232 [accessed 2 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 168</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102011">
+               <placeName type="index">Rockland</placeName>
+               <placeName type="formInDocument">Boreham and Rokelande</placeName>
+               <region type="parish" key="place_102195">Wartling</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F255068</idno>
+               <note type="charter">MS. Ch. Sussex 79</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102012">
+               <placeName type="index">Snailham</placeName>
+               <placeName type="formInDocument">Sneylham</placeName>
+               <region type="parish" key="place_102062">Guestling</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <note type="charter">MS. Ch. Sussex 261</note>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F255472</idno>
+            </place>
+            
+            <place type="manor" xml:id="place_102013">
+               <placeName type="index">Sternfield, Mandeville's manor</placeName>
+               <placeName type="variant">Sternfield, Mundevilles</placeName>
+               <placeName type="formInDocument">Sternfeld</placeName>
+               <region type="parish" key="place_102196">Sternfield</region>
+               <region type="county" key="place_000070">Suffolk</region>
+               <!-- Cannot figure this out <region type="parish"></region>
+               <region type="county">Sussex (manor according to the charter, but cannot find it) 
+               or Suffolk (there is a parish of Sternfield) perhaps? http://www.gatehouse-gazetteer.info/Indexs/EngCounty/Suffolk.html lists Sternfield/Sternefeld as 'fortified manor house' in Suffolk</region>-->
+               <!-- plomesgate hundred. marriage settlement, Thomas duke of Norfolk. 1 Mary. -->
+               <note type="charter">MS. Ch. Suffolk 1354</note>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F250179</idno>
+               <bibl>W. A. Copinger, <title>The Manors of Suffolk</title>, V.170-1</bibl>
+            </place>
+            
+            <place type="manor" xml:id="place_102014">
+               <placeName type="index">Stoneham</placeName>
+               <placeName type="variant">Stonham</placeName>
+               <placeName type="variant">Stonhamme</placeName>
+               <placeName type="formInDocument">Stoneham</placeName>
+               <region type="parish" key="place_102189">South Malling</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>http://discovery.nationalarchives.gov.uk/details/c/F255102</idno>
+               <note type="charter">MS. Rolls Sussex 3</note>
+            </place>
+            
+            <place type="manor" xml:id="place_102015">
+               <placeName type="index">Welle</placeName>
+               <placeName type="formInDocument">Well</placeName>
+               <placeName type="formInDocument">Welle</placeName>
+               <placeName type="formInDocument">Wells</placeName>
+               <region type="parish" key="place_102069">Itchingfield</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <!-- cannot see in TNA, lots of Well(e/s) manors, but none marked in Sussex?
+                  <idno></idno>-->
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Itchingfield: Manors and other estates', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 10-13. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp10-13 [accessed 2 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 253</note>
+               <note type="charter">MS. Ch. Sussex 99</note>
+               <note type="charter">MS. Ch. Sussex 254</note>
+               <!-- ckd MLH -->
+            </place>
+            
+            <place type="manor" xml:id="place_102122">
+               <placeName type="formInDocument">Cuckfield, Pains</placeName>
+               <placeName type="formInDocument">Paynes in Cokefeld</placeName>
+               <region type="parish" key="place_102045">Cuckfield</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <note type="charter">MS. Ch. Sussex 253</note>
+               <bibl>VCH: Sussex VII.147-163</bibl>
+            </place>
+            
+            <!-- Sussex -->
+                   <place type="place" xml:id="place_102016">
+                      <placeName type="index">...combe [unidentified]</placeName>
+               <placeName type="formInDocument">...combe, Kent</placeName>
+               <region type="county" key="place_000031">Kent</region>
+               <note type="charter">MS. Ch. Sussex 259</note>
+            </place>
+           
+            <place type="place" xml:id="place_102017">
+               <placeName type="index">Abinger</placeName>
+               <placeName type="formInDocument">Abinger</placeName>
+               <region type="county" key="place_000071">Surrey</region>
+               <bibl>'Parishes: Abinger', in A History of the County of Surrey: Volume 3, ed. H E Malden (London, 1911), pp. 129-134. British History Online http://www.british-history.ac.uk/vch/surrey/vol3/pp129-134 [accessed 3 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 252</note>
+            </place>
+            
+            <place type="place" xml:id="place_102018">
+               <placeName type="index">Addington</placeName>
+               <placeName type="formInDocument">Adyngton</placeName>
+               <region type="county" key="place_000071">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Addington/53287118b47fc40c23000a98-Addington</idno>
+               <note type="charter">MS. Ch. Sussex 242</note>
+            </place>
+            
+            <place type="place" xml:id="place_102019">
+               <!-- evidently the same as Hauedell - Hanedell below -->
+               <placeName type="index">Anedelle, Hanedell [unidentified; in Poling or Lyminster?]</placeName>
+               <placeName type="formInDocument">Anedelle</placeName>
+               <placeName type="formInDocument">Havedell</placeName>
+               <region cert="low" type="parish" key="place_102120">Poling</region>
+               <region cert="low" type="parish" key="place_102095">Lyminster</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <note type="charter">MS. Ch. Sussex 32</note>
+                  <note type="charter">MS. Ch. Sussex 70</note>
+            </place>
+            
+            <place type="place" xml:id="place_102020">
+               <placeName type="index">Arundel</placeName>
+               <placeName type="formInDocument">Arundel</placeName>
+               <placeName type="formInDocument">Arundell</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <note type="charter">MS. Ch. Sussex 52</note>
+               <note type="charter">MS. Ch. Sussex 33</note>
+               <note type="charter">MS. Ch. Sussex 48</note>
+               <note type="charter">MS. Ch. Sussex 53</note>
+               <note type="charter">MS. Ch. Sussex 54</note>
+               <note type="charter">MS. Ch. Sussex 57</note>
+               <note type="charter">MS. Ch. Sussex 58</note>
+               <note type="charter">MS. Ch. Sussex 61</note>
+               <note type="charter">MS. Ch. Sussex 62</note>
+               <note type="charter">MS. Ch. Sussex 69</note>
+               <note type="charter">MS. Ch. Sussex 72</note>
+               <note type="charter">MS. Ch. Sussex 65</note>
+               <bibl>A P Baggs and H M Warne, 'Arundel', in A History of the County of Sussex: Volume 5 Part 1, Arundel Rape: South-Western Part, Including Arundel, ed. T P Hudson (London, 1997), pp. 10-101. British History Online http://www.british-history.ac.uk/vch/sussex/vol5/pt1/pp10-101 [accessed 3 November 2020].</bibl>
+            </place>
+            
+            <place type="place" xml:id="place_102022">
+               <placeName type="index">Ashton Green</placeName>
+               <placeName type="formInDocument">Ashton</placeName>
+               <region type="parish" key="place_102186">Ringmer</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ringmer/5328722fb47fc40c360007cb-Ashton+Green</idno>
+               <note type="charter">MS. Rolls Sussex 3</note>
+            </place>
+            
+            <place type="place" xml:id="place_102023">
+               <placeName type="index">Baddingmere</placeName>
+               <placeName type="formInDocument">Baddynggemere</placeName>
+               <region type="parish" key="place_102078">Horsham</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Horsham/5328722eb47fc40c3600052d-Baddingmere</idno>
+               <note type="charter">MS. Ch. Sussex 125</note>
+               <note type="charter">MS. Ch. Sussex 126</note>
+            </place>
+            
+            <place type="place" xml:id="place_102024">
+               <placeName type="index">Battle</placeName>
+               <placeName type="formInDocument">Battle</placeName>
+              <!-- <region type="parish">Battle</region>-->
+               <region type="county" key="place_000072">Sussex</region> 
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Battle/5328724eb47fc40c36000ca5-Battle</idno>
+               <note type="charter">MS. Ch. Sussex 77</note>
+            </place>
+            
+            <place type="place" xml:id="place_102027">
+               <placeName type="index">Bayham</placeName>
+               <placeName type="formInDocument">Begham</placeName>
+               <placeName type="formInDocument">Begeham</placeName>
+               <placeName type="formInDocument">Beghame</placeName>
+               <placeName type="formInDocument">Beigham</placeName>
+               <placeName type="formInDocument">Beiham</placeName>
+               <placeName type="formInDocument">Be[igham</placeName>
+               <placeName type="formInDocument">Begham</placeName>
+               <placeName type="formInDocument">Beaulieu</placeName>
+               <region type="parish" key="place_102197">Frant</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Frant/5328722eb47fc40c360003ed-Bayham+Abbey</idno>
+               <idno>https://www.visionofbritain.org.uk/descriptions/873180</idno>
+               <note type="charter">MS. Ch. Sussex 7a</note>
+               <note type="charter">MS. Ch. Sussex 7b</note>
+               <note type="charter">MS. Ch. Sussex 26</note>
+               <note type="charter">MS. Ch. Sussex 4</note>
+               <note type="charter">MS. Ch. Sussex 16a</note>
+               <note type="charter">MS. Ch. Sussex 9</note>
+               <note type="charter">MS. Ch. Sussex 12</note>
+               <note type="charter">MS. Ch. Sussex 28a</note>
+               <note type="charter">MS. Ch. Sussex 30</note>
+               <note type="charter">MS. Ch. Sussex 21</note>
+               <note type="charter">MS. Ch. Sussex 20</note>
+            </place>
+            
+            <place type="place" xml:id="place_102028">
+               <placeName type="index">Billingshurst</placeName>
+               <placeName type="formInDocument">Billinghurst</placeName>
+               <placeName type="formInDocument">Billingehurst</placeName>
+               <placeName type="formInDocument">Billynggushurst</placeName>
+               <placeName type="formInDocument">Byllyngehurst</placeName>
+               <placeName type="formInDocument">Byllynggyshurst</placeName>
+               <placeName type="formInDocument">Byllynghurst</placeName>
+               <placeName type="formInDocument">Byllyngshurst</placeName>
+               <!--<region type="parish">Billingshurst</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Billingshurst/5328724eb47fc40c36000cad-Billingshurst</idno>
+               <note type="charter">MS. Ch. Sussex 245</note>
+               <note type="charter">MS. Ch. Sussex 209</note>
+               <note type="charter">MS. Ch. Sussex 220</note>
+               <note type="charter">MS. Ch. Sussex 250</note>
+               <note type="charter">MS. Ch. Sussex 218</note>
+               <note type="charter">MS. Ch. Sussex 71</note>
+               <note type="charter">MS. Ch. Sussex 37</note>
+               <note type="charter">MS. Ch. Sussex 38</note>
+               <note type="charter">MS. Ch. Sussex 39</note>
+               <note type="charter">MS. Ch. Sussex 49</note>
+            </place>
+             
+             <place type="place" xml:id="place_102032">
+               <placeName type="index">Boreham Street</placeName>
+               <placeName type="formInDocument">Boreham</placeName>
+               <placeName type="formInDocument">Borham</placeName>
+                <region type="parish" key="place_102195">Wartling</region>
+                <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Wartling/53287230b47fc40c360009e6-Boreham+Street</idno>
+               <note type="charter">MS. Ch. Sussex 28b</note>
+            </place>
+            
+          <place type="place" xml:id="place_102033">
+               <placeName type="index">Boughton Monchelsea</placeName>
+               <placeName type="formInDocument">Boughton Mun..chelston</placeName>
+            <!-- <region type="parish">Boughton Monchelsea</region> -->
+               <region type="county" key="place_000031">Kent</region>
+               <!--potentially: <idno>https://www.genuki.org.uk/big/eng/KEN/BoughtonMonchelsea</idno>-->
+                <!-- i think this must be right although the spelling is not in Wallenberg -->
+               <note type="charter">MS. Ch. Sussex 259</note>
+            </place>
+            
+            <place type="place" xml:id="place_102034">
+               <placeName type="index">Broad Bridge</placeName>
+               <placeName type="formInDocument">Bradebrugge</placeName>
+               <placeName type="formInDocument">Bradbrygges</placeName>
+               <region type="parish" key="place_102192">Bosham</region> 
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Bosham/5328722cb47fc40c3600014a-Broad+Bridge</idno>
+               <note type="charter">MS. Ch. Sussex 308</note> 
+               <note type="charter">MS. Ch. Sussex 80</note>
+               <note type="charter">MS. Ch. Sussex 200</note>
+            </place>
+            
+            <place type="place" xml:id="place_102035">
+               <placeName type="index">Broadwater</placeName>
+               <placeName type="formInDocument">Bradewatre</placeName>
+               <placeName type="formInDocument">Bradewatere</placeName>
+              <!-- <region type="parish">Broadwater</region> -->
+               <region type="county" key="place_000072">Sussex</region> 
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Broadwater+%28including+Worthing%29/5328724eb47fc40c36000cbc-Broadwater</idno>
+               <note type="charter">MS. Ch. Sussex 209</note>
+               <note type="charter">MS. Ch. Sussex 212</note>
+            </place>
+            
+            <place type="place" xml:id="place_102036">
+               <placeName type="index">Brenchley</placeName>
+               <placeName type="formInDocument">Brenchysle</placeName>
+               <!--<region type="parish">Brenchley</region> -->
+               <region type="county" key="place_000031">Kent</region>
+               <note type="charter">MS. Ch. Sussex 240b</note>
+            </place>
+            
+            <place type="place" xml:id="place_102037">
+               <placeName type="index">Brightwell</placeName>
+               <placeName type="formInDocument">BRIGHT WELL (Del Hame, near)</placeName>
+               <placeName type="formInDocument">Britwelle</placeName><!-- a parish -->
+               <region type="county" key="place_000070">Suffolk</region>
+               <note type="charter">MS. Ch. Sussex 81</note>
+               <note type="charter">MS. Ch. Sussex 81</note>
+            </place>
+            
+            <place type="place" xml:id="place_102038">
+               <placeName type="index">Brockley</placeName> 
+               <placeName type="formInDocument">Brokele</placeName>
+               <region type="parish" key="place_102198">Lewisham</region> 
+               <region type="county" key="place_000031">Kent</region>
+               <idno>https://www.visionofbritain.org.uk/place/20690</idno>
+               <note type="charter">MS. Ch. Sussex 3</note>
+            </place>
+            
+            <place type="place" xml:id="place_102040">
+               <placeName type="index">Calais</placeName>
+               <placeName type="formInDocument">Cales</placeName>
+               <!--<region type="parish"></region> 
+               <region type="county"></region>-->
+               <country>France</country>
+               <idno>https://dicotopo.cths.fr/places/P84710378</idno>
+               <note type="charter">MS. Ch. Sussex 82</note>
+            </place>
+            
+            <place type="place" xml:id="place_102041">
+               <placeName type="index">Capel</placeName>
+               <placeName type="formInDocument">Capelle</placeName>
+              <!-- <region type="parish">Capel</region> -->
+               <region type="county" key="place_000071">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Capel/53287118b47fc40c23000aab-Capel</idno>
+               <bibl>'Parishes: Capel', in A History of the County of Surrey: Volume 3, ed. H E Malden (London, 1911), pp. 134-141. British History Online http://www.british-history.ac.uk/vch/surrey/vol3/pp134-141 [accessed 16 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 225</note>
+               <note type="charter">MS. Ch. Sussex 308</note>
+            </place>
+            
+            <place type="street" xml:id="place_102042">
+            <!--Perhaps all these refer to the priory of Pynham? see e.g. https://www.british-history.ac.uk/vch/sussex/vol2/pp80-81 (this is not so, as is clear from the charters) -->
+               <placeName type="index">Arundel, the causeway</placeName>
+               <placeName type="formInDocument">Causeway</placeName> 
+               <placeName type="formInDocument">[at the Causeway] near Arundel</placeName>
+               <placeName type="formInDocument">Causeway near Arundel</placeName>
+               <placeName type="formInDocument">the Causeway</placeName>
+               <placeName type="formInDocument">Calcetum</placeName> 
+               <region type="parish" key="place_102020">Arundel</region> 
+               <region type="county" key="place_000072">Sussex</region>
+               <bibl>A P Baggs and H M Warne, 'Arundel', in A History of the County of Sussex: Volume 5 Part 1, Arundel Rape: South-Western Part, Including Arundel, ed. T P Hudson (London, 1997), pp. 10-101. British History Online http://www.british-history.ac.uk/vch/sussex/vol5/pt1/pp10-101 [accessed 16 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 69</note>
+               <note type="charter">MS. Ch. Sussex 72</note>
+               <note type="charter">MS. Ch. Sussex 66</note>
+               <note type="charter">MS. Ch. Sussex 62</note>
+               <note type="charter">MS. Ch. Sussex 41</note>
+               <note type="charter">MS. Ch. Sussex 54</note>
+               <note type="charter">MS. Ch. Sussex 64</note>
+               <note type="charter">MS. Ch. Sussex 71</note>
+            </place>
+            
+            <place type="place" xml:id="place_102043">
+               <placeName type="index">Chichester</placeName>
+               <placeName type="formInDocument">Chichester</placeName>
+               <placeName type="formInDocument">Cicestre</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/id/532871b0b47fc40c36000007-Chichester</idno>
+               <note type="charter">MS. Ch. Sussex 228</note>
+               <note type="charter">MS. Ch. Sussex 311</note>
+               <note type="charter">MS. Ch. Sussex 50</note>
+               <note type="charter">MS. Ch. Sussex 66</note>
+               <note type="charter">MS. Ch. Sussex 59</note>
+               <note type="charter">MS. Ch. Sussex 36</note>
+            </place>
+            
+            <place type="place" xml:id="place_102044">
+               <placeName type="index">Chithurst</placeName>
+               <placeName type="formInDocument">Chitehurst</placeName>
+              <!-- <region type="parish">Chithurst</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/53287233b47fc40c36000b5a-Chithurst</idno> 
+               <bibl>'Chithurst', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 4-6. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp4-6 [accessed 16 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 50</note>
+               <note type="charter">MS. Ch. Sussex 60</note>
+            </place>
+            
+            <place type="place" xml:id="place_102045">
+               <placeName type="index">Cuckfield</placeName>
+               <placeName type="formInDocument">Cokefeld</placeName>
+               <placeName type="formInDocument">COKEFELD</placeName>
+               <placeName type="formInDocument">Cokefelde</placeName>
+               <placeName type="formInDocument">Cookefeild</placeName>
+               <placeName type="formInDocument">Cuckfield</placeName>
+               <!--<region type="parish">Cuckfield</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Cuckfield/5328724eb47fc40c36000cd5-Cuckfield</idno>
+               <bibl>'Parishes: Cuckfield', in A History of the County of Sussex: Volume 7, the Rape of Lewes, ed. L F Salzman (London, 1940), pp. 147-163. British History Online http://www.british-history.ac.uk/vch/sussex/vol7/pp147-163 [accessed 16 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 163</note>
+               <note type="charter">MS. Ch. Sussex 100</note>
+               <note type="charter">MS. Ch. Sussex 101</note>
+               <note type="charter">MS. Ch. Sussex 255</note>
+               <note type="charter">MS. Ch. Sussex 99</note>
+               <note type="charter">MS. Ch. Sussex 221</note>
+               <note type="charter">MS. Ch. Sussex 83</note>
+               <note type="charter">MS. Ch. Sussex 162</note>
+               <note type="charter">MS. Ch. Sussex 222</note>
+               <note type="charter">MS. Ch. Sussex 223</note>
+            </place>
+            
+            <place type="place" xml:id="place_102046">
+               <placeName type="index">Crawley</placeName>
+               <placeName type="formInDocument">Craule</placeName>
+              <!-- <region type="parish">Crawley</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Crawley/5328724eb47fc40c36000cd2-Crawley</idno>
+               <bibl>'Parishes: Crawley', in A History of the County of Sussex: Volume 7, the Rape of Lewes, ed. L F Salzman (London, 1940), pp. 144-147. British History Online http://www.british-history.ac.uk/vch/sussex/vol7/pp144-147 [accessed 16 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 265</note>
+            </place>
+            
+            <place type="place" xml:id="place_102047">
+               <placeName type="index">Crockhurst</placeName>
+               <placeName type="formInDocument">Crochurst</placeName>
+               <placeName type="formInDocument">Crokehurst</placeName>
+               <placeName type="formInDocument">Crokhurst</placeName>
+               <placeName type="formInDocument">Crothurst</placeName>
+               <placeName type="formInDocument">Crochurst</placeName>
+               <region type="parish" key="place_102078">Horsham</region> 
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Horsham/5328722eb47fc40c36000535-Crockhurst</idno>
+               <note type="charter">MS. Ch. Sussex 122</note>
+               <note type="charter">MS. Ch. Sussex 123</note>
+               <note type="charter">MS. Ch. Sussex 124</note>
+               <note type="charter">MS. Ch. Sussex 127</note>
+               <note type="charter">MS. Ch. Sussex 117</note>
+               <note type="charter">MS. Ch. Sussex 116</note>
+               <note type="charter">MS. Ch. Sussex 134</note>
+               <note type="charter">MS. Ch. Sussex 125</note>
+            </place>
+            
+            <place type="place" xml:id="place_102048">
+        <placeName type="index">Westdean</placeName>
+        <!-- note: in Pevensey hundred: differetn from West Dean -->
+               <placeName type="formInDocument">Dene</placeName>
+              <!-- <region type="parish">Westdean</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <note type="charter">MS. Ch. Sussex 7b</note>
+            </place>
+            
+            <place type="place" xml:id="place_102049">
+               <placeName type="index">Denham</placeName>
+               <placeName type="formInDocument">Denham</placeName>
+             <!--  <region type="parish">Denham</region> -->
+               <region type="county" key="place_000070">Suffolk</region>
+               <!-- see: https://en.wikipedia.org/wiki/Edward_Lewknor_(died_1605) -->
+               <note type="charter">MS. Ch. Sussex 100</note>
+               <note type="charter">MS. Ch. Sussex 101</note>
+            </place>
+            
+            <place type="place" xml:id="place_102050">
+               <placeName type="index">Dorking</placeName>
+               <placeName type="formInDocument">Dorkynge</placeName>
+               <!--<region type="parish">Dorking</region> -->
+               <region type="county" key="place_000071">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Dorking/53287118b47fc40c23000abf-Dorking</idno>
+               <note type="charter">MS. Ch. Sussex 83C</note>
+            </place>
+            
+            <place type="place" xml:id="place_102051">
+               <placeName type="index">Dunly Wood</placeName>
+               <placeName type="formInDocument">Dunnele</placeName>
+               <region type="parish" key="place_102166">Waldron</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Waldron/53287230b47fc40c360009a8-Dunly+Wood</idno>
+               <note type="charter">MS. Ch. Sussex 271</note>
+            </place>
+            
+            <place type="place" xml:id="place_102052">
+               <placeName type="index">Durrington</placeName>
+               <placeName type="formInDocument">Durington</placeName>
+              <!-- <region type="parish">Durrington</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Durrington/5328724eb47fc40c36000cdd-Durrington</idno>
+               <note type="charter">MS. Ch. Sussex 42</note>
+            </place>
+            
+            <place type="place" xml:id="place_102054">
+               <placeName type="index">Egerton</placeName>
+               <placeName type="formInDocument">Edgerton</placeName>
+               <placeName type="formInDocument">Egerton</placeName>
+          <!--     <region type="parish">Egerton</region> -->
+               <region type="county" key="place_000031">Kent</region>
+               <idno>https://www.visionofbritain.org.uk/place/2492</idno>
+               <note type="charter">MS. Ch. Sussex 310</note>
+               <note type="charter">MS. Ch. Sussex 102</note>
+            </place>
+            
+            <place type="place" xml:id="place_102055">
+               <placeName type="index">Earnley</placeName>
+               <placeName type="formInDocument">Ernly</placeName>
+              <!-- <region type="parish">Earnley</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Earnley/5328724eb47fc40c36000cde-Earnley</idno>
+               <idno>https://www.visionofbritain.org.uk/place/8334</idno>
+               <bibl>'Earnley', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 201-203. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp201-203 [accessed 18 November 2020].</bibl>
+            <note type="charter">MS. Ch. Sussex 260</note>
+            </place>
+            
+            <place type="place" xml:id="place_102056">
+               <placeName type="index">Ewkene</placeName>
+               <placeName type="formInDocument">Ewekene</placeName>
+               <placeName type="formInDocument">Euwekene</placeName>
+               <region type="parish" key="place_102041">Capel</region> 
+               <region type="county" key="place_000071">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Capel/53287102b47fc40c2300014d-Ewekene%27s+Fm</idno>
+               <bibl>'Parishes: Capel', in A History of the County of Surrey: Volume 3, ed. H E Malden (London, 1911), pp. 134-141. British History Online http://www.british-history.ac.uk/vch/surrey/vol3/pp134-141 [accessed 18 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 83D</note>
+               <note type="charter">MS. Ch. Sussex 83A</note>
+               <note type="charter">MS. Ch. Sussex 83B</note>
+               <note type="charter">MS. Ch. Sussex 83C</note>
+               <note type="charter">MS. Ch. Sussex 83D</note>
+            </place>
+            
+            <place type="place" xml:id="place_102057">
+               <placeName type="index">Ewhurst</placeName>
+               <placeName type="formInDocument">Ewherst</placeName>
+              <!-- <region type="parish">Ewhurst</region> -->
+               <region type="county" key="place_000071">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Ewhurst/53287118b47fc40c23000ac9-Ewhurst</idno>
+               <idno>https://www.visionofbritain.org.uk/place/1786</idno>
+               <bibl>'Parishes: Ewhurst', in A History of the County of Surrey: Volume 3, ed. H E Malden (London, 1911), pp. 97-101. British History Online http://www.british-history.ac.uk/vch/surrey/vol3/pp97-101 [accessed 18 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 252</note>
+            </place>
+            
+            <place type="place" xml:id="place_102058">
+               <placeName type="index">Exceat</placeName>
+               <placeName type="formInDocument">Excet</placeName>
+               <region type="parish" key="place_102048">Westdean</region> 
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Westdean/53287230b47fc40c36000a5d-Exceat</idno>
+               <note type="charter">MS. Ch. Sussex 311</note>
+            </place>
+            
+            <place type="place" xml:id="place_102059">
+               <placeName type="index">'Felde'</placeName>
+               <placeName type="formInDocument">Felde</placeName>
+               <region type="parish" cert="low" key="place_102169">Warnham</region> 
+               <region type="county" cert="low" key="place_000071">Sussex</region>
+               <note>Perhaps to be identified with the later estate of Field Place in Warnham (VCH: Sussex VI part 2, 207-12) </note>
+               <note type="charter">MS. Ch. Sussex 276</note>
+            </place>
+            
+            <place type="place" xml:id="place_102060">
+               <placeName type="index">Feltwell</placeName>
+               <placeName type="formInDocument">Felthewell</placeName>
+               <placeName type="formInDocument">Feltewell</placeName>
+              <!-- <region type="parish">Feltwell</region> -->
+                  <region type="county" key="place_000061">Norfolk</region>
+               <idno>https://www.genuki.org.uk/big/eng/NFK/Feltwell</idno>
+               <note type="charter">MS. Ch. Sussex 165</note>
+               <note type="charter">MS. Ch. Sussex 165</note>
+            </place>
+            
+            <place type="place" xml:id="place_102061">
+               <placeName type="index">Findon</placeName>
+               <placeName type="formInDocument">Fyndon</placeName>
+               <!--<region type="parish">Findon</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Findon/5328724eb47fc40c36000cf8-Findon</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Findon</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Findon', in A History of the County of Sussex: Volume 6 Part 1, Bramber Rape (Southern Part), ed. T P Hudson (London, 1980), pp. 20-34. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt1/pp20-34 [accessed 18 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 134</note>
+            </place>
+            
+            <place type="place" xml:id="place_102062">
+               <placeName type="index">Guestling</placeName>
+               <placeName type="formInDocument">Gestlyngg</placeName>
+               <!--<region type="parish">Guestling</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Guestling/5328724eb47fc40c36000d07-Guestling</idno>
+               <note type="charter">MS. Ch. Sussex 261</note>
+            </place>
+            
+            <place type="place" xml:id="place_102064">
+          <!--checked-->     <placeName type="index">Littlehampton</placeName>
+               <placeName type="formInDocument">Hampton</placeName>
+             <!--  <region type="parish">Littlehampton</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Littlehampton/5328724eb47fc40c36000d33-Littlehampton</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Littlehampton</idno>
+               <note type="charter">MS. Ch. Sussex 35</note>
+            </place>
+             
+            <place type="place" xml:id="place_102065">
+      <!--check 
+               (could be Market Harborough ???)--> <!--could it be this?: <placeName type="index">Harberg</placeName>
+               https://epns.nottingham.ac.uk/browse/Lincolnshire/Killingholme/58f86702756ff4cf4246610c-Harberg-->
+               <placeName type="index">Harberg, Harbergh [unidentified]</placeName>
+               <placeName type="formInDocument">Harberg</placeName>
+               <placeName type="formInDocument">Harbergh</placeName>
+               <!--<region type="parish"></region> 
+               <region type="county"></region>-->
+               <note type="charter">MS. Ch. Sussex 203</note>
+               <note type="charter">MS. Ch. Sussex 203</note>
+            </place>
+            
+            <place type="place" xml:id="place_102066">
+               <placeName type="index">Harrietsham</placeName>
+               <placeName type="formInDocument">Harrietsham</placeName>
+              <!-- <region type="parish">Harrietsham</region> -->
+               <region type="county" key="place_000031">Kent</region>
+               <idno>https://www.genuki.org.uk/big/eng/KEN/Harrietsham</idno>
+               <note type="charter">MS. Ch. Sussex 310</note>
+            </place>
+            
+           
+            
+            <place type="place" xml:id="place_102068">
+               <placeName type="index">Hailsham</placeName>
+               <placeName type="formInDocument">Haylesham</placeName>
+               <placeName type="formInDocument">Heilesham</placeName>
+               <placeName type="formInDocument">Haylesham</placeName>
+               <!--<region type="parish">Hailsham</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Hailsham/5328724eb47fc40c36000d09-Hailsham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Hailsham</idno>
+               <note type="charter">MS. Ch. Sussex 166</note>
+               <note type="charter">MS. Ch. Sussex 85</note>
+               <note type="charter">MS. Ch. Sussex 86</note>
+               <note type="charter">MS. Rolls Sussex 4</note>
+               <note type="charter">MS. Ch. Sussex 1</note>
+               <note type="charter">MS. Ch. Sussex 166</note>
+               <note type="charter">MS. Ch. Sussex 85</note>
+               <note type="charter">MS. Ch. Sussex 86</note>
+               <note type="charter">MS. Rolls Sussex 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_102069">
+               <placeName type="index">Itchingfield</placeName>
+               <placeName type="formInDocument">Echynfeld</placeName>
+               <placeName type="formInDocument">Echyngfeld</placeName>
+               <placeName type="formInDocument">Hecchingefeld</placeName>
+               <placeName type="formInDocument">Hachynfeld</placeName>
+               <placeName type="formInDocument">Hecchingfeld</placeName>
+               <placeName type="formInDocument">Hechingefeld</placeName>
+               <placeName type="formInDocument">Hechingefelde</placeName>
+               <placeName type="formInDocument">Hechingfeld</placeName>
+               <placeName type="formInDocument">Hechingfelde</placeName>
+               <placeName type="formInDocument">Hechyngfeld</placeName>
+               <placeName type="formInDocument">Hechyngfelde</placeName>
+               <placeName type="formInDocument">Hitchingefeilde</placeName>
+               <placeName type="formInDocument">Hichingfeeld</placeName>
+               <placeName type="formInDocument">Hitchingfield</placeName>
+               <placeName type="formInDocument">Hechyrigefeld</placeName>
+              <!-- <region type="parish">Itchingfield</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Itchingfield/5328724eb47fc40c36000d24-Itchingfield</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Itchingfield', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 7-10. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp7-10 [accessed 18 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 305</note>
+               <note type="charter">MS. Ch. Sussex 308</note>
+               <note type="charter">MS. Ch. Sussex 100</note>
+               <note type="charter">MS. Ch. Sussex 102</note>
+               <note type="charter">MS. Ch. Sussex 99</note>
+               <note type="charter">MS. Ch. Sussex 94</note>
+               <note type="charter">MS. Ch. Sussex 92</note>
+               <note type="charter">MS. Ch. Sussex 96</note>
+               <note type="charter">MS. Ch. Sussex 202</note>
+               <note type="charter">MS. Ch. Sussex 226</note>
+               <note type="charter">MS. Ch. Sussex 227</note>
+               <note type="charter">MS. Ch. Sussex 229</note>
+               <note type="charter">MS. Ch. Sussex 304</note>
+               <note type="charter">MS. Ch. Sussex 95</note>
+               <note type="charter">MS. Ch. Sussex 88</note>
+               <note type="charter">MS. Ch. Sussex 91</note>
+               <note type="charter">MS. Ch. Sussex 99</note>
+               <note type="charter">MS. Ch. Sussex 101</note>
+               <note type="charter">MS. Ch. Sussex 235</note>
+               <note type="charter">MS. Ch. Sussex 236</note>
+               <note type="charter">MS. Ch. Sussex 253</note>
+               <note type="charter">MS. Ch. Sussex 160b</note>
+               <note type="charter">MS. Ch. Sussex 90</note>
+               <note type="charter">MS. Ch. Sussex 88</note>
+               <note type="charter">MS. Ch. Sussex 90</note>
+               <note type="charter">MS. Ch. Sussex 91</note>
+               <note type="charter">MS. Ch. Sussex 89</note>
+               <note type="charter">MS. Ch. Sussex 97</note>
+               <note type="charter">MS. Ch. Sussex 87</note>
+               <note type="charter">MS. Ch. Sussex 93</note>
+            </place>
+           
+            <place type="place" xml:id="place_102071">
+               <placeName type="index">Hellingly</placeName>
+               <placeName type="formInDocument">Hellingeleghes</placeName>
+               <placeName type="formInDocument">Hellinglegh</placeName>
+               <placeName type="formInDocument">Hellingelege</placeName>
+               <!--<region type="parish">Hellingly</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Hellingly/5328724eb47fc40c36000d12-Hellingly</idno>
+               <note type="charter">MS. Ch. Sussex 103</note>
+               <note type="charter">MS. Ch. Sussex 24</note>
+               <note type="charter">MS. Ch. Sussex 18</note>
+            </place>
+            
+            <place type="place" xml:id="place_102073">
+    <!--checked-->           <placeName type="index">Hardham</placeName>
+               <placeName type="formInDocument">Heryngham</placeName>
+             <!--  <region type="parish">Hardham</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Hardham/5328724eb47fc40c36000d0c-Hardham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Hardham</idno>
+               <note type="charter">MS. Ch. Sussex 104</note>
+            </place>
+            
+            <place type="place" xml:id="place_102074">
+               <placeName type="index">Heyshott</placeName>
+               <placeName type="formInDocument">Heyshette</placeName>
+               <!--<region type="parish">Heyshott</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Heyshott/5328724eb47fc40c36000d15-Heyshott</idno>
+               <idno>https://www.visionofbritain.org.uk/place/9314</idno>
+               <bibl>'Heyshott', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 60-63. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp60-63 [accessed 18 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 105</note>
+            </place>
+            
+            <place type="place" xml:id="place_102075">
+    <!--not found 20.1.21         -->
+               <placeName type="index">Highsted [unidentified]</placeName>
+               <placeName type="formInDocument">Highsted</placeName>
+               <!--potential location, how to verify? There's a Highstead Road and Highstead Grammar school here - also Highsted in Chislet in Hasted
+                  <region type="parish">Sittingbourne</region> 
+               <region type="county" key="place_000031">Kent</region>-->
+               <note type="charter">MS. Ch. Sussex 253</note>
+            </place>
+
+            <place type="place" xml:id="place_102077">
+               <placeName type="index">Horleigh</placeName>
+               <placeName type="formInDocument">Horle</placeName>
+               <region type="parish" key="place_102199">Mayfield</region> 
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Mayfield/5328722fb47fc40c360006a5-Horleigh+Green+Fm</idno>
+               <note type="charter">MS. Ch. Sussex 145</note>
+               <note type="charter">MS. Ch. Sussex 147</note>
+               <note type="charter">MS. Ch. Sussex 152</note>
+            </place>
+            
+            <place type="place" xml:id="place_102078">
+               <placeName type="index">Horsham</placeName>
+               <placeName type="formInDocument">Horsham</placeName>
+               <placeName type="formInDocument">Horesham</placeName>
+              <!-- <region type="parish">Horsham</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Horsham/5328724eb47fc40c36000d18-Horsham</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Horsham: General history of the town', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 131-156. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp131-156 [accessed 3 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 147</note>
+               <note type="charter">MS. Ch. Sussex 230</note>
+               <note type="charter">MS. Ch. Sussex 83A</note>
+               <note type="charter">MS. Ch. Sussex 108</note>
+               <note type="charter">MS. Ch. Sussex 109</note>
+               <note type="charter">MS. Ch. Sussex 110</note>
+               <note type="charter">MS. Ch. Sussex 111</note>
+               <note type="charter">MS. Ch. Sussex 112</note>
+               <note type="charter">MS. Ch. Sussex 113</note>
+               <note type="charter">MS. Ch. Sussex 114</note>
+               <note type="charter">MS. Ch. Sussex 115</note>
+               <note type="charter">MS. Ch. Sussex 116</note>
+               <note type="charter">MS. Ch. Sussex 117</note>
+               <note type="charter">MS. Ch. Sussex 118</note>
+               <note type="charter">MS. Ch. Sussex 119</note>
+               <note type="charter">MS. Ch. Sussex 121</note>
+               <note type="charter">MS. Ch. Sussex 122</note>
+               <note type="charter">MS. Ch. Sussex 123</note>
+               <note type="charter">MS. Ch. Sussex 124</note>
+               <note type="charter">MS. Ch. Sussex 125</note>
+               <note type="charter">MS. Ch. Sussex 126</note>
+               <note type="charter">MS. Ch. Sussex 127</note>
+               <note type="charter">MS. Ch. Sussex 128</note>
+               <note type="charter">MS. Ch. Sussex 129</note>
+               <note type="charter">MS. Ch. Sussex 130</note>
+               <note type="charter">MS. Ch. Sussex 131</note>
+               <note type="charter">MS. Ch. Sussex 132</note>
+               <note type="charter">MS. Ch. Sussex 133</note>
+               <note type="charter">MS. Ch. Sussex 134</note>
+               <note type="charter">MS. Ch. Sussex 135</note>
+               <note type="charter">MS. Ch. Sussex 136</note>
+               <note type="charter">MS. Ch. Sussex 137</note>
+               <note type="charter">MS. Ch. Sussex 138</note>
+               <note type="charter">MS. Ch. Sussex 139</note>
+               <note type="charter">MS. Ch. Sussex 140</note>
+               <note type="charter">MS. Ch. Sussex 141</note>
+               <note type="charter">MS. Ch. Sussex 142</note>
+               <note type="charter">MS. Ch. Sussex 143</note>
+               <note type="charter">MS. Ch. Sussex 144</note>
+               <note type="charter">MS. Ch. Sussex 145</note>
+               <note type="charter">MS. Ch. Sussex 146</note>
+               <note type="charter">MS. Ch. Sussex 147</note>
+               <note type="charter">MS. Ch. Sussex 148</note>
+               <note type="charter">MS. Ch. Sussex 149</note>
+               <note type="charter">MS. Ch. Sussex 150</note>
+               <note type="charter">MS. Ch. Sussex 151</note>
+               <note type="charter">MS. Ch. Sussex 152</note>
+               <note type="charter">MS. Ch. Sussex 153</note>
+               <note type="charter">MS. Ch. Sussex 154</note>
+               <note type="charter">MS. Ch. Sussex 155</note>
+               <note type="charter">MS. Ch. Sussex 156</note>
+               <note type="charter">MS. Ch. Sussex 157</note>
+               <note type="charter">MS. Ch. Sussex 158</note>
+               <note type="charter">MS. Ch. Sussex 159</note>
+               <note type="charter">MS. Ch. Sussex 160a</note>
+               <note type="charter">MS. Ch. Sussex 161</note>
+               <note type="charter">MS. Ch. Sussex 162</note>
+               <note type="charter">MS. Ch. Sussex 163</note>
+               <note type="charter">MS. Ch. Sussex 88</note>
+               <note type="charter">MS. Ch. Sussex 89</note>
+               <note type="charter">MS. Ch. Sussex 102</note>
+               <note type="charter">MS. Ch. Sussex 174</note>
+               <note type="charter">MS. Ch. Sussex 187</note>
+               <note type="charter">MS. Ch. Sussex 188</note>
+               <note type="charter">MS. Ch. Sussex 198</note>
+               <note type="charter">MS. Ch. Sussex 200</note>
+               <note type="charter">MS. Ch. Sussex 204</note>
+               <note type="charter">MS. Ch. Sussex 205</note>
+               <note type="charter">MS. Ch. Sussex 206</note>
+               <note type="charter">MS. Ch. Sussex 213</note>
+               <note type="charter">MS. Ch. Sussex 217</note>
+               <note type="charter">MS. Ch. Sussex 218</note>
+               <note type="charter">MS. Ch. Sussex 219</note>
+               <note type="charter">MS. Ch. Sussex 220</note>
+               <note type="charter">MS. Ch. Sussex 226</note>
+               <note type="charter">MS. Ch. Sussex 227</note>
+               <note type="charter">MS. Ch. Sussex 228</note>
+               <note type="charter">MS. Ch. Sussex 235</note>
+               <note type="charter">MS. Ch. Sussex 238</note>
+               <note type="charter">MS. Ch. Sussex 239</note>
+               <note type="charter">MS. Ch. Sussex 240</note>
+               <note type="charter">MS. Ch. Sussex 251</note>
+               <note type="charter">MS. Ch. Sussex 256</note>
+               <note type="charter">MS. Ch. Sussex 304</note>
+               <note type="charter">MS. Ch. Sussex 160b</note>
+               <note type="charter">MS. Ch. Sussex 308</note>
+               <note type="charter">MS. Ch. Sussex 310</note>
+            </place>
+         
+            <place type="place" xml:id="place_102079">
+               <!--perhaps the same as EITHER
+                  <placeName type="index">Hurst Fm and Mill</placeName> OR
+               <placeName type="index">Hurst Fm</placeName>-->
+               <placeName type="index">Hurst [unidentified]</placeName>
+               <placeName type="formInDocument">Hurst</placeName>
+               <!--Hurst Fm and Mill in <region type="parish">Harting</placeName> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <!--perhaps ??
+                  <idno>https://epns.nottingham.ac.uk/browse/Sussex/Harting/5328722eb47fc40c3600048d-Hurst+Fm+and+Mill</idno
+                  OR
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Wisborough+Green/53287231b47fc40c36000abb-Hurst+Fm</idno>-->
+               <note type="charter">MS. Ch. Sussex 79</note>
+            </place>
+            
+            <place type="place" xml:id="place_102080">
+               <placeName type="index">Hurstpierpoint</placeName>
+               <placeName type="formInDocument">Hurstperpound</placeName>
+               <placeName type="formInDocument">Horstperpound</placeName>
+               <placeName type="formInDocument">Herstperpound</placeName>
+               <placeName type="formInDocument">Herstperpount</placeName>
+              <!-- <region type="parish">Hurstpierpoint</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Hurstpierpoint/5328724eb47fc40c36000d1d-Hurstpierpoint</idno>
+               <idno>https://www.visionofbritain.org.uk/place/8697</idno>
+               <bibl>'Parishes: Hurstpierpoint', in A History of the County of Sussex: Volume 7, the Rape of Lewes, ed. L F Salzman (London, 1940), pp. 172-178. British History Online http://www.british-history.ac.uk/vch/sussex/vol7/pp172-178 [accessed 18 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 156</note>
+               <note type="charter">MS. Ch. Sussex 159</note>
+               <note type="charter">MS. Ch. Sussex 157</note>
+               <note type="charter">MS. Ch. Sussex 155</note>
+               <note type="charter">MS. Ch. Sussex 106</note>
+               <note type="charter">MS. Ch. Sussex 107</note>
+               <note type="charter">MS. Ch. Sussex 226</note>
+            </place>
+            
+            <place type="place" xml:id="place_102081">
+               <placeName type="index">Iford</placeName>
+               <placeName type="formInDocument">Iford</placeName>
+               <!--<region type="parish">Iford</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Iford/5328724eb47fc40c36000d21-Iford</idno>
+               <bibl>'Parishes: Iford', in A History of the County of Sussex: Volume 7, the Rape of Lewes, ed. L F Salzman (London, 1940), pp. 52-57. British History Online http://www.british-history.ac.uk/vch/sussex/vol7/pp52-57 [accessed 18 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 165</note>
+            </place>
+            
+           
+            
+            <place type="place" xml:id="place_102083">
+               <placeName type="index">Exning</placeName>
+               <placeName type="formInDocument">Ixning</placeName>
+               <!--<region type="parish">Exning</region>-->
+               <region type="county" key="place_000070">Suffolk</region>
+               <note type="charter">MS. Ch. Sussex 77</note>
+               <note type="charter">MS. Ch. Sussex 78</note>
+            </place>
+            
+            <place type="place" xml:id="place_102084">
+               <placeName type="index">Jevington</placeName>
+               <placeName type="formInDocument">Jenyngton</placeName>
+              <!-- <region type="parish">Jevington</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Jevington/5328724eb47fc40c36000d25-Jevington</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Jevington</idno>
+               <note type="charter">MS. Ch. Sussex 30</note>
+            </place>
+            
+            <place type="place" xml:id="place_102088">
+               <placeName type="index">Lamberhurst</placeName>
+               <placeName type="formInDocument">Lamberherst</placeName>
+               <placeName type="formInDocument">Lambertherst</placeName>
+               <placeName type="formInDocument">Lambreherst</placeName>
+               <placeName type="formInDocument">Lambrehurst</placeName>
+               <placeName type="formInDocument">Lamburhurst</placeName>
+               <!--<region type="parish">Lamberhurst</region>-->
+               <region type="county" key="place_000031">Kent</region>
+               <!-- was partially in Sussex, however (see https://en.wikipedia.org/wiki/Lamberhurst) the county border was adjusted following the Local Government Act 1894 so that it is now wholly in Kent 
+                  <region type="county" key="place_000072">Sussex</region>-->
+               <idno>https://www.genuki.org.uk/big/eng/KEN/Lamberhurst</idno>
+               <note type="charter">MS. Ch. Sussex 1</note>
+               <note type="charter">MS. Ch. Sussex 171</note>
+               <note type="charter">MS. Ch. Sussex 20</note>
+               <note type="charter">MS. Ch. Sussex 31</note>
+               <note type="charter">MS. Ch. Sussex 14</note>
+               <note type="charter">MS. Ch. Sussex 16a</note>
+               <note type="charter">MS. Ch. Sussex 22a</note>
+               <note type="charter">MS. Ch. Sussex 29</note>
+            </place>
+           
+            <place type="place" xml:id="place_102089">
+               <placeName type="index">Lambeth</placeName>
+               <placeName type="formInDocument">Lamehith</placeName>
+               <!--<region type="parish">Lambeth</region>-->
+               <region type="county" key="place_000071">Surrey</region>
+               <note type="charter">MS. Ch. Sussex 234</note>
+            </place>
+            
+            <place type="place" xml:id="place_102090">
+               <placeName type="index">Lancing</placeName>
+               <placeName type="formInDocument">Launcynge</placeName>
+              <!-- <region type="parish">Lancing</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Lancing/5328724eb47fc40c36000d2a-Lancing</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Lancing', in A History of the County of Sussex: Volume 6 Part 1, Bramber Rape (Southern Part), ed. T P Hudson (London, 1980), pp. 34-53. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt1/pp34-53 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 209</note>
+            </place>
+            
+            <place type="place" xml:id="place_102095">
+               <placeName type="index">Lyminster</placeName>
+               <placeName type="formInDocument">Lenemenstre</placeName>
+               <placeName type="formInDocument">Lyministre</placeName>
+               <placeName type="formInDocument">Limestre</placeName>
+              <!-- <region type="parish">Lyminster</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Lyminster/5328724eb47fc40c36000d38-Lyminster</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Lyminster</idno>
+               <note type="charter">MS. Ch. Sussex 51</note>
+               <note type="charter">MS. Ch. Sussex 45</note>
+               <note type="charter">MS. Ch. Sussex 70</note>
+            </place>
+            
+            <place type="place" xml:id="place_102096">
+               <placeName type="index">Lenham</placeName>
+               <placeName type="formInDocument">Lenhem</placeName>
+               <!--<region type="parish">Lenham</region>-->
+               <region type="county" key="place_000031">Kent</region>
+               <idno>https://www.genuki.org.uk/big/eng/KEN/Lenham</idno>
+               <note type="charter">MS. Ch. Sussex 257</note>
+            </place>
+            
+            <place type="place" xml:id="place_102097">
+               <placeName type="index">Lewes</placeName>
+               <placeName type="formInDocument">Lewes</placeName>
+               <placeName type="formInDocument">Leawes</placeName>
+               <!--<region type="parish">Lewes</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Lewes/5328724eb47fc40c36000d2d-Lewes</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Lewes</idno>
+               <note type="charter">MS. Ch. Sussex 6a</note>
+               <note type="charter">MS. Ch. Sussex 156</note>
+               <note type="charter">MS. Ch. Sussex 158</note>
+               <note type="charter">MS. Ch. Sussex 168</note>
+            </place>
+            
+            <place type="place" xml:id="place_102100">
+               <placeName type="formInDocument">Liborne near Bourdeaux</placeName>
+               <!-- is this level sufficient:
+                  <region type="country">France</region>-->
+               <note type="charter">MS. Ch. Sussex 82</note>
+            </place>
+           
+        <!--    <place type="place" xml:id="place_102101">
+               <!-\-is this correct way to id London:-\->
+               <placeName type="index">London</placeName>
+               <placeName type="formInDocument">London</placeName>
+               <region type="county">City of London</region>
+               <idno>https://www.genuki.org.uk/big/eng/LND</idno>
+               <bibl>A History of the County of London: Volume 1, London Within the Bars, Westminster and Southwark, ed. William Page (London, 1909), British History Online http://www.british-history.ac.uk/vch/london/vol1 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 83</note>
+               <note type="charter">MS. Ch. Sussex 141</note>
+               <note type="charter">MS. Ch. Sussex 150</note>
+               <note type="charter">MS. Ch. Sussex 102</note>
+               <note type="charter">MS. Ch. Sussex 168</note>
+               <note type="charter">MS. Ch. Sussex 173</note>
+            </place>
+            -->
+            <place type="place" xml:id="place_102103">
+               <placeName type="index">Malden</placeName>
+               <placeName type="formInDocument">Malden</placeName>
+               <!--<region type="parish">Malden</region>-->
+               <region type="county" key="place_000071">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Malden/53287118b47fc40c23000ae7-Malden</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Malden</idno>
+               <bibl>'Parishes: Malden', in A History of the County of Surrey: Volume 3, ed. H E Malden (London, 1911), pp. 523-525. British History Online http://www.british-history.ac.uk/vch/surrey/vol3/pp523-525 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 168</note>
+            </place>
+            
+            <place type="place" xml:id="place_102104">
+      <!--checked         -->
+                  <placeName type="index">Matfield</placeName>
+               <placeName type="formInDocument">Mattefeld</placeName>
+               <region type="parish" key="place_102036">Brenchley</region>
+               <region type="county" key="place_000031">Kent</region>
+               <idno>https://www.genuki.org.uk/big/eng/KEN/Brenchley</idno>
+               <idno>https://www.visionofbritain.org.uk/unit/10150139</idno>
+               <note type="charter">MS. Ch. Sussex 12</note>
+            </place>
+            
+            <place type="place" xml:id="place_102105">
+     <!-- not found 20.1.21    -->    
+               <placeName type="index">Mereshale [unidentified]</placeName>
+               <placeName type="formInDocument">Mereshale</placeName>
+              <!-- <region type="parish"></region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <note type="charter">MS. Ch. Sussex 7b</note>
+            </place>
+            
+            <place type="place" xml:id="place_102106">
+               <placeName type="index">Michelham</placeName>
+    <!--checked-->           <placeName type="formInDocument">Michelham</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <region type="parish" key="place_102185">Arlington</region>
+               <note type="charter">MS. Ch. Sussex 167</note>
+            </place>
+            
+            <place type="place" xml:id="place_102107">
+               <placeName type="index">Middleham</placeName>
+               <placeName type="formInDocument">Middeham</placeName>
+               <region type="parish" key="place_102186">Ringmer</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ringmer/5328722fb47fc40c360007d0-Middleham</idno>
+               <note type="charter">MS. Rolls Sussex 3</note><!-- ckd MLH -->
+            </place>
+            
+            <place type="place" xml:id="place_102108">
+               <placeName type="index">Midhurst</placeName>
+               <placeName type="formInDocument">Midedhurst</placeName>
+               <!--<region type="parish">Midhurst</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Midhurst/5328724eb47fc40c36000d3e-Midhurst</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Midhurst</idno>
+               <bibl>'Midhurst', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 74-80. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp74-80 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 263</note>
+            </place>
+            
+            <place type="place" xml:id="place_102109">
+               <placeName type="index">Neubrugge, Niwebrugge [unidentified]</placeName>
+               <placeName type="formInDocument">Neubrugge</placeName>
+               <placeName type="formInDocument">Niwebrugge</placeName>
+               <!-- ?<region type="parish"></region>
+               <region type="county"></region>-->
+               
+               <!-- might be Newbridge in Wisborough Green, 20.1.21 -->
+               
+               <note type="charter">MS. Ch. Sussex 49</note>
+               <note type="charter">MS. Ch. Sussex 218</note>
+            </place>
+            
+            <place type="place" xml:id="place_102110">
+               <placeName type="index">Newdigate</placeName>
+               <placeName type="formInDocument">Newdegate</placeName>
+               <!--<region type="parish">Newdigate</region>-->
+               <region type="county" key="place_000071">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Newdigate/53287118b47fc40c23000af0-Newdigate</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Newdigate</idno>
+               <bibl>'Parishes: Newdigate', in A History of the County of Surrey: Volume 3, ed. H E Malden (London, 1911), pp. 310-315. British History Online http://www.british-history.ac.uk/vch/surrey/vol3/pp310-315 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 172b</note>
+            </place>
+            
+            <place type="place" xml:id="place_102111">
+    <!-- not found 20.1.21
+               elsewhere 'Hodingeford'-->
+               <placeName type="index">Nodingeford [unidentified]</placeName>
+               <placeName type="formInDocument">Nodingeford</placeName>
+               <!--? <region type="parish"></region>
+               <region type="county"></region>-->
+               <note type="charter">MS. Ch. Sussex 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_102112">
+               <placeName type="index">Norlington</placeName>
+               <placeName type="formInDocument">Norlington</placeName>
+               <region type="parish" key="place_102186">Ringmer</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ringmer/5328722fb47fc40c360007d1-Norlington</idno>
+               <note type="charter">MS. Rolls Sussex 3</note><!-- ckd MLH -->
+            </place>
+            
+            <place type="place" xml:id="place_102113">
+               <placeName type="index">Nutburn</placeName>
+               <placeName type="formInDocument">Nutburn</placeName>
+               <region type="parish" key="place_102187">North Baddesley</region>
+               <region type="county" key="place_000026">Hampshire</region>
+               <bibl>'Parishes: North Baddesley', in A History of the County of Hampshire: Volume 3, ed. William Page (London, 1908), pp. 463-465. British History Online http://www.british-history.ac.uk/vch/hants/vol3/pp463-465 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 53</note>
+            </place>
+            
+            <place type="place" xml:id="place_102114">
+               <placeName type="index">Ockley</placeName>
+               <placeName type="formInDocument">Ockelegh</placeName>
+               <placeName type="formInDocument">Okley</placeName>
+               <!--<region type="parish">Ockley</region>-->
+               <region type="county" key="place_000071">Surrey</region>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Ockley</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Ockley/53287118b47fc40c23000af4-Ockley</idno>
+               <bibl>'Parishes: Ockley', in A History of the County of Surrey: Volume 3, ed. H E Malden (London, 1911), pp. 150-153. British History Online http://www.british-history.ac.uk/vch/surrey/vol3/pp150-153 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 252</note>
+               <note type="charter">MS. Ch. Sussex 83E</note>
+            </place>
+            
+            <place type="place" xml:id="place_102115">
+               <placeName type="index">Offington</placeName>
+               <placeName type="formInDocument">Offington</placeName>
+               <!--<region type="parish">Offington</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Durrington/5328722db47fc40c360002a4-Offington</idno>
+               <note type="charter">MS. Ch. Sussex 46</note>
+            </place>
+            
+            <place type="place" xml:id="place_102116">
+    <!--ok-->           <placeName type="index">Islinghurst</placeName>
+               <placeName type="formInDocument">Oslynhhurst</placeName>
+               <region type="parish" key="place_102114">Ockley</region>
+               <region type="county" key="place_000071">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Ockley/53287104b47fc40c23000729-Islinghurst</idno>
+               <note type="charter">MS. Ch. Sussex 83E</note>
+            </place>
+             
+            <place type="place" xml:id="place_102117">
+               <placeName type="index">Otham</placeName>
+               <placeName type="formInDocument">Otham</placeName>
+               <placeName type="formInDocument">Oteham</placeName>
+               <placeName type="formInDocument">Otteham</placeName>
+               <region type="parish" key="place_102068">Hailsham</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Hailsham/5328722eb47fc40c3600044b-Otham+Court</idno>
+               <note type="charter">MS. Ch. Sussex 6b</note>
+               <note type="charter">MS. Ch. Sussex 26</note>
+               <note type="charter">MS. Ch. Sussex 30</note>
+            </place>
+            
+            <place type="place" xml:id="place_102118">
+             <!--  not found 20.1.21-->              <placeName type="index">Oxedon [unidentified]</placeName>
+               <placeName type="formInDocument">Oxedon</placeName>
+               <!--? <region type="parish"></region>-->
+              <!-- <region type="county" key="place_000072">Sussex</region>-->
+               <note type="charter">MS. Ch. Sussex 202</note>
+            </place>
+            
+            <place type="place" xml:id="place_102119">
+               <placeName type="index">Oxford</placeName>
+               <placeName type="formInDocument">Oxford</placeName>
+               <region type="county" key="place_000065">Oxfordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/id/53286dedb47fc40beb000001-Oxford</idno>
+               <idno>https://www.genuki.org.uk/big/eng/OXF/oxford</idno>
+               <bibl>Eleanor Chance, Christina Colvin, Janet Cooper, C J Day, T G Hassall, Mary Jessup and Nesta Selwyn, 'Medieval Oxford', in A History of the County of Oxford: Volume 4, the City of Oxford, ed. Alan Crossley and C R Elrington (London, 1979), pp. 3-73. British History Online http://www.british-history.ac.uk/vch/oxon/vol4/pp3-73 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 260</note>
+            </place>
+            
+            <place type="place" xml:id="place_102120">
+               <placeName type="index">Poling</placeName>
+               <placeName type="formInDocument">Palinges</placeName>
+              <!-- <region type="parish">Poling</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Poling/5328724fb47fc40c36000d5a-Poling</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Poling</idno>
+               <note type="charter">MS. Ch. Sussex 44a</note>
+               <note type="charter">MS. Ch. Sussex 44b</note>
+            </place>
+            
+            <place type="place" xml:id="place_102121">
+              <placeName type="index">Paul's Cray</placeName>
+               <placeName type="formInDocument">Paulynescraye</placeName>
+              <!-- <region type="parish">Paul's Cray</region>-->
+               <region type="county" key="place_000031">Kent</region>
+               <bibl>Edward Hasted, 'Parishes: Paul's Cray', in The History and Topographical Survey of the County of Kent: Volume 2 (Canterbury, 1797), pp. 125-134. British History Online http://www.british-history.ac.uk/survey-kent/vol2/pp125-134 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 261</note>
+            </place>
+            
+         
+            
+            <place type="place" xml:id="place_102123">
+               <placeName type="index">Peasmarsh</placeName>
+               <placeName type="formInDocument">Peasemersh</placeName>
+             <!--  <region type="parish">Peasmarsh</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Peasmarsh/5328724fb47fc40c36000d52-Peasmarsh</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Peasmarsh</idno>
+               <note type="charter">MS. Ch. Sussex 257</note>
+            </place>
+            
+            <place type="place" xml:id="place_102124">
+ <!--not found 20.1.21 -->             <placeName type="index">Penham [unidentified]</placeName>
+               <placeName type="formInDocument">Penham</placeName>
+               <!--<region type="parish"></region>
+               <region type="county"></region>-->
+               <note type="charter">MS. Ch. Sussex 107</note>
+            </place>
+            
+            <place type="place" xml:id="place_102126">
+               <placeName type="index">Petworth</placeName>
+               <placeName type="formInDocument">Petteworthe</placeName>
+              <!-- <region type="parish">Petworth</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Petworth/5328724fb47fc40c36000d55-Petworth</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Petworth</idno>
+               <note type="charter">MS. Ch. Sussex 196</note>
+            </place>
+            
+            <place type="place" xml:id="place_102127">
+               <placeName type="index">Pevensey</placeName>
+               <placeName type="formInDocument">Pevenese</placeName>
+               <!--<region type="parish">Pevensey</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Pevensey/5328724fb47fc40c36000d56-Pevensey</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Pevensey</idno>
+               <note type="charter">MS. Ch. Sussex 1</note>
+            </place>
+            
+           <place type="place" xml:id="place_102128">
+              <placeName type="index">Pinkhurst</placeName>
+               <placeName type="formInDocument">Pinkhurst</placeName>
+              <region type="parish" key="place_102148">Slinfold</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Slinfold/53287230b47fc40c360008b8-Pinkhurst</idno>
+               <note type="charter">MS. Ch. Sussex 169</note>
+            </place>
+            
+            <place type="place" xml:id="place_102129">
+               <placeName type="index">Playden</placeName>
+               <placeName type="formInDocument">Playdon</placeName>
+               <!--<region type="parish">Playden</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Playden/5328724fb47fc40c36000d58-Playden</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Playden</idno>
+               <note type="charter">MS. Ch. Sussex 170</note>
+            </place>
+            
+         <!--   minor name?
+            <place type="place" xml:id="place_102130">
+               <!-\-<placeName type="index">??</placeName>-\->
+               <placeName type="formInDocument">Polebererer(?)</placeName>
+               <!-\-<region type="parish"></region>
+               <region type="county"></region>-\->
+               <note type="charter">MS. Ch. Sussex 262</note>
+            </place>-->
+            
+            <place type="place" xml:id="place_102131">
+               <placeName type="index">Arundel, Potente Street</placeName>
+               <placeName type="formInDocument">Potentestrete</placeName>
+               <region type="parish" key="place_102020">Arundel</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <bibl>A P Baggs and H M Warne, 'Arundel', in A History of the County of Sussex: Volume 5 Part 1, Arundel Rape: South-Western Part, Including Arundel, ed. T P Hudson (London, 1997), pp. 10-101. British History Online http://www.british-history.ac.uk/vch/sussex/vol5/pt1/pp10-101 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 61</note>
+            </place>
+            
+            <place type="place" xml:id="place_102132">
+               <placeName type="index">Preston</placeName>
+               <placeName type="formInDocument">Prestiton</placeName>
+              <!-- <region type="parish">Preston</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Preston/5328724fb47fc40c36000d5d-Preston</idno>
+               <bibl>'Parishes: Preston', in A History of the County of Sussex: Volume 7, the Rape of Lewes, ed. L F Salzman (London, 1940), pp. 268-273. British History Online http://www.british-history.ac.uk/vch/sussex/vol7/pp268-273 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 52</note>
+            </place>
+            
+            <place type="place" xml:id="place_102133">
+    <!-- Rogate, Suss, is possible but less likely -->       <placeName type="index">Reigate</placeName>
+               <placeName type="formInDocument">Reygate</placeName> 
+             <!--  <region type="parish">Reigate</region>-->
+               <region type="county" key="place_000071">Surrey</region>
+               <note type="charter">MS. Ch. Sussex 83</note>
+            </place>
+            
+            <place type="place" xml:id="place_102134">
+               <placeName type="index">Rye</placeName>
+               <placeName type="formInDocument">Ria</placeName>
+              <!-- <region type="parish">Rye</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Rye/5328724fb47fc40c36000d6b-Rye</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Rye</idno>
+               <note type="charter">MS. Ch. Sussex 170</note>
+            </place>
+            
+            <place type="place" xml:id="place_102135">
+               <placeName type="index">Rudgwick</placeName>
+               <placeName type="formInDocument">Riggewike</placeName>
+               <placeName type="formInDocument">Radgwicke</placeName>
+               <!--<region type="parish">Rudgwick</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Rudgwick/5328724fb47fc40c36000d68-Rudgwick</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Rudgwick</idno>
+               <note type="charter">MS. Ch. Sussex 259</note>
+               <note type="charter">MS. Ch. Sussex 252</note>
+            </place>
+            
+            <place type="place" xml:id="place_102139">
+               <placeName type="index">Rusper</placeName>
+               <placeName type="formInDocument">Rousparre</placeName>
+               <placeName type="formInDocument">Rouspar</placeName>
+               <placeName type="formInDocument">Rouspere</placeName>
+               <placeName type="formInDocument">Rowesparre</placeName>
+               <placeName type="formInDocument">Rowsparre</placeName>
+               <placeName type="formInDocument">Rowspere</placeName>
+               <placeName type="formInDocument">Rowsperre</placeName>
+               <placeName type="formInDocument">Ruespere</placeName>
+               <placeName type="formInDocument">Rusparre</placeName>
+               <!--<region type="parish">Rusper</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Rusper/5328724fb47fc40c36000d69-Rusper</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Rusper</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Rusper', in A History of the County of Sussex: Volume 6 Part 3, Bramber Rape (North-Eastern Part) Including Crawley New Town, ed. T P Hudson (London, 1987), pp. 109-112. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt3/pp109-112 [accessed 25 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 225</note>
+               <note type="charter">MS. Ch. Sussex 172a</note>
+               <note type="charter">MS. Ch. Sussex 226</note>
+               <note type="charter">MS. Ch. Sussex 305</note>
+               <note type="charter">MS. Ch. Sussex 172b</note>
+               <note type="charter">MS. Ch. Sussex 304</note>
+               <note type="charter">MS. Ch. Sussex 172b</note>
+               <note type="charter">MS. Ch. Sussex 140</note>
+               <note type="charter">MS. Ch. Sussex 265</note>
+               <note type="charter">MS. Ch. Sussex 265</note>
+               <note type="charter">MS. Ch. Sussex 266</note>
+               <note type="charter">MS. Ch. Sussex 308</note>
+            </place>
+             
+            <place type="place" xml:id="place_102140">
+               <placeName type="index">Royton</placeName>
+               <placeName type="formInDocument">Royton in the parish of Lenhem</placeName>
+               <region type="parish" key="place_102096">Lenham</region>
+               <region type="county" key="place_000031">Kent</region>
+               <!--SEP has not done Kent yet<idno></idno>-->
+               <note type="charter">MS. Ch. Sussex 257</note>
+               <note type="charter">MS. Ch. Sussex 258</note>
+            </place>
+            
+            <!--minor name?
+            <place type="place" xml:id="place_102142">
+               <placeName type="formInDocument">Scharpeshull</placeName>
+               <region type="parish"></region>
+               <region type="county"></region>
+               <note type="charter">MS. Ch. Sussex 20</note>
+            </place>-->
+            
+            <place type="place" xml:id="place_102144">
+               <placeName type="index">Seaford</placeName>
+               <placeName type="formInDocument">Seford</placeName>
+               <!--<region type="parish">Seaford</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Seaford/5328724fb47fc40c36000d6d-Seaford</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Seaford</idno>
+               <note type="charter">MS. Ch. Sussex 173</note>
+            </place>
+            
+            <place type="place" xml:id="place_102145">
+               <placeName type="index">Selham</placeName>
+               <placeName type="formInDocument">Seleham</placeName>
+              <!-- <region type="parish">Selham</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Selham/5328724fb47fc40c36000d6f-Selham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Selham</idno>
+               <bibl>'Selham', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 80-82. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp80-82 [accessed 4 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 164</note>
+            </place>
+
+            <place type="place" xml:id="place_102146">
+               <placeName type="index">Silkden</placeName>
+               <placeName type="formInDocument">Seweden</placeName>
+               <region type="parish" key="place_102188">Angmering</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <!-- identification not fully certain -->
+               <note type="charter">MS. Ch. Sussex 73</note>
+            </place>
+            
+            <place type="place" xml:id="place_102147">
+               <placeName type="index">Shipley</placeName>
+               <placeName type="formInDocument">Sheplee</placeName>
+               <placeName type="formInDocument">Shepele</placeName>
+              <!-- <region type="parish">Shipley</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Shipley</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Shipley', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 105-111. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp105-111 [accessed 4 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 226</note>
+               <note type="charter">MS. Ch. Sussex 174</note>
+            </place>
+            
+            <place type="place" xml:id="place_102148">
+               <placeName type="index">Slinfold</placeName>
+               <placeName type="formInDocument">Sleyndefold</placeName>
+               <placeName type="formInDocument">Slindefaud</placeName>
+               <placeName type="formInDocument">Slindefaude</placeName>
+               <placeName type="formInDocument">Slindefold</placeName>
+               <placeName type="formInDocument">Slindefolde</placeName>
+               <placeName type="formInDocument">Slinfold</placeName>
+               <placeName type="formInDocument">Slynfold</placeName>
+               <placeName type="formInDocument">Slyndfold</placeName>
+               <placeName type="formInDocument">Slyndefolde</placeName>
+               <placeName type="formInDocument">Slyndefaud</placeName>
+               <placeName type="formInDocument">Slinfolde</placeName>
+               <placeName type="formInDocument">Slyndefaude</placeName>
+               <placeName type="formInDocument">Slyndefold</placeName>
+               <placeName type="formInDocument">Sclyndefold</placeName>
+               <placeName type="formInDocument">Sclindefaud</placeName>
+               <placeName type="formInDocument">Slingfield</placeName> <!-- same? -->
+               <!--<region type="parish">Slinfold</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Slinfold/5328724fb47fc40c36000d79-Slinfold</idno>
+               <note type="charter">MS. Ch. Sussex 260</note>
+               <note type="charter">MS. Ch. Sussex 133</note>
+               <note type="charter">MS. Ch. Sussex 142</note>
+               <note type="charter">MS. Ch. Sussex 93</note>
+               <note type="charter">MS. Ch. Sussex 184</note>
+               <note type="charter">MS. Ch. Sussex 185</note>
+               <note type="charter">MS. Ch. Sussex 186</note>
+               <note type="charter">MS. Ch. Sussex 189</note>
+               <note type="charter">MS. Ch. Sussex 190</note>
+               <note type="charter">MS. Ch. Sussex 191</note>
+               <note type="charter">MS. Ch. Sussex 192</note>
+               <note type="charter">MS. Ch. Sussex 193</note>
+               <note type="charter">MS. Ch. Sussex 194</note>
+               <note type="charter">MS. Ch. Sussex 195</note>
+               <note type="charter">MS. Ch. Sussex 196</note>
+               <note type="charter">MS. Ch. Sussex 197</note>
+               <note type="charter">MS. Ch. Sussex 198</note>
+               <note type="charter">MS. Ch. Sussex 202</note>
+               <note type="charter">MS. Ch. Sussex 204</note>
+               <note type="charter">MS. Ch. Sussex 205</note>
+               <note type="charter">MS. Ch. Sussex 206</note>
+               <note type="charter">MS. Ch. Sussex 207</note>
+               <note type="charter">MS. Ch. Sussex 208</note>
+               <note type="charter">MS. Ch. Sussex 209</note>
+               <note type="charter">MS. Ch. Sussex 210</note>
+               <note type="charter">MS. Ch. Sussex 211</note>
+               <note type="charter">MS. Ch. Sussex 212</note>
+               <note type="charter">MS. Ch. Sussex 213</note>
+               <note type="charter">MS. Ch. Sussex 214</note>
+               <note type="charter">MS. Ch. Sussex 215</note>
+               <note type="charter">MS. Ch. Sussex 216</note>
+               <note type="charter">MS. Ch. Sussex 217</note>
+               <note type="charter">MS. Ch. Sussex 218</note>
+               <note type="charter">MS. Ch. Sussex 219</note>
+               <note type="charter">MS. Ch. Sussex 220</note>
+               <note type="charter">MS. Ch. Sussex 221</note>
+               <note type="charter">MS. Ch. Sussex 222</note>
+               <note type="charter">MS. Ch. Sussex 223</note>
+               <note type="charter">MS. Ch. Sussex 224</note>
+               <note type="charter">MS. Ch. Sussex 225</note>
+               <note type="charter">MS. Ch. Sussex 226</note>
+               <note type="charter">MS. Ch. Sussex 241</note>
+               <note type="charter">MS. Ch. Sussex 249</note>
+               <note type="charter">MS. Ch. Sussex 255</note>
+               <note type="charter">MS. Ch. Sussex 178</note>
+               <note type="charter">MS. Ch. Sussex 182</note>
+               <note type="charter">MS. Ch. Sussex 95</note>
+               <note type="charter">MS. Ch. Sussex 183</note>
+               <note type="charter">MS. Ch. Sussex 185</note>
+               <note type="charter">MS. Ch. Sussex 186</note>
+               <note type="charter">MS. Ch. Sussex 200</note>
+               <note type="charter">MS. Ch. Sussex 201</note>
+               <note type="charter">MS. Ch. Sussex 273</note>
+               <note type="charter">MS. Ch. Sussex 199</note>
+               <note type="charter">MS. Ch. Sussex 202</note>
+               <note type="charter">MS. Ch. Sussex 203</note>
+               <note type="charter">MS. Ch. Sussex 227</note>
+               <note type="charter">MS. Ch. Sussex 192</note>
+               <note type="charter">MS. Ch. Sussex 199</note>
+               <note type="charter">MS. Ch. Sussex 217</note>
+               <note type="charter">MS. Ch. Sussex 228</note>
+               <note type="charter">MS. Ch. Sussex 231</note>
+               <note type="charter">MS. Ch. Sussex 232</note>
+               <note type="charter">MS. Ch. Sussex 233</note>
+               <note type="charter">MS. Ch. Sussex 238</note>
+               <note type="charter">MS. Ch. Sussex 239</note>
+               <note type="charter">MS. Ch. Sussex 240</note>
+               <note type="charter">MS. Ch. Sussex 242</note>
+               <note type="charter">MS. Ch. Sussex 243</note>
+               <note type="charter">MS. Ch. Sussex 247</note>
+               <note type="charter">MS. Ch. Sussex 251</note>
+               <note type="charter">MS. Ch. Sussex 252</note>
+               <note type="charter">MS. Ch. Sussex 256</note>
+               <note type="charter">MS. Ch. Sussex 310</note>
+               <note type="charter">MS. Ch. Sussex 196</note>
+               <note type="charter">MS. Ch. Sussex 235</note>
+               <note type="charter">MS. Ch. Sussex 236</note>
+               <note type="charter">MS. Ch. Sussex 238</note>
+               <note type="charter">MS. Ch. Sussex 244</note>
+               <note type="charter">MS. Ch. Sussex 245</note>
+               <note type="charter">MS. Ch. Sussex 250</note>
+               <note type="charter">MS. Ch. Sussex 252</note>
+               <note type="charter">MS. Ch. Sussex 253</note>
+               <note type="charter">MS. Ch. Sussex 257</note>
+               <note type="charter">MS. Ch. Sussex 259</note>
+               <note type="charter">MS. Ch. Sussex 160b</note>
+               <note type="charter">MS. Ch. Sussex 308</note>
+               <note type="charter">MS. Ch. Sussex 187</note>
+               <note type="charter">MS. Ch. Sussex 188</note>
+               <note type="charter">MS. Ch. Sussex 229</note>
+               <note type="charter">MS. Ch. Sussex 255</note>
+               <note type="charter">MS. Ch. Sussex 277</note>
+               <note type="charter">MS. Ch. Sussex 175</note>
+               <note type="charter">MS. Ch. Sussex 176</note>
+               <note type="charter">MS. Ch. Sussex 180</note>
+               <note type="charter">MS. Ch. Sussex 181</note>
+               <note type="charter">MS. Ch. Sussex 181</note>
+               <note type="charter">MS. Ch. Sussex 283</note>
+               <note type="charter">MS. Ch. Sussex 179</note>
+               <note type="charter">MS. Ch. Sussex 230</note>
+            </place>
+            
+            <place type="place" xml:id="place_102149">
+               <placeName type="index">Sompting</placeName>
+               <placeName type="formInDocument">Somtynge</placeName>
+              <!-- <region type="parish">Sompting</region>-->
+                  <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Sompting/5328724fb47fc40c36000d7a-Sompting</idno>
+               <note type="charter">MS. Ch. Sussex 209</note>
+            </place>
+            
+            <place type="place" xml:id="place_102150">
+               <placeName type="index">Southerham</placeName>
+               <placeName type="formInDocument">Southeram</placeName>
+               <region type="parish" key="place_102189">South Malling</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/South+Malling+Without/53287230b47fc40c360008d0-Southerham+Fm</idno>
+               <note type="charter">MS. Rolls Sussex 3</note>
+            </place>
+            
+           <place type="place" xml:id="place_102151">
+              <placeName type="index">Chichester, St Peter</placeName>
+               <placeName type="formInDocument">St. Peter in Chichester</placeName><!-- a church? -->
+                <!--<region type="parish">Chichester, St Peter</region>-->
+                <region type="county" key="place_000072">Sussex</region>
+               <note type="charter">MS. Ch. Sussex 59</note>
+            </place>
+            
+            
+         <place type="place" xml:id="place_102152">
+               <placeName type="index">Stammerham</placeName>
+               <placeName type="formInDocument">Stamerham</placeName>
+            <region type="parish" key="place_102139">Rusper</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <note type="charter">MS. Ch. Sussex 232</note>
+               <note type="charter">MS. Ch. Sussex 242</note>
+               <note type="charter">MS. Ch. Sussex 243</note>
+            </place>
+            
+            <place type="place" xml:id="place_102153">
+               <placeName type="index">Steyning</placeName>
+               <placeName type="formInDocument">Steninges</placeName>
+               <placeName type="formInDocument">Stenyng</placeName>
+              <!-- <region type="parish">Steyning</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Steyning/5328724fb47fc40c36000d84-Steyning</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Steyning</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Steyning', in A History of the County of Sussex: Volume 6 Part 1, Bramber Rape (Southern Part), ed. T P Hudson (London, 1980), pp. 220-226. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt1/pp220-226 [accessed 4 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 263</note>
+               <note type="charter">MS. Ch. Sussex 262</note>
+            </place>
+            
+            <place type="place" xml:id="place_102154">
+         <!--perhaps: <placeName type="index">Shovelstrode Fm</placeName> https://epns.nottingham.ac.uk/browse/Sussex/East+Grinstead/5328722db47fc40c360002e1-Shovelstrode+Fm , see also Felde-->
+               <placeName type="index">'Strode'</placeName>
+               <placeName type="formInDocument">Strode</placeName>
+               <region type="parish" cert="low" key="place_102148">Slinfold</region>
+               <region type="county" cert="low" key="place_000071">Sussex</region>
+               <note>Perhaps to be identified with the later estate of Strood Park in Slinford (https://discovery.nationalarchives.gov.uk/details/c/F105812)</note>
+               <note type="charter">MS. Ch. Sussex 276</note>
+            </place>
+            
+            <place type="place" xml:id="place_102155">
+               <placeName type="index">Sullington</placeName>
+               <placeName type="formInDocument">Sullyngton</placeName>
+               <!--<region type="parish">Sullington</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Sullington/5328724fb47fc40c36000d89-Sullington</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Sullington</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Sullington', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 18-20. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp18-20 [accessed 4 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 264</note>
+               <note type="charter">MS. Ch. Sussex 268</note>
+               <note type="charter">MS. Ch. Sussex 269</note>
+            </place>
+            
+            <place type="place" xml:id="place_102156">
+               <placeName type="index">Sutton</placeName>
+               <placeName type="formInDocument">Sutton</placeName>
+               <placeName type="formInDocument">Suttone</placeName>
+              <!-- <region type="parish">Sutton</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Sutton/5328724fb47fc40c36000d8a-Sutton</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Sutton</idno>
+               <bibl></bibl>
+               <note type="charter">MS. Ch. Sussex 105</note>
+               <note type="charter">MS. Ch. Sussex 167</note>
+            </place>
+            
+            
+            
+            <place type="place" xml:id="place_102157">
+               <placeName type="index">Shereford</placeName>
+               <placeName type="formInDocument">Syrefort</placeName>
+              <!-- <region type="parish">Shereford</region>-->
+               <region type="county" key="place_000061">Norfolk</region>
+               <note type="charter">MS. Ch. Sussex 165</note>
+               <bibl>Francis Blomefield, 'Gallow and Brothercross Hundreds: Shereford', in An Essay Towards A Topographical History of the County of Norfolk: Volume 7 (London, 1807), pp. 178-179. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp178-179 [accessed 20 January 2021].
+               </bibl>
+            </place>
+            
+            <place type="place" xml:id="place_102158">
+               <placeName type="index">Tilton</placeName>
+               <placeName type="formInDocument">Teletune</placeName>
+               <region type="parish" key="place_102200">Alciston</region>
+               <region type="parish" key="place_102201">Selmeston</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <!-- described as being in both parishes in different sources -->
+               <note type="charter">MS. Ch. Sussex 6b</note>
+            </place>
+            
+            <place type="place" xml:id="place_102159">
+               <placeName type="index">Tarring Neville</placeName>
+               <placeName type="formInDocument">Terryng</placeName>
+              <!-- <region type="parish">Tarring Neville</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <note type="charter">MS. Ch. Sussex 251</note>
+            </place>
+            
+            <place type="place" xml:id="place_102160">
+               <placeName type="index">Thakeham</placeName>
+               <placeName type="formInDocument">Thakham</placeName>
+               <placeName type="formInDocument">Blessed Mary of Thakham</placeName>
+            <!--   <region type="parish">Thakeham</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Thakeham/5328724fb47fc40c36000d8f-Thakeham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Thakeham</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Thakeham', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 30-34. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp30-34 [accessed 4 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 264</note>
+               <note type="charter">MS. Ch. Sussex 268</note>
+               <note type="charter">MS. Ch. Sussex 269</note>
+            </place>
+            
+            <place type="church" xml:id="place_102162">
+               <placeName type="index">Tofts</placeName>
+               <placeName type="formInDocument">Toftes</placeName>
+             <!--  <region type="parish">Tofts</region>-->
+               <region type="county" key="place_000061">Norfolk</region>
+               <note type="charter">MS. Ch. Sussex 165</note>
+            </place>
+            
+            <place type="place" xml:id="place_102163">
+               <placeName type="index">Tonge</placeName>
+               <placeName type="formInDocument">Tonge</placeName>
+              <!-- <region type="parish">Tonge</region>-->
+               <region type="county" key="place_000031">Kent</region>
+               <idno>https://www.genuki.org.uk/big/eng/KEN/Tonge</idno>
+               <note type="charter">MS. Ch. Sussex 9</note>
+            </place>
+            
+          <!--  minor name?
+            <place type="place" xml:id="place_102164">
+               <placeName type="formInDocument">Tounlond</placeName>
+               <region type="parish"></region>
+               <region type="county"></region>
+               <note type="charter">MS. Ch. Sussex 185</note>
+            </place>
+            -->
+            <place type="place" xml:id="place_102165">
+               <placeName type="index">Wadhurst</placeName>
+               <placeName type="formInDocument">Wadehurst</placeName>
+               <placeName type="formInDocument">Wadeherst</placeName>
+             <!--  <region type="parish">Wadhurst</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Wadhurst/5328724fb47fc40c36000d9a-Wadhurst</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Wadhurst</idno>
+               <note type="charter">MS. Ch. Sussex 240b</note>
+               <note type="charter">MS. Ch. Sussex 270</note>
+            </place>
+            
+            <place type="place" xml:id="place_102166">
+               <placeName type="index">Waldron</placeName>
+               <placeName type="formInDocument">Walderne</placeName>
+              <!-- <region type="parish">Waldron</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Waldron/5328724fb47fc40c36000d9c-Waldron</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Waldron</idno>
+               <note type="charter">MS. Ch. Sussex 103</note>
+               <note type="charter">MS. Ch. Sussex 271</note>
+            </place>
+            
+            <place type="place" xml:id="place_102167">
+               <placeName type="index">Walberton</placeName>
+               <placeName type="formInDocument">Warblyngton</placeName>
+              <!-- <region type="parish">Walberton</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Walberton/5328724fb47fc40c36000d9b-Walberton</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Walberton</idno>
+               <bibl>A P Baggs and H M Warne, 'Walberton', in A History of the County of Sussex: Volume 5 Part 1, Arundel Rape: South-Western Part, Including Arundel, ed. T P Hudson (London, 1997), pp. 224-244. British History Online http://www.british-history.ac.uk/vch/sussex/vol5/pt1/pp224-244 [accessed 4 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 68</note>
+            </place>
+            
+            <place type="place" xml:id="place_102168">
+               <placeName type="index">Warningcamp</placeName>
+               <placeName type="formInDocument">Warnecamp</placeName>
+               <placeName type="formInDocument">Warnecampe</placeName>
+             <!--  <region type="parish">Warningcamp</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Warningcamp/5328724fb47fc40c36000da0-Warningcamp</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Warningcamp</idno>
+               <note type="charter">MS. Ch. Sussex 65</note>
+               <note type="charter">MS. Ch. Sussex 104</note>
+               <note type="charter">MS. Ch. Sussex 47</note>
+               <note type="charter">MS. Ch. Sussex 63</note>
+               <note type="charter">MS. Ch. Sussex 56</note>
+            </place>
+            
+            <place type="place" xml:id="place_102169">
+               <placeName type="index">Warnham</placeName>
+               <placeName type="formInDocument">Warnham</placeName>
+               <placeName type="formInDocument">Warneham</placeName>
+               <placeName type="formInDocument">Wernham</placeName>
+               <placeName type="formInDocument">Wornham</placeName>
+              <!-- <region type="parish">Warnham</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Warnham/5328724fb47fc40c36000d9f-Warnham</idno>
+               <idno>https://www.visionofbritain.org.uk/place/9051</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Warnham', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 203-207. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp203-207 [accessed 3 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 180</note>
+               <note type="charter">MS. Ch. Sussex 275</note>
+               <note type="charter">MS. Ch. Sussex 94</note>
+               <note type="charter">MS. Ch. Sussex 205</note>
+               <note type="charter">MS. Ch. Sussex 272</note>
+               <note type="charter">MS. Ch. Sussex 273</note>
+               <note type="charter">MS. Ch. Sussex 274</note>
+               <note type="charter">MS. Ch. Sussex 277</note>
+               <note type="charter">MS. Ch. Sussex 278</note>
+               <note type="charter">MS. Ch. Sussex 279</note>
+               <note type="charter">MS. Ch. Sussex 280</note>
+               <note type="charter">MS. Ch. Sussex 281</note>
+               <note type="charter">MS. Ch. Sussex 282</note>
+               <note type="charter">MS. Ch. Sussex 283</note>
+               <note type="charter">MS. Ch. Sussex 289</note>
+               <note type="charter">MS. Ch. Sussex 219</note>
+               <note type="charter">MS. Ch. Sussex 160a</note>
+               <note type="charter">MS. Ch. Sussex 162</note>
+               <note type="charter">MS. Ch. Sussex 102</note>
+               <note type="charter">MS. Ch. Sussex 187</note>
+               <note type="charter">MS. Ch. Sussex 188</note>
+               <note type="charter">MS. Ch. Sussex 192</note>
+               <note type="charter">MS. Ch. Sussex 193</note>
+               <note type="charter">MS. Ch. Sussex 194</note>
+               <note type="charter">MS. Ch. Sussex 204</note>
+               <note type="charter">MS. Ch. Sussex 206</note>
+               <note type="charter">MS. Ch. Sussex 207</note>
+               <note type="charter">MS. Ch. Sussex 208</note>
+               <note type="charter">MS. Ch. Sussex 213</note>
+               <note type="charter">MS. Ch. Sussex 217</note>
+               <note type="charter">MS. Ch. Sussex 219</note>
+               <note type="charter">MS. Ch. Sussex 226</note>
+               <note type="charter">MS. Ch. Sussex 236</note>
+               <note type="charter">MS. Ch. Sussex 253</note>
+               <note type="charter">MS. Ch. Sussex 256</note>
+               <note type="charter">MS. Ch. Sussex 257</note>
+               <note type="charter">MS. Ch. Sussex 279</note>
+               <note type="charter">MS. Ch. Sussex 284</note>
+               <note type="charter">MS. Ch. Sussex 285</note>
+               <note type="charter">MS. Ch. Sussex 286</note>
+               <note type="charter">MS. Ch. Sussex 287</note>
+               <note type="charter">MS. Ch. Sussex 288</note>
+               <note type="charter">MS. Ch. Sussex 290</note>
+               <note type="charter">MS. Ch. Sussex 291</note>
+               <note type="charter">MS. Ch. Sussex 292</note>
+               <note type="charter">MS. Ch. Sussex 293</note>
+               <note type="charter">MS. Ch. Sussex 294</note>
+               <note type="charter">MS. Ch. Sussex 295</note>
+               <note type="charter">MS. Ch. Sussex 296</note>
+               <note type="charter">MS. Ch. Sussex 297</note>
+               <note type="charter">MS. Ch. Sussex 298</note>
+               <note type="charter">MS. Ch. Sussex 299</note>
+               <note type="charter">MS. Ch. Sussex 300</note>
+               <note type="charter">MS. Ch. Sussex 301</note>
+               <note type="charter">MS. Ch. Sussex 302</note>
+               <note type="charter">MS. Ch. Sussex 303</note>
+               <note type="charter">MS. Ch. Sussex 304</note>
+               <note type="charter">MS. Ch. Sussex 305</note>
+               <note type="charter">MS. Ch. Sussex 306</note>
+               <note type="charter">MS. Ch. Sussex 160b</note>
+               <note type="charter">MS. Ch. Sussex 308</note>
+               <note type="charter">MS. Ch. Sussex 310</note>
+            </place>
+            
+            <place type="place" xml:id="place_102170">
+               <placeName type="index">Wellingham</placeName>
+               <placeName type="formInDocument">Wellingham</placeName>
+               <region type="parish" key="place_102186">Ringmer</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ringmer/5328722fb47fc40c360007d3-Wellingham</idno>
+               <note type="charter">MS. Rolls Sussex 3</note><!-- ckd MLH -->
+            </place>
+            
+            <place type="place" xml:id="place_102171">
+               <placeName type="index">West Grinstead</placeName>
+               <placeName type="formInDocument">West Grinstead</placeName>
+              <!-- <region type="parish">West Grinstead</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/West+Grinstead/5328724fb47fc40c36000da7-West+Grinstead</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/WestGrinstead</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'West Grinstead: Economic history', in A History of the County of Sussex: Volume 6 Part 2, Bramber Rape (North-Western Part) Including Horsham, ed. T P Hudson (London, 1986), pp. 94-99. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt2/pp94-99 [accessed 4 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 84</note>
+            </place>
+            
+            <place type="place" xml:id="place_102172">
+       <!--EPNS confirms-->        <placeName type="formInDocument">West Kechenham</placeName>
+               <region type="parish" key="place_102202">Ashburnham</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Ashburnham/5328722cb47fc40c36000075-Kitchenham</idno>
+               <note type="charter">MS. Ch. Sussex 10</note>
+            </place>
+             
+            <place type="place" xml:id="place_102173">
+               <placeName type="index">'West Wodesham'</placeName>     
+               <placeName type="formInDocument">West Wodesham</placeName>
+               <region type="parish" key="place_102028">Billingshurst</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <!--document states the parish, not in EPNS-->
+               <note type="charter">MS. Ch. Sussex 71</note>
+            </place>
+            
+            <place type="place" xml:id="place_102174">
+               <placeName type="index">Westbourne</placeName>
+               <placeName type="formInDocument">Westborne</placeName>
+               <!--<region type="parish">Westbourne</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Westbourne/5328724fb47fc40c36000dad-Westbourne</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Westbourne</idno>
+               <bibl>'Westbourne', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 126-132. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp126-132 [accessed 4 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 74</note>
+            </place>
+            
+            <place type="place" xml:id="place_102175">
+               <placeName type="index">West Dean</placeName>
+               <placeName type="formInDocument">Westdene</placeName>
+               <placeName type="formInDocument">Westdene</placeName>
+               <!-- check: cf. Westdean -->
+             <!--  <region type="parish">West Dean</region> -->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/West+Dean/5328724fb47fc40c36000da5-West+Dean</idno>
+               <bibl>'West Dean', in A History of the County of Sussex: Volume 4, the Rape of Chichester, ed. L F Salzman (London, 1953), pp. 97-101. British History Online http://www.british-history.ac.uk/vch/sussex/vol4/pp97-101 [accessed 16 November 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 7b</note>
+               <note type="charter">MS. Ch. Sussex 311</note>
+            </place> 
+            
+          <!--  <place type="place" xml:id="place_102176">
+               <placeName type="formInDocument">Westminster</placeName>
+               <!-\-<region type="parish"></placeName>-\->
+               <region type="county">Middlesex</region>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Westminster</idno>
+               <note type="charter">MS. Ch. Sussex 143</note>
+               <note type="charter">MS. Ch. Sussex 231</note>
+            </place>-->
+            
+            <place type="place" xml:id="place_102177">
+               <placeName type="index">Weybread</placeName>
+               <placeName type="formInDocument">Weybred</placeName>
+               <!--<region type="parish">Weybread</region>-->
+               <region type="county" key="place_000070">Suffolk</region>
+               <idno>https://www.genuki.org.uk/big/eng/SFK/Weybread</idno>
+               <note type="charter">MS. Ch. Sussex 312</note>
+               <note type="charter">MS. Ch. Sussex 313</note>
+            </place>
+            
+            <place type="place" xml:id="place_102178">
+               <placeName type="index">Woodstock</placeName>
+               <placeName type="formInDocument">Wodestok</placeName>
+<!--               <region type="parish">Woodstock</region>-->
+               <region type="county" key="place_000065">Oxfordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/Woodstock/53286e39b47fc40beb000893-Woodstock</idno>
+               <idno>https://www.genuki.org.uk/big/eng/OXF/woodstock</idno>
+               <bibl>A P Baggs, W J Blair, Eleanor Chance, Christina Colvin, Janet Cooper, C J Day, Nesta Selwyn and S C Townley, 'Woodstock: Overview', in A History of the County of Oxford: Volume 12, Wootton Hundred (South) Including Woodstock, ed. Alan Crossley and C R Elrington (London, 1990), p. 325. British History Online http://www.british-history.ac.uk/vch/oxon/vol12/p325 [accessed 4 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 105</note>
+            </place>
+            
+            <place type="place" xml:id="place_102179">
+               <placeName type="index">Woodmancote</placeName>
+               <placeName type="formInDocument">Wodmancote</placeName> 
+               <!--<region type="parish">Woodmancote</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Woodmancote/5328724fb47fc40c36000dbc-Woodmancote</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Woodmancote</idno>
+               <bibl>A P Baggs, C R J Currie, C R Elrington, S M Keeling and A M Rowland, 'Woodmancote', in A History of the County of Sussex: Volume 6 Part 3, Bramber Rape (North-Eastern Part) Including Crawley New Town, ed. T P Hudson (London, 1987), pp. 157-160. British History Online http://www.british-history.ac.uk/vch/sussex/vol6/pt3/pp157-160 [accessed 4 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 74</note>
+            </place>
+            
+            <place type="place" xml:id="place_102181">
+               <placeName type="index">Wye</placeName>
+               <placeName type="formInDocument">Wye</placeName>
+               <!--<region type="parish">Wye</region>-->
+               <region type="county" key="place_000031">Kent</region>
+               <idno>https://www.genuki.org.uk/big/eng/KEN/Wye</idno>
+               <note type="charter">MS. Ch. Sussex 257</note>
+               <note type="charter">MS. Ch. Sussex 258</note>
+            </place>
+            
+            <place type="place" xml:id="place_102182">
+               <placeName type="index">Wick</placeName>
+               <!--one possible place, could also be Wick Fm or The Wick (both in Sussex)?-->
+               <placeName type="formInDocument">Wykes</placeName>
+               <region type="parish" cert="low" key="place_102095">Lyminster</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Lyminster/5328722fb47fc40c3600067b-Wick</idno>
+               <note type="charter">MS. Ch. Sussex 35</note>
+            </place>
+            
+            <place type="place" xml:id="place_102183">
+               <placeName type="index">Winchelsea</placeName>
+               <placeName type="formInDocument">Wynchelse</placeName>
+               <placeName type="formInDocument">Winchelse</placeName><!--
+               <region type="parish">Winchelsea</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Winchelsea/5328724fb47fc40c36000db7-Winchelsea</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Winchelsea</idno>
+               <note type="charter">MS. Ch. Sussex 314</note>
+               <note type="charter">MS. Ch. Sussex 314</note>
+            </place>
+            
+            <place type="place" xml:id="place_102184">
+               <placeName type="index">Wisborough Green</placeName>
+               <placeName type="formInDocument">Wysberghe</placeName>
+               <!--<region type="parish">Wisborough Green</region>-->
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Wisborough+Green/5328724fb47fc40c36000db8-Wisborough+Green</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/WisboroughGreen</idno>
+               <note type="charter">MS. Ch. Sussex 71</note>
+            </place>
+            
+           <place type="place" xml:id="place_102185">
+              <placeName type="index">Arlington</placeName>
+              <region type="county" key="place_000072">Sussex</region>
+              <idno>https://www.visionofbritain.org.uk/unit/10281854</idno>
+           </place>
+            
+            <place type="place" xml:id="place_102186">
+               <placeName type="index">Ringmer</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10305731</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102187">
+               <placeName type="index">North Baddesley</placeName>
+               <region type="county" key="place_000026">Hampshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10162403</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102188">
+               <placeName type="index">Angmering</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10281192</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102189">
+               <placeName type="index">South Malling</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10303382</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102190">
+               <placeName type="index">Selmeston</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10310842</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102191">
+               <placeName type="index">Alciston</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10280370</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102192">
+               <placeName type="index">Bosham</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10284004</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102193">
+               <placeName type="index">Havant</placeName>
+               <region type="county" key="place_000026">Hampshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10162075</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102194">
+               <placeName type="index">Ovingdean</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10305160</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102195">
+               <placeName type="index">Wartling</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10312450</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102196">
+               <placeName type="index">Sternfield</placeName>
+               <region type="county" key="place_000070">Suffolk</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10268679</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102197">
+               <placeName type="index">Frant</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10098397</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102198">
+               <placeName type="index">Lewisham</placeName>
+               <region type="county" key="place_000031">Kent</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10222059</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102199">
+               <placeName type="index">Mayfield</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10303862</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102200">
+               <placeName type="index">Alciston</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10280370</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102201">
+               <placeName type="index">Selmeston</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10310842</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102202">
+               <placeName type="index">Ashburnham</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10282159</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102204">
+               <placeName type="index">Bishopstone</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10283413</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102205">
+               <placeName type="index">Friston</placeName>
+               <placeName type="formInDocument">Fristhon</placeName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10290284</idno>
+            </place>
+            
+            <place type="place" xml:id="place_102206">
+               <placeName type="index">Shoreham</placeName>
+               <!-- new or old -->
+               <region type="county" key="place_000072">Sussex</region>
+             
+            </place>
+            
+            <place type="place" xml:id="place_102207">
+               <placeName type="index">Haryngham [unidentified]</placeName>
+               <!-- new or old -->
+               <region type="county" key="place_000072" cert="low">Sussex</region>
+               
+            </place>
+            
          </listPlace>
 
 
@@ -1500,11 +3824,11 @@
                <note type="charter">MS. Ch. Worcs. 3</note>
             </org>
             
-            <org xml:id="org_101003">
+           <!-- <org xml:id="org_101003">
                <orgName type="index">Bromsgrove, parish church</orgName>
                <orgName type="formInDocument">church of Bremesgrave</orgName>
                <note type="charter">MS. Ch. Worcs. 42b</note>
-            </org>
+            </org>-->
             <org xml:id="org_101004">
                <orgName type="index">Daventry, priory</orgName>
                <orgName type="formInDocument">convent of Daventry</orgName>
@@ -1648,6 +3972,277 @@
                <note type="charter">MS. Ch. Worcs. 17</note>
                <note type="charter">MS. Ch. Worcs. 18</note>
                <note type="charter">MS. Ch. Worcs. 78</note>
+            </org>
+            
+            <org xml:id="org_101010">
+               <orgName>Gloucester, Benedictine abbey of St Peter</orgName>
+            </org>
+            
+            <org xml:id="org_101011">
+               <orgName>Lanthony, Benedictine priory</orgName><!-- CHECK: which one? -->
+            </org>
+            
+            <!-- Sussex -->
+            
+            <org xml:id="org_102001">
+               <orgName type="index">Robertsbridge, Cistercian abbey</orgName>
+               <orgName type="formInDocument">abbey and convent of Robert's Bridge</orgName>
+               <orgName type="formInDocument">Robert's Bridge</orgName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.wikidata.org/wiki/Q2159660</idno>
+               <bibl>'Houses of Cistercian monks: Abbey of Robertsbridge', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 71-74. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp71-74 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 55</note>
+               <note type="charter">MS. Ch. Sussex 171</note>
+            </org>
+            
+            <org xml:id="org_102002">
+               <orgName type="index">Bayham, Premonstratensian abbey</orgName>
+               <orgName type="formInDocument">abbey of Begham</orgName>
+               <orgName type="formInDocument">abbot and convent of Beggeham</orgName>
+               <orgName type="formInDocument">abbot and canons of St. Mary, Begeham</orgName>
+               <orgName type="formInDocument">abbot and convent of Beigham</orgName>
+               <orgName type="formInDocument">abbot and convent of Begeham</orgName>
+               <orgName type="formInDocument">abbot and convent of Begham</orgName>
+               <orgName type="formInDocument">abbot and convent of Beigham</orgName>
+               <orgName type="formInDocument">convent of Begham</orgName>
+               <orgName type="formInDocument">convent of Beghame</orgName>
+               <orgName type="formInDocument">convent of Beigham</orgName>
+               <orgName type="formInDocument">the abbot and convent of Beigham</orgName>
+               <orgName type="formInDocument">St. Mary of Begeham</orgName>
+               <orgName type="formInDocument">St. Mary of Begham</orgName>
+               <orgName type="formInDocument">St. Mary of Beigham</orgName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>http://viaf.org/viaf/130259128</idno>
+               <bibl>'Houses of Premonstratensian canons: Abbey of Bayham', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 86-89. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp86-89 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 22b</note>
+               <note type="charter">MS. Ch. Sussex 31</note>
+               <note type="charter">MS. Ch. Sussex 24</note>
+               <note type="charter">MS. Ch. Sussex 27</note>
+               <note type="charter">MS. Ch. Sussex 18</note>
+               <note type="charter">MS. Ch. Sussex 30</note>
+               <note type="charter">MS. Ch. Sussex 8</note>
+               <note type="charter">MS. Ch. Sussex 25</note>
+               <note type="charter">MS. Ch. Sussex 21</note>
+               <note type="charter">MS. Ch. Sussex 26</note>
+               <note type="charter">MS. Ch. Sussex 11</note>
+               <note type="charter">MS. Ch. Sussex 5</note>
+               <note type="charter">MS. Ch. Sussex 10</note>
+               <note type="charter">MS. Rolls Sussex 4</note>
+               <note type="charter">MS. Ch. Sussex 15</note>
+               <note type="charter">MS. Ch. Sussex 1</note>
+               <note type="charter">MS. Ch. Sussex 17</note>
+            </org>
+            
+            <org xml:id="org_102003">
+               <orgName type="index">Otham, Praemonstratensian abbey</orgName>
+               <orgName type="formInDocument">canons of Otteham</orgName>
+               <orgName type="formInDocument">abbey of Otteham</orgName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.wikidata.org/wiki/Q7108550</idno>
+               <bibl>'Houses of Premonstratensian canons: Abbey of Otham', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), p. 86. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/p86 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 7a</note>
+               <note type="charter">MS. Ch. Sussex 1</note>
+               <note type="charter">MS. Ch. Sussex 2</note>
+            </org>
+            
+            
+            <org xml:id="org_102005">
+               <!-- check? -->
+               <orgName type="index">Brockley ('Wellesford'), Premonstratensian priory</orgName>
+               <orgName type="formInDocument">canons of Wellesford</orgName>
+               <region type="county" key="place_000031">Kent</region>
+               <!-- <idno>https://www.visionofbritain.org.uk/place/20690</idno>
+               <bibl>GB Historical GIS / University of Portsmouth, History of Brockley, in Lewisham and Kent | Map and description, A Vision of Britain through Time. URL: http://www.visionofbritain.org.uk/place/20690 [Date accessed: 14th December 2020].</bibl>-->
+               <bibl>'Houses of Premonstratensian canons: Abbey of Bayham', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 86-89. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp86-89 [accessed 20 January 2021].</bibl>
+               <!--  Sir Robert de Turnham ... Hither [Bayham], too, Sir Robert brought the canons of the small Premonstratensian house of Brockley in Deptford, -->
+               <note type="charter">MS. Ch. Sussex 3</note>
+            </org>
+            
+            <org xml:id="org_102006">
+               <orgName type="index">Cardinal College, Oxford</orgName>
+               <!--on suppressed St Frideswide's lands, first as 1524-1529 Cardinal College > 1532 as King Henry VIII's College > 1545 as Christ Church College > how do we signify the development of names?-->
+               <orgName type="formInDocument">Cardinal College, Oxford</orgName>
+               <region type="county" key="place_000065">Oxfordshire</region>
+               <idno>http://viaf.org/viaf/595150172698600180004</idno>
+               <bibl>'Christ Church', in A History of the County of Oxford: Volume 3, the University of Oxford, ed. H E Salter and Mary D Lobel (London, 1954), pp. 228-238. British History Online http://www.british-history.ac.uk/vch/oxon/vol3/pp228-238 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 79</note>
+            </org>
+            
+            <org xml:id="org_102007">
+               <orgName type="index">Rochester, Benedictine cathedral priory</orgName>
+               <orgName type="formInDocument">cathedral church of Rochester</orgName>
+               <idno>https://viaf.org/viaf/173408842/</idno>
+               <idno>https://www.wikidata.org/wiki/Q2635720</idno>
+               <bibl>'Houses of Benedictine monks: The cathedral priory of St Andrew, Rochester', in A History of the County of Kent: Volume 2, ed. William Page (London, 1926), pp. 121-126. British History Online http://www.british-history.ac.uk/vch/kent/vol2/pp121-126 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 166</note>
+            </org>
+            
+         
+            
+            <org xml:id="org_102010">
+               <orgName type="index">Battle, Benedictine abbey</orgName>
+               <orgName type="formInDocument">convent of Battle</orgName>
+               <orgName type="formInDocument">convent of Battle</orgName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>http://viaf.org/viaf/128978416</idno>
+               <idno>https://www.wikidata.org/wiki/Q810981</idno>
+               <bibl>'Houses of Benedictine monks: Abbey of Battle', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 52-56. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp52-56 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 77</note>
+               <note type="charter">MS. Ch. Sussex 78</note>
+            </org>
+            
+            <org xml:id="org_102011">
+               <orgName type="index">Poling, Preceptory of the Knights Hospitallers</orgName>
+               <orgName type="formInDocument">hospital of St. John of Jerusalem</orgName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.wikidata.org/wiki/Q7209767</idno>
+               <bibl>'Houses of Knights Hospitaller: Preceptory of Poling', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), p. 93. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/p93 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 164</note>
+            </org>
+            
+            <org xml:id="org_102012">
+               <orgName type="index">Lewes, Cluniac priory</orgName>
+               <orgName type="formInDocument">monks of St. Pancras</orgName>
+               <region type="parish" key="place_102097">Lewes</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>http://viaf.org/viaf/312953155</idno>
+               <idno>https://www.wikidata.org/wiki/Q6536133</idno>
+               <bibl>'Houses of Cluniac monks: Priory of Lewes', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 64-71. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp64-71 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 165</note>
+            </org>
+            
+          
+            <org xml:id="org_102014">
+               <orgName type="index">Hardham, Augustinian priory</orgName>
+               <orgName type="formInDocument">prior and convent of Heryngham</orgName>
+               <region type="parish" key="place_102073">Hardham</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.wikidata.org/wiki/Q5655956</idno>
+               <bibl>'Houses of Augustinian canons: Priory of Hardham', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 74-75. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp74-75 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 104</note>
+            </org>
+            
+            <org xml:id="org_102015">
+               <orgName type="index">Michelham, Augustinian priory</orgName>
+               <orgName type="formInDocument">prior and convent of Michelham</orgName>
+               <orgName type="formInDocument">convent</orgName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>http://viaf.org/viaf/141171583</idno>
+               <bibl>'Houses of Augustinian canons: Priory of Michelham', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 77-80. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp77-80 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 21</note>
+               <note type="charter">MS. Ch. Sussex 166</note>
+               <note type="charter">MS. Ch. Sussex 167</note>
+            </org>
+            
+            <org xml:id="org_102016">
+               <orgName type="index">Leeds, Kent, Austin priory</orgName>
+               <orgName type="formInDocument">prior and convent of Ledes</orgName>
+               <region type="county" key="place_000031">Kent</region>
+               <idno>https://www.wikidata.org/wiki/Q6516072</idno>
+               <bibl>'Houses of Austin canons: The priory of Leeds', in A History of the County of Kent: Volume 2, ed. William Page (London, 1926), pp. 162-165. British History Online http://www.british-history.ac.uk/vch/kent/vol2/pp162-165 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 171</note>
+            </org>
+            
+            <!-- 
+              misunderstanding
+              <org xml:id="org_102017">
+               <orgName type="index">Convent of Luke Shorte [unidentified]</orgName>
+               <orgName type="formInDocument">prior and convent of Luke Shorte</orgName>
+               <note type="charter">MS. Ch. Sussex 76</note>
+            </org>
+            -->
+            
+            <org xml:id="org_102019">
+               <orgName type="index">Pynham ('de Calceto'), Augustinian priory of Saint Bartholemew and Saint Thomas of Canterbury</orgName> 
+               <!--a.k.a. The Priory Church of Saint Bartholemew, Pynham;  The Priory Church of Saint Bartholemew and Saint Thomas of Canterbury, Pynham; Pynham Priory; Pyneham Priory; Priory de Calceto (Priory of the Causeway)-->
+               <orgName type="formInDocument">prior and convent of St. Bartholomew, Arundel</orgName>
+               <orgName type="formInDocument">prior and convent of the Causeway</orgName>
+               <orgName type="formInDocument">prior of St. Bartholomew of the Causeway, Arundel, and the convent of the same</orgName>
+               <orgName type="formInDocument">St. Bartholomew of the Causeway</orgName>
+               <orgName type="formInDocument">St. Bartholomew 'de Calceto, Arundel', and the convent of the same</orgName>
+               <orgName type="formInDocument">St. Bartholomew 'de Calceto, Arundel'</orgName>
+               <orgName type="formInDocument">convent of the Causeway, Arundel</orgName>
+               <orgName type="formInDocument">prior and canons of the Causeway, Arundel</orgName>
+               <orgName type="formInDocument">St. Bartholomew 'of the Causeway, Arundel', and the prior and canons therein</orgName>
+               <orgName type="formInDocument">St. Bartholomew .... near the Causeways of Arundel</orgName>
+               <orgName type="formInDocument">St. Bartholomew of the Causeway, Arundel, and the canons of the same</orgName>
+               <orgName type="formInDocument">St. Bartholomew of the Causeway of Arundel</orgName>
+               <orgName type="formInDocument">St. Bartholomew of the Causeway, and the convent of the same</orgName>
+               <orgName type="formInDocument">St. Bartholomew of the Causeway, Arundel</orgName>
+               <orgName type="formInDocument">St. Bartholomew, 'de Calceto Arundell', and the canons there</orgName>
+               <orgName type="formInDocument">St. Bartholomewof the Causeway, Arundel</orgName>
+               <orgName type="formInDocument">the canons of [St. Bartholomew of the Causeway]</orgName>
+               <orgName type="formInDocument">the canons of the Causeway, Arundel</orgName>
+               <orgName type="formInDocument">canons of the Causeway, near Arundel</orgName>
+               <orgName type="formInDocument">Causeway</orgName>
+               <orgName type="formInDocument">canons of the Causeway</orgName>
+               <orgName type="formInDocument">convent of the Causeway, Arundel</orgName>
+               <region type="parish" key="place_102095">Lyminster</region>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.wikidata.org/wiki/Q5018759</idno>
+               <bibl>'Houses of Augustinian canons: Priory of Pynham', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 80-81. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp80-81 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 60</note>
+               <note type="charter">MS. Ch. Sussex 57</note>
+               <note type="charter">MS. Ch. Sussex 64</note>
+               <note type="charter">MS. Ch. Sussex 50</note>
+               <note type="charter">MS. Ch. Sussex 42</note>
+               <note type="charter">MS. Ch. Sussex 38</note>
+               <note type="charter">MS. Ch. Sussex 68</note>
+               <note type="charter">MS. Ch. Sussex 69</note>
+               <note type="charter">MS. Ch. Sussex 59</note>
+               <note type="charter">MS. Ch. Sussex 43</note>
+               <note type="charter">MS. Ch. Sussex 40</note>
+               <note type="charter">MS. Ch. Sussex 53</note>
+               <note type="charter">MS. Ch. Sussex 55</note>
+               <note type="charter">MS. Ch. Sussex 37</note>
+               <note type="charter">MS. Ch. Sussex 39</note>
+               <note type="charter">MS. Ch. Sussex 46</note>
+               <note type="charter">MS. Ch. Sussex 44a</note>
+               <note type="charter">MS. Ch. Sussex 56</note>
+               <note type="charter">MS. Ch. Sussex 74</note>
+               <note type="charter">MS. Ch. Sussex 35</note>
+               <note type="charter">MS. Ch. Sussex 47</note>
+               <note type="charter">MS. Ch. Sussex 32</note>
+               <note type="charter">MS. Ch. Sussex 45</note>
+               <note type="charter">MS. Ch. Sussex 36</note>
+               <note type="charter">MS. Ch. Sussex 70</note>
+               <note type="charter">MS. Ch. Sussex 33</note>
+               <note type="charter">MS. Ch. Sussex 73</note>
+               <note type="charter">MS. Ch. Sussex 52</note>
+               <note type="charter">MS. Ch. Sussex 71</note>
+               <note type="charter">MS. Ch. Sussex 61</note>
+               <note type="charter">MS. Ch. Sussex 75</note>
+            </org>
+            
+            <org xml:id="org_102020">
+               <orgName type="index">Lyminster, Benedictine nunnery</orgName>
+               <orgName type="formInDocument">the nuns of the monastery of Lenemenstre</orgName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.wikidata.org/wiki/Q6708190</idno>
+               <bibl>'Alien houses: Priory of Lyminster', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), p. 121. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/p121 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 70</note>
+            </org>
+            
+            <org xml:id="org_102021">
+               <orgName type="index">Tortington, Augustinian priory</orgName>
+               <orgName type="formInDocument">TORTINGTON PRIORY</orgName>
+               <region type="county" key="place_000072">Sussex</region>
+               <idno>https://www.wikidata.org/wiki/Q56362405</idno>
+               <bibl>'Houses of Augustinian canons: Priory of Tortington', in A History of the County of Sussex: Volume 2, ed. William Page (London, 1973), pp. 82-83. British History Online http://www.british-history.ac.uk/vch/sussex/vol2/pp82-83 [accessed 14 December 2020].</bibl>
+               <note type="charter">MS. Ch. Sussex 173**</note>
+            </org>
+            
+            <org xml:id="org_102022">
+               <orgName type="index">London, Inner Temple</orgName>
+               <orgName type="formInDocument">the Inner Temple</orgName>
+               <!--Would this be the same as the Temple in London?
+                  <placeName type="borough">The Temple</placeName>
+               <region type="county">Middlesex</placeName>
+               <idno>https://www.genuki.org.uk/big/eng/LND/TheTemple</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/id/53282a40b47fc407a0000017-The+Temple</idno>-->
+               <note type="charter">MS. Ch. Sussex 100</note>
+               <note type="charter">MS. Ch. Sussex 101</note>
+               <note type="charter">MS. Ch. Sussex 253</note>
             </org>
             
          </listOrg>

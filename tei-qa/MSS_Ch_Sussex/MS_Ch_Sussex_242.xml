@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_102173">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Sussex 242</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Sussex_242</idno>
+            <idno type="collection">Sussex</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Sussex_242" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Sussex 242</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <persName>
+                           <forename>John</forename>
+                           <surname>Caryll</surname>
+                        </persName>, <persName>
+                           <forename>John</forename>
+                           <surname>Michell</surname> of <placeName role="person" key="place_102152">Stamerham</placeName>
+                        </persName>,
+                        <persName>
+                           <forename>Richard</forename>
+                           <surname>Michell</surname>
+                        </persName>, and
+                        <persName>
+                           <forename>Richard</forename>
+                           <surname>Foys</surname>
+                        </persName> demise and confirm to
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Fenys</surname>, esq.</persName>,
+                        <persName>
+                           <forename>Edward</forename>
+                           <surname>Lewkenore</surname>, esq.</persName>,
+                        <persName>
+                           <forename>Edward</forename>
+                           <surname>Lewkenore</surname> his son</persName>,
+                        <persName>
+                           <forename>John</forename>
+                           <surname>Bradbrigg</surname>
+                        </persName> and <persName nymRef="Bradbrigg">
+                           <forename>Ann</forename>
+                     his wife</persName>, <persName>
+                           <forename>John</forename> 
+                           <surname>Lee</surname> of
+                        <placeName role="person" key="place_102018">Adyngton</placeName>
+                        </persName>,
+                        <persName>
+                           <forename>Nicholas</forename>
+                           <surname>Lee</surname> his son</persName>, <persName>
+                           <forename>John</forename>
+                           <surname>Ernley</surname>
+                        </persName>, <persName>
+                           <forename>John</forename>
+                           <surname>Goryng</surname>
+                        </persName>, and
+                        <persName>
+                           <forename>Richard</forename>
+                           <surname>Broke</surname>
+                        </persName>, lands and tenements in
+                     <placeName key="place_102148">Slynfold</placeName> called Feldlong, which formerly were
+                        <persName>
+                           <forename>William</forename>
+                           <surname>Bertelote</surname>
+                        </persName>'s. Dated 21 October, <origDate notBefore="1501-08-22" notAfter="1502-08-21">17 Hen. VII</origDate>. 
+                  .</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seals and signatures of the grantors.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="566" to="566">566</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
