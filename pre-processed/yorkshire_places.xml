@@ -58,11 +58,11 @@
             </place>
             
             <place type="manor">
-               <placeName type="index">Bayldon (inidentified)</placeName>
+               <placeName type="index">Baildon</placeName>
                <placeName type="formInDocument">Bayldon</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Otley</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F246429</idno>
                <note type="charter">MS. Ch. Yorks. 128a</note>
                <note type="charter">MS. Ch. Yorks. 228</note>
             </place>
@@ -210,102 +210,104 @@
             </place>
          </listPlace>
          
-         
+         <!--how to mark dioceses?-->
          <listPlace type="diocese">
             <place type="diocese">
-               <placeName type="index"></placeName>
+               <placeName type="index">Diocese of Carlisle</placeName>
                <placeName type="formInDocument">Carlisle</placeName>
-               <region type="county"></region>
-               <idno></idno>
+               <!--<region type="county"></region>-->
+               <idno>https://www.wikidata.org/wiki/Q867646</idno>
                <note type="charter">MS. Ch. Yorks. 260</note>
             </place>
             <place type="diocese">
-               <placeName type="index"></placeName>
+               <placeName type="index">Diocese of Chester</placeName>
                <placeName type="formInDocument">Chester</placeName>
-               <region type="county"></region>
-               <idno></idno>
-               <note type="charter">MS. Ch. Yorks. 24</note>
-               <note type="charter">MS. Ch. Yorks. 28</note>
+               <!--<region type="county"></region>-->
+               <idno>https://www.wikidata.org/wiki/Q543301</idno>
                <note type="charter">MS. Ch. Yorks. 315b</note>
             </place>
             <place type="diocese">
-               <placeName type="index"></placeName>
-               <placeName type="formInDocument">Coventry</placeName>
-               <region type="county"></region>
-               <idno></idno>
-               <note type="charter">MS. Douce Ch. 69.</note>
-            </place>
-            <place type="diocese">
-               <placeName type="index"></placeName>
+               <placeName type="index">Diocese of Coventry and Lichfield</placeName>
                <placeName type="formInDocument">Coventry and Lichfield</placeName>
-               <region type="county"></region>
-               <idno></idno>
+               <placeName type="formInDocument">Coventry</placeName>
+               <!--<region type="county"></region>At this stage it also covered Derbyshire and most of Warwickshire-->
+               <idno>https://www.wikidata.org/wiki/Q3028579</idno>
                <note type="charter">MS. Ch. Yorks. 108</note>
+               <note type="charter">MS. Douce Ch. 69</note>
             </place>
             <place type="diocese">
-               <placeName type="index"></placeName>
+               <placeName type="index">Diocese of Durham</placeName>
                <placeName type="formInDocument">Durham</placeName>
-               <region type="county"></region>
-               <idno></idno>
+               <region type="county">Durham</region>
+               <idno>https://www.wikidata.org/wiki/Q3028559</idno>
                <note type="charter">MS. Ch. Yorks. 86</note>
                <note type="charter">MS. Ch. Yorks. 153</note>
                <note type="charter">MS. Ch. Yorks. 330</note>
             </place>
             <place type="diocese">
-               <placeName type="index"></placeName>
+               <placeName type="index">Diocese of Glasgow</placeName>
                <placeName type="formInDocument">Glasgow</placeName>
-               <region type="county"></region>
-               <idno></idno>
+               <idno>https://www.wikidata.org/wiki/Q15187215</idno>
                <note type="charter">MS. Douce Ch. 57</note>
             </place>
          </listPlace>
          <listPlace type="ardeaconry">
             <place type="ardeaconry">
+               <placeName type="index">Archdeaconry of Derby</placeName>
                <placeName type="formInDocument">Derby</placeName>
-               <region type="county"></region>
-               <idno></idno>
-               <note type="charter">MS. Douce Ch. 69.</note>
+               <region type="county">Derbyshire</region>
+               <idno>https://www.wikidata.org/wiki/Q11722487</idno>
+               <note type="charter">MS. Douce Ch. 69</note>
             </place>
          </listPlace>
          <listPlace type="archdeaconry">
             <place type="archdeaconry">
+               <placeName type="index">Archdeaconry of Richmond</placeName>
                <placeName type="formInDocument">Richmond</placeName>
-               <region type="county"></region>
-               <idno></idno>
+               <!--<region type="county"></region>Originally it comprised the western parts of Yorkshire and Lancashire, as well as the greater portion of the counties of Cumberland and Westmorland-->
+               <idno>https://www.wikidata.org/wiki/Q4785797</idno>
                <note type="charter">MS. Ch. Yorks. 46</note>
                <note type="charter">MS. Douce Ch. 1</note>
             </place>
          </listPlace>
+         
+         <!--how to mark towns?-->
          <listPlace type="street">
             <place type="street">
-               <placeName type="formInDocument">Bleistreta</placeName><!-- street in York-->
-               <region type="parish"></region>
-               <region type="county">Yorkshire, Ainsty</region>
-               <idno></idno>
+               <!--<placeName type="index">Blake street</placeName>-->
+               <placeName type="formInDocument">Bleistreta</placeName><!-- street in York, perhaps Blake street?-->
+               <!--<region type="parish"></region>-->
+               <region type="county">Yorkshire, East Riding</region>
+               <!--county? genuki places York in The Ainsty, EPNS places it in East Riding-->
                <note type="charter">MS. Ch. Yorks. 106a</note>
             </place>
             <place type="street">
-               <placeName type="formInDocument">Hertergate street</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <placeName type="index">Hartergate</placeName>
+               <placeName type="formInDocument">Hertergate street</placeName> <!--street in York-->
+               <!--<region type="parish"></region>-->
+               <region type="county">Yorkshire, East Riding</region>
+               <!--county? genuki places York in The Ainsty, EPNS places it in East Riding-->
+               <bibl>'Anglo-Scandinavian antiquities', in A History of the County of York: the City of York, ed. P M Tillott (London, 1961), pp. 332-336. British History Online http://www.british-history.ac.uk/vch/yorks/city-of-york/pp332-336 [accessed 10 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 322</note>
             </place>
             <place type="street">
+               <placeName type="index">Kirkegate</placeName>
                <placeName type="formInDocument">Kirkegate</placeName>
                <region type="parish">Dunscroft</region>
                <region type="county">Yorkshire, West Riding</region>
                <note type="charter">MS. Ch. Yorks. 136</note>
             </place>
             <place type="street">
-               <placeName type="index">Kirkgate</placeName>
+               <placeName type="index">Kirkgate</placeName><!-- street in York -->
                <placeName type="formInDocument">Kyrkgate</placeName>
                <!-- not sure of the parish, editor has placed this in York
-                  <region type="parish">York</region>-->
-               <region type="county">Yorkshire, Ainsty</region>
+                  <region type="parish"></region>-->
+               <region type="county">Yorkshire, East Riding</region>
+               <!--county? genuki places York in The Ainsty, EPNS places it in East Riding-->
                <note type="charter">MS. Ch. Yorks. 78</note>
             </place>
             <place type="street">
+               <placeName type="index">Briggate</placeName>
                <placeName type="formInDocument">Briggate</placeName>
                <region type="parish">Leeds</region>
                <region type="county">Yorkshire, West Riding</region>
@@ -313,9 +315,11 @@
                <note type="charter">MS. Ch. Yorks. 187</note>
             </place>
             <place type="street">
+               <placeName type="index">Walmgate</placeName>
                <placeName type="formInDocument">Walmegate</placeName><!-- street in York -->
                <region type="parish">York St Margaret</region>
-               <region type="county">Yorkshire, Ainsty</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <!--county? genuki places York in The Ainsty, EPNS places it in East Riding-->
                <idno>https://www.genuki.org.uk/big/eng/YKS/ARY/YorkStMargaret</idno>
                <note type="charter">MS. Ch. Yorks. 80</note>
             </place>
@@ -326,6 +330,7 @@
          <listPlace type="archdiocese">
             <place type="archdiocese">
                <placeName type="formInDocument">York</placeName>
+               <!--<idno></idno>-->
                <region type="county">Yorkshire</region>
                <note type="charter">MS. Ch. Yorks. 109</note>
                <note type="charter">MS. Ch. Yorks. 46</note>
@@ -355,19 +360,23 @@
          </listPlace>
          <listPlace type="earldom">
             <place type="earldom">
+               <placeName type="index">Earldom of Lincoln</placeName>
                <placeName type="formInDocument">Lincoln</placeName>
+               <idno>https://www.wikidata.org/wiki/Q1277346</idno>
                <note type="charter">MS. Ch. Yorks. 24</note>
                <note type="charter">MS. Ch. Yorks. 28</note>
             </place>
             <place type="earldom">
+               <placeName type="index">Earldom of Surrey</placeName>
                <placeName type="formInDocument">Surrey</placeName>
+               <idno>https://www.wikidata.org/wiki/Q1277428</idno>
                <note type="charter">MS. Ch. Yorks. 313</note>
             </place>
          </listPlace>
          
          <listPlace>
             <place type="county">
-               <placeName type="index">Westmorland (county)</placeName>
+               <placeName type="index">Westmorland</placeName>
                <placeName type="formInDocument">Westmorland</placeName>
                <placeName type="formInDocument">Westmerland</placeName>
                <region type="county">Westmorland</region>
@@ -412,18 +421,26 @@
         
         
          <listPlace type="duchy">
-            <place type="dukedom">
+            <place type="duchy">
+               <placeName type="index">Duchy of Lancaster</placeName>
                <placeName type="formInDocument">Lancaster</placeName>
+               <idno>https://www.wikidata.org/wiki/Q2914544</idno>
                <note type="charter">MS. Rolls Yorks. 2</note>
             </place>
             <place type="duchy">
+               <placeName type="index">Duchy of Newcastle</placeName>
                <placeName type="formInDocument">Newcastle</placeName>
+               <idno>https://www.wikidata.org/wiki/Q2411815</idno>
                <note type="charter">MS. Ch. Yorks. 326</note>
             </place>
          </listPlace>
+         
+         
          <listPlace type="riding">
             <place type="riding">
+               <!--<placeName type="index"></placeName>-->
                <placeName type="formInDocument">Riding of York</placeName>
+               <!--not sure if this means one of the three ridings, or Ainsty of York: https://epns.nottingham.ac.uk/browse/id/53288221b47fc40c8100602b-Ainsty+Wapentake-->
                <note type="charter">MS. Ch. Yorks. 326</note>
             </place>
          </listPlace>
@@ -435,8 +452,10 @@
                <note type="charter">MS. Rolls Yorks. 1</note>
             </place>
             <place type="wapentake">
+               <placeName type="index">Skyrack Wapentake</placeName>
                <placeName type="formInDocument">wapentake of Skyracke</placeName>
                <placeName type="formInDocument">wapentake of Skyrak</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/id/53288221b47fc40c81006032-Skyrack+Wapentake</idno>
                <note type="charter">MS. Rolls Yorks. 11</note>
                <note type="charter">MS. Rolls Yorks. 12</note>
             </place>
@@ -469,109 +488,9 @@
             </place>
          </listPlace>
          
-         <listPlace type="minor">
-            <place type="minor">
-               <placeName type="formInDocument">Bulloko</placeName>
-               <note type="charter">MS. Ch. Yorks. 175</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Coltundene</placeName>
-               <note type="charter">MS. Ch. Yorks. 94</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Halifaxbroych</placeName>
-               <note type="charter">MS. Ch. Yorks. 152</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Horonefthorp</placeName>
-               <note type="charter">MS. Ch. Yorks. 95</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">le Croftes</placeName>
-               <note type="charter">MS. Ch. Yorks. 210</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Holde Milline</placeName>
-               <note type="charter">MS. Ch. Yorks. 160a</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">le Letes</placeName>
-               <note type="charter">MS. Ch. Yorks. 203</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">le Romondflethe</placeName>
-               <note type="charter">MS. Ch. Yorks. 146</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">le Serlerode</placeName>
-               <note type="charter">MS. Ch. Yorks. 249a</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Le Wellesic</placeName>
-               <note type="charter">MS. Ch. Yorks. 14</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Lehaes</placeName>
-               <note type="charter">MS. Ch. Yorks. 206</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Mooredoles</placeName>
-               <note type="charter">MS. Ch. Yorks. 113</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Morgate</placeName>
-               <note type="charter">MS. Ch. Yorks. 152</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Moundesderhall</placeName>
-               <note type="charter">MS. Ch. Yorks. 295</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Mudebech</placeName>
-               <note type="charter">MS. Douce Ch. 1</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">North Croftes</placeName>
-               <note type="charter">MS. Ch. Yorks. 219</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Oxclose</placeName>
-               <note type="charter">MS. Ch. Yorks. 185</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Parke</placeName>
-               <note type="charter">MS. Ch. Yorks. 212</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Parkehyenge</placeName>
-               <note type="charter">MS. Ch. Yorks. 204</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Soldiflat</placeName>
-               <note type="charter">MS. Ch. Yorks. 305</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">StokcroftStokcroft</placeName>
-               <note type="charter">MS. Ch. Yorks. 101</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Stonirode</placeName>
-               <note type="charter">MS. Ch. Yorks. 151</note>
-               <note type="charter">MS. Ch. Yorks. 150</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Storres</placeName>
-               <note type="charter">MS. Ch. Yorks. 244</note>
-            </place>
-            <place type="minor">
-               <placeName type="formInDocument">Suthwod</placeName>
-               <note type="charter">MS. Ch. Yorks. 73</note>
-            </place>
-         </listPlace>
-         
          <listPlace type="river">
             <place type="river">
-               <placeName type=" index">river Ouse</placeName>
+               <placeName type="index">river Ouse</placeName>
                <placeName type="formInDocument">Ouse</placeName>
                <note type="charter">MS. Ch. Yorks. 126b</note>
             </place>
@@ -581,8 +500,8 @@
                <note type="charter">MS. Ch. Yorks. 57</note>
             </place>
          </listPlace>
-         
-         
+
+
          <listPlace type="place">
             <place type="place">
                <placeName type="index">Milline More</placeName>
@@ -2525,24 +2444,20 @@
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Hickleton</idno>
                <note type="charter">MS. Ch. Yorks. 45</note>
             </place>
-            check these
-            <place type="place">
-               <placeName type="formInDocument">Ingelbi</placeName><!-- check if all Ingelby are the same place -->
-               <placeName type="formInDocument">Ingelby</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
-               <note type="charter">MS. Ch. Yorks. 163</note>
-               <note type="charter">MS. Ch. Yorks. 164</note>
-               <note type="charter">MS. Ch. Yorks. 165</note>
-               <note type="charter">MS. Ch. Yorks. 162</note>
-            </place>
+            
             <place type="place">
                <placeName type="index">Ingleby Greenhow</placeName>
                <placeName type="formInDocument">Ingelby near Grenehou</placeName>
+               <placeName type="formInDocument">Ingelby, near Grenhou</placeName>
                <placeName type="formInDocument">Ingleby near Gronehowe in Clyveland</placeName>
                <placeName type="formInDocument">Ingleby, in Clyveland near Grenehowe</placeName>
                <placeName type="formInDocument">Ingleby</placeName>
+               <placeName type="formInDocument">Inglebie</placeName>
+               <placeName type="formInDocument">Inggelby</placeName>
+               <placeName type="formInDocument">Ingilby</placeName>
+               <placeName type="formInDocument">Ingelby</placeName>
+               <placeName type="formInDocument">Ingelbi</placeName> 
+               <placeName type="formInDocument">Ingelby</placeName>
                <region type="parish">Ingleby Greenhow</region>
                <region type="county">Yorkshire, North Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Ingleby+Greenhow/53286b32b47fc40bc60004df-Ingleby+Greenhow</idno>
@@ -2550,41 +2465,16 @@
                <note type="charter">MS. Ch. Yorks. 163</note>
                <note type="charter">MS. Ch. Yorks. 168</note>
                <note type="charter">MS. Ch. Yorks. 167</note>
-            </place>
-            <place type="place">
-               <placeName type="formInDocument">Inggelby</placeName>
-               <placeName type="formInDocument">Ingilby</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <note type="charter">MS. Ch. Yorks. 36</note>
+               <note type="charter">MS. Ch. Yorks. 337</note>
                <note type="charter">MS. Ch. Yorks. 179</note>
                <note type="charter">MS. Ch. Yorks. 173</note>
                <note type="charter">MS. Ch. Yorks. 174</note>
+               <note type="charter">MS. Ch. Yorks. 162</note>
+               <note type="charter">MS. Ch. Yorks. 164</note>
+               <note type="charter">MS. Ch. Yorks. 165</note>
             </place>
-            <place type="place">
-               <placeName type="formInDocument">Inglebie</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
-               <note type="charter">MS. Ch. Yorks. 337</note>
-            </place>
-            <place type="place">
-               <placeName type="formInDocument">Ingleby</placeName>
-               <note type="charter">MS. Ch. Yorks. 168</note>
-               <note type="charter">MS. Ch. Yorks. 36</note>
-            </place>
-          
-            <place type="place">
-               <placeName type="index">Yarm</placeName>
-               <placeName type="formInDocument">Jarum</placeName>
-               <region type="parish">Yarm</region>
-               <region type="county">Yorkshire, North Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Yarm/53286b33b47fc40bc60005f8-Yarm</idno>
-               <bibl>'Parishes: Yarm', in A History of the County of York North Riding: Volume 2, ed. William Page (London, 1923), pp. 319-326. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol2/pp319-326 [accessed 28 January 2021].</bibl>
-               <note type="charter">MS. Ch. Yorks. 56</note>
-               <note type="charter">MS. Ch. Yorks. 57</note>
-            </place>
-            
+           
             <place type="place">
                <placeName type="index">Kayley Hall</placeName>
                <placeName type="formInDocument">Kaylyey</placeName>
@@ -4193,26 +4083,36 @@
                <note type="charter">MS. Ch. Yorks. 91a</note>
             </place>
             
-          ?  <place type="place">
+            <place type="place">
+               <placeName type="index">Thorpe</placeName>
                <placeName type="formInDocument">Thorp near Newerk</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <region type="parish">Thorpe</region>
+               <region type="county">Nottinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Nottinghamshire/Thorpe/53286c06b47fc40bd4000907-Thorpe</idno>
+               <idno>https://www.genuki.org.uk/big/eng/NTT/ThorpebyNewark</idno>
                <note type="charter">MS. Ch. Yorks. 311c</note>
             </place>
             
-            ?<place type="place">
+            <place type="place">
+               <placeName type="index">Thorpe On The Hill</placeName>
                <placeName type="formInDocument">Thorp on the Hill</placeName>
                <placeName type="formInDocument">Thorpe in the Hill</placeName>
+               <region type="parish">Rothwell</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Rothwell/5328827cb47fc40c81006230-Thorpe+on+the+Hill</idno>
+               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Rothwell</idno>
                <note type="charter">MS. Ch. Yorks. 113</note>
                <note type="charter">MS. Ch. Yorks. 249a</note>
             </place>
            
             <place type="place">
+               <placeName type="index">Tunstall</placeName>
                <placeName type="formInDocument">Tonstale</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <region type="parish">Tunstall</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Tunstall/5328549ab47fc40a4d000566-Tunstall</idno>
+               <idno>https://www.genuki.org.uk/big/eng/YKS/ERY/Tunstall</idno>
+               <bibl>K J Allison, A P Baggs, T N Cooper, C Davidson-Cragoe and J Walker, 'Middle division: Tunstall', in A History of the County of York East Riding: Volume 7, Holderness Wapentake, Middle and North Divisions, ed. G H R Kent (London, 2002), pp. 172-181. British History Online http://www.british-history.ac.uk/vch/yorks/east/vol7/pp172-181 [accessed 10 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 139</note>
             </place>
             
@@ -4497,7 +4397,7 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Woodhouse or Woodsome Hall</placeName>
+               <placeName type="index">Whudehuse [unidentified]</placeName>
                <placeName type="formInDocument">Whudehuse</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>
@@ -4508,7 +4408,7 @@
                <idno></idno>-->
                <note type="charter">MS. Ch. Yorks. 141</note>
             </place>
-            cont here
+            
             <place type="place">
                <placeName type="index">Wykeham</placeName>
                <placeName type="formInDocument">Wikham</placeName>
@@ -4528,10 +4428,11 @@
             </place>
             
             <place type="place">
+               <placeName type="index">Wombleton</placeName>
                <placeName type="formInDocument">Wimbelt[on]</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <region type="parish">Kirkdale</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Kirkdale/53286b32b47fc40bc600050b-Wombleton</idno>
                <note type="charter">MS. Ch. Yorks. 30</note>
             </place>
             
@@ -4545,47 +4446,57 @@
             </place>
             
             <place type="place">
+               <placeName type="index">New Windsor and Old Windsor</placeName>
                <placeName type="formInDocument">Windlẽs (Windsor)</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <region type="parish">New Windsor and Old Windsor</region>
+               <region type="county">Berkshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Berkshire/New+and+Old+Windsor/53282e4fb47fc407ba001b83-New+Windsor+and+Old+Windsor</idno>
                <note type="charter">MS. Douce Ch. 25.</note>
             </place>
             
             <place type="place">
+               <placeName type="index">Wentworth</placeName>
                <placeName type="formInDocument">Wintewrh</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <placeName type="formInDocument">Wyntworth</placeName>
+               <placeName type="formInDocument">Wyntewrthe</placeName>
+               <region type="parish">Wath upon Dearne</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Wath+upon+Dearne/5328827cb47fc40c8100629e-Wentworth</idno>
+               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/WathUponDearne/more</idno>
                <note type="charter">MS. Ch. Yorks. 43</note>
+               <note type="charter">MS. Ch. Yorks. 41</note>
+               <note type="charter">MS. Ch. Yorks. 315a</note>
             </place>
             
             <place type="place">
+               <placeName type="index">Worsborough</placeName>
                <placeName type="formInDocument">Wirkesburg</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <region type="parish">Darfield</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Darfield/5328827bb47fc40c810060e1-Worsborough</idno>
+               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Darfield/more</idno>
                <note type="charter">MS. Ch. Yorks. 44a</note>
             </place>
             
             <place type="place">
+               <placeName type="index">Wrangbrook</placeName>
                <placeName type="formInDocument">Wrangbrokeve</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <region type="parish">South Kirkby</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/South+Kirkby/53288204b47fc40c810056e4-Wrangbrook</idno>
+               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/SouthKirkby</idno>
                <note type="charter">MS. Ch. Yorks. 72</note>
             </place>
             
             <place type="place">
+               <placeName type="index">Wressle</placeName>
                <placeName type="formInDocument">Wresile</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <region type="parish">Wressle</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <idno>https://www.genuki.org.uk/big/eng/YKS/ERY/Wressle</idno>
                <note type="charter">MS. Ch. Yorks. 321b </note>
             </place>
-            <place type="place">
-              
-            </place>
+ 
             <place type="place">
                <placeName type="index">Wykeham</placeName>
                <placeName type="formInDocument">Wycom</placeName>
@@ -4598,24 +4509,14 @@
             </place>
            
             <place type="place">
+               <placeName type="index">Wykeham</placeName>
                <placeName type="formInDocument">Wykham</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <region type="parish">Wykeham</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Wykeham/53286b33b47fc40bc60005f7-Wykeham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/Wykeham</idno>
                <note type="charter">MS. Ch. Yorks. 288</note>
                <note type="charter">MS. Ch. Yorks. 290</note>
-            </place>
-            <place type="place">
-              
-            </place>
-            <place type="place">
-               <placeName type="formInDocument">Wyntworth</placeName>
-               <placeName type="formInDocument">Wyntewrthe</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
-               <note type="charter">MS. Ch. Yorks. 41</note>
-               <note type="charter">MS. Ch. Yorks. 315a</note>
             </place>
             
             <place type="place">
@@ -4628,24 +4529,34 @@
             </place>
             
             <place type="place">
-               <placeName type="formInDocument">Yaorm</placeName><!-- same as Jarum above -->
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
-               <note type="charter">MS. Ch. Yorks. 321c </note>
+               <placeName type="index">Yarm</placeName>
+               <placeName type="formInDocument">Yarom</placeName><!-- same as Jarum above -->
+               <placeName type="formInDocument">Jarum</placeName>
+               <region type="parish">Yarm</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Yarm/53286b33b47fc40bc60005f8-Yarm</idno>
+               <bibl>'Parishes: Yarm', in A History of the County of York North Riding: Volume 2, ed. William Page (London, 1923), pp. 319-326. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol2/pp319-326 [accessed 28 January 2021].</bibl>
+               <note type="charter">MS. Ch. Yorks. 56</note>
+               <note type="charter">MS. Ch. Yorks. 57</note>
+               <note type="charter">MS. Ch. Yorks. 321c</note>
             </place>
+            
             <place type="place">
+               <placeName type="index">Ychesty [unidentified]</placeName>
                <placeName type="formInDocument">Ychesty</placeName>
-               <region type="parish"></region>
+               <!--<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>
+               <idno></idno>-->
                <note type="charter">MS. Ch. Yorks. 96</note>
             </place>
+            
             <place type="place">
+               <placeName type="index">Yeadon</placeName>
                <placeName type="formInDocument">Yedon</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <region type="parish">Guiseley</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Guiseley/5328827bb47fc40c81006134-Yeadon</idno>
+               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Guiseley/more</idno>
                <note type="charter">MS. Ch. Yorks. 27</note>
                <note type="charter">MS. Ch. Yorks. 280</note>
             </place>
@@ -4661,9 +4572,10 @@
             <place type="place">
                <placeName type="index">York</placeName>
                <placeName type="formInDocument">York</placeName>
-               <region type="parish"></region>
-               <region type="county">Yorkshire</region>
-               <idno></idno>
+               <region type="county">Yorkshire, East Riding</region>
+               <!--county? genuki places York in The Ainsty, EPNS places it in East Riding-->
+               <idno>https://epns.nottingham.ac.uk/browse/id/53285444b47fc40a4d000001-York</idno>
+               <idno>https://www.genuki.org.uk/big/eng/YKS/ARY/York</idno>
                <note type="charter">MS. Ch. Yorks. 109</note>
                <note type="charter">MS. Ch. Yorks. 46</note>
                <note type="charter">MS. Ch. Yorks. 344</note>
@@ -4689,13 +4601,14 @@
                <note type="charter">MS. Rolls Yorks. 14</note>
                <note type="charter">MS. Rolls Yorks. 15</note>
             </place>
-            
          </listPlace>
-         
-         <!--most useful to link to VIAF where possible, Wikidata if the org isn't in VIAF. For religious houses a reference to VCH might be useful too-->
+          
+         <!--most useful to link to VIAF where possible, 
+            Wikidata if the org isn't in VIAF. 
+            For religious houses a reference to VCH might be useful too-->
          <listOrg>
             <org>
-               <orgName type="index">Kirkstall abbey</orgName>
+               <orgName type="index">Kirkstall, Cistercian abbey</orgName>
                <orgName type="formInDocument">abbey of Kirkstall</orgName>
                <orgName type="formInDocument">abbot and convent of Kyrkestall</orgName>
                <orgName type="formInDocument">abbot and convent of Kyrkestall</orgName>
@@ -4720,6 +4633,7 @@
                <orgName type="formInDocument">Kirkstall abbey</orgName>
                <orgName type="formInDocument">Kyrkestall</orgName>
                <idno>http://viaf.org/viaf/142329853</idno>
+               <bibl>'Houses of Cistercian monks: Kirkstall', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 142-146. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp142-146 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 11</note>
                <note type="charter">MS. Ch. Yorks. 28</note>
                <note type="charter">MS. Douce Ch. 47. </note>
@@ -4749,92 +4663,124 @@
                <note type="charter">MS. Ch. Yorks. 27</note>
                <note type="charter">MS. Ch. Yorks. 1</note>
             </org>
+            
             <org>
+               <orgName type="index">Byland, Cistercian abbey</orgName>
                <orgName type="formInDocument">abbey of Byland</orgName>
-               <note type="charter">MS. Douce Ch. 25.</note>
+               <idno>http://viaf.org/viaf/129315259</idno>
+               <idno>http://viaf.org/viaf/173583309</idno>
+               <bibl>'Houses of Cistercian monks: Byland', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 131-134. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp131-134 [accessed 8 February 2021].</bibl>
+               <note type="charter">MS. Douce Ch. 25</note>
             </org>
+            
             <org>
+               <orgName type="index">Rievaulx, Cistercian abbey</orgName>
                <orgName type="formInDocument">abbey of Ryevall</orgName>
                <orgName type="formInDocument">abbot and convent of Rievall</orgName>
                <orgName type="formInDocument">abbey of Rieval</orgName>
                <orgName type="formInDocument">abbot of Rieval</orgName>
                <orgName type="formInDocument">church and monks of St. Mary, Rievall</orgName>
+               <idno>http://viaf.org/viaf/152628819</idno>
+               <bibl>'Houses of Cistercian monks: Rievaulx', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 149-153. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp149-153 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 30</note>
                <note type="charter">MS. Ch. Yorks. 173</note>
                <note type="charter">MS. Ch. Yorks. 31</note>
                <note type="charter">MS. Ch. Yorks. 32</note>
                <note type="charter">MS. Ch. Yorks. 33</note>
             </org>
+            
             <org>
-               <orgName type="formInDocument">abbot and convent of Bardeney, Linc. dioc</orgName>
+               <orgName type="index">Bardney, Benedictine abbey</orgName>
+               <orgName type="formInDocument">abbot and convent of Bardeney</orgName>
+               <idno>http://viaf.org/viaf/239227040</idno>
+               <bibl>'Houses of Benedictine monks: The abbey of Bardney', in A History of the County of Lincoln: Volume 2, ed. William Page (London, 1906), pp. 97-104. British History Online http://www.british-history.ac.uk/vch/lincs/vol2/pp97-104 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 252</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">abbot and convent of Jorevall</orgName>
-               <note type="charter">MS. Douce Ch. 1</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">abbot and convent of Roche ("de Rupe")</orgName>
-               <orgName type="formInDocument">convent of Roche</orgName>
-               <note type="charter">MS. Ch. Yorks. 35</note>
-               <note type="charter">MS. Ch. Yorks. 34</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">abbot and convent of St. Marie of York</orgName>
-               <orgName type="formInDocument">abbot and monks of St. Mary of York</orgName>
-               <note type="charter">MS. Ch. Yorks. 37</note>
-               <note type="charter">MS. Ch. Yorks. 39</note>
-            </org>
-           
-           
-            <org>
-               <orgName type="formInDocument">canons of Bretton</orgName>
-               <note type="charter">MS. Douce Ch. 69.</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">canons of St. Mary, Boelton</orgName>
-               <note type="charter">MS. Ch. Yorks. 106a</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">Carmelite friars</orgName><!-- same as next? -->
-               <note type="charter">MS. Ch. Yorks. 91b</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">Carmelites of York</orgName>
-               <orgName type="formInDocument">Carmelites of York</orgName>
-               <note type="charter">MS. Ch. Yorks. 82</note>
-               <note type="charter">MS. Ch. Yorks. 81</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">chapter at Couele</orgName>
-               <note type="charter">MS. Ch. Yorks. 95</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">church and canons of St. Mary, Boulton</orgName>
-               <note type="charter">MS. Ch. Yorks. 41</note>
-            </org>
-            <org>
-              
             </org>
             
             <org>
+               <orgName type="index">Jervaulx, Cistercian abbey</orgName>
+               <orgName type="formInDocument">abbot and convent of Jorevall</orgName>
+               <idno>http://viaf.org/viaf/129256123</idno>
+               <bibl>'Houses of Cistercian monks: Jervaulx', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 138-142. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp138-142 [accessed 8 February 2021].</bibl>
+               <note type="charter">MS. Douce Ch. 1</note>
+            </org>
+            
+            <org>
+               <orgName type="index">Roche, Cistercian abbey</orgName>
+               <orgName type="formInDocument">abbot and convent of Roche ("de Rupe")</orgName>
+               <orgName type="formInDocument">convent of Roche</orgName>
+               <!--multiple VIAF numbers-->
+               <idno>http://viaf.org/viaf/148073810</idno>
+               <idno>http://viaf.org/viaf/316649944</idno>
+               <idno>http://viaf.org/viaf/5307149108589768780006</idno>
+               <bibl>'Houses of Cistercian monks: Roche', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 153-156. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp153-156 [accessed 8 February 2021].</bibl>
+               <note type="charter">MS. Ch. Yorks. 35</note>
+               <note type="charter">MS. Ch. Yorks. 34</note>
+            </org>
+            
+            <org>
+               <orgName type="index">York, Benedictine abbey of St. Mary</orgName>
+               <!--index name format? now using the same as https://medieval.bodleian.ox.ac.uk/catalog/org_135211427-->
+               <orgName type="formInDocument">abbot and convent of St. Marie of York</orgName>
+               <orgName type="formInDocument">abbot and monks of St. Mary of York</orgName>
+               <orgName type="formInDocument">church of St. Mary of York</orgName>
+               <idno>http://viaf.org/viaf/135211427</idno>
+               <bibl>'Houses of Benedictine monks: Abbey of St Mary, York', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 107-112. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp107-112 [accessed 8 February 2021].</bibl>
+               <note type="charter">MS. Ch. Yorks. 37</note>
+               <note type="charter">MS. Ch. Yorks. 38</note>
+               <note type="charter">MS. Ch. Yorks. 39</note>
+            </org>
+
+            <org>
+               <orgName type="index">Bolton, Austin priory</orgName>
+               <orgName type="formInDocument">canons of St. Mary, Boelton</orgName>
+               <orgName type="formInDocument">church and canons of St. Mary, Boulton</orgName>
+               <idno>http://viaf.org/viaf/9723149068516165730004</idno>
+               <bibl>'Houses of Austin canons: Priory of Bolton', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 195-199. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp195-199 [accessed 8 February 2021].</bibl>
+               <note type="charter">MS. Ch. Yorks. 41</note>
+               <note type="charter">MS. Ch. Yorks. 106a</note>
+            </org>
+            
+            <org>
+               <orgName type="index">Northallerton, Carmelite friars (Whitefriars)</orgName>
+               <orgName type="formInDocument">Carmelite friars</orgName>
+               <!--<idno></idno>
+               mentioned in https://en.wikipedia.org/wiki/List_of_monastic_houses_in_North_Yorkshire, but no idno. not in VIAF-->
+               <bibl>'Friaries: The white friars of Northallerton', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 270-271. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp270-271 [accessed 8 February 2021].</bibl>
+               <note type="charter">MS. Ch. Yorks. 91b</note>
+            </org>
+            
+            <org>
+               <orgName type="index">York, Carmelite friars (Whitefriars)</orgName>
+               <orgName type="formInDocument">Carmelites of York</orgName>
+               <orgName type="formInDocument">Carmelites of York</orgName>
+               <idno>https://www.wikidata.org/wiki/Q8055373</idno>
+               <bibl>'Friaries: Friaries in York', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 283-296. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp283-296 [accessed 8 February 2021].</bibl>
+               <note type="charter">MS. Ch. Yorks. 82</note>
+               <note type="charter">MS. Ch. Yorks. 81</note>
+            </org>
+            
+            <org>
+               <orgName type="index">Fountains Abbey (Cistercian)</orgName>
                <orgName type="formInDocument">church of Fountains</orgName>
                <orgName type="formInDocument">monastery of Fountains</orgName>
+               <idno>http://viaf.org/viaf/173026705</idno>
+               <bibl>'Houses of Cistercian monks: Fountains', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 134-138. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp134-138 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 29b </note>
                <note type="charter">MS. Ch. Yorks. 29</note>
-               <note type="charter">MS. Douce Ch. 5.</note>
+               <note type="charter">MS. Douce Ch. 5</note>
             </org>
+            
             <org>
-               <orgName type="formInDocument">church of St. Mary of York</orgName>
-               <note type="charter">MS. Ch. Yorks. 38</note>
-            </org>
-            <org>
+               <orgName type="index">Drax, Augustinian priory of St. Nicholas</orgName>
                <orgName type="formInDocument">church of St. Nicholas of Drax</orgName>
                <orgName type="formInDocument">church of St. Nicholas of Drax and the canons there</orgName>
                <orgName type="formInDocument">prior and canons of Drax</orgName>
                <orgName type="formInDocument">prior and convent of Drax</orgName>
                <orgName type="formInDocument">prior and convent of Drax</orgName>
                <orgName type="formInDocument">St. Nicholas of Drax</orgName>
+               <idno>https://www.wikidata.org/wiki/Q5306073</idno>
+               <bibl>'Houses of Austin canons: Priory of Drax', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 205-208. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp205-208 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 51</note>
                <note type="charter">MS. Ch. Yorks. 332</note>
                <note type="charter">MS. Ch. Yorks. 47</note>
@@ -4842,205 +4788,283 @@
                <note type="charter">MS. Ch. Yorks. 50</note>
                <note type="charter">MS. Ch. Yorks. 48</note>
             </org>
-           
-           
+
             <org>
-               
-            </org>
-            <org>
-              
-            </org>
-            <org>
+               <orgName type="index">Easby, Premonstratensian abbey</orgName>
                <orgName type="formInDocument">convent of St. Agatha</orgName>
+               <idno>http://viaf.org/viaf/305449068</idno>
+               <bibl>'Premonstratensian houses: Abbey of St Agatha, Easby', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 245-249. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp245-249 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Douce Ch. 1</note>
             </org>
+
             <org>
+               <orgName type="index">York Minster</orgName>
                <orgName type="formInDocument">dean and chapter of York</orgName>
+               <idno>http://viaf.org/viaf/155835167</idno>
+               <bibl>'The Minster and its precincts', in A History of the County of York: the City of York, ed. P M Tillott (London, 1961), pp. 337-343. British History Online http://www.british-history.ac.uk/vch/yorks/city-of-york/pp337-343 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 133a</note>
             </org>
+
             <org>
+               <orgName type="index">Christ Church (University of Oxford)</orgName>
                <orgName type="formInDocument">dean and canons of Ch. Ch.</orgName><!-- Oxford -->
+               <idno>http://viaf.org/viaf/140757625</idno>
+               <bibl>'Christ Church', in A History of the County of Oxford: Volume 3, the University of Oxford, ed. H E Salter and Mary D Lobel (London, 1954), pp. 228-238. British History Online http://www.british-history.ac.uk/vch/oxon/vol3/pp228-238 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 160b</note>
             </org>
+
             <org>
+               <orgName type="index">Archdiocese of Glasgow</orgName>
                <orgName type="formInDocument">dean and chapter of Glasgow</orgName>
+               <idno>http://viaf.org/viaf/152703095</idno>
+               <idno>https://www.wikidata.org/wiki/Q15187215</idno>
                <note type="charter">MS. Douce Ch. 57</note>
             </org>
+            
             <org>
+               <orgName type="index">Scarborough Greyfriars</orgName>
                <orgName type="formInDocument">friars minor of Scartheburg</orgName>
+               <!--<idno></idno>
+               not in VIAF? no wiki id either, but mentioned here:
+               https://en.wikipedia.org/wiki/List_of_monastic_houses_in_North_Yorkshire-->
+               <bibl>'Friaries: Friaries in Scarborough', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 274-280. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp274-280 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 303b</note>
             </org>
+            
             <org>
+               <orgName type="index">Gisborough, Augustinian priory</orgName>
                <orgName type="formInDocument">Gyseburn in Clyveland, and the convent of the same</orgName>
+               <idno>http://viaf.org/viaf/234338663</idno>
+               <idno>https://www.wikidata.org/wiki/Q3402996</idno>
+               <bibl></bibl>
                <note type="charter">MS. Ch. Yorks. 63</note>
             </org>
+            
             <org>
+               <orgName type="index">The Priory Church of The Holy Trinity, Micklegate (York), Benedictine alien house</orgName>
                <orgName type="formInDocument">Holy Trinity, York</orgName>
+               <idno>http://viaf.org/viaf/67153288269432651526</idno>
+               <idno>https://www.wikidata.org/wiki/Q8055363</idno>
+               <bibl>'Alien houses', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 387-391. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp387-391 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 4</note>
                <note type="charter">MS. Ch. Yorks. 78</note>
             </org>
+            
             <org>
+               <orgName type="index">Northallerton, St James' Hospital</orgName>
                <orgName type="formInDocument">hospital of Alverton</orgName>
-               <note type="charter">MS. Ch. Yorks. 89</note>
-               <note type="charter">MS. Ch. Yorks. 90</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">hospital of St Leonard, York</orgName>
-               <note type="charter">MS. Ch. Yorks. 108</note>
-            </org>
-            <org>
                <orgName type="formInDocument">hospital of St. James of Alverton</orgName>
                <orgName type="formInDocument">hospital of St. James, near Alverton, Yorkshire ("alias Alvertonshire")</orgName>
                <orgName type="formInDocument">hospital of St. James, near Alverton</orgName>
+               <!--<idno></idno>
+               not in VIAF? and no wikidata id either, however there's NA reference
+               https://discovery.nationalarchives.gov.uk/details/r/C3880266 -->
+               <bibl>'Hospitals: Lowcross - Pontefract', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 314-321. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp314-321 [accessed 8 February 2021].</bibl>
+               <note type="charter">MS. Ch. Yorks. 89</note>
+               <note type="charter">MS. Ch. Yorks. 90</note>
                <note type="charter">MS. Ch. Yorks. 86</note>
-               <note type="charter">MS. Ch. Yorks. 87</note>  <note type="charter">MS. Ch. Yorks. 91a</note>
+               <note type="charter">MS. Ch. Yorks. 87</note>  
+               <note type="charter">MS. Ch. Yorks. 91a</note>
                <note type="charter">MS. Ch. Yorks. 88</note>
             </org>
+            
             <org>
+               <orgName type="index">St. Peter's (later St. Leonard's) Hospital (York)</orgName>
+               <orgName type="formInDocument">hospital of St Leonard, York</orgName>
+               <orgName type="formInDocument">the hospital of St. Leonard, York</orgName>
+               <orgName type="formInDocument">the hospital of St. Peter, York</orgName><!-- later St Leonards, so just one authority file?-->
+               <idno>http://viaf.org/viaf/140864424</idno>
+               <bibl>'The sites and remains of the religious houses', in A History of the County of York: the City of York, ed. P M Tillott (London, 1961), pp. 357-365. British History Online http://www.british-history.ac.uk/vch/yorks/city-of-york/pp357-365 [accessed 8 February 2021].</bibl>
+               <note type="charter">MS. Ch. Yorks. 107</note>
+               <note type="charter">MS. Ch. Yorks. 108</note>
+               <note type="charter">MS. Ch. Yorks. 105</note>
+            </org>
+
+            <org>
+               <orgName type="index">Clerkenwell Priory, hospital of St John of the Knights Templars (London)</orgName>
                <orgName type="formInDocument">hospital of St. John of Jerusalem</orgName>
-               <note type="charter">MS. Ch. Yorks. 303b</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">hospital of St John of Jerusalem at Newland, co. York</orgName>
-               <note type="charter">MS. Ch. Yorks. 101</note>
-            </org>
-            <org>
+               <orgName type="formInDocument">Knights Templars of England</orgName>
                <orgName type="formInDocument">Knights Templars</orgName>
+               <orgName type="formInDocument">the hospital of St. John</orgName>
+               <orgName type="formInDocument">the Knights Templars</orgName>
+               <orgName type="formInDocument">the Knights Templars in England</orgName>
+               <idno>http://viaf.org/viaf/152723255</idno>
+               <idno>https://www.wikidata.org/wiki/Q5131893</idno>
+               <bibl>'Religious Houses: House of Knights hospitallers', in A History of the County of Middlesex: Volume 1, Physique, Archaeology, Domesday, Ecclesiastical Organization, the Jews, Religious Houses, Education of Working Classes To 1870, Private Education From Sixteenth Century, ed. J S Cockburn, H P F King and K G T McDonnell (London, 1969), pp. 193-204. British History Online http://www.british-history.ac.uk/vch/middx/vol1/pp193-204 [accessed 9 February 2021].</bibl>
+               <note type="charter">MS. Ch. Yorks. 95</note>
+               <note type="charter">MS. Ch. Yorks. 96</note>
+               <note type="charter">MS. Ch. Yorks. 99</note>
+               <note type="charter">MS. Ch. Yorks. 100</note>
+               <note type="charter">MS. Ch. Yorks. 102</note>
+               <note type="charter">MS. Ch. Yorks. 303b</note>
+               <note type="charter">MS. Ch. Yorks. 93</note>
+               <note type="charter">MS. Ch. Yorks. 92</note>
+               <note type="charter">MS. Ch. Yorks. 94</note>
                <note type="charter">MS. Ch. Yorks. 96</note>
             </org>
+            
             <org>
-              
+               <orgName type="index">Newland Preceptory, hospital of St John of the Knights Templars</orgName>
+               <orgName type="formInDocument">hospital of St John of Jerusalem at Newland, co. York</orgName>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F145879</idno>
+               <note type="charter">MS. Ch. Yorks. 101</note>
             </org>
             
-            
             <org>
+               <orgName type="index">Knights Templars at Temple Cowley</orgName>
+               <orgName type="formInDocument">chapter at Couele</orgName>
+               <idno></idno>
+               <bibl>'House of Knights Templars: The preceptory of Sandford', in A History of the County of Oxford: Volume 2, ed. William Page (London, 1907), pp. 106-107. British History Online http://www.british-history.ac.uk/vch/oxon/vol2/pp106-107 [accessed 9 February 2021].</bibl>
+               <note type="charter">MS. Ch. Yorks. 95</note>
+            </org>
+
+            <org>
+               <orgName type="index">Hexham, Augustinian priory</orgName>
                <orgName type="formInDocument">monastery of Hexhame</orgName>
-               <note>MS. Ch. Yorks. 337</note>
+               <orgName type="formInDocument">prior of Hexhldesham</orgName><!-- Hexham, Northumberland -->
+               <idno>http://viaf.org/viaf/139803826</idno>
+               <idno>https://www.wikidata.org/wiki/Q950037</idno>
+               <note type="charter">MS. Ch. Yorks. 173</note>
+               <note type="charter">MS. Ch. Yorks. 337</note>
             </org>
+            
             <org>
-              
-            </org>
-            <org>
+               <orgName type="index">Monk Bretton, Benedictine priory</orgName>
+               <orgName type="formInDocument">canons of Bretton</orgName>
                <orgName type="formInDocument">monastery of Monkebretton</orgName>
                <orgName type="formInDocument">prior and convent of Monk Bretton</orgName>
                <orgName type="formInDocument">prior of Monk Bretton</orgName>
+               <orgName type="formInDocument">St. Mary Magdalen of Bretton</orgName>
+               <orgName type="formInDocument">St. Mary Magdalene of Bretton</orgName>
+               <idno>https://www.wikidata.org/wiki/Q6900613</idno>
+               <bibl>'Houses of Benedictine monks: Priory of Monk Bretton', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 91-95. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp91-95 [accessed 8 February 2021].</bibl>
+               <note type="charter">MS. Douce Ch. 69</note>
                <note type="charter">MS. Ch. Yorks. 44b</note>
                <note type="charter">MS. Ch. Yorks. 45</note>
                <note type="charter">MS. Ch. Yorks. 336</note>
+               <note type="charter">MS. Ch. Yorks. 44a</note>
+               <note type="charter">MS. Ch. Yorks. 43</note>
             </org>
+
             <org>
-              
-            </org>
-            <org>
+               <orgName type="index">Whitby, Benedictine abbey</orgName>
                <orgName type="formInDocument">monastery of Whitby</orgName>
                <orgName type="formInDocument">priory of Whitby</orgName>
+               <idno>http://viaf.org/viaf/258918407</idno>
+               <bibl>'Houses of Benedictine monks: Abbey of Whitby', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 101-105. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp101-105 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 337</note>
                <note type="charter">MS. Ch. Yorks. 36</note>
             </org>
+
             <org>
-              
-            </org>
-            <org>
+               <orgName type="index">Pontefract, Cluniac priory of St. John's</orgName>
                <orgName type="formInDocument">monks of St. John</orgName>
+               <orgName type="formInDocument">St. John the apostle, of Pontefract, and the monks there</orgName>
+               <orgName type="formInDocument">prior and convent of Pontefract</orgName>
+               <orgName type="formInDocument">priory of Pontefract</orgName>
+               <idno>https://www.wikidata.org/wiki/Q7228175</idno>
                <note type="charter">MS. Ch. Yorks. 74</note>
+               <note type="charter">MS. Ch. Yorks. 75</note>
+               <note type="charter">MS. Ch. Yorks. 28</note>
+               <note type="charter">MS. Douce Ch. 69</note>
             </org>
+
             <org>
-             
-            </org>
-            <org>
+               <orgName type="index">St Mary's, Benedictine abbey (York)</orgName>
                <orgName type="formInDocument">monks of St. Mary's, York</orgName>
-               <note type="charter">MS. Douce Ch. 47. </note>
+               <idno>http://viaf.org/viaf/135211427</idno>
+               <idno>https://www.wikidata.org/wiki/Q1426965</idno>
+               <bibl>'Houses of Benedictine monks: Abbey of St Mary, York', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 107-112. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp107-112 [accessed 9 February 2021].</bibl>
+               <note type="charter">MS. Douce Ch. 47</note>
             </org>
+
             <org>
-              
-            </org>
-            <org>
+               <orgName type="index">Newburgh, Augustinian priory</orgName>
                <orgName type="formInDocument">Newburgh</orgName>
+               <idno>https://www.wikidata.org/wiki/Q7017185</idno>
+               <bibl>'Houses of Austin canons: Priory of Newburgh', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 226-230. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp226-230 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 54</note>
             </org>
+            
             <org>
+               <orgName type="index">Syningthwaite, convent of Cistercian nuns of St. Mary</orgName>
                <orgName type="formInDocument">nuns of Siningthwayt</orgName>
+               <idno>https://www.wikidata.org/wiki/Q16920786</idno>
                <note type="charter">MS. Ch. Yorks. 76</note>
             </org>
+            
             <org>
+               <orgName type="index">Prerogative Court of York</orgName>
                <orgName type="formInDocument">Prerogative Court of York</orgName>
                <note type="charter">MS. Ch. Yorks. 311d</note>
             </org>
+            
             <org>
+               <orgName type="index">Bridlington, Augustinian priory</orgName>
                <orgName type="formInDocument">prior and convent of Bridelington</orgName>
+               <idno>https://www.wikidata.org/wiki/Q4525670</idno>
+               <bibl>'Houses of Austin canons: Priory of Bridlington', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 199-205. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp199-205 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 46</note>
             </org>
-            <org>
-              
-            </org>
-           
            
             <org>
+               <orgName type="index">Torksey, Augustinian priory</orgName>
                <orgName type="formInDocument">prior and canons of Torkesey</orgName>
+               <idno>https://www.wikidata.org/wiki/Q7825891</idno>
                <note type="charter">MS. Ch. Yorks. 49</note>
             </org>
-        
-            <org>
-              
-            </org>
-            <org>
-               <orgName type="formInDocument">prior and convent of Pontefract</orgName>
-               <orgName type="formInDocument">priory of Pontefract</orgName>
-               <note type="charter">MS. Ch. Yorks. 28</note>
-               <note type="charter">MS. Douce Ch. 69.</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">prior of Hexhldesham</orgName><!-- Hexham, Northumberland -->
-               <note type="charter">MS. Ch. Yorks. 173</note>
-            </org>
-            
             
             <org>
-               <orgName type="formInDocument">prioress and convent of Apelton</orgName><!-- Nunappleton -->
+               <orgName type="index">Nun Appleton, priory of Cistercian nuns</orgName>
+               <orgName type="formInDocument">prioress and convent of Apelton</orgName>
+               <idno>https://www.wikidata.org/wiki/Q7069720</idno>
+               <bibl>'Houses of Cistercians nuns: Priory of Nun Appleton', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 170-174. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp170-174 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 73</note>
             </org>
+            
             <org>
+               <orgName type="index">Basedale, priory of Cistercian nuns</orgName>
                <orgName type="formInDocument">prioress of Basdale</orgName>
                <orgName type="formInDocument">Basadale</orgName>
                <orgName type="formInDocument">convent of St. Mary of Basdal</orgName>
+               <idno>https://www.wikidata.org/wiki/Q4866638</idno>
+               <bibl>'Houses of Cistercians nuns: Priory of Basedale', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 158-160. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp158-160 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 251</note>
                <note type="charter">MS. Ch. Yorks. 162</note>
                <note type="charter">MS. Ch. Yorks. 173</note>
             </org>
+            
             <org>
+               <orgName type="index">Thicket, priory of Benedictine nuns</orgName>
                <orgName type="formInDocument">prioress of Thikheved</orgName>
+               <idno>https://www.wikidata.org/wiki/Q7783953</idno>
+               <bibl>'Houses of Benedictine nuns: Priory of Thicket', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 124-125. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp124-125 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 77</note>
             </org>
+
             <org>
-            
-            </org>
-            <org>
-              
-            </org>
-            <org>
+               <orgName type="index">Marton, Augustinian priory</orgName>
                <orgName type="formInDocument">St. Cudbert of Martun</orgName>
+               <idno>https://www.wikidata.org/wiki/Q6777305</idno>
+               <bibl>'Houses of Austin canons: Priory of Marton', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 223-226. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp223-226 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 53</note>
             </org>
+            
             <org>
+               <orgName type="index">Windsor, secular college of St. George's Chapel</orgName>
                <orgName type="formInDocument">St. George's, Windsor</orgName>
                <orgName type="formInDocument">the canons of St. George's, Windsor</orgName>
                <orgName type="formInDocument">St. George's, Windsor</orgName>
+               <idno>http://viaf.org/viaf/2142145857037522921207</idno>
+               <idno>https://www.wikidata.org/wiki/Q5246580</idno>
+               <bibl>'Collegiate churches: Windsor (St George's chapel)', in A History of the County of Berkshire: Volume 2, ed. P H Ditchfield and William Page (London, 1907), pp. 106-112. British History Online http://www.british-history.ac.uk/vch/berks/vol2/pp106-112 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 274</note>
                <note type="charter">MS. Ch. Yorks. 331</note>
                <note type="charter">MS. Ch. Yorks. 331</note>
             </org>
-            <org>
-               <orgName type="formInDocument">St. John the apostle, of Pontefract, and the monks there</orgName>
-               <note type="charter">MS. Ch. Yorks. 75</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">St. Mary Magdalen of Bretton</orgName>
-               <orgName type="formInDocument">St. Mary Magdalene of Bretton</orgName>
-               <note type="charter">MS. Ch. Yorks. 44a</note>
-               <note type="charter">MS. Ch. Yorks. 43</note>
-            </org>
            
             <org>
+               <orgName type="index">Guisborough, Augustinian priory</orgName>
                <orgName type="formInDocument">St. Mary of Giseburn</orgName>
                <orgName type="formInDocument">the chapter of St. Mary of Giseburg</orgName>
                <orgName type="formInDocument">prior and canons of Giseburhe</orgName>
@@ -5051,6 +5075,8 @@
                <orgName type="formInDocument">prior and convent of Gyseburn</orgName>
                <orgName type="formInDocument">church and canons of St. Mary, Giseburn</orgName>
                <orgName type="formInDocument">brethren and church of St. Mary of Ghiseburn</orgName>
+               <idno>http://viaf.org/viaf/234338663</idno>
+               <idno>https://www.wikidata.org/wiki/Q3402996</idno>
                <note type="charter">MS. Douce Ch. 70. </note>
                <note type="charter">MS. Ch. Yorks. 55</note>
                <note type="charter">MS. Ch. Yorks. 59</note>
@@ -5065,14 +5091,15 @@
                <note type="charter">MS. Ch. Yorks. 56</note>
                <note type="charter">MS. Douce Ch. 43.</note>
             </org>
+
             <org>
-              
-            </org>
-            <org>
+               <orgName type="index">Nostell, Augustinian priory</orgName>
                <orgName type="formInDocument">St. Oswald of Nostell</orgName>
                <orgName type="formInDocument">St. Oswald of Nostle</orgName>
                <orgName type="formInDocument">monastery of St. Oswald, Nostele</orgName>
                <orgName type="formInDocument">convent of St. Oswald of the Nostell</orgName><!-- sic? -->
+               <idno>http://viaf.org/viaf/316596006</idno>
+               <bibl>'Houses of Austin canons: Priory of Nostell', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 231-235. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp231-235 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 72</note>
                <note type="charter">MS. Ch. Yorks. 70</note>
                <note type="charter">MS. Ch. Yorks. 69</note>
@@ -5080,76 +5107,91 @@
             </org>
            
             <org>
+               <orgName type="index">Swainby, Premonstratensian abbey</orgName>
                <orgName type="formInDocument">Suanesbi</orgName>
-               <note type="charter">MS. Douce Ch. 47. </note>
+               <idno>https://www.wikidata.org/wiki/Q425711</idno>
+               <bibl>'Premonstratensian houses: Abbey of Coverham', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 243-245. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp243-245 [accessed 9 February 2021].</bibl>
+               <note type="charter">MS. Douce Ch. 47</note>
             </org>
            
             <org>
+               <orgName type="index">Collegiate Church of St. Peter and St. Wilfrid, Ripon</orgName>
                <orgName type="formInDocument">B. Wilfrid of Rypon</orgName>
+               <idno>http://viaf.org/viaf/123186500</idno>
+               <bibl>'Collegiate churches: Other churches (except Beverley and York)', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 359-375. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp359-375 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 161a</note>
             </org>
+            
             <org>
+               <orgName type="index">Jervaulx, Cistercian abbey</orgName>
                <orgName type="formInDocument">the abbot and monks of Jorevall</orgName>
+               <idno>http://viaf.org/viaf/129256123</idno>
+               <idno>http://viaf.org/viaf/173530024</idno>
+               <bibl>'Houses of Cistercian monks: Jervaulx', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 138-142. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp138-142 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Douce Ch. 1</note>
             </org>
             
             <org>
+               <orgName type="index">Wilberfoss, Benedictine priory</orgName>
                <orgName type="formInDocument">the convent of Our Lady of Wylberfosse</orgName>
                <orgName type="formInDocument">Wilberfosse</orgName>
+               <idno>https://www.wikidata.org/wiki/Q8000091</idno>
+               <bibl>'Houses of Benedictine nuns: Priory of Wilberfoss', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 125-126. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp125-126 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 85</note>
                <note type="charter">MS. Ch. Yorks. 84</note>
             </org>
+            
             <org>
-               <orgName type="formInDocument">the hospital of St. John</orgName>
-               <note type="charter">MS. Ch. Yorks. 99</note>
-               <note type="charter">MS. Ch. Yorks. 100</note>
-               <note type="charter">MS. Ch. Yorks. 102</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">the hospital of St. Leonard, York</orgName>
-               <note type="charter">MS. Ch. Yorks. 107</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">the hospital of St. Peter, York</orgName><!-- later St Leonards, so just one authority file? -->
-               <note type="charter">MS. Ch. Yorks. 105</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">the Knights Templars</orgName>
-               <orgName type="formInDocument">the Knights Templars in England</orgName>
-               <note type="charter">MS. Ch. Yorks. 93</note>
-               <note type="charter">MS. Ch. Yorks. 92</note>
-               <note type="charter">MS. Ch. Yorks. 94</note>
-               <note type="charter">MS. Ch. Yorks. 96</note>
-            </org>
-            <org>
+               <orgName type="index">York, priory of Benedictine nuns of St Clement</orgName>
+               <orgName type="alternative">Clementhorpe Priory</orgName>
                <orgName type="formInDocument">the nuns of St. Clement</orgName>
                <orgName type="formInDocument">the nuns of St. Clement, York</orgName>
+               <bibl>'Houses of Benedictine nuns: Priory of St Clement, York', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 129-131. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp129-131 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 80</note>
                <note type="charter">MS. Ch. Yorks. 79</note>
             </org>
            
             <org>
+               <orgName type="index">Malton, Gilbertine priory</orgName>
                <orgName type="formInDocument">the prior and convent of Malton</orgName>
                <orgName type="formInDocument">Malton</orgName>
+               <idno>https://www.wikidata.org/wiki/Q6744916</idno>
                <orgName type="formInDocument">convent of St. Mary of Malton</orgName>
+               <bibl>'Gilbertine houses: Priory of Malton', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 253-254. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp253-254 [accessed 10 February 2021].</bibl>
                <note type="charter">MS. Douce Ch. 47</note>
                <note type="charter">MS. Ch. Yorks. 67</note>
                <note type="charter">MS. Ch. Yorks. 68</note>
             </org>
+            
             <org>
+               <orgName type="index">Mount Grace, Carthusian priory</orgName>
                <orgName type="formInDocument">Carthusiens of York</orgName>
+               <idno>http://viaf.org/viaf/152475192</idno>
+               <idno>https://www.wikidata.org/wiki/Q12062111</idno>
+               <bibl>'Houses of Carthusian monks: Priory of Mount Grace', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 192-193. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp192-193 [accessed 10 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 83</note>
             </org>
+            
             <org>
+               <orgName type="index"></orgName>
                <orgName type="formInDocument">University of Cambridge</orgName>
+               <idno>MS. Ch. Yorks. 304b</idno>
+               <bibl>'The University of Cambridge: The Middle Ages', in A History of the County of Cambridge and the Isle of Ely: Volume 3, the City and University of Cambridge, ed. J P C Roach (London, 1959), pp. 150-166. British History Online http://www.british-history.ac.uk/vch/cambs/vol3/pp150-166 [accessed 10 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 304b</note>
             </org>
             <org>
+               <orgName type="index">Wallingwells, priory of Benedictine nuns</orgName>
                <orgName type="formInDocument">Wallingwellez</orgName>
-               <note type="charter">MS. Ch. Yorks. 242b </note>
+               <idno>https://www.wikidata.org/wiki/Q7963117</idno>
+               <note type="charter">MS. Ch. Yorks. 242b</note>
             </org>
+            
             <org>
+               <orgName type="index">Leper hospital of St. Leonard at Tenelshed (Tearnside)</orgName>
                <orgName type="formInDocument">St. Leonard of Teneleshend</orgName>
+               <!--cannot find this in viaf or wiki, but mentioned e.g. in https://www.pastscape.org.uk/hob.aspx?hob_id=43003&sort=4&search=all&criteria=kirkby%20lonsdale&rational=q&recordsperpage=10
+               http://epns.nottingham.ac.uk/browse/id/5328768db47fc40c6f000b95-->
+               <bibl>W. G. Wiseman, 'The Medieval Hospitals of Cumbria', in <title>Transactions of the Cumberland and Westmorland Antiquarian and Archaeological Society</title> (1987) Series 2, Volume 87, pp. 94-95. Cumberland and Westmorland Antiquarian and Archaeological Society Transactions [data-set]. York: Archaeology Data Service [distributor] https://doi.org/10.5284/1032950 [accessed 10 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 160a</note>
             </org>
          </listOrg>
