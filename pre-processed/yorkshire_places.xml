@@ -22,12 +22,12 @@
       -->
       <body>
          <listPlace type="manor">
-            <place type="manor">
-               <placeName type="index">Alberston [unidentified]</placeName>
+            <place type="manor"><!-- a Hastings manor. ckd -->
+               <placeName type="index">Allerston </placeName>
                <placeName type="formInDocument">Alberston</placeName>
-               <!--<region type="parish"></region> -->
+               <region type="parish">Allerston</region> 
                <region type="county">Yorkshire</region>
-               <!--<idno></idno>-->
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F241725</idno>
                <note type="charter">MS. Ch. Yorks. 331</note>
                <note type="charter">MS. Ch. Yorks. 274</note>
             </place>
@@ -40,18 +40,17 @@
                <idno>http://discovery.nationalarchives.gov.uk/details/c/F241727</idno>
                <bibl>'Parishes: Hutton Bushel', in A History of the County of York North Riding: Volume 2, ed. William Page (London, 1923), pp. 441-444. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol2/pp441-444 [accessed 21 January 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 283</note>
-               <note type="charter">MS. Ch. Yorks. 318a</note>
+               <note type="charter">MS. Ch. Yorks. 318a</note><!-- 318a might be a different manor. CHECK -->
             </place>
             
             <place type="manor">
-               <placeName type="index">Barthorpe</placeName>
+               <placeName type="index">Barthorpe</placeName><!-- descended with Leppington ERY ckd-->
                <placeName type="formInDocument">Barthorp</placeName>
                <placeName type="formInDocument">Barthorpe</placeName>
-               <region type="parish">Barthorpe</region>
-               <region type="county">Yorkshire, North Riding</region>
-               
-               <!--not in VHC or TNA, however there is a ref. to this manor in https://www.british-history.ac.uk/cal-treasury-books/vol5/pp1062-1074 and https://www.british-history.ac.uk/cal-treasury-books/vol5/pp1296-1312 and http://bedsarchivescat.bedford.gov.uk/Details/archive/110051361; for parish and county I've entered the Leppington place info -->
-               <!--See also: https://dmv.hull.ac.uk/dmvDetail.cfm?dbkey=4830&county=true-->
+               <region type="parish">Acklam</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <!--not in VHC or TNA, -->
+               <!--See also: https://dmv.hull.ac.uk/dmvDetail.cfm?dbkey=4830&county=true -->
                <note type="charter">MS. Ch. Yorks. 189b</note>
                <note type="charter">MS. Ch. Yorks. 192</note>
                <note type="charter">MS. Ch. Yorks. 191</note>
@@ -68,6 +67,7 @@
             </place>
             
             <place type="manor">
+               <!-- could be Botham in Huddersfield? CHECK -->
                <placeName type="index">Bothem [unidentified]</placeName>
                <placeName type="formInDocument">Bothem</placeName>
                <!--<region type="parish"></region>
@@ -76,16 +76,16 @@
                <note type="charter">MS. Ch. Yorks. 131a</note>
             </place>
             
-            <place type="manor">
-               <placeName type="index">Brunton</placeName>
+            <place type="manor"><!-- manor granted by Hen. I --><!-- ckd -->
+               <placeName type="index">Brompton by Sawdon</placeName>
                <placeName type="formInDocument">Brumton</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>-->
-               <!--one of these places?: 
-               <idno>http://discovery.nationalarchives.gov.uk/details/c/F282523</idno>
-               <idno>http://discovery.nationalarchives.gov.uk/details/c/F282564</idno>
-               <idno>http://discovery.nationalarchives.gov.uk/details/c/F282619</idno>-->
+                  <placeName type="formInDocument">Grumpton</placeName><!-- check: Brumton above? -->
+               <region type="parish">Brompton by Sawdon</region><!-- in pickering lythe -->
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F243594</idno>
                <note type="charter">MS. Ch. Yorks. 132b</note>
+               <note type="charter">MS. Ch. Yorks. 283</note>
+               <bibl>'Parishes: Brompton', in A History of the County of York North Riding: Volume 2, ed. William Page (London, 1923), pp. 424-430. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol2/pp424-430 [accessed 12 February 2021].</bibl>
             </place>
             
             <place type="manor">
@@ -99,29 +99,25 @@
             </place>
             
             <place type="manor">
+               <!-- ckd -->
+               <!-- George Hastings lord of; grant by Wallingwells priory -->
                <placeName type="index">Fenwick manor</placeName>
                <placeName type="formInDocument">Fenwyk</placeName>
                <region type="parish">Campsall</region>
-               <region type="county">Yorkshire</region>
+               <region type="county">Yorkshire, West Riding</region>
                <idno>http://discovery.nationalarchives.gov.uk/details/c/F245645</idno>
                <note type="charter">MS. Ch. Yorks. 242b </note>
             </place>
             
-            <place type="manor">
-               <placeName type="index">Grumpton [unidentified]</placeName>
-               <placeName type="formInDocument">Grumpton</placeName><!-- check: Brumton above? -->
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Yorks. 283</note>
-            </place>
+           
             
-            <place type="manor">
-               <placeName type="index">Holden [unidentified]</placeName>
+            <place type="manor"><!-- ckd/corrected -->
+               <placeName type="index">Howden</placeName>
                <placeName type="formInDocument">Holden</placeName>
-               <!--<region type="parish"></region>
+               <!-- bp of Durham's manor -->
+               <region type="parish">Howden</region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F238858</idno>
                <note type="charter">MS. Ch. Yorks. 330</note>
             </place>
             
@@ -143,7 +139,7 @@
                <note type="charter">MS. Ch. Yorks. 297</note>
             </place>
             
-            <place type="manor">
+            <place type="manor"><!-- ckd -->
                <placeName type="index">Leppington</placeName>
                <placeName type="formInDocument">Lepington</placeName>
                <placeName type="formInDocument">Lepyngton</placeName>
@@ -155,13 +151,12 @@
                <note type="charter">MS. Ch. Yorks. 189b</note>
             </place>
             
-            <place type="manor">
+            <place type="manor"><!-- ckd/corrected -->
                <placeName type="index">Middleton</placeName>
                <placeName type="formInDocument">Mydilton</placeName>
-               <region type="parish">Middleton</region>
-               <region type="county">Yorkshire, North Riding</region>
-               <idno>http://discovery.nationalarchives.gov.uk/details/c/F246385</idno>
-               <bibl>'Parishes: Middleton', in A History of the County of York North Riding: Volume 2, ed. William Page (London, 1923), pp. 453-461. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol2/pp453-461 [accessed 21 January 2021].</bibl>
+               <region type="parish">Rothwell</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F244431</idno>
                <note type="charter">MS. Ch. Yorks. 249b</note>
             </place>
             
@@ -181,13 +176,13 @@
                <note type="charter">MS. Rolls Yorks. 7</note>
             </place>
             
-            <place type="manor">
-               <placeName type="index">Ross</placeName>
+            <place type="manor"><!-- ckd/corrected -->
+               <placeName type="index">Roos</placeName>
                <placeName type="formInDocument">Rosse</placeName>
-               <region type="parish">Belford</region>
-               <region type="county">Northumberland</region>
+               <region type="parish">Roos</region>
+               <region type="county">Yorkshire, East Riding</region>
                <!--the doc 284b mentions the manor to be in the county of York-->
-               <idno>http://discovery.nationalarchives.gov.uk/details/c/F282398</idno>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F238860</idno>
                <note type="charter">MS. Ch. Yorks. 284b</note>
             </place>
             
