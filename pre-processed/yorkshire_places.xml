@@ -269,15 +269,15 @@
          <!--how to mark towns?-->
          <listPlace type="street">
             <place type="street">
-               <!--<placeName type="index">Blake street</placeName>-->
+               <placeName type="index">York, 'Bleistreta'</placeName>
                <placeName type="formInDocument">Bleistreta</placeName><!-- street in York, perhaps Blake street?-->
-               <!--<region type="parish"></region>-->
+               <region type="parish">York</region>
                <region type="county">Yorkshire, East Riding</region>
                <!--county? genuki places York in The Ainsty, EPNS places it in East Riding-->
                <note type="charter">MS. Ch. Yorks. 106a</note>
             </place>
             <place type="street">
-               <placeName type="index">Hartergate</placeName>
+               <placeName type="index">York, Hartergate</placeName>
                <placeName type="formInDocument">Hertergate street</placeName> <!--street in York-->
                <!--<region type="parish"></region>-->
                <region type="county">Yorkshire, East Riding</region>
@@ -286,23 +286,15 @@
                <note type="charter">MS. Ch. Yorks. 322</note>
             </place>
             <place type="street">
-               <placeName type="index">Kirkegate</placeName>
-               <placeName type="formInDocument">Kirkegate</placeName>
-               <region type="parish">Dunscroft</region>
-               <region type="county">Yorkshire, West Riding</region>
-               <note type="charter">MS. Ch. Yorks. 136</note>
-            </place>
-            <place type="street">
-               <placeName type="index">Kirkgate</placeName><!-- street in York -->
+               <placeName type="index">York, Kirkgate</placeName><!-- street in York -->
                <placeName type="formInDocument">Kyrkgate</placeName>
-               <!-- not sure of the parish, editor has placed this in York
-                  <region type="parish"></region>-->
+                  <region type="parish">York</region>
                <region type="county">Yorkshire, East Riding</region>
                <!--county? genuki places York in The Ainsty, EPNS places it in East Riding-->
                <note type="charter">MS. Ch. Yorks. 78</note>
             </place>
             <place type="street">
-               <placeName type="index">Briggate</placeName>
+               <placeName type="index">Leeds, Briggate</placeName>
                <placeName type="formInDocument">Briggate</placeName>
                <region type="parish">Leeds</region>
                <region type="county">Yorkshire, West Riding</region>
@@ -310,7 +302,7 @@
                <note type="charter">MS. Ch. Yorks. 187</note>
             </place>
             <place type="street">
-               <placeName type="index">Walmgate</placeName>
+               <placeName type="index">York, Walmgate</placeName>
                <placeName type="formInDocument">Walmegate</placeName><!-- street in York -->
                <region type="parish">York St Margaret</region>
                <region type="county">Yorkshire, East Riding</region>
@@ -324,6 +316,7 @@
          
          <listPlace type="archdiocese">
             <place type="archdiocese">
+               <placeName type="index">York</placeName>
                <placeName type="formInDocument">York</placeName>
                <!--<idno></idno>-->
                <region type="county">Yorkshire</region>
@@ -431,26 +424,29 @@
          </listPlace>
          
          
-         <listPlace type="riding">
+       <!--  <listPlace type="riding">
+            refers to an unknown riding; don't index
             <place type="riding">
-               <!--<placeName type="index"></placeName>-->
+               <!-\-<placeName type="index"></placeName>-\->
                <placeName type="formInDocument">Riding of York</placeName>
-               <!--not sure if this means one of the three ridings, or Ainsty of York: https://epns.nottingham.ac.uk/browse/id/53288221b47fc40c8100602b-Ainsty+Wapentake-->
+               <!-\-not sure if this means one of the three ridings, or Ainsty of York: https://epns.nottingham.ac.uk/browse/id/53288221b47fc40c8100602b-Ainsty+Wapentake-\->
                <note type="charter">MS. Ch. Yorks. 326</note>
             </place>
-         </listPlace>
+         </listPlace>-->
          <listPlace type="wapentake">
             <place type="wapentake">
                <placeName type="index">Langbargh East Wapentake</placeName>
                <placeName type="formInDocument">Langebarwhe</placeName>
-               <idno>https://epns.nottingham.ac.uk/browse/id/53286b0eb47fc40bc60003ec-Langbargh+East+Wapentake</idno>
+               <region type="county">Yorkshire</region> <idno>https://epns.nottingham.ac.uk/browse/id/53286b0eb47fc40bc60003ec-Langbargh+East+Wapentake</idno>
+              
                <note type="charter">MS. Rolls Yorks. 1</note>
+               
             </place>
             <place type="wapentake">
                <placeName type="index">Skyrack Wapentake</placeName>
                <placeName type="formInDocument">wapentake of Skyracke</placeName>
                <placeName type="formInDocument">wapentake of Skyrak</placeName>
-               <idno>https://epns.nottingham.ac.uk/browse/id/53288221b47fc40c81006032-Skyrack+Wapentake</idno>
+               <region type="county">Yorkshire</region> <idno>https://epns.nottingham.ac.uk/browse/id/53288221b47fc40c81006032-Skyrack+Wapentake</idno>
                <note type="charter">MS. Rolls Yorks. 11</note>
                <note type="charter">MS. Rolls Yorks. 12</note>
             </place>
@@ -485,12 +481,12 @@
          
          <listPlace type="river">
             <place type="river">
-               <placeName type="index">river Ouse</placeName>
+               <placeName type="index">Ouse</placeName>
                <placeName type="formInDocument">Ouse</placeName>
                <note type="charter">MS. Ch. Yorks. 126b</note>
             </place>
             <place type="river">
-               <placeName type="index">river Tees</placeName>
+               <placeName type="index">Tees</placeName>
                <placeName type="formInDocument">Teysiam</placeName>
                <note type="charter">MS. Ch. Yorks. 57</note>
             </place>
@@ -498,14 +494,15 @@
 
 
          <listPlace type="place">
-            <place type="place">
+           <!-- <place type="place">
+               minor name
                <placeName type="index">Milline More</placeName>
                <placeName type="formInDocument">Milline More</placeName>
                <region type="parish">Kirkby Lonsdale</region>
                <region type="county">Westmorland</region>
                <note type="charter">MS. Ch. Yorks. 160a</note>
             </place>
-            
+            -->
             <place type="place">
                <placeName type="index">Aberford</placeName>
                <placeName type="formInDocument">Aberford</placeName>
@@ -515,15 +512,16 @@
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Aberford</idno>
                <note type="charter">MS. Ch. Yorks. 109</note>
             </place>
-            
+           <!-- 
             <place type="place">
+               minor name
                <placeName type="index">Adbaldehage [unidentified]</placeName>
                <placeName type="formInDocument">Adbaldehage</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 98</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <placeName type="index">Adel</placeName>
@@ -534,7 +532,7 @@
                <note type="charter">MS. Ch. Yorks. 137b</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- ?near Aton q.v. -->
                <placeName type="index">Adwick or Atwick</placeName>
                <placeName type="formInDocument">Adwyck</placeName>
                <!--<region type="parish"></region>
@@ -598,8 +596,11 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Anand [unidentified]</placeName>
+               <!-- https://www.poms.ac.uk/record/source/4034/ -->
+               <placeName type="index">Annan</placeName>
                <placeName type="formInDocument">Anand</placeName>
+               <region type="county">Dumfriesshire</region>
+               <country>Scotland</country>
                <note type="charter">MS. Douce Ch. 57</note>
             </place>
             
@@ -640,11 +641,11 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Arnall [unidentified]</placeName>
+               <placeName type="index">Arnold</placeName>
                <placeName type="formInDocument">Arnall</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Arnold</region>
+               <region type="county">Nottinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Nottinghamshire/Arnold/53286c05b47fc40bd400082c-Arnold</idno>
                <note type="charter">MS. Ch. Yorks. 338</note>
             </place>
             
@@ -656,7 +657,7 @@
                <note type="charter">MS. Ch. Yorks. 126b</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- ckd to here 15.2.21 -->
                <placeName type="index">West Ayton</placeName>
                <placeName type="formInDocument">Aton</placeName>
                <placeName type="formInDocument">Atun</placeName>
@@ -684,9 +685,10 @@
                <note type="charter">MS. Ch. Yorks. 287</note>
                <note type="charter">MS. Ch. Yorks. 288</note>
                <note type="charter">MS. Ch. Yorks. 301</note>
+               <!-- the above are catalogued as Aton in Picklinglith which prob is West Ayton (but could be East Ayton?)  -->
             </place>
             
-            <place type="place">
+            <place type="place"><!-- near Pickering, Easingwold? not found 15.2.21 -->
                <placeName type="index">Auby [unidentified]</placeName>
                <placeName type="formInDocument">Auby</placeName>
                <!--<region type="parish"></region>
@@ -721,11 +723,11 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Bardelby [unidentified]</placeName>
+               <placeName type="index">Barlby</placeName>
                <placeName type="formInDocument">Bardelby</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Hemingbrough</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Hemingbrough/5328549ab47fc40a4d0004b9-Barlby</idno>
                <note type="charter">MS. Ch. Yorks. 126b</note>
             </place>
             
@@ -755,7 +757,7 @@
                <placeName type="index">Bassingham</placeName>
                <placeName type="formInDocument">Bassyngham</placeName>
                <region type="parish">Bassingham</region>
-               <region type="county">Lincoln</region>
+               <region type="county">Lincolnshire</region>
                <idno>https://www.genuki.org.uk/big/eng/LIN/Bassingham</idno>
                <note type="charter">MS. Ch. Yorks. 246b</note>
             </place>
@@ -796,15 +798,15 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Beal or Beaghall</placeName>
+               <placeName type="index">Beal</placeName>
                <placeName type="formInDocument">Beghale</placeName>
-               <!--<region type="parish"></region>-->
+               <region type="parish">Kellington</region>
                <region type="county">Yorkshire, West Riding</region>
-               <bibl>Moorman, F. W., <title>The place-names of the West Riding of Yorkshire</title> (1910), p. 23.</bibl>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Kellington/5328827bb47fc40c81006178-Beal</idno>
                <note type="charter">MS. Ch. Yorks. 169</note>
             </place>
              
-            <place type="place">
+            <place type="place"><!-- person of, in a ch. near Ripon; not found 15.2.21 -->
                <placeName type="index">Beiston [unidentified]</placeName>
                <placeName type="formInDocument">Beiston</placeName>
                <!--<region type="parish"></region>
@@ -814,7 +816,7 @@
                <note type="charter">MS. Ch. Yorks. 29</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- grant by Adam Swillington dated at Leeds TODO -->
                <placeName type="index">Bentley</placeName>
                <placeName type="formInDocument">Bentelay</placeName>
                <!--<region type="parish"></region>-->
@@ -823,6 +825,7 @@
                   3 different possibilities, how to decide which?: <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Arksey/5328827ab47fc40c8100605e-Bentley</idno>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Leeds/532881fab47fc40c81004174-Bentley</idno>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Bradford/532881dfb47fc40c81000ec9-Bentley</idno>-->
+               <!-- there is also High Bentley in Halifax -->
                <note type="charter">MS. Ch. Yorks. 128b</note>
             </place>
             
@@ -866,6 +869,7 @@
             </place>
             
             <place type="place">
+               <!-- probably near Wykeham N Yorks; could be a minor name. TODO -->
                <placeName type="index">Blaeholm [unidentified]</placeName>
                <placeName type="formInDocument">Blaeholm</placeName>
                <!--<region type="parish"></region>
@@ -874,7 +878,7 @@
                <note type="charter">MS. Ch. Yorks. 318a</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- not found 15.2.21 -->
                <placeName type="index">Boicchom [unidentified]</placeName>
                <placeName type="formInDocument">Boicchom</placeName>
                <!--<region type="parish"></region>
@@ -894,10 +898,10 @@
                <note type="charter">MS. Ch. Yorks. 16</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- prob Bolton in Bradford based on other names in charter -->
                <placeName type="index">Bolton</placeName>
                <placeName type="formInDocument">Bolton</placeName>
-               <!--<region type="parish"></region>-->
+               <region type="parish">Bradford</region>
                <region type="county">Yorkshire</region>
               <!--Several options, how to decide? <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Bishop+Wilton/53285499b47fc40a4d000461-Bolton</idno>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Bolton+by+Bowland/5328827bb47fc40c81006095-Bolton+by+Bowland</idno>
@@ -908,16 +912,16 @@
                <note type="charter">MS. Ch. Yorks. 130</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Bontham [unidentified]</placeName>
-               <placeName type="formInDocument">Bontham</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+            <place type="street">
+               <placeName type="index">York, Bootham</placeName>
+               <placeName type="formInDocument">Boutham</placeName>
+               <region type="parish">York</region>
+               <region type="county">Yorkshire</region>
+               <idno></idno>
                <note type="charter">MS. Ch. Yorks. 323</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- presumably near Ruston in Wykeham, but not found 15.2.21 -->
                <placeName type="index">Boudalemun [unidentified]</placeName>
                <placeName type="formInDocument">Boudalemun</placeName>
                <!--<region type="parish"></region>
@@ -1019,6 +1023,7 @@
                <bibl>Richard Coates, 'Reflections on some major Lincolnshire place-names. Part one: Algarkirk to Melton Ross', <title>Journal of the English Place-Name Society</title> 40 (2008) p. 44.</bibl>
                <note type="charter">MS. Ch. Yorks. 303a</note>
             </place>
+            <!-- ckd to here 15.2.21 -->
             
             <place type="place">
                <placeName type="index">Brompton</placeName>
@@ -2321,7 +2326,7 @@
                <note type="charter">MS. Ch. Yorks. 159</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- ckd -->
                <placeName type="index">Hutton Roof</placeName>
                <placeName type="formInDocument">Hoton Rufs</placeName>
                <region type="parish">Kirkby Lonsdale</region>
