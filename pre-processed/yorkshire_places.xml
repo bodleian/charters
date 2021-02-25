@@ -153,7 +153,7 @@
             
             <place type="manor"><!-- ckd/corrected -->
                <placeName type="index">Middleton</placeName>
-               <placeName type="formInDocument">Mydilton</placeName>
+               <placeName type="formInDocument">Mydilton near Rothewell</placeName>
                <region type="parish">Rothwell</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F244431</idno>
@@ -555,36 +555,76 @@
                <note type="charter">MS. Ch. Yorks. 338</note>
             </place>
             
-            <place type="place">
+         <!--   <place type="place">
+               <!-\- MLH 19.2.21: more than one place, none of them this one! -\->
                <placeName type="index">Allerton</placeName>
-               <placeName type="formInDocument">Allerton</placeName>
-               <placeName type="formInDocument">Alreton</placeName>
-               <placeName type="formInDocument">Alretun</placeName>
-               <placeName type="formInDocument">Alverton</placeName>
-               <placeName type="formInDocument">West Alreton</placeName>
-               <placeName type="formInDocument">West Alretun</placeName>
-               <placeName type="formInDocument">West Alretuna</placeName>
-               <placeName type="formInDocument">East Alretun</placeName>
-               <placeName type="formInDocument">Northe Alverton</placeName>
+              
+               
                <region type="parish">Bradford</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Bradford/532881dfb47fc40c81000ec8-Allerton</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Bradford/more</idno>
-               <note type="charter">MS. Ch. Yorks. 198</note>
-               <note type="charter">MS. Ch. Yorks. 111</note>
-               <note type="charter">MS. Ch. Yorks. 3</note>
+              
+               
+               
+            </place>-->
+            
+            <place type="place">
+               <placeName type="index">Chapel Allerton</placeName>
+               <placeName type="formInDocument">Allerton</placeName>
+               <placeName type="formInDocument">Alverton</placeName>
+               <placeName type="formInDocument">West Alretuna</placeName>
+               <placeName type="formInDocument">West Alretun</placeName>
+               <placeName type="formInDocument">West Alreton</placeName>
+               <region type="parish">Leeds</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Leeds/5328827bb47fc40c810061c0-Chapel+Allerton</idno>
                <note type="charter">MS. Ch. Yorks. 4</note>
+               <note type="charter">MS. Ch. Yorks. 3</note>
+               <note type="charter">MS. Ch. Yorks. 6</note>
+               <note type="charter">MS. Ch. Yorks. 18</note>
+               <note type="charter">MS. Ch. Yorks. 110</note>
+               <note type="charter">MS. Ch. Yorks. 111</note>
+               <note type="charter">MS. Ch. Yorks. 95</note><!-- knights templars -->
+               
+               
+               <note type="charter">MS. Ch. Yorks. 264</note>
+               <note type="charter">MS. Ch. Yorks. 198</note><!-- EPNS says Chapel Allerton -->
+               <note>'Alretun' may also refer to Moor Allerton or Allerton Gledhow</note>
+            </place>
+            
+            <place type="place">
+               <placeName type="index">Allerton Gledhow</placeName>
+               <placeName type="formInDocument">East Alretun</placeName>
+               <region type="parish">Leeds</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <note>'Alretun' may also refer to Moor Allerton or Chapel Allerton</note>
+            </place>
+            
+            <place type="place">
+               <placeName type="index">Northallerton</placeName>
+               <placeName type="formInDocument">Allerton</placeName>
+               <placeName type="formInDocument">Northe Alverton</placeName>
+               <!-- check: parish -->
+               <region type="county">Yorkshire, North Riding</region>
+               <note type="charter">MS. Ch. Yorks. 88</note>
+               <note type="charter">MS. Ch. Yorks. 91b</note>
+            </place>
+            
+            <place type="place">
+               <!-- id from EPNS but could be Allerton Gledhow? -->
+               <placeName type="index">Moor Allerton</placeName>
+               <placeName type="formInDocument">Alretun</placeName>
+               <placeName type="formInDocument">Alreton</placeName>
+               <region type="parish">Leeds</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Leeds/532881fab47fc40c81004173-Moor+Allerton</idno>
                <note type="charter">MS. Ch. Yorks. 3</note>
                <note type="charter">MS. Ch. Yorks. 6</note>
                <note type="charter">MS. Ch. Yorks. 7</note>
                <note type="charter">MS. Ch. Yorks. 10</note>
                <note type="charter">MS. Ch. Yorks. 12</note>
-               <note type="charter">MS. Ch. Yorks. 95</note>
-               <note type="charter">MS. Ch. Yorks. no</note>
-               <note type="charter">MS. Ch. Yorks. 88</note>
-               <note type="charter">MS. Ch. Yorks. 18</note>
-               <note type="charter">MS. Ch. Yorks. 264</note>
-               <note type="charter">MS. Ch. Yorks. 91b</note>
+               <note>'Alretun' may also refer to Allerton Gledhow or Chapel Allerton</note>
             </place>
             
             <place type="wapentake">
@@ -632,12 +672,15 @@
             </place>
             
             <place type="place">
+               <!-- check: other places in the charter are in NRY. -->
+               <!-- not in  EPNS online -->
                <placeName type="index">Armley</placeName>
                <placeName type="formInDocument">Armeley</placeName>
                <region type="parish">Leeds</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Leeds/more</idno>
                <note type="charter">MS. Ch. Yorks. 284a</note>
+               <note>Uncertain if MS. Ch. Yorks. 284a relates to this place.</note>
             </place>
             
             <place type="place">
@@ -817,7 +860,7 @@
             </place>
             
             <place type="place"><!-- grant by Adam Swillington dated at Leeds TODO -->
-               <placeName type="index">Bentley</placeName>
+               <placeName type="index">Bentley [unidentified]</placeName>
                <placeName type="formInDocument">Bentelay</placeName>
                <!--<region type="parish"></region>-->
                <region type="county">Yorkshire, West Riding</region>
@@ -835,7 +878,7 @@
                <placeName type="formInDocument">Beverlaco</placeName>
                <placeName type="formInDocument">Beverley</placeName>
                <placeName type="formInDocument">Beuerlee</placeName>
-               <region type="parish">Beverlac</region>
+               <region type="parish">Beverley</region>
                <region type="county">Yorkshire, East Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Beverley/53285499b47fc40a4d000457-Beverley</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/ERY/Beverley</idno>
@@ -858,8 +901,9 @@
                <note type="charter">MS. Ch. Yorks. 133b</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- ckd -->
                <placeName type="index">Kirkburton</placeName>
+               <!-- could also be Highburton in fact -->
                <placeName type="formInDocument">Birton</placeName>
                <region type="parish">Kirkburton</region>
                <region type="county">Yorkshire, West Riding</region>
@@ -953,7 +997,7 @@
                <note type="charter">MS. Ch. Yorks. 293</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- ckd -->
                <placeName type="index">Bradfield</placeName>
                <placeName type="formInDocument">Bradefeld</placeName>
                <region type="parish">Ecclesfield</region>
@@ -963,23 +1007,34 @@
                <note type="charter">MS. Ch. Yorks. 132a</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- ckd -->
                <placeName type="index">Bramley</placeName>
                <placeName type="formInDocument">Brameley</placeName>
-               <placeName type="formInDocument">Brameleye</placeName>
+               
                <placeName type="formInDocument">Bramlay</placeName>
-               <placeName type="formInDocument">Bramley</placeName>
+               <placeName type="formInDocument">Bramley</placeName> <placeName type="formInDocument">the vale of Bramleia</placeName>
                <region type="parish">Bramley</region><!--in Leeds-->
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Leeds/more</idno>
                <idno>https://www.wikidata.org/wiki/Q606313</idno>
-               <bibl>Goodall, Armitage, <title>Place-names of South-West Yorkshire</title> (1913), p. 82.</bibl>
-               <note type="charter">MS. Ch. Yorks. 35</note>
-               <note type="charter">MS. Ch. Yorks. 17</note>
-               <note type="charter">MS. Ch. Yorks. 328</note>
-               <note type="charter">MS. Ch. Yorks. 329</note>
-               <note type="charter">MS. Ch. Yorks. 280</note>
+               <bibl>PN: WRY III.211</bibl>
+              
+               <note type="charter">MS. Ch. Yorks. 17</note><!-- Kirkstall abbey -->
+               <note type="charter">MS. Ch. Yorks. 328</note><!-- in Leeds -->
+               <note type="charter">MS. Ch. Yorks. 329</note><!-- in leeds -->
+               <note type="charter">MS. Ch. Yorks. 280</note> <!-- ?, near Pudsay -->
+               <note type="charter">MS. Ch. Yorks. 4</note><!-- 'in the parish of Leeds' -->
             </place>
+            
+            <place type="place"><!-- ckd -->
+               <placeName type="index">Bramley</placeName>
+               <placeName type="formInDocument">Brameleye</placeName>
+               <region type="parish">Braithwell</region><!--in Leeds-->
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Braithwell/5328827bb47fc40c810060a7-Bramley</idno>
+               <note type="charter">MS. Ch. Yorks. 35</note><!-- land of Roche abbey, grant to Rob son of Rog of Tinsley [in Rotherham], so taken to be Bramley in Braithwell -->
+            </place>
+            
             
             <place type="place">
                <placeName type="index">Bramham</placeName>
@@ -1072,8 +1127,8 @@
                <note type="charter">MS. Ch. Yorks. 233</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Burmagh</placeName>
+            <place type="place"><!-- person of, per near Menston -->
+               <placeName type="index">Burmagh [unidentified]</placeName>
                <placeName type="formInDocument">Burmagh</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>
@@ -1094,7 +1149,8 @@
             </place>
  
             <place type="place">
-               <placeName type="index">Burton</placeName>
+               <!-- nto found 17.2.21, perh not Yorks -->
+               <placeName type="index">Burton [unidentified]</placeName>
                <!--Many places with the name Burton and Barton > not sure which these refer to-->
                <placeName type="formInDocument">Burton</placeName>
                <placeName type="formInDocument">Byrton</placeName>
@@ -1277,10 +1333,11 @@
                <note type="charter">MS. Ch. Yorks. 32</note>
             </place>
             
-            <place type="place">
+            <place type="street">
                <!--a street name?-->
-               <placeName type="index">Colbergate [unidentified]</placeName>
+               <placeName type="index">York, 'Colbergate' </placeName>
                <placeName type="formInDocument">Colbergate</placeName>
+               <!-- coppergate? -->
                <!--<region type="parish"></region>
                ? York has several parishes, Cobergate not identified so don't know the parish, should we mark the town? 
                <region type="town">York</region>-->
@@ -1341,15 +1398,15 @@
                <note type="charter">MS. Ch. Yorks. 259</note>
             </place>
             
-            <place type="place">
+           <!-- <place type="place">
                <placeName type="index">Cudworth</placeName>
-               <placeName type="formInDocument">Cothewrth</placeName>
+              
                <region type="parish">Royston</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Royston/5328827cb47fc40c81006234-Cudworth</idno>
-               <note type="charter">MS. Ch. Yorks. 44a</note>
+               
             </place>
-             
+             -->
             <place type="place">
                <placeName type="index">Cottingham</placeName>
                <placeName type="formInDocument">Cotyngham</placeName>
@@ -1416,19 +1473,21 @@
             <place type="place">
                <placeName type="index">Cudworth</placeName>
                <placeName type="formInDocument">Cudworth</placeName>
+               <placeName type="formInDocument">Cothewrth</placeName>
                <region type="parish">Royston</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Royston/5328827cb47fc40c81006234-Cudworth</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Royston/more</idno>
                <note type="charter">MS. Ch. Yorks. 45</note>
+               <note type="charter">MS. Ch. Yorks. 44a</note>
             </place>
             
             <place type="place">
-               <placeName type="index">Cugric [unidentified]</placeName>
+               <placeName type="index">Cookridge</placeName>
                <placeName type="formInDocument">Cugric</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Adel</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Adel/532881d8b47fc40c810000da-Cookridge</idno>
                <note type="charter">MS. Ch. Yorks. 97</note>
             </place>
             
@@ -1475,17 +1534,15 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Donstanburgh [unidentified]</placeName>
+               <placeName type="index">Dunstanburgh</placeName>
                <placeName type="formInDocument">Donstanburgh</placeName>
-               <!-- There is Dunstanburgh Castle, is this related to that?
-                  <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+                  <region type="parish">Embleton</region>
+               <region type="county">Northumberland</region>
                <note type="charter">MS. Rolls Yorks. 2</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Dowelle (unidentfied)</placeName>
+            <place type="place"> <!-- not found 17.2.21 -->
+               <placeName type="index">Dowelle (unidentified)</placeName>
                <placeName type="formInDocument">Dowelle</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>
@@ -1505,7 +1562,7 @@
                <note type="charter">MS. Ch. Yorks. 234</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- near Ellerbek. could treat as minor -->
                <placeName type="index">Dritdale [unidentified]</placeName>
                <placeName type="formInDocument">Dritdale</placeName>
                <!--<region type="parish"></region>
@@ -1549,12 +1606,11 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Dunstall [unidentified]</placeName>
+               <placeName type="index">Tunstall </placeName>
                <placeName type="formInDocument">Dunstall</placeName>
-               <!-- there is a villege of Dunstall in Stafforshire : https://www.wikidata.org/wiki/Q5315717
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Tunstall</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Tunstall/5328549ab47fc40a4d000566-Tunstall</idno>
                <note type="charter">MS. Ch. Yorks. 44b</note>
             </place>
             
@@ -1586,6 +1642,7 @@
                <placeName type="index">Eccup</placeName>
                <placeName type="formInDocument">Ecob</placeName>
                <placeName type="formInDocument">Ecop</placeName>
+               <placeName type="formInDocument">Ecoppe</placeName>
                <region type="parish">Adel</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Adel/532881d8b47fc40c810000db-Eccup</idno>
@@ -1617,67 +1674,68 @@
                <note type="charter">MS. Rolls Yorks. 2</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- not found 17.2.21, should be near Foston on the Wolds, etc. -->
                <placeName type="index">Emeslay [unidentified]</placeName>
                <!-- same as Emlay?-->
                <placeName type="formInDocument">Emeslay</placeName>
                <note type="charter">MS. Ch. Yorks. 338</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Emlay</placeName>
+            <place type="place"><!-- emley, birton, thorntlay -->
+               <placeName type="index">Emley</placeName>
                <placeName type="formInDocument">Emlay</placeName>
-               <region type="parish">Emlay</region>
+               <region type="parish">Emley</region>
                <region type="county">Yorkshire, West Riding</region>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Emley</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Emley/5328827bb47fc40c810060fb-Emley</idno>
                <idno>https://www.wikidata.org/wiki/Q5372666</idno>
-               <bibl>Moorman, F. W., <title>The place-names of the West Riding of Yorkshire</title> (1910), p. 68.</bibl>
-               <bibl>Goodall, Armitage, <title>Place-names of South-West Yorkshire</title> (1913), p. 132.</bibl>
+              <!-- <bibl>Moorman, F. W., <title>The place-names of the West Riding of Yorkshire</title> (1910), p. 68.</bibl>
+               <bibl>Goodall, Armitage, <title>Place-names of South-West Yorkshire</title> (1913), p. 132.</bibl>-->
                <note type="charter">MS. Ch. Yorks. 138</note>
             </place>
             
             <place type="place">
-               <placeName type="index">Enesby [unidentified]</placeName>
-               <placeName type="formInDocument">Enesby in Clyveland</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <placeName type="index">Easby</placeName>
+               <placeName type="formInDocument">Euesby in Clyveland</placeName>
+            
+               <region type="parish">Ingleby Greenhow</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Ingleby+Greenhow/53286b32b47fc40bc60004de-Easby</idno>
+               <note>Identification uncertain.</note>
                <note type="charter">MS. Ch. Yorks. 139</note>
             </place>
             
-            <place type="place">
+          <!--  <place type="place">
                <placeName type="index">Ingleby Greenhow</placeName>
-               <placeName type="formInDocument">Engleby near Grenehowe</placeName>
+              
                <region type="parish">Ingleby Greenhow</region>
                <region type="county">Yorkshire, North Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Ingleby+Greenhow/53286b32b47fc40bc60004df-Ingleby+Greenhow</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/InglebyGreenhow</idno>
                <bibl>'Parishes: Ingleby Greenhow', in A History of the County of York North Riding: Volume 2, ed. William Page (London, 1923), pp. 243-249. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol2/pp243-249 [accessed 27 January 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 176</note>
-            </place>
+            </place>-->
             
             <place type="place">
-               <placeName type="index">Eppleby</placeName>
+               <placeName type="index">Eppleby </placeName>
                <placeName type="formInDocument">Eppleby, alias Appleby</placeName>
-               <!-- two different possibilities, how to choose?
                <region type="parish">Forcett</region>
                <region type="county">Yorkshire, North Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Forcett/53286b32b47fc40bc600048b-Eppleby</idno>-->
-               <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/GillingWest/more</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Forcett/53286b32b47fc40bc600048b-Eppleby</idno>
                <note type="charter">MS. Ch. Yorks. 112</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Arncliffe</placeName>
+            <place type="place"><!-- ckd -->
+               <placeName type="index">Ingleby Arncliffe</placeName>
                <placeName type="formInDocument">Erneclife</placeName>
                <placeName type="formInDocument">Erneclive</placeName>
-               <region type="parish">Arncliffe</region>
-               <region type="county">Yorkshire, West Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Arncliffe/5328827ab47fc40c81006061-Arncliffe</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Arncliffe</idno>
-               <note type="charter">MS. Ch. Yorks. 54</note>
+               <region type="parish">Ingleby Arncliffe</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/53286b0cb47fc40bc600037f-Ingleby+Arncliffe</idno>
+               <note type="charter">MS. Ch. Yorks. 54</note><!-- Ingleby Arncliffe -->
                <note type="charter">MS. Douce Ch. 70</note>
             </place>
+            
+            
            
             <place type="place">
                <placeName type="index">Easingwold</placeName>
@@ -1694,36 +1752,35 @@
                <note type="charter">MS. Rolls Yorks. 10</note>
             </place>
             
-            <place type="place">
+          <!--  <place type="place">
                <placeName type="index">Headingley</placeName>
-               <placeName type="formInDocument">Est Hadigleia</placeName>
-               <placeName type="formInDocument">West Hadigleia (Haddlesey)</placeName>
+              
                <region type="parish">Leeds</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Leeds/5328827cb47fc40c810061c1-Headingley</idno>
-               <note type="charter">MS. Ch. Yorks. 4</note>
-            </place>
+              
+            </place>-->
             
-            <place type="place">
+            <place type="place"><!-- nr Thornhill, Bedale? -->
                <placeName type="index">Estbeswike [unidentified]</placeName>
                <placeName type="formInDocument">Estbeswike</placeName>
-               <!--Perhaps Beswick? 
+               <!--Perhaps Beswick? ERY
                <region type="parish"></region>
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Yorks. 140</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Esthorpe [unidentified]</placeName>
+            <place type="place"><!-- near Goodmanham and Barthorpe in Acklam-->
+               <placeName type="index">Easthorpe </placeName>
                <placeName type="formInDocument">Esthorpe</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Londesborough</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Londesborough/53285471b47fc40a4d0001db-Easthorpe</idno>
                <note type="charter">MS. Ch. Yorks. 146</note>
             </place>
            
-            <place type="place">
+            <place type="place"><!-- ckd -->
                <placeName type="index">Fairburn</placeName>
                <placeName type="formInDocument">Farneburne</placeName>
                <region type="parish">Ledsham</region>
@@ -1733,13 +1790,12 @@
                <note type="charter">MS. Ch. Yorks. 278</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Farnley</placeName>
+            <place type="place"><!-- ckd/rev mlh -->
+               <placeName type="index">Farnley Tyas</placeName>
                <placeName type="formInDocument">Farnlay</placeName>
-               <region type="parish">Otley</region>
+               <region type="parish">Almondbury</region>
                <region type="county">Yorkshire, West Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Otley/5328827cb47fc40c810061e7-Farnley</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Otley/more</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Almondbury/5328827ab47fc40c81006052-Farnley+Tyas</idno>
                <note type="charter">MS. Ch. Yorks. 141</note>
             </place>
             
@@ -1773,16 +1829,18 @@
                <note type="charter">MS. Rolls Yorks. 15</note>
             </place>
             
-            <place type="place">
+          <!--  <place type="place">
+               minor
                <placeName type="index">Fiviane brigge [unidentified]</placeName>
                <placeName type="formInDocument">Fiviane brigge</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 306</note>
-            </place>
+            </place>-->
             
             <place type="place">
+               <!-- grant of Torksey to Drax, could be in Lincs? -->
                <placeName type="index">Flitting [unidentified]</placeName>
                <placeName type="formInDocument">Flitting</placeName>
                <!--<region type="parish"></region>
@@ -1812,11 +1870,10 @@
             </place>
             
             <place type="place">
-               <placeName type="formInDocument">Foston</placeName>
+               <placeName type="formInDocument">Foston on the Wolds</placeName>
                <region type="parish">Foston</region>
-               <region type="county">Yorkshire, North Riding</region>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/Foston</idno>
-               <bibl>'Parishes: Foston with Thornton-le-Clay', in A History of the County of York North Riding: Volume 2, ed. William Page (London, 1923), pp. 134-137. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol2/pp134-137 [accessed 27 January 2021].</bibl>
+               <region type="county">Yorkshire, East Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Foston/53285499b47fc40a4d0004a1-Foston+on+the+Wolds</idno>
                <note type="charter">MS. Ch. Yorks. 338</note>
                <note type="charter">MS. Ch. Yorks. 340</note>
             </place>
@@ -1831,32 +1888,34 @@
                <note type="charter">MS. Ch. Yorks. 124</note>
             </place>
             
-            <place type="place">
+         <!--   <place type="place"><!-\- taken as minor -\->
                <placeName type="index">Fukedal [unidentified]</placeName>
                <placeName type="formInDocument">Fukedal</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 299</note>
-            </place>
+            </place>-->
             
-            <place type="place">
+          <!--  <place type="place">
+               minor
                <placeName type="index">Fultac [unidentified]</placeName>
                <placeName type="formInDocument">Fultac</placeName>
                <region type="parish"></region>
                <region type="county"></region>
                <idno></idno>
                <note type="charter">MS. Ch. Yorks. 254</note>
-            </place>
+            </place>-->
             
-            <place type="place">
+         <!--   <place type="place">
+               minor
                <placeName type="index">Gangemensteyn [unidentified]</placeName>
                <placeName type="formInDocument">Gangemensteyn</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 33</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <placeName type="index">Garton</placeName>
@@ -1883,6 +1942,7 @@
                <placeName type="formInDocument">Gemelyng</placeName>
                <placeName type="formInDocument">Gemling</placeName>
                <placeName type="formInDocument">Gemlyng</placeName>
+               <placeName type="formInDocument">Gymelyn</placeName>
                <region type="parish">Foston</region>
                <region type="county">Yorkshire, East Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Foston/53285499b47fc40a4d0004a2-Gembling</idno>
@@ -1891,6 +1951,7 @@
                <note type="charter">MS. Ch. Yorks. 341</note>
                <note type="charter">MS. Ch. Yorks. 343</note>
                <note type="charter">MS. Ch. Yorks. 340</note>
+               <note type="charter">MS. Ch. Yorks. 339</note>
                <note type="charter">MS. Ch. Yorks. 342</note>
             </place>
            
@@ -1917,20 +1978,21 @@
                <note type="charter">MS. Douce Ch. 57</note>
             </place>
             
-            <place type="place">
+            <!--<place type="place">
+               minor
                <placeName type="index">Godefrayheved [unidentified]</placeName>
                <placeName type="formInDocument">Godefrayheved</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 142</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <placeName type="index">Gorhambury</placeName>
                <placeName type="formInDocument">Gorambury</placeName>
-               <region type="parish">Gorhambury</region>
-               <region type="county">St Michaels</region>
+               <region type="parish">St Michaels</region>
+               <region type="county">Hertfordshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Hertfordshire/St+Michaels/53285b91b47fc40ace0004f0-Gorhambury</idno>
                <note type="charter">MS. Ch. Yorks. 337</note>
             </place>
@@ -1945,14 +2007,14 @@
                <note type="charter">MS. Douce Ch. 1</note>
             </place>
             
-            <place type="place">
-               <!-- perhaps this place?
-               <placeName type="index">Graystone</placeName>-->
+            <place type="place"><!-- richard son of adam de screnam = ?scrayingham ERY; Godefrayheved -->
+               <placeName type="index">Greystone</placeName>
                <placeName type="formInDocument">Graystan</placeName>
-               <!--<region type="parish">Stanwick Saint John</region>
+               <region type="parish">Over Silton</region>
                <region type="county">Yorkshire, North Riding</region>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/StanwickSaintJohn/more</idno>-->
                <note type="charter">MS. Ch. Yorks. 142</note>
+               <note>Identification uncertain.</note>
+               <!-- not the place in Aberford, to judge from EPNS -->
             </place>
             
             <place type="place">
@@ -2006,23 +2068,24 @@
             </place>
             
             <place type="place">
+               <!-- only clue is a wit, rector of Garton and dean of Holderness, which seems to make Grimston in Garton most likely  -->
                <placeName type="index">Grimston</placeName>
                <placeName type="formInDocument">Grimeston</placeName>
                <placeName type="formInDocument">Grymeston</placeName>
                <placeName type="formInDocument">Grymestone</placeName>
-               <!-- <region type="parish"></region>
-               <region type="county"></region>
-               Two possible Grimston's in Yorkshire - how to decide which one
-               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Dunnington/53285499b47fc40a4d00048c-Grimston</idno>
+                <region type="parish">Garton</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Garton/53285470b47fc40a4d000102-Grimston+Garth</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/ERY/Dunnington</idno>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Kirkby+Wharfe/5328827bb47fc40c810061aa-Grimston</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/KirkbyWharfe</idno>-->
                <note type="charter">MS. Ch. Yorks. 144</note>
                <note type="charter">MS. Ch. Yorks. 145</note>
                <note type="charter">MS. Ch. Yorks. 143</note>
+               <note>Identification uncertain.</note>
             </place>
           
-            <place type="place">
+            <place type="place"><!-- near 'Flitting' / Drax? 
+            not found 17.2.21; could be Grennes fe?
+            -->
                <placeName type="index">Grennesse [unidentified]</placeName>
                <placeName type="formInDocument">Grennesse</placeName>
                <!-- <region type="parish"></region>
@@ -2043,17 +2106,18 @@
                <note type="charter">MS. Ch. Yorks. 146</note>
             </place>
             
-            <place type="place">
+          <!--  <place type="place">
                <placeName type="index">Gembling</placeName>
-               <placeName type="formInDocument">Gymelyn</placeName>
+              
                <region type="parish">Foston</region>
                <region type="county">Yorkshire, East Riding</region>
                <idno>http://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Foston/53285499b47fc40a4d0004a2-Gembling</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/ERY/FostonOnTheWolds</idno>
-               <note type="charter">MS. Ch. Yorks. 339</note>
-            </place>
+              
+            </place>-->
             
             <place type="place">
+               <!-- anabel ... de Tumbholme [in Owston] nr Doncaster. this cd be Haw in Skipton??? -->
                <placeName type="index">Haghe [unidentified]</placeName>
                <placeName type="formInDocument">Haghe</placeName>
                <!-- <region type="parish"></region>
@@ -2078,17 +2142,19 @@
                <note type="charter">MS. Ch. Yorks. 151</note>
                <note type="charter">MS. Ch. Yorks. 152</note>
             </place>
-            
+            <!--
             <place type="place">
+               this is a minor name (now Halstead lodge) in Menston PN Wry 202
+               <!-\- Heny ... of Menston -\->
                <placeName type="index">Halsteads</placeName>
                <placeName type="formInDocument">Hallestede</placeName>
-               <!--Two possible places
-               <region type="parish"></region>-->
+               <!-\-Two possible places
+               <region type="parish"></region>-\->
                <region type="county">Yorkshire, West Riding</region>
-               <!--<idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Giggleswick/532881e7b47fc40c810021c7-Halsteads</idno>
-               <idno>https://epns.nottingham.ac.uk/browse/id/53288206b47fc40c81005aa8-Halsteads</idno>-->
+               <!-\-<idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Giggleswick/532881e7b47fc40c810021c7-Halsteads</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/id/53288206b47fc40c81005aa8-Halsteads</idno>-\->
                <note type="charter">MS. Ch. Yorks. 216</note>
-            </place>
+            </place>-->
           
             <place type="place">
                <placeName type="index">Hamsterley</placeName>
@@ -2109,8 +2175,8 @@
                <note type="charter">MS. Ch. Yorks. 195</note>
             </place>
             
-            <place type="place">
-               <!--should this be marked? the docs refer to lord Hastings, not sure if it warrants a place attribute after all-->
+          <!--  <place type="place">
+               <!-\-should this be marked? the docs refer to lord Hastings, not sure if it warrants a place attribute after all-\->
                <placeName type="index">Hastings</placeName>
                <placeName type="formInDocument">Hastyngs</placeName>
                <placeName type="formInDocument">Hastings</placeName>
@@ -2120,17 +2186,14 @@
                <idno>https://www.genuki.org.uk/big/eng/SSX/Hastings</idno>
                <note type="charter">MS. Ch. Yorks. 274</note>
                <note type="charter">MS. Ch. Yorks. 331</note>
-            </place>
+            </place>-->
             
             <place type="place">
+               <!-- isabel ketering, lady of H; charter re Menston -->
                <placeName type="index">Hawksworth</placeName>
                <placeName type="formInDocument">Haukesworth</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               A couple of possible places  <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Ecclesfield/532881e4b47fc40c81001b85-Hawksworth+Head</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Leeds/more</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Otley</idno>-->
-               <bibl>Moorman, F. W., <title>The place-names of the West Riding of Yorkshire</title> (1910), p. 92.</bibl>
+               <region type="parish">Otley</region>
+               <region type="county">Yorkshire, West Riding</region>
                <note type="charter">MS. Ch. Yorks. 154a</note>
             </place>
             
@@ -2139,6 +2202,9 @@
                <placeName type="formInDocument">Heddigeley</placeName>
                <placeName type="formInDocument">Heddingley</placeName>
                <placeName type="formInDocument">Hedingley</placeName>
+               <placeName type="formInDocument">Hedingleid</placeName> <!-- sic -->
+               <placeName type="formInDocument">Est Hadigleia</placeName><!-- ckd -->
+               <placeName type="formInDocument">West Hadigleia (Haddlesey)</placeName>
                <region type="parish">Leeds</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Leeds/5328827cb47fc40c810061c1-Headingley</idno>
@@ -2146,16 +2212,18 @@
                <note type="charter">MS. Ch. Yorks. 328</note>
                <note type="charter">MS. Ch. Yorks. 186</note>
                <note type="charter">MS. Ch. Yorks. 92</note>
-            </place>
-            
-            <place type="place">
-               <placeName type="index">Hedingleid [unidentified]</placeName>
-               <placeName type="formInDocument">Hedingleid</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <note type="charter">MS. Ch. Yorks. 4</note>
                <note type="charter">MS. Ch. Yorks. 18</note>
             </place>
+            
+          <!--  <place type="place">
+               <placeName type="index">Hedingleid [unidentified]</placeName>
+               
+               <!-\-<region type="parish"></region>
+               <region type="county"></region>
+               <idno></idno>-\->
+               
+            </place>-->
             
             <place type="place">
                <placeName type="index">Hedon</placeName>
@@ -2184,14 +2252,15 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Yorks. 93</note>
+               <!-- corrody in house of Knights Templars at -->
             </place>
             
             <place type="place">
-               <placeName type="index">Herlessei [unidentified]</placeName>
+               <placeName type="index">East Harlsey </placeName>
                <placeName type="formInDocument">Herlessei</placeName><!-- same as Helesseia above? -->
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">East Harlsey</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/53286b0cb47fc40bc600035f-East+Harlsey</idno>
                <note type="charter">MS. Ch. Yorks. 54</note>
             </place>
             
@@ -2205,14 +2274,19 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Hetton</placeName>
+               <placeName type="index">Kirkheaton</placeName>
                <placeName type="formInDocument">Heton</placeName>
-               <region type="parish">Burnsall</region>
+               <region type="parish">Kirkheaton</region>
                <region type="county">Yorkshire, West Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Burnsall/5328827bb47fc40c810060bd-Hetton</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Burnsall/more</idno>
-               <note type="charter">MS. Ch. Yorks. 138</note>
-               <note type="charter">MS. Ch. Yorks. 284a</note>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Kirkheaton/5328827bb47fc40c810061ad-Kirkheaton</idno>
+               <note type="charter">MS. Ch. Yorks. 138</note><!-- needs to be a parish; near Thorncliffe? -->
+              
+            </place>
+            
+            <place type="place">
+               <placeName type="index">Heton [unidentified]</placeName>
+               <placeName type="formInDocument">Heton</placeName>
+               <note type="charter">MS. Ch. Yorks. 284a</note><!-- ?near Hutton Conyers? -->
             </place>
             
             <place type="place">
@@ -2228,11 +2302,13 @@
             <place type="place">
                <placeName type="index">Hickleton</placeName>
                <placeName type="formInDocument">Hikilton</placeName>
+               <placeName type="formInDocument">Hykylton</placeName>
                <region type="parish">Hickleton</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Hickleton/5328827bb47fc40c81006162-Hickleton</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Hickleton</idno>
                <bibl>Goodall, Armitage, <title>Place-names of South-West Yorkshire</title> (1913), p. 167.</bibl>
+               <note type="charter">MS. Ch. Yorks. 45</note>
                <note type="charter">MS. Ch. Yorks. 45</note>
             </place>
             
@@ -2246,6 +2322,7 @@
             </place>
             
             <place type="place">
+               <!-- perhaps near Norton and Hutton Conyers if those identifications are correct  -->
                <placeName type="index">Hoigne [unidentified]</placeName>
                <placeName type="formInDocument">Hoigne</placeName>
                <!--<region type="parish"></region>
@@ -2264,11 +2341,10 @@
                <note type="charter">MS. Ch. Yorks. 330</note>
             </place>
             
-            <place type="place">
-               <placeName type="index"></placeName>
+            <place type="wapentake">
+               <placeName type="index">Holderness</placeName>
                <placeName type="formInDocument">Holderness</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
+               <region type="county">Yorkshire, East Riding</region>
                <idno></idno>
                <note type="charter">MS. Ch. Yorks. 143</note>
             </place>
@@ -2293,27 +2369,46 @@
                <note type="charter">MS. Ch. Yorks. 63</note>
             </place>
             
-            <place type="place">
+           <!-- <place type="place">
                <placeName type="index">Osmondthorpe</placeName>
-               <placeName type="formInDocument">Hosmundthorp</placeName>
+               
                <region type="parish">Whitkirk</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Whitkirk/5328827cb47fc40c810062a9-Osmondthorpe</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Leeds/OsmondthorpeHistory</idno>
-               <note type="charter">MS. Ch. Yorks. 263</note>
-            </place>
+             
+            </place>-->
             
-            <place type="place">
-               <!--<placeName type="index"></placeName>
-                  Hutton or Hooton, many sites it could refer to; how to decide which it is?-->
+            <place type="place"><!-- ckd; id not fully certain -->
+               <placeName type="formInDocument">Hutton Cranswick </placeName>
                <placeName type="formInDocument">Hoton</placeName>
                <placeName type="formInDocument">Hotone</placeName>
                <placeName type="formInDocument">Hotun</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>-->
-               <note type="charter">MS. Ch. Yorks. 157</note>
-               <note type="charter">MS. Ch. Yorks. 158</note>
-               <note type="charter">MS. Ch. Yorks. 283</note>
+               <region type="parish">Hutton Cranswick</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Hutton+Cranswick/5328549ab47fc40a4d0004e1-Hutton+Cranswick</idno>
+               <note type="charter">MS. Ch. Yorks. 157</note><!--  HOTON. <persName><forename>Cecilia</forename>, relict of 
+                  <persName><forename>Hugh</forename> de <surname>Driffeld</surname></persName></persName>, 
+                  quit-claims to <persName><forename>William</forename> called '<surname>Schynner</surname>' of 
+                     <placeName role="person">Hotun</placeName></persName> all right and claim in a toft and croft in the village of
+                  <placeName>Hoton</placeName> -->
+               
+            
+           <!-- <place type="place">
+               <placeName type="index">Hutton Bushell (Buscel)</placeName>
+               <placeName type="formInDocument">Hotone</placeName>
+               <region type="parish">Hutton Bushell (Buscel)</region>
+               <region type="count">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Hutton+Buscel/53286b32b47fc40bc60004d4-Hutton+Bushell+%28Buscel%29</idno>
+               <note type="charter">MS. Ch. Yorks. 158</note><!-\- Hutton Bushel -\->
+               <note type="charter">MS. Ch. Yorks. 283</note></place><!-\- Hutton Bushel -\->
+            </place>-->
+            
+            <place type="place">
+               <placeName type="index">Hutton Conyers</placeName>
+               <placeName type="formInDocument">Hoton</placeName>
+               <region type="parish">Hutton Conyers</region>
+               <region type="county">Yorkshire, North Riding</region>
                <note type="charter">MS. Ch. Yorks. 284a</note>
             </place>
             
@@ -2338,10 +2433,12 @@
             <place type="place">
                <placeName type="index">Hutton Bushell (Buscel)</placeName>
                <placeName type="formInDocument">Hotone Buscell</placeName>
-               <region type="parish">Hutton Buscel</region>
-               <region type="county">Yorkshire, North Riding</region>
+               <placeName type="formInDocument">Hotone</placeName>
+               <region type="parish">Hutton Bushell (Buscel)</region>
+               <region type="count">Yorkshire, North Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Hutton+Buscel/53286b32b47fc40bc60004d4-Hutton+Bushell+%28Buscel%29</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/HuttonBuscel</idno>
+               <note type="charter">MS. Ch. Yorks. 158</note><!-- Hutton Bushel -->
+               <note type="charter">MS. Ch. Yorks. 283</note></place><!-- Hutton Bushel -->
                <bibl>'Parishes: Hutton Bushel', in A History of the County of York North Riding: Volume 2, ed. William Page (London, 1923), pp. 441-444. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol2/pp441-444 [accessed 21 January 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 158</note>
             </place>
@@ -2356,13 +2453,13 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Houghton</placeName>
+               <placeName type="index">Houghton-le-Spring</placeName>
                <placeName type="formInDocument">Houhton</placeName>
-               <region type="parish">Sancton</region>
-               <region type="county">Yorkshire, East Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Sancton/53285471b47fc40a4d000278-Houghton</idno>
-               <!--DEEDS database identfies the place with this parish in county Durham:
-                  <idno>https://www.wikidata.org/wiki/Q2326854</idno>
+               <region type="parish">Houghton-le-Spring</region>
+               <region type="county">Durham</region>
+               <idno>https://www.wikidata.org/wiki/Q2326854</idno> <!--<idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Sancton/53285471b47fc40a4d000278-Houghton</idno>-->
+               <!--DEEDS database (correctly) identfies the place with this parish in county Durham:
+                 
                <idno>https://www.genuki.org.uk/big/eng/DUR/HoughtonleSpring</idno>
                https://deeds.library.utoronto.ca/charters/03280234-->
                <note type="charter">MS. Ch. Yorks. 86</note>
@@ -2435,21 +2532,22 @@
                <note type="charter">MS. Ch. Yorks. 242</note>
             </place>
             
-            <place type="place">
+          <!--  <place type="place">
                <placeName type="index">Hickleton</placeName>
-               <placeName type="formInDocument">Hykylton</placeName>
+              
                <region type="parish">Hickleton</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Hickleton/5328827bb47fc40c81006162-Hickleton</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Hickleton</idno>
-               <note type="charter">MS. Ch. Yorks. 45</note>
+              
             </place>
-            
+            -->
             <place type="place">
                <placeName type="index">Ingleby Greenhow</placeName>
                <placeName type="formInDocument">Ingelby near Grenehou</placeName>
                <placeName type="formInDocument">Ingelby, near Grenhou</placeName>
                <placeName type="formInDocument">Ingleby near Gronehowe in Clyveland</placeName>
+               <placeName type="formInDocument">Engleby near Grenehowe</placeName>
                <placeName type="formInDocument">Ingleby, in Clyveland near Grenehowe</placeName>
                <placeName type="formInDocument">Ingleby</placeName>
                <placeName type="formInDocument">Inglebie</placeName>
@@ -2473,6 +2571,7 @@
                <note type="charter">MS. Ch. Yorks. 162</note>
                <note type="charter">MS. Ch. Yorks. 164</note>
                <note type="charter">MS. Ch. Yorks. 165</note>
+               <note type="charter">MS. Ch. Yorks. 176</note>
             </place>
            
             <place type="place">
@@ -2513,7 +2612,7 @@
             </place>
           
             <place type="place">
-               <placeName type="index">Kirkby-in-Cleveland</placeName>
+               <placeName type="index">Kirby in Cleveland</placeName>
                <placeName type="formInDocument">Kirkeby in Clevelande</placeName>
                <placeName type="formInDocument">Kirkeby in Cliveland</placeName>
                <placeName type="formInDocument">Kyrkeby in Clyveland</placeName>
@@ -2535,6 +2634,7 @@
                <note type="charter">MS. Ch. Yorks. 178</note>
                <note type="charter">MS. Ch. Yorks. 179</note>
                <note type="charter">MS. Ch. Yorks. 180</note>
+               <note type="charter">MS. Ch. Yorks. 32</note>
             </place>
            
             <place type="place">
@@ -2552,6 +2652,7 @@
                https://www.genuki.org.uk/big/sct/DFS/KirkpatrickJuxta
                https://www.genuki.org.uk/big/sct/DFS/KirkpatrickFleming-->
                <placeName type="index">Kirkpatrik [unidentified]</placeName>
+               <!-- https://www.poms.ac.uk/record/source/4034/ -->
                <placeName type="formInDocument">Kirkpatrik</placeName>
                <!-- in Scotland
                   <region type="parish"></region>
@@ -2580,14 +2681,15 @@
                <note type="charter">MS. Ch. Yorks. 63</note>
             </place>
             
-            <place type="place">
+        <!--    <place type="place">
+               no reason not to identify with Kirby in Cleveland
                <placeName type="index">Kirkby [unidentified]</placeName>
-               <placeName type="formInDocument">Kyrkeby</placeName><!-- different from Kirkby-in-Cleveland? -->
-               <!--<region type="parish"></region>
+               <placeName type="formInDocument">Kyrkeby</placeName><!-\- different from Kirkby-in-Cleveland? -\->
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 32</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <placeName type="index">Roundhay</placeName>
@@ -2648,12 +2750,11 @@
                <note type="charter">MS. Ch. Yorks. 104</note>
             </place>
             
-            <place type="minor">
-               <placeName type="index"></placeName>
+            <place type="street">
+               <placeName type="index">Wakefield, 'le Fleschbothes'</placeName>
                <placeName type="formInDocument">le Fleschbothes</placeName>
                <region type="parish">Wakefield</region>
                <region type="county">Yorkshire, West Riding</region>
-               <idno></idno>
                <note type="charter">MS. Ch. Yorks. 314</note>
             </place>
             
@@ -2753,7 +2854,7 @@
                <note type="charter">MS. Ch. Yorks. 67</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- ckd -->
                <placeName type="index">Woodhouse</placeName>
                <placeName type="formInDocument">Littlewodhowse</placeName>
                <region type="parish">Leeds</region>
@@ -2892,13 +2993,13 @@
             </place>
             
             <place type="place">
+               <!-- two Melmerbys: identification based on other places in charter -->
                <placeName type="index">Melmerby</placeName>
                <placeName type="formInDocument">Melmorby</placeName>
-               <region type="parish">Coverham</region>
+               <region type="parish">Hutton Conyers</region>
                <region type="county">Yorkshire, North Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Coverham/53286b32b47fc40bc6000453-Melmerby</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/Coverham/more</idno>
-               <bibl>'Parishes: Coverham', in A History of the County of York North Riding: Volume 1, ed. William Page (London, 1914), pp. 214-225. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol1/pp214-225 [accessed 2 February 2021].</bibl>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Hutton+Conyers/53286b32b47fc40bc60004d6-Melmerby</idno>
+               
                <note type="charter">MS. Ch. Yorks. 284a</note>
             </place>
             
@@ -2988,17 +3089,24 @@
                <note type="charter">MS. Douce Ch. 5</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Middleton</placeName>
-               <placeName type="formInDocument">Midelton</placeName>
+            <place type="place"><!-- ckd -->
+               <placeName type="index">West Melton</placeName>
                <placeName type="formInDocument">Midilton</placeName>
-               <region type="parish">Middleton</region>
-               <region type="county">Yorkshire, North Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Middleton/53286b32b47fc40bc6000545-Middleton</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/Middleton</idno>
-               <bibl>'Parishes: Middleton', in A History of the County of York North Riding: Volume 2, ed. William Page (London, 1923), pp. 453-461. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol2/pp453-461 [accessed 21 January 2021].</bibl>
+               <region type="parish"> Wath upon Dearne</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Wath+upon+Dearne/5328827cb47fc40c8100629b-West+Melton</idno>
+               <!-- <note>For identification see https://opendomesday.org/name/swein-son-of-alric/ and the Pontefract and Bretton cartularies</note>-->
+               <note type="charter">MS. Douce Ch. 69</note><!-- grant of the tithes to Monk Bretton, so prob. Middleton in Rothwell or Kildwick. Not identified inthe cartulary. -->
+              
+            </place>
+            
+            <place type="place"><!-- ckd -->
+               <placeName type="index">Middleton</placeName>
+               <placeName type="formInDocument">Midilton</placeName>
+               <placeName type="formInDocument">Midelton</placeName>
+               <region type="parish">Rothwell</region>
+               <region type="county">Yorkshire, West Riding</region>
                <note type="charter">MS. Ch. Yorks. 249b</note>
-               <note type="charter">MS. Douce Ch. 69</note>
                <note type="charter">MS. Ch. Yorks. 249a</note>
             </place>
             
@@ -3012,7 +3120,7 @@
                <note type="charter">MS. Ch. Yorks. 44b</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- not found 17.2.21; hard to identify; grant by Thomas of Shipley -->
                <placeName type="formInDocument">Morhouses</placeName>
                <!--several different places with name Moor Houses / Moorhouse; how to decide?
                https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Ilkley/532881f5b47fc40c8100362f-Moor+Houses
@@ -3026,15 +3134,17 @@
             </place>
             
             <place type="place">
+               <!-- ref to Basdale, Cristiana de Gisburne; ?Morton in Ormesby -->
                <placeName type="index">Morton</placeName>
                <placeName type="formInDocument">Morton</placeName>
-               <!--<region type="parish"></region>
-               <region type="county">Yorkshire</region>
-              several potential places, how to decide? <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Bingley/5328827ab47fc40c81006081-East+Morton+%26+West+Morton</idno>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Ormesby/53286b32b47fc40bc600055c-Morton</idno>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/East+Harlsey/53286b0ab47fc40bc60000d4-Morton</idno>
+               <region type="parish">Ormesby</region>
+               <region type="county">Yorkshire, North Riding</region>
+              <!--several potential places, how to decide?--> <!--<idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Bingley/5328827ab47fc40c81006081-East+Morton+%26+West+Morton</idno>
+              --> <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Ormesby/53286b32b47fc40bc600055c-Morton</idno>
+<!--               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/East+Harlsey/53286b0ab47fc40bc60000d4-Morton</idno>
                <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Overton/53286b0ab47fc40bc600023e-Morton</idno>-->
                <note type="charter">MS. Ch. Yorks. 251</note>
+               <note>Identification uncertain.</note>
             </place>
             
             <place type="place">
@@ -3047,14 +3157,15 @@
                <note type="charter">MS. Ch. Yorks. 252</note>
             </place>
             
-            <place type="place">
+          <!--  <place type="place">
+               minor
                <placeName type="index">Myzum [unidentified]</placeName>
                <placeName type="formInDocument">Myzum</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 96</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <placeName type="index">Nawton</placeName>
@@ -3096,29 +3207,21 @@
                <note type="charter">MS. Ch. Yorks. 254</note>
             </place>
             
-            <place type="place">
+           <!-- <place type="place">
+               a minor name, EPNS WRY iv.203
                <placeName type="index">Neuryding [unidentified]</placeName>
-               <placeName type="formInDocument">Neuryding</placeName>
-               <!--<region type="parish"></region>
+               <placeName type="formInDocument">Neuryding in Mensingtone</placeName>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 76</note>
-            </place>
+            </place>-->
             
             <place type="place">
-               <placeName type="index">Newton</placeName>
+               <!-- could be Potter Newton? 19.2.21-->
+               <placeName type="index">Newton [unidentified]</placeName>
                <placeName type="formInDocument">Neuton</placeName>
-               <!-- several potential Newtons, how to decide?
-                https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Newton/53286b32b47fc40bc600054b-Newton
-                https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Pickering/53286b32b47fc40bc6000577-Newton
-                https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Stonegrave/53286b32b47fc40bc60005be-Newton
-                https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Blacktoft/53285470b47fc40a4d00004e-Newton
-                https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Cherry+Burton/53285470b47fc40a4d000098-Newton
-                https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Wakefield/53288206b47fc40c81005c04-Newton
-                https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Sprotbrough/53288204b47fc40c810057e7-Newton
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+              
                <note type="charter">MS. Ch. Yorks. 198</note>
             </place>
             
@@ -3131,12 +3234,12 @@
                <note type="charter">MS. Ch. Yorks. 197</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">>Neutown Enges [unidentified]</placeName>
+            <place type="place"><!-- ought to be near Wakefield -->
+               <placeName type="index">Newton</placeName>
                <placeName type="formInDocument">Neutown Enges</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Wakefield</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Wakefield/53288206b47fc40c81005c04-Newton</idno>
                <note type="charter">MS. Ch. Yorks. 314</note>
             </place>
             
@@ -3214,12 +3317,12 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Norton</placeName>
+               <!-- several possibilities: identification based on other places in charter -->
+               <placeName type="index">Norton Conyers</placeName>
                <placeName type="formInDocument">Norton</placeName>
-               <region type="parish">Norton</region>
-               <region type="county">Yorkshire, East Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Norton/5328549ab47fc40a4d00051a-Norton</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/ERY/Norton</idno>
+               <region type="parish">Hutton Conyers</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Hutton+Conyers/53286b32b47fc40bc60004d8-Norton+Conyers</idno>
                <note type="charter">MS. Ch. Yorks. 284a</note>
             </place>
             
@@ -3254,6 +3357,7 @@
             </place>
             
             <place type="place">
+               <!-- not found 19.2.21 -->
                <placeName type="index">Orden [unidentified]</placeName>
                <placeName type="formInDocument">Orden</placeName>
                <!--<region type="parish"></region>
@@ -3283,6 +3387,7 @@
                <placeName type="formInDocument">Osmundthorp</placeName>
                <placeName type="formInDocument">Osmunthorp</placeName>
                <placeName type="formInDocument">Ossemundthorp</placeName>
+               <placeName type="formInDocument">Hosmundthorp</placeName>
                <region type="parish">Whitkirk</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Whitkirk/5328827cb47fc40c810062a9-Osmondthorpe</idno>
@@ -3296,6 +3401,7 @@
                <note type="charter">MS. Ch. Yorks. 268</note>
                <note type="charter">MS. Ch. Yorks. 264</note>
                <note type="charter">MS. Ch. Yorks. 267</note>
+               <note type="charter">MS. Ch. Yorks. 263</note>
             </place>
           
             <place type="place">
@@ -3388,6 +3494,7 @@
             </place>
 
             <place type="place">
+               <placeName type="index">Picton</placeName>
                <placeName type="formInDocument">Piketon</placeName>
                <region type="parish">Kirkleavington</region>
                <region type="county">Yorkshire, North Riding</region>
@@ -3471,6 +3578,7 @@
            
             <place type="place">
                <placeName type="index">Redkirk (Raynpatrick)</placeName>
+               <!-- https://www.poms.ac.uk/record/source/4034/ -->
                <placeName type="formInDocument">Raynpatrik</placeName>
                <region type="parish">Gretna</region>
                <region type="county">Dumfriesshire</region>
@@ -3480,13 +3588,11 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Rainton</placeName>
+               <placeName type="index">East Rainton</placeName>
                <placeName type="formInDocument">Renington</placeName>
-               <region type="parish">Topcliffe</region>
-               <region type="county">Yorkshire, North Riding</region>
-               <idno>http://epns.nottingham.ac.uk/browse/id/53286b33b47fc40bc60005da</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/Topcliffe/more</idno>
-               <!--DEEDS database identifies this with East Rainton in Houghton-le-Spring in Durham:
+               <region type="parish">Houghton-le-Spring</region>
+               <region type="county">Durham</region>
+               <!--DEEDS database correctly identifies this with East Rainton in Houghton-le-Spring in Durham:
                https://www.genuki.org.uk/big/eng/DUR/HoughtonleSpring
                https://deeds.library.utoronto.ca/charters/03280234-->
                <note type="charter">MS. Ch. Yorks. 86</note>
@@ -3512,7 +3618,7 @@
                <note type="charter">MS. Ch. Yorks. 337</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- ckd -->
                <placeName type="index">Ruston</placeName>
                <placeName type="formInDocument">Roston</placeName>
                <placeName type="formInDocument">Rostun</placeName>
@@ -3529,9 +3635,18 @@
                <note type="charter">MS. Ch. Yorks. 290</note>
                <note type="charter">MS. Ch. Yorks. 291</note>
                <note type="charter">MS. Ch. Yorks. 292</note>
-               <note type="charter">MS. Ch. Yorks. 287</note>
-               <note type="charter">MS. Ch. Yorks. 293</note>
+               <note type="charter">MS. Ch. Yorks. 287</note><!-- R in Pickeringlith -->
+             
+              
                <note type="charter">MS. Ch. Yorks. 316</note>
+            </place>
+            
+            <place type="place"><!-- ckd -->
+               <placeName type="index">Royston</placeName>
+               <placeName type="formInDocument">Ruston</placeName>
+               <region type="parish">Royston</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <note type="charter">MS. Ch. Yorks. 293</note><!-- Bradford and Batley: prob Royston, WRy. check field names in WRY to confirm -->
             </place>
            
             <place type="place">
@@ -3615,7 +3730,7 @@
                <note type="charter">MS. Ch. Yorks. 300</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- not found 25.2.21 -->
                <placeName type="index">Sall [unidentified]</placeName>
                <placeName type="formInDocument">Sall</placeName>
                <!--<region type="parish"></region>
@@ -3663,15 +3778,7 @@
                <note type="charter">MS. Ch. Yorks. 302</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Shepley</placeName>
-               <placeName type="formInDocument">Schepley</placeName>
-               <region type="parish">Kirkburton</region>
-               <region type="county">Yorkshire, West Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Kirkburton/5328827bb47fc40c81006193-Shepley</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Kirkburton/more</idno>
-               <note type="charter">MS. Ch. Yorks. 130</note>
-            </place>
+            
             
             <place type="place">
                <placeName type="index">Selby</placeName>
@@ -3686,17 +3793,18 @@
                <note type="charter">MS. Ch. Yorks. 170</note>
             </place>
          
-            <place type="place">
-               <placeName type="index">Semer [unidentified]</placeName>
+            <place type="place"><!-- ckd -->
+               <placeName type="index">Seamer (in Pickering Lythe)</placeName>
                <placeName type="formInDocument">Semer</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Seamer</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <!--<idno></idno> not in online EPNS-->
+               <bibl>PN: NRY, 102</bibl>
                <note type="charter">MS. Ch. Yorks. 84</note>
                <note type="charter">MS. Ch. Yorks. 85</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- ckd -->
                <placeName type="index">Seaton</placeName>
                <placeName type="formInDocument">Seton</placeName>
                <placeName type="formInDocument">Setone</placeName>
@@ -3704,8 +3812,16 @@
                <region type="county">Yorkshire, East Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Sigglesthorne/5328549ab47fc40a4d000541-Seaton</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/ERY/Sigglesthorne</idno>
-               <note type="charter">MS. Ch. Yorks. 303a</note>
-               <note type="charter">MS. Ch. Yorks. 339</note>
+              
+               <note type="charter">MS. Ch. Yorks. 339</note><!-- yes: near Beford, Catfoss -->
+            </place>
+            
+            <place type="place"><!-- ckd -->
+               <placeName type="index">Seaton Ross</placeName>
+               <placeName type="formInDocument">Setone</placeName>
+               <region type="parish">Seaton Ross</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <note type="charter">MS. Ch. Yorks. 303a</note><!-- ch of Wm Wasteneys of Colton and Braceborough who did not hold in Seaton ERY https://www.british-history.ac.uk/vch/yorks/east/vol7/pp359-373 ; also https://archive.org/details/someaccountofcol00park  -->
             </place>
 
             <place type="place">
@@ -3718,14 +3834,22 @@
                <note type="charter">MS. Ch. Yorks. 24</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Shepley</placeName>
+            <place type="place"><!-- ckd -->
+               <placeName type="index">Shipley</placeName>
                <placeName type="formInDocument">Shepeleye</placeName>
-               <region type="parish">Kirkburton</region>
+               <placeName type="formInDocument">Schepley</placeName>
+               <region type="parish">Bradford</region>
                <region type="county">Yorkshire, West Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Kirkburton/5328827bb47fc40c81006193-Shepley</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Kirkburton/more</idno>
-               <note type="charter">MS. Rolls Yorks. 2</note>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Bradford/5328827bb47fc40c810060a2-Shipley</idno>
+               <note type="charter">MS. Ch. Yorks. 130</note><!-- probably Shipley in Bradford -->
+            </place>
+            
+            <place type="place"><!-- ckd -->
+               <placeName type="index">Shipley</placeName>
+               <placeName type="formInDocument">Shepeleye</placeName>
+               <region type="parish">Eglingham</region>
+               <region type="county">Northumberland</region>
+               <note type="charter">MS. Rolls Yorks. 2</note><!-- EMELDON, SHEPLEIGH, STANFORD, DONSTANBURGH, and PIKERING -->
             </place>
             
             <place type="place">
@@ -3746,29 +3870,29 @@
                <region type="county">Yorkshire, North Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Sinnington/53286b32b47fc40bc60005a1-Sinnington</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/Sinnington</idno>
-               <note type="charter">MS. Ch. Yorks. 67</note>
+               <note type="charter">MS. Ch. Yorks. 67</note><!-- lands in Little Edeston doing service to lord of S -->
             </place>
             
             <place type="place">
                <placeName type="index">Scales</placeName>
                <placeName type="formInDocument">Skales</placeName>
-               <region type="parish">Weston</region>
-               <region type="county">Yorkshire, West Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Weston/53288207b47fc40c81005d5c-Scales+Gill%2C+Scales+Ho</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Weston</idno>
+               <region type="parish">Gilling</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Gilling/53286b0ab47fc40bc6000105-High+Scales%2C+Low+Scales</idno>
                <!--other possibilities include a place in Bentham and in Long Preston
                <idno>https://epns.nottingham.ac.uk/browse/id/532881ddb47fc40c81000a30-Scales</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/LongPreston</idno>-->
-               <note type="charter">MS. Ch. Yorks. 284a</note>
+               <note type="charter">MS. Ch. Yorks. 284a</note><!-- check? -->
             </place>
             
-            <place type="place">
+            <place type="place"><!-- not found 25.2.21 -->
                <placeName type="index">Skelderischoth [unidentified]</placeName>
                <placeName type="formInDocument">Skelderischoth</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Yorks. 260</note>
+               <!-- prob not Yorks -->
             </place>
             
             <place type="place">
@@ -3783,6 +3907,7 @@
             </place>
             
             <place type="place">
+               <!-- not found 17.2.21, ought to be near Pateley Bridge? -->
                <placeName type="index">Skewyk in Foyston [unidentified]</placeName>
                <placeName type="formInDocument">Skewyk in Foyston</placeName>
                <!--<region type="parish"></region>
@@ -3801,22 +3926,22 @@
                <note type="charter">MS. Ch. Yorks. 246b</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Smetoun [unidentified]</placeName>
+            <place type="place"><!-- ckd; uncertain but ok? -->
+               <placeName type="index">Kirk (?) Smeaton</placeName>
                <placeName type="formInDocument">Smetoun</placeName>
-               <!--Smeaton? there's there at least in Yorkshire:
+             <!--  Smeaton? there's there at least in Yorkshire:
                Little Smeaton, Kirk Smeaton, Great Smeaton
                <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Birkby/53286b32b47fc40bc6000422-Little+Smeaton</idno>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Womersley/5328827cb47fc40c810062b2-Little+Smeaton</idno>
+              --> 
+               <region type="parish">Kirk Smeaton</region>
+               <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Kirk+Smeaton/5328827bb47fc40c8100618c-Kirk+Smeaton</idno>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Great+Smeaton/53286b32b47fc40bc600049f-Great+Smeaton</idno>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
                <note type="charter">MS. Ch. Yorks. 261</note>
+               <!-- ought to be near Normanton WRY -->
             </place>
            
-            <place type="place">
+            <place type="place"><!-- ckd -->
                <placeName type="index">Snainton</placeName>
                <placeName type="formInDocument">Snaynton</placeName>
                <region type="parish">Brompton</region>
@@ -3826,15 +3951,16 @@
                <note type="charter">MS. Ch. Yorks. 292</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Soldale</placeName>
+          <!--  <place type="place">
+               treated as minor
+               <placeName type="index">Soldale [unidentified]</placeName>
                <placeName type="formInDocument">Soldale</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 316</note>
             </place>
-            
+            -->
             <place type="place">
                <placeName type="index">South Bedburn</placeName>
                <placeName type="formInDocument">Southbedburn</placeName>
@@ -3893,29 +4019,36 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Colton</placeName>
+               <placeName type="index">East Cowton</placeName>
                <placeName type="formInDocument">St. Mary of Couton</placeName>
-               <region type="parish">Colton</region>
-               <region type="county">Staffordshire</region>
-               <idno>https://www.genuki.org.uk/big/eng/STS/Colton</idno>
+               <region type="parish">East Cowton</region>
+               <region type="county">Yorkshire, North Riding</region>
                <note type="charter">MS. Ch. Yorks. 46</note>
+               <bibl>'Parishes: East Cowton', in A History of the County of York North Riding: Volume 1, ed. William Page (London, 1914), pp. 160-162. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol1/pp160-162 [accessed 16 February 2021].</bibl>
             </place>
             
-           <!-- There are two St. Mary parishes in York, and St. Mary's Abbey of York > how to decide whichis referred?
-            https://www.genuki.org.uk/big/eng/YKS/ARY/York-->
-            <place type="place">
-               <placeName type="formInDocument">St. Mary of York</placeName>
+            <place type="place"><!-- TODO -->
+               <placeName type="index">York, St Mary's</placeName>
+               <placeName type="formInDocument">St. Mary of York</placeName><!-- abbey? -->
                <note type="charter">MS. Ch. Yorks. 194</note>
             </place>
+            
             <place type="place">
-               <placeName type="formInDocument">St. Mary, the old York</placeName>
+               <placeName type="index">York, St Mary Bishophill Senior</placeName>
+               <placeName type="formInDocument">St. Mary, the old York</placeName><!-- a parish church TODO -->
                <note type="charter">MS. Ch. Yorks. 327</note>
+               <note>Demolished 1963.</note>
             </place>
             
             <place type="place">
-               <!--a place to do with Kirkstall abbey-->
-               <placeName type="index">St. Sever [unidentified]</placeName>
+               <!--
+                  https://www.skiptoncastle.co.uk/craven-history/06_Parish-of-Bernoldswick.pdf pp. 81-2
+               -->
+               <placeName type="index">Saint-Sever </placeName>
                <placeName type="formInDocument">St. Sever</placeName>
+               <region type="département">Landes</region>
+               <country>France</country>
+               <idno>https://www.wikidata.org/wiki/Q1019173</idno>
                <note type="charter">MS. Ch. Yorks. 24</note>
             </place>
             
@@ -3934,11 +4067,11 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Staunford [unidentified]</placeName>
+               <placeName type="index">Stamford</placeName>
                <placeName type="formInDocument">Staunford</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Embleton</region>
+               <region type="county">Northumberland</region>
+               <bibl><title>History of Northumberland</title> II.8-48</bibl>
                <note type="charter">MS. Rolls Yorks. 2</note>
             </place>
            
@@ -3961,7 +4094,7 @@
                <note type="charter">MS. Ch. Yorks. 309</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- not found 16.2.21, cf.  Hampole Stubbs, Walden Stubbs ? -->
                <placeName type="index">Stubbusem [unidentified]</placeName>
                <placeName type="formInDocument">Stubbusem</placeName>
                <!--<region type="parish"></region>
@@ -3970,28 +4103,32 @@
                <note type="charter">MS. Ch. Yorks. 310</note>
             </place>
             
-            <place type="place">
+          <!--  <place type="place">
+             treated in the calendar as the same as the following place
                <placeName type="index">Sutton [unidentified]</placeName>
-               <placeName type="formInDocument">Sutton</placeName>
-               <!--<region type="parish"></region>
+               
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
                Several potential places, how to decide?
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Campsall/5328827bb47fc40c810060ca-Sutton</idno>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Kildwick/5328827bb47fc40c81006183-Sutton</idno>
                <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Norton/53285471b47fc40a4d000213-Sutton</idno>
                <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Mashamshire/53286b0ab47fc40bc6000202-Sutton</idno>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Brotherton/532881e0b47fc40c810012f2-Sutton</idno>-->
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Brotherton/532881e0b47fc40c810012f2-Sutton</idno>-\->
                <note type="charter">MS. Ch. Yorks. 311a</note>
             </place>
+            -->
             
             <place type="place">
                <placeName type="index">Sutton on Hull</placeName>
-               <placeName type="formInDocument">Sutton in Holderne</placeName>
+               <placeName type="formInDocument">Sutton</placeName>
+               <placeName type="formInDocument">Sutton in Holdernes</placeName>
                <region type="parish">Sutton on Hull</region>
                <region type="county">Yorkshire, East Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Sutton+on+Hull/5328549ab47fc40a4d000554-Sutton+on+Hull</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/ERY/SuttonOnHull</idno>
                <note type="charter">MS. Ch. Yorks. 311c</note>
+               <note type="charter">MS. Ch. Yorks. 311a</note>
             </place>
             
             <place type="place">
@@ -4015,18 +4152,19 @@
                <idno>https://epns.nottingham.ac.uk/browse/id/532881dfb47fc40c81000f94-Sydale</idno>
                <note type="charter">MS. Ch. Yorks. 304a</note>
             </place>
-            
+           <!-- 
             <place type="place">
-               <!-- though I wonder if this is same as Bramley? -->
+               <!-\- though I wonder if this is same as Bramley? -\->
                <placeName type="index">Bramley Vale</placeName>
-               <placeName type="formInDocument">the vale of Bramleia</placeName>
+              
                <region type="parish">Ault Hucknall</region>
                <region type="county">Derbyshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Derbyshire/Ault+Hucknall/53284cc1b47fc4095c000164-Bramleylane+Fm%2C+Bramleyvale</idno>
-               <note type="charter">MS. Ch. Yorks. 4</note>
-            </place>
+               
+            </place>-->
             
             <place type="place">
+               <!-- not found 17.2.21 perh not Yorks -->
                <placeName type="index">Thornby [unidentified]</placeName>
                <placeName type="formInDocument">Thornby</placeName>
                <!--ought to be in the parish of Burton (not sure of that either)
@@ -4037,13 +4175,16 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Thornton</placeName>
+               <placeName type="index">Thornton le Beans</placeName>
                <placeName type="formInDocument">Thorneton</placeName>
-               <region type="parish">Thornton</region>
+               <region type="parish">North Otterington</region>
                <region type="county">Yorkshire, East Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/53285473b47fc40a4d000425-Thornton</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/ERY/Thornton</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/North+Otterington/53286b32b47fc40bc6000552-Thornton+le+Beans</idno>
+               <bibl>
+                  'Parishes: North Otterington', in A History of the County of York North Riding: Volume 1, ed. William Page (London, 1914), pp. 439-444. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol1/pp439-444 [accessed 25 February 2021].
+               </bibl>
                <note type="charter">MS. Ch. Yorks. 89</note>
+               <!-- grant to hospital of Northallerton; for identification see VCH -->
             </place>
             
             <place type="place">
@@ -4057,19 +4198,20 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Thornover [unidentified]</placeName>
+               <placeName type="index">Thorner</placeName>
                <placeName type="formInDocument">Thornover</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Thorner</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Thorner/5328827cb47fc40c8100627b-Thorner</idno>
                <note type="charter">MS. Ch. Yorks. 12</note>
             </place>
             
             <place type="place">
-               <placeName type="formInDocument">Thorntlay</placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
+               <placeName type="index">Thorncliff</placeName>
+               <placeName type="formInDocument">Thornclay</placeName>
+               <region type="parish">Kirkburton</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Kirkburton/532881f7b47fc40c81003aad-Thorncliff</idno>
                <note type="charter">MS. Ch. Yorks. 138</note>
             </place>
             
@@ -4105,14 +4247,14 @@
                <note type="charter">MS. Ch. Yorks. 249a</note>
             </place>
            
-            <place type="place">
+            <place type="place"><!-- ckd/rev mLH 
+            identified as Tunstall in Catterick as charter relates to Cleveland; also the Fulthorp family associated, see VCH
+            -->
                <placeName type="index">Tunstall</placeName>
                <placeName type="formInDocument">Tonstale</placeName>
-               <region type="parish">Tunstall</region>
-               <region type="county">Yorkshire, East Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Tunstall/5328549ab47fc40a4d000566-Tunstall</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/ERY/Tunstall</idno>
-               <bibl>K J Allison, A P Baggs, T N Cooper, C Davidson-Cragoe and J Walker, 'Middle division: Tunstall', in A History of the County of York East Riding: Volume 7, Holderness Wapentake, Middle and North Divisions, ed. G H R Kent (London, 2002), pp. 172-181. British History Online http://www.british-history.ac.uk/vch/yorks/east/vol7/pp172-181 [accessed 10 February 2021].</bibl>
+               <region type="parish">Catterick</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Catterick/53286b32b47fc40bc600044b-Tunstall</idno>
                <note type="charter">MS. Ch. Yorks. 139</note>
             </place>
             
@@ -4127,6 +4269,7 @@
             </place>
             
             <place type="place">
+               <!-- ckd 17.2.21 cf English Episcopal Acta: Durham, 1196-1237 no. 234 -->
                <placeName type="index">Trolleforde [unidentified]</placeName>
                <placeName type="formInDocument">Trolleforde</placeName>
                <!--<region type="parish"></region>
@@ -4157,15 +4300,16 @@
                <note type="charter">MS. Ch. Yorks. 55</note>
             </place>
             
-            <place type="place">
+          <!--  <place type="place">
+               near Picton / Appleton Wiske. treated as a minor name
                <placeName type="index">Urvele Sich [unidentified]</placeName>
                <placeName type="formInDocument">Urvele Sich</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Douce Ch. 47</note>
             </place>
-            
+            -->
             <place type="place">
                <placeName type="index">Pickering Vale</placeName>
                <placeName type="formInDocument">vale of Pykering</placeName>
@@ -4201,14 +4345,14 @@
                <note type="charter">MS. Ch. Yorks. 314</note>
             </place>
           
-            <place type="place">
-               <placeName type="index">Walden</placeName>
+            <place type="place"><!-- ckd -->
+               <placeName type="index">Saffron Walden</placeName>
                <placeName type="formInDocument">Walden</placeName>
-               <region type="parish">Aysgarth</region>
-               <region type="county">Yorkshire, North Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Aysgarth/53286b09b47fc40bc600004c-Walden</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/Aysgarth/more</idno>
+               <region type="parish">Saffron Walden</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Saffron+Walden/532858efb47fc40a98000e85-Saffron+Walden</idno>
                <note type="charter">MS. Ch. Yorks. 336</note>
+               <!-- letters patent of Hen. VIII dated at -->
             </place>
             
             <place type="place">
@@ -4221,7 +4365,7 @@
                <note type="charter">MS. Ch. Yorks. 321a</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- not an attested spelling; location plausible -->
                <placeName type="index">Warley</placeName>
                <placeName type="formInDocument">Warneley</placeName>
                <region type="parish">Halifax</region>
@@ -4289,11 +4433,11 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Westawkeland [unidentified]</placeName>
+               <placeName type="index">West Auckland</placeName>
                <placeName type="formInDocument">Westawkeland</placeName>
                <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               
+               <idno></idno>--><region type="county">Durham</region>
                <note type="charter">MS. Ch. Yorks. 168</note>
             </place>
             
@@ -4358,7 +4502,7 @@
                <note type="charter">MS. Ch. Yorks. 324</note>
             </place>
             
-            <place type="place">
+            <place type="place"><!-- ckd -->
                <placeName type="index">Weston</placeName>
                <placeName type="formInDocument">Weston</placeName>
                <region type="parish">Weston</region>
@@ -4378,14 +4522,14 @@
                <note type="charter">MS. Ch. Yorks. 337</note>
             </place>
             
-            <place type="place">
+         <!--   <place type="place"> "lord Wharton"
                <placeName type="index">Wharton [unidentified]</placeName>
                <placeName type="formInDocument">Wharton</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 311b</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <placeName type="index">Wharfedale</placeName>
@@ -4396,36 +4540,17 @@
                <note type="charter">MS. Ch. Yorks. 161b</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Whudehuse [unidentified]</placeName>
+            <place type="place"><!-- ckd -->
+               <placeName type="index">Woodsome </placeName>
                <placeName type="formInDocument">Whudehuse</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               potential places, how to decide?
-               https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Almondbury/532881d9b47fc40c810002e0-Woodsome+Hall
-               https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Leeds/532881fab47fc40c81004144-Woodhouse
-               and many others in Yorkshire
-               <idno></idno>-->
+               <region type="parish">Almondbury</region>
+               <region type="county">Yorkshire, West Riding</region>
+             
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Almondbury/532881d9b47fc40c810002e0-Woodsome+Hall</idno>
                <note type="charter">MS. Ch. Yorks. 141</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Wykeham</placeName>
-               <placeName type="formInDocument">Wikham</placeName>
-               <placeName type="formInDocument">Wicham</placeName>
-               <placeName type="formInDocument">Wycham</placeName>
-               <region type="parish">Wykeham</region>
-               <region type="county">Yorkshire, North Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Wykeham/53286b33b47fc40bc60005f7-Wykeham</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/Wykeham</idno>
-               <note type="charter">MS. Ch. Yorks. 114</note>
-               <note type="charter">MS. Ch. Yorks. 318a</note>
-               <note type="charter">MS. Ch. Yorks. 318b</note>
-               <note type="charter">MS. Ch. Yorks. 317</note>
-               <note type="charter">MS. Ch. Yorks. 291</note>
-               <note type="charter">MS. Ch. Yorks. 292</note>
-               <note type="charter">MS. Ch. Yorks. 316</note>
-            </place>
+          
             
             <place type="place">
                <placeName type="index">Wombleton</placeName>
@@ -4506,17 +4631,28 @@
                <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Malton/53286b0ab47fc40bc60001e8-Wykeham</idno>
                <note type="charter">MS. Ch. Yorks. 200a</note>
                <note type="charter">MS. Ch. Yorks. 199</note>
+               <!-- note: may be confused with the following in places -->
             </place>
            
             <place type="place">
                <placeName type="index">Wykeham</placeName>
                <placeName type="formInDocument">Wykham</placeName>
+               <placeName type="formInDocument">Wikham</placeName>
+               <placeName type="formInDocument">Wicham</placeName>
+               <placeName type="formInDocument">Wycham</placeName>
                <region type="parish">Wykeham</region>
                <region type="county">Yorkshire, North Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Wykeham/53286b33b47fc40bc60005f7-Wykeham</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/Wykeham</idno>
                <note type="charter">MS. Ch. Yorks. 288</note>
                <note type="charter">MS. Ch. Yorks. 290</note>
+               <note type="charter">MS. Ch. Yorks. 114</note>
+               <note type="charter">MS. Ch. Yorks. 318a</note>
+               <note type="charter">MS. Ch. Yorks. 318b</note>
+               <note type="charter">MS. Ch. Yorks. 317</note>
+               <note type="charter">MS. Ch. Yorks. 291</note>
+               <note type="charter">MS. Ch. Yorks. 292</note>
+               <note type="charter">MS. Ch. Yorks. 316</note>
             </place>
             
             <place type="place">
@@ -4541,14 +4677,15 @@
                <note type="charter">MS. Ch. Yorks. 321c</note>
             </place>
             
-            <place type="place">
+         <!--   <place type="place">
+               minor
                <placeName type="index">Ychesty [unidentified]</placeName>
                <placeName type="formInDocument">Ychesty</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 96</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <placeName type="index">Yeadon</placeName>
@@ -4696,7 +4833,7 @@
                <bibl>'Houses of Benedictine monks: The abbey of Bardney', in A History of the County of Lincoln: Volume 2, ed. William Page (London, 1906), pp. 97-104. British History Online http://www.british-history.ac.uk/vch/lincs/vol2/pp97-104 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 252</note>
             </org>
-            
+           <!-- 
             <org>
                <orgName type="index">Jervaulx, Cistercian abbey</orgName>
                <orgName type="formInDocument">abbot and convent of Jorevall</orgName>
@@ -4704,7 +4841,7 @@
                <bibl>'Houses of Cistercian monks: Jervaulx', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 138-142. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp138-142 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Douce Ch. 1</note>
             </org>
-            
+            -->
             <org>
                <orgName type="index">Roche, Cistercian abbey</orgName>
                <orgName type="formInDocument">abbot and convent of Roche ("de Rupe")</orgName>
@@ -4718,9 +4855,9 @@
                <note type="charter">MS. Ch. Yorks. 34</note>
             </org>
             
-            <org>
+          <!--  <org>
                <orgName type="index">York, Benedictine abbey of St. Mary</orgName>
-               <!--index name format? now using the same as https://medieval.bodleian.ox.ac.uk/catalog/org_135211427-->
+               <!-\-index name format? now using the same as https://medieval.bodleian.ox.ac.uk/catalog/org_135211427-\->
                <orgName type="formInDocument">abbot and convent of St. Marie of York</orgName>
                <orgName type="formInDocument">abbot and monks of St. Mary of York</orgName>
                <orgName type="formInDocument">church of St. Mary of York</orgName>
@@ -4730,7 +4867,7 @@
                <note type="charter">MS. Ch. Yorks. 38</note>
                <note type="charter">MS. Ch. Yorks. 39</note>
             </org>
-
+-->
             <org>
                <orgName type="index">Bolton, Austin priory</orgName>
                <orgName type="formInDocument">canons of St. Mary, Boelton</orgName>
@@ -4806,7 +4943,7 @@
             </org>
 
             <org>
-               <orgName type="index">Christ Church (University of Oxford)</orgName>
+               <orgName type="index">Oxford, Christ Church</orgName>
                <orgName type="formInDocument">dean and canons of Ch. Ch.</orgName><!-- Oxford -->
                <idno>http://viaf.org/viaf/140757625</idno>
                <bibl>'Christ Church', in A History of the County of Oxford: Volume 3, the University of Oxford, ed. H E Salter and Mary D Lobel (London, 1954), pp. 228-238. British History Online http://www.british-history.ac.uk/vch/oxon/vol3/pp228-238 [accessed 8 February 2021].</bibl>
@@ -4831,17 +4968,17 @@
                <note type="charter">MS. Ch. Yorks. 303b</note>
             </org>
             
-            <org>
+<!--            <org>
                <orgName type="index">Gisborough, Augustinian priory</orgName>
                <orgName type="formInDocument">Gyseburn in Clyveland, and the convent of the same</orgName>
                <idno>http://viaf.org/viaf/234338663</idno>
                <idno>https://www.wikidata.org/wiki/Q3402996</idno>
                <bibl></bibl>
                <note type="charter">MS. Ch. Yorks. 63</note>
-            </org>
+            </org>-->
             
             <org>
-               <orgName type="index">The Priory Church of The Holy Trinity, Micklegate (York), Benedictine alien house</orgName>
+               <orgName type="index">York, Priory Church of The Holy Trinity, Micklegate (York), Benedictine alien house</orgName>
                <orgName type="formInDocument">Holy Trinity, York</orgName>
                <idno>http://viaf.org/viaf/67153288269432651526</idno>
                <idno>https://www.wikidata.org/wiki/Q8055363</idno>
@@ -4869,7 +5006,7 @@
             </org>
             
             <org>
-               <orgName type="index">St. Peter's (later St. Leonard's) Hospital (York)</orgName>
+               <orgName type="index">York, St. Peter's (later St. Leonard's) Hospital</orgName>
                <orgName type="formInDocument">hospital of St Leonard, York</orgName>
                <orgName type="formInDocument">the hospital of St. Leonard, York</orgName>
                <orgName type="formInDocument">the hospital of St. Peter, York</orgName><!-- later St Leonards, so just one authority file?-->
@@ -4911,7 +5048,7 @@
             </org>
             
             <org>
-               <orgName type="index">Knights Templars at Temple Cowley</orgName>
+               <orgName type="index">Temple Cowley, Knights Templars  </orgName>
                <orgName type="formInDocument">chapter at Couele</orgName>
                <idno></idno>
                <bibl>'House of Knights Templars: The preceptory of Sandford', in A History of the County of Oxford: Volume 2, ed. William Page (London, 1907), pp. 106-107. British History Online http://www.british-history.ac.uk/vch/oxon/vol2/pp106-107 [accessed 9 February 2021].</bibl>
@@ -4970,11 +5107,18 @@
             </org>
 
             <org>
-               <orgName type="index">St Mary's, Benedictine abbey (York)</orgName>
+               <orgName type="index">York, Benedictine abbey of St. Mary</orgName>
                <orgName type="formInDocument">monks of St. Mary's, York</orgName>
-               <idno>http://viaf.org/viaf/135211427</idno>
+               <!--index name format? now using the same as https://medieval.bodleian.ox.ac.uk/catalog/org_135211427-->
+               <orgName type="formInDocument">abbot and convent of St. Marie of York</orgName>
+               <orgName type="formInDocument">abbot and monks of St. Mary of York</orgName>
+               <orgName type="formInDocument">church of St. Mary of York</orgName>
+              <idno>http://viaf.org/viaf/135211427</idno>
                <idno>https://www.wikidata.org/wiki/Q1426965</idno>
-               <bibl>'Houses of Benedictine monks: Abbey of St Mary, York', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 107-112. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp107-112 [accessed 9 February 2021].</bibl>
+               <bibl>'Houses of Benedictine monks: Abbey of St Mary, York', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 107-112. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp107-112 [accessed 9 February 2021].</bibl>  <note type="charter">MS. Ch. Yorks. 37</note>
+               <note type="charter">MS. Ch. Yorks. 38</note>
+               <note type="charter">MS. Ch. Yorks. 39</note>
+              
                <note type="charter">MS. Douce Ch. 47</note>
             </org>
 
@@ -4994,7 +5138,7 @@
             </org>
             
             <org>
-               <orgName type="index">Prerogative Court of York</orgName>
+               <orgName type="index">York, Prerogative Court </orgName>
                <orgName type="formInDocument">Prerogative Court of York</orgName>
                <note type="charter">MS. Ch. Yorks. 311d</note>
             </org>
@@ -5075,8 +5219,10 @@
                <orgName type="formInDocument">prior and convent of Gyseburn</orgName>
                <orgName type="formInDocument">church and canons of St. Mary, Giseburn</orgName>
                <orgName type="formInDocument">brethren and church of St. Mary of Ghiseburn</orgName>
+               <orgName type="formInDocument">Gyseburn in Clyveland, and the convent of the same</orgName>
                <idno>http://viaf.org/viaf/234338663</idno>
                <idno>https://www.wikidata.org/wiki/Q3402996</idno>
+               <note type="charter">MS. Ch. Yorks. 63</note>
                <note type="charter">MS. Douce Ch. 70. </note>
                <note type="charter">MS. Ch. Yorks. 55</note>
                <note type="charter">MS. Ch. Yorks. 59</note>
@@ -5115,7 +5261,7 @@
             </org>
            
             <org>
-               <orgName type="index">Collegiate Church of St. Peter and St. Wilfrid, Ripon</orgName>
+               <orgName type="index">Ripon, collegiate church of St. Peter and St. Wilfrid</orgName>
                <orgName type="formInDocument">B. Wilfrid of Rypon</orgName>
                <idno>http://viaf.org/viaf/123186500</idno>
                <bibl>'Collegiate churches: Other churches (except Beverley and York)', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 359-375. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp359-375 [accessed 9 February 2021].</bibl>
@@ -5125,9 +5271,11 @@
             <org>
                <orgName type="index">Jervaulx, Cistercian abbey</orgName>
                <orgName type="formInDocument">the abbot and monks of Jorevall</orgName>
+               <orgName type="formInDocument">abbot and convent of Jorevall</orgName>
+             
                <idno>http://viaf.org/viaf/129256123</idno>
                <idno>http://viaf.org/viaf/173530024</idno>
-               <bibl>'Houses of Cistercian monks: Jervaulx', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 138-142. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp138-142 [accessed 9 February 2021].</bibl>
+               <bibl>'Houses of Cistercian monks: Jervaulx', in A History of the County of York: Volume 3, ed. William Page (London, 1974), pp. 138-142. British History Online http://www.british-history.ac.uk/vch/yorks/vol3/pp138-142 [accessed 9 February 2021].</bibl>  <note type="charter">MS. Douce Ch. 1</note>
                <note type="charter">MS. Douce Ch. 1</note>
             </org>
             
@@ -5173,7 +5321,7 @@
             </org>
             
             <org>
-               <orgName type="index"></orgName>
+               <orgName type="index">Cambridge, University</orgName>
                <orgName type="formInDocument">University of Cambridge</orgName>
                <idno>MS. Ch. Yorks. 304b</idno>
                <bibl>'The University of Cambridge: The Middle Ages', in A History of the County of Cambridge and the Isle of Ely: Volume 3, the City and University of Cambridge, ed. J P C Roach (London, 1959), pp. 150-166. British History Online http://www.british-history.ac.uk/vch/cambs/vol3/pp150-166 [accessed 10 February 2021].</bibl>
@@ -5187,7 +5335,7 @@
             </org>
             
             <org>
-               <orgName type="index">Leper hospital of St. Leonard at Tenelshed (Tearnside)</orgName>
+               <orgName type="index">Tearnside, hospital of St. Leonard </orgName>
                <orgName type="formInDocument">St. Leonard of Teneleshend</orgName>
                <!--cannot find this in viaf or wiki, but mentioned e.g. in https://www.pastscape.org.uk/hob.aspx?hob_id=43003&sort=4&search=all&criteria=kirkby%20lonsdale&rational=q&recordsperpage=10
                http://epns.nottingham.ac.uk/browse/id/5328768db47fc40c6f000b95-->
