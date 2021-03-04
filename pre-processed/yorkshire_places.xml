@@ -101,7 +101,7 @@
             <place type="manor">
                <!-- ckd -->
                <!-- George Hastings lord of; grant by Wallingwells priory -->
-               <placeName type="index">Fenwick manor</placeName>
+               <placeName type="index">Fenwick</placeName>
                <placeName type="formInDocument">Fenwyk</placeName>
                <region type="parish">Campsall</region>
                <region type="county">Yorkshire, West Riding</region>
@@ -116,7 +116,7 @@
                <placeName type="formInDocument">Holden</placeName>
                <!-- bp of Durham's manor -->
                <region type="parish">Howden</region>
-               <region type="county"></region>
+               <region type="county">Yorkshire, East Riding</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F238858</idno>
                <note type="charter">MS. Ch. Yorks. 330</note>
             </place>
@@ -532,9 +532,10 @@
                <note type="charter">MS. Ch. Yorks. 137b</note>
             </place>
             
-            <place type="place"><!-- ?near Aton q.v. -->
-               <placeName type="index">Adwick or Atwick</placeName>
+            <place type="place"><!-- ?near (West) Aton? q.v.  not found 4.3.21 -->
+               <placeName type="index">Adwyck [unidentified]</placeName>
                <placeName type="formInDocument">Adwyck</placeName>
+               <!-- Atwick ERY does not seem to have -d- spellings -->
                <!--<region type="parish"></region>
                <region type="county"></region>-->
                <!--several potential places in Yorkshire, Atwick and Adwick: how to decide?-->
@@ -659,6 +660,8 @@
                <!--Nun Appleton Priory was near Appleton Roebuck-->
                <placeName type="formInDocument">Apelton</placeName>
                <placeName type="formInDocument">Appeltun</placeName>
+               <region type="parish">Bolton Percy</region>
+               <region type="county">Yorkshire, West Riding</region>
                <note type="charter">MS. Ch. Yorks. 37</note><!--other Appleton's also possible for Ch. Yorks. 37 place, though this is close to York-->
                <note type="charter">MS. Ch. Yorks. 73</note>
             </place>
@@ -667,6 +670,8 @@
                <placeName type="index">Arthington</placeName>
                <placeName type="formInDocument">Ardingtone</placeName>
                <placeName type="formInDocument">Arthington</placeName>               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Adel/5328827ab47fc40c81006040-Arthington</idno>
+               <region type="parish">Adel</region>
+               <region type="county">Yorkshire, West Riding</region>
                <note type="charter">MS. Ch. Yorks. 25</note>
                <note type="charter">MS. Ch. Yorks. 15</note>
             </place>
@@ -1288,25 +1293,28 @@
                <note type="charter">MS. Ch. Yorks. 102</note>
             </place>
             
-            <place type="place">
+         <!--   <place type="place">
+               minor
                <placeName type="index">Cisedelle [unidentified]</placeName>
                <placeName type="formInDocument">Cisedelle</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 123</note>
-            </place>
+            </place>-->
             
-            <place type="place">
+         <!--   <place type="place">
+               lord clifford
                <placeName type="index">Clifford</placeName>
                <placeName type="formInDocument">Clifford</placeName>
                <region type="parish">Bramham</region>
                <region type="county"></region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Bramham/5328827bb47fc40c810060aa-Clifford</idno>
                <note type="charter">MS. Ch. Yorks. 240</note>
-            </place>
-            
+            </place>-->
+           <!-- 
             <place type="place">
+               <!-\- lord clifford -\->
                <placeName type="index">Clifford</placeName>
                <placeName type="formInDocument">Clifford</placeName>
                <region type="parish">Clifford</region>
@@ -1314,9 +1322,9 @@
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Bramham/5328827bb47fc40c810060aa-Clifford</idno>
                <note type="charter">MS. Ch. Yorks. 270</note>
             </place>
-            
+            -->
             <place type="place">
-               <placeName>Cliveacher [unidentified]</placeName>
+               <placeName>Cliviger</placeName>
                <placeName type="formInDocument">Cliveacher</placeName>
                <!--<region type="parish"></region>-->
                <region type="county">Lancashire</region>
@@ -1428,6 +1436,7 @@
             </place>
             
             <place type="place">
+               <!-- not found 4.3.21 -->
                <placeName type="index">Cowkricke [unidentified]</placeName>
                <placeName type="formInDocument">Cowkricke</placeName>
                <!--<region type="parish"></region>
@@ -1494,10 +1503,8 @@
             <place type="place">
                <placeName type="index">Cumbertrees</placeName>
                <placeName type="formInDocument">Cumbertre</placeName>
-               <!-- in Scotland
                <region type="parish">Cumbertrees</region>
                <region type="county">Dumfriesshire</region>
-               <idno></idno>-->
                <note type="charter">MS. Douce Ch. 57</note>
             </place>
             
@@ -2246,6 +2253,7 @@
             </place>
             
             <place type="place">
+               <!-- not found 4.3.21 -->
                <placeName type="index">Hensum [unidentified]</placeName>
                <placeName type="formInDocument">Hensum</placeName>
                <!--<region type="parish"></region>
@@ -2284,6 +2292,7 @@
             </place>
             
             <place type="place">
+               <!-- not found 4.3.21 -->
                <placeName type="index">Heton [unidentified]</placeName>
                <placeName type="formInDocument">Heton</placeName>
                <note type="charter">MS. Ch. Yorks. 284a</note><!-- ?near Hutton Conyers? -->
@@ -2312,14 +2321,15 @@
                <note type="charter">MS. Ch. Yorks. 45</note>
             </place>
             
-            <place type="place">
+          <!--  <place type="place">
+               minor
                <placeName type="index">Hill Grips</placeName>
                <placeName type="formInDocument">Hildegrippe</placeName>
                <region type="parish">Hutton Bushel</region>
                <region type="county">Yorkshire, North Riding</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/r/D7312927</idno>
                <note type="charter">MS. Ch. Yorks. 123</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <!-- perhaps near Norton and Hutton Conyers if those identifications are correct  -->
@@ -2350,7 +2360,8 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Holme</placeName>
+               <!-- 4.3.21: impossible to identify from calendar -->
+               <placeName type="index">Holme [unidentified]</placeName>
                <placeName type="formInDocument">Holme</placeName>
                <!-- Two potental places, how to decide?
                <region type="parish"></region>
@@ -2819,9 +2830,9 @@
                <note type="charter">MS. Ch. Yorks. 192</note>
             </place>
             
-            <place type="place">
+           <!-- <place type="place">
                <placeName type="formInDocument">Lincoln's Inn</placeName>
-               <!-- in London, is this the correct way to id it?-->
+               <!-\- in London, is this the correct way to id it?-\->
                <region type="borough">Holborn</region>
                <region type="county">Middlesex</region>
                <idno>https://www.genuki.org.uk/gaz/MDX/boundary/17906</idno>
@@ -2829,7 +2840,7 @@
                <idno></idno>
                <bibl>Walter Thornbury, 'Lincoln's Inn ', in Old and New London: Volume 3 (London, 1878), pp. 51-58. British History Online http://www.british-history.ac.uk/old-new-london/vol3/pp51-58 [accessed 2 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 311b</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <placeName type="index">Little Broughton</placeName>
@@ -3121,6 +3132,7 @@
             </place>
             
             <place type="place"><!-- not found 17.2.21; hard to identify; grant by Thomas of Shipley -->
+               <placeName type="index">Morhouses [unidentified]</placeName>
                <placeName type="formInDocument">Morhouses</placeName>
                <!--several different places with name Moor Houses / Moorhouse; how to decide?
                https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Ilkley/532881f5b47fc40c8100362f-Moor+Houses
@@ -3406,17 +3418,29 @@
           
             <place type="place">
                <placeName type="index">Osgodby</placeName>
+               <placeName type="formInDocument">Osgoteby</placeName>
+               <region type="parish">Cayton</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Cayton/53286b0ab47fc40bc6000094-Osgodby</idno>
+               
+               <idno></idno>
+               
+               <note type="charter">MS. Ch. Yorks. 33</note><!-- grant to Rievaulx -->
+               
+           </place>
+            
+            <place type="place"> 
+               <placeName type="index">Osgodby</placeName>
                <placeName type="formInDocument">Osgotby</placeName>
                <placeName type="formInDocument">Osgoteby</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               two options, how to decide?:
-               https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Cayton/53286b0ab47fc40bc6000094-Osgodby
-               https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Hemingbrough/5328549ab47fc40a4d0004bf-Osgodby
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Yorks. 332</note>
-               <note type="charter">MS. Ch. Yorks. 33</note>
-               <note type="charter">MS. Ch. Yorks. 51</note>
+               <region type="parish">Hemingbrough</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Hemingbrough/5328549ab47fc40a4d0004bf-Osgodby</idno>
+               <note type="charter">MS. Ch. Yorks. 332</note><!-- grant to Drax -->
+               <note type="charter">MS. Ch. Yorks. 51</note><!-- grant to Drax -->
+               <bibl>
+                  A P Baggs, G H R Kent and J D Purdy, 'Hemingbrough: Osgodby', in A History of the County of York East Riding: Volume 3, Ouse and Derwent Wapentake, and Part of Harthill Wapentake, ed. K J Allison (London, 1976), pp. 64-66. British History Online http://www.british-history.ac.uk/vch/yorks/east/vol3/pp64-66 [accessed 4 March 2021].
+               </bibl>
             </place>
            
             <place type="place">
@@ -4132,8 +4156,20 @@
             </place>
             
             <place type="place">
+               <placeName type="index">Swinton</placeName>
                <placeName type="formInDocument">Swinton</placeName>
+              <!-- ?near Wombwell -->
+               <region type="parish">Wath upon Dearne</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <note type="charter">MS. Ch. Yorks. 320</note>
+               <note>Identification uncertain.</note>
+            </place>
+            
+            
+            <place type="place">
+               <placeName type="index">Swindon [unidentified]</placeName><!-- 'dioc York' Joan Southeron of, 1577. Wills in York Registry is no help. -->
                <placeName type="formInDocument">Swindon</placeName>
+               <!-- Swinden or Swindon: impossible to say which -->
                <!--<region type="parish"></region>
                <region type="county"></region>
               Several potential places, how to decide? <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Appleton+le+Street/53286b32b47fc40bc6000402-Swinton</idno>
@@ -4141,7 +4177,7 @@
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Wath+upon+Dearne/5328827cb47fc40c8100629c-Swinton</idno>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Kirkby+Overblow/532881f9b47fc40c81003ebc-Swindon+Grange%2C+Swindon+Hall</idno>-->
                <note type="charter">MS. Ch. Yorks. 311d</note>
-               <note type="charter">MS. Ch. Yorks. 320</note>
+             
             </place>
             
             <place type="place">
