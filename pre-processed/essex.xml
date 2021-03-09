@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -30,7 +27,7 @@
                   <persName><forename>Anne</forename> <surname>Cressy</surname>, widow</persName>, late wife of
                   <persName><forename>William</forename> <surname>Cressy</surname> , gent.</persName>, deceased, grants
                   unto the said Anne an annuity of £20 out of the manor of <placeName type="manor">Bokkyng</placeName> 
-                  for the term of her life. Dated 8 Sept., <date>1 Mary</date>. 
+                  for the term of her life. Dated <date when="1554-09-08">8 Sept., 1 Mary</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 169</bibl>. </p>
             </div>
                   
@@ -44,7 +41,7 @@
                   possession of a moiety of a mill called '<placeName type="minor">Trokenhulle Mulne</placeName>' then the
                   said charter of feoffment shall be null and void. 
                   Dated at <placeName role="date">Alnytheleye</placeName> the Sunday next after the Nativity B. V. M., 
-                  <date>25 Ed. III</date>. 
+                  <date notBefore="1351-01-25" notAfter="1352-01-24">25 Ed. III</date>. 
                   <note type="language">[French]</note>
                   <bibl type="shelfmark">MS. Ch. Essex 170</bibl>. </p>
             </div>
@@ -73,7 +70,7 @@
                   the village of <placeName>Bolemere</placeName>, in exchange for one acre of meadow lying in
                   <placeName>Great Henye</placeName>.
                   Dated at <placeName role="date">Bolmere</placeName>, the
-                  Wednesday next after the feast of the Nativity of St. John the Baptist, <date>4 Ed. III</date>. 
+                  Wednesday next after the feast of the Nativity of St. John the Baptist, <date notBefore="1330-01-25" notAfter="1331-01-24">4 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 173</bibl>. </p>
             </div>
             
@@ -83,7 +80,7 @@
                   <persName><forename>John</forename> <surname>Burel</surname> of <placeName role="person">Sudbury</placeName></persName> 
                   one piece of land called '<placeName type="minor">Kyngeslond</placeName>' in the village of
                   <placeName>Bolemere</placeName>. Dated at <placeName role="date">Bolemere</placeName> ... the feast of St.
-                  Barnabas the apostle, <date>29 Ed. III</date>. 
+                  Barnabas the apostle, <date notBefore="1355-01-25" notAfter="1356-01-24">29 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 174</bibl>. </p>
             </div>
             
@@ -94,9 +91,9 @@
                   called '<placeName type="minor">Haselwell</placeName>,' between the land of
                   <persName><forename>John</forename> <surname>Prentye</surname></persName> on the one part, and land of
                   the heirs of <persName><forename>John</forename> <surname>Scullok</surname></persName> on the other, to
-                  hold from Michaelmas, <date>34 Ed. III</date>, for five years next following, paying annually 20d.
+                  hold from Michaelmas, <date notBefore="1360-01-25" notAfter="1361-01-24">34 Ed. III</date>, for five years next following, paying annually 20d.
                   Dated at <placeName role="date">Bulmere</placeName>, the Monday after the feast of St. Barnabas the
-                  apostle, <date>35 Ed. III</date>. 
+                  apostle, <date notBefore="1361-01-25" notAfter="1362-01-24">35 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 176</bibl>. </p>
             </div>
             
@@ -104,7 +101,7 @@
                <p> <persName><forename>John</forename> <surname>Gave</surname> (?) of <placeName role="person">Sudbury</placeName></persName> 
                   grants to <persName><forename>John</forename> <surname>Aleyn</surname> of <placeName role="person">Sudbury</placeName></persName>
                   one croft of land in <placeName>Bulmere</placeName>.
-                  Dated at <placeName role="date">Bulmere</placeName>, 16 Jan., <date>13 Rich. II</date>. . 
+                  Dated at <placeName role="date">Bulmere</placeName>, 16 Jan., <date notBefore="1389-06-22" notAfter="1390-06-21">13 Rich. II</date>. . 
                   <bibl type="shelfmark">MS. Ch. Essex 177</bibl>. </p>
             </div>
             
@@ -114,7 +111,7 @@
                   <persName><forename>William</forename> <surname>Wallsshe</surname> of <placeName role="person">Wycham</placeName></persName>, 
                   their attorney, to deliver seizin of certain lands and tenements in <placeName>Bulmer</placeName>, 
                   co. Essex, to <persName><forename>John</forename> <surname>Wallsshe</surname></persName> and others.
-                  Dated 12 July, <date>14 Ed. IV</date>. 
+                  Dated 12 July, <date notBefore="1474-03-04" notAfter="1475-03-21">14 Ed. IV</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 178</bibl>. </p>
             </div>
             
@@ -123,7 +120,7 @@
                   <persName><forename>Robert</forename> his son</persName>, grant to 
                   <persName><forename>John</forename> <surname>Walsshe</surname> of <placeName role="person">Pebmersst</placeName></persName> 
                   and others, all their lands, &lt;fec. in the parish of <placeName>Bulmer</placeName>. 
-                  Dated at <placeName role="date">Bulmer</placeName>, 12 July, <date>14 Ed. IV</date>. 
+                  Dated at <placeName role="date">Bulmer</placeName>, 12 July, <date notBefore="1474-03-04" notAfter="1475-03-21">14 Ed. IV</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 179</bibl>. </p>
             </div>
             
@@ -135,7 +132,7 @@
                   for the term of his life and to his executors ten years after his decease, paying annually one rose at
                   the feast of St. John the Baptist.
                   Dated at <placeName role="date">Bulmer</placeName> the Monday after the feast of St. Mark, 
-                  <date>33 Ed. III</date>.
+                  <date notBefore="1359-01-25" notAfter="1360-01-24">33 Ed. III</date>.
                   <note type="language">[French]</note>
                   <bibl type="shelfmark">MS. Ch. Essex 175</bibl>. </p>
             </div>
@@ -146,7 +143,7 @@
                   all right, &amp;c. in the manor of <placeName type="manor">Stepilbumstede</placeName>, co. Essex as he
                   held it from <persName>sir <forename>Rich.</forename> <surname type="patronymic">Fitz-Simon</surname>, knt.</persName>
                   Dated at <placeName role="date">Lacheleygh</placeName> the Thursday next after the feast
-                  of the apostles SS. Peter and Paul, <date>7 Ed. II</date>. 
+                  of the apostles SS. Peter and Paul, <date notBefore="1313-07-08" notAfter="1314-07-07">7 Ed. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 180</bibl>. </p>
             </div>
             
@@ -166,7 +163,7 @@
                   is bound to <persName>sir <forename>John</forename> <surname>Carbonel</surname>, sheriff of <placeName type="county" role="sheriff">Essex</placeName></persName>, 
                   and his heirs in £5 and half a mark for the custody of the hundred of 
                   <placeName type="hundred">Chafford</placeName> from the feast of
-                  Pentecost, <date>20 Ed. I</date>, unto the feast of Michaelmas next following,
+                  Pentecost, <date notBefore="1291-11-20" notAfter="1292-11-19">20 Ed. I</date>, unto the feast of Michaelmas next following,
                   payable at the castle of <placeName>Colchester</placeName>. 
                   Dated at <placeName role="date">Chelmer</placeName> the Wednesday in Whitsun week. 
                   <bibl type="shelfmark">MS. Ch. Essex 182</bibl>. </p>
@@ -180,7 +177,7 @@
                   tenement he formerly bought of 
                   <persName><forename>Robert</forename> <surname>Lorette</surname></persName>.
                   Dated at <placeName role="date">Colchester</placeName> ... after the feast of
-                  St. Botulph, abbot, ...<date> Ed. [I]</date>.
+                  St. Botulph, abbot, ...<date notAfter="1307" notBefore="1272"> Ed. [I]</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 183</bibl>. </p>
             </div>
             
@@ -201,8 +198,7 @@
                <p> COLUM or EARLES COLNE (Priory of). 
                   <persName><forename>William</forename>, son of <persName><forename>Alured</forename> of <surname>Wicham</surname></persName></persName>, 
                   grants to the <orgName>church of St. Mary of Colum and the monks</orgName> there, in frankalmoigne, 2d. annual
-                  rent from his land of <placeName>Lefledewelle</placeName> called '<placeName type="minor">Randulues hamstal</placeName>.' (<date when="1210"
-                     precision="low">c. 1210</date>.) 
+                  rent from his land of <placeName>Lefledewelle</placeName> called '<placeName type="minor">Randulues hamstal</placeName>.' (<date when="1210" precision="low">c. 1210</date>.) 
                   <bibl type="shelfmark">MS. Ch. Essex 185</bibl>. </p>
             </div> 
                   
@@ -217,7 +213,7 @@
                         <persName><forename>Isabella</forename> <surname>Parson</surname></persName> in name of 
                         <persName><forename>Margaret</forename> <surname>Parson</surname></persName>, of the charity
                   and bequest of the said <persName><forename>Thomas</forename> <surname>Rolf</surname></persName> for 
-                        marrying girls. Dated 7 May, <date>23 Hen. VI</date>. 
+                        marrying girls. Dated 7 May, <date notBefore="1444-09-01" notAfter="1445-08-31">23 Hen. VI</date>. 
                         <bibl type="shelfmark">MS. Ch. Essex 186</bibl>. </p>
             </div>
             
@@ -241,13 +237,13 @@
                   to <persName><forename>John</forename> <surname>Carbonel</surname>, sheriff of <placeName role="sheriff" type="county">Essex</placeName></persName>, 
                   for £4 levied on the goods and chattels of 
                   <persName><forename>John</forename> <surname>Berneval</surname></persName>, by the king's brief. 
-                  Dated at <placeName role="date">London</placeName> on the morrow of St. [Nathy?], <date>21 Ed. I</date>. 
+                  Dated at <placeName role="date">London</placeName> on the morrow of St. [Nathy?], <date notBefore="1292-11-20" notAfter="1293-11-19">21 Ed. I</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 188</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Bond given to <persName>sir <forename>John</forename> <surname>Carbonel</surname>, sheriff of <placeName role="sheriff" type="county">Essex</placeName> and <placeName role="sheriff" type="county">Hertford</placeName></persName>, 
-                  <date>20 Ed. I</date>. [Illegible.] 
+                  <date notBefore="1291-11-20" notAfter="1292-11-19">20 Ed. I</date>. [Illegible.] 
                   <note type="seal">[With seals.]</note> 
                   <bibl type="shelfmark">MS. Ch. Essex 189</bibl>. </p>
             </div>
@@ -259,7 +255,7 @@
                   of silver, which the said John levied of the goods of 
                   <persName><forename>John</forename> de <surname>Say</surname></persName> to his use by the king's writ. 
                   Dated at <placeName role="date">London</placeName> the Friday next after the Quindena of St. Martin, 
-                  <date>21 Ed. I</date>.
+                  <date notBefore="1292-11-20" notAfter="1293-11-19">21 Ed. I</date>.
                   <note type="seal">[With seal.]</note> 
                   <bibl type="shelfmark">MS. Ch. Essex 190</bibl>. </p>
             </div>
@@ -273,7 +269,7 @@
                   and to summon him before the barons of the exchequer to answer for the relief of the said Humphrey his father for
                   the lands of the said Humphrey his grandfather held in capite the day he died, of Edward, King of
                   England, grandfather of the present King. 
-                  Dated at <placeName role="date">Westminster</placeName>, 17 Dec., <date>4 Ed. III</date>. 
+                  Dated at <placeName role="date">Westminster</placeName>, 17 Dec., <date notBefore="1330-01-25" notAfter="1331-01-24">4 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 191</bibl>. </p>
             </div>
                   
@@ -292,7 +288,7 @@
                   appurtenances, to hold the same from the feast of St. Michael next for 3 years, paying annually at the manor of
                   <placeName type="manor">Little Wenhain</placeName> £24. 
                   Dated at <placeName role="date">Wenham</placeName> the Friday next after the feast of St. Barnabas the
-                  apostle, <date>11 Rich. II</date>. 
+                  apostle, <date notBefore="1387-06-22" notAfter="1388-06-21">11 Rich. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 192</bibl>. </p>
             </div>
             
@@ -303,13 +299,13 @@
                   40s. of silver, one field with hedges, &amp;c., called '<placeName type="minor">Haukeslor</placeName>,' in the
                   parish of <placeName>Great Fordham</placeName>, paying annually 2s.
                   Dated at <placeName role="date">Fordham</placeName> the Sunday next before the Ascension
-                  of our Lord, <date>23 Ed. [I]</date>. 
+                  of our Lord, <date notBefore="1294-11-20" notAfter="1295-11-19">23 Ed. [I]</date>. 
                   [Written much later.]
                   <bibl type="shelfmark">MS. Ch. Essex 193</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> FREMNALLES, alias HEMNALLES (Manor of). Indenture dated 18 July, <date>3 Chas. I</date>, witnesseth that 
+               <p> FREMNALLES, alias HEMNALLES (Manor of). Indenture dated <date when="1627-07-17">18 July, 3 Chas. I</date>, witnesseth that 
                   <persName>sir <forename>John</forename> <surname>Tirrell</surname></persName> sells unto 
                   <persName>sir <forename>Henry</forename> <surname>Brown</surname></persName> and
                   <persName><forename>Edward</forename> <surname>Bulstrod</surname></persName> his manor of 
@@ -334,7 +330,7 @@
             <!--Annotation: Gosfield, see p. 668-->
             
             <div type="charter">
-               <p> GRETEHALLYNBERY. Indenture made 4 Nov., <date>36 Hen. VIII</date>, by which
+               <p> GRETEHALLYNBERY. Indenture made 4 Nov., <date notBefore="1544-04-22" notAfter="1545-04-21">36 Hen. VIII</date>, by which
                   <persName><forename>George</forename> <surname>Whetenall</surname> of <placeName role="person">Estpecham in the county of Kent</placeName>, esq.</persName>, 
                   demises to <persName><forename>Edward</forename> <surname>Clonvyle</surname> of <placeName role="person">London</placeName>, gentleman</persName>, 
                   a fullyng mill and all that appertains to it at <placeName>Gretehallynbery</placeName> in the county of Essex, 
@@ -350,7 +346,7 @@
                   pieces, lying in the parish of <placeName>Hadlegh</placeName> in a hamlet called <placeName>Lasham</placeName>, in
                   exchange for the same quantity of land lying in the same village in sixteen pieces.
                   Dated at <placeName role="date">Hadlegh</placeName> the Sunday next before the feast of the apostles SS. Simon 
-                  and Jude, <date>5 Ed. III</date>.
+                  and Jude, <date notBefore="1331-01-25" notAfter="1332-01-24">5 Ed. III</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 197</bibl>. </p>
             </div>
             
@@ -359,7 +355,7 @@
                   <persName><forename>Andrew</forename> ate <surname>Broks</surname> called the <surname>Spicer</surname></persName>, grants to
                   <persName><forename>John</forename> <surname>Hadle</surname>, citizen of <placeName role="person">London</placeName></persName>, 
                   a piece of arable land lying in the field called '<placeName type="minor">helmeston</placeName>.' 
-                  Dated at <placeName role="date">Hadlegh</placeName>, 5 June, <date>51 Ed. III</date>. 
+                  Dated at <placeName role="date">Hadlegh</placeName>, 5 June, <date notBefore="1377-01-25" notAfter="1378-01-24">51 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 198</bibl>. </p>
             </div>
             
@@ -368,7 +364,7 @@
                   grants to <persName><forename>Matilda</forename> <surname>Spylman</surname> of <placeName role="person">Hadlegh</placeName></persName>, 
                   lands, rents, &amp;c., in the village of <placeName>Hadlegh</placeName>. 
                   Dated at <placeName role="date">Hadlegh</placeName> the Tuesday before the feast of All Saints, 
-                  <date>4 Hen. IV</date>. 
+                  <date notBefore="1402-09-30" notAfter="1403-09-29">4 Hen. IV</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 199</bibl>. </p>
             </div>
             
@@ -383,7 +379,7 @@
                   said Walter Clopton, for the lives of <persName nymRef="Clopton"><forename>Alice</forename></persName> and <persName nymRef="Clopton"><forename>Elizabeth</forename></persName>, 
                   daughters of the said Walter and Elizabeth. 
                   Dated at <placeName role="date">Hadlegh</placeName> the Tuesday next after the feast of St. Boniface and his
-                  companions, <date>13 Hen. IV</date>. 
+                  companions, <date notBefore="1411-09-30" notAfter="1412-09-29">13 Hen. IV</date>. 
                   <note type="seal">[With seal.]</note> 
                   <bibl type="shelfmark">MS. Ch. Essex 200</bibl>. </p>
             </div>
@@ -399,7 +395,7 @@
                   <persName><forename>William</forename> <surname>Clopton</surname> of <placeName role="person">Melford, co. Suffolk</placeName>, esq.</persName>, 
                   and <persName><forename>John</forename> <surname>Brian</surname> of <placeName role="person">Hadle</placeName></persName>. 
                   Dated at <placeName role="date">Hadle</placeName> the Monday next before the feast of All Saints, 
-                  <date>1 Hen. VI</date>. 
+                  <date notBefore="1422-09-01" notAfter="1423-08-31">1 Hen. VI</date>. 
                   <note type="seal">[With seal of arms, broken.]</note> 
                   <bibl type="shelfmark">MS. Ch. Essex 201</bibl>. </p>
             </div>
@@ -411,7 +407,7 @@
                   and <persName><forename>Alice</forename> <surname>Bendyssh</surname></persName>, daughter of the said Walter, all
                   right in the manor of <placeName type="manor">Toppesfeld</placeName> in Hadleye. 
                   Dated at <placeName role="date">Melford</placeName> the Thursday after the feast of All Saints, 
-                  <date>1 Hen. VI</date>. 
+                  <date notBefore="1422-09-01" notAfter="1423-08-31">1 Hen. VI</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 202</bibl>. </p>
             </div>
             
@@ -423,14 +419,14 @@
                   and William ... grant to <persName>...ner of <placeName role="person">Halfamston, Essex</placeName>, esq.</persName> 
                   <persName><forename>William</forename> <surname>Aylemer</surname></persName> the whole of that messuage with a
                   garden in the village of ... <!--chk hardcopy, unclear: [Mutilated.]--> 
-                  Dated <date>13 [Hen. VI]</date>. 
+                  Dated <date notBefore="1434-09-01" notAfter="1435-08-31">13 [Hen. VI]</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 203</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> HALSTED. Will and probate of 
                   <persName><forename>James</forename> <surname>Fullerton</surname> of <placeName role="person">Halsted, co. Essex</placeName>, gent.</persName> 
-                  Will dated 25 Jan., <date>4 Will, and Mary</date>; probate dated 29 March, <date when="1693">1693</date>.
+                  Will dated <date when="1693-01-25">25 Jan., 4 Will, and Mary</date>; probate dated 29 March, <date when="1693">1693</date>.
                      <bibl type="shelfmark">MS. Ch. Essex 204</bibl>. </p>
             </div>
             
@@ -449,7 +445,7 @@
                   <persName><forename>William</forename> <surname>Godewyn</surname></persName>'s, 9½ acres of land and 1½ of meadow,
                   lies at '<placeName type="minor">le Brousseheade</placeName>' in the same village. 
                   Dated at <placeName role="date">Hatfield</placeName> on the feast of St. Matthew the apostle, 
-                  <date>2 Rich. II</date>. 
+                  <date notBefore="1378-06-22" notAfter="1379-06-21">2 Rich. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 205</bibl>. </p>
             </div>
             
@@ -461,7 +457,7 @@
                   <placeName type="minor">Lytylroysefeld</placeName>, in exchange for one croft called 
                   <placeName type="minor">Tayloryscroft</placeName> with a garden adjacent, and for one piece of land lying in
                   <placeName>Blakelond</placeName>. 
-                  Dated at <placeName role="date">Hatfield Regis</placeName> on the feast of St. Valentine, <date>18 Hen. VI</date>. 
+                  Dated at <placeName role="date">Hatfield Regis</placeName> on the feast of St. Valentine, <date notBefore="1439-09-01" notAfter="1440-08-31">18 Hen. VI</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 206</bibl>. </p>
             </div>
             
@@ -479,12 +475,12 @@
                   <persName><forename>Richard</forename> <surname>Lyndesell</surname></persName>, his heirs and assigns for ever, all
                   right in one croft of land containing 10 acres more or less in <placeName>Hatfeld Regis</placeName>,
                   together with two other crofts and certain parcels of land. 
-                  Dated 1 Jan., <date>27 Hen. VIII</date>. 
+                  Dated 1 Jan., <date notBefore="1535-04-22" notAfter="1536-04-21">27 Hen. VIII</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 207</bibl>. </p>
             </div>
            
             <div type="charter">
-               <p> An acknowledgment that on 31 Dec., <date>27 Hen. VIII</date>,
+               <p> An acknowledgment that on 31 Dec., <date notBefore="1535-04-22" notAfter="1536-04-21">27 Hen. VIII</date>,
                   <persName><forename>John</forename> <surname>Speller</surname> the elder, of <placeName role="person">King's Hatfield</placeName></persName>, 
                   received of <persName><forename>Rychard</forename> <surname>Lynsell</surname></persName> £16 13s. 4d, for the
                   purchase of certain lands in <placeName>King's Hatfield</placeName>. 
@@ -500,7 +496,7 @@
             </div>
             
             <div type="charter">
-               <p> HAVERING PARK. Indenture made 17 June, <date>17 Chas. II</date>, by which 
+               <p> HAVERING PARK. Indenture made <date when="1665-06-17">17 June, 17 Chas. II</date>, by which 
                   <persName>Queen Henrietta Maria</persName> assigns and leases to 
                   <persName><forename>Elizabeth</forename> <surname>Gauden</surname></persName> three parts of certain
                   enclosed lands known as <placeName>Haveringe Parke</placeName> for 21 years, at an annual rent of £150.
@@ -512,7 +508,7 @@
                   <persName><forename>Geoffrey</forename> <surname>Jarnynggham</surname></persName>, for his life, their mill of 
                   <placeName>Hengham</placeName>, paying annually for the first 4 years 7 quarters of corn, and for the remainder of
                   the term 8 quarters. Dated at <placeName role="date">Hengham</placeName> the Thursday after the feast of St. George
-                  the martyr, <date>8 Ed. II</date>. 
+                  the martyr, <date notBefore="1314-07-08" notAfter="1315-07-07">8 Ed. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 211</bibl>. </p>
             </div>
             
@@ -521,7 +517,7 @@
                   <persName><forename>Robert</forename> <surname>Skout</surname> of <placeName role="person">Great Henny</placeName></persName>
                   grants to<persName><forename>Edmund</forename> <surname>Botilor</surname></persName> one piece of a meadow in the
                   village of Great Henny, called '<placeName type="minor">Skouttis Merchs</placeName>,' for 20 years.
-                  Dated at <placeName role="date">Bulmer</placeName> in the feast of St. Matthew the apostle, <date>22 Ed. III</date>.  
+                  Dated at <placeName role="date">Bulmer</placeName> in the feast of St. Matthew the apostle, <date notBefore="1348-01-25" notAfter="1349-01-24">22 Ed. III</date>.  
                   <bibl type="shelfmark">MS. Ch. Essex 212</bibl>. </p>
             </div>
             
@@ -531,7 +527,7 @@
                   acknowledges to have received of 
                   <persName><forename>John</forename> <surname>Doyll</surname>, of <placeName role="person">Hadleye, co. Suffolk</placeName>, esq.</persName>, 
                   2s., being an annual quit-rent from lands in <placeName>Roydon</placeName>. 
-                  Dated on the morrow of St. Michael, <date>19 Ed. IV</date>. 
+                  Dated on the morrow of St. Michael, <date notBefore="1479-03-04" notAfter="1480-03-21">19 Ed. IV</date>. 
                   <note type="seal">[With small fragment of seal.]</note> 
                   <bibl type="shelfmark">MS. Ch. Essex 213</bibl>. </p>
             </div>
@@ -551,7 +547,7 @@
                   quit-claims to <persName><forename>John</forename> <surname>King</surname> de la <placeName role="person">Hill</placeName></persName>,
                   <persName><forename>John</forename> <surname>Glascock</surname></persName>, and others, all right in lands and
                   tenements, called <placeName type="minor">Wilchons, alias Downhams</placeName>, in <placeName>Moreton</placeName> in
-                  Essex. Dated at <placeName role="date">Moreton</placeName>, 28 Nov., <date>15 Hen. VIII</date>. 
+                  Essex. Dated at <placeName role="date">Moreton</placeName>, 28 Nov., <date notBefore="1523-04-22" notAfter="1524-04-21">15 Hen. VIII</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 215</bibl>. </p>
             </div>
             
@@ -572,12 +568,12 @@
                   grants to <persName><forename>Robert</forename> de <surname>Aspale</surname></persName> his father the manor of
                   <placeName type="manor">Slamundeshey</placeName> and all that belongs to it in <placeName>Blake Nottele</placeName>
                   and <placeName>White Nottele</placeName>, co. Essex, for the term of his life. 
-                  Dated at <placeName>Coulingge</placeName> the Monday on the morrow of the Holy Trinity, <date>2 Ed. III</date>. 
+                  Dated at <placeName>Coulingge</placeName> the Monday on the morrow of the Holy Trinity, <date notBefore="1328-01-25" notAfter="1329-01-24">2 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 217</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> ORSETT. Indenture made 7 Feb., <date>15 James I</date>, by which 
+               <p> ORSETT. Indenture made 7 Feb., <date notBefore="1617-03-24" notAfter="1618-03-23">15 James I</date>, by which 
                   <persName><forename>Abigail</forename> <surname>Baker</surname> of <placeName role="person">London</placeName></persName> 
                   grants to <persName><forename>Thomas</forename> <surname>Clum</surname> of <placeName role="person">Orsett in the county of Essex</placeName></persName> the wardship, lands and marriage of 
                   <persName><forename>Thomas</forename> <surname>Drywood</surname></persName>, son and heir of
@@ -589,7 +585,7 @@
                <p> PENTLOW. Bond given by <persName><forename>John</forename> <surname>Buntyng</surname> of <placeName role="person">Pentlowe</placeName></persName> 
                   to <persName><forename>Helmyng</forename> <surname>Legett</surname></persName>, in £20
                   payable three years after date. Dated at <placeName role="date">Pentlowe</placeName> the Monday after the feast of
-                  St. John the Baptist, <date>33 Ed. III</date>. 
+                  St. John the Baptist, <date notBefore="1359-01-25" notAfter="1360-01-24">33 Ed. III</date>. 
                   <note type="language">[French]</note>
                   <bibl type="shelfmark">MS. Ch. Essex 219</bibl>. </p>
             </div>
@@ -610,7 +606,7 @@
                <p> Letters patent of <persName>King Edward III</persName>, confirming a composition between the bishop of
                   <placeName role="bishop" type="diocese">Norwich</placeName> and the <orgName>priory of Priterwell</orgName>, relating
                   to the filling up of vacancies in the church of <placeName>Stoke atte Neylond</placeName>, appropriated to the said
-                  priory. Dated at <placeName role="date">Westminster</placeName>, 8 July, <date>16 Ed. III</date>. 
+                  priory. Dated at <placeName role="date">Westminster</placeName>, 8 July, <date notBefore="1342-01-25" notAfter="1343-01-24">16 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 221</bibl>. </p>
             </div>
             
@@ -621,7 +617,7 @@
                   <persName><forename>John</forename> <surname>Lukas</surname></persName>, one croft of arable land with a certain
                   lane belonging in the village of <placeName>Rothyng-Beauchamp</placeName>. 
                   Dated at <placeName role="date">Rothyng-Beauchamp</placeName> the
-                  Sunday next after the feast of St. Mark the evangelist, <date>10 Hen. VI</date>.
+                  Sunday next after the feast of St. Mark the evangelist, <date notBefore="1431-09-01" notAfter="1432-08-31">10 Hen. VI</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 222</bibl>. </p>
             </div>
             
@@ -630,7 +626,7 @@
                   quit-claims to <persName><forename>Thomas</forename> <surname>Poole</surname> of <placeName role="person">Rothyng-Beauchamp</placeName></persName> 
                   all right in one croft of arable land called '<placeName type="minor">Merkescroft</placeName>' in the village of
                   <placeName>Rothyng-Beauchamp</placeName>. 
-                  Dated at <placeName role="date">London</placeName>, 26 Nov., <date>31 Hen. VI</date>. 
+                  Dated at <placeName role="date">London</placeName>, 26 Nov., <date notBefore="1452-09-01" notAfter="1453-08-31">31 Hen. VI</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 223</bibl>. </p>
             </div>
             
@@ -651,7 +647,7 @@
             </div>
             
             <div type="charter">
-               <p> <pb n="57"/> Indenture made 12 July, <date>21 James I</date>, by which
+               <p> <pb n="57"/> Indenture made 12 July, <date notBefore="1623-03-24" notAfter="1624-03-23">21 James I</date>, by which
                   <persName><forename>William</forename> <surname>Broughton</surname>, of <placeName role="person">Little Lawford, Warwick</placeName>, esq.</persName> and
                   <persName><forename>Abigail</forename> <surname>Baker</surname> of <placeName role="person">Shobery</placeName></persName>
                   grant to <persName><forename>John</forename> <surname>Baker</surname></persName> an annuity of £10 issuing out of the
@@ -660,7 +656,7 @@
             </div>
             
             <div type="charter">
-               <p> SMETHETON. Indenture made the Thursday in Easter week, <date>1 Ed. III</date>, by which
+               <p> SMETHETON. Indenture made the Thursday in Easter week, <date notBefore="1327-01-25" notAfter="1328-01-24">1 Ed. III</date>, by which
                    <persName>sir <forename>James</forename> <surname>Laules</surname>, attorney of <persName>sir <forename>James</forename> le <surname>Botiller</surname></persName> of <placeName role="person">Ireland</placeName></persName>, 
                   grants to farm to <persName><forename>Edmund</forename> le <surname>Botiller</surname> of <placeName role="person">Bulmer</placeName></persName>, 
                   the manors of <placeName type="manor">Smetheton</placeName> and <placeName type="manor">F...borgh</placeName>, from
@@ -672,7 +668,7 @@
             </div>
             
             <div type="charter">
-               <p> STAPLEFORD. Indenture made 3 March, <date>16 Charles II</date>, by which 
+               <p> STAPLEFORD. Indenture made 3 March, <date notBefore="1675-01-30" notAfter="1676-01-29">16 Charles II</date>, by which 
                   <persName>Queen Henrietta Maria</persName> and others demise to 
                   <persName><forename>William</forename> <surname>Crofts</surname>, esq., one of her majesty's servants in ordinary</persName>, 
                   a tenement in <placeName>Stapleford</placeName> called '<placeName type="minor">Hammonds</placeName>' in the 
@@ -686,14 +682,14 @@
                   <persName><forename>Eva</forename> his wife</persName>, the whole of his manor of
                   <placeName type="manor">Wendene</placeName> in co. Essex, with all its appurtenances, for their lives.
                   Dated at <placeName role="date">Berkeleye</placeName> the Saturday on the feast of the Nativity of St. John the 
-                  Baptist, <date>29 Ed. I</date>. 
+                  Baptist, <date notBefore="1300-11-20" notAfter="1301-11-19">29 Ed. I</date>. 
                   <bibl>MS. Ch. Douce 65</bibl>. 
                   <!--was: <bibl type="shelfmark">MS. Ch. Essex 230</bibl>. --></p>
             </div>
             
             <div type="charter">
-               <p> WESTHAM. Indenture dated 17 July, <date>6 Edward VI</date>, reciting a former indenture dated
-                  12 August, <date>26 Hen. VIII</date>, in which
+               <p> WESTHAM. Indenture dated <date when="1552-07-17">17 July, 6 Edward VI</date>, reciting a former indenture dated
+                  12 August, <date notBefore="1534-04-22" notAfter="1535-04-21">26 Hen. VIII</date>, in which
                   <persName><forename>William</forename> <surname>Huddleston</surname>, the abbot</persName>, and the 
                   <orgName>convent of Stratford Langthorne</orgName>, co. Essex, demised to one <placeName>Hamlett Shaw</placeName>
                   certain parcels of land in <placeName>Westham</placeName> for 41 years. This indenture witnesseth that
@@ -711,7 +707,7 @@
             </div>
             
             <div type="charter">
-               <p> WETHERSFIELD. Indenture made 30 May, <date>15 Charles I</date>, by which the 
+               <p> WETHERSFIELD. Indenture made 30 May, <date notBefore="1639-03-27" notAfter="1640-03-26">15 Charles I</date>, by which the 
                   <persName>rev. Father in God, <forename>William</forename>, bishop of <placeName role="bishop" type="diocese">London</placeName></persName>, 
                   demises to <persName><forename>Thomas</forename> <surname>Wyngfield</surname> of <placeName role="person">Nettlesteed, co. Suffolk</placeName>, esq.</persName>, 
                   the rectory of <placeName>Wethersfield</placeName> for a term of lives, at an annual rent of £15 0s. l0d.
@@ -720,7 +716,7 @@
             </div>
             
             <div type="charter">
-               <p> Indenture made 24 May, <date>18 Charles I</date>, by which 
+               <p> Indenture made 24 May, <date notBefore="1642-03-27" notAfter="1643-03-26">18 Charles I</date>, by which 
                   <persName><forename>William</forename>, the bishop of <placeName role="bishop" type="diocese">London</placeName></persName>, 
                   demises to <persName><forename>Martyn</forename> <surname>Noell</surname> of <placeName role="person">London</placeName></persName>
                   the rectory and parsonage of <placeName>Wethersfield</placeName> in the co. of Essex, for a term of lives, at an
@@ -735,7 +731,7 @@
                   <persName>sir <forename>Hugh</forename> de <surname>Nassandre</surname>, kt.</persName>, his
                   grandfather, gave to <persName><forename>Walkeline</forename> <surname>Visdelow</surname></persName> 
                   in <placeName>Little Wickham</placeName> and in the parish of <placeName>Bulemere</placeName>. 
-                  Dated at <placeName role="date">Great Acle</placeName>, St. Vincent's day, <date>3 Ed. I</date>.
+                  Dated at <placeName role="date">Great Acle</placeName>, St. Vincent's day, <date notBefore="1274-11-20" notAfter="1275-11-19">3 Ed. I</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 236</bibl>. </p>
             </div>
             
@@ -755,7 +751,7 @@
                <p> <persName><forename>Margery</forename>, daughter of <persName><forename>Roger</forename> le <surname>Sepustere</surname> of <placeName role="person">Wicham St. Paul</placeName></persName></persName>, 
                   grants to <persName><forename>Strangia</forename>, wife of <persName><forename>Roger</forename> le <surname>Botelyr</surname> of <placeName role="person">Bulmer</placeName></persName></persName>, all her right in a piece of land in <placeName>Wycham St. Paul</placeName>. 
                   Dated at <placeName role="date">Wycham</placeName> the Sunday on the feast of St. Peter 'in cathed.' 
-                  <date>3 Ed. II</date>. 
+                  <date notBefore="1309-07-08" notAfter="1310-07-07">3 Ed. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 238</bibl>. </p>
             </div>
             
@@ -763,7 +759,7 @@
                <p> WIDDINGTON. <persName><forename>Roger</forename>, son of <persName><forename>William</forename> <surname>Quintyn</surname></persName> of <placeName role="person">Neup .... in Essex</placeName></persName>, 
                   grants to <persName><forename>William</forename> the <surname>smith</surname></persName> one halfpenny of annual rent
                   for one acre of land in the village of <placeName>Wyditone</placeName>. 
-                  Dated, 2 April, <date>10 Ed. II</date>. 
+                  Dated, 2 April, <date notBefore="1316-07-08" notAfter="1317-07-07">10 Ed. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 231</bibl>. </p>
             </div>
             
@@ -774,11 +770,11 @@
                   <persName><forename>John</forename> <surname>Hobbys</surname></persName> and others, quit-claim to
                   <persName><forename>Nicholas</forename> <surname>Fox</surname> of <placeName role="person">Wydyton</placeName></persName> 
                   all right in 36 acres of land in <placeName>Wedynton</placeName> and <placeName>Depden</placeName>, co. Essex. 
-                  Dated 15 Oct., <date>21 Hen. VIII</date>. <bibl type="shelfmark">MS. Ch. Essex 232</bibl>. </p>
+                  Dated 15 Oct., <date notBefore="1529-04-22" notAfter="1530-04-21">21 Hen. VIII</date>. <bibl type="shelfmark">MS. Ch. Essex 232</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> WIKES (Nunnery of). Indenture made 20 May, <date>11 Hen. VIII</date>, by which 
+               <p> WIKES (Nunnery of). Indenture made 20 May, <date notBefore="1519-04-22" notAfter="1520-04-21">11 Hen. VIII</date>, by which 
                   <persName><forename>Mary</forename> <surname>Hevyngham</surname>, prioress of the <orgName role="prioress">house of Wykes</orgName></persName>, 
                   demises to <persName><forename>John</forename> <surname>Martin</surname></persName> certain lands, &amp;c., called 
                   '<placeName type="minor">Wasselyne</placeName>,' for certain years at a certain rent. 
@@ -786,7 +782,7 @@
             </div>
             
             <div type="charter">
-               <p> WIKES, WETHERSFIELD, &amp;c. Indenture made 1 August, <date>40 Queen Elizabeth</date>, by which
+               <p> WIKES, WETHERSFIELD, &amp;c. Indenture made 1 August, <date notBefore="1597-11-17" notAfter="1598-11-16">40 Queen Elizabeth</date>, by which
                    <persName><forename>Henry</forename> <surname>Best</surname> of <placeName role="person">London</placeName>, writer</persName>, 
                   for a certain sum of money sells to 
                   <persName><forename>John</forename> <surname>Hobart</surname> of the <placeName role="person">middle Temple, London</placeName>, gent.</persName>, 
@@ -818,7 +814,7 @@
                   chantry in <placeName>Wivenhoe</placeName> for two chaplains to pray for
                   <persName><forename>Richard</forename> <surname>Walton</surname>, esq.</persName> and
                   <persName><forename>Isabella</forename> his wife</persName>, and all the faithful. 
-                  Dated at <placeName role="date">Westminster</placeName>, <date>14 Jan., 1st of his reign</date>.
+                  Dated at <placeName role="date">Westminster</placeName>, <date when="1414-01-14">14 Jan., 1st of his reign</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 242</bibl>. </p>
             </div>
             
@@ -826,7 +822,7 @@
                <p> WOODFORD. Bond in £150 given by <persName><forename>Thomas</forename>, <surname>lord Grey</surname></persName>, and
                   <persName><forename>Henry</forename> <surname>Parker</surname></persName>, to secure the payment of£ 51 to
                   <persName><forename>William</forename> <surname>Payne</surname> of <placeName role="person">London</placeName>, haberdasher</persName>. 
-                  Dated 29 July, <date>43 Elizabeth</date>. 
+                  Dated 29 July, <date notBefore="1600-11-17" notAfter="1601-11-16">43 Elizabeth</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 243</bibl>. </p>
             </div>
             
@@ -834,7 +830,7 @@
                <p> Bond in a sum of £100 given by <persName><forename>Thomas</forename>, <surname>lord Grey</surname></persName>, and 
                   <persName><forename>Henry</forename> <pb n="59"/> <surname>Parker</surname> of <placeName role="person">Woodford</placeName></persName>, 
                   to <persName><forename>Lawrence</forename> <surname>Greene</surname></persName> to secure payment of £51 5s. 
-                  Dated 22 Nov., <date>44 Elizabeth</date>. 
+                  Dated 22 Nov., <date notBefore="1601-11-17" notAfter="1602-11-16">44 Elizabeth</date>. 
                   [Signed by Grey.] 
                   <bibl type="shelfmark">MS. Ch. Essex 244</bibl>. </p>
             </div>
@@ -845,7 +841,7 @@
                   <persName><forename>John</forename> <surname>Grovett</surname> of <placeName role="person">London</placeName></persName>, 
                   to <persName><forename>William</forename> <surname>Payne</surname>, citizen and haberdasher of <placeName role="person">London</placeName></persName>, 
                   to secure the sum of £51 5s. 6d. 
-                  Dated 31 Dec., <date>44 Elizabeth</date>, <date when="1601">1601</date>. 
+                  Dated 31 Dec., <date notBefore="1601-11-17" notAfter="1602-11-16">44 Elizabeth</date>, <date when="1601">1601</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 245</bibl>. </p>
             </div>
             
@@ -854,7 +850,7 @@
                   <persName><forename>Henry</forename> <surname>Parker</surname> of <placeName role="person">Woodford</placeName></persName>, 
                   to <persName><forename>Daniel</forename> <surname>Adrey</surname> alias <surname>Laymant</surname></persName>, to
                   secure payment of £100. 
-                  Dated 29 Oct., <date>44 Elizabeth</date>, <date when="1602">1602</date>. 
+                  Dated 29 Oct., <date notBefore="1601-11-17" notAfter="1602-11-16">44 Elizabeth</date>, <date when="1602">1602</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 246</bibl>. </p>
             </div>
             
@@ -862,7 +858,7 @@
                <p> Bond in a sum of £300 given by <persName><forename>Thomas</forename>, <surname>lord Grey</surname> of <placeName role="lord">Wilton</placeName></persName>, 
                   and others to <persName><forename>Henry</forename> <surname>Bate</surname></persName> to secure payment of 
                   certain money to <persName><forename>William</forename> <surname>Stoddard</surname></persName>. 
-                  Dated 4 April, <date>43 Elizabeth</date>, <date when="1601">1601</date>. 
+                  Dated 4 April, <date notBefore="1600-11-17" notAfter="1601-11-16">43 Elizabeth</date>, <date when="1601">1601</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 247</bibl>. </p>
             </div>
             
@@ -907,7 +903,7 @@
             </div>
              
             <div type="charter">
-               <p> Indenture made the Saturday next after the feast of St. Valentine, <date>31 Ed. I</date>, between
+               <p> Indenture made the Saturday next after the feast of St. Valentine, <date notBefore="1302-11-20" notAfter="1303-11-19">31 Ed. I</date>, between
                   <persName><forename>Robert</forename> <surname>Fitz Walter</surname>, lord of <placeName role="lord">Wodeham</placeName></persName>, 
                   of one part and the <persName>lady <forename>Mary</forename> de <surname>Basingbourne</surname></persName>, 
                   concerning an agreement and exchange of divers pieces of land near <placeName>Upmere</placeName>. 
@@ -957,7 +953,7 @@
             
             <div type="charter">
                <p> COLNE-ENGAINE. A paper roll, being a rental of the manor of <placeName type="manor">Colne Engaine</placeName>,
-                  made and renewed at a general court holden 21 April, <date>8th year of William the Third</date>, by 
+                  made and renewed at a general court holden <date when="1695-04-21">21 April, 8th year of William the Third</date>, by 
                   <persName><forename>John</forename> <surname>Chaplyn</surname>, gent., steward</persName>. 
                   <bibl type="shelfmark">MS. Rolls Essex 3</bibl>. </p>
             </div>
@@ -967,7 +963,7 @@
                   <placeName type="manor">CAXSTON</placeName>'S Manors. 
                   Rental of  <persName><forename>John</forename> <surname>Scudamore</surname></persName> and
                   <persName><forename>Edmund</forename> <surname>Felton</surname></persName>, esqs., 
-                  <date>5th and 16th of Elizabeth</date>, for the above manors; and also lands in 
+                  <date notBefore="1562-11-17" notAfter="1574-11-16">5th and 16th of Elizabeth</date>, for the above manors; and also lands in 
                   <placeName>Hevingham Sible</placeName>, <placeName>Little Maplestead</placeName>, <placeName>Halstead</placeName> and
                   <placeName>Gosfeld</placeName>, 5th Elizabeth only. 
                   <bibl type="shelfmark">MS. Rolls Essex 4</bibl>. </p>
@@ -976,16 +972,16 @@
             <div type="charter">
                <p> <placeName type="county">ESSEX</placeName> (County of). 
                   "The extract of the Sheriffs turne" held at <placeName role="date">Lexden</placeName> the Tuesday in
-                  Easter week, <date>16 Queen Elizabeth</date>. <bibl type="shelfmark">MS. Rolls Essex 5</bibl>.
+                  Easter week, <date notBefore="1573-11-17" notAfter="1574-11-16">16 Queen Elizabeth</date>. <bibl type="shelfmark">MS. Rolls Essex 5</bibl>.
                </p>
             </div>
             
             <div type="charter">
                <p> <placeName type="manor">GING-JOYBERD-LAUNDRY, alias BLUNT'S Manor</placeName>. View of frankpledge with courts baron
                   of <persName><forename>Paul</forename> <surname>Bayninge</surname>, esq.</persName>, held 14 May, 
-                  <date>4 James I</date>, 30 Dec., 4 James I, and 22 April, <date>5 James I</date>, before 
+                  <date notBefore="1606-03-24" notAfter="1607-03-23">4 James I</date>, 30 Dec., 4 James I, and 22 April, <date notBefore="1607-03-24" notAfter="1608-03-23">5 James I</date>, before 
                   <persName><forename>Richard</forename> <surname>Edwardes</surname>, seneschal</persName>. 
-                  <bibl type="shelfmark" >MS. Rolls Essex 6</bibl>. </p>
+                  <bibl type="shelfmark">MS. Rolls Essex 6</bibl>. </p>
             </div>
             
             <div type="charter">
@@ -996,14 +992,14 @@
                   <placeName>Emperford bridge alias Stanway bridge</placeName>, within the hundred, before 
                   <placeName><forename>Anthony</forename> <surname>Asshe</surname></placeName> and 
                   <persName><forename>John</forename> <surname>Cockerell</surname></persName>, Seneschals; from Monday called Hocke
-                  Monday alias Rope Monday, 10 April, <date>23 Elizabeth to 5 May, 37 Elizabeth</date>. 
+                  Monday alias Rope Monday, 10 April, <date notBefore="1580-11-17" notAfter="1581-11-16">23 Elizabeth to 5 May, 37 Elizabeth</date>. 
                   (12 membranes.) 
                   <bibl type="shelfmark">MS. Rolls Essex 7</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> LIGHES (Leigh) (Priory of). Court rolls "prioris et conventus de Leigh" with view of frankpledge of the manor of 
-                  <placeName type="manor">Little Leigh</placeName> <date>13, 14, 15,<!-- chk hardcopy if more--> 30 (fragment), 31, 32, 33 Edw. I and 3-12 Edw. II</date>. 
+                  <placeName type="manor">Little Leigh</placeName> <date notBefore="1284" notAfter="1319">13, 14, 15,<!-- chk hardcopy if more--> 30 (fragment), 31, 32, 33 Edw. I and 3-12 Edw. II</date>. 
                   (The prior and <orgName>convent of Lighes</orgName> being lords of the said manor). (6 membranes.) 
                   <bibl type="shelfmark">MS. Rolls Essex 8</bibl>. </p>
             </div>
@@ -1045,14 +1041,14 @@
                   maners lyynge in <placeName>moche Waltham</placeName> callyd 
                   <placeName type="manor">Warners otherwyse Waleys</placeName>, wyth <placeName>Astelyns</placeName> and 
                   <placeName>Olde Warners</placeName> wyth the demeene landys
-                  belongynge to the same maners, made the <date>21st yere off the reyngne off Kynge Henry he Eyght</date>.' 
+                  belongynge to the same maners, made the <date notBefore="1529-04-22" notAfter="1530-04-21">21st yere off the reyngne off Kynge Henry the Eyght</date>.' 
                   <note type="language">[English]</note>
                   <bibl type="shelfmark">MS. Rolls Essex 13</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> WIVENHOE. Contemporary copy of an inquisition ad quod damnum, taken the Thursday next after
-                  the feast of the Epiphany, <date>1 Hen. V</date>, for licence for the foundation of a chantry ... two chaplains <!--CHK hardcopy-->
+                  the feast of the Epiphany, <date notBefore="1413-03-21" notAfter="1414-03-20">1 Hen. V</date>, for licence for the foundation of a chantry ... two chaplains <!--CHK hardcopy-->
                   for the souls of <persName><forename>Richard</forename> <surname>Walton</surname>, esq.</persName> 
                   and <persName><forename>Isabella</forename> his wife</persName>, in the chapel of St. John Baptist in the
                   parish church of <placeName role="church">Wivenhoe</placeName>.
@@ -1074,7 +1070,7 @@
             </div>
             
             <div type="charter">
-               <p> Indenture made 28th day of Oct. <date>14 Hen. VIII</date>, by which
+               <p> Indenture made 28th day of Oct. <date notBefore="1522-04-22" notAfter="1523-04-21">14 Hen. VIII</date>, by which
                   <persName><forename>Thomas</forename> <surname>Goodwyn</surname>, the prior</persName>, and 
                   <orgName>convent of Blackmore</orgName> demise to 
                   <persName><forename>Thomas</forename> <surname>Simond</surname> of <placeName role="person">Blackmore</placeName></persName>
@@ -1091,7 +1087,7 @@
                   the whole of their land called <placeName>Clarkesland</placeName> in the village of <placeName>Gyngmargarete</placeName>,
                   and six acres of land called '<placeName type="minor">priores-land</placeName>' in <placeName>Gyngables</placeName>
                   for 21 years, at an annual rent of 21s. 4d.
-                  Dated at <placeName role="date">Blakemor</placeName>, 30 Sept., <date>23 Hen. VII</date>. 
+                  Dated at <placeName role="date">Blakemor</placeName>, 30 Sept., <date notBefore="1507-08-22" notAfter="1508-08-21">23 Hen. VII</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 158</bibl>. </p>
             </div>
             
@@ -1103,7 +1099,7 @@
             </div>
             
             <div type="charter">
-               <p> Indenture dated <date>5 Hen. VIII</date>, by which
+               <p> Indenture dated <date notBefore="1513-04-22" notAfter="1514-04-21">5 Hen. VIII</date>, by which
                   <persName><forename>Thomas</forename> <surname>Goodwyn</surname>, the prior of the <orgName role="prior">house of Blackmore</orgName></persName>,
                   &amp;c., leases to <persName><forename>Thomas</forename> <surname>Lorkyn</surname></persName> for 99 years certain
                   land in <placeName>Gyngmargaret</placeName>, at an annual rent of 5s. 
@@ -1112,7 +1108,7 @@
             </div>
             
             <div type="charter">
-               <p> Indenture made 24 Oct., <date>5 Hen. VIII</date>, by which
+               <p> Indenture made 24 Oct., <date notBefore="1513-04-22" notAfter="1514-04-21">5 Hen. VIII</date>, by which
                   <persName><forename>Thomas</forename> <surname>Goodwyn</surname>, the prior, and convent of <orgName role="prior">Blackmore</orgName></persName>
                   demise to <persName><forename>Geoffrey</forename> <surname>Radley</surname> of <placeName role="person">Norton Maundefeld</placeName></persName> 
                   a piece of land called 'priors land' for 31 years, at an annual rent of 2s. 8d. 
@@ -1126,15 +1122,14 @@
                      <surname>Pascall</surname></persName> of Gyngemargarete, yeoman, of the other
                   part, by which the prior and convent lease to the said William their parsonage of
                   Gyngemargarete and certain lands for 41 years, at an annual rent of 12 and certain
-                  payments in kind. Dated at Blackmore, 12 Jan., <date>9 Hen. VIII</date>. <bibl
-                     type="shelfmark">MS. Ch. Essex 162</bibl>. </p>
+                  payments in kind. Dated at Blackmore, 12 Jan., <date notBefore="1517-04-22" notAfter="1518-04-21">9 Hen. VIII</date>. <bibl type="shelfmark">MS. Ch. Essex 162</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>  <persName><forename>Thomas</forename> <surname>Godwyn</surname>, the prior of <orgName role="prior">Blackmore</orgName></persName>, 
                   grants to <persName><forename>John</forename> <surname>Clerke</surname> of <placeName role="person">Brendwod</placeName></persName>, 
                   lands and a cottage called 'priours lands' for 61 years, at an annual rent of 10s. {Nearly obliterated.]
-                  Dated <date>11 Hen. VIII</date>. 
+                  Dated <date notBefore="1519-04-22" notAfter="1520-04-21">11 Hen. VIII</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 163</bibl>.  </p></div>
             </div>
             
@@ -1275,7 +1270,7 @@
                <p> <persName>King Henry III</persName> grants to the abbot and <orgName>convent of St. John, Colchester</orgName>, free
                   warren in their demesne lands of <placeName>Wicham</placeName> and <placeName>Beningeham</placeName>, co. Suffolk,
                   and other lands in <placeName>Hertford</placeName> and <placeName type="county">Essex</placeName>. 
-                  Dated at <placeName role="date">Westminster</placeName>, 28 Jan., <date>37 Hen. III</date>. 
+                  Dated at <placeName role="date">Westminster</placeName>, 28 Jan., <date notBefore="1252-10-28" notAfter="1253-10-27">37 Hen. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 94</bibl>. </p>
             </div>
             
@@ -1309,7 +1304,7 @@
                   quit-claims to the abbot and <orgName>convent of Colchester</orgName> all right in a tenement which
                   <persName><forename>Thomas</forename> <surname>Gernum</surname></persName> sold to the said abbot and convent. 
                   Dated at <placeName role="date">Cottun</placeName> the Sunday next after the feast of St. Luke the evangelist,
-                  <date>51 Hen. III</date>. 
+                  <date notBefore="1266-10-28" notAfter="1267-10-27">51 Hen. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 103</bibl>. </p>
             </div>
             
@@ -1343,7 +1338,7 @@
             
             <div type="charter">
                <p> <persName><forename>Robert</forename> de <surname>Mendlesham</surname></persName>
-                  grants to the <orgName>church of St. John Baptist>, Colchester</orgName>, in frankalmoigne,
+                  grants to the <orgName>church of St. John Baptist&gt;, Colchester</orgName>, in frankalmoigne,
                   <persName><forename>John</forename> <surname>Costi</surname></persName> and 
                   <persName><forename>Robert</forename> <surname>Costi</surname></persName>, sons of
                   <persName><forename>Roger</forename> <surname>Costi</surname> of <placeName role="person">Wikham</placeName></persName>, 
@@ -1470,7 +1465,7 @@
                   <orgName>convent of St. John, Colchester</orgName>, all right in a piece of arable land in
                   <placeName>Wicham</placeName>; for this acquittance the abbot and convent gave 11s. 6d. of silver. 
                   Dated at <placeName role="date">Wicham</placeName> the day of the Nativity of the B. V. M., 
-                  <date>7 Ed. I</date>. 
+                  <date notBefore="1278-11-20" notAfter="1279-11-19">7 Ed. I</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 107</bibl>. </p>
             </div>
             
@@ -1842,7 +1837,7 @@
                   and others their manor of <placeName type="manor">Wykham</placeName> with the rectory of the same village, 
                   together with all that belongs to it, as is contained in a certain schedule attached, for 28 years, paying 
                   annually in money £7 13s. 4d., and certain payments in kind. 
-                  Dated at <placeName role="date">Colchester</placeName>, 20 Jan., <date>2 Rich. III</date>.
+                  Dated at <placeName role="date">Colchester</placeName>, 20 Jan., <date notBefore="1484-06-26" notAfter="1485-06-25">2 Rich. III</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 153</bibl>. </p>
             </div>
             
@@ -1853,7 +1848,7 @@
                   and <persName><forename>John</forename> her son</persName> the whole of the
                   manor of <placeName type="manor">Wickham</placeName> with the rectory of the same village, &amp;c., for 20 years,
                   paying annually £6 13s. 4d. and certain wheat and oats, &amp;c. 
-                  Dated at <placeName role="date">Colchester</placeName> the Sunday next after the feast of St. Dionisius, <date>12 Ed. IV</date>. 
+                  Dated at <placeName role="date">Colchester</placeName> the Sunday next after the feast of St. Dionisius, <date notBefore="1472-03-04" notAfter="1473-03-21">12 Ed. IV</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 154</bibl>. </p>
             </div>
             
@@ -1862,12 +1857,12 @@
                   manumit <persName><forename>Simon</forename> <surname>Dale</surname> of <placeName role="person">Wykham, in co. Suffolk</placeName></persName>, 
                   saving that all the lands and tenements which the said Simon holds by the rod in <placeName>Wykham</placeName> 
                   shall be held at the will of the said abbot and convent. 
-                  Dated at <placeName role="date">Colchester</placeName>, 22 Oct., <date>9 Hen. V</date>. 
+                  Dated at <placeName role="date">Colchester</placeName>, 22 Oct., <date notBefore="1421-03-21" notAfter="1422-03-20">9 Hen. V</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 155</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <pb n="69"/> Indenture made 26 Aug., <date>25 Hen. VIII</date>., by which
+               <p> <pb n="69"/> Indenture made 26 Aug., <date notBefore="1533-04-22" notAfter="1534-04-21">25 Hen. VIII</date>., by which
                   <persName><forename>Thomas</forename>, the abbot</persName>, and <orgName>convent of Colchester</orgName> demise 
                   <!--chk hardcopy: to Edward ... of ..cthamshag-->
                   a pightell and two acres of land in <placeName>Wikeham</placeName>, according to the custom of the manor. 
@@ -1876,7 +1871,7 @@
             </div>
             
             <div type="charter">
-               <p> Indenture made 20 July, <date>25 Hen. VIII</date>, by which 
+               <p> Indenture made 20 July, <date notBefore="1533-04-22" notAfter="1534-04-21">25 Hen. VIII</date>, by which 
                   <persName><forename>Thomas</forename>, the abbot</persName>, and <orgName>convent of Colchester</orgName> 
                   grant to <persName><forename>Roberd</forename> <surname>Braine (or Brame)</surname> of <placeName role="person">Wikeham-skeigh</placeName></persName>, 
                   and <persName><forename>John</forename> his son</persName>, five acres of land in <placeName>Wikeham</placeName> to
@@ -2006,7 +2001,7 @@
                   in a later hand as a charter of concession and confirmation of 
                   <persName><forename>Alan</forename> de <surname>Crefeld</surname></persName> of a field called
                   '<placeName type="minor">Suutfeld</placeName>,' at that time in the hands of the prior, viz. in
-                  <date>8 Rich. II</date>.
+                  <date notBefore="1384-06-22" notAfter="1385-06-21">8 Rich. II</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 54</bibl>. </p>
             </div>
             
@@ -2016,12 +2011,12 @@
                   <persName><forename>Cristina</forename> his wife</persName> a certain croft
                   and land in the village of <placeName>Horkeslegh</placeName>. 
                   Dated at <placeName role="date">Horkeslegh</placeName> the Thursday next after
-                  the feast of St. Barnabas, <date>24 Ed. III</date>. 
+                  the feast of St. Barnabas, <date notBefore="1350-01-25" notAfter="1351-01-24">24 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 59a</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> At a court for the honour of <placeName>Reylegh</placeName>, held 27 Oct., <date>39 Ed. III</date>, came
+               <p> At a court for the honour of <placeName>Reylegh</placeName>, held 27 Oct., <date notBefore="1365-01-25" notAfter="1366-01-24">39 Ed. III</date>, came
                   the <placeName>prior of Horkislegh</placeName> and produced many charters showing that the tenements which
                   the prior and convent of Horkislegh hold in <placeName>Horkislegh</placeName> of the aforesaid honour by
                   knights' service, and for which default in suit had been made, were given to the
@@ -2037,8 +2032,7 @@
                   annual rent of 4d. which <persName><forename>Richard</forename>, son of <persName><forename>Hugh</forename> the chaplain</persName></persName>,
                   was accustomed to pay for 3 acres of land in a field called '<placeName type="minor">Quydinere</placeName>?,' in 
                   the parish of <placeName>Great Horkesleye</placeName>. 
-                  (<date notBefore="1210" notAfter="1220" precision="low">c. 1210-20 (?)</date>.) <bibl
-                     type="shelfmark">MS. Ch. Essex 41</bibl>. </p>
+                  (<date notBefore="1210" notAfter="1220" precision="low">c. 1210-20 (?)</date>.) <bibl type="shelfmark">MS. Ch. Essex 41</bibl>. </p>
             </div>
             
             <div type="charter">
@@ -2089,7 +2083,7 @@
                   <persName><forename>Sarra</forename> his wife</persName> one piece of arable
                   land lying in the village of <placeName>Little Horkeslee</placeName>, between the land of the prior of
                   Horkesley on the one side and the street called '<placeName type="minor">Heyestrete</placeName>' on the other. 
-                  Dated at <placeName role="date">Horkeslye</placeName> on the vigil of the apostles SS. Peter and Paul <date>2 Ed. III</date>. 
+                  Dated at <placeName role="date">Horkeslye</placeName> on the vigil of the apostles SS. Peter and Paul <date notBefore="1328-01-25" notAfter="1329-01-24">2 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 56</bibl>. </p>
             </div>
             
@@ -2100,7 +2094,7 @@
                   and <persName><forename>John</forename> <surname>Hervy</surname> of <placeName role="person">Peldone</placeName></persName>, 
                   5 acres of land in a field called '<placeName type="minor">Pyrifeld</placeName>' in the village of 
                   <placeName>Little Horkeslegh</placeName>. Dated at <placeName role="date">Little Horkeslegh</placeName>,
-                  10 Nov., <date>1 Rich. II</date>. 
+                  10 Nov., <date notBefore="1377-06-22" notAfter="1378-06-21">1 Rich. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 61</bibl>. </p>
             </div>
             
@@ -2113,7 +2107,7 @@
                   which descended to him by heirship, for the use of the prior and
                   <orgName>monks of Horkislegh</orgName>, to celebrate for the souls of himself and others in the church of
                   <placeName>Little Horkislegh</placeName>. [Mutilated.] 
-                  Dated the Wednesday on the feast of the Conversion of St. Paul, <date>3 Rich. II</date>.
+                  Dated the Wednesday on the feast of the Conversion of St. Paul, <date notBefore="1379-06-22" notAfter="1380-06-21">3 Rich. II</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 62</bibl>. </p>
             </div>
             
@@ -2123,7 +2117,7 @@
                   and the <orgName>monks of Horkesleye</orgName> the whole of his estate ['totum statum meum']
                   in one croft of land containing half an acre lying in the village of <placeName>Little Horkesleye</placeName>. 
                   Dated at <placeName type="minor">Little Horkesleye</placeName> the Sunday next before the feast of St.
-                  Barnabas, <date>9 Rich. II</date>. 
+                  Barnabas, <date notBefore="1385-06-22" notAfter="1386-06-21">9 Rich. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 63</bibl>. </p>
             </div>
             
@@ -2133,7 +2127,7 @@
                   and <orgName>monks of St. Peter, Horkeslegh</orgName>, all his right in one croft of land
                   lying in the village of <placeName>Little Horkeslegh</placeName>. 
                   Dated at <placeName>Little Horkeslegh</placeName> the Sunday on the feast of St. John the Baptist, 
-                  <date>10 Rich. II</date>. 
+                  <date notBefore="1386-06-22" notAfter="1387-06-21">10 Rich. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 64a</bibl>. </p>
             </div>
             
@@ -2143,7 +2137,7 @@
                   <orgName>monks of Horkesleye</orgName> the whole of her right in two pieces of land in
                   <placeName>Little Horkesleye</placeName> called '<placeName type="minor">Gunmanmedwe</placeName>.' 
                   Dated at <placeName role="date">Little Horkesleye</placeName> the Thursday on
-                  the feast of St. Gregory, pope, <date>11 Rich. II</date>. 
+                  the feast of St. Gregory, pope, <date notBefore="1387-06-22" notAfter="1388-06-21">11 Rich. II</date>. 
                   [Slightly mutilated.]
                   <bibl type="shelfmark">MS. Ch. Essex 64b</bibl>. </p>
             </div>
@@ -2189,7 +2183,7 @@
                <p> <persName><forename>William</forename> <surname>Brun</surname> of <placeName role="person">Hwinermers</placeName></persName> 
                   grants to the prior and <orgName>monks of Horkesley</orgName> all his right in one acre of meadow which he 
                   held of them in <placeName>Alvenesfen</placeName> in frankalmoigne; for this quit-claim the said prior 
-                  and monks gave to him 40s. sterling. Dated the month of June, <date>12 Ed. [I]</date>. ]
+                  and monks gave to him 40s. sterling. Dated the month of June, <date when="1284-06">12 Ed. [I]</date>. ]
                   <bibl type="shelfmark">MS. Ch. Essex 52</bibl>. </p>
             </div>
             
@@ -2205,7 +2199,7 @@
             
             <div type="charter">
                <p> NEYLOND. Mutilated manor court roll for the manor of [<placeName type="manor">Horkesley</placeName>?] held the ...
-                  St. Dionisius ... <date>Hen. VIII</date>, in the time of <persName><forename>John</forename> <surname>Neuhton</surname>, prior, and lord of the manor</persName>. 
+                  St. Dionisius ... <date notBefore="1509" notAfter="1547">Hen. VIII</date>, in the time of <persName><forename>John</forename> <surname>Neuhton</surname>, prior, and lord of the manor</persName>. 
                   <bibl type="shelfmark">MS. Ch. Essex 66</bibl>. </p>
             </div>
              
@@ -2258,7 +2252,7 @@
                   his niece, the whole of his messuage, &amp;c. formerly 
                   <persName><forename>Geoffrey</forename> <surname>Langelec</surname></persName>'s in the parish of
                   <placeName>Wistone</placeName>. 
-                  Dated at <placeName role="date">Wiston</placeName> the Sunday next after the feast of St. Andrew, <date>3 Ed. III</date>.
+                  Dated at <placeName role="date">Wiston</placeName> the Sunday next after the feast of St. Andrew, <date notBefore="1329-01-25" notAfter="1330-01-24">3 Ed. III</date>.
                      <bibl type="shelfmark">MS. Ch. Essex 57</bibl>. </p>
             </div>
             
@@ -2290,7 +2284,7 @@
             
             <div type="charter">
                <p> <persName><forename>Philip</forename>, son of <persName><forename>John</forename> of <surname>Horkesley</surname></persName></persName>, 
-                  grants <date>11th year of Edward [I]</date> to John ...caste of <placeName role="person">Wydermundeforth</placeName>
+                  grants <date notBefore="1282-11-20" notAfter="1283-11-19">11th year of Edward [I]</date> to John ...caste of <placeName role="person">Wydermundeforth</placeName>
                   and <persName><forename>Lescilia</forename> his wife</persName> two acres of arable land in the parish of
                   [<placeName>Wythermundeford</placeName>]. 
                   <bibl type="shelfmark">MS. Ch. Essex 51*</bibl>. </p>
@@ -2301,7 +2295,7 @@
                   <persName><forename>William</forename> le <surname>Palmere</surname> of <placeName role="person">Withermuadeford</placeName></persName>,
                   grants to <persName><forename>John</forename> atte <surname>Roch</surname> de Deitholt</persName> 
                   her messuage, lands, &amp;c., in <placeName>Withermendeford</placeName>. 
-                  Dated at <placeName role="date">Withermendeford</placeName> on the morrow of St. Barnabas the apostle, <date>22 Ed. I</date>.
+                  Dated at <placeName role="date">Withermendeford</placeName> on the morrow of St. Barnabas the apostle, <date notBefore="1293-11-20" notAfter="1294-11-19">22 Ed. I</date>.
                   [Partly effaced.]
                   <bibl type="shelfmark">MS. Ch. Essex 58</bibl>. </p>
             </div>
@@ -2314,7 +2308,7 @@
                   <persName><forename>Gilbert</forename> <surname>Cook</surname> of <placeName role="person">Wythermondeford</placeName></persName>,
                   and <persName><forename>John</forename> <surname>Oliver</surname> of <placeName role="person">Staneweye</placeName></persName>, 
                   a tenement and all that appertains to it in the village of <placeName>Wythermondeford</placeName>. 
-                  Dated there on the feast of the Invention of the Cross, <date>35 Ed. III</date>. 
+                  Dated there on the feast of the Invention of the Cross, <date notBefore="1361-01-25" notAfter="1362-01-24">35 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 59b</bibl>. </p>
             </div></div>
             
@@ -2373,8 +2367,7 @@
             <div type="charter">
                <p> NAYLAND. Extracts from the court rolls of the manor of <placeName type="manor">Eylond or Neylond</placeName>, being
                   returns to inquisitions held respecting rights and claims of the prior and monks
-                  of Horkesley, from <date>44 Hen. III</date>. to <date>9 Ed. II</date>. <bibl
-                     type="shelfmark">MS. Rolls Essex, 17</bibl>. (Made temp. Edw. II or III.) </p>
+                  of Horkesley, from <date notBefore="1259-10-28" notAfter="1260-10-27">44 Hen. III</date>. to <date notBefore="1315-07-08" notAfter="1316-07-07">9 Ed. II</date>. <bibl type="shelfmark">MS. Rolls Essex, 17</bibl>. (Made temp. Edw. II or III.) </p>
                <p> (a) That <persName><forename>Simon</forename>, the prior</persName>, and the <orgName>monks of Horkesley</orgName>
                   have had common of pasture in the forest of <placeName>Cesterweld</placeName> from the time of 
                   <persName><forename>Robert</forename>, formerly of <placeName type="county">Essex</placeName></persName>. 
@@ -2383,22 +2376,22 @@
                   suit in the court of <placeName>Eylond</placeName> for which a distraint had been levied. Dated the
                   Tuesday after the feast of the translation of St. Thomas the martyr, <date when="1263">1263</date>. </p>
                <p> (c) Concerning the right of common in the forest of <placeName>Cesterweld</placeName> as (a). Dated St.
-                  Ambrose's day, <date>18 Ed. I</date>.</p>
+                  Ambrose's day, <date notBefore="1289-11-20" notAfter="1290-11-19">18 Ed. I</date>.</p>
                <p> (d) That <persName><forename>William</forename> del <surname>Hegge</surname></persName> held his land, 
                   namely '<placeName type="minor">Follereslond</placeName>,' with one messuage of the prior of
                   <orgName>Horkesley</orgName>, and that it is of the fee of <placeName>Reyleye</placeName>.
-                  Dated St. Ambrose's day, <date>18 Ed. I</date>.</p>
+                  Dated St. Ambrose's day, <date notBefore="1289-11-20" notAfter="1290-11-19">18 Ed. I</date>.</p>
                <p> (e) That the prior of Horkesley is not bound to repair a certain bridge in
                   <placeName>Horkesley</placeName> between the <orgName>priory of Horkesley</orgName> and the house of
                   <persName><forename>Robert</forename> de <surname>Cresfeld</surname></persName>. [Undated.]</p>
                <p> (f) That <persName><forename>Henry</forename>, the prior of <orgName role="prior">Little Horkesley</orgName></persName>, 
                   and his servant, are quit of the charge of taking with dogs, and shooting with arrows, a hare at 
                   <placeName>Great Horkesley</placeName>.
-                  Dated the Tuesday on the feast of St. Peter in cathedra, <date>23 Ed. I</date>. </p>
+                  Dated the Tuesday on the feast of St. Peter in cathedra, <date notBefore="1294-11-20" notAfter="1295-11-19">23 Ed. I</date>. </p>
                <p>(g) That <persName><forename>William</forename> del <surname>Hegge</surname></persName> holds his messuage and
                   other land of the prior of <orgName>Horkesley</orgName>, and that he owes nothing to the king, but the 'regal' and
                   other services belong to the prior and monks, and from time immemorial they were so seised. 
-                  Dated the Tuesday after the feast of the Circumcision, <date>24 Ed. I</date>. <pb n="75"/> </p>
+                  Dated the Tuesday after the feast of the Circumcision, <date notBefore="1295-11-20" notAfter="1296-11-19">24 Ed. I</date>. <pb n="75"/> </p>
                <p> (h) That the prior and <orgName>convent of Horkesley</orgName> do not hold any tenement for which
                   they owe suit to the court of <placeName>Neylond</placeName>. Dated the Monday on the morrow of the Holy
                   Trinity, <date when="1316">1316</date>.</p>
@@ -2423,7 +2416,7 @@
                <p> MESSING. Agreement between the prior and <orgName>convent of Colum, Essex</orgName>, and the prior
                   and <orgName>monks of Stanesgate</orgName>, concerning the annual payment of 7s. for tithes in
                   the parish of <placeName>Messing</placeName> due to the latter. 
-                  Dated at <placeName role="date">Colum</placeName> the Sunday next after the feast of St. Botulph, <date>5 Ed. II</date>. 
+                  Dated at <placeName role="date">Colum</placeName> the Sunday next after the feast of St. Botulph, <date notBefore="1311-07-08" notAfter="1312-07-07">5 Ed. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 74</bibl>. </p>
             </div>
             
@@ -2504,7 +2497,7 @@
                   <orgName>convent of Stanesgate</orgName> grant to <persName><forename>Simon</forename>, vicar of <placeName role="vicar">Steple</placeName></persName>, 
                   all the tithes belonging to the lordships of <placeName>Steple</placeName> and <placeName>Wolshys</placeName> or
                   elsewhere, paying to the priory an annual pension of 13s. and [4d.]. 
-                  Dated at <placeName role="date">Stanesgate</placeName> the 20 [June?] <date>8 [Rich. II]</date>. 
+                  Dated at <placeName role="date">Stanesgate</placeName> the 20 [June?] <date notBefore="1384-06-22" notAfter="1385-06-21">8 [Rich. II]</date>. 
                   [Mutilated and much rubbed.]
                   <bibl type="shelfmark">MS. Ch. Essex 78</bibl>. </p>
             </div>
@@ -2517,7 +2510,7 @@
                   of the one part, and <persName><forename>John</forename> <surname>Stokhall</surname>, clerk, vicar of <placeName role="vicar">Steple</placeName></persName>, 
                   of the other, by which the prior and convent are to pay annually to the said John 40s. and to
                   have all the tithes, &amp;c. of <placeName>Steple</placeName>. 
-                  Dated, 15 July, <date>15 Ed. IV</date>.
+                  Dated, 15 July, <date notBefore="1475-03-04" notAfter="1476-03-21">15 Ed. IV</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 79</bibl>. </p>
             </div>
             
@@ -2529,12 +2522,12 @@
                   to abide an award concerning the tithes of <placeName>Steple</placeName> to be made by
                   <persName><forename>John</forename> <!--chk hardcopy: He...--> vicar of <placeName role="vicar">Tyllyngham</placeName></persName>, 
                   <persName><forename>Henry</forename> <surname>Purfote</surname>, rector of St Laurence</persName> etc. 
-                  Dated, 15 Feb., <date>5 Hen. VII</date>. 
+                  Dated, 15 Feb., <date notBefore="1489-08-22" notAfter="1490-08-21">5 Hen. VII</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 80</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> Indenture dated 16th day of ... <date>Hen. VII</date>, by which <persName>sir <forename>John</forename> <surname>Stokhall</surname>, vicar of <placeName role="vicar">Steple</placeName></persName>, 
+               <p> Indenture dated 16th day of ... <date notBefore="1485-08-22" notAfter="1509-04-21">Hen. VII</date>, by which <persName>sir <forename>John</forename> <surname>Stokhall</surname>, vicar of <placeName role="vicar">Steple</placeName></persName>, 
                   demises to <persName>sir <forename>Henry</forename> <surname>Purforte</surname>, parson of <placeName role="parson">Seynt Laurence</placeName></persName> 
                   in the said county, the tithes of certain lands within the said parish of <placeName>St. Laurence</placeName>. 
                   [Mutilated and defaced.]
@@ -2564,7 +2557,7 @@
                   grants to <persName>sir <forename>John</forename> de <surname>Lamare</surname>, chaplain</persName>, and
                   <persName><forename>John</forename> <surname>Gwodman</surname></persName>, all lands and tenements which he had in
                   <placeName>Great Totham</placeName> of the fee of the prior and <orgName>monks of Stanesgate</orgName>. 
-                  Dated at <placeName role="date">Great Totham</placeName> the Monday next after the feast of All Saints, <date>47 Ed. III</date>.
+                  Dated at <placeName role="date">Great Totham</placeName> the Monday next after the feast of All Saints, <date notBefore="1373-01-25" notAfter="1374-01-24">47 Ed. III</date>.
                      <bibl type="shelfmark">MS. Ch. Essex 75</bibl>. </p>
             </div>
             
@@ -2574,7 +2567,7 @@
                   <persName><forename>William</forename> de <surname>Cantuaria</surname>, the prior</persName>, and the
                   <orgName>monks of Stanesgate</orgName> all their lands, tenements, rents, &amp;c. in
                   <placeName>Great Totham</placeName> for 100 years, paying annually for the same 12 grains of pepper.
-                  Dated at <placeName role="date">Stanesgate</placeName>, 8 March, <date>48 Ed. III</date>.
+                  Dated at <placeName role="date">Stanesgate</placeName>, 8 March, <date notBefore="1374-01-25" notAfter="1375-01-24">48 Ed. III</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 76</bibl>. </p>
             </div></div>
             
@@ -2613,7 +2606,7 @@
                <p> <persName><forename>William</forename> de <surname>St. Alban</surname>, clerk</persName>, grants in frankalmoigne
                   to the <orgName>church of St. Mary and St. Leonard of Gynge Monteyngey</orgName>, 12d. of annual rent from his
                   land called '<placeName type="minor">Le Eldelond</placeName>' of the fee of the said canons. 
-                  Dated at <placeName role="date">Tobye</placeName> on the morrow of the Epiphany, <date>26 Ed. I</date>.
+                  Dated at <placeName role="date">Tobye</placeName> on the morrow of the Epiphany, <date notBefore="1297-11-20" notAfter="1298-11-19">26 Ed. I</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 168</bibl>. </p>
             </div></div>
             
@@ -2681,7 +2674,7 @@
                   in two acres of arable land in <placeName>Great Braksted</placeName>, which he had by the gift of 
                   <persName><forename>Agnes</forename> de <surname>Marynes</surname></persName>, his late mother. 
                   Dated at <placeName role="date">Cm'sford (Chelmsford?)</placeName> the Wednesday on the vigil of St. Luke,
-                  <date>13 Ed. 1</date>.
+                  <date notBefore="1284-11-20" notAfter="1285-11-19">13 Ed. 1</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 22</bibl>. </p>
             </div>
             
@@ -2691,7 +2684,7 @@
                   <placeName>Great Braxstede</placeName>, the gift of 
                   <persName><forename>Ranulph</forename> de <surname>Montchesney</surname> (<surname>Montecaniso</surname>)</persName> 
                   and <persName><forename>Albreda</forename> his wife</persName>. Dated at
-                  <placeName role="date">Westminster</placeName> .. July, <date>20th year of his reign</date>. 
+                  <placeName role="date">Westminster</placeName> .. July, <date when="1292-07">20th year of his reign</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 23</bibl>. </p>
             </div>
             
@@ -2712,13 +2705,13 @@
                   <persName><forename>John</forename> <surname>Blythe</surname> of <placeName role="person">Innorde</placeName></persName>, 
                   one piece of land in <placeName>Great Braxstede</placeName> for 100 years, at an annual rent of 2s.
                   Dated at <placeName role="date">Toleshunt</placeName> the Thursday before the feast of St. Michael, 
-                  <date>22 Rich. II</date>.
+                  <date notBefore="1398-06-22" notAfter="1399-06-21">22 Rich. II</date>.
                   <bibl type="shelfmark">MS. Ch. Essex 27</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> BRAXTED (Great) and TOLLESHUNT-TREGOZ. 
-                  Fragment of a charter reciting a grant dated vigil of St. James, <date>9 Hen. V</date>. 
+                  Fragment of a charter reciting a grant dated vigil of St. James, <date notBefore="1421-03-21" notAfter="1422-03-20">9 Hen. V</date>. 
                   from <persName><forename>Stephen</forename> <surname>Charlewode</surname>, prior of <orgName role="prior">Typpetre</orgName></persName>, 
                   to <persName><forename>Walter</forename> <surname>Pollard</surname></persName>, 
                   <persName><forename>John</forename> <surname>Love</surname></persName>, and 
@@ -2769,7 +2762,7 @@
             </div>
             
             <div type="charter">
-               <p> <pb n="79"/> An inrollment of gifts, grants, etc., temp. <date>Ed. II</date>. (?) on paper
+               <p> <pb n="79"/> An inrollment of gifts, grants, etc., temp. <date notBefore="1307" notAfter="1327">Ed. II</date>. (?) on paper
                   (nearly decayed). <bibl type="shelfmark">MS. Ch. Essex 25, 25a, 25b</bibl> </p>
                <!--multiple shelfmarks, are they okay like this?-->
             </div>
@@ -2858,7 +2851,7 @@
             
             <div type="charter">
                <p> Indenture made at <placeName role="date">Blytheborough</placeName>, co. Suffolk, 19 May, 
-                  <date>32 Ed. III</date>, by which 
+                  <date notBefore="1358-01-25" notAfter="1359-01-24">32 Ed. III</date>, by which 
                   <persName><forename>Amicia</forename>, formerly wife of <persName><forename>John</forename>
                   <surname>Someter</surname></persName> of <placeName role="person">Tolleshunt-Tregoz</placeName></persName>,
                   grants to <persName>... de <surname>Wyndesore</surname>, prior of <orgName role="prior">St. Mary and St. Nicholas of Tiptre</orgName></persName>, 
@@ -2922,7 +2915,7 @@
             
             <div type="charter">
                <p> TIPTREE. Roll of frankpledge of the prior of <orgName role="prior">Typtree</orgName>, held on 
-                  Passion Sunday 2 (?) Edw. [I] and on feast of St. Katharine <date><unclear>1</unclear> Edw. <supplied>I</supplied></date> etc.
+                  <date notBefore="1272" notAfter="1273">Passion Sunday 2 (?) Edw. [I] and on feast of St. Katharine <unclear>1</unclear> Edw. <supplied>I</supplied></date> etc.
                   [In most part effaced and illegible.] 
                   <bibl type="shelfmark">MS. Rolls. Essex 18</bibl>.</p>
             </div></div>
