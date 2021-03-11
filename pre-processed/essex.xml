@@ -18,6 +18,8 @@
          <div type="county">
             <head>ESSEX</head>
             <!--286 charters-->
+            <!-- check that roles are in place (church etc.) -->
+          
             <!--annotation: Ashen, see p. 43
             Birdbrook and Stambourne, see p. 665-->
 
@@ -87,7 +89,7 @@
             <div type="charter">
                <p> <persName><forename>Richard</forename> le <surname>Kuyth</surname> (?) of <placeName role="person">Bulmer</placeName></persName> 
                   grants to farm to <persName><forename>Geoffrey</forename> <surname>Badkyn</surname></persName> of the
-                  same place one piece of land lying in <placeName>Bulmere</placeName> in <placeName>Wodefeld</placeName>,
+                  same place one piece of land lying in <placeName>Bulmere</placeName> in <placeName type="minor">Wodefeld</placeName>,
                   called '<placeName type="minor">Haselwell</placeName>,' between the land of
                   <persName><forename>John</forename> <surname>Prentye</surname></persName> on the one part, and land of
                   the heirs of <persName><forename>John</forename> <surname>Scullok</surname></persName> on the other, to
@@ -220,7 +222,7 @@
             <div type="charter">
                <p> DEEPDEN and WIDDINGTON. Indenture made 15 May, <date when="1658">1658</date>, between 
                   <persName>sir <forename>George</forename> <surname>Stonehouse</surname> of <placeName role="person">Radley, co. Berks</placeName>, bart.</persName>, and
-                  <persName><forename>Robert</forename> <surname>Perrott</surname> of <placeName role="person">Grayes Inne</placeName></persName>, 
+                  <persName><forename>Robert</forename> <surname>Perrott</surname> of <orgName role="person">Grayes Inne</orgName></persName>, 
                   and <persName>dame <forename>Dionyse</forename> <surname>Fayremeadow</surname> of the <placeName role="person">Strand, in the county of Middlesex</placeName>, widow</persName>, 
                   of the one part, and
                   <persName><forename>Robert</forename> <surname>Williams</surname> of <placeName role="person">St. Andrew's, Holborne, London</placeName>, gent.</persName>,
@@ -1021,7 +1023,7 @@
             </div>
             
             <div type="charter">
-               <p> <pb n="61"/> TILBURY (Lodge and Park). A survey of <placeName>Tilbury Lodge</placeName> with the
+               <p> <pb n="61"/> TILBURY (Lodge and Park). A survey of Tilbury Lodge with the
                   park and woods thereto belonging in the parishes of <placeName>Tilbury</placeName>, <placeName>Ashon</placeName>,
                   <placeName>Belcham St. Paul</placeName>, and <placeName>Overton</placeName>, co. Essex, 
                   taken <date when="1740">1740</date> by <persName><forename>T.</forename> <surname>Skynner</surname></persName>,
@@ -1039,8 +1041,8 @@
             <div type="charter">
                <p> WALTHAM (Great). 'The extent off <persName><forename>John</forename> <surname>Warners</surname></persName> 
                   maners lyynge in <placeName>moche Waltham</placeName> callyd 
-                  <placeName type="manor">Warners otherwyse Waleys</placeName>, wyth <placeName>Astelyns</placeName> and 
-                  <placeName>Olde Warners</placeName> wyth the demeene landys
+                  <placeName type="manor">Warners otherwyse Waleys</placeName>, wyth <placeName type="manor">Astelyns</placeName> and 
+                  <placeName type="manor">Olde Warners</placeName> wyth the demeene landys
                   belongynge to the same maners, made the <date notBefore="1529-04-22" notAfter="1530-04-21">21st yere off the reyngne off Kynge Henry the Eyght</date>.' 
                   <note type="language">[English]</note>
                   <bibl type="shelfmark">MS. Rolls Essex 13</bibl>. </p>
@@ -1897,9 +1899,9 @@
                   friends, upon condition that the prior of Thetford, with the consent of the
                   convent, should send as many monks to serve God in the church of 
                   <orgName>St. Peter, Horkesley (Horchesleia)</orgName>, as the place would conveniently maintain; and 
-                  for their common subsistence they assigned their other churches of <placeName>Wiston (Wisetona)</placeName>,
-                  <placeName>Assildeham</placeName>, with 60 acres of land, and the half of the church of 
-                  <placeName>Boxsted (Bochesteda)</placeName>, the whole of the tithes of their lordship of Boxsted, and Beatrix
+                  for their common subsistence they assigned their other churches of <placeName role="church">Wiston (Wisetona)</placeName>,
+                  <placeName role="church">Assildeham</placeName>, with 60 acres of land, and the half of the church of 
+                  <placeName role="church">Boxsted (Bochesteda)</placeName>, the whole of the tithes of their lordship of <placeName>Boxsted</placeName>, and Beatrix
                   gave the whole of the tithe of her marriage portion, and of the land which 
                   <persName><forename>Turold</forename> her uncle</persName> gave her. Also they gave the tithe of 
                   <placeName>Foleton (Foletona)</placeName> and <placeName>Fordham</placeName>,
@@ -1918,7 +1920,7 @@
             <div type="charter">
                <p> <persName><forename>Gilbert</forename>, bishop of <placeName type="diocese" role="bishop">London</placeName></persName>, 
                   confirms a gift of <persName><forename>Robert</forename>, <surname type="patronymnic">son of Robert</surname></persName>, 
-                  of the half of the church of <placeName>Bocsted</placeName> to the <orgName>priory of St. Peter, Horkesley</orgName>,
+                  of the half of the church of <placeName role="church">Bocsted</placeName> to the <orgName>priory of St. Peter, Horkesley</orgName>,
                   and also the donations of <persName><forename>Robert</forename>, <surname type="patronymic">son of Godbold</surname></persName>, 
                   to the same place as the charter of Richard his predecessor witnesses. 
                   (<date when="1130" precision="low">c. 1130</date>.) <!--chk hardcopy for date annotation-->
@@ -1931,9 +1933,9 @@
                   and confirms to the <orgName>monks of Theoford at Horkesley</orgName>,
                   with the possessions, which <persName><forename>Robert</forename>, <surname type="patronymic">son of Godebold</surname></persName>, and 
                   <persName><forename>Robert</forename>, <surname type="patronymic">son of Robert</surname></persName>,
-                  and Philip, .... father, gave to them, viz. the churches of <placeName>Horkesley</placeName>, 
-                  <placeName>Wysentune</placeName>, <placeName>Hessildele</placeName>,
-                  and half of the church of <placeName>Boxstede</placeName>, together with the whole of the tithes of his
+                  and Philip, .... father, gave to them, viz. the churches of <placeName role="church">Horkesley</placeName>, 
+                  <placeName role="church">Wysentune</placeName>, <placeName role="church">Hessildele</placeName>,
+                  and half of the church of <placeName role="church">Boxstede</placeName>, together with the whole of the tithes of his
                   demesne of Boxstede, two parts of the tithes of <placeName>Fordham</placeName> and 
                   <placeName>Foletun</placeName>, the whole of the tithes of the marsh of <placeName>Fulenesse</placeName>, &amp;c., 
                   in frankalmoigne. (<date notBefore="1190" notAfter="1200" precision="low">c. 1190-1200</date>.) 
@@ -1990,8 +1992,8 @@
             
             <div type="charter">
                <p> <persName><forename>William</forename>, son of <persName><forename>Robert</forename> de <surname>Mose</surname></persName></persName>, 
-                  quit-claims to the prior and monks of Horkele 1d. of annual rent which he was accustomed to receive from 2 crofts
-                  called '<placeName type="minor">Wodecroft</placeName>.' 
+                  quit-claims to the <orgName>prior and monks of Horkele</orgName> 1d. of annual rent which he was accustomed to receive from 2 crofts
+                  called '<placeName type="minor">Wodecroft</placeName>.' <!-- check: needs major placename? -->
                   (<date when="1280" precision="low">c. 1280</date>.)
                   <bibl type="shelfmark">MS. Ch. Essex 53</bibl>. </p>
             </div>
@@ -2002,6 +2004,7 @@
                   <persName><forename>Alan</forename> de <surname>Crefeld</surname></persName> of a field called
                   '<placeName type="minor">Suutfeld</placeName>,' at that time in the hands of the prior, viz. in
                   <date notBefore="1384-06-22" notAfter="1385-06-21">8 Rich. II</date>.
+                  <!-- check: needs major placename? -->
                   <bibl type="shelfmark">MS. Ch. Essex 54</bibl>. </p>
             </div>
             
@@ -2060,9 +2063,9 @@
             </div>
             
             <div type="charter">
-               <p> HORKESLEY (Little). Charter by which ... grants to the prior and <orgName>monks of Horkeleg'</orgName>
+               <p> <placeName>HORKESLEY (Little)</placeName>. Charter by which ... grants to the prior and <orgName>monks of Horkeleg'</orgName>
                   the whole of a messuage and garden <pb n="71"/> which was sometime
-                  Philip's, son of Roger the tailor of Little Horkeleg'. 
+                  <persName><forename>Philip</forename>'s, son of <persName><forename>Roger</forename> the <surname>tailor</surname> of <placeName role="person">Little Horkeleg'</placeName></persName></persName>. 
                   (<date notBefore="1250" notAfter="1260" precision="low">c. 1250-60</date>.) 
                   [Partly effaced.] <!-- (See .... check hardcopy for annotation)-->
                   <bibl type="shelfmark">MS. Ch. Essex 49</bibl>. </p>
@@ -2082,7 +2085,7 @@
                   grants to <persName><forename>Robert</forename> <surname>Intheheye</surname></persName> and
                   <persName><forename>Sarra</forename> his wife</persName> one piece of arable
                   land lying in the village of <placeName>Little Horkeslee</placeName>, between the land of the prior of
-                  Horkesley on the one side and the street called '<placeName type="minor">Heyestrete</placeName>' on the other. 
+                  Horkesley on the one side and the street called '<placeName type="street">Heyestrete</placeName>' on the other. 
                   Dated at <placeName role="date">Horkeslye</placeName> on the vigil of the apostles SS. Peter and Paul <date notBefore="1328-01-25" notAfter="1329-01-24">2 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 56</bibl>. </p>
             </div>
@@ -2116,7 +2119,7 @@
                   grants to <persName><forename>Roger</forename> de <surname>Ware</surname>, the prior</persName>, 
                   and the <orgName>monks of Horkesleye</orgName> the whole of his estate ['totum statum meum']
                   in one croft of land containing half an acre lying in the village of <placeName>Little Horkesleye</placeName>. 
-                  Dated at <placeName type="minor">Little Horkesleye</placeName> the Sunday next before the feast of St.
+                  Dated at <placeName role="date">Little Horkesleye</placeName> the Sunday next before the feast of St.
                   Barnabas, <date notBefore="1385-06-22" notAfter="1386-06-21">9 Rich. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 63</bibl>. </p>
             </div>
@@ -2126,7 +2129,7 @@
                   quit-claims to <persName><forename>Roger</forename> de <surname>Ware</surname>, the prior</persName>, 
                   and <orgName>monks of St. Peter, Horkeslegh</orgName>, all his right in one croft of land
                   lying in the village of <placeName>Little Horkeslegh</placeName>. 
-                  Dated at <placeName>Little Horkeslegh</placeName> the Sunday on the feast of St. John the Baptist, 
+                  Dated at <placeName role="date">Little Horkeslegh</placeName> the Sunday on the feast of St. John the Baptist, 
                   <date notBefore="1386-06-22" notAfter="1387-06-21">10 Rich. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Essex 64a</bibl>. </p>
             </div>
@@ -2164,7 +2167,7 @@
             
             <div type="charter">
                <p> <pb n="72"/> The will of <persName><forename>William</forename> the constable of <placeName role="person">Wirmers</placeName></persName>
-                  body to be buried in the chapel of the Virgin Mary of the monks of Horkelegh. 
+                  body to be buried in the chapel of the Virgin Mary of the <orgName>monks of Horkelegh</orgName>. 
                   (<date when="1220" precision="low">c. 1220</date>.)  [Long deed, mutilated.]
                   <bibl type="shelfmark">MS. Ch. Essex 37</bibl>. </p>
             </div>
@@ -2802,7 +2805,7 @@
                   grant and confirm to <persName><forename>Henry</forename> de <surname>Tregoz</surname></persName>, for 
                   his homage and service, one field of land called '<placeName type="minor">Brocfeld</placeName>,' in 
                   the parish of <placeName>Tolleshunt-Tregoz</placeName>, and one angle of land
-                  which lies between <placeName>Brocfeld</placeName> and the way towards <placeName>Tollesbire</placeName>, 
+                  which lies between <placeName type="minor">Brocfeld</placeName> and the way towards <placeName>Tollesbire</placeName>, 
                   which <persName><forename>Hugh</forename>, <surname type="patronymic">son of Nicholas</surname></persName>
                   holds, paying annually to the said prior and convent 2s. 
                   (<date notBefore="1220" notAfter="1230" precision="low">c. 1220-30</date>.)
