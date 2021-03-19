@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,8 +20,8 @@
       https://babel.hathitrust.org/cgi/pt?id=hvd.32044010746766&view=1up&seq=9
       -->
       <body>
-         <listPlace type="manor">
-            <place type="manor"><!-- a Hastings manor. ckd -->
+         <listPlace>
+            <place type="manor" xml:id="place_103001"><!-- a Hastings manor. ckd -->
                <placeName type="index">Allerston </placeName>
                <placeName type="formInDocument">Alberston</placeName>
                <region type="parish">Allerston</region> 
@@ -32,7 +31,7 @@
                <note type="charter">MS. Ch. Yorks. 274</note>
             </place>
             
-            <place type="manor">
+            <place type="manor" xml:id="place_103002">
                <placeName type="index">West Ayton</placeName>
                <placeName type="formInDocument">Aton</placeName>
                <region type="parish">Hutton Bushel</region>
@@ -43,7 +42,7 @@
                <note type="charter">MS. Ch. Yorks. 318a</note><!-- 318a might be a different manor. CHECK -->
             </place>
             
-            <place type="manor">
+            <place type="manor" xml:id="place_103003">
                <placeName type="index">Barthorpe</placeName><!-- descended with Leppington ERY ckd-->
                <placeName type="formInDocument">Barthorp</placeName>
                <placeName type="formInDocument">Barthorpe</placeName>
@@ -56,7 +55,7 @@
                <note type="charter">MS. Ch. Yorks. 191</note>
             </place>
             
-            <place type="manor">
+            <place type="manor" xml:id="place_103004">
                <placeName type="index">Baildon</placeName>
                <placeName type="formInDocument">Bayldon</placeName>
                <region type="parish">Otley</region>
@@ -66,7 +65,7 @@
                <note type="charter">MS. Ch. Yorks. 228</note>
             </place>
             
-            <place type="manor">
+            <place type="manor" xml:id="place_103005">
                <!-- could be Botham in Huddersfield? CHECK -->
                <placeName type="index">Bothem [unidentified]</placeName>
                <placeName type="formInDocument">Bothem</placeName>
@@ -76,7 +75,7 @@
                <note type="charter">MS. Ch. Yorks. 131a</note>
             </place>
             
-            <place type="manor"><!-- manor granted by Hen. I --><!-- ckd -->
+            <place type="manor" xml:id="place_103006"><!-- manor granted by Hen. I --><!-- ckd -->
                <placeName type="index">Brompton by Sawdon</placeName>
                <placeName type="formInDocument">Brumton</placeName>
                   <placeName type="formInDocument">Grumpton</placeName><!-- check: Brumton above? -->
@@ -88,7 +87,7 @@
                <bibl>'Parishes: Brompton', in A History of the County of York North Riding: Volume 2, ed. William Page (London, 1923), pp. 424-430. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol2/pp424-430 [accessed 12 February 2021].</bibl>
             </place>
             
-            <place type="manor">
+            <place type="manor" xml:id="place_103007">
                <placeName type="index">Hutton Bushel</placeName>
                <placeName type="formInDocument">Hoton Buscell</placeName>
                <region type="parish">Hutton Bushel</region>
@@ -98,10 +97,10 @@
                <note type="charter">MS. Ch. Yorks. 283</note>
             </place>
             
-            <place type="manor">
+            <place type="manor" xml:id="place_103008">
                <!-- ckd -->
                <!-- George Hastings lord of; grant by Wallingwells priory -->
-               <placeName type="index">Fenwick manor</placeName>
+               <placeName type="index">Fenwick</placeName>
                <placeName type="formInDocument">Fenwyk</placeName>
                <region type="parish">Campsall</region>
                <region type="county">Yorkshire, West Riding</region>
@@ -111,17 +110,17 @@
             
            
             
-            <place type="manor"><!-- ckd/corrected -->
+            <place type="manor" xml:id="place_103009"><!-- ckd/corrected -->
                <placeName type="index">Howden</placeName>
                <placeName type="formInDocument">Holden</placeName>
                <!-- bp of Durham's manor -->
                <region type="parish">Howden</region>
-               <region type="county"></region>
+               <region type="county">Yorkshire, East Riding</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F238858</idno>
                <note type="charter">MS. Ch. Yorks. 330</note>
             </place>
             
-            <place type="manor">
+            <place type="manor" xml:id="place_103010">
                <placeName type="index">Leeds</placeName>
                <placeName type="formInDocument">Leeds</placeName>
                <placeName type="formInDocument">Leeds</placeName>
@@ -139,7 +138,7 @@
                <note type="charter">MS. Ch. Yorks. 297</note>
             </place>
             
-            <place type="manor"><!-- ckd -->
+            <place type="manor" xml:id="place_103011"><!-- ckd -->
                <placeName type="index">Leppington</placeName>
                <placeName type="formInDocument">Lepington</placeName>
                <placeName type="formInDocument">Lepyngton</placeName>
@@ -151,7 +150,7 @@
                <note type="charter">MS. Ch. Yorks. 189b</note>
             </place>
             
-            <place type="manor"><!-- ckd/corrected -->
+            <place type="manor" xml:id="place_103012"><!-- ckd/corrected -->
                <placeName type="index">Middleton</placeName>
                <placeName type="formInDocument">Mydilton near Rothewell</placeName>
                <region type="parish">Rothwell</region>
@@ -160,7 +159,7 @@
                <note type="charter">MS. Ch. Yorks. 249b</note>
             </place>
             
-            <place type="manor">
+            <place type="manor" xml:id="place_103013">
                <placeName type="index">Pickering</placeName>
                <placeName type="formInDocument">Pikeryng</placeName>
                <placeName type="formInDocument">Pykeryng</placeName>
@@ -176,7 +175,7 @@
                <note type="charter">MS. Rolls Yorks. 7</note>
             </place>
             
-            <place type="manor"><!-- ckd/corrected -->
+            <place type="manor" xml:id="place_103014"><!-- ckd/corrected -->
                <placeName type="index">Roos</placeName>
                <placeName type="formInDocument">Rosse</placeName>
                <region type="parish">Roos</region>
@@ -186,7 +185,7 @@
                <note type="charter">MS. Ch. Yorks. 284b</note>
             </place>
             
-            <place type="manor">
+            <place type="manor" xml:id="place_103015">
                <placeName type="index">Wintringham</placeName>
                <placeName type="formInDocument">Wyntryngham</placeName>
                <region type="parish">Wintringham</region>
@@ -195,7 +194,7 @@
                <note type="charter">MS. Ch. Yorks. 283</note>
             </place>
             
-            <place type="manor">
+            <place type="manor" xml:id="place_103016">
                <placeName type="index">Yokeflete</placeName>
                <placeName type="formInDocument">Yokeflete</placeName>
                <region type="parish">Howden</region>
@@ -203,25 +202,21 @@
                <!--not in DNA or VCH, however there is a mention of this manor in Yorkshire fines https://www.british-history.ac.uk/feet-of-fines-yorks/vol2/pp124-146; parish entered as per the place name-->
                <note type="charter">MS. Ch. Yorks. 337</note>
             </place>
-         </listPlace>
-         
-         <!--how to mark dioceses?-->
-         <listPlace type="diocese">
-            <place type="diocese">
+            <place type="diocese" xml:id="place_103017">
                <placeName type="index">Diocese of Carlisle</placeName>
                <placeName type="formInDocument">Carlisle</placeName>
                <!--<region type="county"></region>-->
                <idno>https://www.wikidata.org/wiki/Q867646</idno>
                <note type="charter">MS. Ch. Yorks. 260</note>
             </place>
-            <place type="diocese">
+            <place type="diocese" xml:id="place_103018">
                <placeName type="index">Diocese of Chester</placeName>
                <placeName type="formInDocument">Chester</placeName>
                <!--<region type="county"></region>-->
                <idno>https://www.wikidata.org/wiki/Q543301</idno>
                <note type="charter">MS. Ch. Yorks. 315b</note>
             </place>
-            <place type="diocese">
+            <place type="diocese" xml:id="place_103019">
                <placeName type="index">Diocese of Coventry and Lichfield</placeName>
                <placeName type="formInDocument">Coventry and Lichfield</placeName>
                <placeName type="formInDocument">Coventry</placeName>
@@ -230,7 +225,7 @@
                <note type="charter">MS. Ch. Yorks. 108</note>
                <note type="charter">MS. Douce Ch. 69</note>
             </place>
-            <place type="diocese">
+            <place type="diocese" xml:id="place_103020">
                <placeName type="index">Diocese of Durham</placeName>
                <placeName type="formInDocument">Durham</placeName>
                <region type="county">Durham</region>
@@ -239,24 +234,20 @@
                <note type="charter">MS. Ch. Yorks. 153</note>
                <note type="charter">MS. Ch. Yorks. 330</note>
             </place>
-            <place type="diocese">
+            <place type="diocese" xml:id="place_103021">
                <placeName type="index">Diocese of Glasgow</placeName>
                <placeName type="formInDocument">Glasgow</placeName>
                <idno>https://www.wikidata.org/wiki/Q15187215</idno>
                <note type="charter">MS. Douce Ch. 57</note>
             </place>
-         </listPlace>
-         <listPlace type="ardeaconry">
-            <place type="ardeaconry">
+            <place type="ardeaconry" xml:id="place_103022">
                <placeName type="index">Archdeaconry of Derby</placeName>
                <placeName type="formInDocument">Derby</placeName>
                <region type="county">Derbyshire</region>
                <idno>https://www.wikidata.org/wiki/Q11722487</idno>
                <note type="charter">MS. Douce Ch. 69</note>
             </place>
-         </listPlace>
-         <listPlace type="archdeaconry">
-            <place type="archdeaconry">
+            <place type="archdeaconry" xml:id="place_103023">
                <placeName type="index">Archdeaconry of Richmond</placeName>
                <placeName type="formInDocument">Richmond</placeName>
                <!--<region type="county"></region>Originally it comprised the western parts of Yorkshire and Lancashire, as well as the greater portion of the counties of Cumberland and Westmorland-->
@@ -264,11 +255,7 @@
                <note type="charter">MS. Ch. Yorks. 46</note>
                <note type="charter">MS. Douce Ch. 1</note>
             </place>
-         </listPlace>
-         
-         <!--how to mark towns?-->
-         <listPlace type="street">
-            <place type="street">
+            <place type="street" xml:id="place_103024">
                <placeName type="index">York, 'Bleistreta'</placeName>
                <placeName type="formInDocument">Bleistreta</placeName><!-- street in York, perhaps Blake street?-->
                <region type="parish">York</region>
@@ -276,7 +263,7 @@
                <!--county? genuki places York in The Ainsty, EPNS places it in East Riding-->
                <note type="charter">MS. Ch. Yorks. 106a</note>
             </place>
-            <place type="street">
+            <place type="street" xml:id="place_103025">
                <placeName type="index">York, Hartergate</placeName>
                <placeName type="formInDocument">Hertergate street</placeName> <!--street in York-->
                <!--<region type="parish"></region>-->
@@ -285,7 +272,7 @@
                <bibl>'Anglo-Scandinavian antiquities', in A History of the County of York: the City of York, ed. P M Tillott (London, 1961), pp. 332-336. British History Online http://www.british-history.ac.uk/vch/yorks/city-of-york/pp332-336 [accessed 10 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 322</note>
             </place>
-            <place type="street">
+            <place type="street" xml:id="place_103026">
                <placeName type="index">York, Kirkgate</placeName><!-- street in York -->
                <placeName type="formInDocument">Kyrkgate</placeName>
                   <region type="parish">York</region>
@@ -293,7 +280,7 @@
                <!--county? genuki places York in The Ainsty, EPNS places it in East Riding-->
                <note type="charter">MS. Ch. Yorks. 78</note>
             </place>
-            <place type="street">
+            <place type="street" xml:id="place_103027">
                <placeName type="index">Leeds, Briggate</placeName>
                <placeName type="formInDocument">Briggate</placeName>
                <region type="parish">Leeds</region>
@@ -301,7 +288,7 @@
                <idno>https://www.wikidata.org/wiki/Q10435562</idno>
                <note type="charter">MS. Ch. Yorks. 187</note>
             </place>
-            <place type="street">
+            <place type="street" xml:id="place_103028">
                <placeName type="index">York, Walmgate</placeName>
                <placeName type="formInDocument">Walmegate</placeName><!-- street in York -->
                <region type="parish">York St Margaret</region>
@@ -310,12 +297,7 @@
                <idno>https://www.genuki.org.uk/big/eng/YKS/ARY/YorkStMargaret</idno>
                <note type="charter">MS. Ch. Yorks. 80</note>
             </place>
-         </listPlace>
-       
-       
-         
-         <listPlace type="archdiocese">
-            <place type="archdiocese">
+            <place type="archdiocese" xml:id="place_103029">
                <placeName type="index">York</placeName>
                <placeName type="formInDocument">York</placeName>
                <!--<idno></idno>-->
@@ -345,25 +327,20 @@
                <note type="charter">MS. Rolls Yorks. 14</note>
                <note type="charter">MS. Rolls Yorks. 15</note>
             </place>
-         </listPlace>
-         <listPlace type="earldom">
-            <place type="earldom">
+            <place type="earldom" xml:id="place_103030">
                <placeName type="index">Earldom of Lincoln</placeName>
                <placeName type="formInDocument">Lincoln</placeName>
                <idno>https://www.wikidata.org/wiki/Q1277346</idno>
                <note type="charter">MS. Ch. Yorks. 24</note>
                <note type="charter">MS. Ch. Yorks. 28</note>
             </place>
-            <place type="earldom">
+            <place type="earldom" xml:id="place_103031">
                <placeName type="index">Earldom of Surrey</placeName>
                <placeName type="formInDocument">Surrey</placeName>
                <idno>https://www.wikidata.org/wiki/Q1277428</idno>
                <note type="charter">MS. Ch. Yorks. 313</note>
             </place>
-         </listPlace>
-         
-         <listPlace>
-            <place type="county">
+            <place type="county" xml:id="place_103032">
                <placeName type="index">Westmorland</placeName>
                <placeName type="formInDocument">Westmorland</placeName>
                <placeName type="formInDocument">Westmerland</placeName>
@@ -372,7 +349,7 @@
                <note type="charter">MS. Ch. Yorks. 240</note>
                <note type="charter">MS. Ch. Yorks. 270</note>
             </place>
-            <place type="county">
+            <place type="county" xml:id="place_103033">
                <placeName type="index">Yorkshire</placeName>
                <placeName type="formInDocument">York</placeName>
                <region type="county">Yorkshire</region>
@@ -405,23 +382,18 @@
                <note type="charter">MS. Rolls Yorks. 15</note>
                <note type="charter">MS. Ch. Yorks. 273</note>
             </place>
-         </listPlace>
-        
-        
-         <listPlace type="duchy">
-            <place type="duchy">
+            <place type="duchy" xml:id="place_103034">
                <placeName type="index">Duchy of Lancaster</placeName>
                <placeName type="formInDocument">Lancaster</placeName>
                <idno>https://www.wikidata.org/wiki/Q2914544</idno>
                <note type="charter">MS. Rolls Yorks. 2</note>
             </place>
-            <place type="duchy">
+            <place type="duchy" xml:id="place_103035">
                <placeName type="index">Duchy of Newcastle</placeName>
                <placeName type="formInDocument">Newcastle</placeName>
                <idno>https://www.wikidata.org/wiki/Q2411815</idno>
                <note type="charter">MS. Ch. Yorks. 326</note>
             </place>
-         </listPlace>
          
          
        <!--  <listPlace type="riding">
@@ -433,8 +405,7 @@
                <note type="charter">MS. Ch. Yorks. 326</note>
             </place>
          </listPlace>-->
-         <listPlace type="wapentake">
-            <place type="wapentake">
+            <place type="wapentake" xml:id="place_103037">
                <placeName type="index">Langbargh East Wapentake</placeName>
                <placeName type="formInDocument">Langebarwhe</placeName>
                <region type="county">Yorkshire</region> <idno>https://epns.nottingham.ac.uk/browse/id/53286b0eb47fc40bc60003ec-Langbargh+East+Wapentake</idno>
@@ -442,7 +413,7 @@
                <note type="charter">MS. Rolls Yorks. 1</note>
                
             </place>
-            <place type="wapentake">
+            <place type="wapentake" xml:id="place_103038">
                <placeName type="index">Skyrack Wapentake</placeName>
                <placeName type="formInDocument">wapentake of Skyracke</placeName>
                <placeName type="formInDocument">wapentake of Skyrak</placeName>
@@ -450,7 +421,7 @@
                <note type="charter">MS. Rolls Yorks. 11</note>
                <note type="charter">MS. Rolls Yorks. 12</note>
             </place>
-            <place type="wapentake">
+            <place type="wapentake" xml:id="place_103039">
                <placeName type="index">Pickering Lythe Wapentake</placeName>
                <placeName type="formInDocument">Pikeringlyth</placeName><!--this is a district. May not always need the identifier -->
                <placeName type="formInDocument">Pykeringlyth</placeName>
@@ -470,30 +441,24 @@
                <note type="charter">MS. Ch. Yorks. 291</note>
                <note type="charter">MS. Ch. Yorks. 292</note>
             </place>
-            <place type="wapentake">
+            <place type="wapentake" xml:id="place_103040">
                <placeName type="index">Whitby Strand Wapentake</placeName>
                <placeName type="formInDocument">Whitbystand</placeName>
                <region type="county">Yorkshire, North Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/id/53286b0eb47fc40bc60003f0-Whitby+Strand+Wapentake</idno>
                <note type="charter">MS. Rolls Yorks. 1</note>
             </place>
-         </listPlace>
-         
-         <listPlace type="river">
-            <place type="river">
+            <place type="river" xml:id="place_103041">
                <placeName type="index">Ouse</placeName>
                <placeName type="formInDocument">Ouse</placeName>
                <note type="charter">MS. Ch. Yorks. 126b</note>
             </place>
-            <place type="river">
+            <place type="river" xml:id="place_103042">
                <placeName type="index">Tees</placeName>
                <placeName type="formInDocument">Teysiam</placeName>
                <note type="charter">MS. Ch. Yorks. 57</note>
             </place>
-         </listPlace>
 
-
-         <listPlace type="place">
            <!-- <place type="place">
                minor name
                <placeName type="index">Milline More</placeName>
@@ -503,7 +468,7 @@
                <note type="charter">MS. Ch. Yorks. 160a</note>
             </place>
             -->
-            <place type="place">
+            <place type="place" xml:id="place_103044">
                <placeName type="index">Aberford</placeName>
                <placeName type="formInDocument">Aberford</placeName>
                <region type="parish">Aberford</region>
@@ -523,7 +488,7 @@
                <note type="charter">MS. Ch. Yorks. 98</note>
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103046">
                <placeName type="index">Adel</placeName>
                <placeName type="formInDocument">Adele</placeName>
                <region type="parish">Adel</region>
@@ -532,16 +497,17 @@
                <note type="charter">MS. Ch. Yorks. 137b</note>
             </place>
             
-            <place type="place"><!-- ?near Aton q.v. -->
-               <placeName type="index">Adwick or Atwick</placeName>
+            <place type="place" xml:id="place_103047"><!-- ?near (West) Aton? q.v.  not found 4.3.21 -->
+               <placeName type="index">Adwyck [unidentified]</placeName>
                <placeName type="formInDocument">Adwyck</placeName>
+               <!-- Atwick ERY does not seem to have -d- spellings -->
                <!--<region type="parish"></region>
                <region type="county"></region>-->
                <!--several potential places in Yorkshire, Atwick and Adwick: how to decide?-->
                <note type="charter">MS. Ch. Yorks. 123</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103048">
                <placeName type="index">Aldbrough or Aldborough</placeName>
                <placeName type="formInDocument">Aldburgh</placeName>
                <placeName type="formInDocument">Aldeburch</placeName>
@@ -569,7 +535,7 @@
                
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103050">
                <placeName type="index">Chapel Allerton</placeName>
                <placeName type="formInDocument">Allerton</placeName>
                <placeName type="formInDocument">Alverton</placeName>
@@ -593,7 +559,7 @@
                <note>'Alretun' may also refer to Moor Allerton or Allerton Gledhow</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103051">
                <placeName type="index">Allerton Gledhow</placeName>
                <placeName type="formInDocument">East Alretun</placeName>
                <region type="parish">Leeds</region>
@@ -601,7 +567,7 @@
                <note>'Alretun' may also refer to Moor Allerton or Chapel Allerton</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103052">
                <placeName type="index">Northallerton</placeName>
                <placeName type="formInDocument">Allerton</placeName>
                <placeName type="formInDocument">Northe Alverton</placeName>
@@ -611,7 +577,7 @@
                <note type="charter">MS. Ch. Yorks. 91b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103053">
                <!-- id from EPNS but could be Allerton Gledhow? -->
                <placeName type="index">Moor Allerton</placeName>
                <placeName type="formInDocument">Alretun</placeName>
@@ -627,7 +593,7 @@
                <note>'Alretun' may also refer to Allerton Gledhow or Chapel Allerton</note>
             </place>
             
-            <place type="wapentake">
+            <place type="wapentake" xml:id="place_103054">
                <placeName type="index">Allertonshire</placeName>
                <placeName type="formInDocument">Allertonshire</placeName>
                <region type="county">Yorkshire, North Riding</region>
@@ -635,7 +601,7 @@
                <note type="charter">MS. Rolls Yorks. 1</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103055">
                <!-- https://www.poms.ac.uk/record/source/4034/ -->
                <placeName type="index">Annan</placeName>
                <placeName type="formInDocument">Anand</placeName>
@@ -644,7 +610,7 @@
                <note type="charter">MS. Douce Ch. 57</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103056">
                <placeName type="index">Appleton Wiske</placeName>
                <placeName type="formInDocument">Apelton</placeName>
                <region type="parish">Appleton Wiske</region>
@@ -654,24 +620,29 @@
                
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103057">
                <placeName type="index">Appleton Roebuck</placeName>
                <!--Nun Appleton Priory was near Appleton Roebuck-->
                <placeName type="formInDocument">Apelton</placeName>
                <placeName type="formInDocument">Appeltun</placeName>
+               <region type="parish">Bolton Percy</region>
+               <region type="county">Yorkshire, West Riding</region>
                <note type="charter">MS. Ch. Yorks. 37</note><!--other Appleton's also possible for Ch. Yorks. 37 place, though this is close to York-->
                <note type="charter">MS. Ch. Yorks. 73</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103058">
                <placeName type="index">Arthington</placeName>
                <placeName type="formInDocument">Ardingtone</placeName>
-               <placeName type="formInDocument">Arthington</placeName>               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Adel/5328827ab47fc40c81006040-Arthington</idno>
+               <placeName type="formInDocument">Arthington</placeName>               
+               <region type="parish">Adel</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Adel/5328827ab47fc40c81006040-Arthington</idno>
                <note type="charter">MS. Ch. Yorks. 25</note>
                <note type="charter">MS. Ch. Yorks. 15</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103059">
                <!-- check: other places in the charter are in NRY. -->
                <!-- not in  EPNS online -->
                <placeName type="index">Armley</placeName>
@@ -683,7 +654,7 @@
                <note>Uncertain if MS. Ch. Yorks. 284a relates to this place.</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103060">
                <placeName type="index">Arnold</placeName>
                <placeName type="formInDocument">Arnall</placeName>
                <region type="parish">Arnold</region>
@@ -692,7 +663,7 @@
                <note type="charter">MS. Ch. Yorks. 338</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103061">
                <placeName type="index">Adlingfleet</placeName>
                <placeName type="formInDocument">Athelyngflete</placeName>   
                <region type="parish">Adlingfleet</region>
@@ -700,7 +671,7 @@
                <note type="charter">MS. Ch. Yorks. 126b</note>
             </place>
             
-            <place type="place"><!-- ckd to here 15.2.21 -->
+            <place type="place" xml:id="place_103062"><!-- ckd to here 15.2.21 -->
                <placeName type="index">West Ayton</placeName>
                <placeName type="formInDocument">Aton</placeName>
                <placeName type="formInDocument">Atun</placeName>
@@ -731,7 +702,7 @@
                <!-- the above are catalogued as Aton in Picklinglith which prob is West Ayton (but could be East Ayton?)  -->
             </place>
             
-            <place type="place"><!-- near Pickering, Easingwold? not found 15.2.21 -->
+            <place type="place" xml:id="place_103063"><!-- near Pickering, Easingwold? not found 15.2.21 -->
                <placeName type="index">Auby [unidentified]</placeName>
                <placeName type="formInDocument">Auby</placeName>
                <!--<region type="parish"></region>
@@ -740,7 +711,7 @@
                <note type="charter">MS. Rolls Yorks. 10</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103064">
                <placeName type="index">Avignon</placeName>
                <placeName type="formInDocument">Avignon</placeName>
                <region type="country">France</region>
@@ -749,7 +720,7 @@
                <note type="charter">MS. Ch. Yorks. 294b</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103065">
                <placeName type="index">Baildon</placeName>
                <placeName type="formInDocument">Baildon</placeName>
                <placeName type="formInDocument">Bayldon</placeName>
@@ -765,7 +736,7 @@
                <note type="charter">MS. Ch. Yorks. 244</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103066">
                <placeName type="index">Barlby</placeName>
                <placeName type="formInDocument">Bardelby</placeName>
                <region type="parish">Hemingbrough</region>
@@ -774,7 +745,7 @@
                <note type="charter">MS. Ch. Yorks. 126b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103067">
                <placeName type="formInDocument">Barethorp</placeName>
                <placeName type="formInDocument">Barthorpe</placeName>
                <region type="parish">Acklam</region>
@@ -786,7 +757,7 @@
                <note type="charter">MS. Ch. Yorks. 146</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103068">
                <placeName type="index">Barnby Dun</placeName>
                <placeName type="formInDocument">Barnbe upon Doune</placeName>
                <region type="parish">Barnby upon Don</region>
@@ -796,7 +767,7 @@
                <note type="charter">MS. Ch. Yorks. 127b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103069">
                <placeName type="index">Bassingham</placeName>
                <placeName type="formInDocument">Bassyngham</placeName>
                <region type="parish">Bassingham</region>
@@ -805,7 +776,7 @@
                <note type="charter">MS. Ch. Yorks. 246b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103070">
                <placeName type="index">Batley</placeName>
                <placeName type="formInDocument">Batelay</placeName>
                <placeName type="formInDocument">Batley</placeName>
@@ -817,7 +788,7 @@
                <note type="charter">MS. Ch. Yorks. 293</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103071">
                <placeName type="index">Bedale</placeName>
                <placeName type="formInDocument">Bedal</placeName>
                <region type="parish">Bedale</region>
@@ -827,7 +798,7 @@
                <note type="charter">MS. Ch. Yorks. 140</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103072">
                <placeName type="index">Beeford</placeName>
                <placeName type="formInDocument">Befforth</placeName><!-- same as next? -->
                <placeName type="formInDocument">Beford</placeName>
@@ -840,7 +811,7 @@
                <note type="charter">MS. Ch. Yorks. 340</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103073">
                <placeName type="index">Beal</placeName>
                <placeName type="formInDocument">Beghale</placeName>
                <region type="parish">Kellington</region>
@@ -849,7 +820,7 @@
                <note type="charter">MS. Ch. Yorks. 169</note>
             </place>
              
-            <place type="place"><!-- person of, in a ch. near Ripon; not found 15.2.21 -->
+            <place type="place" xml:id="place_103074"><!-- person of, in a ch. near Ripon; not found 15.2.21 -->
                <placeName type="index">Beiston [unidentified]</placeName>
                <placeName type="formInDocument">Beiston</placeName>
                <!--<region type="parish"></region>
@@ -859,7 +830,7 @@
                <note type="charter">MS. Ch. Yorks. 29</note>
             </place>
             
-            <place type="place"><!-- grant by Adam Swillington dated at Leeds TODO -->
+            <place type="place" xml:id="place_103075"><!-- grant by Adam Swillington dated at Leeds TODO -->
                <placeName type="index">Bentley [unidentified]</placeName>
                <placeName type="formInDocument">Bentelay</placeName>
                <!--<region type="parish"></region>-->
@@ -872,7 +843,7 @@
                <note type="charter">MS. Ch. Yorks. 128b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103076">
                <placeName type="index">Beverley</placeName>
                <placeName type="formInDocument">Beverlac</placeName>
                <placeName type="formInDocument">Beverlaco</placeName>
@@ -888,7 +859,7 @@
                <note type="charter">MS. Ch. Yorks. 338</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103077">
                <placeName type="index"><!--North or East -->Bierley</placeName>
                <placeName type="formInDocument">Birle</placeName>
                <region type="parish">Birstall</region>
@@ -901,7 +872,7 @@
                <note type="charter">MS. Ch. Yorks. 133b</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103078"><!-- ckd -->
                <placeName type="index">Kirkburton</placeName>
                <!-- could also be Highburton in fact -->
                <placeName type="formInDocument">Birton</placeName>
@@ -912,7 +883,7 @@
                <note type="charter">MS. Ch. Yorks. 138</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103079">
                <!-- probably near Wykeham N Yorks; could be a minor name. TODO -->
                <placeName type="index">Blaeholm [unidentified]</placeName>
                <placeName type="formInDocument">Blaeholm</placeName>
@@ -922,7 +893,7 @@
                <note type="charter">MS. Ch. Yorks. 318a</note>
             </place>
             
-            <place type="place"><!-- not found 15.2.21 -->
+            <place type="place" xml:id="place_103080"><!-- not found 15.2.21 -->
                <placeName type="index">Boicchom [unidentified]</placeName>
                <placeName type="formInDocument">Boicchom</placeName>
                <!--<region type="parish"></region>
@@ -931,7 +902,7 @@
                <note type="charter">MS. Ch. Yorks. 39</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103081">
                <placeName type="index">East Bowling and West Bowling</placeName>
                <placeName type="formInDocument">Bolling</placeName>
                <region type="parish">Bradford</region>
@@ -942,7 +913,7 @@
                <note type="charter">MS. Ch. Yorks. 16</note>
             </place>
             
-            <place type="place"><!-- prob Bolton in Bradford based on other names in charter -->
+            <place type="place" xml:id="place_103082"><!-- prob Bolton in Bradford based on other names in charter -->
                <placeName type="index">Bolton</placeName>
                <placeName type="formInDocument">Bolton</placeName>
                <region type="parish">Bradford</region>
@@ -956,16 +927,16 @@
                <note type="charter">MS. Ch. Yorks. 130</note>
             </place>
             
-            <place type="street">
+            <place type="street" xml:id="place_103083">
                <placeName type="index">York, Bootham</placeName>
                <placeName type="formInDocument">Boutham</placeName>
                <region type="parish">York</region>
                <region type="county">Yorkshire</region>
-               <idno></idno>
+               <idno/>
                <note type="charter">MS. Ch. Yorks. 323</note>
             </place>
             
-            <place type="place"><!-- presumably near Ruston in Wykeham, but not found 15.2.21 -->
+            <place type="place" xml:id="place_103084"><!-- presumably near Ruston in Wykeham, but not found 15.2.21 -->
                <placeName type="index">Boudalemun [unidentified]</placeName>
                <placeName type="formInDocument">Boudalemun</placeName>
                <!--<region type="parish"></region>
@@ -974,7 +945,7 @@
                <note type="charter">MS. Ch. Yorks. 286</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103085">
                <placeName type="index">Bracewell</placeName>
                <placeName type="formInDocument">Bracewell</placeName>
                <region type="parish">Bracewell</region>
@@ -986,7 +957,7 @@
                <note type="charter">MS. Ch. Yorks. 234</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103086">
                <placeName type="index">Bradford</placeName>
                <placeName type="formInDocument">Bradeforth</placeName>
                <region type="parish">Bradford</region>
@@ -997,7 +968,7 @@
                <note type="charter">MS. Ch. Yorks. 293</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103087"><!-- ckd -->
                <placeName type="index">Bradfield</placeName>
                <placeName type="formInDocument">Bradefeld</placeName>
                <region type="parish">Ecclesfield</region>
@@ -1007,7 +978,7 @@
                <note type="charter">MS. Ch. Yorks. 132a</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103088"><!-- ckd -->
                <placeName type="index">Bramley</placeName>
                <placeName type="formInDocument">Brameley</placeName>
                
@@ -1026,7 +997,7 @@
                <note type="charter">MS. Ch. Yorks. 4</note><!-- 'in the parish of Leeds' -->
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103089"><!-- ckd -->
                <placeName type="index">Bramley</placeName>
                <placeName type="formInDocument">Brameleye</placeName>
                <region type="parish">Braithwell</region><!--in Leeds-->
@@ -1036,7 +1007,7 @@
             </place>
             
             
-            <place type="place">
+            <place type="place" xml:id="place_103090">
                <placeName type="index">Bramham</placeName>
                <placeName type="formInDocument">Bramham</placeName>
                <region type="parish">Bramham</region>
@@ -1046,7 +1017,7 @@
                <note type="charter">MS. Ch. Yorks. 105</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103091">
                <placeName type="index">Kirk Bramwith</placeName>
                <placeName type="formInDocument">Bramwith</placeName>
                <region type="parish">Kirk Bramwith</region>
@@ -1057,7 +1028,7 @@
                <note type="charter">MS. Ch. Yorks. 127b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103092">
                <placeName type="index">East Breary and West Breary</placeName>
                <placeName type="formInDocument">Brerehage</placeName>
                <region type="parish">Adel</region>
@@ -1067,7 +1038,7 @@
                <note type="charter">MS. Ch. Yorks. 131b </note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103093">
                <placeName type="index">Braceborough</placeName>
                <placeName type="formInDocument">Bressingburg</placeName>
                <region type="parish">Braceborough</region>
@@ -1080,7 +1051,7 @@
             </place>
             <!-- ckd to here 15.2.21 -->
             
-            <place type="place">
+            <place type="place" xml:id="place_103095">
                <placeName type="index">Brompton</placeName>
                <placeName type="formInDocument">Brompton</placeName>
                <region type="parish">Brompton</region>
@@ -1091,7 +1062,7 @@
                <note type="charter">MS. Ch. Yorks. 337</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103096">
                <placeName type="index">Bridekirk</placeName>
                <placeName type="formInDocument">Brydekyrck</placeName>
                <region type="parish">Bridekirk</region>
@@ -1101,7 +1072,7 @@
                <note type="charter">MS. Ch. Yorks. 260</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103097">
                <placeName type="index">Bubwith</placeName>
                <placeName type="formInDocument">Bubwhyth</placeName>
                <region type="parish">Bubwith</region>
@@ -1111,7 +1082,7 @@
                <note type="charter">MS. Ch. Yorks. 307b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103098">
                <placeName type="index">Burley</placeName>
                <placeName type="formInDocument">Burgeley</placeName>
                <placeName type="formInDocument">Burghley</placeName>
@@ -1127,7 +1098,7 @@
                <note type="charter">MS. Ch. Yorks. 233</note>
             </place>
             
-            <place type="place"><!-- person of, per near Menston -->
+            <place type="place" xml:id="place_103099"><!-- person of, per near Menston -->
                <placeName type="index">Burmagh [unidentified]</placeName>
                <placeName type="formInDocument">Burmagh</placeName>
                <!--<region type="parish"></region>
@@ -1136,7 +1107,7 @@
                <note type="charter">MS. Ch. Yorks. 238</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103100">
                <placeName type="index">Burmantofts</placeName>
                <placeName type="formInDocument">Burmantoftes</placeName>
                <placeName type="formInDocument">le Burmantoftes</placeName>
@@ -1148,7 +1119,7 @@
                <note type="charter">MS. Ch. Yorks. 183</note>
             </place>
  
-            <place type="place">
+            <place type="place" xml:id="place_103101">
                <!-- nto found 17.2.21, perh not Yorks -->
                <placeName type="index">Burton [unidentified]</placeName>
                <!--Many places with the name Burton and Barton > not sure which these refer to-->
@@ -1162,7 +1133,7 @@
                <note type="charter">MS. Ch. Yorks. 294a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103102">
                <placeName type="index">Bingley</placeName>
                <placeName type="formInDocument">Bynglay</placeName>
                <region type="parish">Bingley</region>
@@ -1172,7 +1143,7 @@
                <note type="charter">MS. Ch. Yorks. 228</note>
             </place>
              
-            <place type="place">
+            <place type="place" xml:id="place_103103">
                <placeName type="index">Ingleby Barwick</placeName>
                <placeName type="formInDocument">Calde Ingilby</placeName>
                <region type="parish">Stainton</region>
@@ -1182,7 +1153,7 @@
                <note type="charter">MS. Ch. Yorks. 166</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103104">
                <placeName type="index">Cawthorne</placeName>
                <placeName type="formInDocument">Calthorn</placeName>
                <region type="parish">Cawthorne</region>
@@ -1192,7 +1163,7 @@
                <note type="charter">MS. Ch. Yorks. 245</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103105">
                <placeName type="index">Calverley</placeName>
                <placeName type="formInDocument">Calverle</placeName>
                <placeName type="formInDocument">Calverley</placeName>
@@ -1206,7 +1177,7 @@
                <note type="charter">MS. Ch. Yorks. 19</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103106">
                <placeName type="index">Canbury</placeName>
                <placeName type="formInDocument">Canbury</placeName>
                <region type="parish">Canbury</region>
@@ -1215,7 +1186,7 @@
                <note type="charter">MS. Ch. Yorks. 333</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103107">
                <placeName type="index">Campsall</placeName>
                <placeName type="formInDocument">Cannsal</placeName>
                <region type="parish">Campsall</region>
@@ -1225,7 +1196,7 @@
                <note type="charter">MS. Ch. Yorks. 135</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103108">
                <placeName type="index">Carlton</placeName>
                <placeName type="formInDocument">Carleton</placeName>
                <region type="parish">Carlton</region>
@@ -1234,7 +1205,7 @@
                <note type="charter">MS. Ch. Yorks. 136</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103109">
                <placeName type="index">Catfoss</placeName>
                <placeName type="formInDocument">Catfosse</placeName>
                <region type="parish">Sigglesthorne</region>
@@ -1244,7 +1215,7 @@
                <note type="charter">MS. Ch. Yorks. 339</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103110">
                <placeName type="index">Cawood</placeName>
                <placeName type="formInDocument">Cawod</placeName>
                <region type="parish">Cawood</region>
@@ -1254,7 +1225,7 @@
                <note type="charter">MS. Ch. Yorks. 315a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103111">
                <placeName type="index">Chaster [unidentified]</placeName>
                <placeName type="formInDocument">Chaster</placeName>
                <!--<region type="parish"></region>
@@ -1263,7 +1234,7 @@
                <note type="charter">MS. Ch. Yorks. 243</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103112">
                <placeName type="index">Chester</placeName>
                <placeName type="formInDocument">Chester</placeName>
                <region type="parish">Chester</region>
@@ -1274,7 +1245,7 @@
                <note type="charter">MS. Ch. Yorks. 315b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103113">
                <placeName type="index">Chevet</placeName>
                <placeName type="formInDocument">Chivet</placeName>
                <placeName type="formInDocument">Chyvet</placeName>
@@ -1288,25 +1259,28 @@
                <note type="charter">MS. Ch. Yorks. 102</note>
             </place>
             
-            <place type="place">
+         <!--   <place type="place">
+               minor
                <placeName type="index">Cisedelle [unidentified]</placeName>
                <placeName type="formInDocument">Cisedelle</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Yorks. 123</note>
-            </place>
+            </place>-->
             
-            <place type="place">
+         <!--   <place type="place">
+               lord clifford
                <placeName type="index">Clifford</placeName>
                <placeName type="formInDocument">Clifford</placeName>
                <region type="parish">Bramham</region>
                <region type="county"></region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Bramham/5328827bb47fc40c810060aa-Clifford</idno>
                <note type="charter">MS. Ch. Yorks. 240</note>
-            </place>
-            
+            </place>-->
+           <!-- 
             <place type="place">
+               <!-\- lord clifford -\->
                <placeName type="index">Clifford</placeName>
                <placeName type="formInDocument">Clifford</placeName>
                <region type="parish">Clifford</region>
@@ -1314,9 +1288,9 @@
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Bramham/5328827bb47fc40c810060aa-Clifford</idno>
                <note type="charter">MS. Ch. Yorks. 270</note>
             </place>
-            
-            <place type="place">
-               <placeName>Cliveacher [unidentified]</placeName>
+            -->
+            <place type="place" xml:id="place_103117">
+               <placeName>Cliviger</placeName>
                <placeName type="formInDocument">Cliveacher</placeName>
                <!--<region type="parish"></region>-->
                <region type="county">Lancashire</region>
@@ -1324,7 +1298,7 @@
                <note type="charter">MS. Ch. Yorks. 24</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103118">
                <placeName type="index">Cleveland</placeName>
                <placeName type="formInDocument">Clyveland</placeName>
                <!--this is seems to be a region, how to mark it? (wapentake?, duchy and medieval archdeaconry) -->
@@ -1333,7 +1307,7 @@
                <note type="charter">MS. Ch. Yorks. 32</note>
             </place>
             
-            <place type="street">
+            <place type="street" xml:id="place_103119">
                <!--a street name?-->
                <placeName type="index">York, 'Colbergate' </placeName>
                <placeName type="formInDocument">Colbergate</placeName>
@@ -1346,8 +1320,8 @@
                <note type="charter">MS. Ch. Yorks. 77</note>
             </place>
             
-            <place type="place">
-               <placeName type="Colton"></placeName>
+            <place type="place" xml:id="place_103120">
+               <placeName type="Colton"/>
                <placeName type="formInDocument">Colton</placeName>
                <!-- two potential parishes, how to decide?
                <region type="parish">Bolton Percy</region>
@@ -1360,7 +1334,7 @@
                <note type="charter">MS. Ch. Yorks. 94</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103121">
                <placeName type="index">Calton</placeName>
                <placeName type="formInDocument">Coltone</placeName>
                <region type="parish">Calton</region>
@@ -1369,7 +1343,7 @@
                <note type="charter">MS. Ch. Yorks. 303a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103122">
                <!--street name?-->
                <placeName type="index">Colwaynrode [unidentified]</placeName>
                <placeName type="formInDocument">Colwaynrode</placeName>
@@ -1379,7 +1353,7 @@
                <note type="charter">MS. Ch. Yorks. 18</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103123">
                <placeName type="index">Cononley</placeName>
                <placeName type="formInDocument">Conunlay</placeName>
                <region type="parish">Farnhill</region>
@@ -1389,7 +1363,7 @@
                <note type="charter">MS. Ch. Yorks. 234</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103124">
                <placeName type="index">Copmanthorpe</placeName>
                <placeName type="formInDocument">Copmanthorp</placeName>
                <region type="parish">York St Mary Bishophill the younger</region>
@@ -1407,7 +1381,7 @@
                
             </place>
              -->
-            <place type="place">
+            <place type="place" xml:id="place_103126">
                <placeName type="index">Cottingham</placeName>
                <placeName type="formInDocument">Cotyngham</placeName>
                <region type="parish">Cottingham</region>
@@ -1417,7 +1391,7 @@
                <note type="charter">MS. Ch. Yorks. 29b </note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103127">
                <placeName type="index">Cottingley</placeName>
                <placeName type="formInDocument">Cotyngley</placeName>
                <region type="parish">Bingley</region>
@@ -1427,7 +1401,8 @@
                <note type="charter">MS. Ch. Yorks. 29</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103128">
+               <!-- not found 4.3.21 -->
                <placeName type="index">Cowkricke [unidentified]</placeName>
                <placeName type="formInDocument">Cowkricke</placeName>
                <!--<region type="parish"></region>
@@ -1436,7 +1411,7 @@
                <note type="charter">MS. Rolls Yorks. 12</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103129">
                <placeName type="index">South Crosland</placeName>
                <placeName type="formInDocument">Crossland</placeName>
                <region type="parish">Almondbury</region>
@@ -1446,7 +1421,7 @@
                <note type="charter">MS. Ch. Yorks. 103</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103130">
                <placeName type="index">Croston</placeName>
                <placeName type="formInDocument">Croston</placeName>
                <region type="parish">Croston</region>
@@ -1456,7 +1431,7 @@
                <note type="charter">MS. Ch. Yorks. 71</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103131">
                <placeName type="index">Cromwell Bottom</placeName>
                <placeName type="formInDocument">Crumbwelbothim</placeName>
                <placeName type="formInDocument">Crumwelbothome</placeName>
@@ -1470,7 +1445,7 @@
                <note type="charter">MS. Ch. Yorks. 304a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103132">
                <placeName type="index">Cudworth</placeName>
                <placeName type="formInDocument">Cudworth</placeName>
                <placeName type="formInDocument">Cothewrth</placeName>
@@ -1482,7 +1457,7 @@
                <note type="charter">MS. Ch. Yorks. 44a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103133">
                <placeName type="index">Cookridge</placeName>
                <placeName type="formInDocument">Cugric</placeName>
                <region type="parish">Adel</region>
@@ -1491,17 +1466,15 @@
                <note type="charter">MS. Ch. Yorks. 97</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103134">
                <placeName type="index">Cumbertrees</placeName>
                <placeName type="formInDocument">Cumbertre</placeName>
-               <!-- in Scotland
                <region type="parish">Cumbertrees</region>
                <region type="county">Dumfriesshire</region>
-               <idno></idno>-->
                <note type="charter">MS. Douce Ch. 57</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103135">
                <placeName type="index">Darrington</placeName>
                <placeName type="formInDocument">Darington</placeName>
                <placeName type="formInDocument">Darthyngton</placeName>
@@ -1513,7 +1486,7 @@
                <note type="charter">MS. Ch. Yorks. 142a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103136">
                <placeName type="index">Derwent</placeName>
                <placeName type="formInDocument">Derewente</placeName>
                <!-- the river?
@@ -1523,7 +1496,7 @@
                <note type="charter">MS. Ch. Yorks. 316</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103137">
                <placeName type="index">Darfield</placeName>
                <placeName type="formInDocument">Derfelde</placeName>
                <region type="parish">Darfield</region>
@@ -1533,7 +1506,7 @@
                <note type="charter">MS. Ch. Yorks. 130</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103138">
                <placeName type="index">Dunstanburgh</placeName>
                <placeName type="formInDocument">Donstanburgh</placeName>
                   <region type="parish">Embleton</region>
@@ -1541,7 +1514,7 @@
                <note type="charter">MS. Rolls Yorks. 2</note>
             </place>
             
-            <place type="place"> <!-- not found 17.2.21 -->
+            <place type="place" xml:id="place_103139"> <!-- not found 17.2.21 -->
                <placeName type="index">Dowelle (unidentified)</placeName>
                <placeName type="formInDocument">Dowelle</placeName>
                <!--<region type="parish"></region>
@@ -1550,7 +1523,7 @@
                <note type="charter">MS. Ch. Yorks. 109</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103140">
                <placeName type="index">Draughton</placeName>
                <placeName type="formInDocument">Draghton</placeName>
                <region type="parish">Skipton</region>
@@ -1562,7 +1535,7 @@
                <note type="charter">MS. Ch. Yorks. 234</note>
             </place>
             
-            <place type="place"><!-- near Ellerbek. could treat as minor -->
+            <place type="place" xml:id="place_103141"><!-- near Ellerbek. could treat as minor -->
                <placeName type="index">Dritdale [unidentified]</placeName>
                <placeName type="formInDocument">Dritdale</placeName>
                <!--<region type="parish"></region>
@@ -1571,7 +1544,7 @@
                <note type="charter">MS. Ch. Yorks. 87</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103142">
                <placeName type="index">Dromonby</placeName>
                <placeName type="formInDocument">Dromonby</placeName>
                <placeName type="formInDocument">Dromondby</placeName>
@@ -1584,7 +1557,7 @@
                <note type="charter">MS. Ch. Yorks. 167</note>
             </place>
           
-            <place type="place">
+            <place type="place" xml:id="place_103143">
                <placeName type="index"><!--North or South -->Duffield</placeName>
                <placeName type="formInDocument">Duffeld</placeName>
                <!-- two possible Duffields, how to decide?
@@ -1595,7 +1568,7 @@
                <note type="charter">MS. Ch. Yorks. 137a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103144">
                <placeName type="index">Dunscroft</placeName>
                <placeName type="formInDocument">Duniscroft</placeName>
                <region type="parish">Hatfield</region>
@@ -1605,7 +1578,7 @@
                <note type="charter">MS. Ch. Yorks. 136</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103145">
                <placeName type="index">Tunstall </placeName>
                <placeName type="formInDocument">Dunstall</placeName>
                <region type="parish">Tunstall</region>
@@ -1614,7 +1587,7 @@
                <note type="charter">MS. Ch. Yorks. 44b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103146">
                <placeName type="index">Durham</placeName>
                <placeName type="formInDocument">Durham</placeName>
                <!--<region type="parish"></region>-->
@@ -1629,7 +1602,7 @@
                <note type="charter">MS. Ch. Yorks. 330</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103147">
                <placeName type="index">Eaton</placeName>
                <placeName type="formInDocument">Eaton</placeName>
                <region type="parish">Eaton</region>
@@ -1638,7 +1611,7 @@
                <note type="charter">MS. Ch. Yorks. 321b </note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103148">
                <placeName type="index">Eccup</placeName>
                <placeName type="formInDocument">Ecob</placeName>
                <placeName type="formInDocument">Ecop</placeName>
@@ -1651,7 +1624,7 @@
                <note type="charter">MS. Ch. Yorks. 137b</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103149">
                <placeName type="index">Ellerbeck</placeName>
                <placeName type="formInDocument">Ellerbeck</placeName>
                <region type="parish">Osmotherley</region>
@@ -1661,7 +1634,7 @@
                <note type="charter">MS. Ch. Yorks. 87</note>
             </place>
  
-            <place type="place">
+            <place type="place" xml:id="place_103150">
                <placeName type="index">Embleton</placeName>
                <placeName type="formInDocument">Emeldon</placeName>
                <region type="parish">Embleton</region>
@@ -1674,14 +1647,14 @@
                <note type="charter">MS. Rolls Yorks. 2</note>
             </place>
             
-            <place type="place"><!-- not found 17.2.21, should be near Foston on the Wolds, etc. -->
+            <place type="place" xml:id="place_103151"><!-- not found 17.2.21, should be near Foston on the Wolds, etc. -->
                <placeName type="index">Emeslay [unidentified]</placeName>
                <!-- same as Emlay?-->
                <placeName type="formInDocument">Emeslay</placeName>
                <note type="charter">MS. Ch. Yorks. 338</note>
             </place>
             
-            <place type="place"><!-- emley, birton, thorntlay -->
+            <place type="place" xml:id="place_103152"><!-- emley, birton, thorntlay -->
                <placeName type="index">Emley</placeName>
                <placeName type="formInDocument">Emlay</placeName>
                <region type="parish">Emley</region>
@@ -1693,7 +1666,7 @@
                <note type="charter">MS. Ch. Yorks. 138</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103153">
                <placeName type="index">Easby</placeName>
                <placeName type="formInDocument">Euesby in Clyveland</placeName>
             
@@ -1715,7 +1688,7 @@
                <note type="charter">MS. Ch. Yorks. 176</note>
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103155">
                <placeName type="index">Eppleby </placeName>
                <placeName type="formInDocument">Eppleby, alias Appleby</placeName>
                <region type="parish">Forcett</region>
@@ -1724,7 +1697,7 @@
                <note type="charter">MS. Ch. Yorks. 112</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103156"><!-- ckd -->
                <placeName type="index">Ingleby Arncliffe</placeName>
                <placeName type="formInDocument">Erneclife</placeName>
                <placeName type="formInDocument">Erneclive</placeName>
@@ -1737,7 +1710,7 @@
             
             
            
-            <place type="place">
+            <place type="place" xml:id="place_103157">
                <placeName type="index">Easingwold</placeName>
                <placeName type="formInDocument">Esingwould</placeName>
                <placeName type="formInDocument">Esyngwold</placeName>
@@ -1761,7 +1734,7 @@
               
             </place>-->
             
-            <place type="place"><!-- nr Thornhill, Bedale? -->
+            <place type="place" xml:id="place_103159"><!-- nr Thornhill, Bedale? -->
                <placeName type="index">Estbeswike [unidentified]</placeName>
                <placeName type="formInDocument">Estbeswike</placeName>
                <!--Perhaps Beswick? ERY
@@ -1771,7 +1744,7 @@
                <note type="charter">MS. Ch. Yorks. 140</note>
             </place>
             
-            <place type="place"><!-- near Goodmanham and Barthorpe in Acklam-->
+            <place type="place" xml:id="place_103160"><!-- near Goodmanham and Barthorpe in Acklam-->
                <placeName type="index">Easthorpe </placeName>
                <placeName type="formInDocument">Esthorpe</placeName>
                <region type="parish">Londesborough</region>
@@ -1780,7 +1753,7 @@
                <note type="charter">MS. Ch. Yorks. 146</note>
             </place>
            
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103161"><!-- ckd -->
                <placeName type="index">Fairburn</placeName>
                <placeName type="formInDocument">Farneburne</placeName>
                <region type="parish">Ledsham</region>
@@ -1790,7 +1763,7 @@
                <note type="charter">MS. Ch. Yorks. 278</note>
             </place>
             
-            <place type="place"><!-- ckd/rev mlh -->
+            <place type="place" xml:id="place_103162"><!-- ckd/rev mlh -->
                <placeName type="index">Farnley Tyas</placeName>
                <placeName type="formInDocument">Farnlay</placeName>
                <region type="parish">Almondbury</region>
@@ -1799,7 +1772,7 @@
                <note type="charter">MS. Ch. Yorks. 141</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103163">
                <placeName type="index">Faceby</placeName>
                <placeName type="formInDocument">Fayceby</placeName>
                <region type="parish">Whorlton</region>
@@ -1809,7 +1782,7 @@
                <note type="charter">MS. Ch. Yorks. 165</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103164">
                <placeName type="index">Fenwick</placeName>
                <placeName type="formInDocument">Fenwyk</placeName>
                <region type="parish">Campsall</region>
@@ -1819,7 +1792,7 @@
                <note type="charter">MS. Ch. Yorks. 242b </note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103165">
                <placeName type="index">Foss Bridge</placeName>
                <placeName type="formInDocument">Ffossebrig</placeName>
                <!--in the city of York, how to mark it?
@@ -1839,7 +1812,7 @@
                <note type="charter">MS. Ch. Yorks. 306</note>
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103167">
                <!-- grant of Torksey to Drax, could be in Lincs? -->
                <placeName type="index">Flitting [unidentified]</placeName>
                <placeName type="formInDocument">Flitting</placeName>
@@ -1849,7 +1822,7 @@
                <note type="charter">MS. Ch. Yorks. 49</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103168">
                <placeName type="index">Foulby</placeName>
                <placeName type="formInDocument">Folby</placeName>
                <region type="parish">Wragby</region>
@@ -1859,7 +1832,7 @@
                <note type="charter">MS. Ch. Yorks. 71</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103169">
                <placeName type="index">Follifoot</placeName>
                <placeName type="formInDocument">Folifayt</placeName>
                <region type="parish">Spofforth</region>
@@ -1869,7 +1842,7 @@
                <note type="charter">MS. Ch. Yorks. 11</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103170">
                <placeName type="formInDocument">Foston on the Wolds</placeName>
                <region type="parish">Foston</region>
                <region type="county">Yorkshire, East Riding</region>
@@ -1878,7 +1851,7 @@
                <note type="charter">MS. Ch. Yorks. 340</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103171">
                <placeName type="index">France</placeName>
                <placeName type="formInDocument">France</placeName>
                <!-- How to mark countries?
@@ -1917,7 +1890,7 @@
                <note type="charter">MS. Ch. Yorks. 33</note>
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103175">
                <placeName type="index">Garton</placeName>
                <placeName type="formInDocument">Garton</placeName>
                <region type="parish">Garton</region>
@@ -1927,7 +1900,7 @@
                <note type="charter">MS. Ch. Yorks. 143</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103176">
                <placeName type="index">Gedling</placeName>
                <placeName type="formInDocument">Gedling</placeName>
                <region type="parish">Gedling</region>
@@ -1937,7 +1910,7 @@
                <note type="charter">MS. Ch. Yorks. 136</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103177">
                <placeName type="index">Gembling</placeName>
                <placeName type="formInDocument">Gemelyng</placeName>
                <placeName type="formInDocument">Gemling</placeName>
@@ -1955,7 +1928,7 @@
                <note type="charter">MS. Ch. Yorks. 342</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103178">
                <placeName type="index">Gisburn</placeName>
                <placeName type="formInDocument">Giseburn</placeName>
                <placeName type="formInDocument">Gyseburn</placeName>
@@ -1968,7 +1941,7 @@
                <note type="charter">MS. Ch. Yorks. 58</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103179">
                <placeName type="index">Glasgow</placeName>
                <placeName type="formInDocument">Glasgow</placeName>
                <!--how to mark cities? 
@@ -1988,7 +1961,7 @@
                <note type="charter">MS. Ch. Yorks. 142</note>
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103181">
                <placeName type="index">Gorhambury</placeName>
                <placeName type="formInDocument">Gorambury</placeName>
                <region type="parish">St Michaels</region>
@@ -1997,7 +1970,7 @@
                <note type="charter">MS. Ch. Yorks. 337</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103182">
                <placeName type="index">Garsdale</placeName>
                <placeName type="formInDocument">Garcedale</placeName>
                <region type="parish">Sedbergh</region>
@@ -2007,7 +1980,7 @@
                <note type="charter">MS. Douce Ch. 1</note>
             </place>
             
-            <place type="place"><!-- richard son of adam de screnam = ?scrayingham ERY; Godefrayheved -->
+            <place type="place" xml:id="place_103183"><!-- richard son of adam de screnam = ?scrayingham ERY; Godefrayheved -->
                <placeName type="index">Greystone</placeName>
                <placeName type="formInDocument">Graystan</placeName>
                <region type="parish">Over Silton</region>
@@ -2017,7 +1990,7 @@
                <!-- not the place in Aberford, to judge from EPNS -->
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103184">
                <placeName type="index">Upsall</placeName>
                <placeName type="formInDocument">Great and Little Upsall</placeName>
                <region type="parish">Ormesby</region>
@@ -2026,7 +1999,7 @@
                <note type="charter">MS. Ch. Yorks. 262</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103185">
                <placeName type="index">Wharram le Street</placeName>
                <placeName type="formInDocument">Great Wharrum</placeName>
                <region type="parish">Wharram le Street</region>
@@ -2036,7 +2009,7 @@
                <note type="charter">MS. Ch. Yorks. 108</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103186">
                <placeName type="index">Greetland</placeName>
                <placeName type="formInDocument">Greetland</placeName>
                <region type="parish">Halifax</region>
@@ -2046,7 +2019,7 @@
                <note type="charter">MS. Ch. Yorks. 189</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103187">
                <placeName type="index">Greenhow</placeName>
                <placeName type="formInDocument">Grenehou</placeName>
                <placeName type="formInDocument">Grenhou</placeName>
@@ -2058,7 +2031,7 @@
                <note type="charter">MS. Ch. Yorks. 162</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103188">
                <placeName type="index">Gretna</placeName>
                <placeName type="formInDocument">Gretenhou</placeName>
                <region type="parish">Gretna</region>
@@ -2067,7 +2040,7 @@
                <note type="charter">MS. Douce Ch. 57</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103189">
                <!-- only clue is a wit, rector of Garton and dean of Holderness, which seems to make Grimston in Garton most likely  -->
                <placeName type="index">Grimston</placeName>
                <placeName type="formInDocument">Grimeston</placeName>
@@ -2083,7 +2056,7 @@
                <note>Identification uncertain.</note>
             </place>
           
-            <place type="place"><!-- near 'Flitting' / Drax? 
+            <place type="place" xml:id="place_103190"><!-- near 'Flitting' / Drax? 
             not found 17.2.21; could be Grennes fe?
             -->
                <placeName type="index">Grennesse [unidentified]</placeName>
@@ -2094,7 +2067,7 @@
                <note type="charter">MS. Ch. Yorks. 49</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103191">
                <placeName type="index">Goodmanham</placeName>
                <placeName type="formInDocument">Guthemundham</placeName>
                <placeName type="formInDocument">Guthmundham</placeName>
@@ -2116,7 +2089,7 @@
               
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103193">
                <!-- anabel ... de Tumbholme [in Owston] nr Doncaster. this cd be Haw in Skipton??? -->
                <placeName type="index">Haghe [unidentified]</placeName>
                <placeName type="formInDocument">Haghe</placeName>
@@ -2126,7 +2099,7 @@
                <note type="charter">MS. Ch. Yorks. 147</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103194">
                <placeName type="index">Halifax</placeName>
                <placeName type="formInDocument">Halifax</placeName>
                <placeName type="formInDocument">Halyfax</placeName>
@@ -2156,7 +2129,7 @@
                <note type="charter">MS. Ch. Yorks. 216</note>
             </place>-->
           
-            <place type="place">
+            <place type="place" xml:id="place_103196">
                <placeName type="index">Hamsterley</placeName>
                <placeName type="formInDocument">Hamsterle</placeName>
                <region type="parish">Hamsterley</region>
@@ -2165,7 +2138,7 @@
                <note type="charter">MS. Ch. Yorks. 153</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103197">
                <placeName type="index">Harewood</placeName>
                <placeName type="formInDocument">Harewode</placeName>
                <region type="parish">Harewood</region>
@@ -2188,7 +2161,7 @@
                <note type="charter">MS. Ch. Yorks. 331</note>
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103199">
                <!-- isabel ketering, lady of H; charter re Menston -->
                <placeName type="index">Hawksworth</placeName>
                <placeName type="formInDocument">Haukesworth</placeName>
@@ -2197,7 +2170,7 @@
                <note type="charter">MS. Ch. Yorks. 154a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103200">
                <placeName type="index">Headingley</placeName>
                <placeName type="formInDocument">Heddigeley</placeName>
                <placeName type="formInDocument">Heddingley</placeName>
@@ -2225,7 +2198,7 @@
                
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103202">
                <placeName type="index">Hedon</placeName>
                <placeName type="formInDocument">Hedon</placeName>
                <placeName type="formInDocument">St. Augustine of Hedon</placeName>
@@ -2236,7 +2209,7 @@
                <note type="charter">MS. Ch. Yorks. 154b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103203">
                <placeName type="index">Helesseia [unidentified]</placeName>
                <placeName type="formInDocument">Helesseia</placeName>
                <!--<region type="parish"></region>
@@ -2245,7 +2218,8 @@
                <note type="charter">MS. Ch. Yorks. 155</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103204">
+               <!-- not found 4.3.21 -->
                <placeName type="index">Hensum [unidentified]</placeName>
                <placeName type="formInDocument">Hensum</placeName>
                <!--<region type="parish"></region>
@@ -2255,7 +2229,7 @@
                <!-- corrody in house of Knights Templars at -->
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103205">
                <placeName type="index">East Harlsey </placeName>
                <placeName type="formInDocument">Herlessei</placeName><!-- same as Helesseia above? -->
                <region type="parish">East Harlsey</region>
@@ -2264,7 +2238,7 @@
                <note type="charter">MS. Ch. Yorks. 54</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103206">
                <placeName type="index">West Heslerton</placeName>
                <placeName type="formInDocument">Heslertone</placeName>
                <region type="parish">West Heslerton</region>
@@ -2273,7 +2247,7 @@
                <note type="charter">MS. Douce Ch. 70. </note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103207">
                <placeName type="index">Kirkheaton</placeName>
                <placeName type="formInDocument">Heton</placeName>
                <region type="parish">Kirkheaton</region>
@@ -2283,13 +2257,14 @@
               
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103208">
+               <!-- not found 4.3.21 -->
                <placeName type="index">Heton [unidentified]</placeName>
                <placeName type="formInDocument">Heton</placeName>
                <note type="charter">MS. Ch. Yorks. 284a</note><!-- ?near Hutton Conyers? -->
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103209">
                <placeName type="index">Higham Ferrers</placeName>
                <placeName type="formInDocument">Higham Ferrers</placeName>
                <region type="parish">Higham Ferrers</region>
@@ -2299,7 +2274,7 @@
                <note type="charter">MS. Ch. Yorks. 187</note>
             </place>
              
-            <place type="place">
+            <place type="place" xml:id="place_103210">
                <placeName type="index">Hickleton</placeName>
                <placeName type="formInDocument">Hikilton</placeName>
                <placeName type="formInDocument">Hykylton</placeName>
@@ -2312,16 +2287,17 @@
                <note type="charter">MS. Ch. Yorks. 45</note>
             </place>
             
-            <place type="place">
+          <!--  <place type="place">
+               minor
                <placeName type="index">Hill Grips</placeName>
                <placeName type="formInDocument">Hildegrippe</placeName>
                <region type="parish">Hutton Bushel</region>
                <region type="county">Yorkshire, North Riding</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/r/D7312927</idno>
                <note type="charter">MS. Ch. Yorks. 123</note>
-            </place>
+            </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103212">
                <!-- perhaps near Norton and Hutton Conyers if those identifications are correct  -->
                <placeName type="index">Hoigne [unidentified]</placeName>
                <placeName type="formInDocument">Hoigne</placeName>
@@ -2331,7 +2307,7 @@
                <note type="charter">MS. Ch. Yorks. 284a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103213">
                <placeName type="index">Holden</placeName>
                <placeName type="formInDocument">Holden</placeName>
                <region type="parish">Bolton by Bowland</region>
@@ -2341,16 +2317,17 @@
                <note type="charter">MS. Ch. Yorks. 330</note>
             </place>
             
-            <place type="wapentake">
+            <place type="wapentake" xml:id="place_103214">
                <placeName type="index">Holderness</placeName>
                <placeName type="formInDocument">Holderness</placeName>
                <region type="county">Yorkshire, East Riding</region>
-               <idno></idno>
+               <idno/>
                <note type="charter">MS. Ch. Yorks. 143</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Holme</placeName>
+            <place type="place" xml:id="place_103215">
+               <!-- 4.3.21: impossible to identify from calendar -->
+               <placeName type="index">Holme [unidentified]</placeName>
                <placeName type="formInDocument">Holme</placeName>
                <!-- Two potental places, how to decide?
                <region type="parish"></region>
@@ -2360,7 +2337,7 @@
                <note type="charter">MS. Ch. Yorks. 156</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103216">
                <placeName type="index">Holy Trinity</placeName>
                <placeName type="formInDocument">Holy Trinity</placeName>
                <region type="parish">Kingston upon Hull</region>
@@ -2379,7 +2356,7 @@
              
             </place>-->
             
-            <place type="place"><!-- ckd; id not fully certain -->
+            <place type="place" xml:id="place_103218"><!-- ckd; id not fully certain -->
                <placeName type="formInDocument">Hutton Cranswick </placeName>
                <placeName type="formInDocument">Hoton</placeName>
                <placeName type="formInDocument">Hotone</placeName>
@@ -2387,7 +2364,9 @@
                <region type="parish">Hutton Cranswick</region>
                <region type="county">Yorkshire, East Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Hutton+Cranswick/5328549ab47fc40a4d0004e1-Hutton+Cranswick</idno>
-               <note type="charter">MS. Ch. Yorks. 157</note><!--  HOTON. <persName><forename>Cecilia</forename>, relict of 
+               <note type="charter">MS. Ch. Yorks. 157</note>
+               </place>
+            <!--  HOTON. <persName><forename>Cecilia</forename>, relict of 
                   <persName><forename>Hugh</forename> de <surname>Driffeld</surname></persName></persName>, 
                   quit-claims to <persName><forename>William</forename> called '<surname>Schynner</surname>' of 
                      <placeName role="person">Hotun</placeName></persName> all right and claim in a toft and croft in the village of
@@ -2404,7 +2383,7 @@
                <note type="charter">MS. Ch. Yorks. 283</note></place><!-\- Hutton Bushel -\->
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103221">
                <placeName type="index">Hutton Conyers</placeName>
                <placeName type="formInDocument">Hoton</placeName>
                <region type="parish">Hutton Conyers</region>
@@ -2412,7 +2391,7 @@
                <note type="charter">MS. Ch. Yorks. 284a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103222">
                <placeName type="index">Hooton Pagnell</placeName>
                <placeName type="formInDocument">Hoton Paynel</placeName>
                <region type="parish">Hooton Pagnell</region>
@@ -2421,7 +2400,7 @@
                <note type="charter">MS. Ch. Yorks. 159</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103223"><!-- ckd -->
                <placeName type="index">Hutton Roof</placeName>
                <placeName type="formInDocument">Hoton Rufs</placeName>
                <region type="parish">Kirkby Lonsdale</region>
@@ -2430,7 +2409,7 @@
                <note type="charter">MS. Ch. Yorks. 160a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103224">
                <placeName type="index">Hutton Bushell (Buscel)</placeName>
                <placeName type="formInDocument">Hotone Buscell</placeName>
                <placeName type="formInDocument">Hotone</placeName>
@@ -2438,12 +2417,13 @@
                <region type="count">Yorkshire, North Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Hutton+Buscel/53286b32b47fc40bc60004d4-Hutton+Bushell+%28Buscel%29</idno>
                <note type="charter">MS. Ch. Yorks. 158</note><!-- Hutton Bushel -->
-               <note type="charter">MS. Ch. Yorks. 283</note></place><!-- Hutton Bushel -->
+               <note type="charter">MS. Ch. Yorks. 283</note><!-- Hutton Bushel -->
+              
+               <note type="charter">MS. Ch. Yorks. 158</note> 
                <bibl>'Parishes: Hutton Bushel', in A History of the County of York North Riding: Volume 2, ed. William Page (London, 1923), pp. 441-444. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol2/pp441-444 [accessed 21 January 2021].</bibl>
-               <note type="charter">MS. Ch. Yorks. 158</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103225">
                <placeName type="index">Howgrave</placeName>
                <placeName type="formInDocument">Hougrave</placeName>
                <region type="parish">Kirklington</region>
@@ -2452,7 +2432,7 @@
                <note type="charter">MS. Ch. Yorks. 161a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103226">
                <placeName type="index">Houghton-le-Spring</placeName>
                <placeName type="formInDocument">Houhton</placeName>
                <region type="parish">Houghton-le-Spring</region>
@@ -2465,7 +2445,7 @@
                <note type="charter">MS. Ch. Yorks. 86</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103227">
                <placeName type="index">Howe</placeName>
                <placeName type="formInDocument">How</placeName>
                <region type="parish">Pickhill</region>
@@ -2475,7 +2455,7 @@
                <note type="charter">MS. Ch. Yorks. 200a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103228">
                <placeName type="index">Howden</placeName>
                <placeName type="formInDocument">Howden</placeName>
                <region type="parish">Howden</region>
@@ -2484,7 +2464,7 @@
                <note type="charter">MS. Ch. Yorks. 330</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103229">
                <placeName type="index">Howell Ho, Howell Springs</placeName>
                <placeName type="formInDocument">Howell</placeName>
                <region type="parish">Thurnscoe</region>
@@ -2493,7 +2473,7 @@
                <note type="charter">MS. Ch. Yorks. 160b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103230">
                <placeName type="index">Huby</placeName>
                <placeName type="formInDocument">Hugby</placeName>
                <region type="parish">Harewood</region>
@@ -2502,7 +2482,7 @@
                <note type="charter">MS. Ch. Yorks. 161b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103231">
                <placeName type="index">Hunmanby</placeName>
                <placeName type="formInDocument">Hundemanby</placeName>
                <region type="parish">Hunmanby</region>
@@ -2512,7 +2492,7 @@
                <note type="charter">MS. Ch. Yorks. 252</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103232">
                <placeName type="index">Huncoat</placeName>
                <placeName type="formInDocument">Hunnecotes</placeName>
                <region type="parish">Huncoat</region>
@@ -2522,7 +2502,7 @@
                <note type="charter">MS. Ch. Yorks. 24</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103233">
                <placeName type="index">Hurworth</placeName>
                <placeName type="formInDocument">Hurworth-upon-Tysam</placeName>
                <region type="parish">Hurworth</region>
@@ -2542,7 +2522,7 @@
               
             </place>
             -->
-            <place type="place">
+            <place type="place" xml:id="place_103235">
                <placeName type="index">Ingleby Greenhow</placeName>
                <placeName type="formInDocument">Ingelby near Grenehou</placeName>
                <placeName type="formInDocument">Ingelby, near Grenhou</placeName>
@@ -2574,7 +2554,7 @@
                <note type="charter">MS. Ch. Yorks. 176</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103236">
                <placeName type="index">Kayley Hall</placeName>
                <placeName type="formInDocument">Kaylyey</placeName>
                <region type="parish">Otley</region>
@@ -2583,7 +2563,7 @@
                <note type="charter">MS. Ch. Yorks. 271</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103237">
                <placeName type="index">Kellington</placeName>
                <placeName type="formInDocument">Kelyngton</placeName>
                <region type="parish">Kellington</region>
@@ -2593,7 +2573,7 @@
                <note type="charter">MS. Ch. Yorks. 169</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103238">
                <placeName type="index">Carr Side</placeName>
                <placeName type="formInDocument">Kersyde</placeName>
                <region type="parish">Otley</region>
@@ -2602,7 +2582,7 @@
                <note type="charter">MS. Ch. Yorks. 202</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103239">
                <placeName type="index">Killingbeck</placeName>
                <placeName type="formInDocument">Killingbeyk</placeName>
                <region type="parish">Whitkirk</region>
@@ -2611,7 +2591,7 @@
                <note type="charter">MS. Ch. Yorks. 170</note>
             </place>
           
-            <place type="place">
+            <place type="place" xml:id="place_103240">
                <placeName type="index">Kirby in Cleveland</placeName>
                <placeName type="formInDocument">Kirkeby in Clevelande</placeName>
                <placeName type="formInDocument">Kirkeby in Cliveland</placeName>
@@ -2637,7 +2617,7 @@
                <note type="charter">MS. Ch. Yorks. 32</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103241">
                <placeName type="index">Kirkeby Malzeard</placeName>
                <placeName type="formInDocument">Kirkeby in ?Niderdale</placeName>
                <region type="parish">Kirkby Malzeard</region>
@@ -2647,7 +2627,7 @@
                <note type="charter">MS. Ch. Yorks. 39</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103242">
                <!--Kirkpatrick Fleming or Kirkpatrick Juxta? also more Kirkpatricks in Kirkcudbrightshire
                https://www.genuki.org.uk/big/sct/DFS/KirkpatrickJuxta
                https://www.genuki.org.uk/big/sct/DFS/KirkpatrickFleming-->
@@ -2661,7 +2641,7 @@
                <note type="charter">MS. Douce Ch. 57</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103243">
                <placeName type="index">Kirklington</placeName>
                <placeName type="formInDocument">Kirtelington</placeName>
                <region type="parish">Kirklington</region>
@@ -2671,7 +2651,7 @@
                <note type="charter">MS. Ch. Yorks. 107</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103244">
                <placeName type="index">Kingston upon Hull</placeName>
                <placeName type="formInDocument">Kyngeston on Hull</placeName>
                <region type="parish">Kingston upon Hull</region>
@@ -2691,7 +2671,7 @@
                <note type="charter">MS. Ch. Yorks. 32</note>
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103246">
                <placeName type="index">Roundhay</placeName>
                <placeName type="formInDocument">la Roundehaye</placeName>
                <region type="parish">Barwick in Elmet</region>
@@ -2701,7 +2681,7 @@
                <note type="charter">MS. Ch. Yorks. 24</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103247">
                <placeName type="index">Lambrigg</placeName>
                <placeName type="formInDocument">Lamrigge</placeName>
                <region type="parish">Kendal</region>
@@ -2711,7 +2691,7 @@
                <note type="charter">MS. Ch. Yorks. 185</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103248">
                <placeName type="index">Langebrotes [unidentified]</placeName>
                <placeName type="formInDocument">Langebrotes</placeName>
                <region type="parish">Malton</region>
@@ -2721,7 +2701,7 @@
                <note type="charter">MS. Ch. Yorks. 200a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103249">
                <placeName type="index">Langnewton</placeName>
                <placeName type="formInDocument">Langnewton</placeName>
                <region type="parish">Ancrum</region>
@@ -2730,7 +2710,7 @@
                <note type="charter">MS. Ch. Yorks. 309</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103250">
                <placeName type="index">Langwith</placeName>
                <placeName type="formInDocument">Langwath</placeName>
                <region type="parish">Langwith</region>
@@ -2740,7 +2720,7 @@
                <note type="charter">MS. Ch. Yorks. 246b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103251">
                <placeName type="index">Lotherton</placeName>
                <placeName type="formInDocument">Latherton</placeName>
                <region type="parish">Sherburn in Elmet</region>
@@ -2750,7 +2730,7 @@
                <note type="charter">MS. Ch. Yorks. 104</note>
             </place>
             
-            <place type="street">
+            <place type="street" xml:id="place_103252">
                <placeName type="index">Wakefield, 'le Fleschbothes'</placeName>
                <placeName type="formInDocument">le Fleschbothes</placeName>
                <region type="parish">Wakefield</region>
@@ -2758,7 +2738,7 @@
                <note type="charter">MS. Ch. Yorks. 314</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103253">
                <placeName type="index">Leeds</placeName>
                <placeName type="formInDocument">Ledes</placeName>
                <placeName type="formInDocument">Ledis</placeName>
@@ -2790,7 +2770,7 @@
                <note type="charter">MS. Ch. Yorks. 293</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103254">
                <!--possibly this https://en.wikipedia.org/wiki/Leeds_Bridge ; how to mark it?-->
                <placeName type="formInDocument">Leeds bridge</placeName>
                <!--<region type="parish"></region>
@@ -2799,7 +2779,7 @@
                <note type="charter">MS. Ch. Yorks. 188b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103255">
                <placeName type="index">Lepton</placeName>
                <placeName type="formInDocument">Lepton</placeName>
                <region type="parish">Kirkheaton</region>
@@ -2809,7 +2789,7 @@
                <note type="charter">MS. Ch. Yorks. 138</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103256">
                <placeName type="index">Leppington</placeName>
                <placeName type="formInDocument">Lepyngton</placeName>
                <region type="parish">Scrayingham</region>
@@ -2819,9 +2799,9 @@
                <note type="charter">MS. Ch. Yorks. 192</note>
             </place>
             
-            <place type="place">
+           <!-- <place type="place">
                <placeName type="formInDocument">Lincoln's Inn</placeName>
-               <!-- in London, is this the correct way to id it?-->
+               <!-\- in London, is this the correct way to id it?-\->
                <region type="borough">Holborn</region>
                <region type="county">Middlesex</region>
                <idno>https://www.genuki.org.uk/gaz/MDX/boundary/17906</idno>
@@ -2829,9 +2809,9 @@
                <idno></idno>
                <bibl>Walter Thornbury, 'Lincoln's Inn ', in Old and New London: Volume 3 (London, 1878), pp. 51-58. British History Online http://www.british-history.ac.uk/old-new-london/vol3/pp51-58 [accessed 2 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 311b</note>
-            </place>
+            </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103258">
                <placeName type="index">Little Broughton</placeName>
                <placeName type="formInDocument">Little Brocton</placeName>
                <placeName type="formInDocument">Little Broughton</placeName>
@@ -2844,7 +2824,7 @@
                <note type="charter">MS. Ch. Yorks. 337</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103259">
                <placeName type="index">Little Edstone</placeName>
                <placeName type="formInDocument">Little Edeston</placeName>
                <region type="parish">Sinnington</region>
@@ -2854,7 +2834,7 @@
                <note type="charter">MS. Ch. Yorks. 67</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103260"><!-- ckd -->
                <placeName type="index">Woodhouse</placeName>
                <placeName type="formInDocument">Littlewodhowse</placeName>
                <region type="parish">Leeds</region>
@@ -2864,7 +2844,7 @@
                <note type="charter">MS. Ch. Yorks. 185</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103261">
                <placeName type="index">Kirkleatham</placeName>
                <placeName type="formInDocument">Lium</placeName>
                <region type="parish">Kirkleatham</region>
@@ -2875,7 +2855,7 @@
                <note type="charter">MS. Douce Ch. 43</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103262">
                <placeName type="index">Lofthouse</placeName>
                <placeName type="formInDocument">Lofthus</placeName>
                <placeName type="formInDocument">Lofthous</placeName>
@@ -2895,7 +2875,7 @@
                <note type="charter">MS. Ch. Yorks. 195</note>
             </place>
           
-            <place type="place">
+            <place type="place" xml:id="place_103263">
                <!--is this correct way to id London:-->
                <placeName type="index">London</placeName>
                <placeName type="formInDocument">London</placeName>
@@ -2907,7 +2887,7 @@
                <note type="charter">MS. Ch. Yorks. 190</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103264">
                <placeName type="index">Longley</placeName>
                <placeName type="formInDocument">Longley</placeName>
                <!--<region type="parish"></region>-->
@@ -2920,7 +2900,7 @@
                <note type="charter">MS. Ch. Yorks. 336</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103265">
                <placeName type="index">Lochmaben</placeName>
                <placeName type="formInDocument">Loughmaban</placeName>
                <region type="parish">Lochmaben</region>
@@ -2930,7 +2910,7 @@
                <note type="charter">MS. Douce Ch. 57</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103266">
                <placeName type="index">Lusby</placeName>
                <placeName type="formInDocument">Lousby</placeName>
                <region type="parish">Lusby</region>
@@ -2939,7 +2919,7 @@
                <note type="charter">MS. Ch. Yorks. 259</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103267">
                <placeName type="index">Malton</placeName>
                <placeName type="formInDocument">Malton</placeName>
                <placeName type="formInDocument">New Malton</placeName>
@@ -2953,7 +2933,7 @@
                <note type="charter">MS. Ch. Yorks. 201</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103268">
                <placeName type="index">Manston</placeName>
                <placeName type="formInDocument">Manston[sok]</placeName>
                <region type="parish">Whitkirk</region>
@@ -2962,7 +2942,7 @@
                <note type="charter">MS. Ch. Yorks. 243</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103269">
                <placeName type="index">Marton</placeName>
                <placeName type="formInDocument">Marton</placeName>
                <region type="parish">Marton</region>
@@ -2972,7 +2952,7 @@
                <note type="charter">MS. Ch. Yorks. 61</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103270">
                <placeName type="index">Marton</placeName>
                <placeName type="formInDocument">Martun</placeName>
                <region type="parish">Marton</region>
@@ -2982,7 +2962,7 @@
                <note type="charter">MS. Ch. Yorks. 53</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103271">
                <placeName type="index">Melbourne</placeName>
                <placeName type="formInDocument">Melcheburn</placeName>
                <region type="parish">Thornton</region>
@@ -2992,7 +2972,7 @@
                <note type="charter">MS. Ch. Yorks. 303b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103272">
                <!-- two Melmerbys: identification based on other places in charter -->
                <placeName type="index">Melmerby</placeName>
                <placeName type="formInDocument">Melmorby</placeName>
@@ -3003,7 +2983,7 @@
                <note type="charter">MS. Ch. Yorks. 284a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103273">
                <placeName type="index">Menston</placeName>
                <placeName type="formInDocument">Mensington</placeName>
                <placeName type="formInDocument">Mensingtone</placeName>
@@ -3067,7 +3047,7 @@
                <note type="charter">MS. Ch. Yorks. 76</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103274">
                <placeName type="index">Marske</placeName>
                <placeName type="formInDocument">Mersk</placeName>
                <region type="parish">Marske</region>
@@ -3078,7 +3058,7 @@
                <note type="charter">MS. Ch. Yorks. 59</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103275">
                <placeName type="index">Masham</placeName>
                <placeName type="formInDocument">Messaham</placeName>
                <region type="parish">Mashamshire</region>
@@ -3089,7 +3069,7 @@
                <note type="charter">MS. Douce Ch. 5</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103276"><!-- ckd -->
                <placeName type="index">West Melton</placeName>
                <placeName type="formInDocument">Midilton</placeName>
                <region type="parish"> Wath upon Dearne</region>
@@ -3100,7 +3080,7 @@
               
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103277"><!-- ckd -->
                <placeName type="index">Middleton</placeName>
                <placeName type="formInDocument">Midilton</placeName>
                <placeName type="formInDocument">Midelton</placeName>
@@ -3110,7 +3090,7 @@
                <note type="charter">MS. Ch. Yorks. 249a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103278">
                <placeName type="index">Monk Bretton</placeName>
                <placeName type="formInDocument">Monk Bretton</placeName>
                <region type="parish">Royston</region>
@@ -3120,7 +3100,8 @@
                <note type="charter">MS. Ch. Yorks. 44b</note>
             </place>
             
-            <place type="place"><!-- not found 17.2.21; hard to identify; grant by Thomas of Shipley -->
+            <place type="place" xml:id="place_103279"><!-- not found 17.2.21; hard to identify; grant by Thomas of Shipley -->
+               <placeName type="index">Morhouses [unidentified]</placeName>
                <placeName type="formInDocument">Morhouses</placeName>
                <!--several different places with name Moor Houses / Moorhouse; how to decide?
                https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Ilkley/532881f5b47fc40c8100362f-Moor+Houses
@@ -3133,7 +3114,7 @@
                <note type="charter">MS. Ch. Yorks. 250</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103280">
                <!-- ref to Basdale, Cristiana de Gisburne; ?Morton in Ormesby -->
                <placeName type="index">Morton</placeName>
                <placeName type="formInDocument">Morton</placeName>
@@ -3147,7 +3128,7 @@
                <note>Identification uncertain.</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103281">
                <placeName type="index">Muston</placeName>
                <placeName type="formInDocument">Muston</placeName>
                <region type="parish">Muston</region>
@@ -3167,7 +3148,7 @@
                <note type="charter">MS. Ch. Yorks. 96</note>
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103283">
                <placeName type="index">Nawton</placeName>
                <placeName type="formInDocument">Nagelt[on]</placeName>
                <region type="parish">Kirkdale</region>
@@ -3177,7 +3158,7 @@
                <note type="charter">MS. Ch. Yorks. 30</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103284">
                <placeName type="index">Newhall</placeName>
                <placeName type="formInDocument">Neuhal</placeName>
                <region type="parish">Bradford</region>
@@ -3186,7 +3167,7 @@
                <note type="charter">MS. Ch. Yorks. 16</note>
             </place>
 
-            <place type="place">
+            <place type="place" xml:id="place_103285">
                <placeName type="index">Newhay</placeName>
                <placeName type="formInDocument">Neuhay ("Nova haga")</placeName>
                <placeName type="formInDocument">Neuhay ("Nova haia")</placeName>
@@ -3217,7 +3198,7 @@
                <note type="charter">MS. Ch. Yorks. 76</note>
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103287">
                <!-- could be Potter Newton? 19.2.21-->
                <placeName type="index">Newton [unidentified]</placeName>
                <placeName type="formInDocument">Neuton</placeName>
@@ -3225,7 +3206,7 @@
                <note type="charter">MS. Ch. Yorks. 198</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103288">
                <placeName type="index">Newton and Place Newton</placeName>
                <placeName type="formInDocument">Neuton, near Wintringham</placeName>
                <region type="parish">Wintringham</region>
@@ -3234,7 +3215,7 @@
                <note type="charter">MS. Ch. Yorks. 197</note>
             </place>
             
-            <place type="place"><!-- ought to be near Wakefield -->
+            <place type="place" xml:id="place_103289"><!-- ought to be near Wakefield -->
                <placeName type="index">Newton</placeName>
                <placeName type="formInDocument">Neutown Enges</placeName>
                <region type="parish">Wakefield</region>
@@ -3243,14 +3224,14 @@
                <note type="charter">MS. Ch. Yorks. 314</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103290">
                <placeName type="index">New Pontefract [unidentified]</placeName>
                <placeName type="formInDocument">New Pontefract</placeName>
                <!--could this be just Pontefract? -->
                <note type="charter">MS. Ch. Yorks. 275</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103291">
                <placeName type="index">Newark</placeName>
                <placeName type="formInDocument">Newerk</placeName>
                <region type="parish">Newark</region>
@@ -3260,7 +3241,7 @@
                <note type="charter">MS. Ch. Yorks. 246b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103292">
                <placeName type="index">Newton under Roseberry</placeName>
                <placeName type="formInDocument">Newton, in Cleveland under Oversbury</placeName>
                <placeName type="formInDocument">Newton</placeName>
@@ -3275,7 +3256,7 @@
                <note type="charter">MS. Ch. Yorks. 337</note>
             </place>
                
-            <place type="place">
+            <place type="place" xml:id="place_103293">
                <placeName type="index">Normanby</placeName>
                <placeName type="formInDocument">Normanby</placeName>
                <region type="parish">Normanby</region>
@@ -3285,7 +3266,7 @@
                <note type="charter">MS. Ch. Yorks. 259</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103294">
                <placeName type="index">Normanton</placeName>
                <placeName type="formInDocument">Normanton</placeName>
                <region type="parish">Normanton</region>
@@ -3295,7 +3276,7 @@
                <note type="charter">MS. Ch. Yorks. 261</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103295">
                <placeName type="index">North Crosland</placeName>
                <placeName type="formInDocument">North Croslond</placeName>
                <placeName type="formInDocument">North Crossland</placeName>
@@ -3306,7 +3287,7 @@
                <note type="charter">MS. Ch. Yorks. 96</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103296">
                <placeName type="index">North Dalton</placeName>
                <placeName type="formInDocument">North Dalton</placeName>
                <region type="parish">North Dalton</region>
@@ -3316,7 +3297,7 @@
                <note type="charter">MS. Ch. Yorks. 192</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103297">
                <!-- several possibilities: identification based on other places in charter -->
                <placeName type="index">Norton Conyers</placeName>
                <placeName type="formInDocument">Norton</placeName>
@@ -3326,7 +3307,7 @@
                <note type="charter">MS. Ch. Yorks. 284a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103298">
                <placeName type="index">Nottingham</placeName>
                <placeName type="formInDocument">Nottingham</placeName>
                <!-- <region type="parish"></region>-->
@@ -3336,7 +3317,7 @@
                <note type="charter">MS. Ch. Yorks. 1</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103299">
                <placeName type="index">Notton</placeName>
                <placeName type="formInDocument">Notton</placeName>
                <region type="parish">Royston</region>
@@ -3346,7 +3327,7 @@
                <note type="charter">MS. Ch. Yorks. 98</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103300">
                <placeName type="index">Old Malton</placeName>
                <placeName type="formInDocument">Old Malton</placeName>
                <region type="parish">Malton</region>
@@ -3356,7 +3337,7 @@
                <note type="charter">MS. Ch. Yorks. 200b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103301">
                <!-- not found 19.2.21 -->
                <placeName type="index">Orden [unidentified]</placeName>
                <placeName type="formInDocument">Orden</placeName>
@@ -3366,7 +3347,7 @@
                <note type="charter">MS. Ch. Yorks. 284a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103302">
                <placeName type="index">Ormesby</placeName>
                <placeName type="formInDocument">Ormesby</placeName>
                <placeName type="formInDocument">Ormsby</placeName>
@@ -3378,7 +3359,7 @@
                <note type="charter">MS. Ch. Yorks. 64</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103303">
                <placeName type="index">Osmondthorpe</placeName>
                <placeName type="formInDocument">Osemondethorp</placeName>
                <placeName type="formInDocument">Osemundtorpe</placeName>
@@ -3404,22 +3385,34 @@
                <note type="charter">MS. Ch. Yorks. 263</note>
             </place>
           
-            <place type="place">
+            <place type="place" xml:id="place_103304">
+               <placeName type="index">Osgodby</placeName>
+               <placeName type="formInDocument">Osgoteby</placeName>
+               <region type="parish">Cayton</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Cayton/53286b0ab47fc40bc6000094-Osgodby</idno>
+               
+               <idno/>
+               
+               <note type="charter">MS. Ch. Yorks. 33</note><!-- grant to Rievaulx -->
+               
+           </place>
+            
+            <place type="place" xml:id="place_103305"> 
                <placeName type="index">Osgodby</placeName>
                <placeName type="formInDocument">Osgotby</placeName>
                <placeName type="formInDocument">Osgoteby</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               two options, how to decide?:
-               https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Cayton/53286b0ab47fc40bc6000094-Osgodby
-               https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Hemingbrough/5328549ab47fc40a4d0004bf-Osgodby
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Yorks. 332</note>
-               <note type="charter">MS. Ch. Yorks. 33</note>
-               <note type="charter">MS. Ch. Yorks. 51</note>
+               <region type="parish">Hemingbrough</region>
+               <region type="county">Yorkshire, East Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/Hemingbrough/5328549ab47fc40a4d0004bf-Osgodby</idno>
+               <note type="charter">MS. Ch. Yorks. 332</note><!-- grant to Drax -->
+               <note type="charter">MS. Ch. Yorks. 51</note><!-- grant to Drax -->
+               <bibl>
+                  A P Baggs, G H R Kent and J D Purdy, 'Hemingbrough: Osgodby', in A History of the County of York East Riding: Volume 3, Ouse and Derwent Wapentake, and Part of Harthill Wapentake, ed. K J Allison (London, 1976), pp. 64-66. British History Online http://www.british-history.ac.uk/vch/yorks/east/vol3/pp64-66 [accessed 4 March 2021].
+               </bibl>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103306">
                <placeName type="index">Otley</placeName>
                <placeName type="formInDocument">Ottelay</placeName>
                <placeName type="formInDocument">Otley</placeName>
@@ -3445,7 +3438,7 @@
                <note type="charter">MS. Ch. Yorks. 271</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103307">
                <placeName type="index">Ovenden</placeName>
                <placeName type="formInDocument">Ovenden</placeName>
                <placeName type="formInDocument">Ovendene</placeName>
@@ -3457,7 +3450,7 @@
                <note type="charter">MS. Ch. Yorks. 273</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103308">
                <placeName type="index">Pateley Bridge</placeName>
                <placeName type="formInDocument">Pathlobrigge</placeName>
                <placeName type="formInDocument">Pathlobrigge</placeName>
@@ -3469,7 +3462,7 @@
                <note type="charter">MS. Ch. Yorks. 29b </note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103309">
                <placeName type="index">Pickering</placeName>
                <placeName type="formInDocument">Pickering</placeName>
                <placeName type="formInDocument">Pikering</placeName>
@@ -3493,7 +3486,7 @@
                <note type="charter">MS. Rolls Yorks. 10</note>
             </place>
 
-            <place type="place">
+            <place type="place" xml:id="place_103310">
                <placeName type="index">Picton</placeName>
                <placeName type="formInDocument">Piketon</placeName>
                <region type="parish">Kirkleavington</region>
@@ -3503,7 +3496,7 @@
                <note type="charter">MS. Douce Ch. 47</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103311">
                <placeName type="index">Pocklington</placeName>
                <placeName type="formInDocument">Pokelington</placeName>
                <region type="parish">Pocklington</region>
@@ -3513,7 +3506,7 @@
                <note type="charter">MS. Ch. Yorks. 39</note>
             </place>
              
-            <place type="place">
+            <place type="place" xml:id="place_103312">
                <placeName type="index">Pontefract</placeName>
                <placeName type="formInDocument">Pontefract</placeName>
                <region type="parish">Pontefract</region>
@@ -3533,7 +3526,7 @@
                <note type="charter">MS. Ch. Yorks. 74</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103313">
                <placeName type="index">Potter Newton</placeName>
                <placeName type="formInDocument">Potterneuton</placeName>
                <region type="parish">Leeds</region>
@@ -3543,7 +3536,7 @@
                <note type="charter">MS. Ch. Yorks. no</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103314">
                <placeName type="index">Preston</placeName>
                <placeName type="formInDocument">Preston</placeName>
                <region type="parish">Preston</region>
@@ -3555,7 +3548,7 @@
                <note type="charter">MS. Ch. Yorks. 276</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103315">
                <placeName type="index">Pudsey</placeName>
                <placeName type="formInDocument">Puddesay</placeName>
                <placeName type="formInDocument">Pudesay</placeName>
@@ -3576,7 +3569,7 @@
                <note type="charter">MS. Ch. Yorks. 22</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103316">
                <placeName type="index">Redkirk (Raynpatrick)</placeName>
                <!-- https://www.poms.ac.uk/record/source/4034/ -->
                <placeName type="formInDocument">Raynpatrik</placeName>
@@ -3587,7 +3580,7 @@
                <note type="charter">MS. Douce Ch. 57</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103317">
                <placeName type="index">East Rainton</placeName>
                <placeName type="formInDocument">Renington</placeName>
                <region type="parish">Houghton-le-Spring</region>
@@ -3598,7 +3591,7 @@
                <note type="charter">MS. Ch. Yorks. 86</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103318">
                <placeName type="index">Richmond</placeName>
                <placeName type="formInDocument">Richmond</placeName>
                <region type="parish">Easby</region>
@@ -3608,7 +3601,7 @@
                <note type="charter">MS. Douce Ch. 1</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103319">
                <placeName type="index">Rillington</placeName>
                <placeName type="formInDocument">Rillyngton</placeName>
                <region type="parish">Rillington</region>
@@ -3618,7 +3611,7 @@
                <note type="charter">MS. Ch. Yorks. 337</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103320"><!-- ckd -->
                <placeName type="index">Ruston</placeName>
                <placeName type="formInDocument">Roston</placeName>
                <placeName type="formInDocument">Rostun</placeName>
@@ -3641,7 +3634,7 @@
                <note type="charter">MS. Ch. Yorks. 316</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103321"><!-- ckd -->
                <placeName type="index">Royston</placeName>
                <placeName type="formInDocument">Ruston</placeName>
                <region type="parish">Royston</region>
@@ -3649,7 +3642,7 @@
                <note type="charter">MS. Ch. Yorks. 293</note><!-- Bradford and Batley: prob Royston, WRy. check field names in WRY to confirm -->
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103322">
                <placeName type="index">Rotherham</placeName>
                <placeName type="formInDocument">Rotherham</placeName>
                <region type="parish">Rotherham</region>
@@ -3660,7 +3653,7 @@
                <note type="charter">MS. Ch. Yorks. 295</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103323">
                <placeName type="index">Rothwell</placeName>
                <placeName type="formInDocument">Rothewell</placeName>
                <placeName type="formInDocument">Rothwele</placeName>
@@ -3675,7 +3668,7 @@
                <note type="charter">MS. Ch. Yorks. 249b</note>
             </place>
           
-            <place type="place">
+            <place type="place" xml:id="place_103324">
                <placeName type="index">Rawdon</placeName>
                <placeName type="formInDocument">Roudun</placeName>
                <region type="parish">Guiseley</region>
@@ -3686,7 +3679,7 @@
                <note type="charter">MS. Ch. Yorks. 14</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103325">
                <placeName type="index">Rufforth</placeName>
                <placeName type="formInDocument">Rufforth</placeName>
                <region type="parish">Rufforth</region>
@@ -3696,7 +3689,7 @@
                <note type="charter">MS. Ch. Yorks. 294b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103326">
                <placeName type="index">Rievaulx</placeName>
                <placeName type="formInDocument">Ryevall</placeName>
                <region type="parish">Helmsley</region>
@@ -3705,7 +3698,7 @@
                <note type="charter">MS. Ch. Yorks. 32</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103327">
                <placeName type="index">Ripon</placeName>
                <placeName type="formInDocument">Rypon</placeName>
                <region type="parish">Ripon</region>
@@ -3717,7 +3710,7 @@
                <note type="charter">MS. Ch. Yorks. 180</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103328">
                <placeName type="index">Sawdon</placeName>
                <placeName type="formInDocument">Saldan</placeName>
                <placeName type="formInDocument">Salden</placeName>
@@ -3730,7 +3723,7 @@
                <note type="charter">MS. Ch. Yorks. 300</note>
             </place>
             
-            <place type="place"><!-- not found 25.2.21 -->
+            <place type="place" xml:id="place_103329"><!-- not found 25.2.21 -->
                <placeName type="index">Sall [unidentified]</placeName>
                <placeName type="formInDocument">Sall</placeName>
                <!--<region type="parish"></region>
@@ -3739,7 +3732,7 @@
                <note type="charter">MS. Ch. Yorks. 284a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103330">
                <placeName type="index">Scarborough</placeName>
                <placeName type="formInDocument">Scartheburg</placeName>
                <region type="parish">Scarborough</region>
@@ -3748,7 +3741,7 @@
                <note type="charter">MS. Ch. Yorks. 303b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103331">
                <placeName type="index">Scrooby</placeName>
                <placeName type="formInDocument">Scroby</placeName>
                <region type="parish">Scrooby</region>
@@ -3758,7 +3751,7 @@
                <note type="charter">MS. Ch. Yorks. 169</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103332">
                <placeName type="index">Seacroft</placeName>
                <placeName type="formInDocument">Secroft</placeName>
                <region type="parish">Whitkirk</region>
@@ -3768,7 +3761,7 @@
                <note type="charter">MS. Ch. Yorks. 24</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103333">
                <placeName type="index">Sedbergh</placeName>
                <placeName type="formInDocument">Sedbergh</placeName>
                <region type="parish">Sedbergh</region>
@@ -3780,7 +3773,7 @@
             
             
             
-            <place type="place">
+            <place type="place" xml:id="place_103334">
                <placeName type="index">Selby</placeName>
                <placeName type="formInDocument">Selby</placeName>
                <placeName type="formInDocument">Seleby</placeName>
@@ -3793,7 +3786,7 @@
                <note type="charter">MS. Ch. Yorks. 170</note>
             </place>
          
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103335"><!-- ckd -->
                <placeName type="index">Seamer (in Pickering Lythe)</placeName>
                <placeName type="formInDocument">Semer</placeName>
                <region type="parish">Seamer</region>
@@ -3804,7 +3797,7 @@
                <note type="charter">MS. Ch. Yorks. 85</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103336"><!-- ckd -->
                <placeName type="index">Seaton</placeName>
                <placeName type="formInDocument">Seton</placeName>
                <placeName type="formInDocument">Setone</placeName>
@@ -3816,7 +3809,7 @@
                <note type="charter">MS. Ch. Yorks. 339</note><!-- yes: near Beford, Catfoss -->
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103337"><!-- ckd -->
                <placeName type="index">Seaton Ross</placeName>
                <placeName type="formInDocument">Setone</placeName>
                <region type="parish">Seaton Ross</region>
@@ -3824,7 +3817,7 @@
                <note type="charter">MS. Ch. Yorks. 303a</note><!-- ch of Wm Wasteneys of Colton and Braceborough who did not hold in Seaton ERY https://www.british-history.ac.uk/vch/yorks/east/vol7/pp359-373 ; also https://archive.org/details/someaccountofcol00park  -->
             </place>
 
-            <place type="place">
+            <place type="place" xml:id="place_103338">
                <placeName type="index">Shadwell</placeName>
                <placeName type="formInDocument">Shadewell</placeName>
                <region type="parish">Thorner</region>
@@ -3834,7 +3827,7 @@
                <note type="charter">MS. Ch. Yorks. 24</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103339"><!-- ckd -->
                <placeName type="index">Shipley</placeName>
                <placeName type="formInDocument">Shepeleye</placeName>
                <placeName type="formInDocument">Schepley</placeName>
@@ -3844,7 +3837,7 @@
                <note type="charter">MS. Ch. Yorks. 130</note><!-- probably Shipley in Bradford -->
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103340"><!-- ckd -->
                <placeName type="index">Shipley</placeName>
                <placeName type="formInDocument">Shepeleye</placeName>
                <region type="parish">Eglingham</region>
@@ -3852,18 +3845,18 @@
                <note type="charter">MS. Rolls Yorks. 2</note><!-- EMELDON, SHEPLEIGH, STANFORD, DONSTANBURGH, and PIKERING -->
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103341">
                <placeName type="index">Silkstone</placeName>
                <placeName type="formInDocument">Silkeston</placeName>
                <region type="parish">Silkstone</region>
                <region type="county">Yorkshire, West Riding</region>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Silkstone/5328827cb47fc40c81006250-Silkestone</idno>
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Silkstone</idno>
-               <idno></idno>
+               <idno/>
                <note type="charter">MS. Ch. Yorks. 141</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103342">
                <placeName type="index">Sinnington</placeName>
                <placeName type="formInDocument">Sivelington</placeName>
                <region type="parish">Sinnington</region>
@@ -3873,7 +3866,7 @@
                <note type="charter">MS. Ch. Yorks. 67</note><!-- lands in Little Edeston doing service to lord of S -->
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103343">
                <placeName type="index">Scales</placeName>
                <placeName type="formInDocument">Skales</placeName>
                <region type="parish">Gilling</region>
@@ -3885,7 +3878,7 @@
                <note type="charter">MS. Ch. Yorks. 284a</note><!-- check? -->
             </place>
             
-            <place type="place"><!-- not found 25.2.21 -->
+            <place type="place" xml:id="place_103344"><!-- not found 25.2.21 -->
                <placeName type="index">Skelderischoth [unidentified]</placeName>
                <placeName type="formInDocument">Skelderischoth</placeName>
                <!--<region type="parish"></region>
@@ -3895,7 +3888,7 @@
                <!-- prob not Yorks -->
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103345">
                <placeName type="index">Skelton</placeName>
                <placeName type="formInDocument">Skelton</placeName>
                <region type="parish">Skelton</region>
@@ -3906,7 +3899,7 @@
                <note type="charter">MS. Ch. Yorks. 59</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103346">
                <!-- not found 17.2.21, ought to be near Pateley Bridge? -->
                <placeName type="index">Skewyk in Foyston [unidentified]</placeName>
                <placeName type="formInDocument">Skewyk in Foyston</placeName>
@@ -3916,7 +3909,7 @@
                <note type="charter">MS. Ch. Yorks. 29</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103347">
                <placeName type="index">Skipton</placeName>
                <placeName type="formInDocument">Skypton in Craven</placeName>
                <region type="parish">Skipton</region>
@@ -3926,7 +3919,7 @@
                <note type="charter">MS. Ch. Yorks. 246b</note>
             </place>
             
-            <place type="place"><!-- ckd; uncertain but ok? -->
+            <place type="place" xml:id="place_103348"><!-- ckd; uncertain but ok? -->
                <placeName type="index">Kirk (?) Smeaton</placeName>
                <placeName type="formInDocument">Smetoun</placeName>
              <!--  Smeaton? there's there at least in Yorkshire:
@@ -3941,7 +3934,7 @@
                <!-- ought to be near Normanton WRY -->
             </place>
            
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103349"><!-- ckd -->
                <placeName type="index">Snainton</placeName>
                <placeName type="formInDocument">Snaynton</placeName>
                <region type="parish">Brompton</region>
@@ -3961,7 +3954,7 @@
                <note type="charter">MS. Ch. Yorks. 316</note>
             </place>
             -->
-            <place type="place">
+            <place type="place" xml:id="place_103351">
                <placeName type="index">South Bedburn</placeName>
                <placeName type="formInDocument">Southbedburn</placeName>
                <!--? <region type="parish"></region>-->
@@ -3970,7 +3963,7 @@
                <note type="charter">MS. Ch. Yorks. 153</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103352">
                <placeName type="index">Southowram</placeName>
                <placeName type="formInDocument">Huverum</placeName>
                <placeName type="formInDocument">Southaure</placeName>
@@ -3986,7 +3979,7 @@
                <note type="charter">MS. Ch. Yorks. 152</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103353">
                <placeName type="index">Spennithorne</placeName>
                <placeName type="formInDocument">Spenythorne</placeName>
                <region type="parish">Spennithorne</region>
@@ -3996,7 +3989,7 @@
                <note type="charter">MS. Ch. Yorks. 304b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103354">
                <placeName type="index">Spofforth</placeName>
                <placeName type="formInDocument">Spofford</placeName>
                <placeName type="formInDocument">Spoford</placeName>
@@ -4008,7 +4001,7 @@
                <note type="charter">MS. Ch. Yorks. 283</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103355">
                <placeName type="index">Grinton</placeName>
                <placeName type="formInDocument">St. Andrew of Grenton in Sualdale</placeName>
                <region type="parish">Grinton</region>
@@ -4018,7 +4011,7 @@
                <note type="charter">MS. Ch. Yorks. 46</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103356">
                <placeName type="index">East Cowton</placeName>
                <placeName type="formInDocument">St. Mary of Couton</placeName>
                <region type="parish">East Cowton</region>
@@ -4027,20 +4020,20 @@
                <bibl>'Parishes: East Cowton', in A History of the County of York North Riding: Volume 1, ed. William Page (London, 1914), pp. 160-162. British History Online http://www.british-history.ac.uk/vch/yorks/north/vol1/pp160-162 [accessed 16 February 2021].</bibl>
             </place>
             
-            <place type="place"><!-- TODO -->
+            <place type="place" xml:id="place_103357"><!-- TODO -->
                <placeName type="index">York, St Mary's</placeName>
                <placeName type="formInDocument">St. Mary of York</placeName><!-- abbey? -->
                <note type="charter">MS. Ch. Yorks. 194</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103358">
                <placeName type="index">York, St Mary Bishophill Senior</placeName>
                <placeName type="formInDocument">St. Mary, the old York</placeName><!-- a parish church TODO -->
                <note type="charter">MS. Ch. Yorks. 327</note>
                <note>Demolished 1963.</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103359">
                <!--
                   https://www.skiptoncastle.co.uk/craven-history/06_Parish-of-Bernoldswick.pdf pp. 81-2
                -->
@@ -4052,7 +4045,7 @@
                <note type="charter">MS. Ch. Yorks. 24</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103360">
                <placeName type="index">Stanley</placeName>
                <placeName type="formInDocument">Stanlay</placeName>
                <placeName type="formInDocument">Stanley</placeName>
@@ -4066,7 +4059,7 @@
                <note type="charter">MS. Ch. Yorks. 314</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103361">
                <placeName type="index">Stamford</placeName>
                <placeName type="formInDocument">Staunford</placeName>
                <region type="parish">Embleton</region>
@@ -4075,7 +4068,7 @@
                <note type="charter">MS. Rolls Yorks. 2</note>
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103362">
                <placeName type="index">Stokesley</placeName>
                <placeName type="formInDocument">Stokesley</placeName>
                <placeName type="formInDocument">Stokeslay</placeName>
@@ -4094,7 +4087,7 @@
                <note type="charter">MS. Ch. Yorks. 309</note>
             </place>
             
-            <place type="place"><!-- not found 16.2.21, cf.  Hampole Stubbs, Walden Stubbs ? -->
+            <place type="place" xml:id="place_103363"><!-- not found 16.2.21, cf.  Hampole Stubbs, Walden Stubbs ? -->
                <placeName type="index">Stubbusem [unidentified]</placeName>
                <placeName type="formInDocument">Stubbusem</placeName>
                <!--<region type="parish"></region>
@@ -4119,7 +4112,7 @@
             </place>
             -->
             
-            <place type="place">
+            <place type="place" xml:id="place_103365">
                <placeName type="index">Sutton on Hull</placeName>
                <placeName type="formInDocument">Sutton</placeName>
                <placeName type="formInDocument">Sutton in Holdernes</placeName>
@@ -4131,9 +4124,21 @@
                <note type="charter">MS. Ch. Yorks. 311a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103366">
+               <placeName type="index">Swinton</placeName>
                <placeName type="formInDocument">Swinton</placeName>
+              <!-- ?near Wombwell -->
+               <region type="parish">Wath upon Dearne</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <note type="charter">MS. Ch. Yorks. 320</note>
+               <note>Identification uncertain.</note>
+            </place>
+            
+            
+            <place type="place" xml:id="place_103367">
+               <placeName type="index">Swindon [unidentified]</placeName><!-- 'dioc York' Joan Southeron of, 1577. Wills in York Registry is no help. -->
                <placeName type="formInDocument">Swindon</placeName>
+               <!-- Swinden or Swindon: impossible to say which -->
                <!--<region type="parish"></region>
                <region type="county"></region>
               Several potential places, how to decide? <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Appleton+le+Street/53286b32b47fc40bc6000402-Swinton</idno>
@@ -4141,10 +4146,10 @@
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Wath+upon+Dearne/5328827cb47fc40c8100629c-Swinton</idno>
                <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Kirkby+Overblow/532881f9b47fc40c81003ebc-Swindon+Grange%2C+Swindon+Hall</idno>-->
                <note type="charter">MS. Ch. Yorks. 311d</note>
-               <note type="charter">MS. Ch. Yorks. 320</note>
+             
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103368">
                <placeName type="index">Sydale</placeName>
                <placeName type="formInDocument">Sydale</placeName>
                <region type="parish">Bradford</region>
@@ -4163,7 +4168,7 @@
                
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103370">
                <!-- not found 17.2.21 perh not Yorks -->
                <placeName type="index">Thornby [unidentified]</placeName>
                <placeName type="formInDocument">Thornby</placeName>
@@ -4174,7 +4179,7 @@
                <note type="charter">MS. Ch. Yorks. 294a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103371">
                <placeName type="index">Thornton le Beans</placeName>
                <placeName type="formInDocument">Thorneton</placeName>
                <region type="parish">North Otterington</region>
@@ -4187,7 +4192,7 @@
                <!-- grant to hospital of Northallerton; for identification see VCH -->
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103372">
                <placeName type="index">Thornhill</placeName>
                <placeName type="formInDocument">Thornill</placeName>
                <region type="parish">Thornhill</region>
@@ -4197,7 +4202,7 @@
                <note type="charter">MS. Ch. Yorks. 140</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103373">
                <placeName type="index">Thorner</placeName>
                <placeName type="formInDocument">Thornover</placeName>
                <region type="parish">Thorner</region>
@@ -4206,7 +4211,7 @@
                <note type="charter">MS. Ch. Yorks. 12</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103374">
                <placeName type="index">Thorncliff</placeName>
                <placeName type="formInDocument">Thornclay</placeName>
                <region type="parish">Kirkburton</region>
@@ -4215,7 +4220,7 @@
                <note type="charter">MS. Ch. Yorks. 138</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103375">
                <placeName type="index">Thornton Le Street</placeName>
                <placeName type="formInDocument">Thornton in the strete</placeName>
                <region type="parish">Thornton Le Street</region>
@@ -4225,7 +4230,7 @@
                <note type="charter">MS. Ch. Yorks. 91a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103376">
                <placeName type="index">Thorpe</placeName>
                <placeName type="formInDocument">Thorp near Newerk</placeName>
                <region type="parish">Thorpe</region>
@@ -4235,7 +4240,7 @@
                <note type="charter">MS. Ch. Yorks. 311c</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103377">
                <placeName type="index">Thorpe On The Hill</placeName>
                <placeName type="formInDocument">Thorp on the Hill</placeName>
                <placeName type="formInDocument">Thorpe in the Hill</placeName>
@@ -4247,7 +4252,7 @@
                <note type="charter">MS. Ch. Yorks. 249a</note>
             </place>
            
-            <place type="place"><!-- ckd/rev mLH 
+            <place type="place" xml:id="place_103378"><!-- ckd/rev mLH 
             identified as Tunstall in Catterick as charter relates to Cleveland; also the Fulthorp family associated, see VCH
             -->
                <placeName type="index">Tunstall</placeName>
@@ -4258,7 +4263,7 @@
                <note type="charter">MS. Ch. Yorks. 139</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103379">
                <placeName type="index">Topcliffe</placeName>
                <placeName type="formInDocument">Topliffe</placeName>
                <region type="parish">Topcliffe</region>
@@ -4268,7 +4273,7 @@
                <note type="charter">MS. Ch. Yorks. 127a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103380">
                <!-- ckd 17.2.21 cf English Episcopal Acta: Durham, 1196-1237 no. 234 -->
                <placeName type="index">Trolleforde [unidentified]</placeName>
                <placeName type="formInDocument">Trolleforde</placeName>
@@ -4280,7 +4285,7 @@
                <note type="charter">MS. Ch. Yorks. 86</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103381">
                <placeName type="index">Ulrome</placeName>
                <placeName type="formInDocument">Ulrom</placeName>
                <region type="parish">Barmston</region>
@@ -4291,7 +4296,7 @@
                <note type="charter">MS. Ch. Yorks. 338</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103382">
                <placeName type="index">Upleatham</placeName>
                <placeName type="formInDocument">Upplium</placeName>
                <region type="parish">Upleatham</region>
@@ -4310,7 +4315,7 @@
                <note type="charter">MS. Douce Ch. 47</note>
             </place>
             -->
-            <place type="place">
+            <place type="place" xml:id="place_103384">
                <placeName type="index">Pickering Vale</placeName>
                <placeName type="formInDocument">vale of Pykering</placeName>
                <region type="parish">Pickering</region>
@@ -4319,7 +4324,7 @@
                <note type="charter">MS. Ch. Yorks. 301</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103385">
                <placeName type="index">Wibsey</placeName>
                <placeName type="formInDocument">Vilbesaye</placeName>
                <region type="parish">Birstall</region>
@@ -4328,7 +4333,7 @@
                <note type="charter">MS. Ch. Yorks. 319</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103386">
                <placeName type="index">Wakefield</placeName>
                <placeName type="formInDocument">Wakefeld</placeName>
                <placeName type="formInDocument">Wakefeud</placeName>
@@ -4345,7 +4350,7 @@
                <note type="charter">MS. Ch. Yorks. 314</note>
             </place>
           
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103387"><!-- ckd -->
                <placeName type="index">Saffron Walden</placeName>
                <placeName type="formInDocument">Walden</placeName>
                <region type="parish">Saffron Walden</region>
@@ -4355,7 +4360,7 @@
                <!-- letters patent of Hen. VIII dated at -->
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103388">
                <placeName type="index">Wombwell</placeName>
                <placeName type="formInDocument">Wambwell</placeName>
                <region type="parish">Darfield</region>
@@ -4365,7 +4370,7 @@
                <note type="charter">MS. Ch. Yorks. 321a</note>
             </place>
             
-            <place type="place"><!-- not an attested spelling; location plausible -->
+            <place type="place" xml:id="place_103389"><!-- not an attested spelling; location plausible -->
                <placeName type="index">Warley</placeName>
                <placeName type="formInDocument">Warneley</placeName>
                <region type="parish">Halifax</region>
@@ -4375,7 +4380,7 @@
                <note type="charter">MS. Ch. Yorks. 273</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103390">
                <placeName type="index">Welbury</placeName>
                <placeName type="formInDocument">Welleberghe</placeName>
                <region type="parish">East Harlsey</region>
@@ -4385,7 +4390,7 @@
                <note type="charter">MS. Douce Ch. 70</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103391">
                <placeName type="index">Welburn</placeName>
                <placeName type="formInDocument">Welleburn</placeName>
                <region type="parish">Bulmer</region>
@@ -4394,7 +4399,7 @@
                <note type="charter">MS. Ch. Yorks. 30</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103392">
                <placeName type="index">Wentbridge</placeName>
                <placeName type="formInDocument">Wentbrigg</placeName>
                <region type="parish">Kirk Smeaton</region>
@@ -4405,7 +4410,7 @@
                <note type="charter">MS. Ch. Yorks. 142a</note>
             </place>
           
-            <place type="place">
+            <place type="place" xml:id="place_103393">
                <placeName type="index">West Ardsley</placeName>
                <placeName type="formInDocument">West Ardislawe</placeName>
                <region type="parish">East and West Ardsley</region>
@@ -4414,7 +4419,7 @@
                <note type="charter">MS. Ch. Yorks. 113</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103394">
                <placeName type="index">West Knapton</placeName>
                <placeName type="formInDocument">West Knapton</placeName>
                <region type="parish">Wintringham</region>
@@ -4423,7 +4428,7 @@
                <note type="charter">MS. Ch. Yorks. 181</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103395">
                <placeName type="index">West Tanfield</placeName>
                <placeName type="formInDocument">West Tanfield</placeName>
                <region type="parish">West Tanfield</region>
@@ -4432,7 +4437,7 @@
                <note type="charter">MS. Ch. Yorks. 315b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103396">
                <placeName type="index">West Auckland</placeName>
                <placeName type="formInDocument">Westawkeland</placeName>
                <!--<region type="parish"></region>
@@ -4441,7 +4446,7 @@
                <note type="charter">MS. Ch. Yorks. 168</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103397">
                <placeName type="index">West Burton</placeName>
                <placeName type="formInDocument">Westburton</placeName>
                <region type="parish">Aysgarth</region>
@@ -4451,7 +4456,7 @@
                <note type="charter">MS. Ch. Yorks. 133a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103398">
                <placeName type="index">Westerdale</placeName>
                <placeName type="formInDocument">Westerdale</placeName>
                <region type="parish">Westerdale</region>
@@ -4461,7 +4466,7 @@
                <note type="charter">MS. Ch. Yorks. 32</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103399">
                <placeName type="index">Westerton (or Woodkirk)</placeName>
                <placeName type="formInDocument">Westerdon</placeName>
                <region type="parish">East and West Ardsley</region>
@@ -4471,7 +4476,7 @@
                <note type="charter">MS. Ch. Yorks. 113</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103400">
                <placeName type="index">Westermoley [unidentified]</placeName>
                <placeName type="formInDocument">Westermoley</placeName>
                <!--<region type="parish"></region>
@@ -4480,7 +4485,7 @@
                <note type="charter">MS. Ch. Yorks. 17</note>
             </place>
             
-            <place type="place" xml:id="place_101057">
+            <place type="place" xml:id="place_103401">
                <placeName type="index">Westminster</placeName>
                <placeName type="formInDocument">Westminster</placeName>
                <region type="county" key="place_000050">Middlesex</region>
@@ -4502,7 +4507,7 @@
                <note type="charter">MS. Ch. Yorks. 324</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103402"><!-- ckd -->
                <placeName type="index">Weston</placeName>
                <placeName type="formInDocument">Weston</placeName>
                <region type="parish">Weston</region>
@@ -4512,7 +4517,7 @@
                <note type="charter">MS. Ch. Yorks. 211</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103403">
                <placeName type="index">Westow</placeName>
                <placeName type="formInDocument">Westowe</placeName>
                <region type="parish">Westow</region>
@@ -4531,7 +4536,7 @@
                <note type="charter">MS. Ch. Yorks. 311b</note>
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103405">
                <placeName type="index">Wharfedale</placeName>
                <placeName type="formInDocument">Wherveldale</placeName>
                <!--this is a district name, how to mark it?-->
@@ -4540,7 +4545,7 @@
                <note type="charter">MS. Ch. Yorks. 161b</note>
             </place>
             
-            <place type="place"><!-- ckd -->
+            <place type="place" xml:id="place_103406"><!-- ckd -->
                <placeName type="index">Woodsome </placeName>
                <placeName type="formInDocument">Whudehuse</placeName>
                <region type="parish">Almondbury</region>
@@ -4552,7 +4557,7 @@
             
           
             
-            <place type="place">
+            <place type="place" xml:id="place_103407">
                <placeName type="index">Wombleton</placeName>
                <placeName type="formInDocument">Wimbelt[on]</placeName>
                <region type="parish">Kirkdale</region>
@@ -4561,7 +4566,7 @@
                <note type="charter">MS. Ch. Yorks. 30</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103408">
                <placeName type="index">Winchester</placeName>
                <placeName type="formInDocument">Winchester</placeName>
                <region type="parish">Winchester</region>
@@ -4570,7 +4575,7 @@
                <note type="charter">MS. Ch. Yorks. 132b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103409">
                <placeName type="index">New Windsor and Old Windsor</placeName>
                <placeName type="formInDocument">Windlẽs (Windsor)</placeName>
                <region type="parish">New Windsor and Old Windsor</region>
@@ -4579,7 +4584,7 @@
                <note type="charter">MS. Douce Ch. 25.</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103410">
                <placeName type="index">Wentworth</placeName>
                <placeName type="formInDocument">Wintewrh</placeName>
                <placeName type="formInDocument">Wyntworth</placeName>
@@ -4593,7 +4598,7 @@
                <note type="charter">MS. Ch. Yorks. 315a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103411">
                <placeName type="index">Worsborough</placeName>
                <placeName type="formInDocument">Wirkesburg</placeName>
                <region type="parish">Darfield</region>
@@ -4603,7 +4608,7 @@
                <note type="charter">MS. Ch. Yorks. 44a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103412">
                <placeName type="index">Wrangbrook</placeName>
                <placeName type="formInDocument">Wrangbrokeve</placeName>
                <region type="parish">South Kirkby</region>
@@ -4613,7 +4618,7 @@
                <note type="charter">MS. Ch. Yorks. 72</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103413">
                <placeName type="index">Wressle</placeName>
                <placeName type="formInDocument">Wresile</placeName>
                <region type="parish">Wressle</region>
@@ -4622,7 +4627,7 @@
                <note type="charter">MS. Ch. Yorks. 321b </note>
             </place>
  
-            <place type="place">
+            <place type="place" xml:id="place_103414">
                <placeName type="index">Wykeham</placeName>
                <placeName type="formInDocument">Wycom</placeName>
                <placeName type="formInDocument">Wycom</placeName>
@@ -4634,7 +4639,7 @@
                <!-- note: may be confused with the following in places -->
             </place>
            
-            <place type="place">
+            <place type="place" xml:id="place_103415">
                <placeName type="index">Wykeham</placeName>
                <placeName type="formInDocument">Wykham</placeName>
                <placeName type="formInDocument">Wikham</placeName>
@@ -4655,7 +4660,7 @@
                <note type="charter">MS. Ch. Yorks. 316</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103416">
                <placeName type="index">Weeton</placeName>
                <placeName type="formInDocument">Wytheton</placeName>
                <region type="parish">Harewood</region>
@@ -4664,7 +4669,7 @@
                <note type="charter">MS. Ch. Yorks. 161b</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103417">
                <placeName type="index">Yarm</placeName>
                <placeName type="formInDocument">Yarom</placeName><!-- same as Jarum above -->
                <placeName type="formInDocument">Jarum</placeName>
@@ -4687,7 +4692,7 @@
                <note type="charter">MS. Ch. Yorks. 96</note>
             </place>-->
             
-            <place type="place">
+            <place type="place" xml:id="place_103419">
                <placeName type="index">Yeadon</placeName>
                <placeName type="formInDocument">Yedon</placeName>
                <region type="parish">Guiseley</region>
@@ -4698,7 +4703,7 @@
                <note type="charter">MS. Ch. Yorks. 280</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103420">
                <placeName type="index">Yokeflete</placeName>
                <placeName type="formInDocument">Yokeflete</placeName>
                <region type="parish">Howden</region>
@@ -4706,7 +4711,7 @@
                <note type="charter">MS. Ch. Yorks. 337</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_103421">
                <placeName type="index">York</placeName>
                <placeName type="formInDocument">York</placeName>
                <region type="county">Yorkshire, East Riding</region>
@@ -4744,7 +4749,7 @@
             Wikidata if the org isn't in VIAF. 
             For religious houses a reference to VCH might be useful too-->
          <listOrg>
-            <org>
+            <org xml:id="org_103001">
                <orgName type="index">Kirkstall, Cistercian abbey</orgName>
                <orgName type="formInDocument">abbey of Kirkstall</orgName>
                <orgName type="formInDocument">abbot and convent of Kyrkestall</orgName>
@@ -4801,7 +4806,7 @@
                <note type="charter">MS. Ch. Yorks. 1</note>
             </org>
             
-            <org>
+            <org xml:id="org_103002">
                <orgName type="index">Byland, Cistercian abbey</orgName>
                <orgName type="formInDocument">abbey of Byland</orgName>
                <idno>http://viaf.org/viaf/129315259</idno>
@@ -4810,7 +4815,7 @@
                <note type="charter">MS. Douce Ch. 25</note>
             </org>
             
-            <org>
+            <org xml:id="org_103003">
                <orgName type="index">Rievaulx, Cistercian abbey</orgName>
                <orgName type="formInDocument">abbey of Ryevall</orgName>
                <orgName type="formInDocument">abbot and convent of Rievall</orgName>
@@ -4826,7 +4831,7 @@
                <note type="charter">MS. Ch. Yorks. 33</note>
             </org>
             
-            <org>
+            <org xml:id="org_103004">
                <orgName type="index">Bardney, Benedictine abbey</orgName>
                <orgName type="formInDocument">abbot and convent of Bardeney</orgName>
                <idno>http://viaf.org/viaf/239227040</idno>
@@ -4842,7 +4847,7 @@
                <note type="charter">MS. Douce Ch. 1</note>
             </org>
             -->
-            <org>
+            <org xml:id="org_103006">
                <orgName type="index">Roche, Cistercian abbey</orgName>
                <orgName type="formInDocument">abbot and convent of Roche ("de Rupe")</orgName>
                <orgName type="formInDocument">convent of Roche</orgName>
@@ -4868,7 +4873,7 @@
                <note type="charter">MS. Ch. Yorks. 39</note>
             </org>
 -->
-            <org>
+            <org xml:id="org_103008">
                <orgName type="index">Bolton, Austin priory</orgName>
                <orgName type="formInDocument">canons of St. Mary, Boelton</orgName>
                <orgName type="formInDocument">church and canons of St. Mary, Boulton</orgName>
@@ -4878,7 +4883,7 @@
                <note type="charter">MS. Ch. Yorks. 106a</note>
             </org>
             
-            <org>
+            <org xml:id="org_103009">
                <orgName type="index">Northallerton, Carmelite friars (Whitefriars)</orgName>
                <orgName type="formInDocument">Carmelite friars</orgName>
                <!--<idno></idno>
@@ -4887,7 +4892,7 @@
                <note type="charter">MS. Ch. Yorks. 91b</note>
             </org>
             
-            <org>
+            <org xml:id="org_103010">
                <orgName type="index">York, Carmelite friars (Whitefriars)</orgName>
                <orgName type="formInDocument">Carmelites of York</orgName>
                <orgName type="formInDocument">Carmelites of York</orgName>
@@ -4897,7 +4902,7 @@
                <note type="charter">MS. Ch. Yorks. 81</note>
             </org>
             
-            <org>
+            <org xml:id="org_103011">
                <orgName type="index">Fountains Abbey (Cistercian)</orgName>
                <orgName type="formInDocument">church of Fountains</orgName>
                <orgName type="formInDocument">monastery of Fountains</orgName>
@@ -4908,7 +4913,7 @@
                <note type="charter">MS. Douce Ch. 5</note>
             </org>
             
-            <org>
+            <org xml:id="org_103012">
                <orgName type="index">Drax, Augustinian priory of St. Nicholas</orgName>
                <orgName type="formInDocument">church of St. Nicholas of Drax</orgName>
                <orgName type="formInDocument">church of St. Nicholas of Drax and the canons there</orgName>
@@ -4926,7 +4931,7 @@
                <note type="charter">MS. Ch. Yorks. 48</note>
             </org>
 
-            <org>
+            <org xml:id="org_103013">
                <orgName type="index">Easby, Premonstratensian abbey</orgName>
                <orgName type="formInDocument">convent of St. Agatha</orgName>
                <idno>http://viaf.org/viaf/305449068</idno>
@@ -4934,7 +4939,7 @@
                <note type="charter">MS. Douce Ch. 1</note>
             </org>
 
-            <org>
+            <org xml:id="org_103014">
                <orgName type="index">York Minster</orgName>
                <orgName type="formInDocument">dean and chapter of York</orgName>
                <idno>http://viaf.org/viaf/155835167</idno>
@@ -4942,7 +4947,7 @@
                <note type="charter">MS. Ch. Yorks. 133a</note>
             </org>
 
-            <org>
+            <org xml:id="org_103015">
                <orgName type="index">Oxford, Christ Church</orgName>
                <orgName type="formInDocument">dean and canons of Ch. Ch.</orgName><!-- Oxford -->
                <idno>http://viaf.org/viaf/140757625</idno>
@@ -4950,7 +4955,7 @@
                <note type="charter">MS. Ch. Yorks. 160b</note>
             </org>
 
-            <org>
+            <org xml:id="org_103016">
                <orgName type="index">Archdiocese of Glasgow</orgName>
                <orgName type="formInDocument">dean and chapter of Glasgow</orgName>
                <idno>http://viaf.org/viaf/152703095</idno>
@@ -4958,7 +4963,7 @@
                <note type="charter">MS. Douce Ch. 57</note>
             </org>
             
-            <org>
+            <org xml:id="org_103017">
                <orgName type="index">Scarborough Greyfriars</orgName>
                <orgName type="formInDocument">friars minor of Scartheburg</orgName>
                <!--<idno></idno>
@@ -4977,7 +4982,7 @@
                <note type="charter">MS. Ch. Yorks. 63</note>
             </org>-->
             
-            <org>
+            <org xml:id="org_103019">
                <orgName type="index">York, Priory Church of The Holy Trinity, Micklegate (York), Benedictine alien house</orgName>
                <orgName type="formInDocument">Holy Trinity, York</orgName>
                <idno>http://viaf.org/viaf/67153288269432651526</idno>
@@ -4987,7 +4992,7 @@
                <note type="charter">MS. Ch. Yorks. 78</note>
             </org>
             
-            <org>
+            <org xml:id="org_103020">
                <orgName type="index">Northallerton, St James' Hospital</orgName>
                <orgName type="formInDocument">hospital of Alverton</orgName>
                <orgName type="formInDocument">hospital of St. James of Alverton</orgName>
@@ -5005,7 +5010,7 @@
                <note type="charter">MS. Ch. Yorks. 88</note>
             </org>
             
-            <org>
+            <org xml:id="org_103021">
                <orgName type="index">York, St. Peter's (later St. Leonard's) Hospital</orgName>
                <orgName type="formInDocument">hospital of St Leonard, York</orgName>
                <orgName type="formInDocument">the hospital of St. Leonard, York</orgName>
@@ -5017,7 +5022,7 @@
                <note type="charter">MS. Ch. Yorks. 105</note>
             </org>
 
-            <org>
+            <org xml:id="org_103022">
                <orgName type="index">Clerkenwell Priory, hospital of St John of the Knights Templars (London)</orgName>
                <orgName type="formInDocument">hospital of St. John of Jerusalem</orgName>
                <orgName type="formInDocument">Knights Templars of England</orgName>
@@ -5040,22 +5045,22 @@
                <note type="charter">MS. Ch. Yorks. 96</note>
             </org>
             
-            <org>
+            <org xml:id="org_103023">
                <orgName type="index">Newland Preceptory, hospital of St John of the Knights Templars</orgName>
                <orgName type="formInDocument">hospital of St John of Jerusalem at Newland, co. York</orgName>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F145879</idno>
                <note type="charter">MS. Ch. Yorks. 101</note>
             </org>
             
-            <org>
+            <org xml:id="org_103024">
                <orgName type="index">Temple Cowley, Knights Templars  </orgName>
                <orgName type="formInDocument">chapter at Couele</orgName>
-               <idno></idno>
+               <idno/>
                <bibl>'House of Knights Templars: The preceptory of Sandford', in A History of the County of Oxford: Volume 2, ed. William Page (London, 1907), pp. 106-107. British History Online http://www.british-history.ac.uk/vch/oxon/vol2/pp106-107 [accessed 9 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 95</note>
             </org>
 
-            <org>
+            <org xml:id="org_103025">
                <orgName type="index">Hexham, Augustinian priory</orgName>
                <orgName type="formInDocument">monastery of Hexhame</orgName>
                <orgName type="formInDocument">prior of Hexhldesham</orgName><!-- Hexham, Northumberland -->
@@ -5065,7 +5070,7 @@
                <note type="charter">MS. Ch. Yorks. 337</note>
             </org>
             
-            <org>
+            <org xml:id="org_103026">
                <orgName type="index">Monk Bretton, Benedictine priory</orgName>
                <orgName type="formInDocument">canons of Bretton</orgName>
                <orgName type="formInDocument">monastery of Monkebretton</orgName>
@@ -5083,7 +5088,7 @@
                <note type="charter">MS. Ch. Yorks. 43</note>
             </org>
 
-            <org>
+            <org xml:id="org_103027">
                <orgName type="index">Whitby, Benedictine abbey</orgName>
                <orgName type="formInDocument">monastery of Whitby</orgName>
                <orgName type="formInDocument">priory of Whitby</orgName>
@@ -5093,7 +5098,7 @@
                <note type="charter">MS. Ch. Yorks. 36</note>
             </org>
 
-            <org>
+            <org xml:id="org_103028">
                <orgName type="index">Pontefract, Cluniac priory of St. John's</orgName>
                <orgName type="formInDocument">monks of St. John</orgName>
                <orgName type="formInDocument">St. John the apostle, of Pontefract, and the monks there</orgName>
@@ -5106,7 +5111,7 @@
                <note type="charter">MS. Douce Ch. 69</note>
             </org>
 
-            <org>
+            <org xml:id="org_103029">
                <orgName type="index">York, Benedictine abbey of St. Mary</orgName>
                <orgName type="formInDocument">monks of St. Mary's, York</orgName>
                <!--index name format? now using the same as https://medieval.bodleian.ox.ac.uk/catalog/org_135211427-->
@@ -5122,7 +5127,7 @@
                <note type="charter">MS. Douce Ch. 47</note>
             </org>
 
-            <org>
+            <org xml:id="org_103030">
                <orgName type="index">Newburgh, Augustinian priory</orgName>
                <orgName type="formInDocument">Newburgh</orgName>
                <idno>https://www.wikidata.org/wiki/Q7017185</idno>
@@ -5130,20 +5135,20 @@
                <note type="charter">MS. Ch. Yorks. 54</note>
             </org>
             
-            <org>
+            <org xml:id="org_103031">
                <orgName type="index">Syningthwaite, convent of Cistercian nuns of St. Mary</orgName>
                <orgName type="formInDocument">nuns of Siningthwayt</orgName>
                <idno>https://www.wikidata.org/wiki/Q16920786</idno>
                <note type="charter">MS. Ch. Yorks. 76</note>
             </org>
             
-            <org>
+            <org xml:id="org_103032">
                <orgName type="index">York, Prerogative Court </orgName>
                <orgName type="formInDocument">Prerogative Court of York</orgName>
                <note type="charter">MS. Ch. Yorks. 311d</note>
             </org>
             
-            <org>
+            <org xml:id="org_103033">
                <orgName type="index">Bridlington, Augustinian priory</orgName>
                <orgName type="formInDocument">prior and convent of Bridelington</orgName>
                <idno>https://www.wikidata.org/wiki/Q4525670</idno>
@@ -5151,14 +5156,14 @@
                <note type="charter">MS. Ch. Yorks. 46</note>
             </org>
            
-            <org>
+            <org xml:id="org_103034">
                <orgName type="index">Torksey, Augustinian priory</orgName>
                <orgName type="formInDocument">prior and canons of Torkesey</orgName>
                <idno>https://www.wikidata.org/wiki/Q7825891</idno>
                <note type="charter">MS. Ch. Yorks. 49</note>
             </org>
             
-            <org>
+            <org xml:id="org_103035">
                <orgName type="index">Nun Appleton, priory of Cistercian nuns</orgName>
                <orgName type="formInDocument">prioress and convent of Apelton</orgName>
                <idno>https://www.wikidata.org/wiki/Q7069720</idno>
@@ -5166,7 +5171,7 @@
                <note type="charter">MS. Ch. Yorks. 73</note>
             </org>
             
-            <org>
+            <org xml:id="org_103036">
                <orgName type="index">Basedale, priory of Cistercian nuns</orgName>
                <orgName type="formInDocument">prioress of Basdale</orgName>
                <orgName type="formInDocument">Basadale</orgName>
@@ -5178,7 +5183,7 @@
                <note type="charter">MS. Ch. Yorks. 173</note>
             </org>
             
-            <org>
+            <org xml:id="org_103037">
                <orgName type="index">Thicket, priory of Benedictine nuns</orgName>
                <orgName type="formInDocument">prioress of Thikheved</orgName>
                <idno>https://www.wikidata.org/wiki/Q7783953</idno>
@@ -5186,7 +5191,7 @@
                <note type="charter">MS. Ch. Yorks. 77</note>
             </org>
 
-            <org>
+            <org xml:id="org_103038">
                <orgName type="index">Marton, Augustinian priory</orgName>
                <orgName type="formInDocument">St. Cudbert of Martun</orgName>
                <idno>https://www.wikidata.org/wiki/Q6777305</idno>
@@ -5194,7 +5199,7 @@
                <note type="charter">MS. Ch. Yorks. 53</note>
             </org>
             
-            <org>
+            <org xml:id="org_103039">
                <orgName type="index">Windsor, secular college of St. George's Chapel</orgName>
                <orgName type="formInDocument">St. George's, Windsor</orgName>
                <orgName type="formInDocument">the canons of St. George's, Windsor</orgName>
@@ -5207,7 +5212,7 @@
                <note type="charter">MS. Ch. Yorks. 331</note>
             </org>
            
-            <org>
+            <org xml:id="org_103040">
                <orgName type="index">Guisborough, Augustinian priory</orgName>
                <orgName type="formInDocument">St. Mary of Giseburn</orgName>
                <orgName type="formInDocument">the chapter of St. Mary of Giseburg</orgName>
@@ -5238,7 +5243,7 @@
                <note type="charter">MS. Douce Ch. 43.</note>
             </org>
 
-            <org>
+            <org xml:id="org_103041">
                <orgName type="index">Nostell, Augustinian priory</orgName>
                <orgName type="formInDocument">St. Oswald of Nostell</orgName>
                <orgName type="formInDocument">St. Oswald of Nostle</orgName>
@@ -5252,7 +5257,7 @@
                <note type="charter">MS. Ch. Yorks. 71</note>
             </org>
            
-            <org>
+            <org xml:id="org_103042">
                <orgName type="index">Swainby, Premonstratensian abbey</orgName>
                <orgName type="formInDocument">Suanesbi</orgName>
                <idno>https://www.wikidata.org/wiki/Q425711</idno>
@@ -5260,7 +5265,7 @@
                <note type="charter">MS. Douce Ch. 47</note>
             </org>
            
-            <org>
+            <org xml:id="org_103043">
                <orgName type="index">Ripon, collegiate church of St. Peter and St. Wilfrid</orgName>
                <orgName type="formInDocument">B. Wilfrid of Rypon</orgName>
                <idno>http://viaf.org/viaf/123186500</idno>
@@ -5268,7 +5273,7 @@
                <note type="charter">MS. Ch. Yorks. 161a</note>
             </org>
             
-            <org>
+            <org xml:id="org_103044">
                <orgName type="index">Jervaulx, Cistercian abbey</orgName>
                <orgName type="formInDocument">the abbot and monks of Jorevall</orgName>
                <orgName type="formInDocument">abbot and convent of Jorevall</orgName>
@@ -5279,7 +5284,7 @@
                <note type="charter">MS. Douce Ch. 1</note>
             </org>
             
-            <org>
+            <org xml:id="org_103045">
                <orgName type="index">Wilberfoss, Benedictine priory</orgName>
                <orgName type="formInDocument">the convent of Our Lady of Wylberfosse</orgName>
                <orgName type="formInDocument">Wilberfosse</orgName>
@@ -5289,7 +5294,7 @@
                <note type="charter">MS. Ch. Yorks. 84</note>
             </org>
             
-            <org>
+            <org xml:id="org_103046">
                <orgName type="index">York, priory of Benedictine nuns of St Clement</orgName>
                <orgName type="alternative">Clementhorpe Priory</orgName>
                <orgName type="formInDocument">the nuns of St. Clement</orgName>
@@ -5299,7 +5304,7 @@
                <note type="charter">MS. Ch. Yorks. 79</note>
             </org>
            
-            <org>
+            <org xml:id="org_103047">
                <orgName type="index">Malton, Gilbertine priory</orgName>
                <orgName type="formInDocument">the prior and convent of Malton</orgName>
                <orgName type="formInDocument">Malton</orgName>
@@ -5311,7 +5316,7 @@
                <note type="charter">MS. Ch. Yorks. 68</note>
             </org>
             
-            <org>
+            <org xml:id="org_103048">
                <orgName type="index">Mount Grace, Carthusian priory</orgName>
                <orgName type="formInDocument">Carthusiens of York</orgName>
                <idno>http://viaf.org/viaf/152475192</idno>
@@ -5320,21 +5325,21 @@
                <note type="charter">MS. Ch. Yorks. 83</note>
             </org>
             
-            <org>
+            <org xml:id="org_103049">
                <orgName type="index">Cambridge, University</orgName>
                <orgName type="formInDocument">University of Cambridge</orgName>
                <idno>MS. Ch. Yorks. 304b</idno>
                <bibl>'The University of Cambridge: The Middle Ages', in A History of the County of Cambridge and the Isle of Ely: Volume 3, the City and University of Cambridge, ed. J P C Roach (London, 1959), pp. 150-166. British History Online http://www.british-history.ac.uk/vch/cambs/vol3/pp150-166 [accessed 10 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 304b</note>
             </org>
-            <org>
+            <org xml:id="org_103050">
                <orgName type="index">Wallingwells, priory of Benedictine nuns</orgName>
                <orgName type="formInDocument">Wallingwellez</orgName>
                <idno>https://www.wikidata.org/wiki/Q7963117</idno>
                <note type="charter">MS. Ch. Yorks. 242b</note>
             </org>
             
-            <org>
+            <org xml:id="org_103051">
                <orgName type="index">Tearnside, hospital of St. Leonard </orgName>
                <orgName type="formInDocument">St. Leonard of Teneleshend</orgName>
                <!--cannot find this in viaf or wiki, but mentioned e.g. in https://www.pastscape.org.uk/hob.aspx?hob_id=43003&sort=4&search=all&criteria=kirkby%20lonsdale&rational=q&recordsperpage=10
