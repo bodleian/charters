@@ -344,8 +344,10 @@
             </place>
             
             <place type="place">
-               <placeName type="formInDocument">alvenesfen</placeName>
-               <!-- horksey priory -->
+               <placeName type="formInDocument">'Alvenesfen' [unidentified]</placeName>
+               <!-- horksey priory; could be in suffolk -->
+               <region type="county" cert="low">Essex</region>
+               <region type="county" cert="low">Suffolk</region>
                <note type="charter">MS. Ch. Essex 52</note>
             </place>
             
@@ -357,10 +359,8 @@
                <idno>https://epns.nottingham.ac.uk/browse/Essex/Debden/532858b6b47fc40a98000240-Amberden+Hall%2C+Hamperden+End</idno>
                <note type="charter">MS. Ch. Essex 187</note>
             </place>
-            <place type="place">
-               <placeName type="formInDocument">anthony asshe</placeName>
-               <note type="charter">MS. Rolls Essex 7</note>
-            </place>
+            
+            
             <place type="place">
                <placeName type="index">Ashen</placeName>
                <placeName type="formInDocument">ashon</placeName>
@@ -397,17 +397,26 @@
             </place>
             
             <place type="place">
-               <placeName type="formInDocument">beningeham</placeName>
+               <placeName type="formInDocument">'Beningeham' [?lost; ?near Occold]</placeName>
+               <!-- suffolk : Colchester priory: cf. Cartul. II.384ff -->
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Essex 94</note>
             </place>
             
             <place type="place">
+               <placeName type="index">West Bergholt</placeName>
                <placeName type="formInDocument">bergholte saukevyll</placeName>
+               <region type="parish">West Bergholt</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Ch. Essex 61</note>
             </place>
             
             <place type="place">
+               <placeName type="index">Berkeley</placeName>
                <placeName type="formInDocument">berkeleye</placeName>
+               <region type="parish">Berkeley</region>
+               <region type="county">Gloucestershire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Gloucestershire/Berkeley/53285ad5b47fc40ab3001aa1-Berkeley</idno>
                <note type="charter">MS. Ch. Douce 65</note>
             </place>
             
@@ -438,13 +447,7 @@
                <idno>https://epns.nottingham.ac.uk/browse/Essex/532858beb47fc40a98000bc5-Black+Notley</idno>
                <note type="charter">MS. Ch. Essex 217</note>
             </place>
-            <place type="place">
-               <placeName type="formInDocument">blakelond</placeName>
-               <note type="charter">MS. Ch. Essex 206</note>
-            </place>
-            <place type="place">
-              
-            </place>
+            
             <place type="place">
                <placeName type="index">Blunt's Hall</placeName>
                <placeName type="formInDocument">blunteshale</placeName>
@@ -464,7 +467,11 @@
             
            
             <place type="place">
+               <placeName type="index">Bocking</placeName>
                <placeName type="formInDocument">bokkyng, co. essex</placeName>
+               <region type="parish">Bocking</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Bocking/532858eeb47fc40a98000da3-Bocking</idno>
                <note type="charter">MS. Ch. Essex 169</note>
             </place>
             
@@ -475,6 +482,7 @@
                <placeName type="formInDocument">bosworth</placeName>
                <note type="charter">MS. Ch. Essex 194</note>
             </place>
+            
             <place type="place"> 
                <placeName type="formInDocument">boxsted (bochesteda)</placeName>
                <placeName type="formInDocument">boxstede</placeName>
@@ -485,9 +493,7 @@
             </place>
          
          
-            <place type="place">
-              
-            </place>
+          
             
             <place type="place">
                <placeName type="index">Bradley</placeName>
@@ -503,19 +509,24 @@
            
            
             <place type="place">
+               <placeName type="index">Brentwood</placeName>
                <placeName type="formInDocument">brendwod</placeName>
+               <region type="parish">Brentwood</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Brentwood/532858eeb47fc40a98000dac-Brentwood</idno>
                <note type="charter">MS. Ch. Essex 163</note>
             </place>
+            
             <place type="place">
+               <placeName type="index">Little Henny</placeName>
                <placeName type="formInDocument">bridge heny</placeName>
+               <region type="parish">Little Henny</region>
+               <region type="county">Essex</region>
+               <!-- must be Little Henny, since Great Henny is mentioned separately in the charter -->
                <note type="charter">MS. Ch. Essex 175</note>
             </place>
-          <!--  <place type="place">
-               minor
-               <placeName type="formInDocument">brocfeld</placeName>
-               <note type="charter">MS. Ch. Essex 5</note>
-            </place>-->
-            
+        
+        
             
             <place type="place">
                <placeName type="index">Bulmer</placeName>
@@ -546,7 +557,10 @@
            
            
             <place type="place">
+               <placeName type="index">'Burchfeld' [unidentified]</placeName>
                <placeName type="formInDocument">burthfeld</placeName>
+               <!-- ?near Maldon; also seems to occur in two IPMs, unidentified in the calendars -->
+               <region type="county">Essex</region>
                <note type="charter">MS. Ch. Essex 70</note>
             </place>
             
@@ -561,23 +575,27 @@
             
             <place type="place">
                <placeName type="formInDocument">chelmer</placeName>
+               <!-- check: error for Chelmsford? -->
                <note type="charter">MS. Ch. Essex 182</note>
             </place>
-            <place type="place">
-               <placeName type="formInDocument">clarkesland</placeName>
-               <note type="charter">MS. Ch. Essex 158</note>
-            </place>
+            
+           
+           
             <place type="place">
                <placeName type="formInDocument">cm'sford (chelmsford?)</placeName>
                <note type="charter">MS. Ch. Essex 22</note>
             </place>
+            
             <place type="place">
                <placeName type="formInDocument">coggeshale in co. essex</placeName>
                <note type="charter">MS. Ch. Essex 179</note>
             </place>
             
             <place type="place">
+               <placeName type="index">Colchester</placeName>
                <placeName type="formInDocument">colchester</placeName>
+               <region type="parish">Colchester</region>
+               <region type="parish">Essex</region>
                <note type="charter">MS. Ch. Essex 182</note>
                <note type="charter">MS. Ch. Essex 183</note>
                <note type="charter">MS. Rolls Essex 2</note>
@@ -586,9 +604,8 @@
                <note type="charter">MS. Ch. Essex 155</note>
             </place>
             
-            <place type="place">
-              
-            </place>
+            
+            
             
             <place type="place">
                <placeName type="index">Earls Colne</placeName>
@@ -601,13 +618,17 @@
                <note type="charter">MS. Ch. Essex 74</note>
                <note type="charter">MS. Ch. Essex 203</note>
             </place>
+          
+          
             <place type="place">
-               
-            </place>
-            <place type="place">
+               <placeName type="index">Cotton</placeName>
                <placeName type="formInDocument">cottun</placeName>
+               <region type="parish">Cotton</region>
+               <region type="county">Suffolk</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10252246</idno>
                <note type="charter">MS. Ch. Essex 103</note>
             </place>
+            
             <place type="place">
                <placeName type="formInDocument">coulingge</placeName>
                <note type="charter">MS. Ch. Essex 217</note>
@@ -1866,6 +1887,7 @@
             <place type="place">
                <placeName type="index">Withermarsh</placeName>
                <placeName type="formInDocument">wivermers</placeName>
+               <!-- check parish: stoke by nayland? -->
                <region type="county">Suffolk</region>
                <!-- william constable of -->
                <placeName type="formInDocument">wirmers</placeName>
@@ -2169,6 +2191,12 @@
                <orgName type="formInDocument">St. Mary and St. Nicholas of Tiptre</orgName>
                <orgName type="formInDocument">St. Mary and St. Nicholas of Typpetre</orgName>
                <orgName type="formInDocument">St. Mary and St. Nicholas of Typtre</orgName>
+               <orgName type="formInDocument">Typpetre</orgName>
+               <orgName type="formInDocument">Typtree</orgName>
+               <orgName type="formInDocument">prior of Typtre</orgName>
+               <note type="charter">MS. Ch. Essex 10</note>
+               <note type="charter">MS. Rolls. Essex 18</note>
+               <note type="charter">MS. Ch. Essex 28</note>
                <note type="charter">MS. Ch. Essex 27</note>
                <note type="charter">MS. Ch. Essex 20</note>
                <note type="charter">MS. Ch. Essex 26</note>
@@ -2322,8 +2350,7 @@
                <note type="charter">MS. Ch. Essex 240</note>
             </org>
             <org>
-               <orgName type="formInDocument">monks at Thetford</orgName>
-               <note type="charter">MS. Ch. Essex 29b</note>
+               
             </org>
            
             <org>
@@ -2352,6 +2379,12 @@
             <org>
                <orgName type="formInDocument">monks of Tetford</orgName>
                <orgName type="formInDocument">monks of Thetford</orgName>
+               <orgName type="formInDocument">monks of Theford</orgName>
+               <orgName type="formInDocument">monks of Theoford at Horkesley</orgName>
+               <orgName type="formInDocument">monks at Thetford</orgName>
+               <note type="charter">MS. Ch. Essex 29b</note>
+               <note type="charter">MS. Ch. Essex 33</note>
+               <note type="charter">MS. Ch. Essex 32</note>
                <note type="charter">MS. Ch. Essex 29a</note>
                <note type="charter">MS. Ch. Essex 31</note>
             </org>
@@ -2360,23 +2393,22 @@
                <note type="charter">MS. Ch. Essex 67</note>
             </org>
             <org>
-               <orgName type="formInDocument">monks of Theford</orgName>
-               <note type="charter">MS. Ch. Essex 32</note>
+              
             </org>
             <org>
-               <orgName type="formInDocument">monks of Theoford at Horkesley</orgName>
-               <note type="charter">MS. Ch. Essex 33</note>
+              
             </org>
             <org>
                <orgName type="formInDocument">nuns of Clerkenwell</orgName>
                <note type="charter">MS. Ch. Essex 71</note>
             </org>
             <org>
-               <orgName type="formInDocument">prior of Typtre</orgName>
-               <note type="charter">MS. Ch. Essex 10</note>
+               
             </org>
             <org>
                <orgName type="formInDocument">priory of Priterwell</orgName>
+               <orgName type="formInDocument">Prittlewell</orgName>
+               <note type="charter">MS. Ch. Essex 220</note>
                <note type="charter">MS. Ch. Essex 221</note>
             </org>
             <org>  
@@ -2394,8 +2426,7 @@
             </org>
             
             <org>
-               <orgName type="formInDocument">Prittlewell</orgName>
-               <note type="charter">MS. Ch. Essex 220</note>
+              
             </org>
             <org>
                <orgName type="formInDocument">St. Leonard</orgName>
@@ -2409,12 +2440,6 @@
             </org>
         
         
-            <org>
-               <orgName type="formInDocument">Typpetre</orgName>
-               <orgName type="formInDocument">Typtree</orgName>
-               <note type="charter">MS. Rolls. Essex 18</note>
-               <note type="charter">MS. Ch. Essex 28</note>
-            </org>
             <org>
                   <orgName type="formInDocument">grayes inne</orgName>
                   <note type="charter">MS. Ch. Essex 187</note>
