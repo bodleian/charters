@@ -49,21 +49,23 @@
                   <idno type="shelfmark">MS. D. D. Ch. Ch. O. 978</idno>
                </msIdentifier>
                <msContents>
+                  <!--CHK: should this be 186 (note) as 186 itself is from a cartulary; currently the note information entered here; chk also DATE, Nich. de Weston died in 1271.-->
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p><!-- insert Salter text here, including date, and add necessary markup --></p>
+                     <p><persName><forename>Emma</forename>, widow of <persName><forename>Nicholas</forename> de <surname>Weston</surname></persName></persName>, quitclaims to <orgName>Oseney</orgName> all the tenements in <placeName>Adderbury</placeName>, which her late husband sold to Oseney for 225 marks, of which she received 100 marks as her <hi rend="italic">dos</hi>. 
+                     Witnesses, <persName>mag. <forename>Rob.</forename> <surname>Maynard</surname></persName>, <persName><forename>Nich.</forename> de <surname>Kingeston</surname> mayor of Oxford</persName>, <persName><forename>Galf.</forename> de <surname>Hengsey</surname></persName>, <persName><forename>Ioh.</forename> <surname>Sewy</surname></persName>, <persName><forename>Ioh.</forename> de <surname>Sibbeford</surname></persName>, <persName><forename>Lucas</forename> le <surname>Naper</surname></persName>, <persName><forename>Will.</forename> de <surname>Withille</surname></persName>, <persName><forename>Will.</forename> de <surname>Pirie</surname></persName>.
+                     <origDate when="1271" precision="low">c. 1271</origDate></p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet"> 
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
                   <authDesc>
                      <seal>
-                        <p><!-- insert Salter text here if relevant, otherwise delete --></p>
+                        <p>The seal of mag. Ioh., rector of Stanton, official of the archdeacon. </p>
                      </seal>
                   </authDesc>
                </physDesc>
@@ -72,9 +74,9 @@
                      <recordHist>
                         <source>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
-                                <citedRange unit="page" from="" to=""/>
+                                <citedRange unit="page" from="6" to="6">6</citedRange>
                            </bibl>
-                           <bibl>H. E. Salter, <title>Cartulary of Oseney Abbey</title>, 6 vols. (1929-1936), <citedRange unit="volume" from="XXX" to="XXX">XXX</citedRange>, <citedRange unit="entry" from="186" to="186">no. 186</citedRange> (<citedRange unit="page" from="XXX" to="XXX">pp. XXX-XXX</citedRange>)</bibl>
+                           <bibl>H. E. Salter, <title>Cartulary of Oseney Abbey</title>, 6 vols. (1929-1936), <citedRange unit="volume" from="4" to="4">4</citedRange>, <citedRange unit="entry" from="186" to="186">no. 186</citedRange> (<citedRange unit="page" from="250" to="250">p. 250 fn. 1</citedRange>)</bibl>
                         </source>
                      </recordHist>
                   </adminInfo>

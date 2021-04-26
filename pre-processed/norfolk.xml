@@ -20,7 +20,7 @@
       <!-- 798 documents -->
       <body>
          <div type="county"><head>NORFOLK</head>
-         <div type="charter"><p><pb n="166"/> ACLE. A <!--CHK, unclear: lean--> from <persName><forename>Thomas</forename>, duke of <placeName type="dukedom" role="duke">Norfolk</placeName></persName>, 
+         <div type="charter"><p><pb n="166"/> ACLE. A <!--CHK, unclear: lean--> from <persName><forename>Thomas</forename>, duke of <placeName type="duchy" role="duke">Norfolk</placeName></persName>, 
             <persName>sir <forename>Roger</forename> <surname>Towneshend</surname>, kt.</persName>, 
             <persName>sir <forename>Wm.</forename> <surname>Paston</surname>, kt.</persName>, and others, ...<!--CHK, unclear: notifying--> the 
             appointment of <persName><forename>Austen</forename> <surname>Arneyop</surname> of <placeName role="person">Acle</placeName></persName>, 
@@ -28,11 +28,11 @@
             by <placeName>Acle</placeName> market, in the co. of Norfolk. Dated 4th October, <date when="1529">1529</date>. 
             <bibl type="shelfmark">MS. Ch. Norfolk 2</bibl>.</p></div>
             
-            <div type="charter"><p> PLUMSTEAD. 
+            <div type="charter"><p> <placeName>PLUMSTEAD</placeName>. 
                <persName><forename>Richard</forename> <surname>Gernun</surname> of <placeName role="person">Blafeld</placeName></persName>,
                with the assent of <persName><forename>Matilda</forename> his mother</persName>, grants to 
                <persName><forename>John</forename>, son of <persName><forename>William</forename> de <surname>Plumsted</surname></persName></persName>, 
-               the half of his turbary at the west part of the <placeName>Haiesbrigge</placeName>; paying annually 1d. for all
+               the half of his turbary at the west part of the <placeName type="minor">Haiesbrigge</placeName>; paying annually 1d. for all
                services. For this donation the said John gave to him 4s. of silver. 
                (<date notBefore="1176" notAfter="1180" precision="low">c. 1176-80</date>.) 
                <bibl type="shelfmark">MS. Ch. Norfolk 1</bibl>.</p></div>
@@ -74,10 +74,10 @@
                [<date>44 Edw. III</date>], containing a grant of the manor of <placeName type="manor">Wyghton</placeName>
                with the hundred of <placeName type="hundred">Northgreneho</placeName> and the manors of 
                <placeName type="manor">Aylesham</placeName>  and <placeName type="manor">Fakenhamdam</placeName> in co.
-               Norfolk, the manor of <placeName type="manor">Saham</placeName> in county Cambridge, the manor of 
-               <placeName type="manor">Whitgift</placeName>, co. York, manor of 
-               <placeName type="manor">Berton Bristol</placeName>, co. Gloster, manor of 
-               <placeName type="manor"> Sevenhampton</placeName> and <placeName type="manor">Stratton</placeName>, co. Wiltes,
+               Norfolk, the manor of <placeName type="manor">Saham in county Cambridge</placeName>, the manor of 
+               <placeName type="manor">Whitgift, co. York</placeName>, manor of 
+               <placeName type="manor">Berton Bristol, co. Gloster</placeName>, manor of 
+               <placeName type="manor">Sevenhampton</placeName> and <placeName type="manor">Stratton, co. Wiltes</placeName>,
                to <persName><forename>Robert</forename> de <surname>Knolles</surname></persName> and
                <persName><forename>Constance</forename> his wife</persName> for the whole term of their lives at an
                annual rent of £745 7s. The acquittance is given to the prior and <orgName>convent of Ely</orgName> for
@@ -101,7 +101,7 @@
             <p> BACTON. A deposition of Waryn Kyng and 10 others made "the nexst day after the
                Assencion of our Lorde God, <date>19 Ed. IV</date>, that they with many other, at the
                instauns and request of <persName><forename>Henry</forename> <surname>Waryns</surname> of <placeName role="person">Paston</placeName></persName>, 
-               aperyd at the manere of <placeName type="manor">Huntyugfeld</placeName> in <placeName>Bakton</placeName>, and
+               aperyd at the manere of <placeName type="manor">Huntyngfeld</placeName> in <placeName>Bakton</placeName>, and
                there and than <persName><forename>Symon</forename> de <surname>Gunore</surname></persName>, be fors of a dede
                with a letter of attornye to him made as he seid by <persName><forename>Agnes</forename> <surname>Paston</surname></persName>, 
                and there shewed, delyvered seizin of and in the halfpele of the foresaid manor of 
@@ -264,7 +264,7 @@
             <p> BEESTON, SPROWSTON, SPIXWORTH, and CROSTWYCKE. 
                <persName><forename>James</forename> <surname>Nunne</surname> of <placeName role="person">Beeston</placeName></persName>, 
                in performance of a certain agreement made between himself and 
-               <persName><forename>Robert</forename> <surname>Partriche</surname> of <placeName role="person">Great Fynberow</placeName>, co. Suff.</persName>, 
+               <persName><forename>Robert</forename> <surname>Partriche</surname> of <placeName role="person">Great Fynberow, co. Suff.</placeName></persName>, 
                dated 27 March, <date>6 Eliz.</date>, sells the whole of the capital messuage in
                <placeName>Beeston</placeName>, lately <persName><forename>Simon</forename> <surname>Nunne</surname></persName>'s 
                his father, and also all other lands, &amp;c. in <placeName>Beeston</placeName>,
@@ -337,9 +337,9 @@
          </div>
             
          <div type="charter">
-            <p> <persName><forename>William</forename> <surname>Daubeneye</surname>, lord of the manor of North <placeName role="lord" type="manor">Birlyngham</placeName></persName>, 
+            <p> <persName><forename>William</forename> <surname>Daubeneye</surname>, lord of the manor of <placeName role="lord" type="manor">North Birlyngham</placeName></persName>, 
                sells <pb n="170"/> to <persName><forename>William</forename> <surname>Rond</surname></persName> of the same
-               place, 1½ rood of land in <placeName>Smallescroft</placeName>, paying annually to
+               place, 1½ rood of land in <placeName type="minor">Smallescroft</placeName>, paying annually to
                the said <persName><forename>William</forename> <surname>Daubeneye</surname></persName> 2d. 
                Dated at <placeName role="date">North Birlingham</placeName>, 27 October, <date>8 Hen. VI</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 24</bibl>. </p>
@@ -364,7 +364,7 @@
          <div type="charter">
             <p> BURLINGHAM (South). An obligation on the part of <persName><forename>John</forename>, the prior</persName>,
                and <orgName>convent of Weybridge</orgName>, to perform mass and obit, for 
-               <persName><forename>Alice</forename> called of <placeName role="person">Stoke</placeName> of Norwich</persName>, 
+               <persName><forename>Alice</forename> called of <placeName role="person">Stoke of Norwich</placeName></persName>, 
                and others, for her benefaction of lands, rents, and tenements in <placeName>Southbyrlyngham</placeName>, after
                her death, under a penalty of 10 marks, payable to the prior and <orgName>convent of the Holy Trinity, Norwich</orgName>. 
                Dated at <placeName role="date">Weybridge</placeName>, 23 May, <date when="1379">1379</date>. 
@@ -483,10 +483,10 @@
          </div>
             
          <div type="charter">
-            <p> BOYAND (manor) and FRITTON. Indenture made ... <date>Q. Elizabeth</date>, by which
+            <p> BOYLAND (manor) and FRITTON. Indenture made ... <date>Q. Elizabeth</date>, by which
                <persName><forename>Nicholas</forename> <surname>Harrys</surname></persName> demises
                to <persName><forename>Charles</forename> <surname>Harrys</surname></persName> the manors of 
-               <placeName type="manor">Boxland</placeName> and <placeName type="manor">Fritton</placeName> in the county o
+               <placeName type="manor">Boxland</placeName> and <placeName type="manor">Fritton</placeName> in the county of
                Norfolk for 40 years at £160 rent. 
                <bibl type="shelfmark">MS. Ch. Norfolk 38</bibl>. </p>
          </div>
@@ -607,7 +607,7 @@
          </div>
             
          <div type="charter">
-            <p> Memorandum that at a court held at <placeName>Cantley Uphall</placeName> the Wednesday in Easter Week, 6
+            <p> Memorandum that at a court held at <placeName type="manor">Cantley Uphall</placeName> the Wednesday in Easter Week, 6
                April, <date when="1670">1670</date>, <persName><forename>Robert</forename> <surname>Peirce</surname></persName> 
                was admitted as tenant of the manor for the three acres of land in <placeName>Cantley</placeName> surrendered
                to the lord, for the use of the said 
@@ -788,7 +788,7 @@
                <persName><forename>Nicholas</forename> <surname>Crabbe</surname> of <placeName role="person">Causton</placeName></persName> 
                demise to <persName><forename>Edmund</forename> <surname>Elman</surname></persName> and
                <persName><forename>Edmund</forename> <surname>Bulman</surname> of <placeName role="person">Causton</placeName></persName>,
-               a messuage in <placeName>Causton</placeName>, also an inclosure in <placeName>Fallyngate</placeName>, 
+               a messuage in <placeName>Causton</placeName>, also an inclosure in <placeName type="street">Fallyngate</placeName>, 
                and two pieces of land there lying in fields called '<placeName type="minor">Boywood fylde</placeName>' and
                <placeName type="minor">Westfeeld</placeName>. Dated at <placeName role="date">Causton</placeName>, 20 Sept.,
                <date>28 Hen. VIII</date>. 
@@ -866,7 +866,7 @@
                the said sir William de Wylughby, kt., attorns to 
                <persName><forename>William</forename> de <surname>Huntingfeld</surname></persName> and others of and in 
                the reversion of the manors and advowsons aforesaid.
-               Dated at <placeName role="date">Eresby</placeName>, co. Lincoln, the Tuesday next after the feast of 
+               Dated at <placeName role="date">Eresby, co. Lincoln</placeName>, the Tuesday next after the feast of 
                St. Dunstan, <date>47 Ed. III</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 71</bibl>. </p>
          </div>
@@ -930,13 +930,13 @@
          </div>
             
          <div type="charter">
-            <p> CROUCHESTOKE, SHOTTESHAM, GRENESVYL, BLACWRTH, and CASTRE. 
+            <p> CROUCHESTOKE, SHOTTESHAM, GRENESVYL, BLACWRTH, and CASTRE. <!--should all these be marked manors?-->
                <persName><forename>Richard</forename>, son of <persName><forename>Simon</forename> of <surname>Quathefeud</surname></persName></persName>, grants to 
                <persName><forename>John</forename>, son of <persName><forename>Oliver</forename> de <surname>Vaux</surname></persName></persName>, 
                for his homage and service and 110 marks sterling, the whole of his tenement with the capital messuage rents,
                customs, &amp;c., to the same belonging, in <placeName>Cruchestok</placeName>,
                <placeName>Stotesham</placeName>, <placeName>Grenesvyl</placeName>,
-               <placeName>Blacwrth</placeName>, and <placeName>Castre</placeName>, paying annually to the said Richard and
+               <placeName type="manor">Blacwrth</placeName>, and <placeName>Castre</placeName>, paying annually to the said Richard and
                his heirs the 4th part of one knight's fee. (<date when="1250" precision="low">c. 1250</date>.) 
                <bibl type="shelfmark">MS. Ch. Norfolk 77</bibl>. </p>
          </div>
@@ -975,7 +975,7 @@
             <p> DEOPHAM. Letter of <persName><forename>John</forename>, the prior</persName>, and 
                <orgName>convent of Ch. Ch., Canterbury</orgName>, setting forth that they have received to perpetual farm
                from the prior and <orgName>convent of Norwich</orgName>, all tithes of the whole corn, &amp;c. which 
-               they have in the village of <placeName>Depbam</placeName>; paying annually to them 24s. within the octave of
+               they have in the village of <placeName>Depham</placeName>; paying annually to them 24s. within the octave of
                Easter. Dated <date when="1227">1227</date>, month of August. 
                [Charter written temp. Ed. I.] 
                <bibl type="shelfmark">MS. Ch. Norfolk 261</bibl>. </p>
@@ -984,7 +984,7 @@
             <!--annotation: Dereham, abbey of. See Berton, p. 169. Thorpe, p. 222.-->
             
          <div type="charter">
-            <p> DUDELINGTON. Appropriation of the church of <placeName>Dudelingtone</placeName>, Norwich diocese, to the
+            <p> DUDELINGTON. Appropriation of the church of <placeName>Dudelingtone, Norwich diocese</placeName>, to the
                abbess and <orgName>convent of Marham</orgName>, and ordination of the vicarage, by 
                <persName><forename>John</forename>, bishop of <placeName type="diocese" role="bishop">Norwich</placeName></persName>, dated at <placeName role="date">Terling</placeName>, 13 kl. Jan. 1302. 
                Acceptance by <persName>abbess <forename>Mary</forename></persName> and the convent dated at
@@ -1014,7 +1014,7 @@
                Dated 3 kl. May, <date when="1378">1378</date>.
                <note type="seal">[With 6 seals, including armorial seal of 
                   <persName>[<forename>Rob.</forename>] "de <surname>Wilughbi</surname> domini de 
-                     <placeName role="person">Erysby</placeName>"</persName>, besides one lost.]</note> 
+                     <placeName type="manor" role="person">Erysby</placeName>"</persName>, besides one lost.]</note> 
                <bibl type="shelfmark">MS. Ch. Norfolk 21</bibl>. </p>
          </div>
             
@@ -1061,7 +1061,7 @@
             
          <div type="charter">
             <p> EDGEFELD, WALCOTE, and WHETACRE. 
-               <persName><forename>Robert</forename> de <surname>Wylughbi</surname>, lord of <placeName role="lord">Eresby</placeName></persName>, 
+               <persName><forename>Robert</forename> de <surname>Wylughbi</surname>, lord of <placeName type="manor" role="lord">Eresby</placeName></persName>, 
                appoints <persName><forename>Henry</forename> <surname>Les [Ynglam ?]</surname></persName> ... 
                his attorney to receive in his name seisin of the manors of <placeName type="manor">Eggefeld</placeName>,
                <placeName type="manor">Walcote</placeName>, and <placeName type="manor">Whetacre</placeName>. 
@@ -1294,36 +1294,36 @@
              
          <div type="charter">
             <p> FREETHORPE. Extract from the roll of the manor court held the Tuesday next after the
-               feast of St. Thomas, <date>8 Ed. IV</date>, for <placeName>Frethorp</placeName> and
-               <placeName>Rothenhall</placeName>. 
+               feast of St. Thomas, <date>8 Ed. IV</date>, for <placeName type="manor">Frethorp</placeName> and
+               <placeName type="manor">Rothenhall</placeName>. 
                [Grant to <persName><forename>John</forename> <surname>Kippyng</surname></persName>.] 
                <bibl type="shelfmark">MS. Ch. Norfolk 110</bibl>. </p>
          </div>
             
             <div type="charter">
                <p> Extract from the manor court roll, held the Thursday in the feast of the Annunciation, 
-                  <date>5 Hen. VII</date>, for <placeName>Frethorp</placeName> and <placeName>Rothenhall</placeName>.
+                  <date>5 Hen. VII</date>, for <placeName type="manor">Frethorp</placeName> and <placeName type="manor">Rothenhall</placeName>.
                   [Grant to <persName><forename>John</forename> <surname>Kippyng</surname></persName> 
                   <bibl type="shelfmark">MS. Ch. Norfolk 111</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>  Extract from the manor court roll held the Friday after the feast of All Saints, 
-                  <date>6 Hen. VIII</date>, for <placeName>Frethorp</placeName> and <placeName>Rothenhall</placeName>.
+                  <date>6 Hen. VIII</date>, for <placeName type="manor">Frethorp</placeName> and <placeName type="manor">Rothenhall</placeName>.
                [1st court of <persName><forename>Edward</forename> <surname>Clere</surname>, esq.</persName>] 
                   <bibl type="shelfmark">MS. Ch. Norfolk 112</bibl>. </p>
          </div>
             
          <div type="charter">
             <p> Extract from the manor court roll held the Thursday after the feast of St. Faith,
-               virgin, <date>2 Q. Eliz.</date>, for <placeName>Rothenhall</placeName> and <placeName>Frethorp</placeName>. 
+               virgin, <date>2 Q. Eliz.</date>, for <placeName type="manor">Rothenhall</placeName> and <placeName type="manor">Frethorp</placeName>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 113</bibl></p>
          </div>
             
          <div type="charter">
             <p> <pb n="180"/> Extract from the manor court roll held the Wednesday on the morrow of the Annunciation,
-               <date>20 Q. Elizabeth</date>, for <placeName>Molton alias Meughton hall</placeName> 
-               with <placeName>Rothenhall</placeName> in <placeName>Frethorp</placeName>. 
+               <date>20 Q. Elizabeth</date>, for <placeName type="manor">Molton alias Meughton hall</placeName> 
+               with <placeName type="manor">Rothenhall</placeName> in <placeName>Frethorp</placeName>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 114</bibl>. </p>
          </div>
             
@@ -1334,7 +1334,7 @@
             
          <div type="charter">
             <p> Extract from Court roll dated the Thursday, 14 October, <date>38 Eliz.</date>, for 
-               <placeName>Moulton alias Moughton</placeName> hall with <placeName>Rothenhall</placeName> in <placeName>Frethorpe</placeName>. 
+               <placeName>Moulton alias Moughton</placeName> hall with <placeName type="manor">Rothenhall</placeName> in <placeName>Frethorpe</placeName>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 116</bibl>. </p>
          </div>
             
@@ -1501,7 +1501,7 @@
             
          <div type="charter">
             <p> GATELEY. Indenture made the last day of November, <date>20 Hen. VIII</date>, between
-               <persName>sir <forename>John</forename> <surname>Bourchere</surname>, kt., lord <placeName role="lord">Barneys</placeName></persName>, of the
+               <persName>sir <forename>John</forename> <surname>Bourchere</surname>, kt., lord Barneys</persName>, of the
                one part, and <persName><forename>Edmond</forename> <surname>Whyte</surname>, esq.</persName>, of
                the other, by which the said lord demises to the said Whyte his manor of 
                <placeName type="manor">Gately</placeName> for 40 years, paying annually £12 3s. 4d. 
@@ -1511,7 +1511,7 @@
          <div type="charter">
             <p> Confirmation by <persName><forename>Edmund</forename> <surname>Knyvett</surname>, esq.</persName>, and 
                <persName><forename>Jane</forename> his wife</persName>, daughter of 
-               <persName>sir <forename>John</forename> <surname>Bourgchier</surname>, kt., lord <placeName role="lord">Barners</placeName></persName>, 
+               <persName>sir <forename>John</forename> <surname>Bourgchier</surname>, kt., lord Barners</persName>, 
                of a lease granted by the said lord Barners to 
                <persName><forename>Edmond</forename> <surname>Whyte</surname></persName> of the manor of 
                <placeName type="manor">Gateley</placeName>, co. Norfolk, for 40 years at an annual rent of £12 3s. 4d. 
@@ -1532,14 +1532,14 @@
                <pb n="182"/> GAYWOOD. Indenture made 7 October, <date>13 Charles II</date>, by which
                <persName><forename>George</forename> <surname>Crofts</surname>, D.D., dean</persName>, and 
                the <orgName>chapter of the cathedral church of Norwich</orgName>, demise
-               to <persName><forename>Edmund</forename> <surname>Boldero</surname> of <placeName role="person">Hacksteed</placeName>, Suffolk, D.D.</persName>, 
+               to <persName><forename>Edmund</forename> <surname>Boldero</surname> of <placeName role="person">Hacksteed, Suffolk</placeName>, D.D.</persName>, 
                50 acres of pasture ground within <placeName>Gaywood</placeName>, next <placeName>King's Lynn</placeName>,
                for 21 years, at an annual rent of £4 13s. 8d. and certain customs. 
                <bibl type="shelfmark">MS. Ch. Norfolk 121</bibl>. </p>
          </div>
             
          <div type="charter">
-            <p> GOODERSTONE. Composition between the abbess and <orgName>convent of Denny</orgName>, Cambridgeshire,
+            <p> GOODERSTONE. Composition between the abbess and <orgName>convent of Denny, Cambridgeshire</orgName>,
                and the vicar of the church of <placeName role="vicar">Goderestone</placeName>, Norwich diocese, at the
                instance of <persName><forename>Thomas</forename>, bishop of <placeName type="diocese" role="bishop">Norwich</placeName></persName>, 
                to whom the differences between the said parties had been referred. 
@@ -1669,7 +1669,7 @@
          </div>
             
          <div type="charter">
-            <p> "<persName><forename>William</forename> <surname>Markaunt</surname> of <placeName role="person">Gryston</placeName></persName> 
+            <p> <persName><forename>William</forename> <surname>Markaunt</surname> of <placeName role="person">Gryston</placeName></persName> 
                and others grant to <persName><forename>William</forename> <surname>Bettys</surname>, clerk of <placeName role="person">Thomeston</placeName></persName>, 
                and <persName><forename>John</forename> <surname>Heydon</surname> of <placeName role="person">Bacunsthorp</placeName></persName>, 
                one piece of land in <placeName>Gryston</placeName>. 
@@ -1873,7 +1873,7 @@
          </div>
             
          <div type="charter">
-            <p> <persName><forename>Richard</forename> <surname>Bowne</surname> of <placeName role="person">Martyn</placeName>, co. Norfolk</persName>, 
+            <p> <persName><forename>Richard</forename> <surname>Bowne</surname> of <placeName role="person">Martyn, co. Norfolk</placeName></persName>, 
                grants to <persName><forename>Peter</forename> <surname>Mynnes</surname> of <placeName role="person">Gryston</placeName></persName>, 
                and <persName><forename>Agnes</forename> his wife</persName>, certain land in <placeName>Gryston</placeName>.
                Dated 1 October, <date>38 Q. Eliz.</date> 
@@ -2117,8 +2117,8 @@
                <persName><forename>Henry</forename> <surname>Jernyngham</surname></persName>,
                <persName><forename>William</forename> <surname>Rugge</surname></persName>, and
                <persName><forename>Thomas</forename> <surname>Wyndham</surname>, esq.</persName>, all that capital messuage
-               called '<placeName type="minor">Heathelde Hall</placeName>' in <placeName>Heathelde</placeName>, 
-               with all lands, tenements, woods, &amp;c. belonging ; allso all lands, &amp;c. called 
+               called '<placeName type="minor">Heathelde Hall</placeName>' in Heathelde, 
+               with all lands, tenements, woods, &amp;c. belonging ; also all lands, &amp;c. called 
                '<placeName type="minor">Twayteholde</placeName>' in <placeName>Heathelde</placeName>; also all
                the manor of <placeName type="manor">Heathelde alias Heathfelde</placeName>; with lands, &amp;c. thereto
                belonging. To hold the same to such uses as shall be declared in the last will of
@@ -2154,7 +2154,7 @@
          </div>
             
          <div type="charter">
-            <p> HELLESDOW. Foundation of a chantry within the church of <placeName>Heylesdon</placeName>, Norwich diocese,
+            <p> HELLESDON. Foundation of a chantry within the church of <placeName>Heylesdon, Norwich diocese</placeName>,
                by <persName><forename>John</forename> <surname>Chircheman</surname>, citizen of <placeName role="person">London</placeName></persName>, 
                for the souls of <persName><forename>John</forename> de <surname>Heylesdon</surname></persName> and 
                <persName><forename>Joan</forename> his wife</persName>, 
@@ -2270,7 +2270,7 @@
                <persName><forename>Andrew</forename> de <surname>Hengham</surname></persName> 
                quitclaims to <persName><forename>William</forename>, son of sir <persName><forename>John</forename> le <surname>Mareschal</surname></persName></persName> 
                his lord, all right in all tenements which the said William had acquired of him in
-               <placeName>Hengham</placeName> and <placeName>Hakeford</placeName>. 
+               <placeName>Hengham</placeName>Hacksteed and <placeName>Hakeford</placeName>. 
                Dated at <placeName role="date">Hengham</placeName> the Monday on the feast of St. Laurence, <date>27 Ed. I</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 168</bibl> .</p>
          </div>
@@ -2288,7 +2288,7 @@
                <persName>sir <forename>William</forename> de <surname>Berghe</surname>, parson of the church
                of Cauntelee</persName>, 
                and <persName><forename>John</forename> de <surname>Congham</surname></persName>, his manor of 
-               '<placeName type="manor">Bakonesthorpahall' in Hengham</placeName>, which he acquired
+               <placeName type="manor">'Bakonesthorpahall' in Hengham</placeName>, which he acquired
                from <persName><forename>Edmund</forename> de <surname>Bakonesthorpe</surname>, knt.</persName>, 
                and <persName><forename>James</forename> his son</persName>.
                Dated at <placeName role="date">Hengham</placeName> the Saturday on the feast of St. Matthew, apostle, <date>27 Ed. III</date>. 
@@ -2348,8 +2348,8 @@
             <p> <persName><forename>John</forename> <surname>Noth</surname> of <placeName role="person">Hengham</placeName></persName>, 
                <persName><forename>Robert</forename> <surname>Foster</surname> of <placeName role="person">Corston</placeName></persName>, 
                and others, deliver and confirm to 
-               <persName><forename>Richard</forename>, duke of <placeName role="duke" type="dukedom">Gloucester</placeName></persName>, 
-               <persName><forename>Thomas</forename>, marquis of <placeName role="marquis" type="march">Dorset</placeName></persName>, 
+               <persName><forename>Richard</forename>, duke of <placeName role="duke" type="duchy">Gloucester</placeName></persName>, 
+               <persName><forename>Thomas</forename>, marquis of <placeName role="marquess" type="march">Dorset</placeName></persName>, 
                <persName>sir <forename>Henry</forename> <surname>Lovell</surname>, kt., lord De <placeName role="lord">Morley</placeName></persName>, 
                and others, a messuage or inn called '<placeName type="minor">le Hert</placeName>' in
                <placeName>Hengham</placeName> and an alder bed called '<placeName type="minor">Ronhagh</placeName>' in
@@ -2360,7 +2360,7 @@
             
             <div type="charter">
                <p><persName><forename>John</forename> <surname>Ledys</surname> of <placeName role="person">Hengham</placeName></persName> 
-                  demises and confirms to <persName><forename>Margaret</forename> <placeName>Cause</placeName> of <placeName role="person">Hengham</placeName></persName>, ]
+                  demises and confirms to <persName><forename>Margaret</forename> <surname>Cause</surname> of <placeName role="person">Hengham</placeName></persName>, ]
                   and others, a capital part of a messuage, and a parcel of land in <placeName>Hengham</placeName>.
                Dated at <placeName role="date">Hengham</placeName>, 20 May, <date>20 Hen. VII</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 178</bibl>. </p>
@@ -2376,7 +2376,7 @@
          </div>
             
          <div type="charter">
-            <p> <pb n="190"/> HOLT and CLEY. "<persName><forename>William</forename> de <surname>Ros</surname> of <placeName role="person">Hamelak</placeName></persName> 
+            <p> <pb n="190"/> HOLT and CLEY. <persName><forename>William</forename> de <surname>Ros</surname> of <placeName role="person">Hamelak</placeName></persName> 
                appoints <persName>sir <forename>Aleyn</forename> de <surname>Weybredd</surname></persName> and 
                <persName>sir <forename>James</forename> de <surname>Houton</surname></persName> to arrange matters between
                <persName>sir <forename>Thomas</forename> de <surname>Verdoun</surname></persName> and
@@ -2421,7 +2421,7 @@
          </div>
             
          <div type="charter">
-            <p> HOUGHTON. <persName><forename>John</forename>, [son of <persName><forename>John</forename> de <surname>Dreux</surname>,] duke of <placeName role="duke" type="dukedom">Brittany</placeName> and earl of <placeName role="earl" type="earldom">Richmond</placeName></persName></persName>,
+            <p> HOUGHTON. <persName><forename>John</forename>, [son of <persName><forename>John</forename> de <surname>Dreux</surname>,] duke of <placeName role="duke" type="duchy">Brittany</placeName> and earl of <placeName role="earl" type="earldom">Richmond</placeName></persName></persName>,
                confirms to the chantry within the church of <placeName role="church">Houton</placeName>, the gift of 
                <persName>lady <forename>Mary</forename> de <surname>Nevill</surname></persName>,
                of a ... <!--CHK, unclear: a falssvyel??--> land in <placeName>Suth Pykenham</placeName> reciting her foundation deed for two chaplains. 
@@ -2749,7 +2749,7 @@
          <div type="charter">
             <p> A petition from the towns of <placeName>Wygenhale</placeName>, <placeName>Ilsyngton</placeName>, 
                <placeName>Tilneye</placeName>, <placeName>Clenchwarton</placeName>, <placeName>Watlyngton</placeName>,
-               <placeName>Roungton</placeName>, <placeName>Holme</placeName>, <placeName>Secchith</placeName>, and
+               <placeName>Roungton Holme</placeName>, <placeName>Secchith</placeName>, and
                <placeName>Westwynch</placeName>, suffering from great floods against an act of parliament designed to be
                procured by the town of <placeName>Lenn</placeName> respecting the ditches for draining; 
                Temp. <date>Hen. VI</date>.
@@ -2791,7 +2791,7 @@
                <persName><forename>William</forename> <surname>Vyneor</surname></persName> and the land of the heirs of
                <persName><forename>Richard</forename> <surname>Howton</surname></persName> on the west, and extends
                itself in length to the bank near '<placeName type="minor">le Southbrecaske</placeName>' towards the south
-               as far as the <placeName>Flete</placeName> formerly 
+               as far as the <placeName type="minor">Flete</placeName> formerly 
                <persName>sir <forename>John</forename> de <surname>Wygenhale</surname></persName>'s, and 
                <persName><forename>Mathew</forename> <surname>Herlewyn</surname></persName>'s towards the north.
                Dated at <placeName>Bishop's Lenn</placeName> the Monday next after the feast of the circumcision of our
@@ -2825,7 +2825,7 @@
                <orgName>convent of the cathedral church of Norwich</orgName> in a cause before 
                <persName><forename>Philip</forename>, bp. of <placeName type="diocese" role="bishop">Ely</placeName></persName>, 
                between them and the parishioners of <placeName>Lenn</placeName>, concerning the 
-               <placeName>church of St. Margaret</placeName> and the <placeName>chapel of St. James and St. Nicholas, Lenn</placeName>. 
+               <orgName>church of St. Margaret</orgName> and the <placeName>chapel of St. James</placeName> and <placeName>St. Nicholas, Lenn</placeName>. 
                Dated 18 October, <date when="1427">1427</date>. 
                <note type="seal">[Seal broken.]</note> 
                <bibl type="shelfmark">MS. Ch. Norfolk 289</bibl>. </p>
@@ -2870,7 +2870,7 @@
                <persName><forename>Joan</forename> his wife</persName>, in consideration of the receipt of £600, convey
                land, &amp;c. in <placeName>Mendham</placeName>, <placeName>Mettfeld</placeName>, and
                <placeName>Harleston</placeName>, with the advowson of the church of Mendham, and the manor and advowson of
-               <placeName>Wickham Skeyth</placeName>, to <persName><forename>Ed.</forename> <surname>Huggons</surname>, gent.</persName>, 
+               <placeName type="manor">Wickham Skeyth</placeName>, to <persName><forename>Ed.</forename> <surname>Huggons</surname>, gent.</persName>, 
                <persName><forename>Thomas</forename> <surname>Cordell</surname>, gent.</persName>, 
                <persName><forename>Robt.</forename> <surname>Heath</surname>, gent.</persName>, and
                <persName><forename>John</forename> <surname>Sulyard</surname></persName>. 
@@ -2924,14 +2924,14 @@
             <p> MORLEY, DEPEHAM, ATTYLBURGHE, BESTHORP, &amp;c. 
                <persName>Sir <forename>James</forename> <surname>Hubert</surname>, kt.</persName>, and 
                <persName>sir <forename>Robert</forename> <surname>Sowthewell</surname>, kt.</persName>, demise and grant 
-               to <persName><forename>Edward</forename>, duke of <placeName type="dukedom" role="duke">Buckingham</placeName></persName>, 
+               to <persName><forename>Edward</forename>, duke of <placeName type="duchy" role="duke">Buckingham</placeName></persName>, 
                and others, their manors of <placeName type="manor">Morley</placeName> and 
                <placeName type="manor">Depeham</placeName>, with the advowsons of the churches, chantries,
                &amp;c. in <placeName>Depeham</placeName>, <placeName>Morley</placeName>, <placeName>Attylburghe</placeName>,
                <placeName>Besthorp</placeName>, and other villages adjacent; also the above 
                <persName>sir <forename>James</forename> <surname>Hubert</surname>, kt.</persName>, grants to the said
                Edward, duke of Buckingham, and others an annual rent of £6 13s. 4d. issuing out of the manor and lands of
-               <placeName>Tilney</placeName> and <placeName>Walpoole</placeName>. 
+               <placeName type="manor">Tilney</placeName> and <placeName type="manor">Walpoole</placeName>. 
                Dated 28 October, <date>2 Hen. VIII</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 257</bibl>. </p>
          </div>
@@ -2943,7 +2943,7 @@
                <placeName>chapel of St. Peter</placeName> annexed, to the use of the warden and chaplains of the
                <orgName>college chantry of Morle</orgName>, saving an annual pension of 16s. to the bp. and his successors.
                [This deed is not sealed by the prior and chapter, nor dated, 
-               but has the <note type="seal">bishop's seal, broken</note> attached.] 
+               but has the <note type="seal">bishop's seal, broken</note> attached.]
                [<date notBefore="1358" notAfter="1368">1358-1368</date>] (cf. Blomefield.)
                <bibl type="shelfmark">MS. Ch. Norfolk 256</bibl>. </p>
          </div>
@@ -2993,10 +2993,10 @@
          </div>
             
          <div type="charter">
-            <p> <persName><forename>William</forename> la <surname>Zouche</surname> of <placeName role="person">Haryngvvorth</placeName></persName> 
+            <p> <persName><forename>William</forename> la <surname>Zouche</surname> of <placeName role="person">Haryngworth</placeName></persName> 
                and others appoint <persName><forename>John</forename> de <surname>Askeby</surname>, parson of the church of <placeName role="person">Spillesby</placeName></persName>, 
                and <persName><forename>John</forename> <surname>Mascall</surname></persName>, to deliver seisin to 
-               <persName>sir <forename>John</forename> de <surname>Wylughby</surname>, lord of <placeName role="lord">Eresby</placeName></persName>, 
+               <persName>sir <forename>John</forename> de <surname>Wylughby</surname>, lord of <placeName type="manor" role="lord">Eresby</placeName></persName>, 
                of all manors, lands, &amp;c., which they have by the gift and feoffment of the said sir John, in 
                <placeName>Lincoln</placeName>, Norfolk, and other counties. Dated at
                <placeName role="date">Eresby</placeName> on the feast of the Assumption B.V.M., <date>43 Ed. III</date>.
@@ -3030,8 +3030,8 @@
          </div>
             
          <div type="charter">
-            <p> Indenture of agreement between <persName><forename>Robert</forename> <surname>Radclyff</surname>, lord <placeName role="lord">Fytzwauter</placeName></persName>, and 
-               <persName><forename>Margaret</forename> <surname>Radclyff</surname>, lady <placeName role="person">Fitzwauter</placeName></persName>, 
+            <p> Indenture of agreement between <persName><forename>Robert</forename> <surname>Radclyff</surname>, lord Fytzwauter</persName>, and 
+               <persName><forename>Margaret</forename> <surname>Radclyff</surname>, lady Fitzwauter</persName>, 
                his mother, of the one part, and <persName>sir <forename>James</forename> <surname>Hubert</surname>, kt.</persName>, 
                of the other, being a marriage settlement on the marriage of 
                <persName><forename>Anne</forename> <surname>Radcliffe</surname></persName>, sister of the said lord, to
@@ -3051,8 +3051,8 @@
                dated 4 Nov, <date>26 Hen. VIII</date>, granted to the said 
                <persName><forename>John</forename> <surname>Corbett</surname></persName> and 
                <persName><forename>John</forename> his father</persName>, now deceased, their marshes called
-               <placeName>Estmersshe</placeName>, <placeName>Southmersshe</placeName>, and 
-               <placeName>Rockhammersshe</placeName>, for 30 years, paying yearly £3 6s. 8d.; the said
+               <placeName type="minor">Estmersshe</placeName>, <placeName type="minor">Southmersshe</placeName>, and 
+               <placeName type="minor">Rockhammersshe</placeName>, for 30 years, paying yearly £3 6s. 8d.; the said
                <persName><forename>John</forename> <surname>Corbett</surname></persName> by this
                indenture sells his estate and interest in the said demise to 
                <persName><forename>John</forename> <surname>Blomeffeld</surname></persName>. 
@@ -3304,7 +3304,7 @@
          <div type="charter">
             <p> Promulgation of a sentence condemning <persName><forename>John</forename>, rector of the church of <placeName role="rector">St. Peter, Mancroft, Norwich</placeName></persName>, 
                for the subtraction of an annual pension of 6 marks, at the suit of the abbot and 
-               <orgName>convent of St. Peter's</orgName>, Gloucester. 
+               <orgName>convent of St. Peter's, Gloucester</orgName>. 
                Dated at <placeName role="date">Norwich</placeName> 9 Kl. Feb., <date when="1338">1338</date>. 
                [Mutilated.]
                <bibl type="shelfmark">MS. Ch. Norfolk 324</bibl>. </p>
@@ -3351,7 +3351,7 @@
             <p> Appointment of <persName><forename>Stephen</forename> de <surname>Catton</surname></persName> by the 
                prior and <orgName>convent of St. Faith, Horsham</orgName>, as their proctor in a cause of arbitration 
                before <persName><forename>Thomas</forename> de <surname>Methelwold</surname>, official of the bishop</persName>, 
-               concerning a house in <placeName type="street">Parmentergate</placeName> in <placeName>Norwich</placeName>,
+               concerning a house in <placeName type="street">Parmentergate in Norwich</placeName>,
                between themselves and the prior and <orgName>convent of the Holy Trinity, Norwich</orgName>. 
                Dated at <placeName role="date">Horsham</placeName>, 7 May, <date when="1345">1345</date>. 
                <note type="seal">[With seal of the priory, nearly perfect.]</note>
@@ -3483,10 +3483,11 @@
          </div>
             
          <div type="charter">
-            <p> An agreement, by which, in consideration of a certain sum to be paid as well as
+            <p><supplied><placeName>Norwich</placeName></supplied> 
+               An agreement, by which, in consideration of a certain sum to be paid as well as
                certain sums owing to <persName><forename>Thomas</forename> <surname>Appleton</surname></persName>, all the
                interest of <persName><forename>William</forename> <surname>Downing</surname></persName> in
-               <placeName>Corbett's Farm</placeName>, part of the possessions of the late dissolved 
+               <placeName type="minor">Corbett's Farm</placeName>, part of the possessions of the late dissolved 
                <orgName>priory of the Holy Trinity, Norwich</orgName>, is granted to the said
                <persName><forename>Thomas</forename> <surname>Appleton</surname></persName>. 
                Dated 20 May, <date when="1589">1589</date>. 
@@ -3508,8 +3509,8 @@
                <persName><forename>John</forename> <surname>Crofte</surname>, the dean</persName>, 
                and <orgName>chapter of Norwich</orgName>, grant to farm to 
                <persName><forename>Lionell</forename> <surname>Throckmorton</surname> of <placeName role="person">Norwich</placeName>, gent.</persName>, 
-               a yard, ground, and house, called the <placeName>chapel of St. Margarett's</placeName> in the parish
-               of <placeName>All Saints, Norwich</placeName>, for 21 years, paying annually 6s. 8d. 
+               a yard, ground, and house, called the <placeName>chapel of St. Margarett's in the parish
+               of All Saints, Norwich</placeName>, for 21 years, paying annually 6s. 8d. 
                <bibl type="shelfmark">MS. Ch. Norfolk 320</bibl>. </p>
          </div>
             
@@ -3576,7 +3577,7 @@
                <persName><forename>Edward</forename> <surname>Wright</surname></persName>, and
                <persName><forename>John</forename> <surname>Parram</surname></persName>, one messuage with a croft, ten
                pieces of land, three closes, two pightells, 2 pieces of underwood, lying in <placeName>Olton</placeName>,
-               and pasture for 11 beasts in <placeName>Saltmarsche</placeName>, being a
+               and pasture for 11 beasts in <placeName type="minor">Saltmarsche</placeName>, being a
                mortgage of the said lands to secure the payment of £16 13s. 4d. 
                Dated at <placeName role="date">Olton</placeName>, 10 Aug., <date>35 Hen. VI</date>. <bibl type="shelfmark">MS. Ch. Norfolk 341</bibl>. </p>
          </div>
@@ -3676,7 +3677,7 @@
          <div type="charter">
             <p> <persName><forename>Geoffrey</forename>, son of <persName><forename>Randal</forename> de <surname>Herpele</surname></persName></persName>, 
                grants to <persName><forename>Wimar</forename>, son of <persName><forename>Umfrey</forename> of <placeName role="person">Little Plumsted</placeName></persName></persName>,
-               the whole of his land which lies in '<placeName>Scarecroft</placeName>,' at an annual rent of
+               the whole of his land which lies in '<placeName type="minor">Scarecroft</placeName>,' at an annual rent of
                three halfpence, (<date when="1200" precision="low">c. 1200</date>.) 
                <note type="seal">[With small fragment of seal.]</note>
                <bibl type="shelfmark">MS. Ch. Norfolk 360</bibl>. </p>
@@ -3700,8 +3701,8 @@
          <div type="charter">
             <p> <persName><forename>Durand</forename>, son of <persName><forename>Umfrey</forename> <surname>Ruffus</surname>, of <placeName role="person">Little Plumsted</placeName></persName></persName>, 
                grants to <persName>master <forename>Randal</forename> de <surname>Harpel</surname></persName>' the whole of
-               that land which lies between '<placeName>Blitheslond</placeName>' and the ditch with ditches
-               towards <placeName>Linholt</placeName> without his court, in the fields of 
+               that land which lies between '<placeName type="minor">Blitheslond</placeName>' and the ditch with ditches
+               towards <placeName type="minor">Linholt</placeName> without his court, in the fields of 
                <placeName>Little Plumsted</placeName> which <persName><forename>Reginald</forename> de <surname>Heding</surname></persName> 
                granted to him, paying annually for the same 16d. For this concession the said master Ranulf gave 20s. 
                (<date when="1230" precision="low">c. 1230</date>.) 
@@ -4119,7 +4120,7 @@
          <div type="charter">
             <p> <persName><forename>Roger</forename> <surname>Townesende</surname>, sergeant at law</persName>, and
                others, feoffees to the use of <persName><forename>Robert</forename> <surname>Lethum</surname></persName>,
-               demise to <persName>sir <forename>John</forename> <surname>Howard</surname>, lord de <placeName role="lord">Howard</placeName>, kt.</persName>, 
+               demise to <persName>sir <forename>John</forename> <surname>Howard</surname>, lord de Howard, kt.</persName>, 
                <persName>sir <forename>Thomas</forename> <surname>Howard</surname>, kt.</persName>, and others,
                lands and tenements called '<placeName type="minor">Chapeleyns</placeName>' and all other lands, &amp;c., 
                in the village of <placeName>Little Plumsted</placeName>. Dated 20 June, <date>21 Ed. IV</date>. 
@@ -4130,7 +4131,7 @@
             <p> <persName>Sir <forename>James</forename> <surname>Hobart</surname>, kt.</persName>, quit-claims to
                <persName><forename>Thomas</forename> <surname>Howard</surname>, earl of <placeName type="earldom" role="earl">Surrey</placeName></persName>, 
                all his right in all those lands and tenements, rents and services, with appurtenances called
-               '<placeName>Chapeleyns</placeName>,' and the lands and tenements called '<placeName>Cokes</placeName>' 
+               '<placeName type="minor">Chapeleyns</placeName>,' and the lands and tenements called '<placeName type="minor">Cokes</placeName>' 
                and the lands and tenements called '<placeName type="minor">Griggys</placeName>' in 
                <placeName>Little Plumstede</placeName>. Dated 20 Jan., <date>1 Hen. VIII</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 409</bibl>. </p>
@@ -4173,7 +4174,7 @@
          </div>
             
          <div type="charter">
-            <p> PORINGLAND. <persName><forename>Hugh</forename> <surname>Grossus</surname>, lord of <placeName role="lord">Little Benetley</placeName></persName>,
+            <p> PORINGLAND. <persName><forename>Hugh</forename> <surname>Grossus</surname>, lord of <placeName type="manor" role="lord">Little Benetley</placeName></persName>,
                grants to <persName><forename>William</forename>, son of <persName><forename>Nicholas</forename> de <surname>Schotesham</surname></persName></persName>, 
                the whole of his tenement in <placeName>Poringland</placeName>. 
                (<date when="1230" precision="low">c. 1230</date>.) 
@@ -4182,7 +4183,7 @@
             
          <div type="charter">
             <p> <persName><forename>Roger</forename>, son of <persName><forename>Clement</forename> de <surname>Poringlond</surname></persName></persName>, 
-               quit-claims to God and the church of the Blessed Mary of <orgName>Thetford</orgName> and the monks there
+               quit-claims to God and <orgName>the church of the Blessed Mary of Thetford</orgName> and the monks there
                serving God, all his right to the church of <placeName>Poringlond</placeName> with appurtenances; for which
                donation they gave the said Roger 40s. of silver. <date>14 Ed. I</date>. 
                <note type="seal">[With seal.]</note> 
@@ -4232,8 +4233,8 @@
             <p> QUOTACRE, GEDGRAVE (co. Suffolk), and HAUTBOIS. 
                <persName><forename>Ranulph</forename> <pb n="209"/> de <surname>Sondhil</surname>, chaplain</persName>,
                quit-claims to <persName>sir <forename>Thos.</forename> <forename>Roscelin</forename>, kt.</persName>, all
-               his right in the manors of <placeName>Qwotacre</placeName>, <placeName>Chattegrave</placeName>, and
-               <placeName>Haubois</placeName>, with the advowsons of the churches of St. Peter and All Saints, Qwotacre.
+               his right in the manors of <placeName type="manor">Qwotacre</placeName>, <placeName type="manor">Chattegrave</placeName>, and
+               <placeName type="manor">Haubois</placeName>, with the advowsons of the churches of <placeName>St. Peter and All Saints, Qwotacre</placeName>.
                Dated at <placeName role="date">Norwich</placeName> the Thursday after the feast of St. Dunstan, 
                <date>7 Ed. III</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 415</bibl></p>
@@ -4303,7 +4304,7 @@
          </div>
             
          <div type="charter">
-            <p> RBEEPHAM, SALL, HACKFORD, WHITWELL, CASTON, and CAWSTON. 
+            <p> REEPHAM, SALL, HACKFORD, WHITWELL, CASTON, and CAWSTON. 
                Fine levied at <placeName role="date">Westminster</placeName>, <date when="1658">1658</date>, by which
                <persName><forename>Thomas</forename> <surname>Neale</surname></persName>,
                <persName><forename>John</forename> <surname>Neale</surname></persName>,
@@ -4488,7 +4489,7 @@
                and the brethren of the <orgName>college of St. John the evangelist of Rusheworth</orgName>, reciting the
                letter of <persName><forename>Antony</forename>, bishop of <placeName role="bishop" type="diocese">Norwich</placeName></persName>, 
                dated 8 October, <date when="1342">1342</date>, appropriating to the said college the 
-               <orgName>rectory of Rusheworth</orgName>, saving to himself and heirs a pension of 4s., and
+               <placeName>rectory of Rusheworth</placeName>, saving to himself and heirs a pension of 4s., and
                the acceptance of the conditions by the said college. Dated at <placeName role="date">Russheworth</placeName>
                12 October, <date when="1342">1342</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 425</bibl>. </p>
@@ -4498,8 +4499,8 @@
             <p> Indenture dated 26 April, <date>30 Hen. VIII</date>, by which 
                <persName>master <forename>George</forename> <surname>Wyndham</surname>, clerk, master of the <orgName>college of Russhworth</orgName></persName>, 
                and the brethren there, demise to <persName><forename>Robert</forename> <surname>Hawys</surname> of <placeName role="person">Weston</placeName></persName>, 
-               all their manor called <placeName type="manor">'Brethenams,' alias Catton hall</placeName>, in
-               Brethynham, co. Norfolk, for 10 years at an annual rent of £4 13s. 4d. 
+               all their manor called <placeName type="manor">'Brethenams,' alias Catton hall, in
+               Brethynham, co. Norfolk</placeName>, for 10 years at an annual rent of £4 13s. 4d. 
                <note type="seal">[With fragment of seal.]</note>
                <bibl type="shelfmark">MS. Ch. Norfolk 426</bibl>. </p>
          </div>
@@ -4558,7 +4559,7 @@
                lying in the village of <placeName>Saham Tonye</placeName> called 
                '<placeName type="minor">Le pedders</placeName>,' and appoints 
                <persName><forename>Nicholas</forename> <surname>Palmer</surname></persName> his attorney to give seisin of
-               the same. Signed by <placeName><surname>Jenneys</surname></placeName>.
+               the same. Signed by <persName><surname>Jenneys</surname></persName>.
                Dated at <placeName role="date">Saham Tonye</placeName>, 14 June, <date>25 Hen. VIII</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 432</bibl>. </p>
          </div>
@@ -4652,7 +4653,7 @@
          </div>
             
          <div type="charter">
-            <p> Charter (signed} by which <persName><forename>Charles</forename> [<surname>Brandon</surname>], duke of <placeName role="duke" type="dukedom">Suffolk</placeName></persName>, 
+            <p> Charter (signed} by which <persName><forename>Charles</forename> [<surname>Brandon</surname>], duke of <placeName role="duke" type="duchy">Suffolk</placeName></persName>, 
                appoints <persName><forename>Edward</forename> <surname>Whight</surname>, esq.</persName>, to the office of
                seneschal of the manor of <placeName type="manor">Saxlyngham</placeName> during pleasure. Dated 9
                December, <date>7 Hen. VIII</date>. 
@@ -4682,7 +4683,7 @@
          </div>
             
          <div type="charter">
-            <p> SCOULTON. Letters patent of the official of the archdeacon of <placeName role="archdeacon" type="archdeanery">Norwich</placeName> 
+            <p> SCOULTON. Letters patent of the official of the archdeacon of <placeName role="archdeacon" type="archdeaconry">Norwich</placeName> 
                reciting a mandamus from <persName><forename>Henry</forename> le <surname>Spencer</surname>, bp. of <placeName role="bishop" type="diocese">Norwich</placeName></persName>, 
                to induct <persName><forename>Simon</forename>, son of <persName><forename>John</forename> <surname>Howesson</surname> of <placeName role="person">Schulton</placeName>, presbyter</persName></persName>, 
                to the church of <placeName>Schulton</placeName>, on the presentation of 
@@ -4740,12 +4741,12 @@
             <p> SHELFANGER. Convention between <persName>sir <forename>John</forename> de <surname>Hoo</surname>, kt.</persName>, 
                of the one part, and <persName><forename>John</forename> de <surname>Sottisbrok</surname></persName> 
                of the other, in settlement of the contentions between them, concerning
-               the common of pasture of <placeName>Rodecroft</placeName> and other parts of the common of pasture of 
+               the common of pasture of <placeName type="minor">Rodecroft</placeName> and other parts of the common of pasture of 
                <placeName>Schelfhanger</placeName>, which the said John had of 
                <persName><forename>Edmund</forename> le <surname>Lonerd</surname> in <placeName role="person">Schelfhanger</placeName></persName>, 
                belonging to the house of the said Edmund, and his ancestors, viz. that the said sir John remits
                &amp;c. for him and his heirs, common of pasture to feed six score sheep each year in
-               <placeName>Rodecroft</placeName> with their lambs, until the time they ought to be separated from their
+               <placeName type="minor">Rodecroft</placeName> with their lambs, until the time they ought to be separated from their
                mothers, so that the said sheep may remain one year, at the will of the said John and
                his heirs. And for this quitclaim, &amp;c. the said John remits to the said sir John,
                and his heirs, all right and claim which he has in certain land which
@@ -4815,8 +4816,8 @@
          <div type="charter">
             <p> SHIPDHAM. <persName><forename>William</forename> <surname>Rowe</surname></persName> of ..... grants to
                <persName><forename>Robert</forename> <surname>Dawes</surname> of <placeName role="person">Shypdam</placeName></persName> 
-               and others, one and a half acre of land lying in a field called <placeName>Northfyld</placeName> and one 
-               acre lying in <placeName>Brankes</placeName> ....
+               and others, one and a half acre of land lying in a field called <placeName type="minor">Northfyld</placeName>
+               and one acre lying in <placeName type="minor">Brankes</placeName> ....
                Dated at <placeName role="date">Shypdam</placeName>, 6 September, <date>37 Hen. VIII</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 457</bibl>. </p>
          </div>
@@ -4825,8 +4826,8 @@
             <p> SHOTESHAM. <persName><forename>Yvo</forename> de <surname>Broch</surname></persName>, 
                son of <persName><forename>Gosceline</forename> de <surname>Kirchelle</surname>?</persName>, at the 
                petition and with the consent of <persName><forename>Matilda</forename> his wife</persName>, and
-               William and Thomas his heirs, grants to the church of the <placeName>Holy Trinity, Norwich</placeName>, 
-               one acre of arable land in <placeName>Shotesham</placeName> at <placeName>Wetewde</placeName>. 
+               William and Thomas his heirs, grants to the church of the <orgName>Holy Trinity, Norwich</orgName>, 
+               one acre of arable land in <placeName>Shotesham</placeName> at <placeName type="minor">Wetewde</placeName>. 
                (<date notAfter="1180" notBefore="1190" precision="low">c. 1180-90></date>.)
                <note type="seal">[With seal.]</note> 
                <bibl type="shelfmark">MS. Ch. Norfolk 259</bibl>. </p>
@@ -4843,7 +4844,7 @@
             
          <div type="charter">
             <p> <persName><forename>William</forename>, son of <persName><forename>Roger</forename> de <surname>Kringesford</surname></persName></persName>, 
-               grants to the church of the <placeName role="church">Holy Trinity, Norwich</placeName>, in frankalmoigne, his tenement
+               grants to the church of the <orgName>Holy Trinity, Norwich</orgName>, in frankalmoigne, his tenement
                <placeName type="minor">Lefquenesecroft</placeName> in <placeName>Shotesham</placeName> 
                for which which he, his wife and his sons, were received into fellowship <!-- CHK -->, and the almoner, 
                <persName><forename>Roger</forename> <surname>Tanere</surname></persName>, gave him four marks.
@@ -5057,7 +5058,7 @@
          </div>
              
          <div type="charter">
-            <p> <persName><forename>Thomas</forename>, duke of <placeName role="duke" type="dukedom">Norfolk</placeName></persName>, 
+            <p> <persName><forename>Thomas</forename>, duke of <placeName role="duke" type="duchy">Norfolk</placeName></persName>, 
                remits all actions and demands for himself and heirs against 
                <persName><forename>Edmund</forename> <surname>Whyte</surname>, arm.</persName>, to the 1st day of Jan. 
                last past. Dated 2 May, <date>25 Hen. VIII</date> 
@@ -5067,7 +5068,7 @@
             
          <div type="charter">
             <p> SHOTTESHAM, TOFT HALL, SWANNES, &amp;c. Indenture dated 1 July, <date>27 Hen. VIII</date>, by which
-               <persName><forename>Thomas</forename>, duke of <placeName type="dukedom" role="duke">Norfolk</placeName></persName>, 
+               <persName><forename>Thomas</forename>, duke of <placeName type="duchy" role="duke">Norfolk</placeName></persName>, 
                demises to <persName><forename>Edmund</forename> <surname>White</surname> of <placeName role="person">Shotisham</placeName></persName>
                the manors of <placeName type="manor">Shotisham</placeName> and 
                <placeName type="manor">Toft Hall</placeName>, and the reversion of the manors of
@@ -5172,11 +5173,11 @@
          </div>
             
          <div type="charter">
-            <p> Certificate by the prior and convent of Schuldham of the appropriation by 
+            <p> Certificate by the prior and <orgName>convent of Schuldham</orgName> of the appropriation by 
                <persName><forename>John</forename>, bp. of <placeName type="diocese" role="bishop">Norwich</placeName></persName>, of the church of
                <placeName role="church">Stanford</placeName> (on the retirement or death of the rector
                <persName><forename>Henry</forename> de <surname>Hales</surname></persName>)
-               to the uses of the prior and <orgName>convent of Schuldham</orgName>. 
+               to the uses of the prior and convent of Schuldham. 
                Dated at <placeName role="date">Ufford</placeName>, 11 Kl. May, <date when="1301">1301</date>, and the 2nd year of the consecration of John, bp. of Norwich, and sealed by the priory at Schuldham, 8 Kl. May, <date when="1301">1301</date>. 
                <note type="seal">[With small fragment seal.]</note> 
                <bibl type="shelfmark">MS. Ch. Norfolk 475</bibl>. </p>
@@ -5197,7 +5198,7 @@
                and <persName><forename>Joan</forename> his wife</persName>, one of the daughters of
                <persName><forename>John</forename> <surname>Owden</surname></persName>, defendants, concerning lands,
                messuages, &amp;c., in <placeName>Stokton</placeName>, <placeName>Kyrkebycame</placeName>, 
-               <placeName>Elyngham</placeName>, <placeName>Wynston</placeName>, <placeName>Nortonsubcorg</placeName>,
+               <placeName>Elyngham</placeName>, <placeName>Wynston</placeName>, <placeName>Nortonsubcors</placeName>,
                <placeName>Mendam</placeName>, <placeName>Redvall</placeName>, and <placeName>Geldeston</placeName>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 491</bibl>. </p>
          </div>
@@ -5295,7 +5296,7 @@
          </div>
             
          <div type="charter">
-            <p> SURLINGHAM. ... son of <persName><forename>Rob</forename> <surname>Dellyng</surname> of <placeName role="person">Blofeld</placeName></persName> 
+            <p> <placeName>SURLINGHAM</placeName>. ... son of <persName><forename>Rob</forename> <surname>Dellyng</surname> of <placeName role="person">Blofeld</placeName></persName> 
                .... to ... late wife of <persName><forename>Vincent</forename> <surname>Goodwyn</surname></persName>, etc.
                Oct., <date>19 Hen. VI</date>
                Illegible charter. 
@@ -5432,7 +5433,7 @@
          </div>
             
          <div type="charter">
-            <p> Licence granted to <persName>sir <forename>John</forename> <surname>Mayster</surname>, priest and brother (late master) of the college of <orgName>Thomeston</orgName></persName>, by 
+            <p> Licence granted to <persName>sir <forename>John</forename> <surname>Mayster</surname>, priest and brother (late master) of the <orgName>college of Thomeston</orgName></persName>, by 
                <persName><forename>Roger</forename> <surname>Fylpot</surname>, the master</persName> and the other brethren
                of the said college, on account of the good service performed by him to the said college, relieving him
                from strict obedience to the statutes of the founder, and ... to him <!--chk, unclear: .. a serva.. --> food
@@ -5527,7 +5528,7 @@
             <p> THRAXTON. Decision of <persName><forename>William</forename>, bp. of <placeName role="person">Norwich</placeName></persName>, 
                in a tithe cause between the prior and <orgName>convent of Norwich</orgName>, and 
                <persName><forename>Paul</forename>, rector of the church of <placeName role="rector">Thraxton</placeName></persName>, 
-               by which the tithes of the <placeName>lordship of Wygan Briton</placeName>, in the village of <placeName>Thraxton</placeName>, are confirmed to
+               by which the tithes of the lordship of <persName><forename>Wygan</forename> <surname>Briton</surname></persName>, in the village of <placeName>Thraxton</placeName>, are confirmed to
                the rector and his successors for ever, the convent receiving an annual payment of 10s. 
                Dated at <placeName role="date">Norwich</placeName> the Ides of April, 4th pontifical year of the bishop. 
                (<date when="1282">1282</date>.) 
@@ -5546,7 +5547,7 @@
          </div>
             
          <div type="charter">
-            <p> TILNEY. Letter from the warden and scholars of <orgName>Pembroke Hall</orgName>, submitting themselves
+            <p> TILNEY. Letter from the <orgName>warden and scholars of Pembroke Hall</orgName>, submitting themselves
                to the bp. of <placeName type="diocese">Norwich</placeName> and his successors, on account of the
                appropriation of the church of <placeName>Tilney</placeName>, Norwich diocese, to the said hall. 
                Dated at <placeName role="date">Cambridge</placeName>, 6 July, <date when="1373">1373</date>. 
@@ -5746,7 +5747,7 @@
          <div type="charter">
             <p> Indenture made 17 May, <date>25 Eliz.</date>, by which 
                <persName><forename>James</forename> <surname>Hobarte</surname> of <placeName role="person">Hales Halle, in Loddon, co. Norfolk</placeName></persName>, 
-               demises to <persName><forename>Charles</forename> <surname>Cornwalles</surname> of <placeName role="person">Fineham</placeName></persName> 
+               demises to <persName><forename>Charles</forename> <surname>Cornwalles</surname> of <placeName role="person">Fincham</placeName></persName> 
                certain land in <placeName>Tilney</placeName> for 21 years, paying annually for the same £10. 
                <bibl type="shelfmark">MS. Ch. Norfolk 524</bibl>. </p>
          </div>
@@ -5864,7 +5865,7 @@
                <persName><forename>Rustikellus</forename> <surname>Cambii</surname></persName>, and
                <persName><forename>Reymund</forename> the abbot</persName>, citizens of 
                <placeName role="person">Florence</placeName>, as proctors to act in the
-               business concerning the churches of <placeName>Treing</placeName>, Lincoln diocese, and 
+               business concerning the churches of <placeName>Treing, Lincoln diocese</placeName>, and 
                <placeName>North Walsham</placeName>, Norwich diocese. 
                Dated at <placeName>London</placeName>, 10 Kl. April, <date when="1261">1261</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 553b</bibl>.</p>
@@ -5886,7 +5887,7 @@
                <orgName>canons of the church of St. Mary, of Wausingham</orgName>, reciting the confirmation charters of
                <persName><forename>Simon</forename>, the prior</persName>, and <orgName>convent of Norwich</orgName>, 
                and <persName><forename>J.</forename>, bp. of <placeName role="bishop" type="diocese">Norwich</placeName></persName>, 
-               of the churches, lands, tithes, &amp;c. belonging to the priory of B.V.M. of <placeName>Wausingham</placeName>.
+               of the churches, lands, tithes, &amp;c. belonging to the priory of B.V.M. of Wausingham.
                Dated at <placeName role="date">Wausingham</placeName>, 6 Kl. May, <date when="1250">1250</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 554</bibl>. </p>
          </div>
@@ -5987,7 +5988,7 @@
                grants to <persName>sir <forename>Thomas</forename> <surname>Roscelyn</surname>, kt.</persName>, the manors 
                of <placeName type="manor">Burghalle</placeName>, <placeName type="manor">Esthalle</placeName>, and 
                <placeName type="manor">Huphalle</placeName>, in the village of <placeName>Whetacre</placeName>,
-               together with all the lands, &amp;c. which were the said  sir Robert Banyard's in
+               together with all the lands, &amp;c. which were the said sir Robert Banyard's in
                <placeName>Aldely</placeName> and <placeName>Whetacre</placeName>, also the advowsons of 
                <placeName>All Saints and St. Peter of Whetacre</placeName>, now held by 
                <persName><forename>Matilda</forename> wife</persName> of the said Robert, for the term of her life. 
@@ -6011,7 +6012,7 @@
          <div type="charter">
             <p> WHINBURGH. Dispensation from <persName><forename>Mathew</forename>, bp. of <placeName type="diocese" role="bishop">Norwich</placeName></persName>,
                to <persName><forename>Richard</forename> <surname>Tedder</surname>, clerk, M. A.</persName>, to hold the
-               rectory of <placeName>Whinborough</placeName> in conjunction with that of <placeName>Grarvaston</placeName>.
+               rectory of <placeName>Whinborough</placeName> in conjunction with that of <placeName>Garvaston</placeName>.
                Dated 7 March, <date when="1635">1635</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 570</bibl>. </p>
          </div>
@@ -6067,7 +6068,7 @@
                <persName><forename>John</forename> <surname>Fyncham</surname></persName> and
                <persName><forename>John</forename> <surname>Bedyngfeld</surname></persName>, four
                pieces of land containing 17 acres lying in <placeName>Germannys</placeName> and 
-               <placeName>St. Peturre</placeName> in <placeName>Wygenhale</placeName>.
+               <placeName>St. Peturres in Wygenhale</placeName>.
                <bibl type="shelfmark">MS. Ch. Norfolk 480</bibl>. </p>
          </div>
             
@@ -6303,8 +6304,8 @@
          </div>
             
          <div type="charter">
-            <p> Writ of <date>King James I</date>, dated at Westminster, 12 February, <date>18 of his reign</date>, to the
-               sheriff of <placeName>Suffolk</placeName>, to assess what damages are due to
+            <p> Writ of <date>King James I</date>, dated at <placeName role="date">Westminster</placeName>, 12 February, <date>18 of his reign</date>, to the
+               sheriff of <placeName type="county">Suffolk</placeName>, to assess what damages are due to
                <persName><forename>Christopher</forename> <surname>Echard</surname></persName> by
                <persName><forename>Thomas</forename> <surname>Ladd</surname> of <placeName role="person">Great Yermouth</placeName></persName> 
                by reason of the non-fulfilment of an agreement made at <placeName>Foxford</placeName>, 19 Sept., <date when="1611">1611</date>. 
@@ -6449,7 +6450,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
             </div>
             
             <div type="charter">
-               <p> BECKHAM. Manor court and view of frankpledge, held at <placeName role="date">Becham</placeName>, 6 October, <date>37 Ed. III</date>.
+               <p> BECKHAM. Manor court and view of frankpledge, held at <placeName role="date">Becham</placeName> (<placeName>East Beckham</placeName> or <placeName>West Beckham</placeName>), 6 October, <date>37 Ed. III</date>.
                   (one membrane.) 
                   <bibl type="shelfmark">MS. Rolls Norfolk 2</bibl>. </p>
          </div>
@@ -6503,7 +6504,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                (a) Plea concerning the bequest by 
                <persName><forename>Robert</forename> de <surname>Fyleby</surname></persName> of land and advowson of the
                church of <placeName role="church">Filby</placeName>, to his bastard son at the instigation of
-               <placeName><forename>Wauter</forename> de <surname>Fyleby</surname></placeName>, to the disinheritance of the
+               <persName><forename>Wauter</forename> de <surname>Fyleby</surname></persName>, to the disinheritance of the
                right heirs of the said Robert. [<date when="1333" precision="low">c. 1333</date>]
                <note type="language">[French]</note>
                Noted by Le Neve 'Posted'
@@ -6517,7 +6518,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                </p><p>
                (c) Memorandum of the sale of the lands and tenements of 
                <persName><forename>John</forename> de <surname>Berkyng</surname></persName> in
-               <placeName>Wanlysworde</placeName> <!-- chk: Essex? --> near London, by 
+               <placeName>Wanlysworde</placeName> near London, by 
                <persName><forename>Clement</forename> de <surname>Brethenam</surname></persName>, ... <!-- CHK --> of John de Berkyng, for £40, of which the
                said John has received 26 marks. 
                <bibl type="shelfmark">MS. Rolls Norfolk 7</bibl>. </p>
@@ -6532,7 +6533,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
             
          <div type="charter">
             <p> Roll of pleas, receipts, payments and various memoranda concerning the borough of
-               [<placeName type="borough">Lynn</placeName>], of the <date>8th year of K. Richard II</date>. 
+               [<placeName>Lynn</placeName>], of the <date>8th year of K. Richard II</date>. 
                [Mutilated.] 
                [Apparently a record kept by the town clerck]
                <bibl type="shelfmark">MS. Rolls Norfolk 9</bibl>. </p>
@@ -6737,10 +6738,10 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                      (amongst many others) of local and national events: 
                      <bibl type="shelfmark">MS. Rolls Norfolk 14</bibl>. </p>
           
-            <p> 1463. The burnyng of <placeName>Christ Churche</placeName>, in Norwich, ye first
+            <p> 1463. The burnyng of <orgName>Christ Churche, in Norwich</orgName>, ye first
                daye of Marche. 
                  1472. Printing of bokes brought into England by 
-               <persName><forename>William</forename> <surname>Caxton</surname> of <placeName role="person">London</placeName>, merchent</persName>
+               <persName><forename>William</forename> <surname>Caxton</surname> of <placeName role="person">London</placeName>, merchent</persName>.
                1479. The great pestelense in <placeName>Norwiche</placeName>.
                
              
@@ -6816,7 +6817,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
             
          <div type="charter"> 
             <p> Accounts of the bailiffs for the manors of <placeName type="manor">Lynn Bishops</placeName>,
-               <placeName>Seele</placeName>, <placeName type="manor">Rollesby</placeName>, 
+               <placeName type="manor">Seele</placeName>, <placeName type="manor">Rollesby</placeName>, 
                <placeName type="manor">Blofield</placeName>, <placeName type="manor">Beyghton</placeName>, and 
                <placeName type="manor">Thorp</placeName>, 
                from Mich. <date>16 Hen. VII</date> to Mich. <date>17 Hen. VII</date>. 
@@ -6834,7 +6835,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                (d) Account of <persName><forename>John</forename> <surname>Ufford</surname>, farmer and reaper
                of the manor of <placeName type="manor" role="person">Rollesby</placeName></persName>. 
                
-               Account of <persName><forename>John</forename> <surname>Coke</surname></persName>, feodary for <placeName>Norfolk</placeName> and <placeName>Suffolk</placeName>.
+               Account of <persName><forename>John</forename> <surname>Coke</surname></persName>, feodary for <placeName type="county">Norfolk</placeName> and <placeName type="county">Suffolk</placeName>.
                </p><p>
                (e) Account of <persName><forename>John</forename> <surname>Schepyn</surname>, bailiff of the manor of <placeName type="manor" role="person">Thorp</placeName></persName>, with its members. 
             </p>
@@ -7040,7 +7041,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
          </div>
             
          <div type="charter">
-            <p> EATON and MARTHAM. Account of <persName><forename>John</forename> <surname>Tramme</surname>, collector for <placeName role="manor">Eton</placeName> manor</persName>, 
+            <p> EATON and MARTHAM. Account of <persName><forename>John</forename> <surname>Tramme</surname>, collector for <placeName type="manor">Eton</placeName> manor</persName>, 
                from Mich., <date>11 Hen. VIII</date>, to Mich., <date>12 Hen. VIII</date>. 
                Account of <persName><forename>Thomas</forename> <surname>Randolf</surname>, deputy</persName> of
                <persName><forename>William</forename> <surname>Willyams</surname>, the "messor" of <placeName type="manor">Martham manor</placeName></persName>, 
@@ -7128,7 +7129,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                3. Holders of land in <placeName>Great Plumstead</placeName>, when 
                <persName>sir <forename>Edmund</forename> <surname>Illeye</surname></persName> was lord of the manor. 
                (<date when="1340" precision="low">c. 1340</date>)</p><p>  <pb n="238"/> 
-               4. Tenants of the fee of <placeName>Meleham</placeName> in 
+               4. Tenants of the fee of <placeName type="minor">Meleham</placeName> in 
                <placeName>Great <add>Plumstead</add></placeName> and <placeName>Little Plumstead</placeName>. 
                (A copy of no. 5.) (Made <date notBefore="1250" notAfter="1260" precision="low">c. 1250-60</date>.)</p><p>
                5. Tenants of the fee of <placeName>Meleham</placeName> in <placeName>Great <add>Plumstead</add></placeName> and <placeName>Little Plumstead</placeName>. </p><p>
@@ -7162,7 +7163,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
          <div type="charter">
             <p> RANWORTH. Return (made apparently by a jury of inquest) of the lands held by the 
                <orgName role="abbot">abbot of Hulme</orgName>, the  <orgName role="prior">prior of Beeston</orgName> and the
-               duke of <placeName type="dukedom">Norfolk</placeName>, with the names of the tenants and the amount of the 
+               duke of <placeName type="duchy">Norfolk</placeName>, with the names of the tenants and the amount of the 
                rents. 
                (<date notBefore="1480" notAfter="1500" precision="low">c. 1480-1500</date>)
                <note type="material">(On paper.)</note>
@@ -7170,7 +7171,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
          </div>
             
          <div type="charter">
-            <p> <placeName>ROTHYNG HALL</placeName> and <placeName>CATTS HALL</placeName> [in Panxford and Randwood].
+            <p> <placeName>ROTHYNG HALL</placeName> and <placeName>CATTS HALL</placeName> [in Panxford and Randworth?].
                Rent-roll made in March, <date when="1616">1616</date>.
                <bibl type="shelfmark">MS. Rolls Norfolk 59</bibl>. </p>
          </div>
@@ -7345,7 +7346,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
          </div>
             
          <div type="charter">
-            <p> <placeName>HULME</placeName>. A list of lands belonging to the abbey which had been alienated, from the
+            <p> <orgName>HULME</orgName>. A list of lands belonging to the abbey which had been alienated, from the
                time of abbot Richer to abbot Daniel who died in <date when="1153">1153</date>. 
                Printed in Dugdale, III. 63 (from a Cotton MS.)
                <bibl type="shelfmark">MS. Ch. Norfolk 608</bibl>. </p>
@@ -7389,7 +7390,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                <p> MELTON (Little). <persName><forename>Anselm</forename>, the abbot</persName>, with the counsel of the
                <orgName>brethren of the church of St. Bennet of Holm</orgName>, grants to 
                   <persName><forename>Ralph</forename>, <surname type="patronymic">son of Godric</surname></persName>,
-                  the land of lesser <placeName>Medeltune</placeName>, which 
+                  the land of <placeName>lesser Medeltune</placeName>, which 
                   <persName>his father <forename>Godric</forename>, the steward</persName>, with 
                   <persName><forename>Ingreda</forename> his wife</persName>, gave to St. Bennet, to hold the same so long 
                   as he lives for 10s. per ann.; and after his death the right heirs of Ralph shall give 40s. for the same;
@@ -7423,7 +7424,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
             <p> NORWICH. <persName><forename>Hugh</forename>, the abbot</persName>, and 
                <orgName>convent of St. Bennet of Hulme</orgName>, grant to 
                <persName><forename>William</forename> de <surname>Hastingis</surname></persName> and his heirs, 
-               their land which is near <placeName>Fifbrege</placeName>, to hold of the said
+               their land which is near <placeName type="street">Fifbrege</placeName>, to hold of the said
                church at a rent of 2s. annually to the cellarer in Whitsun week. 
                [Hugh, abbot, <date notBefore="1140" notAfter="1153">1140-1153</date>.] 
                <bibl type="shelfmark">MS. Ch. Norfolk 606</bibl>. </p>
@@ -7471,7 +7472,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
          </div>
             
          <div type="charter">
-            <p> POTTER-HEIGHAM. <persName><forename>Rodbert</forename> de <surname>Valeines</surname></persName>, with the
+            <p> <placeName>POTTER-HEIGHAM</placeName>. <persName><forename>Rodbert</forename> de <surname>Valeines</surname></persName>, with the
                consent of his mother, wife, heirs, and brothers, gives and quit-claims to the 
                <orgName>church of St. Bennet of Hulme</orgName>, the whole of the claim they have in 
                <placeName>Hasardes Holm</placeName>. 
@@ -7627,7 +7628,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
          </div>
             
          <div type="charter">
-            <p> WICHIWGHAM. Convention made between <persName><forename>Sampson</forename>, the abbot</persName>, and the
+            <p> WICHINGHAM. Convention made between <persName><forename>Sampson</forename>, the abbot</persName>, and the
                <orgName>convent of St. Bennet of Hulme</orgName> on the one part, and 
                <persName><forename>William</forename>, the prior</persName>, and the <orgName>convent of St. Mary of Walsingham</orgName> 
                of the other part, by which the said William and his successors are
@@ -7787,7 +7788,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                (d) Confirmation by <persName><forename>John</forename> I, bp. of <placeName role="bishop" type="diocese">Norwich</placeName></persName>, of the appropriation of the church of Ludham. [Undated.] </p><p>
                (e) Appropriation by <persName>Pope Urban IV</persName> of three parts of the church of
                <placeName>Felmyngham</placeName> to the abbot and convent of St. Bennet of Hulme. 
-               Dated at <placeName role="date">Mount Flaston</placeName> ("Montem Flestone"), 10 Kl. October, 2nd
+               Dated at <placeName role="date">Mount Flaston</placeName> ("Montem Flaston'"), 10 Kl. October, 2nd
                year of his pontificate. </p><p>
                (f) Confirmation by <persName><forename>Roger</forename>, bp. of <placeName role="bishop" type="diocese">Norwich</placeName></persName>, 
                of the appropriation of the three parts of the church of Felmyngham. 
@@ -7808,7 +7809,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                (l) Confirmation of the appropriation of the church of Hornyngg by
                Simon, the prior, and convent of the Holy Trinity, Norwich.</p><p> 
                (m) Confirmation of the appropriation of the church of Hornyng by 
-               <persName><forename>Boniface</forename>, archbishop of <placeName role="archbishop" type="archdiocese">Canterbury</placeName></persName>. 
+               <persName><forename>Boniface</forename>, archbishop of <placeName role="archbishop" type="diocese">Canterbury</placeName></persName>. 
                Dated at <placeName role="date">Audyngton</placeName>, 3 Kl. Aug., <date when="1257">1257</date>. </p><p>
                (n) Appropriation of the churches of <placeName>Neteshirde</placeName>, <placeName>Irstede</placeName>, and
                <placeName>Bastwik</placeName>, by <persName><forename>William</forename>, bp. of <placeName role="bishop" type="diocese">Norwich</placeName></persName>, 
@@ -7832,7 +7833,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                <persName><forename>David</forename> de <surname>Ruddeby</surname></persName>, 14 Kl. October, 
                6th year of his pontificate. </p><p>
                (t) Confirmation of the appropriation of the churches of Neteshirde, Irstede, and
-               Bastwik, by <persName><forename>Theobald</forename>, archbishop of <placeName role="archbishop" type="archdiocese">Canterbury</placeName></persName>. [Undated.] </p><p>
+               Bastwik, by <persName><forename>Theobald</forename>, archbishop of <placeName role="archbishop" type="diocese">Canterbury</placeName></persName>. [Undated.] </p><p>
                (u) Confirmation of the appropriation of the churches of Neteshirde, Irstede, and Bastwic, by 
                <persName>Pope <forename>Alexander</forename> IV</persName>. 
                Dated at <placeName role="date">Lateran</placeName>, 2 Kl. March, 3rd year of his pontificate 
@@ -7844,10 +7845,10 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                church of <placeName>St. Laurence, Suth Walsham</placeName>, 8s., church of
                <placeName>Felmingham</placeName> 5s., church of <placeName>Belage</placeName> 12d., 
                church of <placeName>Askeby</placeName> one mark, church of <placeName>Scothowe</placeName> one mark, 
-               church of Bastwik one mark, churches of Hoveton and Asshemanhawe one mark, church of 
+               church of Bastwik one mark, churches of Hoveton and <placeName>Asshemanhawe</placeName> one mark, church of 
                <placeName>St. Peter, Cumingesford</placeName>, 1 lb. incense, church of 
-               <placeName>Stalham</placeName> 1 lb. incense, church of <placeName>St. Michael's, Norwich</placeName>, 
-               near the church of <placeName>St. Christopher</placeName>, 12d. [Undated.] </p><p>
+               <placeName>Stalham</placeName> 1 lb. incense, church of <placeName>St. Michael's, Norwich, 
+               near the church of St. Christopher</placeName>, 12d. [Undated.] </p><p>
                (w) Confirmation by <persName><forename>William</forename>, the prior</persName>, and convent
                of the Holy Trinity, Norwich, of the ratification by 
                <persName><forename>Thomas</forename>, bp. of <placeName type="diocese" role="bishop">Norwich</placeName></persName>, of the
@@ -7873,10 +7874,11 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                <persName><forename>Roger</forename> his <pb n="247"/> son</persName> granting to the church and 
                brethren of St. Bennet of Hulme in frankalmoigne the third part of all their tithes of Ingham, and 
                the third part of Waxtonesham, and two parts of Wrthestede, and two parts of 
-               <placeName>Brunstecle</placeName>, and half a part of Horseye, which 
+               <placeName>Brunstede</placeName>, and half a part of Horseye, which 
                <persName>his father <forename>Edric</forename></persName> gave to the said ahbey. 
                Dated at <placeName role="date">Laneham</placeName>, 15 Kl. Oct., <date when="1283">1283</date>, 
-               and the 6th year of his consecration. </p><p>
+               and the 6th year of his consecration. 
+                  <!--This doc. seems to be the same as https://deeds.library.utoronto.ca/charters/02400096--></p><p>
                (cc) Ordination of William, bp. of Norwich (to whom the cause had been referred),
                concerning the third part of the tithes of corn of the lordships of 
                <persName>sir <forename>Oliver</forename> de <surname>Ingham</surname></persName>, viz. from the land 
@@ -7934,15 +7936,15 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                (nn) Bull of <persName>Pope <forename>Innocent</forename></persName> concerning tithes and lands of the
                abbot and convent. Dated at <placeName role="date">Lugdun</placeName>, 5 Id. May, 6th year of
                his pontificate (<date when="1249">1249</date>). </p><p>
-               (oo) <persName><forename>Theobald</forename>, archbp. of <placeName role="archbishop" type="archdiocese">Canterbury</placeName></persName>, 
+               (oo) <persName><forename>Theobald</forename>, archbp. of <placeName role="archbishop" type="diocese">Canterbury</placeName></persName>, 
                confirms to <persName><forename>Hugh</forename>, the abbot</persName>, and convent of St. Bennet of Hulme,
                the gift of <persName>King <forename>Stephen</forename></persName> to that abbey. </p><p>
-               (pp) <persName><forename>John</forename>, archbp. of <placeName role="archbishop" type="archdiocese">Canterbury</placeName></persName>,
+               (pp) <persName><forename>John</forename>, archbp. of <placeName role="archbishop" type="diocese">Canterbury</placeName></persName>,
                confirms to the abbot and convent the churches of <placeName>Ludham</placeName>,
                <placeName>Netheshirde</placeName>, <placeName>Horningg</placeName>, <placeName>Bastwyk</placeName>, 
                <placeName>Hoveton St. Peter</placeName>, <placeName>Hoveton St. John</placeName>,
                <placeName>Assemenhavve</placeName>, and three parts of the church of <placeName>Felmingham</placeName>.
-               Dated at <placeName role="date">Frekenhara</placeName>, Kl. April, <date when="1281">1281</date>, 
+               Dated at <placeName role="date">Frekenham</placeName>, Kl. April, <date when="1281">1281</date>, 
                and 3rd year of his consecration.</p><p> 
                (qq) Bull of <persName>Pope <forename>Alexander</forename></persName> concerning tithes, manors, and 
                all other things belonging to the abbey. 
@@ -8025,7 +8027,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
          <div type="charter">
             <p> <pb n="250"/> INGHAM. Act of court held in the parish church of <placeName role="church">Burewelle</placeName> the
                Wednesday next after the Sunday in which is sung 'Quasimodo,' [20 April] <date when="1281">1281</date>,
-               before <persName>master <forename>A.</forename> de <surname>Freton</surname>, archdeacon of <placeName role="archdeacon" type="archdeanery">Norfolk</placeName>, commissary of the archbp. of <placeName role="archishop">Cant.</placeName></persName>,
+               before <persName>master <forename>A.</forename> de <surname>Freton</surname>, archdeacon of <placeName role="archdeacon" type="archdeaconry">Norfolk</placeName>, commissary of the archbp. of <placeName role="archishop">Cant.</placeName></persName>,
                concerning certain tithes, between <persName><forename>Roger</forename> le <surname>Gros</surname>, rector of the church of <placeName role="rector">Ingham</placeName>, promoter</persName>, by 
                <persName>master <forename>John</forename> de <surname>Norwych</surname>, his proctor</persName>, of the 
                one part, and the abbot and <orgName>convent of St. Bennet of Hulme</orgName> by
@@ -8036,14 +8038,14 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
          </div>
             
          <div type="charter">
-            <p> Depositions of many witnesses produced in [the above?] tithe cause between the rector of
+            <p> Depositions of many witnesses produced in [the above [MS. Rolls Norfolk 87]?] tithe cause between the rector of
                <placeName>Ingham</placeName> and the abbey respecting the third sheaf from a piece of land called 
                <placeName type="minor">Boldestoft</placeName>.
                <bibl type="shelfmark">MS. Rolls Norfolk 86</bibl>. </p>
          </div>
             
          <div type="charter">
-            <p> SOUTHCOTE, NORTHCOTE, POSSEWYK, MUNTFLET, and NOWECOTE. 
+            <p> SOUTHCOTE, NORTHCOTE, POSSEWYK, MUNTFLET, and NOWECOTE. <!--Are these all manors?-->
                The account of <persName><forename>Hugh</forename> <surname>Eston</surname></persName> for
                <placeName>Southcote</placeName>, <date>21 and 22 Ric. II</date>., also for <placeName>Northcote</placeName>
                the same year.
@@ -8186,7 +8188,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                <persName><forename>William</forename> <surname>Jenney</surname></persName>, and
                <persName><forename>Thomas</forename> <surname>Howes</surname></persName>, feoffees to the use of the
                said sir John, of the manor of <placeName type="manor">Castre</placeName> and other lands claimed by the
-               <persName>duke of <placeName type="dukedom" role="duke">Norfolk</placeName></persName>, also praying for
+               <persName>duke of <placeName type="duchy" role="duke">Norfolk</placeName></persName>, also praying for
                restitution for damage done to him amounting to £1353 6s. 8d.
                <bibl type="shelfmark">MS. Ch. Norfolk 728</bibl>. </p>
          </div>
@@ -8195,7 +8197,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
             <p> Letter from the <persName>earl of <placeName role="earl" type="earldom">Oxford</placeName></persName> 
                to <persName>sir <forename>John</forename> <surname>Paston</surname>, kt.</persName> 
                Written at <placeName role="date">Melford</placeName> the 20th of October. 
-               Signed "<placeName>Osynford</placeName>".
+               Signed "<persName>Osynford</persName>".
                <note type="material">[Paper.]</note>
                <bibl type="shelfmark">MS. Ch. Norfolk 729</bibl>. </p>
          </div>
@@ -8215,7 +8217,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
          <div type="charter">
             <p> Draft writ to the <persName>sheriff of <placeName role="sheriff">Norfolk</placeName></persName> to attach
                and bring before the council, <persName><forename>John</forename> <surname>Paston</surname> alias <surname>Wortes</surname></persName>, 
-               <persName><forename>John</forename> <surname>Gees</surname>, a Carmelite friar of <orgName role="friar">Norwich</orgName></persName>,
+               <persName><forename>John</forename> <surname>Gees</surname>, a <orgName role="friar">Carmelite friar of Norwich</orgName></persName>,
                <persName><forename>Edmund</forename> <surname>Alderford</surname>, clerk</persName>,
                <persName><forename>Bartholomew</forename> <surname>Waryn</surname>, parson of <placeName role="parson">Trunche</placeName></persName>,
                <persName><forename>William</forename> <surname>Cuttyng</surname> of <placeName role="person">Worstede</placeName></persName>,
@@ -8237,18 +8239,17 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
          <div type="charter">
             <p> <persName>Sir <forename>John</forename> <surname>Beauchamp</surname>, kt., lord Beauchamp</persName>, 
                remits and quit-claims to <persName><forename>John</forename> <surname>Paston</surname></persName>
-               and <persName><forename>Roger</forename> <surname>Townesheud</surname>, esq.</persName>, all right, &amp;c.
+               and <persName><forename>Roger</forename> <surname>Towneshend</surname>, esq.</persName>, all right, &amp;c.
                in the manors of <placeName>Castre</placeName> called <placeName type="manor">Redhams</placeName>, 
                <placeName type="manor">Vaus</placeName>, and <placeName type="manor">Bosoms</placeName>, also of and in
                the manors of <placeName type="manor">Begoyles</placeName> in <placeName>Wyntirton</placeName>,
-               <placeName type="manor">Spensers</placeName> in <placeName>Heryngby</placeName>, 
-               <placeName type="manor">Reppes</placeName> in <placeName>Bastwyk</placeName>, and the third part of
+               <placeName type="manor">Spensers in Heryngby</placeName>, 
+               <placeName type="manor">Reppes in Bastwyk</placeName>, and the third part of
                the manor of <placeName type="manor">Runham</placeName>, together with all lands and tenements 
-               called <placeName>Billes</placeName> in <placeName>Stokesby</placeName>, <placeName>Cattes</placeName>
-               in <placeName>Haryngby</placeName> and in a messuage called '<placeName type="minor">Dengayns</placeName>'
+               called <placeName type="manor">Billes in Stokesby</placeName>, <placeName type="manor">Cattes in Haryngby</placeName> and in a messuage called '<placeName type="minor">Dengayns</placeName>'
                in <placeName>Yermouth</placeName>, and in all lands and tenements within the hundreds of 
                <placeName type="hundred">Estflegge</placeName> and <placeName type="hundred">Westflegge</placeName>, which
-               said manors, lands, &amp;c., he holds conjointly with <persName><forename>Thomas</forename>, archbp. of <placeName type="archdiocese" role="archbishop">Canterbury</placeName></persName>, 
+               said manors, lands, &amp;c., he holds conjointly with <persName><forename>Thomas</forename>, archbp. of <placeName type="diocese" role="archbishop">Canterbury</placeName></persName>, 
                and others, as by a certain charter more fully appears, for ever. 
                Dated 14 Feb., <date>49th year, from the beginning of Hen. VI</date>, and 1st of his return to power. 
                <bibl type="shelfmark">MS. Ch. Norfolk 732</bibl>. </p>
@@ -8282,7 +8283,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                <persName><forename>William</forename> <surname>Paston</surname></persName>, 
                <persName><forename>Elizabeth</forename>, countess of Oxford</persName>, 
                <persName><forename>John</forename> <surname>Veer</surname>, earl of <placeName type="earldom" role="earl">Oxford</placeName></persName>, 
-               <persName>sir <forename>John</forename> <surname>Scroop</surname>, kt., lord <placeName role="lord">Scroop</placeName></persName>, 
+               <persName>sir <forename>John</forename> <surname>Scroop</surname>, kt., lord Scroop</persName>, 
                and others, full and peaceable seisin of the same, according to a charter granted to them by the said 
                Roger and William. Dated at <placeName role="date">Castre</placeName>, 12 May, <date>4 Ed. IV</date>. 
                <bibl type="shelfmark">MS. Ch. Norfolk 734</bibl>. </p>
@@ -8297,7 +8298,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
          </div>
             
          <div type="charter">
-            <p> Fine made at <placeName role="date">Westminster</placeName>, Trinity Term, <date>1 Ed. VI</date>, by which#
+            <p> Fine made at <placeName role="date">Westminster</placeName>, Trinity Term, <date>1 Ed. VI</date>, by which
                <persName><forename>Antony</forename> <surname>Littleton</surname>, esq.</persName>, acknowledges the right
                of <persName>sir <forename>William</forename> <surname>Paston</surname>, kt.</persName>, to the third
                part of the manor of <placeName type="manor">Hornynghall</placeName> and of 6 messuages, 6 tofts, 6 gardens,
@@ -8313,8 +8314,8 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
             <p> GRESSHAM-HALL. Indenture made 9 November, <date>2 Ed. VI</date>, by which 
                <persName>sir <forename>William</forename> <surname>Paston</surname>, kt.</persName>, sells to
                <persName><forename>Richard</forename> <surname>Partryk</surname> of <placeName role="person">Holte</placeName>, carver</persName>, 
-               all his wood, timber, and underwood, growing within the wood called <placeName>Gressham-hall</placeName>
-               wood; to hold the same for ever, paying for the said purchase £40 by two instalments.
+               all his wood, timber, and underwood, growing within the wood called <placeName>Gressham-hall wood</placeName>; 
+               to hold the same for ever, paying for the said purchase £40 by two instalments.
                <bibl type="shelfmark">MS. Ch. Norfolk 737</bibl>. </p>
          </div>
             
@@ -8349,11 +8350,12 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                <placeName type="manor">Basyngham</placeName>, <placeName type="manor">Westbekham</placeName>, 
                <placeName type="manor">Matelask</placeName>, and <placeName type="manor">Briston</placeName>, the manor of
                <placeName type="manor">Salle called Kirkehalle</placeName>, the manor called 
-               <placeName type="manor">Fleghalle</placeName> in <placeName>Wynterton</placeName>, <placeName>Somerton</placeName>,
+               <placeName type="manor">Fleghalle</placeName> in <placeName>Wynterton</placeName>, 
+               <placeName type="manor">Somerton</placeName>,
                <placeName>Ormesby</placeName>, <placeName>Martham</placeName>, <placeName>Horseye</placeName>,
                <placeName>Waxtonesham</placeName>, and <placeName>Pallyng</placeName>, and 100s., rent in
                <placeName>Castre</placeName>, by <placeName>Norwich</placeName>, and <placeName>Merkeshale</placeName>, 
-               and the manor of <placeName type="manor">Freton</placeName> in Suffolk; with certain reversions on the death
+               and the manor of <placeName type="manor">Freton in Suffolk</placeName>; with certain reversions on the death
                of <persName><forename>Eleanor</forename>, wife of <persName><forename>Thomas</forename> <surname>Chambre</surname>, esq.</persName></persName>, 
                formerly wife of the said <persName><forename>Robert</forename> <surname>Mauteby</surname></persName>,
                <persName><forename>Margery</forename>, wife of <persName><forename>Ralph</forename> <surname>Garneys</surname>, esq.</persName></persName>, 
@@ -8427,7 +8429,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
             
                <div type="charter">
                   <p> FLEGG (Hundred of). <persName><forename>William</forename>, bp. of <placeName type="diocese" role="bishop">Winchester</placeName></persName>, 
-                     <persName><forename>John</forename> <surname>Beauchamp</surname>, lord de <placeName role="lord">Beauchamp</placeName></persName>,
+                     <persName><forename>John</forename> <surname>Beauchamp</surname>, lord de Beauchamp</persName>,
                      <persName>Sir <forename>John</forename> <surname>Howard</surname>, kt.</persName>, 
                      <persName><forename>William</forename> <surname>Yelverton</surname>, kt.</persName>,
                      <persName><forename>Thomas</forename> <surname>Lytelton</surname></persName>,
@@ -8439,16 +8441,15 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                      <persName><forename>John</forename> <surname>Paston</surname>, knt.</persName> all their right of 
                      and in the manor of <placeName type="manor">Castre in Flegge called Vaux and Bosoms</placeName>, 
                      and in those lands and in tenements in <placeName>Castre</placeName> called 
-                     <placeName type="minor">Redham</placeName><!-- check could be a manor -->, with the advowson of the chapel of 
+                     <placeName type="manor">Redham</placeName>, with the advowson of the chapel of 
                      <placeName>St. John the Baptist</placeName> in the same village, and the manors of
-                     <placeName>Heryngly</placeName> (sic) called <placeName type="manor">Spensers and Fennes</placeName>,
+                     <placeName>Heryngly</placeName> (sic) called <placeName type="manor">Spensers</placeName> and <placeName type="manor">Fennes</placeName>,
                      the third part of the manor in <placeName type="manor">Runham</placeName>, the manor in 
-                     <placeName>Wyuterton</placeName> called <placeName type="manor">Begvyles</placeName> 
-                     with one windmill, the manor of <placeName type="manor">Reppes</placeName> in
-                     <placeName>Bastewyk</placeName>, and all messuages, &amp;c. in 
+                     <placeName>Wynterton</placeName> called <placeName type="manor">Begvyles</placeName> 
+                     with one windmill, the manor of <placeName type="manor">Reppes in Bastewyk</placeName>, and all messuages, &amp;c. in 
                      <placeName>Great Jernernuth</placeName>, and in lands and tenements called 
-                     <placeName type="minor">Billes</placeName> in <placeName>Stokesby</placeName>, and those lands and
-                     tenements called <placeName type="minor">Cattes</placeName> in <placeName>Heryngby</placeName>, and
+                     <placeName type="manor">Billes in Stokesby</placeName>, and those lands and
+                     tenements called <placeName type="manor">Cattes in Heryngby</placeName>, and
                      all other lands &amp;c. in the villages of <placeName>Castre</placeName>, 
                      <placeName>Great Jernemuth</placeName>, <placeName>Ormesby</placeName>,
                      <placeName>Scroutby</placeName>, <placeName>Mautby</placeName>,
@@ -8468,8 +8469,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                      <placeName role="date">Westminster</placeName>, 1 March, <date>12 of his reign</date>, being a licence
                      of alienation to (for £10) <persName nymRef="Calthorp"><forename>Martin</forename></persName> and
                      <persName><forename>John</forename> <surname>Calthorp</surname></persName>, esqrs., to
-                     enable them to assign the manors of <placeName type="manor">Hicklinge</placeName>, 
-                     <placeName type="manor">Netherhall</placeName>, 
+                     enable them to assign the manors of <placeName type="manor">Hicklinge Netherhall</placeName>, 
                      <placeName type="manor">Stanhow alias Stannowe</placeName>,
                      and <placeName type="manor">Pawlinge</placeName>, and divers other lands &amp;c. in the county of
                      <placeName type="county">Norfolk</placeName>, to 
@@ -8500,7 +8500,7 @@ treasurers of the King's Bench and Marshalsea</persName>, ending Easter, <date w
                      and the soul of the grantor after his death; the advowson to remain in possession of the priory. 
                      The grantor is received as a confrater of the priory, 
                      <persName><forename>Thomas</forename> de <surname>Dicleburgh</surname></persName> is appointed the first principal chaplain, ...  
-                     <!--chk place of marginal annotation unclear: ... of the identure to the toft by the prior of Norwich cathedral, in teh pirory of Buttele by the abbeys of Leiston and Sibeton in the priory of Snape, and in the churches of Karleton and Framlyngham. Not dated! [The King's licence was granted 26 March 6 Edw. III (1332).]-->
+                     <!--chk place of marginal annotation unclear: ... of the identure to the toft by the prior of Norwich cathedral, in the pirory of Buttele by the abbeys of Leiston and Sibeton in the priory of Snape, and in the churches of Karleton and Framlyngham. Not dated! [The King's licence was granted 26 March 6 Edw. III (1332).]-->
                      <note type="seal">[With 2 seals, broken.]</note>
                      <bibl type="shelfmark">MS. Ch. Norfolk 749</bibl>. </p>
                </div>
