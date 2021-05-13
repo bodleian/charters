@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_103302">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Douce Ch. 1</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Douce_Ch_1</idno>
+            <idno type="collection">Yorks</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Douce_Ch_1" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Douce Ch. 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> RICHMOND (Abbey of St. Agatha). EASBY? <persName>
+                           <forename>Henry</forename>, the abbot</persName>, and 
+                  <orgName key="org_103013">convent of St. Agatha</orgName> grant and quit-claim to <orgName key="org_103044">the abbot and monks of Jorevall</orgName> 
+                  the cow-common of <placeName type="minor">Mudebech</placeName> in <placeName key="place_103182">Garcedale</placeName> which they held 
+                  of <persName>sir <forename>Adam</forename> fitz <persName>
+                              <forename>Hugh</forename> of
+                     <surname>Magneby</surname>
+                           </persName>
+                        </persName>, by girograph dated feast of St. Peter ad Vinc. 1240,
+                  for 12 years saving the common pasture, which they previously had for the payment of 16 marks by 
+                  the <orgName key="org_103044">abbot and convent of Jorevall</orgName>. 
+                  Witn. <persName>sir <forename>Adam</forename> de <surname>Alverly</surname>, bailiff of <placeName role="bailiff" key="place_103318">Richmond</placeName>
+                        </persName>, 
+                  <persName>sir <forename>William</forename> de <surname>Midelton</surname>, sheriff of <placeName role="sheriff" key="place_103421">York</placeName>
+                        </persName> [etc.]
+                  (<origDate when="1240" precision="low">c. 1240</origDate>)
+                   
+                  <!--Cancelled: <bibl type="shelfmark">MS. Ch. Yorks. 40</bibl>-->
+                  .
+               </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seal of the abbey.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="630" to="630">630</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
