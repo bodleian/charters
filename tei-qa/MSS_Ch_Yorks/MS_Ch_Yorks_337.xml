@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_103363">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Yorks. 337</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Yorks_337</idno>
+            <idno type="collection">Yorks</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Yorks_337" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Yorks. 337</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> YOKEFLETE, BROMPTON, WESTOWE, and RILLYNGTON. 
+                  Letters patent of <persName>Q. Elizabeth</persName>, dated at <placeName role="date" key="place_103181">Gorambury</placeName>, 
+                  <origDate when="1573-01-20">20 Jan., 15 of her reign</origDate>, reciting a grant to <persName>sir <forename>John</forename>
+                           <surname>Foster</surname>, kt.</persName>, of certain lands and tenements in
+                  <placeName key="place_103258">Little Broughton</placeName> in co. York, bearing date 12 April, 10 of her reign, for 40
+                  years, parcel of the lands of the <orgName key="org_103025">monastery of Hexhame</orgName>, and by these granting to
+                  <persName>
+                           <forename>William</forename> lord <surname>Ewre</surname>
+                        </persName> (in exchange for the manor of 
+                  <placeName type="manor" key="place_103016">Yokeflete</placeName> and all that belongs to it in the
+                  parishes or hamlets of <placeName key="place_103420">Yokeflete</placeName>, <placeName key="place_103095">Brompton</placeName>, <placeName key="place_103403">Westowe</placeName>,
+                  and <placeName key="place_103319">Rillyngton</placeName>,) the reversion of the above grant, also a received annual rent of 
+                  £12 18s. 3½d., also the rectory of <placeName role="rectory" key="place_103235">Inglebie</placeName>, co. York, and the 
+                  chapel and church of <placeName role="chapel" key="place_103292">Newton</placeName> with all that
+                  belongs to them, late part of the <orgName key="org_103027">priory of Whitby</orgName>, with many other properties, to
+                  hold the same for ever. 
+                   
+                  . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seal.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="636" to="636">636</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

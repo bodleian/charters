@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_103203">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Yorks. 200b</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Yorks_200b</idno>
+            <idno type="collection">Yorks</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Yorks_200b" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Yorks. 200b</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="en">English</textLang>
+                  <msItem>
+                     <p> An indenture made the <origDate when="1583-04-10">l0th of April, 25th year of Q. Elizabeth</origDate>, between the 
+                     <persName>rt. hon. <forename>William</forename> lord <surname>Eure</surname>
+                        </persName> of the one part, and
+                     <persName>
+                           <forename>Richard</forename> 
+                           <surname>Medd</surname>
+                        </persName>, 
+                     <persName>
+                           <forename>Robert</forename> 
+                           <surname>Bell</surname>
+                        </persName>, and 
+                     <persName>
+                           <forename>Christabell</forename> 
+                           <surname>White</surname>
+                        </persName>, of the second part,
+                     witnesseth that lord Eure has demised to <persName>
+                           <forename>Richard</forename>
+                           <surname>Medd</surname>
+                        </persName>, <persName>
+                           <forename>Robert</forename>
+                           <surname>Bell</surname>
+                        </persName>, and <persName>
+                           <forename>Christabell</forename> 
+                              <surname>White</surname>
+                        </persName> two closes called
+                     <placeName type="minor">Potter's</placeName> and <placeName type="minor">White's close</placeName>s, 
+                     with a cottage, for 21 years, or during the life of
+                     <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Eure</surname>, son and heir of lord Eure</persName>. 
+                     
+                     
+                     <!--<bibl type="shelfmark">MS. Ch. Yorks. 200*</bibl> -->
+                     <!--WAS: <bibl type="shelfmark">MS. Ch. Yorks. 21</bibl> SEE PAGE 638; WHAT IS THE SHELFMARK FOR THIS, DOCS. Ch. Yorks. 200a and 200b already exists (see p. 620)-->
+               
+              <!-- <p> Indenture made <date when="1583-04-10">10 April, 25th year of [Elizabeth]</date>, by which <persName>the right
+                  honble. <forename>Raffe</forename>, lord <surname>Eure</surname></persName>, demises to <persName><forename>Richard</forename>
+                     <surname>Medd</surname></persName> and <persName><forename>Cristobell</forename> ....</persName> two closes and a cottage
+                  within the lordship of <placeName>Old Malton</placeName>, for 21 years, at an annual rent of £30. 
+                  (See MS. Ch. Yorks. 200*)-->
+                  <!-- also on p. 638 in more detail -->
+                  </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="620" to="620">620</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

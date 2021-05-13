@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_103347">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Yorks. 312</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Yorks_312</idno>
+            <idno type="collection">Yorks</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Yorks_312" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Yorks. 312</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> WAKEFIELD. <persName>
+                           <forename>Peter</forename>, son of <persName>
+                              <forename>Robert</forename> de 
+                  <surname>Bruer</surname>
+                           </persName>
+                        </persName>, 
+                  <persName>
+                           <forename>Nicholas</forename> de <pb n="635"/> 
+                           <surname>Batelay</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Adam</forename> son of <forename>Walter</forename> of Wakefeld</persName>, and 
+                  <persName>
+                           <forename>Jordan</forename> le <surname>Mower</surname>
+                        </persName> of the same, are bound to 
+                  <persName>John, son of <persName>
+                              <forename>Robert</forename> the <surname>mercer</surname> ("mercenarii") of 
+                     <placeName role="person" key="place_103386">Wakefeld</placeName>
+                           </persName>
+                        </persName>, in 53s. 4d., to be levied on 
+                  their goods and chattels if <persName>
+                           <forename>Elena</forename>, daughter and one of the heirs of 
+                     <persName>
+                              <forename>Thomas</forename>, son of <persName>
+                                 <forename>Thomas</forename> 
+                                 <surname>Dade</surname> 
+                        of Wakefeld</persName>
+                           </persName>
+                        </persName>, or any one of her heirs, claim a
+                  third part of a burgage in <placeName key="place_103386">Wakefeld</placeName>, which the said John son of Robert bought of her 
+                  and <persName>her husband <forename>Richard</forename> 
+                           <surname>Isabell</surname>
+                        </persName>. 
+                  Dated at <placeName role="date" key="place_103386">Wakefeld</placeName> on the feast of All Souls, <origDate notBefore="1275-11-20" notAfter="1276-11-19">4 Ed. I</origDate>. 
+                   
+                  . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With two small seals.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="634" to="635">634-635</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
