@@ -16,6 +16,7 @@
    <text>
       <body>
          <listPlace type="manor">
+            manors
             <place type="manor">
                <placeName type="formInDocument">..elnedenehalle</placeName>
                <note type="charter">MS. Ch. Essex 192</note>
@@ -197,20 +198,26 @@
                <note type="charter">MS. Ch. Essex 118</note>
                <note type="charter">MS. Ch. Essex 120</note>
             </place>
-           
-           
          </listPlace>
+       
        
          <listPlace type="diocese">
             <place type="diocese">
+               <placeName type="index">Archdiocese of Canterbury</placeName>
                <placeName type="formInDocument">canterbury</placeName>
+               <idno>http://viaf.org/viaf/270753550</idno>
+               <idno>https://www.wikidata.org/wiki/Q2066595</idno>
                <note type="charter">MS. Ch. Essex 254</note>
                <note type="charter">MS. Ch. Essex 48a</note>
                <note type="charter">MS. Ch. Essex 32</note>
             </place>
+            
             <place type="diocese">
+               <placeName type="index">Diocese of London</placeName>
                <placeName type="formInDocument">london</placeName>
                <placeName type="formInDocument">london</placeName>
+               <idno>http://viaf.org/viaf/152967265</idno>
+               <idno>https://www.wikidata.org/wiki/Q14946379</idno>
                <note type="charter">MS. Ch. Essex 181</note>
                <note type="charter">MS. Ch. Essex 188</note>
                <note type="charter">MS. Ch. Essex 190</note>
@@ -256,8 +263,15 @@
                <note type="charter">MS. Ch. Essex 25c</note>
                <note type="charter">MS. Ch. Essex 8</note>
             </place>
+            
             <place type="diocese">
+               <placeName type="index">Diocese of Norwich</placeName>
                <placeName type="formInDocument">norwich</placeName>
+               <!--<idno>https://viaf.org/viaf/134239581/</idno> The modern CofE diocese, perhaps better to use the alternative:-->
+               <idno>https://viaf.org/viaf/168616885/</idno>
+               <!--Anglican diocese: 
+                  <idno>https://www.wikidata.org/wiki/Q1790948</idno> so perhaps better to use the Roman Catholic diocese:-->
+               <idno>https://www.wikidata.org/wiki/Q868590</idno>
                <note type="charter">MS. Ch. Essex 209</note>
                <note type="charter">MS. Ch. Essex 220</note>
                <note type="charter">MS. Ch. Essex 221</note>
@@ -265,11 +279,17 @@
                <note type="charter">MS. Ch. Essex 32</note>
                <note type="charter">MS. Ch. Essex 65</note>
             </place>
+            
             <place type="diocese">
+               <placeName type="index">Diocese of Rochester</placeName>
                <placeName type="formInDocument">rochester</placeName>
+               <idno>http://viaf.org/viaf/311327724</idno>
+               <idno>https://www.wikidata.org/wiki/Q5622023</idno>
                <note type="charter">MS. Ch. Essex 43</note>
             </place>
          </listPlace>
+          
+         county cont here
          <listPlace type="county">
             <place type="county">
                <placeName type="formInDocument">essex</placeName>
@@ -294,6 +314,8 @@
                <note type="charter">MS. Ch. Essex 94</note>
             </place>
          </listPlace>
+         
+         hundreds
          <listPlace type="hundred">
             <place type="hundred">
                <placeName type="formInDocument">chafford</placeName>
@@ -306,10 +328,9 @@
                <note type="charter">MS. Ch. Essex 191</note>
             </place>
          </listPlace>
+         
+         archdiocese
          <listPlace type="archdiocese">
-            <place type="archdiocese">
-               
-            </place>
             <place type="archdiocese">
                <placeName type="formInDocument">canterbury</placeName>
                <placeName type="formInDocument">cant.</placeName>
@@ -326,7 +347,7 @@
             </place>
          </listPlace>
          
-         
+         cont here
          <listPlace type="place">
             <place type="place">
                <placeName type="formInDocument">aenehaye</placeName>
@@ -1860,8 +1881,8 @@
                <idno>https://epns.nottingham.ac.uk/browse/Essex/532858bfb47fc40a98000d57-White+Notley</idno>
                <note type="charter">MS. Ch. Essex 217</note>
             </place>
+            
             <place type="place">
-               
                <placeName type="index">Wickham Skeith</placeName>
                <!-- 2 parishes in Essex Bishops & St Pauls
                Colchester charters = Wickham Skeith in Suffolk
@@ -1879,14 +1900,14 @@
                <placeName type="formInDocument">skeyth</placeName>
                <placeName type="formInDocument">scheit</placeName>
                <placeName type="formInDocument">sckeyt</placeName>
-                  <placeName type="formInDocument">scyerta</placeName>
-                  <placeName type="formInDocument">scyrtan</placeName>
+               <placeName type="formInDocument">scyerta</placeName>
+               <placeName type="formInDocument">scyrtan</placeName>
                <placeName type="formInDocument">vicham</placeName>
                <note type="charter">MS. Ch. Essex 149</note>
                <note type="charter">MS. Ch. Essex 111</note>
                <note type="charter">MS. Ch. Essex 112</note>
-                  <note type="charter">MS. Ch. Essex 89</note>
-                  <note type="charter">MS. Ch. Essex 92</note>
+               <note type="charter">MS. Ch. Essex 89</note>
+               <note type="charter">MS. Ch. Essex 92</note>
                <note type="charter">MS. Ch. Essex 152</note>
                <note type="charter">MS. Ch. Essex 116</note>
                <note type="charter">MS. Ch. Essex 100</note>
@@ -1927,7 +1948,6 @@
                <note type="charter">MS. Ch. Essex 156</note>
                <note type="charter">MS. Ch. Essex 157a</note>
                <note type="charter">MS. Ch. Essex 157a</note>
-                
                <note type="charter">MS. Ch. Essex 135</note>
                <note type="charter">MS. Ch. Essex 145</note>
                <note type="charter">MS. Ch. Essex 152</note>
@@ -1969,6 +1989,7 @@
                <note type="charter">MS. Ch. Essex 118</note>
                <note type="charter">MS. Ch. Essex 120</note>
             </place>
+            
             <place type="place">
                <placeName type="index">Wickham St Paul's</placeName>
                <placeName type="formInDocument">wicham st. paul</placeName><placeName type="formInDocument">wycham st. paul</placeName>
@@ -1977,7 +1998,6 @@
                <region type="county">Essex</region>
                <note type="charter">MS. Ch. Essex 238</note>
                <note type="charter">MS. Ch. Essex 238</note>
-             
                <idno>https://epns.nottingham.ac.uk/browse/Essex/Wickham+St+Paul%27s/532858efb47fc40a98000ece-Wickham+St+Paul%27s</idno>
                <note type="charter">MS. Ch. Essex 238</note>
             </place>
@@ -2011,8 +2031,6 @@
                <note type="charter">MS. Ch. Essex 247</note>
                <!-- lord Grey of  -->
             </place>
-            
-           
            
             <place type="place">
                <placeName type="index">Witham</placeName>
@@ -2023,7 +2041,6 @@
                <note type="charter">MS. Ch. Essex 241a</note>
                <note type="charter">MS. Ch. Essex 241b</note>
             </place>
-           
            
             <place type="place">
                <placeName type="index">Wivenhoe</placeName>
@@ -2183,9 +2200,9 @@
                <note type="charter">MS. Ch. Essex 114</note>
                <note type="charter">MS. Ch. Essex 110</note>
             </place>
-           
          </listPlace>
          
+         Orgs
          <listOrg>
             <org>
                <orgName type="index">Colchester, Benedictine abbey of St John the Baptist</orgName>
@@ -2194,11 +2211,11 @@
                <orgName type="formInDocument">abbey of St. John, Colchester</orgName>
                <orgName type="formInDocument">abbot of St. John of Colchester</orgName>
                <orgName type="formInDocument">abbot of St. John, Colchester</orgName>
-                  <orgName type="formInDocument">church of St. John of Colchester</orgName>
-                  <orgName type="formInDocument">church of St. John the Baptist</orgName>
-                  <orgName type="formInDocument">church of St. John, Colchester</orgName>
-                  <orgName type="formInDocument">church of St. John Baptist&gt;, Colchester</orgName>
-                  <orgName type="formInDocument">church of St. John Baptist of Colchester</orgName>
+               <orgName type="formInDocument">church of St. John of Colchester</orgName>
+               <orgName type="formInDocument">church of St. John the Baptist</orgName>
+               <orgName type="formInDocument">church of St. John, Colchester</orgName>
+               <orgName type="formInDocument">church of St. John Baptist&gt;, Colchester</orgName>?
+               <orgName type="formInDocument">church of St. John Baptist of Colchester</orgName>
                <orgName type="formInDocument">convent of St. John, Colchester</orgName>
                <orgName type="formInDocument">convent of St. John of Colchester</orgName>
                <orgName type="formInDocument">convent of St. John, Colchester</orgName>
@@ -2290,7 +2307,6 @@
                <note type="charter">MS. Ch. Essex 100</note>
             </org>
         
-        
             <org>
                <orgName type="formInDocument">Bec</orgName>
                <orgName type="formInDocument">convent of Bec</orgName>
@@ -2303,6 +2319,7 @@
                <note type="charter">MS. Ch. Essex 248</note>
                <note type="charter">MS. Ch. Essex 250</note>
             </org>
+            
             <org>
                <orgName type="index">Blackmore, Augustinian priory of St Laurence</orgName>
                <orgName type="formInDocument">Blackmore</orgName>
@@ -2317,10 +2334,12 @@
                <note type="charter">MS. Ch. Essex 161</note>
                <note type="charter">MS. Ch. Essex 163</note>
             </org>
+            
             <org>
                <orgName type="formInDocument">Bormundes[e]</orgName>
                <note type="charter">MS. Ch. Essex 251</note>
             </org>
+            
             <org>
                <orgName type="index">Tiptree, Augustinian priory of St Mary and St Nicholas</orgName>
                <orgName type="formInDocument">canons of St. Mary, etc., of Tippetre</orgName>
@@ -2378,7 +2397,6 @@
                <note type="charter">MS. Ch. Essex 165</note>
             </org>
           
-          
             <org>
                <orgName type="index">Little Horkesley, Cluniac priory of St Peter</orgName>
                <orgName type="formInDocument">church of St. Peter, Horkesle</orgName>
@@ -2430,26 +2448,25 @@
                <note type="charter">MS. Ch. Essex 50</note>
             </org>
           
-          
             <org>
                <orgName type="formInDocument">convent of Castle Hedingham</orgName>
                <note type="charter">MS. Ch. Essex 211</note>
             </org>
+            
             <org>
                <orgName type="formInDocument">convent of Hatfield Peverel</orgName>
                <note type="charter">MS. Ch. Essex 209</note>
             </org>
           
-          
             <org>
                <orgName type="formInDocument">convent of Lighes</orgName>
                <note type="charter">MS. Rolls Essex 8</note>
             </org>
+            
             <org>
                <orgName type="formInDocument">convent of Prittlewell</orgName>
                <note type="charter">MS. Ch. Essex 220</note>
             </org>
-         
          
             <org>
                <orgName type="formInDocument">convent of Stratford Langthorne</orgName>
@@ -2469,7 +2486,6 @@
                <note type="charter">MS. Ch. Essex 185</note>
                <note type="charter">MS. Ch. Essex 186</note>
             </org>
-          
           
             <org>
                <orgName type="formInDocument">house of Wykes</orgName>
@@ -2499,9 +2515,6 @@
             <org>
                <orgName type="formInDocument">monastery of Waltham</orgName>
                <note type="charter">MS. Ch. Essex 240</note>
-            </org>
-            <org>
-               
             </org>
            
             <org>
@@ -2539,29 +2552,24 @@
                <note type="charter">MS. Ch. Essex 29a</note>
                <note type="charter">MS. Ch. Essex 31</note>
             </org>
+            
             <org>
                <orgName type="formInDocument">monks of the Holy Trinity de Monte at of Rouen</orgName>
                <note type="charter">MS. Ch. Essex 67</note>
             </org>
-            <org>
-              
-            </org>
-            <org>
-              
-            </org>
+
             <org>
                <orgName type="formInDocument">nuns of Clerkenwell</orgName>
                <note type="charter">MS. Ch. Essex 71</note>
             </org>
-            <org>
-               
-            </org>
+
             <org>
                <orgName type="formInDocument">priory of Priterwell</orgName>
                <orgName type="formInDocument">Prittlewell</orgName>
                <note type="charter">MS. Ch. Essex 220</note>
                <note type="charter">MS. Ch. Essex 221</note>
             </org>
+            
             <org>  
                <orgName type="index">Thoby, Augustinian priory</orgName>
                <orgName type="formInDocument">priory of Thoby</orgName>
@@ -2577,13 +2585,9 @@
             </org>
             
             <org>
-              
-            </org>
-            <org>
                <orgName type="formInDocument">St. Leonard</orgName>
                <note type="charter">MS. Ch. Essex 167</note>
             </org>
-           
            
             <org>
                <orgName type="formInDocument">St. Paul's, London</orgName>
@@ -2595,8 +2599,7 @@
                <note type="charter">MS. Ch. Essex 240</note>
             </org>
         
-        
-            <org>
+            <org>place or org? as a place in Suffolk file
                   <orgName type="formInDocument">grayes inne</orgName>
                   <note type="charter">MS. Ch. Essex 187</note>
                
