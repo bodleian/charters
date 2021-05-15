@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_103070">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Yorks. 340</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Yorks_340</idno>
+            <idno type="collection">Yorks</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Yorks_340" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Yorks. 340</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> FOSTON, &amp;c. Indenture made between <persName>
+                           <forename>Peter</forename>
+                           <surname>Hykson</surname> of <placeName role="person" key="place_100051">London</placeName>
+                        </persName> of the one part, and
+                        <persName>
+                           <forename>William</forename> 
+                           <surname>Holburne</surname> of 
+                           <placeName role="person" key="place_103076">Beuerlee</placeName>
+                        </persName> of the other, by which the
+                  latter is bound in 100 marks for the safe custody and delivery to the right heirs of certain
+                  evidences concerning lands, &amp;c. in <placeName key="place_103170">Foston</placeName>, <placeName key="place_103177">Gemelyng</placeName>, 
+                  <placeName key="place_103072">Befforth</placeName>, and elsewhere in the county of York, which formerly belonged to
+                  <persName>
+                           <forename>Richard</forename> 
+                           <surname>Clerk</surname> of 
+                     <placeName role="person" key="place_103177">Gemelyng</placeName>
+                        </persName>, and <persName>
+                           <forename>Thomas</forename>
+                           <surname>Fryrsmerske</surname>
+                        </persName> and <persName>
+                           <forename>Alice</forename> his wife</persName>, 
+                  and are to be given to their heirs or to the heirs of <persName>
+                           <forename>Thomas</forename>
+                           <surname>Skyrom</surname>
+                        </persName> or <persName>
+                           <forename>John</forename>
+                           <surname>Groward</surname>
+                        </persName>. 
+                  Dated 4 March, <origDate notBefore="1411-09-30" notAfter="1412-09-29">13 Hen. IV</origDate>. 
+                   
+                  See <!--p. 601 -->MS. Ch. Yorks. 338.
+                  . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With small seal.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="607" to="607">607</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_103078">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Yorks. 54</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Yorks_54</idno>
+            <idno type="collection">Yorks</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Yorks_54" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Yorks. 54</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                  Judgement by <persName>
+                           <forename>S<supplied>imon</supplied>
+                           </forename> dean of York</persName>, 
+                  <persName>
+                           <forename>H<supplied>amo</supplied>
+                           </forename> precentor of York</persName>, and 
+                  <persName>
+                           <forename>B.</forename> prior of <orgName role="prior" key="org_103030">Newburgh</orgName>
+                        </persName> (in pursuance of a letter from <persName>pope Celestine <supplied>III</supplied>
+                        </persName> 
+                  dated 8 Kal. Aug. an. V) in a dispute between the <orgName key="org_103040">prior and canons of Giseb<supplied>urhe</supplied>
+                        </orgName> 
+                  and <persName>
+                           <forename>William</forename>, clerk</persName>, and 
+                  <persName>
+                           <forename>Ralph</forename> his son officiating as rector in the chapel of 
+                     <placeName role="rector" key="place_103205">Herlessei</placeName>
+                        </persName>; viz. that after the deaths of the 
+                  said William and Ralph, the chapel shall pertain to the canons' church of 
+                  <placeName role="church" key="place_103156">Erneclive</placeName> as being the mother-church, and that meanwhile the said William shall pay yearly one aureus or two shillings and Ralph two aurei or four shillings. [<origDate when="1195">1195</origDate>]
+                  . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of GISEBURN (Priory)</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="608" to="608">608</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

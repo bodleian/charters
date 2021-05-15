@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_103088">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Douce Ch. 57</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Douce_Ch_57</idno>
+            <idno type="collection">Yorks</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Douce_Ch_57" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Douce Ch. 57</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                        <pb ed="TC" n="609"/> 
+                  Inspeximus by the <orgName key="org_103016">dean and chapter of Glasgow</orgName> of two deeds of inspeximus
+                  by <persName>
+                           <forename>John</forename>
+                        </persName> and by <persName>
+                           <forename>Robert</forename> 
+                     bishops of Glasgow</persName>, in <origDate when="1273">1273</origDate> and <origDate when="1330">1330</origDate> and (?)<!-- check marginal text -->
+                  of a decree by <persName>
+                           <forename>John</forename>, bp. of <placeName role="bishop" type="diocese" key="place_103021">Glasgow</placeName>
+                        </persName>, dated 
+                  8 id. July <origDate when="1265">1265</origDate>, 
+                  to the <orgName key="org_103040">prior and convent of Giseburn</orgName>, concerning pensions payable from the 
+                  churches of <placeName role="church" key="place_103055">Anand</placeName>, <placeName role="church" key="place_103265">Loughmaban</placeName>,
+                  <placeName role="church" key="place_103134">Cumbertre</placeName>, <placeName role="church" key="place_103188">Gretenhou</placeName>, 
+                  <placeName role="church" key="place_103316">Raynpatrik</placeName>, and <placeName role="church" key="place_103242">Kirkpatrik</placeName>, 
+                  in Scotland.
+                  Dated at <placeName role="date" key="place_103179">Glasgow</placeName> the Sunday next after the feast of the Ascension 
+                  of our Lord, <origDate when="1330" type="document">1330</origDate>. 
+                  
+                  .
+                  <!--cancelled: <bibl type="shelfmark">MS. Ch. Yorks. 62</bibl>.--> </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seals of bishop slightly broken, and of the chapter perfect.] </p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of GISEBURN (Priory)</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="609" to="609">609-609</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

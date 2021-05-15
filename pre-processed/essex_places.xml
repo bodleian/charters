@@ -53,6 +53,7 @@
             <place type="manor">
                <placeName type="formInDocument">fremnalles alias hemnalles</placeName>
                <note type="charter">MS. Ch. Essex 194</note>
+               <!-- hemnall in epping? -->
             </place>
             <place type="manor">
                <placeName type="formInDocument">ging-joyberd-laundry, alias blunt's manor</placeName>
@@ -61,6 +62,10 @@
             </place>
             <place type="manor">
                <placeName type="formInDocument">hadlegh, called topesfeld hall</placeName>
+               <placeName type="formInDocument">topesfeld</placeName>
+               <placeName type="formInDocument">toppesfeld</placeName>
+               <note type="charter">MS. Ch. Essex 202</note>
+               <note type="charter">MS. Ch. Essex 201</note>
                <note type="charter">MS. Ch. Essex 200</note>
             </place>
             <place type="manor">
@@ -109,12 +114,6 @@
             <place type="manor">
                <placeName type="formInDocument">stepilbumstede</placeName>
                <note type="charter">MS. Ch. Essex 180</note>
-            </place>
-            <place type="manor">
-               <placeName type="formInDocument">topesfeld</placeName>
-               <placeName type="formInDocument">toppesfeld</placeName>
-               <note type="charter">MS. Ch. Essex 202</note>
-               <note type="charter">MS. Ch. Essex 201</note>
             </place>
             <place type="manor">
                <placeName type="formInDocument">warners otherwyse waleys</placeName>
@@ -373,8 +372,11 @@
             <place type="place">
                <placeName type="index">Asheldham</placeName>
                <placeName type="formInDocument">assildeham</placeName>
+               <placeName type="formInDocument">hessildele</placeName><!-- query the spelling: sic in calendar -->
                <region type="parish">Asheldham</region>
                <region type="county">Essex</region>
+               <note type="charter">MS. Ch. Essex 33</note>
+              
                <idno>https://epns.nottingham.ac.uk/browse/Essex/Asheldham/532858eeb47fc40a98000d8c-Asheldham</idno>
                <note type="charter">MS. Ch. Essex 29a</note>
             </place>
@@ -480,30 +482,29 @@
             
             <place type="place">
                <placeName type="formInDocument">bosworth</placeName>
+               <!-- church nr Springfield? -->
+               <!-- ?Bobbingworth -->
                <note type="charter">MS. Ch. Essex 194</note>
             </place>
             
             <place type="place"> 
+               <placeName type="index">Boxted</placeName>
                <placeName type="formInDocument">boxsted (bochesteda)</placeName>
                <placeName type="formInDocument">boxstede</placeName>
                <placeName type="formInDocument">bocsted</placeName>
+               <region type="parish">Boxted</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Ch. Essex 30</note>
                <note type="charter">MS. Ch. Essex 33</note>
                <note type="charter">MS. Ch. Essex 29a</note>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Boxted/532858eeb47fc40a98000da7-Boxted</idno>
             </place>
          
-         
-          
-            
             <place type="place">
                <placeName type="index">Bradley</placeName>
-               <placeName type="formInDocument">bradegate</placeName>
-               <region type="county">Shropshire</region>
-               <!-- near Alveley: not sure which parish eyt -->
-               <note type="charter">MS. Ch. Essex 133</note>
-            </place>
-            <place type="place">
                <placeName type="formInDocument">bradeley</placeName>
+               <region type="county">Shropshire</region>
+               <!-- near Alveley: not sure which parish CHECK/TODO  -->
                <note type="charter">MS. Ch. Essex 170</note>
             </place>
            
@@ -587,7 +588,10 @@
             </place>
             
             <place type="place">
+               <placeName type="index">Coggeshall (Great or Little)</placeName>
                <placeName type="formInDocument">coggeshale in co. essex</placeName>
+               <region type="county">Essex</region>
+               <!-- richard ederyche of -->
                <note type="charter">MS. Ch. Essex 179</note>
             </place>
             
@@ -630,7 +634,11 @@
             </place>
             
             <place type="place">
+               <placeName type="index">Cowling</placeName>
                <placeName type="formInDocument">coulingge</placeName>
+               <!-- charter dated at. perh near Notley -->
+               <region type="parish">Cowling</region>
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Essex 217</note>
             </place>
           
@@ -657,12 +665,19 @@
             </place>
            
             <place type="place">
+               <placeName type="index">Stanway Bridge olim Empford Bridge</placeName>
                <placeName type="formInDocument">emperford bridge alias stanway bridge</placeName>
+               <!-- where the hundred court of Lexden is held -->
+               <region type="parish">Stanway</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Rolls Essex 7</note>
             </place>
             
             <place type="place">
+               <placeName type="index">East Peckham</placeName>
                <placeName type="formInDocument">estpecham in the county of kent</placeName>
+               <region type="parish">East Peckham</region>
+               <region type="county">Kent</region>
                <note type="charter">MS. Ch. Essex 196</note>
             </place>
           
@@ -686,14 +701,20 @@
                <note type="charter">MS. Ch. Essex 29a</note>
             </place>
             
+           
+           
             <place type="place">
+               <placeName type="index">Fordham</placeName>
+               <placeName type="formInDocument">great fordham</placeName>
                <placeName type="formInDocument">fordham</placeName>
+               <region type="parish">Fordham</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Ch. Essex 193</note>
                <note type="charter">MS. Ch. Essex 29a</note>
+               <note type="charter">MS. Ch. Essex 193</note><!-- Great f -->
+              
                <note type="charter">MS. Ch. Essex 33</note>
             </place>
-            
-           
             
             <place type="place">
                <placeName type="index">Foulness</placeName>
@@ -777,13 +798,6 @@
                <note type="charter">MS. Ch. Essex 14</note>
             </place>
            
-            <place type="place">
-               <placeName type="index">Fordham</placeName>
-               <placeName type="formInDocument">great fordham</placeName>
-               <region type="parish">Fordham</region>
-               <region type="county">Essex</region>
-               <note type="charter">MS. Ch. Essex 193</note>
-            </place>
             
             <place type="place">
                <placeName type="index">Great Henny</placeName>
@@ -806,6 +820,7 @@
                <placeName type="formInDocument">great horkesleye</placeName>
                <region type="parish">Great Horkesley</region>
                <region type="county">Essex</region>
+               <note>See also Little Horkesley</note>
                <note type="charter">MS. Ch. Essex 41</note>
                <note type="charter">MS. Ch. Essex 51a</note>
                <note type="charter">MS. Ch. Essex 63</note>
@@ -818,7 +833,11 @@
           
           
             <place type="place">
+               <placeName type="index">Ilford</placeName>
                <placeName type="formInDocument">great ilford</placeName>
+               <region type="parish">Ilford</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Ilford/532858eeb47fc40a98000e2c-Ilford</idno>
                <note type="charter">MS. Rolls Essex 12</note>
             </place>
             
@@ -869,27 +888,35 @@
            
            
             <place type="place">
+               <placeName type="index">Hadleigh</placeName>
+               <placeName type="formInDocument">hadleye, co. suffolk</placeName>
                <placeName type="formInDocument">hadle</placeName>
                <placeName type="formInDocument">hadlegh</placeName>
+               <region type="parish">Hadleigh</region>
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Essex 197</note>
-               <note type="charter">MS. Ch. Essex 198</note>
-               <note type="charter">MS. Ch. Essex 199</note>
+               <note type="charter">MS. Ch. Essex 213</note>
                <note type="charter">MS. Ch. Essex 200</note>
                <note type="charter">MS. Ch. Essex 201</note>
-            </place>
-           
-           
+               <!-- all taken inthe calendar to relate tot he same place, but 198, 199, perhaps 197 might possibly by Hadleigh in Essex -->
+               <note type="charter">MS. Ch. Essex 198</note>
+               <note type="charter">MS. Ch. Essex 199</note>
+            </place> 
             <place type="place">
-               <placeName type="formInDocument">hadleye, co. suffolk</placeName>
-               <note type="charter">MS. Ch. Essex 213</note>
-            </place>
-            <place type="place">
+               <placeName type="index">Alphamstone</placeName>
                <placeName type="formInDocument">halfamston, essex</placeName>
+               <region type="parish">Alphamstone</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Alphamstone/532858eeb47fc40a98000d86-Alphamstone</idno>
                <note type="charter">MS. Ch. Essex 203</note>
             </place>
+            
             <place type="place">
+               <placeName type="index">Halstead</placeName>
                <placeName type="formInDocument">halstead</placeName>
                <placeName type="formInDocument">halsted, co. essex</placeName>
+               <region type="parish">Halstead</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Ch. Essex 204</note>
                <note type="charter">MS. Rolls Essex 4</note>
             </place>
@@ -897,110 +924,128 @@
            
             <place type="place">
                <placeName type="formInDocument">hamanne</placeName>
+               <!-- name of a marsh belonging to Tiptree Priory -->
                <note type="charter">MS. Ch. Essex 17</note>
             </place>
+            
             <place type="place">
-               <placeName type="formInDocument">hamlett shaw</placeName>
-               <note type="charter">MS. Ch. Essex 229</note>
-            </place>
-            <place type="place">
+               <placeName type="index">Hampstead</placeName>
                <placeName type="formInDocument">hampstead</placeName>
+               <region type="parish">Hampstead</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10211839</idno>
                <note type="charter">MS. Ch. Essex 181</note>
             </place>
             <place type="place">
+               <placeName type="index">Hatfield Broad Oak</placeName>
                <placeName type="formInDocument">hatfeld regis</placeName>
                <placeName type="formInDocument">hatfield regis</placeName>
+               <placeName type="formInDocument">hatfield</placeName>
+                  <placeName type="formInDocument">king's hatfield</placeName>
+               <region type="parish">Hatfield Broad Oak</region>
+               <region type="count">Essex</region>
+               <note type="charter">MS. Ch. Essex 208</note>
                <note type="charter">MS. Ch. Essex 205</note>
                <note type="charter">MS. Ch. Essex 206</note>
                <note type="charter">MS. Ch. Essex 207</note>
             </place>
             <place type="place">
+               <placeName type="index">Hatfield Peverel</placeName>
                <placeName type="formInDocument">hatfield</placeName>
-               <note type="charter">MS. Ch. Essex 205</note>
+               <region type="parish">Hatfield Peverel</region>
+               <region type="count">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Hatfield+Peverel/532858eeb47fc40a98000e1c-Hatfield+Peverel</idno>
                <note type="charter">MS. Ch. Essex 209</note>
             </place>
           
           
             <place type="place">
+               <placeName type="index">Havering-atte-Bower</placeName>
                <placeName type="formInDocument">haveringe parke</placeName>
+               <region type="parish">Havering-atte-Bower</region>
+               <region type="county">Essex</region>
+               <bibl>
+                  'Parishes: Havering-atte-Bower', in A History of the County of Essex: Volume 7, ed. W R Powell (London, 1978), pp. 9-17. British History Online http://www.british-history.ac.uk/vch/essex/vol7/pp9-17 [accessed 28 April 2021].
+               </bibl>
                <note type="charter">MS. Ch. Essex 210</note>
             </place>
             <place type="place">
+               <placeName type="index">Castle Hedingham</placeName>
                <placeName type="formInDocument">hengham</placeName>
+               <region type="parish">Castle Hedingham</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Ch. Essex 211</note>
             </place>
+          
+          
+           
             <place type="place">
-               <placeName type="formInDocument">hertford</placeName>
-               <note type="charter">MS. Ch. Essex 189</note>
-               <note type="charter">MS. Ch. Essex 191</note>
-               <note type="charter">MS. Ch. Essex 94</note>
-            </place>
-            <place type="place">
-               <placeName type="formInDocument">hessildele</placeName>
-               <note type="charter">MS. Ch. Essex 33</note>
-            </place>
-            <place type="place">
+               <placeName type="index">Sible Hedingham</placeName>
                <placeName type="formInDocument">hevingham sible</placeName>
+               <region type="parish">Sible Hedingham</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Rolls Essex 4</note>
             </place>
+            
             <place type="place">
+               <placeName type="index">Hill</placeName>
                <placeName type="formInDocument">hill</placeName>
+               <region type="parish">Moreton</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/id/532858b9b47fc40a980006fc-Hill+Fm</idno>
                <note type="charter">MS. Ch. Essex 215</note>
             </place>
+            
             <place type="place">
-               <placeName type="formInDocument">his house near charing-cross</placeName>
+               <placeName type="index">Charing Cross</placeName>
+               <placeName type="formInDocument">charing-cross</placeName>
+               <region type="parish">St Martin in the Fields</region>
+               <region type="county">Middlesex</region>
                <note type="charter">MS. Ch. Essex 83</note>
             </place>
+            
             <place type="place"><!-- in Hunts -->
+               <placeName type="index">Holme</placeName>
                <placeName type="formInDocument">holme</placeName>
+               <region type="parish">Holme</region>
+               <region type="county">Huntingdonshire</region>
                <note type="charter">MS. Ch. Essex 240</note>
             </place>
             <place type="place"><!-- suff -->
+               <placeName type="index">Holton St Mary</placeName>
+               <placeName type="variant">Holton St Mary</placeName>
                <placeName type="formInDocument">holton</placeName>
+               <region type="parish">Holton</region>
+               <region type="county">Suffolk</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10257591</idno>
+               <!-- tithes of Rumbrough priory 
+                  Holton S Mary or 
+               -->
                <note type="charter">MS. Ch. Essex 240</note>
             </place>
+            
             <place type="place">
+               <placeName type="index">Horham</placeName>
                <placeName type="formInDocument">horham</placeName>
+               <region type="parish">Horham</region>
+               <region type="counyt">Suffolk</region>
+               <!-- andrew hamond, rector of : check -->
                <note type="charter">MS. Ch. Essex 192</note>
             </place>
             <place type="place">
-              
-            </place>
-            <place type="place">
-               <!-- great or little? -->
-               <placeName type="formInDocument">horkesle</placeName>
-               <placeName type="formInDocument">horkeslee</placeName>
-               <placeName type="formInDocument">horkeslegh</placeName>
-               <placeName type="formInDocument">horkesley</placeName>
-               <placeName type="formInDocument">horkeslye</placeName>
-               <placeName type="formInDocument">horkislegh</placeName>
-               <placeName type="formInDocument">horkele</placeName>
-               <note type="charter">MS. Ch. Essex 38</note><!-- taken to be little (could be either) -->
-               <note type="charter">MS. Ch. Essex 40b</note><!-- taken to be little (could be either) -->
-               <note type="charter">MS. Ch. Essex 36</note>
-               <note type="charter">MS. Ch. Essex 60</note><!-- lands held of Rayleigh honour -->
-               <note type="charter">MS. Ch. Essex 56</note>
-               <note type="charter">MS. Ch. Essex 33</note><!-- little -->
-               <note type="charter">MS. Ch. Essex 66</note>
-               <note type="charter">MS. Rolls Essex, 17</note>
-               <note type="charter">MS. Ch. Essex 59a</note><!-- could be either -->
-               <note type="charter">MS. Ch. Essex 32</note><!-- little -->
-               <note type="charter">MS. Ch. Essex 39</note><!-- taken to be little (could be either) -->
-               <note type="charter">MS. Ch. Essex 46</note>
-            </place>
-           
-           
-           
-          
-            <place type="place">
+               <placeName type="index">'Innorde' [unidentified]</placeName>
                <placeName type="formInDocument">innorde</placeName>
+               <!-- john blythe of, granted land in Gt. Braxted -->
                <note type="charter">MS. Ch. Essex 27</note>
             </place>
             <place type="place">
+               <placeName type="index">Ipswich</placeName>
                <placeName type="formInDocument">ipswich</placeName>
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Essex 65</note>
             </place>
             <place type="place">
+               <placeName type="index">Ireland</placeName>
                <placeName type="formInDocument">ireland</placeName>
                <note type="charter">MS. Ch. Essex 227</note>
             </place>
@@ -1008,59 +1053,99 @@
            
           
             <place type="place">
+               <placeName type="index">Kelvedon</placeName>
                <placeName type="formInDocument">kelleuedun</placeName>
+               <!-- Wm the clerk of. Could be Kelvedon Hatch -->
+               <region type="parish">Kelvedon</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Ch. Essex 13</note>
             </place>
             <place type="place"><!-- Suff -->
+               <placeName type="index">Kettleburgh</placeName>
                <placeName type="formInDocument">kettleborough</placeName>
+               <region type="parish">Kettleburgh</region>
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Essex 240</note>
             </place>
+           
             <place type="place">
-               <placeName type="formInDocument">king's hatfield</placeName>
-               <note type="charter">MS. Ch. Essex 208</note>
-            </place>
-            <place type="place">
-               <placeName type="formInDocument">kingwert</placeName>
+               <placeName type="formInDocument">'Kingwert' [unidentified]</placeName>
+               <!-- name of a marsh of Horklesley priory -->
                <note type="charter">MS. Ch. Essex 34</note>
             </place>
             <place type="place">
+               <placeName type="index">Lashley</placeName>
                <placeName type="formInDocument">lacheleygh</placeName>
+               <!-- charter re Steeple Bumstead dated at -->
+               <region type="parish">Lindsell</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Lindsell/532858b8b47fc40a98000632-Lashley+Hall</idno>
                <note type="charter">MS. Ch. Essex 180</note>
             </place>
+            
             <place type="place">
+               <placeName type="index">Langham</placeName>
                <placeName type="formInDocument">langham</placeName>
+               <region type="parish">Langham</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Langham/532858eeb47fc40a98000e3a-Langham</idno>
                <note type="charter">MS. Rolls Essex 16</note>
             </place>
+            
             <place type="place">
                <placeName type="formInDocument">lasham</placeName>
+               <!-- ?error for Layham -->
                <note type="charter">MS. Ch. Essex 197</note>
             </place>
+            
             <place type="place">
+               <placeName type="index">Leppingwells</placeName>
                <placeName type="formInDocument">lefledewelle</placeName>
+               <region type="parish">Little Maplestead</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Little+Maplestead/532858b8b47fc40a98000677-Leppingwells</idno>
                <note type="charter">MS. Ch. Essex 185</note>
             </place>
+            
             <place type="place">
                <placeName type="formInDocument">legre</placeName>
+               <!-- one of the Layers: not sure which -->
                <note type="charter">MS. Ch. Essex 89</note>
             </place>
             <place type="place">
+               <placeName type="index">Lexden</placeName>
                <placeName type="formInDocument">lexden</placeName>
+               <region type="parish">Lexden</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Rolls Essex 5</note>
             </place>
             <place type="place">
+               <placeName type="index">Layer de la Haye</placeName>
                <placeName type="formInDocument">leyre dil hay</placeName>
+               <region type="parish">Layer de la Haye</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Ch. Essex 61</note>
             </place>
             <place type="place">
+               <placeName type="index">Layer Breton</placeName>
                <placeName type="formInDocument">leyrebreton</placeName>
+               <region type="parish">Layer Breton</region>
+               <region type="county">Layer Breton</region>
                <note type="charter">MS. Ch. Essex 192</note>
             </place>
             <place type="place">
+               <placeName type="index">Little Burstead</placeName>
                <placeName type="formInDocument">little bursted</placeName>
+               <region type="parish">Little Burstead</region>
+               <region type="county">Essex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10235741</idno>
                <note type="charter">MS. Ch. Essex 181</note>
             </place>
             <place type="place">
+               <placeName type="index">Bourchier's Hall olim Little Fordham</placeName>
                <placeName type="formInDocument">little fordham</placeName>
+               <region type="parish">Aldham</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Ch. Essex 43</note>
             </place>
             <place type="place">
@@ -1070,8 +1155,29 @@
                <placeName type="formInDocument">little horkeslegh</placeName>
                <placeName type="formInDocument">little horkesleye</placeName>
                <placeName type="formInDocument">little horkislegh</placeName>
+                  <!-- great or little? -->
+                  <placeName type="formInDocument">horkesle</placeName>
+                  <placeName type="formInDocument">horkeslee</placeName>
+                  <placeName type="formInDocument">horkeslegh</placeName>
+                  <placeName type="formInDocument">horkesley</placeName>
+                  <placeName type="formInDocument">horkeslye</placeName>
+                  <placeName type="formInDocument">horkislegh</placeName>
+                  <placeName type="formInDocument">horkele</placeName>
                <region type="parish">Little Horkesley</region>
                <region type="county">Essex</region>
+               <note>Some references may relate to Great Horkesley.</note>
+                  <note type="charter">MS. Ch. Essex 38</note><!-- taken to be little (could be either) -->
+                  <note type="charter">MS. Ch. Essex 40b</note><!-- taken to be little (could be either) -->
+                  <note type="charter">MS. Ch. Essex 36</note>
+                  <note type="charter">MS. Ch. Essex 60</note><!-- lands held of Rayleigh honour -->
+                  <note type="charter">MS. Ch. Essex 56</note>
+                  <note type="charter">MS. Ch. Essex 33</note><!-- little -->
+                  <note type="charter">MS. Ch. Essex 66</note>
+                  <note type="charter">MS. Rolls Essex, 17</note>
+                  <note type="charter">MS. Ch. Essex 59a</note><!-- could be either -->
+                  <note type="charter">MS. Ch. Essex 32</note><!-- little -->
+                  <note type="charter">MS. Ch. Essex 39</note><!-- taken to be little (could be either) -->
+                  <note type="charter">MS. Ch. Essex 46</note>
                <note type="charter">MS. Ch. Essex 62</note>
                <note type="charter">MS. Ch. Essex 63</note>
                <note type="charter">MS. Ch. Essex 64b</note>
@@ -1083,16 +1189,26 @@
          
          
             <place type="place">
+               <placeName type="index">Little Lawford</placeName>
                <placeName type="formInDocument">little lawford, warwick</placeName>
+               <region type="parish">Newbold on Avon</region>
+               <region type="county">Warwickshire</region>
                <note type="charter">MS. Ch. Essex 226</note>
             </place>
             <place type="place">
+               <placeName type="index">Little Maplestead</placeName>
                <placeName type="formInDocument">little maplestead</placeName>
+               <region type="parish">Little Maplestead</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Rolls Essex 4</note>
             </place>
             <place type="place">
+               <placeName type="index">Little Totham</placeName>
                <placeName type="formInDocument">little toteham</placeName>
                <placeName type="formInDocument">little totham</placeName>
+               <region type="parish">Little Totham</region>
+               <region type="county">Essex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10247949</idno>
                <note type="charter">MS. Ch. Essex 11</note>
                <note type="charter">MS. Ch. Essex 6</note>
                <note type="charter">MS. Ch. Essex 1</note>
@@ -1100,12 +1216,21 @@
        
        
             <place type="place">
+               <placeName type="index">Little Warley</placeName>
                <placeName type="formInDocument">little warley</placeName>
+               <region type="parish">Little Warley</region>
+               <region type="county">Essex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10248553</idno>
                <note type="charter">MS. Ch. Essex 194</note>
             </place>
+            
             <place type="place">
+               <placeName type="index">Wickham St Paul</placeName>
                <placeName type="formInDocument">little wicham</placeName>
                <placeName type="formInDocument">little wickham</placeName>
+               <region type="parish">Wickham St Paul</region>
+               <region type="parish">Essex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10248875</idno>
                <note type="charter">MS. Ch. Essex 236</note>
                <note type="charter">MS. Ch. Essex 237</note>
             </place>
@@ -1136,48 +1261,73 @@
                <note type="charter">MS. Ch. Essex 25c</note>
                <note type="charter">MS. Ch. Essex 8</note>
             </place>
+            
             <place type="place">
+               <placeName type="index">Maldon</placeName>
                <placeName type="formInDocument">maldon</placeName>
+               <region type="county">Essex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10207071</idno>
+               <!-- three parishes -->
                <note type="charter">MS. Ch. Essex 70</note>
             </place>
+            
+            
             <place type="place">
-              
-            </place>
-            <place type="place">
-               <placeName type="formInDocument">marsh farm</placeName>
+               <placeName type="index">St Osyth</placeName>
+               <placeName type="formInDocument">chitch st. osyth</placeName>
+               <region type="parish">St Osyth</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Rolls Essex 1</note>
             </place>
+           
+           
             <place type="place">
-               <placeName type="formInDocument">melford</placeName>
-               <note type="charter">MS. Ch. Essex 202</note>
-            </place>
-            <place type="place">
+               <placeName type="index">Long Melford</placeName>
                <placeName type="formInDocument">melford, co. suffolk</placeName>
+               <placeName type="formInDocument">melford</placeName>
+               <region type="parish">Long Melford</region>
+               <region type="county">Suffolk</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10263190</idno>
+               <note type="charter">MS. Ch. Essex 202</note>
                <note type="charter">MS. Ch. Essex 201</note>
             </place>
+            
             <place type="place">
+               <placeName type="index">Mendlesham</placeName>
                <placeName type="formInDocument">mendlesham</placeName>
+               <!-- Wickham (Skeith): fee of the lord of M -->
+               <region type="parish">Mendlesham</region>
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Essex 118</note>
+               <idno>https://www.visionofbritain.org.uk/unit/10263300</idno>
             </place>
             <place type="place">
+               <placeName type="index">Nessing</placeName>
                <placeName type="formInDocument">messing</placeName>
+               <region type="parish">Messing</region>
+               <region type="county">Essex</region>
                <note type="charter">MS. Ch. Essex 74</note>
                <note type="charter">MS. Ch. Essex 67</note>
             </place>
-            <place type="place"><!-- org -->
-               <placeName type="formInDocument">middle temple, london</placeName>
-               <note type="charter">MS. Ch. Essex 240</note>
-            </place>
+          
             <place type="place">
                <placeName type="formInDocument">moche waltham</placeName>
                <note type="charter">MS. Rolls Essex 13</note>
             </place>
             <place type="place">
+               <placeName type="index">Moreton</placeName>
                <placeName type="formInDocument">moreton</placeName>
+               <region type="parish">Moreton</region>
+               <region type="county">Essex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10244857</idno>
                <note type="charter">MS. Ch. Essex 215</note>
             </place>
             <place type="place">
+               <placeName type="index">Mistley</placeName>
                <placeName type="formInDocument">mystelega</placeName>
+               <region type="parish">Mistley</region>
+               <region type="county">Essex</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10244780</idno>
                <note type="charter">MS. Ch. Essex 214</note>
             </place>
             <place type="place">
@@ -2342,6 +2492,7 @@
                <note type="charter">MS. Ch. Essex 240</note>
             </org>
             <org>
+               <orgName type="display">Rumburgh, Benedictine priory</orgName>
                <orgName type="formInDocument">monastery of Ruinboroughe alias Rumburgh</orgName>
                <note type="charter">MS. Ch. Essex 240</note>
             </org>
@@ -2437,6 +2588,11 @@
             <org>
                <orgName type="formInDocument">St. Paul's, London</orgName>
                <note type="charter">MS. Ch. Essex 188</note>
+            </org>
+            
+            <org><!-- org -->
+               <placeName type="formInDocument">middle temple, london</placeName>
+               <note type="charter">MS. Ch. Essex 240</note>
             </org>
         
         
