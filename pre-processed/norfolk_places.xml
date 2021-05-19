@@ -289,7 +289,7 @@
                <placeName type="index">Sevenhampton</placeName>
                <placeName type="formInDocument">Sevenhampton</placeName>
                <region type="parish">Highworth</region>
-               <region type="county">Wiltes</region>
+               <region type="county">Wiltshire</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F273213</idno>
                <note type="charter">MS. Ch. Norfolk 4</note>
             </place>
@@ -314,6 +314,9 @@
                <placeName type="formInDocument">'Titeleshale' called 'Peekhalle'</placeName>
                <region type="parish">Tittleshall</region>
                <region type="county">Norfolk</region>
+               <bibl>
+                  Francis Blomefield, 'Launditch Hundred: Titleshale', in An Essay Towards A Topographical History of the County of Norfolk: Volume 10 (London, 1809), pp. 60-71. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol10/pp60-71 [accessed 17 May 2021].
+               </bibl>
                <note type="charter">MS. Ch. Norfolk 730</note>
             </place>
             
@@ -1404,7 +1407,7 @@
                <note type="charter">MS. Ch. Norfolk 746</note>
             </place>
             
-           <place type="manor">
+           <place type="manor"><!-- check: actually Soham?  -->
                <placeName type="index">Sames</placeName>
               <placeName type="formInDocument">Saham in county Cambridge</placeName>
               <region type="parish">Cottenham</region>
@@ -3028,11 +3031,24 @@
                <placeName type="formInDocument">Blafeld</placeName>
                <placeName type="formInDocument">Blafeud</placeName>
                <placeName type="formInDocument">Blaufeud</placeName>
+               <placeName type="formInDocument">Blofeld</placeName>
+               <placeName type="formInDocument">Blofield</placeName>
                <region type="parish">Blofield</region>
                <region type="county">Norfolk</region>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Blofield</idno>
                <idno>https://www.wikidata.org/wiki/Q1801507</idno>
-               <bibl>Francis Blomefield, 'Blofield Hundred: Blofield', in An Essay Towards A Topographical History of the County of Norfolk: Volume 7 (London, 1807), pp. 209-211. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp209-211 [accessed 24 March 2021].</bibl>
+               <bibl>Francis Blomefield, 'Blofield Hundred: Blofield', in An Essay Towards A Topographical History of the County of Norfolk: Volume 7 (London, 1807), pp. 209-211. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp209-211 [accessed 26 March 2021].</bibl>
+               <note type="charter">MS. Ch. Norfolk 27</note>
+               <note type="charter">MS. Ch. Norfolk 30</note>
+               <note type="charter">MS. Ch. Norfolk 34</note>
+               <note type="charter">MS. Ch. Norfolk 35</note>
+               <note type="charter">MS. Rolls Norfolk 19</note>
+               <note type="charter">MS. Ch. Norfolk 28</note>
+               <note type="charter">MS. Ch. Norfolk 29</note>
+               <note type="charter">MS. Ch. Norfolk 385</note>
+               <note type="charter">MS. Ch. Norfolk 402</note>
+               <note type="charter">MS. Ch. Norfolk 400</note>
+               <note type="charter">MS. Ch. Norfolk 500</note>
                <note type="charter">MS. Ch. Norfolk 376</note>
                <note type="charter">MS. Ch. Norfolk 373</note>
                <note type="charter">MS. Ch. Norfolk 375</note>
@@ -3063,27 +3079,6 @@
                <note type="charter">MS. Ch. Norfolk 583</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Blofield</placeName>
-               <placeName type="formInDocument">Blofeld</placeName>
-               <placeName type="formInDocument">Blofield</placeName>
-               <region type="parish">Blofield</region>
-               <region type="county">Norfolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/NFK/Blofield</idno>
-               <idno>https://www.wikidata.org/wiki/Q1801507</idno>
-               <bibl>Francis Blomefield, 'Blofield Hundred: Blofield', in An Essay Towards A Topographical History of the County of Norfolk: Volume 7 (London, 1807), pp. 209-211. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp209-211 [accessed 26 March 2021].</bibl>
-               <note type="charter">MS. Ch. Norfolk 27</note>
-               <note type="charter">MS. Ch. Norfolk 30</note>
-               <note type="charter">MS. Ch. Norfolk 34</note>
-               <note type="charter">MS. Ch. Norfolk 35</note>
-               <note type="charter">MS. Rolls Norfolk 19</note>
-               <note type="charter">MS. Ch. Norfolk 28</note>
-               <note type="charter">MS. Ch. Norfolk 29</note>
-               <note type="charter">MS. Ch. Norfolk 385</note>
-               <note type="charter">MS. Ch. Norfolk 402</note>
-               <note type="charter">MS. Ch. Norfolk 400</note>
-               <note type="charter">MS. Ch. Norfolk 500</note>
-            </place>
        
             <place type="place">
                <placeName type="index">Bodham</placeName>
@@ -3481,7 +3476,10 @@
             
             <place type="place">
                <placeName type="index">Cesterton [unidentified]</placeName>
-               <!--not sure which of the Chestertons this would be-->
+               <!--not sure which of the Chestertons this would be
+               
+               Wm Breht of, nr HILDERSTON? 
+               -->
                <placeName type="formInDocument">Cesterton</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>
@@ -6010,13 +6008,16 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Mount Flaston [unidentified]</placeName>
+               <placeName type="index">Montefiascone</placeName>
                <!--Montefiascone?-->
-               <placeName type="formInDocument">Mount Flaston</placeName>
+               <placeName type="formInDocument">Montefiascone</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>
                <idno></idno-->
+               <country>Italy</country>
                <note type="charter">MS. Rolls Norfolk 82</note>
+               <idno>https://www.wikidata.org/wiki/Q176142</idno>
+               <!-- see https://www.british-history.ac.uk/cal-papal-registers/brit-ie/vol1/pp380-393 -->
             </place>
             
             <place type="place">
@@ -6873,7 +6874,7 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Saamez [unidentified]</placeName>
+               <placeName type="index">Saamez [unidentified]</placeName><!-- sames in cottenham????? -->
                <placeName type="formInDocument">Saamez</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>
