@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_500060">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. F. 60</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_F_60</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_F_60" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 60</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <!--change if necessary-->
+                  <msItem>
+                     <p>
+                        <placeName>Oxford, St. Martin’s</placeName>
+                        <!--insert summary text from Wigram if necessary.-->
+
+Memorandum, in English, of an agreement made 24 September 1 Ric. III. at Oxford in the presence of William Waynflete, bp. of Winchester, between St. F. and Magdalen College. <origDate>24 Sept. <supplied>1483.</supplied>
+                        </origDate>
+The Priory is to pay (i) 2/2 rent for a messuage and curtilage lying by the East gate by the Priory gate, (ii) 2/- rent for a ‘way’ towards the ground of St. F. (iii) 2/- rent for a stair between two shops in St. Martin’s parish, (iv) 2/- for repairs to a tenement of the prior ‘beside the Carfax, the College having lost 10 years’ profit from it. (v) 8/8 rent for a house by the town wall in the parish of St. Ebbe.
+The College is to pay (i) 5/8 rent for a house called Swynebrok, late Thomas Hall’s house in the parish of Allhallows. (ii) 5/8 for a hall called Yng Hall in St. Mary’s parish. (iii) 3/5 for a house in the parish of St. Michael in the south. (iv) 8/8 for a house on the north side of the church in the parish of Allhallows. (v) 3/4 for a house by a way leading from the high road to a grange of the priory. (vi) 76/8 for the price of timber cut and carried off thence by the College. (vii) (sum not stated) for timber, faggots, stones, and lime, witheld by the College from the first foundation unto this time.
+An exchange was made for a house in St. Ebbe’s against the west side of the churchyard on the north side of the street leading to Frideswide Hall, for a piece of land in St. John’s at the east end of Crope lane. The College are to have a house belonging to the Priory above the College tenement on the north side of Carfax, for which the Priory are to have the whole fishing in the Cherwell from the East bridge to the King’s Mill, leaving to the College their right of free passage. The College are to see that no trees overhang on their side that might hinder river traffic or fishing.
+The priory hold a house and garden in St. Ebbe’s by exchange for a garden in Cat Street, which Lucy Glover (and now John Asshendon Glover) held, and for a little garden that Richard Leke holds.
+This indenture is not to be prejudicial to the priory’s right to a quit-rent from a house called ‘Feyre Yeomannys Housse’ in St. Mary Magdalen’s.
+The College have returned the day of the delivery of this indenture a bond of £40 in which the Priory was bound to them.
+</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"><!--change if necessary-->
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p><!--move text from above or delete, as appropriate --></p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

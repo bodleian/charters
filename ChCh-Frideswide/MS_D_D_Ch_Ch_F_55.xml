@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_500055">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. F. 55</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_F_55</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_F_55" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 55</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <!--change if necessary-->
+                  <msItem>
+                     <p>
+                        <placeName>Oxford, St. Aldate’s</placeName>
+                        <!--insert summary text from Wigram if necessary.-->
+
+Richard of Wodehay, mayor of Oxford, inspects, at the request of Robert son of Walter Portreve of Brehull [Brill], an enrollment of the following writing read in the Hustings at Oxford on Monday, the feast of S. Hillary, 38 Ed. III: Richard of Wodehay, Hugh de Saundresdone, rector St Peter le Bailey’s, Adam of Plumpton, clerk, Walter of Baldyndone, rector of the church of Upledecombe, John of Hertwell, and Walter of Clyne of Oxford, grant to R. f. W. P. of Brehull, 40/- rent from the tenements late of John of St. F., viz. 4 messuages, 7 shops, and 7½ acres of meadow. [For the positions of these see the <hi rend="italic">Cartulary,</hi> no. 314.] Witnesses: William of Godesale and Geoffrey of Lodewelle, bailiffs, Walter of Clyne, [<gap/>] of Benham, John of N[or]tone, John G[ib]b[es], John of Northampton. Given at Oxford. <origDate>
+                           <supplied>Jan. 13, 1365.</supplied>
+                        </origDate> 
+                        <origDate>1 Jan. 38 Ed. III.</origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"><!--change if necessary-->
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p><!--move text from above or delete, as appropriate --></p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="28" to="28">28</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
