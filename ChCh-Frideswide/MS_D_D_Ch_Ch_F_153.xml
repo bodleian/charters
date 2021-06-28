@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_500161">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600161">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +52,10 @@
                         <placeName>Oxford, St. Michael’s, South</placeName>
                         <!--insert summary text from Wigram if necessary.-->
 
-W. B. grants power of attorney to <persName><forename>John</forename>  <surname>Clerke</surname></persName>, alderman, to deliver seisin of the same to I. M., T. B., and P. L. <origDate>25 Oct. <supplied>1454.</supplied>
+W. B. grants power of attorney to <persName>
+                           <forename>John</forename> 
+                           <surname>Clerke</surname>
+                        </persName>, alderman, to deliver seisin of the same to I. M., T. B., and P. L. <origDate>25 Oct. <supplied>1454.</supplied>
                         </origDate>
                      </p>
                   </msItem>
@@ -74,7 +77,7 @@ W. B. grants power of attorney to <persName><forename>John</forename>  <surname>
                      <recordHist>
                         <source>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
-                                <citedRange unit="page" from="" to=""/>
+                                <citedRange unit="page" from="47" to="47">47</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
