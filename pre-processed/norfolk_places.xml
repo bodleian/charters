@@ -13,6 +13,8 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <!-- a-c checked 19.7.21 -->
+   <!-- d-rome checked 23.7.21 -->
    <text>
       <body>
         
@@ -453,24 +455,15 @@
             </place>
             
             <place type="manor">
-               <placeName type="index">Blackworth</placeName>
+               <placeName type="index">Blackford alias Blackworth</placeName>
+               <placeName type="formInDocument">Blackwood</placeName>
                <placeName type="formInDocument">Blacwrth</placeName>
                <region type="parish">Stoke Holy Cross</region>
                <region type="county">Norfolk</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F238026</idno>
-               <note type="charter">MS. Ch. Norfolk 77</note>
+               <note type="charter">MS. Ch. Norfolk 77</note> <note type="charter">MS. Ch. Norfolk 78</note>
             </place>
             
-            <place type="manor">
-               <placeName type="index">Blackwood [unidentified]</placeName>
-               <placeName type="formInDocument">Blackwood</placeName>
-               <!--Could this be Blackford manor a.k.a. Blackworth Hall in Stoke Holy Cross, Norfolk? The doc is date in Stoke Holy Cross. 
-               https://discovery.nationalarchives.gov.uk/details/c/F238026-->
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Norfolk 78</note>
-            </place>
             
             <place type="manor">
                <placeName type="index">Blofield</placeName>
@@ -545,12 +538,13 @@
             </place>
             
            <place type="manor">
-              <placeName type="index">Burghalle [unidentified]</placeName>
+              <placeName type="index">'Burghalle'</placeName>
                <placeName type="formInDocument">Burghalle</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Norfolk 568</note><!--in Wheatacre?-->
+               <region type="parish">Wheatacre</region>
+               <region type="county">Norfolk</region>
+               <note type="charter">MS. Ch. Norfolk 568</note>
+              <note>To be identified with the later manor of Whetacre Burgh? https://discovery.nationalarchives.gov.uk/details/c/F237012</note>
+              <!-- the manors in MS. Ch. Norfolk 568 are not known to Blomefield but must all be in or near Wheatacre -->
             </place>
             
             <place type="manor">
@@ -778,11 +772,11 @@
             </place>
             
            <place type="manor">
-              <placeName type="index">Esthalle [unidentified]</placeName>
+              <placeName type="index">'Esthalle'</placeName>
                <placeName type="formInDocument">Esthalle</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Whetacre</region>
+               <region type="county">Norfolk</region>
+               <idno></idno>
               <note type="charter">MS. Ch. Norfolk 568</note><!--in Wheatacre?-->
             </place>
             
@@ -884,14 +878,7 @@
                <note type="charter">MS. Ch. Norfolk 119</note>
             </place>
             
-           <place type="manor">
-              <placeName type="index">Great Hautbois</placeName>
-               <placeName type="formInDocument">Great Hawboys</placeName>
-              <region type="parish">Great Hautbois</region>
-               <region type="county">Norfolk</region>
-              <idno>https://discovery.nationalarchives.gov.uk/details/c/F240104</idno>
-               <note type="charter">MS. Ch. Norfolk 165</note>
-            </place>
+          
             
             <place type="manor">
                <placeName type="index">Halwood-Noijons</placeName>
@@ -914,11 +901,15 @@
             </place>
             
             <place type="manor">
-               <placeName type="index">Hargresse [unidentified]</placeName>
+               <placeName type="index">'Hargrass'</placeName>
+               <placeName type="variant">Hargraffe</placeName>
                <placeName type="formInDocument">Hargresse alias Hargrosse</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Wood Dalling</region>
+               <region type="county">Norfolk</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F239599</idno>
+               <bibl>
+                  Francis Blomefield, 'Eynford Hundred: Wood-Dalling', in An Essay Towards A Topographical History of the County of Norfolk: Volume 8 (London, 1808), pp. 317-326. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp317-326 [accessed 23 July 2021].
+               </bibl>
                <note type="charter">MS. Ch. Norfolk 583</note>
             </place>
             
@@ -926,11 +917,13 @@
                <placeName type="index">Great Hautbois</placeName>
                <placeName type="formInDocument">Hauboys</placeName>
                <placeName type="formInDocument">Haubois</placeName>
+               <placeName type="formInDocument">Great Hawboys</placeName>
                <region type="parish">Great Hautbois</region>
                <region type="county">Norfolk</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F240104</idno>
                <note type="charter">MS. Ch. Norfolk 569</note>
                <note type="charter">MS. Ch. Norfolk 415</note>
+               <note type="charter">MS. Ch. Norfolk 165</note>
             </place>
             
             <place type="manor">
@@ -961,6 +954,9 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Norfolk 416</note>
+              <bibl>For 'Empolis' see 
+                 Francis Blomefield, 'Blofield Hundred: Plumstede Parva', in An Essay Towards A Topographical History of the County of Norfolk: Volume 7 (London, 1807), pp. 240-248. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol7/pp240-248 [accessed 23 July 2021].
+              </bibl>
             </place>
             
             <place type="manor">
@@ -1074,7 +1070,7 @@
             </place>
            
             <place type="manor">
-               <placeName type="index">Iklyngham Bernerys</placeName>
+               <placeName type="index">Icklingham Bernerys</placeName>
                <placeName type="formInDocument">Iklyngham Bernerys</placeName>
                <region type="parish">Icklingham</region>
                <region type="county">Suffolk</region>
@@ -1161,7 +1157,7 @@
             </place>
             
            <place type="manor">
-               <placeName type="index">Lynn Bishop's</placeName>
+              <placeName type="index">Bishop's Lynn </placeName>
                <placeName type="formInDocument">Lynn Bishops</placeName>
                <region type="parish">King's Lynn</region>
                <region type="county">Norfolk</region>
@@ -1385,16 +1381,7 @@
                <note type="charter">MS. Rolls Norfolk 19</note>
             </place>
             
-           <place type="manor">
-               <placeName type="index">Rothing Hall</placeName>
-               <placeName type="formInDocument">Routhyng</placeName>
-              <placeName type="formInDocument">Routhynghalle</placeName>
-              <region type="parish">South Walsham</region>
-               <region type="county">Norfolk</region>
-              <idno>https://discovery.nationalarchives.gov.uk/details/c/F239118</idno>
-               <note type="charter">MS. Rolls Norfolk 69</note>
-               <note type="charter">MS. Rolls Norfolk 66</note>
-            </place>
+         
             
            <place type="manor">
               <placeName type="index">Runham</placeName>
@@ -1407,12 +1394,14 @@
                <note type="charter">MS. Ch. Norfolk 746</note>
             </place>
             
-           <place type="manor"><!-- check: actually Soham?  -->
-               <placeName type="index">Sames</placeName>
+           <place type="manor">
+              <placeName type="index">Soham</placeName>
               <placeName type="formInDocument">Saham in county Cambridge</placeName>
-              <region type="parish">Cottenham</region>
+              <region type="parish">Soham</region>
                <region type="county">Cambridgeshire</region>
-              <idno>https://discovery.nationalarchives.gov.uk/details/c/F274884</idno>
+              <bibl>
+                 A F Wareham and A P M Wright, 'Soham: Manors', in A History of the County of Cambridge and the Isle of Ely: Volume 10, Cheveley, Flendish, Staine and Staploe Hundreds (North-Eastern Cambridgeshire) (London, 2002), pp. 500-507. British History Online http://www.british-history.ac.uk/vch/cambs/vol10/pp500-507 [accessed 23 July 2021].
+              </bibl> <idno>https://discovery.nationalarchives.gov.uk/details/c/F274884</idno>
                <note type="charter">MS. Ch. Norfolk 4</note> 
             </place>
             
@@ -1617,12 +1606,12 @@
             </place>
             
            <place type="manor">
-              <placeName type="index">Qwotacre [unidentified]</placeName>
-               <placeName type="formInDocument">Qwotacre</placeName><!--sic in print, but could this actually be Wheatacre?-->
+              <placeName type="index">Wheatacre</placeName>
+               <placeName type="formInDocument">Qwotacre</placeName>
+              
                <placeName type="formInDocument">QUOTACRE</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Wheatacre</region>
+               <region type="county">Norfolk</region>
                <note type="charter">MS. Ch. Norfolk 415</note>
             </place>
             
@@ -1631,6 +1620,8 @@
                <placeName type="formInDocument">Rothenhall</placeName> 
                <placeName type="manor">Routhynghalle</placeName>
                <placeName type="formInDocument">ROTHYNG</placeName>
+               <placeName type="formInDocument">Routhyng</placeName>
+               <placeName type="formInDocument">Routhynghalle</placeName>
                <region type="parish">South Walsham</region>
                <region type="county">Norfolk</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F239118</idno>
@@ -1644,6 +1635,9 @@
                <note type="charter">MS. Ch. Norfolk 113</note><!--with Freethorpe-->
                <note type="charter">MS. Ch. Norfolk 114</note><!--in Freethorpe with Molton alias Meughton hall-->
                <note type="charter">MS. Ch. Norfolk 116</note><!--in Freethorpe with Molton alias Meughton hall-->
+           
+               <note type="charter">MS. Rolls Norfolk 69</note>
+               <note type="charter">MS. Rolls Norfolk 66</note>
             </place>
             
             <place type="manor">
@@ -1652,7 +1646,7 @@
                <region type="parish">Bretenham</region>
                <region type="county">Norfolk</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F239119</idno>
-               <bibl>Francis Blomefield, 'Hundred of Shropham: Bretenham', in An Essay Towards A Topographical History of the County of Norfolk: Volume 1 (London, 1805), pp. 440-445. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol1/pp440-445 [accessed 30 March 2021].</bibl>
+               <bibl>Francis Blomefield, 'Hundred of Shropham: Bretenham', in An Essay Towards A Topographical History of the County of Norfolk: Volume 1 (London, 1805), pp. 440-445. British History Online  http://www.british-history.ac.uk/topographical-hist-norfolk/vol1/pp440-445 [accessed 30 March 2021].</bibl>
                <note type="charter">MS. Rolls Norfolk 59</note><!--with Catts hall, Brettenham-->
             </place>
             
@@ -2527,15 +2521,17 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Norfolk 156</note>
+               <!-- Christopher Calthorpe of, 9 Js 1. not found 19.7.21 -->
             </place>
             
             <place type="place">
-               <placeName type="index">Aldely [unidentified]</placeName>
+               <placeName type="index">Aldeby</placeName>
                <placeName type="formInDocument">Aldely</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Aldeby</region>
+               <region type="county">Norfolk</region>
+               <idno></idno>
                <note type="charter">MS. Ch. Norfolk 568</note>
+               <!-- ought to be nr Whetacre. probably Aldeby not Aldely -->
             </place>
            
             <place type="place">
@@ -2671,7 +2667,9 @@
                <region type="parish">Aldington</region>
                <region type="county">Kent</region>
                <idno>https://www.genuki.org.uk/big/eng/KEN/Aldington</idno>
-               <!--or Addington, Surrey? Both places have abp. Canterbury's residences later on <bibl>'Parishes: Addington', in A History of the County of Surrey: Volume 4, ed. H E Malden (London, 1912), pp. 164-168. British History Online http://www.british-history.ac.uk/vch/surrey/vol4/pp164-168 [accessed 22 March 2021].</bibl>-->
+               <!--or Addington, Surrey? Both places have abp. Canterbury's residences later on <bibl>'Parishes: Addington', in A History of the County of Surrey: Volume 4, ed. H E Malden (London, 1912), pp. 164-168. British History Online http://www.british-history.ac.uk/vch/surrey/vol4/pp164-168 [accessed 22 March 2021].</bibl>
+              Aldington in Kent fits the spelling
+               -->
                <note type="charter">MS. Rolls Norfolk 82</note>
             </place>
            
@@ -2775,12 +2773,13 @@
             </place>
           
             <place type="place">
-               <placeName type="index">Batlesthorp [unidentified]</placeName>
+               <placeName type="index">Battledore (?)</placeName>
                <placeName type="formInDocument">Batlesthorp</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Stiffkey (?)</region>
+               <region type="county">Norfolk</region>
+               <idno></idno>
                <note type="charter">MS. Ch. Norfolk 158</note>
+               <bibl>W. Rye, <title>Scandinavian names in Norfolk: Hundred Courts ...</title>, 2nd ed. (1920) 11</bibl>
             </place>
             
             <place type="place">
@@ -2797,7 +2796,7 @@
                <placeName type="index">East Beckham</placeName>
                <placeName type="formInDocument">Becham</placeName>
                <placeName type="formInDocument">East Beckham</placeName>
-               <region type="parish">Beckham, East</region>
+               <region type="parish">East Beckham</region>
                <region type="county">Norfolk</region>
                <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Beckham%2C+East/532869e6b47fc40bab000d92-Beckham%2C+East+Beckham</idno>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Beckham_East</idno>
@@ -2871,10 +2870,10 @@
             </place>
            
             <place type="place">
-               <placeName type="index">http://epns.nottingham.ac.uk/browse/id/532869e6b47fc40bab000d96</placeName>
+               <placeName type="index">Belaugh</placeName>
                <placeName type="formInDocument">Belage</placeName>
                <placeName type="formInDocument">Belhac</placeName> 
-               <region type="parish">http://epns.nottingham.ac.uk/browse/id/532869e6b47fc40bab000d96</region>
+               <region type="parish">Belaugh</region>
                <region type="county">Norfolk</region>
                <idno>http://epns.nottingham.ac.uk/browse/id/532869e6b47fc40bab000d96</idno>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Belaugh</idno>
@@ -3150,15 +3149,17 @@
                <note type="charter">MS. Ch. Norfolk 539</note>
             </place>
             
-            <place type="place">
+            <!--<place type="place">
                <placeName type="index">Bremmysgrove [unidentified]</placeName>
                <placeName type="formInDocument">Bremmysgrove</placeName>
-               <!-- There is Bromsgrove in Worcesterhire (https://www.genuki.org.uk/big/eng/WOR/Bromsgrove), perhaps that?
+               <!-\- There is Bromsgrove in Worcesterhire (https://www.genuki.org.uk/big/eng/WOR/Bromsgrove), perhaps that?
                <region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Norfolk 86</note>
-            </place>
+               assumed to be Bromsgrove, Worcs
+               
+            </place>-->
             
             <place type="place">
                <placeName type="index">Bridgham</placeName>
@@ -3172,11 +3173,12 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Broomehall [unidentified]</placeName>
+               <placeName type="index">Broomholm</placeName>
+               <placeName type="variant">Bromholm</placeName>
                <placeName type="formInDocumenrt">Broomehall</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Bacton</region>
+               <region type="county">Norfolk</region>
+               <idno></idno>
                <note type="charter">MS. Ch. Norfolk 552</note>
             </place>
             
@@ -3202,6 +3204,7 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Norfolk 618</note>
+               <!-- person of. doubtless one of the many Burnhams. 19.7.21 -->
             </place>
             
             <place type="place">
@@ -3236,6 +3239,7 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Norfolk 167</note>
+               <!-- not found 19.7.21. near Hingham??? -->
             </place>
             
             <place type="place">
@@ -3261,12 +3265,13 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Bykerston [unidentified]</placeName>
+               <placeName type="index">Bickerston</placeName>
+               <placeName type="variant">Bixton</placeName>
                <placeName type="formInDocument">Bykerston</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Barnham Broom</region>
+               <region type="county">Norfolk</region>
                <note type="charter">MS. Ch. Norfolk 3b</note>
+               <bibl>Formerly a separate parish, united with Barnham Broom in 1680 (Blomefield ii.377)</bibl>
             </place>
             
             <place type="place">
@@ -3301,12 +3306,13 @@
             
             <place type="place">
                <placeName type="index">Congham</placeName>
-               <placeName type="formInDocument">Cangham</placeName>
+               <placeName type="formInDocument">Cangham</placeName>  <placeName type="formInDocument">Congham</placeName>
                <region type="parish">Congham</region>
                <region type="county">Norfolk</region>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Congham</idno>
                <bibl>Francis Blomefield, 'Freebridge Hundred and Half: Congham', in An Essay Towards A Topographical History of the County of Norfolk: Volume 8 (London, 1808), pp. 382-391. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp382-391 [accessed 26 March 2021].</bibl>
                <note type="charter">MS. Ch. Norfolk 238a</note>
+               <note type="charter">MS. Ch. Norfolk 75</note>
             </place>
           
             <place type="place">
@@ -3378,16 +3384,36 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Caston</placeName>
-               <placeName type="formInDocument">Caston</placeName>
+               <placeName type="index">Kerdeston alias Cardeston</placeName>
                <placeName type="formInDocument">Cardeston alias Caston</placeName>
-               <region type="parish">Caston</region>
+               <region type="parish">Reepham</region><!-- check -->
                <region type="county">Norfolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/NFK/Caston</idno>
-               <bibl>Francis Blomefield, 'Hundred of Wayland: Caston', in An Essay Towards A Topographical History of the County of Norfolk: Volume 2 (London, 1805), pp. 282-286. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol2/pp282-286 [accessed 26 March 2021].</bibl>
+               <bibl>
+                  Francis Blomefield, 'Eynford Hundred: Kerdeston or Cardeston, cum Reepham', in An Essay Towards A Topographical History of the County of Norfolk: Volume 8 (London, 1808), pp. 241-244. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp241-244 [accessed 19 July 2021].
+               </bibl>
                <note type="charter">MS. Ch. Norfolk 420</note>
-               <note type="charter">MS. Ch. Norfolk 155</note>
             </place>
+            
+            <place type="place">
+               <placeName type="index">Cawston</placeName>
+               <placeName type="formInDocument">Cawston</placeName>
+               <placeName type="formInDocument">Causton</placeName>
+               <region type="parish">Cawston</region>
+               <region type="county">Norfolk</region>
+               <note type="charter">MS. Ch. Norfolk 420</note>
+               <note type="charter">MS. Ch. Norfolk 59</note>
+               <note type="charter">MS. Ch. Norfolk 60</note>
+               <note type="charter">MS. Ch. Norfolk 61</note>
+               <note type="charter">MS. Ch. Norfolk 62</note>
+               <note type="charter">MS. Ch. Norfolk 63a</note>
+               <note type="charter">MS. Ch. Norfolk 64</note>
+               <note type="charter">MS. Ch. Norfolk 63b</note>
+               <note type="charter">MS. Ch. Norfolk 65</note>
+               <note type="charter">MS. Ch. Norfolk 66</note>
+               <!-- the manorial descent in Blomefield shows that Ch. 66, and presumably those before, relate to Cawston not Caston -->
+               <note type="charter">MS. Ch. Norfolk 155</note><!-- George Spooner of -->
+            </place>
+            
             
             <place type="place">
                <placeName type="index">Caister next Yarmouth</placeName>
@@ -3454,31 +3480,14 @@
                <note type="charter">MS. Ch. Norfolk 14</note>
             </place>
          
-            <place type="place">
-               <placeName type="index">Caston</placeName>
-               <placeName type="formInDocument">Cawston</placeName>
-               <placeName type="formInDocument">Causton</placeName>
-               <region type="parish">Caston</region>
-               <region type="county">Norfolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/NFK/Caston</idno>
-               <bibl>Francis Blomefield, 'Hundred of Wayland: Caston', in An Essay Towards A Topographical History of the County of Norfolk: Volume 2 (London, 1805), pp. 282-286. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol2/pp282-286 [accessed 29 March 2021].</bibl>
-               <note type="charter">MS. Ch. Norfolk 59</note>
-               <note type="charter">MS. Ch. Norfolk 60</note>
-               <note type="charter">MS. Ch. Norfolk 61</note>
-               <note type="charter">MS. Ch. Norfolk 62</note>
-               <note type="charter">MS. Ch. Norfolk 63a</note>
-               <note type="charter">MS. Ch. Norfolk 64</note>
-               <note type="charter">MS. Ch. Norfolk 63b</note>
-               <note type="charter">MS. Ch. Norfolk 65</note>
-               <note type="charter">MS. Ch. Norfolk 66</note>
-               <note type="charter">MS. Ch. Norfolk 420</note>
-            </place>
             
             <place type="place">
                <placeName type="index">Cesterton [unidentified]</placeName>
                <!--not sure which of the Chestertons this would be
                
                Wm Breht of, nr HILDERSTON? 
+               
+               not found 19/.7.21
                -->
                <placeName type="formInDocument">Cesterton</placeName>
                <!--<region type="parish"></region>
@@ -3527,11 +3536,10 @@
             </place>
            
             <place type="place">
-               <placeName type="index">Chetestan [unidentified]</placeName>
+               <placeName type="index">Chediston</placeName>
                <placeName type="formInDocument">Chetestan</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Chediston</region>
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Norfolk 158</note>
             </place>
           
@@ -3581,15 +3589,7 @@
                <note type="charter">MS. Ch. Norfolk 74</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Congham</placeName>
-               <placeName type="formInDocument">Congham</placeName>
-               <region type="parish">Congham</region>
-               <region type="county">Norfolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/NFK/Congham</idno>
-               <bibl>Francis Blomefield, 'Freebridge Hundred and Half: Congham', in An Essay Towards A Topographical History of the County of Norfolk: Volume 8 (London, 1808), pp. 382-391. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp382-391 [accessed 6 April 2021].</bibl>
-               <note type="charter">MS. Ch. Norfolk 75</note>
-            </place>
+           
             
             <place type="place">
                <placeName type="index">Corston [unidentified]</placeName>
@@ -3599,6 +3599,7 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Norfolk 177</note>
+               <!-- not found 19/7/21, unless Caston??? -->
             </place>
             
             <place type="place">
@@ -3699,11 +3700,10 @@
             </place>
             
             <place type="place">
-               <placeName>de la More of Chevington [unidentified]</placeName><!--a chapel-->
-               <placeName type="formInDocument">de la More of Chevington</placeName>
-               <!--assumption that this chapel is in Chevington, Suffolk
+               <placeName>Chevington</placeName><!--a chapel-->
+               <placeName type="formInDocument">Chevington</placeName>
                <region type="parish">Chevington</region>
-               <region type="county">Suffolk</region>-->
+               <region type="county">Suffolk</region>
                <!--<idno></idno>-->
                <note type="charter">MS. Ch. Norfolk 440</note>
             </place>
@@ -3745,7 +3745,7 @@
                <placeName type="formInDocument">Dodyngton</placeName>  
                <placeName type="formInDocument">Dudelingtone, Norwich diocese</placeName>
                <placeName type="formInDocument">Dudlyngton</placeName>
-               <region type="parish">Doddington </region>
+               <region type="parish">Doddington</region>
                <region type="county">Cambridgeshire</region>
                <idno>https://www.genuki.org.uk/big/eng/CAM/Doddington</idno> 
                <idno>https://www.wikidata.org/wiki/Q1981435</idno>
@@ -4042,7 +4042,7 @@
             <place type="place"><!--from MSS catalogue: xml:id="place_7000457"-->
                <placeName type="index">Florence</placeName>
                <placeName type="formInDocument">Florence</placeName>
-               <region type="country">Italy</region><!--how do we mark places outside England?-->
+               <region type="country">Italy</region>
                <idno>https://www.wikidata.org/wiki/Q2044</idno>
                <note type="charter">MS. Ch. Norfolk 553b</note>
             </place>
@@ -4054,6 +4054,8 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Norfolk 143</note>
+               <note>Perhaps Fundenhall?</note>
+               <!-- Wm Markaunt of; poss nr Forncett/Griston -->
             </place>
             
             <place type="place">
@@ -4369,11 +4371,10 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Gouthorp [unidentified]</placeName><!--Gunthorpe? chk charter itself-->
+               <placeName type="index">Gunthorpe</placeName>
                <placeName type="formInDocument">Gouthorp</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Gunthorpe</region>
+               <region type="county">Norfolk</region>
                <note type="charter">MS. Ch. Norfolk 123</note>
             </place>
             
@@ -4542,6 +4543,7 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Norfolk 22</note>
+               <!-- person of -->
             </place>
             
             <place type="place">
@@ -4764,7 +4766,7 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Asardesholm</placeName>
+               <placeName type="index">Asardesholm [lost]</placeName>
                <placeName type="formInDocument">Hasardes Holm</placeName>
                <region type="parish">Potter Heigham</region>
                <region type="county">Norfolk</region>
@@ -4772,15 +4774,7 @@
                <note type="charter">MS. Ch. Norfolk 605</note>
             </place>
              
-            <place type="place">
-               <placeName type="index">Hellesdon</placeName>
-               <placeName type="formInDocument">Haylesdon</placeName>
-               <region type="parish">Hellesdon</region>
-               <region type="county">Norfolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/NFK/Hellesdon</idno>
-               <idno>https://www.wikidata.org/wiki/Q2596192</idno>
-               <note type="charter">MS. Ch. Norfolk 738</note>
-            </place>
+           
             
             <place type="place">
                <!--could this be Hawarden, Flintshire, Wales?-->
@@ -4790,6 +4784,7 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Norfolk 172</note>
+               <!-- Wm Pette parson of -->
             </place>
             
             <place type="place">
@@ -4960,6 +4955,7 @@
                <placeName type="formInDocument">Heylesden</placeName>
                <placeName type="formInDocument">Heylesdon</placeName>
                <placeName type="formInDocument">Heylesdon, Norwich diocese</placeName>
+               <placeName type="formInDocument">Haylesdon</placeName>
                <region type="parish">Hellesdon</region>
                <region type="county">Norfolk</region>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Hellesdon</idno>
@@ -4967,7 +4963,7 @@
                <note type="charter">MS. Ch. Norfolk 16</note>
                <note type="charter">MS. Ch. Norfolk 12</note>
                <note type="charter">MS. Ch. Norfolk 188</note>
-            </place>
+               <note type="charter">MS. Ch. Norfolk 738</note></place>
             
             <place type="place">
                <placeName type="index">Hainford</placeName>
@@ -4979,18 +4975,7 @@
                <note type="charter">MS. Ch. Norfolk 227</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Hickling</placeName>
-               <placeName type="formInDocument">Hikelinge</placeName>
-               <placeName type="formInDocument">Hikelyng</placeName>
-               <region type="parish">Hickling</region>
-               <region type="county">Norfolk</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Hickling/532869e6b47fc40bab000dc8-Hickling</idno>
-               <idno>https://www.genuki.org.uk/big/eng/NFK/Hickling</idno>
-               <bibl>Francis Blomefield, 'Happing Hundred: Hickling', in An Essay Towards A Topographical History of the County of Norfolk: Volume 9 (London, 1808), pp. 301-308. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol9/pp301-308 [accessed 9 April 2021].</bibl>
-               <note type="charter">MS. Ch. Norfolk 746</note>
-               <note type="charter">MS. Ch. Norfolk 593</note>
-            </place>
+          
             
             <place type="place"> 
                <placeName type="index">Hindolveston</placeName>
@@ -5203,25 +5188,21 @@
             
             <place type="place">
                <placeName type="index">Hickling</placeName>
-               <placeName type="formInDocument">Hykelyngham</placeName>
+               <placeName type="formInDocument">Hykelyngham</placeName>  <placeName type="formInDocument">Hikelinge</placeName>
+                  <placeName type="formInDocument">Hikelyng</placeName>
+                  <region type="parish">Hickling</region>
                <region type="parish">Hickling</region>
                <region type="county">Norfolk</region>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Hickling</idno>
-               <idno>https://www.wikidata.org/wiki/Q2264846</idno>
+              <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Hickling/532869e6b47fc40bab000dc8-Hickling</idno> <idno>https://www.wikidata.org/wiki/Q2264846</idno>
                <bibl>Francis Blomefield, 'Happing Hundred: Hickling', in An Essay Towards A Topographical History of the County of Norfolk: Volume 9 (London, 1808), pp. 301-308. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol9/pp301-308 [accessed 12 April 2021].</bibl>
                <note type="charter">MS. Ch. Norfolk 213</note>
-            </place>
-            
-            <place type="place">
-               <placeName type="index">Irstead</placeName>
-               <placeName type="formInDocument">Hyrstede</placeName>
-               <region type="parish">Irstead</region>
-               <region type="county">Norfolk</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Irstead/532869e6b47fc40bab000dd3-Irstead</idno>
-               <idno>https://www.genuki.org.uk/big/eng/NFK/Irstead</idno>
-               <bibl>Francis Blomefield, 'Tunstede Hundred: Irstead', in An Essay Towards A Topographical History of the County of Norfolk: Volume 11 (London, 1810), pp. 46-49. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol11/pp46-49 [accessed 12 April 2021].</bibl>
-               <note type="charter">MS. Ch. Norfolk 206</note>
-            </place>
+        
+                  <note type="charter">MS. Ch. Norfolk 746</note>
+                  <note type="charter">MS. Ch. Norfolk 593</note>
+               </place>
+               
+
             
             <place type="place">
                <placeName type="index">Ilketshall</placeName>
@@ -5282,13 +5263,16 @@
             <place type="place">
                <placeName type="index">Irstead</placeName>
                <placeName type="formInDocument">Irstede</placeName>
+               <placeName type="formInDocument">Hyrstede</placeName>
                <region type="parish">Irstead</region>
                <region type="county">Norfolk</region>
                <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Irstead/532869e6b47fc40bab000dd3-Irstead</idno>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Irstead</idno>
                <bibl>Francis Blomefield, 'Tunstede Hundred: Irstead', in An Essay Towards A Topographical History of the County of Norfolk: Volume 11 (London, 1810), pp. 46-49. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol11/pp46-49 [accessed 12 April 2021].</bibl>
                <note type="charter">MS. Rolls Norfolk 82</note>
-            </place>
+          
+                  <note type="charter">MS. Ch. Norfolk 206</note>
+               </place>
             
             <place type="place">
                <placeName type="index">Itteringham</placeName>
@@ -5395,16 +5379,7 @@
                <note type="charter">MS. Ch. Norfolk 541</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Ludham</placeName>
-               <placeName type="formInDocument">Ladam</placeName>
-               <region type="parish">Ludham</region>
-               <region type="county">Norfolk</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Ludham/532869e6b47fc40bab000ddd-Ludham</idno>
-               <idno>https://www.genuki.org.uk/big/eng/NFK/Ludham</idno>
-               <bibl>Francis Blomefield, 'Happing Hundred: Ludham', in An Essay Towards A Topographical History of the County of Norfolk: Volume 9 (London, 1808), pp. 330-333. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol9/pp330-333 [accessed 12 April 2021].</bibl>
-               <note type="charter">MS. Ch. Norfolk 610</note>
-            </place>
+         
             
             <place type="place">
                <placeName type="index">Lamas</placeName>
@@ -5717,6 +5692,7 @@
             <place type="place">
                <placeName type="index">Ludham</placeName>
                <placeName type="formInDocument">Ludham</placeName>
+               <placeName type="formInDocument">Ladam</placeName>
                <region type="parish">Ludham</region>
                <region type="county">Norfolk</region>
                <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Ludham/532869e6b47fc40bab000ddd-Ludham</idno>
@@ -5725,6 +5701,8 @@
                <note type="charter">MS. Ch. Norfolk 194</note>
                <note type="charter">MS. Ch. Norfolk 305</note>
                <note type="charter">MS. Rolls Norfolk 82</note>
+           
+               <note type="charter">MS. Ch. Norfolk 610</note>
             </place>
             
             <place type="place">
@@ -6038,6 +6016,7 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Rolls Norfolk 88</note>
+               <!-- not found 23.7: check orig.? -->
             </place>
             
             <place type="place">
@@ -6123,7 +6102,7 @@
                <!--<region type="parish"></region>
                <region type="county"></region>
                <idno></idno>-->
-               <note type="charter">MS. Rolls Norfolk 88</note>
+               <note type="charter">MS. Rolls Norfolk 88</note><!-- not found 23.7.21 -->
             </place>
             
             <place type="place">
@@ -6367,19 +6346,10 @@
                <!--<region type="parish"></region>
                <region type="county"></region>
                <idno></idno>-->
-               <note type="charter">MS. Rolls Norfolk 88</note>
+               <note type="charter">MS. Rolls Norfolk 88</note><!-- not found 23.7.21 -->
             </place>
             
-            <place type="place">
-               <placeName type="index">Oulton</placeName>
-               <placeName type="formInDocument">Olton</placeName>
-               <region type="parish">Oulton</region>
-               <region type="county">Norfolk</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Oulton/532869e6b47fc40bab000deb-Oulton</idno>
-               <idno>https://www.genuki.org.uk/big/eng/NFK/Oulton</idno>
-               <bibl>Francis Blomefield, 'Hundred of South Erpingham: Olton', in An Essay Towards A Topographical History of the County of Norfolk: Volume 6 (London, 1807), pp. 370-374. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol6/pp370-374 [accessed 13 April 2021].</bibl>
-               <note type="charter">MS. Ch. Norfolk 341</note>
-            </place>
+          
             
             <place type="place">
                <placeName type="index">Ormesby</placeName>
@@ -6438,6 +6408,7 @@
                <placeName type="index">Oulton</placeName>
                <placeName type="formInDocument">Owelton</placeName>
                <placeName type="formInDocument">Owton</placeName>
+               <placeName type="formInDocument">Olton</placeName>
                <region type="parish">Oulton</region>
                <region type="county">Norfolk</region>
                <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Oulton/532869e6b47fc40bab000deb-Oulton</idno>
@@ -6445,6 +6416,10 @@
                <bibl>Francis Blomefield, 'Hundred of South Erpingham: Olton', in An Essay Towards A Topographical History of the County of Norfolk: Volume 6 (London, 1807), pp. 370-374. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol6/pp370-374 [accessed 13 April 2021].</bibl>
                <note type="charter">MS. Ch. Norfolk 555</note>
                <note type="charter">MS. Ch. Norfolk 566</note>
+           
+            
+           
+               <note type="charter">MS. Ch. Norfolk 341</note>
             </place>
             
             <place type="place">
@@ -6592,6 +6567,7 @@
             </place>
             
             <place type="place">
+               <!-- CHECK: ID uncertain -->
                <placeName type="index">Postwick</placeName>
                <placeName type="formInDocument">Possewyk</placeName>
                <region type="parish">Postwick with Witton</region>
@@ -6674,6 +6650,10 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Norfolk 491</note>
+               <!-- <placeName>Elyngham</placeName>, <placeName>Wynston</placeName>, <placeName>Nortonsubcors</placeName>,
+               <placeName>Mendam</placeName>, <placeName>Redvall</placeName>, and <placeName>Geldeston</placeName> -->
+               
+               <!-- check: very likely to be Rednall = Redenhall -->
             </place>
             
             <place type="place">
@@ -6747,16 +6727,7 @@
                <note type="charter">MS. Ch. Norfolk 552</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Ryston</placeName>
-               <placeName type="formInDocument">Ristone</placeName>
-               <placeName type="formInDocument">Riston</placeName>
-               <region type="parish">Ryston</region>
-               <region type="county">Norfolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/NFK/Ryston</idno>
-               <note type="charter">MS. Ch. Norfolk 421</note>
-               <note type="charter">MS. Ch. Norfolk 279</note>
-            </place>
+          
             
             <place type="place">
                <placeName type="index">Rollesby</placeName>
@@ -6858,7 +6829,8 @@
             <place type="place">
                <placeName type="index">Ryston</placeName>
                <placeName type="formInDocument">Ryston</placeName>
-               <placeName type="formInDocument">Rystone</placeName>
+               <placeName type="formInDocument">Rystone</placeName> <placeName type="formInDocument">Ristone</placeName>
+               <placeName type="formInDocument">Riston</placeName>
                <region type="parish">Ryston</region>
                <region type="county">Norfolk</region>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Ryston</idno>
@@ -6871,6 +6843,9 @@
                <note type="charter">MS. Ch. Norfolk 276</note>
                <note type="charter">MS. Ch. Norfolk 277</note>
                <note type="charter">MS. Ch. Norfolk 278</note>
+           
+               <note type="charter">MS. Ch. Norfolk 421</note>
+               <note type="charter">MS. Ch. Norfolk 279</note>
             </place>
             
             <place type="place">
@@ -6880,6 +6855,7 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Rolls Norfolk 56</note>
+               <!-- acct of bailiff of <placeName type="manor">Little Plumstead</placeName>, <placeName type="manor">Kirkeby</placeName>, <placeName type="manor">Saamez</placeName>, <placeName type="manor">South Walsham</placeName>, <placeName type="manor">Witton</placeName>, <placeName type="manor">Randeworth</placeName>, <placeName type="manor">Paunxford</placeName>, and <placeName  type="manor">Brundale</placeName> -->
             </place>
             
             <place type="place">
@@ -7057,6 +7033,8 @@
                <placeName type="formInDocument">Skothowe</placeName>
                <placeName type="formInDocument">Skothow</placeName>
                <placeName type="formInDocument">Sothowe</placeName>
+              <region type="parish">Scottow</region>
+              <region type="county">Norfolk</region>
                <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Scottow/532869e6b47fc40bab000dff-Scottow</idno>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Scottow</idno>
                <bibl>Francis Blomefield, 'Hundred of South Erpingham: Scothowe', in An Essay Towards A Topographical History of the County of Norfolk: Volume 6 (London, 1807), pp. 340-349. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol6/pp340-349 [accessed 23 March 2021].</bibl>
@@ -7237,7 +7215,7 @@
                <placeName type="formInDocument">Slaleye</placeName>
                <placeName type="formInDocument">Sloleye</placeName>
                <region type="parish">Sloley</region>
-               <note type="county">Norfolk</note>
+               <region type="county">Norfolk</region>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Sloley</idno>
                <bibl>Francis Blomefield, 'Tunstede Hundred: Sloley', in An Essay Towards A Topographical History of the County of Norfolk: Volume 11 (London, 1810), pp. 60-62. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol11/pp60-62 [accessed 14 April 2021].</bibl>
                <note type="charter">MS. Ch. Norfolk 483</note>
@@ -7571,21 +7549,36 @@
                <note type="charter">MS. Ch. Norfolk 611</note>
             </place>
             
+           <!-- TODO -->
             <place type="place">
                <placeName type="index">Norwich, St Micheal [unidentified]</placeName>
                <!--Five churches in Norwich dedicated to St Michael: https://www.genuki.org.uk/church_list/44086 -->
-               <placeName type="formInDocument">St. Michael's, Norwich, near the church of St. Christopher</placeName>
+             
                <placeName type="formInDocument">Norwich, St. Michael's</placeName>
                <placeName type="formInDocument">St. Michael's, Norwich</placeName>
                <placeName type="formInDocument">Norwich, St. Michael</placeName>
                <placeName type="formInDocument">St. Michael, Norwich</placeName>
-               <placeName type="formInDocument">Norwich, St. Michael's de Bestreta</placeName>
-               <placeName type="formInDocument">St. Michael's de Bestreta</placeName>
+             
+            
                <!--<region type="parish"></region>-->
                <region type="county">Norfolk</region>
                <!--<idno></idno>-->
-               <note type="charter">MS. Rolls Norfolk 82</note><!--st michael that belonged to holm abbey-->
+              
                <note type="charter">MS. Ch. Norfolk 304</note><!--not enough detail to identify which St Michael-->
+             
+            </place>
+            
+            <place type="place">
+               <placeName type="index">Norwich, St Michael in Conisford</placeName>  <placeName type="formInDocument">St. Michael's, Norwich, near the church of St. Christopher</placeName>
+               <region type="county">Norfolk</region>
+               <note type="charter">MS. Rolls Norfolk 82</note><!--st michael that belonged to holm abbey-->
+            </place>
+            
+            <place type="place">
+               <placeName type="index">Norwich, St Michael at Thorn</placeName>
+               <placeName type="formInDocument">Norwich, St. Michael's de Bestreta</placeName>
+               <placeName type="formInDocument">St. Michael's de Bestreta</placeName>
+               <region type="county">Norfolk</region>
                <note type="charter">MS. Ch. Norfolk 325</note><!--St Michael de Bestreta > not sure which of the three this is-->
             </place>
             
@@ -9008,6 +9001,7 @@
                <note type="charter">MS. Ch. Norfolk 86</note>
             </place>
          </listPlace>
+        
          
          
          <listOrg>
@@ -9386,7 +9380,7 @@
             </org>
             
             <org>
-               <orgName type="index">Glucester, Benedictine abbey of St Peter</orgName>
+               <orgName type="index">Gloucester, Benedictine abbey of St Peter</orgName>
                <orgName type="formInDocument">convent of St. Peter's, Gloucester</orgName>
                <orgName type="formInDocument">St. Peter's, Gloucester</orgName>
                <idno>http://viaf.org/viaf/147036231</idno>
