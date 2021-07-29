@@ -14,6 +14,7 @@
       </fileDesc>
    </teiHeader>
    <text>
+      <!-- A-C checked 29.7.21 -->
       <body>
          
          <listPlace type="manor">
@@ -108,7 +109,7 @@
             </place>
             
             <place type="manor">
-               <placeName type="index">Callis (al. Tylnes)</placeName>
+               <placeName type="index">Callis (alias Tylnes)</placeName>
                <placeName type="formInDocument">Caleis</placeName>
                <placeName type="formInDocument">Caleis in Glemsford</placeName>
                <placeName type="formInDocument">caleys</placeName>
@@ -1845,28 +1846,23 @@
             <place type="place">
                <placeName type="index">Alphamstone</placeName>
                <placeName type="formInDocument">alphamstone, co. essex</placeName>
+               <placeName type="formInDocument">alvenstone, essex</placeName>
                <region type="parish">Alphamstone</region>
                <region type="county">Essex</region>
                <idno>https://epns.nottingham.ac.uk/browse/Essex/Alphamstone/532858eeb47fc40a98000d86-Alphamstone</idno>
                <idno>https://www.genuki.org.uk/big/eng/ESS/Towns/Alphamstone</idno>
                <note type="charter">MS. Ch. Suffolk 278</note>
-            </place>
-            
-            <place type="place">
-               <placeName type="index">Alvenstone [unidentified]</placeName>
-               <placeName type="formInDocument">alvenstone, essex</placeName>
-               <!--<region type="parish"></region>-->
-               <region type="county">Essex</region>
-               <!--<idno></idno>-->
                <note type="charter">MS. Ch. Suffolk 282</note>
             </place>
             
+          
+            
             <place type="place">
-               <placeName type="index">Alyngton [unidentified]</placeName>
+               <placeName type="index">Athelington</placeName>
+               <placeName type="variant">Allington</placeName>
                <placeName type="formInDocument">alyngton</placeName>
-               <!--<region type="parish"></region>-->
-               <!--<region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Athelington</region>
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Suffolk 1086</note>
             </place>
             
@@ -2312,6 +2308,7 @@
                <placeName type="index">Great Barton</placeName>
                <placeName type="formInDocument">berton</placeName>
                <placeName type="formInDocument">bertone</placeName>
+               <placeName type="formInDocument">Bertune</placeName>
                <region type="parish">Great Barton</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/GreatBarton</idno>
@@ -2319,6 +2316,8 @@
                <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 94.</bibl>
                <note type="charter">MS. Ch. Suffolk 96</note><!--reason: other places mentioned in the doc --> 
                <note type="charter">MS. Ch. Suffolk 109</note><!--reason: editor's id-->
+               <note type="charter">MS. Ch. Suffolk 5</note><!--reason: Thomson ID -->
+               <!-- NB not to be confused with Barton Mills -->
             </place>
             
             <place type="place">
@@ -2571,12 +2570,12 @@
             </place>
                
             <place type="place">
-               <placeName type="index">Bradmere [unidentified]</placeName>
-               <!--There's a small water called Broad Mere near Honington; Broadmere/Bradmere was a name of a hundred that ceased to exist by 1100 (http://www.stedmundsburychronicle.co.uk/domesday/bradmere.htm)-->
+               <placeName type="index">Bradmere</placeName>
+               <!-- seems to be a place in Mildenhall. https://heritage.suffolk.gov.uk/Monument/MSF19513 (http://www.stedmundsburychronicle.co.uk/domesday/bradmere.htm)-->
                <placeName type="formInDocument">bradmere</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Mildenhall</region>
+               <region type="county">Suffolk</region>
+               <idno></idno>
                <note type="charter">MS. Ch. Suffolk 26</note>
             </place>
             
@@ -2662,25 +2661,7 @@
                <note type="charter">MS. Ch. Suffolk 247</note>
             </place>
                
-            <place type="place">
-               <placeName type="index">Brandeston</placeName>
-               <placeName type="formInDocument">brandeston</placeName>
-               <placeName type="formInDocument">brandestone</placeName>
-               <placeName type="formInDocument">brandiston</placeName>
-               <placeName type="formInDocument">brandyston</placeName>
-               <region type="parish">Brandeston</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Brandeston</idno>
-               <idno>https://www.wikidata.org/wiki/Q2102542</idno>
-               <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 95.</bibl>
-               <note type="charter">MS. Ch. Suffolk 1254</note>
-               <note type="charter">MS. Ch. Suffolk 1255</note>
-               <note type="charter">MS. Ch. Suffolk 1256</note>
-               <note type="charter">MS. Ch. Suffolk 1254</note>
-               <note type="charter">MS. Ch. Suffolk 245</note>
-               <note type="charter">MS. Ch. Suffolk 1457</note>
-               <note type="charter">MS. Ch. Suffolk 197</note>
-               </place>
+          
                
             <place type="place">
                <placeName type="index">Brandon</placeName>
@@ -2709,6 +2690,11 @@
                <placeName type="formInDocument">brantest</placeName>
                <placeName type="formInDocument">brantestune</placeName>
                <placeName type="formInDocument">branttestune</placeName>
+               <placeName type="index">Brandeston</placeName>
+               <placeName type="formInDocument">brandeston</placeName>
+               <placeName type="formInDocument">brandestone</placeName>
+               <placeName type="formInDocument">brandiston</placeName>
+               <placeName type="formInDocument">brandyston</placeName>
                <region type="parish">Brandeston</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/Brandeston</idno>
@@ -2717,6 +2703,13 @@
                <note type="charter">MS. Ch. Suffolk 196a</note>
                <note type="charter">MS. Ch. Suffolk 1253</note>
                <note type="charter">MS. Ch. Suffolk 1253</note>
+               <note type="charter">MS. Ch. Suffolk 1254</note>
+               <note type="charter">MS. Ch. Suffolk 1255</note>
+               <note type="charter">MS. Ch. Suffolk 1256</note>
+               <note type="charter">MS. Ch. Suffolk 1254</note>
+               <note type="charter">MS. Ch. Suffolk 245</note>
+               <note type="charter">MS. Ch. Suffolk 1457</note>
+               <note type="charter">MS. Ch. Suffolk 197</note>
             </place>
                
             <place type="place">
@@ -2765,14 +2758,13 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Broxton [unidentified]</placeName>
-               <!--There's Broxton in Cheshire, could it be that? https://www.genuki.org.uk/big/eng/CHS/broxton-->
+               <placeName type="index">Browston </placeName>
                <placeName type="formInDocument">broxton</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Suffolk 679a</note>
-               <note type="charter">MS. Ch. Suffolk 1128</note>
+               <region type="parish">Belton</region>
+               <region type="county">Suffolk</region>
+               <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 95.</bibl>
+               <note type="charter">MS. Ch. Suffolk 679a</note><!-- WM Davy of, re Askeby -->
+               <note type="charter">MS. Ch. Suffolk 1128</note><!-- Jn Boys of, nr Somerleyton  -->
             </place>
             
             <place type="place">
@@ -3203,14 +3195,13 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Catteshall</placeName>
+               <placeName type="index">Cattishall</placeName>
                <placeName type="formInDocument">cateshull</placeName>
                <placeName type="formInDocument">catteshel</placeName>
-               <region type="parish">Godalming</region>
-               <region type="county">Surrey</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Godalming/53287103b47fc40c230004fa-Catteshall</idno>
+               <!-- check: which parish? Great Barton? -->
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Suffolk 50</note>
-               <note type="charter">MS. Ch. Suffolk 93</note>
+               <note type="charter">MS. Ch. Suffolk 93</note><!-- both final concords before the judges itinerant at -->
             </place>
             
             <place type="place">
@@ -3410,15 +3401,7 @@
                <note type="charter">MS. Ch. Suffolk 267</note>
                <note type="charter">MS. Ch. Suffolk 266</note>
             </place>
-            
-            <place type="place">
-               <placeName type="index">Clifford's Inn</placeName>
-               <placeName type="formInDocument">clifford's inn</placeName>
-               <!--<region type="parish"></region> not sure of the parish, but in the 'Farringdon Without Ward'-->
-               <region type="county">City of London</region>
-               <idno>https://www.wikidata.org/wiki/Q1101351</idno>
-               <note type="charter">MS. Ch. Suffolk 185</note>
-            </place>
+          
             
             <place type="place">
                <placeName type="index">Clopton</placeName>
@@ -3638,6 +3621,7 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Suffolk 1018</note>
+               <!-- person of; ?near Oulton -->
             </place>
             
             <place type="place">
@@ -3987,12 +3971,12 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Cungeston [unidentified]</placeName>
-               <placeName type="formInDocument">cungeston</placeName><!--Conistone, Yorkshire W? Congerstone, Leicestershire?-->
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
-               <note type="charter"/>
+               <placeName type="index">Coney Weston</placeName>
+               <placeName type="formInDocument">cungeston</placeName>
+               <region type="parish">Coney Weston</region>
+               <region type="county">Suffolk</region>
+               <!-- id from Douglas, Feudal Docs. -->
+               <note type="charter">MS. Ch. Suffolk 5</note><!-- HOPETONE, CUNGESTON, and BARTON -->
             </place>
             
             <place type="place">
@@ -5587,13 +5571,23 @@
                <note type="charter">MS. Ch. Suffolk 518</note>
             </place>
             
+            
             <place type="place">
-               <placeName type="index">Hopton</placeName>
+               <placeName type="index">Hopton All Saints</placeName>
+               <placeName type="formInDocument">Hopeton</placeName>
+               <region type="parish">Hopton All Saints</region>
+               <region type="county">Suffolk</region>
+               <note type="charter">MS. Ch. Suffolk 5</note>
+            </place>
+            
+            <place type="place">
+               <placeName type="index">Hopton St Margaret</placeName>
+               <!-- there are two Hoptons -->
                <placeName type="formInDocument">hopeton</placeName>
                <placeName type="formInDocument">hopton</placeName>
                <placeName type="formInDocument">hopthone</placeName>
                <placeName type="formInDocument">hopton</placeName>
-               <region type="parish">Hopton</region>
+               <region type="parish">Hopton St Margaret</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/HoptonNearYarmouth</idno>
                <idno>https://www.wikidata.org/wiki/Q2603136</idno>
@@ -10155,6 +10149,17 @@
                <idno>http://viaf.org/viaf/153568718</idno>
                <note type="charter">MS. Ch. Suffolk 1357</note>
             </org>
+            
+            
+            <org>
+               <placeName type="index">London, Clifford's Inn</placeName>
+               <placeName type="formInDocument">clifford's inn</placeName>
+               <!--<region type="parish"></region> not sure of the parish, but in the 'Farringdon Without Ward'-->
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q1101351</idno>
+               <note type="charter">MS. Ch. Suffolk 185</note>
+            </org>
+            
          </listOrg>
       </body>
    </text>
