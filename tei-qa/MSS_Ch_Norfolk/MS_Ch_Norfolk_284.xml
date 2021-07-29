@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104316">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Norfolk 284</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Norfolk_284</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Norfolk_284" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Norfolk 284</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> Deed, by which <persName>
+                           <forename>John</forename> 
+                           <surname>Wade</surname>, notary public</persName>, and
+               others, attest an agreement made 16 March, <origDate when="1362">1362</origDate>, between 
+               <persName>
+                           <forename>Sarah</forename> de <surname>Hales</surname> of <placeName role="person" key="place_104458">Norwich</placeName>
+                        </persName> 
+               and <persName>
+                           <forename>Nicholas</forename>, prior of the <orgName role="prior" key="org_104033">Holy Trinity church, Norwich</orgName>
+                        </persName>, 
+               by which the said Sarah, in consideration of an allowance as a corrody and the performance of an obit for
+               <persName>
+                           <forename>Nigel</forename> de <surname>Hales</surname>
+                        </persName> her husband and sir <pb n="200"/>
+                        <persName>
+                           <forename>Robert</forename> de <surname>Eton</surname>, priest</persName>, deceased, grants to the
+               said prior and convent all her buildings or tenements in the parish of 
+               <placeName key="place_104556">St. Peter, Houndegate</placeName>, and 2½ acres of land lying without the gates of 
+               <placeName type="street" key="place_104162">Fybriggate</placeName>, except one messuage opposite to the gates of her mansion,
+               and one long house near the same, which she grants to 
+               <persName>sir <forename>Hugh</forename>, then rector of <placeName role="rector" key="place_104556">St. Peter, Houndegate</placeName>
+                        </persName>. 
+               Deed promulgated by <persName>
+                           <forename>Nicholas</forename> 
+                           <surname>Stoket</surname>, official of <persName>
+                              <forename>Henry</forename>, bishop of <placeName type="diocese" role="person" key="place_101090">Norwich</placeName>
+                           </persName>
+                        </persName>, 
+               3 March, <origDate when="1395">1395</origDate>, 
+               and <persName>
+                           <forename>Geoffrey</forename> 
+                           <surname>Jakkes</surname>, rector of <placeName role="rector" key="place_104556">St. Peter, Houndegate</placeName>
+                        </persName>, 
+               made a party to it. 
+                
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seal.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="199" to="200">199-200</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

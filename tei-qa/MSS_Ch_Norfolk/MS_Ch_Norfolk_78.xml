@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104088">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Norfolk 78</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Norfolk_78</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Norfolk_78" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Norfolk 78</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> CROUCHESTOKE. <persName>Sir <forename>Miles</forename> de <surname>Stapilton</surname>, kt.</persName>, 
+               <persName>sir <forename>John</forename> 
+                           <surname>White</surname>, kt.</persName>, 
+               <persName>
+                           <forename>Oliver</forename> 
+                           <surname>Groos</surname>
+                        </persName>, and
+               <persName>
+                           <forename>John</forename>, parson of <placeName role="parson" key="place_104500">Salle</placeName>
+                        </persName>, 
+               remit and quit-claim to <persName>
+                           <forename>Miles</forename>, son of <persName>sir <forename>Miles</forename> de <surname>Stapilton</surname>
+                           </persName>, kt.</persName>, 
+               <persName>sir <forename>Simon</forename> 
+                           <surname>Felbrigge</surname>, kt.</persName>, 
+               <persName>sir <forename>Robert</forename> 
+                           <surname>Berneye</surname>, kt.</persName>,
+               <persName>
+                           <forename>William</forename> 
+                           <surname>Rees</surname>
+                        </persName>,
+               <persName>
+                           <forename>Robert</forename> 
+                           <surname>Asshefeld</surname>
+                        </persName>, 
+               <persName>
+                           <forename>Simon</forename> 
+                           <surname>Baret</surname>
+                        </persName>, 
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Cokerell</surname>
+                        </persName>, 
+               <persName>master <forename>John</forename> 
+                           <surname>Thorp</surname>
+                        </persName>, 
+               <persName>master <forename>John</forename> 
+                           <surname>Moore</surname>, clerk</persName>,
+               and <persName>
+                           <forename>John</forename> 
+                           <surname>Muryel</surname>, parson of <placeName role="parson" key="place_104275">Denyngton</placeName>
+                        </persName>, 
+               all their right and claim in a certain pool of water within the scite of the manor of 
+               <placeName type="manor" key="place_104027">Blackwood</placeName> with a certain garden adjacent, and
+               in a certain piece of land containing 2½ acres, with a certain piece of alder tree
+               ground, lying to the north of the said piece of ground, which was formerly either
+               <persName nymRef="Greyday">
+                           <forename>Randle</forename>
+                        </persName> or 
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Greyday</surname>'s of <placeName role="person" key="place_104271">Crouchestoke</placeName>
+                        </persName>, 
+               in <placeName key="place_104271">Crouchestoke</placeName>, and which were lately held
+               by the rod of the manor of <placeName type="manor" key="place_104117">Shotesham</placeName>; paying annually to the said 
+               sir Miles de Stapilton and others, and their heirs, 2d. 
+               Dated at <placeName role="date" key="place_104271">Crouchestoke</placeName> the Friday next
+               after the feast of St. Matthias the Apostle, <origDate notBefore="1395-06-22" notAfter="1396-06-21">19 Rich. II</origDate>. 
+               
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With three small seals.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="176" to="176">176</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

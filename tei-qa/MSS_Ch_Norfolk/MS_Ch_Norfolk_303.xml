@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104126">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Norfolk 303</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Norfolk_303</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Norfolk_303" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Norfolk 303</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> FRESSINGFIELD, co. SUFFOLK. Indenture made at <placeName role="date" key="place_104458">Norwich</placeName>, in feast of
+               Corp. Chr. <origDate when="1422">1422</origDate>, <origDate notBefore="1422-03-21" notAfter="1423-03-20">10 Hen. V</origDate>, between 
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Mannyug</surname>, mayor</persName>, and the community
+               of the <orgName key="org_104011">city of Norwich</orgName>, of the one part, and 
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Rykynghale</surname>, dean</persName>, and the 
+               <orgName key="org_104009">chapter of St. Maries in the fields</orgName>, within the city of Norwich, of the 2nd part, and 
+               <persName>sir <forename>Simon</forename> 
+                           <surname>Felbrygge</surname>, kt.</persName>,
+               <persName>
+                           <forename>Roger</forename> 
+                           <surname>Prat</surname>, clerk</persName>,
+               <persName>
+                           <forename>Walter</forename> 
+                           <surname>Danyel</surname>
+                        </persName>, and
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Alderford</surname>
+                        </persName>, of the
+               3rd part, witnessing, that whereas the abbot and <orgName key="org_104015">convent of Bury St. Edmunds</orgName> have
+               assigned to the said parties of the 3rd part the half of the church of <placeName key="place_104311">Fresyngfeld</placeName>
+               for an annual payment of 40s., they grant the same to the dean and chaplains of St. Maries in the fields,
+               subject to the payment to the mayor and corporation annually of £10 for finding a priest to serve the said
+               church and officiate for the repose of the souls of 
+               <persName>
+                           <forename>William</forename> 
+                           <surname>Rees</surname>
+                        </persName> and 
+               <persName>
+                           <forename>Margaret</forename> his wife</persName>, and all faithful souls, &amp;c.
+                
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With 4 seals.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="180" to="180">180</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

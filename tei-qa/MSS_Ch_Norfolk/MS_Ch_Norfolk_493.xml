@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104502">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Norfolk 493</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Norfolk_493</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Norfolk_493" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Norfolk 493</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> STRATTON (Long). An agreement (indented) between 
+               <persName>sir <forename>Thomas</forename> 
+                           <surname>Savage</surname>
+                        </persName>, 
+               <persName>sir <forename>Rafe</forename> de <surname>Shelton</surname>
+                        </persName>,
+               <persName>
+                           <forename>Thomas</forename> de <surname>Bumpstede</surname>
+                        </persName>, and
+               <persName>
+                           <forename>John</forename> de <surname>Snoryng</surname>
+                        </persName>, lately enfeoffed by
+               sir <persName>
+                           <forename>Nicholas</forename> de <surname>Bourne</surname>
+                        </persName> in the manor of 
+               <placeName type="manor" key="place_104086">Long Stratton</placeName>, with the church of St. Mary and the appurtenances in
+               <placeName key="place_104581">Tasbourge</placeName>, &amp;c., on the one part, and 
+               <persName>
+                           <forename>John</forename> de <surname>Herlyng</surname>
+                        </persName> in the name
+               of <persName>sir <forename>Thomas</forename> de <surname>Gyney</surname>
+                        </persName> and the
+               <persName>lady <forename>Elizabeth</forename> his wife</persName>, sister and heir of the said
+               sir Nicholas, on the other part, viz. that the said feoffees will enfranchise
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Frost</surname>
+                        </persName> if he wishes to be chaplain, according
+               as the said sir Nicholas charged them during his life, and that the said sir Ralph will release all his right
+               in the said manor, &amp;c. to the said Thomas Savage and the others aforesaid, and that they will then grant
+               the same to the <persName>lady <forename>Margerie</forename>, wife of <persName>sir <forename>Robert</forename> de <surname>Mortimer</surname>
+                           </persName>
+                        </persName>, 
+               for her life, with the reversion to <persName>sir <forename>Thomas</forename> 
+                           <surname>Gyney</surname>
+                        </persName> 
+               and <persName>
+                           <forename>Elizabeth</forename> his wife</persName> and their heirs, reserving the lands, &amp;c.
+               purchased by the said sir Nicholas, in <placeName key="place_104419">Long Stratton</placeName>,
+               &amp;c. for the maintenance of a light and the clothing of five poor persons, for
+               which the said <persName>sir <forename>Thomas</forename> 
+                           <surname>Gyney</surname>
+                        </persName> shall pay them
+               £100, and that the said sir Thomas Gyney shall secure the estate of such as purchase the lands which were 
+               <persName>sir <forename>Richard</forename> de <surname>Boylands</surname>
+                        </persName>, of the said feoffees, and
+               the said feoffees shall release to him the advowson of the church of <placeName key="place_104609">Waketon</placeName>, if it be
+               found the said advowson 'soit tallie,' and that the said £100 be expended for the good of the soul of the said
+               sir Nicholas. Dated 6 June, <origDate notBefore="1365-01-25" notAfter="1366-01-24">39 Ed. III</origDate>.
+                
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seal]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="219" to="219">219</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

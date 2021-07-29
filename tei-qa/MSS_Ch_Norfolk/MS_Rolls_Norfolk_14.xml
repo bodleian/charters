@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104643">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Norfolk 14</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Norfolk_14</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Norfolk_14" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Norfolk 14</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> NORWICH (City of). Roll (heading gone), containing a list of mayors and sheriffs of 
+                     <placeName key="place_104458">Norwich</placeName> from <origDate when="1447">1447</origDate> 26 Hen. VI to <origDate when="1623">1623</origDate> (21 K. James I), together with the following notes 
+                     (amongst many others) of local and national events: 
+                     . </p>
+                  </msItem>
+                  <msItem>
+                     <p> 1463. The burnyng of <orgName key="org_104033">Christ Churche, in Norwich</orgName>, ye first
+               daye of Marche. 
+                 1472. Printing of bokes brought into England by 
+               <persName>
+                           <forename>William</forename> 
+                           <surname>Caxton</surname> of <placeName role="person" key="place_100051">London</placeName>, merchent</persName>.
+               1479. The great pestelense in <placeName key="place_104458">Norwiche</placeName>.
+               
+             
+               
+               1480. The great earthquake upon S. Thomas nyght in the
+               moneth of July. 
+               
+               1506. In ys yere Robt. Adams heretyke was
+               brente: Saint Andrews parish church built. 
+               
+               1507. The greate burnyng of ye citie of <placeName key="place_104458">Norwyche</placeName>. <pb n="235"/>
+              
+              1512. This yere brent ye vestry in <orgName key="org_104033">Christ Church</orgName> wt all ye ornaments. 
+               
+               1519. This yere was S. Leonarde floode. 
+               
+               1550. The free schole purchased by the cittye for 100 markes.
+                  
+               1565. This yere came the straungers af the lowe contries
+               to inhabite in this cittie. 
+               
+               1568. The west end of the Guilde hale builded. 
+               1570. This yere was a great flood in Norwich.
+               1572. This yere was Fybrigge buylded.
+               1578. This yere came the queenes majestic to Norwch in
+               progresse and made the mayor knyght at hir departure. 
+               
+               1579. A great plague wherupon died in one yeare in <placeName key="place_104458">Norwich</placeName> 4918 persons. 
+               1580 A greate earthquake the VI of Aprill.
+               
+               1583. The water conveied to the Market Crosse. 
+               
+               1591. Sainct Martins bridge builded of stone. 
+               
+               The roll ceases in the original hand at <origDate notBefore="1573" notAfter="1623">1573</origDate> and is thence continued by several hands. 
+               Ornamentally written in red and black. 
+            </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="234" to="235">234-235</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
