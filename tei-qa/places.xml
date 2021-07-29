@@ -586,6 +586,10 @@
                <note type="charter">MS. Ch. Norfolk 746</note>
                <note type="charter">MS. Ch. Norfolk 747</note>
             </place>
+            
+            <place type="earldom" xml:id="place_100095">
+               <placeName type="index">Norfolk, earldom</placeName>
+            </place>
             <place type="duchy" xml:id="place_103034">
                <placeName type="index">Lancaster, duchy</placeName>
                <placeName type="formInDocument">Lancaster</placeName>
@@ -8829,7 +8833,7 @@
             </place>
         
             <place type="diocese" xml:id="place_104006">
-               <placeName type="index">Canterbury, diocese</placeName>
+               <placeName type="index">Canterbury, archdiocese</placeName>
                <placeName type="formInDocument">Canterbury</placeName>
                <idno>http://viaf.org/viaf/270753550</idno>
                <idno>https://www.wikidata.org/wiki/Q2066595</idno>
@@ -9831,15 +9835,16 @@
                <note type="charter">MS. Ch. Norfolk 257</note>
             </place>
             
-            <place type="manor" xml:id="place_104098">
-               <placeName type="index">Moulton St Michael [Great Moulton]</placeName>
-               <!--Alternative name in parenthesis-->
+       <!--     <place type="manor" xml:id="place_104098">see place_104132
+               <placeName type="index">Moulton St Mary </placeName>
+               <placeName type="variant">Little Moulton</placeName>
+               <!-\- probably this rather than Moulton St Michael as the other manor in the document is in Freethorpe -\->
                <placeName type="formInDocument">Moulton alias Moughton</placeName>
                <region type="parish">Great Moulton</region>
                <region type="county">Norfolk</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F236553</idno>
                <note type="charter">MS. Ch. Norfolk 116</note>
-            </place>
+            </place>-->
             
             <place type="manor" xml:id="place_104099">
                <placeName type="index">Mounceaux [Wood Dalling Hall]</placeName>
@@ -10137,8 +10142,9 @@
             <place type="manor" xml:id="place_104125"> 
                <placeName type="index">Cattes Landes</placeName>
                <placeName type="formInDocument">Cattes in Haryngby</placeName>
-               <region type="parish">Cattes Landes</region>
+               <region type="parish">Stokesby with Herringby</region>
                <region type="county">Norfolk</region>
+               <!-- not in Discovery -->
                <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Stokesby+with+Herringby/532869c7b47fc40bab000ad3-Cattes+Landes</idno>
                <note type="charter">MS. Ch. Norfolk 732</note> 
                <note type="charter">MS. Ch. Norfolk 746</note> 
@@ -11644,7 +11650,6 @@
                <placeName type="formInDocumenrt">Broomehall</placeName>
                <region type="parish">Bacton</region>
                <region type="county">Norfolk</region>
-               <idno/>
                <note type="charter">MS. Ch. Norfolk 552</note>
             </place>
             
@@ -13819,7 +13824,7 @@
                <region type="county">Norfolk</region>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Kirby_Bedon</idno>
                <idno>https://www.wikidata.org/wiki/Q6414902</idno>
-               <bibl>Francis Blomefield, 'Hundred of Henstede: Kirby-Bedon', in An Essay Towards A Topographical History of the County of Norfolk: Volume 5 (London, 1806), pp. 474-483. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol5/pp474-483 [accessed 8 April 2021].</bibl>
+               <bibl>Francis Blomefield, 'Hundred of Henstede: Kirby-Bedon', in An Essay Towards A Topographical History of the County of Norfolk: Volume 5 (London, 1806), pp. 474-483. British History Online  http://www.british-history.ac.uk/topographical-hist-norfolk/vol5/pp474-483 [accessed 8 April 2021].</bibl>
                <note type="charter">MS. Ch. Norfolk 571</note>
                <note type="charter">MS. Ch. Norfolk 228</note>
                <note type="charter">MS. Ch. Norfolk 229</note>
@@ -14890,7 +14895,7 @@
                <region type="parish">Panxworth</region>
                <region type="county">Norfolk</region>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Panxworth</idno>
-               <bibl>Francis Blomefield, 'Walsham Hundred: Panxford', in An Essay Towards A Topographical History of the County of Norfolk: Volume 11 (London, 1810), pp. 110-112. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol11/pp110-112 [accessed 13 April 2021].</bibl>
+               <bibl>Francis Blomefield, 'Walsham Hundred: Panxford', in An Essay Towards A Topographical History of the County of Norfolk: Volume 11 (London, 1810), pp. 110-112. British History Online  http://www.british-history.ac.uk/topographical-hist-norfolk/vol11/pp110-112 [accessed 13 April 2021].</bibl>
                <note type="charter">MS. Ch. Norfolk 609</note>
                <note type="charter">MS. Ch. Norfolk 612</note>
                <note type="charter">MS. Rolls Norfolk 56</note>
@@ -14983,7 +14988,7 @@
                <note type="charter">MS. Ch. Norfolk 367</note>
                <note type="charter">MS. Ch. Norfolk 379</note>
                <note type="charter">MS. Ch. Norfolk 753</note>
-               <note type="charter">MS. Ch. Norfolk 1</note>
+               <!-- Plumstead near Holt: not to be confused with Great/Little Plumstead west of Norwich -->
             </place>
             
             <place type="place" xml:id="place_104475">
@@ -15285,7 +15290,7 @@
                <note type="charter">MS. Ch. Norfolk 279</note>
             </place>
             
-            <place type="place" xml:id="place_104498">
+            <place type="manor" xml:id="place_104498">
                <placeName type="index">Saamez [unidentified]</placeName><!-- sames in cottenham????? -->
                <placeName type="formInDocument">Saamez</placeName>
                <!--<region type="parish"></region>
@@ -17393,6 +17398,36 @@
                <note type="charter">MS. Ch. Norfolk 566</note>
             </place>
             
+            <place type="manor" xml:id="place_104663">
+               <placeName type="index">Kirby Bedon</placeName>
+               <placeName type="formInDocument">Kyrkeby Bedon</placeName>
+               <placeName type="formInDocument">Kirkeby, St. Mary </placeName>
+               <placeName type="formInDocument">St. Mary Kirkeby</placeName>
+               <placeName type="formInDocument">Kyrkeby, St. Mary, </placeName>
+               <placeName type="formInDocument">St. Mary, Kyrkeby</placeName>
+               <placeName type="formInDocument">Kirkeby</placeName>
+               <region type="parish">Kirby Bedon</region>
+               <region type="county">Norfolk</region>
+               <bibl>Francis Blomefield, 'Hundred of Henstede: Kirby-Bedon', in An Essay Towards A Topographical History of the County of Norfolk: Volume 5 (London, 1806), pp. 474-483. British History Online  http://www.british-history.ac.uk/topographical-hist-norfolk/vol5/pp474-483 [accessed 8 April 2021].</bibl>
+               <note type="charter">MS. Rolls Norfolk 56</note><!--reason: other places nearby (Witton, Plumstead etc)-->
+            </place>
+            <place xml:id="place_104664" type="place">
+               <placeName type="index">Hacksteed [unidentified]</placeName>
+               <region type="county">Norfolk</region>
+            </place>
+            <place xml:id="place_104665" type="place">
+               <placeName type="index">Huggesale [unidentified]</placeName>
+            </place>
+            <place xml:id="place_104666" type="place">
+               <placeName type="index">Caston</placeName>
+               <region type="parish">Caston</region>
+               <region type="county">Norfolk</region>
+            </place>
+            <place xml:id="place_104667" type="place">
+               <placeName type="index">King's Lynn St Margaret</placeName>
+               <region type="parish">King's Lynn</region>
+               <region type="county">Norfolk</region>
+            </place>
          
             
          </listPlace>
@@ -18808,7 +18843,7 @@
                <orgName type="formInDocument">priory of Lynn</orgName>
                <idno>https://www.wikidata.org/wiki/Q6410996</idno>
                <bibl>Francis Blomefield, 'Freebridge Hundred and Half: Lynn', in An Essay Towards A Topographical History of the County of Norfolk: Volume 8 (London, 1808), pp. 476-533. British History Online http://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp476-533 [accessed 25 March 2021].</bibl>
-               <note type="charter">MS. Ch. Norfolk 289</note>
+               <note type="charter">MS. Ch. Norfolk 289</note><!-- or is this a parish church? -->
                <note type="charter">MS. Rolls Norfolk 10</note>
             </org>
             
