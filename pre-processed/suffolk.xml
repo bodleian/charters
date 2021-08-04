@@ -16,6 +16,11 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <!-- to do:
+   queries
+   add div for priory docs
+   
+   -->
    <text>
       <body>
          <div type="county">
@@ -194,7 +199,7 @@
                   of Norwich gave 16 marks of silver.
                   Dated at <placeName role="date">Norwich</placeName> the Tuesday next after the feast of the Nativity 
                   of St. John the Baptist, <date>14 Ed. I</date>. 
-                  <note type="seal">[With fine seal, perfect, of the pirory of Alvesbrunne.]</note> 
+                  <note type="seal">[With fine seal, perfect, of the priory of Alvesbrunne.]</note> 
                   <bibl type="shelfmark">MS. Ch. Suffolk 187</bibl>.
                </p>
             </div>
@@ -721,7 +726,7 @@
                   <placeName role="person">Heringflete</placeName></persName> and <persName><forename>Robert</forename> le
                      <surname>Neve</surname> of <placeName role="person">Askeby</placeName></persName> grant to 
                   <persName><forename>Roger</forename> ....</persName> a messuage in <placeName>Askeby</placeName>, together with a croft and a piece of land at 
-                  <placeName>Donnacre</placeName>. 
+                  <placeName type="minor">Donnacre</placeName>. 
                   Dated at <placeName role="date">Askeby</placeName> on the vigil of St Andrew the apostle, 
                   <date>1 Rich. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Suffolk 710</bibl>. </p>
@@ -5451,7 +5456,7 @@
                   <persName><forename>William</forename> <surname>Sewyne</surname></persName> of the same village all 
                   their right in three pieces of land in <placeName>Codenham</placeName>, with one pyttel, and rents of 
                   18d, one day's work in autumn, and one hen at Christmas.
-                  Dated at <placeName role="date">Jodenham</placeName> the Sunday next after the feast of the
+                  Dated at <placeName role="date">Codenham</placeName> the Sunday next after the feast of the
                   Purification of the B. V. M., <date>4 Ed. III</date>. 
                   <note type="seal">[With seals.]</note> 
                   <bibl type="shelfmark">MS. Ch. Suffolk 541b</bibl>. </p>
@@ -8540,7 +8545,7 @@
             
             <div type="charter">
                <p> HERRINGFLEET and ASKEBY. 
-                  <persName><forename>Robert</forename> <surname>Stevyn</surname> (?)of <placeName role="person">Halys</placeName></persName> and
+                  <persName><forename>Robert</forename> <surname>Stevyn</surname> (?) of <placeName role="person">Halys</placeName></persName> and
                   <persName><forename>John</forename> <surname>Carable</surname> of <placeName role="person">Horsham</placeName>, chaplain</persName>, grant to 
                   <persName><forename>John</forename> de la <surname>Merhs</surname>, sen.</persName>,
                   <persName><forename>John</forename> de <surname>Merhs</surname>, jun.</persName>, and others, 
@@ -8933,7 +8938,7 @@
             <div type="charter">
                <p> HOWESLEY, &amp;c. Indenture made 20 May, <date>38 Q. Elizabeth</date>, witnesseth that
                   <persName><forename>William</forename> <surname>Cade</surname> of <placeName role="person">London</placeName>, gent.</persName>, 
-                  has leased to <persName><forename>John</forename> <surname>Hobart</surname> of the <placeName role="person">Middle Temple</placeName></persName> 
+                  has leased to <persName><forename>John</forename> <surname>Hobart</surname> of the <orgName role="person">Middle Temple</orgName></persName> 
                   40 acres of marsh in <placeName>Howesley</placeName>, and lands and tenements &amp;c. elsewhere, 
                   as in letters patent, <date>37 of Q. Eliz.</date>, being part of the lands of the dissolved 
                   <orgName>monastery of Butley</orgName> in Suffolk, for 21 years. 
@@ -11578,7 +11583,7 @@
                <p> <persName><forename>Richard</forename> <surname>Maddyssone</surname> of <placeName role="person">Somerleton</placeName></persName> 
                   grants to  <persName><forename>William</forename> <surname>Coke</surname></persName> of the same 
                   place one piece of land abutting on the way leading from <placeName type="street">Pokyslane</placeName>
-                  towards <placeName>Dool</placeName>. 
+                  towards <placeName type="minor">Dool</placeName>. 
                   Dated at <placeName role="date">Somerleton</placeName> the Sunday next
                   before the feast of St. Hilary, <date>1 Ric. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Suffolk 1059</bibl>. </p>
@@ -13264,7 +13269,7 @@
             </div>
             
             <div type="charter">
-               <p> <persName><forename>Geoffrey</forename>, <forename>William</forename>, and <forename>Adam</forename>,
+      <p>  <placeName></placeName>        <persName><forename>Geoffrey</forename>, <forename>William</forename>, and <forename>Adam</forename>,
                   sons of <persName><forename>Richard</forename> <surname>Fayrman</surname> of <placeName role="person">Quethacre</placeName></persName></persName>, grant to 
                   <persName><forename>Robert</forename> <surname type="patronymic">son of Osbert</surname></persName> the
                   whole of <placeName>Hernaldesholm</placeName>, namely in turbary, rushes and herbage, which
@@ -16310,7 +16315,7 @@
             </div>
          </div>
          
-         Add Appendix docs
+       <!--  Add Appendix docs-->
          <div type="charter">
             <p> ACTON. <persName nymRef="Carbonel"><forename>John</forename>, son of <persName><forename>Robert</forename> <surname>Carbonel</surname></persName></persName>,
                grants to <persName><forename>Hugh</forename> de <surname>Grangia</surname></persName> and 
@@ -16420,7 +16425,7 @@
                [In part effaced and illegible.]
                <bibl type="shelfmark">Ch. 1468<!--WAS: 201*--></bibl>. </p>
          </div>
-         cont here
+        <!-- cont here-->
          <div type="charter">
             <p> Sir <persName><forename>John</forename> <surname>Wentworth</surname> of <placeName role="person">Somerleton</placeName>, kt.</persName>, 
                demises to <persName><forename>Arthur</forename> <surname>Bacon</surname></persName> a piece of land and

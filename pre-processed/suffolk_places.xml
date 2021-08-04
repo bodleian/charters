@@ -15,6 +15,7 @@
    </teiHeader>
    <text>
       <!-- A-C checked 29.7.21 -->
+      <!-- D-K checked 4.8.21 -->
       <body>
          
          <listPlace type="manor">
@@ -447,9 +448,9 @@
             </place>
            
             <place type="manor">
-               <placeName type="index">Helmole [unidentified]</placeName><!--Hemley?-->
-               <placeName type="formInDocument">helmole</placeName>
-               <!--<region type="parish"></region>-->
+               <placeName type="index">Hemley</placeName><!--Hemley?-->
+               <placeName type="formInDocument">helmole</placeName><!-- recte Helmeley? -->
+               <region type="parish">Hemley</region>
                <region type="county">Suffolk</region>
                <!--<idno></idno>-->
                <note type="charter">MS. Ch. Suffolk 246</note>
@@ -1293,7 +1294,7 @@
             </place>
             
             <place type="street">
-               <placeName type="index">Glemsford, Fremanstrete [unidentified]</placeName> 
+               <placeName type="index">Glemsford, Fremanstrete</placeName> 
                <placeName type="formInDocument">fremanstrete</placeName>
                <region type="parish">Glemsford</region>
                <region type="county">Suffolk</region>
@@ -3196,9 +3197,10 @@
             
             <place type="place">
                <placeName type="index">Cattishall</placeName>
+               <placeName type="variant">Cattishill</placeName>
                <placeName type="formInDocument">cateshull</placeName>
                <placeName type="formInDocument">catteshel</placeName>
-               <!-- check: which parish? Great Barton? -->
+               <!-- check: which parish? Great Barton? near Bury St Edmunds. Cf. Douglas, Feudal Docs., index locorum -->
                <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Suffolk 50</note>
                <note type="charter">MS. Ch. Suffolk 93</note><!-- both final concords before the judges itinerant at -->
@@ -3551,7 +3553,8 @@
                <note type="charter">MS. Ch. Suffolk 621</note>
                <note type="charter">MS. Ch. Suffolk 559</note>
             </place>
-            
+          
+          
             <place type="place">
                <placeName type="index">Cockfield</placeName>
                <placeName type="formInDocument">cokefeld</placeName>
@@ -4077,30 +4080,32 @@
                <note type="charter">MS. Ch. Suffolk 1192</note>
             </place>
             
-            <place type="place">
+            <!--<place type="place">
+               <!-\- treated as a minor name -\->
                <placeName type="index">Donnacre [unidentified]</placeName>
                <placeName type="formInDocument">donnacre</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Suffolk 710</note>
-            </place>
+            </place>-->
             
-            <place type="place">
+<!--            <place type="place">
+               <!-\- treated as a minor name -\->
                <placeName type="index">Dool [unidentified]</placeName>
                <placeName type="formInDocument">dool</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Suffolk 1059</note>
-            </place>
+            </place>-->
             
             <place type="place">
-               <placeName type="index">Dunkirk [unidentified]</placeName><!--Dunkirk, France? or Dunkirk, Kent? -->
+               <placeName type="index">Dunkirk </placeName><!--Dunkirk, France? or Dunkirk, Kent? 
+               Google https://books.google.co.uk/books?id=3ZxQAAAAcAAJ&lpg=RA2-PA329&ots=KJRTAtIa-W&dq=%22george%20carew%20of%20richmond%22&pg=RA2-PA330#v=onepage&q=%22george%20carew%20of%20richmond%22&f=false suggests the former-->
                <placeName type="formInDocument">dunkirk</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <country>France</country>
+               
                <note type="charter">MS. Ch. Suffolk 517</note>
             </place>
             
@@ -4124,16 +4129,7 @@
                <note type="charter">MS. Ch. Suffolk 197</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Earl Stoneham</placeName>
-               <placeName type="formInDocument">earl's stoneham</placeName>
-               <region type="parish">Earl Stoneham</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/EarlStonham</idno>
-               <idno>https://www.wikidata.org/wiki/Q2493156</idno>
-               <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 60.</bibl>
-               <note type="charter">MS. Ch. Suffolk 1031</note>
-            </place>
+         
             
             <place type="place">
                <placeName type="index">Earsham</placeName>
@@ -4145,25 +4141,9 @@
                <note type="charter">MS. Ch. Suffolk 1259</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Eriswell</placeName>
-               <placeName type="formInDocument">earswell</placeName>
-               <region type="parish">Eriswell</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Eriswell</idno>
-               <idno>https://www.wikidata.org/wiki/Q2623431</idno>
-               <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 113.</bibl>
-               <note type="charter">MS. Ch. Suffolk 1363</note>
-            </place>
+      
             
-            <place type="place">
-               <placeName type="index">Edmyngston [unidentified]</placeName><!--Edwardstone?-->
-               <placeName type="formInDocument">edmyngston</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Suffolk 602</note>
-            </place>
+        
             
             <place type="place">
                <placeName type="index">Edwardstone</placeName>
@@ -4270,12 +4250,14 @@
             <place type="place">
                <placeName type="index">Eriswell</placeName>
                <placeName type="formInDocument">eryswell</placeName>
+               <placeName type="formInDocument">earswell</placeName>
                <region type="parish">Eriswell</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/Eriswell</idno>
                <idno>https://www.wikidata.org/wiki/Q2623431</idno>
                <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 113.</bibl>
                <note type="charter">MS. Ch. Suffolk 93</note>
+               <note type="charter">MS. Ch. Suffolk 1363</note>
             </place>
             
             <place type="place">
@@ -4508,16 +4490,7 @@
                <note type="charter">MS. Rolls Suffolk 13</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Gisleham</placeName>
-               <placeName type="formInDocument">geslyham</placeName>
-               <region type="parish">Gisleham</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Gisleham</idno>
-               <idno>https://www.wikidata.org/wiki/Q2041823</idno>
-               <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 53.</bibl>
-               <note type="charter">MS. Ch. Suffolk 1367</note>
-            </place>
+         
             
             <place type="place">
                <placeName type="index">Gillingham</placeName>
@@ -5017,15 +4990,7 @@
                <note type="charter">MS. Ch. Suffolk 1306</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Gray's Inn</placeName>
-               <placeName type="formInDocument">grey's inne, middlesex</placeName>
-               <region type="parish">Inns of Court</region><!--is this correct?-->
-               <region type="county">Middlesex</region>
-               <idno>https://www.genuki.org.uk/gaz/MDX/GraysInn</idno>
-               <idno>https://www.wikidata.org/wiki/Q157412</idno>
-               <note type="charter">MS. Ch. Suffolk 1312</note>
-            </place>
+            
             
             <place type="place">
                <placeName type="index">Guyenne</placeName>
@@ -5041,6 +5006,7 @@
                <placeName type="formInDocument">gyselham</placeName>
                <placeName type="formInDocument">gysilham</placeName>
                <placeName type="formInDocument">gyslam</placeName>
+               <placeName type="formInDocument">geslyham</placeName>
                <region type="parish">Gisleham</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/Gisleham</idno>
@@ -5051,6 +5017,7 @@
                <note type="charter">MS. Ch. Suffolk 1262</note>
                <note type="charter">MS. Ch. Suffolk 1269</note>
                <note type="charter">MS. Ch. Suffolk 1238</note>
+               <note type="charter">MS. Ch. Suffolk 1367</note>
             </place>
             
             <place type="place">
@@ -5064,16 +5031,7 @@
                <note type="charter">MS. Ch. Suffolk 191</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Horham</placeName>
-               <placeName type="formInDocument">h[orham]</placeName>
-               <region type="parish">Horham</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Horham</idno>
-               <idno>https://www.wikidata.org/wiki/Q2738752</idno>
-               <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 55.</bibl>
-               <note type="charter">MS. Ch. Suffolk 1317</note>
-            </place>
+          
             
             <place type="place">
                <placeName type="index">Habelound [unidentified]</placeName>
@@ -5146,11 +5104,12 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Hamerlound [unidentified]</placeName>
+               <placeName type="index">Hamerlound</placeName>
                <placeName type="formInDocument">hamerlound</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Bury St Edmunds</region>
+               <region type="county">Suffolk</region>
+               <idno></idno>
+               <!-- https://books.google.co.uk/books?id=a40FBQAAQBAJ&lpg=PT21&ots=B-c_Si411_&dq=Hamerlound&pg=PT21#v=onepage&q=Hamerlound&f=false -->
                <note type="charter">MS. Ch. Suffolk 84a</note>
             </place>
             
@@ -5339,18 +5298,7 @@
                <note type="charter">MS. Ch. Suffolk 507</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Hessett</placeName>
-               <placeName type="formInDocument">heggesset</placeName>
-               <region type="parish">Hessett</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Hessett</idno>
-               <idno>https://www.wikidata.org/wiki/Q2460765</idno>
-               <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 85.</bibl>
-               <note type="charter">MS. Ch. Suffolk 137</note>
-               <note type="charter">MS. Ch. Suffolk 138b</note>
-               <note type="charter">MS. Ch. Suffolk 148</note>
-            </place>
+       
             
             <place type="place">
                <placeName type="index">Helmingham</placeName>
@@ -5365,11 +5313,11 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Helmole [unidentified]</placeName>
+               <placeName type="index">Hemley</placeName>
                <placeName type="formInDocument">helmole</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <!-- this spelling is very likely an error for Helmele -->
+               <region type="parish">Hemley</region>
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Suffolk 247</note>
             </place>
             
@@ -5401,6 +5349,7 @@
                <placeName type="formInDocument">hemmingestune</placeName>
                <placeName type="formInDocument">hemyngston</placeName>
                <placeName type="formInDocument">hommyngston</placeName>
+               <placeName type="formInDocument">edmyngston</placeName>  <!-- for the spelling see https://archive.org/details/countyofsuffolki03copiuoft/page/122/mode/2up -->
                <region type="parish">Hemingstone</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/Hemingstone</idno>
@@ -5410,6 +5359,7 @@
                <note type="charter">MS. Ch. Suffolk 207</note>
                <note type="charter">MS. Ch. Suffolk 590</note>
                <note type="charter">MS. Ch. Suffolk 561</note>
+               <note type="charter">MS. Ch. Suffolk 602</note>
             </place>
             
             <place type="place">
@@ -5480,6 +5430,7 @@
                <placeName type="index">Hessett</placeName>
                <placeName type="formInDocument">heseth</placeName>
                <placeName type="formInDocument">hessett</placeName>
+               <placeName type="formInDocument">heggesset</placeName>
                <region type="parish">Hessett</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/Hessett</idno>
@@ -5487,6 +5438,9 @@
                <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 85.</bibl>
                <note type="charter">MS. Ch. Suffolk 322</note>
                <note type="charter">MS. Ch. Suffolk 107</note>
+               <note type="charter">MS. Ch. Suffolk 137</note>
+               <note type="charter">MS. Ch. Suffolk 138b</note>
+               <note type="charter">MS. Ch. Suffolk 148</note>
             </place>
             
             <place type="place">
@@ -5628,7 +5582,8 @@
             <place type="place">
                <placeName type="index">Horham</placeName>
                <placeName type="formInDocument">horham</placeName>
-               <placeName type="formInDocument">horsham</placeName>
+               
+               <placeName type="formInDocument">h[orham]</placeName>
                <region type="parish">Horham</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/Horham</idno>
@@ -5640,11 +5595,20 @@
                <note type="charter">MS. Ch. Suffolk 1078</note>
                <note type="charter">MS. Ch. Suffolk 1079</note>
                <note type="charter">MS. Ch. Suffolk 1086</note>
+            
+               <note type="charter">MS. Ch. Suffolk 1317</note>
+            </place>
+            
+            <place>
+               <placeName>Horsham St Faith (?)</placeName>
+               <placeName type="formInDocument">horsham</placeName><!-- moved from Horham: Copinger does not record forms like this -->
+               <region type="parish">Horsham St Faith</region>
+               <region type="county">Norfolk</region>
                <note type="charter">MS. Ch. Suffolk 890</note>
             </place>
             
             <place type="place">
-               <placeName type="index">Horne [unidentified?]</placeName>
+               <placeName type="index">Horne [unidentified]</placeName>
                <placeName type="formInDocument">horne</placeName><!--Horne, Surrey?-->
                <!--<region type="parish"></region>
                <region type="county"></region>
@@ -5666,11 +5630,11 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Howesley [unidentified]</placeName>
+               <placeName type="index">Hollesley</placeName>
                <placeName type="formInDocument">howesley</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno>https://www.wikidata.org/wiki/Q85767570</idno>Howes, Cambridgeshire?-->
+               <region type="parish">Hollesley</region>
+               <region type="county">Suffolk</region>
+               <!-- id: https://archive.org/details/countyofsuffolki03copiuoft/page/188/mode/2up -->
                <note type="charter">MS. Ch. Suffolk 194</note>
             </place>
             
@@ -5796,17 +5760,12 @@
                <!--<region type="parish"></region>
                <region type="county"></region>
                <idno></idno>-->
+               <region type="county">Suffolk</region>
+               <!-- there was a Jerningham family of Somerleyton. Perhaps this is a lost place in that area -->
                <note type="charter">MS. Ch. Suffolk 755</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Jodenham [unidentified]</placeName>
-               <placeName type="formInDocument">jodenham</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Suffolk 541b</note>
-            </place>
+           
 
             <place type="place">
                <placeName type="index">Karleton [unidentified]</placeName>
@@ -5875,11 +5834,10 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Kesewyk [unidentified]</placeName>
-               <placeName type="formInDocument">kesewyk</placeName><!--Kesewyk, Cumbria?-->
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <placeName type="index">Keswick</placeName>
+               <placeName type="formInDocument">kesewyk</placeName>
+               <region type="parish">Keswick</region>
+               <region type="county">Norfolk</region><!-- near Norwich -->
                <note type="charter">MS. Ch. Suffolk 187</note>
             </place>
             
@@ -6081,7 +6039,7 @@
             </place>
             
             <place type="place">
-               <placeName type="index">King's Lyn</placeName>
+               <placeName type="index">King's Lynn</placeName>
                <placeName type="formInDocument">lenne</placeName>
                <region type="parish">King's Lynn</region>
                <region type="county">Norfolk</region>
@@ -6310,6 +6268,7 @@
                <placeName type="index">Earl Stonham</placeName>
                <placeName type="formInDocument">stonham earl</placeName>
                <placeName type="formInDocument">stonham earls</placeName>
+               <placeName type="formInDocument">earl's stoneham</placeName>
                <region type="parish">Earl Stonham</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/EarlStonham</idno>
@@ -6326,6 +6285,7 @@
                <note type="charter">MS. Ch. Suffolk 649</note>
                <note type="charter">MS. Ch. Suffolk 650</note>
                <note type="charter">MS. Ch. Suffolk 660</note>
+               <note type="charter">MS. Ch. Suffolk 1031</note>
             </place>
             
             <place type="place">
@@ -9671,6 +9631,15 @@
                <idno>http://viaf.org/viaf/280795451</idno>
                <idno>https://www.wikidata.org/wiki/Q1126464</idno>
                <note type="charter">MS. Ch. Suffolk 188</note>
+            </org>
+            
+            <org>
+               <orgName type="index">Gray's Inn</orgName>
+               <orgName type="formInDocument">grey's inne, middlesex</orgName>
+               <region type="county">Middlesex</region>
+               <idno>https://www.genuki.org.uk/gaz/MDX/GraysInn</idno>
+               <idno>https://www.wikidata.org/wiki/Q157412</idno>
+               <note type="charter">MS. Ch. Suffolk 1312</note>
             </org>
 
             <org>
