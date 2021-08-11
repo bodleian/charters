@@ -16,6 +16,7 @@
    <text>
       <!-- A-C checked 29.7.21 -->
       <!-- D-K checked 4.8.21 -->
+      <!-- L-S checked 4.8.21 -->
       <body>
          
          <listPlace type="manor">
@@ -741,6 +742,7 @@
                <!--<bibl>W. A. Copinger, <title>The Manors of Suffolk: notes on their history and devolution</title>, 7 vols (1905-11), vol. 7, pp. 263-64.</bibl> the Ramsholt Peyton Hall-->
                <note type="charter">MS. Ch. Suffolk 1301</note>
                <note type="charter">MS. Ch. Suffolk 1368</note>
+               <!-- may be identifiable from the descents in Copinger -->
             </place>
             
             <place type="manor">
@@ -777,11 +779,11 @@
             </place>
             
             <place type="manor">
-               <placeName type="index">Redewelle [unidentified]</placeName>
+               <placeName type="index">Redwell</placeName>
                <placeName type="formInDocument">redewelle</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Great Barton</region>
+               <region type="county">Suffolk</region>
+               <bibl>Roger Curtis, 'The lost manor of Redwell at Great Barton', Proc. Suffolk Inst. Archael. 44/2 (2018)</bibl>
                <note type="charter">MS. Ch. Suffolk 109</note>
             </place>
             
@@ -893,13 +895,14 @@
                http://discovery.nationalarchives.gov.uk/details/c/F273446 (Wiltshire)
                http://discovery.nationalarchives.gov.uk/details/c/F248311 (Essex)
                http://discovery.nationalarchives.gov.uk/details/c/F285073 (Leic)
-               http://discovery.nationalarchives.gov.uk/details/c/F274905 (Camb)
+               http://discovery.nationalarchives.gov.uk/details/c/F274905 (Camb)[apparently not this one, VCH descent]
                http://discovery.nationalarchives.gov.uk/details/c/F248312 (Essex>
                http://discovery.nationalarchives.gov.uk/details/c/F286860 (Cheshire)-->
                <placeName type="formInDocument">stapilford</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>
                <idno></idno>-->
+               <!-- maybe Stapleford Abbots in Essex, which was a Bury ST Edmunds manor; check original?  -->
                <note type="charter">MS. Rolls Suffolk 37</note>
             </place>
             
@@ -1103,6 +1106,12 @@
          
          <listPlace type="earldom">
             <place type="earldom">
+               <placeName type="index">Salisbury</placeName>
+               <placeName type="formInDocument">salisbury</placeName>
+               <note type="charter">MS. Douce Ch. 31</note>
+            </place>
+            
+            <place type="earldom">
                <placeName type="formInDocument">dorset</placeName><!--peerage, not related to land? perhaps better to be kept with people: Marquess of Dorset-->
                <idno>https://www.wikidata.org/wiki/Q2612339</idno>
                <note type="charter">MS. Ch. Suffolk 1326</note>
@@ -1303,7 +1312,7 @@
             </place>
             
             <place type="street">
-               <placeName type="index">Sudbury, Freristrete [unidentified]</placeName> 
+               <placeName type="index">Sudbury, Freristrete </placeName> 
                <placeName type="formInDocument">Sudbury, in Freristrete</placeName>
                <region type="parish">Sudbury, All Saints</region>
                <region type="county">Suffolk</region>
@@ -1428,13 +1437,7 @@
                <note type="charter">MS. Ch. Suffolk 161</note>
             </place>
             
-            <place type="street">
-               <placeName type="index">Somerleyton, Manthorpe street [unidentified]</placeName>
-               <placeName type="formInDocument">manthorp</placeName>
-               <region type="parish">Somerleyton</region>
-               <region type="county">Suffolk</region>
-               <note type="charter">MS. Ch. Suffolk 1058</note>
-            </place>
+           
             
             <place type="street">
                <placeName type="index">Bury St Edmunds, Maydewater Street</placeName>
@@ -6631,17 +6634,19 @@
             </place>
              
             <place type="place">
-               <placeName type="index">Manthorpe</placeName>
+               <placeName type="index">Manthorp (lost)</placeName>
+               <!-- this ID to be checked -->
                <placeName type="formInDocument">manethorp</placeName>
                <placeName type="formInDocument">manethorpe</placeName>
                <placeName type="formInDocument">manetorpe</placeName>
                <placeName type="formInDocument">manthorp</placeName>
                <placeName type="formInDocument">manthorpe</placeName>
                <placeName type="formInDocument">mantorpe</placeName>
-               <region type="parish">Manthorpe</region>
-               <region type="county">Lincolnshire</region>
-               <idno>https://www.genuki.org.uk/big/eng/LIN/Manthorpe</idno>
-               <idno>https://www.wikidata.org/wiki/Q6752072</idno>
+               <placeName type="formInDocument">manthorp</placeName>
+             
+               <region type="parish" cert="low">Somerleyton (?)</region>
+               <region type="county">Suffolk</region>
+               <idno>https://heritage.suffolk.gov.uk/Monument/MSF16595</idno>
                <note type="charter">MS. Ch. Suffolk 674a</note>
                <note type="charter">MS. Ch. Suffolk 1334</note>
                <note type="charter">MS. Ch. Suffolk 1023</note>
@@ -6657,7 +6662,10 @@
                <note type="charter">MS. Ch. Suffolk 1058</note>
                <note type="charter">MS. Ch. Suffolk 1337</note>
                <note type="charter">MS. Ch. Suffolk 1449</note>
+               <note type="charter">MS. Ch. Suffolk 1058</note>
             </place>
+          
+          
             
             <place type="place">
                <placeName type="index">Marlingford</placeName>
@@ -6701,6 +6709,7 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Suffolk 196b</note>
+               <!-- Dodnash charter; near Bentley. Prob. Tattingstone. -->
             </place>
             
             <place type="place">
@@ -6847,15 +6856,7 @@
                <note type="charter">MS. Ch. Suffolk 220</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">London, Middle Temple</placeName>
-               <placeName type="formInDocument">middle temple</placeName>
-               <region type="parish">The Temple</region> 
-               <region type="county">Middlesex</region>
-               <idno>https://www.genuki.org.uk/big/eng/LND/TheTemple</idno>
-               <idno>https://epns.nottingham.ac.uk/browse/id/53282a40b47fc407a0000017-The+Temple</idno>
-               <note type="charter">MS. Ch. Suffolk 194</note>
-            </place>
+           
             
             <place type="place">
                <placeName type="index">Mildenhall</placeName>
@@ -6923,14 +6924,7 @@
                <note type="charter">MS. Ch. Suffolk 449</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Montforye [unidentified]</placeName>
-               <placeName type="formInDocument">montforye</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Suffolk 1264</note>
-            </place>
+           
             
             <place type="place">
                <placeName type="index">Morpeth</placeName>
@@ -6939,7 +6933,7 @@
                <region type="county">Northumberland</region>
                <idno>https://www.genuki.org.uk/big/eng/NBL/Morpeth</idno>
                <idno>https://www.wikidata.org/wiki/Q736785</idno>
-               <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 104.</bibl>
+              <!-- <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 104.</bibl>-->
                <note type="charter">MS. Ch. Suffolk 1027</note>
             </place>
             
@@ -6967,6 +6961,7 @@
             <place type="place">
                <placeName type="index">Mutford</placeName>
                <placeName type="formInDocument">mutford</placeName>
+               <placeName type="formInDocument">montforye</placeName><!-- i.e. Moutforthe -->
                <region type="parish">Mutford</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/Mutford</idno>
@@ -6977,7 +6972,9 @@
                <note type="charter">MS. Ch. Suffolk 1265</note>
                <note type="charter">MS. Ch. Suffolk 1269</note>
                <note type="charter">MS. Ch. Suffolk 1010</note>
+               <note type="charter">MS. Ch. Suffolk 1264</note>
             </place>
+            
             
             <place type="place">
                <placeName type="index">Nebton [unidentified]</placeName>
@@ -7108,7 +7105,7 @@
                <placeName type="index">Norwich</placeName>
                <placeName type="formInDocument">norwich</placeName>
                <region type="parish">Norwich</region><!--How to mark cities when parish not known?-->
-               <region type="county">Suffolk</region>
+               <region type="county">Norwich</region>
                <idno>https://www.genuki.org.uk/big/eng/NFK/Norwich</idno>
                <idno>https://www.wikidata.org/wiki/Q130191</idno>
                <note type="charter">MS. Ch. Suffolk 187</note>
@@ -7324,22 +7321,14 @@
             </place>
 
             <place type="place">
-               <placeName type="index">Pylecok [unidentified]</placeName>
+               <placeName type="index">Pylecok (lost?)</placeName>
                <placeName type="formInDocument">pylecok</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Suffolk 1399</note>
+               <region type="county">Suffolk</region>
+               <note type="charter ">MS. Ch. Suffolk 1399</note>
+               <!-- Taxatio Nicholai p. 123; Monasticon IV.406; Eye Priory -->
             </place>
             
-            <place type="place">
-               <placeName type="index">Quethacre [unidentified]</placeName>
-               <placeName type="formInDocument">quethacre</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Suffolk 1216</note>
-            </place>
+          
             
             <place type="place">
                <placeName type="index">Redlingfield</placeName>
@@ -7368,11 +7357,13 @@
             <place type="place">
                <placeName type="index">Redgrave</placeName>
                <placeName type="formInDocument">redgrave</placeName>
+               <placeName type="formInDocument">regrave</placeName>
                <region type="parish">Redgrave</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/Redgrave</idno>
                <idno>https://www.wikidata.org/wiki/Q2665391</idno>
                <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 42.</bibl>
+               <note type="charter">MS. Ch. Suffolk 9</note>
                <note type="charter">MS. Ch. Suffolk 130</note>
                <note type="charter">MS. Ch. Suffolk 139</note>
                <note type="charter">MS. Ch. Suffolk 8</note>
@@ -7387,6 +7378,8 @@
                <note type="charter">MS. Ch. Suffolk 51</note>
                <note type="charter">MS. Rolls Suffolk 3</note>
             </place>
+          
+          
             
             <place type="place">
                <placeName type="index">Reedham</placeName>
@@ -7399,16 +7392,7 @@
                <note type="charter">MS. Ch. Suffolk 849</note>
             </place>
            
-            <place type="place">
-               <placeName type="index">Redgrave</placeName>
-               <placeName type="formInDocument">regrave</placeName>
-               <region type="parish">Redgrave</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Redgrave</idno>
-               <idno>https://www.wikidata.org/wiki/Q2665391</idno>
-               <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 42.</bibl>
-               <note type="charter">MS. Ch. Suffolk 9</note>
-            </place>
+          
             
             <place type="place">
                <placeName type="index">Rendham</placeName>
@@ -7525,14 +7509,15 @@
                <note type="charter">MS. Ch. Suffolk 1370</note><!--presumed by annotator-->
             </place>
             
-            <place type="place">
+           <!-- <place type="place">
+               treated as minor
                <placeName type="index">Rotepet [unidentified]</placeName>
                <placeName type="formInDocument">rotepet</placeName>
-               <!--<region type="parish"></region>
+               <!-\-<region type="parish"></region>
                <region type="county"></region>
-               <idno></idno>-->
+               <idno></idno>-\->
                <note type="charter">MS. Ch. Suffolk 928</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <placeName type="index">Rougham</placeName>
@@ -7644,17 +7629,7 @@
                <note type="charter">MS. Rolls Suffolk 3</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Salisbury</placeName>
-               <placeName type="formInDocument">salisbury</placeName>
-               <region type="parish">Salisbury</region><!-- county town, how to mark? -->
-               <region type="county">Wiltshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/id/53288661b47fc40d38000001-Salisbury</idno>
-               <idno>https://www.genuki.org.uk/big/eng/WIL/Salisbury</idno>
-               <idno>https://www.wikidata.org/wiki/Q160642</idno>
-               <note type="charter">MS. Ch. Douce 31</note>
-            </place>
-            
+         
             <place type="place">
                <placeName type="index">Salle</placeName>
                <placeName type="formInDocument">salle (norf.)</placeName>
@@ -7680,6 +7655,7 @@
             <place type="place">
                <placeName type="index">Shottisham</placeName>
                <placeName type="formInDocument">schatesham</placeName>
+                 <placeName type="formInDocument">shatesham</placeName>
                <region type="parish">Shottisham</region>
                <region type="county">Suffolk</region>
                <idno>https://www.genuki.org.uk/big/eng/SFK/Shottisham</idno>
@@ -7687,7 +7663,10 @@
                <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) pp. 59-60.</bibl>
                <note type="charter">MS. Ch. Suffolk 585</note>
                <note type="charter">MS. Ch. Suffolk 592</note>
+               <note type="charter">MS. Ch. Suffolk 1301</note>
             </place>
+         
+         
             
             <place type="place">
                <placeName type="index">Shelton</placeName>
@@ -7705,7 +7684,7 @@
             
             <place type="place">
                <placeName type="index">Scihtfornham</placeName>
-               <!--One of the Fornhams? F. All Saints, St Genevieve, or St Martin?-->
+               <!--One of the Fornhams? F. All Saints, St Genevieve, or St Martin? or more likely a lost place in or near Bury St Edmunds?-->
                <placeName type="formInDocument">scihtfornham</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>
@@ -7724,16 +7703,7 @@
                <note type="charter">MS. Ch. Suffolk 1168</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Shottisham</placeName>
-               <placeName type="formInDocument">shatesham</placeName>
-               <region type="parish">Shottisham</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Shottisham</idno>
-               <idno>https://www.wikidata.org/wiki/Q2196095</idno>
-               <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) pp. 59-60.</bibl>
-               <note type="charter">MS. Ch. Suffolk 1301</note>
-            </place>
+         
             
             <place type="place">
                <placeName type="index">Shimpling</placeName>
@@ -7785,6 +7755,11 @@
                <placeName type="formInDocument">somerleyton</placeName>
                <placeName type="formInDocument">somyrleton</placeName>
                <placeName type="formInDocument">somerleytowne</placeName>
+               <placeName type="formInDocument">sumerletone</placeName>
+               <placeName type="formInDocument">sumerletun</placeName>
+               <placeName type="formInDocument">sumerletune</placeName>
+               <placeName type="formInDocument">summleytown</placeName>
+               
                <placeName type="formInDocument">somerlytone</placeName>
                <region type="parish">Somerleyton</region>
                <region type="county">Suffolk</region>
@@ -8003,6 +7978,27 @@
                <note type="charter">MS. Ch. Suffolk 739</note>
                <note type="charter">MS. Ch. Suffolk 1223</note>
                <note type="charter">MS. Ch. Suffolk 1044</note>
+          
+               <note type="charter">MS. Ch. Suffolk 1031</note>
+               <note type="charter">MS. Ch. Suffolk 1032</note>
+               <note type="charter">MS. Ch. Suffolk 1020</note>
+               <note type="charter">MS. Ch. Suffolk 1023</note>
+               <note type="charter">MS. Ch. Suffolk 1025</note>
+               <note type="charter">MS. Ch. Suffolk 1026</note>
+               <note type="charter">MS. Ch. Suffolk 1449</note>
+               <note type="charter">MS. Ch. Suffolk 1028</note>
+               <note type="charter">MS. Ch. Suffolk 1030</note>
+               <note type="charter">MS. Ch. Suffolk 1034</note>
+               <note type="charter">MS. Ch. Suffolk 1035</note>
+               <note type="charter">MS. Ch. Suffolk 1041</note>
+               <note type="charter">MS. Ch. Suffolk 1340</note>
+               <note type="charter">MS. Ch. Suffolk 1019</note>
+               <note type="charter">MS. Ch. Suffolk 1021</note>
+               <note type="charter">MS. Ch. Suffolk 1022</note>
+               <note type="charter">MS. Ch. Suffolk 1372b</note>
+               <note type="charter">MS. Ch. Suffolk 1029</note>
+               <note type="charter">MS. Ch. Suffolk 1032</note>
+               <note type="charter">MS. Ch. Suffolk 1153</note>
             </place>
             
             <place type="place">
@@ -8043,16 +8039,15 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Southall</placeName>
+               <placeName type="index">Southolt</placeName>
                <placeName type="formInDocument">southall</placeName>
-               <region type="parish">Hayes</region>
-               <region type="county">Middlesex</region>
-               <idno>https://www.genuki.org.uk/big/eng/MDX/Hayes</idno>
-               <idno>https://www.wikidata.org/wiki/Q83434</idno>
+               <region type="parish">Worlingworth</region>
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Suffolk 1293</note>
             </place>
             
-            <place type="place">
+            <!--<place type="place">
+               minor name
                <placeName type="index">Southend</placeName>
                <placeName type="formInDocument">southende</placeName>
                <region type="parish">Southend</region>
@@ -8060,7 +8055,7 @@
                <idno>https://www.genuki.org.uk/big/eng/ESS/Towns/Southend</idno>
                <idno>https://www.wikidata.org/wiki/Q203995</idno>
                <note type="charter">MS. Ch. Suffolk 1000</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <placeName type="index">Southtown</placeName>
@@ -8424,38 +8419,7 @@
                <note type="charter">MS. Ch. Suffolk 369</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Somerleyton</placeName>
-               <placeName type="formInDocument">sumerletone</placeName>
-               <placeName type="formInDocument">sumerletun</placeName>
-               <placeName type="formInDocument">sumerletune</placeName>
-               <placeName type="formInDocument">summleytown</placeName>
-               <region type="parish">Somerleyton</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Somerleyton</idno>
-               <idno>https://www.wikidata.org/wiki/Q2322168</idno>
-               <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 106.</bibl>
-               <note type="charter">MS. Ch. Suffolk 1031</note>
-               <note type="charter">MS. Ch. Suffolk 1032</note>
-               <note type="charter">MS. Ch. Suffolk 1020</note>
-               <note type="charter">MS. Ch. Suffolk 1023</note>
-               <note type="charter">MS. Ch. Suffolk 1025</note>
-               <note type="charter">MS. Ch. Suffolk 1026</note>
-               <note type="charter">MS. Ch. Suffolk 1449</note>
-               <note type="charter">MS. Ch. Suffolk 1028</note>
-               <note type="charter">MS. Ch. Suffolk 1030</note>
-               <note type="charter">MS. Ch. Suffolk 1034</note>
-               <note type="charter">MS. Ch. Suffolk 1035</note>
-               <note type="charter">MS. Ch. Suffolk 1041</note>
-               <note type="charter">MS. Ch. Suffolk 1340</note>
-               <note type="charter">MS. Ch. Suffolk 1019</note>
-               <note type="charter">MS. Ch. Suffolk 1021</note>
-               <note type="charter">MS. Ch. Suffolk 1022</note>
-               <note type="charter">MS. Ch. Suffolk 1372b</note>
-               <note type="charter">MS. Ch. Suffolk 1029</note>
-               <note type="charter">MS. Ch. Suffolk 1032</note>
-               <note type="charter">MS. Ch. Suffolk 1153</note>
-            </place>
+     
             
             <place type="place">
                <placeName type="index">Sutton</placeName>
@@ -8477,10 +8441,12 @@
                <idno></idno>-->
                <note type="charter">MS. Ch. Suffolk 104</note>
                <note type="charter">MS. Ch. Suffolk 105</note>
+               <!-- person of, in deeds re. Bury St Edmunds -->
             </place>
             
             <place type="place">
                <placeName type="index">Swanton Abbott</placeName>
+               <!-- ?check id correct; wierd spelling -->
                <placeName type="formInDocument">swynston, norfolk</placeName> 
                <region type="parish">Swanton Abbott</region>
                <region type="county">Norfolk</region>
@@ -8505,21 +8471,13 @@
                <note type="charter">MS. Ch. Suffolk 238</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Symworth [unidentified]</placeName>
-               <placeName type="formInDocument">symworth</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
-               <note type="charter">MS. Ch. Suffolk 106</note>
-            </place>
+         
             
             <place type="place">
-               <placeName type="index">Syswell [unidentified]</placeName>
+               <placeName type="index">Sizewell (lost)</placeName>
                <placeName type="formInDocument">syswell</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>-->
+               <region type="parish">Leiston</region>
+               <region type="county">Suffolk</region>
                <note type="charter">MS. Ch. Suffolk 220</note>
             </place>
             
@@ -8626,12 +8584,14 @@
             <place type="place">
                <placeName type="index">Timworth</placeName>
                <placeName type="formInDocument">thymworde</placeName>
+               <placeName type="formInDocument">tymworth</placeName>
                <region type="parish">Timworth</region>
                <region type="county">Suffolk</region>
                <idno>https://www.wikidata.org/wiki/Q5238854</idno>
                <idno>https://www.genuki.org.uk/big/eng/SFK/Timworth</idno>
                <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 117.</bibl>
                <note type="charter">MS. Ch. Suffolk 10</note>
+               <note type="charter">MS. Ch. Suffolk 106</note>
             </place>
             
             <place type="place">
@@ -9079,6 +9039,7 @@
             
             <place type="place">
                <placeName type="index">Wheatacre</placeName>
+               <placeName type="formInDocument">quethacre</placeName>
                <placeName type="formInDocument">whetacre</placeName>
                <placeName type="formInDocument">whetacreburgh</placeName>
                <region type="parish">Wheatacre</region>
@@ -9087,6 +9048,7 @@
                <idno>https://www.wikidata.org/wiki/Q2099189</idno>
                <note type="charter">MS. Ch. Suffolk 1279</note>
                <note type="charter">MS. Ch. Suffolk 851</note>
+               <note type="charter">MS. Ch. Suffolk 1216</note>
             </place>
             
             <place type="place">
@@ -10119,6 +10081,15 @@
                <note type="charter">MS. Ch. Suffolk 1357</note>
             </org>
             
+            <org type="place">
+               <orgName type="index">London, Middle Temple</orgName>
+               <orgName type="formInDocument">middle temple</orgName>
+               <region type="parish">The Temple</region> 
+               <region type="county">Middlesex</region>
+               <idno>https://www.genuki.org.uk/big/eng/LND/TheTemple</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/id/53282a40b47fc407a0000017-The+Temple</idno>
+               <note type="charter">MS. Ch. Suffolk 194</note>
+            </org>
             
             <org>
                <placeName type="index">London, Clifford's Inn</placeName>
