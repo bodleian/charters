@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104730">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MSS. Ch. Norfolk 626-634</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MSS_Ch_Norfolk_626-634</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MSS_Ch_Norfolk_626-634" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MSS. Ch. Norfolk 626-634</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> THWEYT. Proceedings in the great church of <placeName role="date" key="place_104458">Norwich</placeName>, commenced the Thursday
+               next after the feast of St. [lost], <origDate when="1274">1274</origDate>, before 
+               <persName>
+                           <forename>J.</forename> de <surname>Nortun</surname>, official of the bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, 
+               between the abbot and <orgName key="org_104001">convent of St. Bennet of Hulme</orgName>, complainants, and 
+               <persName>
+                           <forename>Hervy</forename> de <surname>Surlingham</surname>, rector of the church of <placeName role="rector" key="place_104386">Huggethale</placeName>
+                        </persName>, defendant.
+               The abbot and convent claim to have been possessed of two parts of the tithes of the
+               lordships of <persName>sir <forename>Bartholomew</forename> de <surname>Sumerton</surname>
+                        </persName>, 
+               <persName>sir <forename>Robert</forename> de <surname>Castre</surname>
+                        </persName>, and
+               <persName>
+                           <forename>Andrew</forename> de <surname>Brampton</surname>
+                        </persName> in the village of 
+               <placeName key="place_104605">Tweyt</placeName>, which the said Hervey had by force prevented them from taking, in the autumn. 
+               Nov. <origDate notBefore="1274">1274</origDate>-June <origDate notAfter="1275">1275</origDate>.
+               . <!--Is the multiple shelfmark ok?--></p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of St Benet's, Hulme</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="242" to="242">242</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

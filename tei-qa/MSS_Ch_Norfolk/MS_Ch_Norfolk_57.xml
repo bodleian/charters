@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104066">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Norfolk 57</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Norfolk_57</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Norfolk_57" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Norfolk 57</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                        <pb n="174"/> 
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Stylle</surname>, clerk</persName>, and
+               <persName>
+                           <forename>Geoffrey</forename> 
+                           <surname>Spirlyng</surname> of <placeName role="person" key="place_104458">Norwich</placeName>
+                        </persName>, 
+               demise to <persName>
+                           <forename>Simon</forename> 
+                           <surname>Gerard</surname> of <placeName role="person" key="place_104430">Mawteby</placeName>
+                        </persName> 
+               and <persName>
+                           <forename>Andrew</forename> 
+                           <surname>Ponde</surname>
+                        </persName> of the same, all that messuage
+               called '<placeName type="minor">Lombys</placeName>,' and seven acres and three roods of arable land in 15
+               pieces, and pasture for 15 ewes and their lambs, &amp;c., in the village of <placeName key="place_104254">Castre</placeName>,
+               near <placeName key="place_104318">great Jernemuth</placeName>, or elsewhere in the villages adjacent. Also they appoint
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Symmes</surname>
+                        </persName> and
+               <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Massinger</surname>
+                        </persName>, their attornies, to deliver
+               seisin of the same. Dated at <placeName role="date" key="place_104254">Castre</placeName>, 2 July, <origDate notBefore="1482-03-04" notAfter="1483-03-21">22 Ed. IV</origDate>. 
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="173" to="174">173-174</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

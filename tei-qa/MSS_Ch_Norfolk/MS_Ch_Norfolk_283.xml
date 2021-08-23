@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104180">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Norfolk 283</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Norfolk_283</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Norfolk_283" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Norfolk 283</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> HADDISCOE, HADDESCOTHORPE, TOFT MONKS, and THURVETON. 
+               <persName>
+                           <forename>Nicholas</forename> 
+                           <surname>Noote</surname>
+                        </persName> and
+               <persName>
+                           <forename>Laurence</forename> 
+                           <surname>Crank</surname>, chaplains</persName>, dwelling in the
+               village of <placeName key="place_104318">Great Jernemuthe</placeName>, with licence of <persName>King Edward III</persName>,
+               grant to <persName>sir <forename>Nicholas</forename>, the prior</persName>, and 
+               <orgName key="org_104033">convent of the Holy Trinity, Norwich</orgName>, for the work and completion of their cell at 
+               <placeName key="place_104318">Great Jernemuth</placeName>, one messuage, 34 acres of arable land, 2½ acres of marsh, 
+               2 acres of meadow, and ½ an acre of turbary, lying in the villages of <placeName key="place_104341">Haddesco</placeName>,
+               <placeName key="place_104587">Haddescothorpe</placeName>, <placeName key="place_104598">Toft Monks</placeName>, and
+               <placeName key="place_104593">Thurveton</placeName>. 
+               Dated at <placeName role="date" key="place_104593">Thurveton</placeName> the Thursday on the feast of St. Augustine, bp. of the
+               Angles, <origDate notBefore="1373-01-25" notAfter="1374-01-24">47 Ed. III</origDate>. 
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="185" to="185">185</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

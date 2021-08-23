@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104750">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Norfolk 82</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Norfolk_82</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Norfolk_82" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Norfolk 82</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> Inrolment of charters and documents concerning the churches appropriated to the
+               abbot and <orgName key="org_104001">convent of St. Bennet of Hulme</orgName>, together with papal and episcopal
+               confirmations of tithes, pensions, &amp;c. 
+               [<origDate when="1305" precision="low">c. 1305</origDate>] 
+               [14 membranes]
+                  . </p>
+                  </msItem>
+                  <msItem>
+                     <p> (a) Confirmation of the appropriation of the church of <placeName key="place_104421">Ludham</placeName> to the abbot and
+               convent by <persName>
+                           <forename>Pandulf</forename>, bp. elect of <placeName type="diocese" role="bishop" key="place_101090">Norwich</placeName>
+                        </persName> 
+               and chamberlain of the pope. 
+               Dated at <placeName role="date" key="place_100051">London</placeName>, <origDate>6 Id. February, 4th year of Pope Honorius III</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (b) Recital and confirmation
+               of the grant of Pandulf, bp. elect of Norwich, of the appropriation of the church of
+               Ludham to the abbot and convent, by <persName>
+                           <forename>William</forename>, the prior</persName>, 
+               and <orgName key="org_104033">convent of the Holy Trinity, Norwich</orgName>. 
+               Dated at <placeName role="date" key="place_104458">Norwich</placeName>, 4th year of Pope Honorius III. <pb n="245"/> 
+                     </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (c) Confirmation of the appropriation of the church of Ludham by <persName>
+                           <forename>John</forename> II, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>. 
+               Dated at Norwich in the synod of St. Michael by the hands of master <persName>
+                           <forename>Robert</forename> de <surname>Welloper</surname>
+                        </persName>, 2nd year of his pontificate. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (d) Confirmation by <persName>
+                           <forename>John</forename> I, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, of the appropriation of the church of Ludham. [Undated.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (e) Appropriation by <persName>Pope Urban IV</persName> of three parts of the church of
+               <placeName key="place_104293">Felmyngham</placeName> to the abbot and convent of St. Bennet of Hulme. 
+                  Dated at Mount Flaston <supplied>recte <placeName role="date" key="place_104445">Montefiascone</placeName>
+                        </supplied> ("Montem Flaston'") , 10 Kl. October, 2nd
+               year of his pontificate. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (f) Confirmation by <persName>
+                           <forename>Roger</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, 
+               of the appropriation of the three parts of the church of Felmyngham. 
+               Dated at <placeName role="date" key="place_104385">Hoxne</placeName>, 5 Kl. Nov., <origDate when="1267">1267</origDate>, 
+               and 2nd year of his pontificate. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (g) Confirmation of the appropriation of the church of <placeName key="place_104375">Hornyngg</placeName> by 
+               <persName>
+                           <forename>Simon</forename>, bp. elect of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, 
+               to the uses of the abbot and convent of St. Bennet of Hulme. 
+               Dated at <placeName role="date" key="place_104588">Thorp</placeName>, on the day of St. Andrew the apostle, <origDate when="1257">1257</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (h) Recital and confirmation of the deed of Simon, bp. elect of Norwich, for the appropriation of the
+               church of Hornyngg, to the uses of the abbot and convent by William, the prior, 
+               and convent of the Holy Trinity, Norwich.
+               Dated in their chapter house the day and year above written (g). </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (i) Appropriation of the same church of Hornyngg, by William, bp. of Norwich, 
+               <origDate>temp. Daniel, abbot of Hulme</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (k) Appropriation of the same church of Horning by <persName>
+                           <forename>Walter</forename>, bp, of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>. 
+               Dated at <placeName role="date" key="place_104588">Thorp</placeName>, Kl. October, <origDate when="1248">1248</origDate>, </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (l) Confirmation of the appropriation of the church of Hornyngg by
+               Simon, the prior, and convent of the Holy Trinity, Norwich.</p>
+                  </msItem>
+                  <msItem>
+                     <p> 
+               (m) Confirmation of the appropriation of the church of Hornyng by 
+               <persName>
+                           <forename>Boniface</forename>, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
+                        </persName>. 
+               Dated at <placeName role="date" key="place_104194">Audyngton</placeName>, 3 Kl. Aug., <origDate when="1257">1257</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (n) Appropriation of the churches of <placeName key="place_104448">Neteshirde</placeName>, <placeName key="place_104393">Irstede</placeName>, and
+               <placeName key="place_104202">Bastwik</placeName>, by <persName>
+                           <forename>William</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, 
+               at the request of <persName>
+                           <forename>William</forename> the abbot</persName>, to the
+               abbey of St. Bennet of Hulme. [Undated.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (o) Confirmation by <persName>
+                           <forename>William</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName> 
+               (successor of William in n), of the appropriation of the churches of Neteshirde, 
+               Irstede, and Bastwik. [Undated.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (p) Confirmation of the appropriation of the same churches by 
+               <persName>
+                           <forename>Simon</forename>, the prior</persName>, and convent of the Holy Trinity, Norwich.
+               [Undated.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (q) Appropriation of the churches of <placeName key="place_104381">Hoveton</placeName> and <placeName key="place_104190">Asmanhage</placeName> 
+               by William, bp. of Norwich, to the uses of the abbey and convent of St. Bennet of Hulme. [Undated.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (r) Confirmation by <persName>
+                           <forename>Roger</forename>, the prior</persName>, and
+               the convent of the Holy <pb n="246"/> Trinity, Norwich, of the appropriation of the
+               churches of Hoveton and Asmanghage. 
+               Dated at Norwich the Wednesday next after the feast of the Nativity B.V.M., <origDate when="1258">1258</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (s) Confirmation of the appropriation of the above churches by 
+               <persName>
+                           <forename>John</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>. 
+               Dated at <placeName role="date" key="place_104588">Thorp</placeName> by the hands of 
+               <persName>
+                           <forename>David</forename> de <surname>Ruddeby</surname>
+                        </persName>, 14 Kl. October, 
+               6th year of his pontificate. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (t) Confirmation of the appropriation of the churches of Neteshirde, Irstede, and
+               Bastwik, by <persName>
+                           <forename>Theobald</forename>, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
+                        </persName>. [Undated.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (u) Confirmation of the appropriation of the churches of Neteshirde, Irstede, and Bastwic, by 
+               <persName>Pope <forename>Alexander</forename> IV</persName>. 
+               Dated at <placeName role="date" key="place_104406">Lateran</placeName>, 2 Kl. March, 3rd year of his pontificate 
+               (<origDate when="1257">1257</origDate>). </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (v) <persName>
+                           <forename>John</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, 
+               grants to the abbot and monks of St. Bennet of Hulme the following pensions; viz. from the church of
+               Neteshird one mark, church of Irstede one mark, church of Antingham 20s., church of Ludham half a mark,
+               church of <placeName key="place_104358">Hecham</placeName> 40d., church of <placeName key="place_104452">Nort Walsham</placeName> 20s., 
+               church of <placeName key="place_104543">St. Laurence, Suth Walsham</placeName>, 8s., church of
+               <placeName key="place_104293">Felmingham</placeName> 5s., church of <placeName key="place_104211">Belage</placeName> 12d., 
+               church of <placeName key="place_104191">Askeby</placeName> one mark, church of <placeName key="place_104511">Scothowe</placeName> one mark, 
+               church of Bastwik one mark, churches of Hoveton and <placeName key="place_104190">Asshemanhawe</placeName> one mark, church of 
+               <placeName key="place_104555">St. Peter, Cumingesford</placeName>, 1 lb. incense, church of 
+               <placeName key="place_104565">Stalham</placeName> 1 lb. incense, church of <placeName key="place_104550">St. Michael's, Norwich, 
+               near the church of St. Christopher</placeName>, 12d. [Undated.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (w) Confirmation by <persName>
+                           <forename>William</forename>, the prior</persName>, and convent
+               of the Holy Trinity, Norwich, of the ratification by 
+               <persName>
+                           <forename>Thomas</forename>, bp. of <placeName type="diocese" role="bishop" key="place_101090">Norwich</placeName>
+                        </persName>, of the
+               possession of all tithes of the manors of the abbey of St. Bennet of Hulme. Dated at
+               Norwich on the day of the Epiphany, 8th pontifical year of the said bp. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (x) Another confirmation by <persName>
+                           <forename>Roger</forename>, the prior</persName>, and convent of
+               Norwich. Dated at Norwich the Wednesday next after the feast of the Nativity of B.V.M., 
+               <origDate when="1258">1258</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (y) Charter of confirmation of the tithes of the manors of the abbot
+               and convent granted by Thomas, bp. of Norwich (see w). Dated at Norwich on the day of
+               the Epiphany, 8th year of his pontificate. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (z) <persName>
+                           <forename>Hugh</forename>, <surname type="patronymic">son of Heudo</surname>
+                        </persName>,
+               grants to the church of St. Bennet of Hulme that gift which <persName>
+                           <forename>Ernald</forename>
+                        </persName> 
+               and <persName>
+                           <forename>Roger</forename> his son</persName>, gave to the said church, viz. the 
+               third part of their tithes of Ingham, and the third part of <placeName key="place_104618">Waxtonesham</placeName>, and two
+               parts of <placeName key="place_104647">Wrthestede</placeName>, and two parts of <placeName key="place_104229">Brunstede</placeName>, and half a
+               part of <placeName key="place_104376">Horseye</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (aa) Confirmation by William, bp. of Norwich, of the gift of Ernald and Roger of the tithes, 
+               to the church and brethren of St. Bennet of Hulme, as described (z).</p>
+                  </msItem>
+                  <msItem>
+                     <p> 
+               (bb) Inspeximus and confirmation by William, bp. of Norwich, of the charter of 
+               <persName>
+                           <forename>Arnald</forename> de <surname>Ingham</surname>
+                        </persName> and 
+               <persName>
+                           <forename>Beatrice</forename> his wife</persName> and 
+               <persName>
+                           <forename>Roger</forename> his <pb n="247"/> son</persName> granting to the church and 
+               brethren of St. Bennet of Hulme in frankalmoigne the third part of all their tithes of Ingham, and 
+               the third part of Waxtonesham, and two parts of Wrthestede, and two parts of 
+               <placeName key="place_104229">Brunstede</placeName>, and half a part of Horseye, which 
+               <persName>his father <forename>Edric</forename>
+                        </persName> gave to the said ahbey. 
+               Dated at <placeName role="date" key="place_104403">Laneham</placeName>, 15 Kl. Oct., <origDate when="1283">1283</origDate>, 
+               and the 6th year of his consecration. 
+                  <!--This doc. seems to be the same as https://deeds.library.utoronto.ca/charters/02400096--></p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (cc) Ordination of William, bp. of Norwich (to whom the cause had been referred),
+               concerning the third part of the tithes of corn of the lordships of 
+               <persName>sir <forename>Oliver</forename> de <surname>Ingham</surname>
+                        </persName>, viz. from the land 
+               called '<placeName type="minor">Bordlond</placeName>' within the limits of the parish of
+               <placeName key="place_104618">Waxtonesham</placeName> claimed by 
+               <persName>
+                           <forename>Thomas</forename> de <surname>Skerningg</surname>, rector of <placeName role="person" key="place_104618">Great Waxtonesham</placeName>
+                        </persName>, 
+               against the abbot and convent of St. Bennet of Hulme. 
+               Dated at <placeName key="place_104237">Bukenham</placeName>, Kl. May, <origDate when="1283">1283</origDate>, and 5th year of his
+               consecration. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (dd) <persName>
+                           <forename>Robert</forename>, the master of the <orgName role="master" key="org_104029">order of Semplingham</orgName>
+                        </persName> 
+               (sic), <persName>
+                           <forename>Thomas</forename>, the prior</persName>, and 
+               <orgName key="org_104029">convent of the house of Semplingham</orgName>, have received to perpetual farm of the 
+               abbot and convent of St. Bennet of Hulme, all the tithes both great and small which they have in the
+               parish of <placeName key="place_104302">St. Mary, Fordham</placeName>, at an annual rent of 20s. 
+               Dated at <orgName role="date" key="org_104001">St. Bennet of Hulme</orgName>, <origDate when="1242">1242</origDate>, on the
+               morrow of Palm Sunday. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (ee) Decree of <persName>
+                           <forename>John</forename> de <surname>Fereby</surname>, official of the bishop of <placeName role="person" key="place_104458">Norwich</placeName>
+                        </persName>, 
+               in a cause promoted by <persName>
+                           <forename>Nicholas</forename>, the abbot</persName>, and 
+               convent of St. Bennet of Hulme, patrons of the church of <placeName key="place_104188">St. Margaret, Antingham</placeName>,
+               against <persName>sir <forename>Thomas</forename>, rector</persName> of the said church, for subtraction 
+               of a pension of 20s. in lieu of tithes for five years past; decided in favour of the abbot and
+               convent. Dated at Norwich the Monday next after the feast of the Ascension, <origDate when="1291">1291</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (ff) Notarial instrument by which <persName>
+                           <forename>William</forename>, rector of the church of <placeName role="rector" key="place_104191">Haskeby</placeName>
+                        </persName>, 
+               renounces before <persName>
+                           <forename>John</forename> de <surname>Rees</surname>, commissary of the archbishop of <placeName role="person" key="place_104247">Canterbury</placeName>
+                        </persName>, 
+               at the time of his visitation, all right to the tithes of <placeName key="place_104191">Haskeby</placeName> which
+               belong to the abbot and convent of St. Bennet of Hulme. 
+               Dated <origDate when="1303">1303</origDate>, 5 Id. March, and witnessed by 
+               <persName>
+                           <forename>Alan</forename> de <surname>Dersingham</surname>, notary public</persName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (gg) <persName>
+                           <forename>John</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, 
+               at the petition of the <persName>earl <forename>Roger</forename> 
+                           <surname>Bigot</surname>
+                        </persName>, 
+               grants that the convent of St. Bennet of Hulme may receive each year from the church of 
+               <placeName key="place_104543">St. Laurence of Suth Wallesham</placeName> by the hands of the parson of the same an annual
+               pension of 8s. [Undated.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (hh) Testimony of <persName>
+                           <forename>Thomas</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, 
+               that two parts of the tithe of corn of <placeName key="place_104578">Swaneton</placeName> belong to the abbot and 
+               convent of St. Bennet of Hulme. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (ii) Composition between the prior and convent of Norwich and the abbot and convent of St.
+               Bennet of Hulme, concerning two sheaves of the tithes of the lordships of 
+               <persName>sir <forename>Richard</forename> de la <surname>Rokele</surname>
+                        </persName>, 
+               <persName>sir <forename>Robert</forename> de <surname>Gorton</surname>
+                        </persName>, kts., and their villagers
+               holding of the fee of the said abbot and convent in the village of <placeName key="place_104271">Cruchestok</placeName>, 
+               also concerning two <pb n="248"/> parts of all the lesser tithes of the court of the said Richard de la
+               Rokele, and of two parts of the tithes of flax and hemp, arising from the fee of the
+               said abbot and convent. 
+               Dated <origDate when="1239">1239</origDate>, 1st year of William, bp. of Norwich. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (kk) <persName>
+                           <forename>Eborard</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, 
+               confirms the gift of <persName>
+                           <forename>Richard</forename> 
+                           <surname>Vetule</surname>
+                        </persName> that he
+               made to the light of the church of St. Bennet of Hulme, namely two sheaves of the tithe
+               of corn of his lordship at <placeName key="place_104348">Hanigge</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (ll) Confirmation by <persName>Pope <forename>Gregory</forename>
+                        </persName> of all the
+               lands, possessions, tithes, woods, and goods, of the abbot and convent. 
+               Dated 6 Non. July, 9th year of his pontificate (<origDate when="1236">1236</origDate>). </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (mm) Bull of Pope Gregory concerning two parts of the tithe of corn. 
+               Dated 8 Kl. August, 5 year of his pontificate (<origDate when="1232">1232</origDate>). </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (nn) Bull of <persName>Pope <forename>Innocent</forename>
+                        </persName> concerning tithes and lands of the
+               abbot and convent. Dated at <placeName role="date" key="place_104422">Lugdun</placeName>, 5 Id. May, 6th year of
+               his pontificate (<origDate when="1249">1249</origDate>). </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (oo) <persName>
+                           <forename>Theobald</forename>, archbp. of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
+                        </persName>, 
+               confirms to <persName>
+                           <forename>Hugh</forename>, the abbot</persName>, and convent of St. Bennet of Hulme,
+               the gift of <persName>King <forename>Stephen</forename>
+                        </persName> to that abbey. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (pp) <persName>
+                           <forename>John</forename>, archbp. of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
+                        </persName>,
+               confirms to the abbot and convent the churches of <placeName key="place_104421">Ludham</placeName>,
+               <placeName key="place_104448">Netheshirde</placeName>, <placeName key="place_104375">Horningg</placeName>, <placeName key="place_104202">Bastwyk</placeName>, 
+               <placeName key="place_104383">Hoveton St. Peter</placeName>, <placeName key="place_104382">Hoveton St. John</placeName>,
+               <placeName key="place_104190">Assemenhavve</placeName>, and three parts of the church of <placeName key="place_104293">Felmingham</placeName>.
+               Dated at <placeName role="date" key="place_104309">Frekenham</placeName>, Kl. April, <origDate when="1281">1281</origDate>, 
+               and 3rd year of his consecration.</p>
+                  </msItem>
+                  <msItem>
+                     <p> 
+               (qq) Bull of <persName>Pope <forename>Alexander</forename>
+                        </persName> concerning tithes, manors, and 
+               all other things belonging to the abbey. 
+               Dated at <placeName role="date" key="place_104406">Lateran</placeName>, 2 Kl. March, 3rd year of his
+               pontificate (<origDate when="1257">1257</origDate>). </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (rr) Bull of <persName>Pope <forename>Lucius</forename>
+                        </persName> addressed to
+               <persName>
+                           <forename>Thomas</forename>, the abbot</persName>, and brethren of St. Bennet of Hulme,
+               concerning their privileges and possessions. Dated, &amp;c. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (ss) Bull of <persName>Pope <forename>Innocent</forename>
+                        </persName> addressed to the abbot and
+               convent concerning their privileges and possessions. Dated at Lugdun, 12 Kl. June,
+                  <origDate when="1248">1248</origDate>, and 6th year of his pontificate. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (tt) Confirmation by <persName>
+                           <forename>William</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, 
+               of the composition between <persName>
+                           <forename>Robert</forename>, the abbot</persName>, and convent
+               of St. Bennet of Hulme, and <persName>
+                           <forename>Isabella</forename>, daughter of <persName>
+                              <forename>Robert</forename> de <surname>Castre</surname>
+                           </persName>
+                        </persName>, 
+               concerning two parts of the tithes of corn from the lordship of the said Isabella in
+               <placeName key="place_104254">Castre</placeName>. Dated at <placeName role="date" key="place_104385">Hoxne</placeName>, Nones of September, 
+               and 4th year of his episcopate. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (uu) Convention between Robert, the abbot, and convent of St. Bennet of Hulme, and Isabella, daughter of
+               <persName>
+                           <forename>Robert</forename> de <surname>Castre</surname>
+                        </persName>, concerning two 
+               parts of the tithes of corn of her lordship of Castre, viz. that the said abbot and convent remit 
+               all their right in consideration of an annual pension of 20s. sterling. 
+               Dated at <orgName role="date" key="org_104001">St. Bennet of Hulme</orgName>, 10 Kl. June, <origDate when="1243">1243</origDate>. </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of St Benet's, Hulme</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="244" to="248">244-248</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104642">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Norfolk 13</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Norfolk_13</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Norfolk_13" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Norfolk 13</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> NORWICH (City of). Inrolment of charters (21), being grants to the church of 
+               <placeName role="church" key="place_104544">St. Mary Unbrent (really "combuste"), Norwich</placeName>. 
+               [<origDate when="1450" precision="low">c. 1450</origDate>]
+                
+               . </p>
+                  </msItem>
+                  <msItem>
+                     <p> (a) Grant of an annual rent of 12d. to the church of <placeName role="church" key="place_104544">St. Mary Unbrent in Fybryggate</placeName>.
+               (Mutilated.) 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (b) Will of <persName>
+                           <forename>Simon</forename> 
+                           <surname>Swyne</surname> of the parish of <placeName key="place_104544">St. Mary Unbrent</placeName>
+                        </persName>, to be buried in the churchyard.
+               Proved <origDate when="1274">1274</origDate>. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (c) <persName>
+                           <forename>Cecilia</forename>, formerly wife of <persName>
+                              <forename>Simon</forename> 
+                              <surname>Swyne</surname>
+                           </persName>
+                        </persName> 
+               with the consent of <persName>
+                           <forename>Roger</forename> de <surname>Heningham</surname>
+                        </persName> her now
+               husband, sells to <persName>
+                           <forename>Walter</forename> de <surname>Sancta Fide</surname>, chaplain</persName>,
+               and his heirs, a certain chamber at the head of her house with a court adjoining, which abuts upon the land of
+               <persName>
+                           <forename>Simon</forename> 
+                           <surname>Rusto</surname>
+                        </persName>. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (d) <persName>
+                           <forename>John</forename>, son of master <persName>
+                              <forename>Andrew</forename> de <surname>Conteshal</surname>
+                           </persName>
+                        </persName>, 
+               with the assent of <persName>
+                           <forename>Agatha</forename> his mother</persName>, and the executors of the will of
+               his father, grants to <persName>
+                           <forename>John</forename> de <surname>Banningham</surname>
+                        </persName> for 40s.
+               silver the whole of a messuage, with houses and trees, which were formerly
+               <persName>
+                           <forename>Bartholomew</forename>'s, the rector of the church of <placeName role="rector" key="place_104544">St. Mary Brent ["Combuste"]</placeName>
+                        </persName>, in the same parish. 
+               Witnesses <persName>
+                           <forename>William</forename> de <surname>Donewic</surname>
+                        </persName>, 
+               <persName>
+                           <forename>Simon</forename> le <surname>Paumere</surname>
+                        </persName>,
+               <persName>
+                           <forename>Henry</forename> de <surname>Helesdone</surname>
+                        </persName>, and 
+               <persName>
+                           <forename>William</forename> de <surname>Chalmere</surname>, then bailiff of <placeName role="bailiff" key="place_104458">Norwich</placeName>
+                        </persName>. 
+               [<origDate when="1272" precision="low">c. 1272</origDate>]
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (e) <persName>
+                           <forename>Henry</forename> le <surname>Barker</surname>, of <placeName role="person" key="place_104544">St. Mary Brent</placeName>
+                        </persName>, 
+               and <persName>
+                           <forename>Margaret</forename> his wife</persName>, sell to
+               <persName>
+                           <forename>Nicholas</forename> de <surname>Kerebrok</surname>, clerk</persName>, and
+               <persName>
+                           <forename>Beatrice</forename> daughter</persName> of the said Henry and Margaret,
+               a plot of ground in their court with a building and <pb n="233"/> the half of a well in the
+               said court, lying between the land and tenement of the rector of St. Mary's
+               aforesaid. Dated on the feast of St. Mark, evangelist, <origDate notBefore="1303-11-20" notAfter="1304-11-19">32 Ed. I</origDate>, in the
+               time of <persName>
+                           <forename>William</forename> 
+                           <surname>Butt</surname>
+                        </persName>,
+               <persName>
+                           <forename>John</forename> de <surname>Thiristone</surname>
+                        </persName>,
+               <persName>
+                           <forename>Peter</forename> de <surname>Bumstede</surname>
+                        </persName>, and
+               <persName>
+                           <forename>John</forename> de <surname>Morlee</surname>
+                        </persName>, then bailiffs of <placeName role="bailiff" key="place_104458">Norwich</placeName>. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (f) <persName>
+                           <forename>Henry</forename> le <surname>Barker</surname>
+                        </persName> and 
+               <persName>
+                           <forename>Margaret</forename> his wife</persName> sell to 
+               <persName>
+                           <forename>Nicholas</forename> de <surname>Kerbrok</surname>, clerk</persName>, all their tenements
+               with edifices in the parishes of <placeName key="place_104562">St. Saviour</placeName> and <placeName key="place_104544">St. Mary Brent</placeName>,
+               Norwich. 
+               Dated at <placeName role="date" key="place_104458">Norwich</placeName> the Wednesday next before the feast of
+               the annunciation of the Lord ("annumciationi Dominicae"), <origDate notBefore="1306-11-20" notAfter="1307-11-19">35 Ed. I</origDate>, in the time of 
+               <persName>
+                           <forename>Alexander</forename> le <surname>Sarteryn</surname>
+                        </persName>,
+               <persName>
+                           <forename>William</forename> 
+                           <surname>Bateman</surname>
+                        </persName>,
+               <persName>
+                           <forename>Geoffrey</forename> 
+                           <surname>Kempe</surname>
+                        </persName> and
+               <persName>
+                           <forename>Robert</forename> de <surname>Wilby</surname>
+                        </persName>, then bailiffs of
+               <placeName role="bailiff" key="place_104458">Norwich</placeName>. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (g) <persName>
+                           <forename>Richard</forename>, son of <persName>
+                              <forename>Walter</forename> the priest of <placeName role="priest" key="place_104562">St. Saviour's</placeName>
+                           </persName>
+                        </persName>, 
+               grants to <persName>
+                           <forename>William</forename> de <surname>Donewyc'</surname>
+                        </persName> and his heirs
+               for 4s. 6d. a certain piece of ground with buildings, containing
+               in length 26 ft. and in breadth 23½ ft., lying between the churchyard of St. Saviour on the north, and the 
+               land of <persName>
+                           <forename>Cecilia</forename>, mother</persName> of the said Walter, on the
+               south, and abuts on the land of the said Cecilia and 
+               <persName>
+                           <forename>Simon</forename> 
+                           <surname>Pirimi</surname>
+                        </persName>, for 4s. 6d., paid
+               beforehand; to hold the same at an annual rent of 1½d. 
+               Witn. <persName>
+                           <forename>Will.</forename> de <surname>Habesburt</surname>
+                        </persName>,
+               <persName>
+                           <forename>Hugh</forename> the clerk</persName>, 
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Martir</surname>
+                        </persName>, 
+               <persName>
+                           <forename>Alan</forename> le <surname>Mercere</surname>
+                        </persName>, then bailiffs of
+               <placeName role="bailiff" key="place_104458">Norwich</placeName> [not in Blomfield's lists of bailiffs]
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (h) <persName>
+                           <forename>John</forename> de <surname>Todenham</surname>
+                        </persName> and
+               <persName>
+                           <forename>Margery</forename> his wife</persName> sell to 
+               <persName>
+                           <forename>Edmund</forename> 
+                           <surname>Cosyn</surname>
+                        </persName> and
+               <persName>
+                           <forename>Cecilia</forename> his wife</persName> 7s. of annual rent,
+               arising out of a messuage in the parish of <placeName key="place_104562">St. Saviour's in Fibrigate</placeName>, between a
+               messuage of <persName>
+                           <forename>Roger</forename> de <surname>Boton</surname>
+                        </persName> on the south, and a
+               messuage of <persName>
+                           <forename>William</forename> de <surname>Hethill</surname>
+                        </persName> on the
+               north, and abutting on the King's highway on the west, and upon a messuage formerly
+               <persName>
+                           <forename>Henry</forename> de <surname>Hevyngham</surname>
+                        </persName> on the east.
+               Dated at <placeName role="date" key="place_104458">Norwich</placeName> the Monday on the feast of St. George. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (i) <persName>
+                           <forename>William</forename> de <surname>Donewic</surname>
+                        </persName>', for the health of his
+               soul, and <persName>
+                           <forename>Katherine</forename> his wife</persName>, and for the souls of
+               <persName>
+                           <forename>Milisent</forename> formerly his wife</persName>, &amp;c., grants to the church of
+               <placeName key="place_104544">St. Mary Brent of Fibrigate</placeName> in frankalmoigne, 12d. annual rent, which 
+               <persName>
+                           <forename>Hugh</forename> de <surname>Gresham</surname>
+                        </persName> was accustomed to pay to him
+               for a certain messuage situated in the parish of <placeName key="place_104562">St. Saviour's in Fibrigate</placeName>. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (k) <persName>
+                           <forename>Hugh</forename> de <surname>Gresham</surname>
+                        </persName> grants to
+               <persName>
+                           <forename>Ralph</forename> de <surname>Neuton</surname>, chaplain</persName>, one
+               messuage in the parish of <placeName key="place_104562">St. Saviour's, Norwich, in Fibrigate</placeName>, between the
+               churchyard of St. Saviour's on the north, and his own land on the south, and one head
+               abuts on the land formerly <persName>master <forename>William</forename> de <surname>Worstede</surname>
+                        </persName>'s
+               on the east, and another on the messuage of <persName>
+                           <forename>Peter</forename> le <surname>Parcheminer</surname>
+                        </persName> 
+               on the west, paying annually to the church of St. Saviour's 1½d and to the church of 
+               <placeName key="place_104544">St. Mary Brent</placeName> 12d. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (l) Duplicate of the above charter (k). 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (m) <persName>
+                           <forename>Ralph</forename> de <surname>Neuton</surname>, chaplain</persName>, grants to 
+               <persName>
+                           <forename>Osbert</forename> his servant</persName>, and 
+               <persName>
+                           <forename>Beatrice</forename> his wife</persName>, one messuage in
+               Norwich, which lies in the parish of <placeName key="place_104562">St. Saviour's in Fibrigate</placeName> (k), paying annually
+               to the church of St. Saviour's 1½d., and to the church of <placeName key="place_104544">St. Mary Unbrent</placeName> 12d.
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (n) Duplicate of (m). 
+                </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (o) <persName>
+                           <forename>Osbert</forename> de <surname>Rynglond</surname>
+                        </persName> and 
+               <persName>
+                           <forename>Beatrice</forename> de <surname>Neuton</surname>
+                        </persName> his wife grant to
+               <persName>
+                           <forename>Walter</forename> de <surname>Sancta Fide</surname>, chaplain, rector of the church of
+                  <placeName role="rector" key="place_104544">St. Mary <pb n="234"/> Brent, Norwich</placeName>
+                        </persName>, 
+               all their right and claim in one messuage in the parish of <placeName key="place_104562">St. Saviour</placeName>. 
+               For this concession the said Walter gave 3s. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (p) <persName>
+                           <surname>Humphrey</surname>, son of <persName>
+                              <forename>Seman</forename>, the <surname>shoemaker</surname>
+                           </persName>
+                        </persName>, 
+               quit-claims to <persName>
+                           <forename>Ralph</forename>, the priest of <placeName role="priest" key="place_104544">St. Mary Brent</placeName>
+                        </persName>, 
+               for half a mark, his whole right in a messuage with its appurtenances, in the said parish of 
+               <placeName key="place_104544">St. Mary Brent</placeName>. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (q) <persName>
+                           <forename>Randal</forename>, son of <persName>
+                              <forename>Gunnilda</forename> 
+                              <surname>Gemmes</surname>
+                           </persName>
+                        </persName>, 
+               quit-claims to <persName>
+                           <forename>Ralph</forename>, rector of the church of <placeName role="rector" key="place_104544">St. Mary Brent</placeName>
+                        </persName>, 
+               all right in a messuage lying between the way which leads to the said 
+                  <placeName key="place_104544">church of St. Mary</placeName>'s and a messuage of the said Ralph, and abuts upon a messuage of
+               <persName>
+                           <forename>Henry</forename>, son of the priest</persName>, towards the west, and the 
+               churchyard of St. Mary's on the east. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (r) <persName>
+                           <forename>Alice</forename>, daughter of <persName>
+                              <forename>Bertholomew</forename>, formerly rector of <placeName role="rector" key="place_104544">St. Mary Brent</placeName>
+                           </persName>
+                        </persName>, 
+               quit-claims to <persName>
+                           <forename>Ralph</forename> de <surname>Neuton</surname>, chaplain</persName>, 
+                  for his life and after his death to the aforesaid <placeName key="place_104544">church of St. Mary</placeName>, 
+               all right in the messuage described (q), but said to abut on the messuage of
+               <persName>
+                           <forename>John</forename> son of the priest</persName>. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (s) <persName>
+                           <forename>Nicholas</forename> de <surname>Ingham</surname>
+                        </persName> grants to
+              <persName> 
+                           <forename>Ralph</forename>, rector of the church of <placeName role="rector" key="place_104544">St. Mary Brent</placeName>
+                        </persName>, 
+               the whole of that piece of land with appurtenances which was formerly 
+               <persName>
+                           <forename>Richard</forename> le <surname>Komyn</surname>
+                        </persName>'s, in
+                  <placeName type="street" key="place_104162">Fybryggate</placeName>, between the land of 
+               <persName>
+                           <forename>William</forename> 
+                           <surname>Gyssinge</surname>
+                        </persName>' on the south, and a messuage 
+               of <persName>
+                           <forename>Philip</forename> le <surname>Burgellum</surname>
+                        </persName> on the north, paying
+               annually to him and his heirs one penny. 
+               Witn. <persName>
+                           <forename>Hugh</forename> the <surname>clerk</surname>
+                        </persName>, <persName>
+                           <forename>Peter</forename> 
+                           <surname>But</surname>
+                        </persName>, <persName>
+                           <forename>Henry</forename> de <surname>Heylesdon</surname>
+                        </persName>, and <persName>
+                           <forename>Roger</forename> de <surname>Sperdeston</surname>
+                        </persName> then bailiffs of <placeName role="bailiff" key="place_104458">Norwich</placeName>.
+               [<origDate when="1261">1261</origDate>]
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (t) <persName>
+                           <forename>Nicholas</forename> de <surname>Ingham</surname>
+                        </persName> grants to the 
+               church of <placeName key="place_104544">St. Mary Brent of Fibriggate</placeName> one penny of annual
+               rent which <persName>
+                           <forename>Ralph</forename>, rector of the said church</persName>, was accustomed 
+               to pay him, as (s), described as having the land of 
+               <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Peswyke</surname>
+                        </persName> on the north. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (u) <persName>
+                           <forename>John</forename> de <surname>Fornesett</surname> called  'Le Schirmischure'</persName>
+               grants to <persName>
+                           <forename>William</forename> 
+                           <surname>Albon</surname>, citizen of <placeName role="person" key="place_104458">Norwich</placeName>
+                        </persName>, 
+               one plot of land in the parish of <placeName key="place_104544">St. Mary Brent</placeName>, between a messuage of
+               <persName>
+                           <forename>Reginald</forename> the tailor</persName> on the one part and a messuage of
+               <persName>
+                           <forename>Hugh</forename> le <surname>Stotere</surname>
+                        </persName> on the other.
+               Dated 31 Ed. I [<origDate when="1303">1303</origDate>]. 
+               Witn. <persName>
+                           <forename>Geoffrey</forename> of <surname>Norwich</surname>
+                        </persName>, 
+               <persName>
+                           <forename>John</forename> de <surname>Thurstone</surname>
+                        </persName>, 
+               <persName>
+                           <forename>John</forename> le <surname>Graunt</surname>
+                        </persName> and 
+               <persName>
+                           <forename>Robert</forename> de <surname>Lophem</surname>
+                        </persName>, then bailiffs.
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (v) <persName>
+                           <forename>William</forename> 
+                           <surname>Albone</surname> of <placeName role="person" key="place_104458">Norwich</placeName>
+                        </persName> 
+               quit-claims to <persName>sir <forename>Robert</forename> de <surname>Sempyngham</surname>, parson of the church of <placeName role="parson" key="place_104544">St. Mary Brent</placeName>
+                        </persName>,
+               and his successors in the said church, for the soul of <persName>his wife <forename>Mabel</forename>
+                        </persName>
+               all his right in one plot of ground which is held in fee of the said church and formerly acquired by him from 
+               <persName>
+                           <forename>John</forename> de <surname>Forneset</surname> called 'le Skirmeshure' of <placeName role="person" key="place_104458">Norwich</placeName>
+                        </persName>.
+               Dated, 4 Edw. fil. Edw. in the time of 
+               <persName>
+                           <forename>John</forename> de <surname>Morle</surname>
+                        </persName>, 
+               <persName>
+                           <forename>Hugh</forename> de <surname>Dunston</surname>
+                        </persName>,
+               <persName>
+                           <forename>Peter</forename> de <surname>Basynghere</surname>
+                        </persName> and
+               <persName>
+                           <forename>Roger</forename> de <surname>Sthlon</surname>
+                        </persName>, bailiffs. [<origDate when="1310">1310</origDate>] (u). 
+            </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="chart">
+                        <support>paper</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="232" to="234">232-234</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

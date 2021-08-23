@@ -16,6 +16,11 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
+   <!-- to do:
+   queries
+   add div for priory docs
+   
+   -->
    <text>
       <body>
          <div type="county">
@@ -194,7 +199,7 @@
                   of Norwich gave 16 marks of silver.
                   Dated at <placeName role="date">Norwich</placeName> the Tuesday next after the feast of the Nativity 
                   of St. John the Baptist, <date>14 Ed. I</date>. 
-                  <note type="seal">[With fine seal, perfect, of the pirory of Alvesbrunne.]</note> 
+                  <note type="seal">[With fine seal, perfect, of the priory of Alvesbrunne.]</note> 
                   <bibl type="shelfmark">MS. Ch. Suffolk 187</bibl>.
                </p>
             </div>
@@ -721,7 +726,7 @@
                   <placeName role="person">Heringflete</placeName></persName> and <persName><forename>Robert</forename> le
                      <surname>Neve</surname> of <placeName role="person">Askeby</placeName></persName> grant to 
                   <persName><forename>Roger</forename> ....</persName> a messuage in <placeName>Askeby</placeName>, together with a croft and a piece of land at 
-                  <placeName>Donnacre</placeName>. 
+                  <placeName type="minor">Donnacre</placeName>. 
                   Dated at <placeName role="date">Askeby</placeName> on the vigil of St Andrew the apostle, 
                   <date>1 Rich. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Suffolk 710</bibl>. </p>
@@ -1614,7 +1619,7 @@
                   <persName><forename>John</forename> <surname>Overton</surname> of <placeName role="person">Multon</placeName></persName> 
                   of the other, witnesseth that the said prior and convent have demised to the said John 
                   their manor of <placeName type="manor">Redewelle</placeName>
-                  with 'le Cagehalle' in <placeName>Bertone</placeName> near St. Edmund, for 20 years, 
+                  with '<placeName type="minor">le Cagehalle</placeName>' in <placeName>Bertone</placeName> near St. Edmund, for 20 years, 
                   paying annually to the chamberlain of St. Edmund at Bury £10 for the first 10 years, 
                   and £12 for the last 10 years, with other conditions. 
                   Dated on the feast of St. Matthew, <date>6 Rich. II</date>. 
@@ -3461,7 +3466,7 @@
                <p> <persName><forename>Andrew</forename> <surname>Shurkyld</surname> of <placeName role="person">Northwold</placeName></persName> 
                   grants to <persName><forename>William</forename> de <surname>Waketon</surname></persName>, 
                   <persName><forename>Geoffrey</forename> de <surname>Caverham</surname></persName> and 
-                  <persName><forename>Alan</forename> <surname>Gdene</surname> of <placeName role="person">Swanton</placeName></persName>, 
+                  <persName><forename>Alan</forename> <surname>Grene</surname> of <placeName role="person">Swanton</placeName></persName>, 
                   chaplains and brethren of the <orgName>hospital of St. Peter</orgName>
                   one acre of land in the fields of the town of <placeName>St. Edmund</placeName> without the gate called
                   <placeName type="minor">Rysby gate</placeName>. 
@@ -5451,7 +5456,7 @@
                   <persName><forename>William</forename> <surname>Sewyne</surname></persName> of the same village all 
                   their right in three pieces of land in <placeName>Codenham</placeName>, with one pyttel, and rents of 
                   18d, one day's work in autumn, and one hen at Christmas.
-                  Dated at <placeName role="date">Jodenham</placeName> the Sunday next after the feast of the
+                  Dated at <placeName role="date">Codenham</placeName> the Sunday next after the feast of the
                   Purification of the B. V. M., <date>4 Ed. III</date>. 
                   <note type="seal">[With seals.]</note> 
                   <bibl type="shelfmark">MS. Ch. Suffolk 541b</bibl>. </p>
@@ -7414,7 +7419,7 @@
                <p> <persName><forename>John</forename> de <surname>Flemton</surname>, chaplain</persName>, 
                   grants to the abbot and <orgName>convent of St. Edmund</orgName> a messuage and 35 acres
                   and a half of land in <placeName>Fornham</placeName> and
-                  <placeName><unclear>S</unclear>ymworth</placeName> for the support of
+                  <placeName><unclear>T</unclear>ymworth</placeName> for the support of
                   the office of chamberlain. 
                   Dated at <placeName role="date">Fornham All Saints</placeName>, the Thursday on the
                   morrow of St. Laurence [i.e. the archbishop, nnot the deacon], <date>29 Ed. III</date>. 
@@ -8540,7 +8545,7 @@
             
             <div type="charter">
                <p> HERRINGFLEET and ASKEBY. 
-                  <persName><forename>Robert</forename> <surname>Stevyn</surname> (?)of <placeName role="person">Halys</placeName></persName> and
+                  <persName><forename>Robert</forename> <surname>Stevyn</surname> (?) of <placeName role="person">Halys</placeName></persName> and
                   <persName><forename>John</forename> <surname>Carable</surname> of <placeName role="person">Horsham</placeName>, chaplain</persName>, grant to 
                   <persName><forename>John</forename> de la <surname>Merhs</surname>, sen.</persName>,
                   <persName><forename>John</forename> de <surname>Merhs</surname>, jun.</persName>, and others, 
@@ -8706,6 +8711,8 @@
                   to him, viz. land in  <placeName>Hopeton</placeName> and <placeName>Cungeston</placeName>, and in
                   <placeName>Bertune</placeName>, also a toft in <placeName>St. Edmund</placeName>, subject to certain
                   services. 
+                  <!-- printed: Douglas, Feudal Docs., no. 145 
+                  https://babel.hathitrust.org/cgi/pt?id=mdp.39015040789920&view=1up&seq=310&skin=2021 -->
                   <note type="seal">[With seal.]
                      [<date notBefore="1160" notAfter="1170" precision="low">c. 1160-70</date>.]
                      <bibl type="shelfmark">MS. Ch. Suffolk 5</bibl>. </note> 
@@ -8931,7 +8938,7 @@
             <div type="charter">
                <p> HOWESLEY, &amp;c. Indenture made 20 May, <date>38 Q. Elizabeth</date>, witnesseth that
                   <persName><forename>William</forename> <surname>Cade</surname> of <placeName role="person">London</placeName>, gent.</persName>, 
-                  has leased to <persName><forename>John</forename> <surname>Hobart</surname> of the <placeName role="person">Middle Temple</placeName></persName> 
+                  has leased to <persName><forename>John</forename> <surname>Hobart</surname> of the <orgName role="person">Middle Temple</orgName></persName> 
                   40 acres of marsh in <placeName>Howesley</placeName>, and lands and tenements &amp;c. elsewhere, 
                   as in letters patent, <date>37 of Q. Eliz.</date>, being part of the lands of the dissolved 
                   <orgName>monastery of Butley</orgName> in Suffolk, for 21 years. 
@@ -9350,8 +9357,8 @@
                   <persName><forename>Ralph</forename> de <surname>Pesehale</surname></persName>, grants to 
                   <persName><forename>Robert</forename>, son of <persName><forename>Edstan</forename> de <surname>Caldecotes</surname></persName></persName> 
                   (Caldecot near Fritton, Suffolk?), ten acres and half a rood of land in <placeName>Lund</placeName>
-                  some near the way as you go from Lund to <placeName>Rotepet</placeName> towards the east, 
-                  some in Kirkefurlong, some near the way going from the monastery of Lund in boyton to the north, etc.; paying annually 12d., and giving <!--chk hardcopy: no... two ..-->... 
+                  some near the way as you go from Lund to <placeName type="minor">Rotepet</placeName> towards the east, 
+                  some in <placeName type="minor">Kirkefurlong</placeName>, some near the way going from the monastery of Lund in <placeName>Boyton</placeName> to the north, etc.; paying annually 12d., and giving <!--chk hardcopy: no... two ..-->... 
                   (<date notBefore="1190" notAfter="1200" precision="low">c. 1190-1200</date>.) 
                   <bibl type="shelfmark">MS. Ch. Suffolk 928</bibl>. </p>
             </div>
@@ -10066,7 +10073,7 @@
             </div>
             
             <div type="charter">
-               <p> <persName><forename>Geoffrey</forename> <surname>Fordele</surname> of <placeName role="person">Wrox</placeName></persName> .... 
+               <p> <placeName>Lowestoft</placeName> <persName><forename>Geoffrey</forename> <surname>Fordele</surname> of <placeName role="person">Wrox</placeName></persName> .... 
                   remits and quit-claims to <persName><forename>John</forename> M .... of <placeName role="person">Lowestoft</placeName></persName> 
                   all right in three pieces of land in <placeName>Lowestoft</placeName>, in the
                   field called <placeName type="minor">Southfield</placeName>. 
@@ -10075,10 +10082,10 @@
             </div>
             
             <div type="charter">
-               <p> Indenture dated 14 Nov., <date>12 Hen. VII</date>, by which
+               <p><supplied resp="TA"><placeName>Lowestoft</placeName></supplied> Indenture dated 14 Nov., <date>12 Hen. VII</date>, by which
                   <persName><forename>John</forename> <surname>Cowper</surname>, carter, of <placeName role="person">Lowestoft</placeName></persName>, 
                   sells to <persName><forename>William</forename> <surname>Cowper</surname></persName> his son, for a
-                  payment of £22, "hys place as it [is] sette in the <placeName>Southende</placeName>". 
+                  payment of £22, "hys place as it [is] sette in the <placeName type="minor">Southende</placeName>". 
                   <note type="language">[English]</note>
                   <bibl type="shelfmark">MS. Ch. Suffolk 1000</bibl>. </p>
             </div>
@@ -10280,7 +10287,7 @@
                <p> Quit-claim from <persName><forename>Katherine</forename>, formerly wife of <persName><forename>William</forename> de <surname>Colekyrke</surname></persName></persName> 
                   to <persName><forename>William</forename>, son of <persName><forename>Robert</forename> de <surname>Manethorpe</surname></persName></persName> 
                   of the moiety of the acre and a half in <placeName>Manethorpe</placeName>, which she claimed by 
-                  <!--CHK, unclear: sont--> de recto in name of dowry.
+                  writ <!--CHK, unclear: sont--> de recto in name of dowry.
                   (<date notBefore="1260" notAfter="1270" precision="low">c. 1260-70</date>)
                   <bibl type="shelfmark">MS. Ch. Suffolk 1336</bibl>. </p>
             </div>
@@ -10749,7 +10756,7 @@
                   he paying an annual rent of £19 12s. 0½d, and gathering and paying over other rents and 
                   <!-- chk, unclear: ... to  £? 7. 11½-->.
                   <note type="language">[English]</note>
-                  <bibl type="shelfmark">MS. Ch. Douce 31</bibl>
+                  <bibl type="shelfmark">MS. Douce Ch. 31</bibl>
                   <!--WAS: <bibl type="shelfmark">MS. Ch. Suffolk 358</bibl>.--> </p>
             </div>
             
@@ -11576,7 +11583,7 @@
                <p> <persName><forename>Richard</forename> <surname>Maddyssone</surname> of <placeName role="person">Somerleton</placeName></persName> 
                   grants to  <persName><forename>William</forename> <surname>Coke</surname></persName> of the same 
                   place one piece of land abutting on the way leading from <placeName type="street">Pokyslane</placeName>
-                  towards <placeName>Dool</placeName>. 
+                  towards <placeName type="minor">Dool</placeName>. 
                   Dated at <placeName role="date">Somerleton</placeName> the Sunday next
                   before the feast of St. Hilary, <date>1 Ric. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Suffolk 1059</bibl>. </p>
@@ -11877,8 +11884,8 @@
                   <persName><forename>William</forename> <surname>Bacoun</surname>, clerk</persName>, all his manors 
                   of <placeName type="manor">Somerleton</placeName> and <placeName type="manor">Horham</placeName>,
                   with the foundation of <orgName>St. Olave in Heryngflete</orgName>, together with the advowsons of
-                  the churches of <placeName>Somerleton</placeName>, <placeName>Horham</placeName>, and 
-                  <placeName>Bradwell</placeName>, together with all his lands &amp;c. in 
+                  the churches of <placeName role="advowson">Somerleton</placeName>, <placeName  role="advowson">Horham</placeName>, and 
+                  <placeName role="advowson">Bradwell</placeName>, together with all his lands &amp;c. in 
                   <placeName>Somerleton</placeName>, <placeName>Blundeston</placeName>, <placeName>Lound</placeName>,
                   <placeName>Askeby</placeName>, <placeName>Heringflete</placeName>, <placeName>Bradwell</placeName>,
                   <placeName>Horham</placeName>, <placeName>Redlyngfeld</placeName>, <placeName>Alyngton</placeName>,
@@ -13262,7 +13269,7 @@
             </div>
             
             <div type="charter">
-               <p> <persName><forename>Geoffrey</forename>, <forename>William</forename>, and <forename>Adam</forename>,
+      <p>  <placeName></placeName>        <persName><forename>Geoffrey</forename>, <forename>William</forename>, and <forename>Adam</forename>,
                   sons of <persName><forename>Richard</forename> <surname>Fayrman</surname> of <placeName role="person">Quethacre</placeName></persName></persName>, grant to 
                   <persName><forename>Robert</forename> <surname type="patronymic">son of Osbert</surname></persName> the
                   whole of <placeName>Hernaldesholm</placeName>, namely in turbary, rushes and herbage, which
@@ -16308,7 +16315,7 @@
             </div>
          </div>
          
-         Add Appendix docs
+       <!--  Add Appendix docs-->
          <div type="charter">
             <p> ACTON. <persName nymRef="Carbonel"><forename>John</forename>, son of <persName><forename>Robert</forename> <surname>Carbonel</surname></persName></persName>,
                grants to <persName><forename>Hugh</forename> de <surname>Grangia</surname></persName> and 
@@ -16418,7 +16425,7 @@
                [In part effaced and illegible.]
                <bibl type="shelfmark">Ch. 1468<!--WAS: 201*--></bibl>. </p>
          </div>
-         cont here
+        <!-- cont here-->
          <div type="charter">
             <p> Sir <persName><forename>John</forename> <surname>Wentworth</surname> of <placeName role="person">Somerleton</placeName>, kt.</persName>, 
                demises to <persName><forename>Arthur</forename> <surname>Bacon</surname></persName> a piece of land and

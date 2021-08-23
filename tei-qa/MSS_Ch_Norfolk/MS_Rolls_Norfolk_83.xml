@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104751">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Norfolk 83</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Norfolk_83</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Norfolk_83" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Norfolk 83</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                        <pb n="249"/> Inrolment of charters and documents concerning the tithes, (&amp;c.) of the 
+                  <orgName key="org_104001">abbey of Hulme</orgName>, being duplicate copies of some of the documents on roll 82. 
+                  . 
+                  </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+                  (a) Bull of <persName>Pope <forename>Innocent</forename> IV</persName> addressed to the abbot and 
+                  convent concerning their privileges and possessions. 
+                  Dated at <placeName role="date" key="place_104422">Lyons</placeName>, 12 Kl. June, <origDate when="1248">1248</origDate>, and 6th
+               year of his pontificate. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (b) <persName>
+                           <forename>Thomas</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, 
+                  confirms to the abbot and monks all the tithes of their manors which they by themselves or their 
+                  farmers have peaceably enjoyed from the time to which the memory of man is not to the contrary.
+               Dated at <placeName role="date" key="place_104458">Norwich</placeName>, the day of the Epiphany, 8th year of his episcopate. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (c) Confirmation and recital by <persName>Roger, the prior</persName>, and 
+                  <orgName key="org_104033">convent of the church of the Holy Trinity, Norwich</orgName>, of the foregoing grant (b) of
+                  <persName>
+                           <forename>Thomas</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (d) A second confirmation of the above tithes by <persName>
+                           <forename>Roger</forename>, the prior</persName>,
+                  and convent of Norwich. 
+                  Dated at <placeName role="date" key="place_104458">Norwich</placeName> the Wednesday next after the feast of the 
+                  Nativity of B.V.M., <origDate when="1258">1258</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (e) Judgment given by <persName>
+                           <forename>J.</forename> de <surname>Fereby</surname>
+                        </persName> in a suit
+                  promoted by <persName>
+                           <forename>Nicholas</forename>, the abbot</persName>, and 
+                  <orgName key="org_104001">convent of St. Bennet of Hulme</orgName>, against 
+                  <persName>
+                           <forename>Thomas</forename>, rector of the church of <placeName role="rector" key="place_104188">St. Margaret, Antingham</placeName>
+                        </persName>, 
+                  for subtraction of a pension of 20s. payable to the said abbot and convent. 
+                  Dated in the old chapel of the bp. at <placeName role="date" key="place_104458">Norwich</placeName> the Monday next after
+                  the feast of the Ascension, <origDate when="1291">1291</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (f) Confirmation by <persName>
+                           <forename>William</forename>, bp. of <placeName role="bishop" type="diocese" key="place_101090">Norwich</placeName>
+                        </persName>, 
+                  of the composition between <persName>
+                           <forename>Robert</forename>, the abbot</persName>, and 
+                  <orgName key="org_104001">convent of St. Bennet of Hulme</orgName>, and 
+                  <persName>
+                           <forename>Isabella</forename>, daughter of <persName>
+                              <forename>Robert</forename> de <surname>Castre</surname>
+                           </persName>
+                        </persName>, 
+                  concerning two parts of the tithes of corn from the lordship of the said Isabella in Castre. 
+                  Dated at <placeName role="date" key="place_104385">Hoxne</placeName>, Nones of September, 4th year of his episcopate.</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (g) Convention between <persName>Robert, the abbot</persName>, and convent, and Isabella, daughter of
+               Robert de Castre, concerning two parts of the tithes of corn of her lordship of
+               Castre, viz. that the said abbot and convent remit all their right in consideration
+               of an annual pension of 20s. sterling. 
+               Dated at <orgName role="date" key="org_104001">St. Bennet of Hulme</orgName>, 10 Kl. June, <origDate when="1243">1243</origDate>.
+               </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of St Benet's, Hulme</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="248" to="249">248-249</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

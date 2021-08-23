@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104198">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Norfolk 447</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Norfolk_447</idno>
+            <idno type="collection">Norfolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Norfolk_447" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Norfolk 447</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> HEATHFELDE. <persName>
+                           <forename>Roger</forename> 
+                           <surname>Touneshende</surname> of <placeName role="person" key="place_104487">Reyneham</placeName>, esq.</persName>, 
+               and <persName>
+                           <forename>Francis</forename> 
+                           <surname>Wyndham</surname> of <placeName role="person" key="place_104458">Norwich</placeName>, esq.</persName>, 
+               grant to <persName>sir <forename>William</forename> 
+                           <surname>Paston</surname>, kt.</persName>,
+               <persName>
+                           <forename>Henry</forename> 
+                           <surname>Doyle</surname>
+                        </persName>, 
+               <persName>
+                           <forename>Nathaniel</forename> 
+                           <surname>Bukon</surname>
+                        </persName>,
+               <persName>
+                           <forename>Henry</forename> 
+                           <surname>Jernyngham</surname>
+                        </persName>,
+               <persName>
+                           <forename>William</forename> 
+                           <surname>Rugge</surname>
+                        </persName>, and
+               <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Wyndham</surname>, esq.</persName>, all that capital messuage
+               called '<placeName type="minor">Heathelde Hall</placeName>' in Heathelde, 
+               with all lands, tenements, woods, &amp;c. belonging ; also all lands, &amp;c. called 
+               '<placeName type="minor">Twayteholde</placeName>' in <placeName key="place_104357">Heathelde</placeName>; also all
+               the manor of <placeName type="manor" key="place_104067">Heathelde alias Heathfelde</placeName>; with lands, &amp;c. thereto
+               belonging. To hold the same to such uses as shall be declared in the last will of
+               <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Touneshende</surname>of <placeName role="person" key="place_104228">Braken ashe</placeName>, esq.</persName>  
+               Dated 11 October, <origDate notBefore="1577-11-17" notAfter="1578-11-16">20 Elizabeth</origDate>. 
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="187" to="187">187</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
