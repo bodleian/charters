@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600013">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600154">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. D. D. Ch. Ch. F. 13 &amp; 13A. </title>
+            <title>MS. D. D. Ch. Ch. F. 146-62</title>
             <respStmt xml:id="DY">
                <resp when="1931">Cataloguer</resp>
                <persName>N. Denholm-Young</persName>
@@ -29,12 +29,12 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_D_D_Ch_Ch_F_13_&amp;_13A_</idno>
+            <idno type="msID">MS_D_D_Ch_Ch_F_146_62</idno>
             <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_D_D_Ch_Ch_F_13_&amp;_13A_" xml:lang="en">
+            <msDesc xml:id="MS_D_D_Ch_Ch_F_146_62" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -42,53 +42,30 @@
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
                   <collection>Deposited Deeds Christ Church</collection>
-                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 13 &amp; 13A. </idno>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 146-62</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
-                        <!--insert summary text from Wigram if necessary.-->
-
-        
-Agreement between St. F. and the nunnery of Godstow to exchange certain rents. Witnesses: Phihp of O, mayor, <persName>
-                           <forename>Ralph</forename> le  <surname>Plomer</surname>
-                        </persName>, and <persName>
-                           <forename>Henry</forename> of  <surname>Gamage</surname>
-                        </persName>, bailiffs, <persName>
-                           <forename>Henry</forename> 
-                           <surname>Oweyn</surname>
-                        </persName>, John of O, <persName>
-                           <forename>John</forename> 
-                           <surname>Sewy</surname>
-                        </persName>, Paulinus of Cridinton. <origDate>1286 <supplied>Nov. 1.</supplied>
-                        </origDate>
-Mutilated seal of Godstow in green wax. (13<hi rend="smallcap">A</hi> is a mutilated copy.)
+                        <placeName>Oxford, St. Michael’s, South</placeName>
+                        This is probably part of the tenement mentioned in the <hi rend="italic">Cartulary of St Frideswide's,</hi> no. 250 (and cf. p. 486, no. 24), which show that a rent of 14/- was due to the priory (<hi rend="smallcap">A.D.</hi> 1492) from Queen’s College for 4 curtilages and gardens held by <persName><forename>Robert</forename>  <surname>Wright</surname> Esq., beadle of the University</persName>. For the tenement on the east of this, which perhaps belonged to Eynsham, see M. 100.]
 </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet"> 
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
-                                <citedRange unit="page" from="23" to="23">23</citedRange>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p. <citedRange unit="page" from="45" to="45">45</citedRange>
                            </bibl>
-                           <bibl>Robert Wigram <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="XXX" to="XXX">XXX</citedRange>, <citedRange unit="entry" from="142" to="142">no. 142</citedRange> (<citedRange unit="page" from="XXX" to="XXX">pp. XXX-XXX</citedRange>)</bibl>
                         </source>
                      </recordHist>
                   </adminInfo>

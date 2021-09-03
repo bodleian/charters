@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600152">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600013">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. D. D. Ch. Ch. F. 145</title>
+            <title>MS. D. D. Ch. Ch. F. 13A</title>
             <respStmt xml:id="DY">
                <resp when="1931">Cataloguer</resp>
                <persName>N. Denholm-Young</persName>
@@ -29,12 +29,12 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_D_D_Ch_Ch_F_145</idno>
+            <idno type="msID">MS_D_D_Ch_Ch_F_13A</idno>
             <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_D_D_Ch_Ch_F_145" xml:lang="en">
+            <msDesc xml:id="MS_D_D_Ch_Ch_F_13A" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -42,17 +42,30 @@
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
                   <collection>Deposited Deeds Christ Church</collection>
-                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 145</idno>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 13A</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
+                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName>Hungerford</placeName>
-                        ‘Compotus domini <persName><forename>Iohannis</forename> <surname>Burton</surname> prior</persName> prioratus sive monasterii ibidem ac occupant’ officii Rec’ Generalis &amp; Superius omnium maneriorum terrarum et tenementorum ac bonorum spiritualium et temporalium pertinentium dicto monasterio videlicet a vigilia annunciacionis beate Marie virginis anno regni Regis Henrici VIII quinto usque eandem Vigiliam extunc proxime sequens anno eiusdem Regis sexto scilicet per unum annum integrum.’ 
-                        <origDate notBefore="1514-03-24" notAfter="1515-03-24"><supplied>24 March 1514–24 March 1515.</supplied>
+                        <placeName>Oxford, St Frideswide</placeName>
+Agreement between <orgName>St. F.</orgName> and the <orgName>nunnery of Godstow</orgName> to exchange certain rents. 
+                        <!-- Do we copy the witnesslist from MS. D. D. Ch. Ch. F. 13 - I've copied the placeName, description and date, ok?
+                           Witnesses: <persName>Philip of O, mayor</persName>, <persName>
+                           <forename>Ralph</forename> le <surname>Plomer</surname>
+                        </persName>, and <persName>
+                           <forename>Henry</forename> of <surname>Gamage</surname>
+                        </persName>, bailiffs, 
+                        <persName><forename>Henry</forename> <surname>Oweyn</surname></persName>, 
+                        <persName>John of O</persName>, 
+                        <persName><forename>John</forename> <surname>Sewy</surname>
+                        </persName>, 
+                        <persName><forename>Paulinus</forename> of <surname>Cridinton</surname></persName>.-->
+                        <origDate when="1286-11-01">1286 <supplied>Nov. 1.</supplied>
                         </origDate>
-                     </p>
+                        (13<hi rend="smallcap">A</hi> is a mutilated copy of MS. D. D. Ch. Ch. F. 13.)
+</p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -61,13 +74,19 @@
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
+                  <!--<authDesc> not sure if MS. D. D. Ch. Ch. F. 13A has a seal, this is from MS. D. D. Ch. Ch. F. 13:
+                     <seal>
+                        <p>Mutilated seal of Godstow in green wax. </p>
+                     </seal>
+                  </authDesc>-->
                </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p. <citedRange unit="page" from="45" to="45">45</citedRange>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p. <citedRange unit="page" from="23" to="23">23</citedRange>
                            </bibl>
+                           <bibl>Robert Wigram <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="1" to="1">1</citedRange>, <citedRange unit="entry" from="142" to="142">no. 142</citedRange> (<citedRange unit="page" from="121" to="122">pp. 121-22</citedRange>)</bibl>
                         </source>
                      </recordHist>
                   </adminInfo>
