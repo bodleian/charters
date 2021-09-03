@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600152">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600029">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. D. D. Ch. Ch. F. 145</title>
+            <title>MS. D. D. Ch. Ch. F. 29A</title>
             <respStmt xml:id="DY">
                <resp when="1931">Cataloguer</resp>
                <persName>N. Denholm-Young</persName>
@@ -29,12 +29,12 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_D_D_Ch_Ch_F_145</idno>
+            <idno type="msID">MS_D_D_Ch_Ch_F_29A</idno>
             <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_D_D_Ch_Ch_F_145" xml:lang="en">
+            <msDesc xml:id="MS_D_D_Ch_Ch_F_29A" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -42,21 +42,33 @@
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
                   <collection>Deposited Deeds Christ Church</collection>
-                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 145</idno>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 29A</idno>
                </msIdentifier>
+               <!--CHK what is the difference between MS. D. D. Ch. Ch. F. 29 and 29A?-->
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <p>
-                        <placeName>Hungerford</placeName>
-                        ‘Compotus domini <persName><forename>Iohannis</forename> <surname>Burton</surname> prior</persName> prioratus sive monasterii ibidem ac occupant’ officii Rec’ Generalis &amp; Superius omnium maneriorum terrarum et tenementorum ac bonorum spiritualium et temporalium pertinentium dicto monasterio videlicet a vigilia annunciacionis beate Marie virginis anno regni Regis Henrici VIII quinto usque eandem Vigiliam extunc proxime sequens anno eiusdem Regis sexto scilicet per unum annum integrum.’ 
-                        <origDate notBefore="1514-03-24" notAfter="1515-03-24"><supplied>24 March 1514–24 March 1515.</supplied>
+                        <placeName>Oxford, St. Edward’s</placeName>
+                        <persName><forename>Elyas</forename> <surname type="patronymic">son of William</surname></persName> grants the same to <orgName>St. F.</orgName> <supplied>See MS. D. D. Ch. Ch. F. 28</supplied>: the rent to provide clothing for the canons.
+                        Witnesses: <persName><forename>Adam</forename> <surname>Feteplace</surname>, mayor</persName>, 
+                        <persName><forename>Geoffrey</forename> of <surname>Henycyse</surname></persName>, 
+                        [<gap/>]arius, reeves, 
+                        <persName><forename>Peter</forename> <surname>Thorold</surname></persName>, 
+                       <persName><forename>Walter</forename> the <surname>goldsmith</surname></persName>, 
+                        <persName><forename>Geoffrey</forename> his brother</persName>, 
+                        <persName><forename>Nicholas</forename> of <surname>Stockwelle</surname></persName>, Nicholas the goldsmith, 
+                        <persName><forename>Nicholas</forename> of <surname>Wyche</surname>, clerk</persName>, 
+                        <persName><forename>Ralph</forename> <surname>Cakewalde</surname></persName>, 
+                        <persName><forename>John</forename> the <surname>janitor</surname></persName>. [<hi rend="italic">Torn.</hi>] 
+                        <origDate notBefore="1250" notAfter="1263">
+                           <supplied>1250, 1253, <hi rend="italic">or</hi> 1263.</supplied>
                         </origDate>
                      </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"> 
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
@@ -66,8 +78,9 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p. <citedRange unit="page" from="45" to="45">45</citedRange>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p. <citedRange unit="page" from="25" to="25">25</citedRange>
                            </bibl>
+                           <bibl>Robert Wigram, <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="1" to="1">1</citedRange>, <citedRange unit="entry" from="177" to="177">no. 177</citedRange> (<citedRange unit="page" from="146" to="146">p. 146</citedRange>)</bibl>
                         </source>
                      </recordHist>
                   </adminInfo>
