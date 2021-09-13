@@ -409,7 +409,7 @@
             
          <div type="charter">
             <p> <supplied resp="TA"><placeName>OXFORD</placeName></supplied> Charter (mutilated) by which
-               <persName><forename>Hugh</forename> .... of <placeName type="person">Bregesette</placeName>, butcher</persName>, 
+               <persName><forename>Hugh</forename> .... of <placeName role="person">Bregesette</placeName>, butcher</persName>, 
                grants to John ... lying between a tenement of 
                <persName><forename>William</forename> de <surname>London</surname></persName>'s and ... 
                in <placeName>St. Clement's</placeName> paying for the same annually 46 pence. 
@@ -788,7 +788,7 @@
                <persName><forename>Thomas</forename> <surname>Wykeham</surname>, knt.</persName>, of moneys received and paid
                to the lord by him, <date>Mich. 4 and Mich. 5 Hen. VI</date>, in <placeName>Bloxham, Abbenbury</placeName>
                (sic) etc.
-               <bibl type="shelfmark">Oseney Rolls, 2</bibl>.</p>
+               <bibl type="shelfmark">Oseney Rolls, 2</bibl>.</p><!-- check shelfmark: Oxon. or Oxon. Oseney ? and for below. -->
          </div>
             
          <div type="charter">
@@ -1268,8 +1268,10 @@
          </div>
             
             <!--surround priory docs with its own <div>? PRIORY OF ST. NICHOLAS, LITTLEMORE.-->
-         <div type="charter">
-            <p>  ABINGDON. <persName><forename>Benjamin</forename>, formerly rector of the <orgName type="person">church of St. Nicholas of Abbendon</orgName></persName>, 
+       <div type="org">
+          <head>Priory of St. Nicholas, Littlemore</head>
+            <div type="charter">
+            <p>  ABINGDON. <persName><forename>Benjamin</forename>, formerly rector of the <placeName role="rector">church of St. Nicholas of Abbendon</placeName></persName>, 
                grants to the <orgName>church of St. Nicholas, Littlemor</orgName>, for the health of his soul, 
                and for the souls of his father and mother, and all the faithful deceased in frankalmoigne, one messuage 
                in the village of <placeName>Abbendon</placeName>, situated between the gate of
@@ -1477,7 +1479,7 @@
          </div>
             
          <div type="charter">
-            <p> LAMBOUBN, co. Berks. <persName><forename>Thomas</forename> de <surname>Ingaldestorp</surname>, dean of <orgName type="person">St. Paul's, London</orgName></persName>, 
+            <p> LAMBOUBN, co. Berks. <persName><forename>Thomas</forename> de <surname>Ingaldestorp</surname>, dean of <orgName role="dean">St. Paul's, London</orgName></persName>, 
                renounces all right, &amp;c. to the tithes of a hide of land in the parish of <placeName>Lamburn</placeName>
                of the demesne formerly <persName><forename>Ralph</forename> <surname>Musard</surname></persName>'s, to the
                <orgName>prioress and convent of Littlemore</orgName>, for a payment of 20s. per ann. 
@@ -1916,7 +1918,7 @@
             
             <div type="charter">
                <p> TUNSTODE. Charter (indented) by which ..., the prioress, and the <orgName>convent of Litlemore</orgName>
-               grant in perpetuity to <persName><forename>Walter</forename> <surname>Polan</surname> de <placeName type="person">Gersindon</placeName></persName> 
+               grant in perpetuity to <persName><forename>Walter</forename> <surname>Polan</surname> de <placeName role="person">Gersindon</placeName></persName> 
                   one acre of land in <placeName>Tunstode</placeName>, and half a rood and pasture for two colts, 
                   paying to them and their successors 12d. annually.
                Witness. <persName><forename>Ralph</forename> de <surname>Sanford</surname></persName>.
@@ -1936,10 +1938,12 @@
                [Partly obliterated.]
                (<date notBefore="1265" notAfter="1270" precision="low">c. 1265-70</date>)
                <bibl type="shelfmark">Ch. 32a</bibl>. </p>
-         </div>
+         </div></div>
             
             <!--Add div for the PRIORY OF ST. FRIDESWIDE docs? --> 
-         <div type="charter">
+        <div type="org">
+           <head>Priory of St Frideswide, Oxford</head>
+           <div type="charter">
             <p> <pb n="300"/> ASCOT under WYCHWOOD. Judgment in a tithe cause between the
                <orgName>prior and convent of St. Frideswide</orgName>, and 
                <persName><forename>Helyas</forename> <surname>Ridel</surname>, canon of <orgName role="person">Sarum</orgName> and rector of <placeName role="rector">Shipton</placeName></persName>, 
@@ -2652,7 +2656,7 @@
                <persName><forename>Geoffrey</forename> de <surname>Stocwell</surname>, mayor</persName>,
                <persName><forename>William</forename> de <surname>Winton</surname></persName> and
                <persName><forename>William</forename> <surname>Pinneferdthing</surname></persName>, provosts
-               of <placeName type="person">Oxford</placeName> etc. (<date when="1238">1238</date>.) 
+               of <placeName role="person">Oxford</placeName> etc. (<date when="1238">1238</date>.) 
                <!--[w. no. 436] chk the meaning of the annotation--> 
                <bibl type="shelfmark">Ch. 84a</bibl>.
             </p>
@@ -2795,7 +2799,7 @@
                frankalmoigne, with his body to be buried, the whole of that messuage which he holds
                of them at 4s. annual rent, in the <placeName>parish of St. Michael South, Oxford</placeName>. Witnesses.
                <persName><forename>Walter</forename>, dean of <placeName role="dean" type="deanery">Oxford</placeName></persName>, 
-               <persName><forename>Robert</forename>, chaplain of <placeName type="person">St. Michael's South</placeName></persName>. 
+               <persName><forename>Robert</forename>, chaplain of <placeName role="chaplain">St. Michael's South</placeName></persName>. 
                (<date notBefore="1250" notAfter="1260" precision="low">c. 1250-60</date>.) 
                <!--[w. no. 235] chk the meaning of the annotation-->
                <bibl type="shelfmark">Ch. 97</bibl>. </p>
@@ -2833,7 +2837,7 @@
          </div>
             
          <div type="charter">
-            <p> Convention between <persName><forename>Richard</forename> <surname>Sewy</surname> of <placeName type="person">Oxford</placeName></persName> 
+            <p> Convention between <persName><forename>Richard</forename> <surname>Sewy</surname> of <placeName role="person">Oxford</placeName></persName> 
                of the one part, and <persName><forename>Philip</forename>, the prior</persName>, and 
                <orgName>convent of St. Frideswide</orgName> of the other part, witnesseth that whereas the said
                Richard acquired a certain tenement situated in the <placeName>parish of St. Michael</placeName> without the
@@ -3247,10 +3251,12 @@
                by the hands of <persName><forename>Hugh</forename> de <surname>Riseberge</surname>, his servant, of <placeName role="person">Wermehale</placeName></persName>, 
                for each year half a mark, until Michaelmas, <date>20 Ed. I</date>. 
                <bibl type="shelfmark">Ch. 110</bibl>. </p>
-         </div>
+         </div></div>
             
             <!--add div for ABBEY OF ST. MARY, THAME documents?-->
-            <div type="charter"><p> CALVWALID, Bucks. 
+          <div type="org">
+             <head>Abbey of St Mary, Thame</head>
+             <div type="charter"><p> CALVWALID, Bucks. 
                <persName><forename>Richard</forename> de <surname>Horsendone</surname></persName>, with the
                assent of <persName nymRef="Horsendone"><forename>John</forename> his brother</persName>, gives in
                frankalmoigne to <persName>S., the abbot of <orgName role="abbot">Thame</orgName></persName>, and his
@@ -3371,11 +3377,12 @@
                (<date when="1250" precision="low">c. 1250</date>.) 
                <note type="seal">[With seal.]</note>  
                <bibl type="shelfmark">Ch. 53b</bibl>. </p>
-         </div>
+         </div></div>
             
-            <!--add div for ABBEY OF ST. MARY, OSENEY ?-->
-         <div type="charter">
-            <p> ADDEKBURY, Oxon. 
+       <div type="org" subtype="oseney">
+          <head>Abbey of St Mary, Oseney</head>
+          <div type="charter">
+            <p> ADDERBURY, Oxon. 
                <persName><forename>Nicholas</forename> de <surname>Weston</surname>, merchant</persName>, grants to
                <persName nymRef="Weston"><forename>Adam</forename> his eldest son</persName>, one messuage and two
                crofts in '<placeName>Abbirbire</placeName>,' and one carucate of land in the fields of the same village;
@@ -10357,7 +10364,7 @@
             <p> Fragment of a court roll of <placeName>Weston</placeName> in the time of <persName><forename>Thomas</forename> <surname>Grey</surname>, 2nd Marquess of Dorset</persName><!-- CHK hardcopy ....--> (<date when="1513">1513</date>)
                [Entirely effaced.] 
                <bibl type="shelfmark">Oseney Rolls, 114</bibl>. </p>
-         </div>
+         </div></div>
             
             <div type="charter">
                <p> OSENEY. Fragment of a charter of a grant of lands in <placeName>Twicurs (Twyecross, Leicesterhire)</placeName>. 
