@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_1051074">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Suffolk 1079</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Suffolk_1079</idno>
+            <idno type="collection">Suffolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Suffolk_1079" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Suffolk 1079</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                        <persName>
+                           <forename>Gilbert</forename> 
+                           <surname>Debenham</surname>
+                        </persName>,
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Rokewode</surname>
+                        </persName>, and
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Bacoun</surname>
+                        </persName> grant to 
+                  <persName>
+                           <forename>Margaret</forename>, who was the wife of <persName>
+                              <forename>John</forename>
+                              <surname>Gernegan</surname> of <placeName role="person" key="place_105491">Somerleton</placeName>
+                           </persName>
+                        </persName>,
+                  their manors of <placeName type="manor" key="place_105070">Somerleton</placeName> and 
+                  <placeName type="manor" key="place_105038">Horham</placeName>, with the foundation of <orgName key="org_105002">St. Olave's priory, 
+                  Heringfleet</orgName> ... in <placeName key="place_105491">Somerleton</placeName>,
+                  <placeName key="place_105185">Blundeston</placeName>, <placeName key="place_105409">Lound</placeName>, <placeName key="place_105164">Askeby</placeName>,
+                  <placeName key="place_105329">Heringfleet</placeName> and elsewhere in the hundred of <placeName type="hundred" key="place_105089">Lothynglond</placeName>, which they
+                  lately had by feoffment of <persName>
+                           <forename>John</forename> 
+                           <surname>Gernegan</surname>
+                        </persName>, 
+                  &amp;c. Dated at <placeName role="date" key="place_105491">Somerleton</placeName>, 2 Feb., <origDate notBefore="1410-09-30" notAfter="1411-09-29">12 Henry IV</origDate>. 
+                  [Partly effaced.]
+                  [Another copy of the Ch. Suffolk 1078.]
+                  </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="508" to="508">508</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

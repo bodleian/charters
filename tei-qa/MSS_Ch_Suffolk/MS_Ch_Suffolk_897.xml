@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105749">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Suffolk 897</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Suffolk_897</idno>
+            <idno type="collection">Suffolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Suffolk_897" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Suffolk 897</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Curlw</surname>, clerk</persName>,
+                  <persName>
+                           <forename>Isabella</forename> 
+                           <surname>Curlw</surname>
+                        </persName>, relict of
+                  <persName>
+                           <forename>Robert</forename> 
+                           <surname>Smyth</surname>
+                        </persName>,
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Hay</surname>
+                        </persName>, and
+                  <persName>
+                           <forename>Adam</forename> 
+                           <surname>Foster</surname> of <placeName role="person" key="place_100051">London</placeName>
+                        </persName> 
+                  demise and confirm to
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Fastolf</surname> of <placeName role="person" key="place_104318">Great Yarmouth</placeName>
+                        </persName> 
+                  all those lands &amp;c. in the villages of <placeName key="place_105329">Heryngfleet</placeName>, 
+                  <placeName key="place_105164">Haskeby</placeName>, and <placeName key="place_105491">Somerleton</placeName> which they had by the gift
+                  of <persName>
+                           <forename>Roger</forename> 
+                           <surname>Mettfelde</surname> of <placeName role="person" key="place_104435">Menham</placeName>
+                        </persName>,
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Leons</surname> of <placeName role="person" key="place_104255">Castro St. Edmund</placeName>
+                        </persName>, and
+                  <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Fyncham</surname> of <placeName role="person" key="place_104458">Norwich</placeName>
+                        </persName>. 
+                  Dated at <placeName role="date" key="place_100051">London</placeName> on the day of St. James, <origDate notBefore="1422-03-21" notAfter="1423-03-20">10 Hen. V</origDate>. 
+                  </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="481" to="481">481</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

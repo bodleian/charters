@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105602">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Suffolk 195</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Suffolk_195</idno>
+            <idno type="collection">Suffolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Suffolk_195" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Suffolk 195</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                        <orgName key="org_105017">DODNASH (Priory of)</orgName>. A fragment of a roll containing seven deeds of lands,
+                  &amp;c. in the parish of <placeName>Dodnash</placeName>
+                        <!-- TODO -->. 
+                  [Temp. Ed. II, <origDate when="1300" precision="low">c. 1300</origDate>.] 
+                  .  
+                  
+                  (a) <persName>
+                           <forename>Maurice</forename> de <surname>Dodenach</surname>
+                        </persName> grants the whole 
+                  of his land of <placeName type="minor">Langelond</placeName> of the fee of Morrell to
+                  <persName>
+                           <forename>Thos.</forename> de <surname>Dodenach</surname>
+                        </persName> his brother, in exchange
+                  for land of the fee of the prior of the <orgName key="org_105031">Holy Trinity</orgName> at 
+                  '<placeName type="minor">Staresboteswelle</placeName>.' 
+                  (b) <persName>
+                           <forename>Maurice</forename> de <surname>Dodnash</surname>
+                        </persName> grants to
+                  <persName>
+                           <forename>Thomas</forename> de <surname>Dodnash</surname>
+                        </persName> his brother, for his
+                  homage and service and for half a mark, the whole of his land called <placeName type="minor">Lagelond</placeName> of
+                  the fee of Morrell, for an annual rent of 10d. 
+                  (c) <persName>Sir <forename>Hubert</forename> de <surname>Briseworth</surname>, kt.</persName>, grants to
+                  <persName>
+                           <forename>Thomas</forename> de <surname>Dodenach</surname>
+                        </persName> the whole of the tenement
+                  which he held of <persName>
+                           <forename>Maurice</forename> de <surname>Dodenach</surname>
+                        </persName> his
+                  brother in the village of <placeName key="place_105178">Bentleye</placeName>, viz. of Morrell's fee,
+                  as is witnessed in the same charter. 
+                  (d) <persName>
+                           <forename>Wimerus</forename>, son of <persName>
+                              <forename>Hervey</forename> de <surname>Dodenash</surname>
+                           </persName>
+                        </persName>,
+                  grants to <persName>
+                           <forename>Thomas</forename>, son of <persName>
+                              <forename>Maurice</forename> de <surname>Dodenash</surname>
+                           </persName>
+                        </persName> 
+                  his uncle, for his homage and service, the whole part of the mill of <orgName>Dodenash</orgName>
+                        <!-- or placeName? -->. 
+                  (e f g) Illegible</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="468" to="468">468</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

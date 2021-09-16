@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105237">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Suffolk 851</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Suffolk_851</idno>
+            <idno type="collection">Suffolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Suffolk_851" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Suffolk 851</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                        <persName nymRef="Smyth">
+                           <forename>Thomas</forename>
+                        </persName> and 
+                  <persName>
+                           <forename>Henry</forename> 
+                           <surname>Smyth</surname>
+                        </persName> grant to
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Lavyle</surname> of <placeName role="person" key="place_104318">Great Jernemuth</placeName>
+                        </persName>, 
+                  <persName nymRef="Lavyle">Rose his wife</persName>, who was
+                  formerly wife of <persName>
+                           <forename>John</forename> 
+                           <surname>Lampett</surname>, esq.</persName>, 
+                  now deceased,
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Harvy</surname>
+                        </persName>,
+                  <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Cotoyle</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Hakon</surname> of <placeName role="person" key="place_104630">Whetacreburgh</placeName>
+                        </persName>,
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Adams</surname> of <placeName role="person" key="place_105303">Gorlyston</placeName>
+                        </persName>,
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Shawe</surname>
+                        </persName> and 
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Barton</surname> of <placeName role="person" key="place_104318">Jernemuth</placeName>
+                        </persName>, 
+                  all those lands, pastures, and woods lying in 
+                  <placeName key="place_104318">Little Yarmouth</placeName>, <placeName key="place_105497">Southtowne</placeName>, 
+                  and <placeName key="place_105192">Bradwell</placeName>, which they lately had by the gift of the said
+                  John Lampett and Rose his then wife. 
+                  Dated at <placeName role="date" key="place_105192">Bradwell</placeName>, 1 July, <origDate notBefore="1524-04-22" notAfter="1525-04-21">16 Hen. VIII</origDate>
+                  </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="431" to="431">431</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
