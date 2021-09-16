@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105628">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Suffolk 1301</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Suffolk_1301</idno>
+            <idno type="collection">Suffolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Suffolk_1301" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Suffolk 1301</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                  <!--Exning: Ch. Sussex 78 charters. checked-->
+                  FAKENHAM, &amp;c. An exemplification of a recovery inrolled Easter term, 
+                  20 and 21 Henry VIII, Roll 104, by which
+                  <persName>
+                           <forename>Richard</forename> 
+                           <surname>Candysshe</surname>
+                        </persName>,
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Latymer</surname>
+                        </persName>,
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Valentyne</surname>
+                        </persName>,
+                  <persName>
+                           <forename>Robert</forename> 
+                           <surname>Goodwyn</surname>
+                        </persName>, and
+                  <persName>
+                           <forename>Robert</forename> 
+                           <surname>Dobet</surname>
+                        </persName> impleaded
+                  <persName>
+                           <forename>Robert</forename> 
+                           <surname>Brounde</surname>
+                        </persName> concerning the manors of
+                  <placeName type="manor" key="place_105059">Payton hall</placeName>, 
+                  <placeName type="manor" key="place_105066">Russells in Fakenham</placeName>, and 
+                  <placeName type="manor" key="place_105065">Russells in Chesylford</placeName>, with appurtenances, and likewise
+                  certain land, brushwood, rent, &amp;c. in <placeName key="place_105286">Fakenham</placeName>, <placeName key="place_105235">Chesylford</placeName>, 
+                  <placeName key="place_105171">Bewedesey</placeName>, <placeName key="place_105156">Alderton</placeName>, 
+                  <placeName key="place_105523">Sutton</placeName>, <placeName key="place_105484">Shatesham</placeName>, <pb n="471"/>
+                        <placeName key="place_105382">Kyrton</placeName>, <placeName key="place_105548">Walton</placeName>, <placeName key="place_105448">Orford</placeName>, 
+                  <placeName key="place_105567">Whavensden</placeName>, <placeName key="place_105521">Sudborn</placeName>, <placeName key="place_105271">Rampfold</placeName>, 
+                  and <placeName key="place_105366">Ipswich</placeName>. 
+                  Dated at <placeName role="date" key="place_100060">Westminster</placeName>, 28 April, <origDate notBefore="1529-04-22" notAfter="1530-04-21">21 Henry VIII</origDate>. 
+                  </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="470" to="471">470-471</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

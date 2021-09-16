@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105370">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Suffolk 186b</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Suffolk_186b</idno>
+            <idno type="collection">Suffolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Suffolk_186b" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Suffolk 186b</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> BECCLES. 
+                  BURY ST. EDMUND (Abbey of). 
+                  <persName>
+                           <forename>Geoffrey</forename> de <surname>Brakenest</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Dannard</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Henry</forename> 
+                           <surname>Maynard</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Richard</forename> 
+                           <surname>Wrong</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>William</forename> 
+                           <surname type="patronymic">son of Reiner</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Alexander</forename> de la <surname>Grene</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>William</forename> de <surname>Troux</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Alexander</forename> 
+                           <surname>Godefrey</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Alan</forename> le <surname>Mellere</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Alan</forename> 
+                           <surname>Kempe</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Vincent</forename> 
+                           <surname>Godale</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Alan</forename> 
+                           <surname type="patronymic">son of Matthew, sen.</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Adam</forename> 
+                           <surname>Fraunceys</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Warine</forename> de <surname>Dunbergh</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Robert</forename> de le <surname>Apiltone</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Dannard</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>John</forename> de la <surname>Grene</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Case</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Daniel</forename> le <surname>Cupere</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>John</forename> de <surname>Brakenest</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Bartholomew</forename> de <surname>Nortone</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Robert</forename> 
+                           <surname>Becke</surname>
+                        </persName>,
+                  <persName>
+                           <forename>John</forename> le <surname>Clerck</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Reginald</forename> le <surname>Draper</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Werpelock</surname>
+                        </persName>,
+                  <persName>
+                           <forename>Richard</forename>de <surname>Welington</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Walter</forename> 
+                           <surname>Godefrey</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Nicholas</forename> de <surname>Miteford</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Geoffrey</forename> de <surname>St. Edmund</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Alan</forename> de <surname>Carletone</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Richard</forename> de <surname>Brakenest</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Richard</forename> le <surname>Cock</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Wrong</surname>
+                        </persName>,
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Porre</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Philip</forename> de la <surname>Grene</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Geoffrey</forename> de la <surname>Forthe</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Roger</forename> 
+                           <surname>Rogerum</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Sewall</forename> 
+                           <surname>Sycary</surname>
+                        </persName>, and
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Cotoun</surname>
+                        </persName> 
+                  bond themselves, their heirs and the whole of the community of <placeName key="place_105172">Becclis</placeName>, 
+                  under agreement with  <persName>
+                           <forename>John</forename>, the abbot</persName>, and 
+                  <orgName key="org_104015">convent of St. Edmund</orgName> 
+                  to make oath and assart yearly to the bailiffs of the abbot at the
+                  view of frankpledge for the whole community of <placeName key="place_105172">Becclis</placeName>, under
+                  pain of a fine of 100 marks to the king. 
+                  Dated at <placeName role="date" key="place_105172">Becclis</placeName> the Sunday next before the feast-of
+                  St. Matthew, <origDate notBefore="1293-11-20" notAfter="1294-11-19">22 Ed. I</origDate>. 
+                    
+                  Endorsed, "de fine rebellionis contra Regem per homines dicte ville tempore vacantis abbatie."
+                  </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seals, most of them broken.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="445" to="445">445</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105204">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Suffolk 822</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Suffolk_822</idno>
+            <idno type="collection">Suffolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Suffolk_822" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Suffolk 822</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Coppyn</surname>, clerk</persName>, and
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Boys</surname>
+                        </persName> demise to 
+                  <persName>
+                           <forename>Edward</forename> 
+                           <surname>Jernegan</surname>, esq.</persName>,
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Jakson</surname>, clerk</persName>,
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Copyldyk</surname>, clerk</persName>,
+                  <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Kipyng</surname>
+                        </persName>,
+                  <persName>
+                           <forename>Edmund</forename> 
+                           <surname>Candeler</surname>
+                        </persName> and
+                  <persName>
+                           <forename>Edmund</forename> 
+                           <surname>Wynstone</surname>
+                        </persName>, all those 
+                  messuages, lands, and tenements, rents and services, &amp;c. in <placeName key="place_105185">Blundeston</placeName>,
+                  which they with others had by the gift and concession of 
+                  <persName>
+                           <forename>Richard</forename> 
+                           <surname>Caly</surname>
+                        </persName>, as by his charter 
+                  dated 2 April, <origDate notBefore="1491-08-22" notAfter="1492-08-21">7 Hen. VII</origDate>, more plainly appears. 
+                  Dated at <placeName role="date" key="place_105185">Blundeston</placeName>, 20 March, <origDate notBefore="1508-08-22" notAfter="1509-08-21">24 Hen. VII</origDate>. 
+                  </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="428" to="428">428</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

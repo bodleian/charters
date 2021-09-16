@@ -15,7 +15,7 @@
    </teiHeader>
    <!-- to do:
    queries
-   add div for priory docs
+   add div for priory docs (only one doc. apparently, so not done
    
    -->
    <text>
@@ -116,7 +116,7 @@
                   <bibl type="shelfmark">MS. Ch. Suffolk 1229</bibl>. </p>
             </div>
             
-            <div type="charter">
+           <!-- <div type="charter">
                <p> ACTON, WALDINGPIELD (Great), and SUDBURY. 
                   <persName><forename>Wilhelm</forename> de <surname>Grangia</surname> of <placeName role="person" key="place_105311">Great
                   Waldyngfeld</placeName></persName> remits and quit-claims to <persName>sir <forename>John</forename>
@@ -128,10 +128,10 @@
                   Dated at <placeName role="date" key="place_105520">Suber</placeName>' the Saturday on the morrow of the conversion of St.
                   Paul, <date notBefore="1302-11-20" notAfter="1303-11-19">31 Ed. I</date>. [Mutilated.]
                   <note type="seal">[With seal.]</note>  
-                  <!--Annotation: (See p. 519)-->
-                  <bibl type="shelfmark">MS. Ch. Suffolk 1228<!--chk: is this a? or the same as p. 519? --></bibl>.
+                  <!-\-Annotation: (See p. 519)-\->
+                  <bibl type="shelfmark">MS. Ch. Suffolk 1228<!-\-chk: is this a? or the same as p. 519? -\-></bibl>.
                </p>
-            </div>
+            </div>-->
             
             <div type="charter">
                <p>
@@ -183,7 +183,6 @@
                   <bibl type="shelfmark">MS. Ch. Suffolk 1232</bibl>. </p>
             </div>
             
-            <!-- add div for priory docs-->
             <div type="charter">
                <p> ALVESBOURN (Priory of). <persName><forename>Robert</forename>, the prior</persName>, 
                   and <orgName key="org_105011">canons of Alvesbrunne</orgName> remit and quit-claim to 
@@ -2456,7 +2455,7 @@
                   <persName><forename>William</forename> <surname>Sydnor</surname> of <placeName role="person" key="place_105185">Blundeston</placeName></persName> all right of action. 
                   Dated 2 August, <date notBefore="1573-11-17" notAfter="1574-11-16">16 Elizabeth</date>. 
                   <note type="seal">[With seal.]</note> 
-                  <bibl type="shelfmark">MS. Ch. Suffolk 373</bibl>. </p>
+                  <bibl type="shelfmark">MS. Ch. Suffolk 373a</bibl><!-- check shelfmark, just 373 in cal -->. </p>
             </div>
             
             <div type="charter">
@@ -6374,7 +6373,7 @@
             <div type="charter">
                <p> Illegible grant to <persName><forename>Stephen</forename> <surname>Stares</surname></persName>, 
                   dated at <placeName role="date" key="place_105246">Corton</placeName>, in festo Passionis ... <date notBefore="1419-03-21" notAfter="1420-03-20">7 Hen. V</date>. 
-                  <bibl type="shelfmark">MS. Ch. Suffolk 838</bibl>. <!--was: Suffolk 858--></p>
+                  <bibl type="shelfmark">MS. Ch. Suffolk 858</bibl>. <!--was: Suffolk 858 TO BE CHECKED--></p>
             </div>
             
             <div type="charter">
@@ -6755,8 +6754,8 @@
                <p> STONEHAM. Grant from <persName><forename>John</forename> <surname>Crane</surname> of <placeName role="person" key="place_105219"><unclear>Cana</unclear></placeName></persName> in <placeName key="place_105400">Earl's Stoneham</placeName>; 
                   Temp. <date notBefore="1399" notAfter="1413">Hen. IV</date>.
                   [Almost entirely effaced.]
-                  <!--CHK shelfmark, same as the one printed on p. 504-->
-                  <bibl type="shelfmark">MS. Ch. Suffolk 1031</bibl>.
+                  <!--CHK shelfmark, same as the one printed on p. 504 -->
+                  <bibl type="shelfmark">MS. Ch. Suffolk 1031b</bibl>.
                </p>
             </div>
             
@@ -7172,7 +7171,7 @@
             <div type="charter">
                <p> Will in which all the earlier part with name and date is effaced. 
                   Apparently dated in endorsment of probate, 11 Oct. <date when="1401">1401</date>. 
-                  <bibl type="shelfmark">MS. Ch. Suffolk 1298</bibl>. </p>
+                  <bibl type="shelfmark">MS. Ch. Suffolk 1299</bibl>. </p>
             </div>
             
             <div type="charter">
@@ -9166,11 +9165,21 @@
             
             <div type="charter">
                <p> <persName><forename>William</forename>, the abbot</persName>, and the 
-                  <orgName key="org_105003">convent of Leystone</orgName> grant to <persName><forename>Thomas</forename> ...</persName> and  [<persName><forename>Richolda</forename></persName>?] his wife, four
-                  pieces of land lying in the village of <placeName key="place_105379">Knoteshale</placeName>. 
+                  <orgName key="org_105003">convent of Leystone</orgName> grant to <persName><forename>Thomas</forename> [or J....] ...</persName> and  [<persName><forename>Richolda</forename></persName>?] his wife, or 5 marks and 5 .... , four
+                  pieces of land which were 
+                  <persName><forename>Edmund</forename> the chaplain</persName>'s lying in the vill of <placeName key="place_105379">Knoteshale</placeName> (?). 
                   (<date notBefore="1320" notAfter="1330" precision="low">c. 1320-30</date>?)
                   [Mutilated and partly effaced.]
                   <bibl type="shelfmark">MS. Ch. Suffolk 226</bibl>. </p>
+               <!-- cf other entry: <div type="charter">
+               <p> Grant from <persName>William the abbot of convent of <orgName role="abbot" key="org_105003">Leystone</orgName></persName> 
+                  to <persName><forename>J...</forename></persName> and <persName><forename>Richolde</forename></persName> his wife for 5 marks and 5 .... of 4 pieces of land which were 
+                  <persName><forename>Edmund</forename> the chaplain</persName>'s in the vill of <placeName key="place_105150">...disbroke</placeName>. 
+                  [Mutilated and almost entriely effaced.]
+                  (<date notBefore="1320" notAfter="1330">c. 1320-1330</date>.)
+                  <bibl type="shelfmark">MS. Ch. Suffolk 226</bibl>.
+               </p><!-\- already entered above -\->
+            </div> -->
             </div>
             
             <div type="charter">
@@ -9308,15 +9317,15 @@
                </p>
             </div>
              
-            <div type="charter">
+        <!--    <div type="charter">
                <p> Grant from <persName>William the abbot of convent of <orgName role="abbot" key="org_105003">Leystone</orgName></persName> 
                   to <persName><forename>J...</forename></persName> and <persName><forename>Richolde</forename></persName> his wife for 5 marks and 5 .... of 4 pieces of land which were 
                   <persName><forename>Edmund</forename> the chaplain</persName>'s in the vill of <placeName key="place_105150">...disbroke</placeName>. 
                   [Mutilated and almost entriely effaced.]
                   (<date notBefore="1320" notAfter="1330">c. 1320-1330</date>.)
                   <bibl type="shelfmark">MS. Ch. Suffolk 226</bibl>.
-               </p>
-            </div>
+               </p><!-\- already entered above -\->
+            </div>-->
             
             <div type="charter">
                <p> <persName><forename>Adam</forename> <surname>Hollok</surname> of <placeName role="person" key="place_105560">Westylton</placeName></persName> 
@@ -11111,7 +11120,7 @@
                   Dated at <placeName role="date" key="place_104540">Bury St. Edmund</placeName> the Thursday before the feast of 
                   St. Michael the above year.
                   <!--Annotation: See p. 483-->
-                  <bibl type="shelfmark">MS. Ch. Suffolk 107</bibl>. </p>
+                  <bibl type="shelfmark">MS. Ch. Suffolk 110</bibl>. </p>
             </div>
             
             <div type="charter">
@@ -11122,7 +11131,7 @@
                   the manor and parsonage of <placeName type="manor" key="place_105064">Rumburgh</placeName>, and all that belongs to it, 
                   he paying annually to the duke or his assigns £40. 
                   <!--Annotation: See p. 500-->
-                  <bibl type="shelfmark">MS. Ch. Suffolk 26</bibl>. </p>
+                  <bibl type="shelfmark">MS. Douce Ch. 26</bibl>. </p>
             </div>
             
             <div type="charter">
@@ -11290,7 +11299,7 @@
                   <persName><forename>Robert</forename>, son of <persName><forename>Reginald</forename> <surname>Eysseman</surname></persName></persName>, 
                   two pieces of marsh in the said village, paying annually for the same one penny, 
                   (<date notBefore="1250" notAfter="1260" precision="low">c. 1250-60</date>.) 
-                  <bibl type="shelfmark">MS. Ch. Suffolk 1031</bibl>. </p>
+                  <bibl type="shelfmark">MS. Ch. Suffolk 1031a</bibl><!-- check shelfmark -->. </p>
             </div>
            
             <div type="charter">
@@ -13096,7 +13105,7 @@
                   the marriage of <persName><forename>Simon</forename>, son and heir of <persName><forename>Simon</forename> de <surname>Berton</surname> de <placeName role="person" key="place_105520">Subery</placeName></persName></persName>. 
                   Dated at <placeName role="date" key="place_105520">Subere</placeName> on Saturday the morrow of
                   the feast of the Conversion of St. Paul, <date notBefore="1302-11-20" notAfter="1303-11-19">31 Ed. I</date>.
-                  [Mutilated.]
+                  [Mutilated.] [also described on pp. 410-1 of the calendar]
                   <note type="seal">[With seal.]</note>
                   <!--(See entry under Acton p. 410 where more placenames are mentioned.)-->
                   <bibl type="shelfmark">MS. Ch. Suffolk 1228<!--chk: is this b? or the same as p. 410? --></bibl>. </p>
@@ -13183,7 +13192,7 @@
                   <note type="seal">[With 2 seals.]</note> 
                   [<persName><forename>John</forename> <surname>Levyng</surname>, mayor of <placeName role="mayor" key="place_105520">Sudbury</placeName></persName> and 
                   <persName><forename>Thomas</forename> <surname>Raynold</surname>, chamberlain</persName>]
-                  <bibl type="shelfmark">MS. Ch. Suffolk 373</bibl>. </p>
+                  <bibl type="shelfmark">MS. Ch. Suffolk 373b</bibl>.<!-- check shelfmark, just 373 in cal --> </p>
             </div>
             
             <div type="charter">
@@ -13592,9 +13601,11 @@
                   <placeName key="place_105545">Waldyngfeld</placeName> held respectively by 
                   <persName><forename>Will.</forename> de <surname>Feypo</surname></persName> and
                   <persName><forename>Rich.</forename> son of <persName><forename>Matthew</forename> de <surname>Subire</surname></persName></persName>
-                  and 3s. annual rent from the latter. 
+                  and 3s. annual rent from the latter.  <note type="seal">[With seal "S' Joh'is fil' Nicolai".]</note> 
                   (<date notBefore="1260" notAfter="1270" precision="low">c. 1260-70</date>.) 
                   <bibl type="shelfmark">MS. Ch. Suffolk 1456</bibl>. </p>
+             
+             
             </div>
             
             <div type="charter">
@@ -13699,7 +13710,7 @@
                   <bibl type="shelfmark">MS. Ch. Suffolk 395</bibl>. </p>
             </div>
             
-            <div type="charter">
+         <!--   <div type="charter">
                <p> <persName><forename>John</forename>, son of <persName><forename>Nicholas</forename> de <surname>Wygeberthe</surname></persName></persName>,
                   remits and quit-claims to <persName><forename>William</forename>, son of <persName><forename>Alan</forename> de <surname>Goldingham</surname></persName></persName>, 
                   all right in a tenement that <persName><forename>Walter</forename> of the <surname>marsh</surname> of <placeName role="person" key="place_105563">Westorp</placeName></persName> 
@@ -13707,8 +13718,8 @@
                   and rent in the town of <placeName key="place_105545">Waldingfield</placeName>. 
                   (<date notBefore="1260" notAfter="1270" precision="low">c. 1260-70</date>.) 
                   <note type="seal">[With seal "S' Joh'is fil' Nicolai".]</note> 
-                  <bibl type="shelfmark">MS. Ch. Suffolk 1456</bibl>. </p>
-            </div>
+                  <bibl type="shelfmark">MS. Ch. Suffolk 1456</bibl>. </p> CHECK DUPLICATE ENTRY?
+            </div>-->
             
             <div type="charter">
                <p> <persName><forename>Roger</forename> de <surname>Stoke</surname></persName>, 
@@ -16319,7 +16330,7 @@
                pasture with trees and hedges, at an annual rent of 16d. Dated the Sunday on the feast of St. ... 
                [One half effaced.] (<date when="1300" precision="low">c. 1300</date>)
                <note type="seal">[With seal.]</note>
-               <bibl type="shelfmark">Ch. 1458<!--WAS: 192*--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1458<!--WAS: 192*--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16333,7 +16344,7 @@
                all their right in the advowson of the church of <placeName key="place_105185" role="advowson">Blundeston</placeName>. 
                Dated at <placeName role="date" key="place_105185">Blundeston</placeName>, 20 September, <date notBefore="1414-03-21" notAfter="1415-03-20">2 Hen. V</date>. 
                <note type="seal">[With seals.]</note> 
-               <bibl type="shelfmark">Ch. 1459<!--WAS: 193--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1459<!--WAS: 193--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16343,7 +16354,7 @@
                who is summoned as guarantor to <persName><forename>William</forename> le <surname>Marescall</surname></persName>,
                concerning  half a virgate of land in <placeName>Bridebrok</placeName><!-- TODO -->, which Gilbert acknowledges to be the
                right of Robert, who then, for 12 marks, re-convoys it to him as also 5 1/2 acres in <placeName>Stanbruke</placeName><!-- TODO -->. 
-               <bibl type="shelfmark">Ch. 1460<!--WAS: 194--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1460<!--WAS: 194--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16355,7 +16366,7 @@
                whole of his arable land at <placeName>Corsforde</placeName><!-- TODO -->, which Roger had by demise from Osebert his
                brother, <!--CHK harcopy, unclear --> for a term of six years, for an annual payment to Bartholomew 
                during five years of seven loads of wheat, barley and fine white wheat ("siligo") and other conditions. 
-               <bibl type="shelfmark">Ch. 1461<!--WAS: 195--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1461<!--WAS: 195--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16365,7 +16376,7 @@
                Dated <placeName role="date" key="place_104458">Norwich</placeName>, 27 November, <date notBefore="1389" notAfter="1389">11 Pope Urban VI</date>. 
                <note type="seal">[With fragment of seal.]</note> 
                [Much defaced.]
-               <bibl type="shelfmark">Ch. 1462<!--WAS: 196--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1462<!--WAS: 196--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16376,7 +16387,7 @@
                and <placeName key="place_105402">Little Waldingfeld</placeName>. 
                Dated at <placeName role="date" key="place_105274">Edwardston</placeName>, 24 January, .. <date notBefore="1414-03-21" notAfter="1415-03-20">2(?) Hen. V</date>. 
                [Almost entirely effased.]
-               <bibl type="shelfmark">Ch. 1463<!--WAS: 197--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1463<!--WAS: 197--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16386,7 +16397,7 @@
                land of <persName><forename>John</forename> le <surname>Plumer</surname></persName>, paying annually one penny. 
                (<date notBefore="1230" notAfter="1240" precision="low">c. 1230-40</date>.) 
                <note type="seal">[With small seal.]</note>
-               <bibl type="shelfmark">Ch. 1464<!--WAS: 198--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1464<!--WAS: 198--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16394,7 +16405,7 @@
                <persName><forename>Hugh</forename> <surname>Gernegan</surname></persName> all their
                right in the service of the land which Albert de .... held of the said Hugh in
                <placeName>Hahille</placeName><!-- TODO -->. (<date notBefore="1270" notAfter="1280" precision="low">c. 1270-80</date>.)
-               <bibl type="shelfmark">Ch. 1465<!--WAS: 199--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1465<!--WAS: 199--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16403,7 +16414,7 @@
                <placeName role="date" key="place_105433">Mutford</placeName> before 
                <persName><forename>William</forename> <surname>Talmach</surname></persName>.
                <note type="language">[English]</note> [Partially effaced.]
-               <bibl type="shelfmark">Ch. 1466<!--WAS: 200--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1466<!--WAS: 200--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16412,14 +16423,14 @@
                <placeName key="place_105491">Sumerlethun</placeName>, add by 
                <persName><forename>William</forename> son of <persName><forename>Geoffrey</forename> <surname>B.ges (Braxin?)</surname></persName></persName>. 
                (<date notBefore="1260" notAfter="1270" precision="low">c. 1260-70</date>.) 
-               <bibl type="shelfmark">Ch. 1467<!--WAS: 201--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1467<!--WAS: 201--></bibl>. </p>
          </div>
          
          <div type="charter">
             <p> Grant of various pieces of land and the messuage called Sextens <!--CHK hardcopy -->
                dated at <placeName role="date" key="place_105491">Somerleton</placeName>, 12 October, <date notBefore="1505-08-22" notAfter="1506-08-21">21 Hen. VII</date>.
                [In part effaced and illegible.]
-               <bibl type="shelfmark">Ch. 1468<!--WAS: 201*--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1468<!--WAS: 201*--></bibl>. </p>
          </div>
         <!-- cont here-->
          <div type="charter">
@@ -16430,7 +16441,7 @@
                <persName><forename>John</forename> <surname>Martyn</surname></persName> his attorneys for the giving peaceable
                possession of the same. Dated 8 August, <date when="1644">1644</date>. 
                [Mutilated and partly effaced.]
-               <bibl type="shelfmark">Ch. 1469<!--WAS: 202--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1469<!--WAS: 202--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16443,7 +16454,7 @@
                Dated at <placeName role="date">Kyrkton</placeName><!-- TODO --> the Wednesday after the feast of St. Barnabas the apostle, 
                <date notBefore="1375-01-25" notAfter="1376-01-24">49 Ed. III</date>. 
                <note type="language">[French]</note>
-               <bibl type="shelfmark">Ch. 1470<!--WAS: 203--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1470<!--WAS: 203--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16454,7 +16465,7 @@
                and <persName><forename>George</forename> <surname>Gardiner</surname></persName>, the dean and chapter of the same church.
                Dated 18 July, <date notBefore="1575-11-17" notAfter="1576-11-16">18 Elizabeth</date>.
                <note type="seal">[With fragments of three seals.]</note> 
-               <bibl type="shelfmark">Ch. 1471<!--WAS: 204--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1471<!--WAS: 204--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16462,7 +16473,7 @@
                <persName><forename>William</forename> <surname>Chasteleyn</surname></persName> the manor of
                <placeName type="manor">Staneforde</placeName><!-- TODO --> in the village of <placeName key="place_105311">Great Waldingfeld</placeName>. 
                Dated the Monday next after the feast of the translation of St. Thomas, <date notBefore="1358-01-25" notAfter="1359-01-24">32 Ed. III</date>(?). 
-               <bibl type="shelfmark">Ch. 1472<!--WAS: 205--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1472<!--WAS: 205--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16472,7 +16483,7 @@
                and others, certain lands &amp;c. in <placeName key="place_105311">Great Waldingfeld</placeName>. 
                Dated 10 Jan., <date notBefore="1525-04-22" notAfter="1526-04-21">17 Hen. VIII</date>.
                [In part illegible.]
-               <bibl type="shelfmark">Ch. 1473<!--WAS: 206--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1473<!--WAS: 206--></bibl>. </p>
          </div>
          
          <div type="charter">
@@ -16482,7 +16493,7 @@
                of certain land in <placeName key="place_105569">Wickham Skeythe</placeName>, formerly belonging to the 
                <orgName key="org_105004">monastery of St. John, Colchester</orgName>, for the sum of £70. 
                [Mutilated.] 
-               <bibl type="shelfmark">Ch. 1474<!--WAS: 207--></bibl>. </p>
+               <bibl type="shelfmark">MS. Ch. Suffolk 1474<!--WAS: 207--></bibl>. </p>
          </div>
          
       </body>
