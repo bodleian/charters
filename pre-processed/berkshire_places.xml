@@ -17,7 +17,7 @@
       <body>
          <listPlace type="diocese">
             <place type="diocese">
-               <placeName type="index">Archdiocese of Canterbury</placeName>
+               <placeName type="index">Canterbury, Archdiocese of </placeName>
                <placeName type="formInDocument">canterbury</placeName>
                <idno>http://viaf.org/viaf/270753550</idno>
                <idno>https://www.wikidata.org/wiki/Q2066595</idno>
@@ -29,7 +29,7 @@
                <note type="charter">MS. Ch. Berkshire 156</note>
             </place>
             <place type="diocese">
-               <placeName>Diocese of Salisbury (Old and New Sarum)</placeName>
+               <placeName> Salisbury, Diocese of(Old and New Sarum)</placeName>
                <placeName type="formInDocument">salisbury</placeName>
                <placeName type="formInDocument">sarum</placeName>
                <placeName type="formInDocument">sarum diocese</placeName>
@@ -128,7 +128,7 @@
          
          <listPlace type="honour">
             <place type="honour">
-               <placeName type="index">Honour of St Valery</placeName>
+               <placeName type="index">St Valery, Honour of </placeName>
                <placeName type="formInDocument">st. walery</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>-->
@@ -136,7 +136,7 @@
             </place>
             
             <place type="honour">
-               <placeName type="index">Honour of Wallingford</placeName>
+               <placeName type="index">Wallingford, Honour of </placeName>
                <placeName type="formInDocument">wallingford</placeName>
                <region type="county">Berkshire</region>
                <idno>https://www.wikidata.org/wiki/Q5897191</idno>
@@ -198,7 +198,7 @@
           
          <listPlace type="archdeaconry">
             <place type="archdeaconry">
-               <placeName type="index">Archdeaconry of Berkshire</placeName>
+               <placeName type="index">Berkshire, Archdeaconry of </placeName>
                <placeName type="formInDocument">berks.</placeName>
                <placeName type="formInDocument">berks</placeName>
                <placeName type="formInDocument">berks.</placeName>
@@ -211,7 +211,7 @@
                <note type="charter">MS. Ch. Berkshire 256</note>
             </place>
             <place type="archdeaconry">
-               <placeName type="index">Archdeaconry of Oxford</placeName>
+               <placeName type="index">Oxford, Archdeaconry of</placeName>
                <placeName type="formInDocument">oxford</placeName>
                <idno>https://www.wikidata.org/wiki/Q11722477</idno>
                <note type="charter">MS. Ch. Berkshire 48</note>
@@ -223,7 +223,7 @@
          
          <listPlace type="street">
             <place type="street">
-               <placeName type="index">Curteys lane</placeName>
+               <placeName type="index">Wallingford, Curteys lane</placeName>
                <placeName type="formInDocument">curteys lane</placeName>
                <region type="parish">Wallingford</region>
                <region type="county">Berkshire</region>
@@ -346,21 +346,17 @@
                <note type="charter">MS. Ch. Berkshire 156</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">Windsor Castle</placeName>
-               <placeName type="formInDocument">castle of windsor</placeName>
-               <region type="county">Berkshire</region>
-               <idno>https://www.wikidata.org/wiki/Q42646</idno>
-               <note type="charter">MS. Ch. Berkshire 171</note>
-            </place>
+           
+           
              
             <place type="place">
                <placeName type="index">Chalford</placeName>
+               <!--  another in Enstone but clearly this is meant-->
                <placeName type="formInDocument">chalkford</placeName>
                <placeName type="formInDocument">chalkford</placeName>
-               <region type="parish">Chalford</region>
+               <region type="parish">Aston Rowant</region>
                <region type="county">Oxfordshire</region>
-               <idno>http://epns.nottingham.ac.uk/browse/Oxfordshire/Enstone/53286e1db47fc40beb0001ca-Chalford</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/Aston+Rowant/53286e1db47fc40beb000024-Chalford</idno>
                <note type="charter">MS. Ch. Berkshire 99</note>
                <note type="charter">MS. Ch. Berkshire 144</note>
                <note type="charter">MS. Ch. Berkshire 47</note>
@@ -450,15 +446,17 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Earley or Hurley</placeName>
+               <placeName type="index">Earley</placeName>
                <placeName type="formInDocument">erleya</placeName>
-               <placeName type="formInDocument">erleya (i.e. hurley)</placeName><!-- or Earley? -->
+               <placeName type="formInDocument">erleya</placeName><!-- or Earley? -->
                <region type="parish">Earley</region>
-               <region type="parish">Hurley</region>
                <region type="county">Berkshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Berkshire/Earley/53282e4fb47fc407ba001b4e-Earley</idno>
                <idno>https://epns.nottingham.ac.uk/browse/Berkshire/Hurley/53282e4fb47fc407ba001b6d-Hurley</idno>
                <note type="charter">MS. Ch. Berkshire 17</note>
+               <!-- for id see 
+'Parishes: Sonning with Earley, Woodley and Sandford', in A History of the County of Berkshire: Volume 3, ed. P H Ditchfield and William Page (London, 1923), pp. 210-225. British History Online http://www.british-history.ac.uk/vch/berks/vol3/pp210-225 [accessed 20 September 2021].
+ n. 246 -->
             </place>
             
             <place type="place">
@@ -522,11 +520,13 @@
             <place type="place">
                <placeName type="index">Wallingford, St Leonard</placeName>
                <placeName type="formInDocument">St. Leonard, Wallingford</placeName>
+               <placeName type="formInDocument">st. leonard</placeName>
                <region type="parish">Wallingford, St Leonard</region>
                <region type="county">Berkshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Berkshire/Wallingford/53282e4fb47fc407ba001bb2-Wallingford</idno>
                <idno>https://www.genuki.org.uk/big/eng/BRK/Wallingford</idno>
                <note type="charter">MS. Ch. Berkshire 34</note>
+               <note type="charter">MS. Ch. Berkshire 24</note>
             </place>
             
             <place type="place">
@@ -607,12 +607,14 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Middle Stoke (unidentified)</placeName>
+               <placeName type="index">Stoke Mandeville</placeName>
                <placeName type="formInDocument">middelstoke</placeName>
                <placeName type="formInDocument">midelstoke</placeName>
-               <!--<region type="parish"></region>-->
-               <!--There is Middle Stoke road in Limpley Stoke, Wiltshire https://epns.nottingham.ac.uk/browse/Wiltshire/Limpley+Stoke/532886f8b47fc40d38000dfe-Limpley+Stoke-->
-               <region type="county">Berkshire</region>
+               
+               <region type="parish">Stoke Mandeville</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Stoke+Mandeville/53282ee4b47fc407e30003be-Stoke+Mandeville</idno>
+               <!-- id from EPNS -->
                <note type="charter">MS. Ch. Berkshire 124</note>
                <note type="charter">MS. Ch. Berkshire 120</note>
             </place>
@@ -753,7 +755,7 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Redburne (unidentified</placeName>
+               <placeName type="index">Redburne (unidentified)</placeName>
                <placeName type="formInDocument">redburne</placeName>
                <!--<region type="parish"></region>
                <region type="county"></region>-->
@@ -878,10 +880,10 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Stoke Talemach (unidentified)</placeName>
+               <placeName type="index">Stoke Talmage</placeName>
                <placeName type="formInDocument">stoke talemach</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>-->
+               <region type="parish">Stoke Talmage</region>
+               <region type="county">Oxfordshire</region>
                <note type="charter">MS. Ch. Berkshire 98</note>
             </place>
             
@@ -926,6 +928,7 @@
                <!--<region type="parish"></region>
                <region type="county"></region>-->
                <note type="charter">MS. Ch. Berkshire 59</note>
+               <!-- ought to be nr Mongewell -->
             </place>
             
             <place type="place">
@@ -995,15 +998,6 @@
                <note type="charter">MS. Ch. Berkshire 96</note>
             </place>
             <place type="place">
-               <placeName type="index">Wallingford, St Leonard</placeName>
-               <placeName type="formInDocument">st. leonard</placeName>
-               <region type="parish">Wallingford, St Leonard</region>
-               <region type="county">Berkshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Berkshire/Wallingford/53282e4fb47fc407ba001bb2-Wallingford</idno>
-               <idno>https://www.genuki.org.uk/big/eng/BRK/Wallingford</idno>
-               <note type="charter">MS. Ch. Berkshire 24</note>
-            </place>
-            <place type="place">
                <placeName type="index">Wallingford, St Mary the More</placeName>
                <placeName type="formInDocument">st. mary</placeName>
                <placeName type="formInDocument">st. mary the greater</placeName>
@@ -1059,31 +1053,29 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Wilnehale (unidentified)</placeName>
+               <placeName type="index">Hempton Wainhill</placeName>
                <placeName type="formInDocument">wilnehale</placeName>
-               <!--<region type="parish"></region>
-               <region type="county"></region>-->
+               <region type="parish">Chinnor</region>
+               <region type="county">Oxfordshire</region>
                <note type="charter">MS. Ch. Berkshire 99</note>
+               <!-- ought to be near Chinnor -->
             </place>
             
-            <place type="place">
-               <placeName type="index">College of St George (Windsor)</placeName>
-               <placeName type="formInDocument">windsor (college of st. george)</placeName>
-               <region type="parish">New Windsor</region>
-               <region type="county">Berkshire</region>
-               <idno>http://viaf.org/viaf/2142145857037522921207</idno>
-               <note type="charter">Berkshire Rolls, 4</note>
-            </place>
+           
             
             <place type="place">
+               <!-- place or org? -->
                <placeName type="index">Windsor Castle</placeName>
                <placeName type="formInDocument">windsor</placeName>
                <placeName type="formInDocument">windsor castle</placeName>
+               <placeName type="formInDocument">castle of windsor</placeName>
                <region type="parish">New Windsor</region>
+               <region type="county">Berkshire</region>
                <region type="county">Berkshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/id/53282e28b47fc407ba000f84-Windsor+Castle</idno>
                <idno>https://www.wikidata.org/wiki/Q42646</idno>
-               <note type="charter">MS. Ch. Berkshire 167</note>
+               <idno>https://www.wikidata.org/wiki/Q42646</idno>
+               <note type="charter">MS. Ch. Berkshire 171</note><note type="charter">MS. Ch. Berkshire 167</note>
                <note type="charter">MS. Ch. Berkshire 168</note>
                <note type="charter">MS. Ch. Berkshire 169</note>
                <note type="charter">MS. Ch. Berkshire 170</note>
@@ -1095,6 +1087,7 @@
                <!--<region type="parish"></region>
                <region type="county"></region>-->
                <note type="charter">MS. Ch. Berkshire 117b</note>
+               <!-- ?nr Clapcote, Goring etc. -->
             </place>
             
             <place type="place">
@@ -1262,6 +1255,14 @@
                <note type="charter">MS. Ch. Berkshire 97</note>
                <note type="charter">MS. Ch. Berkshire 107</note>
                <note type="charter">MS. Ch. Berkshire 15</note>
+            </org>
+            <org>
+               <placeName type="index">Windsor, College of St George ()</placeName>
+               <placeName type="formInDocument">windsor (college of st. george)</placeName>
+               <region type="parish">New Windsor</region>
+               <region type="county">Berkshire</region>
+               <idno>http://viaf.org/viaf/2142145857037522921207</idno>
+               <note type="charter">Berkshire Rolls, 4</note>
             </org>
          </listOrg>
       </body>
