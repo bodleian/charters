@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_106072">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Essex 240</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Essex_240</idno>
+            <idno type="collection">Essex</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Essex_240" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Essex 240</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> WIKES, WETHERSFIELD, &amp;c. Indenture made 1 August, <origDate notBefore="1597-11-17" notAfter="1598-11-16">40 Queen Elizabeth</origDate>, by which
+                   <persName>
+                           <forename>Henry</forename> 
+                           <surname>Best</surname> of <placeName role="person" key="place_100051">London</placeName>, writer</persName>, 
+                  for a certain sum of money sells to 
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Hobart</surname> of the <orgName key="org_105055" role="person">Middle Temple, London</orgName>, gent.</persName>, 
+                  and <persName>
+                           <forename>Robert</forename> 
+                           <surname>Hobarte</surname> of <placeName role="person" key="place_100051">London</placeName>, gent.</persName>, 
+                  the whole of the rectory of <placeName key="place_106191">Wikes</placeName> in the county of Essex with all that appertains to it, 
+                  formerly part of the possessions of the <orgName key="org_106015">priory of Wikes</orgName> in the same county and demised to
+                  <persName>
+                           <forename>Richard</forename> 
+                           <surname>Master</surname>
+                        </persName> for 40 years, at an annual, rent of 55s.
+                  8d. And also all his lands in <placeName key="place_106187">Wethersfeilde</placeName>, co. Essex, lately belonging to the
+                  <orgName key="org_106020">monastery of Waltham</orgName>, also certain tithes, &amp;c., of <placeName key="place_106076">Glatton</placeName> and 
+                  <placeName key="place_106100">Holme</placeName> in co. Hunt, late of the <orgName key="org_106018">monastery of Borne, co. Lincoln</orgName>, also tithes
+                  of <placeName key="place_104577">Swaffham, co. Norfolk</placeName>, also portion of tithes in <placeName key="place_106180">Tudnam Falgate</placeName> in
+                  same county, also tithes in <placeName key="place_106101">Holton</placeName>, co. Suffolk, also tithes of
+                  <placeName key="place_106107">Kettleborough</placeName> in the same county, which said tithes belonged to the late dissolved 
+                  <orgName key="org_106019">monastery of Ruinboroughe alias Rumburgh</orgName>, in the said co. of Suffolk. 
+                  </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="58" to="58">58</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

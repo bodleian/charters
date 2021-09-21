@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_106237">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Essex 17</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Essex_17</idno>
+            <idno type="collection">Essex</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Essex_17" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Essex 17</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> NAYLAND. Extracts from the court rolls of the manor of <placeName type="manor" key="place_106007">Eylond or Neylond</placeName>, being
+                  returns to inquisitions held respecting rights and claims of the prior and monks
+                  of Horkesley, from <origDate notBefore="1259-10-28" notAfter="1260-10-27">44 Hen. III</origDate>. to <origDate notBefore="1315-07-08" notAfter="1316-07-07">9 Ed. II</origDate>. 
+                  . (Made temp. Edw. II or III.) </p>
+                  </msItem>
+                  <msItem>
+                     <p> (a) That <persName>
+                           <forename>Simon</forename>, the prior</persName>, and the <orgName key="org_105048">monks of Horkesley</orgName>
+                  have had common of pasture in the forest of <placeName key="place_106059">Cesterweld</placeName> from the time of 
+                  <persName>
+                           <forename>Robert</forename>, formerly of <placeName type="county" key="place_000020">Essex</placeName>
+                        </persName>. 
+                  Dated on the morrow of St. Mary Magdalen, <origDate when="1260">1260</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p> (b) That neither <persName>
+                           <forename>Simon</forename>, the prior of <orgName role="prior" key="org_105048">Horkesley</orgName>
+                        </persName>, nor his predecessors, ever made
+                  suit in the court of <placeName key="place_106165">Eylond</placeName> for which a distraint had been levied. Dated the
+                  Tuesday after the feast of the translation of St. Thomas the martyr, <origDate when="1263">1263</origDate></p>
+                  </msItem>
+                  <msItem>
+                     <p> (c) Concerning the right of common in the forest of <placeName key="place_106059">Cesterweld</placeName> as (a). Dated St.
+                  Ambrose's day, <origDate notBefore="1289-11-20" notAfter="1290-11-19">18 Ed. I</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p> (d) That <persName>
+                           <forename>William</forename> del <surname>Hegge</surname>
+                        </persName> held his land, 
+                  namely '<placeName type="minor">Follereslond</placeName>,' with one messuage of the prior of
+                  <orgName key="org_105048">Horkesley</orgName>, and that it is of the fee of <placeName key="place_106146">Reyleye</placeName>.
+                  Dated St. Ambrose's day, <origDate notBefore="1289-11-20" notAfter="1290-11-19">18 Ed. I</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p> (e) That the prior of Horkesley is not bound to repair a certain bridge in
+                  <placeName key="place_106118">Horkesley</placeName> between the <orgName key="org_105048">priory of Horkesley</orgName> and the house of
+                  <persName>
+                           <forename>Robert</forename> de <surname>Cresfeld</surname>
+                        </persName>. [Undated.]</p>
+                  </msItem>
+                  <msItem>
+                     <p> (f) That <persName>
+                           <forename>Henry</forename>, the prior of <orgName role="prior" key="org_105048">Little Horkesley</orgName>
+                        </persName>, 
+                  and his servant, are quit of the charge of taking with dogs, and shooting with arrows, a hare at 
+                  <placeName key="place_106082">Great Horkesley</placeName>.
+                  Dated the Tuesday on the feast of St. Peter in cathedra, <origDate notBefore="1294-11-20" notAfter="1295-11-19">23 Ed. I</origDate></p>
+                  </msItem>
+                  <msItem>
+                     <p>(g) That <persName>
+                           <forename>William</forename> del <surname>Hegge</surname>
+                        </persName> holds his messuage and
+                  other land of the prior of <orgName key="org_105048">Horkesley</orgName>, and that he owes nothing to the king, but the 'regal' and
+                  other services belong to the prior and monks, and from time immemorial they were so seised. 
+                  Dated the Tuesday after the feast of the Circumcision, <origDate notBefore="1295-11-20" notAfter="1296-11-19">24 Ed. I</origDate>. <pb n="75"/> 
+                     </p>
+                  </msItem>
+                  <msItem>
+                     <p> (h) That the prior and <orgName key="org_105048">convent of Horkesley</orgName> do not hold any tenement for which
+                  they owe suit to the court of <placeName key="place_106165">Neylond</placeName>. Dated the Monday on the morrow of the Holy
+                  Trinity, <origDate when="1316">1316</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p> (i) Copy of inquisition (b) attached to the roll</p>
+                  </msItem>
+                  <msItem>
+                     <p> (k) Copy of inquisition (b) attached to the roll.</p>
+                  </msItem>
+                  <msItem>
+                     <p> (l) Copy of inquisition (b) entered on the back of the roll.</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St John, Colchester</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="74" to="75">74-75</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

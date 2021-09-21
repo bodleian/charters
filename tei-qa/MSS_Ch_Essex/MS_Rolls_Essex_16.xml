@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_106236">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Essex 16</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Essex_16</idno>
+            <idno type="collection">Essex</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Essex_16" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Essex 16</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> HORKESLEY (Great) and STOKE-NAYLAND. Names of the tenants, and descent of
+                  property given to the <orgName key="org_105048">priory of Horkesley</orgName> in the villages of 
+                  <placeName key="place_106082">Great Horkesley</placeName> and <placeName key="place_106165">Stoke-Neylond</placeName>. 
+                  (9 grants inrolled. <origDate when="1400" precision="low">c. 1400</origDate>.) 
+                  .</p>
+                  </msItem>
+                  <msItem>
+                     <p> (a) <persName>
+                           <forename>John</forename> 
+                           <surname>Prentys</surname>
+                        </persName> and
+                  <persName>
+                           <forename>Rose</forename> his wife</persName> hold 4 acres of land
+                  called '<placeName type="minor">Parrokyslond</placeName>' formerly called 
+                  <placeName type="minor">Monkeslond</placeName>, in the village of 
+                  <placeName key="place_106082">Great Horkesley</placeName>, at an annual rent of 2s. The said land was the gift of
+                  <persName>
+                           <forename>Henry</forename> de <surname>Creffeld</surname>
+                        </persName>, son of 
+                  <persName>
+                           <forename>Roger</forename> the <surname>cook</surname> of <placeName role="person" key="place_106082">Great Horkesley</placeName>
+                        </persName></p>
+                  </msItem>
+                  <msItem>
+                     <p>(b) <persName>
+                           <forename>Agnes</forename> 
+                           <surname>Chaunbirleyn</surname>
+                        </persName>, formerly wife of
+                  <persName>
+                           <forename>Robert</forename> 
+                           <surname>Chaunbirleyn</surname> of <placeName role="person" key="place_106082">Great Horkesley</placeName>
+                        </persName>, 
+                  and now wife of <persName>
+                           <forename>Adam</forename> 
+                           <surname>Ferrour</surname> of <placeName role="person" key="place_106110">Langham</placeName>
+                        </persName>, 
+                  holds 3 acres of land, formerly <persName>
+                           <forename>John</forename> 
+                           <surname>Smith</surname>
+                        </persName>'s, 
+                  in <placeName key="place_106082">Great Horkesley</placeName> in the field called 'Parrokysfeld' at an annual rent of 10d. The said land
+                  was the gift of the above <persName>
+                           <forename>Henry</forename> de <surname>Cresfeld</surname>
+                        </persName></p>
+                  </msItem>
+                  <msItem>
+                     <p>(c) <persName>
+                           <forename>John</forename> 
+                           <surname>Poygnaunt</surname> of <placeName role="person" key="place_106082">Great Horkesley</placeName>
+                        </persName> 
+                  holds one messuage with a garden adjacent which was formerly 
+                  <persName>
+                           <forename>William</forename> atte <surname>Hege</surname>
+                        </persName>'s, at an annual rent of 2s. 
+                  and suit at court</p>
+                  </msItem>
+                  <msItem>
+                     <p>(d) <persName>
+                           <forename>Richard</forename> 
+                           <surname>Sewyne</surname> of <placeName role="person" key="place_106082">Great Horkesley</placeName>
+                        </persName> 
+                  holds one messuage with a garden, and 2 crofts of about six acres of arable land called 
+                  '<placeName type="minor">Fullerislond</placeName>,' in the village of <placeName key="place_106082">Great Horkesley</placeName>, 
+                  which was formerly <persName>
+                           <forename>William</forename> atte <surname>Hege</surname>
+                        </persName>'s, at an 
+                  annual rent of 3s. 6d. and suit at court</p>
+                  </msItem>
+                  <msItem>
+                     <p>(e) <persName>
+                           <forename>Richard</forename> 
+                           <surname>Sewyne</surname>
+                        </persName> holds one cottage called 
+                  '<placeName type="minor">Droryes</placeName>' with a garden <pb n="74"/> in <placeName key="place_106082">Great Horkesley</placeName>
+                  which was formerly <persName>
+                           <forename>William</forename> atte <surname>Hege</surname>
+                        </persName>'s, at an annual
+                  rent of 1d. and suit at court.</p>
+                  </msItem>
+                  <msItem>
+                     <p> (f) <persName>
+                           <forename>Richard</forename> 
+                           <surname>Whytere</surname>
+                        </persName> (?) holds one croft of land
+                  containing one acre called '<placeName type="minor">Wondreslond</placeName>' in the village of 
+                  <placeName key="place_106082">Great Horkesley</placeName> ...(mutilated and effaced). The said rent of 4d. was the gift of 
+                  <persName>
+                           <forename>Henry</forename>, son of <persName>
+                              <forename>Roger</forename> de <surname>Stoke</surname>
+                           </persName>
+                        </persName>, to the priory</p>
+                  </msItem>
+                  <msItem>
+                     <p>(g) <persName>
+                           <forename>Walter</forename> 
+                           <surname>Waryn</surname>, "deyer"</persName>, holds 2 acres of land in the
+                  village of <placeName key="place_106165">Stoke Neylond</placeName> in a field called '<placeName type="minor">Wyndmelefeld</placeName>,'
+                  at an annual rent of 2s. 3d. The said rent came to the priory by the gift of 
+                  <persName>
+                           <forename>Roger</forename>, son of <persName>
+                              <forename>Henry</forename> de <surname>Stoke</surname>
+                           </persName>
+                        </persName>.
+                  (h) <persName>
+                           <forename>Hugh</forename> 
+                           <surname>Shepherd</surname>
+                        </persName>, son of
+                  <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Shepherd</surname> of <placeName role="person" key="place_106165">Neylond</placeName>
+                        </persName>, 
+                  holds 3 acres of arable in a field called '<placeName type="minor">Wyndmelefeld</placeName>' in the village of
+                  <placeName key="place_106165">Stokeneylond</placeName>, at an annual rent of 12d. The said rent was the gift of 
+                  <persName>
+                           <forename>Walter</forename>, son of <persName>
+                              <forename>Richard</forename> 
+                              <surname>Marescall</surname> of <placeName role="person" key="place_106165">Stokes</placeName>
+                           </persName>
+                        </persName>. 
+                  (i) <persName>
+                           <forename>William</forename> atte <surname>Hach</surname>, baker of <placeName role="person" key="place_106165">Neylond</placeName>
+                        </persName>, son of <persName>
+                           <forename>Robert</forename> atte <surname>hach</surname>
+                        </persName>,
+                  holds one acre of land in <placeName key="place_106165">Stoke Neylond</placeName>, in the said field called '<placeName type="minor">Wyndmellefeld</placeName>.'
+                  [Mutilated.]</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St John, Colchester</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="69" to="74">69-74</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
