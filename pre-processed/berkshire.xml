@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,37 +22,37 @@
             <head>BERKSHIRE.</head>
             <div type="charter">
                <p>
-                  <placeName>GRAVA</placeName>. <persName><forename>Clement</forename> le <surname>Mareschal</surname> of <placeName role="person">Grava</placeName></persName> grants to 
-                  <persName><forename>John</forename>, son of <persName><forename>Roger</forename> the <surname>miller</surname> of <placeName role="person">Grava</placeName></persName></persName> 
+                  <placeName key="place_107033">GRAVA</placeName>. <persName><forename>Clement</forename> le <surname>Mareschal</surname> of <placeName role="person" key="place_107033">Grava</placeName></persName> grants to 
+                  <persName><forename>John</forename>, son of <persName><forename>Roger</forename> the <surname>miller</surname> of <placeName role="person" key="place_107033">Grava</placeName></persName></persName> 
                   and <persName><forename>Amitia</forename> his wife</persName> one acre of arable land lying in the field of
-                  <placeName>Grava upon Schunhulle atte Brodetherde</placeName>. 
+                  <placeName key="place_107033">Grava upon Schunhulle atte Brodetherde</placeName>. 
                   (<date when="1300" precision="low">c. 1300</date>.)
                   Berkshire <bibl type="shelfmark">MS. Ch. Berks. 161</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>KINTBURY</placeName>. Dispensation granted by <persName><forename>William</forename> archbishop of <placeName type="diocese" role="archbishop">Canterbury</placeName></persName>
+                  <placeName key="place_107038">KINTBURY</placeName>. Dispensation granted by <persName><forename>William</forename> archbishop of <placeName type="diocese" role="archbishop" key="place_104006">Canterbury</placeName></persName>
                   to <persName><forename>John</forename> <surname>Note</surname>, clerk, M. A.</persName>, to hold the living 
-                  of <placeName>Kintbury, co. Berks.</placeName>, with the vicarage of <placeName>Leckford, co. Southampton</placeName>.
+                  of <placeName key="place_107038">Kintbury, co. Berks.</placeName>, with the vicarage of <placeName key="place_107040">Leckford, co. Southampton</placeName>.
                   Dated 7 June, <date when="1661">1661</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 162</bibl>, </p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>REMENHAM</placeName>. <persName><forename>Agnes</forename> <surname>Stokfeld</surname> of <placeName role="person">Redyng</placeName></persName> 
+                  <placeName key="place_107059">REMENHAM</placeName>. <persName><forename>Agnes</forename> <surname>Stokfeld</surname> of <placeName role="person" key="place_100053">Redyng</placeName></persName> 
                   grants to <persName><forename>Henry</forename> <surname>Hethercote</surname>, yeoman</persName>, and others, 
                   a messuage, 20 acres of arable land, 6 acres of meadow, 5 acres of pasture, and a little island in the
-                  parish of <placeName>Remenham</placeName>.
-                  Dated at <placeName role="date">Remenham</placeName>, 26 Feb., <date>1 Hen. VIII</date>. 
+                  parish of <placeName key="place_107059">Remenham</placeName>.
+                  Dated at <placeName role="date" key="place_107059">Remenham</placeName>, 26 Feb., <date>1 Hen. VIII</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 163</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>SHAW</placeName>. Exchequer Constat for £23 6s. 8d. for the farm of the
-                  manor of <placeName type="manor">Shawe</placeName>, in New Windsor, held by
+                  <placeName key="place_107064">SHAW</placeName>. Exchequer Constat for £23 6s. 8d. for the farm of the
+                  manor of <placeName type="manor" key="place_107008">Shawe</placeName>, in New Windsor, held by
                   <persName><forename>Nicholas</forename> <surname>Good</surname></persName>. 
                   Dated 6 Feb., <date>30 Hen. VIII</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 165</bibl>. </p>
@@ -63,14 +60,14 @@
             
             <div type="charter">
                <p> Exchequer Constat for £23 6s. 8d. for one year's profits of the King's manor of
-                  <placeName type="manor">Shaw</placeName>, viz. for the year <date>36 and 37 Hen. VIII</date>. 
+                  <placeName type="manor" key="place_107008">Shaw</placeName>, viz. for the year <date>36 and 37 Hen. VIII</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 164</bibl>.</p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>STRETLEY</placeName>. Deed reciting letters patent, dated 24 April, <date>15 Elizabeth</date>, by
-                  which a messuage and appurtenances in <placeName>Stretley</placeName>,
+                  <placeName key="place_107070">STRETLEY</placeName>. Deed reciting letters patent, dated 24 April, <date>15 Elizabeth</date>, by
+                  which a messuage and appurtenances in <placeName key="place_107070">Stretley</placeName>,
                   parcel of the possessions of <persName>sir <forename>Francis</forename> <surname>Englefield</surname>, kt.</persName>, 
                   then in her Majesties hands by forfeiture of the said Francis, by his going out of the kingdom, were
                   granted to one <persName><forename>Griffith</forename> <surname>Barton</surname></persName>, from whom they
@@ -83,29 +80,29 @@
             <div type="charter">
                <p>
                   <pb n="3"/>
-                  <placeName>WINDSOR</placeName>. Grant by <persName>King Henry III</persName> of free warren to
+                  <placeName key="place_104638">WINDSOR</placeName>. Grant by <persName>King Henry III</persName> of free warren to
                   <persName><forename>Roger</forename> de <surname>Montalt</surname></persName> in all his lands in 
-                  <placeName type="country">England</placeName>.
-                  Dated at <placeName role="date">Windsor</placeName>, 8 Oct., <date>41 of his reign</date>.
+                  <placeName type="country" key="place_104181">England</placeName>.
+                  Dated at <placeName role="date" key="place_104638">Windsor</placeName>, 8 Oct., <date>41 of his reign</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 167</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Mandate of <persName>King Edward III</persName> to 
                   <persName><forename>Adam</forename> de <surname>Hertyngdon</surname>, clerk</persName> of the works of the
-                  castle of <placeName>Windsor</placeName>, commanding him to make for the 
-                  <orgName>dean and college of the free chapel of St. George</orgName> within the castle five large candles
+                  castle of <placeName key="place_104638">Windsor</placeName>, commanding him to make for the 
+                  <orgName key="org_103039">dean and college of the free chapel of St. George</orgName> within the castle five large candles
                   ['soynes'] for the said chapel, of which the first to be named Jesus, the second Mary, the third
                   John, the fourth George, the fifth Edward. 
-                  Dated at <placeName role="date">Westminster</placeName>, 4 Nov., <date>50 of his reign</date>.
+                  Dated at <placeName role="date" key="place_100060">Westminster</placeName>, 4 Nov., <date>50 of his reign</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 168</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Letters patent of <persName>King Edward III</persName>, 
-                  dated at <placeName role="date">Westminster</placeName>, 19 Feb., <date>43 of his reign</date>, 
+                  dated at <placeName role="date" key="place_100060">Westminster</placeName>, 19 Feb., <date>43 of his reign</date>, 
                   granting to <persName><forename>Helmyng</forename> <surname>Leget</surname></persName> the office of 
-                  constable of the castle of <placeName>Windsor</placeName>, also bailiff of the park of
+                  constable of the castle of <placeName key="place_104638">Windsor</placeName>, also bailiff of the park of
                   <placeName type="minor">Wychemere</placeName> and the new park of Windsor, which
                   <persName><forename>Thomas</forename> <surname>Cheyne</surname></persName>, late deceased, held, or the term of his life. 
                   <note type="language">[Seal broken.]</note> 
@@ -114,8 +111,8 @@
             
             <div type="charter">
                <p> Grant from <persName>sir <forename>Henry</forename> <surname>Nevill</surname></persName> to
-                  <persName><forename>David</forename> <surname>Watkins</surname>, esq., of <placeName role="person">London</placeName></persName>, 
-                  of the office of keeper of the houses within the upper bayliwick of <placeName>Windsor Castle</placeName>,
+                  <persName><forename>David</forename> <surname>Watkins</surname>, esq., of <placeName role="person" key="place_100051">London</placeName></persName>, 
+                  of the office of keeper of the houses within the upper bayliwick of <placeName key="place_104638">Windsor Castle</placeName>,
                   keeper of the leads of the castle, and also keeper of the butts within the castle, which said
                   offices by letters patent bearing date 7 Nov., <date>13 Jas. I</date>, had been
                   granted to the said sir Henry for his life. 
@@ -127,15 +124,15 @@
             <div type="charter">
                <p> Letters patent of <persName>King James I</persName> granting to
                   <persName><forename>David</forename> <surname>Watkins</surname></persName> the office of keeper of
-                  the houses, etc. of the bailiwick of the <placeName>castle of Windsor</placeName>, for the term of his
-                  life. Dated <placeName role="date">Westminster</placeName>, 5 Dec., <date>21 Jas. I</date>.
+                  the houses, etc. of the bailiwick of the <placeName key="place_104638">castle of Windsor</placeName>, for the term of his
+                  life. Dated <placeName role="date" key="place_100060">Westminster</placeName>, 5 Dec., <date>21 Jas. I</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 171</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Administration grant to <persName><forename>Sarah</forename> <surname>Towse</surname>, widow</persName> of
-                  <persName><forename>Nicholas</forename> <surname>Towse</surname>, of <placeName role="person">New Windsor</placeName></persName>,
-                  deceased, from the court at <placeName>Canterbury</placeName>. 
+                  <persName><forename>Nicholas</forename> <surname>Towse</surname>, of <placeName role="person" key="place_107051">New Windsor</placeName></persName>,
+                  deceased, from the court at <placeName key="place_104247">Canterbury</placeName>. 
                   Dated 17 Dec., <date when="1628">1628</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 172</bibl>. </p>
             </div>
@@ -144,7 +141,7 @@
                <p> SHAW. Copy of a roll in the custody of the remembrancer of the Exchequer, <date>41 Ed. III</date>, 
                   being a survey in pursuance of a writ to 
                   <persName><forename>William</forename> de <surname>Wukeham</surname></persName><!--CHK hardcopy, unclear ...--> to them, dated at Weston, 10 Oct. an. xxxv
-                  of all the demesne lands and tenements in <placeName>Shawe</placeName>, which the
+                  of all the demesne lands and tenements in <placeName key="place_107064">Shawe</placeName>, which the
                   King had by the gift and feoffment of 
                   <persName>Master <forename>William</forename> de <surname>Polmorna</surname></persName>. 
                   <note type="material">[Roll on paper.]</note>
@@ -155,9 +152,9 @@
             
             <div type="charter">
                <p>
-                  <placeName>WALLINGFORD</placeName> (Honor of, etc.). Roll (heading gone), being an
+                  <placeName key="place_107073">WALLINGFORD</placeName> (Honor of, etc.). Roll (heading gone), being an
                   extent of the lands, tenements, etc. in divers counties, belonging to the deceased
-                  <persName><forename>Edmund</forename> earl of Cornwall, lord of the honors of <placeName type="honour" role="person">St. Walery</placeName> and <placeName type="honour" role="person">Wallingford</placeName>, etc., etc.</persName>; 
+                  <persName><forename>Edmund</forename> earl of Cornwall, lord of the honors of <placeName type="honour" role="person" key="place_107010">St. Walery</placeName> and <placeName type="honour" role="person" key="place_107011">Wallingford</placeName>, etc., etc.</persName>; 
                   amounting in value to £2610 118s. 2d. and of the advowsons of churches and priories in his gift, amounting
                   to £527 13s. 4d. on the <!--CHK hardcopy--> .... of money etc., in possession of a <!--CHK hardcopy-->.... deceased.
                   (<date when="1301" precision="low">c. 1301</date>.) 
@@ -167,15 +164,15 @@
             
             <div type="charter">
                <p>
-                  <placeName>WALTHAM (White)</placeName>. Table of yearly wages due to the parish
-                  clerk of <placeName>White Waltham</placeName>, for the year <date when="1662">1662</date>, being 
+                  <placeName key="place_107076">WALTHAM (White)</placeName>. Table of yearly wages due to the parish
+                  clerk of <placeName key="place_107076">White Waltham</placeName>, for the year <date when="1662">1662</date>, being 
                   a list of parishioners paying for the ost part four pence each. 
                   <bibl type="shelfmark">Berkshire Rolls, 3</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>WINDSOR (College of St. George)</placeName>. Roll of accounts written on paper,
+                  <orgName key="org_103039">WINDSOR (College of St. George)</orgName>. Roll of accounts written on paper,
                   Mich. <date>12 Hen. VII</date>, containing payments of salaries, obits, reparations,
                   etc., etc. [Heading of accounts torn away.]
                   <note type="material">[On paper.]</note>
@@ -183,8 +180,9 @@
             </div>
             
             <div type="charter">
-               <p> Roll of accounts on paper for <date>Mich. 19-Mich 20 Hen. VII</date>, containing the
-                  like payments for that year, consisting of obits, salaries, etc. [Heading of Roll torn away.] 
+               <p><supplied><orgName key="org_103039">WINDSOR (College of St. George)</orgName></supplied> Roll of accounts on paper for <date>Mich. 19-Mich 20 Hen. VII</date>, containing the
+                  payments of salaries, obits, reparations,
+                  etc., etc. for that year. [Heading of Roll torn away.] 
                   <bibl type="shelfmark">Berkshire Rolls, 5</bibl>.</p>
             </div>
             
@@ -244,9 +242,9 @@
             </div>-->
             
             <div type="charter">
-               <p> <placeName>ASTON TIRROLD</placeName>. <persName><forename>William</forename> de <surname>Bynham</surname>, the prior</persName>, 
-                  and <orgName>convent of Wallingford</orgName> demise to the 
-                  <persName>lady <forename>Margaret</forename> <surname>Saundervile</surname> of <placeName role="person">South Moreton</placeName></persName> 
+               <p> <placeName key="place_107018">ASTON TIRROLD</placeName>. <persName><forename>William</forename> de <surname>Bynham</surname>, the prior</persName>, 
+                  and <orgName key="org_107004">convent of Wallingford</orgName> demise to the 
+                  <persName>lady <forename>Margaret</forename> <surname>Saundervile</surname> of <placeName key="place_107049" role="person">South Moreton</placeName></persName> 
                   the tithes of a meadow which was <persName><forename>Nicholas</forename>' the <surname type="patronymic">son of Turold</surname> in Aston Turald</persName>. 
                   Dated in the feast of St. Barnabas, <date>3 Ric. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 122</bibl>.
@@ -255,19 +253,19 @@
             
             <div type="charter">
                <p>
-                  <placeName>BRITWELL (East)</placeName>. <persName><forename>John</forename>, <surname type="patronymic">son of Almaric</surname> of <placeName role="person">Est Brithwell</placeName></persName>,
-                  grants to <persName><forename>Ralph</forename>, the prior</persName>, and <orgName>convent of Wallingford</orgName> one  acre of meadow. 
+                  <placeName key="place_107022">BRITWELL (East)</placeName>. <persName><forename>John</forename>, <surname type="patronymic">son of Almaric</surname> of <placeName role="person" key="place_107022">Est Brithwell</placeName></persName>,
+                  grants to <persName><forename>Ralph</forename>, the prior</persName>, and <orgName key="org_107004">convent of Wallingford</orgName> one  acre of meadow. 
                   (<date when="1260" precision="low">c. 1260</date>.) [Mutilated.] 
                   <bibl type="shelfmark">MS. Ch. Berks. 41</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>BUCKLAND</placeName>. Decision of <persName><forename>Roger</forename>, bishop of <placeName type="diocese" role="bishop">Salisbury</placeName></persName>, 
-                  in a cause referred to him by the <orgName>prior and convent of Wallingford</orgName>, and
-                  <persName><forename>Robert</forename> de <surname>Ayliston</surname>, rector of <placeName role="rector">Buckland</placeName></persName>, 
-                  concerning the tithes from the lordship of <persName><forename>John</forename> de <surname>St. Philberto</surname></persName> in <placeName>Kerswell</placeName>. 
-                  Dated at <placeName role="date">Sonning</placeName>, 4 Non. October, <date when="1320">1320</date>. 
+                  <placeName key="place_107020">BUCKLAND</placeName>. Decision of <persName><forename>Roger</forename>, bishop of <placeName type="diocese" role="bishop" key="place_107002">Salisbury</placeName></persName>, 
+                  in a cause referred to him by the <orgName key="org_107004">prior and convent of Wallingford</orgName>, and
+                  <persName><forename>Robert</forename> de <surname>Ayliston</surname>, rector of <placeName role="rector" key="place_107020">Buckland</placeName></persName>, 
+                  concerning the tithes from the lordship of <persName><forename>John</forename> de <surname>St. Philberto</surname></persName> in <placeName key="place_107037">Kerswell</placeName>. 
+                  Dated at <placeName role="date" key="place_107065">Sonning</placeName>, 4 Non. October, <date when="1320">1320</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 62</bibl>. </p>
             </div>
             
@@ -277,8 +275,8 @@
             </div>
             
             <div type="charter">
-               <p> The <orgName>prior and convent of Wallingford</orgName> ... of the church of 
-                  <placeName>Boklond in the deanery of Abingdon</placeName> ... 
+               <p> The <orgName key="org_107004">prior and convent of Wallingford</orgName> ... of the church of 
+                  <placeName key="place_107020">Boklond in the deanery of Abingdon</placeName> ... 
                   <persName><forename>Robert</forename> de <surname>Ayleston</surname></persName> to pay to them .... 
                   as is contained in a composition (for the) lands and tenements of 
                   <persName><forename>John</forename> de <surname>St. Philberto</surname></persName> the sum of 30s. 
@@ -341,108 +339,108 @@
                   grants to <persName><forename>William</forename> de <surname>Mynnes</surname></persName> for 10
                   marks of silver the whole of the tenement which was
                   <persName><forename>William</forename> de <surname>Lauenore</surname></persName>'s in the village of
-                  <placeName>Chalkford</placeName>, with a garden, curtilage and field. 
+                  <placeName key="place_107024">Chalkford</placeName>, with a garden, curtilage and field. 
                   Dated the Sunday next before the Annunciation, <date>5 Ed. I</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 47</bibl> . </p>
             </div>
             
             <div type="charter">
                <p> <persName><forename>William</forename> <surname>Heron</surname>, the prior</persName>, and 
-                  <orgName>convent of Wallingford</orgName>, with the assent of <persName><forename>Thomas</forename>, the abbot of <orgName role="abbot">St. Alban's</orgName></persName>, 
+                  <orgName key="org_107004">convent of Wallingford</orgName>, with the assent of <persName><forename>Thomas</forename>, the abbot of <orgName role="abbot" key="org_107011">St. Alban's</orgName></persName>, 
                   demise to <persName><forename>Nicholas</forename> <surname>Heron</surname></persName> and 
                   <persName nymRef="Heron"><forename>Nicholas</forename> his son</persName>, for 100s., the whole of a messuage
-                  and land in <placeName>Chalkford</placeName> for their lives, at an annual rent of 8s. 
-                  Dated at <placeName role="date">Wallingford</placeName> the Sunday next after the feast of SS. Philip and
+                  and land in <placeName key="place_107024">Chalkford</placeName> for their lives, at an annual rent of 8s. 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Sunday next after the feast of SS. Philip and
                   James, <date>32 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 97</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> Indenture made between the <orgName>prior and convent of Wallingford</orgName> of the one part, and
+               <p> Indenture made between the <orgName key="org_107004">prior and convent of Wallingford</orgName> of the one part, and
                   the <persName>lady <forename>Alianor</forename> <surname>Rohant</surname></persName> of the other, 
                   witnesseth that whereas the lady Alianor is bound to the said prior and convent in £100 by bond, they grant
                   for themselves and successors that if the said lady Alianor, 
-                  <persName><forename>Simon</forename> parson of <placeName role="parson">Adwell</placeName></persName>, and
-                  <persName><forename>John</forename> <surname>Joye</surname> parson of <placeName role="parson">Stoke Talemach</placeName></persName>, 
-                  to whom the manor of <placeName type="manor">Chalkford</placeName> had been demised by indenture, shall
+                  <persName><forename>Simon</forename> parson of <placeName role="parson" key="place_107016">Adwell</placeName></persName>, and
+                  <persName><forename>John</forename> <surname>Joye</surname> parson of <placeName role="parson" key="place_107068">Stoke Talemach</placeName></persName>, 
+                  to whom the manor of <placeName type="manor" key="place_107006">Chalkford</placeName> had been demised by indenture, shall
                   observe the conditions contained in the said indenture, then the said bond to be void. 
-                  Dated at <placeName role="date">Wallingford</placeName> the Sunday in the feast of St. Luke the
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Sunday in the feast of St. Luke the
                   evangelist, <date>34 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 98</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>CHALKFORD</placeName>, <placeName>CHINNOR</placeName>, <placeName>STOKENCHURCH</placeName>, etc.
+                  <placeName key="place_107024">CHALKFORD</placeName>, <placeName key="place_107026">CHINNOR</placeName>, <placeName key="place_107069">STOKENCHURCH</placeName>, etc.
                   Indenture made between <persName><forename>William</forename> de <surname>Stevyngton</surname>, the prior</persName>, 
-                  and <orgName>convent of Wallingford</orgName> of the one part, and the 
+                  and <orgName key="org_107004">convent of Wallingford</orgName> of the one part, and the 
                   <persName>lady <forename>Alianor</forename> <surname>Rohant</surname></persName>,
-                  <persName><forename>Simon</forename> parson of <placeName role="parson">Adwell</placeName></persName>, and
+                  <persName><forename>Simon</forename> parson of <placeName role="parson" key="place_107016">Adwell</placeName></persName>, and
                   <persName><forename>Thomas</forename> <surname>Osgar</surname>, clerk</persName>, of the other,
                   witnesseth that the said prior and convent demise to the said lady Alianor and
-                  others the manor of <placeName type="manor">Chalkford</placeName>, together with view of frankpledge there, 
+                  others the manor of <placeName type="manor" key="place_107006">Chalkford</placeName>, together with view of frankpledge there, 
                   and all lands and tenements, rents and services, which the same prior and convent have in
-                  <placeName>Chinnore</placeName>, <placeName>Wilnehale</placeName>, <placeName>Kyngeston</placeName>, and
-                  <placeName>Henton</placeName>, together with view of frankpledge in
-                  Chinnore, and with the tithes of the church of <placeName>Aston Rohant</placeName> with all its members,
+                  <placeName key="place_107026">Chinnore</placeName>, <placeName key="place_107078">Wilnehale</placeName>, <placeName key="place_107039">Kyngeston</placeName>, and
+                  <placeName key="place_107034">Henton</placeName>, together with view of frankpledge in
+                  Chinnore, and with the tithes of the church of <placeName key="place_107017">Aston Rohant</placeName> with all its members,
                   reserving nevertheless to the said prior and convent the whole of the hay of the
-                  manor of <placeName type="manor">Aston</placeName> and a meadow called 'blake' if the said prior and 
+                  manor of <placeName type="manor" key="place_107005">Aston</placeName> and a meadow called 'blake' if the said prior and 
                   convent have flocks and lambs there, and not otherwise: the tithes of the chapel of
-                  <placeName>Stokenchurch</placeName>, the wood of Chalkford with a croft adjacent, and the presentations
-                  and pensions of the church of <placeName role="church">Chinnore</placeName> and the vicarage of <placeName role="vicarage">Aston</placeName> excepted; to
-                  hold the same for their lives at an annual rent of £60. Dated at <placeName role="date">Wallingford</placeName>
+                  <placeName key="place_107069">Stokenchurch</placeName>, the wood of Chalkford with a croft adjacent, and the presentations
+                  and pensions of the church of <placeName role="church" key="place_107026">Chinnore</placeName> and the vicarage of <placeName role="vicarage" key="place_107017">Aston</placeName> excepted; to
+                  hold the same for their lives at an annual rent of £60. Dated at <placeName role="date" key="place_107073">Wallingford</placeName>
                   the Wednesday on the morrow of St. Michael, <date>34 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 99</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>CHALKFORD</placeName> and <placeName>ASTON ROWANT</placeName>. Indenture by which 
+                  <placeName key="place_107024">CHALKFORD</placeName> and <placeName key="place_107017">ASTON ROWANT</placeName>. Indenture by which 
                   <persName><forename>William</forename> <surname>Hardewyke</surname>, S. T. B., the prior</persName>,
-                  and <orgName>convent of Wallingford</orgName> demise to 
+                  and <orgName key="org_107004">convent of Wallingford</orgName> demise to 
                   <persName><forename>William</forename> <surname>Hester</surname></persName> and
                   <persName nymRef="Hester"><forename>Agnes</forename> his wife</persName> and
                   <persName nymRef="Hester"><forename>Henry</forename> their son</persName>, their
-                  manor of <placeName type="manor">Chalkeford in co. Oxon.</placeName> with the advowson of the church 
-                  of <placeName>Aston</placeName>, for 30 years, at an annual rent of 100s. 
-                  Dated at <placeName role="date">Wallingford</placeName> on the morrow of St. Thomas the martyr, <date>13 Ed. IV</date>. 
+                  manor of <placeName type="manor" key="place_107006">Chalkeford in co. Oxon.</placeName> with the advowson of the church 
+                  of <placeName key="place_107017">Aston</placeName>, for 30 years, at an annual rent of 100s. 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> on the morrow of St. Thomas the martyr, <date>13 Ed. IV</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 144</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>CLAYDON (Bottle)</placeName>. 
-                  <persName><forename>Geoffrey</forename> <surname>Scott</surname> of <placeName role="person">Claindun</placeName></persName> 
+                  <placeName key="place_107021">CLAYDON (Bottle)</placeName>. 
+                  <persName><forename>Geoffrey</forename> <surname>Scott</surname> of <placeName role="person" key="place_107021">Claindun</placeName></persName> 
                   acknowledged that he owes his lord <persName><forename>Ralph</forename> <surname>Sanz avair</surname></persName> 
                   3 marks of silver for which <pb n="6"/> he was impleaded in the King's court at
-                  <placeName>Wallingford</placeName>, and arranges to pay the same by
-                  certain instalments, in default of which the whole of the land he holds in <placeName>Botle Cleidun</placeName>
+                  <placeName key="place_107073">Wallingford</placeName>, and arranges to pay the same by
+                  certain instalments, in default of which the whole of the land he holds in <placeName key="place_107021">Botle Cleidun</placeName>
                   is to revert to the said Ralph. <date>8 Hen. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 13</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> Cause delegated by the Pope to be heard by the prior of <orgName role="prior">Bicester</orgName> between the 
-                  <orgName>prior and convent of Wallingford</orgName> and <persName><forename>Baldwin</forename>, rector of <placeName role="rector">Botte Cleydon</placeName></persName>. 
+               <p> Cause delegated by the Pope to be heard by the prior of <orgName role="prior" key="org_107001">Bicester</orgName> between the 
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> and <persName><forename>Baldwin</forename>, rector of <placeName role="rector" key="place_107021">Botte Cleydon</placeName></persName>. 
                   Dated <date when="1321">1321</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 67</bibl>. </p>
             </div>
              
             <div type="charter">
-               <p> <persName><forename>William</forename>, the prior</persName>, and <orgName>convent of Wallingford</orgName>,
-                  with the assent of <persName><forename>Thomas</forename>, the abbot, of <orgName role="abbot">St. Alban's</orgName></persName>, 
-                  grant to <persName><forename>Robert</forename> de <surname>Rodyngton</surname>, parson of <placeName role="parson">Botte Claydon</placeName></persName>, 
+               <p> <persName><forename>William</forename>, the prior</persName>, and <orgName key="org_107004">convent of Wallingford</orgName>,
+                  with the assent of <persName><forename>Thomas</forename>, the abbot, of <orgName role="abbot" key="org_107011">St. Alban's</orgName></persName>, 
+                  grant to <persName><forename>Robert</forename> de <surname>Rodyngton</surname>, parson of <placeName role="parson" key="place_107021">Botte Claydon</placeName></persName>, 
                   all the fruits of the tithes of corn which belong to the said convent, the said Robert
                   paying annually 16s. 
-                  Dated at <placeName role="date">Wallingford</placeName>, 1 January, <date>42 Ed. III</date>.
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName>, 1 January, <date>42 Ed. III</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 107</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>CLOPCOTE</placeName>. <persName><forename>Alan</forename>, son of <persName><forename>Amfrid</forename> the <surname type="patronymic">son of Ruald</surname></persName></persName>, grants to
-                  the church of <placeName>Wallingford</placeName> in frankalmoigne his meadow which was the meadow of his
-                  father in <placeName>Clopcote</placeName>, lying in the eastern part of the castle before the postern,
+                  <placeName key="place_107027">CLOPCOTE</placeName>. <persName><forename>Alan</forename>, son of <persName><forename>Amfrid</forename> the <surname type="patronymic">son of Ruald</surname></persName></persName>, grants to
+                  the church of <placeName key="place_107073">Wallingford</placeName> in frankalmoigne his meadow which was the meadow of his
+                  father in <placeName key="place_107027">Clopcote</placeName>, lying in the eastern part of the castle before the postern,
                   (<date when="1189" precision="low">c. 1189</date>.) 
                   [Printed in the Monasticon, vol. iii. p. 280.]
                   <bibl type="shelfmark">MS. Ch. Berks. 2</bibl>. </p>
@@ -553,9 +551,9 @@
             
             <div type="charter">
                <p> <persName><forename>John</forename> <surname>Huberd</surname></persName> grants to
-                  <persName><forename>Alan</forename> <surname>Russel</surname> of <placeName role="person">Clopcote</placeName></persName> and
+                  <persName><forename>Alan</forename> <surname>Russel</surname> of <placeName role="person" key="place_107027">Clopcote</placeName></persName> and
                   <persName nymRef="Russel"><forename>Alice</forename> his wife</persName> one acre of land
-                  lying in the field of <placeName>Clopcote</placeName>. [A fragment.] 
+                  lying in the field of <placeName key="place_107027">Clopcote</placeName>. [A fragment.] 
                   Dated ... St. Luke the evangelist, <date>4 Ed. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 55</bibl>. </p>
             </div>
@@ -573,9 +571,9 @@
              
             <div type="charter">
                <p>
-                  <pb n="7"/> <persName><forename>John</forename> <surname>Rotari</surname> of <placeName role="person">Wallingford</placeName></persName> grants to <persName><forename>Walter</forename> <surname>Cripse</surname></persName> 2 acres of arable
-                  land lying in the field of <placeName>Clopcote</placeName> for .... years, from the <date>16 Ed. II</date>.
-                  Dated at <placeName role="date">Wallingford</placeName> .... <date>16 Ed. II</date>. 
+                  <pb n="7"/> <persName><forename>John</forename> <surname>Rotari</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName> grants to <persName><forename>Walter</forename> <surname>Cripse</surname></persName> 2 acres of arable
+                  land lying in the field of <placeName key="place_107027">Clopcote</placeName> for .... years, from the <date>16 Ed. II</date>.
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> .... <date>16 Ed. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 68</bibl>.
                </p>
             </div>
@@ -605,11 +603,11 @@
             </div>-->
             
             <div type="charter">
-               <p> <persName><forename>Roger</forename> <surname>Badecok</surname> of <placeName role="person">Wallingford</placeName></persName> 
+               <p> <persName><forename>Roger</forename> <surname>Badecok</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName> 
                   grants to <persName nymRef="Badecok"><forename>Alice</forename> his daughter</persName> 5 acres of land lying
-                  in the field of <placeName>Clopcote</placeName>; paying annually 10 quarters of barley during his life,
+                  in the field of <placeName key="place_107027">Clopcote</placeName>; paying annually 10 quarters of barley during his life,
                   and to his right heirs after his decease one quarter of wheat. Dated at
-                  <placeName role="date">Wallingford</placeName> the Sunday next after the feast of St. Katherine, <date>1 Ed. III</date>. 
+                  <placeName role="date" key="place_107073">Wallingford</placeName> the Sunday next after the feast of St. Katherine, <date>1 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 69b</bibl>. </p>
             </div>
             
@@ -670,11 +668,11 @@
             </div>-->
             
             <div type="charter">
-               <p> Letters patent of <persName>King Edward III</persName>, dated at <placeName role="date">York</placeName>, 
+               <p> Letters patent of <persName>King Edward III</persName>, dated at <placeName role="date" key="place_103421">York</placeName>, 
                   23 Jan., the <date>6th of his reign</date>, giving licence to 
                   <persName><forename>Richard</forename> de <surname>Louches</surname></persName>- to grant a messuage, 
-                  13 1/2 acres of land, and one acre of meadow in <placeName>Clopcote</placeName> to the 
-                  <orgName>prior and convent of Wallingford</orgName>, for one chaplain to celebrate in the said priory each 
+                  13 1/2 acres of land, and one acre of meadow in <placeName key="place_107027">Clopcote</placeName> to the 
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName>, for one chaplain to celebrate in the said priory each 
                   day for his soul and the souls of <persName><forename>Wm.</forename> <surname>Heyron</surname></persName> and
                   <persName><forename>Walter</forename> de <surname>Pulton</surname></persName>, and the ancestors of the said Richard. 
                   <bibl type="shelfmark">MS. Ch. Berks. 74</bibl>. </p>
@@ -789,13 +787,13 @@
             </div>-->
             
             <div type="charter">
-               <p> <persName><forename>John</forename> <surname>Whytyng</surname> of <placeName role="person">Wallingford</placeName></persName> 
+               <p> <persName><forename>John</forename> <surname>Whytyng</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName> 
                   appoints <persName><forename>Walter</forename> <surname>Cirpsse</surname></persName>, his attorney, to deliver
                   seisin of 3 1/2 acres of arable land and the reversion of half an acre that will fall
                   to him on the death of <persName nymRef="Basyngg"><forename>Alice</forename> the wife</persName> of
                   <persName><forename>Walter</forename> <surname>Basyngg</surname></persName>, in
-                  <placeName>Clopcote</placeName>, to <persName><forename>John</forename> ate <surname>Russch</surname></persName>. 
-                  Dated at <placeName role="date">Clopcote</placeName> the Thursday in the feast of St. Luke the evangelist,
+                  <placeName key="place_107027">Clopcote</placeName>, to <persName><forename>John</forename> ate <surname>Russch</surname></persName>. 
+                  Dated at <placeName role="date" key="place_107027">Clopcote</placeName> the Thursday in the feast of St. Luke the evangelist,
                   <date>15 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 86</bibl>. </p>
             </div>
@@ -821,26 +819,26 @@
             </div>-->
             
             <div type="charter">
-               <p> Indenture witnessing that, although <persName><forename>Walter</forename> <surname>Cirpsse</surname> of <placeName role="person">Wallingford</placeName></persName>
+               <p> Indenture witnessing that, although <persName><forename>Walter</forename> <surname>Cirpsse</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName>
                   has infeoffed <persName><forename>William</forename> <surname>Cornwaille</surname></persName> of the same 
-                  place with one acre of meadow with appurtenances in <placeName>Clopcote</placeName>, lying in a common
+                  place with one acre of meadow with appurtenances in <placeName key="place_107027">Clopcote</placeName>, lying in a common
                   meadow called '<placeName type="minor">le Northmede</placeName>,' as appears in a certain
                   charter then made and deposited by consent of the parties in the hands of 
                   <persName><forename>Thomas</forename> <surname>Sturbourn</surname></persName>, by which he has received
                   full seisin, nevertheless the same William is willing and grants for himself and his heirs, that if the said
-                  Walter and his heirs pay to him or his attorney in <placeName>Wallingford</placeName> 4 marks, then the said
+                  Walter and his heirs pay to him or his attorney in <placeName key="place_107073">Wallingford</placeName> 4 marks, then the said
                   charter of feoffment to be void. 
                   <note type="seal">[Seal.]</note> 
-                  Dated at <placeName role="date">Clopcote</placeName> the Monday next after the feast of
+                  Dated at <placeName role="date" key="place_107027">Clopcote</placeName> the Monday next after the feast of
                   St. Agatha the virgin, <date>18 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 89</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <persName><forename>Richard</forename> <surname>Oterbourne</surname> of <placeName role="person">Clopcote</placeName></persName>
-                  quit-claims to <persName><forename>John</forename> atte <surname>Rysshe</surname> of <placeName role="person">Wallingford</placeName></persName> 
-                  all his right in 3 acres of arable land lying in the field of <placeName>Clopcote</placeName>. Dated at
-                  <placeName>Wallingford</placeName> the Wednesday next after the feast of St. Matthew the apostle, <date>20 Ed. III</date>. 
+               <p> <persName><forename>Richard</forename> <surname>Oterbourne</surname> of <placeName role="person" key="place_107027">Clopcote</placeName></persName>
+                  quit-claims to <persName><forename>John</forename> atte <surname>Rysshe</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName> 
+                  all his right in 3 acres of arable land lying in the field of <placeName key="place_107027">Clopcote</placeName>. Dated at
+                  <placeName key="place_107073">Wallingford</placeName> the Wednesday next after the feast of St. Matthew the apostle, <date>20 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 90</bibl>. </p>
             </div>
             
@@ -892,40 +890,40 @@
             <div type="charter">
                <p> Fragment of a charter by which <persName><forename>Roger</forename> <surname>Arnizat</surname></persName>, 
                   son and heir of ... quit-claims to
-                  <persName>sir <forename>Alexander</forename> de <surname>Chelsey</surname>, rector of <placeName role="rector">Chinnor</placeName></persName>,
-                  and others, all his right in 2 acres of land in <placeName>Clopcote</placeName>.#
-                  Dated at <placeName role="date">W[allingford]</placeName> .... [<date notBefore="1364" notAfter="1374">1364 or 1374</date>]. 
+                  <persName>sir <forename>Alexander</forename> de <surname>Chelsey</surname>, rector of <placeName key="place_107026" role="rector">Chinnor</placeName></persName>,
+                  and others, all his right in 2 acres of land in <placeName key="place_107027">Clopcote</placeName>.#
+                  Dated at <placeName role="date" key="place_107073">W[allingford]</placeName> .... [<date notBefore="1364" notAfter="1374">1364 or 1374</date>]. 
                   <bibl type="shelfmark">MS. Ch. Berks. 96</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <persName><forename>Nicholas</forename>, rector of the church of <placeName role="rector">South Morton</placeName></persName>, 
+               <p> <persName><forename>Nicholas</forename>, rector of the church of <placeName role="rector" key="place_107049">South Morton</placeName></persName>, 
                   <persName><forename>Alice</forename> atte <surname>Russhe</surname></persName>, and
                   <persName><forename>Alice</forename> <surname>Foliot</surname></persName>, executors of the will of
                   <persName><forename>John</forename> atte <surname>Russhe</surname></persName>, grant to 
-                  <persName><forename>Alexander</forename> de <surname>Cholseye</surname>, rector of <placeName role="rector">Chinnor</placeName></persName>, 
-                  and others, 37 acres of arable land in <placeName>Clopcote near Wallingford</placeName>. 
+                  <persName><forename>Alexander</forename> de <surname>Cholseye</surname>, rector of <placeName role="rector" key="place_107026">Chinnor</placeName></persName>, 
+                  and others, 37 acres of arable land in <placeName key="place_107027">Clopcote near Wallingford</placeName>. 
                   <note type="seal">[3 seals, one broken.]</note>
-                  Dated at <placeName role="date">Clopcote</placeName> the Sunday after the feast of the
+                  Dated at <placeName role="date" key="place_107027">Clopcote</placeName> the Sunday after the feast of the
                   Nativity of the Virgin, <date>36 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 100</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Charter, reciting that <persName><forename>William</forename> de <surname>Stevington</surname>, the prior</persName>, 
-                  and <orgName>convent of Wallingford</orgName> are bound by their bond to 
-                  <persName><forename>Nicholas</forename> rector of <placeName role="rector">South Morton</placeName></persName>,
+                  and <orgName key="org_107004">convent of Wallingford</orgName> are bound by their bond to 
+                  <persName><forename>Nicholas</forename> rector of <placeName role="rector" key="place_107049">South Morton</placeName></persName>,
                   <persName><forename>John</forename> atte <surname>Wythyenemulle</surname></persName>, and 
                   <persName nymRef="Rusche"><forename>Alice</forename> late wife</persName> of
                   <persName><forename>John</forename> atte <surname>Rusche</surname></persName>, in a sum of £40; the said
                   Nicholas and others are willing and grant for them and their heirs that if the
                   said prior and convent save harmless the said Nicholas and others against 
-                  <persName nymRef="Bereford"><forename>Eve</forename>, who was wife of <persName><forename>John</forename> de <surname>Bereford</surname></persName>, lady of the manor of '<placeName type="manor" role="person">la Rusche</placeName>,'</persName> 
-                  from all action for waste, etc. in the said manor of <placeName type="manor">'la Rusche,'</placeName> for 
+                  <persName nymRef="Bereford"><forename>Eve</forename>, who was wife of <persName><forename>John</forename> de <surname>Bereford</surname></persName>, lady of the manor of '<placeName type="manor" role="person" key="place_107004">la Rusche</placeName>,'</persName> 
+                  from all action for waste, etc. in the said manor of <placeName type="manor" key="place_107004">'la Rusche,'</placeName> for 
                   the whole of the time in which <persName><forename>John</forename> atte <surname>Rucshe</surname></persName>
                   had or ought to have farm of the said manor, according to a certain indenture between them, then the said 
                   bond of 40 to have no effect. 
-                  Dated at <placeName role="date">Wallingford</placeName> the Sunday next after the feast of the Conception B.V.M., <date>36 Ed. III</date>. 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Sunday next after the feast of the Conception B.V.M., <date>36 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 101</bibl>. </p>
             </div>
             
@@ -956,23 +954,23 @@
             </div>-->
             
             <div type="charter">
-               <p> <persName><forename>William</forename> <surname>Arnyat</surname> of <placeName role="person">Wallingford</placeName></persName> 
+               <p> <persName><forename>William</forename> <surname>Arnyat</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName> 
                   grants to <persName nymRef="Arnyat"><forename>Christiana</forename> his wife</persName> all his lands in the
-                  fields of <placeName>Clopcote</placeName> and <placeName>Sottewell</placeName>. [Mutilated.] 
-                  Dated at <placeName role="date">Wallingford</placeName>, Palm Sunday, <date>40 (?) Ed. III</date>. 
-                  Witness- <persName><forename>Nicholas</forename> <surname>Payable</surname>, then mayor of <placeName role="mayor">Wallingford</placeName></persName>. 
+                  fields of <placeName key="place_107027">Clopcote</placeName> and <placeName key="place_107066">Sottewell</placeName>. [Mutilated.] 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName>, Palm Sunday, <date>40 (?) Ed. III</date>. 
+                  Witness- <persName><forename>Nicholas</forename> <surname>Payable</surname>, then mayor of <placeName role="mayor" key="place_107073">Wallingford</placeName></persName>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 103</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> <persName nymRef="Arnezate"><forename>Christiana</forename>, formerly wife</persName> of
-                  <persName><forename>William</forename> <surname>Arnezate</surname> of <placeName role="person">Wallingford</placeName></persName>, 
+                  <persName><forename>William</forename> <surname>Arnezate</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
                   appoints <persName><forename>William</forename> <surname>Hyldych</surname></persName> and
                   <persName><forename>William</forename> <surname>Wode</surname></persName> ... her attorneys, to give seisin to
-                  <persName><forename>Alexander</forename> <surname>Chelseye</surname>, rector of <placeName role="rector">Chinnor</placeName></persName>, 
-                  and others of 2 acres of arable land lying together in the field of <placeName>Clopcote</placeName>.
+                  <persName><forename>Alexander</forename> <surname>Chelseye</surname>, rector of <placeName role="rector" key="place_107026">Chinnor</placeName></persName>, 
+                  and others of 2 acres of arable land lying together in the field of <placeName key="place_107027">Clopcote</placeName>.
                   <note type="seal">[Seal broken.]</note> 
-                  Dated at <placeName role="date">Clopcote</placeName> St. Silvester's day, <date>41 Ed. III</date>. 
+                  Dated at <placeName role="date" key="place_107027">Clopcote</placeName> St. Silvester's day, <date>41 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 105</bibl>. </p>
             </div>
             
@@ -996,30 +994,30 @@
             
             <div type="charter">
                <p> <persName nymRef="Horsepath"><forename>John</forename>, son and heir</persName> of
-                  <persName><forename>John</forename> <surname>Horsepath</surname> of <placeName role="person">Wallingford</placeName></persName>, 
-                  quit-claims to <pb n="10"/> <persName>sir <forename>Alexander</forename> de <surname>Cholseye</surname>, rector of <placeName role="rector">Chinnor</placeName></persName>, 
-                  and others all his right in lands and tenements in <placeName>Clopcote</placeName>. 
-                  Dated at <placeName role="date">Clopcote</placeName> the Saturday next before the feast of
+                  <persName><forename>John</forename> <surname>Horsepath</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
+                  quit-claims to <pb n="10"/> <persName>sir <forename>Alexander</forename> de <surname>Cholseye</surname>, rector of <placeName role="rector" key="place_107026">Chinnor</placeName></persName>, 
+                  and others all his right in lands and tenements in <placeName key="place_107027">Clopcote</placeName>. 
+                  Dated at <placeName role="date" key="place_107027">Clopcote</placeName> the Saturday next before the feast of
                   St. George, <date>44 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 113</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>CLOPCOTE</placeName>, <placeName>WALLINGFORD</placeName>, <placeName>GORING</placeName>,
-                  <placeName>WYK</placeName>, and <placeName>MAPLEDURHAM</placeName>. 
+                  <placeName key="place_107027">CLOPCOTE</placeName>, <placeName key="place_107073">WALLINGFORD</placeName>, <placeName key="place_107032">GORING</placeName>,
+                  <placeName key="place_107080">WYK</placeName>, and <placeName key="place_107043">MAPLEDURHAM</placeName>. 
                   One leaf from register, in ... containing copies, made in <date notBefore="1400" notAfter="1425" precision="low">beginning of 15th century</date>, 
-                  of 17 charters of lands, etc. belonging to the <orgName>priory of Wallingford</orgName>. 
+                  of 17 charters of lands, etc. belonging to the <orgName key="org_107004">priory of Wallingford</orgName>. 
                   [Mutilated, and barely legible.]  
                   <bibl type="shelfmark">MS. Ch. Berks. 117b</bibl>. </p>
                <p> (a) <persName><forename>Henry</forename> de <surname>Porta</surname></persName> grants to
-                  <persName><forename>William</forename> the clerk of <placeName role="person">Wallingford</placeName></persName>, 
-                  for his homage and service, one acre of arable land in the field of <placeName>Clopcote</placeName> in 
+                  <persName><forename>William</forename> the clerk of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
+                  for his homage and service, one acre of arable land in the field of <placeName key="place_107027">Clopcote</placeName> in 
                   '<placeName type="minor">Koclingforlong</placeName>' paying annually to him and his heirs 1d.; fur this 
                   charter he gave to the said Henry l0s. sterling. (See MS. Ch. Berks. 11.)</p>
-               <p> (b) R., the treasurer of the <orgName>Hospital of Jerusalem in England</orgName>, with the consent
+               <p> (b) R., the treasurer of the <orgName key="org_107007">Hospital of Jerusalem in England</orgName>, with the consent
                   of the brethren, grants to <persName><forename>Adam</forename> the <surname>cooper</surname></persName> one
-                  messuage in <placeName>Clopcote</placeName>, which they had by the gift of 
+                  messuage in <placeName key="place_107027">Clopcote</placeName>, which they had by the gift of 
                   <persName><forename>Ralph</forename> de <surname>Porta</surname></persName>; paying annually for the same 12d.
                   (See MS. Ch. Berks. 12). </p>
                <p> (c) <persName><forename>John</forename> de <surname>Wallingford</surname>, marshal</persName>, with the
@@ -1028,45 +1026,45 @@
                   <persName nymRef="Hamsted"><forename>Alice</forename> his wife</persName> all right in that tenement which
                    came to Sarah as dower after the death of <persName><forename>Ralph</forename> <surname>Guilebole</surname></persName> 
                   her husband, and lyes between a tenement that was <persName><forename>Walter</forename> <surname>Godlac</surname></persName> 
-                  and the cemetery of the <orgName>priory of Wallingford</orgName> in the parish of 
-                  <placeName>St. Martin</placeName>; paying annually to the priory 3s.</p>
-               <p> (d) <persName><forename>Peter</forename> le <surname>Vincter</surname> of <placeName role="person">Wallingford</placeName></persName> 
+                  and the cemetery of the <orgName key="org_107004">priory of Wallingford</orgName> in the parish of 
+                  <placeName key="place_107075">St. Martin</placeName>; paying annually to the priory 3s.</p>
+               <p> (d) <persName><forename>Peter</forename> le <surname>Vincter</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName> 
                   grants to <persName><forename>Roger</forename> de <surname>Hamsted</surname></persName> and 
                   <persName nymRef="Hamsted"><forename>Alice</forename> his wife</persName>,
                   for 5 marks in hand paid, the whole of that messuage with appurtenances which is
                   situated as in charter (c); paying annually to the sacristan of the 
-                  <orgName role="person">priory of Wallingford</orgName> 4s. 1d. </p>
-               <p>(e) Convention made between the <orgName>prior and convent of Wallingford</orgName> of the one part
+                  <orgName role="person" key="org_107004">priory of Wallingford</orgName> 4s. 1d. </p>
+               <p>(e) Convention made between the <orgName key="org_107004">prior and convent of Wallingford</orgName> of the one part
                   and <persName><forename>Roger</forename> de <surname>Hamsted</surname></persName> of the other, 
                   A.D. <date when="1260">1260</date>, in the feast of the Assumption B.V.M.; the said prior and convent 
                   grant licence to place a gable towards the east of his house which is situated between the land of
                   <persName><forename>Walter</forename> <surname>Guthlak</surname></persName> on the one part and the cemetery
                   wall of the priory on the other; for this concession the said Roger gave half a mark and an annual rent of 1d.</p>
                <p> (f) <persName><forename>Roger</forename> de <surname>Hamsted</surname></persName> quit-claims to 
-                  the <orgName>prior and convent of Wallingford</orgName> all his right in the messuage described as above (e).
+                  the <orgName key="org_107004">prior and convent of Wallingford</orgName> all his right in the messuage described as above (e).
                </p>
                <p>(g) <persName><forename>Alexander</forename> <surname>Pernele</surname></persName>, son of
-                  <persName><forename>William</forename> the clerk of <placeName role="person">Wallingford</placeName></persName>, 
+                  <persName><forename>William</forename> the clerk of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
                   grants to <persName><forename>Ralph</forename> de <surname>Watlynton</surname>, the prior</persName>, and
-                  <orgName>monks of Wallingford</orgName> in frankalmoigne one tenement in
-                  the parish of <orgName>Holy Trinity</orgName>, between the tenement sometime
+                  <orgName key="org_107004">monks of Wallingford</orgName> in frankalmoigne one tenement in
+                  the parish of <placeName key="place_107082">Holy Trinity</placeName>, between the tenement sometime
                   <persName><forename>Thomas</forename> the <surname>carter</surname></persName>'s and
                   the tenement of the prior which was <persName><forename>William</forename> <surname>Prat</surname></persName>'s.
                (Ralph de Watlynton, prior <date when="1270" precision="low">c. 1270</date>)</p>
                <p> (h) <persName><forename>Nicholas</forename>, <surname type="patronymic">son of Turold</surname></persName>,
-                  grants to the <orgName>church and monks of Wallingford</orgName> in frankalmoigne the messuage he bought of
+                  grants to the <orgName key="org_107004">church and monks of Wallingford</orgName> in frankalmoigne the messuage he bought of
                   <persName><forename>Guthmund</forename> the <surname>tailor ('parmentario')</surname></persName>,
-                  saving a rent of 7 1/2d., which annually is paid to the secretary of the lord of <placeName type="manor" role="lord">Mungewell</placeName>. </p>
+                  saving a rent of 7 1/2d., which annually is paid to the secretary of the lord of <placeName type="manor" role="lord" key="place_107007">Mungewell</placeName>. </p>
                <p> (i) <persName><forename>William</forename> de la <surname>Wyk</surname></persName> grants to the 
-                  <orgName>prior and convent of Wallingford</orgName> the whole of the tithe of his lordship of
-                  <placeName>Wyk</placeName>; also 2s. annual rent from the tenement of
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> the whole of the tithe of his lordship of
+                  <placeName key="place_107080">Wyk</placeName>; also 2s. annual rent from the tenement of
                   <persName><forename>Gilbert</forename> <surname>Baile</surname></persName> in frankalmoigne. </p>
                <p> <pb n="11"/> (k) <persName><forename>William</forename> <surname>Paen</surname></persName> grants to the 
-                  <orgName>prior and convent of Wallingford</orgName> the whole of the tithe of his lordship of
-                  <placeName>Wyk</placeName>. </p>
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> the whole of the tithe of his lordship of
+                  <placeName key="place_107080">Wyk</placeName>. </p>
                <p> (l) <persName><forename>William</forename> de <surname>Drueval</surname></persName>, with the consent 
-                  of his sons, gave one hide of land in <placeName>Goring</placeName> to the 
-                  <orgName>monks of Wallingford</orgName> for their care of him while he was ill, and
+                  of his sons, gave one hide of land in <placeName key="place_107032">Goring</placeName> to the 
+                  <orgName key="org_107004">monks of Wallingford</orgName> for their care of him while he was ill, and
                   likewise he gave to them Tedric the younger with one virgate of land, his sons
                   and belongings; of this hide the virgates are, one held by Tedric the younger,
                   another by Hereward and Sa... his brother, a third by Godric, Swan, and
@@ -1074,36 +1072,36 @@
                   hide which she held in Goring free from all secular service.</p>
                <p> (m) <persName><forename>Thomas</forename> de <surname>Drueval</surname></persName> confirms the donation which
                   <persName><forename>William</forename> de <surname>Drueval</surname></persName> his uncle
-                  gave to the <orgName>monks of Wallingford</orgName>, namely one hide of land with one acre of meadow
-                  in <placeName>Goring</placeName>. </p>
+                  gave to the <orgName key="org_107004">monks of Wallingford</orgName>, namely one hide of land with one acre of meadow
+                  in <placeName key="place_107032">Goring</placeName>. </p>
                <p>(n) <persName><forename>Rualend</forename>, the prior</persName>, and 
-                  <orgName>convent of the Holy Trinity, Wallingford</orgName>, have granted
-                  that hide of land which they hold in <placeName>Goring</placeName> to roof the 
-                  <orgName>church of the Holy Trinity</orgName>
+                  <orgName key="org_107004">convent of the Holy Trinity, Wallingford</orgName>, have granted
+                  that hide of land which they hold in <placeName key="place_107032">Goring</placeName> to roof the 
+                  <orgName key="org_107004">church of the Holy Trinity</orgName>
                   and to supply whatever else is necessary. The secretary, shall on the feast of St.
                   John 'ante port. Lat.' feed the brethren with bread, wine, and fish.</p>
                <p> (o) Convention made between <persName><forename>Gregory</forename>, the prior</persName>, and the 
-                  <orgName>convent of Wallingford</orgName> of the one part, and 
-                  <persName>lady <forename>Sarah</forename> the prioress</persName> and <orgName>convent of Goring</orgName> of
-                   the other part, by which the said prior and convent grant one virgate of land in <placeName>Goring</placeName>, 
+                  <orgName key="org_107004">convent of Wallingford</orgName> of the one part, and 
+                  <persName>lady <forename>Sarah</forename> the prioress</persName> and <orgName key="org_107003">convent of Goring</orgName> of
+                   the other part, by which the said prior and convent grant one virgate of land in <placeName key="place_107032">Goring</placeName>, 
                   called '<placeName type="minor">Cunstables land</placeName>,' to the said prioress and convent for an
                   annual rent of 5s. (See MS. Ch. Berks. 51.) 
-                  Dated at <placeName role="date">Wallingford</placeName> on the morrow of the Conception B.V.M., <date when="1284">1284</date>. </p>
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> on the morrow of the Conception B.V.M., <date when="1284">1284</date>. </p>
                <p> (p) <persName><forename>William</forename> de <surname>Rudpult</surname></persName> grants to the
-                  <orgName>prior and convent of Wallingford</orgName> a rent of 8d., which 
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> a rent of 8d., which 
                   <persName><forename>Wimund</forename> de <surname>Swincumbe</surname></persName> annually paid for 4 acres 
                   of land and one of wood above <placeName type="minor">Wikam</placeName>, which is called 
                   <placeName type="minor">Wodecroft</placeName>.</p>
                <p> (q) <persName><forename>Lucy</forename> de <surname>Verney</surname></persName> is bound to pay to the
-                  <orgName>prior and convent of Wallingford</orgName> annually 8s. for one tenement and two virgates of land
-                  in <placeName>Mapledurham</placeName>, of which virgates 
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> annually 8s. for one tenement and two virgates of land
+                  in <placeName key="place_107043">Mapledurham</placeName>, of which virgates 
                   <persName><forename>Robert</forename> le <surname>Frankeleyn</surname></persName> formerly held one and
                   <persName><forename>William</forename> <surname>Frenche</surname></persName> ... the
                   other, which said tenement and two virgates 
-                  <persName>sir <forename>John</forename> of <placeName role="person">Mapledurham Chausey</placeName>, kt.</persName>,
+                  <persName>sir <forename>John</forename> of <placeName role="person" key="place_107043">Mapledurham Chausey</placeName>, kt.</persName>,
                   had from the prior for the said rent of 8s. </p>
                <p>(r) <persName><forename>Walter</forename> de <surname>Chauseye</surname></persName> grants to the 
-                  <orgName>church of Wallingford</orgName> one acre of land in <placeName>Mapledurham</placeName>, namely, 
+                  <orgName key="org_107004">church of Wallingford</orgName> one acre of land in <placeName key="place_107043">Mapledurham</placeName>, namely, 
                   that which is called '<placeName type="minor">havlvesaker</placeName>,' and with this acre 10
                   sticks of eels or 2s. annually, for the souls of his father, mother, and himself.
                   (See MS. Ch. Berks. 52.) </p>
@@ -1190,31 +1188,31 @@
                   <persName nymRef="Leytfote"><forename>Joan</forename> his wife</persName> remit all right of action 
                   for waste for a tenement which is held by <persName><forename>Alice</forename> <surname>Folyot</surname></persName> 
                   for her life, and which descends to the said William and Joan after her death. 
-                  Dated at <placeName role="date">Wallingford</placeName> the Thursday next
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Thursday next
                   after the feast of St. Barnabas, <date>45 Ed. III</date>. 
-                  Witness <persName><forename>Rich.</forename> <surname>Atefelde</surname>, then mayor of <placeName role="mayor">Wallingford</placeName></persName>. 
+                  Witness <persName><forename>Rich.</forename> <surname>Atefelde</surname>, then mayor of <placeName role="mayor" key="place_107073">Wallingford</placeName></persName>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 114</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
-                  <placeName>ERLEYA <!--(i.e. Hurley)--></placeName>. Judgment given by the prior of 
-                  <orgName role="prior" key="org_100014">Barnewell</orgName> and the chancellor of <placeName type="diocese" role="chancellor">Canterbury</placeName>
+                  <placeName key="place_107030">ERLEYA <!--(i.e. Hurley)--></placeName>. Judgment given by the prior of 
+                  <orgName key="org_100014" role="prior">Barnewell</orgName> and the chancellor of <placeName type="diocese" role="chancellor" key="place_104006">Canterbury</placeName>
                   in a cause delegated by the pope to them to hear between
-                  the <orgName>prior and convent of Wallingford</orgName> and <persName>sir <forename>Henry</forename> de <surname>Erleya</surname>, kt.</persName>, 
-                  and H. his chaplain, concerning the right to the tithes of <placeName>Erleya</placeName>; heard in the great
-                  church of <placeName role="date">Wallingford</placeName>, the Thursday next after the feast of the translation
+                  the <orgName key="org_107004">prior and convent of Wallingford</orgName> and <persName>sir <forename>Henry</forename> de <surname>Erleya</surname>, kt.</persName>, 
+                  and H. his chaplain, concerning the right to the tithes of <placeName key="place_107030">Erleya</placeName>; heard in the great
+                  church of <placeName role="date" key="place_107073">Wallingford</placeName>, the Thursday next after the feast of the translation
                   of St. Thomas, <date>20 Hen. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 17</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <placeName>GARSINGTON</placeName>. Indenture by which <persName><forename>William</forename>, the prior</persName>, 
-                  and <orgName>convent of Wallingford</orgName>, in consideration of the payment of certain sums of money
-                  and an annual rent by <persName><forename>Robert</forename> <surname>Dalton</surname>, parson of <placeName role="person">Garsingdon</placeName></persName>, 
+               <p> <placeName key="place_107031">GARSINGTON</placeName>. Indenture by which <persName><forename>William</forename>, the prior</persName>, 
+                  and <orgName key="org_107004">convent of Wallingford</orgName>, in consideration of the payment of certain sums of money
+                  and an annual rent by <persName><forename>Robert</forename> <surname>Dalton</surname>, parson of <placeName role="person" key="place_107031">Garsingdon</placeName></persName>, 
                   covenant not to prosecute or recover upon a judgment obtained in the King's court against the said
                   <persName><forename>Robert</forename> <surname>Dalton</surname></persName> for £105. 
-                  Dated at <placeName role="date">Wallingford</placeName>, 12 Sept., <date>43 Ed. III</date>.
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName>, 12 Sept., <date>43 Ed. III</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 109</bibl>. </p>
             </div>
             
@@ -1236,11 +1234,11 @@
             </div>-->
             
             <div type="charter">
-               <p> <placeName>HENDRED</placeName> (East). Indenture made 8th August, <date>37 Hen. VI</date>, by which
+               <p> <placeName key="place_107029">HENDRED</placeName> (East). Indenture made 8th August, <date>37 Hen. VI</date>, by which
                   <persName><forename>John</forename> <surname>Banbough</surname>, the prior</persName>, and 
-                  <orgName>convent of Wallingford</orgName> demise to 
-                  <persName><forename>Thomas</forename> <surname>Fynemore</surname> of <placeName role="person">East Henred</placeName>, husbandman</persName>,
-                  their tithes of <placeName>East Henred</placeName> for 30 years at an annual rent of £10 13s. 4d. 
+                  <orgName key="org_107004">convent of Wallingford</orgName> demise to 
+                  <persName><forename>Thomas</forename> <surname>Fynemore</surname> of <placeName role="person" key="place_107029">East Henred</placeName>, husbandman</persName>,
+                  their tithes of <placeName key="place_107029">East Henred</placeName> for 30 years at an annual rent of £10 13s. 4d. 
                   <bibl type="shelfmark">MS. Ch. Berks. 141</bibl>. </p>
             </div>
             
@@ -1268,44 +1266,44 @@
             
             <div type="charter">
                <p> <pb n="13"/>
-                  <placeName>MORTON (South)</placeName>. The <orgName>prior and convent of Wallingford</orgName>
+                  <placeName key="place_107049">MORTON (South)</placeName>. The <orgName key="org_107004">prior and convent of Wallingford</orgName>
                   declare that they have had peaceable possession of the tithe of a mill of the 
                   <persName>lady <forename>Margaret</forename> de <surname>Saundervill</surname></persName> in 
-                  <placeName>South Morton</placeName>, and that a certain annual rent of 8d. is
+                  <placeName key="place_107049">South Morton</placeName>, and that a certain annual rent of 8d. is
                   owing of which they possess no sufficient evidences, the prior and convent
                   quit-claim to the lady Margaret the said rent of 8d. and the tithe of the said mill.
-                  Dated at <placeName role="date">Wallingford</placeName> in the feast of the Invention of the Cross, <date>5 Ric. II</date>. 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> in the feast of the Invention of the Cross, <date>5 Ric. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 123</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <placeName>MOULESFORD</placeName>. Mandate of <persName>K. Hen. I</persName> addressed to
+               <p> <placeName key="place_107050">MOULESFORD</placeName>. Mandate of <persName>K. Hen. I</persName> addressed to
                   <persName><forename>Hugh</forename> de <surname>Bocheland</surname></persName> commanding him to allow the
-                  <orgName>monks of Wallingford</orgName> to have their tithes of <placeName>Moulesford</placeName>, and of the
+                  <orgName key="org_107004">monks of Wallingford</orgName> to have their tithes of <placeName key="place_107050">Moulesford</placeName>, and of the
                   land of <persName><forename>Henry</forename> the <surname>larderer</surname></persName>, as they held them in
                   the time of K. William his brother. 
-                  [Tested. <persName><forename>RANULPH</forename> the <surname>chancellor</surname> at <placeName role="person">Northampton</placeName></persName>.] 
+                  [Tested. <persName><forename>RANULPH</forename> the <surname>chancellor</surname> at <placeName role="person" key="place_107054">Northampton</placeName></persName>.] 
                   (<date when="1110" precision="low">c. 1110</date>)
                   <bibl type="shelfmark">MS. Ch. Berks. 1</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <persName><forename>Agnes</forename>, daughter of <persName><forename>Robert</forename> the <surname>miller</surname> of <placeName role="person">Moulesford</placeName></persName></persName>, 
+               <p> <persName><forename>Agnes</forename>, daughter of <persName><forename>Robert</forename> the <surname>miller</surname> of <placeName role="person" key="place_107050">Moulesford</placeName></persName></persName>, 
                   grants to <persName><forename>Richard</forename> her brother</persName> a messuage with a curtilage in
-                  <placeName>Moulesford</placeName>, paying annually to the chief lord of Moulesford 6d. and to Agnes one clove;
+                  <placeName key="place_107050">Moulesford</placeName>, paying annually to the chief lord of Moulesford 6d. and to Agnes one clove;
                   for this grant the said Richard gave to Agnes 20s. 
                   (<date when="1260" precision="low">c. 1260</date>.)
                   <bibl type="shelfmark">MS. Ch. Berks. 28</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <placeName>NEWNHAM-MURREN</placeName>. 
-                  <persName><forename>John</forename> <surname>Gredere</surname> of <placeName role="person">Wallingford</placeName></persName> 
+               <p> <placeName key="place_107053">NEWNHAM-MURREN</placeName>. 
+                  <persName><forename>John</forename> <surname>Gredere</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName> 
                   grants to <persName><forename>Thomas</forename> de <surname>Radelee</surname></persName> and 
                   <persName nymRef="Radelee"><forename>Alice</forename> his wife</persName> and 
                   <persName nymRef="Radelee"><forename>John</forename> their son</persName> one acre in two pieces of land
-                  in the fields of <placeName>Nywenham near Craumerssche</placeName> in '<placeName type="minor">Merssche forlang</placeName>'
-                  near land of <orgName>Hospital of B. M. Magd.</orgName> [Mutilated.]
+                  in the fields of <placeName key="place_107053">Nywenham near Craumerssche</placeName> in '<placeName type="minor">Merssche forlang</placeName>'
+                  near land of <orgName key="org_107006">Hospital of B. M. Magd.</orgName> [Mutilated.]
                   Dated at ... Easter Sunday ... of <date>King Edward the son of Henry</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 49</bibl></p>
             </div>
@@ -1313,9 +1311,9 @@
             <div type="charter">
                <p> <persName nymRef="Radele"><forename>Alice</forename></persName>, who was the wife of
                   <persName><forename>Thomas</forename> de <surname>Radele</surname></persName>, quit-claims to
-                  <persName><forename>John</forename> le <surname>Pa...</surname> of <placeName role="person">Abingdon</placeName></persName> 
-                  all her right in two pieces of arable land lying in the fields of <placeName>Nywenham near Crowmersh</placeName>. 
-                  Dated at <placeName role="date">Wallingford</placeName> the Friday in the feast of St. Bennet the abbot, <date>11 Ed. III</date>. 
+                  <persName><forename>John</forename> le <surname>Pa...</surname> of <placeName role="person" key="place_107015">Abingdon</placeName></persName> 
+                  all her right in two pieces of arable land lying in the fields of <placeName key="place_107053">Nywenham near Crowmersh</placeName>. 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Friday in the feast of St. Bennet the abbot, <date>11 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 84</bibl>. </p>
             </div>
             
@@ -1339,11 +1337,11 @@
             </div>-->
             
             <div type="charter">
-               <p> <placeName>OXFORD</placeName>. Fine levied at <placeName role="date">Westminster</placeName>, Easter ...
+               <p> <placeName key="place_105449">OXFORD</placeName>. Fine levied at <placeName role="date" key="place_100060">Westminster</placeName>, Easter ...
                   between Henry son of William le ... and Richard his brother of one part, and 
                   <persName><forename>Eustace</forename> de <surname>Wallingford</surname></persName> and
                   <persName nymRef="Wallingford"><forename>Emma</forename> his wife</persName> of the other, concerning a
-                  messuage in <placeName>Oxford</placeName>. (<date when="1300" precision="low">c. 1300</date>.)
+                  messuage in <placeName key="place_105449">Oxford</placeName>. (<date when="1300" precision="low">c. 1300</date>.)
                   [Partly obliterated.] 
                   <bibl type="shelfmark">MS. Ch. Berks. 48</bibl>. </p>
             </div>
@@ -1390,35 +1388,35 @@
             </div>-->
             
             <div type="charter">
-               <p> <placeName>SCHEPEHAL</placeName>. <persName><forename>Stephen</forename> de <surname>Wytteham</surname>, the prior</persName>,
-                  and <orgName>convent of Wallingford</orgName> grant to 
-                  <persName><forename>William</forename> called <surname>Gerneys</surname> of <placeName role="person">Hertforde</placeName></persName> 
+               <p> <placeName key="place_107061">SCHEPEHAL</placeName>. <persName><forename>Stephen</forename> de <surname>Wytteham</surname>, the prior</persName>,
+                  and <orgName key="org_107004">convent of Wallingford</orgName> grant to 
+                  <persName><forename>William</forename> called <surname>Gerneys</surname> of <placeName role="person" key="place_107035">Hertforde</placeName></persName> 
                   and <persName nymRef="Gerneys"><forename>Richard</forename></persName> <pb n="14"/> his eldest son all 
-                  tithes belonging to their church of <placeName>Schepehal</placeName>, etc., for three
+                  tithes belonging to their church of <placeName key="place_107061">Schepehal</placeName>, etc., for three
                   years for a payment of 24 marks of silver. 
-                  Dated at <placeName role="date">Wallingford</placeName> the Wednesday next after the Nativity of the Virgin,
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Wednesday next after the Nativity of the Virgin,
                   <date>9 Ed. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 57</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <placeName>SHABBINGTON</placeName>, <placeName>ASTON ROWANT</placeName>,
-                  <placeName>STOKENCHURCH</placeName>, and <placeName>GARSINGTON</placeName>.
-                  <persName><forename>Walter</forename>, archbishop of <placeName type="diocese" role="archbishop">Canterbury</placeName></persName>, 
-                  confirms to the <orgName>prior and convent of Wallingford</orgName> the appropriation of the churches of
-                  <placeName>Shobyndon</placeName> and <placeName>Aston Rowant</placeName> with the chapel of
-                  <placeName>Stokenchurch</placeName>, together with a pension of 100s. from <placeName>Garsington</placeName>
+               <p> <placeName key="place_107063">SHABBINGTON</placeName>, <placeName key="place_107017">ASTON ROWANT</placeName>,
+                  <placeName key="place_107069">STOKENCHURCH</placeName>, and <placeName key="place_107031">GARSINGTON</placeName>.
+                  <persName><forename>Walter</forename>, archbishop of <placeName type="diocese" role="archbishop" key="place_104006">Canterbury</placeName></persName>, 
+                  confirms to the <orgName key="org_107004">prior and convent of Wallingford</orgName> the appropriation of the churches of
+                  <placeName key="place_107063">Shobyndon</placeName> and <placeName key="place_107017">Aston Rowant</placeName> with the chapel of
+                  <placeName key="place_107069">Stokenchurch</placeName>, together with a pension of 100s. from <placeName key="place_107031">Garsington</placeName>
                   church, etc., with certain tithes therein named. 
-                  Dated at <placeName role="date">Missenden</placeName>, the Ides of April, <date when="1320">1320</date>. 
+                  Dated at <placeName role="date" key="place_107046">Missenden</placeName>, the Ides of April, <date when="1320">1320</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 60</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <placeName>SHABBINGTON</placeName>. <persName><forename>Anthony</forename> <surname>Zowche</surname>, the prior</persName>, 
-                  and <orgName>convent of Wallingford</orgName> demise to
-                  <persName><forename>Thomas</forename> <surname>Padual</surname> of <placeName role="person">Crendon</placeName>, yeoman</persName>, 
-                  the whole of their rectory of <placeName>Shobyngdon</placeName> for 20 years at an annual rent of 7 marks.
-                  Dated at <placeName role="date">Wallingford</placeName>, 5th May, <date when="1485">1485</date>.
+               <p> <placeName key="place_107063">SHABBINGTON</placeName>. <persName><forename>Anthony</forename> <surname>Zowche</surname>, the prior</persName>, 
+                  and <orgName key="org_107004">convent of Wallingford</orgName> demise to
+                  <persName><forename>Thomas</forename> <surname>Padual</surname> of <placeName role="person" key="place_107028">Crendon</placeName>, yeoman</persName>, 
+                  the whole of their rectory of <placeName key="place_107063">Shobyngdon</placeName> for 20 years at an annual rent of 7 marks.
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName>, 5th May, <date when="1485">1485</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 149</bibl>. </p>
             </div>
             
@@ -1442,47 +1440,47 @@
             
             <div type="charter">
                <p> <persName><forename>William</forename> <surname>Arnizat</surname></persName>, son and heir of
-                  <persName><forename>William</forename> <surname>Arnizat</surname> of <placeName role="person">Wallingford</placeName></persName>, 
-                  quit-claims to <persName><forename>Henry</forename> <surname>Maundeville</surname> of <placeName role="person">Midelstoke</placeName></persName> 
-                  all right in 2 acres of land lying in the fields of <placeName>Sotwell</placeName>. 
-                  Dated at <placeName role="date">Wallingford</placeName> in the feast of the apostles Simon and Jude,
+                  <persName><forename>William</forename> <surname>Arnizat</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
+                  quit-claims to <persName><forename>Henry</forename> <surname>Maundeville</surname> of <placeName role="person" key="place_107044">Midelstoke</placeName></persName> 
+                  all right in 2 acres of land lying in the fields of <placeName key="place_107066">Sotwell</placeName>. 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> in the feast of the apostles Simon and Jude,
                   <date>5 Ric. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 124</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> Ralph ... grants to ... land in <placeName>Sottewell</placeName>. [A fragment.] 
+               <p> Ralph ... grants to ... land in <placeName key="place_107066">Sottewell</placeName>. [A fragment.] 
                   Dated <date>15 Ric. II</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 127</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <placeName>STOKE (North)</placeName>. Convention dated the Sunday after the feast
+               <p> <placeName key="place_107067">STOKE (North)</placeName>. Convention dated the Sunday after the feast
                   of St. Matthew the apostle, <date>3 Ed. I</date>, by which <persName><forename>Ralph</forename>, the prior</persName>,
-                  and <orgName>convent of Wallingford</orgName> grant to farm to 
+                  and <orgName key="org_107004">convent of Wallingford</orgName> grant to farm to 
                   <persName nymRef="Bornfeld"><forename>John</forename></persName> son of 
                   <persName><forename>John</forename> de <surname>Bornfeld</surname></persName> the whole of
-                  the land in the village of <placeName>North Stoke</placeName> which they have by reason of the custody of
+                  the land in the village of <placeName key="place_107067">North Stoke</placeName> which they have by reason of the custody of
                   the land and heirship of <persName><forename>Roger</forename> <surname>Croc</surname></persName> to hold until
                   the said Roger is of full age, paying annually 23s. 
                   <bibl type="shelfmark">MS. Ch. Berks. 46</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <placeName>STOKENCHURCH</placeName>. Letter of <persName><forename>William</forename>, bishop of Lincoln</persName>, 
-                  concerning a convention made between ... and the parishioners of <placeName>Stokenchurch</placeName> of the
-                  other part about a cemetery at <placeName>Stokenchurch</placeName>.
+               <p> <placeName key="place_107069">STOKENCHURCH</placeName>. Letter of <persName><forename>William</forename>, bishop of Lincoln</persName>, 
+                  concerning a convention made between ... and the parishioners of <placeName key="place_107069">Stokenchurch</placeName> of the
+                  other part about a cemetery at <placeName key="place_107069">Stokenchurch</placeName>.
                   (<date when="1206" precision="low">c. 1205</date>.) [A fragment.] 
                   <bibl type="shelfmark">MS. Ch. Berks. 36</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <placeName>WALLINGFORD</placeName>, <placeName>HENDRED</placeName>, <placeName>MOULSFORD</placeName>, <placeName>SOTTWELL</placeName>, etc. 
-                  Charter of <persName><forename>Joceline</forename>, bishop of <placeName type="diocese" role="bishop">Salisbury</placeName></persName>,
-                  reciting and confirming to the <orgName>priory of Wallingford</orgName> the donation of the churches of the
-                  <orgName>Holy Trinity</orgName>, <placeName>St. John</placeName>, <placeName>St. Martin</placeName>, and
-                  <placeName>St. Mary, in Wallingford</placeName>; the church of <placeName>Hendred</placeName>, two parts of the
-                  tithes of <placeName>Moulsford</placeName> of the gift of 
+               <p> <placeName key="place_107073">WALLINGFORD</placeName>, <placeName key="place_107029">HENDRED</placeName>, <placeName key="place_107050">MOULSFORD</placeName>, <placeName key="place_107066">SOTTWELL</placeName>, etc. 
+                  Charter of <persName><forename>Joceline</forename>, bishop of <placeName type="diocese" role="bishop" key="place_107002">Salisbury</placeName></persName>,
+                  reciting and confirming to the <orgName key="org_107004">priory of Wallingford</orgName> the donation of the churches of the
+                  <orgName key="org_107004">Holy Trinity</orgName>, <placeName key="place_107050">St. John</placeName>, <placeName key="place_107075">St. Martin</placeName>, and
+                  <placeName key="place_107074">St. Mary, in Wallingford</placeName>; the church of <placeName key="place_107029">Hendred</placeName>, two parts of the
+                  tithes of <placeName key="place_107050">Moulsford</placeName> of the gift of 
                   <persName><forename>Emma</forename> <surname>Chausi</surname></persName>, the tithes of
                   <persName>Chersevelle</persName>, <persName>Dunituna</persName>, <persName>Erleia</persName>,
                   <persName>Morton</persName>, and the lordship of <persName>Sotwell</persName>. 
@@ -1499,7 +1497,7 @@
             
             <div type="charter">
                <p> Charter by which ... with the assent of <persName><forename>Roger</forename> <surname>Mauduit</surname></persName>
-                  <pb n="15"/> her husband and ... confirms to the church of the <orgName>Holy Trinity, Wallingford</orgName>, 
+                  <pb n="15"/> her husband and ... confirms to the church of the <orgName key="org_107004">Holy Trinity, Wallingford</orgName>, 
                   a virgate of land which <persName><forename>Geoffrey</forename> the <surname type="patronymic">son of Sawy</surname></persName> holds. 
                   (<date when="1210" precision="low">c. 1210</date>.) [A fragment.] 
                   <bibl type="shelfmark">MS. Ch. Berks. 7</bibl>. </p>
@@ -1522,11 +1520,11 @@
             
             <div type="charter">
                <p> <persName><forename>Ralph</forename> de <surname>Watlington</surname>, formerly prior</persName>, with 
-                  the assent of <persName>R. abbot of <orgName role="abbot">St. Alban's</orgName></persName>,
+                  the assent of <persName>R. abbot of <orgName role="abbot" key="org_107011">St. Alban's</orgName></persName>,
                   and the unanimous consent of all his brethren, gives and assigns to the 
-                  <orgName>convent of Wallingford</orgName> the rents received from the abbot of 
-                  <orgName role="abbot">Reading</orgName> or the chamberlain of the
-                  same in recompense for certain land, and also other bequests in <placeName>Wallingford</placeName> and
+                  <orgName key="org_107004">convent of Wallingford</orgName> the rents received from the abbot of 
+                  <orgName role="abbot" key="org_107008">Reading</orgName> or the chamberlain of the
+                  same in recompense for certain land, and also other bequests in <placeName key="place_107073">Wallingford</placeName> and
                   elsewhere. (<date notBefore="1277" notAfter="1278" precision="low">c. 1270-78</date>.) [Mutilated.] 
                   <bibl type="shelfmark">MS. Ch. Berks. 15</bibl>. </p>
             </div>
@@ -1593,9 +1591,9 @@
             </div>-->
             
             <div type="charter">
-               <p> <persName><forename>Robert</forename>, the dean</persName>, and the <orgName>chapter of Salisbury</orgName>
-                  confirm the charter of <persName><forename>Robert</forename>, bishop of <placeName type="diocese" role="bishop">Salisbury</placeName></persName>, 
-                  to the priory of the <orgName>Holy Trinity, Wallingford</orgName>, concerning
+               <p> <persName><forename>Robert</forename>, the dean</persName>, and the <orgName key="org_107002">chapter of Salisbury</orgName>
+                  confirm the charter of <persName><forename>Robert</forename>, bishop of <placeName type="diocese" role="bishop" key="place_107002">Salisbury</placeName></persName>, 
+                  to the priory of the <orgName key="org_107004">Holy Trinity, Wallingford</orgName>, concerning
                   the churches, tithes, and other gifts made to that house. 
                   [Printed in the <title>Monasticon</title>, vol. iii. p. 280.] 
                   Dated pridie Ides April, <date when="1243">1243</date>. 
@@ -1603,19 +1601,19 @@
             </div>
             
             <div type="charter">
-               <p> <persName nymRef="Guremund"><forename>Richard</forename>, the son of <persName><forename>Simeon</forename> <surname>Guremund</surname> of <placeName role="person">Wallingford</placeName></persName></persName>, 
+               <p> <persName nymRef="Guremund"><forename>Richard</forename>, the son of <persName><forename>Simeon</forename> <surname>Guremund</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName></persName>, 
                   grants to <persName><forename>William</forename> de <surname>Watlington</surname>, provost</persName>, 
                   for 6 marks, a tenement in a lane called AEdmundes Lane, with a piece of curtilage in the parish 
-                  of <placeName>St. Mary the Greater, Wallingford</placeName>; also a tenement in the parish of 
-                  <placeName>St. Leonard</placeName>.
+                  of <placeName key="place_107074">St. Mary the Greater, Wallingford</placeName>; also a tenement in the parish of 
+                  <placeName key="place_107036">St. Leonard</placeName>.
                   (<date notBefore="1250" notAfter="1260" precision="low">c. 1250-60</date>.)
                   <bibl type="shelfmark">MS. Ch. Berks. 24</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> <persName><forename>Richard</forename> de <surname>Brithtewell</surname></persName> grants to the 
-                  <orgName>priory of Wallingford</orgName> in frankalmoigne a certain stone house in the parish of 
-                  <placeName>St. Mary</placeName> ...? 
+                  <orgName key="org_107004">priory of Wallingford</orgName> in frankalmoigne a certain stone house in the parish of 
+                  <placeName key="place_107074">St. Mary</placeName> ...? 
                   (<date when="1250" precision="low">c. 1250</date>.) [Mutilated.] 
                   <bibl type="shelfmark">MS. Ch. Berks. 25</bibl>. </p>
             </div>
@@ -1710,8 +1708,8 @@
             </div>-->
             
             <div type="charter">
-               <p> A declaration of <persName>E., archdeacon of <placeName role="archdeacon" type="archdeaconry">Berks.</placeName></persName>, 
-                  that a synod having been held in the church of the <orgName>priory of Wallingford</orgName> during the vacany
+               <p> A declaration of <persName>E., archdeacon of <placeName role="archdeacon" type="archdeaconry" key="place_107012">Berks.</placeName></persName>, 
+                  that a synod having been held in the church of the <orgName key="org_107004">priory of Wallingford</orgName> during the vacany
                   of the See of Salisbury, no claim shall hereafter be made, nor the liberties or privileges of the priory be
                   disturbed in consequence thereof. Dated in the vigil of the Conversion of St. Paul, 1246. 
                   <bibl type="shelfmark">MS. Ch. Berks. 32</bibl>. </p>
@@ -1719,23 +1717,23 @@
             
             <div type="charter">
                <p> Convention, dated <date>35 Hen. III</date>, made between
-                  <persName><forename>Geoffrey</forename> the prior of <orgName role="prior">Wallingford</orgName></persName>
+                  <persName><forename>Geoffrey</forename> the prior of <orgName role="prior" key="org_107004">Wallingford</orgName></persName>
                   and convent there and Isabel ... [A fragment.] 
                   <bibl type="shelfmark">MS. Ch. Berks. 33</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> Decision of <persName><forename>Walter</forename>, bishop of <placeName role="bishop" type="diocese">Salisbury</placeName></persName>, 
-                  with reference to the differences existing between the rector of <placeName role="rector">St. Leonard, Wallingford</placeName>,
-                  and <persName><forename>Ralph</forename>, master of the <orgName>hospital of St. John</orgName></persName>.
+               <p> Decision of <persName><forename>Walter</forename>, bishop of <placeName role="bishop" type="diocese" key="place_107002">Salisbury</placeName></persName>, 
+                  with reference to the differences existing between the rector of <placeName role="rector" key="place_107036">St. Leonard, Wallingford</placeName>,
+                  and <persName><forename>Ralph</forename>, master of the <orgName key="org_107010">hospital of St. John</orgName></persName>.
                   [Mutilated.] 
                   Dated 1st year of his pontificate, i.e. <date when="1263">1263</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 34</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <persName><forename>Isabella</forename> ... of <placeName role="person">Wallingford</placeName></persName>
-                  quit-claims to Peter de ... master and the <orgName>sisters and brethren of the hospital of St. John, Wallingford</orgName>, 
+               <p> <persName><forename>Isabella</forename> ... of <placeName role="person" key="place_107073">Wallingford</placeName></persName>
+                  quit-claims to Peter de ... master and the <orgName key="org_107010">sisters and brethren of the hospital of St. John, Wallingford</orgName>, 
                   her right in that tenement in which she was accustomed to dwell.
                   (<date when="1280" precision="low">c. 1280</date>.) 
                   <bibl type="shelfmark">MS. Ch. Berks. 35</bibl>. </p>
@@ -1765,8 +1763,8 @@
             </div>-->
             
             <div type="charter">
-               <p> Judgment in a suit in which the <orgName>prior and convent of Wallingford</orgName> are plaintiffs
-                  and <persName><forename>Ralph</forename> <surname>Canute</surname> of <placeName role="person">Redburne</placeName></persName> 
+               <p> Judgment in a suit in which the <orgName key="org_107004">prior and convent of Wallingford</orgName> are plaintiffs
+                  and <persName><forename>Ralph</forename> <surname>Canute</surname> of <placeName role="person" key="place_107057">Redburne</placeName></persName> 
                   defendant, commanding the said Ralph to give up certain property under a penalty of 20 marks.
                   (<date when="1260" precision="low">c. 1260</date>.) [Mutilated.] 
                   <bibl type="shelfmark">MS. Ch. Berks. 38</bibl>. </p>
@@ -1821,19 +1819,19 @@
             </div>-->
             
             <div type="charter">
-               <p> The <orgName>prior and convent of Wallingford</orgName> demise to ...
-                  <persName><surname>Barbor (Barbitonsori)</surname> of <placeName role="person">Wallingford</placeName></persName>, 
-                  one place with a selar or solar in the parish of <placeName>St. Mary the Greater, Wallingford</placeName>,
+               <p> The <orgName key="org_107004">prior and convent of Wallingford</orgName> demise to ...
+                  <persName><surname>Barbor (Barbitonsori)</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
+                  one place with a selar or solar in the parish of <placeName key="place_107074">St. Mary the Greater, Wallingford</placeName>,
                   for ... [Mutilated.] Dated <date when="1309">1309</date>. 
-                  Witness <persName><forename>John</forename> <surname>Maryot</surname>, then mayor of <placeName role="mayor">Wallingford</placeName></persName>. 
+                  Witness <persName><forename>John</forename> <surname>Maryot</surname>, then mayor of <placeName role="mayor" key="place_107073">Wallingford</placeName></persName>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 44</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Mutilated deed reciting differences between
-                  <persName><forename>William</forename> de <surname>Kirkeby</surname>, prior of <orgName role="prior">Wallingford</orgName></persName>, 
+                  <persName><forename>William</forename> de <surname>Kirkeby</surname>, prior of <orgName role="prior" key="org_107004">Wallingford</orgName></persName>, 
                   and <persName><forename>Henry</forename> de <surname>Horsyndon</surname>, rector</persName>, and the
-                  parishioners of the parish of <placeName>St. Mary the Greater, in Wallingford</placeName>. 
+                  parishioners of the parish of <placeName key="place_107074">St. Mary the Greater, in Wallingford</placeName>. 
                   (<date when="1280" precision="low">c. 1280</date>.) 
                   <bibl type="shelfmark">MS. Ch. Berks. 45</bibl>. </p>
             </div>
@@ -1942,14 +1940,14 @@
             <div type="charter">
                <p> <persName><forename>Richard</forename> de <surname>Chaddesleye</surname></persName> and
                   <persName><forename>Thomas</forename> de <surname>Knokyn</surname></persName> appointed by
-                  <persName>Walter, archbishop of <placeName role="archbishop" type="diocese">Canterbury</placeName></persName>,
-                  to visit the archdeaconry of <placeName role="archdeaconry">Oxford</placeName>, certify that they have examined
+                  <persName>Walter, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName></persName>,
+                  to visit the archdeaconry of <placeName role="archdeaconry" key="place_105449">Oxford</placeName>, certify that they have examined
                   the privileges, muniments and other <pb n="18"/> instruments of the 
-                  <orgName>prior and convent of Wallingford</orgName>, concerning the appropriation of the church of
-                  <placeName>Aston</placeName>, a pension of 100s. from the church of <placeName>Gersingdon</placeName>, 
-                  7s. from the church of <placeName>Chinnor</placeName>, a portion of the tithe of
-                  <placeName>Mongewell</placeName> estimated at one mark, and l0s. from <placeName>Tonfeld</placeName>.
-                  Dated at <placeName role="date">Bampton</placeName>, 9 Kal. April, <date when="1319">1319</date>.
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName>, concerning the appropriation of the church of
+                  <placeName key="place_107017">Aston</placeName>, a pension of 100s. from the church of <placeName key="place_107031">Gersingdon</placeName>, 
+                  7s. from the church of <placeName key="place_107026">Chinnor</placeName>, a portion of the tithe of
+                  <placeName key="place_107047">Mongewell</placeName> estimated at one mark, and l0s. from <placeName key="place_107072">Tonfeld</placeName>.
+                  Dated at <placeName role="date" key="place_107019">Bampton</placeName>, 9 Kal. April, <date when="1319">1319</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 59</bibl>. </p>
             </div>
             
@@ -1998,20 +1996,20 @@
             
             <div type="charter">
                <p> Convention by which <persName><forename>William</forename> <surname>Heron</surname>, the prior</persName>, 
-                  and <orgName>convent of Wallingford</orgName> demise to 
+                  and <orgName key="org_107004">convent of Wallingford</orgName> demise to 
                   <persName><forename>Richard</forename> le <surname>Maston</surname></persName> and 
                   <persName nymRef="Maston"><forename>Alice</forename> his wife</persName> the half of a tenement in the 
-                  parish of <orgName>Holy Trinity, Wallingford</orgName>, for their lives, paying annually 3s. 
-                  Dated at <placeName role="date">Wallingford</placeName> in the feast of the Nativity of St. John, 
+                  parish of <orgName key="org_107004">Holy Trinity, Wallingford</orgName>, for their lives, paying annually 3s. 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> in the feast of the Nativity of St. John, 
                   <date when="1328">1328</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 70</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Convention dated the Saturday in the feast of St. Hilary, <date>9 Ed. III</date>,
-                  by which the <orgName>prior and convent of Wallingford</orgName> demise to 
-                  <persName><forename>John</forename> <surname>Bate</surname>, junior, of <placeName role="person">Milton</placeName></persName>, 
-                  one toft lying in the parish of <orgName>Holy Trinity, Wallingford</orgName>, for twenty
+                  by which the <orgName key="org_107004">prior and convent of Wallingford</orgName> demise to 
+                  <persName><forename>John</forename> <surname>Bate</surname>, junior, of <placeName role="person" key="place_107045">Milton</placeName></persName>, 
+                  one toft lying in the parish of <orgName key="org_107004">Holy Trinity, Wallingford</orgName>, for twenty
                   years, paying annually for the same 2s. [Mutilated.] 
                   <bibl type="shelfmark">MS. Ch. Berks. 79</bibl>. </p>
             </div>
@@ -2040,9 +2038,9 @@
             <div type="charter">
                <p> <persName><forename>John</forename> de <surname>Touke</surname></persName> grants to 
                   <persName><forename>William</forename> <surname>Heron</surname>, the prior</persName>, and 
-                  <orgName>convent of Wallingford</orgName>, all his lands in <placeName>Wallingford</placeName> which he 
+                  <orgName key="org_107004">convent of Wallingford</orgName>, all his lands in <placeName key="place_107073">Wallingford</placeName> which he 
                   had by the gift of <persName><forename>John</forename>, earl of Cornwall</persName>. Dated
-                  at <placeName role="date">Clopcote</placeName>, 6 March, <date>10 Ed. III</date>. 
+                  at <placeName role="date" key="place_107027">Clopcote</placeName>, 6 March, <date>10 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 81</bibl>.</p>
             </div>
             
@@ -2085,87 +2083,87 @@
             </div>-->
             
             <div type="charter">
-               <p> <pb n="19"/> <persName><forename>Roger</forename> <surname>Gerard</surname> of <placeName role="person">Wallingford</placeName></persName> 
-                  grants to .... Tylewyne a tenement in <placeName>Wallingford</placeName>. 
-                  <persName><forename>John</forename> <surname>Mariot</surname>, then mayor of <placeName role="mayor">Wallingford</placeName></persName>. 
-                  Dated at <placeName role="date">Wallingford</placeName> after the feast of the Circumcision.
+               <p> <pb n="19"/> <persName><forename>Roger</forename> <surname>Gerard</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName> 
+                  grants to .... Tylewyne a tenement in <placeName key="place_107073">Wallingford</placeName>. 
+                  <persName><forename>John</forename> <surname>Mariot</surname>, then mayor of <placeName role="mayor" key="place_107073">Wallingford</placeName></persName>. 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> after the feast of the Circumcision.
                   <date>16 Ed. III</date>. [Mutilated.]
                   <bibl type="shelfmark">MS. Ch. Berks. 87</bibl>.</p>
             </div>
              
             <div type="charter">
-               <p> <persName><forename>William</forename> <surname>Heron</surname>, prior of <orgName role="prior">Wallingford</orgName></persName>, 
+               <p> <persName><forename>William</forename> <surname>Heron</surname>, prior of <orgName role="prior" key="org_107004">Wallingford</orgName></persName>, 
                   grants to <persName><forename>William</forename> <surname>Basing</surname>, tailor</persName>, a
-                  tenement with a curtilage within the borough of <placeName>Wallingford</placeName>, for four years, at an
-                  annual rent of 2s. 6d. Dated at <placeName role="date">Wallingford</placeName> the Sunday next after 
+                  tenement with a curtilage within the borough of <placeName key="place_107073">Wallingford</placeName>, for four years, at an
+                  annual rent of 2s. 6d. Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Sunday next after 
                   the feast of the Conception of the B.V.M., <date>20 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 91</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <persName><forename>Walter</forename> <surname>Pynfold</surname> of <placeName role="person">Abingdon</placeName></persName> 
+               <p> <persName><forename>Walter</forename> <surname>Pynfold</surname> of <placeName role="person" key="place_107015">Abingdon</placeName></persName> 
                   grants to <persName><forename>Thomas</forename> <surname>Leper</surname></persName> and 
-                  <persName nymRef="Leper"><forename>Agnes</forename> his wife of <placeName role="person">Morton</placeName></persName>, 
-                  a messuage in the parish of <placeName>St. Mary the Greater, Wallingford</placeName> ... <date>Ed. III</date>.
+                  <persName nymRef="Leper"><forename>Agnes</forename> his wife of <placeName role="person" key="place_107048">Morton</placeName></persName>, 
+                  a messuage in the parish of <placeName key="place_107074">St. Mary the Greater, Wallingford</placeName> ... <date>Ed. III</date>.
                   [Mutilated.]
                   <bibl type="shelfmark">MS. Ch. Berks. 94</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> A certificate of <persName><forename>John</forename> de <surname>Wyly</surname>, rector of <placeName role="rector">Semelegh, Salisbury diocese</placeName>, and commissary of the bishop of <placeName role="person">Salisbury</placeName></persName>, 
-                  that he has audited the account of <persName><forename>Richard</forename> <surname>Knight</surname>, sacrist of the priory of <orgName role="person">Wallingford</orgName></persName>, 
-                  who served the church of the <orgName>Holy Trinity, Wallingford</orgName>, during a vacancy from 
+               <p> A certificate of <persName><forename>John</forename> de <surname>Wyly</surname>, rector of <placeName role="rector" key="place_107062">Semelegh, Salisbury diocese</placeName>, and commissary of the bishop of <placeName role="person" key="place_107060">Salisbury</placeName></persName>, 
+                  that he has audited the account of <persName><forename>Richard</forename> <surname>Knight</surname>, sacrist of the priory of <orgName role="person" key="org_107004">Wallingford</orgName></persName>, 
+                  who served the church of the <orgName key="org_107004">Holy Trinity, Wallingford</orgName>, during a vacancy from 
                   Michaelmas 1349 to the date of this charter, and a sum of 25s. 6 3/4d. is due, which is allowed to him for
                   his services.
-                  Dated at <placeName role="date">Wallingford</placeName> in the vigil of All Saints, <date when="1355">1355</date>.
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> in the vigil of All Saints, <date when="1355">1355</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 95</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <persName><forename>John</forename> ... of <placeName role="person">Wallingford</placeName></persName> 
+               <p> <persName><forename>John</forename> ... of <placeName role="person" key="place_107073">Wallingford</placeName></persName> 
                   grants to <persName><forename>Walter</forename> atte <surname>Hegge</surname></persName> a tofte of land in the
-                  parish of <orgName>Holy Trinity, Wallingford</orgName>, lying near a lane called 
-                  <placeName type="street">Curteys lane</placeName>.
+                  parish of <orgName key="org_107004">Holy Trinity, Wallingford</orgName>, lying near a lane called 
+                  <placeName type="street" key="place_107014">Curteys lane</placeName>.
                   [Mutilated.] 
-                  Dated at <placeName role="date">Wallingford</placeName> the Monday next after the feast of ... <date>40 Ed. III</date>. 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Monday next after the feast of ... <date>40 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 104</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Charter [mutilated] of <persName>Edward, Prince of Wales</persName>, granting to the 
-                  <orgName>prior and convent of Wallingford</orgName> four pounds of land and rents of the fee ... &amp;c. 
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> four pounds of land and rents of the fee ... &amp;c. 
                   Dated <date>41st year of the king his father [Ed. III.]</date> 
                   <bibl type="shelfmark">MS. Ch. Berks. 106</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> <persName><forename>Edward</forename>, Prince of Wales</persName>, &amp;c., grants to the 
-                  <orgName>prior and convent of Wallingford</orgName> his licence to acquire 40 solidatas of land within his fee.
-                  Dated at <placeName role="date">Plympton</placeName>, 26 May ... <date>Ed. III</date>. 
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> his licence to acquire 40 solidatas of land within his fee.
+                  Dated at <placeName role="date" key="place_107056">Plympton</placeName>, 26 May ... <date>Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 108</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <persName><forename>William</forename> <surname>Reynaldyn</surname> of <placeName role="person">Wallingford</placeName></persName>, 
+               <p> <persName><forename>William</forename> <surname>Reynaldyn</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
                   after reciting that <persName><forename>Gregory</forename>, formerly the prior</persName>, and 
-                  <orgName>convent of Wallingford</orgName>, had granted to 
+                  <orgName key="org_107004">convent of Wallingford</orgName>, had granted to 
                   <persName><forename>Richard</forename> <surname>Mariot</surname></persName> two selds near
-                  his tenement in the parish of <placeName>St. Mary the Greater</placeName>, and one other place near the
+                  his tenement in the parish of <placeName key="place_107074">St. Mary the Greater</placeName>, and one other place near the
                   said tenement, paying annually for the 2 selds 6s. 6d. and to the sacrist of the
                   priory for the other place 18d. as is contained in a certain writing, the rents
                   being in arrear, and discord happening between the prior and convent and the heirs
                   of Richard, the said William covenants that if the rents be wholly or in part
                   unpaid, the prior and convent may distrain on his tenement which was formerly
                   <persName><forename>John</forename> <surname>Mariot</surname></persName>'s for such arrears. 
-                  Dated at <placeName role="date">Wallingford</placeName> the Thursday next after the feast
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Thursday next after the feast
                   of the translation of St. Thomas the martyr, <date>44 Ed. III</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 110</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> <persName nymRef="Skyppe"><forename>Alice</forename>, daughter and heir of <persName><forename>William</forename> <surname>Skyppe</surname> of <placeName role="person">Wallingford</placeName></persName></persName>, 
+               <p> <persName nymRef="Skyppe"><forename>Alice</forename>, daughter and heir of <persName><forename>William</forename> <surname>Skyppe</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName></persName>, 
                   grants to <persName><forename>Roger</forename> de <surname>Molberre</surname></persName> a messuage in
-                  <placeName>Wallingford</placeName>. Dated at <placeName role="date">Wallingford</placeName> in the feast
+                  <placeName key="place_107073">Wallingford</placeName>. Dated at <placeName role="date" key="place_107073">Wallingford</placeName> in the feast
                   of St. ... the pope, <date>44 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 111</bibl>. </p>
             </div>
@@ -2243,10 +2241,10 @@
             </div>-->
             
             <div type="charter">
-               <p> ... of <placeName role="person">Wallingford</placeName> grants to sir John ... and
-                  <persName><forename>Henry</forename> <surname>Mandevyle</surname> of <placeName role="person">Middelstoke</placeName></persName>,
-                  land in <placeName>Wallingford</placeName>. [Fragment.] 
-                  Dated at <placeName role="date">Wallingford</placeName>, <date>1 Rich. II</date>.
+               <p> ... of <placeName role="person" key="place_107073">Wallingford</placeName> grants to sir John ... and
+                  <persName><forename>Henry</forename> <surname>Mandevyle</surname> of <placeName role="person" key="place_107044">Middelstoke</placeName></persName>,
+                  land in <placeName key="place_107073">Wallingford</placeName>. [Fragment.] 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName>, <date>1 Rich. II</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 120</bibl>. </p>
             </div>
             
@@ -2271,32 +2269,32 @@
             <div type="charter">
                <p> <persName><forename>John</forename> <surname>Estburi</surname></persName> grants to
                   <persName><forename>William</forename> <surname>Wodeward</surname></persName> and 
-                  <persName nymRef="Wodeward"><forename>Emma</forename> his wife of <placeName role="person">Wallingford</placeName></persName>, 
+                  <persName nymRef="Wodeward"><forename>Emma</forename> his wife of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
                   for their lives, a certain tenement opposite the gate of the church of the priory,
                   paying annually 13s. 4d. 
-                  Dated at <placeName role="date">Wallingford</placeName> in the feast of St. Bartholomew, 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> in the feast of St. Bartholomew, 
                   <date>12 Rich. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 126</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Indenture witnessing that the two tenements, formerly 
-                  <persName><forename>John</forename> <surname>Brouns</surname>' of <placeName type="hundred" role="person">Slottesford</placeName></persName>
-                  in the parish of <placeName>St. Mary the Greater, Wallingford</placeName>, belonging to 
+                  <persName><forename>John</forename> <surname>Brouns</surname>' of <placeName type="hundred" role="person" key="place_107003">Slottesford</placeName></persName>
+                  in the parish of <placeName key="place_107074">St. Mary the Greater, Wallingford</placeName>, belonging to 
                   <persName><forename>Juliana</forename> <surname>Gary</surname></persName>, are
-                  charged with an annual rent of 3s. due to the <orgName>prior and convent of Wallingford</orgName>, as
+                  charged with an annual rent of 3s. due to the <orgName key="org_107004">prior and convent of Wallingford</orgName>, as
                   appears by their evidences, which rent is reduced to xijd. for a term of 29
                   years, at the end of which term it will again be 3s. as before. 
-                  Dated at <placeName role="date">Wallingford</placeName> the Monday next after the feast of St. Faith,
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Monday next after the feast of St. Faith,
                   <date>17 Rich. II</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 128</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Letters patent, being an Inspeximus charter of <persName>King Henry IV</persName>, dated 27 March, 4th
-                  year of his reign, to the effect that the roll of taxations of <placeName type="diocese">Sarum diocese</placeName>,
+                  year of his reign, to the effect that the roll of taxations of <placeName type="diocese" key="place_107002">Sarum diocese</placeName>,
                   made <date>20 Ed. I</date>, has been inspected and an exemplification granted to
-                  <persName><forename>John</forename> <surname>Stoke</surname>, prior of <orgName role="prior">Wallingford</orgName></persName>, 
+                  <persName><forename>John</forename> <surname>Stoke</surname>, prior of <orgName role="prior" key="org_107004">Wallingford</orgName></persName>, 
                   under the seal of the Exchequer, of the amounts paid by the said priory. 
                   <bibl type="shelfmark">MS. Ch. Berks. 129</bibl>. </p>
             </div>
@@ -2354,8 +2352,8 @@
                <p> <persName><forename>Robert</forename> <surname>Haward</surname></persName> grants to Edmund ...
                   <persName><forename>William</forename> <surname>Matte</surname></persName> and
                   <persName><forename>Thomas</forename> <surname>Swalewyk</surname></persName> and others a tenement situated 
-                  in the parish of ... <placeName>Wallingford</placeName>. [Mutilated.] 
-                  Dated at <placeName role="date">Wallingford</placeName> the Thursday ... feast
+                  in the parish of ... <placeName key="place_107073">Wallingford</placeName>. [Mutilated.] 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Thursday ... feast
                   of St. Hilary ... <date>Hen. IV</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 132</bibl>. </p>
             </div>
@@ -2381,16 +2379,16 @@
             </div>-->
             
             <div type="charter">
-               <p> <persName><forename>Richard</forename> ate <surname>Brugge</surname> of <placeName role="person">Wallingford</placeName></persName> 
-                  grants to <persName><forename>John</forename> <surname>Seward</surname>, senior, of <placeName role="person">Chilton</placeName></persName> 
-                  and others a toft of land in the parish of the <orgName>Holy Trinity, Wallingford</orgName> ...
+               <p> <persName><forename>Richard</forename> ate <surname>Brugge</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName> 
+                  grants to <persName><forename>John</forename> <surname>Seward</surname>, senior, of <placeName role="person" key="place_107025">Chilton</placeName></persName> 
+                  and others a toft of land in the parish of the <orgName key="org_107004">Holy Trinity, Wallingford</orgName> ...
                   <date>Henry V</date>. [Fragment.] 
                   <bibl type="shelfmark">MS. Ch. Berks. 134</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> Indenture reciting the agreement between <persName><forename>Gregory</forename>, formerly the prior of <orgName role="prior">Wallingford</orgName></persName>, 
-                  and <persName><forename>Richard</forename> <surname>Maryot</surname> of <placeName role="person">Wallingford</placeName></persName>, 
+               <p> Indenture reciting the agreement between <persName><forename>Gregory</forename>, formerly the prior of <orgName role="prior" key="org_107004">Wallingford</orgName></persName>, 
+                  and <persName><forename>Richard</forename> <surname>Maryot</surname> of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
                   concerning two selds and a vacant place demised to the said John at 6s. 8d. annual rent, which selds 
                   and place are now demised to <persName><forename>John</forename> <surname>Mey</surname></persName> and
                   <persName nymRef="Mey"><forename>Alice</forename> his wife</persName> for 18 years, at an annual rent of 4s.
@@ -2460,25 +2458,25 @@
             
             <div type="charter">
                <p> A receipt given by <persName><forename>Richard</forename> <surname>Rudhale</surname>, sub-collector of the pope</persName>, 
-                  to the prior of <orgName role="prior">Wallingford</orgName> for 7s. due for procurations. 
+                  to the prior of <orgName role="prior" key="org_107004">Wallingford</orgName> for 7s. due for procurations. 
                   Dated 2 May, <date when="1457">1457</date>, <date>35 Hen. VI</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 139</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Indenture dated in the feast of St. George ... <date>Hen. VI</date>, by which the 
-                  <orgName>prior and convent of Wallingford</orgName> grant to 
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> grant to 
                   <persName><forename>Lawrence</forename> <surname>Haweman</surname>, mayor</persName>, and the 
-                  commonalty of <placeName>Wallingford</placeName>, certain lands and rents. [Mutilated.]
+                  commonalty of <placeName key="place_107073">Wallingford</placeName>, certain lands and rents. [Mutilated.]
                   <bibl type="shelfmark">MS. Ch. Berks. 140</bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
                   <pb n="22"/> Indenture dated 30 March, <date>18 Ed. IV</date>, by which 
-                  <persName><forename>Thomas</forename> <surname>Richard</surname>, late of <placeName role="person">London</placeName></persName>, 
+                  <persName><forename>Thomas</forename> <surname>Richard</surname>, late of <placeName role="person" key="place_100051">London</placeName></persName>, 
                   and others, bind themselves to pay certain sums of money, amounting in the whole to £166 18s. 4d., 
-                  for the <orgName>prior and convent of Wallingford</orgName>,
+                  for the <orgName key="org_107004">prior and convent of Wallingford</orgName>,
                   who grant them with certain exceptions their priory. [Mutilated.] 
                   <note type="language">(English)</note>
                   <bibl type="shelfmark">MS. Ch. Berks. 145</bibl>. </p>
@@ -2486,12 +2484,12 @@
             
             <div type="charter">
                <p> <persName><forename>Thomas</forename> <surname>Leper</surname></persName> and 
-                  <persName nymRef="Leper"><forename>Agnes</forename> his wife, of <placeName role="person">Wallingford</placeName></persName>, 
+                  <persName nymRef="Leper"><forename>Agnes</forename> his wife, of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
                   quit-claim to <persName><forename>William</forename> <surname>Frethorne</surname></persName>,
                   <persName><forename>John</forename> <surname>Frethorne</surname></persName> and
                   <persName><forename>William</forename> <surname>Elys</surname></persName> all their right in a messuage 
-                  in the parish of <placeName>St. Mary the Greater, Wallingford</placeName>. 
-                  Dated at <placeName role="date">Wallingford</placeName> the Sunday next after the
+                  in the parish of <placeName key="place_107074">St. Mary the Greater, Wallingford</placeName>. 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> the Sunday next after the
                   feast of the apostles St. Philip and St. James, <date>19 Ed. IV</date>. 
                   <note type="seal">[Broken seal.]</note> 
                   <bibl type="shelfmark">MS. Ch. Berks. 146</bibl>. </p>
@@ -2499,7 +2497,7 @@
             
             <div type="charter">
                <p> Indenture by which <persName><forename>William</forename> <surname>Hardewyke</surname>, S. T. B., the prior</persName>, 
-                  and <orgName>convent of Wallingford</orgName>, lease to 
+                  and <orgName key="org_107004">convent of Wallingford</orgName>, lease to 
                   <persName><forename>John</forename> <surname>Trevell</surname></persName>, for a term of 20 years, at an
                   annual rent of six marks, their tithes of ... Dated 23 Oct. <date>2 Rich. III</date>. 
                   [Partly illegible.] 
@@ -2508,7 +2506,7 @@
             
             <div type="charter">
                <p> Charter (indented) dated 28 Sept., <date>2 Rich. III</date>, by which the 
-                  <orgName>prior and convent of Wallingford</orgName> grant to 
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> grant to 
                   <persName><forename>Thomas</forename> <surname>Godard</surname></persName> the whole of their fishery at ...
                   for 99 years, at an annual rent of 40s. [Mutilated.] 
                   <bibl type="shelfmark">Ch. 148</bibl>. </p>
@@ -2516,8 +2514,8 @@
             
             <div type="charter">
                <p> <persName><forename>John</forename> <surname>Thornton</surname>, S. T. P., the prior</persName>, and 
-                  <orgName>convent of Wallingford</orgName>, grant to 
-                  <persName><forename>Robert</forename> <surname>Tendale</surname>, burgess of <placeName role="person">Wallingford</placeName></persName>,
+                  <orgName key="org_107004">convent of Wallingford</orgName>, grant to 
+                  <persName><forename>Robert</forename> <surname>Tendale</surname>, burgess of <placeName role="person" key="place_107073">Wallingford</placeName></persName>,
                   one piece of land lying within a close called '<placeName type="minor">bodecroffte</placeName>,' for 
                   sixty years, at an annual rent of 6s. 8d. 
                   Dated 12 June, <date>14 Hen. VII</date>. 
@@ -2526,9 +2524,9 @@
             
             <div type="charter">
                <p> <persName><forename>John</forename> <surname>Thornton</surname>, S. T. P., the prior</persName>, and 
-                  <orgName>convent of Wallingford</orgName>, demise to
+                  <orgName key="org_107004">convent of Wallingford</orgName>, demise to
                   <persName><forename>William</forename> <surname>Adene</surname>, sen.</persName>, and
-                  <persName><forename>Thomas</forename> <surname>Adene</surname>, his brother, of <placeName role="person">Wallingford</placeName></persName>, 
+                  <persName><forename>Thomas</forename> <surname>Adene</surname>, his brother, of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
                   one close, called the <placeName type="minor">Colnhouse close</placeName>, for 60 years, at an annual 
                   rent of 40s. Dated 12 Aug., <date>14 Hen. VII</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 151</bibl>. </p>
@@ -2537,8 +2535,8 @@
             <div type="charter">
                <p> Indenture dated 6 Oct., <date>17 Hen. VII</date>, by which 
                   <persName><forename>John</forename> <surname>Thornton</surname>, the prior</persName>, and 
-                  <orgName>convent of Wallingford</orgName>, engage to deliver to 
-                  <persName><forename>William</forename> <surname>Adene</surname> the elder, of <placeName role="person">Wallingford</placeName></persName>, 
+                  <orgName key="org_107004">convent of Wallingford</orgName>, engage to deliver to 
+                  <persName><forename>William</forename> <surname>Adene</surname> the elder, of <placeName role="person" key="place_107073">Wallingford</placeName></persName>, 
                   on the 1st of May, 1503, at the latest, 100 quarters of malt for a certain sum of money received. 
                   <note type="language">(English)</note>
                   <bibl type="shelfmark">MS. Ch. Berks. 152</bibl>. </p>
@@ -2546,16 +2544,16 @@
             
             <div type="charter">
                <p> Bond by which <persName><forename>John</forename> <surname>Thornton</surname>, the prior</persName>, 
-                  and <orgName>convent of Wallingford</orgName>, under a penalty of £20, agree to pay to 
-                  <persName><forename>John</forename>, the abbot of <orgName role="abbot">Reading</orgName></persName>, 
+                  and <orgName key="org_107004">convent of Wallingford</orgName>, under a penalty of £20, agree to pay to 
+                  <persName><forename>John</forename>, the abbot of <orgName role="abbot" key="org_107008">Reading</orgName></persName>, 
                   £15 by three yearly instalments.
                   Dated at their chapter-house, 13 May, <date>18 Hen. VII</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 153</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> A receipt given by <persName><forename>Henry</forename>, the abbot of <orgName role="abbot">Rewley</orgName></persName>,
-                  to the prior of <orgName role="prior">Wallingford</orgName> for 51s. 4 1/2d. for the first half of a 
+               <p> A receipt given by <persName><forename>Henry</forename>, the abbot of <orgName role="abbot" key="org_107009">Rewley</orgName></persName>,
+                  to the prior of <orgName role="prior" key="org_107004">Wallingford</orgName> for 51s. 4 1/2d. for the first half of a 
                   subsidy granted to the king by convocation.
                   Dated 21 Oct., <date>20 Hen. VII</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 154</bibl>.  </p>
@@ -2563,7 +2561,7 @@
             
             <div type="charter">
                <p> Indenture made 12 April, <date>21 Hen. VII</date>, by which 
-                  <persName><forename>Henry</forename> prior</persName>, and <orgName>convent of Wallingford</orgName>, 
+                  <persName><forename>Henry</forename> prior</persName>, and <orgName key="org_107004">convent of Wallingford</orgName>, 
                   demise to <persName><forename>John</forename> <surname>Hygg</surname></persName> a tenement with a 
                   garden adjacent for 40 years. 
                   <bibl type="shelfmark">MS. Ch. Berks. 155</bibl>. </p>
@@ -2571,36 +2569,36 @@
             
             <div type="charter">
                <p> Receipt given by the <orgName key="org_102016">prior and convent of Ledes</orgName> to the prior of 
-                  <orgName role="prior">Wallingford</orgName> for 2s., being the first half of a subsidy granted to the 
-                  king by the clergy of <placeName type="diocese">Canterbury</placeName>, from the church of 
-                  <placeName>Newyntone</placeName>. Dated 2 May, <date when="1512">1512</date>. 
+                  <orgName role="prior" key="org_107004">Wallingford</orgName> for 2s., being the first half of a subsidy granted to the 
+                  king by the clergy of <placeName type="diocese" key="place_104006">Canterbury</placeName>, from the church of 
+                  <placeName key="place_107052">Newyntone</placeName>. Dated 2 May, <date when="1512">1512</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 156</bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> An acknowledgment of <persName><forename>Henry</forename>, abbot of <orgName role="abbot">Rewley</orgName></persName>, 
+               <p> An acknowledgment of <persName><forename>Henry</forename>, abbot of <orgName role="abbot" key="org_107009">Rewley</orgName></persName>, 
                   and the convent there, collectors of the first half of the subsidy in the 
-                  archdeaconry of <pb n="23"/> <placeName type="archdeaconry">Oxford</placeName> in the
+                  archdeaconry of <pb n="23"/> <placeName type="archdeaconry" key="place_107013">Oxford</placeName> in the
                   last convocation of the clergy, granted to the king, to have received of the prior
-                  of <orgName role="prior">Wallingford</orgName>, for their spiritualities and temporalities, 102s. 9d. 
+                  of <orgName role="prior" key="org_107004">Wallingford</orgName>, for their spiritualities and temporalities, 102s. 9d. 
                   Dated 10 May, <date>4 Hen. VIII</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 157</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> An acknowledgment given by the prior of the 
-                  <orgName role="prior" key="org_102016">Blessed Mary and St. Nicholas of Ledes, Canterbury diocese</orgName>, collectors of
+                  <orgName key="org_102016" role="prior">Blessed Mary and St. Nicholas of Ledes, Canterbury diocese</orgName>, collectors of
                   the second half of a subsidy granted by the clergy to the king 6 Feb. 1511, to the prior of
-                  <orgName role="prior">Wallingford</orgName> for 2s. in <placeName>Newinton</placeName>. 
+                  <orgName role="prior" key="org_107004">Wallingford</orgName> for 2s. in <placeName key="place_107052">Newinton</placeName>. 
                   Dated 12 Dec., <date when="1512">1512</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 158</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> <persName><forename>John</forename> <surname>Clare</surname>, the prior</persName>, and 
-                  <orgName>convent of Wallingford</orgName> demise to 
+                  <orgName key="org_107004">convent of Wallingford</orgName> demise to 
                   <persName><forename>John</forename> <surname>Hanson</surname></persName> the whole
-                  of their land, and an island in the suburb of <placeName>Wallingford</placeName>, for 31 years, at an
+                  of their land, and an island in the suburb of <placeName key="place_107073">Wallingford</placeName>, for 31 years, at an
                   annual rent of 6s. 8d. Dated 18 Nov., <date>7 Hen. VIII</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 159</bibl>. </p>
             </div>
@@ -2608,7 +2606,7 @@
             <div type="charter">
                <p> A paper containing a covenant for reparations of all the buildings granted, &amp;c. 
                   Signed <persName><forename>Griffith</forename> <surname>Payne</surname></persName>, and endorsed for 
-                  roomes in <placeName>Wallingford</placeName>. 
+                  roomes in <placeName key="place_107073">Wallingford</placeName>. 
                   <note type="material">[Paper.]</note> <date notBefore="1500" notAfter="1600">Cent. xvi</date>.
                   <bibl type="shelfmark">MS. Ch. Berks. 160</bibl>. </p>
             </div>
@@ -2616,7 +2614,7 @@
             
             <div type="charter"> 
                <p> <pb n="644"/> LONGWORTH. Mandate by of <persName><forename>Lionel</forename> <surname>Sharpe</surname>, S.T.P., archdeacon of Berks</persName>, 
-                  for the induction of <persName><forename>Samuel</forename> <surname>Fell</surname>, S.T.P., to the rectory of <placeName role="person">Longworth, with the chapel of Charney co. Berks</placeName></persName>, 
+                  for the induction of <persName><forename>Samuel</forename> <surname>Fell</surname>, S.T.P., to the rectory of <placeName role="person" key="place_107042">Longworth, with the chapel of Charney co. Berks</placeName></persName>, 
                   on the resignation of <persName>George Warberton</persName> and presentation of 
                   <persName>Sir <forename>Henry</forename> <surname>Marten</surname>, kt., LL.D.</persName> 
                   Dated 17 March, <date when="1620">1620</date>. 
@@ -2624,26 +2622,26 @@
             </div>
             
             <div type="charter">
-               <p> Letters patent of <persName>King James I</persName>, dated at <placeName role="date">Westminster</placeName> 
+               <p> Letters patent of <persName>King James I</persName>, dated at <placeName role="date" key="place_100060">Westminster</placeName> 
                   4 April, <date>19th of his reign</date>, confirming to 
                   <persName><forename>Samuel</forename> <surname>Fell</surname>, S.T.P.</persName>, the rectory of 
-                  <placeName>Longworth, with the chapel of Charney</placeName>, notwithstanding any right to the patronage on the part
+                  <placeName key="place_107042">Longworth, with the chapel of Charney</placeName>, notwithstanding any right to the patronage on the part
                   of the Crown. 
                   <bibl type="shelfmark">MS. Ch. Berks. 257<!--WAS: 4--></bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> SUNNINGWELL. Institution by <persName><forename>John</forename>, bp. of <placeName type="diocese" role="bishop">Sarum</placeName></persName>, 
+               <p> SUNNINGWELL. Institution by <persName><forename>John</forename>, bp. of <placeName type="diocese" role="bishop" key="place_107002">Sarum</placeName></persName>, 
                   of <persName><forename>Samuel</forename> <surname>Fell</surname>, S.T.D.</persName>, 
-                  to the rectory of <placeName>Sunningwell</placeName>, on the presentation of <persName>K. Charles I</persName>. 
+                  to the rectory of <placeName key="place_107071">Sunningwell</placeName>, on the presentation of <persName>K. Charles I</persName>. 
                   Dated 18 Jan., <date when="1625">1625</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 252<!--WAS: 5--></bibl>. </p>
             </div> 
             
             <div type="charter">
-               <p> Institution by <persName><forename>Robert</forename>, bp. of <placeName role="bishop" type="diocese">Sarum</placeName></persName>, 
+               <p> Institution by <persName><forename>Robert</forename>, bp. of <placeName role="bishop" type="diocese" key="place_107002">Sarum</placeName></persName>, 
                   of <persName><forename>Samuel</forename> <surname>Fell</surname>, S.T.P.</persName>, to the 
-                  rectory of <placeName>Longworth, with the chapel of Charney annexed</placeName>, by the presentation of 
+                  rectory of <placeName role="rectory" key="place_107042">Longworth</placeName>, with the chapel of <placeName role="chapel" key="place_107081">Charney</placeName> annexed, by the presentation of 
                   <persName>Sir <forename>Henry</forename> <surname>Marten</surname>, kt., LL.D.</persName>, on the resignation of
                   <persName><forename>George</forename> <surname>Warberton</surname>, clerk</persName>. 
                   Dated 8 March, <date when="1620">1620</date>. 
@@ -2651,26 +2649,26 @@
             </div>
             
             <div type="charter">
-               <p> Certificate by <persName><forename>John</forename>, bp. of <placeName role="bishop" type="diocese">Sarum</placeName></persName>, 
+               <p> Certificate by <persName><forename>John</forename>, bp. of <placeName role="bishop" type="diocese" key="place_107002">Sarum</placeName></persName>, 
                   of the subscription by <persName><forename>Samuel</forename> <surname>Fell</surname>, S.T.P.</persName>, to the 39
-                  articles etc. before his admission to the rectory of <placeName>Sunningwell, alias Soningwell, co. Berks.</placeName> 
+                  articles etc. before his admission to the rectory of <placeName key="place_107071">Sunningwell, alias Soningwell, co. Berks.</placeName> 
                   Dated 18 Jan., <date when="1625">1625</date>. 
                   <bibl type="shelfmark">MS. Ch. Berks. 254<!--WAS: 7--></bibl>. </p>
             </div>
             
             <div type="charter">
                <p>
-                  <pb n="645"/> Mandate by <persName>Sir <forename>A.</forename> <surname>Marlen</surname>, official of the archdeacon <placeName role="person" type="archdeaconry">Berks</placeName>.</persName> 
+                  <pb n="645"/> Mandate by <persName>Sir <forename>A.</forename> <surname>Marlen</surname>, official of the archdeacon <placeName role="person" type="archdeaconry" key="place_107012">Berks</placeName>.</persName> 
                   for the induction of <persName><forename>Samuel</forename> <surname>Fell</surname>, S.T.P.</persName>, to the church 
-                  of <placeName>Sunningwell</placeName>.
+                  of <placeName key="place_107071">Sunningwell</placeName>.
                   Dated 19 Jan., <date when="1625">1625</date>. 
                   <note type="material">[Paper.]</note>
                   <bibl type="shelfmark">MS. Ch. Berks. 255<!--WAS: 8--></bibl>. </p>
             </div>
             
             <div type="charter">
-               <p> WHITE WALTHAM. Faculty granted by <persName><forename>Edw</forename>. <surname>Master</surname>, L.L.D., official of  by the Archdeacon of <placeName role="person" type="archdeaconry">Berks.</placeName></persName>, to enable the
-                  churchwardens of <placeName>White Waltham</placeName> to remove the pulpit from the west end of the church to 
+               <p> WHITE WALTHAM. Faculty granted by <persName><forename>Edw</forename>. <surname>Master</surname>, L.L.D., official of  by the Archdeacon of <placeName role="person" type="archdeaconry" key="place_107012">Berks.</placeName></persName>, to enable the
+                  churchwardens of <placeName key="place_107076">White Waltham</placeName> to remove the pulpit from the west end of the church to 
                   the east end, where the reading desk now is, and to set the reading desk below it. 
                   Dated 13 April, <date when="1687">1687</date>. 
                   <note type="material">[Paper.]</note> 
