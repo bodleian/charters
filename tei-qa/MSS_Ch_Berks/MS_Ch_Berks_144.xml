@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_106242">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_107027">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Essex 68</title>
+            <title>MS. Ch. Berks. 144</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,43 +30,41 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Essex_68</idno>
-            <idno type="collection">Essex</idno>
+            <idno type="msID">MS_Ch_Berks_144</idno>
+            <idno type="collection">Berks</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Essex_68" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Berks_144" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Essex 68</idno>
+                  <idno type="shelfmark">MS. Ch. Berks. 144</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> Confirmation by <persName>
-                           <forename>William</forename>, bishop of <placeName role="bishop" type="diocese" key="place_106026">London</placeName>
-                        </persName>, 
-                  of the appropriation of the church of <placeName key="place_106163">Steple</placeName> to the prior and 
-                  <orgName key="org_106021">monks of St. Mary Magdalen, Stanesgate</orgName>, namely all the
-                  land belonging to the church, and all the great and little tithes of the demesne
-                  of <persName>
-                           <forename>Ralph</forename>, <surname type="patronymic">son of Brien</surname>
-                        </persName>, at 
-                  Steple, and of the lordship of <persName>
-                           <forename>Gilbert</forename> 
-                           <surname>Foliot</surname>
-                        </persName>, 
-                  and of the land of <persName>
-                           <forename>Maurice</forename> the earl</persName>, and
-                  all the tithes of <placeName key="place_106144">Ramingeseye</placeName>, and the land called <placeName key="place_106041">Aylewelond</placeName>,
-                  and of that called <placeName type="minor">Hervey's hide</placeName> and of the fee called
-                  <placeName type="minor">Robeshethefe</placeName>. 
-                  (<origDate notBefore="1200" notAfter="1210" precision="low">c. 1200-10</origDate>.)
-                     </p>
+                     <p>
+                        <placeName key="place_107024">CHALKFORD</placeName> and <placeName key="place_107017">ASTON ROWANT</placeName>. Indenture by which 
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Hardewyke</surname>, S. T. B., the prior</persName>,
+                  and <orgName key="org_107004">convent of Wallingford</orgName> demise to 
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Hester</surname>
+                        </persName> and
+                  <persName nymRef="Hester">
+                           <forename>Agnes</forename> his wife</persName> and
+                  <persName nymRef="Hester">
+                           <forename>Henry</forename> their son</persName>, their
+                  manor of <placeName type="manor" key="place_107006">Chalkeford in co. Oxon.</placeName> with the advowson of the church 
+                  of <placeName key="place_107017" role="advowson">Aston</placeName>, for 30 years, at an annual rent of 100s. 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> on the morrow of St. Thomas the martyr, <origDate notBefore="1473-03-04" notAfter="1474-03-21">13 Ed. IV</origDate>. 
+                  </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -76,15 +74,12 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
-               <history>
-                  <provenance>Archive of Priory of St Mary Magdalen, Stanesgate</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                              <citedRange unit="page" from="75" to="75">75</citedRange>
+                                <citedRange unit="page" from="5" to="5">5</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

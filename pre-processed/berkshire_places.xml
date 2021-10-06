@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,7 +15,7 @@
    <text>
       <body>
          <listPlace type="diocese">
-            <place type="diocese">
+            <place subtype="new" type="diocese" xml:id="place_107001">
                <placeName type="index">Canterbury, Archdiocese of </placeName>
                <placeName type="formInDocument">canterbury</placeName>
                <idno>http://viaf.org/viaf/270753550</idno>
@@ -28,7 +27,7 @@
                <note type="charter">MS. Ch. Berkshire 59</note>
                <note type="charter">MS. Ch. Berkshire 156</note>
             </place>
-            <place type="diocese">
+            <place subtype="new" type="diocese" xml:id="place_107002">
                <placeName> Salisbury, Diocese of(Old and New Sarum)</placeName>
                <placeName type="formInDocument">salisbury</placeName>
                <placeName type="formInDocument">sarum</placeName>
@@ -45,20 +44,18 @@
                <note type="charter">MS. Ch. Berkshire 254</note>
                <note type="charter">MS. Ch. Berkshire 129</note>
             </place>
-         </listPlace>
-         
-         <listPlace>
-            <place type="hundred">
+        
+        
+            <place subtype="new" type="hundred" xml:id="place_107003">
                <placeName type="index">Moreton Hundred</placeName>
                <placeName type="formInDocument">slottesford</placeName>
                <region type="county">Berkshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/id/53282e37b47fc407ba001b12-Moreton+Hundred</idno><!-- for use of Slottesford for Moreton Hundred-->
                <note type="charter">MS. Ch. Berkshire 128</note>
             </place>
-         </listPlace>
-         
-         <listPlace type="manor">
-            <place type="manor">
+        
+        
+            <place subtype="new" type="manor" xml:id="place_107004">
                <placeName type="index">Rush</placeName>
                <placeName type="formInDocument">'la rusche,'</placeName>
                <placeName type="formInDocument">la rusche</placeName>
@@ -69,7 +66,7 @@
                <note type="charter">MS. Ch. Berkshire 101</note>
             </place>
             
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_107005">
                <placeName type="index">Aston</placeName>
                <placeName type="formInDocument">aston</placeName>
                <region type="parish">Aston Tirrold</region>
@@ -80,7 +77,7 @@
                <note type="charter">MS. Ch. Berkshire 144</note>
             </place>
              
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_107006">
                <placeName type="index">Chalford</placeName>
                <placeName type="formInDocument">chalkeford in co. oxon.</placeName>
                <placeName type="formInDocument">chalkford</placeName>
@@ -94,7 +91,7 @@
                <note type="charter">MS. Ch. Berkshire 144</note>
             </place>
             
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_107007">
                <placeName type="index">Mongewell</placeName>
                <placeName type="formInDocument">mungewell</placeName>
                <region type="parish">Mongewell</region>
@@ -103,7 +100,7 @@
                <note type="charter">MS. Ch. Berkshire 117b</note>
             </place>
             
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_107008">
                <placeName type="index">Shaw</placeName>
                <placeName type="formInDocument">shaw</placeName>
                <placeName type="formInDocument">shawe</placeName>
@@ -113,21 +110,18 @@
                <note type="charter">MS. Ch. Berkshire 165</note>
                <note type="charter">MS. Ch. Berkshire 164</note>
             </place>
-         </listPlace>
          
          
-         <listPlace type="country">
-            <place type="country">
+            <place subtype="new" type="country" xml:id="place_107009">
                <placeName type="index">England</placeName>
                <placeName type="formInDocument">england</placeName>
                <!--<placeName type="country">England</placeName> add this?-->
                <idno>https://www.wikidata.org/wiki/Q21</idno>
                <note type="charter">MS. Ch. Berkshire 167</note>
             </place>
-         </listPlace>
-         
-         <listPlace type="honour">
-            <place type="honour">
+        
+        
+            <place subtype="new" type="honour" xml:id="place_107010">
                <placeName type="index">St Valery, Honour of </placeName>
                <placeName type="formInDocument">st. walery</placeName>
                <!--<region type="parish"></region>
@@ -135,7 +129,7 @@
                <note type="charter">Berkshire Rolls, 2</note>
             </place>
             
-            <place type="honour">
+            <place subtype="new" type="honour" xml:id="place_107011">
                <placeName type="index">Wallingford, Honour of </placeName>
                <placeName type="formInDocument">wallingford</placeName>
                <region type="county">Berkshire</region>
@@ -193,11 +187,9 @@
                <note type="charter">MS. Ch. Berkshire 159</note>
                <note type="charter">MS. Ch. Berkshire 160</note>
             </place>
-         </listPlace>
          
-          
-         <listPlace type="archdeaconry">
-            <place type="archdeaconry">
+         
+            <place subtype="new" type="archdeaconry" xml:id="place_107012">
                <placeName type="index">Berkshire, Archdeaconry of </placeName>
                <placeName type="formInDocument">berks.</placeName>
                <placeName type="formInDocument">berks</placeName>
@@ -210,7 +202,7 @@
                <note type="charter">MS. Ch. Berkshire 32</note>
                <note type="charter">MS. Ch. Berkshire 256</note>
             </place>
-            <place type="archdeaconry">
+            <place subtype="new" type="archdeaconry" xml:id="place_107013">
                <placeName type="index">Oxford, Archdeaconry of</placeName>
                <placeName type="formInDocument">oxford</placeName>
                <idno>https://www.wikidata.org/wiki/Q11722477</idno>
@@ -218,21 +210,18 @@
                <note type="charter">MS. Ch. Berkshire 59</note>
                <note type="charter">MS. Ch. Berkshire 157</note>
             </place>
-         </listPlace>
-         
-         
-         <listPlace type="street">
-            <place type="street">
+       
+       
+            <place subtype="new" type="street" xml:id="place_107014">
                <placeName type="index">Wallingford, Curteys lane</placeName>
                <placeName type="formInDocument">curteys lane</placeName>
                <region type="parish">Wallingford</region>
                <region type="county">Berkshire</region>
                <note type="charter">MS. Ch. Berkshire 104</note>
             </place>
-         </listPlace>
-         
-         <listPlace type="place">
-            <place type="place">
+        
+        
+            <place subtype="new" type="place" xml:id="place_107015">
                <placeName type="index">Abingdon</placeName>
                <placeName type="formInDocument">abingdon</placeName>
                <region type="parish">Abingdon and St Helen Without</region>
@@ -243,7 +232,7 @@
                <note type="charter">MS. Ch. Berkshire 94</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107016">
                <placeName type="index">Adwell</placeName>
                <placeName type="formInDocument">adwell</placeName>
                <region type="parish">Adwell</region>
@@ -254,7 +243,7 @@
                <note type="charter">MS. Ch. Berkshire 99</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107017">
                <placeName type="index">Aston Rowant</placeName>
                <placeName type="formInDocument">aston rohant</placeName>
                <placeName type="formInDocument">aston rowant</placeName>
@@ -272,7 +261,7 @@
                <note type="charter">MS. Ch. Berkshire 60</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107018">
                <placeName type="index">Aston Tirrold</placeName>
                <placeName type="formInDocument">aston tirrold</placeName>
                <region type="parish">Aston Tirrold</region>
@@ -282,7 +271,7 @@
                <note type="charter">MS. Ch. Berkshire 122</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107019">
                <placeName type="index">Bampton</placeName>
                <placeName type="formInDocument">bampton</placeName>
                <region type="parish">Bampton</region>
@@ -292,7 +281,7 @@
                <note type="charter">MS. Ch. Berkshire 59</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107020">
                <placeName type="index">Buckland</placeName>
                <placeName type="formInDocument">boklond in the deanery of abingdon</placeName>
                <placeName type="formInDocument">buckland</placeName>
@@ -305,7 +294,7 @@
                <note type="charter">MS. Ch. Berkshire 62</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107021">
                <placeName type="index">East Claydon and Botolph Claydon</placeName>
                <placeName type="formInDocument">botle cleidun</placeName>
                <placeName type="formInDocument">botte claydon</placeName>
@@ -321,7 +310,7 @@
                <note type="charter">MS. Ch. Berkshire 107</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107022">
                <placeName type="index">Brightwell</placeName>
                <placeName type="formInDocument">britwell (east)</placeName>
                <placeName type="formInDocument">est brithwell</placeName>
@@ -332,7 +321,7 @@
                <note type="charter">MS. Ch. Berkshire 41</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107023">
                <placeName type="index">Canterbury</placeName>
                <placeName type="formInDocument">canterbury</placeName>
                <region type="parish">Canterbury</region><!--parish not known-->
@@ -349,7 +338,7 @@
            
            
              
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107024">
                <placeName type="index">Chalford</placeName>
                <!--  another in Enstone but clearly this is meant-->
                <placeName type="formInDocument">chalkford</placeName>
@@ -365,7 +354,7 @@
                <note type="charter">MS. Ch. Berkshire 99</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107025">
                <placeName type="index">Chilton</placeName>
                <placeName type="formInDocument">chilton</placeName>
                <region type="parish">Chilton</region>
@@ -375,7 +364,7 @@
                <note type="charter">MS. Ch. Berkshire 134</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107026">
                <placeName type="index">Chinnor</placeName>
                <placeName type="formInDocument">chinnor</placeName>
                <placeName type="formInDocument">chinnor</placeName>
@@ -393,7 +382,7 @@
                <note type="charter">MS. Ch. Berkshire 99</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107027">
                <placeName type="index">Clapcot</placeName>
                <placeName type="formInDocument">clopcote</placeName>
                <placeName type="formInDocument">clopcote</placeName>
@@ -423,7 +412,7 @@
                <note type="charter">MS. Ch. Berkshire 117b</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107028">
                <placeName type="index">Long Crendon</placeName>
                <placeName type="formInDocument">crendon</placeName>
                <region type="parish">Long Crendon</region>
@@ -433,7 +422,7 @@
                <note type="charter">MS. Ch. Berkshire 149</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107029">
                <placeName type="index">East Hendred</placeName>
                <placeName type="formInDocument">east henred</placeName>
                <placeName type="formInDocument">hendred</placeName>
@@ -445,7 +434,7 @@
                <note type="charter">MS. Ch. Berkshire 3</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107030">
                <placeName type="index">Earley</placeName>
                <placeName type="formInDocument">erleya</placeName>
                <placeName type="formInDocument">erleya</placeName><!-- or Earley? -->
@@ -459,7 +448,7 @@
  n. 246 -->
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107031">
                <placeName type="index">Garsington</placeName>
                <placeName type="formInDocument">garsingdon</placeName>
                <placeName type="formInDocument">garsington</placeName>
@@ -476,7 +465,7 @@
                <note type="charter">MS. Ch. Berkshire 60</note>
             </place>
               
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107032">
                <placeName type="index">Goring</placeName>
                <placeName type="formInDocument">goring</placeName>
                <region type="parish">Goring</region>
@@ -486,7 +475,7 @@
                <note type="charter">MS. Ch. Berkshire 117b</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107033">
                <placeName type="index">Grove</placeName>
                <placeName type="formInDocument">grava</placeName>
                <placeName type="formInDocument">grava upon schunhulle atte brodetherde</placeName>
@@ -497,7 +486,7 @@
                <note type="charter">MS. Ch. Berkshire 161</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107034">
                <placeName type="index">Henton</placeName>
                <placeName type="formInDocument">henton</placeName>
                <region type="parish">Chinnor</region>
@@ -507,7 +496,7 @@
                <note type="charter">MS. Ch. Berkshire 99</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107035">
                <placeName type="index">Hertford</placeName>
                <placeName type="formInDocument">hertforde</placeName>
                <region type="parish">Hertford</region>
@@ -517,7 +506,7 @@
                <note type="charter">MS. Ch. Berkshire 57</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107036">
                <placeName type="index">Wallingford, St Leonard</placeName>
                <placeName type="formInDocument">St. Leonard, Wallingford</placeName>
                <placeName type="formInDocument">st. leonard</placeName>
@@ -529,7 +518,7 @@
                <note type="charter">MS. Ch. Berkshire 24</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107037">
                <placeName type="index">Carswell</placeName>
                <placeName type="formInDocument">kerswell</placeName>
                <region type="parish">Burghfield</region>
@@ -539,7 +528,7 @@
                <note type="charter">MS. Ch. Berkshire 62</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107038">
                <placeName type="index">Kintbury</placeName>
                <placeName type="formInDocument">kintbury</placeName>
                <placeName type="formInDocument">kintbury, co. berks.</placeName>
@@ -551,7 +540,7 @@
                <note type="charter">MS. Ch. Berkshire 162</note>
             </place>
              
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107039">
                <placeName type="index">Kingston Blount or Kingston Stert</placeName>
                <placeName type="formInDocument">kyngeston</placeName>
                <region type="parish">Aston Rowant</region>
@@ -561,7 +550,7 @@
                <note type="charter">MS. Ch. Berkshire 99</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107040">
                <placeName type="index">Leckford</placeName>
                <placeName type="formInDocument">leckford, co. southampton</placeName>
                <region type="parish">Leckford</region>
@@ -570,7 +559,7 @@
                <note type="charter">MS. Ch. Berkshire 162</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107041">
                <placeName type="index">London</placeName>
                <placeName type="formInDocument">london</placeName>
                <region type="county">City of London</region>
@@ -580,7 +569,7 @@
                <note type="charter">MS. Ch. Berkshire 145</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107042">
                <placeName type="index">Longworth</placeName>
                <placeName type="formInDocument">longworth, with the chapel of charney</placeName>
                <placeName type="formInDocument">longworth, with the chapel of charney annexed</placeName>
@@ -594,7 +583,7 @@
                <note type="charter">MS. Ch. Berkshire 257</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107043">
                <placeName type="index">Mapledurham</placeName>
                <placeName type="formInDocument">mapledurham</placeName>
                <placeName type="formInDocument">mapledurham chausey</placeName>
@@ -606,7 +595,7 @@
                <note type="charter">MS. Ch. Berkshire 117b</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107044">
                <placeName type="index">Stoke Mandeville</placeName>
                <placeName type="formInDocument">middelstoke</placeName>
                <placeName type="formInDocument">midelstoke</placeName>
@@ -619,7 +608,7 @@
                <note type="charter">MS. Ch. Berkshire 120</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107045">
                <placeName type="index">Milton</placeName>
                <placeName type="formInDocument">milton</placeName>
                <region type="parish">Milton</region>
@@ -629,7 +618,7 @@
                <note type="charter">MS. Ch. Berkshire 79</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107046">
                <placeName type="index">Missenden (Great and Little)</placeName>
                <placeName type="formInDocument">missenden</placeName>
                <region type="parish">Missenden (Great and Little)</region>
@@ -638,17 +627,18 @@
                <note type="charter">MS. Ch. Berkshire 60</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107047">
                <placeName type="index">Mongewell</placeName>
                <placeName type="formInDocument">mongewell</placeName>
                <region type="parish">Mongewell</region>
                <region type="county">Oxfordshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/Crowmarsh/53286e1db47fc40beb00017b-Mongewell</idno>
                <idno>https://www.genuki.org.uk/big/eng/OXF/mongewell</idno>
+               <!-- in Crowmarsh acc. to EPNS, but not VoB -->
                <note type="charter">MS. Ch. Berkshire 59</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107048">
                <placeName type="index">North Moreton and South Moreton</placeName>
                <placeName type="formInDocument">morton</placeName>
                <region type="parish">North and South Moreton</region>
@@ -659,7 +649,7 @@
                <note type="charter">MS. Ch. Berkshire 94</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107049">
                <placeName type="index">South Moreton</placeName>
                <placeName type="formInDocument">morton (south)</placeName>
                <placeName type="formInDocument">south morton</placeName>
@@ -672,7 +662,7 @@
                <note type="charter">MS. Ch. Berkshire 123</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107050">
                <placeName type="index">Moulsford</placeName>
                <placeName type="formInDocument">moulesford</placeName>
                <placeName type="formInDocument">moulsford</placeName>
@@ -687,7 +677,7 @@
                <note type="charter">MS. Ch. Berkshire 3</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107051">
                <placeName type="index">New Windsor and Old Windsor</placeName>
                <placeName type="formInDocument">new windsor</placeName>
                <region type="parish">New Windsor and Old Windsor</region>
@@ -698,7 +688,7 @@
                <note type="charter">MS. Ch. Berkshire 172</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107052">
                <placeName type="index">Newington</placeName>
                <placeName type="formInDocument">newinton</placeName>
                <placeName type="formInDocument">newyntone</placeName>
@@ -710,7 +700,7 @@
                <note type="charter">MS. Ch. Berkshire 158</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107053">
                <placeName type="index">Newnham Murren</placeName>
                <placeName type="formInDocument">newnham-murren</placeName>
                <placeName type="formInDocument">nywenham near craumerssche</placeName>
@@ -723,7 +713,7 @@
                <note type="charter">MS. Ch. Berkshire 49</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107054">
                <placeName type="index">Northampton</placeName>
                <placeName type="formInDocument">northampton</placeName>
                <region type="parish">Northampton</region>
@@ -733,7 +723,7 @@
                <note type="charter">MS. Ch. Berkshire 1</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107055">
                <placeName type="index">Oxford</placeName><!--same as Suffolk_places xml:id="place_105449"-->
                <placeName type="formInDocument">oxford</placeName>
                <region type="county">Oxfordshire</region><!--no parish identifiable-->
@@ -745,7 +735,7 @@
                <note type="charter">MS. Ch. Berkshire 157</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107056">
                <placeName type="index">Plympton</placeName>
                <placeName type="formInDocument">plympton</placeName>
                <region type="parish">Plympton</region>
@@ -754,7 +744,7 @@
                <note type="charter">MS. Ch. Berkshire 108</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107057">
                <placeName type="index">Redburne (unidentified)</placeName>
                <placeName type="formInDocument">redburne</placeName>
                <!--<region type="parish"></region>
@@ -762,7 +752,7 @@
                <note type="charter">MS. Ch. Berkshire 38</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107058">
                <placeName type="index">Reading</placeName>
                <placeName type="formInDocument">redyng</placeName>
                <region type="parish">Reading</region>
@@ -772,7 +762,7 @@
                <note type="charter">MS. Ch. Berkshire 163</note><!--unidentified parish-->
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107059">
                <placeName type="index">Remenham</placeName>
                <placeName type="formInDocument">remenham</placeName>
                <region type="parish">Remenham</region>
@@ -782,7 +772,7 @@
                <note type="charter">MS. Ch. Berkshire 163</note>
             </place>
             
-            <place type="place"> 
+            <place subtype="new" type="place" xml:id="place_107060"> 
                <placeName type="index">Salisbury</placeName>
                <placeName type="formInDocument">salisbury</placeName>
                <region type="parish">Salisbury</region>
@@ -796,7 +786,7 @@
                <note type="charter">MS. Ch. Berkshire 95</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107061">
                <placeName type="index">Shephall</placeName>
                <placeName type="formInDocument">schepehal</placeName>
                <region type="parish">Shephall</region>
@@ -806,7 +796,7 @@
                <note type="charter">MS. Ch. Berkshire 57</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107062">
                <placeName type="index">Semley</placeName>
                <placeName type="formInDocument">semelegh, salisbury diocese</placeName>
                <region type="parish">Semley</region>
@@ -816,7 +806,7 @@
                <note type="charter">MS. Ch. Berkshire 95</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107063">
                <placeName type="index">Shabbington</placeName>
                <placeName type="formInDocument">shabbington</placeName>
                <placeName type="formInDocument">shobyndon</placeName> 
@@ -830,7 +820,7 @@
                <note type="charter">MS. Ch. Berkshire 149</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107064">
                <placeName type="index">Shaw</placeName>
                <placeName type="formInDocument">shaw</placeName>
                <placeName type="formInDocument">shawe</placeName>
@@ -842,7 +832,7 @@
                <note type="charter">MS. Ch. Berkshire 165</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107065">
                <placeName type="index">Sonning</placeName>
                <placeName type="formInDocument">sonning</placeName>
                <region type="parish">Sonning</region>
@@ -852,7 +842,7 @@
                <note type="charter">MS. Ch. Berkshire 62</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107066">
                <placeName type="index">Sotwell</placeName>
                <placeName type="formInDocument">sottewell</placeName>
                <placeName type="formInDocument">sottwell</placeName>
@@ -867,7 +857,7 @@
                <note type="charter">MS. Ch. Berkshire 127</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107067">
                <placeName type="index">North Stoke</placeName>
                <placeName type="formInDocument">stoke (north)</placeName>
                <placeName type="formInDocument">north stoke</placeName>
@@ -879,7 +869,7 @@
                <note type="charter">MS. Ch. Berkshire 46</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107068">
                <placeName type="index">Stoke Talmage</placeName>
                <placeName type="formInDocument">stoke talemach</placeName>
                <region type="parish">Stoke Talmage</region>
@@ -887,7 +877,7 @@
                <note type="charter">MS. Ch. Berkshire 98</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107069">
                <placeName type="index">Stokenchurch</placeName>
                <placeName type="formInDocument">stokenchurch</placeName>
                <region type="parish">Stokenchurch</region>
@@ -899,7 +889,7 @@
                <note type="charter">MS. Ch. Berkshire 36</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107070">
                <placeName type="index">Streatley</placeName>
                <placeName type="formInDocument">stretley</placeName>
                <region type="parish">Streatley</region>
@@ -909,7 +899,7 @@
                <note type="charter">MS. Ch. Berkshire 166</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107071">
                <placeName type="index">Sunningwell</placeName>
                <placeName type="formInDocument">sunningwell</placeName>
                <placeName type="formInDocument">sunningwell, alias soningwell, co. berks.</placeName>
@@ -922,7 +912,7 @@
                <note type="charter">MS. Ch. Berkshire 254</note>
             </place>
              
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107072">
                <placeName type="index">Tonfeld (unidentified)</placeName>
                <placeName type="formInDocument">tonfeld</placeName>
                <!--<region type="parish"></region>
@@ -931,8 +921,8 @@
                <!-- ought to be nr Mongewell -->
             </place>
             
-            <place type="place">
-               <placeName type="index">Wallingford </placeName>
+            <place subtype="new" type="place" xml:id="place_107073">
+               <placeName type="index">Wallingford</placeName>
                <placeName type="formInDocument">wallingford</placeName>
                <placeName type="formInDocument">wallingford</placeName>
                <placeName type="formInDocument">w[allingford]</placeName>
@@ -997,7 +987,7 @@
                <note type="charter">MS. Ch. Berkshire 160</note>
                <note type="charter">MS. Ch. Berkshire 96</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107074">
                <placeName type="index">Wallingford, St Mary the More</placeName>
                <placeName type="formInDocument">st. mary</placeName>
                <placeName type="formInDocument">st. mary the greater</placeName>
@@ -1018,7 +1008,7 @@
                <note type="charter">MS. Ch. Berkshire 146</note>
                <note type="charter">MS. Ch. Berkshire 3</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107075">
                <placeName type="index">Wallingford, St Martin</placeName>
                <placeName type="formInDocument">st. martin</placeName>
                <region type="parish">Wallingford, St Martin</region>
@@ -1028,7 +1018,7 @@
                <note type="charter">MS. Ch. Berkshire 3</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107076">
                <placeName type="index">White Waltham</placeName>
                <placeName type="formInDocument">waltham (white)</placeName>
                <placeName type="formInDocument">white waltham</placeName>
@@ -1040,7 +1030,7 @@
                <note type="charter">MS. Ch. Berkshire 256</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107077">
                <placeName type="index">Westminster</placeName>
                <placeName type="formInDocument">westminster</placeName>
                <region type="county" key="place_000050">Middlesex</region>
@@ -1052,7 +1042,7 @@
                <note type="charter">MS. Ch. Berkshire 257</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107078">
                <placeName type="index">Hempton Wainhill</placeName>
                <placeName type="formInDocument">wilnehale</placeName>
                <region type="parish">Chinnor</region>
@@ -1063,7 +1053,7 @@
             
            
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107079">
                <!-- place or org? -->
                <placeName type="index">Windsor Castle</placeName>
                <placeName type="formInDocument">windsor</placeName>
@@ -1081,7 +1071,7 @@
                <note type="charter">MS. Ch. Berkshire 170</note>
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107080">
                <placeName type="index">Wyk (unidentified)</placeName>
                <placeName type="formInDocument">wyk</placeName>
                <!--<region type="parish"></region>
@@ -1090,7 +1080,7 @@
                <!-- ?nr Clapcote, Goring etc. -->
             </place>
             
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_107081">
                <placeName type="index">York</placeName>
                <placeName type="formInDocument">york</placeName>
                <region type="county">Yorkshire, East Riding</region>
@@ -1102,28 +1092,25 @@
          </listPlace>
          
          <listOrg>
-            <org>
-               <orgName type="formInDocument">Barnewell</orgName>
-               <note type="charter">MS. Ch. Berkshire 17</note>
-            </org>
-            <org>
+           
+            <org subtype="new" xml:id="org_107001">
+               <orgName type="index">Bicester, Augustinian priory</orgName>
                <orgName type="formInDocument">Bicester</orgName>
                <note type="charter">MS. Ch. Berkshire 67</note>
             </org>
-            <org>
-               <orgName type="formInDocument">Blessed Mary and St. Nicholas of Ledes, Canterbury diocese</orgName>
-               <note type="charter">MS. Ch. Berkshire 158</note>
-            </org>
-            <org>
+           
+            <org subtype="new" xml:id="org_107002">
+               <orgName type="index">Salisbury, cathedral church</orgName>
                <orgName type="formInDocument">chapter of Salisbury</orgName>
                <note type="charter">MS. Ch. Berkshire 23</note>
             </org>
 
-            <org>
+            <org subtype="new" xml:id="org_107003">
+               <orgName type="index">Goring, priory of Augustinian nuns</orgName>
                <orgName type="formInDocument">convent of Goring</orgName>
                <note type="charter">MS. Ch. Berkshire 117b</note>
             </org>
-            <org>
+            <org subtype="new" xml:id="org_107004">
                <orgName type="index">Wallingford, Benedictine abbey of Holy Trinity</orgName>
                <orgName type="formInDocument">convent of Wallingford</orgName>
                <orgName type="formInDocument">church and monks of Wallingford</orgName>
@@ -1134,66 +1121,6 @@
                <orgName type="formInDocument">holy trinity</orgName>
                <orgName type="formInDocument">holy trinity, wallingford</orgName>
                <idno>https://www.wikidata.org/wiki/Q7963102</idno>
-               <note type="charter">MS. Ch. Berkshire 117b</note>
-               <note type="charter">MS. Ch. Berkshire 7</note>
-               <note type="charter">MS. Ch. Berkshire 23</note>
-               <note type="charter">MS. Ch. Berkshire 117b</note>
-               <note type="charter">MS. Ch. Berkshire 117b</note>
-               <note type="charter">MS. Ch. Berkshire 117b</note>
-               <note type="charter">MS. Ch. Berkshire 122</note>
-               <note type="charter">MS. Ch. Berkshire 41</note>
-               <note type="charter">MS. Ch. Berkshire 97</note>
-               <note type="charter">MS. Ch. Berkshire 99</note>
-               <note type="charter">MS. Ch. Berkshire 144</note>
-               <note type="charter">MS. Ch. Berkshire 107</note>
-               <note type="charter">MS. Ch. Berkshire 101</note>
-               <note type="charter">MS. Ch. Berkshire 117b</note>
-               <note type="charter">MS. Ch. Berkshire 109</note>
-               <note type="charter">MS. Ch. Berkshire 141</note>
-               <note type="charter">MS. Ch. Berkshire 57</note>
-               <note type="charter">MS. Ch. Berkshire 149</note>
-               <note type="charter">MS. Ch. Berkshire 46</note>
-               <note type="charter">MS. Ch. Berkshire 15</note>
-               <note type="charter">MS. Ch. Berkshire 70</note>
-               <note type="charter">MS. Ch. Berkshire 81</note>
-               <note type="charter">MS. Ch. Berkshire 110</note>
-               <note type="charter">MS. Ch. Berkshire 147</note>
-               <note type="charter">MS. Ch. Berkshire 150</note>
-               <note type="charter">MS. Ch. Berkshire 151</note>
-               <note type="charter">MS. Ch. Berkshire 152</note>
-               <note type="charter">MS. Ch. Berkshire 153</note>
-               <note type="charter">MS. Ch. Berkshire 155</note>
-               <note type="charter">MS. Ch. Berkshire 159</note>
-               <note type="charter">MS. Ch. Berkshire 117b</note>
-               <note type="charter">MS. Ch. Berkshire 3</note>
-               <note type="charter">MS. Ch. Berkshire 70</note>
-               <note type="charter">MS. Ch. Berkshire 79</note>
-               <note type="charter">MS. Ch. Berkshire 95</note>
-               <note type="charter">MS. Ch. Berkshire 104</note>
-               <note type="charter">MS. Ch. Berkshire 134</note>
-            </org>
-            
-            <org>
-               <orgName type="formInDocument">dean and college of the free chapel of St. George</orgName>
-               <note type="charter">MS. Ch. Berkshire 168</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">Hospital of B. M. Magd.</orgName>
-               <note type="charter">MS. Ch. Berkshire 49</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">Hospital of Jerusalem in England</orgName>
-               <note type="charter">MS. Ch. Berkshire 117b</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">hospital of St. John</orgName>
-               <note type="charter">MS. Ch. Berkshire 34</note>
-            </org>
-            <org>
-               <orgName type="formInDocument">prior and convent of Ledes</orgName>
-               <note type="charter">MS. Ch. Berkshire 156</note>
-            </org>
-            <org>
                <orgName type="formInDocument">prior and convent of Wallingford</orgName>
                <orgName type="formInDocument">monks of Wallingford</orgName>
                <orgName type="formInDocument">priory of Wallingford</orgName>
@@ -1233,35 +1160,98 @@
                <note type="charter">MS. Ch. Berkshire 128</note>
                <note type="charter">MS. Ch. Berkshire 140</note>
                <note type="charter">MS. Ch. Berkshire 145</note>
-               <note type="charter">Ch. 148</note>
+               <note type="charter">MS. Ch. Berkshire 148</note>
+               <note type="charter">MS. Ch. Berkshire 117b</note>
+               <note type="charter">MS. Ch. Berkshire 7</note>
+               <note type="charter">MS. Ch. Berkshire 23</note>
+               <note type="charter">MS. Ch. Berkshire 117b</note>
+               <note type="charter">MS. Ch. Berkshire 117b</note>
+               <note type="charter">MS. Ch. Berkshire 117b</note>
+               <note type="charter">MS. Ch. Berkshire 122</note>
+               <note type="charter">MS. Ch. Berkshire 41</note>
+               <note type="charter">MS. Ch. Berkshire 97</note>
+               <note type="charter">MS. Ch. Berkshire 99</note>
+               <note type="charter">MS. Ch. Berkshire 144</note>
+               <note type="charter">MS. Ch. Berkshire 107</note>
+               <note type="charter">MS. Ch. Berkshire 101</note>
+               <note type="charter">MS. Ch. Berkshire 117b</note>
+               <note type="charter">MS. Ch. Berkshire 109</note>
+               <note type="charter">MS. Ch. Berkshire 141</note>
+               <note type="charter">MS. Ch. Berkshire 57</note>
+               <note type="charter">MS. Ch. Berkshire 149</note>
+               <note type="charter">MS. Ch. Berkshire 46</note>
+               <note type="charter">MS. Ch. Berkshire 15</note>
+               <note type="charter">MS. Ch. Berkshire 70</note>
+               <note type="charter">MS. Ch. Berkshire 81</note>
+               <note type="charter">MS. Ch. Berkshire 110</note>
+               <note type="charter">MS. Ch. Berkshire 147</note>
+               <note type="charter">MS. Ch. Berkshire 150</note>
+               <note type="charter">MS. Ch. Berkshire 151</note>
+               <note type="charter">MS. Ch. Berkshire 152</note>
+               <note type="charter">MS. Ch. Berkshire 153</note>
+               <note type="charter">MS. Ch. Berkshire 155</note>
+               <note type="charter">MS. Ch. Berkshire 159</note>
+               <note type="charter">MS. Ch. Berkshire 117b</note>
+               <note type="charter">MS. Ch. Berkshire 3</note>
+               <note type="charter">MS. Ch. Berkshire 70</note>
+               <note type="charter">MS. Ch. Berkshire 79</note>
+               <note type="charter">MS. Ch. Berkshire 95</note>
+               <note type="charter">MS. Ch. Berkshire 104</note>
+               <note type="charter">MS. Ch. Berkshire 134</note>
             </org>
-
-            <org>
+            
+            <org subtype="new" xml:id="org_107005">
+              
+            </org>
+            <org subtype="new" xml:id="org_107006">
+               <orgName type="index">Crowmarsh, hospital of St Mary Magdalen</orgName>
+               <orgName type="formInDocument">Hospital of B. M. Magd.</orgName>
+               <note type="charter">MS. Ch. Berkshire 49</note>
+            </org>
+            
+            <org subtype="new" xml:id="org_107007">
+               <orgName type="formInDocument">Hospital of Jerusalem in England</orgName>
+               <note type="charter">MS. Ch. Berkshire 117b</note>
+            </org>
+           
+           
+         
+            <org subtype="new" xml:id="org_107008">
+               <orgName type="index">Reading, Benedictine abbey</orgName>
                <orgName type="formInDocument">Reading</orgName>
                <note type="charter">MS. Ch. Berkshire 15</note>
                <note type="charter">MS. Ch. Berkshire 153</note>
             </org>
-            <org>
+            <org subtype="new" xml:id="org_107009">
+               <orgName type="index">Rewley, Cistercian abbey of St Mary</orgName>
                <orgName type="formInDocument">Rewley</orgName>
                <note type="charter">MS. Ch. Berkshire 154</note>
                <note type="charter">MS. Ch. Berkshire 157</note>
             </org>
-            <org>
+            
+            <org subtype="new" xml:id="org_107010">
+               <orgName type="index">Wallingford, hospital of St John the Baptist</orgName>
                <orgName type="formInDocument">sisters and brethren of the hospital of St. John, Wallingford</orgName>
+               <orgName type="formInDocument">hospital of St. John</orgName>
+               <note type="charter">MS. Ch. Berkshire 34</note>
                <note type="charter">MS. Ch. Berkshire 35</note>
             </org>
-            <org>
+            
+            <org subtype="new" xml:id="org_107011">
+               <orgName type="display">St Albans, Benedictine abbey</orgName>
                <orgName type="formInDocument">St. Alban's</orgName>
                <note type="charter">MS. Ch. Berkshire 97</note>
                <note type="charter">MS. Ch. Berkshire 107</note>
                <note type="charter">MS. Ch. Berkshire 15</note>
             </org>
-            <org>
-               <placeName type="index">Windsor, College of St George ()</placeName>
-               <placeName type="formInDocument">windsor (college of st. george)</placeName>
+            <org subtype="new" xml:id="org_107012">
+               <orgName type="index">Windsor, College of St George</orgName>
+               <orgName type="formInDocument">windsor (college of st. george)</orgName>
                <region type="parish">New Windsor</region>
                <region type="county">Berkshire</region>
                <idno>http://viaf.org/viaf/2142145857037522921207</idno>
+               <orgName type="formInDocument">dean and college of the free chapel of St. George</orgName>
+               <note type="charter">MS. Ch. Berkshire 168</note>
                <note type="charter">Berkshire Rolls, 4</note>
             </org>
          </listOrg>

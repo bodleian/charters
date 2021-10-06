@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_107045">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Berks. 117b</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Berks_117b</idno>
+            <idno type="collection">Berks</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Berks_117b" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Berks. 117b</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107027">CLOPCOTE</placeName>, <placeName key="place_107073">WALLINGFORD</placeName>, <placeName key="place_107032">GORING</placeName>,
+                  <placeName key="place_107080">WYK</placeName>, and <placeName key="place_107043">MAPLEDURHAM</placeName>. 
+                  One leaf from register, in ... containing copies, made in <origDate notBefore="1400" notAfter="1425" precision="low">beginning of 15th century</origDate>, 
+                  of 17 charters of lands, etc. belonging to the <orgName key="org_107004">priory of Wallingford</orgName>. 
+                  [Mutilated, and barely legible.]  
+                  </p>
+                  </msItem>
+                  <msItem>
+                     <p> (a) <persName>
+                           <forename>Henry</forename> de <surname>Porta</surname>
+                        </persName> grants to
+                  <persName>
+                           <forename>William</forename> the clerk of <placeName role="person" key="place_107073">Wallingford</placeName>
+                        </persName>, 
+                  for his homage and service, one acre of arable land in the field of <placeName key="place_107027">Clopcote</placeName> in 
+                  '<placeName type="minor">Koclingforlong</placeName>' paying annually to him and his heirs 1d.; fur this 
+                  charter he gave to the said Henry l0s. sterling. (See MS. Ch. Berks. 11.)</p>
+                  </msItem>
+                  <msItem>
+                     <p> (b) R., the treasurer of the <orgName key="org_107007">Hospital of Jerusalem in England</orgName>, with the consent
+                  of the brethren, grants to <persName>
+                           <forename>Adam</forename> the <surname>cooper</surname>
+                        </persName> one
+                  messuage in <placeName key="place_107027">Clopcote</placeName>, which they had by the gift of 
+                  <persName>
+                           <forename>Ralph</forename> de <surname>Porta</surname>
+                        </persName>; paying annually for the same 12d.
+                  (See MS. Ch. Berks. 12)</p>
+                  </msItem>
+                  <msItem>
+                     <p> (c) <persName>
+                           <forename>John</forename> de <surname>Wallingford</surname>, marshal</persName>, with the
+                  consent of <persName nymRef="Wallingford">
+                           <forename>Sarah</forename> his wife</persName>, quit-claims
+                  to <persName>
+                           <forename>Roger</forename> de <surname>Hamsted</surname>
+                        </persName> and
+                  <persName nymRef="Hamsted">
+                           <forename>Alice</forename> his wife</persName> all right in that tenement which
+                   came to Sarah as dower after the death of <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Guilebole</surname>
+                        </persName> 
+                  her husband, and lyes between a tenement that was <persName>
+                           <forename>Walter</forename> 
+                           <surname>Godlac</surname>
+                        </persName> 
+                  and the cemetery of the <orgName key="org_107004">priory of Wallingford</orgName> in the parish of 
+                  <placeName key="place_107075">St. Martin</placeName>; paying annually to the priory 3s.</p>
+                  </msItem>
+                  <msItem>
+                     <p> (d) <persName>
+                           <forename>Peter</forename> le <surname>Vincter</surname> of <placeName role="person" key="place_107073">Wallingford</placeName>
+                        </persName> 
+                  grants to <persName>
+                           <forename>Roger</forename> de <surname>Hamsted</surname>
+                        </persName> and 
+                  <persName nymRef="Hamsted">
+                           <forename>Alice</forename> his wife</persName>,
+                  for 5 marks in hand paid, the whole of that messuage with appurtenances which is
+                  situated as in charter (c); paying annually to the sacristan of the 
+                  <orgName role="person" key="org_107004">priory of Wallingford</orgName> 4s. 1d</p>
+                  </msItem>
+                  <msItem>
+                     <p>(e) Convention made between the <orgName key="org_107004">prior and convent of Wallingford</orgName> of the one part
+                  and <persName>
+                           <forename>Roger</forename> de <surname>Hamsted</surname>
+                        </persName> of the other, 
+                  A.D. <origDate when="1260">1260</origDate>, in the feast of the Assumption B.V.M.; the said prior and convent 
+                  grant licence to place a gable towards the east of his house which is situated between the land of
+                  <persName>
+                           <forename>Walter</forename> 
+                           <surname>Guthlak</surname>
+                        </persName> on the one part and the cemetery
+                  wall of the priory on the other; for this concession the said Roger gave half a mark and an annual rent of 1d.</p>
+                  </msItem>
+                  <msItem>
+                     <p> (f) <persName>
+                           <forename>Roger</forename> de <surname>Hamsted</surname>
+                        </persName> quit-claims to 
+                  the <orgName key="org_107004">prior and convent of Wallingford</orgName> all his right in the messuage described as above (e)</p>
+                  </msItem>
+                  <msItem>
+                     <p>(g) <persName>
+                           <forename>Alexander</forename> 
+                           <surname>Pernele</surname>
+                        </persName>, son of
+                  <persName>
+                           <forename>William</forename> the clerk of <placeName role="person" key="place_107073">Wallingford</placeName>
+                        </persName>, 
+                  grants to <persName>
+                           <forename>Ralph</forename> de <surname>Watlynton</surname>, the prior</persName>, and
+                  <orgName key="org_107004">monks of Wallingford</orgName> in frankalmoigne one tenement in
+                  the parish of <placeName key="place_107082">Holy Trinity</placeName>, between the tenement sometime
+                  <persName>
+                           <forename>Thomas</forename> the <surname>carter</surname>
+                        </persName>'s and
+                  the tenement of the prior which was <persName>
+                           <forename>William</forename> 
+                           <surname>Prat</surname>
+                        </persName>'s.
+               (Ralph de Watlynton, prior <origDate when="1270" precision="low">c. 1270</origDate>)</p>
+                  </msItem>
+                  <msItem>
+                     <p> (h) <persName>
+                           <forename>Nicholas</forename>, <surname type="patronymic">son of Turold</surname>
+                        </persName>,
+                  grants to the <orgName key="org_107004">church and monks of Wallingford</orgName> in frankalmoigne the messuage he bought of
+                  <persName>
+                           <forename>Guthmund</forename> the <surname>tailor ('parmentario')</surname>
+                        </persName>,
+                  saving a rent of 7 1/2d., which annually is paid to the secretary of the lord of <placeName type="manor" role="lord" key="place_107007">Mungewell</placeName></p>
+                  </msItem>
+                  <msItem>
+                     <p> (i) <persName>
+                           <forename>William</forename> de la <surname>Wyk</surname>
+                        </persName> grants to the 
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> the whole of the tithe of his lordship of
+                  <placeName key="place_107080">Wyk</placeName>; also 2s. annual rent from the tenement of
+                  <persName>
+                           <forename>Gilbert</forename> 
+                           <surname>Baile</surname>
+                        </persName> in frankalmoigne</p>
+                  </msItem>
+                  <msItem>
+                     <p> 
+                        <pb n="11"/> (k) <persName>
+                           <forename>William</forename> 
+                           <surname>Paen</surname>
+                        </persName> grants to the 
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> the whole of the tithe of his lordship of
+                  <placeName key="place_107080">Wyk</placeName></p>
+                  </msItem>
+                  <msItem>
+                     <p> (l) <persName>
+                           <forename>William</forename> de <surname>Drueval</surname>
+                        </persName>, with the consent 
+                  of his sons, gave one hide of land in <placeName key="place_107032">Goring</placeName> to the 
+                  <orgName key="org_107004">monks of Wallingford</orgName> for their care of him while he was ill, and
+                  likewise he gave to them Tedric the younger with one virgate of land, his sons
+                  and belongings; of this hide the virgates are, one held by Tedric the younger,
+                  another by Hereward and Sa... his brother, a third by Godric, Swan, and
+                  Stephen. The fourth virgate with one acre of meadow the lady Huna gave from her
+                  hide which she held in Goring free from all secular service.</p>
+                  </msItem>
+                  <msItem>
+                     <p> (m) <persName>
+                           <forename>Thomas</forename> de <surname>Drueval</surname>
+                        </persName> confirms the donation which
+                  <persName>
+                           <forename>William</forename> de <surname>Drueval</surname>
+                        </persName> his uncle
+                  gave to the <orgName key="org_107004">monks of Wallingford</orgName>, namely one hide of land with one acre of meadow
+                  in <placeName key="place_107032">Goring</placeName></p>
+                  </msItem>
+                  <msItem>
+                     <p>(n) <persName>
+                           <forename>Rualend</forename>, the prior</persName>, and 
+                  <orgName key="org_107004">convent of the Holy Trinity, Wallingford</orgName>, have granted
+                  that hide of land which they hold in <placeName key="place_107032">Goring</placeName> to roof the 
+                  <orgName key="org_107004">church of the Holy Trinity</orgName>
+                  and to supply whatever else is necessary. The secretary, shall on the feast of St.
+                  John 'ante port. Lat.' feed the brethren with bread, wine, and fish.</p>
+                  </msItem>
+                  <msItem>
+                     <p> (o) Convention made between <persName>
+                           <forename>Gregory</forename>, the prior</persName>, and the 
+                  <orgName key="org_107004">convent of Wallingford</orgName> of the one part, and 
+                  <persName>lady <forename>Sarah</forename> the prioress</persName> and <orgName key="org_107003">convent of Goring</orgName> of
+                   the other part, by which the said prior and convent grant one virgate of land in <placeName key="place_107032">Goring</placeName>, 
+                  called '<placeName type="minor">Cunstables land</placeName>,' to the said prioress and convent for an
+                  annual rent of 5s. (See MS. Ch. Berks. 51.) 
+                  Dated at <placeName role="date" key="place_107073">Wallingford</placeName> on the morrow of the Conception B.V.M., <origDate when="1284">1284</origDate></p>
+                  </msItem>
+                  <msItem>
+                     <p> (p) <persName>
+                           <forename>William</forename> de <surname>Rudpult</surname>
+                        </persName> grants to the
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> a rent of 8d., which 
+                  <persName>
+                           <forename>Wimund</forename> de <surname>Swincumbe</surname>
+                        </persName> annually paid for 4 acres 
+                  of land and one of wood above <placeName type="minor">Wikam</placeName>, which is called 
+                  <placeName type="minor">Wodecroft</placeName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p> (q) <persName>
+                           <forename>Lucy</forename> de <surname>Verney</surname>
+                        </persName> is bound to pay to the
+                  <orgName key="org_107004">prior and convent of Wallingford</orgName> annually 8s. for one tenement and two virgates of land
+                  in <placeName key="place_107043">Mapledurham</placeName>, of which virgates 
+                  <persName>
+                           <forename>Robert</forename> le <surname>Frankeleyn</surname>
+                        </persName> formerly held one and
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Frenche</surname>
+                        </persName> ... the
+                  other, which said tenement and two virgates 
+                  <persName>sir <forename>John</forename> of <placeName role="person" key="place_107043">Mapledurham Chausey</placeName>, kt.</persName>,
+                  had from the prior for the said rent of 8s</p>
+                  </msItem>
+                  <msItem>
+                     <p>(r) <persName>
+                           <forename>Walter</forename> de <surname>Chauseye</surname>
+                        </persName> grants to the 
+                  <orgName key="org_107004">church of Wallingford</orgName> one acre of land in <placeName key="place_107043">Mapledurham</placeName>, namely, 
+                  that which is called '<placeName type="minor">havlvesaker</placeName>,' and with this acre 10
+                  sticks of eels or 2s. annually, for the souls of his father, mother, and himself.
+                  (See MS. Ch. Berks. 52.) </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="10" to="11">10-11</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

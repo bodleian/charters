@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_106242">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_107007">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Essex 68</title>
+            <title>MS. Ch. Berks. 167</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,43 +30,32 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Essex_68</idno>
-            <idno type="collection">Essex</idno>
+            <idno type="msID">MS_Ch_Berks_167</idno>
+            <idno type="collection">Berks</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Essex_68" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Berks_167" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Essex 68</idno>
+                  <idno type="shelfmark">MS. Ch. Berks. 167</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> Confirmation by <persName>
-                           <forename>William</forename>, bishop of <placeName role="bishop" type="diocese" key="place_106026">London</placeName>
-                        </persName>, 
-                  of the appropriation of the church of <placeName key="place_106163">Steple</placeName> to the prior and 
-                  <orgName key="org_106021">monks of St. Mary Magdalen, Stanesgate</orgName>, namely all the
-                  land belonging to the church, and all the great and little tithes of the demesne
-                  of <persName>
-                           <forename>Ralph</forename>, <surname type="patronymic">son of Brien</surname>
-                        </persName>, at 
-                  Steple, and of the lordship of <persName>
-                           <forename>Gilbert</forename> 
-                           <surname>Foliot</surname>
-                        </persName>, 
-                  and of the land of <persName>
-                           <forename>Maurice</forename> the earl</persName>, and
-                  all the tithes of <placeName key="place_106144">Ramingeseye</placeName>, and the land called <placeName key="place_106041">Aylewelond</placeName>,
-                  and of that called <placeName type="minor">Hervey's hide</placeName> and of the fee called
-                  <placeName type="minor">Robeshethefe</placeName>. 
-                  (<origDate notBefore="1200" notAfter="1210" precision="low">c. 1200-10</origDate>.)
-                     </p>
+                     <p>
+                        <pb n="3"/>
+                        <placeName key="place_104638">WINDSOR</placeName>. Grant by <persName>King Henry III</persName> of free warren to
+                  <persName>
+                           <forename>Roger</forename> de <surname>Montalt</surname>
+                        </persName> in all his lands in 
+                  <placeName type="country" key="place_104181">England</placeName>.
+                  Dated at <placeName role="date" key="place_104638">Windsor</placeName>, 8 Oct., <origDate when="1257-10-08">41 of his reign</origDate>.
+                  </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -76,15 +65,12 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
-               <history>
-                  <provenance>Archive of Priory of St Mary Magdalen, Stanesgate</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                              <citedRange unit="page" from="75" to="75">75</citedRange>
+                                <citedRange unit="page" from="3" to="3">3</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
