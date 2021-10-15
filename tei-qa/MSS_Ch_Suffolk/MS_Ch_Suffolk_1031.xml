@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105588">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_1051026">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,16 +47,20 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> STONEHAM. Grant from <persName>
-                           <forename>John</forename> 
-                           <surname>Crane</surname> of <placeName role="person" key="place_105219">
-                              <unclear>Cana</unclear>
-                           </placeName>
-                        </persName> in <placeName key="place_105400">Earl's Stoneham</placeName>; 
-                  Temp. <origDate notBefore="1399" notAfter="1413">Hen. IV</origDate>.
-                  [Almost entirely effaced.]
-                  <!--CHK shelfmark, same as the one printed on p. 504-->
-                  </p>
+                     <p>
+                        <persName>
+                           <forename>William</forename> de <surname>Legesteyn</surname>
+                  of <placeName role="person" key="place_105491">Sumerletone</placeName>
+                        </persName> grants to 
+                  <persName>
+                           <forename>Robert</forename>, son of <persName>
+                              <forename>Reginald</forename> 
+                              <surname>Eysseman</surname>
+                           </persName>
+                        </persName>, 
+                  two pieces of marsh in the said village, paying annually for the same one penny, 
+                  (<origDate notBefore="1250" notAfter="1260" precision="low">c. 1250-60</origDate>.) 
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -71,7 +75,7 @@
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="466" to="466">466</citedRange>
+                                <citedRange unit="page" from="504" to="504">504</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

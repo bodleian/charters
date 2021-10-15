@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_1051477">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105933">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Rolls Suffolk 2</title>
+            <title>MS. Ch. Suffolk 1345</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,40 +30,43 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Rolls_Suffolk_2</idno>
+            <idno type="msID">MS_Ch_Suffolk_1345</idno>
             <idno type="collection">Suffolk</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Rolls_Suffolk_2" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Suffolk_1345" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Rolls Suffolk 2</idno>
+                  <idno type="shelfmark">MS. Ch. Suffolk 1345</idno>
                </msIdentifier>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p>BURY ST. EDMUND (Abbey of). Copies of grants to <orgName key="org_105025">St. Saviour's hospital, without Bury North
-                  gate</orgName>, written circa temp. Hen. VII. With an indorsement of its having been produced by 
+                     <p> Fine by which <persName>
+                           <forename>Richard</forename> 
+                           <surname>Fore</surname>
+                        </persName> and 
                   <persName>
-                           <forename>Thomas</forename> 
-                           <surname>Martin</surname>
-                        </persName> in a suit in
-                  the exchequer, 11 Nov. <origDate when="1755">1755</origDate>. 
-                  <persName>G. <surname>Burton</surname>
-                        </persName> v. <persName>J. <surname>Holden</surname>
-                        </persName>
-                  and <persName>W. <surname>Trowell</surname>
-                        </persName>. 
+                           <forename>Margaret</forename> his wife</persName> convey to 
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Whitinton</surname>
+                        </persName> for the sum of £40 a 
+                  garden and orchard in <placeName key="place_104435">Mendham</placeName>. 
+                  <placeName role="date" key="place_100060">Westm[inster]</placeName> 
+                        <origDate notBefore="1575-11-17" notAfter="1576-11-16">[Oct.] 18 Eliz.</origDate>
+                  
+                  [In duplicate <supplied>see MS. Ch. Suffolk 1344</supplied>.]
                   </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="roll">
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
@@ -74,7 +77,7 @@
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="544" to="544">544</citedRange>
+                                <citedRange unit="page" from="497" to="497">497</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
