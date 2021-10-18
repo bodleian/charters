@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_102274">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105933">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Sussex 16b</title>
+            <title>MS. Ch. Suffolk 1345</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,27 +30,39 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Sussex_16b</idno>
-            <idno type="collection">Sussex</idno>
+            <idno type="msID">MS_Ch_Suffolk_1345</idno>
+            <idno type="collection">Suffolk</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Sussex_16b" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Suffolk_1345" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Sussex 16b</idno>
+                  <idno type="shelfmark">MS. Ch. Suffolk 1345</idno>
                </msIdentifier>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p> Tattered fragment of Letters patent dated 8 M[ay], <origDate notBefore="1367-01-25" notAfter="1368-01-24">41 Ed. III</origDate>., being a grant of a licence of mortmain to the <orgName key="org_102002">abbot and
-                  convent of Beggeham</orgName>, to enable them to buy 4 acres of land and 3 acres of meadow
-                  in <placeName key="place_102088">Lamburhurst</placeName>.  
-                  . </p>
+                     <p> Fine by which <persName>
+                           <forename>Richard</forename> 
+                           <surname>Fore</surname>
+                        </persName> and 
+                  <persName>
+                           <forename>Margaret</forename> his wife</persName> convey to 
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Whitinton</surname>
+                        </persName> for the sum of £40 a 
+                  garden and orchard in <placeName key="place_104435">Mendham</placeName>. 
+                  <placeName role="date" key="place_100060">Westm[inster]</placeName> 
+                        <origDate notBefore="1575-11-17" notAfter="1576-11-16">[Oct.] 18 Eliz.</origDate>
+                  
+                  [In duplicate <supplied>see MS. Ch. Suffolk 1344</supplied>.]
+                  </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -59,22 +71,13 @@
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal><!--CHK not sure of the encoding-->
-                        <p>With fragment of the Great Seal, <persName>Edw. III</persName> (5th - Brétigny seal).</p>
-                        <idno type="shelfmark">MS. Ch. Sussex 16b*</idno>
-                     </seal>
-                  </authDesc>
                </physDesc>
-               <history>
-                  <provenance>Archive of Beigham Abbey</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="57" to="57">57</citedRange>
+                                <citedRange unit="page" from="497" to="497">497</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
