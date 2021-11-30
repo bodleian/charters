@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,123 +15,72 @@
    <text>
       <body>
          <listPlace type="manor">
-            <place type="manor">
+            <place type="manor" xml:id="place_108033">
                <placeName type="index">Buckby</placeName>
                <placeName type="formInDocument">long buckebye</placeName>
                <region type="parish">Long Buckby</region>
                <region type="county">Northamptonshire</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F278866</idno>
-               <note type="charter">Ch. 2</note>
+               <note type="charter">MS. Ch. Northants. 2</note>
             </place>
-            <place type="manor">
+            <place type="manor" xml:id="place_108034">
                <placeName type="index">Richmond</placeName>
                <placeName type="formInDocument">Richemount</placeName>
                <region type="parish">Richmond</region>
                <region type="county">Surrey</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F238687</idno>
                <!--<idno>https://www.wikidata.org/wiki/Q1059945</idno> TODO, are these two places the same?-->
-               <note type="charter">Ch. 17</note>
+               <note type="charter">MS. Ch. Northants. 17</note>
             </place>
-            <place type="manor">
+            <place type="manor" xml:id="place_108035">
                <placeName type="index">Scotter</placeName>
                <placeName type="formInDocument">scottor</placeName>
                <placeName type="formInDocument">scottor., co. lincoln</placeName>
                <region type="parish">Scotter</region>
                <region type="county">Lincolnshire</region>
                <!--<idno></idno>no idno found-->
-               <note type="charter">Ch. 12</note>
-               <note type="charter">Ch. 13</note>
+               <note type="charter">MS. Ch. Northants. 12</note>
+               <note type="charter">MS. Ch. Northants. 13</note>
             </place>
-         </listPlace>
-         
-         <listPlace type="diocese" xml:id="place_104006">
-            <place type="diocese">
-               <placeName type="index">Canterbury, archdiocese</placeName>
-               <placeName type="formInDocument">canterbury</placeName>
-               <note type="charter">Ch. 7</note>
-               <note type="charter">Ch. 92</note>
-            </place>
-            <place type="diocese" xml:id="place_100022">
-               <placeName type="index">Ely, diocese</placeName>
-               <placeName type="formInDocument">ely</placeName>
-               <note type="charter">Ch. 7</note>
-            </place>
-            <place type="diocese" xml:id="place_100079">
-               <placeName type="index">Lincoln, diocese</placeName>
-               <placeName type="formInDocument">lincoln</placeName>
-               <note type="charter">Ch. 29b</note>
-               <note type="charter">Ch. 106</note>
-               <note type="charter">Ch. 114</note>
-               <note type="charter">Ch. 160</note>
-               <note type="charter">Ch. 167</note>
-               <note type="charter">Ch. 172</note>
-            </place>
-            <place type="diocese" xml:id="place_106026">
-               <placeName type="index">London, diocese</placeName>
-               <placeName type="formInDocument">london</placeName>
-               <note type="charter">Ch. 7</note>
-               <note type="charter">Ch. 11</note>
-               <note type="charter">Ch. 92</note>
-               <note type="charter">Ch. 153</note>
-               <note type="charter">Ch. 166</note>
-               <note type="charter">Ch. 171</note>
-               <note type="charter">Ch. 170a</note>
-               <note type="charter">Ch. 226</note>
-            </place>
-         </listPlace>
-         
-         <listPlace type="county">
-            <place type="county" xml:id="place_000062">
-               <placeName type="index">Northamptonshire</placeName>
-               <placeName type="formInDocument">northamp</placeName>
-               <placeName type="formInDocument">northampton</placeName>
-               <note type="charter">Ch. 221</note>
-               <note type="charter">Ch. 8</note>
-               <note type="charter">Ch. 7</note>
-               <note type="charter">Ch. 11</note>
-            </place>
-         </listPlace>
-       
-         <listPlace type="deanery">
-            <place type="deanery">
+      
+            <place type="deanery" xml:id="place_108036">
                <placeName type="index">Daventry, deanery</placeName>
                <placeName type="formInDocument">daventry</placeName>
                <region type="county">Northamptonshire</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F117941</idno>
-               <note type="charter">Ch. 44</note>
-               <note type="charter">Ch. 63c</note>
-               <note type="charter">Ch. 68</note>
-               <note type="charter">Ch. 97</note>
-               <note type="charter">Ch. 122</note>
-               <note type="charter">Ch. 171</note>
-               <note type="charter">Ch. 28</note>
-               <note type="charter">Ch. 106</note>
-               <note type="charter">Ch. 191</note>
-               <note type="charter">Ch. 221</note>
+               <note type="charter">MS. Ch. Northants. 44</note>
+               <note type="charter">MS. Ch. Northants. 63c</note>
+               <note type="charter">MS. Ch. Northants. 68</note>
+               <note type="charter">MS. Ch. Northants. 97</note>
+               <note type="charter">MS. Ch. Northants. 122</note>
+               <note type="charter">MS. Ch. Northants. 171</note>
+               <note type="charter">MS. Ch. Northants. 28</note>
+               <note type="charter">MS. Ch. Northants. 106</note>
+               <note type="charter">MS. Ch. Northants. 191</note>
+               <note type="charter">MS. Ch. Northants. 221</note>
             </place>
-         </listPlace>
          
-         <listPlace type="place">
-            <place type="place">
+         
+            <place type="place" xml:id="place_108001">
                <placeName type="index">Ashby St Ledgers</placeName>
                <placeName type="formInDocument">assheby-leger</placeName>
                <region type="parish">Ashby St Ledgers</region>
                <region type="county">Northamptonshire</region>
                <idno>http://epns.nottingham.ac.uk/browse/id/53286a7eb47fc40bba000510</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/AshbyStLegers</idno>
-               <note type="charter">Ch. 1</note>
+               <note type="charter">MS. Ch. Northants. 1</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108002">
                <placeName type="index">Bosworth field</placeName>
                <placeName type="formInDocument">bosworth felde</placeName>
                <region type="parish">Market Bosworth</region>
                <region type="county">Leicestershire</region>
                <idno>https://www.wikidata.org/wiki/Q55876564</idno>
-               <note type="charter">Ch. 17</note>
+               <note type="charter">MS. Ch. Northants. 17</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108003">
                <placeName type="index">Boughton</placeName>
                <placeName type="formInDocument">boughton</placeName>
                <region type="parish">Boughton</region>
@@ -142,44 +90,44 @@
                <note type="charter">MS. Map Northants a. 1</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108004">
                <placeName type="index">Braybrooke</placeName>
                <placeName type="formInDocument">braybroke</placeName>
                <region type="parish">Braybrooke</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Braybrooke/53286a7eb47fc40bba00052b-Braybrooke</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Braybrooke</idno>
-               <note type="charter">Ch. 28</note>
-               <note type="charter">Ch. 101</note>
+               <note type="charter">MS. Ch. Northants. 28</note>
+               <note type="charter">MS. Ch. Northants. 101</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108005">
                <placeName type="index">Brockhall</placeName>
                <placeName type="formInDocument">brockholle</placeName>
                <region type="parish">Brockhall</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Brockhall/53286a7eb47fc40bba00052e-Brockhall</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Brockhall</idno>
-               <note type="charter">Ch. 173</note>
+               <note type="charter">MS. Ch. Northants. 173</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108006">
                <placeName type="index">Long Buckby</placeName>
                <placeName type="formInDocument">bucby</placeName>
                <region type="parish">Long Buckby</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Long+Buckby/53286a7eb47fc40bba0005b2-Long+Buckby</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/LongBuckby</idno>
-               <note type="charter">Ch. 146</note>
+               <note type="charter">MS. Ch. Northants. 146</note>
             </place>
             
             <place type="place" xml:id="place_104247">
                <placeName type="formInDocument">canterbury</placeName>
-               <note type="charter">Ch. 7</note>
-               <note type="charter">Ch. 92</note>
+               <note type="charter">MS. Ch. Northants. 7</note>
+               <note type="charter">MS. Ch. Northants. 92</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108008">
                <placeName type="index">Castor</placeName>
                <placeName type="formInDocument">castor, near peterborough</placeName>
                <region type="parish">Castor</region>
@@ -189,7 +137,7 @@
                <note type="charter">Rolls, 3</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108009">
                <placeName type="index">Cotton End, Far Cotton</placeName>
                <placeName type="formInDocument">cotes</placeName>
                <placeName type="formInDocument">cotes in the parish of hardingstorn</placeName>
@@ -198,32 +146,32 @@
                <region type="parish">Hardingstone</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Hardingstone/53286a5eb47fc40bba000173-Cotton+End%2C+Far+Cotton</idno>
-               <note type="charter">Ch. 3</note>
-               <note type="charter">Ch. 8</note>
-               <note type="charter">Ch. 4</note>
+               <note type="charter">MS. Ch. Northants. 3</note>
+               <note type="charter">MS. Ch. Northants. 8</note>
+               <note type="charter">MS. Ch. Northants. 4</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108010">
                <placeName type="index">Coventry</placeName>
                <placeName type="formInDocument">coventry</placeName>
                <region type="parish">Coventry</region><!--uncertain parish-->
                <region type="county">Warwickshire</region>
                <idno>https://www.genuki.org.uk/big/eng/WAR/Coventry</idno>
-               <note type="charter">Ch. 127</note>
+               <note type="charter">MS. Ch. Northants. 127</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108011">
                <placeName type="index">Crick</placeName>
                <placeName type="formInDocument">crec</placeName>
                <region type="parish">Crick</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Crick/53286a7eb47fc40bba00054e-Crick</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Crick</idno>
-               <note type="charter">Ch. 5</note>
-               <note type="charter">Ch. 6</note>
+               <note type="charter">MS. Ch. Northants. 5</note>
+               <note type="charter">MS. Ch. Northants. 6</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108012">
                <placeName type="index">Daventry</placeName>
                <placeName type="formInDocument">daventr</placeName>
                <placeName type="formInDocument">daventre</placeName>
@@ -232,34 +180,34 @@
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Daventry/53286a7eb47fc40bba000552-Daventry</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Daventry</idno>
-               <note type="charter">Ch. 56</note>
-               <note type="charter">Ch. 173</note>
-               <note type="charter">Ch. 80</note>
-               <note type="charter">Ch. 98</note>
-               <note type="charter">Ch. 210</note>
-               <note type="charter">Ch. 215</note>
-               <note type="charter">Ch. 44</note>
-               <note type="charter">Ch. 63c</note>
-               <note type="charter">Ch. 68</note>
-               <note type="charter">Ch. 97</note>
-               <note type="charter">Ch. 122</note>
-               <note type="charter">Ch. 171</note>
-               <note type="charter">Ch. 28</note>
-               <note type="charter">Ch. 106</note>
-               <note type="charter">Ch. 191</note>
-               <note type="charter">Ch. 221</note>
+               <note type="charter">MS. Ch. Northants. 56</note>
+               <note type="charter">MS. Ch. Northants. 173</note>
+               <note type="charter">MS. Ch. Northants. 80</note>
+               <note type="charter">MS. Ch. Northants. 98</note>
+               <note type="charter">MS. Ch. Northants. 210</note>
+               <note type="charter">MS. Ch. Northants. 215</note>
+               <note type="charter">MS. Ch. Northants. 44</note>
+               <note type="charter">MS. Ch. Northants. 63c</note>
+               <note type="charter">MS. Ch. Northants. 68</note>
+               <note type="charter">MS. Ch. Northants. 97</note>
+               <note type="charter">MS. Ch. Northants. 122</note>
+               <note type="charter">MS. Ch. Northants. 171</note>
+               <note type="charter">MS. Ch. Northants. 28</note>
+               <note type="charter">MS. Ch. Northants. 106</note>
+               <note type="charter">MS. Ch. Northants. 191</note>
+               <note type="charter">MS. Ch. Northants. 221</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108013">
                <placeName type="index">Drayton</placeName>
                <placeName type="formInDocument">drayton</placeName>
                <region type="parish">Daventry</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Daventry/53286a5eb47fc40bba0000e9-Drayton</idno>
-               <note type="charter">Ch. 98</note>
+               <note type="charter">MS. Ch. Northants. 98</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108014">
                <placeName type="index">Guilsborough</placeName>
                <placeName type="formInDocument">gilsborowe</placeName>
                <placeName type="formInDocument">guilsborrowe</placeName>
@@ -268,22 +216,22 @@
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Guilsborough/53286a7eb47fc40bba000584-Guilsborough</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Guilsborough</idno>
-               <note type="charter">Ch. 14</note>
-               <note type="charter">Ch. 15</note>
-               <note type="charter">Ch. 18</note>
+               <note type="charter">MS. Ch. Northants. 14</note>
+               <note type="charter">MS. Ch. Northants. 15</note>
+               <note type="charter">MS. Ch. Northants. 18</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108015">
                <placeName type="index">West Haddon</placeName>
                <placeName type="formInDocument">haddon</placeName>
                <region type="parish">West Haddon</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/West+Haddon/53286a7fb47fc40bba00062c-West+Haddon</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/WestHaddon</idno>
-               <note type="charter">Ch. 28</note>
+               <note type="charter">MS. Ch. Northants. 28</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108016">
                <placeName type="index">Hardingstone</placeName>
                <placeName type="formInDocument">hardingstorn</placeName>
                <placeName type="formInDocument">hardyngesthorn</placeName>
@@ -291,49 +239,30 @@
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Hardingstone/53286a7eb47fc40bba000589-Hardingstone</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Hardingstone</idno>
-               <note type="charter">Ch. 3</note>
-               <note type="charter">Ch. 4</note>
+               <note type="charter">MS. Ch. Northants. 3</note>
+               <note type="charter">MS. Ch. Northants. 4</note>
             </place>
             
-            <place type="country" xml:id="place_104392">
-               <placeName type="formInDocument">ireland</placeName>
-               <note type="charter">Ch. 213</note>
-            </place>
+          
             
-            <place type="place" xml:id="place_104406">
-               <placeName type="formInDocument">lateran</placeName>
-               <note type="charter">Ch. 7</note>
-            </place>
+          
             
-            <place type="place" xml:id="place_104409">
-               <placeName type="formInDocument">limpenhow</placeName>
-               <note type="charter">Ch. 16</note>
-            </place>
+        
             
-            <place type="place" xml:id="place_100051">
-               <placeName type="formInDocument">london</placeName>
-               <note type="charter">Ch. 7</note>
-               <note type="charter">Ch. 11</note>
-               <note type="charter">Ch. 92</note>
-               <note type="charter">Ch. 153</note>
-               <note type="charter">Ch. 166</note>
-               <note type="charter">Ch. 171</note>
-               <note type="charter">Ch. 170a</note>
-               <note type="charter">Ch. 226</note>
-            </place>
+           
             
-            <place type="place">
+            <place type="place" xml:id="place_108017">
                <placeName type="index">Marsh Gibbon</placeName>
                <placeName type="formInDocument">mersh, co. bucks</placeName>
                <region type="parish">Marsh Gibbon</region>
                <region type="county">Buckinghamshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Marsh+Gibbon/53282ee4b47fc407e3000391-Marsh+Gibbon</idno>
                <idno>https://www.genuki.org.uk/big/eng/BKM/MarshGibbon</idno>
-               <note type="charter">Ch. 117</note>
-               <note type="charter">Ch. 220</note>
+               <note type="charter">MS. Ch. Northants. 117</note>
+               <note type="charter">MS. Ch. Northants. 220</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108018">
                <placeName type="index">Muscott</placeName>
                <placeName type="formInDocument">mucote</placeName>
                <placeName type="formInDocument">muscote</placeName>
@@ -341,18 +270,13 @@
                <region type="parish">Norton</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Norton/53286a5fb47fc40bba000238-Muscott</idno>
-               <note type="charter">Ch. 233</note>
-               <note type="charter">Ch. 103</note>
+               <note type="charter">MS. Ch. Northants. 233</note>
+               <note type="charter">MS. Ch. Northants. 103</note>
             </place>
 
-            <place type="place" xml:id="place_107054">
-               <placeName type="formInDocument">northampton</placeName>
-               <note type="charter">Ch. 8</note>
-               <note type="charter">Ch. 7</note>
-               <note type="charter">Ch. 11</note>
-            </place>
+        
             
-            <place type="place">
+            <place type="place" xml:id="place_108019">
                <placeName type="index">Norton</placeName>
                <placeName type="formInDocument">norton</placeName>
                <placeName type="formInDocument">norton near daventre</placeName>
@@ -361,13 +285,13 @@
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Norton/53286a7eb47fc40bba0005cb-Norton</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Norton</idno>
-               <note type="charter">Ch. 97</note>
-               <note type="charter">Ch. 106</note>
-               <note type="charter">Ch. 103</note>
-               <note type="charter">Ch. 233</note>
+               <note type="charter">MS. Ch. Northants. 97</note>
+               <note type="charter">MS. Ch. Northants. 106</note>
+               <note type="charter">MS. Ch. Northants. 103</note>
+               <note type="charter">MS. Ch. Northants. 233</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108020">
                <placeName type="index">Noseley</placeName>
                <placeName type="formInDocument">nowesley</placeName>
                <placeName type="formInDocument">nowesley, co. leicester</placeName>
@@ -375,24 +299,20 @@
                <region type="county">Leicestershire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Leicestershire/Noseley/53285cfbb47fc40adf0011a3-Noseley</idno>
                <idno>https://www.genuki.org.uk/big/eng/LEI/Noseley</idno>
-               <note type="charter">Ch. 121</note>
+               <note type="charter">MS. Ch. Northants. 121</note>
             </place>
             
-            <place type="place" xml:id="place_100052">
-               <placeName type="formInDocument">peterborough</placeName>
-               <note type="charter">Rolls, 3</note>
-            </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108021">
                <placeName type="index">Little Preston</placeName>
                <placeName type="formInDocument">little preston</placeName>
                <region type="parish">Preston Capes</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Preston+Capes/53286a5fb47fc40bba00028b-Little+Preston</idno>
-               <note type="charter">Ch. 117</note>
+               <note type="charter">MS. Ch. Northants. 117</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108022">
                <placeName type="index">Preston Capes</placeName>
                <placeName type="formInDocument">great preston</placeName>
                <placeName type="formInDocument">preston</placeName>
@@ -402,120 +322,111 @@
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Preston+Capes/53286a7eb47fc40bba0005df-Preston+Capes</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Capes</idno>
-               <note type="charter">Ch. 64</note>
-               <note type="charter">Ch. 93</note>
-               <note type="charter">Ch. 134</note>
+               <note type="charter">MS. Ch. Northants. 64</note>
+               <note type="charter">MS. Ch. Northants. 93</note>
+               <note type="charter">MS. Ch. Northants. 134</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108023">
                <placeName type="index">Rugby</placeName>
                <placeName type="formInDocument">rokeby</placeName>
                <region type="parish">Rugby</region>
                <region type="county">Warwickshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/Rugby/53287436b47fc40c5f0007c8-Rugby</idno>
                <idno>https://www.genuki.org.uk/big/eng/WAR/Rugby</idno>
-               <note type="charter">Ch. 158</note>
+               <note type="charter">MS. Ch. Northants. 158</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108024">
                <placeName type="index">Sandwich</placeName>
                <placeName type="formInDocument">sandwich</placeName>
                <region type="parish">Sandwich</region>
                <region type="county">Kent</region>
                <idno>https://www.genuki.org.uk/big/eng/KEN/Sandwich</idno>
                <idno>https://www.wikidata.org/wiki/Q26163</idno>
-               <note type="charter">Ch. 93</note>
+               <note type="charter">MS. Ch. Northants. 93</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108025">
                <placeName type="index">Staverton</placeName>
                <placeName type="formInDocument">staverton</placeName>
                <region type="parish">Staverton</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/53286a61b47fc40bba0004a7-Staverton</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Staverton</idno>
-               <note type="charter">Ch. 106</note>
-               <note type="charter">Ch. 85a</note>
-               <note type="charter">Ch. 159a</note>
-               <note type="charter">Ch. 215</note>
-               <note type="charter">Ch. 252</note>
+               <note type="charter">MS. Ch. Northants. 106</note>
+               <note type="charter">MS. Ch. Northants. 85a</note>
+               <note type="charter">MS. Ch. Northants. 159a</note>
+               <note type="charter">MS. Ch. Northants. 215</note>
+               <note type="charter">MS. Ch. Northants. 252</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108026">
                <placeName type="index">Stenemor (unidentified)</placeName>
                <placeName type="formInDocument">stenemor</placeName>
-               <note type="charter">Ch. 17</note>
+               <note type="charter">MS. Ch. Northants. 17</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108027">
                <placeName type="index">Stoke (unidentified)</placeName><!--Stoke Albany, Stoke Bruerne or Stoke Doyle-->
                <placeName type="formInDocument">stoke</placeName>
                <region type="county">Northamptonshire</region>
-               <note type="charter">Ch. 10</note>
+               <note type="charter">MS. Ch. Northants. 10</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108028">
                <placeName type="index">Stuchbury</placeName>
                <placeName type="formInDocument">stuttesbyry</placeName>
                <region type="parish">Stuchbury</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Stuchbury/53286a7eb47fc40bba000601-Stuchbury</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Stuchbury</idno>
-               <note type="charter">Ch. 63c</note>
+               <note type="charter">MS. Ch. Northants. 63c</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108029">
                <placeName type="index">Swyneford (unidentified)</placeName>
                <placeName type="formInDocument">swyneford</placeName>
-               <note type="charter">Ch. 18</note>
+               <note type="charter">MS. Ch. Northants. 18</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108030">
                <placeName type="index">Silsworth Lodge</placeName>
                <placeName type="formInDocument">sylesworth</placeName>
                <region type="parish">Watford</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Watford/53286a5fb47fc40bba000348-Silsworth+Lodge</idno>
-               <note type="charter">Ch. 144</note>
+               <note type="charter">MS. Ch. Northants. 144</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108031">
                <placeName type="index">Welton</placeName>
                <placeName type="formInDocument">welton</placeName>
                <region type="parish">Welton</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/Welton/53286a7fb47fc40bba00062a-Welton</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Welton</idno>
-               <note type="charter">Ch. 159a</note>
+               <note type="charter">MS. Ch. Northants. 159a</note>
             </place>
             
-            <place type="place">
+            <place type="place" xml:id="place_108032">
                <placeName type="index">West Haddon</placeName>
                <placeName type="formInDocument">west haddon</placeName>
                <region type="parish">West Haddon</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Northamptonshire/West+Haddon/53286a7fb47fc40bba00062c-West+Haddon</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/WestHaddon</idno>
-               <note type="charter">Ch. 106</note>
-               <note type="charter">Ch. 59</note>
-               <note type="charter">Ch. 158</note>
-               <note type="charter">Ch. 157</note>
-               <note type="charter">Ch. 137</note>
-               <note type="charter">Ch. 127</note>
+               <note type="charter">MS. Ch. Northants. 106</note>
+               <note type="charter">MS. Ch. Northants. 59</note>
+               <note type="charter">MS. Ch. Northants. 158</note>
+               <note type="charter">MS. Ch. Northants. 157</note>
+               <note type="charter">MS. Ch. Northants. 137</note>
+               <note type="charter">MS. Ch. Northants. 127</note>
             </place>
             
-            <place type="place" xml:id="place_100060">
-               <placeName type="formInDocument">westminster</placeName>
-               <note type="charter">Ch. 14</note>
-               <note type="charter">Ch. 15</note>
-               <note type="charter">Ch. 98</note>
-               <note type="charter">Ch. 218</note>
-            </place>
+           
             
-            <place type="place" xml:id="place_101060">
-               <placeName type="formInDocument">worcester</placeName>
-               <note type="charter">Ch. 128b</note>
-            </place>
+           
          </listPlace>
          
          <listOrg>
@@ -533,98 +444,98 @@
                <orgName type="formInDocument">prior and convent of Daventre</orgName>
                <orgName type="formInDocument">prior and convent of Daventry</orgName>
                <orgName type="formInDocument">prior of Daventry</orgName>
-               <note type="charter">Ch. 154</note>
-               <note type="charter">Ch. 252</note>
-               <note type="charter">Ch. 101</note>
-               <note type="charter">Ch. 117</note>
-               <note type="charter">Ch. 18</note>
-               <note type="charter">Ch. 63c</note>
-               <note type="charter">Ch. 92</note>
-               <note type="charter">Ch. 121</note>
-               <note type="charter">Ch. 127</note>
-               <note type="charter">Ch. 218</note>
-               <note type="charter">Ch. 124</note>
-               <note type="charter">Ch. 173</note>
-               <note type="charter">Ch. 137</note>
-               <note type="charter">Ch. 170a</note>
-               <note type="charter">Ch. 106</note>
-               <note type="charter">Ch. 163</note>
-               <note type="charter">Ch. 128b</note>
-               <note type="charter">Ch. 133</note>
-               <note type="charter">Ch. 119</note>
-               <note type="charter">Ch. 144</note>
-               <note type="charter">Ch. 155</note>
-               <note type="charter">Ch. 220</note>
-               <note type="charter">Ch. 225</note>
-               <note type="charter">Ch. 153</note>
-               <note type="charter">Ch. 146</note>
-               <note type="charter">Ch. 166</note>
-               <note type="charter">Ch. 210</note>
-               <note type="charter">Ch. 226</note>
-               <note type="charter">Ch. 11</note>
-               <note type="charter">Ch. 171</note>
-               <note type="charter">Ch. 64</note>
-               <note type="charter">Ch. 134</note>
-               <note type="charter">Ch. 260</note>
-               <note type="charter">Ch. 102a</note>
+               <note type="charter">MS. Ch. Northants. 154</note>
+               <note type="charter">MS. Ch. Northants. 252</note>
+               <note type="charter">MS. Ch. Northants. 101</note>
+               <note type="charter">MS. Ch. Northants. 117</note>
+               <note type="charter">MS. Ch. Northants. 18</note>
+               <note type="charter">MS. Ch. Northants. 63c</note>
+               <note type="charter">MS. Ch. Northants. 92</note>
+               <note type="charter">MS. Ch. Northants. 121</note>
+               <note type="charter">MS. Ch. Northants. 127</note>
+               <note type="charter">MS. Ch. Northants. 218</note>
+               <note type="charter">MS. Ch. Northants. 124</note>
+               <note type="charter">MS. Ch. Northants. 173</note>
+               <note type="charter">MS. Ch. Northants. 137</note>
+               <note type="charter">MS. Ch. Northants. 170a</note>
+               <note type="charter">MS. Ch. Northants. 106</note>
+               <note type="charter">MS. Ch. Northants. 163</note>
+               <note type="charter">MS. Ch. Northants. 128b</note>
+               <note type="charter">MS. Ch. Northants. 133</note>
+               <note type="charter">MS. Ch. Northants. 119</note>
+               <note type="charter">MS. Ch. Northants. 144</note>
+               <note type="charter">MS. Ch. Northants. 155</note>
+               <note type="charter">MS. Ch. Northants. 220</note>
+               <note type="charter">MS. Ch. Northants. 225</note>
+               <note type="charter">MS. Ch. Northants. 153</note>
+               <note type="charter">MS. Ch. Northants. 146</note>
+               <note type="charter">MS. Ch. Northants. 166</note>
+               <note type="charter">MS. Ch. Northants. 210</note>
+               <note type="charter">MS. Ch. Northants. 226</note>
+               <note type="charter">MS. Ch. Northants. 11</note>
+               <note type="charter">MS. Ch. Northants. 171</note>
+               <note type="charter">MS. Ch. Northants. 64</note>
+               <note type="charter">MS. Ch. Northants. 134</note>
+               <note type="charter">MS. Ch. Northants. 260</note>
+               <note type="charter">MS. Ch. Northants. 102a</note>
             </org>
             
-            <org>
+            <org xml:id="org_108002">
                <orgName type="index">Coventry, Benedictine cathedral priory of St Mary</orgName>
                <orgName type="formInDocument">cathedral church of St. Mary the Virgin of Coventry</orgName>
                <idno>http://viaf.org/viaf/311465280</idno>
-               <note type="charter">Ch. 127</note>
-               <note type="charter">Ch. 135</note>
-               <note type="charter">Ch. 145</note>
-               <note type="charter">Ch. 162</note>
-               <note type="charter">Ch. 156</note>
+               <note type="charter">MS. Ch. Northants. 127</note>
+               <note type="charter">MS. Ch. Northants. 135</note>
+               <note type="charter">MS. Ch. Northants. 145</note>
+               <note type="charter">MS. Ch. Northants. 162</note>
+               <note type="charter">MS. Ch. Northants. 156</note>
             </org>
             
-            <org>
+            <org xml:id="org_108003">
                <orgName type="index">Peterborough, Benedictine abbey</orgName>
                <orgName type="formInDocument">convent of Peterborough</orgName>
                <idno>http://viaf.org/viaf/139684558</idno>
-               <note type="charter">Ch. 12</note>
-               <note type="charter">Ch. 13</note>
+               <note type="charter">MS. Ch. Northants. 12</note>
+               <note type="charter">MS. Ch. Northants. 13</note>
             </org>
             
-            <org>
+            <org xml:id="org_108004">
                <orgName type="index">Northampton, Augustinian abbey of St James</orgName>
                <orgName type="formInDocument">convent of St. James without Northampton</orgName>
                <orgName type="formInDocument">St. James near Northampton</orgName>
                <orgName type="formInDocument">monastery of St. James</orgName>
                <idno>https://www.wikidata.org/wiki/Q15262548</idno>
-               <note type="charter">Ch. 128a</note>
-               <note type="charter">Ch. 119</note>
-               <note type="charter">Ch. 144</note>
-               <note type="charter">Ch. 155</note>
-               <note type="charter">Ch. 165</note>
-               <note type="charter">Ch. 8</note>
+               <note type="charter">MS. Ch. Northants. 128a</note>
+               <note type="charter">MS. Ch. Northants. 119</note>
+               <note type="charter">MS. Ch. Northants. 144</note>
+               <note type="charter">MS. Ch. Northants. 155</note>
+               <note type="charter">MS. Ch. Northants. 165</note>
+               <note type="charter">MS. Ch. Northants. 8</note>
             </org>
 
-            <org>
+            <org xml:id="org_108005">
                <orgName type="index">Northampton, Cluniac priory of St Andrew</orgName>
                <orgName type="formInDocument">prior and monks of St. Andrew, Northampton</orgName>
                <orgName type="formInDocument">priory of St. Andrew, Northampton</orgName>
                <idno>https://www.wikidata.org/wiki/Q24718388</idno>
                <note type="charter">Rolls, 2</note>
-               <note type="charter">Ch. 7</note>
+               <note type="charter">MS. Ch. Northants. 7</note>
             </org>
             
-            <org>
+            <org xml:id="org_108006">
                <orgName type="index">Catesby, Cistercian priory</orgName>
                <orgName type="formInDocument">priory of Catesby</orgName>
                <idno>https://www.wikidata.org/wiki/Q5051960</idno>
-               <note type="charter">Ch. 92</note>
+               <note type="charter">MS. Ch. Northants. 92</note>
             </org>
             
-            <org>
+            <org xml:id="org_108007">
                <orgName type="index">Northampton, Hospital of St Leonard</orgName>
                <orgName type="formInDocument">st. leonard in coton near northampton</orgName>
                <region type="parish">Hardingstone</region>
                <region type="county">Northamptonshire</region>
                <bibl>'Hospitals: St Leonard, Northampton', in <title>A History of the County of Northampton: Volume 2</title>, ed. R M Serjeantson and W R D Adkins (London, 1906), pp. 159-161. British History Online http://www.british-history.ac.uk/vch/northants/vol2/pp159-161 [accessed 9 November 2021].</bibl>
-               <note type="charter">Ch. 4</note>
+               <note type="charter">MS. Ch. Northants. 4</note>
             </org>
          </listOrg>
       </body>
