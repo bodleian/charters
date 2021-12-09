@@ -15,7 +15,7 @@
    </teiHeader>
    <text>
       <body>
-         <!-- ckd to end D, 9.12.21 -->
+         <!-- ckd to l. 3977, 9.12.21 -->
          <listPlace type="diocese">
             <place type="diocese">
                <placeName type="index">Bangor, diocese</placeName>
@@ -3392,8 +3392,6 @@
                <note type="charter">MS. D. D. Ch. Ch. F. 142. </note>
             </place>
             
-            <!-- here 9.12.21 -->
-            
             <place type="place">
                <placeName type="index">Ewelme</placeName>
                <placeName type="formInDocument">eawelme</placeName>
@@ -3417,13 +3415,13 @@
             <place type="place">
                <placeName type="index">Eflintona (unidentified)</placeName>
                <placeName type="formInDocument">Eflintona</placeName>
-               <note type="charter">MS. D. D. Ch. Ch. O. 994</note>
+               <note type="charter">MS. D. D. Ch. Ch. O. 994</note><!-- near Letcombe? not found 9.12.21-->
             </place>
             
             <place type="place">
                <placeName type="index">Elg (unidentified)</placeName>
                <placeName type="formInDocument">elg</placeName>
-               <note type="charter">MS. Rolls Oxon. Oseney 28</note>
+               <note type="charter">MS. Rolls Oxon. Oseney 28</note><!-- Tonbridge priory, Kent; not found 9.12.21 -->
             </place>
             
             <place type="place">
@@ -3447,7 +3445,7 @@
             
             <place type="place">
                <placeName type="index">Elstone (unidentified)</placeName><!--there's Elston, Nottinghamshire, but other places in the doc are in Berkshire-->
-               <placeName type="formInDocument">elstone</placeName>
+               <placeName type="formInDocument">elstone</placeName><!-- nr Letcombe; ?=Elfinston above -->
                <note type="charter">MS. Ch. Oxon. Oseney 150</note>
             </place>
             
@@ -3539,8 +3537,8 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Fyfield</placeName><!--in Berkshire, Essex and Wiltshire > not sure which applies here-->
-               <placeName type="formInDocument">Fifhide</placeName>
+               <placeName type="index">Fyfield (unidentified)</placeName><!--in Berkshire, Essex and Wiltshire > not sure which applies here-->
+               <placeName type="formInDocument">Fifhide</placeName><!-- the one in Berks seems most likely geographically -->
                <!--perhaps: <bibl>'Fyfield: Manors', in <title>A History of the County of Essex: Volume 4, Ongar Hundred</title>, ed. W R Powell (London, 1956), pp. 46-52. British History Online http://www.british-history.ac.uk/vch/essex/vol4/pp46-52 [accessed 28 September 2021].</bibl>-->
                <note type="charter">MS. D. D. Ch. Ch. F. 127</note><!--'knight of Fifhide'-->
             </place>
@@ -3607,9 +3605,12 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Foxton (unidentified)</placeName>
-               <placeName type="formInDocument">foxston</placeName><!--one in Cambridgeshire, one in Leicestershire-->
+               <placeName type="index">Foxton</placeName>
+               <placeName type="formInDocument">foxston</placeName>
+               <region type="parish">Foxton</region>
+               <region type="county">Leicestershire</region>
                <note type="charter">MS. Ch. Oxon. 138b</note>
+               <!-- in Leics where Daventry Priory had a manor later of Christ Church : https://www.british-history.ac.uk/vch/leics/vol5/pp90-96 -->
             </place>
             
             <place type="place">
@@ -3635,22 +3636,24 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Fulwell (unidentified)</placeName>
+               <placeName type="index">Fulwell</placeName>
                <placeName type="formInDocument">[ful]well</placeName>
-               <region type="county">Oxfordshire</region><!--as per Turner and Coxe-->
-               <note type="charter">MS. Ch. Oxon. Oseney 214a</note>
+               <region type="parish">Mixbury</region>
+               <region type="county">Oxfordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/Mixbury/53286e1fb47fc40beb00040a-Fulwell</idno>
+               <note type="charter">MS. Ch. Oxon. Oseney 214a</note><!-- ought to be near Westbury in Bucks -->
             </place>
             
             <place type="place">
-               <placeName type="index">Fethard (Ireland)</placeName>
+               <placeName type="index">Fethard</placeName>
                <placeName type="formInDocument">fythard</placeName>
                <region type="parish">Fethard</region>
                <region type="county">Tipperary</region>
+               <country>Ireland</country>
                <idno>https://www.wikidata.org/wiki/Q2669658</idno>
                <note type="charter">MS. Ch. Oxon. Oseney 230b</note>
                <note type="charter">MS. Ch. Oxon. Oseney 232</note>
             </place>
-            
             <place type="place">
                <placeName type="index">Garsington</placeName>
                <placeName type="formInDocument">garsingdon</placeName>
@@ -3700,12 +3703,12 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Goldicote Ho</placeName>
+               <placeName type="index">Goldicote</placeName>
                <placeName type="formInDocument">goldicote</placeName>
                <region type="parish">Alderminster</region>
                <region type="county">Worcestershire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Worcestershire/Alderminster/53288a08b47fc40d6b00001a-Goldicote+Ho</idno>
-               <note type="charter">MS. Ch. Oxon. Oseney 516</note>
+               <note type="charter">MS. Ch. Oxon. Oseney 516</note><!-- person of, granted land in Oxford -->
             </place>
             
             <place type="place">
@@ -3969,6 +3972,8 @@
                <idno>https://www.genuki.org.uk/big/eng/NTH/Grendon</idno>
                <note type="charter">MS. Ch. Oxon. 166</note>
             </place>
+            
+            <!-- here 9.12.21 -->
             
             <place type="place">
                <placeName type="index">Hade (unidentified)</placeName>
