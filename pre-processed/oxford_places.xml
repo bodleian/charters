@@ -15,7 +15,7 @@
    </teiHeader>
    <text>
       <body>
-         
+         <!-- ckd to end D, 9.12.21 -->
          <listPlace type="diocese">
             <place type="diocese">
                <placeName type="index">Bangor, diocese</placeName>
@@ -2543,7 +2543,7 @@
                <region type="parish">Cowley</region>
                <region type="county">Oxfordshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/Cowley/53286e1db47fc40beb000166-Barton</idno>
-               <note type="charter">MS. Ch. Oxon. 206a</note><!--burton, co. oxon; or should this be Black Burton?-->
+               <note type="charter">MS. Ch. Oxon. 206a</note><!--burton, co. oxon; or should this be Black Burton? Simon Dringe of, unclear -->
                <note type="charter">MS. D. D. Ch. Ch. O. 1000</note><!--to Oseney, near Forest Hill-->
                <note type="charter">MS. D. D. Ch. Ch. O. 985</note><!--to Oseney, near Forest Hill-->
             </place>
@@ -2733,14 +2733,14 @@
             
             <place type="place">
                <placeName type="index">Bisbrooke</placeName>
-               <placeName type="formInDocument">byssebroke</placeName><!--Bisbrooke in Rutland? unlikely... [ https://www.british-history.ac.uk/vch/rutland/vol2/pp175-179#h3-0004 confirms]-->
+               <placeName type="formInDocument">byssebroke</placeName><!--Bisbrooke in Rutland... [ https://www.british-history.ac.uk/vch/rutland/vol2/pp175-179#h3-0004 confirms]-->
                <region type="parish">Bisbrooke</region>
                <region type="county">Rutland</region>
                <note type="charter">MS. Ch. Oxon. 138b</note>
             </place>
             
             <place type="place">
-               <placeName type="index">Caglesmere (unidentified)</placeName>
+               <placeName type="index">Caglesmere (unidentified)</placeName><!-- possibly a minor name -->
                <placeName type="formInDocument">caglesmere</placeName>
                <note type="charter">MS. Ch. Oxon. Oseney 287a</note>
             </place>
@@ -2748,7 +2748,7 @@
             <place type="place">
                <placeName type="index">Caluwalid (unidentified)</placeName>
                <placeName type="formInDocument">caluwalid</placeName>
-               <region type="county">Buckinghamshire</region><!--as per Turner and Coxe-->
+               <region type="county">Buckinghamshire</region><!--as per Turner and Coxe; check spelling in original doc? -->
                <note type="charter">MS. Ch. Oxon. 49</note>
             </place>
             
@@ -2824,8 +2824,8 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Chapel of frees (unidentified)</placeName>
-               <placeName type="formInDocument">chapel of frees</placeName>
+               <placeName type="index">Frees (unidentified)</placeName>
+               <placeName type="formInDocument">frees</placeName>
                <note type="charter">MS. Ch. Oxon. Oseney 564b</note>
             </place>
             
@@ -2892,13 +2892,13 @@
                <note type="charter">MS. Ch. Oxon. 24</note>
             </place>
             
-            <place type="place">
+           <!-- minor? <place type="place">
                <placeName type="index">Chiscumbe (unidentified)</placeName>
                <placeName type="formInDocument">chiscumbe</placeName>
-               <region type="parish">Hartwell</region><!--as per Turner and Coxe-->
+               <region type="parish">Hartwell</region><!-\-as per Turner and Coxe-\->
                <region type="county">Buckinghamshire</region>
                <note type="charter">MS. Ch. Oxon. Oseney 157</note>
-            </place>
+            </place>-->
             
             <place type="place">
                <placeName type="index">Cholsey</placeName>
@@ -2935,8 +2935,8 @@
           
             
             <place type="place">
-               <placeName type="index">Church of St. Benedict, near Cornulle (unidentified)</placeName>
-               <placeName type="formInDocument">church of st. benedict, near cornulle</placeName>
+               <placeName type="index">Cornulle (unidentified)</placeName>
+               <placeName type="formInDocument">cornulle</placeName>
                <note type="charter">MS. Ch. Oxon. Oseney 529</note>
             </place>
             
@@ -2990,7 +2990,7 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Clingre Ho</placeName>
+               <placeName type="index">Clingre Ho</placeName><!-- CHECK: Clehonger in Herefordshire is more likely??? -->
                <placeName type="formInDocument">cleyhunger</placeName>
                <region type="parish">Cam</region>
                <region type="county">Gloucestershire</region>
@@ -3009,12 +3009,11 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Cloppelai (unidentified)</placeName>
+               <placeName type="index">Clopley</placeName>
                <placeName type="formInDocument">cloppelai</placeName>
-<!--           <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
-               <idno></idno>-->
+           <region type="parish">Sevenhampton</region>
+               <region type="county">Gloucestershire</region>
+               <idno>http://epns.nottingham.ac.uk/browse/Gloucestershire/Sevenhampton/53285a96b47fc40ab300124f-Clopley</idno>
                <note type="charter">MS. Ch. Oxon. Oseney 179</note>
             </place>
             
@@ -3032,7 +3031,7 @@
             <place type="place">
                <placeName type="index">Cocowald (unidentified)</placeName>
                <placeName type="formInDocument">Cocowald</placeName>
-               <note type="charter">MS. D. D. Ch. Ch. F. 24</note>
+               <note type="charter">MS. D. D. Ch. Ch. F. 24</note><!-- person of -->
             </place>
             
             <place type="place">
@@ -3138,8 +3137,10 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Cropley (unidentified)</placeName><!--close to Binsey, Oxford boundary-->
+               <placeName type="index">Cropley (unidentified or lost)</placeName><!--close to Binsey, Oxford boundary-->
                <placeName type="formInDocument">cropley</placeName>
+               <region type="parish">Binsey (?)</region>
+               <region type="county">Oxfordshire</region>
                <note type="charter">MS. Ch. Oxon. 133b</note>
             </place>
             
@@ -3390,6 +3391,8 @@
                <idno>https://www.genuki.org.uk/big/eng/WIL/Devizes</idno>
                <note type="charter">MS. D. D. Ch. Ch. F. 142. </note>
             </place>
+            
+            <!-- here 9.12.21 -->
             
             <place type="place">
                <placeName type="index">Ewelme</placeName>
