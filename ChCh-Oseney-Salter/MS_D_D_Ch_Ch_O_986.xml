@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_5001031">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_5001031">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +50,7 @@
                   <textLang mainLang="la">Latin</textLang>
                   <!-- DATE not in Salter, TA entered as per King Stephen's regnal years-->
                   <msItem>
-                     <p><persName>King Stephen</persName> grant to <orgName>Oseney</orgName> the prebend of <placeName>Peverel</placeName>. 
+                     <p><persName>King Stephen</persName> grant to <orgName key="org_109067">Oseney</orgName> the prebend of <placeName key="place_109448">Peverel</placeName>. 
                      <origDate notBefore="1135" notAfter="1154">1135-54</origDate>.</p>
                   </msItem>
                </msContents>

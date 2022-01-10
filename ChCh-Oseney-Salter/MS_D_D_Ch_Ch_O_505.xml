@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_500519">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_500519">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,7 +51,7 @@
                   <msItem>
                      <!--I suspect that there is a typo in Denholm-Young's table. Probable that 496 ought to be 649 which would fit in the sequence (and not 496 that is already Salter's no. 496 = MS. D. D. Ch. Ch. O. 370: <placeName>Oxford, All Saints' parish</placeName>. <orgName>Oseney</orgName> grants the seld of <persName><forename>Ralf</forename> the <surname>miller</surname></persName> to <persName><forename>Arthur</forename> of <surname>London</surname></persName> in fee-farm at a rent of 21 s. <origDate notBefore="1246" notAfter="1247">Mich. 1246-Mich. 1247</origDate>.) I've entered the information from Salter, Oseney 649. 
                         HOW DO I MARK THE TYPO?-->
-                     <p><placeName>Oxford, St. Budoc parish</placeName>. <persName><forename>Roger</forename> de la <surname>Barre</surname></persName> grants and quitclaims to <orgName>Oseney</orgName> the land in St. Budoc's which had belonged to his father. 
+                     <p><placeName key="place_109422">Oxford, St. Budoc parish</placeName>. <persName><forename>Roger</forename> de la <surname>Barre</surname></persName> grants and quitclaims to <orgName key="org_109067">Oseney</orgName> the land in St. Budoc's which had belonged to his father. 
                         <origDate notBefore="1252" notAfter="1253">Prob. Mich. 1252-Mich. 1253</origDate>. </p>
                   </msItem>
                </msContents>

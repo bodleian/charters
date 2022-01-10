@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_5001058">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_5001058">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +50,7 @@
                   <textLang mainLang="la">Latin</textLang>
                   <!-- shouldn't this refer to Salter 578H, as 578C and others are from a cartulary; CHK that the entered 578H is intended -->
                   <msItem>
-                     <p><persName><forename>Richard</forename>, bishop of <placeName role="bishop" type="diocese">Coventry</placeName></persName> confirms the agreement between <orgName>Oseney</orgName> and <orgName>Lichfield</orgName> concerning <placeName>Shenstone</placeName>.
+                     <p><persName><forename>Richard</forename>, bishop of <placeName role="bishop" type="diocese" key="place_103019">Coventry</placeName></persName> confirms the agreement between <orgName key="org_109067">Oseney</orgName> and <orgName>Lichfield</orgName> concerning <placeName key="place_109471">Shenstone</placeName>.
                         <origDate when="1177" precision="low">c. 1177</origDate>. </p>
                   </msItem>
                </msContents>
