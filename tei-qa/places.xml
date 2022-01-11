@@ -32,7 +32,6 @@
                <note type="charter">MS. Ch. Oxon. Oseney 81a</note>
                <note type="charter">MS. Ch. Oxon. 210</note>
             </place>
-            
             <place type="county" xml:id="place_000013">
                <placeName type="index">Buckinghamshire</placeName>
                <placeName type="formInDocument">bucks</placeName>
@@ -83,9 +82,6 @@
             </place>
             <place type="county" xml:id="place_000015">
                <placeName type="index">Cumberland</placeName>
-            </place>
-            <place type="county" xml:id="place_000016">
-               <placeName type="index">Cheshire</placeName>
             </place>
             <place type="county" xml:id="place_000018">
                <placeName type="index">Durham, county</placeName>
@@ -143,10 +139,6 @@
                <note type="charter">MS. Ch. Norfolk 339</note>
             </place>
            
-            <place type="county" xml:id="place_000059">
-               <placeName type="index">Montgomeryshire</placeName>
-               <idno>https://www.visionofbritain.org.uk/place/17446</idno>
-            </place>
             <place type="county" xml:id="place_000060">
                <placeName type="index">Monmouthshire</placeName>
                <idno>https://www.visionofbritain.org.uk/unit/10024870</idno>
@@ -546,6 +538,7 @@
                <note type="charter">MS. Ch. Yorks. 153</note>
                <note type="charter">MS. Ch. Yorks. 330</note>
             </place>
+          
             
             <place type="diocese" xml:id="place_100022">
                <placeName type="index">Ely, diocese</placeName>
@@ -2368,15 +2361,12 @@
                <note type="charter">MS. Ch. Worcs. 7a</note>
             </place>
             <place type="place" xml:id="place_101044">
-               <placeName type="index">North, Middle and South Littleton</placeName>
+               <placeName type="index">Littleton</placeName>
                <placeName type="formInDocument">Much Litleton</placeName>
-               <placeName type="formInDocument">Myddell Litteltone</placeName>
-               <placeName type="formInDocument">South Litteltone</placeName>
-               <region type="parish">North, Middle and South Littleton</region>
+               <!--<region type="parish">North, Middle and South Littleton</region>-->
                <region type="county" key="place_000090">Worcestershire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Worcestershire/53288a0cb47fc40d6b0004e9-North%2C+Middle+and+South+Littleton</idno>
+               <!-- TODO: check -->
                <note type="charter">MS. Ch. Worcs. 4</note>
-               <note type="charter">MM. 2</note>
             </place>
             <place type="place" xml:id="place_101045">
                <placeName type="index">Naunton Beauchamp</placeName>
@@ -2583,7 +2573,6 @@
                <placeName type="formInDocument">Wytheneford</placeName>
                <region type="county" key="place_000090">Worcestershire</region>
                <idno>https://www.visionofbritain.org.uk/unit/10348584</idno>
-               <idno>https://epns.nottingham.ac.uk/browse/Worcestershire/53288a0cb47fc40d6b00052d-Wichenford</idno>
                <note type="charter">MS. Ch. Worcs. 41</note>
             </place>
             <place type="place" xml:id="place_101067">
@@ -4911,7 +4900,8 @@
                <placeName type="formInDocument">Barthorpe</placeName>
                <region type="parish">Acklam</region>
                <region type="county" key="place_000102">Yorkshire, East Riding</region>
-               <!--not in VHC or TNA, however there is a ref. to this manor in https://www.british-history.ac.uk/cal-treasury-books/vol5/pp1062-1074 and https://www.british-history.ac.uk/cal-treasury-books/vol5/pp1296-1312 and http://bedsarchivescat.bedford.gov.uk/Details/archive/110051361 -->
+               <!--not in VHC or TNA, -->
+               <!--See also: https://dmv.hull.ac.uk/dmvDetail.cfm?dbkey=4830&county=true -->
                <note type="charter">MS. Ch. Yorks. 189b</note>
                <note type="charter">MS. Ch. Yorks. 192</note>
                <note type="charter">MS. Ch. Yorks. 191</note>
@@ -5344,7 +5334,6 @@
             </place>
             
             <place type="place" xml:id="place_103067">
-               <placeName type="index">Barthorpe Bottoms</placeName>
                <placeName type="formInDocument">Barethorp</placeName>
                <placeName type="formInDocument">Barthorpe</placeName>
                <region type="parish">Acklam</region>
@@ -24867,8 +24856,7 @@
             <place type="place" xml:id="place_105449">
                <placeName type="index">Oxford</placeName>
                <placeName type="formInDocument">oxford</placeName>
-               <placeName type="formInDocument">oxford</placeName>    
-               <placeName type="formInDocument">city of oxford</placeName>
+               <placeName type="formInDocument">oxford</placeName>    <placeName type="formInDocument">city of oxford</placeName>
                   <placeName type="formInDocument">oxon</placeName>
                   <placeName type="formInDocument">oxone</placeName>
                   <placeName type="formInDocument">the mayor and bailiffs and aldermen of Oxford</placeName>
@@ -29821,7 +29809,7 @@
                <placeName type="index">Carswell</placeName>
                <placeName type="formInDocument">kerswell</placeName>
                <region type="parish">Burghfield</region>
-               <region type="county">Berkshire</region>
+               <region type="county">Buckland</region>
                <idno>https://epns.nottingham.ac.uk/browse/Berkshire/Buckland/53282e23b47fc407ba000433-Carswell%2C+Carswell+Marsh</idno>
                <idno>https://www.genuki.org.uk/big/eng/BRK/Buckland</idno>
                <note type="charter">MS. Ch. Berkshire 62</note>
@@ -30158,7 +30146,6 @@
                <placeName type="index">North Stoke</placeName>
                <placeName type="formInDocument">stoke (north)</placeName>
                <placeName type="formInDocument">north stoke</placeName>
-               <placeName type="formInDocument">Stokebasset</placeName>
                <region type="parish">North Stoke</region>
                <region type="county">Oxfordshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/Crowmarsh/53286e1db47fc40beb00017f-North+Stoke</idno>
@@ -32690,981 +32677,7 @@
                <note type="charter">MS. Ch. Northants. Daventry 181</note>
             </place>
             
-            <place type="manor" xml:id="place_108229">
-               <placeName type="index">West Hendred</placeName>
-               <placeName type="formInDocument">Westhenreth</placeName>
-               <region type="parish">West Hendred</region>
-               <region type="county">Berkshire</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F243641</idno>
-               <note type="charter">MM. 1</note>
-            </place>
-            
-            <place type="place" xml:id="place_108230">
-               <placeName type="index">Huddisbuddes [unidentified]</placeName>
-               <placeName type="formInDocument">Huddisbuddes</placeName>
-               <placeName type="formInDocument">Hudders-buddys</placeName>
-               <note type="charter">MM. 1</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108231">
-               <placeName type="index">Swanbourne</placeName>
-               <placeName type="formInDocument">Swanburn [Bucks]</placeName>
-               <region type="parish">Swanbourne</region>
-               <region type="county">Buckinghamshire</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F242410</idno>
-               <note type="charter">MM. 1</note>
-            </place>
-            
-            <place type="place" xml:id="place_108232">
-               <placeName type="index">Coxham [unidentified]</placeName>
-               <placeName type="formInDocument">Coxham</placeName>
-               <note type="charter">MM. 1</note>
-            </place>
-            
-            <place type="place" xml:id="place_108233">
-               <placeName type="index">Nettlebed</placeName>
-               <placeName type="formInDocument">Nettlebed</placeName>
-               <region type="parish">Nettlebed</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/53286e22b47fc40beb00071e-Nettlebed</idno>
-               <note type="charter">MM. 1</note>
-            </place>
-            
-            <place type="place" xml:id="place_108234">
-               <placeName type="index">Nuffield</placeName>
-               <placeName type="formInDocument">Nuffeld</placeName>
-               <region type="parish">Nuffield</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/53286e22b47fc40beb000726-Nuffield</idno>
-               <note type="charter">MM. 1</note>
-            </place>
-            
-            <place type="place" xml:id="place_108235">
-               <placeName type="index">Standlake</placeName>
-               <placeName type="formInDocument">Stanlake</placeName>
-               <region type="parish">Standlake</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/53286e22b47fc40beb00074a-Standlake</idno>
-               <note type="charter">MM. 1</note>
-            </place>
-            
-            <place type="place" xml:id="place_108236">
-               <placeName type="index">Wynhale [unidentified]</placeName>
-               <placeName type="formInDocument">Wynhale</placeName>
-               <note type="charter">MM. 1</note>
-            </place>
-            
-            <place type="place" xml:id="place_108237">
-               <placeName type="index">Stratton Audley</placeName>
-               <placeName type="formInDocument">Stratton Audelye in the countye of Oxforde</placeName>
-               <region type="parish">Stratton Audley</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/53286e22b47fc40beb000752-Stratton+Audley</idno>
-               <note type="charter">MM. 18</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108238">
-               <placeName type="index">Stratton</placeName>
-               <placeName type="formInDocument">Stratton</placeName>
-               <region type="parish">Stratton Audley</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F285940</idno>
-               <note type="charter"></note>
-            </place>
-            
-            <place type="manor" xml:id="place_108239">
-               <placeName type="index">Church Cowley</placeName>
-               <placeName type="formInDocument">Churche-Cowley</placeName>
-               <region type="parish">Cowley</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F285719</idno>
-               <note type="charter">MM. 24</note>
-            </place>
-            
-            <place type="place" xml:id="place_108240">
-               <placeName type="index">Swindon</placeName>
-               <placeName type="formInDocument">Swindon (Wilts.)</placeName>
-               <region type="parish">Swindon</region>
-               <region type="county">Wiltshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Wiltshire/532886dab47fc40d38000d07-Swindon</idno>
-               <note type="charter">MM. 40</note>
-            </place>
-            
-            <place type="place" xml:id="place_108241">
-               <placeName type="index">Meifod</placeName>
-               <placeName type="formInDocument">Myvod</placeName>
-               <region type="parish">Meifod</region>
-               <region type="county">Montgomeryshire</region>
-               <idno>https://www.genuki.org.uk/big/wal/MGY/Meifod</idno>
-               <idno>https://www.wikidata.org/wiki/Q3363693</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108242">
-               <placeName type="index">Guilsfield</placeName>
-               <placeName type="formInDocument">Guillesfelde</placeName>
-               <region type="parish">Guilsfield</region>
-               <region type="county">Montgomeryshire</region>
-               <idno>https://www.genuki.org.uk/big/wal/MGY/Guilsfield</idno>
-               <idno>https://www.wikidata.org/wiki/Q5616341</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108243">
-               <placeName type="index">Welshpool</placeName>
-               <placeName type="formInDocument">Poole</placeName>
-               <region type="parish">Welshpool</region>
-               <region type="county">Montgomeryshire</region>
-               <idno>https://www.wikidata.org/wiki/Q1024911</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108244">
-               <placeName type="index">Great Torrington</placeName>
-               <placeName type="formInDocument">Torryton Magna with St. Giles</placeName>
-               <region type="parish">Great Torrington</region>
-               <region type="county">Devon</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Devon/53284f13b47fc4097e00178c-Great+Torrington</idno>
-               <idno>https://www.genuki.org.uk/big/eng/DEV/GreatTorrington</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108245">
-               <placeName type="index">Offenham</placeName>
-               <placeName type="formInDocument">Offenhame</placeName>
-               <region type="parish">Offenham</region>
-               <region type="county">Worcestershire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Worcestershire/53288a0cb47fc40d6b0004f0-Offenham</idno>
-               <idno>https://www.genuki.org.uk/big/eng/WOR/Offenham</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108246">
-               <placeName type="index">Great and Little Hampton</placeName>
-               <placeName type="formInDocument">Hamptone</placeName>
-               <region type="parish">Great and Little Hampton</region>
-               <region type="county">Worcestershire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Worcestershire/Great+and+Little+Hampton/53288a22b47fc40d6b00058d-Great+and+Little+Hampton</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108247">
-               <placeName type="index">Bradesene [unidentified]</placeName>
-               <placeName type="formInDocument">Bradesene</placeName>
-               <region type="county">Worcestershire</region>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108248">
-               <placeName type="index">Aldington [unidentified]</placeName>
-               <placeName type="formInDocument">Aldingtone</placeName>
-               <region type="county">Worcestershire</region>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108249">
-               <placeName type="index">Rostherne</placeName>
-               <placeName type="formInDocument">Rothestone</placeName>
-               <region type="parish">Rostherne</region>
-               <region type="county">Cheshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Cheshire/Rostherne/5328368eb47fc40856002033-Rostherne</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108250">
-               <placeName type="index">Osmotherley</placeName>
-               <placeName type="formInDocument">Osmundesley [Osmotherley]</placeName>
-               <region type="parish">Osmotherley</region>
-               <region type="county">Yorkshire, North Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/53286b0db47fc40bc60003ad-Osmotherley</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108251">
-               <placeName type="index">Over Silton</placeName>
-               <placeName type="formInDocument">Silton</placeName>
-               <region type="parish">Over Silton</region>
-               <region type="county">Yorkshire, North Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/53286b0db47fc40bc60003af-Over+Silton</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108252">
-               <placeName type="index">Nunhouse [unidentified]</placeName>
-               <placeName type="formInDocument">Nunhouse</placeName>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108253">
-               <placeName type="index">Runcorn</placeName>
-               <placeName type="formInDocument">Runcorn</placeName>
-               <region type="parish">Runcorn</region>
-               <region type="county">Cheshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Cheshire/53283654b47fc40856001f0d-Runcorn</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108254">
-               <placeName type="index">Wendling</placeName>
-               <placeName type="formInDocument">Wendling</placeName>
-               <region type="parish">Wendling</region>
-               <region type="county">Norfolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/NFK/Wendling</idno>
-               <note type="charter">MM. 12</note>
-            </place>
-            
-            <place type="place" xml:id="place_108255">
-               <placeName type="index">Caversham</placeName>
-               <placeName type="formInDocument">Caversham</placeName>
-               <region type="parish">Caversham</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://www.genuki.org.uk/big/eng/OXF/caversham</idno>
-               <note type="charter">MM. 21</note>
-            </place>
-            
-            <place type="place" xml:id="place_108256">
-               <placeName type="index">Filkins</placeName>
-               <placeName type="formInDocument">Filkins</placeName>
-               <region type="parish">Filkins</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/53286e22b47fc40beb0006d9-Filkins</idno>
-               <note type="charter">MM. 37</note>
-            </place>
-            
-            <place type="place" xml:id="place_108257">
-               <placeName type="index">Cropredy</placeName>
-               <placeName type="formInDocument">Cropredy</placeName>
-               <region type="parish">Cropredy</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/53286e22b47fc40beb0006c1-Cropredy</idno>
-               <note type="charter">MM. 43</note>
-            </place>
-            
-            <place type="place" xml:id="place_108258">
-               <placeName type="index">Cople</placeName>
-               <placeName type="formInDocument">Copull [Cople]</placeName>
-               <region type="parish">Cople</region>
-               <region type="county">Bedfordshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Bedfordshire/53282b23b47fc407a900023f-Cople</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108259">
-               <placeName type="index">Aldsworth</placeName>
-               <placeName type="formInDocument">Allesworth</placeName>
-               <region type="parish">Aldsworth</region>
-               <region type="county">Gloucestershire</region>
-               <idno>http://epns.nottingham.ac.uk/browse/Gloucestershire/Aldsworth/53285ad4b47fc40ab3001a85-Aldsworth</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108260">
-               <placeName type="index">Wath upon Dearne</placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish">Wath upon Dearne</region>
-               <region type="county">Yorkshire, West Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/53288217b47fc40c8100601f-Wath+upon+Dearne</idno>
-               <note type="charter">MM. 115</note>
-            </place>
-            
-            <place type="place" xml:id="place_108261">
-               <placeName type="index">Romanby</placeName>
-               <placeName type="formInDocument">Romanby</placeName>
-               <region type="parish">Northallerton</region>
-               <region type="county">Yorkshire, North Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Northallerton/53286b32b47fc40bc6000558-Romanby</idno>
-               <note type="charter"></note>
-            </place>
-            
-            <place type="place" xml:id="place_108262">
-               <placeName type="index">Thornton</placeName>
-               <placeName type="formInDocument">Thornton</placeName>
-               <region type="parish">Thornton</region>
-               <region type="county">Yorkshire, East Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/53285473b47fc40a4d000425-Thornton</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108263">
-               <placeName type="index">Twizell</placeName>
-               <placeName type="formInDocument">Twyselle</placeName>
-               <region type="parish">Norham</region>
-               <region type="county">Northumberland</region>
-               <idno>https://www.visionofbritain.org.uk/place/9729</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108264">
-               <placeName type="index">Northetringtone [unidentified]</placeName>
-               <placeName type="formInDocument">Northetringtone</placeName>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108265">
-               <placeName type="index">Longnewton</placeName>
-               <placeName type="formInDocument">Long Newtone</placeName>
-               <region type="parish">Long Newton</region>
-               <region type="county">Yorkshire</region>
-               <idno>https://www.genuki.org.uk/big/eng/DUR/LongNewton</idno>
-               <idno>https://www.wikidata.org/wiki/Q6674170</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="place" xml:id="place_108266">
-               <placeName type="index">Frodsham</placeName>
-               <placeName type="formInDocument">Frodsham</placeName>
-               <region type="parish">Frodsham</region>
-               <region type="county">Cheshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Cheshire/53283654b47fc40856001eee-Frodsham</idno>
-               <idno>https://www.genuki.org.uk/big/eng/CHS/Frodsham</idno>
-               <note type="charter">MM. 3</note>
-            </place>
-            
-            <place type="place" xml:id="place_108267">
-               <placeName type="index">Kirkham [unidentified]</placeName>
-               <placeName type="formInDocument">Kirkham</placeName>
-               <region type="county">Cheshire</region><!--according the D-Y index-->
-               <note type="charter">MM. 3</note>
-            </place>
-            
-            <place type="place" xml:id="place_108268">
-               <placeName type="index">Merstone [unidentified]</placeName>
-               <placeName type="formInDocument">Merstone</placeName>
-               <note type="charter">MM. 3</note>
-            </place>
-            
-            <place type="place" xml:id="place_108269">
-               <placeName type="index">Conyngton [unidentified]</placeName>
-               <placeName type="formInDocument">Conyngton</placeName>
-               <note type="charter">MM. 1</note>
-            </place>
-            
-            <place type="place" xml:id="place_108270">
-               <placeName type="index">Cavershed [unidentified]</placeName>
-               <placeName type="formInDocument">Cavershed</placeName>
-               <note type="charter">MM. 21</note>
-            </place>
-            
-            <place type="place" xml:id="place_108271">
-               <placeName type="index">St. John the Baptist in Fyfield [unidentified]</placeName>
-               <placeName type="formInDocument">St. John the Baptist in Fyfield</placeName>
-               <note type="charter">MM. 43</note>
-            </place>
-            
-            <place type="place" xml:id="place_108272">
-               <placeName type="index">Bray</placeName>
-               <placeName type="formInDocument">Our Lady in Bray</placeName>
-               <region type="parish">Bray</region>
-               <region type="county">Berkshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Berkshire/53282e31b47fc407ba001a61-Bray</idno>
-               <note type="charter">MM. 43</note>
-            </place>
-            
-            <place type="place" xml:id="place_108273">
-               <placeName type="index">Otmoor</placeName>
-               <placeName type="formInDocument">Ottmoor</placeName>
-               <region type="county">Oxfordshire</region>
-               <idno>https://www.wikidata.org/wiki/Q7108900</idno>
-               <note type="charter">MM. 46</note>
-            </place>
-            
-            <place type="place" xml:id="place_108274">
-               <placeName type="index">Stanton Harcourt</placeName>
-               <placeName type="formInDocument">Stanton</placeName>
-               <region type="parish">Stanton Harcourt</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/53286e22b47fc40beb00074b-Stanton+Harcourt</idno>
-               <note type="charter">MM. 46</note>
-            </place>
-            
-            <place type="place" xml:id="place_108275">
-               <placeName type="index">Eave Elme [unidentified]</placeName>
-               <placeName type="formInDocument">Eave Elme</placeName>
-               <note type="charter">MM. 47</note>
-            </place>
-            
-            <place type="place" xml:id="place_108276">
-               <placeName type="index">Broadford [unidentified]</placeName>
-               <placeName type="formInDocument">Broadford</placeName>
-               <note type="charter">MM. 46</note>
-            </place>
-            
-            <place type="place" xml:id="place_108277">
-               <placeName type="index">Great Wooloard [unidentified]</placeName>
-               <placeName type="formInDocument">Great Wooloard</placeName>
-               <note type="charter">MM. 48</note>
-            </place>
-            
-            <place type="street" xml:id="place_108278">
-               <placeName type="index">Oxford, New Lane</placeName>
-               <placeName type="variant">Oxford, Tresham's Lane</placeName>
-               <placeName type="variant">Oxford, Blue Boar Street</placeName>
-               <placeName type="variant">Oxford, Bear Lane</placeName>
-               <placeName type="formInDocument">New Lane</placeName>
-               <region type="parish">Oxford, St. Aldate’s</region>
-               <region type="county">Oxfordshire</region>
-               <bibl>Eleanor Chance, Christina Colvin, Janet Cooper, C J Day, T G Hassall, Mary Jessup and Nesta Selwyn, 'Street-Names', in <title>A History of the County of Oxford: Volume 4, the City of Oxford</title>, ed. Alan Crossley and C R Elrington (London, 1979), pp. 475-477. British History Online http://www.british-history.ac.uk/vch/oxon/vol4/pp475-477 [accessed 7 January 2022].</bibl>
-               <note type="charter">MM. 53</note>
-            </place>
-            
-            <place type="street" xml:id="place_108279">
-               <placeName type="index">Oxford, Rewley Lane</placeName>
-               <placeName type="variant">Ruley Lane</placeName>
-               <placeName type="variant">Rewley Road</placeName>
-               <placeName type="formInDocument">Rewly Lane</placeName>
-               <region type="parish"></region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://www.wikidata.org/wiki/Q7319097</idno>
-               <note type="charter">MM. 69</note>
-            </place>
-            
-            <place type="place" xml:id="place_108280">
-               <placeName type="index">Tiddington with Albury</placeName>
-               <placeName type="formInDocument">Tiddington</placeName>
-               <region type="parish">Tiddington with Albury</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/53286e22b47fc40beb00075f-Tiddington+with+Albury</idno>
-               <note type="charter">MM. 76</note>
-            </place>
-            
-            <place type="place" xml:id="place_108281">
-               <placeName type="index">Stourbridge</placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish">Stourbridge</region>
-               <region type="county">Worcestershire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Worcestershire/Old+Swinford/53288a09b47fc40d6b0002fc-Stourbridge</idno>
-               <note type="charter">MM. 93</note>
-            </place>
-            
-            <place type="place" xml:id="place_108282">
-               <placeName type="index">Highley</placeName>
-               <placeName type="formInDocument">Highley (Shursbury)</placeName>
-               <region type="parish">Highley</region>
-               <region type="county">Shropshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f1a025b47fc426160001ad-Highley</idno>
-               <note type="charter">MM. 93</note>
-            </place>
-            
-            <place type="place" xml:id="place_108283">
-               <placeName type="index">Midsomer Norton</placeName>
-               <placeName type="formInDocument">Midsummer Norton</placeName>
-               <region type="parish">Midsomer Norton</region>
-               <region type="county">Somerset</region>
-               <idno>https://www.genuki.org.uk/big/eng/SOM/MidsomerNorton</idno>
-               <note type="charter">MM. 94</note>
-            </place>
-            
-            <place type="place" xml:id="place_108284">
-               <placeName type="index">Coton</placeName>
-               <placeName type="formInDocument">Cotton</placeName>
-               <region type="parish">Cotton</region>
-               <region type="county">Staffordshire</region>
-               <idno>https://www.visionofbritain.org.uk/place/24561</idno>
-               <note type="charter">MM. 103 and 103A</note>
-            </place>
-            
-            <place type="place" xml:id="place_108285">
-               <placeName type="index">Hopwas Hays</placeName>
-               <placeName type="formInDocument">Hoppas</placeName>
-               <region type="parish">Tamworth</region>
-               <region type="county">Staffordshire</region>
-               <idno>https://www.visionofbritain.org.uk/place/8186</idno>
-               <idno>https://www.wikidata.org/wiki/Q5901361</idno>
-               <idno>https://www.genuki.org.uk/big/eng/STS/HopwasHays</idno>
-               <note type="charter">MM. 103 and 103A</note>
-            </place>
-            
-            <place type="place" xml:id="place_108286">
-               <placeName type="index">Tamworth</placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish">Tamworth</region>
-               <region type="county">Staffordshire</region>
-               <idno>https://www.genuki.org.uk/big/eng/STS/Tamworth</idno>
-               <idno>https://www.visionofbritain.org.uk/place/353</idno>
-               <note type="charter">MM. 103 and 103A</note>
-            </place>
-            
-            <place type="place" xml:id="place_108287">
-               <placeName type="index">Cassington</placeName>
-               <placeName type="formInDocument">Cassington</placeName>
-               <region type="parish">Cassington</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/53286e22b47fc40beb0006ac-Cassington</idno>
-               <note type="charter">MM. 91</note>
-            </place>
-            
-            <place type="place" xml:id="place_108288">
-               <placeName type="index">Bradfield [unidentified]</placeName>
-               <placeName type="formInDocument">Bradfield</placeName>
-               <note type="charter">MM. 92</note> <!--several options, potentially the one in Berkshire?-->
-            </place>
-            
-            <place type="place" xml:id="place_108289">
-               <placeName type="index">Comberford</placeName>
-               <placeName type="formInDocument">Cumberford</placeName>
-               <region type="parish">Tamworth</region>
-               <region type="county">Staffordshire</region>
-               <idno>https://www.visionofbritain.org.uk/place/25347</idno>
-               <idno>https://www.wikidata.org/wiki/Q5150781</idno>
-               <note type="charter">MM. 97</note>
-            </place>
-            
-            <place type="place" xml:id="place_108290">
-               <placeName type="index">Wiggington</placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish">Tamworth</region>
-               <region type="county">Staffordshire</region>
-               <idno>https://www.visionofbritain.org.uk/place/8614</idno>
-               <idno>https://www.wikidata.org/wiki/Q7999600</idno>
-               <note type="charter">MM. 103 and 103A</note>
-            </place>
-            
-            <place type="place" xml:id="place_108291">
-               <placeName type="index">Buxted</placeName>
-               <placeName type="formInDocument">Bukstes in Sussex</placeName>
-               <region type="parish">Buxted</region>
-               <region type="county">Sussex</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Sussex/53287233b47fc40c36000b54-Buxted</idno>
-               <note type="charter">MM. 104</note>
-            </place>
-            
-            <place type="place" xml:id="place_108292">
-               <placeName type="index">Litlington</placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish">Litlington</region>
-               <region type="county">Sussex</region>
-               <idno>https://www.genuki.org.uk/big/eng/SSX/Litlington</idno>
-               <note type="charter">MM. 104</note>
-            </place>
-            
-            <place type="place" xml:id="place_108293">
-               <placeName type="index">Birling</placeName>
-               <placeName type="formInDocument">Birlyng</placeName>
-               <region type="parish">Birling</region>
-               <region type="county">Kent</region>
-               <idno>https://www.wikidata.org/wiki/Q3054101</idno>
-               <note type="charter">MM. 104</note>
-            </place>
-            
-            <place type="place" xml:id="place_108294">
-               <placeName type="index">Cofton Hackett</placeName>
-               <placeName type="formInDocument">Coffeton (Worcs.)</placeName>
-               <region type="parish">Cofton Hackett</region>
-               <region type="county">Worcestershire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Worcestershire/Cofton+Hackett/53288a22b47fc40d6b00056b-Cofton+Hackett</idno>
-               <note type="charter">MM. 104</note>
-            </place>
-            
-            <place type="place" xml:id="place_108295">
-               <placeName type="index">Slaugham</placeName>
-               <placeName type="formInDocument">Slagham (Sussex)</placeName>
-               <region type="parish">Slaugham</region>
-               <region type="county">Sussex</region>
-               <idno>https://www.genuki.org.uk/big/eng/SSX/Slaugham</idno>
-               <note type="charter">MM. 104</note>
-            </place>
-            
-            <place type="place" xml:id="place_108296">
-               <placeName type="index">Hythefelde [unidentified]</placeName>
-               <placeName type="formInDocument">Hythefelde</placeName>
-               <note type="charter">MM. 106</note>
-            </place>
-            
-            <place type="place" xml:id="place_108297">
-               <placeName type="index">Capel St Mary</placeName>
-               <placeName type="formInDocument">Capell [Capel S. Mary]</placeName>
-               <region type="parish">Capel St Mary</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/CapelStMary</idno>
-               <idno>https://www.visionofbritain.org.uk/place/7078</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <place type="place" xml:id="place_108298">
-               <placeName type="index">Tattingstone</placeName>
-               <placeName type="formInDocument">Taddestone</placeName>
-               <region type="parish">Tattingstone</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Tattingstone</idno>
-               <idno>https://www.visionofbritain.org.uk/place/7781</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <place type="place" xml:id="place_108299">
-               <placeName type="index">Brantham</placeName>
-               <placeName type="formInDocument">Braham</placeName>
-               <region type="parish">Brantham</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Brantham</idno>
-               <idno>https://www.visionofbritain.org.uk/place/7059</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <place type="place" xml:id="place_108300">
-               <placeName type="index">Copdock</placeName>
-               <placeName type="formInDocument">Copedokis [Copedock]</placeName>
-               <region type="parish">Copdock</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Copdock</idno>
-               <idno>https://www.visionofbritain.org.uk/place/7098</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <place type="place" xml:id="place_108301">
-               <placeName type="index">Great or Little Wenham</placeName>
-               <placeName type="formInDocument">Wenam</placeName>
-               <region type="parish">Great Wenham</region>
-               <region type="parish">Little Wenham</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/GreatAndLittleWenham</idno>
-               <idno>https://www.visionofbritain.org.uk/place/7856</idno>
-               <idno>https://www.visionofbritain.org.uk/place/7858</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <place type="place" xml:id="place_108302">
-               <placeName type="index">Raydon</placeName>
-               <placeName type="formInDocument">Reydone [Raydon]</placeName>
-               <region type="parish">Raydon</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Raydon</idno>
-               <idno>https://www.visionofbritain.org.uk/place/7615</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <place type="place" xml:id="place_108303">
-               <placeName type="index">Framsden</placeName>
-               <placeName type="formInDocument">Framysden</placeName>
-               <region type="parish">Framsden</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Framsden</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <place type="place" xml:id="place_108304">
-               <placeName type="index">East Bergholt</placeName>
-               <placeName type="formInDocument">Bergholte</placeName>
-               <region type="parish">East Bergholt</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/EastBergholt</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <place type="place" xml:id="place_108305">
-               <placeName type="index">Dodnash</placeName>
-               <placeName type="formInDocument">Dodnesh</placeName>
-               <region type="parish">Bentley</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.visionofbritain.org.uk/place/24978</idno>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Bentley</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <place type="place" xml:id="place_108306">
-               <placeName type="index">Stutton</placeName>
-               <placeName type="formInDocument">Stuftone</placeName>
-               <region type="parish">Stutton</region>
-               <region type="county">Suffolk</region>
-               <idno>https://www.genuki.org.uk/big/eng/SFK/Stutton</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <place type="place" xml:id="place_108307">
-               <placeName type="index">Leeds, Hunslet</placeName>
-               <placeName type="formInDocument">Hunslet</placeName>
-               <region type="parish">Leeds, Hunslet</region>
-               <region type="county">Yorkshire, West Riding</region>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Leeds/more</idno>
-               <note type="charter">MM. 112</note>
-            </place>
-            
-            <place type="diocese" xml:id="place_108308">
-               <placeName type="index">Bath and Wells, diocese</placeName>
-               <placeName type="formInDocument">Bath and Wells</placeName>
-               <idno>https://www.wikidata.org/wiki/Q867023</idno>
-               <note type="charter">MM. 111</note>
-            </place>
-            
-            <place type="place" xml:id="place_108309">
-               <placeName type="index">High and Low Catton</placeName>
-               <placeName type="formInDocument">Nether Catton</placeName>
-               <placeName type="formInDocument">Upper Catton</placeName>
-               <region type="parish">Catton</region>
-               <region type="county">Yorkshire, East Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/East+Riding+of+Yorkshire/53285473b47fc40a4d0003ec-Low+Catton</idno>
-               <idno>https://www.visionofbritain.org.uk/place/11989</idno>
-               <note type="charter">MM. 111</note>
-            </place>
-            
-            <place type="place" xml:id="place_108310">
-               <placeName type="index">Stamford Bridge</placeName>
-               <placeName type="formInDocument">Stannford Brigge</placeName>
-               <region type="parish">Low Catton</region>
-               <region type="county">Yorkshire, East Riding</region>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/ERY/LowCatton/more</idno>
-               <idno>https://www.visionofbritain.org.uk/place/14273</idno>
-               <note type="charter">MM. 111</note>
-            </place>
-            
-            <place type="place" xml:id="place_108311">
-               <placeName type="index">Crosby</placeName>
-               <placeName type="formInDocument">Croxeby</placeName>
-               <region type="parish">Leake</region>
-               <region type="county">Yorkshire, North Riding</region>
-               <idno>https://www.visionofbritain.org.uk/place/12253</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/NRY/Leake</idno>
-               <note type="charter">MM. 111</note>
-            </place>
-            
-            <place type="place" xml:id="place_108312">
-               <placeName type="index">South Elmsall</placeName>
-               <placeName type="formInDocument">Suthemmesley</placeName>
-               <region type="parish">South Kirkby</region>
-               <region type="county">Yorkshire, West Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/South+Kirkby/5328827cb47fc40c81006261-South+Elmsall</idno>
-               <note type="charter">MM. 111</note>
-            </place>
-            
-            <place type="place" xml:id="place_108313">
-               <placeName type="index">Kirkby [unidentified]</placeName>
-               <placeName type="formInDocument">Kirkby</placeName>
-               <region type="county">Yorkshire</region>
-               <note type="charter">MM. 111</note><!--several possibilities in Yorkshire, perhaps South Kirkby?-->
-            </place>
-            
-            <place type="place" xml:id="place_108314">
-               <placeName type="index">Addingham</placeName>
-               <placeName type="formInDocument">Addingham (Yorks.)</placeName>
-               <region type="parish">Addingham</region>
-               <region type="county">Yorkshire, West Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/53288216b47fc40c81005f4f-Addingham</idno>
-               <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Addingham</idno>
-               <note type="charter">MM. 114</note>
-            </place>
-            
-            <place type="place" xml:id="place_108315">
-               <placeName type="index">Steeton</placeName>
-               <placeName type="formInDocument">Stetton or Steveton (Yorks.)</placeName>
-               <region type="parish">Kildwick</region>
-               <region type="county">Yorkshire, West Riding</region>
-               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Kildwick/5328827bb47fc40c81006182-Steeton</idno>
-               <note type="charter">MM. 114</note>
-            </place>
-            
-            <place type="place" xml:id="place_108316">
-               <placeName type="index">Harden in the parish of Thyngley (Yorks.) [unidentified]</placeName>
-               <placeName type="formInDocument">Harden in the parish of Thyngley (Yorks.)</placeName>
-               <!--TODO, perhaps a transcription error? could it be the same as Harden in the parish of Bingley? https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Bingley/532881ddb47fc40c81000a98-Harden-->
-               <note type="charter">MM. 114</note>
-            </place>
-            
-            <place type="place" xml:id="place_108317">
-               <placeName type="index">Oxford, Chapel of St Nicholas</placeName>
-               <placeName type="formInDocument">parish of S. Nicholas</placeName>
-               <region type="parish">Oxford, St Thomas</region>
-               <region type="county">Oxfordshire</region>
-               <bibl>Thomas W. Squires, <title>In West Oxford</title>, Oxford 1928, pp. 1-4.</bibl>
-               <note type="charter">MM. 64</note>
-            </place>
-            
-            <place type="place" xml:id="place_108318">
-               <placeName type="index">Leiden</placeName>
-               <placeName type="formInDocument">Leyden</placeName>
-               <region type="country">Netherlands</region>
-               <idno>https://www.wikidata.org/wiki/Q43631</idno>
-               <note type="charter">MM. 77</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108319">
-               <placeName type="index">Wallingford</placeName>
-               <placeName type="formInDocument">Wallyngford</placeName>
-               <region type="parish">Wallingford</region>
-               <region type="county">Oxfordshire</region><!--historically Berkshire-->
-               <idno>https://www.wikidata.org/wiki/Q1632423</idno>
-               <note type="charter">MM. 1</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108320">
-               <placeName type="index">Wing with members</placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish">Wing</region>
-               <region type="county">Buckinghamshire</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F241349</idno>
-               <note type="charter"></note>
-            </place>
-            
-            <place type="manor" xml:id="place_108321">
-               <placeName type="index">Wood Norton</placeName>
-               <placeName type="formInDocument">Woodnorton cum membris</placeName>
-               <region type="parish">Wood Norton</region>
-               <region type="county">Norfolk</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F242243</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108322">
-               <placeName type="index">Upton with the members</placeName>
-               <placeName type="formInDocument">Upton cum membris</placeName>
-               <region type="parish">Upton</region>
-               <region type="county">Norfolk</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F240208</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108323">
-               <placeName type="index">Wendling</placeName>
-               <placeName type="formInDocument">Wendlynge</placeName>
-               <region type="parish">Wendling</region>
-               <region type="county">Norfolk</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F243565</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108324">
-               <placeName type="index">East Walton</placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish">East Walton</region>
-               <region type="county">Norfolk</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F240213</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108325">
-               <placeName type="index">Swanton Novers</placeName>
-               <placeName type="formInDocument">Swanton Newars</placeName>
-               <region type="parish">Swanton Novers</region>
-               <region type="county">Norfolk</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F245858</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108326">
-               <placeName type="index">Kerdiston Netherhall</placeName>
-               <placeName type="formInDocument">Cardestone</placeName>
-               <region type="parish">East Ruston</region>
-               <region type="county">Norfolk</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F240124</idno>
-               <note type="charter">MM. 2</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108327">
-               <placeName type="index">Thoby</placeName>
-               <placeName type="formInDocument">Thobye</placeName>
-               <region type="parish">Mountnessing</region>
-               <region type="county">Essex</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F248328</idno>
-               <note type="charter">MM. 4</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108328">
-               <placeName type="index">Stibbard</placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish">Stibbard</region>
-               <region type="county">Norfolk</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F237125</idno>
-               <note type="charter">MM. 11</note>
-            </place>
-            
-            <place type="manor" xml:id="place_108329">
-               <placeName type="index">Norton Hall</placeName>
-               <placeName type="formInDocument">Norton Hall</placeName>
-               <region type="parish">Norton</region>
-               <region type="county">Suffolk</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F250221</idno>
-               <note type="charter">MM. 11</note>
-            </place>
-            
-            <place type="manor" xml:id="place_1083230">
-               <placeName type="index">Maids Moreton (Christchurch)</placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish">Maids Moreton</region>
-               <region type="county">Buckinghamshire</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F240349</idno>
-               <note type="charter">MM. 19</note>
-            </place>
-            
-            <place type="manor" xml:id="place_1083231">
-               <placeName type="index">South Osney</placeName>
-               <placeName type="formInDocument">South Oseney</placeName>
-               <region type="parish">Oxford St Thomas</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F285877</idno>
-               <note type="charter">MM. 73</note>
-            </place>
-            
-            <place type="manor" xml:id="place_1083232">
-               <placeName type="index">Tiddington</placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish">Albury</region>
-               <region type="county">Oxfordshire</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F285601</idno>
-               <note type="charter">MM. 75</note>
-            </place>
-            
-            <place type="manor" xml:id="place_1083233">
-               <placeName type="index">Comberford and Wiggington</placeName>
-               <placeName type="formInDocument">Wyggyngton and Cumberforthe</placeName>
-               <region type="parish">Tamworth</region>
-               <region type="county">Staffordshire</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F256058</idno>
-               <note type="charter">MM. 100</note>
-            </place>
-            
-            <place type="manor" xml:id="place_1083234">
-               <placeName type="index">Wigginton</placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish">Tamworth</region>
-               <region type="county">Staffordshire</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F256243</idno>
-               <note type="charter">MM. 96</note>
-            </place>
-            
-            <place type="manor" xml:id="place_1083235">
-               <placeName type="index">Comberford</placeName>
-               <placeName type="formInDocument">Cumberforthe</placeName>
-               <region type="parish">Tamworth</region>
-               <region type="county">Staffordshire</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F256304</idno>
-               <note type="charter">MM. 100</note>
-            </place>
-            
-            <place type="manor" xml:id="place_1083236">
-               <placeName type="index">Falkenham Dodnash</placeName>
-               <placeName type="formInDocument">Falkenham</placeName>
-               <region type="parish">Falkenham</region>
-               <region type="county">Suffolk</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F250041</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <place type="manor" xml:id="place_1083237">
-               <placeName type="index">Dodnash</placeName>
-               <placeName type="formInDocument">Dodnesh</placeName>
-               <region type="parish">Bentley</region>
-               <region type="county">Suffolk</region>
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F250009</idno>
-               <note type="charter">MM. 110</note>
-            </place>
-            
-            <!--<place type="place" xml:id="place_1083238">
-               <placeName type="index"></placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
-               <note type="charter"></note>
-            </place>
-            
-            <place type="place" xml:id="place_1083239">
-               <placeName type="index"></placeName>
-               <placeName type="formInDocument"></placeName>
-               <region type="parish"></region>
-               <region type="county"></region>
-               <idno></idno>
-               <note type="charter"></note>
-            </place>
-            
-            <place type="place" xml:id="place_1083240">
+            <!--<place type="place" xml:id="place_108229">
                <placeName type="index"></placeName>
                <placeName type="formInDocument"></placeName>
                <region type="parish"></region>
@@ -34134,12 +33147,12 @@
             </place>
             
             <place subtype="new" type="manor" xml:id="place_109043">
-               <placeName type="index">Temple Cowley or Church Cowley</placeName>
+               <placeName type="index">Temple Cowley <!--or Church Cowley--></placeName>
                <placeName type="formInDocument">cowley</placeName>
                <region type="parish">Cowley</region>
                <region type="county">Oxfordshire</region>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F285720</idno><!--Temple Cowley -->
-               <idno>https://discovery.nationalarchives.gov.uk/details/c/F285719</idno><!--Church Cowley -->
+              <!-- <idno>https://discovery.nationalarchives.gov.uk/details/c/F285719</idno><!-\-Church Cowley-\->-->
                <note type="charter">MS. Ch. Oxon. Oseney 337</note>
                <!-- Sandford was a hospitaller manor (VCH Oxon V), so probably Temple Cowley; Brugset in the same doc is odd -->
             </place>
@@ -34799,7 +33812,7 @@
                <placeName type="variant">Broad Street</placeName>
                <placeName type="formInDocument">Horsemonger Street</placeName>
                <placeName type="formInDocument">horsmangerstrete</placeName>
-               <region type="parish">Oxford, St Mary Magdalen</region>
+               <region type="parish">Oxford</region><!--unsure of the parish-->
                <region type="county">Oxfordshire</region>
                <idno>https://www.wikidata.org/wiki/Q60032</idno>
                <bibl>Eleanor Chance, Christina Colvin, Janet Cooper, C J Day, T G Hassall, Mary Jessup and Nesta Selwyn, 'Street-Names', in <title>A History of the County of Oxford: Volume 4, the City of Oxford</title>, ed. Alan Crossley and C R Elrington (London, 1979), pp. 475-477. British History Online http://www.british-history.ac.uk/vch/oxon/vol4/pp475-477 [accessed 21 September 2021].</bibl>
@@ -37976,7 +36989,7 @@
             </place>
            
             <place subtype="new" type="place" xml:id="place_109393">
-               <placeName type="index">Worton</placeName>
+               <placeName type="index">Nether Worton and Over Worton</placeName>
                <placeName type="formInDocument">nethereorton</placeName>
                <placeName type="formInDocument">nethorton</placeName>
                <region type="parish">Worton</region>
@@ -41649,6 +40662,7 @@
                <note type="charter">MS. Ch. Yorks. 160b</note>
                <note type="charter">MS. Ch. Oxon. 138b</note>
                <note type="charter">MS. Ch. Oxon. 182</note>
+               
                <note type="charter">MS. Ch. Oxon. 212</note>
                <note type="charter">MS. Ch. Oxon. 184</note>
                <note type="charter">MS. Ch. Oxon. 206a</note>
@@ -41913,7 +40927,7 @@
             
             <org xml:id="org_102006">
                <orgName type="index">Oxford, Cardinal College</orgName>
-               <!--TODO on suppressed St Frideswide's lands, first as 1524-1529 Cardinal College > 1532 as King Henry VIII's College > 1545 as Christ Church College > how do we signify the development of names?-->
+               <!--on suppressed St Frideswide's lands, first as 1524-1529 Cardinal College > 1532 as King Henry VIII's College > 1545 as Christ Church College > how do we signify the development of names?-->
                <orgName type="formInDocument">Cardinal College, Oxford</orgName>
                <region type="county" key="place_000065">Oxfordshire</region>
                <idno>http://viaf.org/viaf/595150172698600180004</idno>
@@ -44965,7 +43979,6 @@
                <note type="charter">MS. D. D. Ch. Ch. O. 421</note>
                <note type="charter">MS. D. D. Ch. Ch. O. 430</note>
             </org>
-            
             <org xml:id="org_108004">
                <orgName type="index">Daventry, Cluniac priory</orgName>
                <orgName type="formInDocument">abbey (sic) of St. Augustine of Daventr'</orgName>
@@ -45021,6 +44034,7 @@
                <note type="charter">MS. Ch. Oxon. Oseney 60</note>
             </org>
            
+            
             <org xml:id="org_108002">
                <orgName type="index">Coventry, Benedictine cathedral priory of St Mary</orgName>
                <orgName type="formInDocument">cathedral church of St. Mary the Virgin of Coventry</orgName>
@@ -45042,6 +44056,25 @@
                <note type="charter">MS. Ch. Northants. 13</note>
             </org>
            
+           
+            <org xml:id="org_108008">
+               <orgName type="index">Northampton, Augustinian abbey of St James</orgName>
+               <orgName type="formInDocument">convent of St. James without Northampton</orgName>
+               <orgName type="formInDocument">abbot of St. James', Northampton</orgName>
+               <orgName type="formInDocument">St. James near Northampton</orgName>
+               <orgName type="formInDocument">monastery of St. James</orgName>
+               <idno>https://www.wikidata.org/wiki/Q15262548</idno>
+               <note type="charter">MS. Ch. Northants. 128a</note>
+               <note type="charter">MS. Ch. Northants. 119</note>
+               <note type="charter">MS. Ch. Northants. 144</note>
+               <note type="charter">MS. Ch. Northants. 155</note>
+               <note type="charter">MS. Ch. Northants. 165</note>
+               <note type="charter">MS. Ch. Oxon. Oseney 73</note>
+               <note type="charter">MS. Ch. Northants. 8</note>
+            </org>
+            
+         
+         
             <org xml:id="org_108005">
                <orgName type="index">Northampton, Cluniac priory of St Andrew</orgName>
                <orgName type="formInDocument">prior and monks of St. Andrew, Northampton</orgName>
@@ -45066,105 +44099,6 @@
                <bibl>'Hospitals: St Leonard, Northampton', in <title>A History of the County of Northampton: Volume 2</title>, ed. R M Serjeantson and W R D Adkins (London, 1906), pp. 159-161. British History Online http://www.british-history.ac.uk/vch/northants/vol2/pp159-161 [accessed 9 November 2021].</bibl>
                <note type="charter">MS. Ch. Northants. 4</note>
             </org>
-            
-            <org xml:id="org_108008">
-               <orgName type="index">Northampton, Augustinian abbey of St James</orgName>
-               <orgName type="formInDocument">convent of St. James without Northampton</orgName>
-               <orgName type="formInDocument">abbot of St. James', Northampton</orgName>
-               <orgName type="formInDocument">St. James near Northampton</orgName>
-               <orgName type="formInDocument">monastery of St. James</orgName>
-               <idno>https://www.wikidata.org/wiki/Q15262548</idno>
-               <note type="charter">MS. Ch. Northants. 128a</note>
-               <note type="charter">MS. Ch. Northants. 119</note>
-               <note type="charter">MS. Ch. Northants. 144</note>
-               <note type="charter">MS. Ch. Northants. 155</note>
-               <note type="charter">MS. Ch. Northants. 165</note>
-               <note type="charter">MS. Ch. Oxon. Oseney 73</note>
-               <note type="charter">MS. Ch. Northants. 8</note>
-            </org>
-            
-            <org xml:id="org_108009">
-               <orgName type="index">Notley, Augustinian abbey</orgName>
-               <orgName type="formInDocument">Nutley</orgName>
-               <region type="county">Buckinghamshire</region>
-               <idno>https://www.wikidata.org/wiki/Q17017508</idno>
-               <note type="charter">MM. Rolls 3</note>
-            </org>
-            
-            <org xml:id="org_108010">
-               <orgName type="index">Oxford, Brasenose College</orgName>
-               <orgName type="formInDocument">Brasenose College</orgName>
-               <region type="county">Oxfordshire</region>
-               <idno>http://viaf.org/viaf/150805438</idno>
-               <note type="charter">MM. 60</note>
-            </org>
-            
-            <org xml:id="org_108011">
-               <orgName type="index">Oxford, All Souls College</orgName>
-               <orgName type="formInDocument">All-souls Colledge</orgName>
-               <region type="county">Oxfordshire</region>
-               <idno>http://viaf.org/viaf/143023731</idno>
-               <note type="charter">MM. 58</note>
-            </org>
-            
-            <org xml:id="org_108012">
-               <orgName type="index">Oxford, Canterbury College</orgName>
-               <orgName type="formInDocument">Canterbury College</orgName>
-               <region type="county">Oxfordshire</region>
-               <idno>http://viaf.org/viaf/152531224</idno>
-               <note type="charter">MM. 52</note>
-            </org>
-            
-            <org xml:id="org_108013">
-               <orgName type="index">Oxford, guild of St Nicholas in St Mary's Church [unidentified]</orgName>
-               <orgName type="formInDocument">Guild of S. Nicholas in S. Mary’s Church, Oxford</orgName>
-               <region type="parish">Whitegate</region>
-               <region type="county">Oxfordshire</region>
-               <note type="charter">MM. 43</note>
-            </org>
-            
-            <org xml:id="org_108014">
-               <orgName type="index">Vale Royal, Cistercian abbey</orgName>
-               <orgName type="formInDocument">Vale Royal</orgName>
-               <region type="county">Cheshire</region>
-               <idno>http://viaf.org/viaf/123529156</idno>
-               <note type="charter">MM. 3</note>
-            </org>
-            
-            <org xml:id="org_108015">
-               <orgName type="index">Westminster, Court of Common Pleas</orgName>
-               <orgName type="formInDocument">Court of Common Pleas</orgName>
-               <region type="county">Middlesex</region>
-               <idno>http://viaf.org/viaf/122099864</idno>
-               <idno>https://www.wikidata.org/wiki/Q206634</idno>
-               <note type="charter">MM. 101</note>
-            </org>
-            
-            <org xml:id="org_108016">
-               <orgName type="index">Court of Augmentations</orgName>
-               <orgName type="formInDocument">Court of Augmentations</orgName>
-               <idno>http://viaf.org/viaf/125603941</idno>
-               <idno>https://www.wikidata.org/wiki/Q5178343</idno>
-               <note type="charter">MM. 43</note>
-            </org>
-            
-            <org xml:id="org_108017">
-               <orgName type="index">Court of Wards and Liveries</orgName>
-               <orgName type="formInDocument">Court of Wards</orgName>
-               <idno>http://viaf.org/viaf/129065993</idno>
-               <idno>https://www.wikidata.org/wiki/Q1137766</idno>
-               <note type="charter">MM. 43</note>
-            </org>
-            
-            <!--<org xml:id="org_108018">
-               <orgName type="index"></orgName>
-               <orgName type="formInDocument"></orgName>
-               <region type="county"></region>
-               <idno></idno>
-               <note type="charter">MM. 43</note>
-            </org>
-            
-            TA CONT here for new orgs-->
             
             <!-- Oxon -->
             
@@ -45413,7 +44347,7 @@
             <org xml:id="org_109030">
                <orgName type="index">Oxford, St Mary's College (unidentified)</orgName>
                <orgName type="formInDocument">St. Mary's College</orgName>
-               <!--TODO not sure which 'St Mary's College' this is:
+               <!--not sure which 'St Mary's College' this is:
                https://en.wikipedia.org/wiki/New_College,_Oxford
                https://en.wikipedia.org/wiki/St_Mary_Hall,_Oxford-->
                <note type="charter">MS. Rolls Oxon. Oseney 5</note>
