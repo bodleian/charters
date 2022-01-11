@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_5001066">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_5001066">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +50,7 @@
                   <textLang mainLang="la">Latin</textLang>
                   <!--no date - what should we enter as approximation? 13thC? see also MS. D. D. Ch. Ch. O. 1019 for the same actor-->
                   <msItem>
-                     <p><placeName>Stonnall</placeName>. <persName><forename>Robert</forename> de <surname>Grendona</surname></persName> grants to <persName><forename>Richard</forename>, son of <persName><forename>William</forename> <surname>Unfrey</surname> de <placeName role="person">Stonhale</placeName></persName></persName> 3 and half acres in le <placeName type="minor">Linde Heht</placeName>.
+                     <p><placeName key="place_109372">Stonnall</placeName>. <persName><forename>Robert</forename> de <surname>Grendona</surname></persName> grants to <persName><forename>Richard</forename>, son of <persName><forename>William</forename> <surname>Unfrey</surname> de <placeName role="person" key="place_109372">Stonhale</placeName></persName></persName> 3 and half acres in le <placeName type="minor">Linde Heht</placeName>.
                      [No date.]</p>
                   </msItem>
                </msContents>

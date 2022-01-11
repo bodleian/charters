@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_500523">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_500523">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +50,7 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <!--Perhaps ought to be Salter's 653A? Salter's 653 doesn't appear to have duplicate. 653A entered here - CHK!-->
-                     <p><placeName>Oxford, St. Budoc parish</placeName>. <persName><forename>Matilda</forename>, <surname type="patronymic">daughter of Axet</surname></persName>, grants to <persName>her daughter <forename>Celestria</forename></persName> land between the castle and the river. 
+                     <p><placeName key="place_109422">Oxford, St. Budoc parish</placeName>. <persName><forename>Matilda</forename>, <surname type="patronymic">daughter of Axet</surname></persName>, grants to <persName>her daughter <forename>Celestria</forename></persName> land between the castle and the river. 
                         <origDate when="1250" precision="low">c. 1250</origDate>.  </p>
                   </msItem>
                </msContents>

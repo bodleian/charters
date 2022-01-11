@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_5001008">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_5001008">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,7 +49,7 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p><placeName>Rousham</placeName>. <persName><forename>John</forename>, son of <persName><forename>Walter</forename> de <surname>Beverley</surname></persName></persName>, gives 36 acres to <persName><forename>Henry</forename> de <surname>Sandon</surname></persName>. 
+                     <p><placeName key="place_109462">Rousham</placeName>. <persName><forename>John</forename>, son of <persName><forename>Walter</forename> de <surname>Beverley</surname></persName></persName>, gives 36 acres to <persName><forename>Henry</forename> de <surname>Sandon</surname></persName>. 
                         <origDate when="1220" precision="low">c. 1220</origDate>.</p>
                   </msItem>
                </msContents>
@@ -67,7 +65,7 @@
                      <recordHist>
                         <source>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
-                                <citedRange unit="page" from="6" to="6"></citedRange>
+                                <citedRange unit="page" from="6" to="6"/>
                            </bibl>
                            <bibl>H. E. Salter, <title>Cartulary of Oseney Abbey</title>, 6 vols. (1929-1936), <citedRange unit="volume" from="4" to="4">4</citedRange>, <citedRange unit="entry" from="157B" to="157B">no. 157B</citedRange> (<citedRange unit="page" from="211" to="212">pp. 211-212</citedRange>)</bibl>
                         </source>

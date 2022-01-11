@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_500954">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_500954">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,7 +49,7 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p><persName><forename>Umfrid</forename> de <surname>Montibus</surname></persName> grants a meadow in <placeName>Bulestake</placeName> to <orgName>Oseney</orgName>. 
+                     <p><persName><forename>Umfrid</forename> de <surname>Montibus</surname></persName> grants a meadow in <placeName key="place_109182">Bulestake</placeName> to <orgName key="org_109067">Oseney</orgName>. 
                     <origDate when="1239-08-01">Aug. 1, 1239</origDate>. </p>
                   </msItem>
                </msContents>
@@ -67,7 +65,7 @@
                      <recordHist>
                         <source>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
-                                <citedRange unit="page" from="6" to="6"></citedRange>
+                                <citedRange unit="page" from="6" to="6"/>
                            </bibl>
                            <bibl>H. E. Salter, <title>Cartulary of Oseney Abbey</title>, 6 vols. (1929-1936), <citedRange unit="volume" from="4" to="4">4</citedRange>, <citedRange unit="entry" from="40" to="40">no. 40</citedRange> (<citedRange unit="page" from="62" to="63">pp. 62-63</citedRange>)</bibl>
                         </source>
