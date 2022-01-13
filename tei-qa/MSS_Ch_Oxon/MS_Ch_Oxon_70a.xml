@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109181">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Oxon. 70a</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Oxon_70a</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Oxon_70a" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Oxon. 70a</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> KIRTLINGTON. <persName>
+                           <forename>Thomas</forename>, <surname type="patronymic">fitz-Fulk</surname>
+                        </persName>, 
+               grants to <persName>John, fitz-Clement of Kylinton</persName>, that messuage in
+               <placeName key="place_109351">Kirlinton</placeName> which <persName>
+                           <forename>William</forename> the clerk</persName> 
+               held of the said Thomas, and one acre of land above <placeName type="minor">Ruemere</placeName>, and another acre 
+               of land in <placeName type="minor">Waterfelde</placeName>. Rent: 1 lb of pepper at Michaelmas: if it is not paid then he shall pay a hen on the morrow of Michaelmas. 
+               For this grant John has paid one mark and done homage.
+               Witness: <persName>
+                           <forename>Gilbert</forename> 
+                           <surname type="patronymic">son of Helias</surname>
+                        </persName>,
+               <persName>
+                           <forename>Ralph</forename> 
+                           <surname type="patronymic">son of Geoffrey</surname>
+                        </persName>,
+               <persName nymRef="son of Geoffrey">
+                           <forename>Geoffrey</forename> his brother</persName>,
+               <persName>
+                           <forename>William</forename> 
+                           <surname>hostiarius</surname>
+                        </persName>,
+               <persName>
+                           <forename>Ingram</forename> of <surname>Kirlintona</surname>
+                        </persName>,
+               <persName>
+                           <forename>William</forename> 
+                           <surname>hosarius</surname> of <placeName role="person" key="place_109413">Oseni</placeName>
+                        </persName>,
+               <persName>
+                           <forename>William</forename> son and heir of the grantor</persName>,
+               <persName>
+                           <forename>Ralph</forename> 
+                           <surname>son of Fulk</surname> brother of the grantor</persName>,
+               <persName nymRef="son of Fulk">
+                           <forename>Matthew</forename> brother of the grantor</persName>,
+               <persName>
+                           <forename>Vincent</forename> of <surname>Kirlintona</surname>
+                        </persName>,
+               <persName nymRef="Kirlintona">
+                           <forename>Robert</forename> his brother</persName>,
+               <persName>
+                           <forename>Hugh</forename> of <surname>Wicchilla</surname>
+                        </persName>,
+               <persName>
+                           <forename>Richard</forename> of <surname>Sarci</surname>
+                        </persName>.
+               (<origDate when="1210" precision="low">c. 1200</origDate>.)
+               <!-- Is this note OK?  -->
+                
+                .</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seal.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Priory of St Frideswide, Oxford</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="303" to="303">303</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

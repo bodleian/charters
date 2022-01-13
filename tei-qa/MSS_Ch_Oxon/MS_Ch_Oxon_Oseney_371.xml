@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109393">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Oxon. Oseney 371</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Oxon_Oseney_371</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_371" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 371</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> Robert L..., with the assent of Felicia his wife, and on account of their great necessity, grants to
+               <persName>
+                           <forename>Adam</forename>, <surname type="patronymic">son of Seberen</surname>
+                        </persName>, for his homage 
+               and service, one messuage in <placeName key="place_109328">Hokenorton</placeName>, viz. that messuage which
+               <persName>
+                           <forename>Adam</forename> 
+                           <surname>Spilems...</surname>
+                        </persName> (?) held; also two acres of
+               land in the east field, of which one half acre is against <placeName type="minor">Ludewell</placeName>, another against
+               '<placeName type="minor">Hochulldich</placeName>' near 
+               <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Winnegod</surname>
+                        </persName>, a third against 
+               '<placeName type="minor">Theroberevers (?) lake</placeName>' near
+               <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Winnegod</surname>
+                        </persName>, a fourth near
+               <placeName type="minor">Wlneswel</placeName> near <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Winnegod</surname>
+                        </persName>'s 
+               gore above <placeName type="minor">Stamwelle hull</placeName> near 
+               <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Winnegod</surname>
+                        </persName>'s. In another field towards the south 
+               another 2 acres (with boundaries named), and half an acre in the meadow of 
+               '<placeName type="minor">Heiweies furlong</placeName>,' paying annually 2s. For this
+               donation the said Adam paid to Robert 30s. 6d., to Felicia his wife 3s., and to
+               Geoffrey his son 2s., and to William, his son, 3d.(?), Nicholas 10d., and to Adam, and John, his sons, 6d. each. 
+               (<origDate when="1230" precision="low">c. 1230</origDate> (?).) 
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="329" to="329">329</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

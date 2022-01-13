@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109067">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Oxon. 207b</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Oxon_207b</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Oxon_207b" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Oxon. 207b</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> SANDFORD, DENTON, WHEATLEY, co. Oxon, and BLEWBURY, co. Berks. 
+               <persName>
+                           <forename>Katherine</forename> 
+                           <surname>Paynel</surname>
+                        </persName>,
+               daughter of <persName>sir <forename>Adam</forename> de <surname>Pyriton</surname>, widow</persName>, grants to 
+               God and St. Mary and <orgName key="org_103024">the brethren of the Knights Templars</orgName> the 
+               <placeName type="manor" key="place_109067">manor of Sandford</placeName>, namely that which 
+               <persName>sir <forename>Thomas</forename> de <surname>Sandford</surname>
+                        </persName> had in the same village, 
+               saving to her and her heirs for ever a moiety of three knights' fees which were wont to pertain to the same manor. 
+               Besides she grants to the said Knights Templars the external services of two hides of land which
+               <persName>
+                           <forename>John</forename> de <surname>Gardius</surname>
+                        </persName> held in <placeName key="place_109246">Denton</placeName>, 
+               and of one hide in <placeName key="place_109556">Whateleg</placeName>' which 
+               <persName>
+                           <forename>Eustace</forename> de <surname>Whateleg</surname>
+                        </persName>' held,
+               which services aforesaid ought to be made to the said manor of Sandford. Also she
+               grants to them the advowson of the church of <placeName key="place_109177">Blebiry</placeName> with appurtenances, all of which
+               the said brethren had by the gift of Thomas de Sandford aforesaid, uncle of her
+               father, and confirmation of her father <persName>
+                           <forename>Adam</forename> de <surname>Pyriton</surname>
+                        </persName>. 
+               To have and to hold to the said Knights Templars in frankalmoigne, making to her and her heirs the external
+               service that belongs to one knight's fee, namely scutage and ward of <placeName key="place_107051">Wyndeshore</placeName> for
+               all secular services, and demands. 
+               Witnesses. <persName>Sir <forename>Hugh</forename> de <surname>Plessys</surname>
+                        </persName>, 
+               <persName>sir <forename>Fulk</forename> de <surname>Rycote</surname>
+                        </persName>, 
+               <persName>sir <forename>William</forename> le <surname>Moyne</surname>
+                        </persName>,
+               <persName>sir <forename>Richard</forename> le <surname>Povre</surname>
+                        </persName>, 
+               <persName>
+                           <forename>Robert</forename> de <surname>Lowches</surname>
+                        </persName> and six others.
+               (<origDate notBefore="1290" notAfter="1300" precision="low">c. 1290-1300</origDate>.) 
+                
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seal.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="285" to="285">285</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

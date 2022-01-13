@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109092">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Oxon. 28</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Oxon_28</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Oxon_28" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Oxon. 28</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> Roll of charters connected with the claim of <orgName key="org_109033">University college</orgName> to the property 
+               of <persName>
+                           <forename>Walter</forename> the <surname>goldsmith</surname>
+                        </persName> in the <placeName key="place_109419">parish of All Saints, Oxford</placeName>. . 
+            Imperfect at the beginning. <origDate notBefore="1385" notAfter="1390" precision="low">c. 1385-90</origDate>. 
+               Endorsed with<!-- chk hardcopy ...--> by a hand of 17th century.
+            </p>
+                  </msItem>
+                  <msItem>
+                     <p> (a) <persName>
+                           <forename>Geoffrey</forename>, the <surname>goldsmith</surname>, commonly called ..., burgess of <placeName role="person" key="place_105449">Oxford</placeName>
+                        </persName>, 
+               acknowledges to have received of <persName>
+                           <forename>Gilbert</forename> de <surname>Gonwardby</surname>, burgess of <placeName role="person" key="place_105449">Oxford</placeName>
+                        </persName>,
+               £1000, and for security thereof mortgages to him or his attorney 5 tenements in the 
+               <placeName type="street" key="place_109111">High Street</placeName> above the corner of the cemetery of the church of All
+               Saints, and 3 messuages and 3 shops in the <placeName key="place_109435">parish of St. Mildred</placeName>, 3 messuages in the
+               <placeName key="place_109431">parish of St. Martin</placeName>, 2 cottages in the <placeName key="place_109442">parish of St. Thomas</placeName>,
+               one messuage and 3 cottages in the <placeName key="place_109425">parish of St. Ebbe</placeName>, 2 messuages in
+               <placeName type="street" key="place_109127">Grauntpount</placeName>, one cottage in the
+               <placeName key="place_109426">parish of St. Edward</placeName>, 2 messuages in the <placeName key="place_109430">parish of St. John</placeName>,
+               one messuage in the <placeName key="place_109441">parish of St. Peter in the east</placeName>, 3 tenements in the 
+               <placeName key="place_109440">parish of St. Peter in the bailey</placeName>, 4 tenements and 6 acres of land in <placeName key="place_109305">Halivelle</placeName>,
+               3 messuages in the <placeName key="place_109429">parish of St. Giles</placeName>, 20 acres of land in
+               <placeName key="place_109169">Beaumont</placeName> and the field of <placeName key="place_105548">Walton</placeName>, and 40 acres of
+               meadow behind Oseney in <placeName type="minor">Irland</placeName>, <pb n="291"/> and <placeName type="minor">Alrychseyte</placeName>
+               and <placeName type="minor">Swyneshull</placeName>, and 30s. annual rent going out of divers places in the town. 
+               Dated on Whitsunday [<origDate notBefore="1232-10-28" notAfter="1233-10-27">17 Hen. III</origDate>]. Date erased.
+               [Copy of a spurious deed advanced by University college, in support of their title to Gonwardby's lands.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (b) <persName>
+                           <forename>Gilbert</forename> de <surname>Gonewardeby</surname>, burgess of <placeName role="person" key="place_105449">Oxon</placeName>
+                        </persName>, 
+               recites the bond given by <persName>
+                           <forename>Geoffrey</forename> the <surname>goldsmith</surname>
+                        </persName> to
+               himself in £1000 payable on the feast of St. Martin in the winter, 16 years after the date of the said
+               bond, and by this charter covenants with the said Geoffrey, that he shall enjoy the same for his life,
+               reserving to himself and <persName>
+                           <forename>John</forename> de <surname>Gonewardeby</surname>
+                        </persName> 
+               his son, the reversion of the same after the death of the said Geoffrey; the said Gilbert grants and
+               quit-claims to John his son and his heirs all right in the said lands mentioned in (a). 
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName> on the feast of St. Mary the virgin ... <origDate notBefore="1216" notAfter="1272">Hen. III</origDate>. (Date erased.) (Spurious.) </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (c) Abstracts of charters of lands and rents in '<placeName type="minor">Bocheria</placeName>' in <placeName key="place_109419">All Saints' parish, Oxford</placeName>. 
+               
+               (d) An agreement between <persName>
+                           <forename>John</forename> and <forename>Walter</forename> the <surname>goldsmiths</surname>
+                        </persName>, 
+               and <persName>
+                           <forename>John</forename> 
+                           <surname>Gonwardby</surname>, mercer, of <placeName role="person" key="place_105449">Oxford</placeName>
+                        </persName>, 
+               concerning the bond of £1000 secured by <persName>
+                           <forename>Geoffrey</forename> the <surname>goldsmith</surname>
+                        </persName> 
+               on his lands &amp;c. as described in (a), by which the said lands &amp;c.
+               are granted to John and Walter for their lives. This agreement to be maintained under
+               a penalty of £3000. Dated at <placeName role="date" key="place_105449">Oxford</placeName> on the morrow of St.
+               Michael the archangel, <origDate when="1225-09-30">(9) Hen. III</origDate>. (Date erased.) (Spurious.) </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (e) <persName>
+                           <forename>John</forename> de <surname>Gonewardeby</surname>, mercer, of <placeName role="person" key="place_105449">Oxford</placeName>
+                        </persName>, 
+               grants to <persName>
+                           <forename>John</forename> de <surname>Gonewardeby</surname>
+                        </persName> his younger
+               son the reversion of his house in the <placeName key="place_109419">parish of All Saints, Oxford</placeName>, between 
+               tenements formerly <persName>
+                           <forename>John</forename> 
+                           <surname>Goldesmyth</surname>
+                        </persName>'s, after
+               the death of <persName>
+                           <forename>Thomas</forename> de <surname>Gonewardeby</surname>
+                        </persName> his elder
+               son, also the reversion of all the lands which he had by the gift and feoffment of 
+               <persName>
+                           <forename>John</forename> the <surname>goldsmith</surname>
+                        </persName> and
+               <persName>
+                           <forename>Walter</forename> his brother</persName>.
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName> the Thursday on the feast of the Epiphany, 
+               ... <origDate notBefore="1307" notAfter="1327">Ed. II</origDate>. (Date erased.) (Spurious.)</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (f) <persName>
+                           <forename>John</forename> .... of <placeName role="person" key="place_105449">Oxford</placeName>
+                        </persName> 
+               grants to <persName>
+                           <forename>John</forename> de <surname>Denchesworth</surname>
+                        </persName> and
+               <persName nymRef="Denchesworth">
+                           <forename>Elizabeth</forename> his wife</persName> the
+               whole of that messuage in the <placeName key="place_109431">parish of St. Martin, Oxford</placeName>, 'in <placeName type="minor">Bocheria</placeName>.' 
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName> on St. Vincent's day, <origDate notBefore="1339-01-25" notAfter="1340-01-24">13 Ed. III</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (g) Writ of supersedeas in a cause between 
+               <persName>
+                           <forename>Edmund</forename> 
+                           <surname>Fraunceys</surname>
+                        </persName> and 
+               <persName nymRef="Fraunceys">
+                           <forename>Idonea</forename> his wife</persName> on the one part, and the 
+               <orgName key="org_109033">master and scholars of University College</orgName> on the other. 
+               Dated at <placeName role="date" key="place_107060">New Sarum</placeName>, 22 May, <origDate notBefore="1383-06-22" notAfter="1384-06-21">7 Rich. II</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (h) <persName>
+                           <forename>John</forename>, son of <persName>
+                              <forename>Walter</forename> the <surname>goldsmith</surname>, of <placeName role="person" key="place_105449">Oxon</placeName>
+                           </persName>
+                        </persName>, 
+               grants to <persName>
+                           <forename>John</forename> de <surname>Gonwardby</surname>
+                        </persName> and 
+               <persName nymRef="Gonwardby">his wife <forename>Joan</forename>
+                        </persName>, daughter of the said John, 
+               the whole of that messuage with appurtenances situated in the <placeName key="place_109419">parish of All Saints, Oxford</placeName>, 
+               between a tenement he inhabits at the time of making this charter on the west, and the tenement which
+               <persName>
+                           <forename>Philip</forename> de <surname>Wormenhale</surname>
+                        </persName> holds of him on the east;
+               also he grants to the said John and Joan 8s. annual rent which he was accustomed to receive annually from
+               a tenement of <persName>
+                           <forename>Robert</forename> de <surname>Gonwardby</surname>
+                        </persName> in
+               <placeName key="place_109425">St. Ebbe's, <pb n="292"/> Oxon</placeName>; to hold the same to them
+               and their heirs for ever, in default to revert to the heirs of John son of Walter.
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName> the Sunday next after the feast of All Saints,
+               <origDate notBefore="1307-07-08" notAfter="1308-07-07">1 Ed. II</origDate>.
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (i) <persName>
+                           <forename>John</forename>, son of <persName>
+                              <forename>Walter</forename> the <surname>goldsmith</surname>, of <placeName role="person" key="place_105449">Oxford</placeName>
+                           </persName>
+                        </persName>, 
+               grants to John his son all the land and tenements, rents and services, meadows and pastures, with
+               appurtenances, which he has in the town of <placeName key="place_105449">Oxford</placeName>, and the counties of 
+               <placeName type="county" key="place_000065">Oxon</placeName> and <placeName type="county" key="place_000010">Berks</placeName>; to hold the same to
+               him and the heirs of his body by an annual payment of 14 marks of silver, in default
+               of heirs the whole to revert to <persName>
+                           <forename>John</forename> 
+                           <surname>Gonwardby</surname>
+                        </persName>
+               and Joan his wife and their heirs; in default to revert to the heirs of the said John son of Walter for ever.
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName>, 2 July, <origDate notBefore="1307-07-08" notAfter="1308-07-07">1 Ed. II</origDate>. 
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               (k) Fragment of the pleadings in the suit between 
+               <persName nymRef="Fraunceys">
+                           <forename>Edmund</forename>
+                        </persName> and 
+               <persName>
+                           <forename>Idonea</forename> 
+                           <surname>Fraunceys</surname>
+                        </persName> and 
+               <orgName key="org_109033">University College</orgName>. 
+            </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="290" to="292">290-292</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

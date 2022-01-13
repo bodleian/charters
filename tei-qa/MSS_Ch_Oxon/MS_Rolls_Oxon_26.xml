@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109090">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Oxon. 26</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Oxon_26</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Oxon_26" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Oxon. 26</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> Inrolment of evidences concerning Arthur hall and Hert hall, situate in
+               <placeName key="place_109441">the parish of St. Peter in the East</placeName>, and conveyed to
+               <persName>
+                           <forename>Walter</forename> de <surname>Stapledon</surname>, bishop of <placeName role="bishop" type="diocese" key="place_100077">Exeter</placeName>
+                        </persName>, 
+               for the foundation of his college. viz. "... de <orgName key="org_109037">Stapeldonhall</orgName> de aula 
+               quondam vocata ... "
+               <origDate notBefore="1330" notAfter="1340" precision="low">c. 1330-40</origDate>.
+               . </p>
+                  </msItem>
+                  <msItem>
+                     <p> (a) <persName>
+                           <forename>Agnes</forename> de <surname>Staunton</surname>, widow</persName>, quit-claims to
+               <persName>
+                           <forename>John</forename> de <surname>Dokelington</surname>
+                        </persName> all her right in a
+               tenement which she had by the gift of Alice ... in the <placeName key="place_109441">parish of St. Peter in the East, Oxford</placeName>. 
+               Witnesses. <persName>
+                           <forename>William</forename> de <surname>Burcestre</surname>
+                        </persName> and
+               <persName>
+                           <forename>John</forename> de <surname>Hampton</surname>
+                        </persName>, then bailiffs of <placeName role="person" key="place_105449">Oxford</placeName>.
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName> the Thursday on the feast of St. Mark, evangelist,
+               <origDate notBefore="1307-07-08" notAfter="1308-07-07">1 Ed. II</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (b) <persName>
+                           <forename>Margery</forename>, who was the wife of <persName>
+                              <forename>Elyas</forename> le <surname>Quilter</surname>, of <placeName role="person" key="place_105449">Oxford</placeName>
+                           </persName>
+                        </persName>, 
+               quit-claims to <persName>
+                           <forename>John</forename> de <surname>Dokelington</surname>
+                        </persName> of Oxford 
+               all her right by reason of dower in the whole of that tenement,
+               with appurtenances, which the said John holds by demise of
+               <persName>
+                           <forename>Agnes</forename>, late wife of <persName>
+                              <forename>John</forename> de <surname>Staunton</surname> of <placeName role="person" key="place_105449">Oxford</placeName>
+                           </persName>
+                        </persName>,
+               which tenement is called 'Arthur halle,' lying in the <placeName key="place_109441">parish of St. Peter in the East</placeName>,
+               between a tenement of the abbot of <orgName key="org_109067">Oseney</orgName> of the one part, and a tenement of
+               <persName>
+                           <forename>Adam</forename> de <surname>Spalding</surname>
+                        </persName> on the other. 
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName> the Wednesday on the morrow of St. Leo the pope, 
+               <origDate notBefore="1311-07-08" notAfter="1312-07-07">5 Ed. II</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (c) <persName>
+                           <forename>John</forename> de <surname>Dokelyngton</surname>, of <placeName role="person" key="place_105449">Oxford</placeName>
+                        </persName>, 
+               grants to <persName>master <forename>Walter</forename> de <surname>Stapledon</surname>, bp. of <placeName role="bishop" type="diocese" key="place_100077">Exeter</placeName>
+                        </persName>, 
+               and <persName>master <forename>Richard</forename> de <surname>Wydeslade</surname>, clerk</persName>, 
+               one messuage called 'le Herthall' which he had by the gift and concession of
+               <persName>
+                           <forename>Elyas</forename>, son of <persName>
+                              <forename>Elyas</forename> de <surname>Hertford</surname>
+                           </persName>
+                        </persName>, 
+               and which is situated in the <placeName key="place_109441">parish of St. Peter in the East, Oxford</placeName>, between a
+               tenement of the <orgName key="org_109027">University of Oxford</orgName> called '<placeName type="minor">le Blakehall</placeName>' 
+               on the west, and a tenement of the <orgName key="org_109082">prioress and convent of Stodlegh</orgName> on
+               the east. Also he grants to the said Walter and Richard another messuage which he had by the gift 
+               and concession of <persName>
+                           <forename>Agnes</forename>, who was the wife of <persName>
+                              <forename>John</forename> de <surname>Stanton</surname> of <placeName role="person" key="place_105449">Oxford</placeName>
+                           </persName>
+                        </persName>,
+               situated in the parish of St. Peter in the East, between a tenement of the 
+               <orgName key="org_109067">abbot and convent of Osney</orgName> on the east, and a tenement of
+               <persName>
+                           <forename>Adam</forename> de <surname>Spaldyng</surname>
+                        </persName> on the west. For
+               this donation the said Walter and Richard gave 80 marks sterling. 
+               Witnesses. <persName>
+                           <forename>William</forename> de <surname>Burncestre</surname>, then mayor of <placeName role="mayor" key="place_105449">Oxford</placeName>
+                        </persName>, 
+               <persName>
+                           <forename>John</forename> de <surname>Hampton</surname>
+                        </persName> and
+               <persName>
+                           <forename>Richard</forename> de <surname>Berkeleye</surname>
+                        </persName>, then
+               bailiffs. Dated at <placeName role="date" key="place_105449">Oxford</placeName> the Thursday next after the feast of 
+               St. Leo the pope, <origDate notBefore="1311-07-08" notAfter="1312-07-07">5 Ed. II</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+                        <pb n="288"/> 
+               (d) <persName>
+                           <forename>Richard</forename> de <surname>Wydeslade</surname>, precentor of the
+               church of <placeName role="person" key="place_109239">Cryditon</placeName>
+                        </persName>, 
+               quitclaims to <persName>
+                           <forename>Walter</forename>, bishop of <placeName role="bishop" type="diocese" key="place_100077">Exeter</placeName>
+                        </persName>, 
+               all his right in two messuages situated in the parish of <placeName key="place_109441">St. Peter in the East, Oxford</placeName>, 
+               of which one is called <placeName type="minor">Hert hall, and now called Stapyldon hall</placeName>
+                        <!-- check: could be org? -->, and
+               another is called <placeName type="minor">Arthur hall</placeName>, of which messuages the said Richard and
+               Walter were infeoffed by <persName>
+                           <forename>John</forename> de <surname>Dokelyngton</surname> of <placeName role="person" key="place_105449">Oxford</placeName>
+                        </persName>. 
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName>, 7 April, <origDate when="1314">1314</origDate>, and <origDate notBefore="1313-07-08" notAfter="1314-07-07">7 Ed. II</origDate>. 
+               
+               (e) Letters patent of <persName>King Edward II</persName>., dated at <placeName role="perosn" key="place_103421">York</placeName>, 
+               10 May, 7th of his reign, being a grant of a licence of mortmain to <persName>
+                           <forename>Walter</forename>, bp. of <placeName role="bishop" type="diocese" key="place_100077">Exeter</placeName>
+                        </persName>, 
+               to assign two messuages in <placeName key="place_105449">Oxford</placeName> to 12 scholars studying in the
+               <orgName key="org_109027">University</orgName> of the said town. To hold the same for ever. 
+            </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="287" to="288">287-288</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

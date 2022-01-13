@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109091">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Oxon. 27</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Oxon_27</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Oxon_27" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Oxon. 27</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>Inrolment of muniments relating to <orgName key="org_109037">Stapledon hall</orgName> and of
+               the hall formerly called the <placeName type="minor">hall of St. Stephen</placeName>, in the 
+               <placeName key="place_109435">parish of St. Mildred, Oxford</placeName>, temp. Ed. I. viz. 
+               <origDate when="1320" precision="low">c. 1320</origDate>. 
+               "Ista sunt munimenta domo de Stapeldon halle de aula quondam vocata aula S. Stephani in parochia Sancte Mildride."
+                  . </p>
+                  </msItem>
+                  <msItem>
+                     <p> (a) <persName>
+                           <forename>Geoffrey</forename> de <surname>Merston</surname>, skinner</persName>, grants
+               to <persName>master <forename>William</forename> de <surname>Coudrey</surname>
+                        </persName> one plot of
+               land, having in breadth within the walls of the said William '<hi rend="italics">6 ulnas regias cum
+               police et quaterium unius ulne</hi>,' and in length the whole space of the land between
+               <persName>master <forename>Thomas</forename> de <surname>Radenore</surname>
+                        </persName>'s on the west, and 
+               the land of the abbess of <orgName key="org_109003">Godstowe</orgName> on the east, which plot of land lies between
+               the land of the said master William on the north and the land of the donor on the south, in the 
+               parish of <placeName key="place_109435">St. Mildred, Oxford</placeName>. For this donation the said William gave 40s. sterling.
+               Witnesses. <persName>
+                           <forename>Nicholas</forename> de <surname>Kyngyston</surname>, then mayor of <placeName role="mayor" key="place_105449">Oxford</placeName>
+                        </persName>, 
+               <persName>
+                           <forename>Thomas</forename> de <surname>Sowy</surname>
+                        </persName> and
+               <persName>
+                           <forename>Ralph</forename> le <surname>Plummere</surname>
+                        </persName>, bailiffs. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (b) <persName>
+                           <forename>William</forename> 
+                           <surname>Crompe</surname>
+                        </persName> grants to 
+               <persName>master <forename>William</forename> de <surname>Coudray</surname>
+                        </persName> a certain house
+               in Oxford in the <placeName key="place_109435">parish of St. Mildred</placeName>, which is situated between the house which was
+               <persName>
+                           <forename>Hugh</forename> 
+                           <surname>Rufy</surname>
+                        </persName>'s of
+               the one part, and the house of the abbess of <orgName key="org_109003">Godstow</orgName> of the other; paying annually to
+               <persName>
+                           <forename>Thomas</forename> de <surname>Sowe</surname>, clerk</persName>, 2s., to the 
+               church of St. Mildred 2d., and to him and his heirs 1d. 
+               Witnesses. <persName>
+                           <forename>Nicholas</forename> de <surname>Kyngyston</surname>, then mayor of <placeName role="mayor" key="place_105449">Oxford</placeName>
+                        </persName>, 
+               <persName>
+                           <forename>Geoffrey</forename> the <surname>goldsmith</surname>
+                        </persName> and 
+               <persName>
+                           <forename>Nicholas</forename> de <surname>Collushulle</surname>
+                        </persName>, then bailiffs. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (c) <persName>
+                           <forename>Thomas</forename> de <surname>Sowy</surname>
+                        </persName> quit-claims
+               to <persName>master <forename>William</forename> de <surname>Coudrey</surname>
+                        </persName> all 
+               right in 2s. annual rent which he was accustomed to receive from the messuage situate between the 
+               land of the abbess of <orgName key="org_109003">Godstowe</orgName> on the one part and the land of
+               <persName>
+                           <forename>Lucy</forename> la <surname>Rede</surname>
+                        </persName> on the other in the 
+               <placeName key="place_109435">parish of St. Mildred, Oxford</placeName>.
+               Witn. <persName>
+                           <forename>Nich</forename>. de <surname>Kyngyston</surname>, mayor</persName>, 
+               <persName>
+                           <forename>Ralph</forename> le <surname>Plume</surname>
+                        </persName>, bailiff.</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (d) <persName>
+                           <forename>Thomas</forename> de <surname>Merston</surname>
+                        </persName> quitclaims to 
+               <persName>master <forename>William</forename> de <surname>Coudrey</surname>
+                        </persName> all his
+               right in a certain house in <placeName key="place_109435">Oxford in the parish of St. Mildred</placeName>, which
+               <persName>master <forename>Thomas</forename> de <surname>Radenor</surname>
+                        </persName> bought of
+               <persName>
+                           <forename>Geoffrey</forename> de <surname>Merston</surname>
+                        </persName> his brother, and which 
+               the said <persName>
+                           <forename>Thomas</forename> de <surname>Radenor</surname>
+                        </persName> sold to the said
+               William; also he quit-claims all right in a piece of land behind the said house. 
+               Dated the Monday next after the Purification B.V.M., <origDate when="1284">1284</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (e) <persName>
+                           <forename>Alice</forename>, daughter of <persName>
+                              <forename>Henry</forename> de la <surname>Grave</surname>
+                           </persName>
+                        </persName>, 
+               quit-claims to <persName>master <forename>William</forename> de <surname>Coudray</surname>
+                        </persName>,
+               all her right in that tenement which she formerly had by the gift of the said William in the 
+               <placeName key="place_109435">parish of St. Mildred, Oxford</placeName>. 
+               <pb n="289"/> For this donation the said William gave to her in exchange the whole of that tenement
+               which, he had by the gift of <persName>sir <forename>Henry</forename> 
+                           <surname>Bueles</surname>, kt.</persName>, 
+               and of Henry his son, in the village of <placeName key="place_109351">Curtelingtone</placeName>. 
+               Witnesses. <persName>
+                           <forename>John</forename> 
+                           <surname>Culverd</surname>, mayor of <placeName role="mayor" key="place_105449">Oxford</placeName>
+                        </persName>, 
+               <persName>
+                           <forename>Andrew</forename> de <surname>Pyrie</surname>
+                        </persName>
+               and <persName>
+                           <forename>John</forename> 
+                           <surname>Wyt</surname>
+                        </persName>, bailiffs.
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName> on the feast of St. Peter ad vinc., <origDate notBefore="1293-11-20" notAfter="1294-11-19">22 Ed. I</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (f) <persName>
+                           <forename>Margery</forename>, formerly wife of <persName>
+                              <forename>Geoffrey</forename> 
+                              <surname>Strustan</surname> of <placeName role="person" key="place_109382">Merston</placeName>
+                           </persName>
+                        </persName>,
+               quitclaims to <persName>master <forename>William</forename> de <surname>Coudray</surname>
+                        </persName> 
+               and his assigns, all right in a certain place and buildings which the said William bought of her husband. 
+               For which quit-claim he gave 10s. beforehand. 
+               Witness. <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Sewy</surname>, then mayor of <placeName role="mayor" key="place_105449">Oxford</placeName>
+                        </persName>. 
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName> the Tuesday next after the feast of St. John Bapt., 2 <origDate notBefore="1274-11-20" notAfter="1275-11-19">3 Ed. I</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (g) <persName>
+                           <forename>Geoffrey</forename> de <surname>Coudray</surname>
+                        </persName> quit-claims to 
+               <persName>master <forename>William</forename> de <surname>Coudray</surname>
+                        </persName> all right which
+               he has by reason of gift, demise, or any other manner in his houses in <placeName key="place_105449">Oxford</placeName> and
+               land in <placeName key="place_109351">Curtelington</placeName>. 
+               Dated at <placeName role="date" key="place_109306">Halsale</placeName>, the Tuesday in Pentecost week, <origDate notBefore="1295-11-20" notAfter="1296-11-19">24 Ed. I</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (h) <persName>
+                           <forename>Gilbert</forename> de <surname>Coudray</surname>
+                        </persName> quit-claims to
+               <persName>
+                           <forename>Walter</forename>, bp. of <placeName role="bishop" type="diocese" key="place_100077">Exeter</placeName>
+                        </persName>, 
+               all his right in a certain burgage which he had formerly by the gift and feoffment of 
+               <persName>master <forename>William</forename> de <surname>Coudray</surname>
+                        </persName>, in the 
+               <placeName key="place_109435">parish of St. Mildred</placeName>, opposite to the walls on the north of the said
+               town, and which burgage was formerly <persName>
+                           <forename>William</forename> 
+                           <surname>Crompe</surname>
+                        </persName>'s. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (i) <persName>
+                           <forename>William</forename> de <surname>Coudray</surname>
+                        </persName> grants
+               to <persName>
+                           <forename>William</forename>, son of <persName>
+                              <forename>Thomas</forename> de la <surname>Rode</surname> of <placeName role="person" type="county" key="place_109132">Cornwall</placeName>
+                           </persName>
+                        </persName>, 
+               and to <persName>
+                           <forename>Peter</forename> de <surname>Skelton</surname>, clerk</persName>, and
+               the longest liver of them, the whole of that messuage which he had by the gift of
+               <persName>
+                           <forename>William</forename> 
+                           <surname>Crompe</surname>
+                        </persName> in the town of
+               Oxford against the walls of the said town, in the <placeName key="place_109435">parish of St. Mildred</placeName>,
+               which messuage is situated between the land of the <orgName key="org_109003">abbess and convent of Godstowe</orgName> 
+               on the one part, and a messuage formerly <persName>
+                           <forename>John</forename> 
+                           <surname>Culveret</surname>
+                        </persName>'s 
+               on the other; with the whole of the lower court which he had by the gift of
+               <persName>
+                           <forename>Geoffrey</forename> de <surname>Mersthon</surname>
+                        </persName>, paying annually 
+               for the term of his life 40s. 
+               Witnesses. <persName>
+                           <forename>Philip</forename> de <surname>Ow</surname>, then mayor of <placeName role="mayor" key="place_105449">Oxford</placeName>
+                        </persName>, 
+               <persName>
+                           <forename>Andrew</forename> de <surname>Pyrye</surname>
+                        </persName> and
+               <persName>
+                           <forename>John</forename> de <surname>Coleushulle</surname>
+                        </persName>, then bailiffs. 
+               <origDate when="1296">1296</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (k) Henry, son of <persName>sir <forename>Henry</forename> de <surname>Boweles</surname>, kt., of <placeName role="person" key="place_109351">Curtelingtone</placeName>
+                        </persName>,
+               quitclaims for himself and wife to <persName>
+                           <forename>William</forename>, son of <persName>
+                              <forename>Thomas</forename> de <surname>Rode</surname> of <placeName role="person" key="place_109132">Cornwall</placeName>
+                           </persName>
+                        </persName>, 
+               and <persName>
+                           <forename>Peter</forename> de <surname>Skelton</surname>
+                        </persName>, all their
+               right in a certain messuage in <placeName key="place_105449">Oxford</placeName>, which messuage they had by the gift of
+               <persName>
+                           <forename>William</forename> de <surname>Coudray</surname>
+                        </persName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (l) <persName>
+                           <forename>William</forename>, son of <persName>
+                              <forename>Thomas</forename> de la <surname>Rode</surname> of <placeName role="person" key="place_109132">Cornwall</placeName>
+                           </persName>
+                        </persName>, 
+               grants to <persName>
+                           <forename>Peter</forename> de <surname>Skelton</surname>, clerk</persName>, 
+               the whole of his part of a messuage with appurtenances which he had by the gift of 
+               <persName>master <forename>William</forename> de <surname>Coudray</surname>
+                        </persName>, and also 
+               his part of the court, which
+               messuage and court is situated in the <placeName key="place_109435">parish of St. Mildred, Oxford</placeName>, against the
+               walls of the same town, between a tenement of the <orgName key="org_109003">abbess and convent of Godestowe</orgName> on
+               the east, and a tenement which was formerly 
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Culverd</surname>
+                        </persName>'s on the west. 
+               Witnesses. <persName>
+                           <forename>John</forename> de <surname>Dokelyngton</surname>, then mayor of <placeName role="mayor" key="place_105449">Oxford</placeName>
+                        </persName>, 
+               <persName>
+                           <forename>Walter</forename> 
+                           <surname>Wicumbe</surname>
+                        </persName> and
+               <persName>
+                           <forename>William</forename> de <surname>Penuard</surname>
+                        </persName>,
+               then bailiffs.</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+                        <pb n="290"/> 
+               (m) <persName>
+                           <forename>William</forename> de la <surname>Rode</surname> of <placeName role="person" key="place_109132">Cornwall</placeName>
+                        </persName> 
+               remits and quit-claims to <persName>
+                           <forename>Peter</forename> de <surname>Skelton</surname>
+                        </persName> 
+               all his right in the messuage and court described above (l). 
+               Witnesses. <persName>
+                           <forename>William</forename> de <surname>Burcestre</surname>, then mayor of <placeName role="mayor" key="place_105449">Oxford</placeName>
+                        </persName>, 
+               <persName>
+                           <forename>Henry</forename> de <surname>Lynne</surname>
+                        </persName> and
+               <persName>
+                           <forename>Gilbert</forename> de <surname>Grenestede</surname>
+                        </persName>, then bailiffs. 
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName> on the day of St. Barnabas the
+               apostle, <origDate notBefore="1312-07-08" notAfter="1313-07-07">6 Ed. II</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (n) <persName>
+                           <forename>Peter</forename> de <surname>Skelton</surname>, clerk</persName>, at the instance of
+               <persName>
+                           <forename>Walter</forename>, bp. of <placeName role="bishop" type="diocese" key="place_100077">Exeter</placeName>
+                        </persName>, 
+               grants to the <orgName key="org_109037">rector and scholars of Stapeldonehalle in the university of Oxford</orgName>, 
+               one messuage with appurtenances called the <placeName type="minor">hall of St. Stephen in Oxford</placeName>,
+               situated in the
+               <placeName key="place_109435">parish of St. Mildred</placeName>, opposite to the north wall which
+               incloses the town, between the <placeName type="minor">north gate</placeName> of the said town and 
+               <placeName type="minor">Smythegate</placeName>, to hold the same in frankalmoigne. 
+               Dated at <placeName role="date" key="place_109218">Chuddelegh, co. Devon</placeName>, the Monday on the feast of
+               St. Faith, virgin, <origDate notBefore="1315-07-08" notAfter="1316-07-07">9 Ed. II</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (o) <persName>
+                           <forename>John</forename> de <surname>Skelton</surname>
+                        </persName>, brother of master
+               <persName>
+                           <forename>Peter</forename> de <surname>Skelton</surname>
+                        </persName>, quit-claims to the 
+               <orgName key="org_109037">rector and scholars of Stapeldonhalle</orgName> all his
+               right in the messuage described as above (n). Dated at <placeName role="date" key="place_100051">London</placeName>
+               the Friday on the morrow of St. Leonard, <origDate notBefore="1315-07-08" notAfter="1316-07-07">9 Ed. II</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (p) <persName>
+                           <forename>Peter</forename> de <surname>Skelton</surname>, clerk</persName>, at the
+               instance of <persName>
+                           <forename>Walter</forename>, bp. of <placeName role="bishop" type="diocese" key="place_100077">Exeter</placeName>
+                        </persName>, 
+               grants to the <orgName key="org_109037">rector and scholars of Stapeldon halle in the university of Oxford</orgName>, 
+               two chambers with an area pertaining to the same, commonly called '<placeName type="minor">la Lavandrie</placeName>,' 
+               which he had by the gift of the abbess of <orgName key="org_109003">Godestowe</orgName>, situated on the east part of a
+               certain messuage which is called <placeName type="minor">St. Stephen's hall</placeName>.
+               Dated at <placeName role="date" key="place_109218">Chuddelegh in the county of Devon</placeName> the Tuesday on the morrow 
+               of St. Faith, virgin, <origDate notBefore="1315-07-08" notAfter="1316-07-07">9 Ed. II</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+               
+               (q) <persName>
+                           <forename>Henry</forename>, son of <persName>sir <forename>Henry</forename> de <surname>Boveles</surname> of <placeName role="person" key="place_109351">Curtelington</placeName>
+                           </persName>
+                        </persName>, 
+               and <persName nymRef="Boveles">
+                           <forename>Alice</forename> his wife</persName>, remit and quit-claim to
+               <persName>
+                           <forename>William</forename>, son of <persName>
+                              <forename>Thomas</forename> de la <surname>Rode</surname> of <placeName role="person" key="place_109132">Cornwall</placeName>
+                           </persName>
+                        </persName>, 
+               and <persName>
+                           <forename>Peter</forename> de <surname>Skelton</surname>, clerk</persName>, all their 
+               right in a certain tenement which formerly the said Alice his wife had by the gift of 
+               <persName>master <forename>William</forename> de <surname>Coudray</surname>
+                        </persName> in the
+               <placeName key="place_109435">parish of St. Mildred in Oxford</placeName>. 
+               Dated at <placeName role="date" key="place_105449">Oxford</placeName> on the morrow of St. John ante port. Lat., <origDate notBefore="1296-11-20" notAfter="1297-11-19">25 Ed. I</origDate>.
+            </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="288" to="290">288-290</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

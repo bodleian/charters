@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109190">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Oxon. 81</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Oxon_81</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Oxon_81" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Oxon. 81</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                        <persName>S., the prior</persName>, and <orgName key="org_109039">convent of St. Frideswide</orgName>, grant and demise
+               to <persName>
+                           <forename>Copin</forename>, the Jew, of <placeName role="person" key="place_101060">Worcester</placeName>
+                        </persName>,
+               the whole of their land which was <persName>
+                           <forename>Robert</forename> 
+                           <surname>Trezemar</surname>
+                        </persName>'s, 
+               which he had sold to the Jews, which lies between that land which was 
+               <persName>
+                           <forename>Anketil</forename> le <surname>Wauter</surname>
+                        </persName>'s and the land
+               which the said Copin bought of <persName>
+                           <forename>Segar</forename>
+                        </persName>, in the 
+               <placeName key="place_109420">parish of St. Aldate's, Oxford</placeName>; paying annually iiijd. The said Copin gave 
+               to St. Frideswide in exchange that land, with appurtenances and edifices, which was
+               <persName>
+                           <forename>Nicholas</forename> 
+                           <surname>Gulp</surname>
+                        </persName>'s, which land the said 
+               Nicholas had acquired against <persName>
+                           <forename>Geoffrey</forename> 
+                           <surname>Lutum</surname>
+                        </persName> 
+               and <persName nymRef="Lutum">
+                           <forename>Alice</forename> his wife</persName> before 
+               <persName>
+                           <forename>Stephen</forename> de <surname>Segrave</surname>
+                        </persName> and
+               <persName>
+                           <forename>Walter</forename> de <surname>Beauchamp</surname>
+                        </persName>, justices itinerant. 
+               Besides the said Copin gave in exchange that <pb n="305"/> land, with appurtenances, which was
+               <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Plente</surname>
+                        </persName>'s, near the land of
+               <persName>
+                           <forename>Nicholas</forename> 
+                           <surname>Gulp</surname>
+                        </persName> on the north part, in the 
+               said parish. 
+               Witness. <persName>
+                           <forename>John</forename> 
+                           <surname>Pady</surname>, then mayor of Oxford</persName>,
+               <persName>
+                           <forename>Robert</forename>, subprior</persName> etc. including Jews.
+               (<origDate notBefore="1227" notAfter="1228" precision="low">c. 1227-28</origDate>.) 
+                <!--[w. no. 281] chk the meaning of the annotation-->  
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Priory of St Frideswide, Oxford</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="304" to="305">304-305</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <title>The Cartulary of the Monastery of St. Frideswide at Oxford</title>, ed. S. R. Wigram, no. 281</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
