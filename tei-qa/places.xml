@@ -2291,8 +2291,8 @@
            
             
             <place type="place" xml:id="place_101033">
-               <placeName type="index">Godstow</placeName><placeName type="formInDocument">Godestowe</placeName>
-               
+               <placeName type="index">Godstow</placeName>
+               <placeName type="formInDocument">Godestowe</placeName>
                <region type="parish" key="place_101074">Binsey</region>
                <region type="county" key="place_000065">Oxfordshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/Binsey/53286e1db47fc40beb00006e-Godstow</idno>
@@ -30553,8 +30553,8 @@
             
             
             <place xml:id="place_107102" type="place">
-               <placeName type="index">Ilbury</placeName>  <placeName type="formInDocument">ilbury, in co. oxon</placeName>
-             
+               <placeName type="index">Ilbury</placeName>  
+               <placeName type="formInDocument">ilbury, in co. oxon</placeName>
                <region type="parish">Deddington</region>
                <region type="county">Oxfordshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/Deddington/53286e1db47fc40beb0001a6-Ilbury+Fm</idno><note type="charter">MS. Ch. Oxon. Oseney 419a</note>
@@ -33646,7 +33646,24 @@
                <note type="charter">MM. 110</note>
             </place>
 
-            <!--<place type="place" xml:id="place_1083238">
+            <place type="manor" xml:id="place_1083238">
+               <placeName type="index">Deddington</placeName>
+               <placeName type="formInDocument">Dodington</placeName>
+               <region type="parish">Deddington</region>
+               <region type="county">Oxfordshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F285741</idno>
+               <note type="charter">MM. 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_1083239">
+               <placeName type="index">Keyby (Yorks.) [unidentified]</placeName>
+               <placeName type="formInDocument">Keyby (Yorks.)</placeName>
+               <region type="county">Yorkshire</region>
+               <idno></idno>
+               <note type="charter">MM. 111</note>
+            </place>
+            
+            <place type="place" xml:id="place_1083240">
                <placeName type="index"></placeName>
                <placeName type="formInDocument"></placeName>
                <region type="parish"></region>
@@ -33655,14 +33672,16 @@
                <note type="charter"></note>
             </place>
 
-            <place type="place" xml:id="place_1083239">
+            <place type="place" xml:id="place_1083241">
                <placeName type="index"></placeName>
                <placeName type="formInDocument"></placeName>
                <region type="parish"></region>
                <region type="county"></region>
                <idno></idno>
                <note type="charter"></note>
-            </place>-->
+            </place>
+            
+            TA cont here adding placeNames
           
           <!-- oxfordshire -->
           
@@ -41416,6 +41435,7 @@
                <region type="county">Oxfordshire</region>
             </place>
           
+          
          </listPlace>
 
 
@@ -41635,6 +41655,7 @@
             
             <org xml:id="org_101005">
                <orgName type="index">Oxford, Christ Church</orgName>
+               <orgName type="variant">Oxford, Cardinal College</orgName>
                <orgName type="formInDocument">dean and chapter of Christ Church, Oxford</orgName>
                <orgName type="formInDocument">cathedral church of Christ in Oxford</orgName>
                <orgName type="formInDocument">dean and chapter of the cathedral of Christ Church</orgName>
@@ -41645,10 +41666,9 @@
                <orgName type="formInDocument">deanery of Christ Church, Oxford</orgName>
                <orgName type="formInDocument">chapter of Ch. Ch.</orgName>
                <orgName type="formInDocument">Christ Church</orgName>
-               
-               <orgName type="variant">Oxford, Cardinal College</orgName>
                <orgName type="formInDocument">King Henry VIII's college in Oxford</orgName>
-               <orgName type="formInDocument">the dean and canons of Cardinal College</orgName>    <idno>http://viaf.org/viaf/1146825346907632561</idno>
+               <orgName type="formInDocument">the dean and canons of Cardinal College</orgName>    
+               <idno>http://viaf.org/viaf/1146825346907632561</idno>
                <idno>https://www.wikidata.org/wiki/Q1736208</idno>
                <idno>http://viaf.org/viaf/140757625</idno>
                <note type="charter">MS. Ch. Worcs. 4</note>
@@ -41921,7 +41941,7 @@
             </org>
             
             <org xml:id="org_102006">
-               <orgName type="index">Oxford, Cardinal College</orgName>
+               <orgName type="index">Oxford, Cardinal College</orgName><!--TODO combine with Christ Church?-->
                <!--TODO on suppressed St Frideswide's lands, first as 1524-1529 Cardinal College > 1532 as King Henry VIII's College > 1545 as Christ Church College > how do we signify the development of names?-->
                <orgName type="formInDocument">Cardinal College, Oxford</orgName>
                <region type="county" key="place_000065">Oxfordshire</region>
@@ -42236,7 +42256,7 @@
             </org>
 -->
             <org xml:id="org_103008">
-               <orgName type="index">Bolton, Austin priory</orgName>
+               <orgName type="index">Bolton, Augustinian priory</orgName>
                <orgName type="formInDocument">canons of St. Mary, Boelton</orgName>
                <orgName type="formInDocument">church and canons of St. Mary, Boulton</orgName>
                <idno>http://viaf.org/viaf/9723149068516165730004</idno>
@@ -42304,6 +42324,7 @@
             <org xml:id="org_103014">
                <orgName type="index">York Minster</orgName>
                <orgName type="formInDocument">dean and chapter of York</orgName>
+               <orgName type="formInDocument">Dean and Chapter of S. Peter’s, York</orgName>
                <idno>http://viaf.org/viaf/155835167</idno>
                <bibl>'The Minster and its precincts', in A History of the County of York: the City of York, ed. P M Tillott (London, 1961), pp. 337-343. British History Online http://www.british-history.ac.uk/vch/yorks/city-of-york/pp337-343 [accessed 8 February 2021].</bibl>
                <note type="charter">MS. Ch. Yorks. 133a</note>
@@ -42403,7 +42424,7 @@
             </org>
             
             <org xml:id="org_103023">
-               <orgName type="index">Newland,  preceptory of , hospital of St John of the Knights Templars</orgName>
+               <orgName type="index">Newland, preceptory of, hospital of St John of the Knights Templars</orgName>
                <orgName type="formInDocument">hospital of St John of Jerusalem at Newland, co. York</orgName>
                
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F145879</idno>
@@ -44765,7 +44786,7 @@
             
             <!-- DY various houses -->
             <org xml:id="org_107012">
-               <orgName type="index">Ravenstone, priory</orgName>
+               <orgName type="index">Ravenstone, Augustinian priory</orgName>
                <orgName type="formInDocument">Ravenstone Priory (Bucks.)</orgName>
                <region type="county">Buckinghamshire</region>
                <idno>https://www.wikidata.org/wiki/Q7296552</idno>
@@ -45168,15 +45189,208 @@
                <note type="charter">MM. 43</note>
             </org>
             
-            <!--<org xml:id="org_108018">
+            <org xml:id="org_108018">
+               <orgName type="index">Oxford, Durham College</orgName>
+               <!--Former college of the University of Oxford and daughter house of Durham Priory, now part of Trinity College-->
+               <orgName type="formInDocument">Durham College</orgName>
+               <region type="county">Oxfordshire</region>
+               <idno>https://www.wikidata.org/wiki/Q5316483</idno>
+               <note type="charter">MS. D. D. Ch. Ch. O. 639</note>
+            </org>
+            
+            <org xml:id="org_108019">
+               <orgName type="index">Merton, Augustinian priory</orgName>
+               <orgName type="formInDocument">Merton Priory</orgName>
+               <region type="county">Surrey</region>
+               <idno>http://viaf.org/viaf/139807836</idno>
+               <note type="charter">MS. D. D. Ch. Ch. O. 89</note>
+            </org>
+            
+            <org xml:id="org_108020">
+               <orgName type="index">Oxford, Gloucester College</orgName>
+               <!--EMLO: Gloucester Hall was formerly a Benedictine institution of the University of Oxford and then formerly an annexe to St John's College, University of Oxford. It is now Worcester College, University of Oxford.-->
+               <orgName type="formInDocument">Gloucester College</orgName>
+               <region type="county">Oxfordshire</region>
+               <idno>https://www.wikidata.org/wiki/Q5572030</idno>
+               <note type="charter">MS. D. D. Ch. Ch. O. 642</note>
+            </org>
+            
+            <org xml:id="org_108021">
+               <orgName type="index">Oxford, Oriel College</orgName>
+               <orgName type="formInDocument">Oriel College</orgName>
+               <region type="county">Oxfordshire</region>
+               <idno>http://viaf.org/viaf/139250894</idno>
+               <note type="charter">MS. D. D. Ch. Ch. O. 723</note>
+            </org>
+            
+            <org xml:id="org_108022">
+               <orgName type="index">Oxford Whitefriars (Carmelites)</orgName>
+               <orgName type="formInDocument">the Carmelites</orgName>
+               <region type="county">Oxfordshire</region>
+               <bibl>'Friaries: The house of White Friars', in A History of the County of Oxford: Volume 2, ed. William Page (London, 1907), pp. 137-143. British History Online http://www.british-history.ac.uk/vch/oxon/vol2/pp137-143 [accessed 12 January 2022].</bibl>
+               <note type="charter">MS. D. D. Ch. Ch. O. 733</note>
+            </org>
+            
+            <org xml:id="org_108023">
+               <orgName type="index">Oxford, Merton College</orgName>
+               <orgName type="formInDocument">Merton College</orgName>
+               <region type="county">Oxfordshire</region>
+               <idno>http://viaf.org/viaf/152199147</idno>
+               <note type="charter">MS. D. D. Ch. Ch. O. 858</note>
+            </org>
+            
+            <org xml:id="org_108024">
+               <orgName type="index">Llanthony or Llanthony Secunda, Augustinian priory</orgName>
+               <orgName type="formInDocument">Lanton</orgName>
+               <region type="county">Monmouthshire</region>
+               <region type="county">Gloucestershire</region>
+               <idno>http://viaf.org/viaf/315533262</idno>
+               <note type="charter">MS. D. D. Ch. Ch. O. 972</note>
+            </org>
+            
+            <org xml:id="org_108025">
+               <orgName type="index">Malmesbury, Benedictine abbey</orgName>
+               <orgName type="formInDocument">Malmesbury</orgName>
+               <region type="county">Wiltshire</region>
+               <idno>http://viaf.org/viaf/134872490</idno>
+               <note type="charter">MS. D. D. Ch. Ch. O. 388</note>
+            </org>
+            
+            <org xml:id="org_108026">
+               <orgName type="index">Amesbury, abbey (later priory) of Benedictine nuns</orgName>
+               <orgName type="formInDocument">Amesbury</orgName>
+               <region type="county"></region>
+               <idno>https://www.wikidata.org/wiki/Q4745900</idno>
+               <note type="charter">MS. D. D. Ch. Ch. O. 170</note>
+            </org>
+            
+            <org xml:id="org_108027">
+               <orgName type="index">Coventry, Carthusian priory of St Anne</orgName>
+               <orgName type="variant">Coventry, The Charterhouse</orgName>
+               <orgName type="formInDocument">Carthusians of Coventry</orgName>
+               <region type="county">Warwickshire</region>
+               <idno>https://www.wikidata.org/wiki/Q7722220</idno>
+               <note type="charter">MS. D. D. Ch. Ch. O. 1085</note>
+            </org>
+            
+            <org xml:id="org_108028">
+               <orgName type="index">Oxford, Dominican friary</orgName>
+               <orgName type="formInDocument">Preaching Friars</orgName>
+               <region type="county">Oxfordshire</region>
+               <bibl>'Friaries: The house of Black Friars', in <title>A History of the County of Oxford: Volume 2</title>, ed. William Page (London, 1907), pp. 107-122. British History Online http://www.british-history.ac.uk/vch/oxon/vol2/pp107-122 [accessed 12 January 2022].</bibl>
+               <note type="charter">MS. D. D. Ch. Ch. O. 307</note>
+            </org>
+            
+            <org xml:id="org_108029">
+               <orgName type="index">Lavendon, Premonstratensian abbey</orgName>
+               <orgName type="formInDocument">Lavenden</orgName>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://www.wikidata.org/wiki/Q6502548</idno>
+               <note type="charter">MS. Ch. Bucks 28</note>
+            </org>
+            
+            <org xml:id="org_108030">
+               <orgName type="index">Selby, Benedictine abbey</orgName>
+               <orgName type="formInDocument">Selby</orgName>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>http://viaf.org/viaf/134950157</idno>
+               <note type="charter">MS. D. D. Ch. Ch. M. 129</note>
+            </org>
+            
+            <org xml:id="org_108031">
+               <orgName type="index">Deerhurst, Benedictine priory and parish church of St Mary</orgName>
+               <orgName type="formInDocument">Derehurst</orgName>
+               <region type="county">Gloucestershire</region>
+               <idno>http://viaf.org/viaf/246948936</idno>
+               <note type="charter">MS. D. D. Ch. Ch. M. 70</note>
+            </org>
+            
+            <org xml:id="org_108032">
+               <orgName type="index">Aldgate, Augustinian priory</orgName>
+               <orgName type="variant">Holy Trinity Priory, Aldgate</orgName>
+               <orgName type="variant">Christchurch Aldgate</orgName>
+               <orgName type="formInDocument">priory of Christ Church, London</orgName>
+               <region type="county">Middlesex</region>
+               <idno>http://viaf.org/viaf/151522486</idno>
+               <idno>https://www.wikidata.org/wiki/Q5886808</idno>
+               <note type="charter">MS. D. D. Ch. Ch. M. 77</note>
+            </org>
+            
+            <org xml:id="org_108033">
+               <orgName type="index">Pipewell, Cistercial abbey</orgName>
+               <orgName type="formInDocument">Pipewell</orgName>
+               <region type="county">Northamptonshire</region>
+               <idno></idno>
+               <note type="charter">MS. Ch. Northants. Daventry 176</note>
+            </org>
+            
+            <org xml:id="org_108034">
+               <orgName type="index">Leicester, Augustinian abbey</orgName>
+               <orgName type="variant">Leicester, Abbey of Saint Mary de Pratis</orgName>
+               <orgName type="formInDocument">S. Mary’s, Leicester</orgName>
+               <region type="county">Leicestershire</region>
+               <idno>http://viaf.org/viaf/313198488</idno>
+               <idno>https://www.wikidata.org/wiki/Q1980614</idno>
+               <note type="charter">MS. Ch. Northants. Daventry 13</note>
+            </org>
+            
+            <org xml:id="org_108035">
+               <orgName type="index">Cluny, Benedictine abbey</orgName>
+               <orgName type="formInDocument">abbey of Cluny</orgName>
+               <region type="country">France</region>
+               <idno>http://viaf.org/viaf/146613586</idno>
+               <note type="charter">MS. Ch. Northants. Daventry 181</note>
+            </org>
+            
+            <org xml:id="org_108036">
+               <orgName type="index">Sulby, Premonstratensian abbey</orgName>
+               <orgName type="formInDocument">Sulby</orgName>
+               <region type="county">Northamptonshire</region>
+               <idno>https://www.wikidata.org/wiki/Q7636060</idno>
+               <note type="charter">MS. D. D. Ch. Ch. D. 6, no. iv</note>
+            </org>
+            
+            <org xml:id="org_108037">
+               <orgName type="index">Coombe, Cistercian abbey</orgName>
+               <orgName type="formInDocument">Combe</orgName>
+               <region type="county">Warwickshire</region>
+               <idno>http://viaf.org/viaf/134919061</idno>
+               <note type="charter">MS. D. D. Ch. Ch. D. 97</note>
+            </org>
+            
+            <org xml:id="org_108038">
+               <orgName type="index">Northampton, Hospital of St John Baptist and St John Evangelist</orgName>
+               <orgName type="formInDocument">Hospital (in Northampton) of St. John the Baptist on the North</orgName>
+               <region type="county"></region>
+               <bibl>'Hospitals: St John Baptist &amp; St John Evangelist, Northampton', in <title>A History of the County of Northampton: Volume 2</title>, ed. R M Serjeantson and W R D Adkins (London, 1906), pp. 156-159. British History Online http://www.british-history.ac.uk/vch/northants/vol2/pp156-159 [accessed 12 January 2022].</bibl>
+               <note type="charter">MS. Ch. Northants. Daventry 55b</note>
+            </org>
+            
+            <org xml:id="org_108039">
                <orgName type="index"></orgName>
                <orgName type="formInDocument"></orgName>
                <region type="county"></region>
                <idno></idno>
-               <note type="charter">MM. 43</note>
+               <note type="charter"></note>
+            </org>
+            
+            <org xml:id="org_108040">
+               <orgName type="index"></orgName>
+               <orgName type="formInDocument"></orgName>
+               <region type="county"></region>
+               <idno></idno>
+               <note type="charter"></note>
+            </org>
+            
+            <org xml:id="org_108041">
+               <orgName type="index"></orgName>
+               <orgName type="formInDocument"></orgName>
+               <region type="county"></region>
+               <idno></idno>
+               <note type="charter"></note>
             </org>
 
-            TA CONT here for new orgs-->
+            TA CONT here for new orgs
             
             
             <!-- Oxon -->
