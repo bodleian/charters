@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109262">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Oxon. 53a</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Oxon_53a</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Oxon_53a" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Oxon. 53a</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                        <pb n="315"/> WHITCHURCH, Oxon. 
+               Convention between <persName>
+                           <forename>Robert</forename>, the abbot</persName>, and 
+               <orgName key="org_107015">convent of Thame</orgName> of the one part, and <persName>
+                           <forename>Roger</forename> de la <surname>Hyde</surname>
+                        </persName>, 
+               <persName>
+                           <forename>William</forename> de <surname>Wdecote</surname>
+                        </persName>,
+               <persName>
+                           <forename>Richard</forename> le <surname>Dene</surname>
+                        </persName>,
+               <persName>
+                           <forename>Hugh</forename> de <surname>Stokes</surname>
+                        </persName>, 
+               <persName>
+                           <forename>Alexander</forename> de la <surname>Breche</surname>
+                        </persName>, 
+               <persName>
+                           <forename>Bartholomew</forename> de <surname>Wdecote</surname>
+                        </persName>,
+               <persName>
+                           <forename>Robert</forename> 
+                           <surname>Grisorz</surname>
+                        </persName>,
+               <persName>
+                           <forename>William</forename> de la <surname>Beche</surname>
+                        </persName>,
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Passelowe</surname>
+                        </persName>, and 23 others, of the other part,
+               viz. that the said abbot and convent grant and remit to them and their heirs common of pasture in 
+               ' <placeName type="minor">Rumereshagge</placeName>,' as they and their ancestors had in the time
+               of King Richard and King John; viz. from the hek of Chacweie as far as to the land of
+               <persName>
+                           <forename>William</forename> 
+                           <surname>Withod</surname>
+                        </persName>, and by
+               the hedge of <persName>
+                           <forename>William</forename> 
+                           <surname>Withod</surname>
+                        </persName> as far as to
+               the 'gravam' which was <persName>
+                           <forename>Henry</forename> 
+                           <surname>Cok</surname>
+                        </persName>'s, and by
+               the wood of the abbot of <orgName role="abbot" key="org_107017">Ainesham</orgName> as far as to the way of
+               <placeName key="place_109562">Witchirche</placeName>, and by the way of Witchirche as far as to the aforesaid hek of Chacweie;
+               upon this condition that all the said men remit to the abbot and convent common of pasture in 
+               '<placeName type="minor">pinnokesfeld</placeName>' and in all other lands of the said
+               abbot and convent pertaining to the grainge of <placeName key="place_109557">Wifalde</placeName>. 
+               For this grant Roger de la Hyde gave to the abbot 60s., and all the others
+               60s. in common; and an annual rent of 6d. 
+               (<origDate when="1230" precision="low">c. 1230</origDate>.) 
+               [The first witness is <persName>Sir <forename>Rich.</forename> de <surname>Ladur</surname>,
+               stweward</persName> of <persName>R[ich.] Earl of <placeName role="earl" type="earldom">Cornwall</placeName>
+                        </persName>, so created in 1226.]
+                 
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seal.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St Mary, Thame</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="315" to="315">315</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

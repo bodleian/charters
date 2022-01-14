@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109647">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Oxon. Oseney 510</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Oxon_Oseney_510</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_510" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 510</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> OXFORD (St. Mary the Virgin). <persName nymRef="Tannur">
+                           <forename>Agnes</forename>, daughter of Geoffrey, relict of <persName>
+                              <forename>William</forename> le <surname>Tannur</surname>
+                           </persName>
+                        </persName>, 
+               grants to <persName>
+                           <forename>John</forename> 
+                           <surname>Orsin</surname> her son</persName>, the whole of 
+               her land with appurtenances, namely, that which extends from the way called 
+               <placeName type="street" key="place_109124">Shidyerdstrete</placeName> as far as to a lane which is called
+               <placeName type="street" key="place_109110">Gropecuntelane</placeName>, which land lies between the land which was formerly
+               <persName>
+                           <forename>John</forename> de <surname>Bridport</surname>
+                        </persName>'s and the land of
+               <persName>
+                           <forename>Agatha</forename>, relict of <persName>
+                              <forename>Thomas</forename>, <surname type="patronymic">son of Wyth</surname>
+                           </persName>
+                        </persName>,
+               in Schidyerde Strete, on the one part, and on the other between the land of 
+               <persName>
+                           <forename>Robert</forename> de <surname>Tobben</surname>
+                        </persName> and the land which was sometime
+               <persName>
+                           <forename>Stephen</forename>'s the <surname>clerk</surname>
+                        </persName> in
+               <placeName type="street" key="place_109110">Gropecuntelane</placeName> in the <placeName key="place_109438">parish of St. Mary, Oxford</placeName>; 
+               paying annually for her and her heirs to 
+               <persName>
+                           <forename>William</forename> le <surname>Tannur</surname>
+                        </persName> and his heirs 9d., and to 
+               the <placeName key="place_109438">church of St. Mary</placeName> 2d., and to herself and heirs 1d.  For this donation he gave 100s.
+               Witnesses. <persName>
+                           <forename>Peter</forename>, <surname type="patronymic">son of Torald</surname>, then mayor</persName>, 
+               <persName>
+                           <forename>Hugh</forename> 
+                           <surname>Fane</surname>
+                        </persName> and 
+               <persName>
+                           <forename>Adam</forename> 
+                           <surname>Cruste</surname>
+                        </persName>, then provosts of <placeName role="person" key="place_105449">Oxford</placeName>. 
+               (<origDate when="1243" precision="low">c. 1243</origDate>.)
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="353" to="353">353</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

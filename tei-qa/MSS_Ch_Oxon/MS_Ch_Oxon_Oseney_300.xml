@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109301">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Oxon. Oseney 300</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Oxon_Oseney_300</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_300" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 300</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> BARTON (Westcote). 
+               Report of proceedings by the abbot of <orgName role="abbot" key="org_107017">Eynsham</orgName> and the 
+               dean of <placeName role="dean" type="deanery" key="place_109100">Oxford</placeName> upon a
+               commission from <persName>Pope Honorius III</persName>, dated 4 Non. December, 5th
+               pontifical year (1220), directed to the abbot of Eynsham, 
+               the prior of <orgName role="prior" key="org_109039">St. Frideswide</orgName>, and the dean of Oxford, directing them 
+               to hear and determine a cause between the <orgName key="org_109067">abbot and Convent of Oseney</orgName>, and 
+               the <orgName key="org_109014">abbot and convent of Lyra</orgName>, concerning two parts of the tithes of the lordship
+               of <persName>
+                           <forename>Robert</forename> 
+                           <surname>Arsic</surname>
+                        </persName> in 
+               <placeName key="place_109296">Little Barton</placeName>, claimed from the <orgName key="org_109007">abbey of Fiscamp</orgName> (who appeared 
+               by their proctor <persName>
+                           <forename>Roger</forename> prior of <orgName role="prior" key="org_109042">Coges</orgName>
+                        </persName>)
+               by the abbot and convent of Oseney as belonging to the  church of <placeName key="place_109292">Great Barton</placeName>.
+               After much discussion, an agreement was come to by which the said abbot and convent
+               of Oseney were admitted into actual possession of the tithes on condition of paying
+               annually to the <orgName key="org_109042">prior of Cogges</orgName> at Oseney the sum of l0s.
+               [J. Mershales <title>Mem. of W. Barton</title>, 1870, p. 61.]
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="320" to="320">320</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

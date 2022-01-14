@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109657">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Oxon. Oseney 519</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Oxon_Oseney_519</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_519" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 519</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> Indenture made between the <orgName key="org_109067">abbot and convent of Oseney</orgName> of one part, and 
+               <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Hampton</surname>
+                        </persName>, 
+               <persName nymRef="Hampton">
+                           <forename>Alice</forename> his wife</persName>, and 
+               <persName>
+                           <forename>Thomas</forename>, son of <persName>
+                              <forename>Simon</forename> de <surname>Wyght</surname>
+                           </persName>
+                        </persName>, 
+               of the other part, witnesseth, that the abbot and convent demise to the said Thomas, Alice, and Thomas,
+               one shop with a cellar under the shop, with a stone wall towards the tenement of
+               <persName>
+                           <forename>John</forename> atte <surname>Hyde</surname>
+                        </persName> on the east, situated in the 
+               <placeName type="street" key="place_109120">north street</placeName> of <placeName key="place_109434">Oxford, in the parish of St. Michael's at the north gate</placeName>, 
+               between a shop of the said abbot and convent on the south, and a shop of the 
+               <orgName role="prior" key="org_109079">prior of Nonne Eton</orgName> on the north, and a tenement of
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Hyde</surname>
+                        </persName> on the east, for 40 years, paying 
+               for the same annually 16s. Dated at <placeName key="place_109413">Oseney</placeName>
+               the Friday next after the feast of St. Valentine, <origDate notBefore="1398-06-22" notAfter="1399-06-21">22 Ric. II</origDate>. 
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="354" to="354">354</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

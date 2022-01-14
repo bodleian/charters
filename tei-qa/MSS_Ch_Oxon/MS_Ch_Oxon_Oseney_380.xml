@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109411">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Oxon. Oseney 380</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Oxon_Oseney_380</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_380" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 380</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> KIDLINGTON and HOOKNORTON. <persName>
+                           <forename>Henry</forename> de <surname>Oylly</surname>
+                        </persName> grants to
+               the <orgName key="org_109067">church and canons of St. Mary, Oseney</orgName>, for the health of his soul and the souls of his
+               predecessors and successors, especially for the soul of <persName nymRef="Oylly">
+                           <forename>Sibil</forename> his wife</persName>
+               and <persName nymRef="Oylly">
+                           <forename>Matilda</forename> his daughter</persName>, 100s., of annual
+               rent, for which he has assigned to them 60s., which he was accustomed to receive
+               annually from his mill of <placeName key="place_109348">Cudelington</placeName>, and the homage and service of
+               <persName>
+                           <forename>Elyas</forename> the miller</persName> and his heirs; also he gives to them in his same 
+               manor, in frankalmoigne, one virgate of land, namely, that which 
+               <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Riveling</surname>
+                        </persName> held, with a messuage and croft and with
+               all that appertains to it within and without the village; also he gives to the said
+               canons in his manor of <placeName type="manor" key="place_109056">Hokenorton</placeName> one mark of silver, which 
+               <persName>
+                           <forename>Robert</forename> 
+                           <surname>Bernard</surname>
+                        </persName> was
+               accustomed to pay annually for three virgates of land in the same village; also he
+               gives to them 8s. sterling, which <persName>
+                           <forename>Roger</forename> 
+                           <surname>Olycrance</surname>
+                        </persName> 
+               was accustomed annually to pay to him for half a hide of land, which he had with 
+               <persName nymRef="Olycrance">
+                           <forename>Matilda</forename> his wife</persName>, daughter of
+               <persName>
+                           <forename>Philip</forename> the <surname>clerk</surname>
+                        </persName>, and held of the said Henry 
+               in the same manor with the homages and services of the said 
+               <persName>
+                           <forename>Robert</forename> 
+                           <surname>Bernard</surname>
+                        </persName> and 
+               <persName>
+                           <forename>Roger</forename> 
+                           <surname>Olycrance</surname>
+                        </persName> and their heirs; also he gives to 
+               the same canons in his manor of <placeName type="manor" key="place_109056">Hokenorton</placeName>, one meadow which is called 
+               <placeName type="minor">Cuham</placeName>, in frankalmoigne. 
+               (<origDate notBefore="1220" notAfter="1230" precision="low">c. 1220-30</origDate>.) 
+               Witn. <persName>
+                           <forename>Roger</forename> abbot of <orgName role="abbot" key="org_109047">Dorchester</orgName>
+                        </persName>, 
+               <persName>
+                           <forename>Robert</forename> de <surname>Aumari</surname>
+                        </persName>, etc.<!--CHK hardcopy: Genteschiu pauper-->
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="331" to="331">331</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
