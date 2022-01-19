@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600040">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700040">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,43 +47,41 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>Agnes</forename> late the daughter of <persName>
                               <forename>William</forename> the <surname>smith</surname> in <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                               </placeName>
                            </persName>
-                        </persName> quit-claims to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> quit-claims to <persName>
                            <forename>Geoffrey</forename> 
                            <surname>Herberd</surname> of <placeName role="person" key="place_108038">Troph</placeName>
-                        </persName> for a sum of money all her ’placea’ in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
-                        </placeName> with houses, buildings easements, &amp;c., lying in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">le Browund</placeName> by the messuage of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> for a sum of money all her ’placea’ in <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> with houses, buildings easements, &amp;c., lying in <placeName type="minor">le Browund</placeName> by the messuage of <persName>
                            <forename>William</forename> 
                            <surname>Yrenhel</surname>
-                        </persName>, extending from the highroad to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, extending from the highroad to <persName>
                            <forename>William</forename> 
                            <surname>Launwal</surname>
-                        </persName>’s croft and stretching southward from <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>’s croft and stretching southward from <persName>
                            <forename>William</forename> 
                            <surname>Yrenhel</surname>
                         </persName>’s messuage. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">... de <surname>Twe</surname> in <placeName role="person" key="place_108031">Weletone</placeName>
+   Witnesses: <persName>... de <surname>Twe</surname> in <placeName role="person" key="place_108031">Weletone</placeName>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Osbern</surname> of <placeName role="person" key="place_108191">Falkelyme</placeName>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Hawyse</surname>
                         </persName>, ..., 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">... <surname>Werrour</surname> of <placeName role="person" key="place_108013">Drayton</placeName>
+   <persName>... <surname>Werrour</surname> of <placeName role="person" key="place_108013">Drayton</placeName>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> de  <surname>Weletone</surname> in <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
                         </persName>, 
@@ -95,16 +93,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

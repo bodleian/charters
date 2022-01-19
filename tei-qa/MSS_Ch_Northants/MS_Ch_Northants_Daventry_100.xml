@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600265">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700265">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,57 +47,54 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108019">Norton</placeName>.
 
-   Copy<!--<note type="foot" n="1"><hi rend="italic">Macray’s note</hi>: ‘probably written about 1474, see no. 109.’</note>--> of a charter by which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Copy<!--<note type="foot" n="1"><hi rend="italic">Macray’s note</hi>: ‘probably written about 1474, see no. 109.’</note>--> of a charter by which <persName>
                            <forename>William</forename> [<gap/> ] of <placeName role="person" key="place_108019">[No]rton by D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName>
                            <forename>Joan</forename> 
                            <surname>Geffrey</surname>
-                        </persName> of the same grant to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> of the same grant to <persName>
                            <forename>John</forename> 
-                           <surname>Mauntell</surname>, esq.</persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <surname>Mauntell</surname>, esq.</persName>, <persName>
                            <forename>Thomas</forename> 
                            <surname>Tewe</surname> of <placeName role="person" key="place_108031">Welton</placeName>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>John</forename> 
-                           <surname>Chylton</surname>, clerk</persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <surname>Chylton</surname>, clerk</persName>, <persName>
                            <forename>Thomas</forename> 
                            <surname>Clerk</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied>
                            </placeName>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>John</forename> 
                            <surname>Tewe</surname> of <placeName role="person" key="place_108031">Welton</placeName>
-                        </persName>, and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, and <persName>
                            <forename>Thomas</forename> 
                            <surname>Foderyngey</surname> of <placeName role="person" key="place_108031">Welton</placeName>
-                        </persName>, all their lands in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108019">N<supplied>orton</supplied>
-                        </placeName> formerly of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, all their lands in <placeName key="place_108019">N<supplied>orton</supplied>
+                        </placeName> formerly of <persName>
                            <forename>Juliana</forename> 
                            <surname>Geffrey</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied>
                            </placeName>
-                        </persName>. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108019">N<supplied>orton</supplied>
+                        </persName>. Given at <placeName role="date" key="place_108019">N<supplied>orton</supplied>
                         </placeName>.
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>William</forename> 
                            <surname>Gyles</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> 
                            <surname>Hendys</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> 
                            <surname>Benet</surname>
                         </persName>, 
-   [<gap xmlns:tite="http://www.tei-c.org/ns/tite/1.0"/>] Bodyngton, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   [<gap/>] Bodyngton, 
+   <persName>
                            <forename>William</forename> 
                            <surname>Chappleyne</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied>
                            </placeName>
@@ -108,16 +105,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

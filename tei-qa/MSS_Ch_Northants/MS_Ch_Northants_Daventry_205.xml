@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600056">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700056">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,42 +47,36 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Fisshere">
+                        <persName nymRef="Fisshere">
                            <forename>Simon</forename> son of <persName>
                               <forename>Robert</forename> le <surname>Fisshere</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                               </placeName>
                            </persName>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <persName>
                            <forename>Richard</forename> de  <surname>Neubolde</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> 2 acres of arable land, viz. 5 strips lying together above <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Middelforlong</placeName> and one strip reaching to the <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   type="street"
-                                   key="place_108145">Welton road</placeName>, and one piece of pasture called <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">le Sidgras</placeName>, with the reversion of 1 acre and 1 rood of meadow in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Touslade</placeName>, ‘cum accideret in campo de D.’. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> 2 acres of arable land, viz. 5 strips lying together above <placeName type="minor">Middelforlong</placeName> and one strip reaching to the <placeName type="street" key="place_108145">Welton road</placeName>, and one piece of pasture called <placeName type="minor">le Sidgras</placeName>, with the reversion of 1 acre and 1 rood of meadow in <placeName type="minor">Touslade</placeName>, ‘cum accideret in campo de D.’. 
+   Witnesses: <persName>
                            <forename>William</forename> del <surname>Bakhous</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Baudewyne</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>West</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Roger</forename> del <surname>Halle</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Dyllyng</surname>
-                        </persName>. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName>. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
    <origDate when="1355-07-17">
                            <supplied>17 July 1355.</supplied>
@@ -91,16 +85,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

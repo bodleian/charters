@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600215">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700215">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,42 +47,41 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108172">Harborough, Market [Leics.]</placeName>.
    
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> son of <persName>
                               <forename>Ivo</forename> de <surname>H<supplied>arborough</supplied>
                               </surname>
                            </persName>
-                        </persName> grants to D<supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">aventry</supplied> in free alms for the daily celebration of a mass in the chapel of S. Mary 12<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">d.</hi> rent from a tenement which he held in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108172">Haverberg</placeName>. For this grant the monks gave him 8/-. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to D<supplied>aventry</supplied> in free alms for the daily celebration of a mass in the chapel of S. Mary 12<hi rend="italic">d.</hi> rent from a tenement which he held in <placeName key="place_108172">Haverberg</placeName>. For this grant the monks gave him 8/-. 
+   Witnesses: <persName>
                            <forename>Richard</forename> de <surname>Lotrington</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Malesours</surname> of <placeName role="person" key="place_108150">Lobeho</placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Hugh</forename> de <surname>Farandone</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Sir <forename>Adam</forename> 
+   <persName>Sir <forename>Adam</forename> 
                            <surname>Bernard</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Roger</forename> de <surname>Meyners</surname> of <placeName role="person" key="place_108194">Boudone</placeName>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> 
                            <surname>Brabasun</surname>
                         </persName>,<!--<note type="foot" n="1">N’hants. ch. 6 Braboun.</note>-->
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> 
                            <surname>Cristein</surname>
                         </persName>,<!--<note type="foot" n="2">Ibid., Enstein.</note>--> 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> the <surname>clerk</surname> of <placeName role="person" key="place_108172">H<supplied>arborough</supplied>
                            </placeName>
                         </persName>. 
@@ -94,16 +93,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

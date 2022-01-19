@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600379">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700379">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,40 +47,36 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Welton.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
-                           <surname>Baron</surname> of Haverborugh</persName> quit-claims to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Slauston">
+                           <surname>Baron</surname> of Haverborugh</persName> quit-claims to <persName nymRef="Slauston">
                            <forename>Alice</forename> daughter of <persName>
                               <forename>John</forename> 
                               <surname>Slauston</surname> late of <placeName role="person" key="place_108031">Welton</placeName>
                            </persName>
-                        </persName> all her right in those lands, &amp;c., in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">W<supplied>elton</supplied>
-                        </placeName> late of the said John. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName> all her right in those lands, &amp;c., in <placeName key="place_108031">W<supplied>elton</supplied>
+                        </placeName> late of the said John. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Thomas</forename> 
                            <surname>Tuwe</surname> esq.</persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> 
                            <surname>Fyssher</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Brokhole</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> 
                            <surname>Ynglond</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Othehulle</surname> of <placeName role="person" key="place_108031">Welton</placeName>
                         </persName>. 
@@ -91,16 +87,11 @@ Seal.
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

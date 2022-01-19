@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600161">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700161">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,17 +47,17 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_109253">Drayton</placeName>.<lb/>
+      (i) <hi rend="italic">Various grants.</hi>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>Henry</forename> the <surname>carpenter</surname> of <placeName role="person" key="place_108013">Drayton</placeName>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>Agnes</forename> his wife</persName> grant to Simon de ... and Adeline his wife ½ acre of arable land in the north field of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108013">Drayton</placeName>. [<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">Mutilated.</hi>] 
+                        </persName> and <persName>
+                           <forename>Agnes</forename> his wife</persName> grant to Simon de ... and Adeline his wife ½ acre of arable land in the north field of <placeName key="place_108013">Drayton</placeName>. [<hi rend="italic">Mutilated.</hi>] 
    Witnesses: ... Werrour of the same, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Geoffrey</forename> 
                            <surname>Gamel</surname>
                         </persName> of the same, ... 
@@ -68,16 +68,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

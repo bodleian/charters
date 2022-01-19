@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600248">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700248">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,16 +47,15 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108019">Norton</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Sir <forename>Philip</forename> of <surname>D<supplied>aventry</supplied>
+   <persName>Sir <forename>Philip</forename> of <surname>D<supplied>aventry</supplied>
                            </surname>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Sir <forename>Nicholas</forename>, prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied>
+                        </persName> grants to <persName>Sir <forename>Nicholas</forename>, prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied>
                            </orgName>
-                        </persName>, in free alms, that virgate in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108019">Norton</placeName> which Richard his brother has given them to farm (for 10 marks) for 10 years. 
+                        </persName>, in free alms, that virgate in <placeName key="place_108019">Norton</placeName> which Richard his brother has given them to farm (for 10 marks) for 10 years. 
    Witnesses: [as in MS. Ch. Northants. Daventry 240.] 
    <origDate when="1263-08-05">
                            <supplied>5 Aug. 1263.</supplied>
@@ -65,16 +64,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

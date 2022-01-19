@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600319">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700319">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,28 +47,27 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108038">Thrupp</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> atte  <surname>Water</surname> of <placeName role="person" key="place_108153">Horpolle</placeName>
-                        </persName> quit-claims to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> quit-claims to <persName>
                            <forename>Roger</forename> 
                            <surname>Perkyn</surname> of <placeName role="person" key="place_108038">Throp</placeName>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Perkyn">
-                           <forename>Alice</forename> his wife</persName>, his right in lands, &amp;c., in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108038">Throp</placeName>.
-<pb xmlns:tite="http://www.tei-c.org/ns/tite/1.0" n="114"/>
-Witnesses: ... Dyne, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName nymRef="Perkyn">
+                           <forename>Alice</forename> his wife</persName>, his right in lands, &amp;c., in <placeName key="place_108038">Throp</placeName>.
+<pb n="114"/>
+Witnesses: ... Dyne, <persName>
                            <forename>John</forename> 
                            <surname>Preston</surname> of <placeName role="person" key="place_108037">Newenham</placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Garlok</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> 
                            <surname>Falclef</surname>
                         </persName>. 
@@ -78,16 +77,11 @@ Witnesses: ... Dyne, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

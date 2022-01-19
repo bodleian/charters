@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600354">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700354">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,31 +47,27 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Welton.
 
-   The same to the same, for a certain sum of money, 1 acre of arable land and ½ acre of meadow in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">W<supplied>elton</supplied>
-                        </placeName>, viz. in the west field ½ acre at ... and ½ acre at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Cockesmedeoverende</placeName> ... Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108031">W<supplied>elton</supplied>
+   The same to the same, for a certain sum of money, 1 acre of arable land and ½ acre of meadow in <placeName key="place_108031">W<supplied>elton</supplied>
+                        </placeName>, viz. in the west field ½ acre at ... and ½ acre at <placeName type="minor">Cockesmedeoverende</placeName> ... Given at <placeName role="date" key="place_108031">W<supplied>elton</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>John</forename> of <surname>Tewe</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> the <surname>heir</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Martyn</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Ace</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Norman</surname> of W<supplied>elton</supplied>
                         </persName>. 
@@ -82,16 +78,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

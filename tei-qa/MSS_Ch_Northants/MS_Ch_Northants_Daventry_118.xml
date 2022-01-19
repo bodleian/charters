@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600393">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700393">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,18 +47,14 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Welton.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<persName>
                            <forename>John</forename> 
                            <surname>Coylyn</surname>
-                        </persName> receiver of the rents of the prior of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                 role="prior"
-                                 key="org_108004">D<supplied>aventry</supplied>
-                        </orgName>, &amp;c., of the house of Jesus of Bethlehem (of Shene) has received 13/4 from the prior of D<supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">aventry</supplied> for a portion of the tithes of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">Welton</placeName>. 
+                        </persName> receiver of the rents of the prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied>
+                        </orgName>, &amp;c., of the house of Jesus of Bethlehem (of Shene) has received 13/4 from the prior of D<supplied>aventry</supplied> for a portion of the tithes of <placeName key="place_108031">Welton</placeName>. 
    <origDate notBefore="1481-03" notAfter="1482-03">
                            <supplied>March 1481–March 1482.</supplied>
                         </origDate>
@@ -66,16 +62,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

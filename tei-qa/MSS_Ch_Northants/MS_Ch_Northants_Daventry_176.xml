@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600206">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700206">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,36 +47,28 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_109232">Cold-Ashby</placeName>.
    
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Peter</forename>, prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied>
                            </orgName>, and rector of <placeName role="rector" key="place_109232">Cold Essebi</placeName>
-                        </persName>, remits to the abbot and c. of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108033">Pipewell</orgName> £3. 6. 0 out of £4. 10. 0 rent for tithes of corn and hay of the lordship, and 3 virgates of land belonging to Pipewell in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_109232">Coldehasseby</placeName>, in return for the grant of a part by Pipewell to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, remits to the abbot and c. of <orgName key="org_108033">Pipewell</orgName> £3. 6. 0 out of £4. 10. 0 rent for tithes of corn and hay of the lordship, and 3 virgates of land belonging to Pipewell in <placeName key="place_109232">Coldehasseby</placeName>, in return for the grant of a part by Pipewell to <persName>
                            <forename>Augustine</forename> le <surname>Waleys</surname> of <placeName role="person" key="place_108192">Suthrigge</placeName>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Waleys">
-                           <forename>Maud</forename> his wife</persName>, for their lives. Given in full chapter at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">Daventry</placeName>. 
+                        </persName> and <persName nymRef="Waleys">
+                           <forename>Maud</forename> his wife</persName>, for their lives. Given in full chapter at <placeName role="date" key="place_108012">Daventry</placeName>. 
    <origDate notAfter="1400" notBefore="1300" precision="low">
                            <supplied>3 Feb.</supplied> ‘mccc … gesimo secundo’.</origDate>
                      </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

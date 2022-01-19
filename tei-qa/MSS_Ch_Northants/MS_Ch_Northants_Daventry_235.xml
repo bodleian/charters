@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600249">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700249">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,35 +47,34 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108019">Norton</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>Henry</forename> of <surname>Nortone</surname>, skinner</persName>, grants <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName> 6d. rent from <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<persName>
+                           <forename>Henry</forename> of <surname>Nortone</surname>, skinner</persName>, grants <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> 6d. rent from <persName>
                            <forename>Robert</forename> of <surname>Nortone</surname>, skinner</persName>, for a messuage which the said Robert once held from him, on the west of the cemetery against the church. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Sir <forename>Hugh</forename> de <surname>Tywe</surname>
+   Witnesses: <persName>Sir <forename>Hugh</forename> de <surname>Tywe</surname>
                         </persName>, kt., 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Stephen</forename> 
                            <surname type="patronymic">son of the clerk of <placeName role="person" key="place_108019">Norton</placeName>
                            </surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> ’<surname>ad aquas</surname>’</persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> le <surname>Ferrour</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> le <surname>carpenter</surname> of <placeName role="person" key="place_108019">Norton</placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Geoffrey</forename> 
                            <surname>Katerich</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Herbert</surname>
                         </persName>. 
@@ -86,16 +85,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

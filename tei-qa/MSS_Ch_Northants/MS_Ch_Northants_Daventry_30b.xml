@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600226">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700226">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,29 +47,28 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108037">Newenham</placeName>.
 
-   Indenture by which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>John</forename>, abbot of [<orgName role="abbot" key="org_101001">Evesham</orgName>]</persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Indenture by which <persName>
+                           <forename>John</forename>, abbot of [<orgName role="abbot" key="org_101001">Evesham</orgName>]</persName> grants to <persName>
                            <forename>William</forename> le <surname>Freman</surname> of <placeName role="person" key="place_108037">Newenham</placeName>
-                        </persName> 3 acres of land called <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Astcroft</placeName> and 3 strips and 3 butts by ... of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108037">Newenhams</placeName> land, and a plot called <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Luttlepassage</placeName>, and another plot called <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Hardemede</placeName> with the meadow called <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Muchelepassage</placeName>, i.e. the land which they brought from <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> 3 acres of land called <placeName type="minor">Astcroft</placeName> and 3 strips and 3 butts by ... of <placeName key="place_108037">Newenhams</placeName> land, and a plot called <placeName type="minor">Luttlepassage</placeName>, and another plot called <placeName type="minor">Hardemede</placeName> with the meadow called <placeName type="minor">Muchelepassage</placeName>, i.e. the land which they brought from <persName>
                            <forename>William</forename> le <surname>Moyner</surname> of <placeName role="person" key="place_108037">N<supplied>ewenham</supplied>
                            </placeName>.</persName> Rent: 11/-. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Ralph</forename> 
                            <surname>Dolphin</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> 
                            <surname>...grene</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> le <surname>Dur</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Reynaud</surname>
                         </persName>. 
@@ -80,16 +79,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

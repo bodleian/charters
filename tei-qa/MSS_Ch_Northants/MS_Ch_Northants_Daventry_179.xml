@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600243">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700243">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,33 +47,32 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108019">Norton</placeName>.
 
-Indenture by which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+Indenture by which <persName>
                            <forename>Nicholas</forename>, prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied>
                            </orgName>
-                        </persName>, grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, grants to <persName>
                            <forename>Hugh</forename> de <surname>Brokhole</surname>
-                        </persName>, for his homage and service, that messuage which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, for his homage and service, that messuage which <persName>
                            <forename>Robert</forename> 
                            <surname>Danegode</surname>
-                        </persName> formerly held of them in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108019">Norton</placeName>. Rent 2/-. For this he gives one mark. 
-   Witnesses: ... <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> formerly held of them in <placeName key="place_108019">Norton</placeName>. Rent 2/-. For this he gives one mark. 
+   Witnesses: ... <persName>
                            <forename>Roger</forename> de <surname>Whelton</surname>
                         </persName>, ... de Trop,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Roger</forename> 
                            <surname>Golefre</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Stephen</forename> the <surname>clerk</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Ralph</forename> de <surname>Wa...</surname>
-                        </persName> [<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">Mutilated.</hi>] 
+                        </persName> [<hi rend="italic">Mutilated.</hi>] 
    <origDate notBefore="1250" notAfter="1260">
                            <supplied>1250–60.</supplied>
                         </origDate>
@@ -81,16 +80,11 @@ Indenture by which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

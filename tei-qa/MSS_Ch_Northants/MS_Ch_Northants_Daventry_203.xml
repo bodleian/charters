@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600054">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700054">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,38 +47,34 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Herberd">
+                        <persName nymRef="Herberd">
                            <forename>Alice</forename>, widow of <persName>
                               <forename>John</forename> 
                               <surname>Herberd</surname>, wheelwright of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                               </placeName>
                            </persName>
-                        </persName>, quit-claims to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, quit-claims to <persName>
                            <forename>Nicholas</forename> 
                            <surname>Herberd</surname> of <placeName role="person" key="place_108038">Throp</placeName>
-                        </persName>, all her right in that tenement in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">le Netherende</placeName> (extending from the high-road to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, all her right in that tenement in <placeName type="minor">le Netherende</placeName> (extending from the high-road to <persName>
                            <forename>Robert</forename> 
                            <surname>Bateman</surname>
-                        </persName>’s land) which the said Nicholas gave to John her husband. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName>’s land) which the said Nicholas gave to John her husband. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>William</forename> de <surname>Staverton</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>West</surname>, senior</persName>, 
-   William de ..., <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   William de ..., <persName>
                            <forename>John</forename> 
                            <surname>Snef</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>West</surname>, junior, of <persName role="person">D<supplied>aventry</supplied>
                            </persName>
@@ -90,16 +86,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

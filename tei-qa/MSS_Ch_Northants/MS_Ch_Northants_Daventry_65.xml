@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600229">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700229">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,41 +47,38 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108037">Newenham</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Alice</forename> daughter of <persName>
                               <forename>William</forename> 
                               <surname>Lesen</surname> of <placeName role="person" key="Neunepham">Neupham</placeName>
                            </persName>
-                        </persName> quit-claims to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> quit-claims to <persName>
                            <forename>Henry</forename> 
                            <surname>Freman</surname>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Freman">
-                           <forename>Julian</forename> [<hi rend="italic">sic</hi>] his wife</persName> all her right in the lands which the said Henry and Julian had of the grant of William her father. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108038">Throp by D<supplied>aventry</supplied>
+                        </persName> and <persName nymRef="Freman">
+                           <forename>Julian</forename> [<hi rend="italic">sic</hi>] his wife</persName> all her right in the lands which the said Henry and Julian had of the grant of William her father. Given at <placeName role="date" key="place_108038">Throp by D<supplied>aventry</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>John</forename> 
                            <surname type="patronymic">son of Walter</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Herberd</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> 
                            <surname type="patronymic">son of Walter</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> 
                            <surname>Le Barkere</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Kynt</surname> (?) of <placeName role="person" key="place_108038">Throp</placeName>
                         </persName>.
@@ -92,16 +89,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

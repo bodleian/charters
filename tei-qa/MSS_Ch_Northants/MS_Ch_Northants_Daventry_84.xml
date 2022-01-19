@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600143">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700143">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,46 +47,35 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Daventry, Drayton, Norton, and Staverton.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Wright</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> and William ..., quit-claims to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and William ..., quit-claims to <persName>
                            <forename>John</forename> 
                            <surname>Werrour</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
                         </persName> all their right in the lands which they had of the gift of ...
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>John</forename> 
                            <surname>Heywode</surname>
                         </persName>, 
-   Simon ... and others of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="person"
-                                   key="place_108012">D<supplied>aventry</supplied>
+   Simon ... and others of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
-   Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. <origDate notBefore="1422" notAfter="1461">Friday after St. M ... 1 <supplied>Hen. VI?</supplied>.</origDate>
                      </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

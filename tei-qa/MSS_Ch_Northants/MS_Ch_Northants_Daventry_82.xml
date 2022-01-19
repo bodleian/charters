@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600297">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700297">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,28 +47,25 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108158">Scalford, co. Leics</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>William</forename>, prior</persName> &amp;c., of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName> grant that since <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
+                           <forename>William</forename>, prior</persName> &amp;c., of <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> grant that since <persName>
                            <forename>Richard</forename> de <surname>Assheby</surname>
-                        </persName> lately granted to a certain <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> lately granted to a certain <persName>
                            <forename>Hugh</forename> de <surname>Bronage</surname>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Bronage">
-                           <forename>Mary</forename> his wife</persName> a messuage in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108158">Scaldeford</placeName> called ‘Codyngton place’, which a certain <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName nymRef="Bronage">
+                           <forename>Mary</forename> his wife</persName> a messuage in <placeName key="place_108158">Scaldeford</placeName> called ‘Codyngton place’, which a certain <persName>
                            <forename>Roger</forename> de <surname>Codyngton</surname>
-                        </persName> once took from <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> once took from <persName>
                            <forename>Peter</forename>, prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied>
                            </orgName>
                         </persName>, from
-<pb xmlns:tite="http://www.tei-c.org/ns/tite/1.0" n="110"/>
-Monday after Easter 17 Ed. III [14 April 1343] for 60 years, the said Hugh and Mary shall hold it for the remainder of that term and for a further 10 years. Rent: 1/6. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+<pb n="110"/>
+Monday after Easter 17 Ed. III [14 April 1343] for 60 years, the said Hugh and Mary shall hold it for the remainder of that term and for a further 10 years. Rent: 1/6. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>.
    <origDate when="1393-07-24">
                            <supplied>24 July 1393.</supplied>
@@ -77,16 +74,11 @@ Monday after Easter 17 Ed. III [14 April 1343] for 60 years, the said Hugh and M
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

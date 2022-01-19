@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600059">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700059">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,16 +47,14 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>Thomas</forename> 
                            <surname type="patronymic">fitz-Walter</surname>
-                        </persName> grants privileges in his manor to <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName>. [<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">Fragmentary.</hi>] 
+                        </persName> grants privileges in his manor to <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName>. [<hi rend="italic">Fragmentary.</hi>] 
    <origDate when="1377-12-21">
                            <supplied>21 Dec. 1377.</supplied>
                         </origDate>
@@ -64,16 +62,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

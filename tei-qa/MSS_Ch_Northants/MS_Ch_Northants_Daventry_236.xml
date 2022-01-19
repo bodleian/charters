@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600242">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700242">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,47 +47,46 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108019">Norton</placeName>.
 
-   Admission by <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Admission by <persName>
                            <forename>Henry</forename> the dean of <placeName type="deanery" role="dean" key="place_108032">Addon</placeName>
-                        </persName>, and William de ... of Master Gregory to the vicarage of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108019">Norton</placeName> on the presentation of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">R. prior of <orgName role="prior" key="org_108004">Daventre</orgName>
-                        </persName>, in place of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>Vincent</forename>, a son of the late vicar Thomas</persName>, who, having intruded himself into that church, had resigned it. Given in full chapter, at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108019">Nortone</placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, and William de ... of Master Gregory to the vicarage of <placeName key="place_108019">Norton</placeName> on the presentation of <persName>R. prior of <orgName role="prior" key="org_108004">Daventre</orgName>
+                        </persName>, in place of <persName>
+                           <forename>Vincent</forename>, a son of the late vicar Thomas</persName>, who, having intruded himself into that church, had resigned it. Given in full chapter, at <placeName key="place_108019">Nortone</placeName>. 
+   Witnesses: <persName>
                            <forename>William</forename> the priest of <placeName role="priest" key="place_101031">Falvesle</placeName>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Rodbert</forename> the priest of <placeName role="priest" key="place_108205">Catesbi</placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Simon</forename> the priest</persName> of ...,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Roger</forename> the priest his brother</persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> the priest of <placeName role="priest" key="place_108031">W[el]tune</placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Arsgod</forename> the priest</persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Warner</forename> of <surname>Troph</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> de <surname>Trop</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Gulafre</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> son of <persName>
                               <forename>Henry</forename> of <surname>Norton</surname>
                            </persName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Walter</forename> 
                            <surname type="patronymic">son of Gamel</surname>
                         </persName>. 
@@ -98,16 +97,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

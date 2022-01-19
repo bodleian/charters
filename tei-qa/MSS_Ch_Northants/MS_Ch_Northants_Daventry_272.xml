@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600385">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700385">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,30 +47,28 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Welton.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<persName>
                            <forename>Robert</forename> 
                            <surname>Shawe</surname>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <persName>
                            <forename>William</forename> 
-                           <surname>Catesby</surname>, esq.</persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <surname>Catesby</surname>, esq.</persName>, <persName>
                            <forename>Edmund</forename> 
                            <surname>Newenham</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>William</forename> 
                            <surname>Staverton</surname>
-                        </persName>, and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, and <persName>
                            <forename>Henry</forename> 
                            <surname>Gryffythe</surname>
-                        </persName> one messuage, 22½ acres of land, and one swathe in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">Welton</placeName>, and appoints <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> one messuage, 22½ acres of land, and one swathe in <placeName key="place_108031">Welton</placeName>, and appoints <persName>
                            <forename>Henry</forename> 
                            <surname>Warde</surname>
                         </persName> his attorney to deliver seisin. 
-   Witnesses: ... <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: ... <persName>
                            <forename>William</forename> 
                            <surname>Perkyns</surname>
                         </persName>. 
@@ -80,16 +78,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>
@@ -99,7 +92,7 @@
                      <recordHist>
                         <source>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
-                                <citedRange unit="page" from="124" to="124">124</citedRange>
+                                <citedRange unit="page" from="125" to="125">125</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

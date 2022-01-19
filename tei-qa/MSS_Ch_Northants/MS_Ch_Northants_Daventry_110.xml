@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600267">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700267">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,45 +47,42 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108019">Norton</placeName>.
 
-Copy of a charter by which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Geffrey">
+Copy of a charter by which <persName nymRef="Geffrey">
                            <forename>Emma</forename>
-                        </persName>, widow of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, widow of <persName>
                            <forename>William</forename> 
                            <surname>Geffrey</surname>
-                        </persName>, quit-claims to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, quit-claims to <persName>
                            <forename>William</forename> 
                            <surname>Baker</surname>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName>
                            <forename>William</forename> 
                            <surname>Taylor</surname>
                         </persName> [N.B. Thomas
-<pb xmlns:tite="http://www.tei-c.org/ns/tite/1.0" n="105"/>
-Bukby is dead] her right in the same lands. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108019">N<supplied>orton</supplied>
+<pb n="105"/>
+Bukby is dead] her right in the same lands. Given at <placeName role="date" key="place_108019">N<supplied>orton</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Walter</forename> 
                            <surname>Mauntell</surname>, kt.</persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> 
                            <surname>Mauntell</surname> esq.</persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Knyght</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied>
                            </placeName>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Chapleyne</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied>
                            </placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Rous</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied>
                            </placeName>
@@ -96,16 +93,11 @@ Bukby is dead] her right in the same lands. Given at <placeName xmlns:tite="http
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600386">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700386">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,15 +47,13 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Welton.
 
-Mutilated grant to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+Mutilated grant to <persName>
                            <forename>William</forename> 
                            <surname>Catesby</surname>
-                        </persName> and others of a messuage in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">Welton</placeName> near a holding of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
+                        </persName> and others of a messuage in <placeName key="place_108031">Welton</placeName> near a holding of <orgName key="org_108004">D<supplied>aventry</supplied>
                         </orgName>.
    <origDate when="1483-04-10">10 April 23 Ed. IV<!--<note type="foot" n="1">Technically this should be 1 ED. V., as Ed. IV’s reign ended on the 9th April 1483.</note>--> <supplied>1483.</supplied>
                         </origDate>
@@ -63,16 +61,11 @@ Mutilated grant to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>
@@ -82,7 +75,7 @@ Mutilated grant to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
                      <recordHist>
                         <source>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
-                                <citedRange unit="page" from="124" to="124">124</citedRange>
+                                <citedRange unit="page" from="125" to="125">125</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

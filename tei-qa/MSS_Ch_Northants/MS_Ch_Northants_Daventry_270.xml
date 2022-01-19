@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600375">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700375">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,40 +47,36 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Welton.
 
-   Agnes widow of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Agnes widow of <persName>
                            <forename>John</forename> 
                            <surname>Drayton</surname> of <placeName role="person" key="place_108031">Wellton</placeName>
-                        </persName>, grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">... <surname>Brown</surname>, clerk</persName>, and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, grants to <persName>... <surname>Brown</surname>, clerk</persName>, and <persName>
                            <forename>William</forename> 
                            <surname>Wright</surname> of <placeName role="person" key="place_108013">D<supplied>rayton</supplied>
                            </placeName>
-                        </persName>, all her lands in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">W<supplied>elton</supplied>
-                        </placeName> except 4½ acres. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108013">D<supplied>rayton</supplied>
+                        </persName>, all her lands in <placeName key="place_108031">W<supplied>elton</supplied>
+                        </placeName> except 4½ acres. Given at <placeName role="date" key="place_108013">D<supplied>rayton</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>John</forename> 
                            <surname>Malory</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> 
                            <surname>Frend</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> 
                            <surname>Brokhole</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> 
                            <surname>Smyth</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Gybbes</surname>
                         </persName>. 
@@ -91,16 +87,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

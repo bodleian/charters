@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600103">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700103">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,50 +47,48 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <hi rend="italic">The Tailor Charters.</hi>
+                        <lb/>D. 56–57.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> the <surname>tailor</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> grants to <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName> in free-alms a rent of 3/- from a gate in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Bayueleslane</placeName> between <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> in free-alms a rent of 3/- from a gate in <placeName type="minor">Bayueleslane</placeName> between <persName>
                            <forename>Richard</forename> de  <surname>Norton</surname>
-                        </persName>’s tenement and that of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>’s tenement and that of <persName>
                            <forename>John</forename> de  <surname>Welton</surname>
-                        </persName>, 8 feet in width; and from a certain curtilege lying between <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, 8 feet in width; and from a certain curtilege lying between <persName>
                            <forename>Robert</forename> le <surname>Barkere</surname>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName>
                            <forename>John</forename> de <surname>Welton</surname>
-                        </persName>, which gate messuage and curtilege <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, which gate messuage and curtilege <persName>
                            <forename>John</forename> 
                            <surname>West</surname>
-                        </persName> once held from the grantor, who had bought them from <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> once held from the grantor, who had bought them from <persName>
                            <forename>John</forename> 
                            <surname>Neel</surname>
                         </persName> at the stated rent. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Simon</forename> 
                            <surname>Baudewyne</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Geoffrey</forename> de <surname>aula</surname>
                         </persName> of the same, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Simon</forename> de <surname>aula</surname>
                         </persName> of the same, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Geoffrey</forename> 
                            <surname>Gamel</surname> of <placeName role="person" key="place_108013">Drayton</placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> le <surname>Werrour</surname>
-                        </persName> of the same. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName> of the same. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
    <origDate when="1317-09-29">
                            <supplied>29 Sept. 1317.</supplied>
@@ -99,16 +97,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

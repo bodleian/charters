@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600302">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700302">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,43 +47,40 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108025">Staverton</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> son of <persName>
                               <forename>William</forename> 
                               <surname>Adam</surname> of <placeName role="person" key="place_108013">Dra[yt]on</placeName>
                            </persName>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <persName>
                            <forename>Thomas</forename> de  <surname>Fallusle</surname>
-                        </persName> in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
-                        </placeName> ½ acre of arable land in the East field of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108025">Staverton</placeName> extending to <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Hasacumbe</placeName>, between the monks’ land and that of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> in <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> ½ acre of arable land in the East field of <placeName key="place_108025">Staverton</placeName> extending to <placeName type="minor">Hasacumbe</placeName>, between the monks’ land and that of <persName>
                            <forename>Roger</forename> 
                            <surname>Evermund</surname>
                         </persName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Simon</forename> de <surname>aula</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>Waleys</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>Gemme</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> le <surname>Werrour</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Scop</surname>
-                        </persName>. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName>. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
    <origDate when="1295-06-21">
                            <supplied>21 June 1295.</supplied>
@@ -92,16 +89,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600291">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700291">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,18 +47,12 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_106148">Sandford</placeName>
 
-   The abbot of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                 role="abbot"
-                                 key="org_108034">Leicester</orgName> to the archdeacon of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   type="archdeaconry"
-                                   role="archdeacon"
-                                   key="place_106034">Leicester</placeName>, about the dispute between the prior &amp;c. of [<gap xmlns:tite="http://www.tei-c.org/ns/tite/1.0"/> ] and [<gap xmlns:tite="http://www.tei-c.org/ns/tite/1.0"/>] chaplain. Given Wednesday, in the Abbey. [In the fragment which remains <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName> is not mentioned: Coxe and Turner attribute it to D<supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">aventry</supplied>.]
+   The abbot of <orgName role="abbot" key="org_108034">Leicester</orgName> to the archdeacon of <placeName type="archdeaconry" role="archdeacon" key="place_106034">Leicester</placeName>, about the dispute between the prior &amp;c. of [<gap/> ] and [<gap/>] chaplain. Given Wednesday, in the Abbey. [In the fragment which remains <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> is not mentioned: Coxe and Turner attribute it to D<supplied>aventry</supplied>.]
    <origDate when="1268" precision="low">
                            <supplied>c. 1268.</supplied>
                         </origDate>
@@ -66,16 +60,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

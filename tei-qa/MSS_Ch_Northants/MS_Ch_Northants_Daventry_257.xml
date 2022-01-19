@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600327">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700327">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,52 +47,49 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108038">Thrupp</placeName> and <placeName key="place_108019">Norton</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> 
                            <surname>Leeke</surname>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Leeke">
-                           <forename>Agnes</forename> his wife</persName> grant to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName nymRef="Leeke">
+                           <forename>Agnes</forename> his wife</persName> grant to <persName>
                            <forename>Edmund</forename> 
                            <surname>Newenham</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>John</forename> 
                            <surname>Staverton</surname>
-                        </persName>, and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, and <persName>
                            <forename>Thomas</forename> 
                            <surname>Clerke</surname>
-                        </persName>, lands rents and services which they held jointly of the gift of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, lands rents and services which they held jointly of the gift of <persName>
                            <forename>William</forename> 
                            <surname>Newenham</surname> of <placeName role="person" key="place_108220">Chenford</placeName>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Henry</forename> 
-                           <surname>Mitchell</surname> of Flor, esq.</persName>, and ... of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" role="person">D<supplied>aventry</supplied>
-                        </persName>, gentleman, in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108038">Thrupe</placeName> and <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108019">Norton</placeName>, and appoints <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <surname>Mitchell</surname> of Flor, esq.</persName>, and ... of <persName role="person">D<supplied>aventry</supplied>
+                        </persName>, gentleman, in <placeName key="place_108038">Thrupe</placeName> and <placeName key="place_108019">Norton</placeName>, and appoints <persName>
                            <forename>Robert</forename> 
                            <surname>Lane</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
-                           </placeName>, yeoman</persName>, his attorney to deliver seisin. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108038">Thrope</placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           </placeName>, yeoman</persName>, his attorney to deliver seisin. Given at <placeName role="date" key="place_108038">Thrope</placeName>. 
+   Witnesses: <persName>
                            <forename>Richard</forename> de <surname>Ynlond</surname> of <placeName role="person" key="place_108038">Thrope</placeName>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Bukby</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> 
                            <surname>Harres</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Harres</surname>
                         </persName> of the same, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Hele</surname>
                         </persName>. 
@@ -102,16 +99,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

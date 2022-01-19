@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600042">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700042">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,33 +47,29 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>Walter</forename> le <surname>coupere</surname> of <placeName role="person" key="place_108031">Wheltone</placeName>
-                        </persName> appoints <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> appoints <persName>
                            <forename>Simon</forename> 
                            <surname>Werreur</surname> of <placeName role="person" key="place_108013">Draytone by D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> to deliver seisin to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> to deliver seisin to <persName>
                            <forename>Emma</forename> le <surname>coupere</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> of a messuage in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
-                        </placeName> in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">le Brokende</placeName>, with curtilage and houses, between the messuages of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> of a messuage in <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> in <placeName type="minor">le Brokende</placeName>, with curtilage and houses, between the messuages of <persName>
                            <forename>John</forename> son of <persName>
                               <forename>Robert</forename> of <surname>D<supplied>aventry</supplied>
                               </surname>
                            </persName>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName>
                            <forename>Richard</forename> 
                            <surname>Hobbes</surname> of <placeName role="person" key="place_108006">Bukkeby</placeName>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Hobbes">
-                           <forename>Joan</forename> his wife</persName> and the grantor’s daughter. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="person"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName> and <persName nymRef="Hobbes">
+                           <forename>Joan</forename> his wife</persName> and the grantor’s daughter. Given at <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
    <origDate when="1352-05-13">
                            <supplied>13 May 1352.</supplied>
@@ -82,16 +78,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

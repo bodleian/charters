@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600299">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700299">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,20 +47,19 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108025">Staverton</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<persName>
                            <forename>Nicholas</forename>, prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied>
                            </orgName>
-                        </persName>, called to warranty by <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, called to warranty by <persName>
                            <forename>Emma</forename> 
                            <surname>Crok</surname>
-                        </persName>, recognizes by a fine made at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_107054">Northampton</placeName> the right of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, recognizes by a fine made at <placeName key="place_107054">Northampton</placeName> the right of <persName>
                            <forename>William</forename> de <surname>Morton</surname>
-                        </persName> in a moiety of half a virgate and a messuage in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108025">Staverton</placeName> held at a rent of 18d. for the prior after an assize of mort d’ancestor had been summoned between them. For this William gave the prior ½ mark. 
+                        </persName> in a moiety of half a virgate and a messuage in <placeName key="place_108025">Staverton</placeName> held at a rent of 18d. for the prior after an assize of mort d’ancestor had been summoned between them. For this William gave the prior ½ mark. 
    <origDate when="1240-10-18">
                            <supplied>18 Oct. 1240.</supplied>
                         </origDate>
@@ -68,16 +67,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

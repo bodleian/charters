@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600392">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700392">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,12 +47,10 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Welton.
 
-List of names of 39 persons who owe tithe hay in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">Welton</placeName>. Sum: 15/5¾. Endorsed with 12 like entries of tithe hay in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108019">Norton</placeName>: 22½<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">d.</hi> 
+List of names of 39 persons who owe tithe hay in <placeName key="place_108031">Welton</placeName>. Sum: 15/5¾. Endorsed with 12 like entries of tithe hay in <placeName key="place_108019">Norton</placeName>: 22½<hi rend="italic">d.</hi> 
                         <origDate notBefore="1409-09" notAfter="1410-09">
                            <supplied>Sept. 1409–Sept. 1410.</supplied>
                         </origDate>
@@ -60,16 +58,11 @@ List of names of 39 persons who owe tithe hay in <placeName xmlns:tite="http://w
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

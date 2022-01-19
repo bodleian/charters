@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600294">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700294">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,20 +47,11 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_106148">Sandford</placeName>
 
-   In the church of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108162">S. Martin’s, Leicester</placeName>, before the prior of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                 role="prior"
-                                 key="org_108034">S. Mary’s, Leicester</orgName>, the archdeacon of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   type="archdeanery"
-                                   role="archdeacon"
-                                   key="place_106034">Leicester</placeName>, and the bishop of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="bishop"
-                                   type="diocese"
-                                   key="place_100079">Lincoln</placeName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Master <forename>Hugh</forename> 
+   In the church of <placeName key="place_108162">S. Martin’s, Leicester</placeName>, before the prior of <orgName role="prior" key="org_108034">S. Mary’s, Leicester</orgName>, the archdeacon of <placeName type="archdeanery" role="archdeacon" key="place_106034">Leicester</placeName>, and the bishop of <placeName role="bishop" type="diocese" key="place_100079">Lincoln</placeName>, <persName>Master <forename>Hugh</forename> 
                            <surname>Hamelin</surname>
                         </persName> seeks a postponement to allow him time to consider the process, of which he has obtained a copy. The case is adjourned till the morrow of All Souls, when the parties are to appear again in the same place.
    <origDate when="1268-10-04">1268. <supplied>4 Oct.</supplied>
@@ -69,16 +60,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

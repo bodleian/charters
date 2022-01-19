@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600298">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700298">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,15 +47,14 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108025">Staverton</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<persName>
                            <forename>Gilbert</forename> le <surname>Graunt</surname> (<hi rend="italic">not</hi> Grait, as Coxe and T.; nor Graiser, as Macray) of <placeName role="person" key="place_108025">Staverton</placeName>
-                        </persName> grants to <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
-                        </placeName> in free alms, 1 acre of land near <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Lorteulle</placeName>. Witnesses: ... <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> in free alms, 1 acre of land near <placeName type="minor">Lorteulle</placeName>. Witnesses: ... <persName>
                            <forename>Gilbert</forename> le  <surname>Fraunceis</surname>
                         </persName> ... 
    <origDate when="1240-04-15">1240. <supplied>15 April</supplied>
@@ -64,16 +63,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600231">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700231">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,28 +47,25 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108037">Newenham</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Freman</surname> of <placeName role="person" key="place_108037">Newnham</placeName>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Sir <forename>Thomas</forename> 
+                        </persName> grants to <persName>Sir <forename>Thomas</forename> 
                            <surname>More</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>John</forename> 
                            <surname>Everdone</surname> of <placeName role="person" key="place_108149">Snotuscumbe</placeName>, Rector of <placeName role="rector" key="place_108206">Oldurton</placeName> (?)</persName> 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>Nicholas</forename> 
                            <surname>Bodynton</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Thomas</forename> 
                            <surname>Goodman</surname> of <placeName role="person" key="place_108037">Newnham</placeName>
-                        </persName> ... lands, tenements, pastures, curtilages, tofts and crofts &amp;c. in N<supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">ewenham</supplied>, and his water-mill. [<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">Witnesses illegible.</hi>] Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108037">N<supplied>ewenham</supplied>
+                        </persName> ... lands, tenements, pastures, curtilages, tofts and crofts &amp;c. in N<supplied>ewenham</supplied>, and his water-mill. [<hi rend="italic">Witnesses illegible.</hi>] Given at <placeName role="date" key="place_108037">N<supplied>ewenham</supplied>
                         </placeName>. 
    <origDate when="1398-07-04">
                            <supplied>4 July 1398.</supplied>
@@ -77,16 +74,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

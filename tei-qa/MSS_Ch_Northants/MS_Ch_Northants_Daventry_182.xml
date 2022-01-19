@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600030">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700030">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,23 +47,21 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>William</forename> 
                            <surname>Galien</surname>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Witton">
+                        </persName> grants to <persName nymRef="Witton">
                            <forename>Thomas</forename> the chaplain, son of <persName>
                               <forename>William</forename> de <surname>Witton</surname>
                            </persName>
-                        </persName>, 2 acres of land, of which one is called <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Bauncroft [? or Burncecroft]</placeName>, and a manse, and the other is near the wood he held. For which the said Thomas gave 20/-. 
-   Witnesses: Henry [<gap xmlns:tite="http://www.tei-c.org/ns/tite/1.0"/>], <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, 2 acres of land, of which one is called <placeName type="minor">Bauncroft [? or Burncecroft]</placeName>, and a manse, and the other is near the wood he held. For which the said Thomas gave 20/-. 
+   Witnesses: Henry [<gap/>], <persName>
                            <forename>Henry</forename> de <surname>Berecote</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> 
                            <surname>Alewy</surname>
                         </persName>. 
@@ -74,16 +72,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

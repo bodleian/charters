@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600234">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700234">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,34 +47,33 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108037">Newenham</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<persName>
                            <forename>Nicholas</forename> 
                            <surname>Bodyngton</surname> of <placeName role="person" key="place_108037">Newenham</placeName>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>Henry</forename> [<surname>Freeman</surname>]</persName> half of all lands &amp;c. in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108037">N<supplied>ewenham</supplied>
-                        </placeName> with half the water-mill, which he, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <persName>
+                           <forename>Henry</forename> [<surname>Freeman</surname>]</persName> half of all lands &amp;c. in <placeName key="place_108037">N<supplied>ewenham</supplied>
+                        </placeName> with half the water-mill, which he, <persName>
                            <forename>Thomas</forename> 
                            <surname>More</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>John</forename> 
                            <surname>Everdon</surname>
-                        </persName>, Thomas had [of the gift of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, Thomas had [of the gift of <persName>
                            <forename>William</forename> 
                            <surname>Freman</surname>
                         </persName>.] 
-   Witnesses: ... <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: ... <persName>
                            <forename>William</forename> 
                            <surname>West</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Iremonger</surname>
-                        </persName>. [<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">Mutilated.</hi>] 
+                        </persName>. [<hi rend="italic">Mutilated.</hi>] 
    <origDate when="1405-07">
                            <supplied>–6 July 1405.</supplied>
                         </origDate>
@@ -82,16 +81,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

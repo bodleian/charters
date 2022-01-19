@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600156">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700156">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,26 +47,26 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_109253">Drayton</placeName>.<lb/>
+      (i) <hi rend="italic">Various grants.</hi>
 
-   Indenture by which the prior, &amp;c., of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName> grant to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Indenture by which the prior, &amp;c., of <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> grant to <persName>
                            <forename>Henry</forename> the <surname>smith</surname> of <placeName key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName>, 1 acre and 1 rood of arable land in the south field of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108013">Drayton</placeName>, in exchange for 1 acre of arable land in the north field of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
+                        </persName>, 1 acre and 1 rood of arable land in the south field of <placeName key="place_108013">Drayton</placeName>, in exchange for 1 acre of arable land in the north field of <placeName key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Sir <forename>Walter</forename> 
+   Witnesses: <persName>Sir <forename>Walter</forename> 
                            <surname type="patronymic">fitz-Simon</surname> lord of <placeName type="manor" key="">D<supplied>aventry</supplied>
                            </placeName>
                         </persName>, ..., 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Gemme</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Baiuel</surname>
                         </persName>, ... <origDate when="1248">1248.</origDate>
@@ -74,16 +74,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

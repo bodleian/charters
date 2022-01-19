@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600395">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700395">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,43 +47,41 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>West-Haddon.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> de <surname>Brochol</surname>, vicar of <placeName role="vicar" key="place_108032">Westhaddon</placeName>
-                        </persName>, grants to <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName> in free alms the whole of his tenement in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108032">W<supplied>esthaddon</supplied>
-                        </placeName>, which he once held of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Sir <forename>Eustace</forename>
+                        </persName>, grants to <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> in free alms the whole of his tenement in <placeName key="place_108032">W<supplied>esthaddon</supplied>
+                        </placeName>, which he once held of <persName>Sir <forename>Eustace</forename>
                            <pb n="127"/>
 de <surname>Watford</surname>
                         </persName> for homage and service. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Eustace</forename> 
                            <surname>Golafre</surname> of <placeName role="person" key="place_108142">Watford</placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> son of <persName>
                               <forename>Peter</forename> of <surname>Holm</surname>
                            </persName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Ralph</forename> 
                            <surname type="patronymic">son of Walter</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Ralph</forename> 
                            <surname type="patronymic">son of Herbert</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> the <surname>clerk</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Stephen</forename> le <surname>freman</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Stephen</forename> 
                            <surname type="patronymic">son of Simon</surname>
                         </persName>. 
@@ -94,16 +92,11 @@ de <surname>Watford</surname>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

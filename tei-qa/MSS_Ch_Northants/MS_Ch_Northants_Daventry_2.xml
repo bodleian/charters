@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600002">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700002">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,19 +47,13 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-   Letter of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Letter of <persName>
                            <forename>Hubert</forename> 
                            <surname>Walter</surname>, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
-                        </persName>, to the faithful of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   type="diocese"
-                                   key="place_100079">Lincoln</placeName> and <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   type="diocese"
-                                   key="place_103019">Coventry</placeName> dioceses, granting a remission of 15 days’ penance to those who, after confession, give alms for the repair of the offices of the monks of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
+                        </persName>, to the faithful of <placeName type="diocese" key="place_100079">Lincoln</placeName> and <placeName type="diocese" key="place_103019">Coventry</placeName> dioceses, granting a remission of 15 days’ penance to those who, after confession, give alms for the repair of the offices of the monks of <orgName key="org_108004">D<supplied>aventry</supplied>
                         </orgName>, ‘que sicut presente vidimus corruerunt et dirute sunt’. To last for 3 years. <origDate when="1201-04-22" precision="low">
                            <supplied>c. 22 Apr. 1201.</supplied>
                         </origDate>
@@ -67,16 +61,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

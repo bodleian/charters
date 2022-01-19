@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600062">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700062">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,46 +47,43 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108012">Daventry</placeName> and <placeName>Drayton</placeName>, The Symond Holding.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<persName>
                            <forename>Philip</forename> de <surname>Opthrop</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Opthorp">
-                           <forename>Matilda</forename> his daughter</persName> 3 half-acres of land in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
-                        </placeName>, viz. in the south field ½ acre above <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Waltforlong</placeName> by the land of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Hylewyse super montem</placeName>; in the north field ½ acre at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">le Russebeddes</placeName> by the land of Helewyse and ½ acre with headrigs, at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Baneslade</placeName> by the said H’s land. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName> grants to <persName nymRef="Opthorp">
+                           <forename>Matilda</forename> his daughter</persName> 3 half-acres of land in <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName>, viz. in the south field ½ acre above <placeName type="minor">Waltforlong</placeName> by the land of <placeName type="minor">Hylewyse super montem</placeName>; in the north field ½ acre at <placeName type="minor">le Russebeddes</placeName> by the land of Helewyse and ½ acre with headrigs, at <placeName type="minor">Baneslade</placeName> by the said H’s land. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>.
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Geoffrey</forename> 
                            <surname>Gamel</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Blaunfront</surname>
                         </persName> of Drayton, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Geoffrey</forename> de <surname>aula</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Nicholas</forename> 
                            <surname>Celle</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> 
                            <surname>Nicholas</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> le <surname>Barkere</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>Baudewyne</surname>
-                        </persName> of D<supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">aventry</supplied>. 
+                        </persName> of D<supplied>aventry</supplied>. 
    <origDate when="1309-04-13">
                            <supplied>13 April 1309.</supplied>
                         </origDate>
@@ -94,16 +91,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

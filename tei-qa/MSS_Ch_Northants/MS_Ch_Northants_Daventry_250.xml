@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600301">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700301">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,20 +47,19 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108025">Staverton</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<persName>
                            <forename>Nicholas</forename>, prior &amp;c. of <orgName key="org_108004">D<supplied>aventry</supplied>
                            </orgName>
-                        </persName>, demise to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, demise to <persName>
                            <forename>William</forename> de <surname>Depecrold</surname>
-                        </persName> (?) and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Depecrold">
-                           <forename>Lucy</forename> his wife</persName>, a messuage in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108025">Staverton</placeName> which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> (?) and <persName nymRef="Depecrold">
+                           <forename>Lucy</forename> his wife</persName>, a messuage in <placeName key="place_108025">Staverton</placeName> which <persName>
                            <forename>Richard</forename> de <surname>Fleckeho</surname>
-                        </persName> (?) gave to them in free alms. [<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">Mostly illegible.</hi>]
+                        </persName> (?) gave to them in free alms. [<hi rend="italic">Mostly illegible.</hi>]
    <origDate notBefore="1240" notAfter="1250" precision="low">
                            <supplied>c. 1240–50.</supplied>
                         </origDate>
@@ -68,16 +67,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

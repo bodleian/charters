@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600281">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700281">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,37 +47,27 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108022">Preston</placeName>.
 
-   Memorandum of an agreement between master ... rector of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="rector"
-                                   key="place_108159">Marsh, co. Bucks</placeName>, and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Sir <forename>Alexander</forename>, perpetual vicar of <placeName role="vicar" key="place_108022">Great Preston</placeName>
-                        </persName>, about the tithes of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108021">Little Preston</placeName>. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+   Memorandum of an agreement between master ... rector of <placeName role="rector" key="place_108159">Marsh, co. Bucks</placeName>, and <persName>Sir <forename>Alexander</forename>, perpetual vicar of <placeName role="vicar" key="place_108022">Great Preston</placeName>
+                        </persName>, about the tithes of <placeName key="place_108021">Little Preston</placeName>. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
    <origDate when="1292-04-25">
                            <supplied>25 April</supplied> 1292.</origDate>
-   An inquisition subjoined in another hand, taken at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108022">Preston</placeName>, concerning the lands and tithes of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108021">Little Preston</placeName>. 
+   An inquisition subjoined in another hand, taken at <placeName key="place_108022">Preston</placeName>, concerning the lands and tithes of <placeName key="place_108021">Little Preston</placeName>. 
    <origDate when="1297-04-23">
                            <supplied>23 April</supplied> 1297.</origDate>
                      </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

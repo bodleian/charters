@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600138">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700138">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,47 +47,43 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Daventry, Drayton, Norton, and Staverton.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>Robert</forename>, prior</persName>, &amp;c., of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName> leases to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
+                           <forename>Robert</forename>, prior</persName>, &amp;c., of <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> leases to <persName>
                            <forename>John</forename> 
                            <surname>Willoughby</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Willoughby">Agnes his wife</persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Willoughby">
-                           <forename>Thomas</forename> their son</persName>, and their assigns, a messuage and garden in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
-                        </placeName>, formerly belonging to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName nymRef="Willoughby">Agnes his wife</persName> and <persName nymRef="Willoughby">
+                           <forename>Thomas</forename> their son</persName>, and their assigns, a messuage and garden in <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName>, formerly belonging to <persName>
                            <forename>William</forename> 
                            <surname>Rynys</surname>
-                        </persName>, lying between the messuage of J. W. on the east, and that of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, lying between the messuage of J. W. on the east, and that of <persName>
                            <forename>Richard</forename> 
                            <surname>Scotor</surname>
-                        </persName> on the west, reaching from the road to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> on the west, reaching from the road to <persName>
                            <forename>John</forename> 
                            <surname>Staverton</surname>
-                        </persName>’s land. For 90 years. Rent: 10/-. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName>’s land. For 90 years. Rent: 10/-. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>John</forename> 
                            <surname>Barker</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> 
                            <surname>Halle</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename>[?] <surname>Fischer</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Mason</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> 
                            <surname>Graunt</surname>
                         </persName>. 
@@ -97,16 +93,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

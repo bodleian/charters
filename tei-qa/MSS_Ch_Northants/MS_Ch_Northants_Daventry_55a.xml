@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600403">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700403">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,17 +47,13 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>West-Haddon.
 
-   The same quit-claims to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   The same quit-claims to <persName>
                            <forename>Geoffrey</forename> son of <surname>John</surname> of <surname>Stowe</surname> of <placeName role="person" key="place_108032">West Haddon</placeName>
-                        </persName> her right in a messuage, curtilage, and croft in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108032">W<supplied>est</supplied> H<supplied>addon</supplied>
-                        </placeName> which would have reverted to her on the death of the said Geoffrey. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108032">W<supplied>est</supplied> H<supplied>addon</supplied>
+                        </persName> her right in a messuage, curtilage, and croft in <placeName key="place_108032">W<supplied>est</supplied> H<supplied>addon</supplied>
+                        </placeName> which would have reverted to her on the death of the said Geoffrey. Given at <placeName role="date" key="place_108032">W<supplied>est</supplied> H<supplied>addon</supplied>
                         </placeName>. 
    <origDate when="1325-06-02">
                            <supplied>2 June 1325.</supplied>
@@ -66,16 +62,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>
