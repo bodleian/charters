@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600156">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. F. 148</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_F_148</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_F_148" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 148</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_109432">Oxford, St. Michael’s, South</placeName>
+                        <persName><forename>J<supplied>ohn</supplied></forename> <surname>Y<supplied>pesdene</supplied></surname> of <placeName role="person" key="place_109147">A<supplied>bingdon</supplied></placeName></persName> and <persName><persName>W<supplied>illiam</supplied></persName> <surname>S<supplied>wanburne</supplied></surname> of <placeName role="person" key="place_105449">O<supplied>xford</supplied></placeName></persName> grant the same, which they had of the gift of T. S. of C. and <persName><forename>W<supplied>illiam</supplied></forename> <surname>G<supplied>oldsmythe</supplied></surname> of <placeName role="person" key="place_105449">O<supplied>xford</supplied></placeName></persName>, to <persName> <forename>George</forename> <surname>Skidmore</surname></persName> and <persName><forename>Thomas</forename> <surname>Wymond</surname> of <placeName role="person" key="place_105449">Oxford</placeName></persName>. 
+                        Witnesses as in MS. D. D. Ch. Ch. F. 154:
+                        <persName><forename>John</forename> <surname>Clerke</surname>, mayor</persName>, 
+                        <persName><forename>Richard</forename> <surname>Spragot</surname></persName>, 
+                        <persName><forename>William</forename> <surname>Dagvile</surname></persName>, 
+                        <persName><forename>John</forename> <surname>Dobbus</surname></persName> and Seman, aldermen, 
+                        <persName><forename>William</forename> <surname>Sprygt</surname></persName> and 
+                        <persName><forename>Nicholas</forename> <surname>Howghe</surname></persName>, bailiffs, 
+                        <persName><forename>Nicholas</forename> <surname>Croke</surname></persName> and
+                        <persName><forename>Andrew</forename> <surname>Wern</surname></persName>, chamberlains, 
+                        <persName><forename>Thomas</forename> <surname>Wymond</surname></persName>, 
+                        <persName><forename>George</forename> <surname>Skydmore</surname></persName>, 
+                        <persName><forename>John</forename> <surname>Lowe</surname></persName>, 
+                        <persName><forename>John</forename> <surname>Tamworth</surname></persName>,
+                        <persName><forename>Robert</forename> <surname>Fysshere</surname></persName>,
+                        <persName><forename>Thomas</forename> <surname>Bartolot</surname></persName>, 
+                        <persName><forename>John</forename> <surname>Grene</surname></persName>, 
+                        <persName><forename>Thomas</forename> <surname>Tanfeld</surname>, clerk</persName>. 
+                        Given at <placeName role="date" key="place_105449">Oxford</placeName>.
+                        <origDate when="1433-01-17">17 Jan. <supplied>1433.</supplied> </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"> 
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p. <citedRange unit="page" from="46" to="46">46</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

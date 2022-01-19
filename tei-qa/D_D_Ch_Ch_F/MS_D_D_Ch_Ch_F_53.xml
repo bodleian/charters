@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600053">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. F. 53</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_F_53</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_F_53" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 53</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_109420">Oxford, St. Aldate’s</placeName>
+                        Certificate by <persName>Sir <forename>Nicholas</forename> de <surname>Turri</surname></persName>, of seisin of property left to <orgName key="org_109039">St. F.</orgName> by the will of <persName><forename>John</forename> <surname>Hamond</surname></persName>.
+                        Witnesses: <persName><forename>Adam</forename> <surname>Feteplace</surname>, <pb n="29"/> mayor</persName>,
+                        <persName><forename>John</forename> of <surname>Coleshulle</surname></persName> and 
+                        <persName><forename>Roger</forename> le <surname>Saucer</surname></persName>, reeves, 
+                        <persName><forename>Walter</forename> the <surname>goldsmith</surname></persName>,
+                        <persName><forename>Nicholas</forename> of <surname>Stokwell</surname></persName>, 
+                        <persName><forename>Nicholas</forename> of <surname>Kyngestone</surname></persName>, 
+                        <persName><forename>William</forename> of O</persName>, 
+                        <persName><forename>William</forename> <surname>speciarius</surname></persName>, 
+                        <persName><forename>Geoffrey</forename> of <surname>Hencseye</surname></persName>, 
+                        <persName><forename>Geoffrey</forename> the <surname>goldsmith</surname></persName>,
+                        <persName><forename>John</forename> <surname>Padi</surname></persName>,
+                        <persName><forename>Richard</forename> son of <surname>Nicholas</surname></persName>, 
+                        <persName><forename>Andreas</forename> of <surname>Durame</surname></persName>, 
+                        <persName><forename>Geoffrey</forename> le <surname>Mercer</surname></persName>,
+                        <persName><forename>Jacob</forename> <surname>speciarius</surname></persName>, 
+                        <persName><forename>Roger</forename> of <surname>Durame</surname></persName>. 
+                        <origDate when="1266-07-30"><supplied>July 30</supplied> 1266.</origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"> 
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p. <citedRange unit="page" from="28" to="29">28-29</citedRange>
+                           </bibl>
+                           <bibl>Robert Wigram, <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="1" to="1">1</citedRange>, <citedRange unit="entry" from="302" to="302">no. 302</citedRange> (<citedRange unit="page" from="224" to="224">p. 224</citedRange>)</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

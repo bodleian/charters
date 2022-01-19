@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600115">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. F. 113</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_F_113</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_F_113" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 113</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_109435">Oxford, St. Mildred’s</placeName>
+                        Agatha, widow of <persName><forename>Thomas</forename> son of <surname>Wydo</surname></persName>, grants to <persName><forename>John</forename> <surname>Halegod</surname></persName> two messuages [Winchester Hall]. 
+                        Witnesses: <persName><forename>Nicholas</forename> of <surname>Stockwell</surname>, mayor</persName>, 
+                        <persName><forename>William</forename> le <surname>Seinter</surname></persName> and 
+                        <persName><forename>Geoffrey</forename> the <surname>goldsmith</surname></persName>, reeves,
+                        <persName><forename>Henry</forename> <surname>Simeon</surname></persName>,
+                        <persName><forename>Peter</forename> <surname type="patronymic">son of Thorold</surname></persName>, 
+                        <persName><forename>Laurence</forename> <surname>Wych</surname></persName>, 
+                        <persName><forename>John</forename> <surname>Pady</surname></persName>, 
+                        <persName><forename>Ralph</forename> <surname>Segrim</surname></persName>, 
+                        <persName><forename>Robert</forename> the <forename>clerk</forename></persName>.
+                        <origDate when="1247"><supplied>1247.</supplied></origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"> 
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p. <citedRange unit="page" from="40" to="40">40</citedRange>
+                           </bibl>
+                           <bibl>Robert Wigram, <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="1" to="1">1</citedRange>, <citedRange unit="entry" from="627" to="627">no. 627</citedRange> (<citedRange unit="page" from="438" to="439">pp. 438-39</citedRange>)</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
