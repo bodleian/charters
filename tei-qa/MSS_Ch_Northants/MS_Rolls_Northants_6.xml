@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600220">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700220">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,13 +47,12 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108150">Lubenham [Leics.]</placeName>.
 
-   Depositions of witnesses in the same case <supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">See MS. D. D. Ch. Ch. D. 85a</supplied>.
-<list xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Depositions of witnesses in the same case <supplied>See MS. D. D. Ch. Ch. D. 85a</supplied>.
+<list>
                            <item>(i) ...</item>
                            <item>(ii) <persName>
                                  <forename>William</forename>, rector of <placeName role="rector" key="place_108196">Bellesloe</placeName>
@@ -71,21 +70,16 @@
                                  <forename>Hugh</forename>, vicar of <placeName role="vicar" key="place_108200">Scraptoft</placeName>
                               </persName>.</item>
                         </list>
-The year <origDate when="1312">1312</origDate> is mentioned. All the witnesses, except the last who was almost 50, are said to be 60 years old and more. [<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">Mutilated and in part effaced.</hi>]
+The year <origDate when="1312">1312</origDate> is mentioned. All the witnesses, except the last who was almost 50, are said to be 60 years old and more. [<hi rend="italic">Mutilated and in part effaced.</hi>]
 </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="roll">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

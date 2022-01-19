@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600221">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700221">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,18 +47,12 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108150">Lubenham [Leics.]</placeName>.
 
-   Proceedings in the same case <supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">(See MS. Rolls Northants. 6)</supplied>, before the abbot of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                 role="abbot"
-                                 key="org_108008">St. James, Northampton</orgName>. <origDate when="1322">1322.</origDate>
-   Endorsed are two deeds about a claim to the tithes of a shot called <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Chardounbottes</placeName>, belonging to the church of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_109202">Bissebrok [Rutland.]</placeName>, before the official of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   type="diocese"
-                                   role="person"
-                                   key="place_100079">Lincoln</placeName>, in a cause between D<supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">aventry</supplied> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Proceedings in the same case <supplied>(See MS. Rolls Northants. 6)</supplied>, before the abbot of <orgName role="abbot" key="org_108008">St. James, Northampton</orgName>. <origDate when="1322">1322.</origDate>
+   Endorsed are two deeds about a claim to the tithes of a shot called <placeName type="minor">Chardounbottes</placeName>, belonging to the church of <placeName key="place_109202">Bissebrok [Rutland.]</placeName>, before the official of <placeName type="diocese" role="person" key="place_100079">Lincoln</placeName>, in a cause between D<supplied>aventry</supplied> and <persName>
                            <forename>William</forename> de <surname>Bellofago</surname>, rector of <placeName role="rector" key="place_108201">Seyton</placeName>
                         </persName>. 
    <origDate when="1321">1321.</origDate>
@@ -66,16 +60,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="roll">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>
