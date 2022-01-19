@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600273">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700273">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,25 +47,24 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108019">Norton</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Geffrey</surname>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <persName>
                            <forename>William</forename> 
                            <surname>Staverton</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>William</forename> 
                            <surname>Lane</surname> of <placeName role="person" key="place_108171">Orlingbere</placeName>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Edmund</forename> 
                            <surname>Newenham</surname> of <placeName role="person" key="place_108157">Everdone</placeName>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName>
                            <forename>Thomas</forename> 
                            <surname>Lane</surname>, junior of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
@@ -76,16 +75,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

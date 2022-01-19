@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600023">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700023">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,39 +47,37 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Daventry, The Mills.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<persName>
                            <forename>Simon</forename> de <surname>aula</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <persName>
                            <forename>Adam</forename> the <surname>miller</surname>
-                        </persName> of the same for his homage and service, and a sum of money, a certain house ‘placete mee’ in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
-                        </placeName> by the grange of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> of the same for his homage and service, and a sum of money, a certain house ‘placete mee’ in <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> by the grange of <persName>
                            <forename>Thomas</forename> le  <surname>Barkere</surname>
-                        </persName>, 14 feet in length by the royal way, and in breadth from the high road to the court of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, 14 feet in length by the royal way, and in breadth from the high road to the court of <persName>
                            <forename>Alice</forename> 
                            <surname>Swyrkedale</surname>
-                        </persName>. Rent 16d. If he fails to pay for a year and a day he may be distrained. Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>. Rent 16d. If he fails to pay for a year and a day he may be distrained. Witnesses: <persName>
                            <forename>Thomas</forename> 
                            <surname>Barker</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>Waleis</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Godchep</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Launwal</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Geoffrey</forename> 
                            <surname>Child</surname>
                         </persName>.
@@ -90,16 +88,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

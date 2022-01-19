@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600060">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700060">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,51 +47,49 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>Thomas</forename> 
                            <surname type="patronymic">Fitz-Waut</surname>’, kt., lord of <placeName role="lord" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName>, quit-claims to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, quit-claims to <persName>
                            <forename>William</forename>, prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied>
                            </orgName>
-                        </persName>, &amp;c., all his right in the tenements late of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, &amp;c., all his right in the tenements late of <persName>
                            <forename>Nicholas</forename> 
                            <surname>Herberd</surname>
-                        </persName>, and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, and <persName>
                            <forename>Richard</forename> 
                            <surname>Newbolde</surname>
-                        </persName>, in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">le Netherhende</placeName> and in the tenement late of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, in <placeName type="minor">le Netherhende</placeName> and in the tenement late of <persName>
                            <forename>William</forename> 
                            <surname>Ruynysch</surname>
-                        </persName> which messuage <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> which messuage <persName>
                            <forename>John</forename>
                            <pb n="64"/>
                            <surname>Wyluby</surname>
-                        </persName> now holds in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
-                        </placeName>. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
+                        </persName> now holds in <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName>. Given at <placeName key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>John</forename> 
                            <surname>Waundel</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>Westone</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>Barker</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Bernarde</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Saunders</surname>
                         </persName>. 
@@ -103,14 +101,15 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
                   <authDesc>
                      <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
+                        <p>Circular seal, 1″, in red wax: SIGILLUM THOME … WAUT’. The fitz-Walter arms: a fess between two chevrons.</p>
+                        <idno><!--to be supplied--></idno>
                      </seal>
                   </authDesc>
                </physDesc>

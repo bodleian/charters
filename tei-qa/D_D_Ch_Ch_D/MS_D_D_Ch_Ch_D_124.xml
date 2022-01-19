@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600342">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700342">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,102 +47,92 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108031">Welton</placeName>.
 
-   The dean of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   type="deanery"
-                                   role="dean"
-                                   key="place_108036">D<supplied>aventry</supplied>
-                        </placeName> acknowledges a citation of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   The dean of <placeName type="deanery" role="dean" key="place_108036">D<supplied>aventry</supplied>
+                        </placeName> acknowledges a citation of <persName>
                            <forename>Symon</forename> de <surname>Wymundham</surname>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName>
                            <forename>Reginald</forename> de <surname>Heydone</surname>
-                        </persName>, officials of the <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                 role="person"
-                                 key="org_109051">court of Canterbury</orgName> (sede vacante) for <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, officials of the <orgName role="person" key="org_109051">court of Canterbury</orgName> (sede vacante) for <persName>
                            <forename>John</forename> 
                            <surname>Maulore</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Simon</forename> of  <surname>Tywe</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Robert</forename> 
                            <surname>Ace</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Richard</forename> le <surname>Heyr</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Robert</forename> de  <surname>Dustone</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Richard</forename> 
                            <surname>Martyn</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Richard</forename> the <surname>marshal</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Thomas</forename> the <surname>clerk</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Henry</forename> ale <surname>Grene</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Richard</forename> 
                            <surname>Brown</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Richard</forename> 
                            <surname>Lovel</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>William</forename> 
                            <surname>Brun</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>John</forename> 
                            <surname>super montem</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="super montem">
-                           <forename>Richard</forename> his brother</persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName nymRef="super montem">
+                           <forename>Richard</forename> his brother</persName>, <persName>
                            <forename>Henry</forename> son of  <surname>William</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Thomas</forename> the <surname>marshal</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>William</forename> son of <persName>
                               <forename>Robert</forename> 
                               <surname>King</surname>
                            </persName>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Henry</forename> 
                            <surname>Slay</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>William</forename> son of  <persName>
                               <forename>Thomas</forename> the <surname>miller</surname>
                            </persName>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Richard</forename> 
                            <surname>Vincent</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Dunstone">
+                        </persName>, <persName nymRef="Dunstone">
                            <forename>Agnes</forename> wife of <persName>
                               <forename>Robert</forename> of <surname>Dustone</surname>
                            </persName>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Eustace</forename> the <surname>porter</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Ingeland">
+                        </persName>, <persName nymRef="Ingeland">
                            <forename>Alice</forename> wife of <persName>
                               <forename>John</forename> 
                               <surname>Ingeland</surname>
                            </persName>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>Thomas</forename> the <surname>clerk</surname>
-                        </persName> of the same, ’ac totam communitatem ville de <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">Welton</placeName>’, to appear at the <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_109051">court of the Arches</orgName> before the court-day after the Sunday on which is sung ’misericordia domini’. In the cause [&amp;c.]. Given
-<pb xmlns:tite="http://www.tei-c.org/ns/tite/1.0" n="118"/>
-at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_100051">London</placeName> 
+                        </persName> of the same, ’ac totam communitatem ville de <placeName key="place_108031">Welton</placeName>’, to appear at the <orgName key="org_109051">court of the Arches</orgName> before the court-day after the Sunday on which is sung ’misericordia domini’. In the cause [&amp;c.]. Given
+<pb n="118"/>
+at <placeName role="date" key="place_100051">London</placeName> 
                         <origDate when="1294-04-10">[10 April] 1294</origDate>. 
-   The Dean has executed this mandate, but <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   The Dean has executed this mandate, but <persName>
                            <forename>John</forename> 
                            <surname>Maulore</surname>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName>
                            <forename>Henry</forename> 
                            <surname>Slay</surname>
-                        </persName> are now dead. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName> are now dead. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
    <origDate when="1294-04-21">
                            <supplied>21 April</supplied> 1294.</origDate>
@@ -150,16 +140,11 @@ at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

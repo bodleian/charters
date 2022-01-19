@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600261">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700261">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,43 +47,40 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108019">Norton</placeName>.
 
-The same grants to the same ½ acre 1½ roods of arable land viz. ½ acre in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108019">Norton</placeName> over <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Marsdaleforlong</placeName> between the land of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+The same grants to the same ½ acre 1½ roods of arable land viz. ½ acre in <placeName key="place_108019">Norton</placeName> over <placeName type="minor">Marsdaleforlong</placeName> between the land of <persName>
                            <forename>John</forename> 
                            <surname>Whytyng</surname>
-                        </persName> and that of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and that of <persName>
                            <forename>John</forename> 
                            <surname>Morcote</surname>
-                        </persName> which they hold from <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Sir <forename>Brien</forename> 
+                        </persName> which they hold from <persName>Sir <forename>Brien</forename> 
                            <surname>Cornybye</surname>
-                        </persName>, and of which ½ acre the headrig extends as far as <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Marsdaleselade</placeName>: the 1½ roods lie above the shot which reaches to <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Aylushulle</placeName> by the land of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, and of which ½ acre the headrig extends as far as <placeName type="minor">Marsdaleselade</placeName>: the 1½ roods lie above the shot which reaches to <placeName type="minor">Aylushulle</placeName> by the land of <persName>
                            <forename>John</forename> 
                            <surname>Whytyng</surname>
-                        </persName>. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108019">N<supplied>orton</supplied>
+                        </persName>. Given at <placeName role="date" key="place_108019">N<supplied>orton</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Robert</forename> 
                            <surname>Gylus</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Clerk</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> 
                            <surname>Campioun</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Wryghte</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Whytynge</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied>
                            </placeName>
@@ -95,16 +92,11 @@ The same grants to the same ½ acre 1½ roods of arable land viz. ½ acre in <pl
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

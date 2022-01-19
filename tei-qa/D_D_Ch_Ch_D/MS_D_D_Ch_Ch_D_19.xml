@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600024">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700024">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,48 +47,46 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Daventry, The Mills.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<persName>
                            <forename>Robert</forename>, son of <persName>
                               <forename>John</forename> the <surname>miller</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                               </placeName>
                            </persName>
-                        </persName>, and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>Matilda</forename> his wife</persName> sell to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, and <persName>
+                           <forename>Matilda</forename> his wife</persName> sell to <persName>
                            <forename>John</forename> le <surname>draper</surname>
-                        </persName> of the same and Matilda his wife a portion of their court in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
-                        </placeName> lying by the tenement of the said John and Matilda, 11 feet in width from the wall of their cellar to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> of the same and Matilda his wife a portion of their court in <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> lying by the tenement of the said John and Matilda, 11 feet in width from the wall of their cellar to <persName>
                            <forename>John</forename> 
                            <surname>Bateman</surname>
-                        </persName>’s wall. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
+                        </persName>’s wall. Given at <placeName key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. Witnesses: 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Symon</forename> de <surname>aula</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Runysche</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Ralph</forename> de <surname>bracino</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Londy</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Fische</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>Waleis</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Geoffrey</forename> de <surname>[P]ost</surname>
                         </persName>. 
    <origDate when="1318-07-09">
@@ -98,16 +96,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

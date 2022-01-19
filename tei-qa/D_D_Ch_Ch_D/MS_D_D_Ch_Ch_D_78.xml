@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600167">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700167">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,44 +47,42 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_109253">Drayton</placeName>.<lb/>
+      (i) <hi rend="italic">Various grants.</hi>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>Thomas</forename> de <surname>Falwesle</surname>
-                        </persName> grants to <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName> in free alms ½ acre of land in the west field of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108013">Drayton by D<supplied>aventry</supplied>
-                        </placeName>, over <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Mixeneforlong</placeName> between the monks’ land and that of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> in free alms ½ acre of land in the west field of <placeName key="place_108013">Drayton by D<supplied>aventry</supplied>
+                        </placeName>, over <placeName type="minor">Mixeneforlong</placeName> between the monks’ land and that of <persName>
                            <forename>Geoffrey</forename> le <surname>Porter</surname>
-                        </persName>. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName>. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Simon</forename> de <surname>aula</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Simon</forename> 
                            <surname>Baudewyne</surname>
                         </persName> of the same, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> de <surname>pistrino</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Geoffrey</forename> de <surname>aula</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Scop</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Jordan</forename> 
                            <surname>Balle</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> le <surname>Werreur</surname>
                         </persName>. 
    <origDate when="1311-02-17">
@@ -95,14 +93,15 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
                   <authDesc>
                      <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
+                        <p>Circular seal, 1″, in black wax: S’ THOME DE FALVESLE. A cross composed of four ears of some kind of grain.</p>
+                        <idno><!--to be supplied--></idno>
                      </seal>
                   </authDesc>
                </physDesc>

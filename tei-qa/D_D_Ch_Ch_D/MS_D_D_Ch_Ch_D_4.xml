@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600008">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700008">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,38 +46,35 @@
                   <idno type="shelfmark">MS. D. D. Ch. Ch. D. 4</idno>
                </msIdentifier>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
+                  <textLang mainLang="fr">French</textLang>
                   <msItem>
                      <p>
-                        <placeName/>
 
-   ‘Ceste endenture faite parentre les <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">Priour et Covent de D<supplied>aventry</supplied>
+   ‘Ceste endenture faite parentre les <orgName key="org_108004">Priour et Covent de D<supplied>aventry</supplied>
                         </orgName> persones de leglise parochiele assise deinz meisme le Priorie et les bones gentz de meisme la ville parocheins de leglise parochiele avandite, tesmongne qe come certeins debatz et descensions ont este parentre eux, a cause qe les ditz parochiens ont fait sonner les sonettes deins meisme leglise les iours par la matin devant la heure de la levee des ditz Priour et Covent, si sovent et en tiel manie qe mesmes ceux Priour et Covent eut on teste disaisez, destourbez de leur quietee, e mesme, ben disposez de faire divine le iour enapres, considerant leur lever a mye nuyt pur matynes dire come leur ordre requiest. Et aussi par cause qe les Priour et Covent susditz ont fait chacier et rechacier leur charetter et autres cariages deinz et parmye le cimiteire de la dite eglise claymantz de lavoir chemyn a leur ease, quele chose soeffrer, semblar as ditz parochiens estre a eux dishoneste et grevante
-<pb xmlns:tite="http://www.tei-c.org/ns/tite/1.0" n="51"/>
-acause qe leur ancestres et amys la feurent ensevelez. Les parties avandites par le ben et quiete de lune partie et de lautre, et pur eschuyer tiel (?) debatz et discensions en temps avenir, sont accordez en la presence del trespuissant prince <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<pb n="51"/>
+acause qe leur ancestres et amys la feurent ensevelez. Les parties avandites par le ben et quiete de lune partie et de lautre, et pur eschuyer tiel (?) debatz et discensions en temps avenir, sont accordez en la presence del trespuissant prince <persName>
                            <forename>Johan</forename> Duc de Guyene et de Lancastre</persName> en manie qe sensuyt. Cestassavoir qe les ditz parochiens ferront soner devant la messe deinz la dite eglise les iours en la matin en covenable pele et soner ave une sonette, a la levacioun del sacrament de meisme la messe trois knyllynges tantsoulement devant la levee des Priour et Covent avantditz. Et aussi qe les ditz Priour et Covent par eux et par leur tenantz auront une chemyn a leur ease en manie come ils ont euz dancien temps pur chacier et rechacier eux cariages selonc ce qe leur busoignera deinz la dite cimiteire sanz destourber divine service acelebrer deinz leglise parochiele avandite et sur meisme la cimiteire serra une porte fermer de serrure ove deux cliefs des quex lun serra en la garde des ditz Priour et Covent et lautre en la garde des parochiens avantditz. En tesmoignance de quele chose lavandite Duc as parties dycester endentures ad fait mettre son seal. 
-   Don a <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_109343">Kenilleworthe</placeName> le xviij iour de Marcz lan du regne nostre tresredoutes le Roy Richard second puis le conquest treszisme. 
+   Don a <placeName role="date" key="place_109343">Kenilleworthe</placeName> le xviij iour de Marcz lan du regne nostre tresredoutes le Roy Richard second puis le conquest treszisme. 
    <origDate when="1390-03-18">
                            <supplied>18 March 1390.</supplied>
                         </origDate>
    
-                        <hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">N.B.</hi> 
+                        <hi rend="italic">N.B.</hi> 
    
                      </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
                   <authDesc>
                      <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
+                        <p>Only a fragment of the Duke’s seal is left.</p>
+                        <idno><!--to be supplied--></idno>
                      </seal>
                   </authDesc>
                </physDesc>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600178">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700178">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,45 +47,43 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_109253">Drayton</placeName>.<lb/>
+      (i) <hi rend="italic">Various grants.</hi>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">J<supplied>ohn</supplied> D<supplied>Deye</supplied> of D<supplied>aventry</supplied>, chaplain</persName>, grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>J<supplied>ohn</supplied> D<supplied>Deye</supplied> of D<supplied>aventry</supplied>, chaplain</persName>, grants to <persName>
                            <forename>Peter</forename> de <surname>celario</surname> of D<supplied>aventry</supplied>
-                        </persName> one acre of arable land in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108013">Drayton</placeName>, which he had of the gift of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Braudestone">
+                        </persName> one acre of arable land in <placeName key="place_108013">Drayton</placeName>, which he had of the gift of <persName nymRef="Braudestone">
                            <forename>Joan</forename> late the wife of <persName>
                               <forename>John</forename> 
                               <surname>Braudestone</surname>
                            </persName> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName>, viz. ½ acre in the north field between <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, viz. ½ acre in the north field between <persName>
                            <forename>Geoffrey</forename> le <surname>portere</surname>
-                        </persName>’s land and the high road to Leicester, ½ acre in the north field above <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="minor">Russhebedds</placeName> by <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>’s land and the high road to Leicester, ½ acre in the north field above <placeName key="minor">Russhebedds</placeName> by <persName>
                            <forename>William</forename> 
                            <surname>Rede</surname>
-                        </persName>’s land. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName>’s land. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>.
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Simon</forename> of <surname>D<supplied>aventry</supplied>
                            </surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> son of <persName>Sir <forename>Robert</forename> of <surname>D<supplied>aventry</supplied>
                               </surname>, kt.</persName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>Simond</surname>
                         </persName> of the same, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Branfelde</surname> of <placeName role="person" key="place_108038">Throp</placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Geoffrey</forename> 
                            <surname>Portere</surname> of <placeName role="person" key="place_108013">Draytone</placeName>
                         </persName>. 
@@ -95,16 +93,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

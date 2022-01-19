@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600107">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700107">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,22 +47,22 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <hi rend="italic">The Tailor Charters.</hi>
+                        <lb/>D. 56–57.
 
-   The same <supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   The same <supplied>
                            <persName>
                               <forename>Richard</forename> the <surname>tailor</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                               </placeName>
                            </persName>
-                        </supplied> quit-claims the same to the same <supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </supplied> quit-claims the same to the same <supplied>
                            <persName>
                               <forename>Peter</forename>, prior</persName>, &amp;c., of <orgName key="org_108004">Daventry</orgName>
                         </supplied> 
-                        <supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">(see MS. Ch. Northants. Daventry 48)</supplied>. Same witnesses:
-   <supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Witnesses: <persName>
+                        <supplied>(see MS. Ch. Northants. Daventry 48)</supplied>. Same witnesses:
+   <supplied>Witnesses: <persName>
                               <forename>Simon</forename> 
                               <surname>Baudewyne</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                               </placeName>
@@ -95,16 +95,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

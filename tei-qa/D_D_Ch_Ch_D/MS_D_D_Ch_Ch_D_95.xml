@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600256">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700256">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,24 +47,23 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108019">Norton</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Boteler</surname> (alias <forename>John</forename> 
                            <surname>Couper</surname>’) of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> quit-claims to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>Wm</forename>. <surname>Catesby</surname> of <placeName role="person" key="place_108001">Asshebyligger</placeName>’</persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> quit-claims to <persName>
+                           <forename>Wm</forename>. <surname>Catesby</surname> of <placeName role="person" key="place_108001">Asshebyligger</placeName>’</persName>, <persName>
                            <forename>William</forename> 
                            <surname>Lane</surname> of <placeName role="person" key="place_108171">Orlingber</placeName>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName>
                            <forename>William</forename> 
                            <surname>Staverton</surname>
-                        </persName> all his possession in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108019">Norton by D<supplied>aventry</supplied>
+                        </persName> all his possession in <placeName key="place_108019">Norton by D<supplied>aventry</supplied>
                         </placeName>. (No witnesses.) 
    <origDate when="1484-01-08">8 Jan. <supplied>1484.</supplied>
                         </origDate>
@@ -72,16 +71,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

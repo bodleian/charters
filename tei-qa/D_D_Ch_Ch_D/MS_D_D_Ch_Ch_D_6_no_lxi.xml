@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600200">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700200">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,34 +47,33 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108144">Broughton</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Gregory</forename> 
                            <surname>Grimbaut</surname>
-                        </persName> grants to D<supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">aventry</supplied> in free alms, the whole service of that virgate in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108144">Broughton</placeName> which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to D<supplied>aventry</supplied> in free alms, the whole service of that virgate in <placeName key="place_108144">Broughton</placeName> which <persName>
                            <forename>William</forename> de <surname>fonte</surname>
                         </persName> once held from him, viz. 42d. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Robert</forename> de <surname>S. Germano</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Philip</forename> 
                            <surname>Campioun</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Stephen</forename> son of the rector</persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Alexander</forename> 
                            <surname type="patronymic">son of Reginald</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Roger</forename> de <surname>Walde</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> de <surname>fonte</surname>
                         </persName>. 
    <origDate when="1250" precision="low">
@@ -84,16 +83,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

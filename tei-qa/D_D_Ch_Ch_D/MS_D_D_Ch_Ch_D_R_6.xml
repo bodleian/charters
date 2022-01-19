@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600421">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700421">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,27 +47,22 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <hi rend="italic">Court Rolls, Rentals, and Account Rolls</hi>
+                        <lb/>D. R. 1–18.
 
-   Incomplete terrier of the <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">
+   Incomplete terrier of the <orgName key="org_108004">
                            <supplied>Daventry</supplied> priory</orgName> lands. <origDate notBefore="1498-08-22" notAfter="1499-08-21">14 Hen. VII.</origDate>
                      </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

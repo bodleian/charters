@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600174">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700174">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,45 +47,43 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_109253">Drayton</placeName>.<lb/>
+      (i) <hi rend="italic">Various grants.</hi>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>Agnes</forename> relict of <persName>
                               <forename>Jordan</forename> 
                               <surname>Balle</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                               </placeName>
                            </persName>
-                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Balle">
-                           <forename>Robert</forename>, chaplain, her son</persName>, sell to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and <persName nymRef="Balle">
+                           <forename>Robert</forename>, chaplain, her son</persName>, sell to <persName>
                            <forename>Alan</forename> le <surname>Somenour</surname>
-                        </persName> of the same and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Somenour">
-                           <forename>Isabella</forename> his wife</persName> the pourparty of Alice, which fell to her on the death of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Welton">
+                        </persName> of the same and <persName nymRef="Somenour">
+                           <forename>Isabella</forename> his wife</persName> the pourparty of Alice, which fell to her on the death of <persName nymRef="Welton">
                            <forename>Agnes</forename> her sister (<hi rend="italic">sic</hi>) wife of <persName>
                               <forename>Robert</forename> de <surname>Welton</surname>
                            </persName>
                         </persName>, viz. one ½ acre in the north field of
-<pb xmlns:tite="http://www.tei-c.org/ns/tite/1.0" n="86"/>
-                        <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108013">Drayton</placeName> above <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Russchebeddes</placeName> by the lord of D<supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">aventry</supplied>’s land. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+<pb n="86"/>
+                        <placeName key="place_108013">Drayton</placeName> above <placeName type="minor">Russchebeddes</placeName> by the lord of D<supplied>aventry</supplied>’s land. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Roger</forename> of <surname>D<supplied>aventry</supplied>
                            </surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Daventry">
+   <persName nymRef="Daventry">
                            <forename>Simon</forename> his brother</persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Michael</forename> of <surname>Northampton</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>Godchep</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Roger</forename> 
                            <surname>Lucas</surname> of <persName role="person">D<supplied>aventry</supplied>
                            </persName>
@@ -97,16 +95,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600004">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700004">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,41 +47,39 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>Richard</forename> son of <surname>Hubert</surname> of <surname>Middleton</surname>
-                        </persName>, with the consent of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Middleton">
-                           <forename>Beatrice</forename> his wife</persName>, the daughter of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, with the consent of <persName nymRef="Middleton">
+                           <forename>Beatrice</forename> his wife</persName>, the daughter of <persName>
                            <forename>Richard</forename> of <surname>Foxton</surname>
-                        </persName>, grants to <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
+                        </persName>, grants to <orgName key="org_108004">D<supplied>aventry</supplied>
                         </orgName> all the the churches, lands and possessions which the said Richard of Foxton gave to them. To hold in free alms as R. of F. gave them. They are to be free of suit to his court and he is to acquit them of the forinsec service. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>William</forename> of <surname>D<supplied>aventry</supplied>
                            </surname>, kt.</persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Nicholas</forename> of <surname>Noh</surname>
                         </persName>’, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> son of <persName>
                               <forename>Philip</forename> of <surname>Lubeho</surname>
                            </persName>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Roger</forename>
                            <surname>Gulafre</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Nigel</forename> of <surname>D<supplied>aventry</supplied>
                            </surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> of <surname>Foxton</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Mauchouenant</surname>
                         </persName>. 
@@ -93,14 +91,15 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
                   <authDesc>
                      <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
+                        <p>Circular seal, 1⅛″, in red wax (broken): a star and crescent.</p>
+                        <idno><!--to be supplied--></idno>
                      </seal>
                   </authDesc>
                </physDesc>

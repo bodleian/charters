@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600032">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700032">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,44 +47,42 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>John</forename> the dean, son of Robert</persName> brother of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Master <forename>William</forename> rector of the church of <placeName role="rector" key="place_108146">Wlfamescote</placeName>
-                        </persName>, quit-claims to <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName> in free alms that messuage in D. which Robert his father once held from them, viz. that by the house which belonged to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
+                           <forename>John</forename> the dean, son of Robert</persName> brother of <persName>Master <forename>William</forename> rector of the church of <placeName role="rector" key="place_108146">Wlfamescote</placeName>
+                        </persName>, quit-claims to <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> in free alms that messuage in D. which Robert his father once held from them, viz. that by the house which belonged to <persName>
                            <forename>John</forename> 
                            <surname>Plumston</surname>
-                        </persName>, with the croft appurtenant. He has also given back the charter which the said R<supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">obert</supplied> had from them about the said messuage. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, with the croft appurtenant. He has also given back the charter which the said R<supplied>obert</supplied> had from them about the said messuage. 
+   Witnesses: <persName>
                            <forename>William</forename> of <surname>D<supplied>aventry</supplied>
                            </surname>, kt.</persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Nigel</forename> of <surname>D<supplied>aventry</supplied>
                            </surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Gemme</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Baiuel</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> the <surname>cook</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Plumstone</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Roger</forename> the <surname>porter</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> de <surname>sartrin</surname>
                         </persName>’. 
    <origDate notBefore="1230" notAfter="1240" precision="low">
@@ -95,14 +93,15 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
                   <authDesc>
                      <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
+                        <p>Fragments of small red oval seal: a sort of fleur-de-lys.</p>
+                        <idno><!--to be supplied--></idno>
                      </seal>
                   </authDesc>
                </physDesc>

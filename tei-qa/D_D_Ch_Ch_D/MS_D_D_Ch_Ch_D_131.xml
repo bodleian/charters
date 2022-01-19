@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600349">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700349">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,43 +47,42 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108031">Welton</placeName> and <placeName key="place_108038">Thorp</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> de <surname>Braibroc</surname>
-                        </persName> quit-claims to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> quit-claims to <persName>
                            <forename>J<supplied>ames</supplied>
                            </forename>
                            <!--<note type="foot" n="1">The writing excludes John (prior 1269–81), as well as the attestation of <persName><forename>Nicholas</forename> de  <surname>Noers</surname></persName>, who by 1256 was stricken with the palsy (Baker, <hi rend="italic">N’hants.</hi> i. 414), and the death of the grantor in 1234. J. must therefore be James, for whom see D. 83. <persName><forename>Nicholas</forename> de  <surname>Noers</surname></persName> was not of age till after 1210.</note>--> prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied>
                            </orgName>
-                        </persName> to the monks 10/- rent<!--<note type="foot" n="2">This rent came from 5½ virgates held by <persName><forename>Geoffrey</forename> <surname>Chatrick</surname></persName>, <persName><forename>William</forename> <surname>Herebert</surname></persName>, and Richard super montem (<hi rend="italic">Rot. Hund.</hi> 15).</note>--> which ’J’ had in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">Weletona</placeName> and <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108038">Trop of the fee of Berkhampstead</placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> to the monks 10/- rent<!--<note type="foot" n="2">This rent came from 5½ virgates held by <persName><forename>Geoffrey</forename> <surname>Chatrick</surname></persName>, <persName><forename>William</forename> <surname>Herebert</surname></persName>, and Richard super montem (<hi rend="italic">Rot. Hund.</hi> 15).</note>--> which ’J’ had in <placeName key="place_108031">Weletona</placeName> and <placeName key="place_108038">Trop of the fee of Berkhampstead</placeName>. 
+   Witnesses: <persName>
                            <forename>Ralph</forename> de <surname>Brai</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Ralph</forename> de <surname>Erligbere</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Nicholas</forename> de <surname>Noers</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> de <surname>insula</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> de <surname>D<supplied>aventry</supplied>
                            </surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Simon</forename> of <surname>Maidwell</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> of <surname>Bukereville</surname>
                         </persName>,
-   master Thomas of [<gap xmlns:tite="http://www.tei-c.org/ns/tite/1.0"/>], 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   master Thomas of [<gap/>], 
+   <persName>
                            <forename>Simon</forename> 
                            <surname>Camp[ioun]</surname>
                         </persName>. 
@@ -94,16 +93,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

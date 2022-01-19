@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600262">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700262">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,52 +47,49 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108019">Norton</placeName>.
 
-   Agreement between <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Agreement between <persName>
                            <forename>William</forename> 
                            <surname>Rothwell</surname>, prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied>
                            </orgName>
-                        </persName>, and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, and <persName>
                            <forename>John</forename> 
                            <surname>Bischop</surname>, vicar of <placeName role="vicar" key="place_108019">Norton, by D<supplied>aventry</supplied>
                            </placeName>
-                        </persName>. J. B. is to pay tithes of a fee called <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Ynewatron</placeName>, viz. 7½ virgates (<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">Boundaries specified but partly illegible</hi>). Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108012">D<supplied>aventry</supplied>
+                        </persName>. J. B. is to pay tithes of a fee called <placeName type="minor">Ynewatron</placeName>, viz. 7½ virgates (<hi rend="italic">Boundaries specified but partly illegible</hi>). Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">John [<gap/>] of <placeName role="person" key="place_109322">Heyford</placeName>
+   Witnesses: <persName>John [<gap/>] of <placeName role="person" key="place_109322">Heyford</placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>
                               <supplied>Wa</supplied>undell</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> 
                            <surname>Gerreys</surname> of <placeName role="person" key="place_108212">Marton</placeName>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>Hauberk</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Heywode</surname>
                         </persName> of the same, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>Gy[lyns]</surname> of <placeName role="person" key="place_108019">Norton</placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Whiting</surname>
-                        </persName> of the same, [<gap xmlns:tite="http://www.tei-c.org/ns/tite/1.0"/>] Campioun of the same.
+                        </persName> of the same, [<gap/>] Campioun of the same.
    <origDate when="1403-08-15">
                            <supplied>15 Aug. 1403.</supplied>
                         </origDate>
@@ -100,16 +97,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

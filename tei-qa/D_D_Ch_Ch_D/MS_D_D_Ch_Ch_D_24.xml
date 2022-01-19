@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600034">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700034">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,36 +47,34 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-Indenture by which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>Nicholas</forename>, prior</persName>, &amp;c., grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+Indenture by which <persName>
+                           <forename>Nicholas</forename>, prior</persName>, &amp;c., grants to <persName>
                            <forename>William</forename> 
                            <surname>Launval</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> and his heirs for his homage and service that messuage and croft in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
-                        </placeName> which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and his heirs for his homage and service that messuage and croft in <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> which <persName>
                            <forename>Simon</forename> of  <surname>Bredon</surname>
                         </persName> once held from them. Rent: 6/-. William and his heirs are not to sell or alienate
-<pb xmlns:tite="http://www.tei-c.org/ns/tite/1.0" n="59"/>
-the messuage or strip appurtenant. Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<pb n="59"/>
+the messuage or strip appurtenant. Witnesses: <persName>
                            <forename>John</forename> 
                            <surname>Gemme</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Plumstone</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> the <surname>smith</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> of <surname>Neubot</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Jordan</forename> of <surname>Uptrop</surname>
                         </persName>. 
    <origDate notBefore="1259" notAfter="1264">
@@ -86,16 +84,11 @@ the messuage or strip appurtenant. Witnesses: <persName xmlns:tite="http://www.t
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600013">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700013">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,45 +47,43 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Daventry, The Mills.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>Rein</forename>’ prior</persName> of D<supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">aventry</supplied> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+<persName>
+                           <forename>Rein</forename>’ prior</persName> of D<supplied>aventry</supplied> grants to <persName>
                            <forename>William</forename> the <surname>miller</surname>
-                        </persName> and his heirs the <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">mill of Cudon</placeName>. Rent: 20/-, for the payment of which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> and his heirs the <placeName type="minor">mill of Cudon</placeName>. Rent: 20/-, for the payment of which <persName>
                            <forename>William</forename> son of <surname>Suelf</surname> of <surname>Falewelle</surname>
-                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>, <persName>
                            <forename>William</forename> the <surname>cook</surname>
                         </persName>, Galant, and Peter, are pledges. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Simon the <surname>chaplain</surname>
+   Witnesses: <persName>Simon the <surname>chaplain</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> the priest of <placeName role="priest" key="place_108167">Estenestun</placeName>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> the dean of <placeName type="deanery" role="dean" key="place_108189">Berchich</placeName>
                         </persName>, and Sanson his brother, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Stephen</forename> de <surname>Esseby</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Ingald</forename> the <surname>miller</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> the <surname>cook</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Simon</forename> 
                            <surname type="patronymic">fitz-Hugh de Seinliz</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Alan</forename> 
                            <surname type="patronymic">son of Burkman</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Walter</forename> the <surname>miller</surname>
                         </persName>. 
    <origDate notAfter="1190" notBefore="1170" precision="low">
@@ -96,14 +94,15 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
                   <authDesc>
                      <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
+                        <p>Seal of the monastery in brown wax.</p>
+                        <idno><!--to be supplied--></idno>
                      </seal>
                   </authDesc>
                </physDesc>

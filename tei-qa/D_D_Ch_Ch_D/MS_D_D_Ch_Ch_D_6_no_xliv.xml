@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600305">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700305">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,40 +47,39 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108025">Staverton</placeName>.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>Adam</forename> de B.</persName> leases to <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName> a messuage, curtilage and 2 acres of land in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108025">Stavertone</placeName> (Rent ¼d.) which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Bradewelle">
+<persName>
+                           <forename>Adam</forename> de B.</persName> leases to <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> a messuage, curtilage and 2 acres of land in <placeName key="place_108025">Stavertone</placeName> (Rent ¼d.) which <persName nymRef="Bradewelle">
                            <forename>Alice</forename> daughter of <persName>
                               <forename>Hugh</forename> de <surname>Bradewelle</surname>
                            </persName>
                         </persName> once held from him. For 20 years.
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>William</forename> le <surname>Freynche</surname> of <placeName role="person" key="place_108025">Stavertone</placeName>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> le <surname>Freynche</surname>
                         </persName> of the same, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Nicholas</forename> le <surname>Ro</surname>
                         </persName> of the same, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname>West</surname>
                         </persName>, senior of the same, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Simon</forename> 
                            <surname>Bawdewyne</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Geoffrey</forename> de <surname>aula</surname>
                         </persName> of the same, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Simon</forename> 
                            <surname>Newebolde</surname>
                         </persName> of the same. 
@@ -91,16 +90,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

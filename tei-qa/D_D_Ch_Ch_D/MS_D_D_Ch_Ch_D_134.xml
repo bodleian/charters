@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600353">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700353">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,38 +47,34 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Welton.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> le <surname>Campion</surname> of <placeName role="person" key="place_108031">Weleton</placeName>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <persName>
                            <forename>Thomas</forename> the <surname>tailor</surname>
-                        </persName> of the same, and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>Christiana</forename> his wife</persName> for money paid beforehand half an acre of arable land in the west field of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">Weleton</placeName> at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Cockesmedeoverende</placeName> by the land of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> of the same, and <persName>
+                           <forename>Christiana</forename> his wife</persName> for money paid beforehand half an acre of arable land in the west field of <placeName key="place_108031">Weleton</placeName> at <placeName type="minor">Cockesmedeoverende</placeName> by the land of <persName>
                            <forename>William</forename> 
                            <surname>Ace</surname>
-                        </persName>. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108031">Weleton</placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>. Given at <placeName role="date" key="place_108031">Weleton</placeName>. 
+   Witnesses: <persName>
                            <forename>Henry</forename> the <surname>heir</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Martyn</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Ace</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>super Montem</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Norman</surname> of <placeName role="person" key="place_108031">Weleton</placeName>
                         </persName>. 
@@ -89,16 +85,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

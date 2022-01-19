@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600075">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700075">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,55 +47,52 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108012">Daventry</placeName> and <placeName>Drayton</placeName>, The Symond Holding.
 
-Indenture by which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+Indenture by which <persName>
                            <forename>Henry</forename> son of <persName>
                               <forename>Robert</forename> 
                               <surname>Symond</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                               </placeName>
                            </persName>
-                        </persName> gives to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Neel">
-                           <forename>Margery</forename> late the wife</persName> of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> gives to <persName nymRef="Neel">
+                           <forename>Margery</forename> late the wife</persName> of <persName>
                            <forename>Robert</forename> 
                            <surname>Neel</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> 1½ acres 1 rood situated thus:—½ ac. in the southern field above the <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Lok</placeName> by the land of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> 1½ acres 1 rood situated thus:—½ ac. in the southern field above the <placeName type="minor">Lok</placeName> by the land of <persName>
                            <forename>Simon</forename> 
                            <surname>Newbolde</surname>
-                        </persName>: ½ ac. in the western field under the <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Lyche</placeName> by the land of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>: ½ ac. in the western field under the <placeName type="minor">Lyche</placeName> by the land of <persName>
                            <forename>Thomas</forename> 
                            <surname>Spicer</surname>
-                        </persName>: ½ acre in the northern field over <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Langden</placeName> by the land of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>: ½ acre in the northern field over <placeName type="minor">Langden</placeName> by the land of <persName>
                            <forename>Walter</forename> le <surname>Meleward</surname>
-                        </persName>: and a rood in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Radmondeslond</placeName> by the land of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>: and a rood in <placeName type="minor">Radmondeslond</placeName> by the land of <persName>
                            <forename>John</forename> le  <surname>Werrour</surname>
                         </persName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>Geoffrey</forename> le <surname>porter</surname> of <placeName role="person" key="place_108013">Drayton</placeName>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> 
                            <surname>Goodchere</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Baudewyne</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> 
                            <surname>Baudewine</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Adam</surname>
                         </persName>. 
-   Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="person"
-                                   key="place_108012">D<supplied>aventry</supplied>
+   Given at <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                         </placeName>. 
    <origDate when="1349-07-02">
                            <supplied>2 July 1349.</supplied>
@@ -104,16 +101,11 @@ Indenture by which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

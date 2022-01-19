@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600344">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700344">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,37 +47,26 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_108031">Welton</placeName>.
 
-   Sentence of the dean of the <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_109051">Arches</orgName> against the parishioners of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">Welton</placeName>. The lord of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="lord"
-                                   type="manor"
-                                   key="place_108031">W<supplied>elton</supplied>
-                        </placeName> and his accomplices had buried a certain <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Sentence of the dean of the <orgName key="org_109051">Arches</orgName> against the parishioners of <placeName key="place_108031">Welton</placeName>. The lord of <placeName role="lord" type="manor" key="place_108031">W<supplied>elton</supplied>
+                        </placeName> and his accomplices had buried a certain <persName>
                            <forename>Adam</forename> the reeve of <placeName role="reeve" key="place_108031">W<supplied>elton</supplied>
                            </placeName>
                         </persName> in the cemetery there. His body or bones, and the body or bones of any one buried there after him, are to be exhumed, and buried by the monks in a suitable place. The parishioners are also to pay 30 marks costs to the monks.
-   <hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">Endorsed</hi>: ’Lat’ fuit ista sentencia <origDate when="1296-07-12">12 Kal’ Augusti [12 July] Anno [&amp;c.] 1296</origDate> 
-                        <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108222">Fodringh’</placeName>.’
+   <hi rend="italic">Endorsed</hi>: ’Lat’ fuit ista sentencia <origDate when="1296-07-12">12 Kal’ Augusti [12 July] Anno [&amp;c.] 1296</origDate> 
+                        <placeName role="date" key="place_108222">Fodringh’</placeName>.’
 </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

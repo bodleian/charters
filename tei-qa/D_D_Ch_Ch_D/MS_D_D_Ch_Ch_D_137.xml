@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600364">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700364">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,33 +47,29 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
-                     <p>
-                        <placeName/>
+                     <p>Welton.
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Richard</forename> 
                            <surname>Drayton</surname> of <placeName role="person" key="place_108031">Welton</placeName>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Drayton">
-                           <forename>John</forename> his son</persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Drayton">
-                           <forename>Agnes</forename> his wife</persName> 2 cottages lying together with their curtilages in W<supplied xmlns:tite="http://www.tei-c.org/ns/tite/1.0">elton</supplied> between his cottage and the prior’s tenement. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
-                                   role="date"
-                                   key="place_108031">Welton</placeName>. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <persName nymRef="Drayton">
+                           <forename>John</forename> his son</persName> and <persName nymRef="Drayton">
+                           <forename>Agnes</forename> his wife</persName> 2 cottages lying together with their curtilages in W<supplied>elton</supplied> between his cottage and the prior’s tenement. Given at <placeName role="date" key="place_108031">Welton</placeName>. 
+   Witnesses: <persName>
                            <forename>John</forename> 
                            <surname>Mallory</surname>, kt.</persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Thomas</forename> of <surname>Tuwe</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> the <surname>heir</surname>
-                        </persName> (<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">heres</hi>),
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> (<hi rend="italic">heres</hi>),
+   <persName>
                            <forename>Henry</forename> 
                            <surname>Brokhole</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> of <surname>Tuwe</surname> of <placeName role="person" key="place_108031">Welton</placeName>
                         </persName>. 
    <origDate when="1373-01-11">
@@ -83,16 +79,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

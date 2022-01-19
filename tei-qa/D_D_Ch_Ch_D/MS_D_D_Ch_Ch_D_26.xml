@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600036">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700036">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,44 +47,42 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>Roger</forename> the <surname>porter</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
                            </placeName>
-                        </persName> grants to William his son, for his homage and service, (i) that manse in <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
-                        </orgName> which is between the manse of William de B—— on one side and that of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to William his son, for his homage and service, (i) that manse in <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> which is between the manse of William de B—— on one side and that of <persName>
                            <forename>Walter</forename> de <surname>Braibroc</surname>
-                        </persName> on the other; (ii) one a[cre] of land—½ an acre in the south field reaching to the Baddeby road, and ½ an acre in the north field, lying over ‘le Lome’. Rent: a pair of gloves worth ½d. at Easter, for all service saving the principal service pertaining to the manse: also he is to keep a lamp burning while mass is sung in the parish church of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108012">D<supplied>aventry</supplied>
-                        </placeName> for the soul of the grantor, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> on the other; (ii) one a[cre] of land—½ an acre in the south field reaching to the Baddeby road, and ½ an acre in the north field, lying over ‘le Lome’. Rent: a pair of gloves worth ½d. at Easter, for all service saving the principal service pertaining to the manse: also he is to keep a lamp burning while mass is sung in the parish church of <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> for the soul of the grantor, <persName>
                            <forename>Matilda</forename> his wife</persName>, &amp;c., 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Witnesses: <persName>
                            <forename>John</forename> 
                            <surname>Gemme</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname type="patronymic">fitz-Nigel</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Geoffrey</forename> the <surname>porter</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Robert</forename> 
                            <surname type="patronymic">fitz-Nigel</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>John</forename> de <surname>Neubold</surname>
                         </persName>,
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> the <surname>smith</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Jordan</forename> of <surname>Draitone</surname>
-                        </persName>. [<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">Torn.</hi>]
+                        </persName>. [<hi rend="italic">Torn.</hi>]
    <origDate notBefore="1244" notAfter="1257">
                            <supplied>1244–57.</supplied>
                         </origDate>
@@ -92,16 +90,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

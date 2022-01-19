@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600171">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700171">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,30 +47,30 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
+                        <placeName key="place_109253">Drayton</placeName>.<lb/>
+      (i) <hi rend="italic">Various grants.</hi>
 
-                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        <persName>
                            <forename>William</forename> 
                            <surname>Gemme</surname> of <placeName role="person" key="place_108013">Drayton</placeName>
-                        </persName> grants to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> grants to <persName>
                            <forename>John</forename> son of <persName>
                               <forename>Roger</forename> the <surname>miller</surname> of D<supplied>aventry</supplied>
                            </persName>
-                        </persName> for his homage and service acre of land above <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="minor">Russhebeddes</placeName> by <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> for his homage and service acre of land above <placeName key="minor">Russhebeddes</placeName> by <persName>
                            <forename>William</forename> 
                            <surname>Coleman</surname>
-                        </persName>’s land in the north field of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108013">Drayton</placeName>. Rent: 1/2d., for all service saving forinsec service to the King. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName>’s land in the north field of <placeName key="place_108013">Drayton</placeName>. Rent: 1/2d., for all service saving forinsec service to the King. 
+   Witnesses: <persName>
                            <forename>Simon</forename> 
                            <surname>Mascre</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Hamo</forename> de <surname>Bockeby</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Baldewyne</forename> 
                            <surname>Campion</surname>
                         </persName>, Scover (?). 
@@ -81,16 +81,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>

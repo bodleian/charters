@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600033">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700033">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,35 +47,33 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--change if necessary-->
                   <msItem>
                      <p>
-                        <placeName/>
 
-   Indenture by which the <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">prior, <forename>Nicolas</forename>
-                        </persName>, and the <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">convent of D<supplied>aventry</supplied>
-                        </orgName> grant to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   Indenture by which the <persName>prior, <forename>Nicolas</forename>
+                        </persName>, and the <orgName key="org_108004">convent of D<supplied>aventry</supplied>
+                        </orgName> grant to <persName>
                            <forename>Simon</forename> of <surname>Bredon</surname>
-                        </persName> for his homage and service half the messuage which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
-                           <forename>John</forename> the dean</persName> once held from them with half the adjacent croft, in fee simple. Rent: 6/-. The strip adjacent to the said toft (<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">sic</hi>) is not to be sold or separated from it. 
-   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                        </persName> for his homage and service half the messuage which <persName>
+                           <forename>John</forename> the dean</persName> once held from them with half the adjacent croft, in fee simple. Rent: 6/-. The strip adjacent to the said toft (<hi rend="italic">sic</hi>) is not to be sold or separated from it. 
+   Witnesses: <persName>
                            <forename>John</forename> 
                            <surname>Gemme</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> son of <surname>Nigel</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Henry</forename> the <surname>cook</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Plumstone</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>Roger</forename> the <surname>porter</surname>
                         </persName>, 
-   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+   <persName>
                            <forename>William</forename> 
                            <surname>Punce</surname>
                         </persName>.
@@ -86,16 +84,11 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
-                  <authDesc>
-                     <seal>
-                        <p><!--move text from above or delete, as appropriate --></p>
-                     </seal>
-                  </authDesc>
                </physDesc>
                <history>
                   <provenance>Archive of Daventry Priory.</provenance>
