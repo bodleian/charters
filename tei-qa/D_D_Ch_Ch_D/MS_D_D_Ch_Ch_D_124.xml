@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600342">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. D. 124</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_D_124</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_D_124" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. D. 124</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <!--change if necessary-->
+                  <msItem>
+                     <p>
+                        <placeName/>
+
+   The dean of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
+                                   type="deanery"
+                                   role="dean"
+                                   key="place_108036">D<supplied>aventry</supplied>
+                        </placeName> acknowledges a citation of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Symon</forename> de <surname>Wymundham</surname>
+                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Reginald</forename> de <surname>Heydone</surname>
+                        </persName>, officials of the <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
+                                 role="person"
+                                 key="org_109051">court of Canterbury</orgName> (sede vacante) for <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>John</forename> 
+                           <surname>Maulore</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Simon</forename> of  <surname>Tywe</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Robert</forename> 
+                           <surname>Ace</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Richard</forename> le <surname>Heyr</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Robert</forename> de  <surname>Dustone</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Richard</forename> 
+                           <surname>Martyn</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Richard</forename> the <surname>marshal</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Thomas</forename> the <surname>clerk</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Henry</forename> ale <surname>Grene</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Richard</forename> 
+                           <surname>Brown</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Richard</forename> 
+                           <surname>Lovel</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>William</forename> 
+                           <surname>Brun</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>John</forename> 
+                           <surname>super montem</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="super montem">
+                           <forename>Richard</forename> his brother</persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Henry</forename> son of  <surname>William</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Thomas</forename> the <surname>marshal</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>William</forename> son of <persName>
+                              <forename>Robert</forename> 
+                              <surname>King</surname>
+                           </persName>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Henry</forename> 
+                           <surname>Slay</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>William</forename> son of  <persName>
+                              <forename>Thomas</forename> the <surname>miller</surname>
+                           </persName>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Richard</forename> 
+                           <surname>Vincent</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Dunstone">
+                           <forename>Agnes</forename> wife of <persName>
+                              <forename>Robert</forename> of <surname>Dustone</surname>
+                           </persName>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Eustace</forename> the <surname>porter</surname>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Ingeland">
+                           <forename>Alice</forename> wife of <persName>
+                              <forename>John</forename> 
+                              <surname>Ingeland</surname>
+                           </persName>
+                        </persName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Thomas</forename> the <surname>clerk</surname>
+                        </persName> of the same, ’ac totam communitatem ville de <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108031">Welton</placeName>’, to appear at the <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_109051">court of the Arches</orgName> before the court-day after the Sunday on which is sung ’misericordia domini’. In the cause [&amp;c.]. Given
+<pb xmlns:tite="http://www.tei-c.org/ns/tite/1.0" n="118"/>
+at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
+                                   role="date"
+                                   key="place_100051">London</placeName> 
+                        <origDate when="1294-04-10">[10 April] 1294</origDate>. 
+   The Dean has executed this mandate, but <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>John</forename> 
+                           <surname>Maulore</surname>
+                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Henry</forename> 
+                           <surname>Slay</surname>
+                        </persName> are now dead. Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
+                                   role="date"
+                                   key="place_108012">D<supplied>aventry</supplied>
+                        </placeName>. 
+   <origDate when="1294-04-21">
+                           <supplied>21 April</supplied> 1294.</origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"><!--change if necessary-->
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p><!--move text from above or delete, as appropriate --></p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to="118">-118</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

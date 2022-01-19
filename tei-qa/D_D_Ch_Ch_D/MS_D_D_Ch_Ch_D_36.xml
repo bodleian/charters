@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600063">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. D. 36</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_D_36</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_D_36" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. D. 36</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <!--change if necessary-->
+                  <msItem>
+                     <p>
+                        <placeName/>
+
+                        <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>John</forename> 
+                           <surname>Neel</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
+                           </placeName>
+                        </persName> gives to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Robert</forename> 
+                           <surname>Symond</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
+                           </placeName>
+                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Symond">
+                           <forename>Henry</forename> his son</persName> 9½ acres of arable land in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108013">Drayton</placeName>, viz. in the Southern field 5 roods together over <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Mawelonde</placeName> by the land of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Geoffrey</forename> le <surname>Porter</surname>
+                        </persName>; 5 roods lying together over <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Westbrocforlong</placeName> by the land of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Geoffrey</forename> 
+                           <surname>Gamel</surname>
+                        </persName>; ½ acre over <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Northlongforlong</placeName> by the land late of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Lucas</forename> de <surname>Baddeby</surname>
+                        </persName>: In the <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">North field</placeName> 5 roods lying together over <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Waltforlong</placeName> by the land of the lord which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>John</forename> 
+                           <surname type="patronymic">son of  Ralph</surname>
+                        </persName> once held in villeinage; 5 roods lying together in the same shot by the land of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Helewise super Montem</placeName>; 5 roods lying together over <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Tunstale</placeName> by the land of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Simon</forename> de <surname>Potkote</surname>
+                        </persName>; 5 roods ‘into’ <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Oldegore</placeName> by the land of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Optrhop</placeName>; ½ acre abutting on <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Gosecroft</placeName> by the land of Symon of Potkote; 1 acre abutting on <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" type="minor">Gosecroft</placeName> by the land of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Symon</forename> son of <persName>Sir <forename>John</forename> of <surname>Daventry</surname>
+                           </persName>
+                        </persName> on the one part and the land late of <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Henry</forename> 
+                           <surname>Carpenter</surname> of <placeName role="date" key="place_108013">Drayton</placeName>
+                        </persName> on the other. 
+   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>John</forename> 
+                           <surname>Scop</surname>
+                        </persName>, 
+   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Nicholas</forename> 
+                           <surname>Celle</surname>
+                        </persName>, 
+   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Geoffrey</forename> de <surname>aula</surname>
+                        </persName>, 
+   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>John</forename> 
+                           <surname>Cuth</surname>
+                        </persName>, 
+   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Robert</forename> 
+                           <surname>Baudewyne</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
+                           </placeName>
+                        </persName>
+   Given at <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
+                                   role="date"
+                                   key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> 
+                        <origDate when="1314-04-25">
+                           <supplied>25 April 1314.</supplied>
+                        </origDate>
+   
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"><!--change if necessary-->
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p><!--move text from above or delete, as appropriate --></p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600316">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. D. 109</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_D_109</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_D_109" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. D. 109</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <!--change if necessary-->
+                  <msItem>
+                     <p>
+                        <placeName/>
+
+   Inspeximus and confirmation of the following documents by <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>John</forename>, Bishop of <placeName role="bishop" type="diocese" key="place_100079">Lincoln</placeName>
+                        </persName>. 
+   <origDate when="1311-03-14">14 March 1311.</origDate>
+                        <list xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <item>(i) <persName>
+                                 <forename>Richard</forename>, bishop of <placeName type="diocese" role="bishop" key="place_100079">Lincoln</placeName>
+                              </persName> grants the churches of <placeName key="place_108158">Scaldeford</placeName>, <placeName key="place_109202">Bissebrok</placeName>, and <placeName key="place_108215">Southrop</placeName> to <orgName key="org_108004">D<supplied>aventry</supplied>
+                              </orgName> (The amount they paid for it is not legible.) Given at <placeName role="date" key="place_109198">Bukkedene</placeName>, <origDate when="1266-11-27">27 November 1266</origDate>.</item>
+                           <item>(ii) Letters of the dean and chapter confirming (1). Given at <placeName role="date" key="place_104410">Lincoln</placeName> 
+                              <origDate when="1267-04-21">21 April 1267</origDate>.</item>
+                           <item>(iii) Letter of the bishop to the archdeacon of <placeName role="archdeacon" type="archdeaconry" key="place_109084">Northampton</placeName> to give D<supplied>aventry</supplied> corporal possession of the Church. Given at <placeName role="date" key="place_108148">Leicester</placeName>. <origDate when="1286-03-31">31 March 1286</origDate>. (The Inspeximus tells us that this was on the death of <persName>
+                                 <forename>Robert</forename> le  <surname>Paumer</surname>, rector of <placeName role="rector" key="place_108038">Throp</placeName>
+                              </persName>).
+      D<supplied>aventry</supplied> instituted as their vicar, <persName>
+                                 <forename>John</forename> of  <surname>Daventry</surname>, chaplain</persName>: it was then found that the tithes were worth (1) of grain 15 marks a year (2) of hay from demesne meadows 8/- (3) of hay from other meadows, (4) of 2 virgates 2 acres pertaining to the Church, with pasture 32/-, (5) All other tithes 3½ marks. The monks are to bear two-thirds of all burdens on the Church, and the vicar one-third.</item>
+                           <item>(iv) Letters patent of <persName>
+                                 <forename>Oliver</forename>, bishop of <placeName role="bishop" type="diocese" key="place_100079">Lincoln</placeName>
+                              </persName> to the archdeacon of Northampton to put <persName>
+                                 <forename>John</forename> of <surname>D<supplied>aventry</supplied>
+                                 </surname>
+                              </persName> in possession. Given at <placeName role="date" key="place_108177">Theyden</placeName>. <origDate when="1286-05-04">4 May 1286</origDate>.</item>
+                           <item>(v) Letters patent of the same (the same date) saying that at the instance of the monks he has written [as in (iv)] to the archdeacon. Given at <placeName role="date" key="place_108216">Storne Park [Lincs.]</placeName>.</item>
+                        </list>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"><!--change if necessary-->
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p><!--move text from above or delete, as appropriate --></p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="113" to="113">113</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

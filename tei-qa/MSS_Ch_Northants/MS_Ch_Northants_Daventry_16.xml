@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_108100">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600294">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>MS. Ch. Northants. Daventry 16</title>
-            <respStmt xml:id="TC">
-               <resp when="1878">Cataloguer</resp>
-               <persName>W. H. Turner</persName>
-               <persName>H. O. Coxe</persName>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
             </respStmt>
             <respStmt xml:id="TA">
                <resp when="2020">Encoding</resp>
@@ -31,7 +30,7 @@
             </distributor>
             <!--Availability statement will be added here-->
             <idno type="msID">MS_Ch_Northants_Daventry_16</idno>
-            <idno type="collection">Northants</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
@@ -42,41 +41,54 @@
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
                   <idno type="shelfmark">MS. Ch. Northants. Daventry 16</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
+                  <!--change if necessary-->
                   <msItem>
-                     <p> 
-                        <pb n="650"/> LIMPENHOW. <persName nymRef="Browne">
-                           <forename>Robert</forename>, son of <persName>
-                              <forename>Edward</forename> 
-                              <surname>Browne</surname> of <placeName role="person" key="place_104409">Limpenhow</placeName>
-                           </persName>
-                        </persName>,
-                 grants to <persName>
-                           <forename>William</forename> 
-                           <surname>Norton</surname>
-                        </persName> and
-                 <persName nymRef="Norton">
-                           <forename>Mary</forename> his wife</persName> one piece of land in the field of 
-                 <placeName key="place_104409">Limpenhow</placeName>. Dated 3 Feb., <origDate when="1640">1640</origDate>. <!-- Norfolk? -->
-                 . </p>
+                     <p>
+                        <placeName/>
+
+   In the church of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108162">S. Martin’s, Leicester</placeName>, before the prior of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
+                                 role="prior"
+                                 key="org_108034">S. Mary’s, Leicester</orgName>, the archdeacon of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
+                                   type="archdeanery"
+                                   role="archdeacon"
+                                   key="place_106034">Leicester</placeName>, and the bishop of <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0"
+                                   role="bishop"
+                                   type="diocese"
+                                   key="place_100079">Lincoln</placeName>, <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">Master <forename>Hugh</forename> 
+                           <surname>Hamelin</surname>
+                        </persName> seeks a postponement to allow him time to consider the process, of which he has obtained a copy. The case is adjourned till the morrow of All Souls, when the parties are to appear again in the same place.
+   <origDate when="1268-10-04">1268. <supplied>4 Oct.</supplied>
+                        </origDate>
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet">
+                  <objectDesc form="sheet"><!--change if necessary-->
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p><!--move text from above or delete, as appropriate --></p>
+                     </seal>
+                  </authDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="269" to="650">269-650</citedRange>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="109" to="109">109</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
@@ -86,7 +98,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2020-10">First online publication</change>
+         <change when="2021-06">First online publication</change>
       </revisionDesc>
    </teiHeader>
    <text>

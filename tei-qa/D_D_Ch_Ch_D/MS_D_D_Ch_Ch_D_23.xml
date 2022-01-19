@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600033">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. D. 23</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_D_23</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_D_23" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. D. 23</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <!--change if necessary-->
+                  <msItem>
+                     <p>
+                        <placeName/>
+
+   Indenture by which the <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">prior, <forename>Nicolas</forename>
+                        </persName>, and the <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">convent of D<supplied>aventry</supplied>
+                        </orgName> grant to <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Simon</forename> of <surname>Bredon</surname>
+                        </persName> for his homage and service half the messuage which <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>John</forename> the dean</persName> once held from them with half the adjacent croft, in fee simple. Rent: 6/-. The strip adjacent to the said toft (<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">sic</hi>) is not to be sold or separated from it. 
+   Witnesses: <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>John</forename> 
+                           <surname>Gemme</surname>
+                        </persName>, 
+   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>William</forename> son of <surname>Nigel</surname>
+                        </persName>, 
+   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Henry</forename> the <surname>cook</surname>
+                        </persName>, 
+   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>William</forename> 
+                           <surname>Plumstone</surname>
+                        </persName>, 
+   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Roger</forename> the <surname>porter</surname>
+                        </persName>, 
+   <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>William</forename> 
+                           <surname>Punce</surname>
+                        </persName>.
+   <origDate notBefore="1231" notAfter="1258">
+                           <supplied>1231–1258.</supplied>
+                        </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"><!--change if necessary-->
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p><!--move text from above or delete, as appropriate --></p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="58" to="58">58</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

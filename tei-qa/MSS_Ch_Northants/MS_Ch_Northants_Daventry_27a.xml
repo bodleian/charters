@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_7600133">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Northants. Daventry 27a</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Northants_Daventry_27a</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Northants_Daventry_27a" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Northants. Daventry 27a</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <!--change if necessary-->
+                  <msItem>
+                     <p>
+                        <placeName/>
+
+List of services and rents, for lands in <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108013">Drayton</placeName> and <placeName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="place_108025">Staverton</placeName>, of some tenants of <orgName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" key="org_108004">D<supplied>aventry</supplied>
+                        </orgName>, contained in <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Richard</forename> de  <surname>Boudon</surname>
+                        </persName>’s charter. 
+   from <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Simon</forename> 
+                           <surname type="patronymic">fitz-Philip</surname> of <placeName role="person" key="place_108013">Drayton</placeName>
+                        </persName> 3 roods for homage,
+” the same and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Mary</forename> 
+                           <surname>Coynterel</surname>
+                        </persName> 3 half-acres for homage and service and 1<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">d.</hi>
+” <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>William</forename> 
+                           <surname type="patronymic">fitz-Simon</surname>
+                        </persName> 1 acre for homage and service and two roses.
+” <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Thomas</forename> 
+                           <surname>scriptor</surname> of <placeName role="person" key="place_108013">Drayton</placeName>
+                        </persName> 2 roods for service and one rose.
+” <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>William</forename> 
+                           <surname>Gemme</surname>
+                        </persName> and <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0" nymRef="Gemme">
+                           <forename>Heleuise</forename> his daughter</persName> ½ acre, for one flower.
+” ” ” one acre for homage and service and one rose.
+” ” ” one rood for homage and service and one rose.
+” ” ” 2½ acres one rood for homage and service and 1<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">d.</hi>
+” <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Richard</forename> 
+                           <surname>rufus</surname> of <placeName role="person" key="place_108025">Staverton</placeName>
+                        </persName> 1 acre for homage and service and one clove gillyflower.
+” <persName xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+                           <forename>Gilbert</forename> le <surname>Graunt</surname>
+                        </persName> 1 acre for homage and service and ½<hi xmlns:tite="http://www.tei-c.org/ns/tite/1.0" rend="italic">d.</hi>
+                        <origDate notBefore="1260" notAfter="1270" precision="low">
+                           <supplied>c. 1260–70.</supplied>
+                        </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"><!--change if necessary-->
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p><!--move text from above or delete, as appropriate --></p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="78" to="78">78</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
