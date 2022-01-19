@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109783">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_550050">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Oxon. Oseney 203</title>
-            <respStmt xml:id="TC">
-               <resp when="1878">Cataloguer</resp>
-               <persName>W. H. Turner</persName>
-               <persName>H. O. Coxe</persName>
+            <title>MS. D. D. Ch. Ch. O. R. 97.</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
             </respStmt>
             <respStmt xml:id="TA">
                <resp when="2020">Encoding</resp>
@@ -22,7 +21,7 @@
                <orgName type="unit">Bodleian Libraries</orgName>
                <orgName type="institution">University of Oxford</orgName>
                <street>Weston Library, Broad Street</street>
-               <settlement key="place_7011931">Oxford</settlement>
+               <settlement>Oxford</settlement>
                <postCode>OX1 3BG</postCode>
                <country>United Kingdom</country>
             </address>
@@ -30,49 +29,46 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Oxon_Oseney_203</idno>
-            <idno type="collection">Oxon</idno>
+            <idno type="msID">MS_D_D_Ch_Ch_O_R_97</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Oxon_Oseney_203" xml:lang="en">
+            <msDesc xml:id="MS_D_D_Ch_Ch_O_R_97" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 203</idno>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. O. R. 97.</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <!-- T&C wrongly group several charters under Stow, Gloucs., that relate to Stowe, Bucks. -->
-                     <p> An obligation, indented, between the <orgName key="org_109067">abbot and convent of Oseney</orgName> and the 
-               <orgName key="org_109010">abbot and convent of Bittlesden</orgName>, that they will abide by the award of the abbot of
-               <orgName role="abbot">Westminster</orgName>
-               and the dean of <placeName type="deanery" role="dean" key="place_109100">Oxford</placeName> concerning tithes in
-                        <placeName key="place_109584">Dodford</placeName> belonging to the church of <placeName key="place_109585" role="church">Stow</placeName>.
-               Dated 12 July, <origDate notBefore="1391-06-22" notAfter="1392-06-21">15 Ric. II</origDate>. 
-               . </p>
+                     <p>Account roll, <placeName key="place_109373">Little Tew</placeName>.  <persName>
+                           <forename>John</forename> 
+                           <surname>Samford</surname>
+                        </persName>, reeve. <origDate notBefore="1284-11-20" notAfter="1285-11-19">13 Ed. I</origDate>. (1 <hi rend="italic">m.</hi>) </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet">
+                  <objectDesc form="roll">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
                <history>
-                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
+                  <provenance>Archive of Oseney abbey.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="369" to="369">369</citedRange>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="15" to="15">15</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
@@ -82,7 +78,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2020-10">First online publication</change>
+         <change when="2021-02">First online publication</change>
       </revisionDesc>
    </teiHeader>
    <text>
