@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700357">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Northants. Daventry 273</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Northants_Daventry_273</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Northants_Daventry_273" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  
+                  
+                  <idno type="shelfmark">MS. Ch. Northants. Daventry 273</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>Welton.
+
+   <persName>
+                           <forename>Richard</forename> le <surname>Campioun</surname>
+                        </persName> son of <persName>
+                           <forename>Henry</forename> le  <surname>Campioun</surname> of <placeName role="person" key="place_108031">Weletone</placeName>
+                        </persName>, quit-claims to <persName>
+                           <forename>Thomas</forename> the <surname>tailor</surname>
+                        </persName> of the same and <persName>
+                           <forename>Cristiana</forename> his wife</persName> for a certain sum of money, his right in 3 acres of arable land and 3 roods of meadow in <placeName key="place_108031">W<supplied>elton</supplied>
+                        </placeName>, which they had by the gift and sale of the said Henry his father, viz. in the west field, ½ acre at <placeName type="minor">Wayetnesfel</placeName> by the land late of <persName>
+                           <forename>John</forename> 
+                           <surname>Martyn</surname>
+                        </persName>: 3 half acres lying together at <placeName type="minor">Cockesmedeoverende</placeName> by the land late of <persName>
+                           <forename>William</forename> 
+                           <surname>Ace</surname>
+                        </persName>, and in 2 roods lying together beneath Le ... Mor by the land of <persName>
+                           <forename>William</forename> de <surname>Caldecote</surname>
+                        </persName>; in the north field, ½ acre above <placeName type="minor">Ferifurlong</placeName> by the land which <persName>
+                           <forename>Robert</forename> le <surname>Noreys</surname>
+                        </persName> held in villainage; and in the south field ½ acre of meadow in at <placeName type="minor">Mathewether</placeName> by the meadow of <persName>
+                           <forename>John</forename> 
+                           <surname>Malory</surname>
+                        </persName>; and in the east field, a rood of meadow in <placeName type="minor">Overende</placeName>, by the meadow late of <persName>
+                           <forename>William</forename> 
+                           <surname>Hoycke</surname>
+                        </persName>. Given at
+<pb n="121"/>
+                        <placeName type="date" key="place_108031">Weletone</placeName> ’in itinere justiciar’. 
+   Witnesses: <persName>
+                           <forename>John</forename> of <surname>Tewe</surname>
+                        </persName>,
+   <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Martyn</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Henry</forename> the <surname>heir</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Richard</forename> in <surname>gardino</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Benedict</forename> of <surname>Drayton</surname> in <placeName role="person" key="place_108031">Weletone</placeName>
+                        </persName>. 
+   <origDate when="1330-03-18">
+                           <supplied>18 March 1330.</supplied>
+                        </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to="121">-121</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

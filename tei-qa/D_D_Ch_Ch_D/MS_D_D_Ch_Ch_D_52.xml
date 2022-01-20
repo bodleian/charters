@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700090">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. D. 52</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_D_52</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_D_52" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. D. 52</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <hi rend="italic">Further Grants.</hi>
+                        <lb/>(<hi rend="smallcap">A. D.</hi> 1283–1361.)<lb/>D. 48-55.
+
+   <persName>
+                           <forename>Eustace</forename> of <surname>Burneby</surname> in <placeName role="person" key="place_108142">Watforde</placeName>
+                        </persName> grants to <persName>
+                           <forename>Peter</forename>, prior</persName> of <orgName key="org_108004">D<supplied>aventry</supplied> &amp;c.</orgName> 7½ acres meadow in <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> called <placeName type="minor">Thredhygodes</placeName>, in free alms. They lie between the prior’s meadow on the north and <persName>Sir <forename>John</forename> of <surname>D<supplied>aventry</supplied>
+                           </surname>
+                        </persName>’s meadow on the south.
+   Witnesses: <persName>
+                           <forename>John</forename> of <surname>Tuwe</surname> of <placeName role="person" key="place_108031">Welton</placeName>
+                        </persName>,
+   <persName>
+                           <forename>Henry</forename> le <surname>Eyr (or Heyr)</surname>
+                        </persName> of the same,
+   <persName>
+                           <forename>William</forename> le <surname>Freynche</surname> of <placeName role="person" key="place_108025">Staverton</placeName>
+                        </persName>,
+   <persName>
+                           <forename>Nicholas</forename> le <surname>Ro</surname>
+                        </persName> of the same,
+   <persName>
+                           <forename>Simon</forename> de <surname>aula</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
+                           </placeName>
+                        </persName>,
+   <persName>
+                           <forename>Geoffrey</forename> de <surname>aula</surname>
+                        </persName> of the same, 
+   <persName>
+                           <forename>John</forename> le <surname>Werrour</surname>
+                        </persName> of Drayton. 
+   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
+                        </placeName>. 
+   <origDate when="1317-09-16">
+                           <supplied>16 Sept. 1317.</supplied>
+                        </origDate>
+   [There are two copies of this deed <supplied>(see MS. D. D. Ch. Ch. D. 52a)</supplied>.]
+</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="70" to="70">70</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

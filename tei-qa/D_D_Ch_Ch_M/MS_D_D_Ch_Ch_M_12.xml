@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800025">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 12</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_12</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_12" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 12</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107027">Clapcote</placeName>.
+                             
+                            <persName nymRef="Notele">
+                           <forename>John</forename> son of <forename>Osbert</forename> of <surname>Notele</surname> of <placeName role="person" key="place_107073">W<supplied>allingford</supplied>
+                           </placeName>
+                        </persName> and heir of <persName nymRef="Clement">
+                           <forename>Agnes</forename> daughter of <persName>
+                              <forename>Nicholas</forename> 
+                              <surname>Clement</surname>
+                           </persName>
+                        </persName>, grants to <persName>
+                           <forename>Walter</forename> le <surname>cripse</surname>
+                        </persName> of the same two ½ acres of arable land in <placeName key="place_107027">C<supplied>lopcopte</supplied>
+                        </placeName>. (Boundaries.) 
+                            Witnesses: <persName>
+                           <forename>Richard</forename> de <surname>Louches</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Swayn</forename> of <surname>Mortele</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Gilbert</forename> du <surname>char</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>John</forename> of <surname>Blebury</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>William</forename> le <surname>ferur</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Simon</forename> 
+                           <surname>Kynelm</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Roger</forename> the <surname>clerk</surname>
+                        </persName>. <gap/> 
+                            Given at <placeName role="date" key="place_107027">C<supplied>lapcote</supplied>
+                        </placeName>.
+                            <origDate when="1327-07-08">
+                           <supplied>8 July 1327.</supplied>
+                        </origDate>
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Wallingford Priory [Berks.]</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="138" to="138">138</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

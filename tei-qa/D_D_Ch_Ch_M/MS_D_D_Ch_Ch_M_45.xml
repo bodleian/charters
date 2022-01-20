@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800137">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 45</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_45</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_45" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 45</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107096">Ravenstone</placeName>.
+                         
+                        <persName>
+                           <forename>William</forename> called the <surname>Young</surname> of <placeName role="person" key="place_109554">Weston</placeName>
+                        </persName> grants William his son 3 acres of land in <placeName key="place_109554">W<supplied>eston</supplied>
+                        </placeName>, of which 1 acre lies in the south field above <placeName type="minor">Longecroft</placeName>, at the cross called Walter’s, between <persName>
+                           <forename>William</forename> 
+                           <pb n="162"/> 
+                           <surname>Swirthing</surname>
+                        </persName>’s land and that of <persName>
+                           <forename>Martin</forename> 
+                           <surname>Blund</surname>
+                        </persName>, and 2 acres lie in the north field—one in <placeName type="minor">Stenewelleforlong</placeName>, between <persName>
+                           <forename>William</forename> 
+                           <surname>Pynant</surname>
+                        </persName>’s land and that of <persName>
+                           <forename>Robert</forename> 
+                           <surname>Aunfray</surname>
+                        </persName>, the other in <placeName type="minor">Northlongforlong</placeName>, between <persName>
+                           <forename>John</forename> 
+                           <surname>Sybile</surname>
+                        </persName>’s land and that of ... Rent: a rose at midsummer. For this William (the son) gave 2/-. 
+                        Witnesses: <persName>Sir <forename>Roger</forename> 
+                           <surname>Damar</surname>’, kt.</persName>, 
+                        <persName>Sir <forename>Ralph</forename> de <surname>Cestertone</surname>, kt.</persName>, 
+                        <persName>Sir <forename>Richard</forename> called <surname>the Poor (Le Poer)</surname> kt.</persName>,
+                        <persName>
+                           <forename>Robert</forename> the <surname>Young</surname> of <placeName role="person" key="place_109554">W<supplied>eston</supplied>
+                           </placeName>
+                        </persName>,
+                        <persName>
+                           <forename>William</forename> de <surname>Millington</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Philip</forename> the <surname>clerk</surname>
+                        </persName>. [<hi rend="italic">Torn.</hi>] 
+                        <origDate when="1270" precision="low">
+                           <supplied>c. 1270.</supplied>
+                        </origDate>
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Ravenstone Priory (Bucks.)</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="160" to="162">160-162</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

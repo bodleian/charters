@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_5001022">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. O. 978</title>
+            <respStmt xml:id="HS">
+               <resp when="1929">Cataloguer</resp>
+               <persName>H. E. Salter</persName>
+            </respStmt>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_O_978</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_O_978" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. O. 978</idno>
+               </msIdentifier>
+               <msContents>
+                  <!--CHK: should this be 186 (note) as 186 itself is from a cartulary; currently the note information entered here; chk also DATE, Nich. de Weston died in 1271.-->
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p><persName><forename>Emma</forename>, widow of <persName><forename>Nicholas</forename> de <surname>Weston</surname></persName></persName>, quitclaims to <orgName key="org_109067">Oseney</orgName> all the tenements in <placeName key="place_109150">Adderbury</placeName>, which her late husband sold to Oseney for 225 marks, of which she received 100 marks as her <hi rend="italic">dos</hi>. 
+                     Witnesses, <persName>mag. <forename>Rob.</forename> <surname>Maynard</surname></persName>, <persName><forename>Nich.</forename> de <surname>Kingeston</surname> mayor of Oxford</persName>, <persName><forename>Galf.</forename> de <surname>Hengsey</surname></persName>, <persName><forename>Ioh.</forename> <surname>Sewy</surname></persName>, <persName><forename>Ioh.</forename> de <surname>Sibbeford</surname></persName>, <persName><forename>Lucas</forename> le <surname>Naper</surname></persName>, <persName><forename>Will.</forename> de <surname>Withille</surname></persName>, <persName><forename>Will.</forename> de <surname>Pirie</surname></persName>.
+                     <origDate when="1271" precision="low">c. 1271</origDate></p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"> 
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>The seal of mag. Ioh., rector of Stanton, official of the archdeacon. </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="6" to="6">6</citedRange>
+                           </bibl>
+                           <bibl>H. E. Salter, <title>Cartulary of Oseney Abbey</title>, 6 vols. (1929-1936), <citedRange unit="volume" from="4" to="4">4</citedRange>, <citedRange unit="entry" from="186" to="186">no. 186</citedRange> (<citedRange unit="page" from="250" to="250">p. 250 fn. 1</citedRange>)</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-02">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

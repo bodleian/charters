@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_108101">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700006">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>MS. Ch. Northants. Daventry 17</title>
-            <respStmt xml:id="TC">
-               <resp when="1878">Cataloguer</resp>
-               <persName>W. H. Turner</persName>
-               <persName>H. O. Coxe</persName>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
             </respStmt>
             <respStmt xml:id="TA">
                <resp when="2020">Encoding</resp>
@@ -31,7 +30,7 @@
             </distributor>
             <!--Availability statement will be added here-->
             <idno type="msID">MS_Ch_Northants_Daventry_17</idno>
-            <idno type="collection">Northants</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
@@ -42,19 +41,24 @@
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
+                  
+                  
                   <idno type="shelfmark">MS. Ch. Northants. Daventry 17</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> STENE. Pardon under the sign manual of <persName>K. Henry VII</persName>. to 
-               <persName>
-                           <forename>Thomas</forename> 
-                           <surname>Barker</surname> of <placeName role="person" key="place_108026">Stenemor</placeName>
-                        </persName> 
-               for the alleged taking of arms at <placeName key="place_108002">Bosworth felde</placeName>. Dated at the manor of
-               <placeName type="manor" key="place_108034">Richemount</placeName>, <origDate when="1505-11-27">27 November, 21 of his reign</origDate>. 
-               . </p>
+                     <p>
+
+                        <persName>
+                           <forename>Fulk</forename>, archbishop of <placeName role="archbishop" type="diocese" key="place_100075">Dublin</placeName>
+                        </persName>, grants an indulgence to benefactors of <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName>. 
+   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
+                        </placeName>. 
+   [<hi rend="italic">Mutilated.</hi>] 
+   <origDate when="1271-05-01">1 May 1271.</origDate>
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -64,12 +68,15 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="650" to="650">650</citedRange>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="50" to="50">50</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
@@ -79,7 +86,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2020-10">First online publication</change>
+         <change when="2021-06">First online publication</change>
       </revisionDesc>
    </teiHeader>
    <text>

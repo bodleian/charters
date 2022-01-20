@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700144">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. D. 66</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_D_66</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_D_66" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. D. 66</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>Daventry, Drayton, Norton, and Staverton.
+
+   <persName>
+                           <forename>John</forename> 
+                           <surname>Werrour</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
+                           </placeName>
+                        </persName> grants to <persName>
+                           <forename>John</forename> 
+                           <surname>Brown</surname> of <placeName role="person" key="place_108019">Norton</placeName>, senior</persName>, and <persName>
+                           <forename>John</forename> 
+                           <surname>Brown</surname> of <placeName role="person" key="place_108019">Norton</placeName>, junior</persName>, 22 acres 1 rood in <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> and <placeName key="place_108013">Drayton</placeName>, 11 acres late of <persName>
+                           <forename>William</forename> 
+                           <surname>Gym</surname>
+                        </persName>, and 10 roods of meadow in D<supplied>aventry</supplied>, which were formerly held by the said J. B. senior; also 5 roods of meadow late of <persName>
+                           <forename>Edward</forename> 
+                           <surname>Porter</surname>
+                        </persName>, and 12d. of rent in <placeName key="place_108038">Throp by D<supplied>aventry</supplied>
+                        </placeName> from the tenement which <persName>
+                           <forename>Richard</forename> 
+                           <surname>Falclyff</surname>
+                        </persName> holds. 
+   Witnesses: <persName>
+                           <forename>John</forename> 
+                           <surname>Heywode</surname>
+                        </persName>, 
+   <persName>
+                           <forename>John</forename> 
+                           <surname>Barker</surname>
+                        </persName>, 
+   <persName>
+                           <forename>John</forename> 
+                           <surname>Wylughby</surname>
+                        </persName>, 
+   <persName>
+                           <forename>William</forename> 
+                           <surname>Wryght</surname>
+                        </persName> and 
+   <persName>
+                           <forename>Simon</forename> 
+                           <surname>Heyn</surname>, junior</persName> and others of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
+                        </placeName>. 
+   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
+                        </placeName>. <origDate when="1413-07-29">
+                           <supplied>29 July 1413.</supplied>
+                        </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="80" to="80">80</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

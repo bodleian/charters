@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800113">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 44</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_44</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_44" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 44</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107087">Radcliffe [Bucks.]</placeName>..
+                        
+                        <persName>
+                           <forename>William</forename> 
+                           <surname>Foliot</surname>, senior, of <placeName role="person" key="place_108074">Evenele [Evenley, N’hants.]</placeName>
+                        </persName>, grants to <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Harang</surname> of <placeName role="person" key="place_107087">Radeclef</placeName>
+                        </persName> a messuage with a garden, 20 acres of arable land, 10 acres of meadow, and 15 acres of pasture which Nigel his father bought from <persName>
+                           <forename>Odo</forename> 
+                           <surname>Borewater</surname> of <placeName role="person" key="place_107087">Radeclef</placeName>
+                        </persName>, in <placeName key="place_107087">R<supplied>adcliffe</supplied>
+                        </placeName> and <placeName type="minor">Schekem</placeName>, lying between <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Harang</surname>
+                        </persName>’s messuage on the south and the manse of <persName>
+                           <forename>John</forename> le <surname>Catur</surname>
+                        </persName> on the north, [boundaries specified]. 
+                        Witnesses: <persName>
+                           <forename>Symon</forename>, abbot of <orgName role="abbot" key="org_109010">Betlesdene [Biddlesden]</orgName>
+                        </persName>, <pb n="158"/>
+                        <persName>
+                           <forename>William</forename> de <surname>Evenesholte</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Walter</forename> 
+                           <surname>Bastarde</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Porcel</surname>
+                        </persName>,
+                        <persName nymRef="Porcel">R. his son</persName>, 
+                        <persName>
+                           <forename>Robert</forename> de <surname>Bayntone</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Walter</forename> 
+                           <surname>Cotus</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Yvo</forename> 
+                           <surname>Cotusforde</surname>
+                        </persName>, 
+                        <persName nymRef="Cotusforde">
+                           <forename>Roger</forename> his brother</persName>,
+                        <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Langeporthe</surname>
+                        </persName>.
+                        <origDate notAfter="1400" notBefore="1300">
+                           <supplied>
+                              <gap/>
+                           </supplied> 
+                        </origDate>
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to="158">-158</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800094">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Berks. 118</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Berks_118</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Berks_118" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Berks. 118</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107075">St. Martin’s, Wallingford</placeName>.
+                             
+                            <persName>
+                           <forename>Roger</forename> 
+                           <surname>Cole</surname> of <placeName role="person" key="place_107073">W<supplied>allingford</supplied>
+                           </placeName>
+                        </persName>, grants to <persName>
+                           <forename>Henry</forename> 
+                           <surname>Redynge</surname>
+                        </persName> and <persName>
+                           <forename>Richard</forename> 
+                           <surname>Coket</surname> of <placeName role="person" key="place_107015">Abingdon</placeName>
+                        </persName> a tenement with curtilage adjacent in <placeName key="place_107075">S. Martin’s</placeName>, between the messuage of <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Horspathe</surname>
+                        </persName> on the south, in which <persName>
+                           <forename>Nicholas</forename> 
+                           <surname>Kyng</surname>
+                        </persName> lives, and the garden of <persName>
+                           <forename>Roger</forename> 
+                           <surname>Milburne</surname>
+                        </persName> on the north. 
+                            Witnesses: <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Benshef</surname>, mayor</persName>,
+                            <persName>
+                           <forename>Richard</forename> ate <surname>Felde</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Nicholas</forename> 
+                           <surname>Tannere</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Roger</forename> 
+                           <surname>Arniat</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Robert</forename> 
+                           <surname>Botty</surname>
+                        </persName>. 
+                            Given at <placeName role="date" key="place_107073">W<supplied>allingford</supplied>
+                        </placeName>. 
+                            <origDate when="1377-08-09">
+                           <supplied>9 Aug. 1377.</supplied>
+                        </origDate>
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Wallingford Priory [Berks.]</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="153" to="153">153</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

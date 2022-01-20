@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700162">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Northants. Daventry 229</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Northants_Daventry_229</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Northants_Daventry_229" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  
+                  
+                  <idno type="shelfmark">MS. Ch. Northants. Daventry 229</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_109253">Drayton</placeName>.<lb/>
+      (i) <hi rend="italic">Various grants.</hi>
+
+   Agreement by which <persName>
+                           <forename>John</forename> 
+                           <surname>Fers</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
+                           </placeName>
+                        </persName> appoints <persName>
+                           <forename>Agnes</forename> daughter of <persName>
+                              <forename>Ralph</forename> le <surname>Coupere</surname>
+                           </persName>
+                        </persName> as his heir, to have at his death (i) two messuages in <placeName key="place_108013">Drayton</placeName>; one between the tenements of <persName>
+                           <forename>Walter</forename> the <surname>tailor (<hi rend="italic">sartor</hi>)</surname>
+                        </persName> and <persName>
+                           <forename>John</forename> 
+                           <surname>Fers</surname>
+                        </persName>, the other between the messuages of <persName>
+                           <forename>Adam</forename> le <surname>Waller</surname>
+                        </persName> and the said John; (ii) lands to the amount of ½ ... in <placeName key="place_108013">Drayton</placeName> above H[...]rdys by the land of <persName>
+                           <forename>Geoffrey</forename> de <surname>aula</surname>
+                        </persName>, and a rood above <placeName key="place_108152">Drayton Mawelond</placeName>, on condition that she shall serve him faithfully to the end of his life, and pay 2/- to the chief lord of the fee. 
+   Witnesses: <persName>... <surname>le Werrour</surname> of <placeName role="person" key="place_108013">Drayton</placeName>
+                        </persName>, 
+   <persName>
+                           <forename>Symon</forename> de <surname>Aula</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
+                           </placeName>
+                        </persName>, 
+   <persName>
+                           <forename>Symon</forename> 
+                           <surname>Baudewyne</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Jordan</forename> 
+                           <surname>William</surname>
+                        </persName>, 
+   <persName>
+                           <forename>John</forename> 
+                           <surname>Scop</surname>
+                        </persName>. [<hi rend="italic">Mutilated.</hi>]
+   <origDate notBefore="1290" notAfter="1300" precision="low">
+                           <supplied>c. 1290–1300.</supplied>
+                        </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="83" to="83">83</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

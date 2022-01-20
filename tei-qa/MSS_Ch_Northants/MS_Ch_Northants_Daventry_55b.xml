@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700216">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Northants. Daventry 55b</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Northants_Daventry_55b</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Northants_Daventry_55b" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  
+                  
+                  <idno type="shelfmark">MS. Ch. Northants. Daventry 55b</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_108174">Horton</placeName>.
+
+   <persName>
+                           <forename>Ralph</forename> son of <persName>
+                              <forename>Isabella</forename> de <surname>Schrington</surname> in <placeName role="person" key="place_108174">Horton</placeName>
+                           </persName>
+                        </persName>, and <persName nymRef="Schrington">
+                           <forename>Beatrice</forename> his sister</persName> grant to <persName>
+                           <forename>Hugh</forename> 
+                           <surname>Osebern</surname> of <placeName role="person" key="place_108174">H<supplied>orton</supplied>
+                           </placeName>
+                        </persName>, and <persName nymRef="Osebern">
+                           <forename>Juliana</forename> his wife</persName>, for a sum of money, 2 acres of arable land in <placeName key="place_108174">H<supplied>orton</supplied>
+                        </placeName> viz. ½ acre in the west field above the shot called <placeName type="minor">[Step]henhul</placeName> by the land of the Master of the <orgName key="org_108038">Hospital (in Northampton) of St. John the Baptist on the North</orgName>; ½ acre in the same field between the land late of <persName>
+                           <forename>Geoffrey</forename> 
+                           <surname type="patronymic">fitz-Simon of <placeName role="person" key="place_108178">Hakelington</placeName>
+                           </surname>
+                        </persName> and that late of <persName>
+                           <forename>William</forename> de  <surname>Pateshull</surname>
+                        </persName>: ½ acre in the south field above a shot called ...yerd by the messuage late of <persName>
+                           <forename>John</forename> of <surname>Knapetoft on the East</surname>
+                        </persName>; and ½ acre in the north field above a shot called <placeName type="minor">Middelfurlong</placeName>, between <persName>
+                           <forename>John</forename> of  <surname>Merflet</surname>
+                        </persName>’s land and that late of John [<gap/>]. 
+   Witnesses: <persName>[<gap/>] de <surname>Schrington</surname>
+                        </persName>, 
+   <persName>
+                           <forename>John</forename> 
+                           <surname>Merflet</surname>
+                        </persName>, 
+   <persName>
+                           <forename>John</forename> 
+                           <surname type="patronymic">fitz-Nicholas</surname> of [<gap/>]</persName>, 
+   <persName>
+                           <forename>Thomas</forename> le <surname>Barker</surname>
+                        </persName>. 
+   Given at <placeName role="date" key="place_108174">Horton</placeName>. <origDate when="1326-03-02">
+                           <supplied>2 March 1326.</supplied>
+                        </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

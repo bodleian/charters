@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_108026">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700190">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>MS. Ch. Northants. Daventry 56</title>
-            <respStmt xml:id="TC">
-               <resp when="1878">Cataloguer</resp>
-               <persName>W. H. Turner</persName>
-               <persName>H. O. Coxe</persName>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
             </respStmt>
             <respStmt xml:id="TA">
                <resp when="2020">Encoding</resp>
@@ -31,7 +30,7 @@
             </distributor>
             <!--Availability statement will be added here-->
             <idno type="msID">MS_Ch_Northants_Daventry_56</idno>
-            <idno type="collection">Northants</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
@@ -42,22 +41,56 @@
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
+                  
+                  
                   <idno type="shelfmark">MS. Ch. Northants. Daventry 56</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> 
+                     <p>
+                        <placeName key="place_109253">Drayton</placeName>.<lb/>
+      (i) <hi rend="italic">Various grants.</hi>
+
                         <persName>
-                           <forename>Symon</forename> de <surname>Crek</surname> of <placeName role="person" key="place_108012">Daventr</placeName>
-                        </persName>' and 
-               <persName nymRef="Crek">
-                           <forename>Sarah</forename> his wife</persName> grant to 
-               <persName>sir <forename>William</forename> 
-                           <surname>Snow</surname> (?), chaplain</persName>,
-               four ridges ("seliones") of land in the <placeName type="minor">Eastfield</placeName> of <placeName key="place_108012">Daventr</placeName>'.
-               Dated at <placeName role="date" key="place_108012">Daventr</placeName>' on the feast of St. Lucy the virgin and martyr, <origDate notBefore="1324-07-08" notAfter="1325-07-07">18 Ed. II</origDate>. 
-               . </p>
+                           <forename>Simon</forename> de <surname>Crek</surname> of D<supplied>aventry</supplied>
+                        </persName> and <persName nymRef="Crek">
+                           <forename>Sarra</forename> his wife</persName>, late the daughter of <persName>
+                           <forename>John</forename> 
+                           <surname>Paynel</surname>
+                        </persName>, grant to <persName>Sir <forename>William</forename> 
+                           <surname>Snow</surname>
+                        </persName>, chaplain 4 strips in the
+<pb n="88"/>
+   east field of <placeName key="place_108012">D<supplied>aventry</supplied>
+                        </placeName> [as in D. 6, no. ii, part (i)]. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
+                        </placeName>. 
+   Witnesses: <persName>
+                           <forename>John</forename> de <surname>pistrino</surname>
+                        </persName>, 
+   <persName>
+                           <forename>William</forename> de <surname>pistrino</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Simon</forename> de <surname>Newebolde</surname>
+                        </persName>, 
+   <persName>
+                           <forename>John</forename> 
+                           <surname>Albord</surname>
+                        </persName>,
+   <persName>
+                           <forename>Robert</forename> 
+                           <surname>Simonde</surname>
+                        </persName>,
+   <persName>
+                           <forename>Geoffrey</forename> le <surname>portere</surname> of <placeName role="person" key="place_108013">Draytone</placeName>
+                        </persName>, 
+   <persName>
+                           <forename>William</forename> de <surname>aula</surname>
+                        </persName>. 
+   <origDate when="1324-12-13">13 Dec. 1324.</origDate>
+   [MS. D. D. Ch. Ch. D. 6, no. xiv is a transcript.]
+</p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -67,12 +100,15 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                              <citedRange unit="page" from="259" to="259">259</citedRange>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="86" to="88">86-88</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
@@ -82,7 +118,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2020-10">First online publication</change>
+         <change when="2021-06">First online publication</change>
       </revisionDesc>
    </teiHeader>
    <text>

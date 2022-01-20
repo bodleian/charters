@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600147">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. F. 140</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_F_140</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_F_140" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 140</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_109334">Hungerford</placeName>
+                        <persName><forename>Alan</forename> son and heir of <persName><forename>Stephen</forename> de <surname>Hanvyle</surname></persName></persName> quit-claims to <persName><forename>John</forename> <surname>Gerberd</surname> of <surname>Oddestoke</surname></persName> and <persName nymRef="Oddestoke"><forename>John</forename> his son</persName> in fee simple, all his right in the same tenement, with a messuage and 10 acres of land in <placeName key="place_107104">Edenetone</placeName> in the same manor <supplied>of <placeName type="manor" key="place_109025">Hidden</placeName></supplied>.
+                        Witnesses: <persName><forename>John</forename> <surname>Homeden</surname></persName>, 
+                        <persName><forename>Geoffrey</forename> <surname>Bat</surname></persName>, 
+                        <persName><forename>Peter</forename> <surname>Templer</surname></persName>, 
+                        <persName><forename>Robert</forename> <surname>Batelkyng</surname></persName>, 
+                        <persName><forename>Henry</forename> <surname>Noreis</surname></persName>, 
+                        <persName><forename>Nicholas</forename> <surname>Bacon</surname></persName>. 
+                        Given at <placeName role="date" type="minor">La Hyde</placeName>.
+                        <origDate when="1309-04-30"><supplied>30 April 1309.</supplied></origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet"> 
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p. <citedRange unit="page" from="44" to="44">44</citedRange>
+                           </bibl>
+                           <!--<bibl>Robert Wigram, <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="XXX" to="XXX">XXX</citedRange>, <citedRange unit="entry" from="" to="">no. between 1163 and 1164</citedRange> (<citedRange unit="page" from="XXX" to="XXX">pp. XXX-XXX</citedRange>)</bibl> ?CHK unclear--> 
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

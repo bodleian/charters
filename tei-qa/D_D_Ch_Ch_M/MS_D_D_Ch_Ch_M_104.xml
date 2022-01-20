@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800198">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 104</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_104</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_104" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 104</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107101">Chalgrove</placeName>..
+                            
+                            Confirmation by <persName>
+                           <forename>Walter</forename>, abp. of <placeName type="diocese" role="archbishop" key="place_104006">Canterbury</placeName>
+                        </persName>, of a sentence pronounced by <persName>Master <forename>Richard</forename> de <surname>Hunsingore</surname>, official of the archdeacon of <placeName role="archdeacon" type="archdeanery" key="place_107013">Oxford</placeName>
+                        </persName>, and dated 5 Kal. April, 1320, against <persName>
+                           <forename>Ralph</forename>, rector of <placeName role="rector" key="place_109277">Fletmerston</placeName>
+                        </persName> at the suit of <orgName key="org_107015">Thame Abbey</orgName> concerning tithes coming from the lands of <persName>Sir <forename>John</forename> 
+                           <surname>Neyrunt</surname>, kt.</persName>, and <persName>
+                           <forename>Robert</forename> 
+                           <surname>Verney</surname>
+                        </persName>, in <placeName key="place_109277">Fletmerston</placeName>, as well as from the lands of <persName>Sir <forename>William</forename> 
+                           <surname>Blount</surname>, kt.</persName>, in the same, all pertaining to the church of <placeName key="place_107101">Chalgrove</placeName>. Walter had authorized the official to proceed against <persName>
+                           <forename>Ralph</forename> de <surname>Stretle</surname>
+                        </persName>, then rector, by letters dated at <placeName key="place_103334">Selby</placeName> 2 Kal. March 1309. 
+                            Given at <placeName role="date" key="place_102089">Lamebeth</placeName>. 
+                            <origDate when="1321-06-29">
+                           <supplied>29 June</supplied> 1321.</origDate> 
+                             </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Fragments of Walter’s seal attached by cords of red and green silk.</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of Thame (Oxon.)</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="174" to="174">174</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

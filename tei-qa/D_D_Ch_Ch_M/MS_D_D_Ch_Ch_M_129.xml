@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800223">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 129</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_129</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_129" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 129</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_103010">Leeds.</placeName>.
+                            
+                            <persName>
+                           <forename>R[ichard]</forename> abbot of <orgName role="abbot" key="org_108030">Selby</orgName>
+                        </persName>, H. treasurer, and <persName>L. canon of <orgName role="person" key="org_103014">York</orgName>
+                        </persName>, at the command of <persName>Pope Innocent III</persName> ([9] Dec. [1204]) have passed judgment in a dispute between the priory and the <orgName key="org_103001">Abbey of <pb n="180"/> Kirkstall</orgName> over an agreement by which the Abbey was to pay 20/- for the tithes of 4 carucates of land in <placeName type="minor">West Hadinglai</placeName>, ½ ploughland in <placeName type="minor">East Hadinglai</placeName>, 2 carucates in <placeName type="minor">West Allerton</placeName>, and 1 bovate in <placeName type="minor">East Allerton</placeName>, and to pay tithe for any further land acquired in that parish (<placeName key="place_103253">Leeds</placeName>). The Abbey, accused of withdrawing the 2 ploughlands in East Allerton, objected that they had received the tithes and paid the rent for 50 years with right unshaken. It is now decreed that the Priory shall grant to the Abbey the tithes of grain and vegetables from the 2 ploughlands in East Allerton, in exchange for the tithes of 2 ploughlands of land in West Allerton, and that the Abbey shall pay 3/- more, and shall remit the tithes of 18 acres and one oxgang in East Allerton.. 
+                            <origDate notBefore="1204" notAfter="1205">
+                           <supplied>1204–5.</supplied>
+                        </origDate>
+                            </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Three seals, in green wax, left to right: (i) seal of the abbot of Selby, 111/16″ × 2⅜″, the abbot enthroned, RIC . . . . . . GERMANI · DE · SELEBI. (ii) From a (?) Greek gem. A discus-thrower and a recumbent athlete. Pointed oval, 1⅞″ × 1¼″, (iii) Pointed oval, 1″ × 1⅜″, possibly a bird. </p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Priory of Holy Trinity, York</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to="180">-180</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

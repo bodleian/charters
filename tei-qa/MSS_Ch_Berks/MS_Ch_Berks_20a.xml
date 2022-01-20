@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800001">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Berks. 20a</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Berks_20a</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Berks_20a" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Berks. 20a</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107017">Aston Rowant (Oxon.)</placeName>.
+                            
+                            <persName>
+                           <forename>Hugh</forename> de <surname>Fonte</surname>
+                        </persName> grants to <persName>
+                           <forename>W</forename>., prior</persName> &amp;c. of <orgName key="org_107004">W<supplied>allingford</supplied>
+                        </orgName> in free alms, 6½ acres of arable land in <placeName key="place_107017">Eston</placeName> and one rood of meadow in <placeName type="minor">Wynterdole</placeName>, which <persName>
+                           <forename>John</forename>, formerly vicar of <placeName role="vicar" key="place_107017">Eston</placeName>
+                        </persName>, once held from him.
+                            Witnesses: <persName>
+                           <forename>Robert</forename> of <surname>Sumel</surname>
+                        </persName>’, 
+                            <persName>
+                           <forename>Alexander</forename> de <surname>Stall[is]</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Nicholas</forename> de <surname>Stall[is]</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>William</forename> the <surname>esquire</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Roger</forename> the <surname>clerk</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>William</forename> the <surname>marshal</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Nicholas</forename> 
+                           <surname>þinbern</surname>
+                        </persName>’. He ..., 
+                            <persName>
+                           <forename>Adam</forename> of <surname>Aldentone</surname>
+                        </persName>.
+                           <origDate when="1220" precision="low">
+                           <supplied>c. 1220.</supplied>
+                        </origDate>
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Wallingford Priory [Berks.]</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

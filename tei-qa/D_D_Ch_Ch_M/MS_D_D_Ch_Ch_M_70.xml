@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800163">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 70</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_70</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_70" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 70</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>.
+                         
+                        Confirmation of their possessions in the diocese of <placeName type="diocese" key="place_101088">Worcester</placeName> to <orgName key="org_107013">T<supplied>ewkesbury</supplied>
+                        </orgName>, by the bishop of Worcester. 
+                        <origDate when="1520-09-20">20 Sept. 1520.</origDate> 
+                        The (i) parish church of <placeName key="place_108043">T<supplied>ewkesbury</supplied>
+                        </placeName>, with the chapels of <placeName key="place_107054">Northampton</placeName>, <pb n="167"/> 
+                        <placeName key="place_108096">Byshleye</placeName>, <placeName key="place_108099">Estchurch</placeName>, <placeName key="place_108097">Oxyndey</placeName>, <placeName key="place_108098">Tredyntone</placeName>, <placeName key="place_108071">Abbot’s Wasseborne</placeName>, 
+                        (ii) church of <placeName key="place_108084">St. James, Bristol</placeName>, with the chapels of <placeName key="place_108094">Stapultone</placeName>, <placeName key="place_108095">Mangodesfelde</placeName>, 
+                        (iii) parish church of <placeName key="place_108100">Marsfelde</placeName>, 
+                        (iv) parish churches of <placeName key="place_108101">Ampney Sancte Crucis</placeName>, of <placeName key="place_108056">Thornbury</placeName>, of <placeName key="place_108092">Fayrford</placeName>, 
+                        (v) church of <placeName key="place_108117">Stanweye</placeName>, with the chapels of <placeName key="place_108105">Lemyngton</placeName>, <placeName key="place_108116">Stanley</placeName>, 
+                        (vi) priory of <orgName key="org_108031">Derehurst</orgName>, 
+                        (vii) parish church of <placeName key="place_108102">Estlache S. Andrew’s</placeName>, 
+                        (viii) parish church of <placeName key="place_108069">Wotton under Egge</placeName>, 
+                        (ix) parish church of <placeName key="place_108118">Preston upon Sture</placeName>, 
+                        (xi) parish church of <placeName key="place_108067">Little Compton</placeName>, 
+                        (xi) all tithes of <placeName key="place_108092">Fayrford</placeName>, 
+                        (xii) 2 parts of the tithes of <placeName key="place_108103">Aldertone</placeName> and <placeName key="place_108104">Ayelesdone</placeName>, 
+                        (xiii) and of <placeName key="place_108106">Lower Swale</placeName>,
+                        (xiv) ½ tithes of the lordship of <placeName type="minor">Whyghtfeld</placeName> in the parish of <placeName key="place_108107">Derehurst</placeName>, 
+                        (xv) all tithes of the lordship late of <persName>
+                           <forename>Frederick</forename> of <surname>Hodynton</surname>
+                        </persName> in the same, 
+                        (xvi) tithes of one hide in <placeName type="minor">Gretton</placeName> in the parish of <placeName key="place_108110">Winchcombe</placeName>,
+                        (xvii) the greater tithes late of <persName>
+                           <forename>William</forename> 
+                           <surname>Hersfeld</surname>
+                        </persName> in the parish of H. 
+                        (xviii) from the church of St. [not given] <placeName key="place_108084">Bristol</placeName>, 11/- 
+                        (xix) from the church of <placeName key="place_108084">Holy Trinity, Bristol</placeName>, 10/- 
+                        (xx) from the church of <placeName key="place_108084">St. John</placeName> ” 10/- 
+                        (xxi) from the church of <placeName key="place_108084">SS. Philip and James, Bristol</placeName>, 13/4 
+                        (xxii) from the church of <placeName key="place_108084">S. Michael, Bristol</placeName>, 4/- <placeName key="place_108084">S. Andrew, Bristol</placeName>, 1 lb. of wax, 
+                        (xxiii) from the church of <placeName key="place_108102">Estleche S. Andrew</placeName>, 30/- 
+                        (xxiv) from the church of <placeName key="place_108108">Shenyndone</placeName>, 13/4 
+                        (xxv) from the church of A...creston, 4/- 
+                        (xxvi) from the church of <placeName key="place_108109">Welleford</placeName>, 20/-
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of Tewkesbury (Gloucs.)M. 56–71.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="166" to="167">166-167</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

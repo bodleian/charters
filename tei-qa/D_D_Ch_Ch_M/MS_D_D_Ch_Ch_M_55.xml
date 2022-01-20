@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800147">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 55</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_55</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_55" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 55</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_106084">Totham [Essex]</placeName>..
+                         
+                        <persName>
+                           <forename>Simon</forename> de <surname>Barnaville</surname>
+                        </persName> grants to the same, for his homage and service and a mark of silver, a piece of land in <placeName key="place_106084">Great Totham</placeName>, between the land late of <persName>
+                           <forename>Bartholomew</forename> de la <surname>more</surname>
+                        </persName>, and that of <persName>
+                           <forename>Amicia</forename> de <surname>Shereburne</surname>
+                        </persName>, abutting on the road which stretches from <persName>
+                           <forename>John</forename> 
+                           <surname>Ballard</surname>
+                        </persName>’s house to that of B. de le M. Rent: 1<hi rend="italic">d.,</hi> scutage, ½<hi rend="italic">d.</hi> 
+                        Witnesses: <persName>
+                           <forename>Sewal</forename> de <surname>Mora</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>John</forename> de <surname>Seymtawayn</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Robert</forename> 
+                           <surname>Folenfant</surname>
+                        </persName>,
+                        <persName>
+                           <forename>John</forename> de <surname>Shereburne</surname>
+                        </persName>,
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Alard</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Philip</forename> de <surname>Bovile</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Robert</forename> de (<surname>Gibecralse</surname>?)</persName>, 
+                        <persName>
+                           <forename>Roger</forename> 
+                           <surname>Anketil</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Peter</forename> le <surname>paumer</surname>
+                        </persName>. 
+                        <origDate notBefore="1260" notAfter="1270" precision="low">
+                           <supplied>c. 1260–70.</supplied>
+                        </origDate>
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="164" to="164">164</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

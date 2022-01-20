@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700235">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. D. 89</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_D_89</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_D_89" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. D. 89</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_108037">Newenham</placeName>.
+
+   Indenture by which <persName>
+                           <forename>Henry</forename> 
+                           <surname>Freman</surname>
+                        </persName> and <persName nymRef="Freman">
+                           <forename>Margaret</forename> his wife</persName> lease to <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Reyson</surname>
+                        </persName> and <persName nymRef="Reyson">
+                           <forename>Elena</forename> his wife</persName> all the tenements, rents, &amp;c. in <placeName key="place_109451">Purstone</placeName>, which they (H. F. and M.) lately had of the demise of <persName>
+                           <forename>John</forename> 
+                           <surname>Westbury</surname> of <placeName role="person" key="place_109451">Purstone</placeName>
+                        </persName> and <persName nymRef="Westbury">
+                           <forename>Agnes</forename> his wife</persName>. Rent: 40/-. 
+   Witnesses: <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Hetheringtone</surname>
+                        </persName>,
+   <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Wayte</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Roger</forename> 
+                           <surname>Alayn</surname>
+                        </persName>’, 
+   <persName>
+                           <forename>John</forename> 
+                           <surname>Barker</surname> of <placeName role="person" key="place_108012">Daventre</placeName>
+                        </persName>, 
+   <persName>
+                           <forename>William</forename> 
+                           <surname>Greneleve</surname>
+                        </persName>,
+   <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Greneleve</surname>
+                        </persName>, 
+   <persName>
+                           <forename>John</forename> 
+                           <surname>Leurence</surname>
+                        </persName>, 
+   <persName>
+                           <forename>John</forename> 
+                           <surname>Freeman</surname>
+                        </persName>. 
+   <origDate when="1420-01-24">24 Jan. <supplied>1420.</supplied>
+                        </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="97" to="97">97</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

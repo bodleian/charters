@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700349">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. D. 131</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_D_131</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_D_131" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. D. 131</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_108031">Welton</placeName> and <placeName key="place_108038">Thorp</placeName>.
+
+   <persName>
+                           <forename>Henry</forename> de <surname>Braibroc</surname>
+                        </persName> quit-claims to <persName>
+                           <forename>J<supplied>ames</supplied>
+                           </forename>
+                           <!--<note type="foot" n="1">The writing excludes John (prior 1269–81), as well as the attestation of <persName><forename>Nicholas</forename> de  <surname>Noers</surname></persName>, who by 1256 was stricken with the palsy (Baker, <hi rend="italic">N’hants.</hi> i. 414), and the death of the grantor in 1234. J. must therefore be James, for whom see D. 83. <persName><forename>Nicholas</forename> de  <surname>Noers</surname></persName> was not of age till after 1210.</note>--> prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied>
+                           </orgName>
+                        </persName> to the monks 10/- rent<!--<note type="foot" n="2">This rent came from 5½ virgates held by <persName><forename>Geoffrey</forename> <surname>Chatrick</surname></persName>, <persName><forename>William</forename> <surname>Herebert</surname></persName>, and Richard super montem (<hi rend="italic">Rot. Hund.</hi> 15).</note>--> which ’J’ had in <placeName key="place_108031">Weletona</placeName> and <placeName key="place_108038">Trop of the fee of Berkhampstead</placeName>. 
+   Witnesses: <persName>
+                           <forename>Ralph</forename> de <surname>Brai</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Ralph</forename> de <surname>Erligbere</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Nicholas</forename> de <surname>Noers</surname>
+                        </persName>,
+   <persName>
+                           <forename>William</forename> de <surname>insula</surname>
+                        </persName>,
+   <persName>
+                           <forename>William</forename> de <surname>D<supplied>aventry</supplied>
+                           </surname>
+                        </persName>, 
+   <persName>
+                           <forename>Simon</forename> of <surname>Maidwell</surname>
+                        </persName>,
+   <persName>
+                           <forename>Richard</forename> of <surname>Bukereville</surname>
+                        </persName>,
+   master Thomas of [<gap/>], 
+   <persName>
+                           <forename>Simon</forename> 
+                           <surname>Camp[ioun]</surname>
+                        </persName>. 
+   <origDate notBefore="1210" notAfter="1225">
+                           <supplied>1210–25.</supplied>
+                        </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="119" to="119">119</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

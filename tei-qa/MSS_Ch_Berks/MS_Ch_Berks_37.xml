@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800006">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Berks. 37</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Berks_37</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Berks_37" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Berks. 37</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107017">Aston Rowant (Oxon.)</placeName>.
+                             
+                            <persName>
+                           <forename>Hugh</forename> son of <persName>
+                              <forename>Robert</forename> of <surname>Chalkford</surname>
+                           </persName>
+                        </persName>, grants to <orgName key="org_107004">W<supplied>allingford</supplied>
+                        </orgName> in free alms one acre of arable land in <placeName key="place_107024">C<supplied>halkford</supplied>
+                        </placeName> in <placeName type="minor">Holewellefurlong</placeName>. For this <persName>sir <forename>Ralph</forename> of <surname>Watlington</surname> prior of <orgName role="prior" key="org_107004">W<supplied>allingford</supplied>
+                           </orgName>
+                        </persName> gave him [7/- or 10/-]. 
+                            Witnesses: <persName>sir <forename>Geoffrey</forename> de <surname>Leukenore</surname>, steward of the honour of <placeName type="honour" key="place_107011">W<supplied>allingford</supplied>
+                           </placeName>
+                        </persName>, 
+                            <persName>sir <forename>William</forename> 
+                           <surname>Huschal</surname>
+                        </persName>, 
+                            <persName>sir <forename>Thomas</forename> de <surname>Valencis</surname>
+                        </persName>, knights, 
+                            <persName>master <forename>Ralph</forename> of <surname>Belvero</surname>
+                        </persName> (?),
+                            <persName>
+                           <forename>Robert</forename> de <surname>Louches</surname> of <placeName role="person" key="place_107073">W<supplied>allingford</supplied>
+                           </placeName>
+                        </persName>, 
+                            <persName>
+                           <forename>William</forename> the marshal</persName>, 
+                            <persName>... of <surname>Chalcford</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>William</forename> the esquire of the priory of <orgName role="person" key="org_107004">W<supplied>allingford</supplied>
+                           </orgName>
+                        </persName>,
+                            <persName>
+                           <forename>William</forename> of <surname>Synynes</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Geoffrey</forename> the clerk of ...etinge</persName>. 
+                            <origDate notBefore="1270" notAfter="1274" precision="low">
+                           <supplied>c. 1270–74.</supplied>
+                        </origDate>
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Wallingford Priory [Berks.]</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="134" to="134">134</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

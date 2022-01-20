@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800141">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 49</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_49</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_49" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 49</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107096">Ravenstone</placeName>.
+                         
+                        Indenture by which <persName>
+                           <forename>Richard</forename> 
+                           <surname>Gateman</surname> of <placeName role="person" key="place_107096">R<supplied>avenestone</supplied>
+                           </placeName>
+                        </persName> grants to <persName>
+                           <forename>Hugh</forename> 
+                           <surname>Ode</surname> of <placeName role="person" key="place_107096">R<supplied>avenstone</supplied>
+                           </placeName>
+                        </persName> and <persName nymRef="Ode">
+                           <forename>Isabella</forename> his wife</persName> 6 strips and pasture at the head of each, lying in the great croft by the land of <persName>
+                           <forename>Nicholas</forename> le <surname>smyth</surname>
+                        </persName> in three places of the same croft, for 13 years from Michaelmas, 20 Ed. III. Half the fruits are to go to the grantors, who may resume possession if the land is left uncultivated. 
+                        Witnesses: <persName>
+                           <forename>Robert</forename> 
+                           <surname>Alewey</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Henry</forename> de <surname>castro</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Richard</forename> 
+                           <surname>Spicer</surname>
+                        </persName>,
+                        <persName>
+                           <forename>John</forename> le <surname>Feroner</surname>
+                        </persName> (?),
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Laurence</surname>
+                        </persName>. 
+                        Given at <placeName role="date" key="place_107096">R<supplied>avenstone</supplied>
+                        </placeName>.
+                        <origDate when="1346-09-29">
+                           <supplied>29 Sept. 1346.</supplied>
+                        </origDate>
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Ravenstone Priory (Bucks.)</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="161" to="161">161</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

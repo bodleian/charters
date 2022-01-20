@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800142">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 50</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_50</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_50" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 50</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107088">Shalstone [Bucks.]</placeName>..
+                         
+                        <persName>
+                           <forename>Walter</forename> son of <persName>
+                              <forename>William</forename>
+                           </persName> the <surname>carter</surname> of <placeName role="person" key="place_107088">Saldistone</placeName>
+                        </persName> grants to <persName>
+                           <forename>William</forename> the <surname>clerk</surname>, his brother, of <placeName role="person" key="place_108075">Westburi</placeName>
+                        </persName>, for his service and for a house which he bought from <persName nymRef="Franceis">
+                           <forename>Peter</forename>, late the son of <persName>
+                              <forename>Richard</forename> 
+                              <surname>Franceis</surname> of <placeName role="person" key="place_108075">Westburi</placeName>
+                           </persName>
+                        </persName>, a piece of land lying between the grantee’s land on either side, and reaching to the house of <persName>
+                           <forename>Richard</forename> le <surname>Pape</surname>
+                        </persName>: thirty feet by twenty feet: with half a strip over <placeName type="minor">Brerforlong</placeName> by <placeName type="minor">le Wodewei</placeName>, reaching over <placeName type="minor">Flexlond</placeName>.
+                        Witnesses: <persName>
+                           <forename>Ralph</forename> of <surname>Senliz</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Jordan</forename> 
+                           <surname>Bastard</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Rikeward</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Robert</forename> 
+                           <surname>Hardel</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>William</forename> the <surname>palmer</surname>
+                        </persName>,
+                        <persName>
+                           <forename>John</forename> the <surname>clerk</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>William</forename> the <surname>clerk</surname>
+                        </persName>. 
+                        <origDate notBefore="1230" notAfter="1240" precision="low">
+                           <supplied>c. 1230–40.</supplied>
+                        </origDate>
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="163" to="163">163</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800007">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Berks. 5</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Berks_5</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Berks_5" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Berks. 5</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107027">Clapcote</placeName>.
+                             
+                            <persName>
+                           <forename>Geoffrey</forename> the <surname>Cook</surname> of <placeName role="person" key="place_107073">Wareng</placeName>’</persName> grants to <orgName key="org_107004">W<supplied>allingford</supplied>
+                        </orgName> in free alms 7 acres of arable land and all his other land in <placeName key="place_107027">C<supplied>lapcote</supplied>
+                        </placeName>, lying in ’peecam de W.’ on the North, free of all secular service, ’ego enim et heredes mei eam acquietabimus per officium nostrum in coquina’ ... For this gift made for the souls of <persName>
+                           <forename>Brian</forename> 
+                           <surname type="patronymic">fitz-Count</surname>
+                        </persName>, his lord, and the lady Matilda his wife, he has received from the monks 60/-, and his son half a mark.
+                            Witnesses: <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Balle</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Geoffrey</forename> de <surname>Yvoi</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Nicholas</forename> son of <surname>Turolde</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Thomas</forename> de <surname>Uruvall</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Hugh</forename> de <surname>Yvoi</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Ralph</forename> of <surname>Alu</surname>
+                        </persName>’b, 
+                            <persName>
+                           <forename>Hamo</forename> 
+                           <surname>Purun</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Gilbert</forename> 
+                           <surname>Basset</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Matthew</forename> of <surname>Sottewelle</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Andrew</forename> son of <surname>Peter</surname>
+                        </persName>,
+                            <persName>
+                           <forename>William</forename> son of <surname>Richard</surname>
+                        </persName>,
+                            <persName>
+                           <forename>James</forename> son of <surname>Nicholas</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Andrew</forename> the <surname>clerk</surname>
+                        </persName>. 
+                            <origDate notBefore="1127" notAfter="1150" precision="low">
+                           <supplied>1127–50.</supplied>
+                        </origDate>
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Wallingford Priory [Berks.]</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

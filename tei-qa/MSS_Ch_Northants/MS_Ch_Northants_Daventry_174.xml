@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700204">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Northants. Daventry 174</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Northants_Daventry_174</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Northants_Daventry_174" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  
+                  
+                  <idno type="shelfmark">MS. Ch. Northants. Daventry 174</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_109232">Cold-Ashby</placeName>.
+
+   <persName>
+                           <forename>Peter</forename> of <surname>Goldinton</surname>
+                        </persName> grants to <orgName key="org_108004">D<supplied>aventry</supplied>
+                        </orgName> in free alms 2 virgates of land in <placeName key="place_109232">Aldessebi of the fee of Cotes</placeName>, i.e. those 2 virgates which his chapel of <placeName key="place_109232">Caldessebi</placeName> formerly held from the day of its dedication. 
+   Witnesses: <persName>
+                           <forename>Stephen</forename> the priest of <placeName role="person" key="place_108154">Ravenstorp</placeName>
+                        </persName>, 
+   <persName>
+                           <forename>Valeran</forename> of <surname>Hichelee</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Walter</forename> 
+                           <surname>Trucel</surname>
+                        </persName>,
+   <persName>
+                           <forename>Reginald</forename> the <surname>Burgundian</surname>
+                        </persName>, Clement, 
+   <persName>
+                           <forename>William</forename> of <surname>Haldeneto</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Cunald</forename> of <surname>Cotizbroc</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Symon</forename> of <surname>Criaton</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Osbert</forename> 
+                           <surname>Trussel</surname>
+                        </persName>, and 
+   <persName nymRef="Trussel">Richard his brother</persName>, 
+   <persName>
+                           <forename>William</forename> of <surname>Nortofiet</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Henry</forename> the dean</persName>, 
+   <persName>
+                           <forename>Walter</forename> of <surname>Sportone</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Ralph</forename> of <surname>Caldessebi</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Henry</forename> de <surname>Mundeville</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Robert</forename> the priest of <placeName role="person" key="place_108022">Preston</placeName>
+                        </persName>, 
+   <persName>
+                           <forename>Richard</forename> of <surname>Falweslai</surname>
+                        </persName>,
+   <persName>
+                           <forename>Ailu</forename>’ de <surname>Urcheli</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Matthew</forename> of <surname>Aiford</surname>
+                        </persName>,
+   <persName>
+                           <forename>Richard</forename> his son</persName>,
+   <persName>
+                           <forename>Gamel</forename>’ of <surname>Heddon</surname>’</persName>.
+   <origDate notBefore="1170" notAfter="1180" precision="low">
+                           <supplied>c. 1170–80.</supplied>
+                        </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

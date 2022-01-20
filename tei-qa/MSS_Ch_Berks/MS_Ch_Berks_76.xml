@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800032">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Berks. 76</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Berks_76</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Berks_76" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Berks. 76</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107027">Clapcote</placeName>.
+                             
+                            <persName>
+                           <forename>William</forename> son of <persName>
+                              <forename>William</forename> the <surname>marshal</surname> of <placeName role="person" key="place_107073">W<supplied>allingford</supplied>
+                              </placeName>
+                           </persName>
+                        </persName>, grants to <persName>
+                           <forename>William</forename> 
+                           <surname>Heron</surname>, prior</persName> , &amp;c. of <orgName key="org_107004">W<supplied>allingford</supplied>
+                        </orgName> 8 acres of arable land in <placeName key="place_107027">C<supplied>lapcote</supplied>
+                        </placeName> viz. 3 acres in or abutting on <placeName type="minor">Algarsforlong</placeName>, ½ acre in le <placeName type="minor">Inlond</placeName>, between the <placeName type="minor">Shillingford road</placeName> on the West and <placeName type="minor">le Rysshepathe</placeName> on the east, 1 acre at <placeName type="minor">Gykendene</placeName>, 1½ acres <placeName type="minor">Tounforlong</placeName>, ½ acre in <placeName type="minor">le Thistelforlong</placeName>, ½ acre in <placeName type="minor">Westlingforlong</placeName>. 
+                            Witnesses: <persName>
+                           <forename>Richard</forename> de <surname>Louches</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Gilbert</forename> du <surname>char</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Aleyn</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Thomas</forename> of <surname>Oterburne</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Walter</forename> 
+                           <surname>Crips</surname>
+                        </persName>,
+                            <persName>
+                           <forename>William</forename> 
+                           <surname>Knight</surname>, clerk</persName>.
+                            Given at <placeName role="date" key="place_107027">C<supplied>lapcote</supplied>
+                        </placeName>. 
+                            <origDate when="1334-03-12">
+                           <supplied>12 March 1334.</supplied>
+                        </origDate>
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Wallingford Priory [Berks.]</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="140" to="140">140</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800131">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Bucks 26</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Bucks_26</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Bucks_26" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Bucks 26</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107096">Ravenstone</placeName>.
+                         
+                        <persName>
+                           <forename>Henry</forename> of <surname>Mulsho [Moulsham]</surname> of <placeName role="person" key="place_107096">R<supplied>avenstone</supplied>
+                           </placeName>
+                        </persName> grants to <persName>sir <forename>Richard</forename> of <surname>R<supplied>avenstone</supplied>
+                           </surname> chaplain</persName>, one acre one rood of arable land and two roods of meadow in ... one acre of land in <placeName type="minor">Scyttho</placeName> near the land which <persName>
+                           <forename>William</forename> 
+                           <surname>Gyle</surname>
+                        </persName> holds of <persName>sir <forename>William</forename> de <surname>Mokelstone</surname>, kt.</persName> 
+                        Witnesses: [<gap/>] de Noers,
+                        <persName>
+                           <forename>Hugh</forename> de <surname>Warewyk</surname>
+                        </persName>,
+                        <persName>
+                           <forename>William</forename> of <surname>Lyford</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Robert</forename> le <surname>Kong</surname> of <placeName role="person" key="place_107096">R<supplied>avenstone</supplied>
+                           </placeName>
+                        </persName>,
+                        <persName>
+                           <forename>Richard</forename> 
+                           <surname>lespecer</surname> of <placeName role="person" key="place_107096">R<supplied>avenstone</supplied>
+                           </placeName>
+                        </persName>. 
+                        [<hi rend="italic">Mutilated.</hi>] 
+                        <origDate notBefore="1330-01-25" notAfter="1331-01-24">... 4 Ed. III.</origDate>
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Ravenstone Priory (Bucks.)</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="161" to="161">161</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800129">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Bucks 24</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Bucks_24</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Bucks_24" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Bucks 24</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107096">Ravenstone</placeName>.
+                        
+                        <persName>
+                           <forename>Henry</forename> of <surname>Warewik</surname>
+                        </persName> and <persName nymRef="Warewik">
+                           <forename>Christiana</forename> his wife</persName> grant to <persName>
+                           <forename>Walter</forename> 
+                           <surname>Wydmot</surname> of <placeName role="person" key="place_107096">R<supplied>avenstone</supplied>
+                           </placeName>
+                        </persName> and <persName nymRef="Wydmot">
+                           <forename>Beatrice</forename> his wife</persName> and <persName nymRef="Wydmot">
+                           <forename>Joan</forename> their daughter</persName> a rood of arable land in <placeName key="place_107096">R<supplied>avenstone</supplied>
+                        </placeName> between the prior’s land and that of <persName nymRef="Ravenstone">
+                           <forename>Elizabeth</forename> daughter of <persName>
+                              <forename>John</forename> of <surname>R<supplied>avenstone</supplied>
+                              </surname>
+                           </persName>
+                        </persName>. 
+                        Witnesses: <persName>
+                           <forename>John</forename> of <surname>Liforde</surname>
+                        </persName>,
+                        <persName>
+                           <forename>William</forename> of <surname>L<supplied>iforde</supplied>
+                           </surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Henry</forename> 
+                           <surname>Lespicer</surname> of <placeName role="person" key="place_107096">R<supplied>avenstone</supplied>
+                           </placeName>
+                        </persName>,
+                        <persName>
+                           <forename>Henry</forename> de <surname>Noers</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Simon</forename> de <surname>Cretone</surname>
+                        </persName>. 
+                        Given at <placeName role="date" key="place_107096">R<supplied>avenstone</supplied>
+                        </placeName>. 
+                        <origDate when="1324-07-29">
+                           <supplied>29 July 1324.</supplied>
+                        </origDate>
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Ravenstone Priory (Bucks.)</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="159" to="159">159</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

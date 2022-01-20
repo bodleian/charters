@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tite="http://www.tei-c.org/ns/tite/1.0">
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,7 +16,7 @@
   <text>
       <body>
          
-
+<!-- TODO 2022-01-19 check language markup -->
 
 <div type="charter">
 <p>
@@ -38,7 +38,7 @@
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 1a</bibl>
    Bull of <persName>pope Innocent [III]</persName> confirming to <orgName key="org_108004">D<supplied>aventry</supplied></orgName>, in general terms, all its possessions, and particularly all those churches which it has to its own use. 
-   Given at the <placeName role="date" key="place_104406">Lateran</placeName>. <date><supplied>28 Nov. 1210.</supplied></date>
+   Given at the <placeName role="date" key="place_104406">Lateran</placeName>. <date when="1210-11-28"><supplied>28 Nov. 1210.</supplied></date>
 </p>
 </div>
          
@@ -83,7 +83,7 @@
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 3</bibl>
    <persName><forename>Henry</forename> of <surname>Lancaster</surname>, earl of Derby</persName>, confirms to <orgName key="org_108004">D<supplied>aventry</supplied></orgName> all the lands, &amp;c., which <persName><forename>Thomas</forename> <surname>fitz-Walter</surname> of <placeName key="place_108012">D<supplied>aventry</supplied></placeName></persName> gave them. Given at <placeName role="date" key="place_109343">Kenilworth</placeName>. 
    <note type="language"><hi rend="italic">[French.]</hi></note> 
-   <date when="1338-10-11">11 Oct. <add>1338.</add></date> 
+   <date when="1338-10-11">11 Oct. <supplied>1338.</supplied></date> 
    <note type="seal">With the Earl’s seal in red wax, on a tongue.</note>
 </p>
 </div>
@@ -107,17 +107,17 @@ acause qe leur ancestres et amys la feurent ensevelez. Les parties avandites par
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 5</bibl>
    <persName>Pope <forename>Nicholas</forename></persName> adds the vicarages of <placeName key="place_108012">Daventry</placeName>, <placeName key="place_108025">North Staverton</placeName>, and <placeName key="place_108032">West Haddon</placeName> to <orgName key="org_108004">D<supplied>aventry</supplied></orgName>.
    Given at S. Peter’s, <placeName role="date" key="place_104490">Rome</placeName>. 
-   <date when="1451-08-20"><add>20 Aug.</add> 1451.</date>
+   <date when="1451-08-20"><supplied>20 Aug.</supplied> 1451.</date>
 </p>
 </div>
   
 <div type="charter"> <!--TODO how to encode this description? bound book with folio references and various dates for different sections-->
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 6</bibl>
-A parchment book (bound in 1929), folios 1–11d., about 10½″ × 13″. 
+A parchment book (bound in 1929), folios 1–11d., about 10½″ × 13″. </p><p>
 f. 1.
 ‘Missus Gabriel de coelis’= Chevalier, <title>Repertorium Hymnologicum</title> no. 11636, which see for references to printed editions. This prose or sequence in honour of the Virgin Mary was in common use from the end of the twelfth century. 
-
+</p><p>
 f. 1. d.
 A rental of the lands assigned to the <placeName key="place_108190">Chapel of S. Mary</placeName>, between <date notBefore="1250" notAfter="1288">1250–1288</date>. It is here given in full because it provides a <hi rend="italic">terminus ante quem</hi> for dating grants of land to the Chapel.  
    ‘Memorandum quod anno domini <date when="1250">1250</date> in vigilia s. Thome apostoli voli<supplied>intate</supplied> et assensu dompni <persName><forename>Nicholi</forename> tunc prioris</persName> ac <orgName key="org_108004">tocius conventus</orgName>, <persName><forename>Willelmus</forename> de <surname>Norton</surname> tunc sac<supplied>rista</supplied></persName> assignavit lampadi in capella beate virginis ardenti, 18d. a <persName><forename>Galfrido</forename> <surname>portario</surname></persName> et eiusdem heredibus in perpetuum percipiendos. Item uni cereo
@@ -143,16 +143,16 @@ De Broutone 3/6 custos capelle percipiet sed solvit inde in cena † domini 13d.
 [<hi rend="italic">Another hand.</hi>]
    De <persName nymRef="Keth"><forename>Alicia</forename></persName> et <persName nymRef="Keth"><forename>Margeria</forename></persName> filiabus <persName><forename>Willelmi</forename> <surname>Keth</surname> de <placeName role="person" key="place_108143">Preston</placeName></persName>, 1d. infra Octabis Pentecost’ pro tribus acris terre quas tenent in eadem de perquisicione patris earum cum Wardis, releviis, eschaetis et omnibus aliis suis pertin. qualitercunque de eadem terra provenientibus in futurum.
    Item De <persName><forename>Hugone</forename> de <surname>Baddeby</surname> in <placeName role="person" key="place_108143">Preston</placeName></persName>. 1d. infra Octabis Pent’ pro iii ac. terre de eodem feodo &amp; de perquisitione supradicti Willelmi Keth de Preston cum Wardis [<hi rend="italic">as above</hi>].’
-   
+   </p><p>
 ff. 2–10d.
-A cartulary of the Chapel of S. Mary, of the late fourteenth century. Modern numbers in Roman numerals are assigned to the charters. [D. 6, no. i–lxv.] 
+A cartulary of the Chapel of S. Mary, of the late fourteenth century. Modern numbers in Roman numerals are assigned to the charters. [D. 6, no. i–lxv.] </p><p>
 f. 10d.
 A rental of lands in <placeName key="place_108144">Broughton</placeName> (<date when="1484-09-05">5 Sept. 1484</date>). 
 <pb n="53"/>
- 
+ </p><p>
 f. 11.  
 Two sequences in honour of St. Augustine—Augustine par angelis and Summe presul Augustine—appear to be otherwise unknown. Daventry priory was dedicated to St. Augustine.  
-
+</p><p>
 f. 11d.
 A rental of the Chapel lands in <date when="1288">1288</date>. 
 <placeName key="place_108012">Daventry</placeName>: <persName><forename>William</forename> de <surname>Campedene</surname></persName> 4/-
@@ -191,7 +191,7 @@ The heirs of <persName><forename>Walter</forename> de <surname>Wolwardyngtone</s
    <persName><forename>Gilbert</forename> de <surname>Turs</surname></persName>,<note type="foot" n="1">Died 1233. Farrer, <hi rend="italic">Honours &amp; Knights’ Fees</hi>, p. 97.</note> 
    <persName><forename>Walter</forename> <surname>Jordan</surname></persName>. 
    <date notBefore="1231" notAfter="1233"><supplied>1231–33.</supplied></date>
-   
+   </p><p>
 To the third: Sirs <persName><forename>Roger</forename> de <surname>Welton</surname></persName>, 
    <persName><forename>Symon</forename> de <surname>Trop</surname></persName>, 
    <persName><forename>Hugh</forename> de <surname>Capes</surname></persName>, ... de D<supplied>aventry</supplied>, kts., 
@@ -199,7 +199,7 @@ To the third: Sirs <persName><forename>Roger</forename> de <surname>Welton</surn
    <persName><forename>Robert</forename> <surname>Maulore</surname></persName>, 
    <persName><forename>John</forename> <surname>Gemme</surname></persName>. 
    <date when="1254-06-12"><supplied>12 June 1254.</supplied></date>
-   
+   </p><p>
 To the fourth, a quit-claim of the prior to <persName>Sir <forename>Walter</forename> <surname type="patronymic">fitz-Simon</surname></persName>: 
    <persName>Sir <forename>William</forename> of <surname>D<supplied>aventry</supplied></surname>, kt.</persName>, 
    <persName><forename>William</forename> <surname type="patronymic">fitz-Nigel</surname></persName>, Jordan ..., 
@@ -210,7 +210,7 @@ To the fourth, a quit-claim of the prior to <persName>Sir <forename>Walter</fore
 </p>
 </div>
        
-         <div type="collection"> <head>The Mills.</head>
+         <div type="collection"> <head>Daventry, The Mills.</head>
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 7</bibl>
@@ -262,7 +262,7 @@ monks have granted the mill to William and his heirs for 12d. a year. William an
    <persName><forename>Simon</forename> <surname type="patronymic">fitz-Hugh de Seinliz</surname></persName>, 
    <persName><forename>Alan</forename> <surname type="patronymic">son of Burkman</surname></persName>, 
    <persName><forename>Walter</forename> the <surname>miller</surname></persName>. 
-   <date><supplied>c. 1170–90.</supplied></date>
+   <date notAfter="1190" notBefore="1170" precision="low"><supplied>c. 1170–90.</supplied></date>
    <note type="seal">Seal of the monastery in brown wax.</note>
 </p>
 </div>
@@ -438,7 +438,7 @@ water-mill, which they held; the former in their courtyard, the latter in the lo
    <persName><forename>William</forename> <surname>Fische</surname></persName>, 
    <persName><forename>Robert</forename> <surname>Waleis</surname></persName>, 
    <persName><forename>Geoffrey</forename> de <surname>[P]ost</surname></persName>. 
-   <date><supplied>9 July 1318.</supplied></date>
+   <date when="1318-07-09"><supplied>9 July 1318.</supplied></date>
 </p>
 </div></div>
          
@@ -599,7 +599,7 @@ the messuage or strip appurtenant. Witnesses: <persName><forename>John</forename
    <persName><forename>John</forename> of <surname>Neubot</surname></persName>, 
    <persName><forename>Richard</forename> of <surname>Boudon</surname></persName>, 
    <persName><forename>Jordan</forename> of <surname>Uptrop</surname></persName>. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. 
-   <date when="1258-03-25"><add>25 March</add> 1258.</date>
+   <date when="1258-03-25"><supplied>25 March</supplied> 1258.</date>
 </p>
 </div>
          
@@ -856,7 +856,7 @@ Witnesses: <persName>Sir <forename>Walter</forename> <surname type="patronymic">
    <persName><forename>John</forename> de <surname>N[ewen]han</surname></persName>, 
    <persName><forename>John</forename> <surname>Osbarne</surname></persName>, 
    <persName><forename>John</forename> <surname>West</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>. 
-   <date><supplied>15 Feb. 1355.</supplied></date>
+   <date when="1355-02-15"><supplied>15 Feb. 1355.</supplied></date>
 </p>
 </div>
          
@@ -877,7 +877,7 @@ Witnesses: <persName>Sir <forename>Walter</forename> <surname type="patronymic">
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 71</bibl>
    <persName><forename>Richard</forename> of <surname>Neubolde</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName>, clerk</persName>, appoints <persName><forename>John</forename> of <surname>Neubolde</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName> his attorney to receive seisin of lands, rents, &amp;c., late of <persName><forename>Nicholas</forename> <surname>Herberd</surname> in <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>. Given at <placeName role="date" key="place_100051">London</placeName>. 
-   <date when="1358-07-12">12 July <add>1358.</add></date>
+   <date when="1358-07-12">12 July <supplied>1358.</supplied></date>
 </p>
 </div>
          
@@ -929,7 +929,7 @@ Charter by which <persName><forename>Thomas</forename> (<surname type="patronymi
 </p>
 </div>
           </div>
-         <div type="collection"> <head type="heading">Daventry and Drayton, The Symond Holding.</head>
+         <div type="collection"> <head type="heading"><placeName key="place_108012">Daventry</placeName> and <placeName>Drayton</placeName>, The Symond Holding.</head>
 
 <div type="charter">
 <p>
@@ -955,7 +955,7 @@ Charter by which <persName><forename>Thomas</forename> (<surname type="patronymi
    <persName><forename>Geoffrey</forename> de <surname>aula</surname></persName>, 
    <persName><forename>John</forename> <surname>Cuth</surname></persName>, 
    <persName><forename>Robert</forename> <surname>Baudewyne</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>
-   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName> <date><supplied>25 April 1314.</supplied></date>
+   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName> <date when="1314-04-25"><supplied>25 April 1314.</supplied></date>
    <note type="seal">Circular seal, 3″, in black wax: legend illegible; a bird like an ostrich.</note>
 </p>
 </div>
@@ -1071,7 +1071,7 @@ Seal.
    <persName><forename>William</forename> de <surname>Lauda</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>, 
    <persName><forename>Geoffrey</forename> le <surname>porter</surname></persName>, 
    <persName><forename>John</forename> le <surname>Wereur</surname> of <placeName role="person" key="place_108013">Drayton</placeName></persName>. 
-   <date><supplied>12 Nov. 1348.</supplied></date>
+   <date when="1348-11-12"><supplied>12 Nov. 1348.</supplied></date>
 </p>
 </div>
           
@@ -1104,7 +1104,7 @@ Seal.
    <persName><forename>Robert</forename> <surname>Godchep</surname></persName>, ... 
    <persName><forename>Robert</forename> de <surname>Brochole</surname></persName>, 
    <persName><forename>Richard</forename> le <surname>Taillour</surname></persName> of D<supplied>aventry</supplied>.
-   <date when="1349-05-14">14 May <add>1349.</add></date>
+   <date when="1349-05-14">14 May <supplied>1349.</supplied></date>
 </p>
 </div>
          
@@ -1131,7 +1131,7 @@ Indenture by which <persName><forename>Henry</forename> son of <persName><forena
    <persName><forename>Jordan</forename> le <surname>Sw...</surname></persName>, 
    <persName><forename>John</forename> de <surname>Brochole</surname></persName>, 
    <persName><forename>Richard</forename> le <surname>Taillour</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>. [<hi rend="italic">Torn.</hi>] 
-   <date type="1350-03-14">14 March <add>1350.</add></date>
+   <date when="1350-03-14">14 March <supplied>1350.</supplied></date>
 </p>
 </div>
          
@@ -1163,7 +1163,7 @@ Indenture by which <persName><forename>Henry</forename> son of <persName><forena
    <persName><forename>John</forename> <surname>Abbe</surname> of <placeName role="person" key="place_108025">Staverton</placeName></persName>, 
    <persName><forename>William</forename> <surname>West</surname></persName> of the same, 
    <persName><forename>William</forename> of <surname>Drayton</surname> in <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>, 
-   <persName><forename>Robert</forename> <surname>Werrour</surname></persName> of the same. [<hi rend="italic">Torn.</hi>] <date>13 Ed. I.</date>
+   <persName><forename>Robert</forename> <surname>Werrour</surname></persName> of the same. [<hi rend="italic">Torn.</hi>] <date notBefore="1284-11-20" notAfter="1285-11-19">13 Ed. I.</date>
    <note type="seal">Seal, as in MS. D. D. Ch. Ch. D. 49.</note>
 </p>
 </div>
@@ -1178,7 +1178,7 @@ Indenture by which <persName><forename>Henry</forename> son of <persName><forena
    <persName><forename>Robert</forename> le <surname>Werrour</surname></persName>, 
    <persName><forename>Robert</forename> <surname>Gemme</surname></persName>, 
    <persName><forename>Simon</forename> de <surname>aula</surname></persName>,
-   <persName><forename>William</forename> de  <surname>Campedene</surname></persName>. <date>15 Ed. I.</date>
+   <persName><forename>William</forename> de  <surname>Campedene</surname></persName>. <date notBefore="1286-11-20" notAfter="1287-11-19">15 Ed. I.</date>
    <note type="seal">Circular seal, 3″, in green wax: a spreading tree (?) with two birds upon it: <hi rend="smallcap">S’ JOH’IS DE DAVINTRIE.</hi></note>
 </p>
 </div>
@@ -1242,7 +1242,7 @@ Indenture by which <persName><forename>Henry</forename> son of <persName><forena
    <persName><forename>Geoffrey</forename> de <surname>aula</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName> and <persName><forename>Felicia</forename> his wife</persName> grant to <persName><forename>John</forename> <surname>Cokeney</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName> and <persName><forename>Agnes</forename> his wife</persName> [the same half-acre]. Rent: ½<hi rend="italic">d.</hi> 
    Witnesses: [the same, &amp;] <!--not sure what 'the same' is-->
    <persName><forename>John</forename> <surname>Godchep</surname></persName>. 
-   <date when="1298-08-15">15 Aug. <add>1298.</add></date>
+   <date when="1298-08-15">15 Aug. <supplied>1298.</supplied></date>
 </p>
 </div>
          
@@ -1435,7 +1435,7 @@ Indenture by which <persName><forename>Henry</forename> son of <persName><forena
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 198</bibl>
    <persName><forename>William</forename> ... of <placeName role="person" key="place_108164">Olthorpe</placeName></persName> quit-claims to <persName><forename>Edmund</forename> <surname>Newenham</surname> of <placeName role="person" key="place_108187">Shuttesbury</placeName></persName> and William ... right in certain land in <placeName key="place_108012">D<supplied>aventry</supplied></placeName>. 
-   <date when="1346-04"> ... April <add>1346.</add></date>
+   <date when="1346-04"> ... April <supplied>1346.</supplied></date>
    [<hi rend="italic">Mutilated.</hi>] (See MS. Ch. Northants. Daventry 63b.]
 </p>
 </div>
@@ -1714,7 +1714,7 @@ Power of attorney from <persName><forename>John</forename> <surname>Neel</surnam
    <persName><forename>William</forename> de <surname>pistrino</surname></persName>, 
    <persName><forename>Geoffrey</forename> de <surname>aula</surname></persName>, 
    <persName><forename>William</forename> de <surname>aula</surname> of <placeName key="place_108012">D<supplied>aventry</supplied></placeName></persName>. 
-   <date><supplied>2 Feb. 1322.</supplied></date>
+   <date when="1322-02-02"><supplied>2 Feb. 1322.</supplied></date>
    [MS. D. D. Ch. Ch. D. 6, no. vii is a transcript.]
 </p>
 </div>
@@ -1754,7 +1754,7 @@ Power of attorney from <persName><forename>John</forename> <surname>Neel</surnam
    <persName><forename>Simon</forename> le <surname>Bakere</surname></persName>, 
    <persName><forename>Richard</forename> <surname>Baiuel</surname></persName> and 
    <persName nymRef="Baiuel"><forename>Alice</forename></persName>. Given at ... 
-   <date><supplied>25 March 1346.</supplied></date>
+   <date when="1346-03-25"><supplied>25 March 1346.</supplied></date>
 </p>
 </div>
    
@@ -1776,7 +1776,7 @@ Power of attorney from <persName><forename>John</forename> <surname>Neel</surnam
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 209</bibl>
    Fragment of an indenture by which Sarah, widow of ... Halle of D<supplied>aventry</supplied>, grants to Thomas ... between the messuage of <persName><forename>William</forename> <surname>Mulward</surname></persName> and that of <persName><forename>John</forename> <surname>Har</surname></persName> ..., for 4 years. Rent: 12/-. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. 
    Witnesses: <persName><forename>John</forename> <surname>Waundel</surname></persName>, William ... 
-   <date>45 Ed. III.</date>
+   <date notBefore="1371-01-25" notAfter="1372-01-24">45 Ed. III.</date>
 </p>
 </div>
    
@@ -1804,7 +1804,7 @@ Power of attorney from <persName><forename>John</forename> <surname>Neel</surnam
    <persName><forename>John</forename> <surname>Dillyng</surname></persName>. 
    <date when="1419-09-29"><supplied>29 Sept. 1419.</supplied></date>
 <hi rend="italic">Endorsed</hi> with entry about <persName><forename>Thomas</forename> <surname>Halle</surname></persName> son of <persName><forename>Richard</forename> <surname>Halle</surname></persName> 
-   <date>21 Hen. VI</date>.
+   <date notBefore="1442-09-01" notAfter="1443-08-31">21 Hen. VI</date>.
 </p>
 </div>
    
@@ -1817,7 +1817,7 @@ Power of attorney from <persName><forename>John</forename> <surname>Neel</surnam
    <persName><forename>Thomas</forename> <surname>Marche</surname></persName>, 
    <persName><forename>Richard</forename> <surname>Pereson</surname></persName>’, 
    <persName><forename>John</forename> <surname>Yronmonger</surname></persName>. 
-   <date when="1439-05-01">1 May <add>1439.</add></date>
+   <date when="1439-05-01">1 May <supplied>1439.</supplied></date>
 </p>
 </div>
    
@@ -1831,7 +1831,7 @@ Power of attorney from <persName><forename>John</forename> <surname>Neel</surnam
    <persName><forename>Richard</forename> <surname>Wedewerd</surname></persName>, 
    <persName><forename>Richard</forename> <surname>Peresone</surname></persName>,
    <persName><forename>Nicholas</forename> <surname>Hosyer</surname></persName>. 
-   <date when="1443-07-29">29 July <add>1443.</add></date>
+   <date when="1443-07-29">29 July <supplied>1443.</supplied></date>
 </p>
 </div>
    
@@ -1844,7 +1844,7 @@ Power of attorney from <persName><forename>John</forename> <surname>Neel</surnam
    <persName><forename>Thomas</forename> <surname>Wyloughby</surname></persName> of the same, 
    Thomas [<gap/>] of the same, and 
    <persName><forename>Richard</forename> <surname>Balles</surname></persName>. 
-   <date when="1486-03-04">4 March <add>1486.</add></date>
+   <date when="1486-03-04">4 March <supplied>1486.</supplied></date>
 Seal.
 </p>
 </div>
@@ -1853,7 +1853,7 @@ Seal.
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 23b</bibl>
    <persName><forename>John</forename> <surname>Tresham</surname></persName>, <persName><forename>Thomas</forename> <surname>Stafford</surname></persName>, and <persName><forename>Thomas</forename> <surname>Halle</surname></persName>, grant to <persName><forename>Thomas</forename> <surname>Emson</surname>, esq.</persName>, <persName><forename>John</forename> <surname>Dey</surname>, clerk</persName>, <persName><forename>John</forename> <surname>Chauncy</surname></persName>, <persName><forename>Robert</forename> <surname>Chauntrell</surname></persName>, and <persName><forename>Robert</forename> <surname>Skypton</surname></persName>, all their lands in <placeName key="place_108037">Newenham</placeName>, <placeName key="place_108012">Daventre</placeName>, and <placeName key="place_108013">Drayton</placeName>. To hold the same for the uses declared in the last will of the said <persName><forename>Thomas</forename> <surname>Halle</surname></persName>. 
-   <date when="1507-10-20">20 Oct. <add>1507.</add></date>
+   <date when="1507-10-20">20 Oct. <supplied>1507.</supplied></date>
 </p>
 </div>
 </div>
@@ -1989,7 +1989,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
    <persName><forename>Richard</forename>[?] <surname>Fischer</surname></persName>, 
    <persName><forename>William</forename> <surname>Mason</surname></persName>, 
    <persName><forename>Richard</forename> <surname>Graunt</surname></persName>. 
-   <date when="1432-03-18">18 Mar. <add>1432.</add></date>
+   <date when="1432-03-18">18 Mar. <supplied>1432.</supplied></date>
 </p>
 </div>
 
@@ -1997,7 +1997,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 219</bibl>
    <persName><forename>Simon</forename> <surname>Stareton</surname> <hi rend="italic">alias</hi> <forename>Simon</forename> <surname>Scope</surname> of D<supplied>aventry</supplied>, glover</persName>, and <persName><forename>Isabella</forename> his wife</persName>, demise to <persName><forename>John</forename> <surname>Stareton</surname> of <surname>Scope</surname>, cooper</persName>, and <persName nymRef="Stareton"><forename>Isabella</forename> his wife</persName>, for their lives, a messuage and croft in <placeName key="place_108012">D<supplied>aventry</supplied></placeName>, between <persName><forename>William</forename> <surname>Pryle</surname></persName>’s tenement and that of <persName><forename>Thomas</forename> <surname>Halle</surname></persName>. Rent: a rose at Midsummer, if it is claimed. 
-   <date when="1460-10-07">7 Oct. <add>1460.</add></date>
+   <date when="1460-10-07">7 Oct. <supplied>1460.</supplied></date>
 </p>
 </div>
 
@@ -2011,7 +2011,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
    <persName><forename>John</forename> <surname>Knype</surname></persName>, 
    Simon ..., 
    <persName><forename>John</forename> <surname>Scop</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>. 
-   <date when="1484-11-12">12 Nov. <add>1484.</add></date>
+   <date when="1484-11-12">12 Nov. <supplied>1484.</supplied></date>
 </p>
 </div>
    
@@ -2023,7 +2023,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
    <persName><forename>Thomas</forename> <surname>Lewys</surname></persName>, 
    <persName><forename>Thomas</forename> <surname>Graunt</surname></persName>, 
    <persName><forename>John</forename> <surname>Knype</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>. [<hi rend="italic">Torn.</hi>]
-   <date when="1485-05-08">8 May <add>1485.</add></date>
+   <date when="1485-05-08">8 May <supplied>1485.</supplied></date>
 </p>
 </div>
    
@@ -2042,7 +2042,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
    <persName><forename>William</forename> <surname>Wright</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName> and William ..., quit-claims to <persName><forename>John</forename> <surname>Werrour</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName> all their right in the lands which they had of the gift of ...
    Witnesses: <persName><forename>John</forename> <surname>Heywode</surname></persName>, 
    Simon ... and others of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName>. 
-   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. <date>Friday after St. M ... 1 <add>Hen. VI?</add>.</date>
+   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. <date notBefore="1422" notAfter="1461">Friday after St. M ... 1 <supplied>Hen. VI?</supplied>.</date>
 </p>
 </div>
    
@@ -2069,7 +2069,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 67</bibl>
-   <persName><forename>William</forename> <surname>Catesby</surname>, esq., of <placeName role="person" key="place_108001">Asshebyelygger</placeName></persName>, <persName><forename>William</forename> <surname>Lane</surname> of <placeName role="person" key="place_108171">Oslyngbery</placeName>, gentleman</persName>, <persName><forename>William</forename> <surname>Staverton</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName>, gentleman</persName>, to <persName><forename>William</forename> <surname>Lane</surname>, prior</persName>, &amp;c., of <orgName key="org_108004">D<supplied>aventry</supplied></orgName> their right in 3 half acres of arable land and a rood of meadow in <placeName key="place_108012">D<supplied>aventry</supplied></placeName> which the grantors had jointly of the gift of <persName><forename>William</forename> <surname>Holte</surname> of D<supplied>aventry</supplied>, yeoman</persName> and <persName nymRef="Holte"><forename>Joan</forename> his wife</persName>, the cousin and heir of <persName><forename>William</forename> <surname>Wryght</surname> late of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>. <date when="1483-11-14">14 Nov. <add>1483.</add></date>
+   <persName><forename>William</forename> <surname>Catesby</surname>, esq., of <placeName role="person" key="place_108001">Asshebyelygger</placeName></persName>, <persName><forename>William</forename> <surname>Lane</surname> of <placeName role="person" key="place_108171">Oslyngbery</placeName>, gentleman</persName>, <persName><forename>William</forename> <surname>Staverton</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName>, gentleman</persName>, to <persName><forename>William</forename> <surname>Lane</surname>, prior</persName>, &amp;c., of <orgName key="org_108004">D<supplied>aventry</supplied></orgName> their right in 3 half acres of arable land and a rood of meadow in <placeName key="place_108012">D<supplied>aventry</supplied></placeName> which the grantors had jointly of the gift of <persName><forename>William</forename> <surname>Holte</surname> of D<supplied>aventry</supplied>, yeoman</persName> and <persName nymRef="Holte"><forename>Joan</forename> his wife</persName>, the cousin and heir of <persName><forename>William</forename> <surname>Wryght</surname> late of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>. <date when="1483-11-14">14 Nov. <supplied>1483.</supplied></date>
 <note type="seal">Three small seals.</note>
 </p>
 </div>
@@ -2078,7 +2078,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 222</bibl>
    <persName><forename>Nicholas</forename> <surname>Flecknowe</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName>, husbandman</persName>, grants to <persName><forename>Nicholas</forename> <surname>Catesby</surname>, esq.</persName>, <persName><forename>Edward</forename> <surname>Newenham</surname></persName>, <persName><forename>William</forename> <surname>Lane</surname> of <placeName role="person" key="place_108171">Orlingbere</placeName></persName>, <persName><forename>William</forename> <surname>Staverton</surname></persName>, and <persName><forename>Thomas</forename> <surname>Graunte</surname>, gent.</persName>, (i) a cottage with a garden adjacent in <placeName key="place_108012">D<supplied>aventry</supplied></placeName>, between the prior’s tenement on the west, and that of <persName><forename>Nicholas</forename> <surname>Welby</surname></persName> on the east; (ii) 3 half acres in <placeName key="place_108025">Staverton</placeName>—one acre above <placeName type="minor">Strutboroughe</placeName> between the prioress of <orgName key="org_108006">Catesby</orgName>’s land and that of <persName><forename>Thomas</forename> <surname>Bradele</surname></persName>(?), and ½ an acre above <placeName type="minor">Rowdone</placeName> between <persName><forename>Richard</forename> <surname>Heddon</surname></persName>’s land and that of <persName><forename>John</forename> <surname>Strychenall</surname></persName>. He appoints <persName><forename>Robert</forename> <surname>Lane</surname></persName> his attorney to deliver seisin of the same. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. 
-   Witnesses: <persName><forename>Thomas</forename> <surname>Halle</surname> of <placeName key="place_108012">D<supplied>aventry</supplied></placeName></persName>, <persName><forename>Richard</forename> <surname>Maydewelle</surname></persName>, ... <date>14 Feb. ... Rich. III.</date>
+   Witnesses: <persName><forename>Thomas</forename> <surname>Halle</surname> of <placeName key="place_108012">D<supplied>aventry</supplied></placeName></persName>, <persName><forename>Richard</forename> <surname>Maydewelle</surname></persName>, ... <date notAfter="1485" notBefore="1483">14 Feb. ... Rich. III.</date>
 </p>
 </div>
    
@@ -2087,14 +2087,14 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 68</bibl>
    <persName><forename>Joan</forename> <surname>Boteler</surname></persName>, widow of <persName><forename>John</forename> <surname>Boteler</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>, grants to <persName><forename>Nicholas</forename> <surname>Catesby</surname>, esq.</persName>, <persName><forename>Edmund</forename> <surname>Newenham</surname></persName>, <persName><forename>William</forename> <surname>Staverton</surname></persName>, and <persName><forename>Thomas</forename> <surname>Graunte</surname></persName>, gentlemen, 4 half acres of arable land and 4½ roods of meadow in <placeName key="place_108012">D<supplied>aventry</supplied></placeName> viz. ½ acre in <placeName type="minor">le Longemersh</placeName> by the prior’s land, ½ acre over <placeName type="minor">Longemershe Hyll</placeName> towards <placeName type="minor">Crowehill</placeName> by the prior’s land, acre over <placeName type="minor">Langdon</placeName> between the prior’s land; ½ acre under <placeName type="minor">Houghton</placeName> by the prior’s land: the meadow lies in the east meadow of <placeName key="place_108012">D<supplied>aventry</supplied></placeName>. <persName><forename>John</forename> <surname>Boteler</surname></persName> had held these of the gift of <persName><forename>John</forename> <surname>Abbehowse</surname></persName> and <persName><forename>Nicholas</forename> <surname>Bateman</surname></persName>. Joan has made <persName><forename>Robert</forename> <surname>Lane</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName>, yeoman</persName>, her attorney to deliver seisin. 
-   Witnesses: <persName><forename>Richard</forename> <surname>Maydewell</surname> of <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName></persName>, <persName><forename>Thomas</forename> <surname>Hall</surname></persName> of the same, <persName><forename>Thomas</forename> <surname>Bate</surname></persName> of the same, <persName><forename>Thomas</forename> <surname>Berby</surname></persName> of the same, <persName><forename>John</forename> <surname>Scot</surname></persName> of the same. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. <date when="1488-08-30">30 Aug. <add>1488.</add></date>
+   Witnesses: <persName><forename>Richard</forename> <surname>Maydewell</surname> of <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName></persName>, <persName><forename>Thomas</forename> <surname>Hall</surname></persName> of the same, <persName><forename>Thomas</forename> <surname>Bate</surname></persName> of the same, <persName><forename>Thomas</forename> <surname>Berby</surname></persName> of the same, <persName><forename>John</forename> <surname>Scot</surname></persName> of the same. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. <date when="1488-08-30">30 Aug. <supplied>1488.</supplied></date>
 </p>
 </div>
    
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 223</bibl>
-   <persName><forename>Joan</forename> <surname>Boteler</surname></persName>, widow of <persName><forename>John</forename> <surname>Boteler</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>, quit-claims to the same her right in ½ acre of arable land in the north field of <placeName key="place_108012">D<supplied>aventry</supplied></placeName>. ... Langedone, between the prior’s land and that of Thomas ... which they lately had by her charter. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. <date when="1489">15 ... <add>1489.</add></date>
+   <persName><forename>Joan</forename> <surname>Boteler</surname></persName>, widow of <persName><forename>John</forename> <surname>Boteler</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>, quit-claims to the same her right in ½ acre of arable land in the north field of <placeName key="place_108012">D<supplied>aventry</supplied></placeName>. ... Langedone, between the prior’s land and that of Thomas ... which they lately had by her charter. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. <date when="1489">15 ... <supplied>1489.</supplied></date>
 </p>
 </div>
    
@@ -2103,7 +2103,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 224</bibl>
    <persName><forename>Henry</forename> <surname>Smythe</surname> of <placeName role="person" key="place_108032">West Haddon</placeName>, yeoman</persName>, grants to the same gent (i) a tenement with curtilage adjacent in <placeName key="place_108012">D<supplied>aventry</supplied></placeName>, (ii) ½ acre of arable land in the west field of <placeName key="place_108013">Drayton</placeName>. 
    Witnesses: <persName><forename>Thomas</forename> <surname>Halle</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>, <persName><forename>Richard</forename> <surname>Maydewelle</surname></persName> of the same, <persName><forename>Thomas</forename> <surname>Arnold</surname></persName> of the same, <persName><forename>Nicholas</forename> <surname>Flek[nowe]</surname></persName>. 
-   <date when="1489-03-11">11 March <add>1489.</add></date>
+   <date when="1489-03-11">11 March <supplied>1489.</supplied></date>
 </p>
 </div>
    
@@ -2117,7 +2117,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
    <persName><forename>Simon</forename> <surname>Horn</surname></persName>, 
    <persName><forename>Thomas</forename> <surname>Fissher</surname></persName>, 
    <persName><forename>Robert</forename> <surname>Gissy</surname>, chaundeler</persName>. 
-   <date when="1418-02-24">24 Feb <add>1418.</add></date>
+   <date when="1418-02-24">24 Feb <supplied>1418.</supplied></date>
 </p>
 </div>
    
@@ -2138,7 +2138,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
    Witnesses: ... <persName><forename>Thomas</forename> <surname>Fyssher</surname></persName>, 
    <persName><forename>John</forename> <surname>Staverton</surname></persName>, 
    <persName><forename>Hugh</forename> <surname>Cleydone</surname></persName>. 
-   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. [<hi rend="italic">Mutilated.</hi>] <date when="1428-01">... Jan. <add>1428.</add></date>
+   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. [<hi rend="italic">Mutilated.</hi>] <date when="1428-01">... Jan. <supplied>1428.</supplied></date>
 </p>
 </div>
    
@@ -2151,7 +2151,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
    <persName><forename>John</forename> <surname>Staverton</surname></persName>, 
    <persName><forename>Thomas</forename> <surname>Skynner</surname></persName>, 
    <persName><forename>Thomas</forename> <surname>Randulle</surname></persName>. 
-   <date when="1445-03-13">13 March <add>1445.</add></date>
+   <date when="1445-03-13">13 March <supplied>1445.</supplied></date>
    <note type="small">Small seal.</note>
 </p>
 </div></div>
@@ -2172,7 +2172,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
    <persName><forename>Robert</forename> son of <surname>Nigel</surname></persName>, 
    <persName><forename>John</forename> de <surname>Neubot</surname></persName>, 
    <persName><forename>Henry</forename> the <surname>cook</surname></persName>. 
-   <date when="1241-02-14"><add>14 Feb.</add> 1241.</date>
+   <date when="1241-02-14"><supplied>14 Feb.</supplied> 1241.</date>
 </p>
 </div>
    
@@ -2303,7 +2303,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
    <persName><forename>John</forename> <surname>Scop</surname></persName>, 
    Robert ..., ...le, 
    <persName><forename>Godefrey</forename> de <surname>spineto</surname></persName>. 
-   <date>Monday before … 22 Ed<add><gap/>.</add></date>
+   <date>Monday before … 22 Ed<supplied><gap/>.</supplied></date>
 </p>
 </div>
   
@@ -2447,7 +2447,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
    <persName><forename>Thomas</forename> <surname>Bawdewyne</surname></persName> of D<supplied>aventry</supplied>, 
    <persName><foreign>Richard</foreign> the <surname>smith</surname></persName>, 
    <persName><forename>John</forename> <surname>Adam</surname> of <placeName role="person" key="place_108184">Braudestone</placeName></persName>. 
-   <date>Monday, S. Andrew’s day, 7 Ed. III.</date>
+   <date when="1333-11-30">Monday, S. Andrew’s day, 7 Ed. III.</date> (In 7 Ed. III S. Andrew’s day, 30 Nov. 1333, fell upon a Tuesday.)
    <!--<note type="foot" n="1">In 7 Ed. III S. Andrew’s day, 30 Nov. 1333, fell upon a Tuesday.</note>-->
 </p>
 </div>
@@ -2468,7 +2468,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 6, no. xxxii</bibl>
    An incomplete copy of <!--the above-->MS. D. D. Ch. Ch. D. 6, no. xxvii.
-   <date when="1349-03-30"><add>30 March 1349.</add></date>
+   <date when="1349-03-30"><supplied>30 March 1349.</supplied></date>
 </p>
 </div>
    
@@ -2481,7 +2481,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
    <persName><forename>Robert</forename> <surname>Simond</surname></persName> of the same, 
    <persName><forename>John</forename> <surname>Branfelde</surname> of <placeName role="person" key="place_108038">Throp</placeName></persName>, 
    <persName><forename>Geoffrey</forename> <surname>Portere</surname> of <placeName role="person" key="place_108013">Draytone</placeName></persName>. 
-   <date when="1349-03-30"><add>30 March</add> 1349.</date>
+   <date when="1349-03-30"><supplied>30 March</supplied> 1349.</date>
 </p>
 </div>
    
@@ -2489,7 +2489,7 @@ List of services and rents, for lands in <placeName key="place_108013">Drayton</
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 6, no. xxviii</bibl>
    J<supplied>ohn</supplied> D<supplied>eye</supplied> grants power of attorney to <persName><forename>John</forename> <surname>Cok</surname>, clerk of the priory of <orgName role="person" key="org_108004">D<supplied>aventry</supplied></orgName></persName>, to deliver seisin to <persName><forename>Peter</forename> de <surname>celario</surname></persName> of the same. Given at D<supplied>aventry</supplied>. 
-   <date when="1349-03-30"><add>30 March</add> 1349.</date>
+   <date when="1349-03-30"><supplied>30 March</supplied> 1349.</date>
 </p>
 </div>
    
@@ -2555,7 +2555,7 @@ The same grants power of attorney to <persName><forename>John</forename> de <sur
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 6, no. xxiv</bibl>
-   <persName><forename>John</forename> le <surname>cowherde</surname></persName> grants power of attorney to <persName><forename>Richard</forename> <surname>Rolf</surname></persName> to deliver seisin of the same to <persName><forename>Juliana</forename> his sister</persName>. <add>See MS. D. D. Ch. Ch. D. 6, no. xxxiii.</add>
+   <persName><forename>John</forename> le <surname>cowherde</surname></persName> grants power of attorney to <persName><forename>Richard</forename> <surname>Rolf</surname></persName> to deliver seisin of the same to <persName><forename>Juliana</forename> his sister</persName>. <supplied>See MS. D. D. Ch. Ch. D. 6, no. xxxiii.</supplied>
    <date when="1348-12-08"><supplied><!--Same date.-->8 Dec. 1348.</supplied></date>
 </p>
 </div>
@@ -2710,7 +2710,7 @@ of the same, <persName><forename>John</forename> <surname>Bachous</surname></per
 <p>
    <bibl type="shelfmark">MS. Rolls Northants. 9</bibl>
    Judgement of the <orgName key="org_109039">precentor of St. Frideswide</orgName> and the <orgName key="org_109047">abbot of Dorchester</orgName> (judges delegate) in a cause between D. and <persName><forename>William</forename> de <surname>Rowille</surname>, rector of <placeName role="rector" key="place_108004">Braybrok</placeName></persName>, concerning an annual pension of 4/-. [<hi rend="italic">Mutilated.</hi>] 
-   <date when="1286-11-30"><add>30 Nov.</add> 1286.</date>
+   <date when="1286-11-30"><supplied>30 Nov.</supplied> 1286.</date>
 </p>
 </div></div>
 
@@ -2861,7 +2861,7 @@ of the same, <persName><forename>John</forename> <surname>Bachous</surname></per
 <p>
    <bibl type="shelfmark">MS. Ch. Northants. Daventry 176</bibl>
    <persName><forename>Peter</forename>, prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied></orgName>, and rector of <placeName role="rector" key="place_109232">Cold Essebi</placeName></persName>, remits to the abbot and c. of <orgName key="org_108033">Pipewell</orgName> £3. 6. 0 out of £4. 10. 0 rent for tithes of corn and hay of the lordship, and 3 virgates of land belonging to Pipewell in <placeName key="place_109232">Coldehasseby</placeName>, in return for the grant of a part by Pipewell to <persName><forename>Augustine</forename> le <surname>Waleys</surname> of <placeName role="person" key="place_108192">Suthrigge</placeName></persName> and <persName nymRef="Waleys"><forename>Maud</forename> his wife</persName>, for their lives. Given in full chapter at <placeName role="date" key="place_108012">Daventry</placeName>. 
-   <date notAfter="1400" notBefore="1300" precision="low"><add>3 Feb.</add> ‘mccc … gesimo secundo’.</date>
+   <date notAfter="1400" notBefore="1300" precision="low"><supplied>3 Feb.</supplied> ‘mccc … gesimo secundo’.</date>
 </p>
 </div>
    
@@ -2953,7 +2953,7 @@ of the same, <persName><forename>John</forename> <surname>Bachous</surname></per
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 115</bibl>
    Indenture (in English) by which <persName><forename>William</forename> <surname>Lane</surname>, prior</persName> &amp;c. of <orgName key="org_108004">D<supplied>aventry</supplied></orgName>, grant to <persName><forename>Richard</forename> <surname>Knyghtley</surname> esq.</persName>, their pastures &amp;c. in <placeName key="place_101031">Fallewesly</placeName> except the manor place, with remainder to his heirs. Rent: 18 marks. [<hi rend="italic">Mutilated.</hi>] 
-   <date>... June 20 Ed. IV.</date>
+   <date when="1480-06">... June 20 Ed. IV.</date>
 </p>
 </div>
    
@@ -2964,7 +2964,7 @@ of the same, <persName><forename>John</forename> <surname>Bachous</surname></per
 <pb n="93"/>
 of land ‘called Wynetpece now baynt’ in the Park abutting against <placeName type="minor">Wynnethill</placeName> and <placeName type="minor">Rynehill</placeName>, with a meadow at the south end called <placeName type="minor">Wynnet Mede</placeName>, broadening out from a rood on the west to a headland on the east. William also had a piece of his farm between Tarbard’s way sometime of <persName><forename>John</forename> <surname>Badby</surname></persName>. There had never been more than one farm in the prior’s lordship, of which <persName><forename>Robert</forename> <surname>Young</surname></persName>, <persName><forename>John</forename> <surname>Frynde</surname></persName>, and <persName><forename>William</forename> <surname>Sroyft</surname></persName> were tenants, having ‘meses’ and parts of the ‘ledes’ with the roods lying next to those of the prior. Also <persName><forename>John</forename> <surname>Jones</surname></persName> and <persName><forename>John</forename> <surname>Curteys</surname></persName> held 2 cottages and certain acres of the prior, but all these tenancies reached back to a date before Richard took the lordship to farm. There was no ‘several ground’ nor pasture in F<supplied>alwesle</supplied>, before Richard’s farm, except a piece called <placeName type="minor">Holywell</placeName> and another called <placeName type="minor">Sewell</placeName>, which were several from Candlemas to Michaelmas. 
    <note type="language">[<hi rend="italic">English.</hi>]</note> 
-   <date when="1483-09-26">26 Sept. <add>1483.</add></date>
+   <date when="1483-09-26">26 Sept. <supplied>1483.</supplied></date>
 </p>
 </div></div>
          
@@ -3004,9 +3004,9 @@ of land ‘called Wynetpece now baynt’ in the Park abutting against <placeName
 </div></div>
          
 <div type="collection">
-<pb n="94"/>
-   <head type="heading"><placeName key="place_108150">Lubenham [Leics.]</placeName>.</head>
 
+   <head type="heading"><placeName key="place_108150">Lubenham [Leics.]</placeName>.</head>
+<pb n="94"/>
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 24</bibl>
@@ -3059,7 +3059,7 @@ of land ‘called Wynetpece now baynt’ in the Park abutting against <placeName
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. Rolls Northants. 6</bibl>
-   Depositions of witnesses in the same case <add>See MS. D. D. Ch. Ch. D. 85a</add>.
+   Depositions of witnesses in the same case <supplied>See MS. D. D. Ch. Ch. D. 85a</supplied>.
 <list>
 <item>(i) ...</item>
    <item>(ii) <persName><forename>William</forename>, rector of <placeName role="rector" key="place_108196">Bellesloe</placeName></persName>,</item>
@@ -3075,7 +3075,7 @@ The year <date when="1312">1312</date> is mentioned. All the witnesses, except t
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. Rolls Northants. 7</bibl>
-   Proceedings in the same case <add>(See MS. Rolls Northants. 6)</add>, before the abbot of <orgName role="abbot" key="org_108008">St. James, Northampton</orgName>. <date when="1322">1322.</date>
+   Proceedings in the same case <supplied>(See MS. Rolls Northants. 6)</supplied>, before the abbot of <orgName role="abbot" key="org_108008">St. James, Northampton</orgName>. <date when="1322">1322.</date>
    Endorsed are two deeds about a claim to the tithes of a shot called <placeName type="minor">Chardounbottes</placeName>, belonging to the church of <placeName key="place_109202">Bissebrok [Rutland.]</placeName>, before the official of <placeName type="diocese" role="person" key="place_100079">Lincoln</placeName>, in a cause between D<supplied>aventry</supplied> and <persName><forename>William</forename> de <surname>Bellofago</surname>, rector of <placeName role="rector" key="place_108201">Seyton</placeName></persName>. 
    <date when="1321">1321.</date>
 </p>
@@ -3084,17 +3084,17 @@ The year <date when="1312">1312</date> is mentioned. All the witnesses, except t
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. Rolls Northants. 8</bibl>
-   Royal writs, with the decree of <persName><forename>John</forename>, bishop of <placeName type="diocese" role="bishop" key="place_100079">Lincoln</placeName></persName>, in the same case. The last entry shows that <orgName key="org_108004">D<supplied>aventry</supplied></orgName> claimed a fourth part of the advowson of L. [<hi rend="italic">5 transcripts on 1 membrane, mutilated.</hi>] <date>7–16 Ed. II.</date>
+   Royal writs, with the decree of <persName><forename>John</forename>, bishop of <placeName type="diocese" role="bishop" key="place_100079">Lincoln</placeName></persName>, in the same case. The last entry shows that <orgName key="org_108004">D<supplied>aventry</supplied></orgName> claimed a fourth part of the advowson of L. [<hi rend="italic">5 transcripts on 1 membrane, mutilated.</hi>] <date notBefore="1313" notAfter="1323">7–16 Ed. II.</date>
 </p>
 </div>
    
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 86</bibl>
-One membrane containing three fourteenth-century transcripts: <date when="1323-05-28"><add>28 May.</add> 1323.</date>
+One membrane containing three fourteenth-century transcripts: <date when="1323-05-28"><supplied>28 May.</supplied> 1323.</date>
 <list>
    <item>(i) The official of the <orgName key="org_109051">Court of Canterbury</orgName> orders the dean of <placeName type="deanery" role="dean" key="place_108180">Gertr’</placeName> to cite Th. de W., in a cause with <orgName key="org_108004">D<supplied>aventry</supplied></orgName>, concerning all the tithes of the fee of <persName><forename>Hugh</forename> <surname>Poer</surname></persName> in L<supplied>ubenham</supplied>, to appear on the next court-day after 24 June, in <placeName key="place_108202">St. Mary’s, Aldermarichurch, London</placeName>. Given at <placeName role="date" key="place_108204">Keselingbury</placeName>.</item>
-   <item>(ii) Royal writ to the official of <placeName key="place_104247">Canterbury</placeName> prohibiting the Courts Christian from hearing the case until an assize Utrum had determined whether a fourth part of the advowson belonged to the King or the monks. Given at <placeName role="date" key="place_108203">Cowyk. [Yorks.]</placeName>. <date when="1323-06-10">10 June <add>1323.</add></date></item>
+   <item>(ii) Royal writ to the official of <placeName key="place_104247">Canterbury</placeName> prohibiting the Courts Christian from hearing the case until an assize Utrum had determined whether a fourth part of the advowson belonged to the King or the monks. Given at <placeName role="date" key="place_108203">Cowyk. [Yorks.]</placeName>. <date when="1323-06-10">10 June <supplied>1323.</supplied></date></item>
 <item>(iii) Another royal writ. [<hi rend="italic">Much torn.</hi>]</item>
    <item>(iv) Fragment of a mandate from the abbot of <orgName key="org_108008">St. James’, Northampton</orgName>.</item>
 </list>
@@ -3104,7 +3104,7 @@ One membrane containing three fourteenth-century transcripts: <date when="1323-0
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 53</bibl>
-   Proceedings on an appeal to the court of <placeName key="place_104247">Canterbury</placeName> in the same case. <add>(See MS. D. D. Ch. Ch. D. 86.)</add> [<hi rend="italic">Mutilated.</hi>] 
+   Proceedings on an appeal to the court of <placeName key="place_104247">Canterbury</placeName> in the same case. <supplied>(See MS. D. D. Ch. Ch. D. 86.)</supplied> [<hi rend="italic">Mutilated.</hi>] 
    <date when="1323">July–Aug. 1323.</date>
 </p>
 </div>
@@ -3119,7 +3119,7 @@ Indenture (in French) by which <persName><forename>Peter</forename> of <surname>
    <persName><forename>Nicholas</forename> <surname>Herberd</surname></persName>, 
    <persName><forename>John</forename> of <surname>Vielstone</surname></persName>, and 
    <persName><forename>Thomas</forename> <surname>Dyfeld</surname></persName>. 
-   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. <date when="1350">–July. <add>1350.</add></date>
+   Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. <date when="1350">–July. <supplied>1350.</supplied></date>
    <note type="seal">Circular seal, 1″, in red wax, a coat of arms and crest. [<hi rend="italic">Illegible.</hi>] 
    <hi rend="smallcap">SIGILLUM · THOME · DE · FEREIS.</hi></note>
 </p>
@@ -3239,7 +3239,7 @@ Henry shall have (‘sibi per lottum contingent’), (i) ½ ac. above <placeName
    <persName><forename>Thomas</forename> <surname>Greneleve</surname></persName>, 
    <persName><forename>John</forename> <surname>Leurence</surname></persName>, 
    <persName><forename>John</forename> <surname>Freeman</surname></persName>. 
-   <date when="1420-01-24">24 Jan. <add>1420.</add></date>
+   <date when="1420-01-24">24 Jan. <supplied>1420.</supplied></date>
 </p>
 </div>
    
@@ -3423,7 +3423,7 @@ Indenture by which <persName><forename>Nicholas</forename>, prior of <orgName ro
    <persName><forename>Alan</forename> de <surname>Morecote</surname></persName>, 
    <persName><forename>Geoffrey</forename> the <surname>porter</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>, 
    <persName><forename>Thomas</forename> de <surname>Ely</surname></persName>. 
-   <date when="1263-09-29"><add>29 Sept.</add> 1263.</date>
+   <date when="1263-09-29"><supplied>29 Sept.</supplied> 1263.</date>
 </p>
 </div>
    
@@ -3474,7 +3474,7 @@ John ? quitclaims to <persName><forename>Michael</forename> de <surname>Norton</
    Witnesses: <persName><forename>John</forename> <surname>Scop</surname></persName>, 
    <persName><forename>John</forename> <surname>Alberd</surname></persName>,  
    <persName><forename>Nicholas</forename> <surname>Celle</surname> of D<supplied>aventry</supplied></persName>. 
-   <date>Sunday after the Nativity … 31 Ed. I.</date>
+   <date notBefore="1302-11-20" notAfter="1303-11-19">Sunday after the Nativity … 31 Ed. I.</date>
 </p>
 </div>
    
@@ -3545,7 +3545,7 @@ Mutilated and rubbed quitclaim of (?) <persName><forename>John</forename> de <su
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 95</bibl>
    <persName><forename>John</forename> <surname>Boteler</surname> (alias <forename>John</forename> <surname>Couper</surname>’) of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName> quit-claims to <persName><forename>Wm</forename>. <surname>Catesby</surname> of <placeName role="person" key="place_108001">Asshebyligger</placeName>’</persName>, <persName><forename>William</forename> <surname>Lane</surname> of <placeName role="person" key="place_108171">Orlingber</placeName></persName> and <persName><forename>William</forename> <surname>Staverton</surname></persName> all his possession in <placeName key="place_108019">Norton by D<supplied>aventry</supplied></placeName>. (No witnesses.) 
-   <date when="1484-01-08">8 Jan. <add>1484.</add></date>
+   <date when="1484-01-08">8 Jan. <supplied>1484.</supplied></date>
 </p>
 </div>
    
@@ -3553,7 +3553,7 @@ Mutilated and rubbed quitclaim of (?) <persName><forename>John</forename> de <su
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 96</bibl>
 A second charter, of the same tenor, gives <persName><forename>Richard</forename> <surname>Lane</surname></persName> as <persName><forename>John</forename> <surname>Boteler</surname></persName>’s attorney for delivering seisin to the grantees. Given at <placeName role="date" key="place_108019">Norton</placeName>.
-   <date when="1438-06-24">24 June <add>1483.</add></date>
+   <date when="1438-06-24">24 June <supplied>1483.</supplied></date>
 </p>
 </div>
    
@@ -3561,7 +3561,7 @@ A second charter, of the same tenor, gives <persName><forename>Richard</forename
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 241</bibl>
 Letters Patent of <persName>Edward III</persName>: License to <orgName key="org_108004">D<supplied>aventry</supplied></orgName> to hold lands in <placeName key="place_108019">Norton</placeName>. [<hi rend="italic">Partly effaced.</hi>] 
-   <date when="1368-02-09">9 Feb. <add>1368.</add></date>
+   <date when="1368-02-09">9 Feb. <supplied>1368.</supplied></date>
 </p>
 </div>
    
@@ -3623,7 +3623,7 @@ Grant from <orgName key="org_108004">D<supplied>aventry</supplied></orgName> to 
    <persName><forename>Thomas</forename> <surname>Alyn</surname></persName> of the same, 
    <persName><forename>Thomas</forename> <surname>Clerke</surname></persName> of the same, 
    <persName><forename>John</forename> <surname>Bodyngton</surname></persName> of the same. 
-   <date when="1492-01-13">13 Jan. <add>1491.</add></date>
+   <date when="1492-01-13">13 Jan. <supplied>1491.</supplied></date>
 </p>
 </div>
    
@@ -3649,7 +3649,7 @@ The situation of each half-acre-strip, and the tenant on either side, is given.
    <persName><forename>Thomas</forename> <surname>Benet</surname></persName>, 
    [<gap/>] Bodyngton, 
    <persName><forename>William</forename> <surname>Chappleyne</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied></placeName></persName>. 
-   <date>10 April <add>1432.</add></date>
+   <date when="1432-04-10">10 April <supplied>1432.</supplied></date>
 </p>
 </div>
    
@@ -3662,7 +3662,7 @@ The situation of each half-acre-strip, and the tenant on either side, is given.
    <persName><forename>William</forename> <surname>Rous</surname></persName>, 
    <persName><forename>John</forename> <surname>Chapleyn</surname></persName>,
    <persName><forename>William</forename> <surname>Fraunceys</surname> of <placeName role="person" key="place_108019">Norton</placeName></persName>. Given at <placeName role="person" key="place_108019">N<supplied>orton</supplied></placeName>. 
-   <date when="1466-08-12">12 Aug. <add>1466.</add></date>
+   <date when="1466-08-12">12 Aug. <supplied>1466.</supplied></date>
 </p>
 </div>
    
@@ -3677,7 +3677,7 @@ Bukby is dead] her right in the same lands. Given at <placeName role="date" key=
    <persName><forename>William</forename> <surname>Knyght</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied></placeName></persName>,
    <persName><forename>John</forename> <surname>Chapleyne</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied></placeName></persName>, 
    <persName><forename>William</forename> <surname>Rous</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied></placeName></persName>. 
-   <date when="1474-08-06">6 Aug. <add>1474.</add></date>
+   <date when="1474-08-06">6 Aug. <supplied>1474.</supplied></date>
 </p>
 </div>
    
@@ -3690,7 +3690,7 @@ Copy of a charter by which <persName><forename>W<supplied>illiam</supplied></for
    <persName><forename>William</forename> <surname>Knyght</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied></placeName></persName>,
    <persName><forename>John</forename> <surname>Chapleyne</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied></placeName></persName>, 
    <persName><forename>William</forename> <surname>Rous</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied></placeName></persName>.
-   <date when="1474-08-07">7 Aug. <add>1474.</add></date>
+   <date when="1474-08-07">7 Aug. <supplied>1474.</supplied></date>
 </p>
 </div>
    
@@ -3698,7 +3698,7 @@ Copy of a charter by which <persName><forename>W<supplied>illiam</supplied></for
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 109</bibl>
    <persName><forename>W<supplied>illiam</supplied></forename> <surname>B<supplied>aker</supplied></surname></persName> and <persName><forename>W<supplied>illiam</supplied></forename> <surname>T<supplied>aylor</supplied></surname></persName> grant power of attorney to <persName><forename>Henry</forename> <surname>Clerke</surname></persName> or <persName><forename>Thomas</forename> <surname>Chamberleyne</surname></persName> to deliver seisin of the same. <supplied>(See MS. D. D. Ch. Ch. D. 102)</supplied>. 
-   <date when="1474-08-07"><!--Same date.-->7 Aug. <add>1474.</add></date>
+   <date when="1474-08-07"><!--Same date.-->7 Aug. <supplied>1474.</supplied></date>
 </p>
 </div>
    
@@ -3707,7 +3707,7 @@ Copy of a charter by which <persName><forename>W<supplied>illiam</supplied></for
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 242</bibl>
    <persName><forename>John</forename> <surname>Boteler</surname></persName> <hi rend="italic">alias</hi> <persName><forename>John</forename> <surname>Cowper</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName> grants to <persName><forename>William</forename> <surname>Catesby</surname> of <placeName role="person" key="place_108001">Asshebylegger</placeName></persName>, <persName><forename>William</forename> <surname>Lane</surname> of <placeName role="person" key="place_108171">Orlingber</placeName>’</persName>, and <persName><forename>William</forename> <surname>Staverton</surname></persName>, all the lands in <placeName key="place_108019">Norton</placeName> which he had from the late <persName><forename>William</forename> <surname>Carrey</surname> of <placeName role="person" key="place_108019">Norton</placeName></persName>, and appoints <persName><forename>Robert</forename> <surname>Lane</surname></persName> his attorney to deliver seisin. Given at <placeName role="date" key="place_108019">Norton</placeName>.
    <note><!--N’hants. chs.-->MS. Ch. Northants. Daventry 242, 243, 244, are copies, probably made in 4 Hen. VII, as the hand is similar to that of MS. Ch. Northants. Daventry 245 (Macray).</note> 
-   <date when="1483-06-24">24 June <add>1483.</add></date>
+   <date when="1483-06-24">24 June <supplied>1483.</supplied></date>
 </p>
 </div>
    
@@ -3715,7 +3715,7 @@ Copy of a charter by which <persName><forename>W<supplied>illiam</supplied></for
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 243</bibl>
    The same quit-claims [as <!--above-->MS. Ch. Northants. Daventry 242]. 
-   <date when="1484-01-08">8 Jan. <add>1484.</add></date>
+   <date when="1484-01-08">8 Jan. <supplied>1484.</supplied></date>
 </p>
 </div>
    
@@ -3728,7 +3728,7 @@ Copy of a charter by which <persName><forename>W<supplied>illiam</supplied></for
    <persName><forename>Thomas</forename> <surname>Aleyn</surname></persName> of the same,
    <persName><forename>William</forename> <surname>Bodyngton</surname></persName> of the same, ... 
    <persName><forename>John</forename> <surname>Benet</surname></persName> of the same. 
-   <date>30 July 4 Hen. VI.</date>
+   <date when="1426-07-30">30 July 4 Hen. VI.</date>
 </p>
 </div>
    
@@ -3736,7 +3736,7 @@ Copy of a charter by which <persName><forename>W<supplied>illiam</supplied></for
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 103</bibl>
    <persName><forename>John</forename> <surname>Geffrey</surname></persName> grants to <persName><forename>William</forename> <surname>Staverton</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>, <persName><forename>William</forename> <surname>Lane</surname> of <placeName role="person" key="place_108171">Orlingbere</placeName></persName>, <persName><forename>Edmund</forename> <surname>Newenham</surname> of <placeName role="person" key="place_108157">Everdone</placeName></persName> and <persName><forename>Thomas</forename> <surname>Lane</surname>, junior of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>. [the lands which come to him under MS. D. D. Ch. Ch. D. 102.] 
-   <date when="1486-12-21">21 Dec. <add>1486.</add></date>
+   <date when="1486-12-21">21 Dec. <supplied>1486.</supplied></date>
 </p>
 </div>
    
@@ -3744,7 +3744,7 @@ Copy of a charter by which <persName><forename>W<supplied>illiam</supplied></for
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 104</bibl>
    The same quit-claims [as <!--above-->MS. D. D. Ch. Ch. D. 103] and as MS. Ch. Northants. 244. [Another copy] 
-   <date when="1488-03-20">20 March <add>1488.</add></date>
+   <date when="1488-03-20">20 March <supplied>1488.</supplied></date>
 </p>
 </div>
    
@@ -3752,7 +3752,7 @@ Copy of a charter by which <persName><forename>W<supplied>illiam</supplied></for
       <p>
          <bibl type="shelfmark">MS. Ch. Northants. Daventry 244</bibl>
          The same quit-claim as MS. D. D. Ch. Ch. D. 104. [Another copy.]
-         <date when="1488-03-20">20 March <add>1488.</add></date>
+         <date when="1488-03-20">20 March <supplied>1488.</supplied></date>
       </p>
    </div>
    
@@ -3765,7 +3765,7 @@ Copy of a charter by which <persName><forename>W<supplied>illiam</supplied></for
    <persName><forename>Thomas</forename> <surname>Aleyn</surname></persName> of the same, 
    <persName><forename>William</forename> <surname>Bodyngton</surname></persName> of the same, 
    John ... [<hi rend="italic">Mutilated.</hi>] 
-   <date when="1489-07-30">30 July <add>1489.</add></date>
+   <date when="1489-07-30">30 July <supplied>1489.</supplied></date>
 </p>
 </div>
    
@@ -3778,7 +3778,7 @@ Copy of a charter by which <persName><forename>W<supplied>illiam</supplied></for
    <persName><forename>Thomas</forename> <surname>Aleyn</surname></persName> of the same, 
    <persName><forename>William</forename> <surname>Bodyngton</surname></persName> of the same,
    <persName><forename>John</forename> <surname>Benett</surname></persName> of the same. 
-   <date when="1489-07-30">30 July <add>1489.</add></date>
+   <date when="1489-07-30">30 July <supplied>1489.</supplied></date>
 </p>
 </div>
    
@@ -3786,7 +3786,7 @@ Copy of a charter by which <persName><forename>W<supplied>illiam</supplied></for
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 105</bibl>
    <persName><forename>William</forename> <surname>Lane</surname>, prior</persName> &amp;c. quit claim to <persName><forename>Robert</forename> <surname>Maunsell</surname></persName>, <persName><forename>William</forename> <surname>Knyghte</surname> of <placeName role="person" key="place_108019">Nortone</placeName> sen.</persName>, <persName><forename>John</forename> <surname>Knyght</surname> of <placeName role="person" key="place_108173">Charewelton</placeName></persName>, <persName><forename>Henry</forename> <surname>Clerk</surname></persName>, <persName><forename>John</forename> <surname>Falclyffe</surname></persName>, and <persName><forename>William</forename> <surname>Knyght</surname> of <placeName role="person" key="place_108019">Norton</placeName>, junior</persName>, all their right in 1 acre of arable land in the field of <placeName role="person" key="place_108019">N<supplied>orton</supplied> by D<supplied>aventry</supplied></placeName> called <placeName type="minor">Crosselonds furlong</placeName>, which the said six have of the demise of <persName><forename>Edward</forename> <surname>Newenham</surname> of <placeName role="person" key="place_108157">Everdene</placeName> gentilman</persName>, <persName><forename>John</forename> <surname>Staverton</surname>, lately of <placeName role="person" key="place_108157">Everdene</placeName></persName>, and <persName><forename>Thomas</forename> <surname>Clerk</surname> of <placeName role="person" key="place_108019">N<supplied>orton</supplied> by D<supplied>aventry</supplied></placeName></persName>, in fee simple. Given in their chapter-house.
-   <date when="1489-08-10">10 August <add>1489.</add></date>
+   <date when="1489-08-10">10 August <supplied>1489.</supplied></date>
 </p>
 </div>
    
@@ -3804,7 +3804,7 @@ Apparently a copy. [<hi rend="italic">Mutilated.</hi>]
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 25</bibl>
    Memorandum of a return made by the archdeacon of <placeName type="archdeanery" role="archdeacon" key="place_109084">Northampton</placeName> to <persName>R., bp. of <placeName type="diocese" role="bishop" key="place_100079">Lincoln</placeName></persName>, that whereas <persName><forename>Geoffrey</forename> de  <surname>Hanvyle</surname></persName> had presented <persName><forename>Matthew</forename> de <surname>Glynham</surname>, King’s clerk</persName>, to the rectory of <placeName key="place_108022">Preston</placeName>, by an inquiry it was found that the said rectory was not vacant and that the patronage belonged to <orgName key="org_108004">D<supplied>aventry</supplied></orgName>. Given at <placeName role="date" key="place_108019">Norton</placeName>. 
-   <date when="1266-11-10"><add>10 Nov.</add> 1266.</date>
+   <date when="1266-11-10"><supplied>10 Nov.</supplied> 1266.</date>
 </p>
 </div>
    
@@ -3813,9 +3813,9 @@ Apparently a copy. [<hi rend="italic">Mutilated.</hi>]
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 32b</bibl>
    Memorandum of an agreement between master ... rector of <placeName role="rector" key="place_108159">Marsh, co. Bucks</placeName>, and <persName>Sir <forename>Alexander</forename>, perpetual vicar of <placeName role="vicar" key="place_108022">Great Preston</placeName></persName>, about the tithes of <placeName key="place_108021">Little Preston</placeName>. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. 
-   <date when="1292-04-25"><add>25 April</add> 1292.</date>
+   <date when="1292-04-25"><supplied>25 April</supplied> 1292.</date>
    An inquisition subjoined in another hand, taken at <placeName key="place_108022">Preston</placeName>, concerning the lands and tithes of <placeName key="place_108021">Little Preston</placeName>. 
-   <date when="1297-04-23"><add>23 April</add> 1297.</date>
+   <date when="1297-04-23"><supplied>23 April</supplied> 1297.</date>
 </p>
 </div>
    
@@ -3831,7 +3831,7 @@ Apparently a copy. [<hi rend="italic">Mutilated.</hi>]
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 106</bibl>
    Record of case heard in <placeName key="place_108176">All Saints, Northampton</placeName>, before the Official of Lincoln, between <persName><forename>Geoffrey</forename> of <surname>Sutton</surname></persName>, acting for <orgName key="org_108004">D<supplied>aventry</supplied></orgName>, who claim the church of <placeName key="place_108022">Preston</placeName>, and <persName><forename>Roger</forename> of <surname>Buckingham</surname></persName>, acting for <persName><forename>Stephen</forename> de <surname>Camvile</surname>, rector of <placeName role="rector" key="place_108159">Mersche</placeName></persName>. Witnesses for D<supplied>aventry</supplied> were: 
-   <persName><forename>John</forename> <surname>Ilberd</surname> of <placeName role="person" key="place_108022" >Preston</placeName></persName>,
+   <persName><forename>John</forename> <surname>Ilberd</surname> of <placeName role="person" key="place_108022">Preston</placeName></persName>,
    <persName><forename>Robert</forename> <surname>Boniour</surname></persName>, 
    <persName><forename>Geoffrey</forename> <surname>Ivel</surname></persName>, 
    <persName><forename>Gilbert</forename> <surname>Godfrey</surname></persName>, 
@@ -3895,7 +3895,7 @@ settlement of a suit about tithes of the demesne in <placeName key="place_108021
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 113</bibl>
-   <persName><forename>Robert</forename>, prior</persName> &amp;c. of <orgName key="org_108004">D<supplied>aventry</supplied></orgName> grant to <persName><forename>Richard</forename> of <surname>Linns</surname></persName> for his homage and service, a place in <placeName  key="place_108022">Preston</placeName> and two acres of land in the same which <persName><forename>William</forename> <surname>Hert</surname></persName> once held from them, viz.: 1 acre above <placeName type="minor">le Gonbyshul</placeName>, and the other at <placeName type="minor">Caldewellepayd</placeName>. Rent: 3/- to the Almonry. [<hi rend="italic">Apparently only a copy.</hi>] 
+   <persName><forename>Robert</forename>, prior</persName> &amp;c. of <orgName key="org_108004">D<supplied>aventry</supplied></orgName> grant to <persName><forename>Richard</forename> of <surname>Linns</surname></persName> for his homage and service, a place in <placeName key="place_108022">Preston</placeName> and two acres of land in the same which <persName><forename>William</forename> <surname>Hert</surname></persName> once held from them, viz.: 1 acre above <placeName type="minor">le Gonbyshul</placeName>, and the other at <placeName type="minor">Caldewellepayd</placeName>. Rent: 3/- to the Almonry. [<hi rend="italic">Apparently only a copy.</hi>] 
    <date notBefore="1425" notAfter="1444"><supplied>1425–1444.</supplied></date>
 </p>
 </div></div>
@@ -3941,7 +3941,7 @@ Witnesses: <persName>Sir <forename>John</forename> fitz-<persName><forename>Phil
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 12</bibl>
    The prior of <orgName role="prior" key="org_109039">St. Frideswide</orgName>, <persName><forename>Ralph</forename> of <surname>York</surname></persName> and <persName><forename>Richard</forename> of <surname>Feringkis</surname></persName>, canons of <placeName role="canon" type="diocese" key="place_107002">Salisbury</placeName> and <placeName type="diocese" role="canon" key="place_101091">Chichester</placeName>, delegates appointed by <persName>O. cardinal of S. Adrian and papal legate</persName>, cite the prior of D. to appear in the church of St. F. Friday after St. Dunstan to answer to <persName>Master <forename>Hugh</forename> <surname>Hamelin</surname></persName> and persons learned in the law why he took the rectory of <placeName key="place_106148">Sandford</placeName>, of which <persName>Sir <forename>Ralph</forename> of <surname>S. Laudo [Lo]</surname></persName> is patron. 
-   <date when="1267-04-11">1267. <add>11 April</add></date>
+   <date when="1267-04-11">1267. <supplied>11 April</supplied></date>
 </p>
 </div>
    
@@ -3949,7 +3949,7 @@ Witnesses: <persName>Sir <forename>John</forename> fitz-<persName><forename>Phil
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 13</bibl>
    Letter of <persName><forename>R[obert]</forename>, prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied></orgName></persName> to the Abbot of <orgName role="abbot" key="org_108034">S. Mary’s, Leicester</orgName>. They have appointed brother <persName><forename>William</forename> de  <surname>Wengrave</surname></persName> and <persName><forename>John</forename> de <surname>Benewikt</surname>, clerk</persName>, their proctors in the case between them and <persName><forename>Hugh</forename> <surname>Hamelin</surname></persName>. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. 
-   <date when="1268-09-10">1268 <add>10 Sept.</add></date>
+   <date when="1268-09-10">1268 <supplied>10 Sept.</supplied></date>
 </p>
 </div>
    
@@ -3990,7 +3990,7 @@ Wednesday after Michaelmas ... proceedings in the appeal between <persName>Maste
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 16</bibl>
    In the church of <placeName key="place_108162">S. Martin’s, Leicester</placeName>, before the prior of <orgName role="prior" key="org_108034">S. Mary’s, Leicester</orgName>, the archdeacon of <placeName type="archdeanery" role="archdeacon" key="place_106034">Leicester</placeName>, and the bishop of <placeName role="bishop" type="diocese" key="place_100079">Lincoln</placeName>, <persName>Master <forename>Hugh</forename> <surname>Hamelin</surname></persName> seeks a postponement to allow him time to consider the process, of which he has obtained a copy. The case is adjourned till the morrow of All Souls, when the parties are to appear again in the same place.
-   <date when="1268-10-04">1268. <add>4 Oct.</add></date>
+   <date when="1268-10-04">1268. <supplied>4 Oct.</supplied></date>
 </p>
 </div></div>
          
@@ -4011,7 +4011,7 @@ Wednesday after Michaelmas ... proceedings in the appeal between <persName>Maste
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 249</bibl>
-   Sentence of the official of <placeName type="diocese" role="person" key="place_100079">Lincoln</placeName> diocese in a suit of spoliation of the tithes at <placeName key="place_108158">Scaldeford</placeName>, at the instance of the prior &amp;c. of <orgName key="org_108004">D<supplied>aventry</supplied></orgName>, against <persName><forename>Robert</forename> <surname>Garton</surname>, rector of <placeName role="person" key="place_108223">Waltham</placeName></persName>, his brother and others, condemning them to pay 6/- damages and 5 marks less a penny for expenses. Given at <placeName role="date" key="place_104410">Lincoln</placeName>. <date when="1385-05-18">1385. <add>18 May.</add></date>
+   Sentence of the official of <placeName type="diocese" role="person" key="place_100079">Lincoln</placeName> diocese in a suit of spoliation of the tithes at <placeName key="place_108158">Scaldeford</placeName>, at the instance of the prior &amp;c. of <orgName key="org_108004">D<supplied>aventry</supplied></orgName>, against <persName><forename>Robert</forename> <surname>Garton</surname>, rector of <placeName role="person" key="place_108223">Waltham</placeName></persName>, his brother and others, condemning them to pay 6/- damages and 5 marks less a penny for expenses. Given at <placeName role="date" key="place_104410">Lincoln</placeName>. <date when="1385-05-18">1385. <supplied>18 May.</supplied></date>
    <note type="seal">[Seal.]</note>
 </p>
 </div>
@@ -4033,7 +4033,7 @@ Monday after Easter 17 Ed. III [14 April 1343] for 60 years, the said Hugh and M
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 251</bibl>
 <persName><forename>Gilbert</forename> le <surname>Graunt</surname> (<hi rend="italic">not</hi> Grait, as Coxe and T.; nor Graiser, as Macray) of <placeName role="person" key="place_108025">Staverton</placeName></persName> grants to <placeName key="place_108012">D<supplied>aventry</supplied></placeName> in free alms, 1 acre of land near <placeName type="minor">Lorteulle</placeName>. Witnesses: ... <persName><forename>Gilbert</forename> le  <surname>Fraunceis</surname></persName> ... 
-   <date when="1240-04-15">1240. <add>15 April</add></date>
+   <date when="1240-04-15">1240. <supplied>15 April</supplied></date>
 </p>
 </div>
    
@@ -4327,7 +4327,7 @@ Witnesses: <persName><forename>William</forename> de <surname>D<supplied>aventry
 Witnesses: ... Dyne, <persName><forename>John</forename> <surname>Preston</surname> of <placeName role="person" key="place_108037">Newenham</placeName></persName>, 
    <persName><forename>John</forename> <surname>Garlok</surname></persName>, 
    <persName><forename>Richard</forename> <surname>Falclef</surname></persName>. 
-   <date when="1405-03-25">25 March <add>1405.</add></date>
+   <date when="1405-03-25">25 March <supplied>1405.</supplied></date>
 </p>
 </div>
    
@@ -4363,7 +4363,7 @@ Witnesses: ... Dyne, <persName><forename>John</forename> <surname>Preston</surna
    <persName><forename>William</forename> <surname>Sutton</surname></persName> of the same,
    <persName><forename>John</forename> <surname>Perkyn</surname> of <placeName role="person" key="place_108038">Throp</placeName></persName>, 
    <persName><forename>Robert</forename> <surname>Herberd</surname></persName> of the same. 
-   <date when="1421-07-30">30 July <add>1421</add></date>
+   <date when="1421-07-30">30 July <supplied>1421</supplied></date>
 </p>
 </div>
    
@@ -4377,7 +4377,7 @@ Witnesses: ... Dyne, <persName><forename>John</forename> <surname>Preston</surna
    <persName><forename>Henry</forename> <surname>Bakby</surname></persName> of the same, 
    <persName><forename>John</forename> <surname>Brafeld</surname> of <placeName role="person" key="place_108038">Thrope</placeName></persName>, and 
    <persName><forename>Thomas</forename> <surname>Harres</surname></persName> of the same. 
-   Given at <placeName role="date" key="place_108038">Trope</placeName>. <date when="1482-04-03">3 April <add>1482.</add></date>
+   Given at <placeName role="date" key="place_108038">Trope</placeName>. <date when="1482-04-03">3 April <supplied>1482.</supplied></date>
 </p>
 </div>
    
@@ -4385,7 +4385,7 @@ Witnesses: ... Dyne, <persName><forename>John</forename> <surname>Preston</surna
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 113</bibl>
 <persName><forename>William</forename> <surname>Harres</surname></persName> and <persName nymRef="Harres"><forename>Alice</forename> his wife</persName> quit-claim the same two acres to <persName><forename>Richard</forename> <surname>Chaumber</surname></persName> in fee simple. Given at <placeName role="date" key="place_108038">Trope</placeName>.
-   <date when="1482-04-28">28 April <add>1482.</add></date>
+   <date when="1482-04-28">28 April <supplied>1482.</supplied></date>
 </p>
 </div>
    
@@ -4393,7 +4393,7 @@ Witnesses: ... Dyne, <persName><forename>John</forename> <surname>Preston</surna
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 256</bibl>
 <persName><forename>William</forename> <surname>Staverton</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName> grants to <persName><forename>John</forename> <surname>Leeke</surname> of <placeName role="person" key="place_108038">Throp</placeName></persName> and <persName nymRef="Leeke"><forename>Agnes</forename> his wife</persName> a croft in <placeName key="place_108038">Throp</placeName>. [<hi rend="italic">Mutilated and partly illegible.</hi>] 
-   <date when="1486-11-08">8 Nov. <add>1486.</add></date>
+   <date when="1486-11-08">8 Nov. <supplied>1486.</supplied></date>
 </p>
 </div>
    
@@ -4422,7 +4422,7 @@ Witnesses: ... Dyne, <persName><forename>John</forename> <surname>Preston</surna
    <persName><forename>Thomas</forename> <surname>Harres</surname></persName>, 
    <persName><forename>William</forename> <surname>Harres</surname></persName> of the same, 
    <persName><forename>John</forename> <surname>Hele</surname></persName>. 
-   <date when="1487-12-18">18 Dec. <add>1487.</add></date>
+   <date when="1487-12-18">18 Dec. <supplied>1487.</supplied></date>
 </p>
 </div></div>
 
@@ -4432,7 +4432,7 @@ Witnesses: ... Dyne, <persName><forename>John</forename> <surname>Preston</surna
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 258</bibl>
    Indenture made at <placeName role="date" key="place_108038">Thrope besyde D<supplied>aventry</supplied></placeName>, by which <persName><forename>William</forename> <surname>Harryes</surname></persName> grants to <persName><forename>William</forename> <surname>Lane</surname>, prior of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied></orgName></persName>, a tenement with a croft adjoining in <placeName key="place_108038">Thrope</placeName>, and all appurtenances except one bay in the said tenement in which the said William now dwells, for 21 years. Rent: 4/-. [<hi rend="italic">English.</hi>] 
-   <date when="1488-01-16">16 Jan. <add>1488.</add></date>
+   <date when="1488-01-16">16 Jan. <supplied>1488.</supplied></date>
 </p>
 </div></div>
 
@@ -4442,7 +4442,7 @@ Witnesses: ... Dyne, <persName><forename>John</forename> <surname>Preston</surna
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 147</bibl>
 Indenture by which <persName><forename>Isabel</forename> <surname>Brafeld</surname>, widow</persName>, <persName><forename>John</forename> <surname>Colby</surname></persName>, and <persName nymRef="Colby"><forename>Joan</forename> his wife</persName> agree to grant, by fine, feoffment, or recovery, all their lands in <placeName key="place_105534">Thorp</placeName>, <placeName key="place_108019">Norton</placeName>, and <placeName key="place_108031">Welton</placeName>, to <persName><forename>Edmund</forename> <surname>Newenham</surname>, gentleman</persName>, in exchange for 3 messuages lying together in ..., with other lands in <placeName key="place_108019">Norton</placeName> aforesaid. [<hi rend="italic">Mutilated.</hi>] [<hi rend="italic">English.</hi>] 
-   <date when="1491-10-31">31 Oct. <add>1491.</add></date>
+   <date when="1491-10-31">31 Oct. <supplied>1491.</supplied></date>
 </p>
 </div></div>
 
@@ -4460,7 +4460,7 @@ Indenture by which <persName><forename>Isabel</forename> <surname>Brafeld</surna
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 115</bibl>
-   <persName><forename>Henry</forename> <surname>Archer</surname>, clerk, vicar of the church of <placeName role="person" key="place_109521">M[an]devil by Throp</placeName></persName> is bound to <persName><forename>Thomas</forename> <surname>Ilston</surname>, prior, &amp;c., of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied></orgName></persName> in £4 to be paid at Michaelmas, if he does not pay 6/8 a year at Michaelmas. <date when="1504-01-30">30 January <add>1504.</add></date>
+   <persName><forename>Henry</forename> <surname>Archer</surname>, clerk, vicar of the church of <placeName role="person" key="place_109521">M[an]devil by Throp</placeName></persName> is bound to <persName><forename>Thomas</forename> <surname>Ilston</surname>, prior, &amp;c., of <orgName role="prior" key="org_108004">D<supplied>aventry</supplied></orgName></persName> in £4 to be paid at Michaelmas, if he does not pay 6/8 a year at Michaelmas. <date when="1504-01-30">30 January <supplied>1504.</supplied></date>
 </p>
 </div></div>
 
@@ -4499,7 +4499,7 @@ Indenture by which <persName><forename>Isabel</forename> <surname>Brafeld</surna
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 116</bibl>
    In the parish church of <placeName key="place_108175">Bourton Statvir [Burton-upon-Stather, Lincs.]</placeName> before <persName><forename>Gocelin</forename>, canon of Lancaster, commissary general of the bishop of Lincoln</persName> in the cause [&amp;c.]. Hearing postponed till Thur. after Ascension [7 June] in <placeName key="place_108176">All Saints, Northampton</placeName>. 
-   <date when="1291-05-25"><add>25 May</add> 1291.</date>
+   <date when="1291-05-25"><supplied>25 May</supplied> 1291.</date>
 </p>
 </div>
    
@@ -4507,7 +4507,7 @@ Indenture by which <persName><forename>Isabel</forename> <surname>Brafeld</surna
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 117</bibl>
    <persName><forename>Oliver</forename>, bishop of <placeName role="bishop" type="diocese" key="place_100079">Lincoln</placeName></persName>, to <persName>master <forename>Henry</forename> de <surname>Nassington</surname></persName>, his official, committing to him [the same case <supplied>see MS. D. D. Ch. Ch. D. 116</supplied>]. Given at <placeName role="date" key="place_108175">Burton Stathers [Burton-upon-Stather, Lincs.]</placeName>. 
-   <date when="1291-05-25"><add>25 May</add> 1291.</date>
+   <date when="1291-05-25"><supplied>25 May</supplied> 1291.</date>
 </p>
 </div>
    
@@ -4515,7 +4515,7 @@ Indenture by which <persName><forename>Isabel</forename> <surname>Brafeld</surna
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 118</bibl>
    In a case heard before the bishop of Lincoln’s official in the church of <placeName role="date" key="place_108176">All Saints, Northampton</placeName>, between <orgName key="org_108004">D<supplied>aventry</supplied></orgName> (actor) by <persName>master <forename>Roger</forename> de  <surname>Bendone</surname></persName> their proctor, and <persName><forename>John</forename> <surname>Mallory</surname>, lord of <placeName role="lord" type="manor" key="108155">Weltone</placeName></persName>, <persName><forename>Symon</forename> <surname>Tuwe</surname></persName> of the same, <persName><forename>Robert</forename> <surname>Ace</surname></persName>, <persName><forename>Richard</forename> le <surname>Heir</surname></persName>, <persName><forename>Robert</forename> de  <surname>Dunstone</surname></persName>, <persName><forename>Richard</forename> <surname>Martin</surname></persName>, <persName><forename>Richard</forename> the <surname>marshal</surname></persName>, <persName><forename>Henry</forename> son of  <surname>Wille</surname></persName> (<hi rend="italic">sic</hi>) of the same (accused) by <persName><forename>William</forename> de  <surname>Baddeby</surname>, clerk</persName>, their proctor, by reason of burials in the chapel of <placeName key="place_108031">Welton</placeName>. Previous hearing by <persName>bishop of <placeName role="bishop" type="diocese" key="place_100079">Lincoln</placeName></persName> at <placeName key="lace_108221">Bostone Stayers</placeName>. Case postponed to [4 July] in <placeName key="place_108163">S. Margaret’s, Leicester</placeName>.
-   <date when="1291-06-07"><add>7 June</add> 1291.</date>
+   <date when="1291-06-07"><supplied>7 June</supplied> 1291.</date>
 </p>
 </div>
    
@@ -4524,7 +4524,7 @@ Indenture by which <persName><forename>Isabel</forename> <surname>Brafeld</surna
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 119</bibl>
    Similar mandate <supplied>(See MS. D. D. Ch. Ch. D. 118)</supplied>, save that the day fixed is the court-day after S. Edward the King [18 March].
-   <date when="1291-06-07"><supplied><!--Same date.--><add>7 June 1291.</add></supplied></date>
+   <date when="1291-06-07"><supplied><!--Same date.--><supplied>7 June 1291.</supplied></supplied></date>
 Endorsed ’venit Stamforde 6. Non. Oct. [10 Oct.] 1291’, followed by a summary of the letter of acknowledgement. [<hi rend="italic">Partly obliterated.</hi>]
 </p>
 </div>
@@ -4532,7 +4532,7 @@ Endorsed ’venit Stamforde 6. Non. Oct. [10 Oct.] 1291’, followed by a summar
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 120</bibl>
-   Mandate of the official of the court of Canterbury to the Bishop of <placeName type="diocese" role="person" key="">Lincoln</placeName>’s Official, to cite the prior, &amp;c., of <orgName key="org_108004">D<supplied>aventry</supplied></orgName> to appear at the <orgName key="org_109051">court of the Arches</orgName> on the next court-day after S. Andrew [30 Nov.] since the proctor of <persName><forename>John</forename> <surname>Maulore</surname></persName> [&amp;c.] has complained [&amp;c.]. <date when="1291-08-10"><add>10 Aug.</add> 1291.</date>
+   Mandate of the official of the court of Canterbury to the Bishop of <placeName type="diocese" role="person" key="">Lincoln</placeName>’s Official, to cite the prior, &amp;c., of <orgName key="org_108004">D<supplied>aventry</supplied></orgName> to appear at the <orgName key="org_109051">court of the Arches</orgName> on the next court-day after S. Andrew [30 Nov.] since the proctor of <persName><forename>John</forename> <surname>Maulore</surname></persName> [&amp;c.] has complained [&amp;c.]. <date when="1291-08-10"><supplied>10 Aug.</supplied> 1291.</date>
 Endorsed: ’Venit apud Norht’. 7 Ides Novembrie 1291’ [7 Nov.]. [<hi rend="italic">Partly obliterated.</hi>]
 </p>
 </div>
@@ -4542,7 +4542,7 @@ Endorsed: ’Venit apud Norht’. 7 Ides Novembrie 1291’ [7 Nov.]. [<hi rend="
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 121</bibl>
    Mandate from the dean of the <orgName key="org_109051">Arches</orgName> to the bishop of <placeName type="diocese" role="person" key="place_100079">Lincoln</placeName>’s official [as MS. D. D. Ch. Ch. D. 120]. 
    Given at <placeName role="date" key="place_100051">London</placeName>. 
-   <date when="1291-10-23"><add>23 Oct.</add> 1291.</date>
+   <date when="1291-10-23"><supplied>23 Oct.</supplied> 1291.</date>
 </p>
 </div>
    
@@ -4550,7 +4550,7 @@ Endorsed: ’Venit apud Norht’. 7 Ides Novembrie 1291’ [7 Nov.]. [<hi rend="
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 122</bibl>
    The bishop of <placeName type="diocese" role="bishop" key="place_100079">Lincoln</placeName>’s official acknowledges a mandate from the official of the <orgName key="org_109051">court of Canterbury</orgName> received on 7 Ides. Nov. [see D. 120]. He has cited them to appear on the next law-day after S. Andrew the Apostle. Given at <placeName role="date" key="place_100051">London</placeName>. 
-   <date when="1291-11-28"><add>28 Nov.</add> 1291.</date>
+   <date when="1291-11-28"><supplied>28 Nov.</supplied> 1291.</date>
 </p>
 </div>
    
@@ -4559,7 +4559,7 @@ Endorsed: ’Venit apud Norht’. 7 Ides Novembrie 1291’ [7 Nov.]. [<hi rend="
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. 123</bibl>
    Mandate from the dean of the <orgName key="org_109051">Arches</orgName> to the bishop of <placeName type="diocese" role="person" key="place_100079">Lincoln</placeName>’s official, to do justice notwithstanding the inhibition of the court of Canterbury.
    Given at <placeName role="date" key="place_100051">London</placeName>. 
-   <date when="1291-12-07"><add>7 Dec.</add> 1291.</date>
+   <date when="1291-12-07"><supplied>7 Dec.</supplied> 1291.</date>
 </p>
 </div>
    
@@ -4570,7 +4570,7 @@ Endorsed: ’Venit apud Norht’. 7 Ides Novembrie 1291’ [7 Nov.]. [<hi rend="
 <pb n="118"/>
 at <placeName role="date" key="place_100051">London</placeName> <date when="1294-04-10">[10 April] 1294</date>. 
    The Dean has executed this mandate, but <persName><forename>John</forename> <surname>Maulore</surname></persName> and <persName><forename>Henry</forename> <surname>Slay</surname></persName> are now dead. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied></placeName>. 
-   <date when="1294-04-21"><add>21 April</add> 1294.</date>
+   <date when="1294-04-21"><supplied>21 April</supplied> 1294.</date>
 </p>
 </div>
    
@@ -4930,9 +4930,9 @@ Notes used in the <placeName key="place_108031">Welton</placeName> case, ’Inte
 </p>
 </div></div>
 
-<div type="collection"><pb n="123"/>
+<div type="collection">
    <head><placeName key="place_108031">Welton</placeName> and <placeName key="place_108001">Ashby St. Ledgers</placeName>.</head>
-
+<pb n="123"/>
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 268</bibl>
@@ -4985,7 +4985,7 @@ Notes used in the <placeName key="place_108031">Welton</placeName> case, ’Inte
    <persName><forename>John</forename> <surname>Freend</surname></persName>, 
    <persName><forename>John</forename> <surname>Fauclyf</surname></persName>,
    John ...barde. 
-   <date when="1401-06-15">15 June <add>1401.</add></date>
+   <date when="1401-06-15">15 June <supplied>1401.</supplied></date>
 </p>
 </div>
    
@@ -4997,7 +4997,7 @@ Notes used in the <placeName key="place_108031">Welton</placeName> case, ’Inte
    ... Ingelond junior, 
    <persName><forename>Henry</forename> <surname>Ingelond</surname></persName>, 
    <persName><forename>John</forename> o’ the <surname>Hille</surname></persName>. 
-   <date when="1419-02">.. February <add>1419.</add></date>
+   <date when="1419-02">.. February <supplied>1419.</supplied></date>
 </p>
 </div>
    
@@ -5014,8 +5014,8 @@ Notes used in the <placeName key="place_108031">Welton</placeName> case, ’Inte
 </p>
 </div>
    
-<pb n="124"/>
-<div type="charter">
+
+<div type="charter"><pb n="124"/>
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 62a</bibl>
 <persName><forename>Henry</forename> <surname>Eyr</surname> of <placeName role="person" key="place_108031">Welton</placeName></persName> grants to —— <persName><surname>Brown</surname>, chaplain</persName>, of the same, for a certain sum of money, all his goods movable and immovable in a messuage and virgate of land in <placeName key="place_108031">Welton</placeName>. Given at <placeName role="date" key="place_108031">W<supplied>elton</supplied></placeName>. 
@@ -5063,7 +5063,7 @@ Notes used in the <placeName key="place_108031">Welton</placeName> case, ’Inte
    <persName><forename>William</forename> <surname>Brokhole</surname></persName>, 
    <persName><forename>Richard</forename> <surname>Ynglond</surname></persName>, 
    <persName><forename>John</forename> <surname>Othehulle</surname> of <placeName role="person" key="place_108031">Welton</placeName></persName>. 
-   <date when="1441-02-10">10 Feb. <add>1441.</add></date>
+   <date when="1441-02-10">10 Feb. <supplied>1441.</supplied></date>
 Seal.
 </p>
 </div>
@@ -5076,7 +5076,7 @@ Seal.
    <persName><forename>John</forename> <surname>Warde</surname></persName>, 
    <persName><forename>John</forename> <surname>Gybbe</surname></persName>, 
    <persName><forename>Thomas</forename> <surname>Othehulle</surname></persName>.
-   <date when="1449-10-08">8 Oct. <add>1449.</add></date>
+   <date when="1449-10-08">8 Oct. <supplied>1449.</supplied></date>
 </p>
 </div>
    
@@ -5090,7 +5090,7 @@ Seal.
    <persName><forename>Thomas</forename> <surname>Othehulle</surname></persName>, 
    <persName><forename>John</forename> <surname>Warde</surname></persName>, 
    <persName><forename>John</forename> <surname>Gybbe</surname> of <placeName role="person" key="place_108031">W<supplied>elton</supplied></placeName></persName>. 
-   <date when="1449-10-08">8 Oct. <add>1449.</add></date>
+   <date when="1449-10-08">8 Oct. <supplied>1449.</supplied></date>
 </p>
 </div>
    
@@ -5114,7 +5114,7 @@ Seal.
    <persName><forename>Henry</forename> <surname>Warde</surname></persName> of the same, 
    <persName><forename>Thomas</forename> <surname>Spycer</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied></placeName></persName>, 
    <persName><forename>Roger</forename> <surname>Debell</surname></persName> of the same. Given at <placeName role="date" key="place_108031">W<supplied>elton</supplied></placeName>.
-   <date when="1474-06-12">12 June <add>1474.</add></date>
+   <date when="1474-06-12">12 June <supplied>1474.</supplied></date>
 </p>
 </div>
    
@@ -5127,7 +5127,7 @@ Seal.
    <persName><forename>William</forename> <surname>Warde</surname></persName>, 
    <persName><forename>Richard</forename> <surname>Farman</surname></persName>, 
    <persName><forename>Thomas</forename> <surname>Brygge</surname></persName>. [<hi rend="italic">Mutilated.</hi>] 
-   <date when="1481-01-12">12 Jan. <add>1481.</add></date>
+   <date when="1481-01-12">12 Jan. <supplied>1481.</supplied></date>
 </p>
 </div>
    
@@ -5136,7 +5136,7 @@ Seal.
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 272</bibl>
 <persName><forename>Robert</forename> <surname>Shawe</surname></persName> grants to <persName><forename>William</forename> <surname>Catesby</surname>, esq.</persName>, <persName><forename>Edmund</forename> <surname>Newenham</surname></persName>, <persName><forename>William</forename> <surname>Staverton</surname></persName>, and <persName><forename>Henry</forename> <surname>Gryffythe</surname></persName> one messuage, 22½ acres of land, and one swathe in <placeName key="place_108031">Welton</placeName>, and appoints <persName><forename>Henry</forename> <surname>Warde</surname></persName> his attorney to deliver seisin. 
    Witnesses: ... <persName><forename>William</forename> <surname>Perkyns</surname></persName>. 
-   <date when="1483-04-01">1 April <add>1483.</add></date>
+   <date when="1483-04-01">1 April <supplied>1483.</supplied></date>
 </p>
 </div>
     
@@ -5161,7 +5161,7 @@ Quit-claim to <persName><forename>William</forename> <surname>Catesbye</surname>
 <p>
 <bibl type="shelfmark">MS. Ch. Northants. Daventry 263</bibl>
    <persName><forename>William</forename> atte <surname>Wodecote</surname></persName> quit-claims to Henry ... his estate in a certain land called ’<placeName type="minor">le Torree</placeName>’. Given at <placeName role="date" key="place_108031">Walton</placeName>. [<hi rend="italic">Partially effaced.</hi>]
-   <date>40 Ed. III.</date>
+   <date notBefore="1366-01-25" notAfter="1367-01-24">40 Ed. III.</date>
 </p>
 </div>
    
@@ -5187,7 +5187,7 @@ Fragment of a charter settling a dispute about lands in <placeName key="place_10
 Indenture by which <persName><forename>Robert</forename>, prior</persName>, &amp;c., of <orgName key="org_108004">D<supplied>aventry</supplied></orgName> demise to Hugh ... and Margaret his wife, a messuage with curtilage adjoining in <placeName key="place_108031">Welton</placeName>, for the term of their lives and that of Agnes their daughter. 
    Witnesses: <persName><forename>John</forename> <surname>Wyllughby</surname></persName>, 
    <persName><forename>Robert</forename> <surname>Barker</surname></persName>, ... [<hi rend="italic">Mutilated and partly illegible.</hi>] 
-   <date when="1440">... Michaelmas <add>1440.</add></date>
+   <date when="1440">... Michaelmas <supplied>1440.</supplied></date>
 </p>
 </div>
    
@@ -5437,7 +5437,7 @@ de <surname>Watford</surname></persName> for homage and service.
    <persName><forename>John</forename> <surname>Ywe</surname></persName>,
    <persName><forename>John</forename> <surname>Sylcoke</surname></persName>,
    <persName><forename>Thomas</forename> <surname>Thomas</surname> de <placeName role="person" key="place_108032">W<supplied>est</supplied> H<supplied>addon</supplied></placeName></persName>. 
-   <date when="1423-11-18">18 Nov. <add>1423.</add></date>
+   <date when="1423-11-18">18 Nov. <supplied>1423.</supplied></date>
 </p>
 </div>
    
@@ -5450,13 +5450,13 @@ de <surname>Watford</surname></persName> for homage and service.
    <persName><forename>John</forename> <surname>Grane</surname></persName>, 
    <persName><forename>Peter</forename> <surname>Wyrcet’ Webbe</surname></persName>, 
    <persName><forename>Richard</forename> <surname>Moccote</surname></persName>.
-   <date when="1448-06-05">5 June <add>1448.</add></date>
+   <date when="1448-06-05">5 June <supplied>1448.</supplied></date>
 </p>
 </div></div>
  
-<div type="collection"><pb n="130"/>
+<div type="collection">
 <head type="collection"><hi rend="italic">Court Rolls, Rentals, and Account Rolls</hi><lb/>D. R. 1–18.</head>
-<div type="charter">
+<pb n="130"/><div type="charter">
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. R. 1</bibl>
    One membrane of a late 13th-century extent of the <orgName key="org_108004"><supplied>Daventry</supplied> Priory</orgName> lands. [<hi rend="italic">Partly illegible.</hi>]
@@ -5483,7 +5483,7 @@ A rental dealing with <placeName key="place_108012">Daventry</placeName>, <place
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. R. 3</bibl>
-Memoranda of services and rents of the priory [<gap/>] <date>Hen. VI.</date>, <date>1 and 2 Rich. III</date>, and <date>1 Hen. VII</date> in <placeName key="place_108012">Daventry</placeName>, <placeName key="place_108013">Drayton</placeName>, <placeName key="place_108019">Norton</placeName>, <placeName key="place_108031">Welton</placeName> and <placeName key="place_108025">Staverton</placeName>. 
+Memoranda of services and rents of the priory [<gap/>] <date notAfter="1461" notBefore="1422">Hen. VI.</date>, <date notBefore="1483" notAfter="1485">1 and 2 Rich. III</date>, and <date notBefore="1485-08-22" notAfter="1486-08-21">1 Hen. VII</date> in <placeName key="place_108012">Daventry</placeName>, <placeName key="place_108013">Drayton</placeName>, <placeName key="place_108019">Norton</placeName>, <placeName key="place_108031">Welton</placeName> and <placeName key="place_108025">Staverton</placeName>. 
    <note type="material">(Much injured by damp, originally a book about 8″×4″ with paper leaves, and parchment cover formed out of a sheet of music.)</note> <!--CHK if this is correct encoding-->
 </p>
 </div>
@@ -5500,7 +5500,7 @@ Terrier of lands in the west, north, and east fields of D. [3 ms.]
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. R. 8</bibl>
    View of Frankpledge of <placeName key="place_108157">Everdon</placeName>, held at <orgName key="org_108004">D<supplied>aventry</supplied></orgName>. 
-   <date>6, 11, and 13–26 Edward III</date>. [<hi rend="italic">Torn and partly illegible.</hi>] (8 ms.)
+   <date notAfter="1353" notBefore="1332">6, 11, and 13–26 Edward III</date>. [<hi rend="italic">Torn and partly illegible.</hi>] (8 ms.)
 </p>
 </div>
          
@@ -5532,7 +5532,7 @@ Terrier of priory lands in the [?north] field of <orgName key="org_108004">D<sup
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. R. 6</bibl>
-   Incomplete terrier of the <orgName key="org_108004"><supplied>Daventry</supplied> priory</orgName> lands. <date>14 Hen. VII.</date>
+   Incomplete terrier of the <orgName key="org_108004"><supplied>Daventry</supplied> priory</orgName> lands. <date notBefore="1498-08-22" notAfter="1499-08-21">14 Hen. VII.</date>
 </p>
 </div>
           
@@ -5540,7 +5540,7 @@ Terrier of priory lands in the [?north] field of <orgName key="org_108004">D<sup
 <div type="charter">
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. R. 9</bibl>
-View of Frankpledge held at <placeName key="place_101031">Fawsley</placeName>. <date>21 Ed. III.–27 Ed. III.</date> 
+View of Frankpledge held at <placeName key="place_101031">Fawsley</placeName>. <date notBefore="1347" notAfter="1354">21 Ed. III.–27 Ed. III.</date> 
    (8 membranes: much of nos. 1 and 2 illegible: no 3 is an estreat roll.)
 </p>
 </div>
@@ -5550,14 +5550,14 @@ View of Frankpledge held at <placeName key="place_101031">Fawsley</placeName>. <
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. R. 10</bibl>
    Court roll of the <orgName key="org_108004"><supplied>Daventry</supplied> Priory</orgName>, comprising the View of Frankpledge and the ’parva curia’ at <placeName key="place_108019">Norton</placeName>.
 Dates:
-<date>10 Oct. 4 Hen. VI.</date>
-<date>4 May 4 Hen. VI.</date>
-<date>23 Oct. 5 Hen. VI.</date>
-<date>13 May 5 Hen. VI.</date>
-<date>24 Oct. 6 Hen. VI.</date>
-<date>21 April 6 Hen. VI.</date>
-<date>3 Dec. 7 Hen. VI.</date>
-<date>23 April 7 Hen. VI.</date>
+<date when="1425-10-10">10 Oct. 4 Hen. VI.</date>
+<date when="1426-05-04">4 May 4 Hen. VI.</date>
+<date when="1426-10-23">23 Oct. 5 Hen. VI.</date>
+<date when="1427-05-13">13 May 5 Hen. VI.</date>
+<date when="1427-10-24">24 Oct. 6 Hen. VI.</date>
+<date when="1428-04-21">21 April 6 Hen. VI.</date>
+<date when="1428-12-03">3 Dec. 7 Hen. VI.</date>
+<date when="1429-04-23">23 April 7 Hen. VI.</date>
 </p>
 </div>
           
@@ -5565,10 +5565,10 @@ Dates:
 <p>
 <bibl type="shelfmark">MS. D. D. Ch. Ch. D. R. 11</bibl>
    View of Frankpledge of <placeName key="place_108157">Everdone</placeName> held at <orgName key="org_108004">D<supplied>aventry</supplied></orgName>, and the ’parva curia’ of <placeName key="place_108019">Norton</placeName> held at <orgName key="org_108004">D<supplied>aventry</supplied></orgName>.
-<date>14 May 16 Ed. IV.</date>
-<date>18 Oct. 20 Ed. IV.</date>
-<date>21 Oct. 21 Ed. IV.</date>
-<date>24 Oct. 22 Ed. IV.</date> (Norton only.)
+<date when="1476-05-14">14 May 16 Ed. IV.</date>
+<date when="1480-10-18">18 Oct. 20 Ed. IV.</date>
+<date when="1481-10-21">21 Oct. 21 Ed. IV.</date>
+<date when="1482-10-24">24 Oct. 22 Ed. IV.</date> (Norton only.)
 (2 ms., on paper, in one hand throughout.)
 </p>
 </div>

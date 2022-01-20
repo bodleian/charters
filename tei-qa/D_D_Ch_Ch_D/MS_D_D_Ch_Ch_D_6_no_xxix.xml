@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700175">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. D. 6, no. xxix</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_D_6_no_xxix</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_D_6_no_xxix" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. D. 6, no. xxix</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_109253">Drayton</placeName>.<lb/>
+      (i) <hi rend="italic">Various grants.</hi>
+
+                        <persName>
+                           <forename>Isabella</forename>, widow of <persName>
+                              <forename>Adam</forename> le <surname>Somenour</surname>
+                           </persName> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
+                           </placeName>
+                        </persName>, sells to <persName>
+                           <forename>John</forename> de  <surname>Braudestone</surname> of <placeName role="person" key="place_108012">D<supplied>aventry</supplied>
+                           </placeName>
+                        </persName>, ½ acre of land in the north field of <placeName key="place_108013">Drayton</placeName>, lying above <placeName type="minor">Russchebedds</placeName>, by <persName>
+                           <forename>William</forename> le  <surname>Rede</surname>
+                        </persName>’s land, which fell to her after the death of her elder sister, the wife of <persName>
+                           <forename>Robert</forename> de <surname>Welton</surname>
+                        </persName>. Given at <placeName role="date" key="place_108012">D<supplied>aventry</supplied>
+                        </placeName>. 
+   Witnesses: <persName>
+                           <forename>John</forename> de <surname>pistrino</surname>
+                        </persName>, 
+   <persName>
+                           <forename>William</forename> de <surname>Stavertone</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Robert</forename> 
+                           <surname>Symond</surname>
+                        </persName>, 
+   <persName>
+                           <foreign>William</foreign> de <surname>aula</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Bawdewyne</surname>
+                        </persName> of D<supplied>aventry</supplied>, 
+   <persName>
+                           <foreign>Richard</foreign> the <surname>smith</surname>
+                        </persName>, 
+   <persName>
+                           <forename>John</forename> 
+                           <surname>Adam</surname> of <placeName role="person" key="place_108184">Braudestone</placeName>
+                        </persName>. 
+   <origDate when="1333-11-30">Monday, S. Andrew’s day, 7 Ed. III.</origDate> (In 7 Ed. III S. Andrew’s day, 30 Nov. 1333, fell upon a Tuesday.)
+   <!--<note type="foot" n="1">In 7 Ed. III S. Andrew’s day, 30 Nov. 1333, fell upon a Tuesday.</note>-->
+</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="85" to="85">85</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

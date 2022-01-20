@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800012">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 1</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_1</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_1" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107027">Clapcote</placeName>.
+                            
+                            <persName nymRef="Clopcote">
+                           <forename>Stephen</forename> son of <persName>
+                              <forename>Richard</forename> de <surname>Clopcote</surname>
+                           </persName>
+                        </persName> grants to <persName>
+                           <forename>Joan</forename>, late the <surname type="patronymic">daughter of John</surname>
+                        </persName> his son, for her service, 2 acres of arable land in <placeName key="place_107027">C<supplied>lapcote</supplied>
+                        </placeName> of which ½ acre lies at <placeName type="minor">Stanidelf</placeName> between the land of <persName>
+                           <forename>Henry</forename> de <surname>Furns</surname>
+                        </persName> and that of <persName nymRef="Basing">
+                           <forename>John</forename> son of <persName>
+                              <forename>Nicholas</forename> de <surname>Basing</surname>
+                           </persName>
+                        </persName>, ½ acre at <placeName type="minor">Sunenhelve</placeName> on the south of <persName>Sir <forename>Stephen</forename> de <surname>Cheynduit</surname>
+                        </persName>’s land, ½ acre between the said Sir S. de C.’s land and that of H. de F., towards the north in the shot called <placeName type="minor">Hilond</placeName>, and ½ acre at <placeName type="minor">Vifaker</placeName>. Rent: 6<hi rend="italic">d.</hi> 
+                            Witnesses: <persName>
+                           <forename>Nicholas</forename> de <surname>Stall[is]</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Alexander</forename> de <surname>Stall[is]</surname>
+                        </persName>, 
+                            <persName nymRef="Basinges">
+                           <forename>John</forename> fitz-<persName>
+                              <forename>Nicholas</forename> de <surname>Basinges</surname>
+                           </persName>
+                        </persName>,
+                            <persName>
+                           <forename>Simon</forename> de <surname>Basinges</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>William</forename> de <surname>aula</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Henry</forename> 
+                           <surname type="patronymic">fitz-Yvo</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Henry</forename> son of <surname>Walter</surname>
+                        </persName> West,
+                            <persName>
+                           <forename>Peter</forename> 
+                           <surname>Ywun</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Henry</forename> de la <surname>Barre</surname>
+                        </persName>,
+                            <persName nymRef="West">
+                           <forename>Robert</forename> son of <persName>
+                              <forename>Walter</forename> 
+                              <surname>West</surname>
+                           </persName>
+                        </persName>, 
+                            <persName>
+                           <forename>William</forename> the <surname>clerk</surname>
+                        </persName>. 
+                            <origDate when="1235" precision="low">
+                           <supplied>c. 1235.</supplied>
+                        </origDate>
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Wallingford Priory [Berks.]</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="135" to="135">135</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

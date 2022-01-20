@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800107">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 38</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_38</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_38" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 38</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107095">Claydon (Bucks. <supplied resp="#TA">recte Oxon.</supplied>)</placeName>.<lb/>M.
+        37–43..
+                         
+                        <persName>
+                           <forename>Richard</forename> son of <persName>
+                              <forename>Anselm</forename> of <surname>Grimescote</surname>
+                           </persName>
+                        </persName> grants to <orgName key="org_107014">St. L<supplied>eonard’s</supplied>
+                        </orgName> in free alms land in <placeName key="place_107095">C<supplied>laydon</supplied>
+                        </placeName> which they formerly held from him at farm, i.e. (i) the land once held by <persName>
+                           <forename>Walter</forename> 
+                           <surname type="patronymic">son of John</surname>
+                        </persName> in villeinage, (ii) a virgate which Ailwyn once held from the grantor in villeinage. 
+                        Witnesses: <persName>Sir <forename>Thomas</forename> de <surname>Arderne</surname> of <placeName role="person" key="place_108090">Hanewelle</placeName>
+                        </persName>, 
+                        <persName>Sir <forename>John</forename> 
+                           <surname type="patronymic">fitz-Guydo</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Hugh</forename> of <surname>Bereford</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Walter</forename> le <surname>honorable</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Simon</forename> of <surname>Cropp</surname>
+                        </persName>’,
+                        <persName>master <forename>Thomas</forename> of <surname>Molintone</surname>
+                        </persName>,
+                        <persName nymRef="Molintone">William his brother</persName>, 
+                        <persName>
+                           <forename>Lawrence</forename> of <surname>Herdewic</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Nicholas</forename> of <surname>Palsynton</surname>
+                        </persName>,
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Waudard</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Henry</forename> 
+                           <surname>Gadone</surname>
+                        </persName>. 
+                        <origDate notBefore="1210" notAfter="1220" precision="low">
+                           <supplied>c. 1210–c. 1220.</supplied>
+                        </origDate>
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of St. Leonard’s, Clattercote (Oxon.)
+                    </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

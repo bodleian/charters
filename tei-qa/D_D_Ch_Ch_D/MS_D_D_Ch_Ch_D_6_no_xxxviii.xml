@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700157">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. D. 6, no. xxxviii</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_D_6_no_xxxviii</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_D_6_no_xxxviii" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. D. 6, no. xxxviii</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_109253">Drayton</placeName>.<lb/>
+      (i) <hi rend="italic">Various grants.</hi>
+
+                        <persName>
+                           <forename>Thomas</forename> le <surname>Escriven</surname> of <placeName role="person" key="place_108013">Drayton</placeName>
+                        </persName>, for the soul of <persName nymRef="Escriven">
+                           <forename>Adeline</forename> his mother</persName>, &amp;c., grants to <orgName key="org_108004">D<supplied>aventry</supplied> and the chapel of S. Mary</orgName> 12d. rent, viz. 6d. from his capital messuage in <placeName key="place_108013">Drayton</placeName>, by <persName>
+                           <forename>William</forename> de  <surname>Preston</surname>
+                        </persName>’s messuage, and 6d. from a tenement in the same vill called <placeName type="minor">Schulcroft</placeName>. 
+   Witnesses: <persName>
+                           <forename>Walter</forename> de <surname>Walwardyngtone</surname>
+                        </persName>,
+   <persName>
+                           <forename>William</forename> 
+                           <surname>Gemme</surname>
+                        </persName>,
+   <persName>
+                           <forename>Geoffrey</forename> le <surname>portere</surname>
+                        </persName>,
+   <persName>
+                           <forename>Henry</forename> the <surname>smith</surname>
+                        </persName>,
+   <persName>
+                           <forename>William</forename> 
+                           <surname>Plumstone</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Richard</forename> de <surname>Bowdone</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Henry</forename> de <surname>Bukkeby</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Richard</forename> 
+                           <surname>Scop</surname>
+                        </persName>, 
+   <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Gaunt</surname>
+                        </persName>.
+   <origDate when="1250">
+                           <supplied>1250.</supplied>
+                        </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

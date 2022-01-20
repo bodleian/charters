@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_700233">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Northants. Daventry 82b</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Northants_Daventry_82b</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Northants_Daventry_82b" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  
+                  
+                  <idno type="shelfmark">MS. Ch. Northants. Daventry 82b</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_108037">Newenham</placeName>.
+
+Partition of the lands of <persName>
+                           <forename>William</forename> 
+                           <surname>Freman</surname> in <placeName role="person" key="place_108037">N<supplied>ewenham</supplied>
+                           </placeName>
+                        </persName> between the said <persName nymRef="Freman">
+                           <forename>William</forename>
+                        </persName> and  <persName nymRef="Freman">
+                           <forename>Henry</forename>
+                        </persName> his son, by the view, discretion, and advice of <persName>
+                           <forename>Henry</forename> 
+                           <surname>Colyns</surname>, chaplain</persName>, <persName>
+                           <forename>William</forename> 
+                           <surname>West</surname>
+                        </persName>, <persName>
+                           <forename>John</forename> 
+                           <surname>West</surname>
+                        </persName>, <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Muleward</surname>
+                        </persName> and the said <persName>
+                           <forename>William</forename> and <surname>Henry</surname>
+                        </persName>: William shall have (i) ½ ac. above <placeName type="minor">Stonehulle</placeName>, (ii) ½ ac. above <placeName type="minor">Langdurenhulle</placeName> and the butt above <placeName type="minor">Haysythe</placeName>, (iii) ½ ac. above <placeName type="minor">Coksythe</placeName>, (iv) ½ ac. above <placeName type="minor">Clerkespath</placeName> and a virgate above <placeName type="minor">Langedone</placeName>, (v) ½ ac. under <placeName type="minor">D<supplied>aventry</supplied> wood</placeName>, (vi) ½ ac. above <placeName type="minor">Prentchegge</placeName>, one <placeName type="minor">Halfyerde under Norton wode</placeName>, (vii) 2 virgates of <placeName type="minor">Wythybed</placeName>, (viii) ½ ac. of <placeName type="minor">Middelforlong</placeName>, (ix) ½ ac. above <placeName type="minor">Holewellhulle</placeName>, (x) ½ ac. above <placeName type="minor">Scottesthorn</placeName>, (xi) ½ ac. above <placeName type="minor">Redlangedone</placeName>, (xii) 1 butt above <placeName type="minor">Edernstub</placeName>, (xiii) 1 virgate at <placeName type="minor">Horewey</placeName>, (xiv) ½ ac. called <placeName type="minor">Betwyxlangelonde</placeName>, (xv) ½ ac. above <placeName type="minor">Waterforlong</placeName>, (xvi) 1 virgate above <placeName type="minor">Coppudmore near the butt of Aldewynbuttes</placeName>, (xvii) 1 butt above <placeName type="minor">Berehullemershe</placeName>, (xviii) 1 virgate ’betwyn the Sythes’, (xix) ½ ac. above <placeName type="minor">Radewey</placeName>, (xxi) ½ ac. above <placeName type="minor">Janekynesgalle</placeName>, (xxii) 1 virgate of <placeName type="minor">Longelanglonde</placeName> with half the mill. <origDate when="1403-02-01">
+                           <supplied>1 Feb. 1403.</supplied>
+                        </origDate>
+Henry shall have (‘sibi per lottum contingent’), (i) ½ ac. above <placeName type="minor">Lyttulehulle</placeName>, (ii) ½ ac. above <placeName type="minor">Wonelond</placeName>, (iii) ½ ac. above <placeName type="minor">Knanethorn</placeName>, (iv) ½ ac. above <placeName type="minor">Holewey</placeName>, (v) ½ ac. and 1 virgate above <placeName type="minor">Hemersyche</placeName>, (vi) ½ ac. above <placeName type="minor">Northlanglorde</placeName>, (vii) ½ ac. above <placeName type="minor">Musforlong</placeName>, (viii) ½ ac. above <placeName type="minor">Blakewell</placeName>, (ix) ½ ac. above <placeName type="minor">Flexhulle</placeName>, (x) 1 ac. above <placeName type="minor">Addeford</placeName>, (xi) ½ ac. above <placeName type="minor">Barellond</placeName>, (xii) 1 virgate above <placeName type="minor">Cruldyche</placeName>, (xiii) ½ ac. above <placeName type="minor">Catewell</placeName>, (xiv) ½ ac. above <placeName type="minor">Murlong</placeName>, (xv) ½ ac. at the <placeName type="minor">More</placeName>, (xvi) 2 butts above
+<pb n="98"/>
+                        <placeName type="minor">Watreforlong</placeName>, (xvii) 1 virg. of <placeName type="minor">Mulnehulle</placeName>, (xviii) ½ ac. above <placeName type="minor">Blachemondlond</placeName>, (xix) ½ ac. above <placeName type="minor">Lynto</placeName>, (xx) 1 virgate over <placeName type="minor">Dodeford</placeName>, (xxi) 1 virgate over <placeName type="minor">Muklehegge</placeName>, (xxii) 1 virgate over <placeName type="minor">le Stones</placeName> by the virgate of <placeName type="minor">Langedone</placeName>. (xxiii) ½ ac. over <placeName type="minor">Mulewelle forlong</placeName>, (xxiv) 1 long virgate over <placeName type="minor">Langedone</placeName>, (xxv) ½ ac. over <placeName type="minor">Janekyns galle</placeName> with half the said mill. 
+   Given at <placeName role="date" key="place_108037">Newenham</placeName>.  <origDate when="1403-02-01">
+                           <supplied>1 Feb. 1403.</supplied>
+                        </origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Daventry Priory.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to="98">-98</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

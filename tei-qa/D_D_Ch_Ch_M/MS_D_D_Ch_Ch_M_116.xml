@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800210">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 116</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_116</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_116" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 116</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107099">Broughton.</placeName>.
+                             
+                            The rectors of <placeName key="place_108134">Bolton in Lowland</placeName> and <placeName key="place_108049">Marton in Craven</placeName> have, on the receipt of letters from <persName>
+                           <forename>John</forename> archbishop of <placeName role="archbishop" type="diocese" key="place_103029">York</placeName>
+                        </persName> (given at his manor of <placeName type="manor" key="place_108048">Ripon</placeName>, 21 Aug. 1442), ascertained by inquisition in the church of <placeName key="place_103347">Skipton</placeName> (27 Aug. 1442) that the church of <placeName role="church" key="place_107099">Broughton</placeName> which <persName>
+                           <forename>John</forename> 
+                           <surname>Thewayt</surname> Esq.</persName> wished to give to the <orgName key="org_103008">priory of B<supplied>olton</supplied>
+                        </orgName>, is worth, in land, 40/-, and in tithes &amp;c. £13/6/4: that it should pay to the archbishop 14/2, to the King for a tenth 20/6, and that there are many burdens which they cannot estimate. [Items composing the tithes &amp;c. are specified.] 
+                            Names of the jurors: <persName>
+                           <forename>Richard</forename> 
+                           <surname>More</surname>, vicar of <placeName role="vicar" key="place_108047">Preston in Craven</placeName>
+                        </persName>,
+                            <persName>
+                           <forename>Robert</forename> 
+                           <surname>Newall</surname>, vicar of <placeName role="vicar" key="place_103306">Otlay</placeName>
+                        </persName>,
+                            <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Ben</surname>’, vicar of <placeName role="vicar" key="place_108050">Carlton in Craven</placeName>
+                        </persName>,
+                            <persName>
+                           <forename>John</forename> 
+                           <surname>Kirkby</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Richard</forename> 
+                           <pb n="177"/> 
+                           <surname>Pacok</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>William</forename> 
+                           <surname>Welle</surname>
+                        </persName>’, chaplains;
+                            <persName>
+                           <forename>William</forename> 
+                           <surname>Garegrave</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Richard</forename> 
+                           <surname>Pudsay</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Henry</forename> 
+                           <surname>Young</surname>
+                        </persName>,
+                            <persName>
+                           <forename>John</forename> 
+                           <surname>Alcok</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>John</forename> 
+                           <surname>Calio</surname>
+                        </persName>’, 
+                            <persName>
+                           <forename>William</forename> 
+                           <surname>Ben</surname>
+                        </persName>’, laymen. 
+                            Given at <placeName role="date" key="place_103347">Skipton</placeName>. 
+                            <origDate when="1442-08-27">
+                           <supplied>27 Aug. 1442.</supplied>
+                        </origDate> 
+                            
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Priory of Bolton-in-Craven (Yorks.)</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to="177">-177</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600041">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. F. 41</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_F_41</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_F_41" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. F. 41</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_109432">Oxford, St. Michael's, South</placeName>
+                        <persName nymRef="Sutton"><forename>Matilda</forename>, widow of <persName><forename>Richard</forename> of <surname>Sutton</surname></persName></persName>, grants to <persName><forename>John</forename> the <surname>weaver</surname></persName>, a messuage between the land of R. de S. and that of <persName><forename>Geoffrey</forename> the 
+                        <pb n="27"/> <surname>goldsmith</surname></persName>. 
+                        Witnesses: <persName><forename>Nicholas</forename> of <surname>Stocwelle</surname>, mayor</persName>,
+                        <persName><forename>John</forename> of <surname>Colleshulle</surname></persName>,
+                        <persName><forename>Geoffrey</forename> le <surname>Mercer</surname></persName>, reeves,
+                        <persName><forename>William</forename> of <surname>Stodlee</surname></persName>, 
+                        <persName><forename>Geoffrey</forename> the <surname>goldsmith</surname></persName>, 
+                        <persName><forename>Geoffrey</forename> of <surname>Hengssey</surname></persName>,
+                        <persName><forename>Hugh</forename> le <surname>Hore</surname></persName>, 
+                        <persName><forename>Robert</forename> <surname>Viel</surname></persName>, 
+                        <persName><forename>Richard</forename> <surname>Waldri</surname></persName>, 
+                        <persName><forename>Richard</forename> <surname>novus magister</surname></persName>, 
+                        <persName><forename>William</forename> <surname>Elys</surname></persName>,
+                        <persName><forename>William</forename> <surname>Albo</surname> piscat’</persName>,
+                        <persName><forename>Henry</forename> <surname>Super</surname></persName>, 
+                        <persName><forename>Robert</forename> the <surname>clerk</surname></persName>.
+                        <origDate when="1256"><supplied>1256.</supplied></origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), pp. <citedRange unit="page" from="26" to="27">26-27</citedRange>
+                           </bibl>
+                           <bibl>Robert Wigram, <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="1" to="1">1</citedRange>, <citedRange unit="entry" from="240" to="240">no. 240</citedRange> (<citedRange unit="page" from="283" to="284">pp. 183-84</citedRange>)</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
