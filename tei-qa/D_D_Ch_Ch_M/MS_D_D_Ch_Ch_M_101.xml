@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800195">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 101</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_101</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_101" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 101</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_105449">Oxford.</placeName>.
+                            
+                            <persName>
+                           <forename>Christina</forename> 
+                           <surname>Pille</surname>, widow</persName>, grants to <persName>
+                           <forename>Robert</forename> de <surname>Brackele</surname>
+                        </persName> and <persName nymRef="Brackele">
+                           <forename>Agnes</forename> his wife</persName> (the grantor’s daughter) for their service, a messuage and 6 cottages with two butts and two acres of arable land. The messuage lies between the prior of <orgName key="org_109039">St. F<supplied>rideswide</supplied>
+                        </orgName>’s land and the land late of <persName>
+                           <forename>Robert</forename> le <surname>Chapeler</surname>
+                        </persName>, in <placeName key="place_109441">St. Peter’s-in-the-East</placeName>, without the East Gate. The cottages and butts are in <placeName key="place_109423">St. Clements’</placeName> beyond the <placeName type="minor">Petit Pont</placeName>, between the land of <persName>
+                           <forename>Walter</forename> le <surname>teler</surname>
+                        </persName> and that of <persName>
+                           <forename>Henry</forename> le <surname>tannur</surname>
+                        </persName>. One acre of land lies between the preceptor of <orgName role="person" key="org_103024">Couele</orgName>’s land and that of the <orgName key="org_109067">Abbot of Oseney</orgName>. The other acre, called <placeName type="minor">Havedlond</placeName>, lies between the prior of St. F.’s land and the bank called <placeName type="minor">Charewelle</placeName>. Rent: 30/- during the grantor’s life, or else a house for her to live in, worth 30/- (yearly): after her death a clove gillyflower to her heirs, at Easter. 
+                            Witnesses: <persName>
+                           <forename>Nicholas</forename> de <surname>Kingestone</surname>, mayor</persName>,
+                            <persName>
+                           <forename>Thomas</forename> de <surname>Sowy</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Richard</forename> le <surname>plumer</surname>
+                        </persName>, baillifs,
+                            <persName>
+                           <forename>Guy</forename> de <surname>Stocwelle</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>John</forename> the <surname>marshal</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Walter</forename> the <surname>dyer</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Thurstayn</surname> bailiff of the hundred of <placeName type="hundred" role="bailiff" key="place_108127">Bolendene</placeName>
+                        </persName>, 
+                            <persName>
+                           <forename>Henry</forename> 
+                           <surname>Oweyn</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Henry</forename> le <surname>tannur</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Walter</forename> le <surname>teler</surname>
+                        </persName>. 
+                            <origDate notBefore="1281" notAfter="1283">
+                           <supplied>1281-1283.</supplied>
+                        </origDate> 
+                            
+                            
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Pointed oval seal, in green wax. A crescent moon, with a star. S’ CRISTIANE · PILLE.</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="173" to="173">173</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

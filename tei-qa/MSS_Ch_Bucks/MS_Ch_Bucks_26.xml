@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800143">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800131">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Essex 193</title>
+            <title>MS. Ch. Bucks 26</title>
             <respStmt xml:id="DY">
                <resp when="1931">Cataloguer</resp>
                <persName>N. Denholm-Young</persName>
@@ -29,69 +29,55 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Essex_193</idno>
+            <idno type="msID">MS_Ch_Bucks_26</idno>
             <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Essex_193" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Bucks_26" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Essex 193</idno>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Bucks 26</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <p>
-                        <placeName key="place_106073">Great Fordham [Essex]</placeName>..
+                        <placeName key="place_107096">Ravenstone</placeName>.
                          
-                        <persName nymRef="Seburc">
-                           <forename>Matilda</forename>, relict of <persName>
-                              <forename>William</forename> 
-                              <surname>Seburc</surname>
-                           </persName> of <placeName role="person" key="place_106073">Fordham</placeName>
-                        </persName>, grants to <persName>
-                           <forename>Richard</forename> de <surname>Ewell</surname>
-                        </persName> of the same, for 40/-, a field with hedges and ditches, called <placeName type="minor">Haukeslond</placeName>, and a path, in the parish of <placeName key="place_106073">Great Fordham</placeName>. Rent: 2/-. 
-                        Witnesses: <persName>
-                           <forename>John</forename> 
-                           <surname>Chaucie</surname>
-                        </persName>,
                         <persName>
+                           <forename>Henry</forename> of <surname>Mulsho [Moulsham]</surname> of <placeName role="person" key="place_107096">R<supplied>avenstone</supplied>
+                           </placeName>
+                        </persName> grants to <persName>sir <forename>Richard</forename> of <surname>R<supplied>avenstone</supplied>
+                           </surname> chaplain</persName>, one acre one rood of arable land and two roods of meadow in ... one acre of land in <placeName type="minor">Scyttho</placeName> near the land which <persName>
                            <forename>William</forename> 
-                           <surname>Pol</surname>
-                        </persName>, 
+                           <surname>Gyle</surname>
+                        </persName> holds of <persName>sir <forename>William</forename> de <surname>Mokelstone</surname>, kt.</persName> 
+                        Witnesses: [<gap/>] de Noers,
                         <persName>
-                           <forename>Walter</forename> 
-                           <surname>Bichedun</surname>
+                           <forename>Hugh</forename> de <surname>Warewyk</surname>
                         </persName>,
                         <persName>
-                           <forename>Ralph</forename> 
-                           <surname type="patronymic">son of Agnes</surname>
+                           <forename>William</forename> of <surname>Lyford</surname>
                         </persName>,
-                        John his son, 
+                        <persName>
+                           <forename>Robert</forename> le <surname>Kong</surname> of <placeName role="person" key="place_107096">R<supplied>avenstone</supplied>
+                           </placeName>
+                        </persName>,
                         <persName>
                            <forename>Richard</forename> 
-                           <surname>Boli</surname>
-                        </persName>,
-                        <persName>
-                           <forename>Stephen</forename> the <surname>cook</surname>
-                        </persName>, 
-                        <persName>
-                           <forename>John</forename> 
-                           <surname type="patronymic">son of William</surname>
-                        </persName>,
-                        John his son. 
-                        Given at <placeName role="date" key="place_106073">Fordham</placeName>. 
-                        <origDate when="1349-05-17">
-                           <supplied>17 May 1349.</supplied>
-                        </origDate> 
-                        Endorsed, ’Carta de 4 acris terre vocatis Haukeslond ... quas Robertus Hoolde modo tenet in anno 8 Ric. II.’  <note>Part of the same document as MS. D. D. Ch. Ch. M. 51.<!-- check --></note></p>
-                    
+                           <surname>lespecer</surname> of <placeName role="person" key="place_107096">R<supplied>avenstone</supplied>
+                           </placeName>
+                        </persName>. 
+                        [<hi rend="italic">Mutilated.</hi>] 
+                        <origDate notBefore="1330-01-25" notAfter="1331-01-24">... 4 Ed. III.</origDate>
+                    </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -101,15 +87,15 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Ravenstone Priory (Bucks.)</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
-                                <citedRange unit="page" from="" to=""/>
-                           </bibl>
-                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                              <citedRange unit="page" from="53" to="53">53</citedRange>
+                                <citedRange unit="page" from="161" to="161">161</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

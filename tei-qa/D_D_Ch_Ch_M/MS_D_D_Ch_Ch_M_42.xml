@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800143">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800111">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Essex 193</title>
+            <title>MS.D. D. Ch. Ch. M. 42</title>
             <respStmt xml:id="DY">
                <resp when="1931">Cataloguer</resp>
                <persName>N. Denholm-Young</persName>
@@ -29,69 +29,73 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Essex_193</idno>
+            <idno type="msID">MSD_D_Ch_Ch_M_42</idno>
             <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Essex_193" xml:lang="en">
+            <msDesc xml:id="MSD_D_Ch_Ch_M_42" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Essex 193</idno>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS.D. D. Ch. Ch. M. 42</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <p>
-                        <placeName key="place_106073">Great Fordham [Essex]</placeName>..
-                         
-                        <persName nymRef="Seburc">
-                           <forename>Matilda</forename>, relict of <persName>
-                              <forename>William</forename> 
-                              <surname>Seburc</surname>
-                           </persName> of <placeName role="person" key="place_106073">Fordham</placeName>
-                        </persName>, grants to <persName>
-                           <forename>Richard</forename> de <surname>Ewell</surname>
-                        </persName> of the same, for 40/-, a field with hedges and ditches, called <placeName type="minor">Haukeslond</placeName>, and a path, in the parish of <placeName key="place_106073">Great Fordham</placeName>. Rent: 2/-. 
+                        <placeName key="place_107095">Claydon (Bucks. <supplied resp="#TA">recte Oxon.</supplied>)</placeName>.<lb/>M.
+        37–43..
+                        
+                        <persName>
+                           <forename>Henry</forename> 
+                           <surname>Faber</surname> of <placeName role="person" key="place_108091">Farneberge</placeName>
+                        </persName> grants to the same, in free alms, <persName>
+                           <forename>Richard</forename> son of <persName>
+                              <forename>Walter</forename> 
+                              <surname>Sweterich</surname> of <placeName role="person" key="place_107095">Cleydon</placeName>
+                           </persName>
+                        </persName>, with all his issue and chattels, whom the grantor bought back from <persName>
+                           <forename>Richard</forename> fitz-<persName>
+                              <forename>Anselm</forename> de <surname>Grimescote</surname>
+                           </persName>
+                        </persName>. 
                         Witnesses: <persName>
-                           <forename>John</forename> 
-                           <surname>Chaucie</surname>
+                           <forename>Nicholas</forename> de <surname>Say</surname>
                         </persName>,
-                        <persName>
-                           <forename>William</forename> 
-                           <surname>Pol</surname>
-                        </persName>, 
-                        <persName>
-                           <forename>Walter</forename> 
-                           <surname>Bichedun</surname>
-                        </persName>,
-                        <persName>
-                           <forename>Ralph</forename> 
-                           <surname type="patronymic">son of Agnes</surname>
-                        </persName>,
-                        John his son, 
-                        <persName>
-                           <forename>Richard</forename> 
-                           <surname>Boli</surname>
-                        </persName>,
-                        <persName>
-                           <forename>Stephen</forename> the <surname>cook</surname>
-                        </persName>, 
                         <persName>
                            <forename>John</forename> 
-                           <surname type="patronymic">son of William</surname>
+                           <surname>Kachelewe</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Alexander</forename> de <surname>Wulfeye</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Richard</forename> fitz-<persName>Symon de <surname>Bradewelle</surname>
+                           </persName>
                         </persName>,
-                        John his son. 
-                        Given at <placeName role="date" key="place_106073">Fordham</placeName>. 
-                        <origDate when="1349-05-17">
-                           <supplied>17 May 1349.</supplied>
-                        </origDate> 
-                        Endorsed, ’Carta de 4 acris terre vocatis Haukeslond ... quas Robertus Hoolde modo tenet in anno 8 Ric. II.’  <note>Part of the same document as MS. D. D. Ch. Ch. M. 51.<!-- check --></note></p>
-                    
+                        <persName>
+                           <forename>Robert</forename> de <surname>Aubundele</surname>
+                        </persName>, clerks, 
+                        <persName>
+                           <forename>Richard</forename> de la <surname>Dene</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Robert</forename> de <surname>Leueland</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Stephen</forename> the <surname>baker</surname>
+                        </persName>. 
+                        <origDate notBefore="1240" notAfter="1250" precision="low">
+                           <supplied>c. 1240–c. 1250.</supplied>
+                        </origDate>
+                        
+                    </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -100,16 +104,23 @@
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Circular seal, 11/4″ in red wax, a fleur-de-lys, SIGILL’ · HENRICI · LEFEVERE.</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of St. Leonard’s, Clattercote (Oxon.)
+                    </provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
-                                <citedRange unit="page" from="" to=""/>
-                           </bibl>
-                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                              <citedRange unit="page" from="53" to="53">53</citedRange>
+                                <citedRange unit="page" from="157" to="157">157</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

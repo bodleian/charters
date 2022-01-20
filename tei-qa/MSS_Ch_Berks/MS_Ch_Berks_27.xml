@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800072">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Berks. 27</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Berks_27</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Berks_27" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Berks. 27</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107073">Wallingford</placeName> and <placeName key="place_107027">Clapcote</placeName>..
+                             
+                            <persName>
+                           <forename>Robert</forename> 
+                           <surname>Louches</surname>
+                        </persName> grants to <orgName key="org_107004">W<supplied>allingford</supplied>
+                        </orgName> in free alms a certain pasture of 5 acres in <placeName type="minor">Portfelde</placeName>.
+                            Witnesses: <persName>
+                           <forename>Eustace</forename> the <surname>goldsmith</surname>, mayor</persName>, 
+                            <persName>
+                           <forename>Nicholas</forename> 
+                           <surname type="patronymic">son of Simon</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Hubert</forename> 
+                           <surname>Hatfeld</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Nicholas</forename> the <surname>clerk</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Nicholas</forename> the chaplain of <placeName role="person" key="place_107074">S. Mary</placeName>
+                        </persName>, 
+                            <persName>
+                           <forename>Simon</forename> 
+                           <surname>Hous</surname>
+                        </persName>. 
+                            <origDate notBefore="1260" notAfter="1270" precision="low">
+                           <supplied>c. 1260–70.</supplied>
+                        </origDate>
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Wallingford Priory [Berks.]</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="148" to="148">148</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

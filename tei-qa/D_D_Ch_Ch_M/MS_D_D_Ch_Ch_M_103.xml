@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800197">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 103</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_103</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_103" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 103</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107101">Chalgrove</placeName>..
+                            
+                            Letters patent of <persName>
+                           <forename>Walter</forename>, archbishop of <placeName type="diocese" role="archbishop" key="place_104006">Canterbury</placeName>
+                        </persName>, inspecting letters of <origDate when="1320-04-23">
+                           <supplied>23 April</supplied> 1320.</origDate> 
+                        <list> 
+                                <item>(i) <persName>
+                                 <forename>John</forename>, late bishop of <placeName role="bishop" type="diocese" key="place_100079">Lincoln</placeName>
+                              </persName>, confirming to the <orgName key="org_107015">Abbot of Thame</orgName> the church of <placeName key="place_107101">Chalgrove</placeName>. 
+                                    Given at <placeName role="date" key="place_109198">Bukedene</placeName>. 
+                                    <origDate when="1319-05-01">[1] May 1319.</origDate>
+                           </item> 
+                                <item>(ii) <persName>
+                                 <forename>Henry</forename>, the dean</persName>, and <orgName key="org_109052">chapter of Lincoln</orgName>, inspecting (i). 
+                                    Given at <placeName role="date" key="place_104410">Lincoln</placeName>. 
+                                    <origDate when="1319-05-30">[30] May 1319</origDate>. 
+                                    Given at <placeName role="date" key="place_102089">Lambeth</placeName>.</item> 
+                            </list> 
+                             </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of the archbishop in green wax, attached by cords of green and brown silk.</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of Thame (Oxon.)</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="174" to="174">174</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

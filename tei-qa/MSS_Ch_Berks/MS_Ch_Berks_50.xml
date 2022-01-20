@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800095">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Berks. 50</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Berks_50</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Berks_50" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Berks. 50</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_107074">St. Mary the Greater, Wallingford</placeName>. 
+                         
+                        <persName nymRef="Morton">
+                           <forename>Matilda</forename>, widow of <persName>
+                              <forename>Richard</forename> of <surname>Morton</surname>
+                           </persName>
+                        </persName> quit-claims to <persName>
+                           <forename>John</forename> de <surname>Luchiis</surname>
+                        </persName> and <persName nymRef="Luchiis">
+                           <forename>Eve</forename> his wife</persName>, for ½ a mark, her right in 10<hi rend="italic">d.</hi> rent from part of a tenement which <persName>
+                           <forename>Henry</forename> of <surname>Duolesdene</surname>
+                        </persName> held in the <placeName key="place_107074">parish of St. Mary the Greater</placeName>, between the tenement late of <persName>
+                           <forename>William</forename> 
+                           <surname>Lorimer</surname>
+                        </persName> and that late of <persName>
+                           <forename>Richard</forename> 
+                           <surname>Gratard</surname>
+                        </persName>. 
+                        Witnesses: <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Hykon</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Henry</forename> of <surname>Appelford</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Ralph</forename> of <surname>Boneye</surname>
+                        </persName>, aldermen,
+                        <persName>
+                           <forename>William</forename> de la <surname>Wyk</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Nicholas</forename> 
+                           <surname>Clement</surname>
+                        </persName>’,
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Hyne</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>John</forename> le <surname>Berner</surname>
+                        </persName>,
+                        William the lorimer, 
+                        <persName>
+                           <forename>John</forename> of <surname>Meleburne</surname>
+                        </persName>,
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Bone</surname>
+                        </persName>, 
+                        <persName>
+                           <forename>Gregory</forename> of <surname>Watham</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Champeneys</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Costard</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Gilbert</forename> of <surname>Mandevile</surname>
+                        </persName>, and
+                        <persName>
+                           <forename>Henry</forename> 
+                           <surname>Folyot</surname>
+                        </persName>, bailiffs.
+                        <origDate when="1287-12-06">
+                           <supplied>6 Dec. 1287.</supplied>
+                        </origDate>
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Wallingford Priory [Berks.]</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

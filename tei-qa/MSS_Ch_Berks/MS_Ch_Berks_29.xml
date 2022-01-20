@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800143">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800082">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Essex 193</title>
+            <title>MS. Ch. Berks. 29</title>
             <respStmt xml:id="DY">
                <resp when="1931">Cataloguer</resp>
                <persName>N. Denholm-Young</persName>
@@ -29,69 +29,64 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Essex_193</idno>
+            <idno type="msID">MS_Ch_Berks_29</idno>
             <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Essex_193" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Berks_29" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Essex 193</idno>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Berks. 29</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <p>
-                        <placeName key="place_106073">Great Fordham [Essex]</placeName>..
-                         
-                        <persName nymRef="Seburc">
-                           <forename>Matilda</forename>, relict of <persName>
-                              <forename>William</forename> 
-                              <surname>Seburc</surname>
-                           </persName> of <placeName role="person" key="place_106073">Fordham</placeName>
-                        </persName>, grants to <persName>
-                           <forename>Richard</forename> de <surname>Ewell</surname>
-                        </persName> of the same, for 40/-, a field with hedges and ditches, called <placeName type="minor">Haukeslond</placeName>, and a path, in the parish of <placeName key="place_106073">Great Fordham</placeName>. Rent: 2/-. 
-                        Witnesses: <persName>
+                        <placeName key="place_107082">Holy Trinity, Wallingford</placeName>..
+                             
+                            <persName>
                            <forename>John</forename> 
-                           <surname>Chaucie</surname>
+                           <surname>Ferarius</surname> of <placeName role="person" key="place_107073">W<supplied>allingford</supplied>
+                           </placeName>
+                        </persName> grants to <persName>
+                           <forename>Henry</forename> of <surname>Yaunewith</surname>
+                        </persName>, for 14/- already paid, a messuage in the <placeName key="place_107082">parish of Holy Trinity, W<supplied>allingford</supplied>
+                        </placeName>, between <persName>
+                           <forename>Hubert</forename> 
+                           <surname>Hatfeld</surname>
+                        </persName>’s messuage on the north ... Rent: 10<hi rend="italic">d.</hi> to the lord of the fee (i.e. to the chamberlain of Holy Trinity) and 1<hi rend="italic">d. to</hi> John and his heirs. 
+                            Witnesses: <persName>Alexander <surname>Dublet</surname>, mayor</persName>, 
+                            <persName>
+                           <forename>Nicholas</forename> de <surname>Stallis</surname>
                         </persName>,
-                        <persName>
-                           <forename>William</forename> 
-                           <surname>Pol</surname>
+                            <persName>
+                           <forename>Richard</forename> of <surname>Bristewaltone</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Robert</forename> de <surname>Louches</surname>
                         </persName>, 
-                        <persName>
-                           <forename>Walter</forename> 
-                           <surname>Bichedun</surname>
+                            <persName>master <forename>Peter</forename> of <surname>Benham</surname>
                         </persName>,
-                        <persName>
-                           <forename>Ralph</forename> 
-                           <surname type="patronymic">son of Agnes</surname>
-                        </persName>,
-                        John his son, 
-                        <persName>
-                           <forename>Richard</forename> 
-                           <surname>Boli</surname>
-                        </persName>,
-                        <persName>
-                           <forename>Stephen</forename> the <surname>cook</surname>
+                            <persName>
+                           <forename>Alexander</forename> de <surname>Stallis</surname>
                         </persName>, 
-                        <persName>
-                           <forename>John</forename> 
-                           <surname type="patronymic">son of William</surname>
-                        </persName>,
-                        John his son. 
-                        Given at <placeName role="date" key="place_106073">Fordham</placeName>. 
-                        <origDate when="1349-05-17">
-                           <supplied>17 May 1349.</supplied>
-                        </origDate> 
-                        Endorsed, ’Carta de 4 acris terre vocatis Haukeslond ... quas Robertus Hoolde modo tenet in anno 8 Ric. II.’  <note>Part of the same document as MS. D. D. Ch. Ch. M. 51.<!-- check --></note></p>
-                    
+                            <persName>
+                           <forename>Alan</forename> the <surname>doctor</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>John</forename> the <surname>clerk</surname>
+                        </persName>. [<hi rend="italic">Mutilated.</hi>] 
+                            <origDate notBefore="1255" notAfter="1265" precision="low">
+                           <supplied>c. 1255–1265.</supplied>
+                        </origDate>
+                        </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -101,15 +96,15 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Wallingford Priory [Berks.]</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
                                 <citedRange unit="page" from="" to=""/>
-                           </bibl>
-                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                              <citedRange unit="page" from="53" to="53">53</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

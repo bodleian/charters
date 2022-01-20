@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800143">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800076">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Essex 193</title>
+            <title>MS. Ch. Berks. 56</title>
             <respStmt xml:id="DY">
                <resp when="1931">Cataloguer</resp>
                <persName>N. Denholm-Young</persName>
@@ -29,69 +29,68 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Essex_193</idno>
+            <idno type="msID">MS_Ch_Berks_56</idno>
             <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Essex_193" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Berks_56" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Essex 193</idno>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. Ch. Berks. 56</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <p>
-                        <placeName key="place_106073">Great Fordham [Essex]</placeName>..
-                         
-                        <persName nymRef="Seburc">
-                           <forename>Matilda</forename>, relict of <persName>
-                              <forename>William</forename> 
-                              <surname>Seburc</surname>
-                           </persName> of <placeName role="person" key="place_106073">Fordham</placeName>
-                        </persName>, grants to <persName>
-                           <forename>Richard</forename> de <surname>Ewell</surname>
-                        </persName> of the same, for 40/-, a field with hedges and ditches, called <placeName type="minor">Haukeslond</placeName>, and a path, in the parish of <placeName key="place_106073">Great Fordham</placeName>. Rent: 2/-. 
-                        Witnesses: <persName>
-                           <forename>John</forename> 
-                           <surname>Chaucie</surname>
-                        </persName>,
-                        <persName>
-                           <forename>William</forename> 
-                           <surname>Pol</surname>
-                        </persName>, 
-                        <persName>
-                           <forename>Walter</forename> 
-                           <surname>Bichedun</surname>
-                        </persName>,
-                        <persName>
-                           <forename>Ralph</forename> 
-                           <surname type="patronymic">son of Agnes</surname>
-                        </persName>,
-                        John his son, 
-                        <persName>
+                        <placeName key="place_107073">Wallingford</placeName> and <placeName key="place_107027">Clapcote</placeName>..
+                             
+                            <persName>
                            <forename>Richard</forename> 
-                           <surname>Boli</surname>
+                           <surname>Gratard</surname>
+                        </persName>, son of <persName>
+                           <forename>Roger</forename> 
+                           <surname>Gratard</surname>
+                        </persName>, grants to <persName>
+                           <forename>Richard</forename> 
+                           <surname>Louches</surname> of <placeName role="person" key="place_107073">W<supplied>allingford</supplied>
+                           </placeName>
+                        </persName> the plot with the barbican by the West Gate of <placeName key="place_107073">W<supplied>allingford</supplied>
+                        </placeName>, also a plot outside the West Gate, to build on at pleasure.
+                            Witnesses: <persName>
+                           <forename>Robert</forename> of <surname>Sottewelle</surname>
                         </persName>,
-                        <persName>
-                           <forename>Stephen</forename> the <surname>cook</surname>
-                        </persName>, 
-                        <persName>
+                            <persName>
+                           <forename>Nicholas</forename> de la <surname>Barre</surname>
+                        </persName>,
+                            <persName>
+                           <forename>Nicholas</forename> of <surname>Medforde</surname>
+                        </persName>,
+                            <persName>
                            <forename>John</forename> 
-                           <surname type="patronymic">son of William</surname>
+                           <surname>Maryot</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>John</forename> atte <surname>Forteye</surname>, junior</persName>, 
+                            <persName>
+                           <forename>Swayn</forename> of <surname>Morteleye</surname>
                         </persName>,
-                        John his son. 
-                        Given at <placeName role="date" key="place_106073">Fordham</placeName>. 
-                        <origDate when="1349-05-17">
-                           <supplied>17 May 1349.</supplied>
-                        </origDate> 
-                        Endorsed, ’Carta de 4 acris terre vocatis Haukeslond ... quas Robertus Hoolde modo tenet in anno 8 Ric. II.’  <note>Part of the same document as MS. D. D. Ch. Ch. M. 51.<!-- check --></note></p>
-                    
+                            <persName>
+                           <forename>Robert</forename> 
+                           <surname>Boneface</surname>
+                        </persName>. 
+                            Given at <placeName role="date" key="place_107073">W<supplied>allingford</supplied>
+                        </placeName> 
+                            <origDate when="1314-03-28">
+                           <supplied>28 March 1314.</supplied>
+                        </origDate>
+                        </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -101,15 +100,15 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Wallingford Priory [Berks.]</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
-                                <citedRange unit="page" from="" to=""/>
-                           </bibl>
-                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                              <citedRange unit="page" from="53" to="53">53</citedRange>
+                                <citedRange unit="page" from="149" to="149">149</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

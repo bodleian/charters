@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800227">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. M. 133</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_M_133</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_M_133" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. M. 133</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_101038">Hendulph (Worcs.)</placeName>..
+                             
+                            <persName>
+                           <forename>Roger</forename> 
+                           <surname type="patronymic">fitz-[Michael]</surname>
+                        </persName>
+                        <!--<note type="foot" n="2">Taken from an endorsement.</note>--> grants to <persName>
+                           <forename>Peter</forename> 
+                           <surname>Pichard</surname>
+                        </persName> ... 2 acres ... Rent ... 2/-. For this grant Peter gave 36 marks. 
+                            Witnesses: <persName>Sir <forename>Walter</forename> de <surname>Beauchamp</surname>
+                        </persName>, 
+                            <persName>Sir <forename>Hugh</forename> le <surname>Poiher</surname>
+                        </persName>, 
+                            ... <persName>
+                           <forename>Eudo</forename> de <surname>Beauchamp</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Peter</forename> de <surname>saltimarisco</surname>
+                        </persName>,
+                            Osbert de ..., 
+                            ... <persName>
+                           <forename>William</forename> de <surname>Malveme</surname>
+                        </persName>, 
+                            <persName>
+                           <forename>Thomas</forename> the <surname>clerk</surname>
+                        </persName>, and
+                            <persName>
+                           <forename>Adam</forename> 
+                           <surname type="patronymic">fitz-Philip</surname>
+                        </persName>, ... 
+                            <persName>
+                           <forename>Simon</forename> de <surname>St</surname>
+                        </persName>. 
+                            John. [<hi rend="italic">Partly obliterated.</hi>] 
+                            <origDate notBefore="1240" notAfter="1250" precision="low">
+                           <supplied>c. 1240–50.</supplied>
+                        </origDate>
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of The Hospital of S. Wulfstan’s, Worcester</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="181" to="181">181</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
