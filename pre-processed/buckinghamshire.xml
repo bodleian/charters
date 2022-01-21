@@ -33,13 +33,13 @@
                   and <persName><forename>Mary</forename> his wife</persName>, deforciants of the manor of <placeName type="manor">Adyngton</placeName>, 
                   15 messuages, 500 acres of land, 200 acres of meadow, 300 acres of pasture, 4 acres of brushwood, 20
                   acres of marsh, l00s, rent, and the rents of 1 lb. pepper and 1 lb. cummin with
-                  appurtenances in <placeName>Adyngton</placeName>, and <placeName>Botelcleydon, co. Bucks.</placeName>;
-                  and of the manor of <placeName type="manor">Bampton</placeName>, with appurtenances, and of 4 messuages,
+                  appurtenances in <placeName key="place_109154">Adyngton</placeName>, and <placeName key="place_107021">Botelcleydon, co. Bucks.</placeName>;
+                  and of the manor of <placeName type="manor" key="place_109032">Bampton</placeName>, with appurtenances, and of 4 messuages,
                   400 acres of land, 100 acres of meadow, 60 acres of pasture, 3 acres of wood, 5 acres of brushwood, 
-                  20 acres of marsh, and l00s. rent in <placeName>Bampton, co. Oxon</placeName>, which said manors, etc. are
+                  20 acres of marsh, and l00s. rent in <placeName key="place_107019">Bampton, co. Oxon</placeName>, which said manors, etc. are
                   acknowledged to be the right of the said <persName><forename>Thomas</forename> <surname>Kebeel</surname></persName> 
                   and others, they paying to the said Edward and Mary 600 marks of silver. 
-                  <bibl type="shelfmark">MS. Ch. Bucks. 61.</bibl></p>
+                  <bibl type="shelfmark">MS. Ch. Bucks. 61</bibl></p>
             </div>
             
             <div type="charter">
@@ -127,7 +127,7 @@
             </div>
             
             <div type="charter">
-               <p> <persName><forename>Richard</forename> <surname>Veel</surname> of <placeName role="person">Hamslap</placeName></persName> 
+               <p> <supplied>HANSLAPE</supplied> <persName><forename>Richard</forename> <surname>Veel</surname> of <placeName role="person">Hamslap</placeName></persName> 
                   grants to <persName><forename>Simon</forename> <surname>Veel</surname></persName> of the same place, 
                   his brother, and <persName><forename>Joane</forename> his wife</persName>, one curtilage and garden
                   situate in <placeName type="street">Longestret</placeName> in the same village. [Mutilated.] 
@@ -228,7 +228,7 @@
             </div>
             
             <div type="charter">
-                  <p><pb n="26"/> STEWKLEY (Little). List of free tenants and natives of <placeName>Little Stewkley</placeName>. <date>Temp. Ed. I</date>. 
+                  <p><pb n="26"/> STEWKLEY (Little). List of free tenants and natives of <placeName type="manor">Little Stewkley</placeName>. <date>Temp. Ed. I</date>. 
                      (Endorsment) Court of <persName><forename>Ralph</forename> de <surname>Styvecle</surname></persName>
                      held there the Monday next before the feast of St. Hillary, <date>11 Ed. III</date>. 
                   <bibl type="shelfmark">MS. Ch. Bucks. 80</bibl>. </p>
@@ -343,11 +343,11 @@
                   <bibl type="shelfmark">MS. Ch. Bucks. 90</bibl>. </p>
             </div>
             
-            <div type="charter">
+            <div type="charter"><!-- TODO: check which manor -->
                <p> HADDENHAM. The account of <persName><forename>Stephen</forename>, servant of the manor of <placeName type="manor">Hadenham</placeName></persName>, 
                   from the Thursday next after the feast of St. Dunstan, <date>27 Ed. I</date>, to the Sunday
                   on the morrow of St. Peter ad Vinc. following. 
-                  <bibl type="shelfmark">MS. Rolls. Bucks. 1</bibl></p>
+                  <bibl type="shelfmark">MS. Rolls Bucks. 1</bibl></p>
             </div>
             
             <div type="charter"><p> PITSTON.
@@ -372,7 +372,7 @@
                   <persName><forename>Richard</forename> <surname>Ridge</surname>, the abbot</persName>, and
                   <orgName>convent of Notley</orgName> on the one part, and 
                   <persName><forename>Rowlond</forename> <surname>Lymell</surname>, clerk</persName>, of the other, being 
-                  a covenant to serve the parish church of <placeName>Chardesley in Bucks.</placeName>, and administer the
+                  a covenant to serve the parish church of <placeName role="church">Chardesley in Bucks.</placeName>, and administer the
                   sacraments, in consideration of an annuity of £5 13s. 4d., going out of the manor of
                   <placeName type="manor">Nether Winchenden</placeName>, during his life. 
                   <bibl type="shelfmark">MS. Ch. Bucks. 40</bibl>. </p>
@@ -806,31 +806,31 @@
             <!--add div to priory docs? PRIORY OF TICKFORD. -->
             <div type="charter">
                <p> ASTON, near Birmingham. Proceedings in a cause relating to
-                  the chapel of <placeName>Yerdele</placeName>, against Simon and Henry, priests, and certain others of
+                  the chapel of <placeName role="chapel">Yerdele</placeName>, against Simon and Henry, priests, and certain others of
                   <placeName type="diocese">Worcester</placeName> and <placeName type="diocese">Coventry</placeName>
-                  dioceses, on the relation of <persName><forename>William</forename>, rector of the church of <placeName role="rector">Eston</placeName></persName>, 
+                  dioceses, on the relation of <persName><forename>William</forename>, rector of the church of <placeName role="rector" key="place_109195">Eston</placeName></persName>, 
                   by which it is decided that the chapel of Yerdele is appurtenant to the
-                  mother church of <placeName>Eston</placeName>. 
+                  mother church of <placeName role="church" key="place_109195">Eston</placeName>. 
                   Done at <placeName role="date">Langford</placeName>, 11 July, <date when="1237">1237</date>.
                      <bibl type="shelfmark">MS. Ch. Bucks. 45</bibl>. </p>
             </div>
             
             <div type="charter">
                <p> Fragments of charter reciting proceedings in a cause relating to the chapel of
-                  Yerdele. (Proceedings as set out in document MS. Ch. Bucks. 45. q. v.) 
+                  <placeName role="chapel">Yerdele</placeName>. (Proceedings as set out in document MS. Ch. Bucks. 45. q. v.) 
                   <bibl type="shelfmark">MS. Ch. Bucks. 43</bibl>.</p>
             </div>
             
             <div type="charter">
                <p> Fragments of charter reciting proceedings in a cause relating to the chapel of
-                  Yerdele. (Proceedings as set out in document MS. Ch. Bucks. 45. q. v.) 
+                  <placeName role="chapel">Yerdele</placeName>. (Proceedings as set out in document MS. Ch. Bucks. 45. q. v.) 
                   <bibl type="shelfmark">MS. Ch. Bucks. 44</bibl>.</p>
             </div>
             
             <div type="charter">
                <p> <persName><forename>Giles</forename> de <surname>Erdintone</surname></persName> grants to
                   <persName><forename>Thomas</forename> de la <surname>Hurne</surname></persName>, for his homage
-                  and service, his capital messuage in <placeName>Eston</placeName> near the church, and the whole meadow
+                  and service, his capital messuage in <placeName key="place_109195">Eston</placeName> near the church, and the whole meadow
                   and moor in that part called <placeName type="minor">Stockedemedue</placeName> with their appurtenances,
                   and 24 acres of land in the same village, for which the said Thomas gave in exchange a tenement in the
                   village of <placeName>Erdington</placeName> and a rent of 2 1/2 d., excepting the moor under the mill of
@@ -844,7 +844,7 @@
             <div type="charter">
                <p> <persName><forename>Richard</forename>, son of <persName><forename>Nicholas</forename> de <surname>Fonte</surname></persName></persName>, 
                   grants to <persName><forename>William</forename>, son of <persName><forename>Geoffrey</forename> <surname>Wodard</surname></persName></persName>, 
-                  for his service and 10s., one half acre of arable land in the parish of <placeName>Eston</placeName>,
+                  for his service and 10s., one half acre of arable land in the parish of <placeName key="place_109195">Eston</placeName>,
                   namely, that which he has in '<placeName type="minor">Wodeweyeforlonge</placeName>' and which
                   <persName><forename>Hugh</forename> de la <surname>Liche</surname></persName> sometime
                   held, paying annually one clove at Easter for all services. 
@@ -857,7 +857,7 @@
                   <orgName>convent of Tykeford near Neweport <pb n="33"/>Paynel</orgName>, demise to
                   <persName><forename>Hugh</forename> de <surname>Hopewas</surname>, canon of <orgName>Lichfield</orgName></persName>, 
                   and <persName><forename>John</forename> de <surname>Aston</surname>, chaplain</persName>, 
-                  the church of <placeName>Aston [near Birmingham]</placeName>, and their parsonage of the
+                  the church of <placeName role="church" key="place_109195">Aston [near Birmingham]</placeName>, and their parsonage of the
                   said church, with the tithes of corn of <placeName>Aston</placeName>, <placeName>Wythton</placeName>,
                   <placeName>Dodeton</placeName>, <placeName>Necheles</placeName>, and
                   <placeName>Erdington</placeName>, for five years, paying annually 16 marks sterling. 
@@ -870,7 +870,7 @@
                <p> <persName><forename>John</forename>, the prior</persName>, and the <orgName>canons of Tykeford</orgName>
                   authorise <persName><forename>Hugh</forename> de <surname>Hopewas</surname>, canon of <orgName>Lichfield</orgName></persName>, 
                   and <persName><forename>John</forename> de <surname>Astone</surname>, chaplain</persName>, 
-                  who are bound to pay 80 marks to the priory for the farm of the church of <placeName>Astone</placeName>,
+                  who are bound to pay 80 marks to the priory for the farm of the church of <placeName key="place_109195">Astone</placeName>,
                   to pay to the  <orgName>chapter of Lichfield</orgName> 80 marks, owing
                   to the said chapter by the prior and canons by name of a certain annual pension,
                   saving the allowance of 68s. as is expressed in indentures. 
@@ -992,7 +992,7 @@
                   after the feast of St. Petronella, virgin, <date>11 Ed. II</date>. <bibl type="shelfmark">MS. Ch. Bucks. 92</bibl>. </p>
             </div>
             <div type="charter">
-               <p> TICKFORD (Priory of). <persName><forename>William</forename> <surname><unclear>Salam</unclear></surname> of <placeName role="person">Astun</placeName></persName> remits and quit-claims to <persName role="prior">Reginald, the prior
+               <p> TICKFORD (Priory of). <persName><forename>William</forename> <surname><unclear>Salam</unclear></surname> of <placeName role="person" key="place_109195">Astun</placeName></persName> remits and quit-claims to <persName role="prior">Reginald, the prior
                   and convent of <orgName>Tickford</orgName></persName>, for 16s., all right in certain land in ... (<date notBefore="1270"
                      notAfter="1275" precision="low">c. 1270-5</date>.) <bibl type="shelfmark">MS. Ch. Bucks. 93</bibl></p></div>
          </div>
