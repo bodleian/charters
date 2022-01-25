@@ -100,7 +100,7 @@
             </place>
             
             <place type="manor">
-               <placeName type="index">Middleton, South</placeName>
+               <placeName type="index">South Middleton</placeName>
                <placeName type="formInDocument">South Middleton</placeName>
                <region type="parish">Ilderton</region>
                <region type="county">Northumberland</region>
@@ -245,10 +245,11 @@
          
          <listPlace type="county">
             <place type="county">
-               <placeName type="index">Hartford (inidentified)</placeName><!--one in the USA?-->
+               <placeName type="index">Hertfordshire</placeName>
                <placeName type="formInDocument">Hartford</placeName>
                <note type="charter">MS. Ch. Middlesex 47</note>
             </place>
+            
             <place type="county" xml:id="place_000040">
                <placeName type="index">Kent</placeName>
                <placeName type="formInDocument">Kent</placeName>
@@ -444,7 +445,7 @@
             </place>
              
             <place type="place">
-               <placeName type="index">Aldersgate Ward</placeName>
+               <placeName type="index">London, Aldersgate Ward</placeName>
                <placeName type="formInDocument">ALDERSGATE WARD Without</placeName>
                <region type="parish">Aldersgate</region>
                <region type="county">City of London</region>
@@ -454,7 +455,7 @@
             </place>
             
             <place type="place">
-               <placeName type="index">All Hallows Barking</placeName>
+               <placeName type="index">London, All Hallows Barking</placeName>
                <placeName type="formInDocument">Alhallowes, Barking</placeName>
                <region type="parish">All Hallows Barking</region>
                <region type="county">City of London</region>
@@ -464,7 +465,7 @@
             </place>
             
             <place type="place">
-               <placeName type="index">All Hallows-on-the-Wall</placeName>
+               <placeName type="index">London, All Hallows-on-the-Wall</placeName>
                <placeName type="formInDocument">All Hallows</placeName>
                <placeName type="formInDocument">Allhallows in the Wall</placeName>
                <placeName type="formInDocument">Allhallows in the wall, London</placeName>
@@ -497,6 +498,7 @@
             <place type="place">
                <placeName type="index">Amsterdam</placeName>
                <placeName type="formInDocument">Amsterdam</placeName>
+                <region type="country">Netherlands</region>
                <idno>https://www.wikidata.org/wiki/Q727</idno>
                <note type="charter">MS. Ch. Middlesex 38</note>
             </place>
@@ -546,7 +548,7 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Bow</placeName>
+               <placeName type="index">London, Bow</placeName>
                <placeName type="formInDocument">Bow, London</placeName>
                <region type="parish">Bow</region>
                <region type="county">City of London</region>
@@ -588,7 +590,7 @@
             <place type="place">
                <placeName type="index">Brussels</placeName>
                <placeName type="formInDocument">Brussels</placeName>
-               <!--<region type="country">Belgium</region>-->
+               <region type="country">Belgium</region>
                <idno>https://www.wikidata.org/wiki/Q239</idno>
                <note type="charter">MS. Ch. Middlesex 12</note>
             </place>
@@ -607,25 +609,34 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Cherdington (unidentified)</placeName>
+               <placeName type="index">Charlton</placeName>
                <placeName type="formInDocument">Cherdington, Middlesex</placeName>
+               <region type="parish">Sunbury</region>
                <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Sunbury/53282a52b47fc407a00001b6-Charlton</idno>
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
             <place type="place">
-               <placeName type="index">St Stephen Coleman Street</placeName>
-               <placeName type="formInDocument">church of St. Stephen, Colman Street, ondon</placeName>
+               <placeName type="index">London, St Stephen, Coleman Street</placeName>
+               <placeName type="formInDocument">church of St. Stephen, Colman Street, London</placeName>
+               <placeName type="formInDocument">St. Stephen the martyr, Coleman streete, London</placeName>
+               <placeName type="formInDocument">ST. STEPHEN'S, COLEMAN STREET</placeName>
                <region type="parish">St Stephen Coleman Street</region>
                <region type="county">City of London</region>
                <idno>https://www.wikidata.org/wiki/Q7595488</idno>
                <idno>https://www.genuki.org.uk/big/eng/LND/StStephenColemanstreet</idno>
                <note type="charter">MS. Rolls Middlesex 4</note>
+               <note type="charter">MS. Rolls Middlesex 5</note>
+               <note type="charter">MS. Rolls Middlesex 6</note>
+               <note type="charter">MS. Rolls Middlesex 7</note>
+               <note type="charter">MS. Ch. London 179</note>
             </place>
             
             <place type="place" xml:id="place_105240">
                <placeName type="index">Colchester</placeName>
                <placeName type="formInDocument">Colchester, Essex</placeName>
+               <region type="parish">Colchester</region>
                <!--<region type="parish"></region> not enough information to distinguish the parish; should we mark the town separately?-->
                <region type="county">Essex</region>
                <idno>https://epns.nottingham.ac.uk/browse/Essex/Colchester/532858eeb47fc40a98000dc4-Colchester</idno>
@@ -647,7 +658,7 @@
             <place type="place">
                <placeName type="index">Dublin</placeName>
                <placeName type="formInDocument">Dublin</placeName>
-               <!--<region type="country">Ireland</region>-->
+               <region type="country">Ireland</region>
                <idno>https://www.wikidata.org/wiki/Q1761</idno>
                <note type="charter">MS. Ch. Middlesex 46</note>
             </place>
@@ -657,6 +668,7 @@
                <placeName type="formInDocument">Dychaunt, co. Northumberland</placeName>
                <region type="county">Northumberland</region>
                <note type="charter">MS. Ch. Middlesex 10</note>
+               <!-- person of; perhaps Detchant in Belford -->
             </place>
             
             <place type="place">
@@ -750,7 +762,7 @@
             </place>
             
             <place type="place">
-               <placeName type="index">Guildhall, London</placeName>
+               <placeName type="index">London, Guildhall</placeName>
                <placeName type="formInDocument">Guildhall, London</placeName>
                <!--<region type="parish"></region>not sure-->
                <region type="county">City of London</region>
@@ -806,9 +818,11 @@
             
             <place type="place">
                <placeName type="index">Harringey</placeName>
+               <placeName type="variant">Haringey</placeName>
                <placeName type="formInDocument">Hereingey</placeName>
                <!--CHK, Greater London area, borough of Haringey, no idea of parish
                <region type="parish">Haringey</region>-->
+               <region type="parish">Hornsey</region>
                <region type="county">Middlesex</region><!-- historic county-->
                <idno>https://www.wikidata.org/wiki/Q952515</idno>
                <note type="charter">MS. Ch. Middlesex 176</note>
@@ -838,6 +852,7 @@
                <placeName type="index">Kentish Town</placeName>
                <placeName type="formInDocument">Kentish-towne</placeName>
                <!--CHK how to mark Greater London Borough of Camden-->
+               <region type="parish">St Pancras</region>
                <region type="county">Middlesex</region>
                <idno>https://www.wikidata.org/wiki/Q149782</idno>
                <note type="charter">MS. Ch. Middlesex 110</note>
@@ -954,7 +969,7 @@
             </place>
             
             <place type="place">
-               <placeName type="index">London, Ventnor's Ward (unidentified)</placeName><!--Vintry Ward? https://www.genuki.org.uk/big/eng/LND/VintryWard-->
+               <placeName type="index">London, Vintry Ward (unidentified)</placeName><!--Vintry Ward? https://www.genuki.org.uk/big/eng/LND/VintryWard-->
                <placeName type="formInDocument">London in Ventnor's Ward</placeName>
                <region type="county">City of London</region>
                <note type="charter">MS. Ch. Middlesex 167</note>
@@ -1157,19 +1172,7 @@
                <note type="charter">MS. Ch. Middlesex 82</note>
             </place>
             
-            <place type="place">
-               <placeName type="index">London, St Stephen Coleman Street</placeName>
-               <placeName type="formInDocument">St. Stephen the martyr, Coleman streete, London</placeName>
-               <placeName type="formInDocument">ST. STEPHEN'S, COLEMAN STREET</placeName>
-               <region type="parish">St Stephen Coleman Street</region>
-               <region type="county">City of London</region>
-               <idno>https://www.wikidata.org/wiki/Q7595488</idno>
-               <idno>https://www.genuki.org.uk/big/eng/LND/StStephenColemanstreet</idno>
-               <note type="charter">MS. Rolls Middlesex 5</note>
-               <note type="charter">MS. Rolls Middlesex 6</note>
-               <note type="charter">MS. Rolls Middlesex 7</note>
-               <note type="charter">MS. Ch. London 179</note>
-            </place>
+           
             
             <place type="place">
                <placeName type="index">London, St Swithin London Stone</placeName>
@@ -1217,7 +1220,7 @@
             
             <place type="place">
                <placeName type="index">Middleton (unidentified)</placeName>
-               <!--several potential parishes, in Essex, Yorkshire, Northamtponshire, Sussex, Warwickshire-->
+               <!-- person of: several potential parishes, in Essex, Yorkshire, Northamtponshire, Sussex, Warwickshire-->
                <placeName type="formInDocument">Middelton</placeName>
                <note type="charter">MS. Ch. Middlesex 10</note>
             </place>
@@ -1318,6 +1321,7 @@
             <place type="place">
                <placeName type="index">Ulster</placeName>
                <placeName type="formInDocument">province of Ulster in Ireland</placeName>
+               <country>Ireland</country>
                <!--<region type="county"></region> CHK how to mark 
                partly in the UK, partly in Ireland-->
                <idno>https://www.wikidata.org/wiki/Q93195</idno>
@@ -1348,6 +1352,7 @@
                <placeName type="index">San Sebastián</placeName>
                <placeName type="formInDocument">St. Sebastian's</placeName>
                <region type="county">Basque country</region><!--country Spain-->
+               <country>Spain</country>
                <idno>https://www.wikidata.org/wiki/Q10313</idno>
                <note type="charter">MS. Ch. Middlesex 133</note>
             </place>
@@ -1356,7 +1361,7 @@
                <placeName type="index">Stanwell</placeName>
                <placeName type="formInDocument">Stanwell</placeName>
                <region type="parish">Stanwell</region>
-               <region type="county">Middlesx</region>
+               <region type="county">Middlesex</region>
                <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Stanwell/53282a5ab47fc407a000024a-Stanwell</idno>
                <idno>https://www.genuki.org.uk/big/eng/MDX/Stanwell</idno>
                <note type="charter">MS. Ch. Middlesex 98</note>
@@ -1664,7 +1669,7 @@
             </org>
             
             <org>
-               <orgName type="index">Fraternity of St Anne, St Lawrence Jewry (London)</orgName>
+               <orgName type="index">London, Fraternity of St Anne, St Lawrence Jewry</orgName>
                <orgName type="formInDocument">fraternity of St. Anne within the parish of St. Laurence in the old Jewry, London</orgName>
                <placeName type="parish">St Lawrence Jewry</placeName>
                <placeName type="county">City of London</placeName>
@@ -1695,7 +1700,7 @@
             </org>
             
             <org>
-               <orgName type="index">Guild of St Stephen in Colman Street (London)</orgName>
+               <orgName type="index">London, Guild of St Stephen in Colman Street </orgName>
                <orgName type="formInDocument">guild of St. Stephen of Colman Street, London</orgName>
                <!--<bibl>Tom Hoffman, <title>Guilds and related organisation in Great Britain and Ireland</title> (2011) I, p. 10.</bibl> currently available in https://www.bbk.ac.uk/library/downloads/guilds-part-1.pdf-->
                <note type="charter">MS. Rolls Middlesex 4</note>
@@ -1730,7 +1735,7 @@
             </org>
             
             <org>
-               <orgName type="index">Hospital of St John Baptist, Hockcliffe</orgName>
+               <orgName type="index">Hockcliffe, Hospital of St John Baptist</orgName>
                <orgName type="formInDocument">master and brethren of the hospital of Hokclive</orgName>
                <placeName type="county">Bedfordshire</placeName>
                <bibl>'Hospitals: St John Baptist, Hockcliffe', in <title>A History of the County of Bedford: Volume 1</title> (London, 1904), pp. 401-402. British History Online http://www.british-history.ac.uk/vch/beds/vol1/pp401-402 [accessed 3 November 2021].</bibl>
@@ -1790,8 +1795,8 @@
                <note type="charter">MS. Ch. Middlesex 158</note>
             </org>
             
-            <org type="place">
-               <orgName type="index">St Katharine's by the Tower (London)</orgName>
+            <org>
+               <orgName type="index">London, St Katharine's by the Tower </orgName>
                <orgName type="variant">Royal Hospital and Collegiate Church of St Katharine by the Tower</orgName>
                <orgName type="formInDocument">St Katherine by the Tower</orgName>
                <region type="parish">St Katharine's by the Tower</region>
