@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900105">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. MM. 104</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_MM_104</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_MM_104" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. MM. 104</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                         
+                        <origDate when="1534-07-21">21 July <supplied>1534.</supplied>
+                        </origDate> 
+                        Letters patent of <persName>Hen. VIII</persName> inspecting
+                        (i) <persName>
+                           <forename>George</forename> Lord Burgavenny</persName>’s bill in
+                        Chancery against <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Cumberforth</surname>
+                        </persName>. The plea is
+                        that T. C. acquired the manor of <placeName type="manor" key="place_1083234">Wyggynton</placeName> for
+                        £580, but on condition that
+                        he should restore it to G. lord B. if the latter repaid the purchase money,
+                        with a sum to be decided by the arbitration of 
+                        <persName>Sir <forename>John</forename> 
+                           <surname>Aston</surname>
+                        </persName> and
+                        <persName>Sir <forename>Edward</forename> 
+                           <surname>Ferrers</surname>
+                        </persName>,
+                        kts., for improvements, within 6 years. On his refusal to do so G.
+                        lord B. filed this complaint. 
+                        
+                        (ii) the <hi rend="italic">sub poena</hi> summoning T. C.
+                        (<origDate when="1518-11-06">6 Nov. 10 Hen. VIII</origDate>). 
+                        
+                        (iii) The answer of T. C., who denied that the sale
+                        had been conditional. They had made the bargain about the 8th of May 5 Hen.
+                        VIII, and the indentures had been drawn up on the 10th., but lord B. would
+                        not seal them until he had received £100 in part payment from T. C., and
+                        when this had been done he still refused to seal, demanding the £100 as a
+                        loan until his return from France. <pb n="209"/> T. C. replied that this was
+                        impossible, as he had pledged his lands to the clear yearly value of
+                        £32/13/4 in order to raise the £580, but lord B. would not return the £100.
+                        Lord B. then went to France. 
+                        
+                        Afterwards one Doctor Roote, ‘being of
+                        Counseille with the seid lord, movyd unto the seid’ T. C., that if lord B.
+                        repaid the £580 he should have back his manor. Thomas disagreed, but not
+                        knowing how he should come to the perfection of his bargain nor to the
+                        repayment of his money, sealed the bill which lord B. had drawn up
+                        containing the above mentioned condition.
+                        
+                        The deposition of
+                        <persName>Dr. <surname>Roote</surname> (doctor in decrees and parson of <placeName role="parson" key="place_108291">Bukstes in Sussex</placeName>
+                        </persName>, age 49) examined 30 Nov.
+                        10 Hen. VIII, said that the Easter before the king went abroad, he,
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Roote</surname>
+                        </persName> his brother,
+                        <persName>
+                           <forename>Walter</forename> 
+                           <surname>Myles</surname>
+                        </persName>,
+                        <persName>
+                           <forename>Antony</forename> 
+                           <surname type="patronymic">Fitzherbert</surname> sergeant at law</persName> &amp;c.
+                        were with lord B. in his place at <placeName type="minor">Paternoster Row</placeName>
+                        in <placeName key="place_100051">London</placeName>, when the said
+                        bargain was made. <persName>
+                           <forename>John</forename> 
+                           <surname>Roote</surname>
+                        </persName> drew up the bill containing the conditional
+                        clause there on 6 June 5 Hen. VIII, and T. C. sealed it without any
+                        compulsion. ‘Which bill was then made in great haste because the king was in
+                        preparyng him toward Canterbury and had ywyn knowledge to lye at the seid
+                        lordes place at <placeName key="place_108293">Birlyng</placeName>.’
+                        
+                        <persName>
+                           <forename>William</forename> 
+                           <surname>Leicester</surname> of <placeName role="person" key="place_108294">Coffeton (Worcs.)</placeName> gentleman</persName>,
+                        age 78, said that about 5 years ago, when he gave up his office of
+                        Receivership in <placeName type="county" key="place_000069">Staffordshire</placeName> under 
+                        lord Burgavenny, he was present in
+                        Paternoster Row and heard the terms of the conditional sale, and the fact
+                        that the condition was sealed before the indentures.
+                        
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Roote</surname> of <placeName role="person" key="place_108292">Litlyngton (Sussex)</placeName>, gentleman</persName>, 
+                        60, also present, and wrote the bill. 
+                        
+                        <persName>
+                           <forename>Walter</forename> 
+                           <surname>Myles</surname>
+                        </persName>, receiver to part of the lands of the lord B., gent., aged 47. 
+                        
+                        <hi rend="italic">For T. C.</hi> 
+                        <persName>
+                           <forename>Rychard</forename> 
+                           <surname>Covert</surname> of <placeName role="person" key="place_108295">Slagham (Sussex)</placeName> Esq.</persName>, 
+                        age 54, examined 9 Feb. 10 Hen. VIII, said that 4 Hen. VIII there had been 
+                        ‘a variaunce’ between T. C. and lord B. by reason
+                        of their two manors adjoining in Staffordshire, and that T. C. asked him to
+                        approach lord B. about leasing the manor to T. C. 
+                        
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Lucas</surname> servant</persName> of T.
+                        C., 33 yrs., said that 
+                        <persName>
+                           <forename>Antony</forename> 
+                           <surname>Babyngton</surname>
+                        </persName> had 
+                        in <placeName type="minor">Westminster Hall</placeName>, on May 12,
+                        reported to him his lord’s willingness to sell the manor. He was present at
+                        the bargain, in Lord B.’s place ‘beside the pollis’, in London. His master
+                        was under the impression that he had made a clear purchase. 
+                        
+                        <persName>
+                           <forename>William</forename> 
+                           <surname>Sabyn</surname>, servant</persName>
+                        of T. C., age 30, remembered that his lord had told him that he had
+                        ‘smitten a pleyn bargayne’ with <pb n="210"/> lord B. Antony Babyngton,
+                        examined 21 Feb. 11 Hen. VIII (adds nothing). 
+                        
+                        A memorandum follows, to the
+                        effect that Lord B. produced in Chancery the bill containing the 6 years
+                        clause. 
+                        
+                        The result was that lord B. recovered the manor, and the arbitrators
+                        [<persName>
+                           <forename>Cuthbert</forename> 
+                           <surname>Tunstall</surname>, Master of the Rolls</persName>, 
+                        <persName>
+                           <forename>Robert</forename> 
+                           <surname>Brudenell</surname>, kt.</persName>,
+                        <persName>
+                           <forename>Lewis</forename> 
+                           <surname>Pollerd</surname>, kt.</persName>]
+                        were ordered by a certain date to give judgment on the amount of damages. </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Cardinal College.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="208" to="210">208-210</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

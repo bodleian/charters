@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900018">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. MM. 18</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_MM_18</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_MM_18" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. MM. 18</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        
+                        ‘The number of acres of lande and meade of <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Denton</surname>, Esq.</persName>, belonging unto the personage of <placeName key="place_108237">Stratton Audelye in the countye of Oxforde</placeName> whiche landes <persName>
+                           <forename>John</forename> 
+                           <surname>Burlesc</surname>’, Esq., lorde of the sayde manour of <placeName type="manor" role="person" key="place_108238">Stratton</placeName>
+                        </persName> hath in exchange of the sayde <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Denton</surname>
+                        </persName> four other landes in the sayde Fealdes and lordeship of <placeName key="place_108237">Stratton</placeName> as hereafter ensueth.’
+                        <list>
+                            <item>(i) (demesne) 10 a. 1 rood, and a butt.</item>
+                            <item>(ii) Now in the tenure of <persName>
+                                 <forename>Robert</forename> 
+                                 <surname>Macham</surname>
+                              </persName>, 3½a.</item>
+                            <item>(iii) Now in the tenure of <persName>
+                                 <forename>Thomas</forename> 
+                                 <surname>King</surname>
+                              </persName>, 2a. 1r. 16½ ‘doles’ of meadow.</item>
+                            <item>(iv) T.D.’s freehold, late the possession of the monastery of <orgName key="org_109012">Cirencester</orgName> and now in the tenures of <persName>
+                                 <forename>William</forename> 
+                                 <surname>Jakeman</surname>
+                              </persName> and <persName>
+                                 <forename>John</forename> 
+                                 <surname>Tytmowse</surname>
+                              </persName> and <persName>
+                                 <forename>Alice</forename> 
+                                 <surname>Arnebowrough</surname>
+                              </persName>. 1½ a. and 3½ ‘doles’ of meadow in <placeName key="place_108237">Stretton</placeName>.
+                                [These lands and the lands for which they were exchanged,
+                                are set forth strip by strip against each other, with the situation
+                                of each.]</item>
+                        </list>
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Cardinal College.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

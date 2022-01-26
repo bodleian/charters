@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900002">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. MM. 2</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_MM_2</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_MM_2" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. MM. 2</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                         
+                        
+                        Paper book containing ff. 1–18: [16–18 blank].
+                        Valuation of manors: <origDate when="1547">
+                           <supplied>1547.</supplied>
+                        </origDate>
+                        <list>
+                            <item>1. In Norfolk lately of <persName>sir <forename>Richard</forename> 
+                                 <surname>Southwell</surname>
+                              </persName>, kt.— 
+                                <list>
+                                    <item>(i) <placeName type="manor" key="place_108321">Woodnorton cum membris</placeName> (Stibborde, Folsham, Hilderstone, Bawgerham, East Byntrey, and Thymllethorpe).</item>
+                                    <item>(ii) <placeName type="manor" key="place_108322">Upton cum membris</placeName> (South Walsham, Wyttone, and Northbirlingham).</item>
+                                    <item>(iii) <placeName type="manor" key="place_108323">Wendlynge</placeName>.</item>
+                                    <item>(iv) <placeName type="manor" key="place_108324">East Walton</placeName>.</item>
+                                    <item>(v) <placeName type="manor" key="place_108325">Swanton Newars</placeName> and <placeName type="manor" key="place_108326">Cardestone</placeName>.</item>
+                                </list>
+                            </item>
+                            <pb n="183"/>
+                            <item>2. In Montgomeryshire lately of <persName>
+                                 <forename>Thomas</forename> lord Wriothesley, kt.</persName>’ 
+                                <list>
+                                    <item>(i) the rectories of <placeName key="place_108241">Myvod</placeName>, <placeName key="place_108243">Poole</placeName>, and <placeName key="place_108242">Guillesfelde</placeName>.</item>
+                                    <item>(ii) the rectory of <placeName key="place_108194">Bowdon Magna</placeName>, and in <placeName type="county" key="place_104166">Leicestershire</placeName>, of the same.</item>
+                                </list>
+                            </item>
+                            <item>3. In Devon, lately of <persName>sir <forename>William</forename> 
+                                 <surname>Petes</surname>, kt.</persName>, the rectory of
+                                <placeName key="place_108244">Torryton Magna with St. Giles</placeName>.</item>
+                            <item>4. In Worcestershire, lately of the Dean &amp;c. of <orgName key="org_104037">Westminster</orgName>,
+                                rents from <placeName key="place_108245">Offenhame</placeName>, <placeName key="place_108246">Hamptone</placeName>, <placeName key="place_101044">South Litteltone</placeName>, <placeName key="place_101044">Myddell Litteltone</placeName>, <placeName key="place_108247">Bradesene</placeName>, <placeName key="place_108248">Aldingtone</placeName>, and <placeName key="place_101066">Wykensford</placeName>.</item>
+                            <item>5. In Oxon., lately of <persName>sir <forename>Thomas</forename> 
+                                 <surname>Pope</surname>, kt.</persName>, 
+                                the manor of <placeName type="manor" key="place_1083238">Dodington</placeName>.</item>
+                            <item>6. In Cheshire, lately of <persName>
+                                 <forename>Wm</forename>. <surname>Brendred</surname>
+                              </persName>, rent from <placeName key="place_108249">Rothestone</placeName>.</item>
+                            <item>7. In Northants. and Bedfordshire, annuities from the rectories of
+                                <placeName key="place_104354">Haringworthe</placeName>, and <placeName key="place_108258">Copull [Cople]</placeName>.</item>
+                            <item>8. In Cheshire, the rectory of <placeName key="place_108253">Runcorn</placeName>, and in Gloucester that of <placeName key="place_108259">Allesworth</placeName>.</item>
+                            <item>9. In Yorkshire, lately of <persName>
+                                 <forename>Richard</forename> 
+                                 <surname>Morrysone</surname>
+                              </persName>, and once of the
+                                <orgName key="org_103020">hospital of St. James (Northallerton)</orgName>, <placeName key="place_108261">Romanby</placeName>, 
+                                <placeName key="place_108250">Osmundesley [Osmotherley]</placeName>, <placeName key="place_108251">Silton</placeName>, <placeName key="place_108252">Nunhouse</placeName>, <placeName key="place_108262">Thornton</placeName>, <placeName key="place_108264">Northetringtone</placeName>,
+                                <placeName key="place_103149">Ellerbeck</placeName>, <placeName key="place_108263">Twyselle</placeName>, <placeName key="place_108265">Long Newtone</placeName>.</item>
+                        </list> 
+                        The book was made as a ‘Boke of Requests’, and shows that <orgName key="org_101005">Ch. Ch.</orgName>
+                        were claiming about £70 from these properties. </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Cardinal College.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to="183">-183</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

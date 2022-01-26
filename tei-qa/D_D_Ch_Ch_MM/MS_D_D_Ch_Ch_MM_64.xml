@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900065">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. MM. 64</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_MM_64</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_MM_64" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. MM. 64</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                         
+                        <origDate notBefore="1600" notAfter="1700">Seventeenth-century</origDate> transcripts of 
+                        (i) a lease by <orgName key="org_101005">Ch. Ch.</orgName> to
+                        <persName>
+                           <forename>William</forename> 
+                           <surname>Kirkman</surname>
+                        </persName> and <persName nymRef="Kirkman">
+                           <forename>Alece</forename> his wife</persName> 
+                        of two closes lying outside Oseney gate in the 
+                        <placeName key="place_108317">parish of S. Nicholas</placeName>, called the 
+                        <placeName type="minor">Horse Close</placeName> (now held by the said William)
+                        [except all wood underwood and growing trees]. For 20 years.
+                        Rent: 40/-. 
+                        <origDate when="1547-08-02">2 Aug. <supplied>1547.</supplied>
+                        </origDate>
+                        (ii) A grant (Latin) appointing for life
+                        <persName>
+                           <forename>David</forename> ap <surname>Robert</surname>, yeoman</persName>,
+                        their bailiff, collector of rents, and ruler
+                        of all their possessions temporal and spiritual in 
+                        <placeName type="county" key="place_000069">Staffordshire</placeName>,
+                        <placeName type="county" key="place_000090">Worcestershire</placeName> and 
+                        <placeName type="county" key="place_000059">Montgomeryshire</placeName>, after the death of
+                        <persName>
+                           <forename>William</forename> 
+                           <surname>Coxe</surname>
+                        </persName>, now
+                        <pb n="203"/> possessed of the office. Salary: £16/16/8. 
+                        [Here the transcript ends: it is followed by fragments of business memoranda, in the
+                        same hand.] 
+                         </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Cardinal College.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to="203">-203</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

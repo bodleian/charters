@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900001">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. MM. 1</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_MM_1</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_MM_1" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. MM. 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                         
+                        <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Wolsey</surname>
+                        </persName>
+                        by a fine grants to his College (i) the
+                        manors of <placeName type="manor" key="place_108319">Wallyngford</placeName>, <placeName type="manor" key="place_108229">Westhenreth</placeName> and <placeName type="manor" key="place_108053">Clopcote</placeName> 
+                        and 30 messuages, 1000 acres
+                        of land, 60 acres of meadow, 200 acres of pasture, 50 acres of wood, 500
+                        acres of fields and £30 rent in <placeName key="place_107073">W<supplied>allyngford</supplied>
+                        </placeName>, <placeName key="place_108083">W<supplied>esthenreth</supplied>
+                        </placeName>, and <placeName key="place_107027">C<supplied>lopcote</supplied>
+                        </placeName>, and <placeName key="place_108269">Conyngton</placeName>, <placeName key="place_107037">Kerswelle</placeName>,
+                        <placeName key="place_107020">Bucklond</placeName>, <placeName key="place_107048">Southmorton</placeName>, <placeName key="place_109157">Ardyngton</placeName>, <placeName key="place_107066">Sotwelle</placeName>, <placeName key="place_107022">Brightwelle</placeName>, <placeName key="place_108230">Huddisbuddes</placeName>, <placeName key="place_107048">North Morton</placeName>, <placeName key="place_107018">Aston Torald</placeName>, and <placeName key="place_107050">Mulford [Aston Tirrold and Moulsford]</placeName>; and the
+                        advowsons of Westhenreth and <placeName key="place_107073">S. Mary’s Wallingford</placeName>; (ii) the manors of <placeName type="manor" key="place_108320">Wyng</placeName>
+                        and <placeName type="manor" key="place_108231">Swanburn [Bucks]</placeName> 200 acres of land, 
+                        300 acres of pasture, 60 acres of meadow, 60 acres of wood, 200 acres of fields and £6 rent in W. and S. and
+                        the advowson of W.; (iii) the manor of <placeName type="manor" key="place_107006">Chalkford [in Aston Rowant, Oxon.]</placeName>, 2 water-mills, 20 messuages, 500 acres of land, 100 acres of pasture, 50 acres
+                        of meadow, 60 acres of wood, 200 acres of fields and £20 rent in C., <placeName key="place_107017">Aston Rowant</placeName>, <placeName key="place_107069">Stoken-church</placeName>, <placeName key="place_107067">Northstoke</placeName>, <placeName key="place_109171">Besyngton</placeName>, <placeName key="place_107026">Chynnor</placeName>, <placeName key="place_105449">Oxford</placeName>, <placeName key="place_107022">Brightwelle</placeName>,
+                        <placeName key="place_109546">Watlyngton</placeName>, <placeName key="place_109461">Rytherfeld Pyppard [Rotherfield Peppard]</placeName>, <placeName key="place_108230">Hudders-buddys</placeName>,
+                        <placeName key="place_108232">Coxham</placeName>, <placeName key="place_109329">Helcombe</placeName>, <placeName key="place_109171">Bensyngton</placeName>, <placeName key="place_107024">Chalford</placeName>, <placeName key="place_108235">Stanlake</placeName>, <placeName key="place_107101">Chalgrave</placeName>, <placeName key="place_107067">Stokebasset</placeName>,
+                        <placeName key="place_109409">Newenham</placeName>, <placeName key="place_107043">Mapylle Derhame</placeName>, <placeName key="place_109318">Henley</placeName>, <placeName key="place_108236">Wynhale</placeName>, <placeName key="place_108058">Crowmershe</placeName>, <placeName key="place_108233">Nettlebed</placeName> and
+                        <placeName key="place_108234">Nuffeld</placeName>, and the advowsons of 
+                        <placeName key="place_107026">Chynnor</placeName>, <placeName key="place_107031">Garsyngton</placeName> and Aston Rowant, and the chapel of Stokenchurch. 
+                        <origDate when="1528-11-18">
+                           <supplied>18 Nov. 1528.</supplied>
+                        </origDate>
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Cardinal College.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

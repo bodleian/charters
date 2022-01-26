@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109083">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900120">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Rolls Oxon. 18</title>
-            <respStmt xml:id="TC">
-               <resp when="1878">Cataloguer</resp>
-               <persName>W. H. Turner</persName>
-               <persName>H. O. Coxe</persName>
+            <title>MS. D. D. Ch. Ch. MM. Rolls 4</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
             </respStmt>
             <respStmt xml:id="TA">
                <resp when="2020">Encoding</resp>
@@ -30,31 +29,35 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Rolls_Oxon_18</idno>
-            <idno type="collection">Oxon</idno>
+            <idno type="msID">MS_D_D_Ch_Ch_MM_Rolls_4</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Rolls_Oxon_18" xml:lang="en">
+            <msDesc xml:id="MS_D_D_Ch_Ch_MM_Rolls_4" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Rolls Oxon. 18</idno>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. MM. Rolls 4</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> The account of <persName>
-                           <forename>Herbert</forename> 
-                           <surname>Westfalinge</surname>, S.T.P.</persName>, 
-               and <persName>
+                     <p> Treasurers' account, <orgName key="org_101005">Cardinal College</orgName>:
+                        <persName>
+                           <forename>Henry</forename> 
+                           <surname>Siddall</surname>
+                        </persName> &amp; <persName>
                            <forename>Thomas</forename> 
-                           <surname>Bernarde</surname>, clerk</persName>, treasurers
-               of <orgName key="org_101005">Christ Church</orgName>, from Michaelmas, <origDate notBefore="1565-11-17" notAfter="1566-11-16">8 Elizabeth</origDate>, to the same feast,
-               <origDate notBefore="1566-11-17" notAfter="1567-11-16">9 Elizabeth</origDate>. . </p>
+                           <surname>Kerit</surname>, clerk</persName>
+                        <origDate notBefore="1559-11-17" notAfter="1560-11-16">2 Eliz.</origDate>
+                        (2 <hi rend="italic">ms.</hi>) 
+                    </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -64,15 +67,15 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Cardinal College.</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="286" to="286">286</citedRange>
-                           </bibl>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
-                              <citedRange unit="page" from="" to=""/>
+                                <citedRange unit="page" from="" to=""/>
                            </bibl>
                         </source>
                      </recordHist>
@@ -82,7 +85,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2020-10">First online publication</change>
+         <change when="2021-06">First online publication</change>
       </revisionDesc>
    </teiHeader>
    <text>
