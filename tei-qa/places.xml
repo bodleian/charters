@@ -121,12 +121,23 @@
             <place type="county" xml:id="place_000027">
                <placeName type="index">Herefordshire</placeName>
             </place>
+            <place type="county" xml:id="place_000028">
+               <placeName type="index">Hertfordshire</placeName>
+               <placeName type="formInDocument">Hartford</placeName>
+               <note type="charter">MS. Ch. Middlesex 47</note>
+            </place>
+            
             <place type="county" xml:id="place_000030">
                <placeName type="index">Huntingdonshire</placeName>
                <idno>https://www.visionofbritain.org.uk/unit/10090295</idno>
             </place>
+          
+       
             <place type="county" xml:id="place_000031">
                <placeName type="index">Kent</placeName>
+               <idno>https://www.visionofbritain.org.uk/place/17467</idno>
+               <idno>https://www.genuki.org.uk/big/eng/KEN</idno>
+               <note type="charter">MS. Ch. Middlesex 47</note>
                <note type="charter">MS. Ch. Sussex 26</note>
             </place>
             <place type="county" xml:id="place_000040">
@@ -136,9 +147,12 @@
            
             <place type="county" xml:id="place_000050">
                <placeName type="index">Middlesex</placeName>
+               <placeName type="formInDocument">Middlesex</placeName>
                <idno>https://www.visionofbritain.org.uk/unit/10073790</idno>
                <idno>https://epns.nottingham.ac.uk/browse/Middlesex</idno>
                <idno>https://www.genuki.org.uk/big/eng/MDX</idno>
+               <note type="charter">MS. Ch. Middlesex 47</note>
+               <note type="charter">MS. Ch. Middlesex 97</note>
                <note type="charter">MS. Ch. Norfolk 339</note>
             </place>
             <place type="county" xml:id="place_000059">
@@ -424,15 +438,26 @@
                <note type="charter">MS. Ch. Suffolk 1442</note>
                <note type="charter">MS. Rolls Suffolk 4</note>
             </place>
-            <place type="county" xml:id="place_000071">
+            
+            <place subtype="new" type="county" xml:id="place_000071">
                <placeName type="index">Surrey</placeName>
+               <placeName type="formInDocument">Surrey</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY</idno>
+               <note type="charter">MS. Ch. Middlesex 47</note>
                <note type="charter">MS. Ch. Sussex 266</note>
             </place>
-            <place type="county" xml:id="place_000072">
+            <place subtype="new" type="county" xml:id="place_000072">
                <placeName type="index">Sussex</placeName>
+               <placeName type="formInDocument">Sussex</placeName>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX</idno>
+               <note type="charter">MS. Ch. Middlesex 47</note>
                <note type="charter">MS. Ch. Sussex 265</note>
                <note type="charter">MS. Ch. Sussex 266</note>
             </place>
+          
+          
             <place type="county" xml:id="place_000090">
                <placeName type="index">Worcestershire</placeName>
                <idno>https://www.visionofbritain.org.uk/unit/10091536</idno>
@@ -1589,9 +1614,13 @@
                <note type="charter">MS. Ch. Cambs. 3</note>
                <note type="charter">MS. Ch. Cambs. 1</note>
             </place>
+           
+           
             <place type="place" xml:id="place_100051">
                <placeName type="index">London, city and county</placeName>
                <placeName type="formInDocument">London</placeName>
+               <placeName type="formInDocument">London</placeName>
+               <placeName type="formInDocument">LONDON</placeName>
                <placeName type="formInDocument">london</placeName>
                <idno>https://www.genuki.org.uk/big/eng/LND</idno>
                <bibl>A History of the County of London: Volume 1, London Within the Bars, Westminster and Southwark, ed. William Page (London, 1909), British History Online http://www.british-history.ac.uk/vch/london/vol1 [accessed 25 November 2020].</bibl>
@@ -1651,7 +1680,67 @@
                <note type="charter">MS. Rolls Norfolk 4</note>
                <note type="charter">MS. Rolls Norfolk 14</note>
                <note type="charter">MS. Rolls Norfolk 82</note>
-               
+               <note type="charter">MS. Ch. Middlesex 88</note>
+               <note type="charter">MS. Ch. Middlesex 92</note>
+               <note type="charter">MS. Ch. Middlesex 91</note>
+               <note type="charter">MS. Ch. Middlesex 96</note>
+               <note type="charter">MS. Ch. Middlesex 2</note>
+               <note type="charter">MS. Ch. Middlesex 5</note>
+               <note type="charter">MS. Ch. Middlesex 9</note>
+               <note type="charter">MS. Ch. Middlesex 11</note>
+               <note type="charter">MS. Ch. Middlesex 13</note>
+               <note type="charter">MS. Ch. Middlesex 20</note>
+               <note type="charter">MS. Ch. Middlesex 24</note>
+               <note type="charter">MS. Ch. Middlesex 25</note>
+               <note type="charter">MS. Ch. Middlesex 28</note>
+               <note type="charter">MS. Ch. Middlesex 29</note>
+               <note type="charter">MS. Ch. Middlesex 32</note>
+               <note type="charter">MS. Ch. Middlesex 42</note>
+               <note type="charter">MS. Ch. Middlesex 44</note>
+               <note type="charter">MS. Ch. Middlesex 45</note>
+               <note type="charter">MS. Ch. Middlesex 47</note>
+               <note type="charter">MS. Ch. Middlesex 51</note>
+               <note type="charter">MS. Ch. Middlesex 54</note>
+               <note type="charter">MS. Ch. Middlesex 55</note>
+               <note type="charter">MS. Ch. Middlesex 58</note>
+               <note type="charter">MS. Ch. Middlesex 62</note>
+               <note type="charter">MS. Ch. Middlesex 71</note>
+               <note type="charter">MS. Ch. Middlesex 77</note>
+               <note type="charter">MS. Ch. Middlesex 80</note>
+               <note type="charter">MS. Ch. Middlesex 82</note>
+               <note type="charter">MS. Ch. Middlesex 84</note>
+               <note type="charter">MS. Ch. Middlesex 100</note>
+               <note type="charter">MS. Ch. Middlesex 111</note>
+               <note type="charter">MS. Ch. Middlesex 114</note>
+               <note type="charter">MS. Ch. Middlesex 117</note>
+               <note type="charter">MS. Ch. Middlesex 133</note>
+               <note type="charter">MS. Ch. Middlesex 138</note>
+               <note type="charter">MS. Ch. Middlesex 143</note>
+               <note type="charter">MS. Ch. Middlesex 144</note>
+               <note type="charter">MS. Ch. Middlesex 145</note>
+               <note type="charter">MS. Ch. Middlesex 149</note>
+               <note type="charter">MS. Ch. Middlesex 150</note>
+               <note type="charter">MS. Ch. Middlesex 151</note>
+               <note type="charter">MS. Ch. Middlesex 152</note>
+               <note type="charter">MS. Ch. Middlesex 156</note>
+               <note type="charter">MS. Ch. Middlesex 161</note>
+               <note type="charter">MS. Ch. Middlesex 165</note>
+               <note type="charter">MS. Ch. Middlesex 166</note>
+               <note type="charter">MS. Ch. Middlesex 167</note>
+               <note type="charter">MS. Ch. Middlesex 169</note>
+               <note type="charter">MS. Ch. Middlesex 170</note>
+               <note type="charter">MS. Ch. Middlesex 98</note>
+               <note type="charter">MS. Ch. Middlesex 99</note>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+               <note type="charter">MS. Rolls Middlesex 2</note>
+               <note type="charter">MS. Rolls Middlesex 5</note>
+               <note type="charter">MS. Rolls Middlesex 21</note>
+               <note type="charter">MS. Ch. London 181</note>
+               <note type="charter">MS. Ch. Middlesex 19</note>
+               <note type="charter">MS. Ch. Middlesex 21</note>
+               <note type="charter">MS. Ch. Middlesex 22</note>
+               <note type="charter">MS. Ch. Middlesex 23</note>
+               <note type="charter">MS. Ch. Middlesex 24</note>
                <note type="charter">MS. Ch. Norfolk 188</note>
                <note type="charter">MS. Ch. Norfolk 339</note>
                <note type="charter">MS. Ch. Norfolk 286</note>
@@ -1806,7 +1895,7 @@
                <placeName type="formInDocument">westminster</placeName>
                <placeName type="formInDocument">westm[inster]</placeName>
                <placeName type="formInDocument">Westminster</placeName>
-               <placeName type="index">Westminster</placeName>
+               <placeName type="formInDocument">WESTMINSTER (Borough of)</placeName>
                <placeName type="formInDocument">westminster</placeName>
                <region type="county" key="place_000050">Middlesex</region>
                <idno>https://www.genuki.org.uk/big/eng/MDX/Westminster</idno>
@@ -1911,7 +2000,36 @@
                <note type="charter">MS. Ch. Oxon. 216</note>
                <note type="charter">MS. Ch. Oxon. 219</note>
                <note type="charter">MS. Ch. Oxon. 220</note>
+               <note type="charter">MS. Ch. Middlesex 175</note>
+               <note type="charter">MS. Ch. Middlesex 36</note>
+               <note type="charter">MS. Ch. Middlesex 1</note>
+               <note type="charter">MS. Ch. Middlesex 4</note>
+               <note type="charter">MS. Ch. Middlesex 6</note>
+               <note type="charter">MS. Ch. Middlesex 11</note>
+               <note type="charter">MS. Ch. Middlesex 17</note>
+               <note type="charter">MS. Ch. Middlesex 18</note>
+               <note type="charter">MS. Ch. Middlesex 34</note>
+               <note type="charter">MS. Ch. Middlesex 37</note>
+               <note type="charter">MS. Ch. Middlesex 42</note>
+               <note type="charter">MS. Ch. Middlesex 45</note>
+               <note type="charter">MS. Ch. Middlesex 47</note>
+               <note type="charter">MS. Ch. Middlesex 53</note>
+               <note type="charter">MS. Ch. Middlesex 107</note>
+               <note type="charter">MS. Ch. Middlesex 124</note>
+               <note type="charter">MS. Ch. Middlesex 139</note>
+               <note type="charter">MS. Ch. Middlesex 154</note>
+               <note type="charter">MS. Ch. Middlesex 168</note>
+               <note type="charter">MS. Ch. Middlesex 169</note>
+               <note type="charter">MS. Ch. Middlesex 171</note>
+               <note type="charter">MS. Ch. Middlesex 172</note>
+               <note type="charter">MS. Rolls Middlesex 23</note>
+               <note type="charter">MS. Rolls Middlesex 24</note>
+               <note type="charter">MS. Ch. London 181</note>
+               <note type="charter">MS. Rolls Middlesex 23</note>
             </place>
+            
+          
+            
             <place type="place" xml:id="place_100061">
                <placeName type="index">Whittlesey</placeName>
                <placeName type="formInDocument">Whitlesey</placeName>
@@ -3697,13 +3815,18 @@
                <placeName type="index">Lambeth</placeName>
                <placeName type="formInDocument">Lamehith</placeName> <placeName type="formInDocument">lamehith</placeName>
                <placeName type="formInDocument">lamehuth [i.e. lambeth]</placeName>
+               <placeName type="formInDocument">Lambeth</placeName>
                <region type="parish">Lambeth</region>
                <region type="county" key="place_000071">Surrey</region><idno>https://epns.nottingham.ac.uk/browse/Surrey/Lambeth/53287118b47fc40c23000ae0-Lambeth</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Lambeth/53287118b47fc40c23000ae0-Lambeth</idno>
                <idno>https://www.genuki.org.uk/big/eng/SRY/Lambeth</idno>
                <note type="charter">MS. Ch. Oxon. 139</note>
                <note type="charter">MS. Ch. Oxon. 56a and 56b</note>
                <note type="charter">MS. Ch. Sussex 234</note>
+               <note type="charter">MS. Rolls Middlesex 5</note>
             </place>
+            
+            
             <place type="place" xml:id="place_102090">
                <placeName type="index">Lancing</placeName>
                <placeName type="formInDocument">Launcynge</placeName>
@@ -5251,9 +5374,12 @@
                <region type="parish">Leeds</region>
                <region type="county" key="place_000103">Yorkshire, West Riding</region>
                <idno>https://www.genuki.org.uk/big/eng/YKS/WRY/Leeds/more</idno>
+               <idno>https://www.wikidata.org/wiki/Q2393654</idno>
                <note type="charter">MS. Ch. Yorks. 284a</note>
+               <note type="charter">MS. Ch. Middlesex 10</note>
                <note>Uncertain if MS. Ch. Yorks. 284a relates to this place.</note>
             </place>
+            
             
             <place type="place" xml:id="place_103060">
                <placeName type="index">Arnold</placeName>
@@ -6464,7 +6590,7 @@
                <note type="charter">MS. Ch. Yorks. 340</note>
             </place>
             
-            <place type="place" xml:id="place_103171">
+            <place type="country" xml:id="place_103171">
                <placeName type="index">France</placeName>
                <placeName type="formInDocument">France</placeName>
                <!-- How to mark countries?
@@ -6472,6 +6598,7 @@
                <region type="county"></region>
                <idno></idno>-->
                <note type="charter">MS. Ch. Yorks. 124</note>
+                  <note type="charter">MS. Ch. Middlesex 7</note>
             </place>
             
          <!--   <place type="place"><!-\- taken as minor -\->
@@ -9616,9 +9743,15 @@
                <note type="charter">MS. D. D. Ch. Ch. O. 902</note>
                <note type="charter">MS. D. D. Ch. Ch. O. 902A</note>
                <note type="charter">MS. D. D. Ch. Ch. O. 907</note>
+               <note type="charter">MS. Ch. Middlesex 30</note>
+               <note type="charter">MS. Ch. Middlesex 72</note>
+               <note type="charter">MS. Ch. Middlesex 117</note>
+               <note type="charter">MS. Ch. Middlesex 122</note>
+               <note type="charter">MS. Ch. Middlesex 123</note>
+               <note type="charter">MS. Ch. Middlesex 174</note>
+               <note type="charter">MS. Rolls Middlesex 5</note> 
+               <note type="charter">MS. Ch. London 182</note>
             </place>
-          
-          
             
         
        
@@ -11776,6 +11909,9 @@
                <note type="charter">MS. Ch. Norfolk 550</note>
                <note type="charter">MS. Ch. Suffolk 1326</note>
                <note type="charter">MS. Ch. Berkshire 167</note>
+                  <note type="charter">MS. Ch. Middlesex 12</note>
+                  <note type="charter">MS. Ch. Middlesex 38</note>
+                  <note type="charter">MS. Ch. Middlesex 124</note>
             </place>
        
             <place type="place" xml:id="place_104182">
@@ -13562,10 +13698,10 @@
             </place>
             
          
-         
             <place type="place" xml:id="place_104318">
                <placeName type="index">Great Yarmouth</placeName><!-- ok? gt & little better?  -->
                <placeName type="formInDocument">Great Jernernuth</placeName>
+               <placeName type="formInDocument">Little Jernemuth, with the chapel of Nortvilla annexed, Suffolk</placeName>
                <placeName type="formInDocument">Gernemuth</placeName>
                <placeName type="formInDocument">great yarmouth</placeName>
                <placeName type="formInDocument">Great Gernemuth</placeName>
@@ -13606,6 +13742,7 @@
                <idno>https://epns.nottingham.ac.uk/browse/Norfolk/Yarmouth/532869e6b47fc40bab000e28-Yarmouth</idno>
                <idno>https://www.wikidata.org/wiki/Q237253</idno>
                <note type="charter">MS. Ch. Oxon. Oseney 271</note>
+               <note type="charter">MS. Rolls Middlesex 1</note>
                <note type="charter">MS. Ch. Norfolk 732</note>
                <note type="charter">MS. Ch. Norfolk 474</note>
                <note type="charter">MS. Ch. Norfolk 598</note>
@@ -15986,12 +16123,23 @@
                <placeName type="index">London, St Faith</placeName>
                <placeName type="formInDocument">London, parish of St. Faith in </placeName>
                <placeName type="formInDocument">parish of St. Faith in London</placeName>
+               <placeName type="formInDocument">London, in the parish of St. Faith, near St. Paul's</placeName>
+               <placeName type="formInDocument">St. Faith's parish</placeName>
+               <placeName type="formInDocument">St. Faith's, London</placeName>
                <!--is this correct way of marking parished in London?-->
                <region type="parish">London, St Faith</region>
                <region type="county">City of London</region>
                <idno>https://www.genuki.org.uk/big/eng/LND/StFaiththeVirgin</idno>
                <note type="charter">MS. Ch. Norfolk 124</note>
+               <idno>https://www.wikidata.org/wiki/Q7593059</idno>
+               <note type="charter">MS. Ch. Middlesex 119</note>
+               <note type="charter">MS. Ch. Middlesex 155</note>
+               <note type="charter">MS. Ch. Middlesex 155</note>
             </place>
+            
+            
+          
+          
             
             <place type="place" xml:id="place_104470">
                <placeName type="index">Norwich, St George at Tombland</placeName>
@@ -18334,7 +18482,9 @@
                <region type="county">Middlesex</region>
                <idno>https://www.wikidata.org/wiki/Q391620</idno>
                <note type="charter">MS. Ch. Norfolk 547</note>
+               <note type="charter">MS. Ch. Middlesex 43</note>
             </place>
+            
             
             <place type="place" xml:id="place_104633">
                <placeName type="index">Whitwell</placeName>
@@ -21766,7 +21916,8 @@
                <placeName type="index">Colchester</placeName>
                <placeName type="formInDocument">colchester</placeName>
                <!--<region type="parish"></region> not enough information to distinguish the parish; should we mark the town separately?-->
-               <region type="county">Essex</region>
+                 <placeName type="formInDocument">Colchester, Essex</placeName>
+              <region type="county">Essex</region>
                <note type="charter">MS. Ch. Suffolk 616</note>
                <note type="charter">MS. Ch. Suffolk 296</note>
                <note type="charter">MS. Ch. Suffolk 299</note>
@@ -21783,10 +21934,10 @@
                <note type="charter">MS. Ch. Essex 155</note>
                <note type="charter">MS. Ch. Oxon. Oseney 302b</note>
                <note type="charter">MS. Ch. Oxon. Oseney 304</note>
+               <note type="charter">MS. Rolls Middlesex 1</note>
                <note type="charter"/><!--CHK shelfmark, version of MS. Ch. Oxon. Oseney 302b-->
             </place>
-         
-         
+           
             
             <place type="place" xml:id="place_105241">
                <placeName type="index">Colne</placeName>
@@ -22156,13 +22307,16 @@
             <place type="place" xml:id="place_105260">
                <placeName type="index">Danbury</placeName>
                <placeName type="formInDocument">danbury in essex</placeName>
+               <placeName type="formInDocument">Daningbyr', Essex</placeName>
                <region type="parish">Danbury</region>
                <region type="county">Essex</region>
                <idno>https://epns.nottingham.ac.uk/browse/Essex/Danbury/532858eeb47fc40a98000dce-Danbury</idno>
                <idno>https://www.genuki.org.uk/big/eng/ESS/Towns/Danbury</idno>
                <note type="charter">MS. Ch. Suffolk 336</note>
+               <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
-            
+          
+          
             <place type="place" xml:id="place_105261">
                <placeName type="index">Darsham</placeName>
                <placeName type="formInDocument">darham in the co. of suffolk</placeName>
@@ -23939,8 +24093,10 @@
                <note type="charter">MS. Ch. Suffolk 1</note>
             </place>
             
+            
             <place type="place" xml:id="place_105393">
                <placeName type="index">Lowestoft</placeName>
+               <placeName type="formInDocument">Lowistoft, co. Suffolk</placeName>
                <placeName type="formInDocument">leystoft</placeName>
                <placeName type="formInDocument">leystofte</placeName>
                <placeName type="formInDocument">lowestoft</placeName>
@@ -23954,6 +24110,7 @@
                <idno>https://www.wikidata.org/wiki/Q986007</idno>
                <bibl>W. W. Skeat, <title>The Place-names of Suffolk</title> (1913) p. 92.</bibl>
                <note type="charter">MS. Ch. Suffolk 677</note>
+               <note type="charter">MS. Rolls Middlesex 1</note>
                <note type="charter">MS. Ch. Suffolk 834</note>
                <note type="charter">MS. Ch. Suffolk 835</note>
                <note type="charter">MS. Ch. Suffolk 1192</note>
@@ -27374,8 +27531,66 @@
                <placeName type="index">London, diocese</placeName>
                <placeName type="formInDocument">london</placeName>
                <placeName type="formInDocument">london</placeName>
+               <placeName type="formInDocument">London</placeName>
                <idno>http://viaf.org/viaf/152967265</idno>
                <idno>https://www.wikidata.org/wiki/Q14946379</idno>
+               <note type="charter">MS. Ch. Middlesex 88</note>
+               <note type="charter">MS. Ch. Middlesex 92</note>
+               <note type="charter">MS. Ch. Middlesex 91</note>
+               <note type="charter">MS. Ch. Middlesex 96</note>
+               <note type="charter">MS. Ch. Middlesex 2</note>
+               <note type="charter">MS. Ch. Middlesex 5</note>
+               <note type="charter">MS. Ch. Middlesex 9</note>
+               <note type="charter">MS. Ch. Middlesex 11</note>
+               <note type="charter">MS. Ch. Middlesex 13</note>
+               <note type="charter">MS. Ch. Middlesex 20</note>
+               <note type="charter">MS. Ch. Middlesex 24</note>
+               <note type="charter">MS. Ch. Middlesex 25</note>
+               <note type="charter">MS. Ch. Middlesex 28</note>
+               <note type="charter">MS. Ch. Middlesex 29</note>
+               <note type="charter">MS. Ch. Middlesex 32</note>
+               <note type="charter">MS. Ch. Middlesex 42</note>
+               <note type="charter">MS. Ch. Middlesex 44</note>
+               <note type="charter">MS. Ch. Middlesex 45</note>
+               <note type="charter">MS. Ch. Middlesex 47</note>
+               <note type="charter">MS. Ch. Middlesex 51</note>
+               <note type="charter">MS. Ch. Middlesex 54</note>
+               <note type="charter">MS. Ch. Middlesex 55</note>
+               <note type="charter">MS. Ch. Middlesex 58</note>
+               <note type="charter">MS. Ch. Middlesex 62</note>
+               <note type="charter">MS. Ch. Middlesex 71</note>
+               <note type="charter">MS. Ch. Middlesex 77</note>
+               <note type="charter">MS. Ch. Middlesex 80</note>
+               <note type="charter">MS. Ch. Middlesex 82</note>
+               <note type="charter">MS. Ch. Middlesex 84</note>
+               <note type="charter">MS. Ch. Middlesex 100</note>
+               <note type="charter">MS. Ch. Middlesex 111</note>
+               <note type="charter">MS. Ch. Middlesex 114</note>
+               <note type="charter">MS. Ch. Middlesex 117</note>
+               <note type="charter">MS. Ch. Middlesex 133</note>
+               <note type="charter">MS. Ch. Middlesex 138</note>
+               <note type="charter">MS. Ch. Middlesex 143</note>
+               <note type="charter">MS. Ch. Middlesex 144</note>
+               <note type="charter">MS. Ch. Middlesex 145</note>
+               <note type="charter">MS. Ch. Middlesex 149</note>
+               <note type="charter">MS. Ch. Middlesex 150</note>
+               <note type="charter">MS. Ch. Middlesex 151</note>
+               <note type="charter">MS. Ch. Middlesex 152</note>
+               <note type="charter">MS. Ch. Middlesex 156</note>
+               <note type="charter">MS. Ch. Middlesex 161</note>
+               <note type="charter">MS. Ch. Middlesex 165</note>
+               <note type="charter">MS. Ch. Middlesex 166</note>
+               <note type="charter">MS. Ch. Middlesex 167</note>
+               <note type="charter">MS. Ch. Middlesex 169</note>
+               <note type="charter">MS. Ch. Middlesex 170</note>
+               <note type="charter">MS. Ch. Middlesex 174</note>
+               <note type="charter">MS. Ch. Middlesex 98</note>
+               <note type="charter">MS. Ch. Middlesex 99</note>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+               <note type="charter">MS. Rolls Middlesex 2</note>
+               <note type="charter">MS. Rolls Middlesex 5</note>
+               <note type="charter">MS. Rolls Middlesex 21</note>
+               <note type="charter">MS. Ch. London 181</note>
                <note type="charter">MS. Rolls Oxon. 27</note>
                <note type="charter">MS. Ch. Oxon. 41</note>
                <note type="charter">MS. Ch. Oxon. 104</note>
@@ -28304,12 +28519,14 @@
             <place type="place" xml:id="place_106117">
                <placeName type="index">Little Burstead</placeName>
                <placeName type="formInDocument">little bursted</placeName>
-               <region type="parish">Little Burstead</region>
+                 <placeName type="formInDocument">Little Burstead, co. Essex</placeName>
+              <region type="parish">Little Burstead</region>
                <region type="county">Essex</region>
                <idno>https://epns.nottingham.ac.uk/browse/Essex/532858bfb47fc40a98000c9f-Little+Burstead</idno>
                <idno>https://www.genuki.org.uk/big/eng/ESS/Towns/Little_Burstead</idno>
                <idno>https://www.visionofbritain.org.uk/unit/10235741</idno>
                <note type="charter">MS. Ch. Essex 181</note>
+               <note type="charter">MS. Ch. Middlesex 72</note>
             </place>
             
             <place type="place" xml:id="place_106118">
@@ -28427,14 +28644,17 @@
             <place type="place" xml:id="place_106125">
                <placeName type="index">Maldon</placeName>
                <placeName type="formInDocument">maldon</placeName>
+               <placeName type="formInDocument">Maldon, Essex</placeName>
                <region type="county">Essex</region>
                <idno>https://www.visionofbritain.org.uk/unit/10207071</idno>
                <idno>https://epns.nottingham.ac.uk/browse/Essex/Maldon/532858eeb47fc40a98000e4a-Maldon</idno>
                <idno>https://www.genuki.org.uk/big/eng/ESS/Towns/Maldon</idno>
                <!-- three parishes: All Saints, St Peter, and St Mary -->
                <note type="charter">MS. Ch. Essex 70</note>
+               <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
-            
+          
+          
             <place type="place" xml:id="place_106126">
                <placeName type="index">St Osyth</placeName>
                <placeName type="formInDocument">chitch st. osyth</placeName>
@@ -28718,10 +28938,12 @@
             <place type="place" xml:id="place_106156">
                <placeName type="index">London, St Andrew Holborn</placeName>
                <placeName type="formInDocument">st. andrew's, holborne, london</placeName>
+               <placeName type="formInDocument">St. Andrew in Holborn</placeName>
                <region type="parish">St Andrew Holborn</region>
                <region type="county">City of London</region><!--is this correct? perhaps 'borough' better?-->
                <idno>https://epns.nottingham.ac.uk/browse/id/53282a40b47fc407a000000b-The+Borough+of+Holborn</idno>
                <idno>https://www.genuki.org.uk/big/eng/LND/StAndrewHolborn</idno>
+               <note type="charter">MS. Ch. Middlesex 18</note>
                <note type="charter">MS. Ch. Essex 187</note>
             </place>
             
@@ -28780,11 +29002,17 @@
             <place type="place" xml:id="place_106162">
                <placeName type="index">Stepney</placeName>
                <placeName type="formInDocument">stebenheth</placeName>
+               <placeName type="formInDocument">Stebunheath alias Stepney</placeName>
+               <placeName type="formInDocument">Stepney, Middlesex</placeName>
+               <region type="parish">Stepney</region>
                <region type="county">Middlesex</region>
                <!--in Borough of Stepney-->
+               <idno>https://www.wikidata.org/wiki/Q7611046</idno>
                <idno>https://www.genuki.org.uk/big/eng/MDX/Stepney</idno>
                <idno>https://epns.nottingham.ac.uk/browse/id/53282a40b47fc407a0000013-The+Borough+of+Stepney</idno>
                <note type="charter">MS. Ch. Essex 25c</note>
+               <note type="charter">MS. Ch. Middlesex 120</note>
+               <note type="charter">MS. Ch. Middlesex 37</note>
             </place>
             
             <place type="place" xml:id="place_106163">
@@ -29286,6 +29514,7 @@
             <place type="diocese" xml:id="place_107002">
                <placeName>Salisbury, diocese (Old and New Sarum)</placeName>
                <placeName type="formInDocument">salisbury</placeName>
+               <placeName type="formInDocument">Salisbury</placeName>
                <placeName type="formInDocument">sarum</placeName>
                <placeName type="formInDocument">sarum diocese</placeName>
                <idno>https://www.wikidata.org/wiki/Q2564064</idno>
@@ -29299,6 +29528,7 @@
                <note type="charter">MS. Ch. Berkshire 25..? </note>
                <note type="charter">MS. Ch. Berkshire 254</note>
                <note type="charter">MS. Ch. Berkshire 129</note>
+               <note type="charter">MS. Ch. Middlesex 5</note>
             </place>
         
         
@@ -29801,12 +30031,15 @@
             <place type="place" xml:id="place_107035">
                <placeName type="index">Hertford</placeName>
                <placeName type="formInDocument">hertforde</placeName>
+               <placeName type="formInDocument">Hertford</placeName>
                <region type="parish">Hertford</region>
                <region type="county">Hertfordshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Hertfordshire/Hertford/53285ba0b47fc40ace000796-Hertford</idno>
                <idno>https://www.genuki.org.uk/big/eng/HRT/Hertford</idno>
                <note type="charter">MS. Ch. Berkshire 57</note>
+               <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
+            
             
             <place type="place" xml:id="place_107036">
                <placeName type="index">Wallingford, St Leonard</placeName>
@@ -29974,6 +30207,7 @@
                <placeName type="index">New Windsor and Old Windsor</placeName>
                <placeName type="formInDocument">new windsor</placeName> <placeName type="formInDocument">windesor</placeName>
                <placeName type="formInDocument">windsor</placeName>
+               <placeName type="formInDocument">Windsor</placeName>
                <placeName type="formInDocument">wyndeshore</placeName>
                <region type="parish">New Windsor and Old Windsor</region>
                <region type="county">Berkshire</region>
@@ -29984,8 +30218,8 @@
                <note type="charter">MS. Ch. Oxon. 6b</note>
                <note type="charter">MS. Ch. Oxon. 169</note>
                <note type="charter">MS. Ch. Oxon. 207b</note>
+               <note type="charter">MS. Ch. Middlesex 146</note>
             </place>
-         
          
             
             
@@ -30453,11 +30687,14 @@
             <place type="place" xml:id="place_107090">
                <placeName type="index">Speldhurst</placeName>
                <placeName type="formInDocument">Speldhurst [Kent]</placeName>
-               <region type="parish"> Speldhurst</region>
+               <placeName type="formInDocument">Speldehurst, in Kent</placeName>
+               <region type="parish">Speldhurst</region>
                <region type="county">Kent</region>
                <idno>https://www.genuki.org.uk/big/eng/KEN/Speldhurst</idno>
+               <idno>https://www.wikidata.org/wiki/Q2389440</idno>
+               <note type="charter">MS. Ch. Middlesex 77</note>
             </place>
-            
+
             <place type="place" xml:id="place_107091">
                <placeName type="index">Strood</placeName>
                <placeName type="formInDocument">Strode</placeName>
@@ -31578,12 +31815,15 @@
             <place type="place" xml:id="place_108093">
                <placeName type="index">Newcastle upon Tyne</placeName>
                <placeName type="formInDocument">Newcastle-on-Tyne</placeName>
+               <placeName type="formInDocument">Newcastle</placeName>
                <region type="parish">Newcastle upon Tyne</region><!--multiple parishes-->
                <region type="county">Northumberland</region>
                <idno>https://www.genuki.org.uk/big/eng/NBL/Newcastle</idno>
                <idno>https://www.wikidata.org/wiki/Q1425428</idno>
+               <note type="charter">MS. Ch. Middlesex 166</note>
                <note type="charter">MS. D. D. Ch. Ch. M. 63</note>
             </place>
+          
             
             <place type="place" xml:id="place_108094">
                <placeName type="index">Stapleton</placeName>
@@ -32305,11 +32545,14 @@
             <place type="place" xml:id="place_108177">
                <placeName type="index">Theydon Bois, Garnon and Mount</placeName>
                <placeName type="formInDocument">Theyden</placeName>
+               <placeName type="formInDocument">Teyden, Essex</placeName>
                <region type="parish">Theydon Bois, Garnon and Mount</region>
                <region type="county">Essex</region>
                <idno>http://epns.nottingham.ac.uk/browse/Essex/532858bfb47fc40a98000d2e-Theydon+Bois%2C+Garnon+and+Mount</idno>
                <note type="charter">MS. D. D. Ch. Ch. D. 109</note>
+               <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
+            
             
             <place type="place" xml:id="place_108178">
                <placeName type="index">Hackleton</placeName>
@@ -32584,12 +32827,22 @@
                <placeName type="index">London, St Stephen Coleman street</placeName>
                <placeName type="formInDocument">Church of St. Stephen in Colman Street</placeName>
                <placeName type="variant">St Stephen's in the Jewry</placeName>
+               <placeName type="formInDocument">church of St. Stephen, Colman Street, London</placeName>
+               <placeName type="formInDocument">St. Stephen the martyr, Coleman streete, London</placeName>
+               <placeName type="formInDocument">ST. STEPHEN'S, COLEMAN STREET</placeName>
                <region type="parish">St Stephen Coleman street</region>
                <region type="county">City of London</region>
                <idno>https://www.genuki.org.uk/big/eng/LND/StStephenColemanstreet</idno>
                <idno>https://www.wikidata.org/wiki/Q7595488</idno>
+               <note type="charter">MS. Rolls Middlesex 4</note>
+               <note type="charter">MS. Rolls Middlesex 5</note>
+               <note type="charter">MS. Rolls Middlesex 6</note>
+               <note type="charter">MS. Rolls Middlesex 7</note>
+               <note type="charter">MS. Ch. London 179</note>
                <note type="charter">MS. Ch. Northants. Daventry 47</note>
             </place>
+           
+           
             
             <place type="place" xml:id="place_108215">
                <placeName type="index">Southrop</placeName>
@@ -33811,6 +34064,7 @@
                <idno></idno>
                <note type="charter"></note>
             </place>
+            
             
             TA cont here adding placeNames
           
@@ -36589,14 +36843,15 @@
             <place type="place" xml:id="place_109266">
                <placeName type="index">Enfield</placeName>
                <placeName type="formInDocument">enfield</placeName>
+               <placeName type="formInDocument">Enfield, Middlesex</placeName>
                <region type="parish">Enfield</region>
                <region type="county">Middlesex</region>
                <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Enfield/53282a5ab47fc407a000022b-Enfield</idno>
                <idno>https://www.genuki.org.uk/big/eng/MDX/Enfield</idno>
                <note type="charter">MS. Ch. Oxon. 178</note>
+               <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-          
             <place type="place" xml:id="place_109268">
                <placeName type="index">Eastrop</placeName>
                <placeName type="formInDocument">estrop</placeName>
@@ -40439,9 +40694,14 @@
             <place type="country" xml:id="place_109472">
                <placeName type="index">Scotland</placeName>
                <placeName type="formInDocument">scotland</placeName>
+               <placeName type="index">Scotland</placeName>
                <idno>https://www.genuki.org.uk/big/sct</idno>
+               <idno>https://www.wikidata.org/wiki/Q22</idno>
+               <note type="charter">MS. Ch. Middlesex 49</note>
                <note type="charter">MS. Ch. Oxon. 24</note>
             </place>
+       
+       
             
             <place type="place" xml:id="place_109473">
                <placeName type="index">Showell</placeName>
@@ -41573,6 +41833,1153 @@
                <idno>http://epns.nottingham.ac.uk/browse/Buckinghamshire/Stowe/53282ee4b47fc407e30003c2-Stowe</idno>
             </place>
           
+          <!-- Middlesex -->
+            
+               <place subtype="new" type="manor" xml:id="place_110001">
+               <placeName type="index">Chelsea</placeName>
+               <placeName type="formInDocument">Chelsea</placeName>
+               <region type="parish">Chelsea</region>
+               <region type="county">Middlesex</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F238203</idno>
+               <note type="charter">MS. Ch. Middlesex 89</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110002">
+               <placeName type="index">Shaftoe</placeName>
+               <placeName type="formInDocument">East Shlaftoe, Northumberland</placeName>
+               <region type="parish">Hartburn</region>
+               <region type="county">Northumberland</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F282568</idno>
+               <note type="charter">MS. Rolls Middlesex 20</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110003">
+               <placeName type="index">Hackney</placeName>
+               <placeName type="formInDocument">Hackney</placeName>
+               <region type="parish">Hackney</region>
+               <region type="county">Middlesex</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F237692</idno>
+               <note type="charter">MS. Ch. Middlesex 93</note>
+               <note type="charter">MS. Ch. Middlesex 94</note>
+               <note type="charter">MS. Ch. Middlesex 95</note>
+               <note type="charter">MS. Ch. Middlesex 66</note>
+               <note type="charter">MS. Ch. Middlesex 96</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110004">
+               <placeName type="index">Herwapton (unidentified)</placeName>
+               <placeName type="formInDocument">Herwapton</placeName>
+               <region type="county">Kent</region>
+               <note type="charter">MS. Ch. Middlesex 77</note>
+               <!-- Kent, ?near Speldhurst -->
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110005">
+               <placeName type="index">Shenley</placeName>
+               <placeName type="formInDocument">Holmes, co. Hertford</placeName>
+               <region type="parish">Shenley</region>
+               <region type="county">Hertfordshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F240384</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110006">
+               <placeName type="index">Elstree</placeName>
+               <placeName type="formInDocument">Idestre in the village of Eggewere, Middlesex</placeName>
+               <region type="parish">Edgware</region>
+               <region type="parish">Little Stanmore</region>
+               <region type="county">Middlesex</region>
+               <!-- not in TNA MDR -->
+               <bibl>
+                  A P Baggs, Diane K Bolton, Eileen P Scarff and G C Tyack, 'Little Stanmore: Manors', in A History of the County of Middlesex: Volume 5, Hendon, Kingsbury, Great Stanmore, Little Stanmore, Edmonton Enfield, Monken Hadley, South Mimms, Tottenham, ed. T F T Baker and R B Pugh (London, 1976), pp. 113-117. British History Online http://www.british-history.ac.uk/vch/middx/vol5/pp113-117 [accessed 26 January 2022].
+               </bibl>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110007">
+               <placeName type="index">Barnsbury</placeName>
+               <placeName type="formInDocument">Iseldon, Middlesex</placeName>
+               <region type="parish">Islington</region>
+               <region type="county">Middlesex</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F238712</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110008">
+               <placeName type="index">Langley Hall</placeName>
+               <placeName type="formInDocument">Langeley, Essex</placeName>
+               <region type="parish">Langley</region>
+               <region type="county">Essex</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F248116</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110009">
+               <placeName type="index">Shortgrove</placeName>
+               <placeName type="formInDocument">Schortgrave, Essex</placeName>
+               <region type="parish">Newport</region>
+               <region type="county">Essex</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F248286</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110010">
+               <placeName type="index">South Middleton</placeName>
+               <placeName type="formInDocument">South Middleton</placeName>
+               <region type="parish">Ilderton</region>
+               <region type="county">Northumberland</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F282372</idno>
+               <note type="charter">MS. Rolls Middlesex 20</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110011">
+               <placeName type="index">South Mimms</placeName>
+               <placeName type="formInDocument">SOUTH MIMMES MANOR</placeName>
+               <region type="parish">South Mimms</region>
+               <region type="county">Middlesex</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F238716</idno>
+               <note type="charter">MS. Rolls Middlesex 22</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110012">
+               <placeName type="index">Speldhurst</placeName>
+               <placeName type="formInDocument">Speldehurst</placeName>
+               <region type="parish">Speldhurst</region>
+               <region type="county">Kent</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F288147</idno>
+               <note type="charter">MS. Ch. Middlesex 77</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110013">
+               <placeName type="index">Tottenham</placeName>
+               <placeName type="formInDocument">Totenham</placeName>
+               <region type="parish">Tottenham</region>
+               <region type="county">Middlesex</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F236168</idno>
+               <note type="charter">MS. Ch. Middlesex 176</note>
+            </place>
+            
+            <place subtype="new" type="manor" xml:id="place_110014">
+               <placeName type="index">Tewin</placeName>
+               <placeName type="formInDocument">Tywynge, co. Hertford</placeName> 
+               <region type="parish">Tewin</region>
+               <region type="county">Hertfordshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F242429</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+         
+         
+         
+            
+          
+            
+          
+        
+            <place subtype="new" type="honour" xml:id="place_110018">
+               <placeName type="index">Clare, Honour of</placeName>
+               <placeName type="formInDocument">Clare</placeName>
+               <note type="charter">MS. Ch. Middlesex 6</note>
+            </place>
+         
+         
+         
+        
+        
+        
+            <place subtype="new" type="country" xml:id="place_110023">
+               <placeName type="index">Borneo</placeName>
+               <placeName type="formInDocument">Borneo</placeName>
+               <idno>https://www.wikidata.org/wiki/Q36117</idno>
+               <note type="charter">MS. Ch. Middlesex 114</note>
+            </place>
+            
+          
+            
+           
+            
+            <place subtype="new" type="country" xml:id="place_110026">
+               <placeName type="index">Gambia</placeName>
+               <placeName type="formInDocument">Gambia, Africa</placeName>
+               <idno>https://www.wikidata.org/wiki/Q1005</idno>
+               <note type="charter">MS. Ch. Middlesex 134</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110027">
+               <placeName type="index">Jamaica</placeName>
+               <placeName type="formInDocument">Jamaica</placeName>
+               <region type="county">Jamaica</region>
+               <idno>https://www.wikidata.org/wiki/Q766</idno>
+               <note type="charter">MS. Ch. Middlesex 134</note>
+            </place>
+            
+           
+        
+        
+            <place subtype="new" type="street" xml:id="place_110029">
+               <placeName type="index">London, Bow Lane</placeName>
+               <placeName type="formInDocument">Bow lane</placeName>
+               <region type="parish">St Mary le Bow</region>
+               <region type="county">City of London</region>
+               <note type="charter">MS. Ch. Middlesex 78</note>
+            </place>
+         
+            <place subtype="new" type="street" xml:id="place_110030">
+               <placeName type="index">London, Charles Street</placeName>
+               <placeName type="formInDocument">Charles Street, London</placeName>
+               <region type="county">Middlesex</region><!--City of Westminster-->
+               <idno>https://www.wikidata.org/wiki/Q28035423</idno>
+               <note type="charter">MS. Ch. London 180</note>
+            </place>
+            
+            <place subtype="new" type="street" xml:id="place_110031">
+               <placeName type="index">London, East street</placeName>
+               <placeName type="formInDocument">East street</placeName>
+               <note type="charter">MS. Ch. Middlesex 157</note>
+            </place>
+            
+            <place subtype="new" type="street" xml:id="place_110032">
+               <placeName type="index">London, Hatton Garden</placeName>
+               <placeName type="formInDocument">Hatton garden</placeName>
+               <region type="parish">Holborn St Andrew</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.wikidata.org/wiki/Q5682158</idno>
+               <note type="charter">MS. Ch. Middlesex 78</note>
+            </place>
+            
+            <place subtype="new" type="street" xml:id="place_110033">
+               <placeName type="index">London, Lady alley, King street, Westminster</placeName>
+               <placeName type="formInDocument">Lady alley, King street</placeName>
+               <region type="county">Middlesex</region><!--City of Westminster-->
+               <note type="charter">MS. Ch. Middlesex 87</note>
+            </place>
+            
+            <place subtype="new" type="street" xml:id="place_110034">
+               <placeName type="index">London, Lyon yard</placeName>
+               <placeName type="formInDocument">Lyon yard alias Grayes alley, in the parish of St. Dyonise Backchurch</placeName>
+               <region type="parish">St Dionis Backchurch</region>
+               <region type="county">City of London</region>
+               <note type="charter">MS. Ch. Middlesex 71</note>
+            </place>
+            
+            <place subtype="new" type="street" xml:id="place_110035">
+               <placeName type="index">London, New Grave Lane</placeName>
+               <placeName type="formInDocument">Newgrave lane, in the parish of St. Paul, Shadwell, co. Middlesex</placeName>
+               <region type="parish">Shadwell St Pauls</region>
+               <region type="county">Middlesex</region>
+               <note type="charter">MS. Ch. Middlesex 105</note>
+            </place>
+            
+            <place subtype="new" type="street" xml:id="place_110036">
+               <placeName type="index">London, Salisbury Street</placeName>
+               <placeName type="formInDocument">Salisbury street</placeName>
+               <region type="county">Middlesex</region>
+               <note type="charter">MS. Ch.Middlesex 83</note>
+            </place>
+            
+            <place subtype="new" type="street" xml:id="place_110037">
+               <placeName type="index">London, Skinner Street</placeName>
+               <placeName type="formInDocument">Skinner's street, London</placeName>
+               <placeName type="formInDocument">Skinners street</placeName>
+               <note type="charter">MS. Ch. Middlesex 65</note>
+               <note type="charter">MS. Ch. Middlesex 152</note>
+            </place>
+            
+            <place subtype="new" type="street" xml:id="place_110038">
+               <placeName type="index">London, Trig Lane</placeName>
+               <placeName type="formInDocument">Trig lane</placeName>
+               <region type="parish">St Peter near Pauls Wharf</region>
+               <region type="county">City of London</region>
+               <note type="charter">MS. Ch. Middlesex 82</note>
+            </place>
+             
+            <place subtype="new" type="street" xml:id="place_110039">
+               <placeName type="index">London, Whitecross Street</placeName>
+               <placeName type="formInDocument">White Cross Street, in St. Giles' parish, Cripplegate</placeName>
+               <region type="parish">St Giles without Cripplegate</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q18163169</idno>
+               <note type="charter">MS. Ch. Middlesex 73</note>
+            </place>
+            
+            <place subtype="new" type="street" xml:id="place_110040">
+               <placeName type="index">London, Watling Street</placeName>
+               <placeName type="formInDocument">Watling Street in the parish of St. Antholin</placeName>
+               <region type="parish">St Antholin</region>
+               <region type="county">City of London</region>
+               <note type="charter">MS. Ch. Middlesex 170</note>
+            </place>
+        
+        
+            <place subtype="new" type="archdeaconry" xml:id="place_110041">
+               <placeName type="index">London, archdeaconry</placeName>
+               <placeName type="formInDocument">London</placeName>
+               <idno>http://viaf.org/viaf/123252209</idno>
+               <note type="charter">MS. Ch. Middlesex 174</note>
+            </place>
+        
+        
+            <place subtype="new" type="place" xml:id="place_110042">
+               <placeName type="index">Amersham</placeName>
+               <placeName type="formInDocument">Agmondesham, co. Bucks</placeName>
+               <region type="parish">Amersham</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Amersham/53282ee4b47fc407e300031b-Amersham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/BKM/Amersham</idno>
+               <note type="charter">MS. Ch. Middlesex 157</note>
+            </place>
+             
+            <place subtype="new" type="place" xml:id="place_110043">
+               <placeName type="index">London, Aldersgate Ward</placeName>
+               <placeName type="formInDocument">ALDERSGATE WARD Without</placeName>
+               <region type="parish">Aldersgate</region>
+               <region type="county">City of London</region>
+               <idno>https://www.genuki.org.uk/big/eng/LND/AldersgateWard</idno>
+               <idno>https://www.wikidata.org/wiki/Q2337831</idno>
+               <note type="charter">MS. Rolls Middlesex 8</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110044">
+               <placeName type="index">London, All Hallows Barking</placeName>
+               <placeName type="formInDocument">Alhallowes, Barking</placeName>
+               <region type="parish">All Hallows Barking</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q579381</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/AllHallowsBarking</idno>
+               <note type="charter">MS. Ch. Middlesex 56</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110045">
+               <placeName type="index">London, All Hallows-on-the-Wall</placeName>
+               <placeName type="formInDocument">All Hallows</placeName>
+               <placeName type="formInDocument">Allhallows in the Wall</placeName>
+               <placeName type="formInDocument">Allhallows in the wall, London</placeName>
+               <region type="parish">All Hallows-on-the-Wall</region>
+               <region type="county">City of London</region>
+               <idno>https://www.genuki.org.uk/big/eng/LND/AllHallowsLondonWall</idno>
+               <idno>https://www.wikidata.org/wiki/Q4728790</idno>
+               <note type="charter">MS. Rolls Middlesex 14</note>
+               <note type="charter">MS. Rolls Middlesex 17</note>
+               <note type="charter">MS. Rolls Middlesex 14</note>
+               <note type="charter">MS. Rolls Middlesex 17</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110046">
+               <placeName type="index">Alsewik (unidentified)</placeName>
+               <placeName type="formInDocument">Alsewik</placeName>
+               <note type="charter">MS. Ch. Middlesex 75</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110047">
+               <placeName type="index">Aylesford</placeName>
+               <placeName type="formInDocument">Alysford</placeName>
+               <region type="parish">Aylesford</region>
+               <region type="county">Kent</region>
+               <idno>https://www.wikidata.org/wiki/Q793057</idno>
+               <idno>https://www.genuki.org.uk/big/eng/KEN/Aylesford</idno>
+               <note type="charter">MS. Ch. Middlesex 14</note> <!--CHK, not sure if correct-->
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110048">
+               <placeName type="index">Amsterdam</placeName>
+               <placeName type="formInDocument">Amsterdam</placeName>
+                <region type="country">Netherlands</region>
+               <idno>https://www.wikidata.org/wiki/Q727</idno>
+               <note type="charter">MS. Ch. Middlesex 38</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110049">
+               <placeName type="index">Amwell</placeName>
+               <placeName type="formInDocument">Amwell, co. Hertford</placeName>
+               <region type="parish">Great and Little Amwell</region>
+               <region type="county">Hertfordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Hertfordshire/Great+and+Little+Amwell/53285ba0b47fc40ace00078e-Amwell</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+         
+            <place subtype="new" type="place" xml:id="place_110051">
+               <placeName type="index">Barbuda</placeName>
+               <placeName type="formInDocument">Barbuda</placeName>
+               <!--<region type="country">Antigua and Barbuda</region>-->
+               <idno>https://www.wikidata.org/wiki/Q238752</idno>
+               <note type="charter">MS. Ch. Middlesex 44</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110052">
+               <placeName type="index">Batavia, Dutch East Indies (later Jakarta)</placeName>
+               <placeName type="formInDocument">Batavia</placeName>
+               <!--<region type="country">Indonesia</region> current country-->
+               <idno>https://www.wikidata.org/wiki/Q1199713</idno>
+               <note type="charter">MS. Ch. Middlesex 141</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110053">
+               <placeName type="index">Bodmin</placeName>
+               <placeName type="formInDocument">Bodmyn</placeName>
+               <region type="parish">Bodmin</region>
+               <region type="county">Cornwall</region>
+               <idno>https://www.genuki.org.uk/big/eng/CON/Bodmin</idno>
+               <note type="charter">MS. Ch. Middlesex 29</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110054">
+               <placeName type="index">London, Bow</placeName>
+               <placeName type="formInDocument">Bow, London</placeName>
+               <region type="parish">Bow</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q122607</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StMaryleBow</idno>
+               <note type="charter">MS. Ch. Middlesex 88</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110055">
+               <placeName type="index">Bradfield</placeName>
+               <placeName type="formInDocument">Bradfeld, Essex</placeName>
+               <region type="parish">Bradfield</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Bradfield/532858eeb47fc40a98000da8-Bradfield</idno>
+               <idno>https://www.genuki.org.uk/big/eng/ESS/Towns/Bradfield</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110056">
+               <placeName type="index">Brentford</placeName>
+               <placeName type="formInDocument">Braynford</placeName>
+               <placeName type="formInDocument">Braynford, Middlesex</placeName>
+               <region type="parish">Brentford</region>
+               <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Brentford/53282a5ab47fc407a0000224-Brentford</idno>
+               <note type="charter">MS. Ch. Middlesex 86</note>
+               <note type="charter">MS. Ch. Middlesex 91</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110057">
+               <placeName type="index">Bromley St Leonard</placeName>
+               <placeName type="formInDocument">Bromley St. Leonards</placeName>
+               <region type="parish">Bromley St Leonard</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/BromleyStLeonard</idno>
+               <note type="charter">MS. Ch. Middlesex 175</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110058">
+               <placeName type="index">Brussels</placeName>
+               <placeName type="formInDocument">Brussels</placeName>
+               <region type="country">Belgium</region>
+               <idno>https://www.wikidata.org/wiki/Q239</idno>
+               <note type="charter">MS. Ch. Middlesex 12</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110059">
+               <placeName type="index">Chelsea</placeName>
+               <placeName type="formInDocument">Chelsea</placeName>
+               <placeName type="formInDocument">Chelsehith</placeName>
+               <placeName type="formInDocument">Chelsehith, in the co. of Middlesex</placeName>
+               <region type="parish">Chelsea</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.wikidata.org/wiki/Q743535</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Chelsea</idno>
+               <note type="charter">MS. Ch. Middlesex 89</note>
+               <note type="charter">MS. Ch. Middlesex 90</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110060">
+               <placeName type="index">Charlton</placeName>
+               <placeName type="formInDocument">Cherdington, Middlesex</placeName>
+               <region type="parish">Sunbury</region>
+               <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Sunbury/53282a52b47fc407a00001b6-Charlton</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+        
+            
+          
+            
+           
+            
+            <place subtype="new" type="place" xml:id="place_110064">
+               <placeName type="index">Dublin</placeName>
+               <placeName type="formInDocument">Dublin</placeName>
+               <region type="country">Ireland</region>
+               <idno>https://www.wikidata.org/wiki/Q1761</idno>
+               <note type="charter">MS. Ch. Middlesex 46</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110065">
+               <placeName type="index">Detchant</placeName>
+               <placeName type="formInDocument">Dychaunt, co. Northumberland</placeName>
+               <region type="parish">Belford</region>
+               <region type="county">Northumberland</region>
+               <note type="charter">MS. Ch. Middlesex 10</note>
+               <bibl>Northumberland County History I.400-2</bibl>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110066">
+               <placeName type="index">East Hagbourne and West Hagbourne</placeName>
+               <placeName type="formInDocument">East Hagborne, Berks</placeName>
+               <region type="parish">East and West Hagbourne</region>
+               <region type="county">Berkshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Berkshire/East+and+West+Hagbourne/53282e4fb47fc407ba001b50-East+Hagbourne+and+West+Hagbourne</idno>
+               <idno>https://www.genuki.org.uk/big/eng/BRK/Hagbourne</idno>
+               <note type="charter">MS. Ch. Middlesex 70</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110067">
+               <placeName type="index">East Indies</placeName>
+               <placeName type="formInDocument">East Indies</placeName>
+               <idno>https://www.wikidata.org/wiki/Q213137</idno>
+               <note type="charter">MS. Ch. Middlesex 137</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110068">
+               <placeName type="index">Edmonton</placeName>
+               <placeName type="formInDocument">Edelinton, Middlesex</placeName>
+               <placeName type="formInDocument">Edmelton</placeName>
+               <region type="parish">Edmonton</region>
+               <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Edmonton/53282a5ab47fc407a000022a-Edmonton</idno>
+               <idno>https://www.wikidata.org/wiki/Q1997321</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Edmonton</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+               <note type="charter">MS. Ch. Middlesex 176</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110069">
+               <placeName type="index">Elmdon</placeName>
+               <placeName type="formInDocument">Elmedon, Essex</placeName>
+               <region type="parish">Elmdon</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Elmdon/532858eeb47fc40a98000ddf-Elmdon</idno>
+               <idno>https://www.genuki.org.uk/big/eng/ESS/Towns/Elmdon</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+           
+            <place subtype="new" type="place" xml:id="place_110071">
+               <placeName type="index">Finchingfield</placeName>
+               <placeName type="formInDocument">Finchinfeld, Essex</placeName>
+               <region type="parish">Finchingfield</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Finchingfield/532858eeb47fc40a98000de8-Finchingfield</idno>
+               <idno>https://www.genuki.org.uk/big/eng/ESS/Towns/Finchingfield</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+           
+            <place subtype="new" type="place" xml:id="place_110072">
+               <placeName type="index">Fulham</placeName>
+               <placeName type="formInDocument">Fulham</placeName>
+               <region type="parish">Fulham</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.wikidata.org/wiki/Q3367868</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Fulham</idno>
+               <note type="charter">MS. Ch. Middlesex 92</note>
+               <note type="charter">MS. Ch. Middlesex 52</note>
+               <note type="charter">MS. Ch. Middlesex 91</note>
+               <note type="charter">MS. Ch. London 177</note>
+               <note type="charter">MS. Ch. London 178</note>
+            </place>
+             
+            <place subtype="new" type="place" xml:id="place_110073">
+               <placeName type="index">Gibraltar</placeName>
+               <placeName type="formInDocument">Gibraltar</placeName>
+               <idno>https://www.wikidata.org/wiki/Q1410</idno>
+               <note type="charter">MS. Ch. Middlesex 158</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110074">
+               <placeName type="index">Gorleston</placeName>
+               <placeName type="formInDocument">Gorleston, Suffolk</placeName>
+               <region type="parish">Gorleston</region>
+               <region type="county">Suffolk</region>
+               <idno>https://www.genuki.org.uk/big/eng/SFK/Gorleston</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110075">
+               <placeName type="index">London, Guildhall</placeName>
+               <placeName type="formInDocument">Guildhall, London</placeName>
+               <!--<region type="parish"></region>not sure-->
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q81279</idno>
+               <note type="charter">MS. Ch. Middlesex 144</note>
+               <note type="charter">MS. Ch. Middlesex 145</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110076">
+               <placeName type="index">Hackney</placeName>
+               <placeName type="formInDocument">Hackney</placeName>
+               <region type="parish">Hackney</region>
+               <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/id/53282a40b47fc407a0000008-The+Borough+of+Hackney</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Hackney</idno>
+               <note type="charter">MS. Ch. Middlesex 93</note>
+               <note type="charter">MS. Ch. Middlesex 94</note>
+               <note type="charter">MS. Ch. Middlesex 95</note>
+               <note type="charter">MS. Ch. Middlesex 66</note>
+               <note type="charter">MS. Ch. Middlesex 96</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110077">
+               <placeName type="index">Hampton Court</placeName>
+               <placeName type="formInDocument">Hampton Court</placeName>
+               <region type="parish">Hampton Court</region>
+               <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Hampton/53282a51b47fc407a000009d-Hampton+Court</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Hampton</idno>
+               <bibl>'Spelthorne Hundred: Hampton, introduction', in A History of the County of Middlesex: Volume 2, General; Ashford, East Bedfont With Hatton, Feltham, Hampton With Hampton Wick, Hanworth, Laleham, Littleton, ed. William Page (London, 1911), pp. 319-324. British History Online http://www.british-history.ac.uk/vch/middx/vol2/pp319-324 [accessed 26 October 2021].</bibl>
+               <note type="charter">MS. Ch. Middlesex 36</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110078">
+               <placeName type="index">Hastings</placeName>
+               <placeName type="formInDocument">Hastings</placeName>
+               <region type="parish">Hastings</region>
+               <region type="county">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/Hastings/5328724eb47fc40c36000d0f-Hastings</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Hastings</idno>
+               <note type="charter">MS. Ch. Middlesex 11</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110079">
+               <placeName type="index">Hendon</placeName>
+               <placeName type="formInDocument">Hendon, Middlesex</placeName>
+               <region type="parish">Hendon</region>
+               <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Hendon/53282a5ab47fc407a0000237-Hendon</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Hendon</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110080">
+               <placeName type="index">Harringey</placeName>
+               <placeName type="variant">Haringey</placeName>
+               <placeName type="formInDocument">Hereingey</placeName>
+               <!--CHK, Greater London area, borough of Haringey, no idea of parish
+               <region type="parish">Haringey</region>-->
+               <region type="parish">Hornsey</region>
+               <region type="county">Middlesex</region><!-- historic county-->
+               <idno>https://www.wikidata.org/wiki/Q952515</idno>
+               <note type="charter">MS. Ch. Middlesex 176</note>
+            </place>
+            
+          
+            <place subtype="new" type="place" xml:id="place_110082">
+               <placeName type="index">Hockliffe</placeName>
+               <placeName type="formInDocument">Hokclive, co. Beds</placeName>
+               <region type="parish">Hockliffe</region>
+               <region type="county">Bedfordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Bedfordshire/Hockliffe/53282b41b47fc407a9000361-Hockliffe</idno>
+               <idno>https://www.genuki.org.uk/big/eng/BDF/Hockliffe</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110083">
+               <placeName type="index">Kentish Town</placeName>
+               <placeName type="formInDocument">Kentish-towne</placeName>
+               <!--CHK how to mark Greater London Borough of Camden-->
+               <region type="parish">St Pancras</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.wikidata.org/wiki/Q149782</idno>
+               <note type="charter">MS. Ch. Middlesex 110</note>
+            </place>
+            
+         
+           
+            
+          
+            
+            <place subtype="new" type="place" xml:id="place_110087">
+               <placeName type="index">Whitchurch (Little Stanmore)</placeName>
+               <placeName type="formInDocument">Little Stanmer, Middlesex</placeName>
+               <region type="parish">Little Stanmore</region>
+               <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Whitchurch/53282a5ab47fc407a0000251-Whitchurch</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/LittleStanmore</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+          
+            
+            <place subtype="new" type="place" xml:id="place_110089">
+               <placeName type="index">London, Vintry Ward</placeName><!--Vintry Ward? https://www.genuki.org.uk/big/eng/LND/VintryWard-->
+               <placeName type="formInDocument">London in Ventnor's Ward</placeName>
+               <region type="county">City of London</region>
+               <note type="charter">MS. Ch. Middlesex 167</note>
+            </place>
+           
+            
+            <place subtype="new" type="place" xml:id="place_110091">
+               <placeName type="index">London, St Alphage London Wall</placeName>
+               <placeName type="formInDocument">St. Alphage</placeName>
+               <region type="parish">St Alphage London Wall</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q7592313</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StAlphageSionCollege</idno>
+               <note type="charter">MS. Ch. Middlesex 58</note>
+            </place>
+            
+         
+            
+            <place subtype="new" type="place" xml:id="place_110093">
+               <placeName type="index">London, St Anne Within the Liberty of Westminster (St Anne Soho)</placeName>
+               <placeName type="formInDocument">St. Ann, Westminster</placeName>
+               <region type="parish">St Anne Soho</region>
+               <region type="county">Middlesex</region><!--City of Westminster-->
+               <idno>https://www.genuki.org.uk/big/eng/MDX/SohoStAnne</idno>
+               <idno>https://www.wikidata.org/wiki/Q7592491</idno>
+               <note type="charter">MS. Ch. Middlesex 116</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110094">
+               <placeName type="index">London, St Clement Danes</placeName>
+               <placeName type="formInDocument">St. Clement's Danes</placeName>
+               <placeName type="formInDocument">St. Clement's Danes, London</placeName>
+               <region type="parish">St Clement Danes</region>
+               <region type="county">Middlesex</region><!--City of Westminster-->
+               <idno>https://www.wikidata.org/wiki/Q2038269</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/StClementDanes</idno>
+               <note type="charter">MS. Ch. Middlesex 70</note>
+               <note type="charter">MS. Ch. Middlesex 69</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110095">
+               <placeName type="index">London, St George the Martyr (Holborn or Southwark)</placeName>
+               <!--unclear, could be either St George the Martyr, Holborn or 
+               St George the Martyr, Southwark-->
+               <placeName type="formInDocument">St. George the martyr</placeName>
+               <!--https://en.wikipedia.org/wiki/St_George_the_Martyr,_Holborn
+               https://en.wikipedia.org/wiki/St_George_the_Martyr,_Southwark-->
+               <!--<region type="parish"></region>
+               <region type="county"></region>
+               <idno></idno>
+               <idno></idno>-->
+               <note type="charter">MS. Ch. Middlesex 157</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110096">
+               <placeName type="index">London, St George Botolph Lane</placeName>
+               <placeName type="formInDocument">St. George, Botolph lane</placeName>
+               <placeName type="formInDocument">St. George, Botolph lane, London</placeName>
+               <region type="parish">St George Botolph Lane</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q7593210</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StGeorgeBotolphlane</idno>
+               <note type="charter">MS. Ch. Middlesex 62</note>
+               <note type="charter">MS. Ch. Middlesex 67</note>
+               <note type="charter">MS. Ch. Middlesex 72</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110097">
+               <placeName type="index">London, St Leonard's, Shoreditch</placeName>
+               <placeName type="formInDocument">St. Leonard, Shoreditch</placeName>
+               <region type="parish">Shoreditch, St Leonard</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.wikidata.org/wiki/Q7593974</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Shoreditch</idno>
+               <note type="charter">MS. Ch. Middlesex 106</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110098">
+               <placeName type="index">London, Westminster St Margaret</placeName>
+               <placeName type="formInDocument">St. Margaret's, Westminster</placeName>
+               <region type="parish">Westminster St Margaret and St John</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.wikidata.org/wiki/Q7989219</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/WestminsterStMargaret</idno>
+               <note type="charter">MS. Ch. Middlesex 87</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110099">
+               <placeName type="index">London, St Martin Orgar</placeName>
+               <placeName type="formInDocument">St. Martin's Orgar</placeName>
+               <region type="parish">St Martin Orgar</region>
+               <region type="county">City of London</region>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StMartinOrgars</idno>
+               <idno>https://www.wikidata.org/wiki/Q7594213</idno>
+               <note type="charter">MS. Ch. Middlesex 109</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110100">
+               <placeName type="index">London, St Mary le Strand (St Mary le Savoy)</placeName>
+               <placeName type="formInDocument">St. Mary le Savoy</placeName>
+               <region type="parish">St Mary le Strand</region>
+               <region type="county">Middlesex</region><!--City of Westminster and partly in the Liberty of the Savoy-->
+               <idno>https://www.genuki.org.uk/big/eng/MDX/StMaryLeStrand</idno>
+               <idno>https://www.wikidata.org/wiki/Q7594630</idno>
+               <note type="charter">MS. Ch. Middlesex 108</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110101">
+               <placeName type="index">London, Whitechapel</placeName>
+               <placeName type="formInDocument">St. Mary Matfellow alias Whitechappell</placeName>
+               <placeName type="formInDocument">Whitechapel</placeName>
+               <region type="parish">Whitechapel</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.wikidata.org/wiki/Q124539</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Whitechapel</idno>
+               <note type="charter">MS. Ch. Middlesex 37</note>
+               <note type="charter">MS. Ch. Middlesex 64</note>
+               <note type="charter">MS. Ch. Middlesex 101</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110102">
+               <placeName type="index">London, St Mary Somerset</placeName>
+               <placeName type="formInDocument">St. Mary Somersett, London</placeName>
+               <region type="parish">St Mary Somerset</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q7594603</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StMarySomerset</idno>
+               <note type="charter">MS. Ch. Middlesex 115</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110103">
+               <placeName type="index">London, St Mary le Bow</placeName>
+               <placeName type="formInDocument">St. Mary-le-bow</placeName>
+               <region type="parish">St Mary le Bow</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q2301992</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StMaryleBow</idno>
+               <note type="charter">MS. Ch. Middlesex 78</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110104">
+               <placeName type="index">London, St Michael Cornhill</placeName>
+               <placeName type="formInDocument">St. Michael parish in Cornhill</placeName>
+               <region type="parish">St Michael Cornhill</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q7594823</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StMichaelCornhill</idno>
+               <note type="charter">MS. Ch. Middlesex 79</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110105">
+               <placeName type="index">London, St Mildred Poultry</placeName>
+               <placeName type="formInDocument">St. Mildred, Poultry</placeName>
+               <region type="parish">St Mildred Poultry</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q7594883</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StMildredPoultry</idno>
+               <note type="charter">MS. Ch. Middlesex 80</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110106">
+               <placeName type="index">London, St Paul's, Covent Garden</placeName>
+               <placeName type="formInDocument">St. Paul's, Covent Garden</placeName>
+               <region type="parish">St Paul's, Covent Garden</region>
+               <region type="county">Middlesex</region><!--City of Westminster-->
+               <idno>https://www.wikidata.org/wiki/Q385521</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/CoventGardenStPaul</idno>
+               <note type="charter">MS. Ch. Middlesex 81</note>
+               <note type="charter">MS. Ch. Middlesex 104</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110107">
+               <placeName type="index">London, St Peter near Pauls Wharf</placeName>
+               <placeName type="formInDocument">St. Peter, London</placeName>
+               <region type="parish">St Peter near Pauls Wharf</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q14956701</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StPeternearPaulsWharf</idno>
+               <note type="charter">MS. Ch. Middlesex 82</note>
+            </place>
+            
+           
+            
+            <place subtype="new" type="place" xml:id="place_110108">
+               <placeName type="index">London, St Swithin London Stone</placeName>
+               <placeName type="formInDocument">ST. SWITHIN'S PARISH</placeName>
+               <placeName type="formInDocument">St. Swithin's, London</placeName>
+               <region type="parish">St Swithin London Stone</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q7595498</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StSwithinLondonStone</idno>
+               <note type="charter">MS. Rolls Middlesex 10</note>
+               <note type="charter">MS. Rolls Middlesex 11</note>
+               <note type="charter">MS. Rolls Middlesex 12</note>
+               <note type="charter">MS. Rolls Middlesex 13</note>
+            </place>
+            
+          
+         
+            
+            <place subtype="new" type="place" xml:id="place_110111">
+               <placeName type="index">Mentmore</placeName>
+               <placeName type="formInDocument">Mentmore, co. Bucks</placeName>
+               <region type="parish">Mentmore</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Mentmore/53282ee4b47fc407e3000394-Mentmore</idno>
+               <idno>https://www.genuki.org.uk/big/eng/BKM/Mentmore</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110112">
+               <placeName type="index">Middleton (unidentified)</placeName>
+               <!-- person of: several potential parishes, in Essex, Yorkshire, Northamtponshire, Sussex, Warwickshire-->
+               <placeName type="formInDocument">Middelton</placeName>
+               <note type="charter">MS. Ch. Middlesex 10</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110113">
+               <placeName type="index">Millbank</placeName>
+               <placeName type="formInDocument">Millbank, co. Middlesex</placeName>
+               <region type="parish">Westminster St John</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/WestminsterStJohn</idno>
+               <note type="charter">MS. Ch. Middlesex 121</note>
+            </place>
+            
+         
+            
+            <place subtype="new" type="place" xml:id="place_110115">
+               <placeName type="index">Newgate</placeName>
+               <placeName type="formInDocument">Newgate</placeName>
+              <!-- <region type="parish"></region>-->
+               <region type="county">Middlesex</region>
+               <idno>https://www.wikidata.org/wiki/Q968975</idno>
+               <note type="charter">MS. Ch. Middlesex 138</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110116">
+               <placeName type="index">Northolt</placeName>
+               <placeName type="formInDocument">Northall, Middlesex</placeName>
+               <region type="parish">Northolt</region>
+               <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Northolt/53282a5ab47fc407a0000240-Northolt</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Northolt</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110117">
+               <placeName type="index">London, St Benet Fink</placeName>
+               <placeName type="formInDocument">parish of St. Benedict</placeName>
+               <region type="parish">St Benet Fink</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q7592647</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StBenetFink</idno>
+               <note type="charter">MS. Ch. Middlesex 150</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110118">
+               <placeName type="index">London, St Botolph (Aldgate, Aldersgate, Billingsgate or Bishopsgate)</placeName>
+               <placeName type="formInDocument">parish of St. Botolph</placeName>
+               <placeName type="formInDocument">St. Botolph</placeName>
+               <placeName type="formInDocument">St. Botolph's</placeName>
+               <placeName type="formInDocument">St. Botolph, London</placeName>
+               <!--<region type="parish"></region>4 potential places, unclear which-->
+               <region type="county">City of London</region>
+               <note type="charter">MS. Ch. Middlesex 64</note>
+               <note type="charter">MS. Ch. Middlesex 65</note>
+               <note type="charter">MS. Ch. Middlesex 63</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110119">
+               <placeName type="index">London, St Botolph without Aldgate</placeName>
+               <placeName type="formInDocument">St. Botolph's without Aldgate</placeName>
+               <placeName type="formInDocument">St. Botolph's without Aldgate, London</placeName>
+               <placeName type="formInDocument">St. Botolph's, Aldgate</placeName>
+               <region type="parish">St Botolph without Aldgate</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q7592684</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StBotolphwithoutAldgate</idno>
+               <note type="charter">MS. Ch. Middlesex 150</note>
+               <note type="charter">MS. Ch. Middlesex 173</note>
+               <note type="charter">MS. Ch. Middlesex 103</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110120">
+               <placeName type="index">London, St Botolph Billingsgate</placeName>
+               <placeName type="formInDocument">St. Botolph, Billinsgate</placeName>
+               <region type="parish">London, St Botolph Billingsgate</region>
+               <region type="county">City of London</region>
+               <idno>https://www.wikidata.org/wiki/Q7592693</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StBotolphBillingsgate</idno>
+               <note type="charter">MS. Ch. Middlesex 72</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110121">
+               <placeName type="index">Peover</placeName>
+               <placeName type="formInDocument">Peover, in the co. palatine of Chester</placeName>
+               <region type="parish">Peover</region>
+               <region type="county">Cheshire</region>
+               <idno>https://www.wikidata.org/wiki/Q16896967</idno>
+               <note type="charter">MS. Ch. Middlesex 48</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110122">
+               <placeName type="index">Ulster</placeName>
+               <placeName type="formInDocument">province of Ulster in Ireland</placeName>
+               <country>Ireland</country>
+               <!--<region type="county"></region> CHK how to mark 
+               partly in the UK, partly in Ireland-->
+               <idno>https://www.wikidata.org/wiki/Q93195</idno>
+               <note type="charter">MS. Ch. London 181</note>
+            </place>
+          
+            
+            <place subtype="new" type="place" xml:id="place_110124">
+               <placeName type="index">Margate, St John the Baptist</placeName>
+               <placeName type="formInDocument">St. John, Thanet</placeName>
+               <region type="parish">Margate, St John the Baptist</region>
+               <region type="county">Kent</region>
+               <idno>https://www.genuki.org.uk/big/eng/KEN/Margate</idno>
+               <idno>https://historicengland.org.uk/listing/the-list/list-entry/1351103</idno>
+               <note type="charter">MS. Rolls Middlesex 19</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110125">
+               <placeName type="index">San Sebastián</placeName>
+               <placeName type="formInDocument">St. Sebastian's</placeName>
+               <region type="county">Basque country</region><!--country Spain-->
+               <country>Spain</country>
+               <idno>https://www.wikidata.org/wiki/Q10313</idno>
+               <note type="charter">MS. Ch. Middlesex 133</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110126">
+               <placeName type="index">Stanwell</placeName>
+               <placeName type="formInDocument">Stanwell</placeName>
+               <region type="parish">Stanwell</region>
+               <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Stanwell/53282a5ab47fc407a000024a-Stanwell</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Stanwell</idno>
+               <note type="charter">MS. Ch. Middlesex 98</note>
+            </place>
+            
+      
+            
+            <place subtype="new" type="place" xml:id="place_110128">
+               <placeName type="index">Stoke Newington</placeName>
+               <placeName type="formInDocument">Stoke Newington</placeName>
+               <region type="parish">Stoke Newington</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.wikidata.org/wiki/Q7618474</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/StokeNewington</idno>
+               <note type="charter">MS. Ch. Middlesex 113</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110129">
+               <placeName type="index">Tangier</placeName>
+               <placeName type="formInDocument">Tanger</placeName>
+               <!--<region type="parish"></region>
+               <region type="county"></region>country Morocco-->
+               <idno>https://www.wikidata.org/wiki/Q126148</idno>
+               <note type="charter">MS. Ch. Middlesex 39</note>
+               <note type="charter">MS. Ch. Middlesex 85</note>
+            </place>
+            
+           
+            <place subtype="new" type="place" xml:id="place_110131">
+               <placeName type="index">Tottenham</placeName>
+               <placeName type="formInDocument">Totenham</placeName>
+               <placeName type="formInDocument">Totenham, Middlesex</placeName>
+               <placeName type="formInDocument">Tottenham High Cross</placeName>
+               <region type="parish">Tottenham</region>
+               <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Tottenham/53282a5ab47fc407a000024d-Tottenham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Tottenham</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+               <note type="charter">MS. Ch. Middlesex 176</note>
+               <note type="charter">MS. Ch. Middlesex 80</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110132">
+               <placeName type="index">Trelawny</placeName>
+               <placeName type="formInDocument">Trelawney, in co. Cornwall</placeName>
+               <region type="parish">Pelynt</region>
+               <region type="county">Cornwall</region>
+               <idno>https://www.wikidata.org/wiki/Q30716216</idno>
+               <note type="charter">MS. Ch. Middlesex 29</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110133">
+               <placeName type="index">Tewin</placeName>
+               <placeName type="formInDocument">Tywinge</placeName>
+               <region type="parish">Tewin</region>
+               <region type="county">Hertfordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Hertfordshire/Tewin/53285ba0b47fc40ace0007d0-Tewin</idno>
+               <idno>https://www.genuki.org.uk/big/eng/HRT/Tewin</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110134">
+               <placeName type="index">London, Wapping</placeName>
+               <placeName type="formInDocument">Wapping</placeName>
+               <placeName type="formInDocument">Wapping in the parish of Stepney</placeName>
+               <region type="parish">Wapping</region>
+               <region type="county">Middlesex</region>
+               <idno>https://www.wikidata.org/wiki/Q124046</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Wapping</idno>
+               <note type="charter">MS. Ch. Middlesex 99</note>
+               <note type="charter">MS. Ch. Middlesex 99</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110135">
+               <placeName type="index">Walthamstow</placeName>
+               <placeName type="formInDocument">Welcostowe, Essex</placeName>
+               <region type="parish">Walthamstow</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Walthamstow/532858efb47fc40a98000ebf-Walthamstow</idno>
+               <idno>https://www.genuki.org.uk/big/eng/ESS/Towns/Walthamstow</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110136">
+               <placeName type="index">Wenhaston</placeName>
+               <placeName type="formInDocument">Wenlacston, co. Suffolk</placeName>
+               <region type="parish">Wenhaston</region>
+               <region type="county">Suffolk</region>
+               <idno>https://www.genuki.org.uk/big/eng/SFK/Wenhaston</idno>
+               <idno>https://www.wikidata.org/wiki/Q1820255</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </place>
+            
+           
+            
+            <place subtype="new" type="place" xml:id="place_110138">
+               <placeName type="index">Whaddon</placeName>
+               <placeName type="formInDocument">Whaddon, Bucks</placeName>
+               <region type="parish">Whaddon</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Whaddon/53282ee4b47fc407e30003dc-Whaddon</idno>
+               <idno>https://www.genuki.org.uk/big/eng/BKM/Whaddon</idno>
+               <note type="charter">MS. Ch. Middlesex 22</note>
+            </place>
+           
+          
+
+           
+            
+            <place subtype="new" type="place" xml:id="place_110141">
+               <placeName type="index">Woodford</placeName>
+               <placeName type="formInDocument">Woodford, Essex</placeName>
+               <region type="parish">Woodford</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/Woodford/532858efb47fc40a98000ed6-Woodford</idno>
+               <idno>https://www.genuki.org.uk/big/eng/ESS/Towns/Woodford</idno>
+               <note type="charter">MS. Ch. Middlesex 22</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110142">
+               <placeName type="index">Woodham Walter</placeName>
+               <placeName type="formInDocument">Woodham Walter, co. Essex</placeName>
+               <region type="parish">Woodham Walter</region>
+               <region type="county">Essex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Essex/532858bfb47fc40a98000d6b-Woodham+Walter</idno>
+               <idno>https://www.genuki.org.uk/big/eng/ESS/Towns/Woodham_Walter</idno>
+               <note type="charter">MS. Ch. Middlesex 69</note>
+            </place>
+            
+            <place subtype="new" type="place" xml:id="place_110143">
+               <placeName type="index">Yelling</placeName>
+               <placeName type="formInDocument">Yelling</placeName>
+               <region type="parish">Yelling</region>
+               <region type="county">Huntingdonshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Huntingdonshire/Yelling/53282b41b47fc407a90003de-Yelling</idno>
+               <idno>https://www.genuki.org.uk/big/eng/HUN/Yelling</idno>
+               <note type="charter">MS. Ch. Middlesex 91</note>
+            </place>
           
          </listPlace>
 
@@ -41676,8 +43083,12 @@
             <org xml:id="org_100012">
                <orgName type="index">London, Lincoln's Inn</orgName>
                <orgName type="formInDocument">Lincoln's Inn, London</orgName>
+               <region type="county">Middlesex</region>
+               <idno>http://viaf.org/viaf/128765410</idno>
+               <note type="charter">MS. Ch. Middlesex 26</note>
                <note type="charter">MS. Ch. Cambs. 3</note>
             </org>
+            
             <org xml:id="org_100013">
                <orgName type="index">Cambridge, Queen's College</orgName>
                <orgName type="formInDocument">master and fellows of the college of Queen, S.
@@ -43928,10 +45339,9 @@
                <orgName type="formInDocument">St Paul's</orgName>
                <orgName type="formInDocument">St. Paul's</orgName>
                <orgName type="formInDocument">St. Paul's, London</orgName>
+               <orgName type="formInDocument">dean and chapter of St. Paul's</orgName>
                <orgName type="formInDocument">St. Paul's church, London</orgName>
-               
                <idno>http://viaf.org/viaf/150895894</idno>
-             
                <idno>http://viaf.org/viaf/150895894</idno>
                <idno>http://viaf.org/viaf/168512946</idno>
                <note type="charter">MS. Ch. Essex 188</note>
@@ -43939,8 +45349,10 @@
                <note type="charter">MS. Ch. Oxon. Oseney 293</note>
                <note type="charter">MS. Ch. Oxon. 38b</note>
                <note type="charter">MS. Ch. Oxon. 41</note>
+               <note type="charter">MS. Ch. Middlesex 67</note>
                <note type="charter">MS. Ch. Oxon. 126a</note>
             </org>
+            
             <org xml:id="org_105011">
                <orgName type="index">Alvesbourn, Augustinian priory</orgName>
                <orgName type="formInDocument">canons of Alvesbrunne</orgName>
@@ -44018,9 +45430,12 @@
                <orgName type="index">London, Gray's Inn</orgName>
                <orgName type="formInDocument">grey's inne, middlesex</orgName>
                <orgName type="formInDocument">grayes inne</orgName>
+               <placeName type="formInDocument">Gray's Inn</placeName>
                <region type="county">Middlesex</region>
                <idno>https://www.genuki.org.uk/gaz/MDX/GraysInn</idno>
                <idno>https://www.wikidata.org/wiki/Q157412</idno>
+               <idno>http://viaf.org/viaf/159418264</idno>
+               <note type="charter">MS. Ch. Middlesex 118</note>
                <note type="charter">MS. Ch. Suffolk 1312</note>
                <note type="charter">MS. Ch. Essex 187</note>
             </org>
@@ -47248,6 +48663,242 @@
                <note type="charter">MS. Ch. Oxon. Oseney 199b</note>
                <note type="charter">MS. Ch. Oxon. Oseney 224</note>
                <note type="charter">MS. Ch. Oxon. 153</note>
+            </org>
+            
+            <!-- middlesex -->
+            
+            <org xml:id="org_110001">
+               <orgName type="index">Great Britain, High Court of Admiralty</orgName>
+               <orgName type="formInDocument">Admiralty</orgName>
+               <orgName type="formInDocument">Admiralty court</orgName>
+               <orgName type="formInDocument">Admiralty of England</orgName>
+               <orgName type="formInDocument">court of Admiralty</orgName>
+               <orgName type="formInDocument">Court of Admiralty</orgName>
+               <orgName type="formInDocument">office of lord high admiral of Great Britain</orgName>
+               <idno>http://viaf.org/viaf/157035826</idno>
+               <note type="charter">MS. Ch. Middlesex 138</note>
+               <note type="charter">MS. Ch. Middlesex 130</note>
+               <note type="charter">MS. Ch. Middlesex 136</note>
+               <note type="charter">MS. Ch. Middlesex 166</note>
+               <note type="charter">MS. Ch. Middlesex 125</note>
+               <note type="charter">MS. Ch. Middlesex 132</note>
+            </org>
+            
+            <org xml:id="org_110002">
+               <orgName type="index">London, Bethlem Royal Hospital</orgName>
+               <orgName type="formInDocument">Bethlehem Hospitals</orgName>
+               <idno>http://viaf.org/viaf/141933705</idno>
+               <note type="charter">MS. Rolls Middlesex 21</note>
+            </org>
+            
+            <org xml:id="org_110003">
+               <orgName type="index">London, Bridewell Royal Hospital</orgName>
+               <orgName type="formInDocument">Bridewell</orgName>
+               <idno>http://viaf.org/viaf/150170226</idno>
+               <note type="charter">MS. Rolls Middlesex 21</note>
+            </org>
+            
+            <org xml:id="org_110004">
+               <orgName type="index">London, Christ's Hospital</orgName>
+               <orgName type="formInDocument">Christ's hospital, London</orgName>
+               <idno>http://viaf.org/viaf/125522373</idno>
+               <note type="charter">MS. Ch. Middlesex 68</note>
+            </org>
+            
+            <org xml:id="org_110005">
+               <orgName type="index">London, College of Arms</orgName>
+               <orgName type="formInDocument">College of Arms</orgName>
+               <orgName type="formInDocument">College of Arms, London</orgName>
+               <idno>http://viaf.org/viaf/143970573</idno>
+               <note type="charter">MS. Ch. Middlesex 48</note>
+               <note type="charter">MS. Ch. Middlesex 49</note>
+            </org>
+            
+            <org xml:id="org_110006">
+               <orgName type="index">London, College of St Laurence Pountney</orgName>
+               <orgName type="formInDocument">College of St. Laurence, Poulteney, London</orgName>
+               <idno>https://www.wikidata.org/wiki/Q7593938</idno>
+               <bibl>'Colleges: St Laurence Pountney', in <title>A History of the County of London: Volume 1, London Within the Bars, Westminster and Southwark</title>, ed. William Page (London, 1909), pp. 574-576. British History Online http://www.british-history.ac.uk/vch/london/vol1/pp574-576 [accessed 2 November 2021].</bibl>
+               <note type="charter">MS. Ch. Middlesex 77</note>
+            </org>
+            
+            <org xml:id="org_110007">
+               <orgName type="index">Austin priory of Holy Trinity, Aldgate</orgName>
+               <orgName type="formInDocument">convent of the Holy Trinity, London</orgName>
+               <idno>http://viaf.org/viaf/151522486</idno>
+               <note type="charter">MS. Ch. Middlesex 75</note>
+            </org>
+            
+            <org xml:id="org_110008">
+               <orgName type="index">Court of Augmentations</orgName>
+               <orgName type="formInDocument">court of augmentations</orgName>
+               <idno>http://viaf.org/viaf/125603941</idno>
+               <note type="charter">MS. Rolls Middlesex 7</note>
+            </org>
+            
+            <org xml:id="org_110009">
+               <orgName type="index">Court of Wards and Liveries</orgName>
+               <orgName type="formInDocument">court of Wardes</orgName>
+               <idno>http://viaf.org/viaf/129065993</idno>
+               <note type="charter">MS. Ch. Middlesex 102</note>
+            </org>
+            
+          
+            
+            <org xml:id="org_110011">
+               <orgName type="index">Doctors' Commons (London)</orgName>
+               <orgName type="formInDocument">Doctors' Commons</orgName>
+               <idno>http://viaf.org/viaf/173603739</idno>
+               <note type="charter">MS. Ch. Middlesex 69</note>
+            </org>
+            
+            <org xml:id="org_110012">
+               <orgName type="index">Fleet Prison (London)</orgName>
+               <orgName type="formInDocument">Fleet prison</orgName>
+               <idno>http://viaf.org/viaf/138446650</idno>
+               <note type="charter">MS. Maps England a.</note>
+            </org>
+            
+            <org xml:id="org_110013">
+               <orgName type="index">London, Fraternity of St Anne, St Lawrence Jewry</orgName>
+               <orgName type="formInDocument">fraternity of St. Anne within the parish of St. Laurence in the old Jewry, London</orgName>
+               <placeName type="parish">St Lawrence Jewry</placeName>
+               <placeName type="county">City of London</placeName>
+               <note type="charter">MS. Rolls Middlesex 2</note>
+            </org>
+            
+          
+          
+            
+            <org xml:id="org_110016">
+               <orgName type="index">Worshipful Company of Skinners (London)</orgName>
+               <orgName type="formInDocument">guild of Corpus Christi of the company of skinners of London</orgName>
+               <idno>http://viaf.org/viaf/159415291</idno>
+               <note type="charter">MS. Ch. Middlesex 170</note>
+            </org>
+            
+            <org xml:id="org_110017">
+               <orgName type="index">London, Guild of St Stephen in Colman Street </orgName>
+               <orgName type="formInDocument">guild of St. Stephen of Colman Street, London</orgName>
+               <!--<bibl>Tom Hoffman, <title>Guilds and related organisation in Great Britain and Ireland</title> (2011) I, p. 10.</bibl> currently available in https://www.bbk.ac.uk/library/downloads/guilds-part-1.pdf-->
+               <note type="charter">MS. Rolls Middlesex 4</note>
+            </org>
+            
+            <org xml:id="org_110018">
+               <orgName type="index">Clerkenwell, Augustinian priory of the Knights Hospitallers of St John of Jerusalem (London)</orgName>
+               <orgName type="formInDocument">hospital of St. John of Jerusalem</orgName>
+               <idno>https://www.wikidata.org/wiki/Q5131893</idno>
+               <note type="charter">MS. Ch. Middlesex 76</note>
+            </org>
+            
+            <org xml:id="org_110019">
+               <orgName type="index">House of Commons</orgName>
+               <orgName type="formInDocument">House of Commons</orgName>
+               <idno>http://viaf.org/viaf/123930966</idno>
+               <note type="charter">MS. Ch. Middlesex 161</note>
+            </org>
+            
+            <org xml:id="org_110020">
+               <orgName type="index">House of Lords</orgName>
+               <orgName type="formInDocument">House of Lords</orgName>
+               <idno>http://viaf.org/viaf/133312927</idno>
+               <note type="charter">MS. Ch. Middlesex 161</note>
+            </org>
+            
+            <org xml:id="org_110021">
+               <orgName type="index">Hospital of St Thomas of Acon</orgName>
+               <orgName type="formInDocument">master and brethren of St. Thomas of Acon</orgName>
+               <bibl>'Houses of Military Orders: St Thomas of Acon', in <title>A History of the County of London: Volume 1, London Within the Bars, Westminster and Southwark</title>, ed. William Page (London, 1909), pp. 491-495. British History Online http://www.british-history.ac.uk/vch/london/vol1/pp491-495 [accessed 3 November 2021].</bibl>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </org>
+            
+            <org xml:id="org_110022">
+               <orgName type="index">Hockcliffe, Hospital of St John Baptist</orgName>
+               <orgName type="formInDocument">master and brethren of the hospital of Hokclive</orgName>
+               <placeName type="county">Bedfordshire</placeName>
+               <bibl>'Hospitals: St John Baptist, Hockcliffe', in <title>A History of the County of Bedford: Volume 1</title> (London, 1904), pp. 401-402. British History Online http://www.british-history.ac.uk/vch/beds/vol1/pp401-402 [accessed 3 November 2021].</bibl>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </org>
+            
+            <org type="place" xml:id="org_110023">
+               <orgName type="index">London, Priory and hospital of St Mary Spital (St Mary's Hospital, without Bishopsgate)</orgName>
+               <orgName type="formInDocument">St. Marie Hospitall without Bisshopesgate of London</orgName>
+               <orgName type="formInDocument">St. Mary's hospital, Bishopsgate-without</orgName>
+               <orgName type="formInDocument">St. Mary, Spitell</orgName>
+               <orgName type="formInDocument">St. Mary's hospital</orgName>
+               <region type="county">City of London</region>
+               <idno>http://viaf.org/viaf/204771427</idno>
+               <idno>http://viaf.org/viaf/241708857</idno>
+               <bibl>'Hospitals: St Mary without Bishopsgate', in <title>A History of the County of London: Volume 1, London Within the Bars, Westminster and Southwark</title>, ed. William Page (London, 1909), pp. 530-535. British History Online http://www.british-history.ac.uk/vch/london/vol1/pp530-535 [accessed 2 November 2021].</bibl>
+               <note type="charter">MS. Ch. Middlesex 60</note>
+               <note type="charter">MS. Ch. Middlesex 59</note> 
+               <note type="charter">MS. Ch. Middlesex 61</note>
+            </org>
+            
+            <org xml:id="org_110024">
+               <orgName type="index">Holywell, Augustinian nunnery (London)</orgName>
+               <orgName type="formInDocument">nuns of St. John of Haliwell</orgName>
+               <idno>https://www.wikidata.org/wiki/Q15224752</idno>
+               <note type="charter">MS. Ch. Middlesex 75</note>
+            </org>
+            
+            <org xml:id="org_110025">
+               <orgName type="index">London, Carthusian abbey</orgName>
+               <orgName type="formInDocument">order of Carthusians near London</orgName>
+               <idno>https://viaf.org/viaf/313181544/</idno>
+               <note type="charter">MS. Ch. Middlesex 76</note>
+            </org>
+            
+            <org xml:id="org_110026">
+               <orgName type="index">Prerogative Court of Canterbury</orgName>
+               <orgName type="formInDocument">Prerogative court of Canterbury</orgName>
+               <idno>http://viaf.org/viaf/142964003</idno>
+               <note type="charter">MS. Ch. Middlesex 81</note>
+               <note type="charter">MS. Ch. Middlesex 122</note>
+               <note type="charter">MS. Ch. Middlesex 141</note>
+               <note type="charter">MS. Ch. Middlesex 147</note>
+            </org>
+            
+            <org xml:id="org_110027">
+               <orgName type="index">London, St Bartholomew's, Augustinian priory</orgName>
+               <orgName type="formInDocument">priory of St. Bartholomew, London</orgName>
+               <idno>http://viaf.org/viaf/123324646</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </org>
+            
+            <org xml:id="org_110028">
+               <orgName type="index">Privy Council</orgName>
+               <orgName type="formInDocument">Privy Council</orgName>
+               <idno>http://viaf.org/viaf/141631515</idno>
+               <note type="charter">MS. Ch. Middlesex 158</note>
+            </org>
+            
+            <org xml:id="org_110029">
+               <orgName type="index">London, St Katharine's by the Tower </orgName>
+               <orgName type="variant">Royal Hospital and Collegiate Church of St Katharine by the Tower</orgName>
+               <orgName type="formInDocument">St Katherine by the Tower</orgName>
+               <region type="parish">St Katharine's by the Tower</region>
+               <orgName type="formInDocument">St. Katherine's, London</orgName>
+               <region type="county">City of London</region>
+               <idno>http://viaf.org/viaf/134140685</idno>
+               <idno>https://www.wikidata.org/wiki/Q7593886</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LND/PrecinctofStKatherine</idno>
+               <note type="charter">MS. Rolls Middlesex 16</note>
+               <note type="charter">MS. Ch. Middlesex 176</note>
+            </org>
+            
+            <org xml:id="org_110030">
+               <orgName type="index">Waltham, Augustinian priory and abbey</orgName>
+               <orgName type="formInDocument">Waltham</orgName>
+               <idno>http://viaf.org/viaf/124363390</idno>
+               <note type="charter">MS. Rolls Middlesex 1</note>
+            </org>
+            
+            <org xml:id="org_110031">
+               <orgName type="index">London, Whitefriars</orgName>
+               <orgName type="formInDocument">White Freres in Flete Stret</orgName>
+               <idno>https://www.wikidata.org/wiki/Q7995931</idno>
+               <note type="charter">MS. Rolls Middlesex 3</note>
             </org>
             
          </listOrg>
