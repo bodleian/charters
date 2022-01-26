@@ -49,7 +49,7 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p><placeName key="place_109442">Oxford, St. Thomas parish</placeName>. <persName><forename>William</forename> of <surname>Lichfield</surname></persName> and <persName><forename>Emma</forename>, his wife</persName>, grant the messuage to <persName><forename>William</forename> de <surname>Wodestone</surname></persName>. 
+                     <p><placeName key="place_109442">Oxford, St. Thomas parish</placeName>. <persName><forename>William</forename> of <surname>Lichfield</surname></persName> and <persName nymRef="Lichfield"><forename>Emma</forename>, his wife</persName>, grant the messuage to <persName><forename>William</forename> de <surname>Wodestone</surname></persName>. 
                         <origDate notBefore="1277" notAfter="1278">Mich. 1277-Mich. 1278</origDate>.</p>
                   </msItem>
                </msContents>
@@ -61,7 +61,17 @@
                   </objectDesc>
                   <authDesc>
                      <seal>
-                        <p>The seal of William is circular, 1 inch in diameter, a fleur-de-lis, S. WILL'I DE LICHEFELD. His wife has a pointed oval, 1 1/4 inches by 7/8 inch, a flower of eight petals, S' EMME FIL' [REGINALDI] LE MASVN. The seal of Hugo le Hore is circular, 3/4 inch in diameter.</p>
+                        <p>The seal of William is circular, 1 inch in diameter</p>
+                        <decoNote type="lily">A fleur-de-lis</decoNote>
+                        <legend>S. WILL'I DE LICHEFELD</legend>
+                     </seal>
+                     <seal>
+                        <p>His wife has a pointed oval, 1 1/4 inches by 7/8 inch</p>
+                        <decoNote type="plant">A flower of eight petals</decoNote>
+                        <legend>S' EMME FIL' [REGINALDI] LE MASVN</legend>
+                     </seal>
+                     <seal>
+                        <p>The seal of <persName><forename>Hugo</forename> le <surname>Hore</surname></persName> is circular, 3/4 inch in diameter.</p>
                      </seal>
                   </authDesc>
                </physDesc>
