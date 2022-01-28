@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900007">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. MM. 7</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_MM_7</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_MM_7" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. MM. 7</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                         
+                        Letters patent of <persName>
+                           <forename>Robert</forename> 
+                           <surname>Johnson</surname>, bachelor of laws, official of the bishop of <placeName role="person" type="diocese" key="place_101088">Worcester</placeName>
+                        </persName>, 
+                        stating that at the request of 
+                        <persName>
+                           <forename>Richard</forename> 
+                           <surname>Marshall</surname>, S.T.P., dean of <placeName role="dean" type="deanery" key="place_109100">Oxford</placeName>
+                        </persName>, 
+                        he caused the Worcester episcopal archives
+                        to be searched on 14 Jan. 1555, by 
+                        <persName>
+                           <forename>Wm.</forename> 
+                           <surname>Warmsey</surname>, notary public</persName>, who found:
+                        <origDate when="1555">4 <supplied>July or August</supplied> 1555.</origDate>
+                        <list>
+                            <item>(i) Ordination of <persName>
+                                 <forename>Silvester</forename>, bp. of <placeName type="diocese" role="bishop" key="place_101088">Worcester</placeName>
+                              </persName>, 
+                                for the churches of <placeName key="place_108069">Wotton</placeName> and
+                                <placeName key="place_108118">Preston-upon-Stour</placeName>, appropriated to the 
+                                <orgName key="org_107013">abbey of Tewkesbury</orgName>, assessing the church at £34, and
+                                providing for pensions from <placeName key="place_108069">Wotton</placeName> of 13/- to the
+                                bishop, 6/8 to the Dean and chapter, ¼ to
+                                the archdeacon, and from <placeName key="place_108118">Preston</placeName> 7/-, ¾, and ¼
+                                respectively. 
+                                Dated <origDate when="1555-04-15">15 April, 1555</origDate>.</item>
+                            <item>(ii) License of <persName>Henry VII</persName> to
+                                <persName>Sir <forename>John</forename> 
+                                 <surname>Mordaunt</surname>, kt.</persName>, 
+                                <persName>
+                                 <forename>William</forename> 
+                                 <surname>Grevill</surname>, sergeant-at-law</persName>, 
+                                and <persName>
+                                 <forename>Walter</forename> 
+                                 <surname>Rowdon</surname>
+                              </persName>,
+                                to grant the advowson of Wotton to Tewksbury. 
+                                <origDate when="1497-03-12">Dated 12 May (rectius 12 March), 1497</origDate>.</item>
+                            <pb n="185"/>
+                            <item>(iii) Letters patent of <persName>
+                                 <forename>Maurice</forename> lord Berkeley</persName>, 
+                                proclaiming the recovery of right against him in the advowson. 
+                                Dated <origDate when="1504-07-07">7 July, 1504</origDate>.</item>
+                            <item>(iv) Confirmation by the <orgName key="org_101007">prior &amp;c. of S. Mary’s, Worcester</orgName>, <origDate when="1555-05-03">3 May, 1555</origDate>.</item>
+                            <item>(v) Confirmation by 
+                                <persName>
+                                 <forename>Thomas</forename> 
+                                 <surname>Rowthell</surname>, archdeacon of <placeName type="archdeaconry" role="archdeacon" key="place_109082">Gloucester</placeName>
+                              </persName>, 
+                                <origDate when="1555-06-10">10 June, 1555</origDate>
+                           </item>
+                        </list>
+                    </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Cardinal College.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="" to="185">-185</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

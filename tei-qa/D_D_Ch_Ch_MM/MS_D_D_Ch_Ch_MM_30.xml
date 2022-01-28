@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900030">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ch. Ch. MM. 30</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ch_Ch_MM_30</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ch_Ch_MM_30" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <!--change if a Bodleian document-->
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. MM. 30</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>
+                        
+                        A copy of a decree in Chancery [ff. 1 and 2 have been
+                        torn away and two or three lines are missing at the bottom of every folio]
+                        granting to <orgName key="org_101005">Ch. Ch.</orgName> a further ten acres of common land
+                        in <placeName type="minor">Shotover Forest</placeName>.
+                        <persName>Charles II</persName>, wishing to enclose part of the forest had compensated the
+                        inhabitants and landholders of <placeName key="place_109235">Cowley</placeName> and elsewhere, who
+                        had common rights in the forest. In <origDate when="1661">1661</origDate> the then lord Treasurer authorized
+                        <persName>Sir <forename>John</forename> 
+                           <surname>Clerke</surname>
+                        </persName> to
+                        treat with the Commoners. Consequently the land bounded on the South by 
+                        [<hi rend="italic">blank</hi>], on the North by 
+                        <persName>Sir <forename>Eimoth</forename> 
+                           <surname>Tirrell</surname>
+                        </persName>’s
+                        coppice, on the East by <placeName type="minor">Horsepath coppice</placeName>, 
+                        and on the West by <placeName type="minor">Magdalen College Woods</placeName>, 
+                        was let out to the Commoners. This was carried
+                        out in Trinity Term 17 Chas. II, when 30 acres was allotted to Ch. Ch., as
+                        was plainly shown by the Auditor’s certificate. But a decree in Chancery of
+                        2 November, <origDate notBefore="1677-01-30" notAfter="1678-01-29">18 Chas. II</origDate> gave Ch. Ch. legal title to only 20 acres, through a
+                        clerical error, thus making necessary the present decree. </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Cardinal College.</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="193" to="193">193</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
