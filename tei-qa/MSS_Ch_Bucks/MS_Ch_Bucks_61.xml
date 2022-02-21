@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_112001">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Bucks. 61</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Bucks_61</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Bucks_61" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Bucks. 61</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> ADDINGTON, BOTTLE CLEYDON, and BAMPTON, Oxon. 
+                  Fine made at <placeName role="date" key="place_100060">Westminster</placeName> on the
+                  morrow of the Purification B.V.M., <origDate notBefore="1491-08-22" notAfter="1492-08-21">7 Hen. VII</origDate>, between <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Kebeell</surname>, sergeant at law</persName>, 
+                  <persName>
+                           <forename>Robert</forename> 
+                           <surname>Monie</surname>, clerk</persName>,
+                  <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Entwesill</surname>
+                        </persName>,
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Strode</surname>
+                        </persName>,
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Lolle</surname>
+                        </persName>, and
+                  <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Jakes</surname>
+                        </persName>, querents, and 
+                  <persName>sir <forename>Edward</forename> 
+                           <surname>Hastynges</surname> of <placeName role="person" key="place_110078">Hastynges</placeName>, kt.</persName>,
+                  and <persName>
+                           <forename>Mary</forename> his wife</persName>, deforciants of the manor of <placeName type="manor" key="place_112101">Adyngton</placeName>, 
+                  15 messuages, 500 acres of land, 200 acres of meadow, 300 acres of pasture, 4 acres of brushwood, 20
+                  acres of marsh, l00s, rent, and the rents of 1 lb. pepper and 1 lb. cummin with
+                  appurtenances in <placeName key="place_109154">Adyngton</placeName>, and <placeName key="place_107021">Botelcleydon, co. Bucks.</placeName>;
+                  and of the manor of <placeName type="manor" key="place_109032">Bampton</placeName>, with appurtenances, and of 4 messuages,
+                  400 acres of land, 100 acres of meadow, 60 acres of pasture, 3 acres of wood, 5 acres of brushwood, 
+                  20 acres of marsh, and l00s. rent in <placeName key="place_107019">Bampton, co. Oxon</placeName>, which said manors, etc. are
+                  acknowledged to be the right of the said <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Kebeel</surname>
+                        </persName> 
+                  and others, they paying to the said Edward and Mary 600 marks of silver. 
+                  </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="23" to="23">23</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
