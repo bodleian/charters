@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,7 +15,7 @@
    <text>
       <body>
          <listPlace type="manor">
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_112101">
                <placeName type="index">Addington</placeName>
                <placeName type="formInDocument">Adyngton</placeName>
                <region type="parish">Addington</region>
@@ -26,7 +25,7 @@
             </place>
 
 
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_112102">
                <placeName type="index">Water Eaton</placeName>
                <placeName type="formInDocument">Eaton als. Watereaton</placeName>
                <region type="parish">Bletchley</region>
@@ -38,14 +37,14 @@
                   British History Online http://www.british-history.ac.uk/vch/bucks/vol4/pp274-283
                   [accessed 21 January 2022]. </bibl>
             </place>
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_112103">
                <placeName type="index">Haddenham</placeName><!-- TODO: which manor?  -->
                <placeName type="formInDocument">Hadenham</placeName>
                <region type="parish">Haddenham</region>
                <region type="county">Buckinghamshire</region>
                <note type="charter">MS. Rolls. Bucks. 1</note>
             </place>
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_112104">
                <placeName type="index">Lower Winchendon</placeName>
                <placeName type="index">Nether Winchendon</placeName>
                <region type="parish">Lower Winchendon</region>
@@ -56,7 +55,7 @@
                <placeName type="formInDocument">Nether Winchenden</placeName>
                <note type="charter">MS. Ch. Bucks. 40</note>
             </place>
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_112105">
                <placeName type="index">Pitstone</placeName>
                <placeName type="formInDocument">Pytleyston</placeName>
                <region type="parish">Pitstone</region>
@@ -69,7 +68,7 @@
                   http://www.british-history.ac.uk/vch/bucks/vol3/pp406-412 [accessed 21 January
                   2022]. </bibl>
             </place>
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_112106">
                <placeName type="index">Ravenstone</placeName>
                <placeName type="formInDocument">Ravenston</placeName>
                <region type="parish">Ravenstone</region>
@@ -77,7 +76,7 @@
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F245988</idno>
                <note type="charter">MS. Ch. Bucks. 35</note>
             </place>
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_112107">
                <placeName type="index">Cippenham</placeName>
                <placeName type="formInDocument">Sippenham als. Sipnam</placeName>
                <region type="parish">Burnham</region>
@@ -85,7 +84,7 @@
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F240329</idno>
                <note type="charter">MS. Ch. Bucks. 78</note>
             </place>
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_112108">
                <placeName type="index">Thickthorns</placeName>
                <placeName type="variant">Thickthorn</placeName>
                <placeName type="formInDocument">Thykthorne</placeName>
@@ -94,7 +93,7 @@
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F240364</idno>
                <note type="charter">MS. Ch. Bucks. 57</note>
             </place>
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_112109">
                <placeName type="index">Whaddon, Giffards</placeName>
                <placeName type="formInDocument">Whaddon als. Giffards</placeName>
                <region type="parish">Whaddon</region>
@@ -102,70 +101,39 @@
                <note type="charter">MS. Ch. Bucks. 82</note>
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F242403</idno>
             </place>
-            <place type="manor">
+            <place subtype="new" type="manor" xml:id="place_112110">
                <!-- TODO: Stukeley Hunts or Stewkley Bucks? check original-->
                <placeName type="formInDocument">Little Stewkley</placeName>
                <placeName type="formInDocument">Little Stukeley</placeName>
                <note type="charter">MS. Ch. Bucks. 80</note>
             </place>
-         </listPlace>
-         <listPlace type="diocese">
-            <!-- TODO: insert codes for dioceses -->
-            <place type="diocese">
-               <placeName type="formInDocument">Canterbury</placeName>
-               <note type="charter">MS. Ch. Bucks. 73</note>
-            </place>
-            <place type="diocese">
-               <placeName type="formInDocument">Cov. and Lich.</placeName>
-               <placeName type="formInDocument">Coventry</placeName>
-               <note type="charter">MS. Ch. Bucks. 45</note>
-               <note type="charter">MS. Ch. Bucks. 66</note>
-            </place>
+           
+           
 
 
-            <place type="diocese">
-               <placeName type="formInDocument">Lincoln</placeName>
-               <placeName type="formInDocument">bishop of Lincoln's court</placeName>
-               <note type="charter">MS. Ch. Bucks. 68a, 68b</note>
-               <note type="charter">MS. Ch. Bucks. 2</note>
-            </place>
-            <place type="diocese">
-               <placeName type="formInDocument">Winchester</placeName>
-               <note type="charter">MS. Ch. Bucks. 73</note>
-            </place>
-            <place type="diocese">
-               <placeName type="formInDocument">Worcester</placeName>
-               <note type="charter">MS. Ch. Bucks. 45</note>
-            </place>
-         </listPlace>
-         <listPlace type="archbishopric">
-            <place type="archdiocese">
-               <placeName type="formInDocument">York</placeName>
-               <note type="charter">MS. Ch. Bucks. 63</note>
-            </place>
-         </listPlace>
+           
+         
+         
+           
          <!--<listPlace type="street">
-            <place type="street">
+            <place subtype="new" type="street">
                <placeName type="index">Hanslope, Longestret</placeName>
                <placeName type="formInDocument">Longestret</placeName>
                <note type="charter">MS. Ch. Bucks. 71</note>
             </place>
          </listPlace>-->
-         <listPlace type="earldom">
-            <place type="earldom">
+            <place subtype="new" type="earldom" xml:id="place_112002">
                <placeName type="formInDocument">Huntingdon</placeName>
                <note type="charter">MS. Ch. Bucks. 78</note>
             </place>
-         </listPlace>
-         <listPlace type="place">
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112003">
                <placeName type="index">Edgcott</placeName>
                <placeName type="formInDocument">Agecote</placeName>
                <region type="parish">Edgcott</region>
                <region type="county">Buckinghamshire</region>
                <note type="charter">MS. Ch. Bucks. 66</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112004">
                <placeName type="index">Ashendon</placeName>
                <placeName type="formInDocument">Asshendon</placeName>
                <region type="parish">Ashendon</region>
@@ -174,7 +142,7 @@
                <note type="charter">MS. Ch. Bucks. 42</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112005">
                <placeName type="index">Aylesbury</placeName>
                <placeName type="formInDocument">Aylesbury</placeName>
                <region type="parish">Aylesbury</region>
@@ -184,7 +152,7 @@
             </place>
 
 
-            <place type="person">
+            <place subtype="new" type="person" xml:id="place_112006">
                <placeName type="index">Battlesden</placeName>
                <placeName type="formInDocument">Battyllesdon, co. Beds.</placeName>
                <region type="parish">Battlesden</region>
@@ -193,7 +161,7 @@
                <note type="charter">MS. Ch. Bucks. 57</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112007">
                <placeName type="index">Beaconsfield</placeName>
                <placeName type="formInDocument">Beknesfeld</placeName>
                <region type="parish">Beaconsfield</region>
@@ -201,7 +169,7 @@
                <note type="charter">MS. Ch. Bucks. 90</note>
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Beaconsfield/53282ee4b47fc407e3000325-Beaconsfield</idno>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112008">
                <placeName type="index">Berwick-upon-Tweed</placeName>
                <placeName type="variant">Berwick upon Tweed</placeName>
                <placeName type="formInDocument">Berwick-upon-Tweed</placeName>
@@ -210,7 +178,7 @@
                <note type="charter">MS. Ch. Bucks. 17</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112009">
                <placeName type="index">Biggleswade</placeName>
                <placeName type="formInDocument">Bickeleswad</placeName>
                <region type="parish">Biggleswade</region>
@@ -220,7 +188,7 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112010">
                <placeName type="index">Caldecote</placeName>
                <placeName type="formInDocument">Caldecote</placeName>
                <region type="parish">Newport Pagnell</region>
@@ -229,7 +197,7 @@
                <note type="charter">MS. Ch. Bucks. 92</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112011">
                <placeName type="index">Canons Ashby</placeName>
                <placeName type="formInDocument">Canons Assheby, co. Northampton</placeName>
                <region type="parish">Canons Ashby</region>
@@ -237,7 +205,7 @@
                <note type="charter">MS. Ch. Bucks. 39</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112012">
                <placeName type="index">Carlton</placeName>
                <placeName type="formInDocument">Carleton near Buckingham, Linc. dioc.</placeName>
                <region type="parish">Carlton</region>
@@ -245,28 +213,28 @@
                <!-- ok? not that close to Buckingham -->
                <note type="charter">MS. Ch. Bucks. 65</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112013">
                <placeName type="index">Caversham</placeName>
                <placeName type="formInDocument">Caversham, co. Oxon</placeName>
                <region type="parish">Caversham</region>
                <region type="county">Oxfordshire</region>
                <note type="charter">MS. Ch. Bucks. 41</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112014">
                <placeName type="index">Chalfont St Giles</placeName>
                <placeName type="formInDocument">Chalfont St. Giles</placeName>
                <region type="parish">Chalfont St Giles</region>
                <region type="county">Buckinghamshire</region>
                <note type="charter">MS. Ch. Bucks. 89</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112015">
                <placeName type="index">Chearsley</placeName>
                <placeName type="formInDocument">Chardesley in Bucks.</placeName>
                <region type="parish">Chearsley</region>
                <region type="county">Buckinghamshire</region>
                <note type="charter">MS. Ch. Bucks. 40</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112016">
                <placeName type="index">Chichele</placeName>
                <placeName type="formInDocument">Chechele</placeName>
                <placeName type="formInDocument">Checheley</placeName>
@@ -276,7 +244,7 @@
                <note type="charter">MS. Ch. Bucks. 52</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112017">
                <placeName type="index">Clifton Reynes</placeName>
                <placeName type="formInDocument">Clifton</placeName>
                <region type="parish">Clifton Reynes</region>
@@ -284,14 +252,14 @@
                <note type="charter">MS. Ch. Bucks. 67</note>
                <!-- nr Emberton -->
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112018">
                <placeName type="index">Codford St Mary or Codford St Peter</placeName>
                <placeName type="formInDocument">Codesford</placeName>
                <region type="county">Wiltshire</region>
                <note type="charter">MS. Ch. Bucks. 91</note>
                <!-- rector of -->
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112019">
                <placeName type="index">Long Crendon</placeName>
                <placeName type="formInDocument">Crendon</placeName>
                <region type="parish">Long Crendon</region>
@@ -299,12 +267,12 @@
                <note type="charter">MS. Ch. Bucks. 43</note>
                <!-- person of; Notley abbey; lands in Norf. -->
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112020">
                <placeName type="formInDocument">Cumberworth [unidentified]</placeName>
                <note type="charter">MS. Ch. Bucks. 67</note>
                <!-- rector of; Yorks or Lincs ??? -->
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112021">
                <placeName type="index">Duddeston (now Vauxhall)</placeName>
                <placeName type="formInDocument">Dodeton</placeName>
                <region type="parish">Aston</region>
@@ -315,7 +283,7 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112022">
                <placeName type="index">Dorton</placeName>
                <placeName type="formInDocument">Durton, co. Bucks.</placeName>
                <placeName type="formInDocument">Dorton</placeName>
@@ -326,7 +294,7 @@
                <note type="charter">MS. Ch. Bucks. 42</note>
 
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112023">
                <placeName type="index">Emberton</placeName>
                <placeName type="formInDocument">Emberton</placeName>
                <region type="parish">Emberton</region>
@@ -335,7 +303,7 @@
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Emberton/53282ee4b47fc407e3000356-Emberton</idno>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112024">
                <placeName type="index">Erdington</placeName>
                <placeName type="formInDocument">Erdington</placeName>
                <region type="parish">Aston</region>
@@ -345,14 +313,14 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112025">
                <placeName type="index">Filgrave</placeName>
                <placeName type="formInDocument">Filgrave</placeName>
                <region type="parish">Tyringham with Filgrave</region>
                <region type="county">Buckinghamshire</region>
                <note type="charter">MS. Ch. Bucks. 10</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112026">
                <placeName type="index">Loughton</placeName>
                <placeName type="formInDocument">Great Loughton</placeName>
                <placeName type="formInDocument">Loughton</placeName>
@@ -362,14 +330,14 @@
                <note type="charter">MS. Ch. Bucks. 74</note>
                <note type="charter">MS. Ch. Bucks. 74</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112027">
                <placeName type="index">Great Missenden</placeName>
                <placeName type="formInDocument">Great Missenden</placeName>
                <region type="parish">Great Missenden</region>
                <region type="county">Buckinghamshire</region>
                <note type="charter">MS. Ch. Bucks. 75</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112028">
                <placeName type="index">Haddenham</placeName>
                <placeName type="formInDocument">Hadenham</placeName>
                <region type="parish">Haddenham</region>
@@ -377,7 +345,7 @@
                <note type="charter">MS. Ch. Bucks. 68a, 68b</note>
                <note type="charter">MS. Rolls. Bucks. 1</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112029">
                <placeName type="index">Hanslope</placeName>
                <placeName type="formInDocument">Hampslap</placeName>
                <placeName type="formInDocument">Hampslape</placeName>
@@ -392,7 +360,7 @@
                <note type="charter">MS. Ch. Bucks. 70</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112030">
                <placeName type="index">Hoggeston</placeName>
                <placeName type="formInDocument">Hoggeston</placeName>
                <region type="parish">Hoggeston</region>
@@ -401,7 +369,7 @@
                <note type="charter">MS. Ch. Bucks. 72</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112031">
                <placeName type="index">Hurst</placeName>
                <placeName type="formInDocument">Hurste, co. Berks.</placeName>
                <placeName type="formInDocument">Hurste</placeName>
@@ -413,7 +381,7 @@
                <!-- people of, incl. Tho. Hyde -->
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112032">
                <placeName type="index">Eakley</placeName>
                <placeName type="formInDocument">Ikelee</placeName>
                <region type="parish">Stoke Goldington</region>
@@ -421,7 +389,7 @@
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Stoke+Goldington/53282ecbb47fc407e30001ba-Eakley+Lanes</idno>
                <note type="charter">MS. Ch. Bucks. 34</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112033">
                <placeName type="index">Ivinghoe</placeName>
                <placeName type="formInDocument">Ivingehou</placeName>
                <region type="parish">Ivinghoe</region>
@@ -431,7 +399,7 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112034">
                <placeName type="index">Langford [unidentified]</placeName>
                <placeName type="formInDocument">Langford</placeName>
                <note type="charter">MS. Ch. Bucks. 45</note>
@@ -439,7 +407,7 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112035">
                <placeName type="index">The Vache</placeName>
                <placeName type="formInDocument">le Vache, co. Bucks</placeName>
                <region type="parish">Chalfont St Giles</region>
@@ -448,7 +416,7 @@
                <note type="charter">MS. Ch. Bucks. 64</note>
                <!-- Ant. Restwold of -->
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112036">
                <placeName type="index">Lenton</placeName>
                <placeName type="formInDocument">Lenton</placeName>
                <region type="parish">Lenton</region>
@@ -457,7 +425,7 @@
                <note type="charter">MS. Ch. Bucks. 91</note>
                <!-- ch dated at -->
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112037">
                <!-- TODO: Stukeley Hunts or Stewkley Bucks? -->
                <placeName type="formInDocument">Little Stewkley</placeName>
                <placeName type="formInDocument">Little Stukeley</placeName>
@@ -466,7 +434,7 @@
             </place>
             
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112038">
                <placeName type="index">Maiden Bradley</placeName>
                <placeName type="formInDocument">Mayden Bradley</placeName>
                <placeName type="formInDocument">Maydenbradley, co. Wilts.</placeName>
@@ -477,7 +445,7 @@
                <note type="charter">MS. Ch. Bucks. 38a</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112039">
                <placeName type="index">Maidenhead</placeName>
                <placeName type="formInDocument">Maydenheth</placeName>
                <region type="parish">Maidenhead</region>
@@ -485,7 +453,7 @@
                <idno>https://epns.nottingham.ac.uk/browse/Berkshire/Maidenhead/53282e4fb47fc407ba001b7e-Maidenhead</idno>
                <note type="charter">MS. Ch. Bucks. 90</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112040">
                <placeName type="index">Mursley</placeName>
                <placeName type="formInDocument">Muresley</placeName>
                <region type="parish">Mursley</region>
@@ -493,7 +461,7 @@
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Mursley/53282ee4b47fc407e3000399-Mursley</idno>
                <note type="charter">MS. Ch. Bucks. 76</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112041">
                <placeName type="index">Nechells</placeName>
                <placeName type="formInDocument">Necheles</placeName>
                <region type="parish">Aston</region>
@@ -501,7 +469,7 @@
                <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/Aston/53287417b47fc40c5f00003f-Nechells</idno>
                <note type="charter">MS. Ch. Bucks. 54</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112042">
                <placeName type="index">Shenley</placeName>
                <placeName type="formInDocument">Netherschenle</placeName>
                <region type="parish">Shenley</region>
@@ -510,7 +478,7 @@
                <note type="charter">MS. Ch. Bucks. 76</note>
             </place>
 
-            <place type="place" xml:id="place_109397">
+            <place subtype="new" type="place" xml:id="place_109397">
                <placeName type="formInDocument">Neuport Paynel</placeName>
                <placeName type="formInDocument">Neupord Paynel</placeName>
                <placeName type="formInDocument">Neuport Paynel</placeName>
@@ -529,7 +497,7 @@
                <note type="charter">MS. Ch. Bucks. 92</note>
             </place>
 
-            <place type="place" xml:id="place_107054">
+            <place subtype="new" type="place" xml:id="place_107054">
                <placeName type="formInDocument">Northampton</placeName>
                <placeName type="formInDocument">Northhampton</placeName>
                <note type="charter">MS. Ch. Bucks. 28</note>
@@ -538,7 +506,7 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112045">
                <placeName type="index">Upper Winchendon</placeName>
                <placeName type="formInDocument">Over Winchendon, Bucks.</placeName>
                <region type="parish">Winchendon</region>
@@ -546,7 +514,7 @@
                <note type="charter">MS. Ch. Bucks. 88</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112046">
                <placeName type="index">Petsoe</placeName>
                <placeName type="formInDocument">Pettesho</placeName>
                <region type="parish">Petsoe</region>
@@ -558,7 +526,7 @@
 
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112047">
                <placeName type="index">Quainton</placeName>
                <placeName type="formInDocument">Quenton</placeName>
                <region type="parish">Quainton</region>
@@ -567,7 +535,7 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112048">
                <placeName type="index">Ravenstone</placeName>
                <placeName type="formInDocument">Ravenston</placeName>
                <placeName type="formInDocument">Raveneston</placeName>
@@ -610,7 +578,7 @@
                <note type="charter">MS. Ch. Bucks. 34</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112049">
                <placeName type="index">Saunderton</placeName>
                <placeName type="formInDocument">Santerdon</placeName>
                <region type="parish">Saunderton</region>
@@ -619,7 +587,7 @@
                <note type="charter">MS. Ch. Bucks. 77</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112050">
                <placeName type="index">Shipton</placeName>
                <placeName type="formInDocument">Shepton</placeName>
                <region type="parish">Winslow</region>
@@ -629,7 +597,7 @@
                <!-- person of, ?nr Winslow -->
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112051">
                <placeName type="index">Sheringham</placeName>
                <placeName type="formInDocument">Shyryngham, co. Norfolk</placeName>
                <region type="parish">Sheringham</region>
@@ -642,13 +610,13 @@
                <note type="charter">MS. Ch. Bucks. 43</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112052">
                <placeName type="index">Stoke [unidentified]</placeName>
                <placeName type="formInDocument">Stoke</placeName>
                <note type="charter">MS. Ch. Bucks. 51</note>
                <!-- John, vicar of, in a case re. Willen, 1353; cf. Lipscomb, vol. 4,  -->
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112053">
                <placeName type="formInDocument">Stoke Goldington</placeName>
                <placeName type="formInDocument">Stoke</placeName>
                <note type="charter">MS. Ch. Bucks. 37</note>
@@ -661,7 +629,7 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112054">
                <placeName type="index">Stoke Lyne</placeName>
                <placeName type="formInDocument">Stokelyle</placeName>
                <placeName type="formInDocument">Stoke Lyle, co. Oxon</placeName>
@@ -673,7 +641,7 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112055">
                <placeName type="index">Thornborough</placeName>
                <placeName type="formInDocument">Tornebr' (Thornborough), in the deanery of
                   Bucks.</placeName>
@@ -682,7 +650,7 @@
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Thornborough/53282ee4b47fc407e30003c6-Thornborough</idno>
                <note type="charter">MS. Ch. Bucks. 91</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112056">
                <placeName type="index">Twyford</placeName>
                <placeName type="formInDocument">Twyford near Buckingham</placeName>
                <region type="parish">Twyford</region>
@@ -690,7 +658,7 @@
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Twyford/53282ee4b47fc407e30003cc-Twyford</idno>
                <note type="charter">MS. Ch. Bucks. 65</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112057">
                <placeName type="index">Tickford</placeName>
                <placeName type="formInDocument">Tykeford</placeName>
                <placeName type="formInDocument">Tikeford</placeName>
@@ -710,13 +678,13 @@
                <note type="charter">MS. Ch. Bucks. 52</note>
                <note type="charter">MS. Ch. Bucks. 50</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112058">
                <placeName type="index">Viterbo</placeName>
                <placeName type="formInDocument">Viterbo</placeName>
                <country>Italy</country>
                <note type="charter">MS. Ch. Bucks. 58</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112059">
                <placeName type="index">Waddesdon</placeName>
                <placeName type="formInDocument">Waddesdon</placeName>
                <region type="parish">Waddesdon</region>
@@ -725,7 +693,7 @@
                <note type="charter">MS. Ch. Bucks. 83</note>
                <note type="charter">MS. Ch. Bucks. 84</note>
             </place>
-            <place type="barony">
+            <place subtype="new" type="barony" xml:id="place_112060">
                <placeName type="index">Odell</placeName>
                <placeName type="formInDocument">Wahull</placeName>
                <region type="parish">Odell</region>
@@ -735,7 +703,7 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112061">
                <placeName type="index">Weston Underwood</placeName>
                <placeName type="formInDocument">Weston</placeName>
                <region type="parish">Weston Underwood</region>
@@ -748,7 +716,7 @@
                <note type="charter">MS. Ch. Bucks. 30</note>
                <!-- "" ? -->
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112062">
                <placeName type="index">Winslow</placeName>
                <placeName type="formInDocument">Winslow</placeName>
                <placeName type="formInDocument">Winslow, co. Bucks.</placeName>
@@ -761,7 +729,7 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112063">
                <placeName type="index">Woburn</placeName>
                <placeName type="formInDocument">Wooburn</placeName>
                <placeName type="formInDocument">Wouborne</placeName>
@@ -773,7 +741,7 @@
             </place>
 
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112064">
                <placeName type="index">Willen</placeName>
                <placeName type="formInDocument">Wylien</placeName>
                <region type="parish">Willen</region>
@@ -781,7 +749,7 @@
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Willen/53282ee4b47fc407e30003de-Willen</idno>
                <note type="charter">MS. Ch. Bucks. 51</note>
             </place>
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112065">
                <placeName type="index">Witton</placeName>
                <placeName type="formInDocument">Wytton</placeName>
                <placeName type="formInDocument">Wythton</placeName>
@@ -792,7 +760,7 @@
                <note type="charter">MS. Ch. Bucks. 54</note>
             </place>
 
-            <place type="place">
+            <place subtype="new" type="place" xml:id="place_112066">
                <placeName type="index">Yardley</placeName>
                <placeName type="formInDocument">Yerdele</placeName>
                <region type="parish">Yardley</region>
@@ -801,7 +769,7 @@
             </place>
          </listPlace>
          <listOrg>
-            <org>
+            <org xml:id="org_112001">
                <orgName type="index">Biddlesden, Cistercian abbey</orgName>
                <orgName type="formInDocument">abbot and convent of Bittlesden</orgName>
                <idno>https://www.wikidata.org/entity/Q856913</idno>
@@ -810,7 +778,7 @@
             </org>
            
            
-            <org>
+            <org xml:id="org_112002">
                <orgName type="index">Nutley, Augustinian abbey</orgName>
                <orgName type="variant">Notley, Augustinian abbey</orgName>
                <orgName type="variant">Crendon Park, Augustinian abbey</orgName>
@@ -830,7 +798,7 @@
             </org>
 
 
-            <org>
+            <org xml:id="org_112003">
                <orgName type="formInDocument">Canons Ashby, Augustinian priory</orgName>
                <orgName type="formInDocument">Esseby</orgName><!-- id uncertain -->
                <note type="charter">MS. Ch. Bucks. 91</note>
@@ -842,12 +810,12 @@
             </org>
           
           
-            <org>
+            <org xml:id="org_112004">
                <orgName type="index">Lavendon, Premonstratensian abbey of St Mary and St John Baptist </orgName>
                <orgName type="formInDocument">Lavenden</orgName>
                <note type="charter">MS. Ch. Bucks. 28</note>
             </org>
-            <org>
+            <org xml:id="org_112005">
                <orgName type="index">Lenton, Cluniac priory</orgName>
                <orgName type="formInDocument">Lenton</orgName>
                <region type="county">Nottinghamshire</region>
@@ -857,7 +825,7 @@
             </org>
            
            
-            <org>
+            <org xml:id="org_112006">
                <orgName type="index">Marmoutier Abbey (near Tours)</orgName>
                <orgName type="formInDocument">monastery of Marmonstier, [Tours]</orgName>
                <country>France</country>
@@ -875,13 +843,13 @@
             </org>
 
 
-            <org>
+            <org xml:id="org_112007">
                <orgName type="index">Luffield, Benedictine priory</orgName>
                <orgName type="formInDocument">prior and convent of Luffeld</orgName>
                <region type="county">Buckinghamshire</region>
                <note type="charter">MS. Ch. Bucks. 91</note>
             </org>
-            <org>
+            <org xml:id="org_112008">
                <orgName type="index">Ravenstone, Augustinian priory of St Mary</orgName>
                <orgName type="formInDocument">prior and convent of Ravenston</orgName>
                <orgName type="formInDocument">priory of Ravenstone</orgName>
@@ -912,7 +880,7 @@
                <note type="charter">MS. Ch. Bucks. 22</note>
                <note type="charter">MS. Ch. Bucks. 37</note>
             </org>
-            <org>
+            <org xml:id="org_112009">
                <orgName type="index">Tickford or Newport Pagnel, Cluniac priory</orgName>
                <orgName type="formInDocument">prior and convent of Tickford</orgName>
                <orgName type="formInDocument">priory of Tykeford, a cell of the abbey of St. Martin
@@ -937,7 +905,7 @@
                <note type="charter">MS. Ch. Bucks. 51</note>
             </org>
 
-            <org>
+            <org xml:id="org_112010">
                <orgName type="index">Bradwell, Benedictine priory </orgName>
                <orgName type="formInDocument">priory of Bradwell</orgName>
                <country>Buckinghamshire</country>
@@ -948,7 +916,7 @@
 
 
 
-            <org>
+            <org xml:id="org_112011">
                <orgName type="index">Aylesbury, hospital of St John the Baptist</orgName>
                <orgName type="formInDocument">St. John of Aylesbury</orgName>
                <country>Buckinghamshire</country>

@@ -443,7 +443,7 @@
                <note type="charter">MS. Rolls Suffolk 4</note>
             </place>
             
-            <place subtype="new" type="county" xml:id="place_000071">
+            <place type="county" xml:id="place_000071">
                <placeName type="index">Surrey</placeName>
                <placeName type="formInDocument">Surrey</placeName>
                <idno>https://epns.nottingham.ac.uk/browse/Surrey</idno>
@@ -451,7 +451,7 @@
                <note type="charter">MS. Ch. Middlesex 47</note>
                <note type="charter">MS. Ch. Sussex 266</note>
             </place>
-            <place subtype="new" type="county" xml:id="place_000072">
+            <place type="county" xml:id="place_000072">
                <placeName type="index">Sussex</placeName>
                <placeName type="formInDocument">Sussex</placeName>
                <idno>https://epns.nottingham.ac.uk/browse/Sussex</idno>
@@ -24344,7 +24344,7 @@
             </place>
             
             
-            <place type="place" xml:id="place_105409">
+            <place type="place" xml:id="place_105409"><!-- query/check: do some of these relate to Lound in yorks? -->
                <placeName type="index">Lound</placeName>
                <placeName type="formInDocument">lound</placeName>
                <placeName type="formInDocument">lounde</placeName>
@@ -28639,11 +28639,13 @@
             <place type="place" xml:id="place_106139">
                <placeName type="index">Upper Winchendon</placeName>
                <placeName type="formInDocument">overwinchindon, bucks</placeName>
+               <placeName type="formInDocument">Over Winchendon, Bucks.</placeName>
                <region type="parish">Winchendon</region>
                <region type="county">Buckinghamshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Winchendon/53282ee4b47fc407e30003df-Winchendon+%28Upper+and+Lower%29+and+J</idno>
                <idno>https://www.genuki.org.uk/big/eng/BKM/UpperWinchendon</idno>
                <note type="charter">MS. Ch. Essex 229</note>
+               <note type="charter">MS. Ch. Bucks. 88</note>
             </place>
             
             <place type="place" xml:id="place_106140">
@@ -29771,6 +29773,10 @@
                <placeName type="formInDocument">crendon</placeName>
                <placeName type="formInDocument">crendon, buckinghamshire</placeName>
                <placeName type="formInDocument">crendon, bucks</placeName>
+               <placeName type="index">Long Crendon</placeName>
+               <placeName type="formInDocument">Crendon</placeName>
+              
+               <!-- person of; Notley abbey; lands in Norf. -->
                <region type="parish">Long Crendon</region>
                <region type="county">Buckinghamshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Long+Crendon/53282ee4b47fc407e300038c-Long+Crendon</idno>
@@ -29778,6 +29784,7 @@
                <note type="charter">MS. Ch. Berkshire 149</note>
                <note type="charter">MS. Ch. Oxon. 168</note>
                <note type="charter">MS. Ch. Oxon. 167</note>
+               <note type="charter">MS. Ch. Bucks. 43</note>
             </place>
          
          
@@ -30108,10 +30115,15 @@
             <place type="place" xml:id="place_107054">
                <placeName type="index">Northampton</placeName>
                <placeName type="formInDocument">northampton</placeName>
+               <placeName type="formInDocument">Northampton</placeName>
+               <placeName type="formInDocument">Northhampton</placeName>
                <region type="parish">Northampton</region>
                <region type="county">Northamptonshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/id/53286a35b47fc40bba000001-Northampton</idno>
                <idno>https://www.genuki.org.uk/big/eng/NTH/Northampton</idno>
+               <note type="charter">MS. Ch. Bucks. 28</note>
+               <note type="charter">MS. Ch. Bucks. 29</note>
+               <note type="charter">MS. Ch. Bucks. 20</note>
                <note type="charter">MS. Ch. Berkshire 1</note>
                <note type="charter">MS. Ch. Northants. 8</note>
                <note type="charter">MS. Ch. Northants. 7</note>
@@ -30510,10 +30522,13 @@
             <place type="place" xml:id="place_107086">
                <placeName type="index">Quainton</placeName>
                <placeName type="formInDocument">Quainton Mallet (Bucks.)</placeName>
+               <placeName type="index">Quainton</placeName>
+               <placeName type="formInDocument">Quenton</placeName>
                <region type="parish">Quainton</region>
                <region type="county">Buckinghamshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Quainton/53282ee4b47fc407e30003aa-Quainton</idno>
-            </place>
+               <note type="charter">MS. Ch. Bucks. 62</note>
+               </place>
             
           
             
@@ -30585,14 +30600,53 @@
                </bibl>
             </place>
             
-            <place xml:id="place_107096">
+            <place xml:id="place_107096" type="place">
                <placeName type="index">Ravenstone</placeName>
+               <placeName type="index">Ravenstone</placeName>
+               <placeName type="formInDocument">Ravenston</placeName>
+               <placeName type="formInDocument">Raveneston</placeName>
+               <placeName type="formInDocument">Ravenstone</placeName>
+               <placeName type="formInDocument">Ravenstune</placeName>
                <region type="parish">Ravenstone</region>
                <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 2</note>
+               <note type="charter">MS. Ch. Bucks. 6a</note>
+               <note type="charter">MS. Ch. Bucks. 12</note>
+               <note type="charter">MS. Ch. Bucks. 22</note>
+               <note type="charter">MS. Ch. Bucks. 10</note>
+               <note type="charter">MS. Ch. Bucks. 15.</note>
+               <note type="charter">MS. Ch. Bucks. 1</note>
+               <note type="charter">MS. Ch. Bucks. 5</note>
+               <note type="charter">MS. Ch. Bucks. 6b</note>
+               <note type="charter">MS. Ch. Bucks. 7</note>
+               <note type="charter">MS. Ch. Bucks. 8</note>
+               <note type="charter">MS. Ch. Bucks. 9</note>
+               <note type="charter">MS. Ch. Bucks. 11</note>
+               <note type="charter">MS. Ch. Bucks. 12</note>
+               <note type="charter">MS. Ch. Bucks. 14</note>
+               <note type="charter">MS. Ch. Bucks. 15.</note>
+               <note type="charter">MS. Ch. Bucks. 16</note>
+               <note type="charter">MS. Ch. Bucks. 18</note>
+               <note type="charter">MS. Ch. Bucks. 19</note>
+               <note type="charter">MS. Ch. Bucks. 20</note>
+               <note type="charter">MS. Ch. Bucks. 21</note>
+               <note type="charter">MS. Ch. Bucks. 23</note>
+               <note type="charter">MS. Ch. Bucks. 24</note>
+               <note type="charter">MS. Ch. Bucks. 25</note>
+               <note type="charter">MS. Ch. Bucks. 26</note>
+               <note type="charter">MS. Ch. Bucks. 27</note>
+               <note type="charter">MS. Ch. Bucks. 28</note>
+               <note type="charter">MS. Ch. Bucks. 29</note>
+               <note type="charter">MS. Ch. Bucks. 31</note>
+               <note type="charter">MS. Ch. Bucks. 32</note>
+               <note type="charter">MS. Ch. Bucks. 35</note>
+               <note type="charter">MS. Ch. Bucks. 37</note>
+               <note type="charter">MS. Ch. Bucks. 34</note>
+              
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Ravenstone/53282ee4b47fc407e30003ae-Ravenstone</idno>
             </place>
             
-            <place xml:id="place_107097">
+            <place xml:id="place_107097" type="place">
                <placeName type="index">Kildwick</placeName>
                <region type="parish">Kildwick</region>
                <region type="county">Yorkshire, West Riding</region>
@@ -31199,10 +31253,19 @@
             <place type="place" xml:id="place_108042">
                <placeName type="index">Stoke Goldington</placeName>
                <placeName type="formInDocument">Stoke Goldington</placeName>
+               <placeName type="formInDocument">Stoke Goldington</placeName>
+               <placeName type="formInDocument">Stoke</placeName>
                <region type="parish">Stoke Goldington</region>
                <region type="county">Buckinghamshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Stoke+Goldington/53282ee4b47fc407e30003bc-Stoke+Goldington</idno>
-               <note type="charter">MS. Ch. Bucks 34</note>
+               <note type="charter">MS. Ch. Bucks. 37</note>
+               <note type="charter">MS. Ch. Bucks. 33</note>
+               <note type="charter">MS. Ch. Bucks. 34</note>
+               <note type="charter">MS. Ch. Bucks. 79</note>
+               <note type="charter">MS. Ch. Bucks. 33</note>
+               <note type="charter">MS. Ch. Bucks. 34</note>
+               <note type="charter">MS. Ch. Bucks. 30</note>
+              <note type="charter">MS. Ch. Bucks 34</note>
             </place>
             
             <place type="place" xml:id="place_108043">
@@ -31627,13 +31690,6 @@
                <note type="charter">MS. D. D. Ch. Ch. M. 83</note>
             </place>
             
-            <place type="place" xml:id="place_108089">
-               <placeName type="index">Ikelee [unidentified]</placeName>
-               <placeName type="formInDocument">Ikelee</placeName>
-               <!--<region type="parish"></region>
-               <region type="county">Buckinghamshire</region>Ilkley, co. ? Buckinghamshire according to D-Y index, but cannot locate it-->
-               <idno>MS. Ch. Bucks 34</idno>
-            </place>
             
             <place type="place" xml:id="place_108090">
                <placeName type="index">Hanewelle [unidentified]</placeName>
@@ -31991,10 +32047,13 @@
             <place type="place" xml:id="place_108131">
                <placeName type="index">Thornborough</placeName>
                <placeName type="formInDocument">Thorneberge</placeName>
+               <placeName type="formInDocument">Tornebr' (Thornborough), in the deanery of
+                  Bucks.</placeName>
                <region type="parish">Thornborough</region>
                <region type="county">Buckinghamshire</region>
                <idno>http://epns.nottingham.ac.uk/browse/Buckinghamshire/53282ecdb47fc407e30002e1-Thornborough</idno>
                <note type="charter">MS. D. D. Ch. Ch. M. 56</note>
+               <note type="charter">MS. Ch. Bucks. 91</note>
             </place>
             
             <place type="place" xml:id="place_108132">
@@ -33011,10 +33070,12 @@
             <place type="place" xml:id="place_108255">
                <placeName type="index">Caversham</placeName>
                <placeName type="formInDocument">Caversham</placeName>
+               <placeName type="formInDocument">Caversham, co. Oxon</placeName>
                <region type="parish">Caversham</region>
                <region type="county">Oxfordshire</region>
                <idno>https://www.genuki.org.uk/big/eng/OXF/caversham</idno>
                <note type="charter">MM. 21</note>
+               <note type="charter">MS. Ch. Bucks. 41</note>
             </place>
 
             <place type="place" xml:id="place_108256">
@@ -37886,7 +37947,7 @@
           
          
             <place type="diocese" xml:id="place_109023">
-               <placeName type="index">York, diocese</placeName>
+               <placeName type="index">York, archdiocese</placeName>
                <placeName type="formInDocument">york</placeName>
                <idno>http://viaf.org/viaf/135393460</idno>
                <idno>https://www.wikidata.org/wiki/Q3028528</idno>
@@ -41067,11 +41128,15 @@
             <place type="place" xml:id="place_109327">
                <placeName type="index">Hoggeston</placeName>
                <placeName type="formInDocument">Hoggeston</placeName>
+               <placeName type="index">Hoggeston</placeName>
+               <placeName type="formInDocument">Hoggeston</placeName>
                <region type="parish">Hoggeston</region>
                <region type="county">Buckinghamshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Hoggeston/53282ee4b47fc407e3000378-Hoggeston</idno>
+              
                <idno>https://www.genuki.org.uk/big/eng/BKM/Hoggeston</idno>
                <note type="charter">MS. D. D. Ch. Ch. O. 541</note>
+               <note type="charter">MS. Ch. Bucks. 72</note>
             </place>
             
             <place type="place" xml:id="place_109328"> 
@@ -41921,11 +41986,27 @@
             <place type="place" xml:id="place_109397">
                <placeName type="index">Newport Pagnell</placeName>
                <placeName type="formInDocument">newporte paynell</placeName>
+               <placeName type="formInDocument">Neuport Paynel</placeName>
+               <placeName type="formInDocument">Neupord Paynel</placeName>
+               <placeName type="formInDocument">Neuport Paynel</placeName>
+               <placeName type="formInDocument">Newport Pagnel</placeName>
+               <placeName type="formInDocument">Newport Paynel</placeName>
+               <placeName type="formInDocument">Neupord Paynel</placeName>
+               <placeName type="formInDocument">Neuport</placeName>
+               <placeName type="formInDocument">Newport</placeName>
                <region type="parish">Newport Pagnell</region>
                <region type="county">Buckinghamshire</region>
                <idno>https://www.genuki.org.uk/big/eng/BKM/NewportPagnell</idno>
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Newport+Pagnell/53282ee4b47fc407e300039b-Newport+Pagnell</idno>
                <note type="charter">MS. Ch. Oxon. 138b</note>
+               <note type="charter">MS. Ch. Bucks. 48</note>
+               <note type="charter">MS. Ch. Bucks. 48</note>
+               <note type="charter">MS. Ch. Bucks. 49</note>
+               <note type="charter">MS. Ch. Bucks. 50</note>
+               <note type="charter">MS. Ch. Bucks. 75b</note>
+               <note type="charter">MS. Ch. Bucks. 92</note>
+               <note type="charter">MS. Ch. Bucks. 49</note>
+               <note type="charter">MS. Ch. Bucks. 92</note>
             </place>
             
           
@@ -44164,9 +44245,12 @@
                <placeName type="formInDocument">santresdon</placeName>
                <placeName type="formInDocument">sauntresdon</placeName>
                <placeName type="formInDocument">SANTERDON, Bucks.</placeName>
+               <placeName type="index">Saunderton</placeName>
+               <placeName type="formInDocument">Santerdon</placeName>
                <region type="parish">Saunderton</region>
                <region type="county">Buckinghamshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Saunderton/53282ee4b47fc407e30003af-Saunderton</idno>
+               <note type="charter">MS. Ch. Bucks. 77</note>
                <idno>https://www.genuki.org.uk/big/eng/BKM/Saunderton</idno>
                <note type="charter">MS. Ch. Oxon. 51</note>
                <note type="charter">MS. Ch. Oxon. 54</note>
@@ -45356,7 +45440,7 @@
           
           <!-- Middlesex -->
             
-               <place subtype="new" type="manor" xml:id="place_110001">
+               <place type="manor" xml:id="place_110001">
                <placeName type="index">Chelsea</placeName>
                <placeName type="formInDocument">Chelsea</placeName>
                <region type="parish">Chelsea</region>
@@ -45365,7 +45449,7 @@
                <note type="charter">MS. Ch. Middlesex 89</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110002">
+            <place type="manor" xml:id="place_110002">
                <placeName type="index">Shaftoe</placeName>
                <placeName type="formInDocument">East Shlaftoe, Northumberland</placeName>
                <region type="parish">Hartburn</region>
@@ -45374,7 +45458,7 @@
                <note type="charter">MS. Rolls Middlesex 20</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110003">
+            <place type="manor" xml:id="place_110003">
                <placeName type="index">Hackney</placeName>
                <placeName type="formInDocument">Hackney</placeName>
                <region type="parish">Hackney</region>
@@ -45387,7 +45471,7 @@
                <note type="charter">MS. Ch. Middlesex 96</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110004">
+            <place type="manor" xml:id="place_110004">
                <placeName type="index">Herwapton (unidentified)</placeName>
                <placeName type="formInDocument">Herwapton</placeName>
                <region type="county">Kent</region>
@@ -45395,7 +45479,7 @@
                <!-- Kent, ?near Speldhurst -->
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110005">
+            <place type="manor" xml:id="place_110005">
                <placeName type="index">Shenley</placeName>
                <placeName type="formInDocument">Holmes, co. Hertford</placeName>
                <region type="parish">Shenley</region>
@@ -45404,7 +45488,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110006">
+            <place type="manor" xml:id="place_110006">
                <placeName type="index">Elstree</placeName>
                <placeName type="formInDocument">Idestre in the village of Eggewere, Middlesex</placeName>
                <region type="parish">Edgware</region>
@@ -45417,7 +45501,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110007">
+            <place type="manor" xml:id="place_110007">
                <placeName type="index">Barnsbury</placeName>
                <placeName type="formInDocument">Iseldon, Middlesex</placeName>
                <region type="parish">Islington</region>
@@ -45426,7 +45510,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110008">
+            <place type="manor" xml:id="place_110008">
                <placeName type="index">Langley Hall</placeName>
                <placeName type="formInDocument">Langeley, Essex</placeName>
                <region type="parish">Langley</region>
@@ -45435,7 +45519,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110009">
+            <place type="manor" xml:id="place_110009">
                <placeName type="index">Shortgrove</placeName>
                <placeName type="formInDocument">Schortgrave, Essex</placeName>
                <region type="parish">Newport</region>
@@ -45444,7 +45528,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110010">
+            <place type="manor" xml:id="place_110010">
                <placeName type="index">South Middleton</placeName>
                <placeName type="formInDocument">South Middleton</placeName>
                <region type="parish">Ilderton</region>
@@ -45453,7 +45537,7 @@
                <note type="charter">MS. Rolls Middlesex 20</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110011">
+            <place type="manor" xml:id="place_110011">
                <placeName type="index">South Mimms</placeName>
                <placeName type="formInDocument">SOUTH MIMMES MANOR</placeName>
                <region type="parish">South Mimms</region>
@@ -45462,7 +45546,7 @@
                <note type="charter">MS. Rolls Middlesex 22</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110012">
+            <place type="manor" xml:id="place_110012">
                <placeName type="index">Speldhurst</placeName>
                <placeName type="formInDocument">Speldehurst</placeName>
                <region type="parish">Speldhurst</region>
@@ -45471,7 +45555,7 @@
                <note type="charter">MS. Ch. Middlesex 77</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110013">
+            <place type="manor" xml:id="place_110013">
                <placeName type="index">Tottenham</placeName>
                <placeName type="formInDocument">Totenham</placeName>
                <region type="parish">Tottenham</region>
@@ -45480,7 +45564,7 @@
                <note type="charter">MS. Ch. Middlesex 176</note>
             </place>
             
-            <place subtype="new" type="manor" xml:id="place_110014">
+            <place type="manor" xml:id="place_110014">
                <placeName type="index">Tewin</placeName>
                <placeName type="formInDocument">Tywynge, co. Hertford</placeName> 
                <region type="parish">Tewin</region>
@@ -45497,7 +45581,7 @@
             
           
         
-            <place subtype="new" type="honour" xml:id="place_110018">
+            <place type="honour" xml:id="place_110018">
                <placeName type="index">Clare, Honour of</placeName>
                <placeName type="formInDocument">Clare</placeName>
                <note type="charter">MS. Ch. Middlesex 6</note>
@@ -45508,7 +45592,7 @@
         
         
         
-            <place subtype="new" type="country" xml:id="place_110023">
+            <place type="country" xml:id="place_110023">
                <placeName type="index">Borneo</placeName>
                <placeName type="formInDocument">Borneo</placeName>
                <idno>https://www.wikidata.org/wiki/Q36117</idno>
@@ -45519,14 +45603,14 @@
             
            
             
-            <place subtype="new" type="country" xml:id="place_110026">
+            <place type="country" xml:id="place_110026">
                <placeName type="index">Gambia</placeName>
                <placeName type="formInDocument">Gambia, Africa</placeName>
                <idno>https://www.wikidata.org/wiki/Q1005</idno>
                <note type="charter">MS. Ch. Middlesex 134</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110027">
+            <place type="place" xml:id="place_110027">
                <placeName type="index">Jamaica</placeName>
                <placeName type="formInDocument">Jamaica</placeName>
                <region type="county">Jamaica</region>
@@ -45537,7 +45621,7 @@
            
         
         
-            <place subtype="new" type="street" xml:id="place_110029">
+            <place type="street" xml:id="place_110029">
                <placeName type="index">London, Bow Lane</placeName>
                <placeName type="formInDocument">Bow lane</placeName>
                <region type="parish">St Mary le Bow</region>
@@ -45545,7 +45629,7 @@
                <note type="charter">MS. Ch. Middlesex 78</note>
             </place>
          
-            <place subtype="new" type="street" xml:id="place_110030">
+            <place type="street" xml:id="place_110030">
                <placeName type="index">London, Charles Street</placeName>
                <placeName type="formInDocument">Charles Street, London</placeName>
                <region type="county">Middlesex</region><!--City of Westminster-->
@@ -45553,13 +45637,13 @@
                <note type="charter">MS. Ch. London 180</note>
             </place>
             
-            <place subtype="new" type="street" xml:id="place_110031">
+            <place type="street" xml:id="place_110031">
                <placeName type="index">London, East street</placeName>
                <placeName type="formInDocument">East street</placeName>
                <note type="charter">MS. Ch. Middlesex 157</note>
             </place>
             
-            <place subtype="new" type="street" xml:id="place_110032">
+            <place type="street" xml:id="place_110032">
                <placeName type="index">London, Hatton Garden</placeName>
                <placeName type="formInDocument">Hatton garden</placeName>
                <region type="parish">Holborn St Andrew</region>
@@ -45568,14 +45652,14 @@
                <note type="charter">MS. Ch. Middlesex 78</note>
             </place>
             
-            <place subtype="new" type="street" xml:id="place_110033">
+            <place type="street" xml:id="place_110033">
                <placeName type="index">London, Lady alley, King street, Westminster</placeName>
                <placeName type="formInDocument">Lady alley, King street</placeName>
                <region type="county">Middlesex</region><!--City of Westminster-->
                <note type="charter">MS. Ch. Middlesex 87</note>
             </place>
             
-            <place subtype="new" type="street" xml:id="place_110034">
+            <place type="street" xml:id="place_110034">
                <placeName type="index">London, Lyon yard</placeName>
                <placeName type="formInDocument">Lyon yard alias Grayes alley, in the parish of St. Dyonise Backchurch</placeName>
                <region type="parish">St Dionis Backchurch</region>
@@ -45583,7 +45667,7 @@
                <note type="charter">MS. Ch. Middlesex 71</note>
             </place>
             
-            <place subtype="new" type="street" xml:id="place_110035">
+            <place type="street" xml:id="place_110035">
                <placeName type="index">London, New Grave Lane</placeName>
                <placeName type="formInDocument">Newgrave lane, in the parish of St. Paul, Shadwell, co. Middlesex</placeName>
                <region type="parish">Shadwell St Pauls</region>
@@ -45591,14 +45675,14 @@
                <note type="charter">MS. Ch. Middlesex 105</note>
             </place>
             
-            <place subtype="new" type="street" xml:id="place_110036">
+            <place type="street" xml:id="place_110036">
                <placeName type="index">London, Salisbury Street</placeName>
                <placeName type="formInDocument">Salisbury street</placeName>
                <region type="county">Middlesex</region>
                <note type="charter">MS. Ch.Middlesex 83</note>
             </place>
             
-            <place subtype="new" type="street" xml:id="place_110037">
+            <place type="street" xml:id="place_110037">
                <placeName type="index">London, Skinner Street</placeName>
                <placeName type="formInDocument">Skinner's street, London</placeName>
                <placeName type="formInDocument">Skinners street</placeName>
@@ -45606,7 +45690,7 @@
                <note type="charter">MS. Ch. Middlesex 152</note>
             </place>
             
-            <place subtype="new" type="street" xml:id="place_110038">
+            <place type="street" xml:id="place_110038">
                <placeName type="index">London, Trig Lane</placeName>
                <placeName type="formInDocument">Trig lane</placeName>
                <region type="parish">St Peter near Pauls Wharf</region>
@@ -45614,7 +45698,7 @@
                <note type="charter">MS. Ch. Middlesex 82</note>
             </place>
              
-            <place subtype="new" type="street" xml:id="place_110039">
+            <place type="street" xml:id="place_110039">
                <placeName type="index">London, Whitecross Street</placeName>
                <placeName type="formInDocument">White Cross Street, in St. Giles' parish, Cripplegate</placeName>
                <region type="parish">St Giles without Cripplegate</region>
@@ -45623,7 +45707,7 @@
                <note type="charter">MS. Ch. Middlesex 73</note>
             </place>
             
-            <place subtype="new" type="street" xml:id="place_110040">
+            <place type="street" xml:id="place_110040">
                <placeName type="index">London, Watling Street</placeName>
                <placeName type="formInDocument">Watling Street in the parish of St. Antholin</placeName>
                <region type="parish">St Antholin</region>
@@ -45632,7 +45716,7 @@
             </place>
         
         
-            <place subtype="new" type="archdeaconry" xml:id="place_110041">
+            <place type="archdeaconry" xml:id="place_110041">
                <placeName type="index">London, archdeaconry</placeName>
                <placeName type="formInDocument">London</placeName>
                <idno>http://viaf.org/viaf/123252209</idno>
@@ -45640,7 +45724,7 @@
             </place>
         
         
-            <place subtype="new" type="place" xml:id="place_110042">
+            <place type="place" xml:id="place_110042">
                <placeName type="index">Amersham</placeName>
                <placeName type="formInDocument">Agmondesham, co. Bucks</placeName>
                <region type="parish">Amersham</region>
@@ -45650,7 +45734,7 @@
                <note type="charter">MS. Ch. Middlesex 157</note>
             </place>
              
-            <place subtype="new" type="place" xml:id="place_110043">
+            <place type="place" xml:id="place_110043">
                <placeName type="index">London, Aldersgate Ward</placeName>
                <placeName type="formInDocument">ALDERSGATE WARD Without</placeName>
                <region type="parish">Aldersgate</region>
@@ -45660,7 +45744,7 @@
                <note type="charter">MS. Rolls Middlesex 8</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110044">
+            <place type="place" xml:id="place_110044">
                <placeName type="index">London, All Hallows Barking</placeName>
                <placeName type="formInDocument">Alhallowes, Barking</placeName>
                <region type="parish">All Hallows Barking</region>
@@ -45670,7 +45754,7 @@
                <note type="charter">MS. Ch. Middlesex 56</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110045">
+            <place type="place" xml:id="place_110045">
                <placeName type="index">London, All Hallows-on-the-Wall</placeName>
                <placeName type="formInDocument">All Hallows</placeName>
                <placeName type="formInDocument">Allhallows in the Wall</placeName>
@@ -45685,13 +45769,13 @@
                <note type="charter">MS. Rolls Middlesex 17</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110046">
+            <place type="place" xml:id="place_110046">
                <placeName type="index">Alsewik (unidentified)</placeName>
                <placeName type="formInDocument">Alsewik</placeName>
                <note type="charter">MS. Ch. Middlesex 75</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110047">
+            <place type="place" xml:id="place_110047">
                <placeName type="index">Aylesford</placeName>
                <placeName type="formInDocument">Alysford</placeName>
                <region type="parish">Aylesford</region>
@@ -45701,7 +45785,7 @@
                <note type="charter">MS. Ch. Middlesex 14</note> <!--CHK, not sure if correct-->
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110048">
+            <place type="place" xml:id="place_110048">
                <placeName type="index">Amsterdam</placeName>
                <placeName type="formInDocument">Amsterdam</placeName>
                 <region type="country">Netherlands</region>
@@ -45709,7 +45793,7 @@
                <note type="charter">MS. Ch. Middlesex 38</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110049">
+            <place type="place" xml:id="place_110049">
                <placeName type="index">Amwell</placeName>
                <placeName type="formInDocument">Amwell, co. Hertford</placeName>
                <region type="parish">Great and Little Amwell</region>
@@ -45719,7 +45803,7 @@
             </place>
             
          
-            <place subtype="new" type="place" xml:id="place_110051">
+            <place type="place" xml:id="place_110051">
                <placeName type="index">Barbuda</placeName>
                <placeName type="formInDocument">Barbuda</placeName>
                <!--<region type="country">Antigua and Barbuda</region>-->
@@ -45727,7 +45811,7 @@
                <note type="charter">MS. Ch. Middlesex 44</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110052">
+            <place type="place" xml:id="place_110052">
                <placeName type="index">Batavia, Dutch East Indies (later Jakarta)</placeName>
                <placeName type="formInDocument">Batavia</placeName>
                <!--<region type="country">Indonesia</region> current country-->
@@ -45735,7 +45819,7 @@
                <note type="charter">MS. Ch. Middlesex 141</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110053">
+            <place type="place" xml:id="place_110053">
                <placeName type="index">Bodmin</placeName>
                <placeName type="formInDocument">Bodmyn</placeName>
                <region type="parish">Bodmin</region>
@@ -45744,7 +45828,7 @@
                <note type="charter">MS. Ch. Middlesex 29</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110054">
+            <place type="place" xml:id="place_110054">
                <placeName type="index">London, Bow</placeName>
                <placeName type="formInDocument">Bow, London</placeName>
                <region type="parish">Bow</region>
@@ -45754,7 +45838,7 @@
                <note type="charter">MS. Ch. Middlesex 88</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110055">
+            <place type="place" xml:id="place_110055">
                <placeName type="index">Bradfield</placeName>
                <placeName type="formInDocument">Bradfeld, Essex</placeName>
                <region type="parish">Bradfield</region>
@@ -45764,7 +45848,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110056">
+            <place type="place" xml:id="place_110056">
                <placeName type="index">Brentford</placeName>
                <placeName type="formInDocument">Braynford</placeName>
                <placeName type="formInDocument">Braynford, Middlesex</placeName>
@@ -45775,7 +45859,7 @@
                <note type="charter">MS. Ch. Middlesex 91</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110057">
+            <place type="place" xml:id="place_110057">
                <placeName type="index">Bromley St Leonard</placeName>
                <placeName type="formInDocument">Bromley St. Leonards</placeName>
                <region type="parish">Bromley St Leonard</region>
@@ -45784,7 +45868,7 @@
                <note type="charter">MS. Ch. Middlesex 175</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110058">
+            <place type="place" xml:id="place_110058">
                <placeName type="index">Brussels</placeName>
                <placeName type="formInDocument">Brussels</placeName>
                <region type="country">Belgium</region>
@@ -45792,7 +45876,7 @@
                <note type="charter">MS. Ch. Middlesex 12</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110059">
+            <place type="place" xml:id="place_110059">
                <placeName type="index">Chelsea</placeName>
                <placeName type="formInDocument">Chelsea</placeName>
                <placeName type="formInDocument">Chelsehith</placeName>
@@ -45805,7 +45889,7 @@
                <note type="charter">MS. Ch. Middlesex 90</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110060">
+            <place type="place" xml:id="place_110060">
                <placeName type="index">Charlton</placeName>
                <placeName type="formInDocument">Cherdington, Middlesex</placeName>
                <region type="parish">Sunbury</region>
@@ -45820,7 +45904,7 @@
             
            
             
-            <place subtype="new" type="place" xml:id="place_110064">
+            <place type="place" xml:id="place_110064">
                <placeName type="index">Dublin</placeName>
                <placeName type="formInDocument">Dublin</placeName>
                <region type="country">Ireland</region>
@@ -45828,7 +45912,7 @@
                <note type="charter">MS. Ch. Middlesex 46</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110065">
+            <place type="place" xml:id="place_110065">
                <placeName type="index">Detchant</placeName>
                <placeName type="formInDocument">Dychaunt, co. Northumberland</placeName>
                <region type="parish">Belford</region>
@@ -45837,7 +45921,7 @@
                <bibl>Northumberland County History I.400-2</bibl>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110066">
+            <place type="place" xml:id="place_110066">
                <placeName type="index">East Hagbourne and West Hagbourne</placeName>
                <placeName type="formInDocument">East Hagborne, Berks</placeName>
                <region type="parish">East and West Hagbourne</region>
@@ -45847,14 +45931,14 @@
                <note type="charter">MS. Ch. Middlesex 70</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110067">
+            <place type="place" xml:id="place_110067">
                <placeName type="index">East Indies</placeName>
                <placeName type="formInDocument">East Indies</placeName>
                <idno>https://www.wikidata.org/wiki/Q213137</idno>
                <note type="charter">MS. Ch. Middlesex 137</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110068">
+            <place type="place" xml:id="place_110068">
                <placeName type="index">Edmonton</placeName>
                <placeName type="formInDocument">Edelinton, Middlesex</placeName>
                <placeName type="formInDocument">Edmelton</placeName>
@@ -45867,7 +45951,7 @@
                <note type="charter">MS. Ch. Middlesex 176</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110069">
+            <place type="place" xml:id="place_110069">
                <placeName type="index">Elmdon</placeName>
                <placeName type="formInDocument">Elmedon, Essex</placeName>
                <region type="parish">Elmdon</region>
@@ -45878,7 +45962,7 @@
             </place>
             
            
-            <place subtype="new" type="place" xml:id="place_110071">
+            <place type="place" xml:id="place_110071">
                <placeName type="index">Finchingfield</placeName>
                <placeName type="formInDocument">Finchinfeld, Essex</placeName>
                <region type="parish">Finchingfield</region>
@@ -45888,7 +45972,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
            
-            <place subtype="new" type="place" xml:id="place_110072">
+            <place type="place" xml:id="place_110072">
                <placeName type="index">Fulham</placeName>
                <placeName type="formInDocument">Fulham</placeName>
                <region type="parish">Fulham</region>
@@ -45902,14 +45986,14 @@
                <note type="charter">MS. Ch. London 178</note>
             </place>
              
-            <place subtype="new" type="place" xml:id="place_110073">
+            <place type="place" xml:id="place_110073">
                <placeName type="index">Gibraltar</placeName>
                <placeName type="formInDocument">Gibraltar</placeName>
                <idno>https://www.wikidata.org/wiki/Q1410</idno>
                <note type="charter">MS. Ch. Middlesex 158</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110074">
+            <place type="place" xml:id="place_110074">
                <placeName type="index">Gorleston</placeName>
                <placeName type="formInDocument">Gorleston, Suffolk</placeName>
                <region type="parish">Gorleston</region>
@@ -45918,7 +46002,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110075">
+            <place type="place" xml:id="place_110075">
                <placeName type="index">London, Guildhall</placeName>
                <placeName type="formInDocument">Guildhall, London</placeName>
                <!--<region type="parish"></region>not sure-->
@@ -45928,7 +46012,7 @@
                <note type="charter">MS. Ch. Middlesex 145</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110076">
+            <place type="place" xml:id="place_110076">
                <placeName type="index">Hackney</placeName>
                <placeName type="formInDocument">Hackney</placeName>
                <region type="parish">Hackney</region>
@@ -45942,7 +46026,7 @@
                <note type="charter">MS. Ch. Middlesex 96</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110077">
+            <place type="place" xml:id="place_110077">
                <placeName type="index">Hampton Court</placeName>
                <placeName type="formInDocument">Hampton Court</placeName>
                <region type="parish">Hampton Court</region>
@@ -45953,7 +46037,7 @@
                <note type="charter">MS. Ch. Middlesex 36</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110078">
+            <place type="place" xml:id="place_110078">
                <placeName type="index">Hastings</placeName>
                <placeName type="formInDocument">Hastings</placeName>
                <region type="parish">Hastings</region>
@@ -45963,7 +46047,7 @@
                <note type="charter">MS. Ch. Middlesex 11</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110079">
+            <place type="place" xml:id="place_110079">
                <placeName type="index">Hendon</placeName>
                <placeName type="formInDocument">Hendon, Middlesex</placeName>
                <region type="parish">Hendon</region>
@@ -45973,7 +46057,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110080">
+            <place type="place" xml:id="place_110080">
                <placeName type="index">Harringey</placeName>
                <placeName type="variant">Haringey</placeName>
                <placeName type="formInDocument">Hereingey</placeName>
@@ -45986,7 +46070,7 @@
             </place>
             
           
-            <place subtype="new" type="place" xml:id="place_110082">
+            <place type="place" xml:id="place_110082">
                <placeName type="index">Hockliffe</placeName>
                <placeName type="formInDocument">Hokclive, co. Beds</placeName>
                <region type="parish">Hockliffe</region>
@@ -45996,7 +46080,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110083">
+            <place type="place" xml:id="place_110083">
                <placeName type="index">Kentish Town</placeName>
                <placeName type="formInDocument">Kentish-towne</placeName>
                <!--CHK how to mark Greater London Borough of Camden-->
@@ -46011,7 +46095,7 @@
             
           
             
-            <place subtype="new" type="place" xml:id="place_110087">
+            <place type="place" xml:id="place_110087">
                <placeName type="index">Whitchurch (Little Stanmore)</placeName>
                <placeName type="formInDocument">Little Stanmer, Middlesex</placeName>
                <region type="parish">Little Stanmore</region>
@@ -46023,7 +46107,7 @@
             
           
             
-            <place subtype="new" type="place" xml:id="place_110089">
+            <place type="place" xml:id="place_110089">
                <placeName type="index">London, Vintry Ward</placeName><!--Vintry Ward? https://www.genuki.org.uk/big/eng/LND/VintryWard-->
                <placeName type="formInDocument">London in Ventnor's Ward</placeName>
                <region type="county">City of London</region>
@@ -46031,7 +46115,7 @@
             </place>
            
             
-            <place subtype="new" type="place" xml:id="place_110091">
+            <place type="place" xml:id="place_110091">
                <placeName type="index">London, St Alphage London Wall</placeName>
                <placeName type="formInDocument">St. Alphage</placeName>
                <region type="parish">St Alphage London Wall</region>
@@ -46043,7 +46127,7 @@
             
          
             
-            <place subtype="new" type="place" xml:id="place_110093">
+            <place type="place" xml:id="place_110093">
                <placeName type="index">London, St Anne Within the Liberty of Westminster (St Anne Soho)</placeName>
                <placeName type="formInDocument">St. Ann, Westminster</placeName>
                <region type="parish">St Anne Soho</region>
@@ -46053,7 +46137,7 @@
                <note type="charter">MS. Ch. Middlesex 116</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110094">
+            <place type="place" xml:id="place_110094">
                <placeName type="index">London, St Clement Danes</placeName>
                <placeName type="formInDocument">St. Clement's Danes</placeName>
                <placeName type="formInDocument">St. Clement's Danes, London</placeName>
@@ -46065,7 +46149,7 @@
                <note type="charter">MS. Ch. Middlesex 69</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110095">
+            <place type="place" xml:id="place_110095">
                <placeName type="index">London, St George the Martyr (Holborn or Southwark)</placeName>
                <!--unclear, could be either St George the Martyr, Holborn or 
                St George the Martyr, Southwark-->
@@ -46079,7 +46163,7 @@
                <note type="charter">MS. Ch. Middlesex 157</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110096">
+            <place type="place" xml:id="place_110096">
                <placeName type="index">London, St George Botolph Lane</placeName>
                <placeName type="formInDocument">St. George, Botolph lane</placeName>
                <placeName type="formInDocument">St. George, Botolph lane, London</placeName>
@@ -46092,7 +46176,7 @@
                <note type="charter">MS. Ch. Middlesex 72</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110097">
+            <place type="place" xml:id="place_110097">
                <placeName type="index">London, St Leonard's, Shoreditch</placeName>
                <placeName type="formInDocument">St. Leonard, Shoreditch</placeName>
                <region type="parish">Shoreditch, St Leonard</region>
@@ -46102,7 +46186,7 @@
                <note type="charter">MS. Ch. Middlesex 106</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110098">
+            <place type="place" xml:id="place_110098">
                <placeName type="index">London, Westminster St Margaret</placeName>
                <placeName type="formInDocument">St. Margaret's, Westminster</placeName>
                <region type="parish">Westminster St Margaret and St John</region>
@@ -46112,7 +46196,7 @@
                <note type="charter">MS. Ch. Middlesex 87</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110099">
+            <place type="place" xml:id="place_110099">
                <placeName type="index">London, St Martin Orgar</placeName>
                <placeName type="formInDocument">St. Martin's Orgar</placeName>
                <region type="parish">St Martin Orgar</region>
@@ -46122,7 +46206,7 @@
                <note type="charter">MS. Ch. Middlesex 109</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110100">
+            <place type="place" xml:id="place_110100">
                <placeName type="index">London, St Mary le Strand (St Mary le Savoy)</placeName>
                <placeName type="formInDocument">St. Mary le Savoy</placeName>
                <region type="parish">St Mary le Strand</region>
@@ -46132,7 +46216,7 @@
                <note type="charter">MS. Ch. Middlesex 108</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110101">
+            <place type="place" xml:id="place_110101">
                <placeName type="index">London, Whitechapel</placeName>
                <placeName type="formInDocument">St. Mary Matfellow alias Whitechappell</placeName>
                <placeName type="formInDocument">Whitechapel</placeName>
@@ -46145,7 +46229,7 @@
                <note type="charter">MS. Ch. Middlesex 101</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110102">
+            <place type="place" xml:id="place_110102">
                <placeName type="index">London, St Mary Somerset</placeName>
                <placeName type="formInDocument">St. Mary Somersett, London</placeName>
                <region type="parish">St Mary Somerset</region>
@@ -46155,7 +46239,7 @@
                <note type="charter">MS. Ch. Middlesex 115</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110103">
+            <place type="place" xml:id="place_110103">
                <placeName type="index">London, St Mary le Bow</placeName>
                <placeName type="formInDocument">St. Mary-le-bow</placeName>
                <region type="parish">St Mary le Bow</region>
@@ -46165,7 +46249,7 @@
                <note type="charter">MS. Ch. Middlesex 78</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110104">
+            <place type="place" xml:id="place_110104">
                <placeName type="index">London, St Michael Cornhill</placeName>
                <placeName type="formInDocument">St. Michael parish in Cornhill</placeName>
                <region type="parish">St Michael Cornhill</region>
@@ -46175,7 +46259,7 @@
                <note type="charter">MS. Ch. Middlesex 79</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110105">
+            <place type="place" xml:id="place_110105">
                <placeName type="index">London, St Mildred Poultry</placeName>
                <placeName type="formInDocument">St. Mildred, Poultry</placeName>
                <region type="parish">St Mildred Poultry</region>
@@ -46185,7 +46269,7 @@
                <note type="charter">MS. Ch. Middlesex 80</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110106">
+            <place type="place" xml:id="place_110106">
                <placeName type="index">London, St Paul's, Covent Garden</placeName>
                <placeName type="formInDocument">St. Paul's, Covent Garden</placeName>
                <region type="parish">St Paul's, Covent Garden</region>
@@ -46196,7 +46280,7 @@
                <note type="charter">MS. Ch. Middlesex 104</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110107">
+            <place type="place" xml:id="place_110107">
                <placeName type="index">London, St Peter near Pauls Wharf</placeName>
                <placeName type="formInDocument">St. Peter, London</placeName>
                <region type="parish">St Peter near Pauls Wharf</region>
@@ -46208,7 +46292,7 @@
             
            
             
-            <place subtype="new" type="place" xml:id="place_110108">
+            <place type="place" xml:id="place_110108">
                <placeName type="index">London, St Swithin London Stone</placeName>
                <placeName type="formInDocument">ST. SWITHIN'S PARISH</placeName>
                <placeName type="formInDocument">St. Swithin's, London</placeName>
@@ -46225,7 +46309,7 @@
           
          
             
-            <place subtype="new" type="place" xml:id="place_110111">
+            <place type="place" xml:id="place_110111">
                <placeName type="index">Mentmore</placeName>
                <placeName type="formInDocument">Mentmore, co. Bucks</placeName>
                <region type="parish">Mentmore</region>
@@ -46235,14 +46319,14 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110112">
+            <place type="place" xml:id="place_110112">
                <placeName type="index">Middleton (unidentified)</placeName>
                <!-- person of: several potential parishes, in Essex, Yorkshire, Northamtponshire, Sussex, Warwickshire-->
                <placeName type="formInDocument">Middelton</placeName>
                <note type="charter">MS. Ch. Middlesex 10</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110113">
+            <place type="place" xml:id="place_110113">
                <placeName type="index">Millbank</placeName>
                <placeName type="formInDocument">Millbank, co. Middlesex</placeName>
                <region type="parish">Westminster St John</region>
@@ -46253,7 +46337,7 @@
             
          
             
-            <place subtype="new" type="place" xml:id="place_110115">
+            <place type="place" xml:id="place_110115">
                <placeName type="index">Newgate</placeName>
                <placeName type="formInDocument">Newgate</placeName>
                <region type="county">Middlesex</region>
@@ -46261,7 +46345,7 @@
                <note type="charter">MS. Ch. Middlesex 138</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110116">
+            <place type="place" xml:id="place_110116">
                <placeName type="index">Northolt</placeName>
                <placeName type="formInDocument">Northall, Middlesex</placeName>
                <region type="parish">Northolt</region>
@@ -46271,7 +46355,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110117">
+            <place type="place" xml:id="place_110117">
                <placeName type="index">London, St Benet Fink</placeName>
                <placeName type="formInDocument">parish of St. Benedict</placeName>
                <region type="parish">St Benet Fink</region>
@@ -46281,7 +46365,7 @@
                <note type="charter">MS. Ch. Middlesex 150</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110118">
+            <place type="place" xml:id="place_110118">
                <placeName type="index">London, St Botolph (Aldgate, Aldersgate, Billingsgate or Bishopsgate)</placeName>
                <placeName type="formInDocument">parish of St. Botolph</placeName>
                <placeName type="formInDocument">St. Botolph</placeName>
@@ -46294,7 +46378,7 @@
                <note type="charter">MS. Ch. Middlesex 63</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110119">
+            <place type="place" xml:id="place_110119">
                <placeName type="index">London, St Botolph without Aldgate</placeName>
                <placeName type="formInDocument">St. Botolph's without Aldgate</placeName>
                <placeName type="formInDocument">St. Botolph's without Aldgate, London</placeName>
@@ -46308,7 +46392,7 @@
                <note type="charter">MS. Ch. Middlesex 103</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110120">
+            <place type="place" xml:id="place_110120">
                <placeName type="index">London, St Botolph Billingsgate</placeName>
                <placeName type="formInDocument">St. Botolph, Billinsgate</placeName>
                <region type="parish">London, St Botolph Billingsgate</region>
@@ -46318,7 +46402,7 @@
                <note type="charter">MS. Ch. Middlesex 72</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110121">
+            <place type="place" xml:id="place_110121">
                <placeName type="index">Peover</placeName>
                <placeName type="formInDocument">Peover, in the co. palatine of Chester</placeName>
                <region type="parish">Peover</region>
@@ -46327,7 +46411,7 @@
                <note type="charter">MS. Ch. Middlesex 48</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110122">
+            <place type="place" xml:id="place_110122">
                <placeName type="index">Ulster</placeName>
                <placeName type="formInDocument">province of Ulster in Ireland</placeName>
                <country>Ireland</country>
@@ -46338,7 +46422,7 @@
             </place>
           
             
-            <place subtype="new" type="place" xml:id="place_110124">
+            <place type="place" xml:id="place_110124">
                <placeName type="index">Margate, St John the Baptist</placeName>
                <placeName type="formInDocument">St. John, Thanet</placeName>
                <region type="parish">Margate, St John the Baptist</region>
@@ -46348,7 +46432,7 @@
                <note type="charter">MS. Rolls Middlesex 19</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110125">
+            <place type="place" xml:id="place_110125">
                <placeName type="index">San Sebastián</placeName>
                <placeName type="formInDocument">St. Sebastian's</placeName>
                <region type="county">Basque country</region><!--country Spain-->
@@ -46357,7 +46441,7 @@
                <note type="charter">MS. Ch. Middlesex 133</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110126">
+            <place type="place" xml:id="place_110126">
                <placeName type="index">Stanwell</placeName>
                <placeName type="formInDocument">Stanwell</placeName>
                <region type="parish">Stanwell</region>
@@ -46369,7 +46453,7 @@
             
       
             
-            <place subtype="new" type="place" xml:id="place_110128">
+            <place type="place" xml:id="place_110128">
                <placeName type="index">Stoke Newington</placeName>
                <placeName type="formInDocument">Stoke Newington</placeName>
                <region type="parish">Stoke Newington</region>
@@ -46379,7 +46463,7 @@
                <note type="charter">MS. Ch. Middlesex 113</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110129">
+            <place type="place" xml:id="place_110129">
                <placeName type="index">Tangier</placeName>
                <placeName type="formInDocument">Tanger</placeName>
                <!--<region type="parish"></region>
@@ -46390,7 +46474,7 @@
             </place>
             
            
-            <place subtype="new" type="place" xml:id="place_110131">
+            <place type="place" xml:id="place_110131">
                <placeName type="index">Tottenham</placeName>
                <placeName type="formInDocument">Totenham</placeName>
                <placeName type="formInDocument">Totenham, Middlesex</placeName>
@@ -46404,7 +46488,7 @@
                <note type="charter">MS. Ch. Middlesex 80</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110132">
+            <place type="place" xml:id="place_110132">
                <placeName type="index">Trelawny</placeName>
                <placeName type="formInDocument">Trelawney, in co. Cornwall</placeName>
                <region type="parish">Pelynt</region>
@@ -46413,7 +46497,7 @@
                <note type="charter">MS. Ch. Middlesex 29</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110133">
+            <place type="place" xml:id="place_110133">
                <placeName type="index">Tewin</placeName>
                <placeName type="formInDocument">Tywinge</placeName>
                <region type="parish">Tewin</region>
@@ -46423,7 +46507,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110134">
+            <place type="place" xml:id="place_110134">
                <placeName type="index">London, Wapping</placeName>
                <placeName type="formInDocument">Wapping</placeName>
                <placeName type="formInDocument">Wapping in the parish of Stepney</placeName>
@@ -46435,7 +46519,7 @@
                <note type="charter">MS. Ch. Middlesex 99</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110135">
+            <place type="place" xml:id="place_110135">
                <placeName type="index">Walthamstow</placeName>
                <placeName type="formInDocument">Welcostowe, Essex</placeName>
                <region type="parish">Walthamstow</region>
@@ -46445,7 +46529,7 @@
                <note type="charter">MS. Rolls Middlesex 1</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110136">
+            <place type="place" xml:id="place_110136">
                <placeName type="index">Wenhaston</placeName>
                <placeName type="formInDocument">Wenlacston, co. Suffolk</placeName>
                <region type="parish">Wenhaston</region>
@@ -46457,7 +46541,7 @@
             
            
             
-            <place subtype="new" type="place" xml:id="place_110138">
+            <place type="place" xml:id="place_110138">
                <placeName type="index">Whaddon</placeName>
                <placeName type="formInDocument">Whaddon, Bucks</placeName>
                <region type="parish">Whaddon</region>
@@ -46471,7 +46555,7 @@
 
            
             
-            <place subtype="new" type="place" xml:id="place_110141">
+            <place type="place" xml:id="place_110141">
                <placeName type="index">Woodford</placeName>
                <placeName type="formInDocument">Woodford, Essex</placeName>
                <region type="parish">Woodford</region>
@@ -46481,7 +46565,7 @@
                <note type="charter">MS. Ch. Middlesex 22</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110142">
+            <place type="place" xml:id="place_110142">
                <placeName type="index">Woodham Walter</placeName>
                <placeName type="formInDocument">Woodham Walter, co. Essex</placeName>
                <region type="parish">Woodham Walter</region>
@@ -46491,7 +46575,7 @@
                <note type="charter">MS. Ch. Middlesex 69</note>
             </place>
             
-            <place subtype="new" type="place" xml:id="place_110143">
+            <place type="place" xml:id="place_110143">
                <placeName type="index">Yelling</placeName>
                <placeName type="formInDocument">Yelling</placeName>
                <region type="parish">Yelling</region>
@@ -46906,6 +46990,626 @@
                <region type="parish">Luton</region>
                <region type="county">Bedfordshire</region>
                <idno>https://epns.nottingham.ac.uk/browse/Bedfordshire/Luton/53282b21b47fc407a90000fd-Luton+Hoo</idno>
+            </place>
+            
+                <place subtype="new" type="manor" xml:id="place_112101">
+               <placeName type="index">Addington</placeName>
+               <placeName type="formInDocument">Adyngton</placeName>
+               <region type="parish">Addington</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F243661</idno>
+               <note type="charter">MS. Ch. Bucks. 61</note>
+            </place>
+
+
+            <place subtype="new" type="manor" xml:id="place_112102">
+               <placeName type="index">Water Eaton</placeName>
+               <placeName type="formInDocument">Eaton als. Watereaton</placeName>
+               <region type="parish">Bletchley</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 82</note>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F240368</idno>
+               <bibl> 'Parishes : Bletchley with Fenny Stratford and Water Eaton', in A History of
+                  the County of Buckingham: Volume 4, ed. William Page (London, 1927), pp. 274-283.
+                  British History Online http://www.british-history.ac.uk/vch/bucks/vol4/pp274-283
+                  [accessed 21 January 2022]. </bibl>
+            </place>
+            <place subtype="new" type="manor" xml:id="place_112103">
+               <placeName type="index">Haddenham</placeName><!-- TODO: which manor?  -->
+               <placeName type="formInDocument">Hadenham</placeName>
+               <region type="parish">Haddenham</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Rolls. Bucks. 1</note>
+            </place>
+            <place subtype="new" type="manor" xml:id="place_112104">
+               <placeName type="index">Lower Winchendon</placeName>
+               <placeName type="index">Nether Winchendon</placeName>
+               <region type="parish">Lower Winchendon</region>
+               <!-- VCH -->
+               <region type="parish">Long Crendon</region>
+               <!-- VOB -->
+               <region type="county">Buckinghamshire</region>
+               <placeName type="formInDocument">Nether Winchenden</placeName>
+               <note type="charter">MS. Ch. Bucks. 40</note>
+            </place>
+            <place subtype="new" type="manor" xml:id="place_112105">
+               <placeName type="index">Pitstone</placeName>
+               <placeName type="formInDocument">Pytleyston</placeName>
+               <region type="parish">Pitstone</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F241869</idno>
+               <!-- note, several manors in that id; not clear manor this doc relates to -->
+               <note type="charter">MS. Rolls Bucks. 2</note>
+               <bibl> 'Parishes: Pitstone', in A History of the County of Buckingham: Volume 3, ed.
+                  William Page (London, 1925), pp. 406-412. British History Online
+                  http://www.british-history.ac.uk/vch/bucks/vol3/pp406-412 [accessed 21 January
+                  2022]. </bibl>
+            </place>
+            <place subtype="new" type="manor" xml:id="place_112106">
+               <placeName type="index">Ravenstone</placeName>
+               <placeName type="formInDocument">Ravenston</placeName>
+               <region type="parish">Ravenstone</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F245988</idno>
+               <note type="charter">MS. Ch. Bucks. 35</note>
+            </place>
+            <place subtype="new" type="manor" xml:id="place_112107">
+               <placeName type="index">Cippenham</placeName>
+               <placeName type="formInDocument">Sippenham als. Sipnam</placeName>
+               <region type="parish">Burnham</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F240329</idno>
+               <note type="charter">MS. Ch. Bucks. 78</note>
+            </place>
+            <place subtype="new" type="manor" xml:id="place_112108">
+               <placeName type="index">Thickthorns</placeName>
+               <placeName type="variant">Thickthorn</placeName>
+               <placeName type="formInDocument">Thykthorne</placeName>
+               <region type="parish">Chicheley</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F240364</idno>
+               <note type="charter">MS. Ch. Bucks. 57</note>
+            </place>
+            <place subtype="new" type="manor" xml:id="place_112109">
+               <placeName type="index">Whaddon, Giffards</placeName>
+               <placeName type="formInDocument">Whaddon als. Giffards</placeName>
+               <region type="parish">Whaddon</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 82</note>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F242403</idno>
+            </place>
+            <place subtype="new" type="manor" xml:id="place_112110">
+               <!-- TODO: Stukeley Hunts or Stewkley Bucks? check original-->
+               <placeName type="formInDocument">Little Stewkley</placeName>
+               <placeName type="formInDocument">Little Stukeley</placeName>
+               <note type="charter">MS. Ch. Bucks. 80</note>
+            </place>
+           
+           
+
+
+           
+         
+         
+           
+         <!--<listPlace type="street">
+            <place subtype="new" type="street">
+               <placeName type="index">Hanslope, Longestret</placeName>
+               <placeName type="formInDocument">Longestret</placeName>
+               <note type="charter">MS. Ch. Bucks. 71</note>
+            </place>
+         </listPlace>-->
+            <place subtype="new" type="earldom" xml:id="place_112002">
+               <placeName type="formInDocument">Huntingdon</placeName>
+               <note type="charter">MS. Ch. Bucks. 78</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112003">
+               <placeName type="index">Edgcott</placeName>
+               <placeName type="formInDocument">Agecote</placeName>
+               <region type="parish">Edgcott</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 66</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112004">
+               <placeName type="index">Ashendon</placeName>
+               <placeName type="formInDocument">Asshendon</placeName>
+               <region type="parish">Ashendon</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Ashendon/53282ee4b47fc407e300031c-Ashendon</idno>
+               <note type="charter">MS. Ch. Bucks. 42</note>
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112005">
+               <placeName type="index">Aylesbury</placeName>
+               <placeName type="formInDocument">Aylesbury</placeName>
+               <region type="parish">Aylesbury</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10213356</idno>
+               <note type="charter">MS. Ch. Bucks. 62</note>
+            </place>
+
+
+            <place subtype="new" type="person" xml:id="place_112006">
+               <placeName type="index">Battlesden</placeName>
+               <placeName type="formInDocument">Battyllesdon, co. Beds.</placeName>
+               <region type="parish">Battlesden</region>
+               <region type="county">Bedfordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Bedfordshire/Battlesden/53282b41b47fc407a900030a-Battlesden</idno>
+               <note type="charter">MS. Ch. Bucks. 57</note>
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112007">
+               <placeName type="index">Beaconsfield</placeName>
+               <placeName type="formInDocument">Beknesfeld</placeName>
+               <region type="parish">Beaconsfield</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 90</note>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Beaconsfield/53282ee4b47fc407e3000325-Beaconsfield</idno>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112008">
+               <placeName type="index">Berwick-upon-Tweed</placeName>
+               <placeName type="variant">Berwick upon Tweed</placeName>
+               <placeName type="formInDocument">Berwick-upon-Tweed</placeName>
+               <region type="parish">Berwick upon Tweed</region>
+               <region type="county">Northumberland</region>
+               <note type="charter">MS. Ch. Bucks. 17</note>
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112009">
+               <placeName type="index">Biggleswade</placeName>
+               <placeName type="formInDocument">Bickeleswad</placeName>
+               <region type="parish">Biggleswade</region>
+               <region type="county">Bedfordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Bedfordshire/Biggleswade/53282b41b47fc407a900030c-Biggleswade</idno>
+               <note type="charter">MS. Ch. Bucks. 2</note>
+            </place>
+
+
+            <place subtype="new" type="place" xml:id="place_112010">
+               <placeName type="index">Caldecote</placeName>
+               <placeName type="formInDocument">Caldecote</placeName>
+               <region type="parish">Newport Pagnell</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Newport+Pagnell/53282ecbb47fc407e300017e-Caldecote</idno>
+               <note type="charter">MS. Ch. Bucks. 92</note>
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112011">
+               <placeName type="index">Canons Ashby</placeName>
+               <placeName type="formInDocument">Canons Assheby, co. Northampton</placeName>
+               <region type="parish">Canons Ashby</region>
+               <region type="county">Northamptonshire</region>
+               <note type="charter">MS. Ch. Bucks. 39</note>
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112012">
+               <placeName type="index">Carlton</placeName>
+               <placeName type="formInDocument">Carleton near Buckingham, Linc. dioc.</placeName>
+               <region type="parish">Carlton</region>
+               <region type="county">Bedfordshire</region>
+               <!-- ok? not that close to Buckingham -->
+               <note type="charter">MS. Ch. Bucks. 65</note>
+            </place>
+           
+            <place subtype="new" type="place" xml:id="place_112014">
+               <placeName type="index">Chalfont St Giles</placeName>
+               <placeName type="formInDocument">Chalfont St. Giles</placeName>
+               <region type="parish">Chalfont St Giles</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 89</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112015">
+               <placeName type="index">Chearsley</placeName>
+               <placeName type="formInDocument">Chardesley in Bucks.</placeName>
+               <region type="parish">Chearsley</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 40</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112016">
+               <placeName type="index">Chichele</placeName>
+               <placeName type="formInDocument">Chechele</placeName>
+               <placeName type="formInDocument">Checheley</placeName>
+               <region type="parish">Chichele</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 57</note>
+               <note type="charter">MS. Ch. Bucks. 52</note>
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112017">
+               <placeName type="index">Clifton Reynes</placeName>
+               <placeName type="formInDocument">Clifton</placeName>
+               <region type="parish">Clifton Reynes</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 67</note>
+               <!-- nr Emberton -->
+            </place>
+            <place subtype="new" type="place" xml:id="place_112018">
+               <placeName type="index">Codford St Mary or Codford St Peter</placeName>
+               <placeName type="formInDocument">Codesford</placeName>
+               <region type="county">Wiltshire</region>
+               <note type="charter">MS. Ch. Bucks. 91</note>
+               <!-- rector of -->
+            </place>
+            <place subtype="new" type="place" xml:id="place_112020">
+               <placeName type="formInDocument">Cumberworth [unidentified]</placeName>
+               <note type="charter">MS. Ch. Bucks. 67</note>
+               <!-- rector of; Yorks or Lincs ??? -->
+            </place>
+            <place subtype="new" type="place" xml:id="place_112021">
+               <placeName type="index">Duddeston (now Vauxhall)</placeName>
+               <placeName type="formInDocument">Dodeton</placeName>
+               <region type="parish">Aston</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/Aston/53287417b47fc40c5f000044-Vauxhall+%28olim+Duddeston+Hall%29</idno>
+               <note type="charter">MS. Ch. Bucks. 54</note>
+               <!-- tithes of, Tickford Priory: other places in Aston parish; this form not recorded EPNS though -->
+            </place>
+
+
+            <place subtype="new" type="place" xml:id="place_112022">
+               <placeName type="index">Dorton</placeName>
+               <placeName type="formInDocument">Durton, co. Bucks.</placeName>
+               <placeName type="formInDocument">Dorton</placeName>
+               <region type="parish">Dorton</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Dorton/53282ee4b47fc407e300034e-Dorton</idno>
+               <note type="charter">MS. Ch. Bucks. 72</note>
+               <note type="charter">MS. Ch. Bucks. 42</note>
+
+            </place>
+            <place subtype="new" type="place" xml:id="place_112023">
+               <placeName type="index">Emberton</placeName>
+               <placeName type="formInDocument">Emberton</placeName>
+               <region type="parish">Emberton</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 67</note>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Emberton/53282ee4b47fc407e3000356-Emberton</idno>
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112024">
+               <placeName type="index">Erdington</placeName>
+               <placeName type="formInDocument">Erdington</placeName>
+               <region type="parish">Aston</region>
+               <region type="county">Warwickshire</region>
+               <note type="charter">MS. Ch. Bucks. 46</note>
+               <note type="charter">MS. Ch. Bucks. 54</note>
+            </place>
+
+
+            <place subtype="new" type="place" xml:id="place_112025">
+               <placeName type="index">Filgrave</placeName>
+               <placeName type="formInDocument">Filgrave</placeName>
+               <region type="parish">Tyringham with Filgrave</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 10</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112026">
+               <placeName type="index">Loughton</placeName>
+               <placeName type="formInDocument">Great Loughton</placeName>
+               <placeName type="formInDocument">Loughton</placeName>
+               <region type="parish">Loughton</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Loughton/53282ee4b47fc407e300038d-Loughton</idno>
+               <note type="charter">MS. Ch. Bucks. 74</note>
+               <note type="charter">MS. Ch. Bucks. 74</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112027">
+               <placeName type="index">Great Missenden</placeName>
+               <placeName type="formInDocument">Great Missenden</placeName>
+               <region type="parish">Great Missenden</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 75</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112028">
+               <placeName type="index">Haddenham</placeName>
+               <placeName type="formInDocument">Hadenham</placeName>
+               <region type="parish">Haddenham</region>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 68a, 68b</note>
+               <note type="charter">MS. Rolls. Bucks. 1</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112029">
+               <placeName type="index">Hanslope</placeName>
+               <placeName type="formInDocument">Hampslap</placeName>
+               <placeName type="formInDocument">Hampslape</placeName>
+               <placeName type="formInDocument">Hamslap</placeName>
+               <placeName type="formInDocument">Hamslape</placeName>
+               <region type="parish">Hanslope</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Hanslope/53282ee4b47fc407e300036e-Hanslope</idno>
+               <note type="charter">MS. Ch. Bucks. 69</note>
+               <note type="charter">MS. Ch. Bucks. 71</note>
+               <note type="charter">MS. Ch. Bucks. 70</note>
+               <note type="charter">MS. Ch. Bucks. 70</note>
+            </place>
+
+          
+
+            <place subtype="new" type="place" xml:id="place_112031">
+               <placeName type="index">Hurst</placeName>
+               <placeName type="formInDocument">Hurste, co. Berks.</placeName>
+               <placeName type="formInDocument">Hurste</placeName>
+               <region type="parish">Hurst</region>
+               <region type="county">Berkshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Berkshire/St+Nicholas+Hurst/53282e4fb47fc407ba001b9d-Hurst</idno>
+               <note type="charter">MS. Ch. Bucks. 89</note>
+               <note type="charter">MS. Ch. Bucks. 89</note>
+               <!-- people of, incl. Tho. Hyde -->
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112032">
+               <placeName type="index">Eakley</placeName>
+               <placeName type="formInDocument">Ikelee</placeName>
+               <region type="parish">Stoke Goldington</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Stoke+Goldington/53282ecbb47fc407e30001ba-Eakley+Lanes</idno>
+               <note type="charter">MS. Ch. Bucks. 34</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112033">
+               <placeName type="index">Ivinghoe</placeName>
+               <placeName type="formInDocument">Ivingehou</placeName>
+               <region type="parish">Ivinghoe</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Ivinghoe/53282ee4b47fc407e3000382-Ivinghoe</idno>
+               <note type="charter">MS. Ch. Bucks. 73</note>
+            </place>
+
+
+            <place subtype="new" type="place" xml:id="place_112034">
+               <placeName type="index">Langford [unidentified]</placeName>
+               <placeName type="formInDocument">Langford</placeName>
+               <note type="charter">MS. Ch. Bucks. 45</note>
+               <!-- ch re. Aston (Warw.) dated at -->
+            </place>
+
+
+            <place subtype="new" type="place" xml:id="place_112035">
+               <placeName type="index">The Vache</placeName>
+               <placeName type="formInDocument">le Vache, co. Bucks</placeName>
+               <region type="parish">Chalfont St Giles</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Chalfont+St+Giles/53282ecab47fc407e3000062-The+Vache</idno>
+               <note type="charter">MS. Ch. Bucks. 64</note>
+               <!-- Ant. Restwold of -->
+            </place>
+            <place subtype="new" type="place" xml:id="place_112036">
+               <placeName type="index">Lenton</placeName>
+               <placeName type="formInDocument">Lenton</placeName>
+               <region type="parish">Lenton</region>
+               <region type="county">Nottinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Nottinghamshire/Lenton/53286c06b47fc40bd40008b4-Lenton</idno>
+               <note type="charter">MS. Ch. Bucks. 91</note>
+               <!-- ch dated at -->
+            </place>
+            <place subtype="new" type="place" xml:id="place_112037">
+               <!-- TODO: Stukeley Hunts or Stewkley Bucks? -->
+               <placeName type="formInDocument">Little Stewkley</placeName>
+               <placeName type="formInDocument">Little Stukeley</placeName>
+               <note type="charter">MS. Ch. Bucks. 81</note>
+               <note type="charter">MS. Ch. Bucks. 80</note>
+            </place>
+            
+
+            <place subtype="new" type="place" xml:id="place_112038">
+               <placeName type="index">Maiden Bradley</placeName>
+               <placeName type="formInDocument">Mayden Bradley</placeName>
+               <placeName type="formInDocument">Maydenbradley, co. Wilts.</placeName>
+               <region type="parish">Maiden Bradley</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Wiltshire/Maiden+Bradley/532886f8b47fc40d38000e08-Maiden+Bradley</idno>
+               <note type="charter">MS. Ch. Bucks. 38a</note>
+               <note type="charter">MS. Ch. Bucks. 38a</note>
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112039">
+               <placeName type="index">Maidenhead</placeName>
+               <placeName type="formInDocument">Maydenheth</placeName>
+               <region type="parish">Maidenhead</region>
+               <region type="county">Berkshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Berkshire/Maidenhead/53282e4fb47fc407ba001b7e-Maidenhead</idno>
+               <note type="charter">MS. Ch. Bucks. 90</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112040">
+               <placeName type="index">Mursley</placeName>
+               <placeName type="formInDocument">Muresley</placeName>
+               <region type="parish">Mursley</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Mursley/53282ee4b47fc407e3000399-Mursley</idno>
+               <note type="charter">MS. Ch. Bucks. 76</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112041">
+               <placeName type="index">Nechells</placeName>
+               <placeName type="formInDocument">Necheles</placeName>
+               <region type="parish">Aston</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/Aston/53287417b47fc40c5f00003f-Nechells</idno>
+               <note type="charter">MS. Ch. Bucks. 54</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112042">
+               <placeName type="index">Shenley</placeName>
+               <placeName type="formInDocument">Netherschenle</placeName>
+               <region type="parish">Shenley</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Shenley/53282ee4b47fc407e30003b3-Shenley+%28Brook+End+and+Church+End%29</idno>
+               <note type="charter">MS. Ch. Bucks. 76</note>
+            </place>
+
+
+
+            <place subtype="new" type="place" xml:id="place_112046">
+               <placeName type="index">Petsoe</placeName>
+               <placeName type="formInDocument">Pettesho</placeName>
+               <region type="parish">Petsoe</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Petsoe/53282ee4b47fc407e30003a5-Petsoe+%28Manor%29</idno>
+               <note type="charter">MS. Ch. Bucks. 67</note>
+            </place>
+
+
+        
+
+
+            <place subtype="new" type="place" xml:id="place_112050">
+               <placeName type="index">Shipton</placeName>
+               <placeName type="formInDocument">Shepton</placeName>
+               <region type="parish">Winslow</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Winslow/53282ecbb47fc407e3000215-Shipton</idno>
+               <note type="charter">MS. Ch. Bucks. 85</note>
+               <!-- person of, ?nr Winslow -->
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112051">
+               <placeName type="index">Sheringham</placeName>
+               <placeName type="formInDocument">Shyryngham, co. Norfolk</placeName>
+               <region type="parish">Sheringham</region>
+               <region type="county">Norfolk</region>
+               <bibl> Francis Blomefield, 'North Erpingham Hundred: Sheringham', in An Essay Towards
+                  A Topographical History of the County of Norfolk: Volume 8 (London, 1808), pp.
+                  161-164. British History Online
+                  http://www.british-history.ac.uk/topographical-hist-norfolk/vol8/pp161-164
+                  [accessed 14 February 2022]. </bibl>
+               <note type="charter">MS. Ch. Bucks. 43</note>
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112052">
+               <placeName type="index">Stoke [unidentified]</placeName>
+               <placeName type="formInDocument">Stoke</placeName>
+               <note type="charter">MS. Ch. Bucks. 51</note>
+               <!-- John, vicar of, in a case re. Willen, 1353; cf. Lipscomb, vol. 4,  -->
+            </place>
+         
+         
+
+            <place subtype="new" type="place" xml:id="place_112054">
+               <placeName type="index">Stoke Lyne</placeName>
+               <placeName type="formInDocument">Stokelyle</placeName>
+               <placeName type="formInDocument">Stoke Lyle, co. Oxon</placeName>
+               <region type="parish">Stoke Lyne</region>
+               <region type="county">Oxfordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Oxfordshire/Stoke+Lyne/53286e38b47fc40beb00086c-Stoke+Lyne</idno>
+               <note type="charter">MS. Ch. Bucks. 38b</note>
+               <note type="charter">MS. Ch. Bucks. 38b</note>
+            </place>
+
+
+            
+            <place subtype="new" type="place" xml:id="place_112056">
+               <placeName type="index">Twyford</placeName>
+               <placeName type="formInDocument">Twyford near Buckingham</placeName>
+               <region type="parish">Twyford</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Twyford/53282ee4b47fc407e30003cc-Twyford</idno>
+               <note type="charter">MS. Ch. Bucks. 65</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112057">
+               <placeName type="index">Tickford</placeName>
+               <placeName type="formInDocument">Tykeford</placeName>
+               <placeName type="formInDocument">Tikeford</placeName>
+               <region type="parish">Newton Longville</region>
+               <!-- EPNS -->
+               <region type="parish">Newport Pagnell</region>
+               <!-- VCH -->
+               <region type="parish">Buckinghamshire</region>
+               <bibl> 'Parishes : Newport Pagnell', in A History of the County of Buckingham: Volume
+                  4, ed. William Page (London, 1927), pp. 409-422. British History Online
+                  http://www.british-history.ac.uk/vch/bucks/vol4/pp409-422 [accessed 14 February
+                  2022]. </bibl>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Newton+Longville/53282ecbb47fc407e3000183-Tickford+End</idno>
+               <note type="charter">MS. Ch. Bucks. 49</note>
+               <note type="charter">MS. Ch. Bucks. 54</note>
+               <note type="charter">MS. Ch. Bucks. 53</note>
+               <note type="charter">MS. Ch. Bucks. 52</note>
+               <note type="charter">MS. Ch. Bucks. 50</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112058">
+               <placeName type="index">Viterbo</placeName>
+               <placeName type="formInDocument">Viterbo</placeName>
+               <country>Italy</country>
+               <note type="charter">MS. Ch. Bucks. 58</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112059">
+               <placeName type="index">Waddesdon</placeName>
+               <placeName type="formInDocument">Waddesdon</placeName>
+               <region type="parish">Waddesdon</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Waddesdon/53282ee4b47fc407e30003cf-Waddesdon</idno>
+               <note type="charter">MS. Ch. Bucks. 83</note>
+               <note type="charter">MS. Ch. Bucks. 84</note>
+            </place>
+            <place subtype="new" type="barony" xml:id="place_112060">
+               <placeName type="index">Odell</placeName>
+               <placeName type="formInDocument">Wahull</placeName>
+               <region type="parish">Odell</region>
+               <region type="county">Bedfordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Bedfordshire/Odell/53282b41b47fc407a9000388-Odell</idno>
+               <note type="charter">MS. Ch. Bucks. 1</note>
+            </place>
+
+
+            <place subtype="new" type="place" xml:id="place_112061">
+               <placeName type="index">Weston Underwood</placeName>
+               <placeName type="formInDocument">Weston</placeName>
+               <region type="parish">Weston Underwood</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Weston+Underwood/53282ee4b47fc407e30003da-Weston+Underwood</idno>
+               <note type="charter">MS. Ch. Bucks. 28</note>
+               <!-- pro. Weston Underwood nr. Ravestone -->
+               <note type="charter">MS. Ch. Bucks. 34</note>
+               <!-- nr Stoke Goldington? -->
+               <note type="charter">MS. Ch. Bucks. 30</note>
+               <!-- "" ? -->
+            </place>
+            <place subtype="new" type="place" xml:id="place_112062">
+               <placeName type="index">Winslow</placeName>
+               <placeName type="formInDocument">Winslow</placeName>
+               <placeName type="formInDocument">Winslow, co. Bucks.</placeName>
+               <region type="parish">Winslow</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Winslow/53282ee4b47fc407e30003e2-Winslow</idno>
+               <note type="charter">MS. Ch. Bucks. 87</note>
+               <note type="charter">MS. Ch. Bucks. 85</note>
+               <note type="charter">MS. Ch. Bucks. 86</note>
+            </place>
+
+
+            <place subtype="new" type="place" xml:id="place_112063">
+               <placeName type="index">Woburn</placeName>
+               <placeName type="formInDocument">Wooburn</placeName>
+               <placeName type="formInDocument">Wouborne</placeName>
+               <region type="parish">Woburn</region>
+               <region type="county">Bedfordshire</region>
+               <note type="charter">MS. Ch. Bucks. 90</note>
+               <idno>https://epns.nottingham.ac.uk/browse/Bedfordshire/Woburn/53282b41b47fc407a90003d3-Woburn</idno>
+               <note type="charter">MS. Ch. Bucks. 89</note>
+            </place>
+
+
+            <place subtype="new" type="place" xml:id="place_112064">
+               <placeName type="index">Willen</placeName>
+               <placeName type="formInDocument">Wylien</placeName>
+               <region type="parish">Willen</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Willen/53282ee4b47fc407e30003de-Willen</idno>
+               <note type="charter">MS. Ch. Bucks. 51</note>
+            </place>
+            <place subtype="new" type="place" xml:id="place_112065">
+               <placeName type="index">Witton</placeName>
+               <placeName type="formInDocument">Wytton</placeName>
+               <placeName type="formInDocument">Wythton</placeName>
+               <region type="parish">Aston</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/Aston/53287417b47fc40c5f000047-Witton</idno>
+               <note type="charter">MS. Ch. Bucks. 46</note>
+               <note type="charter">MS. Ch. Bucks. 54</note>
+            </place>
+
+            <place subtype="new" type="place" xml:id="place_112066">
+               <placeName type="index">Yardley</placeName>
+               <placeName type="formInDocument">Yerdele</placeName>
+               <region type="parish">Yardley</region>
+               <region type="county">Worcestershire</region>
+               <note type="charter">MS. Ch. Bucks. 45</note>
             </place>
  
 
@@ -50597,10 +51301,15 @@
             </org>
             
             <org xml:id="org_108009">
-               <orgName type="index">Notley, Augustinian abbey</orgName>
+               <orgName type="index">Notley or Nutley, Augustinian abbey</orgName>
                <orgName type="formInDocument">Nutley</orgName>
                <region type="county">Buckinghamshire</region>
-               <idno>https://www.wikidata.org/wiki/Q17017508</idno>
+               <orgName type="variant">Crendon Park, Augustinian abbey</orgName>
+               <!-- Crendon Park, the churches of Long Crendon, with the chapels of Lower Winchendon and Chearsley, Princes Risborough, Hillesden, Ashendon, Chilton with the chapel of Dorton; the church and chapel of Caversham, and Stokelyle in Oxfordshire; Sherringham and Choseley in Norfolk, Bottesham in Cambridgeshire, Bradley in Wiltshire. -->
+               <orgName type="formInDocument">convent of Notteley</orgName>
+               <orgName type="formInDocument">convent of Notley</orgName>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://www.wikidata.org/entity/Q17017508</idno><!-- really the modern house? -->
                <note type="charter">MM. Rolls 3</note>
             </org>
             
@@ -52950,7 +53659,7 @@
            
             
             <org xml:id="org_109088">
-               <orgName type="index">Tickford, Cluniac priory</orgName>
+               <orgName type="index">Tickford or Newport Pagnel, Cluniac priory</orgName>
                <orgName type="formInDocument">Tyckford</orgName>
                <idno>https://www.wikidata.org/wiki/Q7800686</idno>
                <note type="charter">MS. Ch. Oxon. 138b</note>
@@ -53343,6 +54052,99 @@
                <note type="charter">MS. Ch. Cumb. 2</note>
             </org>
             
+          
+            
+            
+            
+            <org xml:id="org_112003">
+               <orgName type="formInDocument">Canons Ashby, Augustinian priory</orgName>
+               <orgName type="formInDocument">Esseby</orgName><!-- id uncertain -->
+               <note type="charter">MS. Ch. Bucks. 91</note>
+               <!-- Memorandum that Wednesday after the feast of St. Ambrose the bishop, a citation 
+                  was issued by <persName><forename>H.</forename>, Prior of <orgName role="prior">Lenton</orgName></persName>, 
+                  and conservator of the privileges and indulgences of the Cistercian order in the province of Canterbury,
+                  to the sub-prior of <orgName role="sub-prior">Esseby</orgName> and the rector of <placeName role="rector">Codesford</placeName>, to admonish 
+                  <persName><forename>Ralph</forename>, vicar of <placeName role="vicar">Tornebr' (Thornborough), in the deanery of Bucks.</placeName></persName> -->
+            </org>
+            
+            
+          
+            <org xml:id="org_112005">
+               <orgName type="index">Lenton, Cluniac priory</orgName>
+               <orgName type="formInDocument">Lenton</orgName>
+               <region type="county">Nottinghamshire</region>
+               <idno>https://www.wikidata.org/entity/Q6523390</idno>
+               <note type="charter">MS. Ch. Bucks. 91</note>
+               <!-- Lenton priory in Notts was Cluniac -->
+            </org>
+            
+            
+            <org xml:id="org_112006">
+               <orgName type="index">Marmoutier Abbey (near Tours)</orgName>
+               <orgName type="formInDocument">monastery of Marmonstier, [Tours]</orgName>
+               <country>France</country>
+               <idno>https://www.wikidata.org/entity/Q177050</idno>
+               <note type="links">
+                  <list type="links">
+                     <item>
+                        <ref target="https://www.wikidata.org/entity/Q177050">
+                           <title>Wikidata</title>
+                        </ref>
+                     </item>
+                  </list>
+               </note>
+               <note type="charter">MS. Ch. Bucks. 59</note>
+            </org>
+            
+            
+            <org xml:id="org_112007">
+               <orgName type="index">Luffield, Benedictine priory</orgName>
+               <orgName type="formInDocument">prior and convent of Luffeld</orgName>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 91</note>
+            </org>
+          <!--  <org xml:id="org_112009">
+               <orgName type="index">Tickford or Newport Pagnel, Cluniac priory</orgName>
+               <orgName type="formInDocument">prior and convent of Tickford</orgName>
+               <orgName type="formInDocument">priory of Tykeford, a cell of the abbey of St. Martin
+                  at Tours</orgName>
+               <orgName type="formInDocument">prior of the priory of Tickford</orgName>
+               <orgName type="formInDocument">Tickford</orgName>
+               <orgName type="formInDocument">convent of Tykeford</orgName>
+               <orgName type="formInDocument">convent of Tickford</orgName>
+               <orgName type="formInDocument">convent of Tykeford near Neweport Paynel</orgName>
+               <orgName type="formInDocument">convent of Tykford "nye" Newport Paynel</orgName>
+               <orgName type="formInDocument">canons of Tykeford</orgName>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 53</note>
+               <note type="charter">MS. Ch. Bucks. 57</note>
+               <note type="charter">MS. Ch. Bucks. 54</note>
+               <note type="charter">MS. Ch. Bucks. 60</note>
+               <note type="charter">MS. Ch. Bucks. 52</note>
+               <note type="charter">MS. Ch. Bucks. 93</note>
+               <note type="charter">MS. Ch. Bucks. 59</note>
+               <note type="charter">MS. Ch. Bucks. 58</note>
+               <note type="charter">MS. Ch. Bucks. 34</note>
+               <note type="charter">MS. Ch. Bucks. 51</note>
+            </org>-->
+            
+            <org xml:id="org_112010">
+               <orgName type="index">Bradwell, Benedictine priory </orgName>
+               <orgName type="formInDocument">priory of Bradwell</orgName>
+               <country>Buckinghamshire</country>
+               <idno>https://www.wikidata.org/entity/Q1780063</idno><!-- not in VIAF -->
+               <note type="charter">MS. Ch. Bucks. 63</note>
+            </org>
+            
+            
+            
+            
+            <org xml:id="org_112011">
+               <orgName type="index">Aylesbury, hospital of St John the Baptist</orgName>
+               <orgName type="formInDocument">St. John of Aylesbury</orgName>
+               <country>Buckinghamshire</country>
+               <note type="charter">MS. Ch. Bucks. 62</note>
+            </org>
             
             
          </listOrg>
