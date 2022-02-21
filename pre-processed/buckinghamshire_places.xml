@@ -39,8 +39,10 @@
                   [accessed 21 January 2022]. </bibl>
             </place>
             <place type="manor">
-               <!-- more research -->
+               <placeName type="index">Haddenham</placeName><!-- TODO: which manor?  -->
                <placeName type="formInDocument">Hadenham</placeName>
+               <region type="parish">Haddenham</region>
+               <region type="county">Buckinghamshire</region>
                <note type="charter">MS. Rolls. Bucks. 1</note>
             </place>
             <place type="manor">
@@ -101,15 +103,14 @@
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F242403</idno>
             </place>
             <place type="manor">
-               <!-- TODO: Stukeley Hunts or Stewkley Bucks? -->
+               <!-- TODO: Stukeley Hunts or Stewkley Bucks? check original-->
                <placeName type="formInDocument">Little Stewkley</placeName>
                <placeName type="formInDocument">Little Stukeley</placeName>
                <note type="charter">MS. Ch. Bucks. 80</note>
             </place>
          </listPlace>
          <listPlace type="diocese">
-
-
+            <!-- TODO: insert codes for dioceses -->
             <place type="diocese">
                <placeName type="formInDocument">Canterbury</placeName>
                <note type="charter">MS. Ch. Bucks. 73</note>
@@ -157,8 +158,6 @@
             </place>
          </listPlace>
          <listPlace type="place">
-
-
             <place type="place">
                <placeName type="index">Edgcott</placeName>
                <placeName type="formInDocument">Agecote</placeName>
@@ -203,7 +202,11 @@
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Beaconsfield/53282ee4b47fc407e3000325-Beaconsfield</idno>
             </place>
             <place type="place">
+               <placeName type="index">Berwick-upon-Tweed</placeName>
+               <placeName type="variant">Berwick upon Tweed</placeName>
                <placeName type="formInDocument">Berwick-upon-Tweed</placeName>
+               <region type="parish">Berwick upon Tweed</region>
+               <region type="county">Northumberland</region>
                <note type="charter">MS. Ch. Bucks. 17</note>
             </place>
 
@@ -273,26 +276,6 @@
                <note type="charter">MS. Ch. Bucks. 52</note>
             </place>
 
-
-            <place type="place">
-               <!-- TODO: ?org -->
-               <placeName type="formInDocument">church of St. Mary of Ravenstune</placeName>
-               <note type="charter">MS. Ch. Bucks. 6a</note>
-            </place>
-
-            <place type="place">
-               <!-- TODO: ?org -->
-               <placeName type="formInDocument">church of St. Mary the virgin,
-                  Nottingham</placeName>
-               <note type="charter">MS. Ch. Bucks. 91</note>
-            </place>
-            <place type="place">
-               <!-- TODO: ?org -->
-               <placeName type="formInDocument">church of the B. V. M. of arches, London</placeName>
-               <note type="charter">MS. Ch. Bucks. 51</note>
-            </place>
-
-
             <place type="place">
                <placeName type="index">Clifton Reynes</placeName>
                <placeName type="formInDocument">Clifton</placeName>
@@ -302,8 +285,9 @@
                <!-- nr Emberton -->
             </place>
             <place type="place">
-               <!-- TODO -->
+               <placeName type="index">Codford St Mary or Codford St Peter</placeName>
                <placeName type="formInDocument">Codesford</placeName>
+               <region type="county">Wiltshire</region>
                <note type="charter">MS. Ch. Bucks. 91</note>
                <!-- rector of -->
             </place>
@@ -316,8 +300,7 @@
                <!-- person of; Notley abbey; lands in Norf. -->
             </place>
             <place type="place">
-               <!-- TODO -->
-               <placeName type="formInDocument">Cumberworth</placeName>
+               <placeName type="formInDocument">Cumberworth [unidentified]</placeName>
                <note type="charter">MS. Ch. Bucks. 67</note>
                <!-- rector of; Yorks or Lincs ??? -->
             </place>
@@ -431,8 +414,11 @@
             </place>
 
             <place type="place">
-               <!-- TODO -->
+               <placeName type="index">Eakley</placeName>
                <placeName type="formInDocument">Ikelee</placeName>
+               <region type="parish">Stoke Goldington</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Stoke+Goldington/53282ecbb47fc407e30001ba-Eakley+Lanes</idno>
                <note type="charter">MS. Ch. Bucks. 34</note>
             </place>
             <place type="place">
@@ -478,12 +464,7 @@
                <note type="charter">MS. Ch. Bucks. 81</note>
                <note type="charter">MS. Ch. Bucks. 80</note>
             </place>
-            <place type="place">
-               <placeName type="formInDocument">London</placeName>
-               <note type="charter">MS. Ch. Bucks. 78</note>
-               <note type="charter">MS. Ch. Bucks. 87</note>
-               <note type="charter">MS. Ch. Bucks. 35</note>
-            </place>
+            
 
             <place type="place">
                <placeName type="index">Maiden Bradley</placeName>
@@ -505,10 +486,12 @@
                <note type="charter">MS. Ch. Bucks. 90</note>
             </place>
             <place type="place">
-               <!-- TODO -->
+               <placeName type="index">Mursley</placeName>
                <placeName type="formInDocument">Muresley</placeName>
+               <region type="parish">Mursley</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Mursley/53282ee4b47fc407e3000399-Mursley</idno>
                <note type="charter">MS. Ch. Bucks. 76</note>
-               <!-- person of; perh near 'nether shenley' -->
             </place>
             <place type="place">
                <placeName type="index">Nechells</placeName>
@@ -663,7 +646,7 @@
                <placeName type="index">Stoke [unidentified]</placeName>
                <placeName type="formInDocument">Stoke</placeName>
                <note type="charter">MS. Ch. Bucks. 51</note>
-               <!-- John, vicar of, in a case re. Willen, 1353; Lipscomb, vol. 4, has  -->
+               <!-- John, vicar of, in a case re. Willen, 1353; cf. Lipscomb, vol. 4,  -->
             </place>
             <place type="place">
                <placeName type="formInDocument">Stoke Goldington</placeName>
@@ -798,7 +781,6 @@
                <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/Willen/53282ee4b47fc407e30003de-Willen</idno>
                <note type="charter">MS. Ch. Bucks. 51</note>
             </place>
-            <place type="place"> </place>
             <place type="place">
                <placeName type="index">Witton</placeName>
                <placeName type="formInDocument">Wytton</placeName>
@@ -849,13 +831,17 @@
 
 
             <org>
-               <orgName type="formInDocument">Esseby</orgName>
+               <orgName type="formInDocument">Canons Ashby, Augustinian priory</orgName>
+               <orgName type="formInDocument">Esseby</orgName><!-- id uncertain -->
                <note type="charter">MS. Ch. Bucks. 91</note>
+               <!-- Memorandum that Wednesday after the feast of St. Ambrose the bishop, a citation 
+                  was issued by <persName><forename>H.</forename>, Prior of <orgName role="prior">Lenton</orgName></persName>, 
+                  and conservator of the privileges and indulgences of the Cistercian order in the province of Canterbury,
+                  to the sub-prior of <orgName role="sub-prior">Esseby</orgName> and the rector of <placeName role="rector">Codesford</placeName>, to admonish 
+                  <persName><forename>Ralph</forename>, vicar of <placeName role="vicar">Tornebr' (Thornborough), in the deanery of Bucks.</placeName></persName> -->
             </org>
-            <org>
-               <orgName type="formInDocument">fraternity of St. John of Jerusalem</orgName>
-               <note type="charter">MS. Ch. Bucks. 67</note>
-            </org>
+          
+          
             <org>
                <orgName type="index">Lavendon, Premonstratensian abbey of St Mary and St John Baptist </orgName>
                <orgName type="formInDocument">Lavenden</orgName>
@@ -872,7 +858,19 @@
            
            
             <org>
+               <orgName type="index">Marmoutier Abbey (near Tours)</orgName>
                <orgName type="formInDocument">monastery of Marmonstier, [Tours]</orgName>
+               <country>France</country>
+               <idno>https://www.wikidata.org/entity/Q177050</idno>
+               <note type="links">
+                  <list type="links">
+                     <item>
+                        <ref target="https://www.wikidata.org/entity/Q177050">
+                           <title>Wikidata</title>
+                        </ref>
+                     </item>
+                  </list>
+               </note>
                <note type="charter">MS. Ch. Bucks. 59</note>
             </org>
 
@@ -884,6 +882,7 @@
                <note type="charter">MS. Ch. Bucks. 91</note>
             </org>
             <org>
+               <orgName type="index">Ravenstone, Augustinian priory of St Mary</orgName>
                <orgName type="formInDocument">prior and convent of Ravenston</orgName>
                <orgName type="formInDocument">priory of Ravenstone</orgName>
                <orgName type="formInDocument">Ravenston</orgName>
@@ -893,6 +892,9 @@
                <orgName type="formInDocument">prior and canons of St. Mary of Ravenston</orgName>
                <orgName type="formInDocument">convent of Ravenston</orgName>
                <orgName type="formInDocument">sub-prior and brethren of Ravenston</orgName>
+                  <orgName type="formInDocument">church of St. Mary of Ravenstune</orgName>
+               <region type="county">Buckinghamshire</region>
+               <note type="charter">MS. Ch. Bucks. 6a</note>
                <note type="charter">MS. Ch. Bucks. 36</note>
                <note type="charter">MS. Ch. Bucks. 14</note>
                <note type="charter">MS. Ch. Bucks. 16</note>
@@ -911,6 +913,7 @@
                <note type="charter">MS. Ch. Bucks. 37</note>
             </org>
             <org>
+               <orgName type="index">Tickford or Newport Pagnel, Cluniac priory</orgName>
                <orgName type="formInDocument">prior and convent of Tickford</orgName>
                <orgName type="formInDocument">priory of Tykeford, a cell of the abbey of St. Martin
                   at Tours</orgName>
@@ -921,6 +924,7 @@
                <orgName type="formInDocument">convent of Tykeford near Neweport Paynel</orgName>
                <orgName type="formInDocument">convent of Tykford "nye" Newport Paynel</orgName>
                <orgName type="formInDocument">canons of Tykeford</orgName>
+               <region type="county">Buckinghamshire</region>
                <note type="charter">MS. Ch. Bucks. 53</note>
                <note type="charter">MS. Ch. Bucks. 57</note>
                <note type="charter">MS. Ch. Bucks. 54</note>
@@ -945,18 +949,13 @@
 
 
             <org>
+               <orgName type="index">Aylesbury, hospital of St John the Baptist</orgName>
                <orgName type="formInDocument">St. John of Aylesbury</orgName>
+               <country>Buckinghamshire</country>
                <note type="charter">MS. Ch. Bucks. 62</note>
             </org>
-            <org>
-              
-            </org>
-
-
-            <org>
-               <orgName type="formInDocument">Westminster</orgName>
-               <note type="charter">MS. Ch. Bucks. 59</note>
-            </org>
+           
+           
          </listOrg>
       </body>
    </text>
