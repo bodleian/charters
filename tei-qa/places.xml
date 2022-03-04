@@ -117,6 +117,8 @@
             </place>
             <place type="county" xml:id="place_000026">
                <placeName type="index">Hampshire</placeName>
+               <idno>https://www.genuki.org.uk/big/eng/HAM</idno>
+               <idno>https://www.visionofbritain.org.uk/place/17437</idno>
             </place>
             <place type="county" xml:id="place_000027">
                <placeName type="index">Herefordshire</placeName>
@@ -214,6 +216,9 @@
         
             <place type="county" xml:id="place_000063">
                <placeName type="index">Nottinghamshire</placeName>
+               <region type="county">Nottinghamshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/NTT</idno>
+               <idno>https://www.visionofbritain.org.uk/place/17491</idno>
             </place>
             <place type="county" xml:id="place_000065">
                <placeName type="index">Oxfordshire</placeName>
@@ -550,7 +555,6 @@
                <placeName type="formInDocument">lichfield and coventry</placeName>
                <placeName type="formInDocument">lichfield</placeName>
                <placeName type="formInDocument">Coventry</placeName>
-               
                <idno>http://viaf.org/viaf/129111728</idno>
                <idno>https://www.wikidata.org/wiki/Q3028579</idno>
                <note type="charter">MS. Ch. Oxon. Oseney 251</note>
@@ -2291,8 +2295,11 @@
             </place>
             <place type="place" xml:id="place_101020">
                <placeName type="index">Abbots Bromley</placeName>
-               <region type="county" key="place_000069">Staffordshire</region>
                <placeName type="formInDocument">Bromleye Abbates</placeName>
+               <region type="parish">Abbots Bromley</region>
+               <region type="county" key="place_000069">Staffordshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/STS/AbbotsBromley</idno>
+               <idno>https://www.visionofbritain.org.uk/place/7917</idno>
                <note type="charter">MS. Ch. Worcs. 62</note>
             </place>
             <place type="place" xml:id="place_101021">
@@ -3014,6 +3021,8 @@
                <placeName type="index">Abinger</placeName>
                <placeName type="formInDocument">Abinger</placeName>
                <region type="county" key="place_000071">Surrey</region>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Abinger</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287107b47fc40c230009fa-Abinger</idno>
                <bibl>'Parishes: Abinger', in A History of the County of Surrey: Volume 3, ed. H E Malden (London, 1911), pp. 129-134. <title>British History Online</title> http://www.british-history.ac.uk/vch/surrey/vol3/pp129-134 [accessed 3 November 2020].</bibl>
                <note type="charter">MS. Ch. Sussex 252</note>
             </place>
@@ -9573,6 +9582,7 @@
                <placeName type="index">Barwick in Elmet</placeName>
                <region type="parish" key="place_103435">Barwick in Elmet</region>
                <region type="county" key="place_000103">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/53288216b47fc40c81005f64-Barwick+in+Elmet</idno>
             </place>
             
             <place type="place" xml:id="place_103436">
@@ -30163,7 +30173,8 @@
             
             <place type="place" xml:id="place_107060"> 
                <placeName type="index">Salisbury</placeName>
-               <placeName type="formInDocument">salisbury</placeName> <placeName type="formInDocument">new sarum</placeName>
+               <placeName type="formInDocument">salisbury</placeName> 
+               <placeName type="formInDocument">new sarum</placeName>
                <placeName type="formInDocument">salisbury</placeName>
                <placeName type="formInDocument">Salisbury</placeName>
                <region type="parish">Salisbury</region>
@@ -33729,7 +33740,2300 @@
                <idno>https://discovery.nationalarchives.gov.uk/details/c/F250221</idno>
                <note type="charter">MM. 11</note>
             </place>
+            
+            <place type="deanery" xml:id="place_108330">
+               <placeName type="index">Exeter, deanery</placeName>
+               <placeName type="formInDocument">Exeter</placeName>
+               <note type="charter">MS. Ch. Somerset 5</note>
+               <note type="charter">MS. Ch. Somerset 40a</note>
+            </place>
+            
+            <place type="deanery" xml:id="place_108331">
+               <placeName type="index">Croydon, deanery</placeName>
+               <placeName type="formInDocument">Croydon</placeName>
+               <note type="charter">MS. Ch. Surrey 18</note>
+            </place>
+            
+            <place type="deanery" xml:id="place_108332">
+               <placeName type="index">Shoreham, deanery</placeName>
+               <placeName type="formInDocument">Shoreham</placeName>
+               <note type="charter">MS. Ch. Surrey 18</note>
+            </place>
+            
+            <place type="deanery" xml:id="place_108333">
+               <placeName type="index">St Mary Immaculate, Warwick</placeName>
+               <placeName type="formInDocument">St. Mary's, Warwick</placeName>
+               <note type="charter">MS. Ch. Warwick. 13</note>
+            </place>
+            
+            <place type="hundred" xml:id="place_108334">
+               <placeName type="index">Munslow Hundred</placeName>
+               <placeName type="formInDocument">Mounslowe Hundred</placeName>
+               <region type="county">Shropshire</region>
+               <idno>https://www.wikidata.org/wiki/Q17199093</idno>
+               <note type="charter">MS. Ch. Salop. 29</note>
+            </place>
+            
+            <place type="hundred" xml:id="place_108335">
+               <placeName type="index">Winterstoke Hundred</placeName>
+               <placeName type="formInDocument">WINTERSTOKE</placeName>
+               <region type="county">Shropshire</region>
+               <idno>https://www.wikidata.org/wiki/Q5942432</idno>
+               <idno>https://www.visionofbritain.org.uk/place/20852</idno>
+               <note type="charter">MS. Rolls Somerset 11</note>
+               <note type="charter">MS. Rolls Somerset 12</note>
+               <note type="charter">MS. Rolls Somerset 13</note>
+               <note type="charter">MS. Rolls Somerset 14</note>
+            </place>
+            
+            <place type="hundred" xml:id="place_108336">
+               <placeName type="index">Wordevale (unidentified)</placeName>
+               <placeName type="formInDocument">Wordevale</placeName>
+               <note type="charter">MS. Ch. Somerset 5</note>
+            </place>
+            
+            <place type="country" xml:id="place_108337">
+               <placeName type="index">Wales</placeName>
+               <placeName type="formInDocument">WALES</placeName>
+               <idno>https://www.genuki.org.uk/big/wal</idno>
+               <idno>https://www.visionofbritain.org.uk/place/20004</idno>
+            </place>
+            
+            <place type="place" xml:id="place_108338">
+               <placeName type="index">Acton Burnell</placeName>
+               <placeName type="formInDocument">Acton Burnell</placeName>
+               <region type="parish">Acton Burnell</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f19fdab47fc42616000145-Acton+Burnell</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/ActonBurnell</idno>
+               <note type="charter">MS. Ch. Salop. 57</note>
+            </place>
+            
+            <place type="place" xml:id="place_108339">
+               <placeName type="index">Acton Scott</placeName>
+               <placeName type="formInDocument">Acton Scott alias Acton upon the hill</placeName>
+               <region type="parish">Acton Scott</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f19fdbb47fc42616000147-Acton+Scott</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/ActonScott</idno>
+               <note type="charter">MS. Ch. Salop. 94</note>
+            </place>
+            
+            <place type="place" xml:id="place_108340">
+               <placeName type="index">Albrighton</placeName>
+               <placeName type="formInDocument">Adbrighton</placeName>
+               <placeName type="formInDocument">Adbrighton Husee</placeName>
+               <placeName type="formInDocument">Adbryghton Husee</placeName>
+               <region type="parish">Albrighton</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f19fdeb47fc4261600014b-Albrighton+%28near+Shifnal%29</idno>
+               <note type="charter">MS. Ch. Salop. 68</note>
+               <note type="charter">MS. Ch. Salop. 89</note>
+               <note type="charter">MS. Ch. Salop. 68</note>
+            </place>
+            
+            <place type="place" xml:id="place_108341">
+               <placeName type="index">Arlescott</placeName>
+               <placeName type="formInDocument">Adelescote</placeName>
+               <placeName type="formInDocument">Adlescote</placeName>
+               <placeName type="formInDocument">Adelescote near Wyke</placeName>
+               <placeName type="formInDocument">Adlescote, near Wyke</placeName>
+               <region type="parish">Arlescott</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/Barrow/53d8a24eb47fc4463d0000f7-Arlescott</idno>
+               <note type="charter">MS. Ch. Salop. 71</note>
+               <note type="charter">MS. Ch. Salop. 1</note>
+               <note type="charter">MS. Ch. Salop. 76</note>
+            </place>
+            
+            <place type="place" xml:id="place_108342">
+               <placeName type="index">Admaston</placeName>
+               <placeName type="formInDocument">Admaston</placeName>
+               <region type="parish">Admaston</region>
+               <region type="county">Shropshire</region>
+               <idno>https://www.wikidata.org/wiki/Q3811318</idno>
+               <note type="charter">MS. Ch. Staffs. 7</note>
+            </place>
+            
+            <place type="place" xml:id="place_108343">
+               <placeName type="index">Aketon (unidentified)</placeName>
+               <placeName type="formInDocument">Aketon</placeName>
+               <note type="charter">MS. Ch. Misc.  221</note>
+            </place>
+            
+            <place type="place" xml:id="place_108344">
+               <placeName type="index">Albury</placeName>
+               <placeName type="formInDocument">Aldebury</placeName>
+               <region type="parish">Albury</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287107b47fc40c230009fc-Albury</idno>
+               <note type="charter">MS. Ch. Surrey 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108345">
+               <placeName type="index">Alderton (in Great Ness or in Myddle)</placeName>
+               <placeName type="formInDocument">Alderton, co. Salop</placeName>
+               <region type="parish">Great Ness</region> 
+                <region type="parish">Myddle</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/Great+Ness/53d8a639b47fc4463d000ed6-Alderton</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/Myddle/53d8a640b47fc4463d000f03-Alderton</idno>
+               <note type="charter">MS. Ch. Salop. 2</note><!--two possibilities, which one?-->
+            </place>
+            
+            <place type="place" xml:id="place_108346">
+               <placeName type="index">Aleton (unidentified)</placeName>
+               <placeName type="formInDocument">Aleton</placeName>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108347">
+               <placeName type="index">Alfold</placeName>
+               <placeName type="formInDocument">Alfolde, co. Surrey</placeName>
+               <region type="parish">Alfold</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287107b47fc40c230009fd-Alfold</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Alfold</idno>
+               <note type="charter">MS. Ch. Surrey 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108348">
+               <placeName type="index">Aller moor</placeName>
+               <placeName type="formInDocument">Allermore</placeName>
+               <placeName type="formInDocument">ALLERMORE</placeName>
+               <placeName type="formInDocument">Allermore in the parish of Aller</placeName>
+               <placeName type="formInDocument">Allermore, co. Somerset</placeName>
+               <region type="parish">Aller</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Aller</idno>
+               <note type="charter">MS. Ch. Somerset 7</note>
+               <note type="charter">MS. Ch. Somerset 8</note>
+               <note type="charter">MS. Ch. Somerset 9</note>
+               <note type="charter">MS. Ch. Somerset 11</note>
+               <note type="charter">MS. Ch. Somerset 16</note>
+               <note type="charter">MS. Ch. Somerset 18</note>
+               <note type="charter">MS. Ch. Somerset 20</note>
+               <note type="charter">MS. Ch. Somerset 23</note>
+               <note type="charter">MS. Ch. Somerset 24</note>
+               <note type="charter">MS. Ch. Somerset 28</note>
+               <note type="charter">MS. Ch. Somerset 30</note>
+               <note type="charter">MS. Ch. Somerset 31</note>
+               <note type="charter">MS. Ch. Somerset 40a</note>
+               <note type="charter">MS. Rolls Somerset 2</note>
+               <note type="charter">MS. Ch. Somerset 33</note>
+               <note type="charter">MS. Ch. Somerset 19</note>
+            </place>
+            
+            <place type="place" xml:id="place_108349">
+               <placeName type="index">Alcester</placeName>
+               <placeName type="formInDocument">Alncestre</placeName>
+               <region type="parish">Alcester</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/5328741cb47fc40c5f00060b-Alcester</idno>
+               <idno>https://www.genuki.org.uk/big/eng/WAR/Alcester</idno>
+               <note type="charter">MS. Ch. Warwick. 1</note>
+            </place>
+             
+            <place type="place" xml:id="place_108350">
+               <placeName type="index">Alspath Hall</placeName>
+               <placeName type="formInDocument">Alspathe</placeName>
+               <region type="parish">Meriden</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/Meriden/53287419b47fc40c5f000352-Alspath+Hall</idno>
+               <idno>https://www.visionofbritain.org.uk/place/9206</idno>
+               <note type="charter">MS. Ch. Warwick. 7</note>
+            </place>
+            
+            <place type="place" xml:id="place_108351">
+               <placeName type="index">Alverton (unidentified)</placeName><!--Alveston?-->
+               <placeName type="formInDocument">Alverton, co. Warwick</placeName>
+               <region type="county">Warwickshire</region>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108352">
+               <placeName type="index">Alwaysmore (unidentified)</placeName>
+               <placeName type="formInDocument">Alwaysmore</placeName>
+               <note type="charter">MS. Ch. Staffs. 28</note>
+            </place>
+            
+            <place type="place" xml:id="place_108353">
+               <placeName type="index">Apley</placeName>
+               <placeName type="formInDocument">Apeley</placeName>
+               <placeName type="formInDocument">Appeley</placeName>
+               <region type="parish">Hadley</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/Hadley/53d8a63ab47fc4463d000edb-Apley</idno>
+               <note type="charter">MS. Ch. Salop. 64</note>
+               <note type="charter">MS. Ch. Salop. 30</note>
+            </place>
+            
+            <place type="place" xml:id="place_108354">
+               <placeName type="index">Arleston</placeName>
+               <placeName type="formInDocument">Ardeluston</placeName>
+               <placeName type="formInDocument">Ardeston</placeName>
+               <placeName type="formInDocument">Arduston</placeName>
+               <region type="parish">Wellington</region>
+               <region type="county">Shropshire</region>
+               <idno>http://epns.nottingham.ac.uk/browse/Shropshire/Wellington/53d8a64bb47fc4463d000f4b-Arleston</idno>
+               <note type="charter">MS. Ch. Salop. 52</note>
+               <note type="charter">MS. Ch. Salop. 55</note>
+               <note type="charter">MS. Rolls Salop. 3</note>
+               <note type="charter">MS. Ch. Salop. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108355">
+               <placeName type="index">Allscott</placeName>
+               <placeName type="formInDocument">Arlescote</placeName>
+               <region type="parish">Allscott</region>
+               <region type="county">Shropshire</region>
+               <idno>http://epns.nottingham.ac.uk/browse/Shropshire/Wrockwardine/53d8a5d8b47fc4463d000df3-Allscott</idno>
+               <note type="charter">MS. Ch. Salop. 5</note>
+            </place>
+            
+            <place type="place" xml:id="place_108356">
+               <placeName type="index">Esher</placeName> 
+               <placeName type="formInDocument">Asher in the co. of Surrey</placeName>
+               <region type="parish">Esher</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287107b47fc40c23000a2a-Esher</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Esher</idno>
+               <idno>https://www.visionofbritain.org.uk/place/439</idno>
+               <note type="charter">MS. Ch. Surrey 3</note>
+            </place>
+            
+            <place type="place" xml:id="place_108357">
+               <placeName type="index">Aslockton</placeName>
+               <placeName type="formInDocument">Aslacton</placeName>
+               <region type="parish">Aslockton</region>
+               <region type="county">Nottinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Nottinghamshire/53286becb47fc40bd4000719-Aslockton</idno>
+               <idno>https://www.genuki.org.uk/big/eng/NTT/Aslocton</idno>
+               <idno>https://www.visionofbritain.org.uk/place/7222</idno>
+               <note type="charter">MS. Ch. Notts. 8</note>
+            </place>
+            
+            <place type="place" xml:id="place_108358">
+               <placeName type="index">Ash</placeName>
+               <placeName type="formInDocument">Assche</placeName>
+               <placeName type="formInDocument">Asshe</placeName>
+               <region type="parish">Ash</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Ash/53287118b47fc40c23000a9c-Ash</idno>
+               <note type="charter">MS. Ch. Wilts. 9</note>
+               <note type="charter">MS. Ch. Misc.  225</note>
+            </place>
+            
+            <place type="place" xml:id="place_108359">
+               <placeName type="index">Astley</placeName>
+               <placeName type="formInDocument">Asteley</placeName>
+               <region type="parish">Astley</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f19fe3b47fc42616000151-Astley</idno>
+               <note type="charter">MS. Ch. Salop. 31</note>
+            </place>
+            
+            <place type="place" xml:id="place_108360">
+               <placeName type="index">Aston</placeName>
+               <placeName type="formInDocument">Aston</placeName>
+               <region type="parish">Wellington</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/Wellington/53d8a64cb47fc4463d000f4c-Aston</idno>
+               <note type="charter">MS. Ch. Salop. 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108361">
+               <placeName type="index">Alveley</placeName>
+               <placeName type="formInDocument">Aveley, in Shropsheire</placeName>
+               <region type="parish">Alveley</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f19fe0b47fc4261600014e-Alveley</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Alveley</idno>
+               <note type="charter">MS. Pedigree Rolls 14</note>
+            </place>
+            
+            <place type="place" xml:id="place_108362">
+               <placeName type="index">Bagshot</placeName>
+               <placeName type="formInDocument">Bagshote</placeName>
+               <placeName type="formInDocument">Bakgeschoteford</placeName>
+               <placeName type="formInDocument">Bakgeschoteford in the parish of Wyndlesham</placeName>
+               <region type="parish">Windlesham</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Windlesham+with+Bagshot/53287105b47fc40c2300090d-Bagshot</idno>
+               <idno>https://www.visionofbritain.org.uk/place/20169</idno>
+               <note type="charter">MS. Ch. Surrey 27</note>
+               <note type="charter">MS. Ch. Surrey 26</note>
+            </place>
+            
+            <place type="place" xml:id="place_108363">
+               <placeName type="index">Barnstaple</placeName>
+               <placeName type="formInDocument">Barnstaple</placeName>
+               <region type="parish">Barnstaple</region>
+               <region type="county">Devon</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Devon/53284f13b47fc4097e0016f4-Barnstaple</idno>
+               <note type="charter">MS. Pedigree Rolls 11</note>
+            </place>
+            
+            <place type="place" xml:id="place_108364">
+               <placeName type="index">Banwell</placeName>
+               <placeName type="formInDocument">Banwell</placeName>
+               <region type="parish">Banwell</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Banwell</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12366</idno>
+               <note type="charter">Rolls, 6</note>
+               <note type="charter">MS. Rolls Somerset 11</note>
+            </place>
+            
+            <place type="place" xml:id="place_108365">
+               <placeName type="index">Barrington</placeName>
+               <placeName type="formInDocument">Barrington</placeName>
+               <region type="parish">Barrington</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Barrington</idno>
+               <note type="charter">MS. Ch. Somerset 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108366">
+               <placeName type="index">Beer</placeName>
+               <placeName type="formInDocument">Beere</placeName>
+               <region type="parish">Beer</region>
+               <region type="county">Devon</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Devon/53284f13b47fc4097e0016f7-Beer</idno>
+               <note type="charter">MS. Ch. Somerset 8</note>
+            </place>
+            
+            <place type="place" xml:id="place_108367">
+               <placeName type="index">Benthall</placeName>
+               <placeName type="formInDocument">Bentale</placeName>
+               <region type="parish">Benthall</region>
+               <region type="county">Shropshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Benthall</idno>
+               <idno>https://www.visionofbritain.org.uk/place/6206</idno>
+               <note type="charter">MS. Ch. Salop. 38</note>
+            </place>
+            
+            <place type="place" xml:id="place_108368">
+               <placeName type="index">Bentley (unidentified)</placeName>
+               <placeName type="formInDocument">Bentley</placeName>
+               <note type="charter">MS. Ch. Salop. 38</note>
+            </place>
+            
+            <place type="place" xml:id="place_108369">
+               <placeName type="index">Beoley</placeName>
+               <placeName type="formInDocument">Beoly, Worcester</placeName>
+               <region type="parish">Beoley</region>
+               <region type="county">Worcestershire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Worcestershire/53288a0cb47fc40d6b000476-Beoley</idno>
+               <idno>https://www.genuki.org.uk/big/eng/WOR/Beoley</idno>
+               <note type="charter">MS. Pedigree Rolls 25</note>
+            </place>
+            
+            <place type="place" xml:id="place_108370">
+               <placeName type="index">Barford</placeName>
+               <placeName type="formInDocument">Bereford</placeName>
+               <placeName type="formInDocument">Bereford, co. Warwick</placeName>
+               <region type="parish">Barford</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/Barford/53287435b47fc40c5f000728-Barford</idno>
+               <note type="charter">MS. Ch. Wilts. 17</note>
+               <note type="charter">MS. Ch. Wilts. 18</note>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108371">
+               <placeName type="index">Bermondsey</placeName>
+               <placeName type="formInDocument">Bermondsey</placeName>
+               <region type="parish">Bermondsey</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287107b47fc40c23000a05-Bermondsey</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Bermondsey</idno>
+               <note type="charter">MS. Ch. Surrey 23</note>
+            </place>
+            
+            <place type="place" xml:id="place_108372">
+               <placeName type="index">Berwick (in Atcham) or Berwick (in Shrewsbury, St Mary)</placeName>
+               <placeName type="formInDocument">Berwyk</placeName>
+               <!--<region type="parish">Atcham</region>
+                  <region type="parish">Shrewsbury, St Mary</region>two options-->
+               <region type="county">Shropshire</region>
+               <idno>https://www.visionofbritain.org.uk/place/24117</idno>
+               <idno>https://www.visionofbritain.org.uk/place/23860</idno>
+               <note type="charter">MS. Ch. Salop. 60</note>
+            </place>
+            
+            <place type="place" xml:id="place_108373">
+               <placeName type="index">Bisshebury (unidentified)</placeName>
+               <placeName type="formInDocument">Bishburye, in the county of Stafford</placeName>
+               <placeName type="formInDocument">Bisshebury</placeName>
+               <placeName type="formInDocument">Busshebury</placeName>
+               <region type="county">Staffordshire</region>
+               <note type="charter">MS. Rolls Salop. 3</note>
+               <note type="charter">MS. Ch. Staffs. 50</note>
+               <note type="charter">MS. Ch. Staffs. 16</note>
+            </place>
+             
+            <place type="place" xml:id="place_108374">
+               <placeName type="index">Bleham (unidentified)</placeName>
+               <placeName type="formInDocument">Bleham</placeName>
+               <note type="charter">MS. Ch. Misc.  211</note>
+            </place>
+            
+            <place type="place" xml:id="place_108375">
+               <placeName type="index">West Buckland</placeName>
+               <placeName type="formInDocument">Blessed Mary of Welynton</placeName>
+               <!--The living is a perpetual curacy annexed to the vicarage of Wellington, in the diocese of Bath and Wells. The church, which is old, and partly in the Norman style, is dedicated to St. Mary. -->
+               <region type="parish">West Buckland</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/WestBuckland</idno>
+               <note type="charter">MS. Ch. Salop. 52</note>
+            </place>
+            
+            <place type="place" xml:id="place_108376">
+               <placeName type="index">Bodelett (unidentified)</placeName>
+               <placeName type="formInDocument">Bodelett</placeName>
+               <note type="charter">MS. Ch. Somerset 7</note>
+            </place>
+            
+            <place type="place" xml:id="place_108377">
+               <placeName type="index">Market Bosworth or Husbands Bosworth</placeName>
+               <placeName type="formInDocument">Boseworth, co. Leicester</placeName>
+               <region type="county">Leicestershire</region>
+               <idno>https://www.genuki.org.uk/big/eng/LEI/HusbandsBosworth</idno>
+               <idno>https://www.genuki.org.uk/big/eng/LEI/MarketBosworth</idno>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108378">
+               <placeName type="index">Bowcketrehall</placeName>
+               <!--Buckatree Hall? a hotel of that name now in Telford-->
+               <placeName type="formInDocument">Bowcketrehall</placeName>
+               <note type="charter">MS. Ch. Salop. 66</note>
+            </place>
+            
+            <place type="place" xml:id="place_108379">
+               <placeName type="index">Bridgewater</placeName>
+               <placeName type="formInDocument">Bridgewater</placeName>
+               <region type="parish">Bridgewater</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Bridgwater</idno>
+               <idno>https://www.visionofbritain.org.uk/place/436</idno>
+               <note type="charter">MS. Ch. Somerset 39</note>
+            </place>
+            
+            <place type="place" xml:id="place_108380">
+               <placeName type="index">Burniston</placeName>
+               <placeName type="formInDocument">Briniston</placeName>
+               <region type="parish">Scalby</region>
+               <region type="county">Yorkshire, North Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/North+Riding+of+Yorkshire/Scalby/53286b32b47fc40bc6000591-Burniston</idno>
+               <note type="charter">MS. Rolls Westmorland 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108381">
+               <placeName type="index">Bristow (unidentified)</placeName>
+               <placeName type="formInDocument">Bristow</placeName>
+               <note type="charter">MS. Ch. Somerset 6</note>
+            </place>
+            
+            <place type="place" xml:id="place_108382">
+               <placeName type="index">Broughton</placeName>
+               <placeName type="formInDocument">Brocton</placeName>
+               <region type="parish">Broughton</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f19ff5b47fc4261600016b-Broughton</idno>
+               <note type="charter">MS. Ch. Salop. 75</note>
+               <note type="charter">MS. Ch. Salop. 38</note>
+            </place>
+            
+            <place type="place" xml:id="place_108383">
+               <placeName type="index">Bromleygh Bagod (unidentified)</placeName>
+               <placeName type="formInDocument">Bromleygh Bagod</placeName>
+               <note type="charter">MS. Ch. Staffs. 43</note>
+            </place>
+            
+            <place type="place" xml:id="place_108384">
+               <placeName type="index">Castle Bromwich</placeName>
+               <placeName type="formInDocument">Bromwych</placeName>
+               <region type="parish">Castle Bromwich</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/Castle+Bromwich/53287435b47fc40c5f00074c-Castle+Bromwich</idno>
+               <note type="charter">MS. Ch. Warwick. 6</note>
+            </place>
+            
+            <place type="place" xml:id="place_108385">
+               <placeName type="index">Broseley</placeName>
+               <placeName type="formInDocument">Broseley</placeName>
+               <region type="parish">Broseley</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f19ff4b47fc4261600016a-Broseley</idno>
+               <note type="charter">MS. Ch. Salop. 10</note>
+            </place>
+             
+            <place type="place" xml:id="place_108386">
+               <placeName type="index">Britford</placeName>
+               <placeName type="formInDocument">Brutford</placeName>
+               <placeName type="formInDocument">Brytford</placeName>
+               <region type="parish">Britford</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Wiltshire/532886dab47fc40d38000c15-Britford</idno>
+               <note type="charter">MS. Ch. Wilts. 3</note>
+               <note type="charter">MS. Ch. Wilts. 5b</note>
+               <note type="charter">MS. Ch. Wilts. 4</note>
+               <note type="charter">MS. Ch. Wilts. 19</note>
+               <note type="charter">MS. Ch. Wilts. 22</note>
+               <note type="charter">MS. Ch. Wilts. 23</note>
+               <note type="charter">MS. Ch. Wilts. 5a</note>
+            </place>
+            
+            <place type="place" xml:id="place_108387">
+               <placeName type="index">Burlington</placeName>
+               <placeName type="formInDocument">Burlaughton, co. Stafford</placeName>
+               <region type="parish">Sheriffhales</region>
+               <region type="county">Staffordshire</region>
+               <note type="charter">MS. Ch. Salop. 70</note>
+            </place>
+            
+            <place type="place" xml:id="place_108388">
+               <placeName type="index">Burleigh Park (unidentified)</placeName><!--same as Burleigh Woods?-->
+               <placeName type="formInDocument">Burleigh Parke, co. Leicester</placeName>
+               <region type="county">Leicestershire</region>
+               <note type="charter">MS. Ch. Somerset 31</note>
+            </place>
+            
+            <place type="place" xml:id="place_108389">
+               <placeName type="index">Birmingham</placeName>
+               <placeName type="formInDocument">Burmingeham</placeName>
+               <placeName type="formInDocument">Burmingham</placeName>
+               <region type="parish">Birmingham</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/5328741cb47fc40c5f000631-Birmingham</idno>
+               <note type="charter">MS. Rolls Salop. 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108390">
+               <placeName type="index">Burton (unidentified)</placeName>
+               <placeName type="formInDocument">Burton, near Stafford</placeName>
+               <placeName type="formInDocument">Burton</placeName>
+               <note type="charter">MS. Ch. Somerset 33</note><!--in a person name-->
+               <note type="charter">MS. Ch. Staffs. 28</note><!--in a person name, perhaps Burton on Trent qualifies as 'near'?-->
+            </place>
+            
+            <place type="place" xml:id="place_108391">
+               <placeName type="index">Burton Hastings</placeName>
+               <placeName type="formInDocument">Burton Hastings</placeName>
+               <region type="parish">Burton Hastings</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/5328741cb47fc40c5f00063e-Burton+Hastings</idno>
+               <note type="charter">MS. Ch. Warwick. 5</note>
+            </place>
+            
+            <place type="place" xml:id="place_108392">
+               <placeName type="index">Broseley</placeName>
+               <placeName type="formInDocument">Burwardsley</placeName>
+               <region type="parish">Broseley</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f19ff4b47fc4261600016a-Broseley</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Broseley</idno>
+               <note type="charter">MS. Ch. Salop. 95</note>
+            </place>
+            
+            <place type="place" xml:id="place_108393">
+               <placeName type="index">Bishops Lydeard</placeName>
+               <placeName type="formInDocument">Bushopps Ludyard, Somersetshire</placeName>
+               <region type="parish">Bishops Lydeard</region>
+               <region type="county">Somersetshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/BishopsLydeard</idno>
+               <idno>https://www.visionofbritain.org.uk/place/13086</idno>
+               <note type="charter">MS. Ch. Somerset 36</note>
+            </place>
+            
+            <place type="place" xml:id="place_108394">
+               <placeName type="index">Bishopstone (near Wilton) or Bishopstone (near Swindon)</placeName>
+               <placeName type="formInDocument">Busshopestone, co. Wilts</placeName>
+               <region type="county">Wiltshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/WIL/BishopstoneN</idno>
+               <idno>https://www.genuki.org.uk/big/eng/WIL/BishopstoneS</idno>
+               <note type="charter">MS. Ch. Wilts. 2</note><!--in a person name, unclear which-->
+            </place>
+            
+            <place type="place" xml:id="place_108395">
+               <placeName type="index">Callow</placeName>
+               <placeName type="formInDocument">Caldalowe</placeName>
+               <region type="parish">Callow</region>
+               <region type="county">Derbyshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Derbyshire/Callow/53284cf4b47fc4095c00182a-Callow</idno>
+               <note type="charter">MS. Ch. Staffs. 42</note>
+            </place>
+            
+            <place type="place" xml:id="place_108396">
+               <placeName type="index">Caldicot</placeName>
+               <placeName type="formInDocument">Caldicott</placeName>
+               <region type="parish">Caldicot</region>
+               <region type="county">Monmouthshire</region>
+               <idno>https://www.genuki.org.uk/big/wal/MON/Caldicott</idno>
+               <idno>https://www.visionofbritain.org.uk/place/3750</idno>
+               <note type="charter">MS. Ch. Monmouthshire 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108397">
+               <placeName type="index">Cauldon</placeName>
+               <placeName type="formInDocument">Caldon</placeName>
+               <placeName type="formInDocument">Calfdon</placeName>
+               <region type="parish">Cauldon</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://www.visionofbritain.org.uk/place/7984</idno>
+               <idno>https://www.genuki.org.uk/big/eng/STS/Cauldon</idno>
+               <note type="charter">MS. Ch. Salop. 77</note>
+               <note type="charter">MS. Ch. Staffs. 46</note>
+            </place>
+            
+            <place type="place" xml:id="place_108398">
+               <placeName type="index">Camberwell</placeName>
+               <placeName type="formInDocument">Camberwell, Surrey</placeName>
+               <region type="parish">Camberwell</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287107b47fc40c23000a0d-Camberwell</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Camberwell</idno>
+               <note type="charter">MS. Ch. Surrey 22b</note>
+            </place>
+            
+            <place type="place" xml:id="place_108399">
+               <placeName type="index">Campsall (unidentified)</placeName>
+               <placeName type="formInDocument">Campsall</placeName>
+               <note type="charter">MS. Ch. Notts. 9</note>
+            </place>
+            
+            <place type="place" xml:id="place_108400">
+               <placeName type="index">Cannington</placeName>
+               <placeName type="formInDocument">Cannington</placeName>
+               <region type="parish">Cannington</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Cannington</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12515</idno>
+               <note type="charter">MS. Ch. Somerset 41</note>
+            </place>
+            
+            <place type="place" xml:id="place_108401">
+               <placeName type="index">Canwell</placeName>
+               <placeName type="formInDocument">Canwell</placeName>
+               <placeName type="formInDocument">Canewell</placeName>
+               <region type="parish">Hints</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://www.visionofbritain.org.uk/place/7988</idno>
+               <note type="charter">MS. Ch. Staffs. 18</note>
+               <note type="charter">MS. Ch. Staffs. 21</note>
+               <note type="charter">MS. Ch. Staffs. 22</note>
+            </place>
+            
+            <place type="place" xml:id="place_108402">
+               <placeName type="index">Carribber</placeName>
+               <placeName type="formInDocument">Carriber</placeName>
+               <region type="parish">Torphichen Linlithgow</region>
+               <region type="county">West Lothian</region>
+               <note type="charter">MS. Ch. Scotland 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108403">
+               <placeName type="index">Carshalton</placeName>
+               <placeName type="formInDocument">Carshalton</placeName>
+               <region type="parish">Carshalton</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287107b47fc40c23000a0f-Carshalton</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Carshalton</idno>
+               <note type="charter">MS. Ch. Surrey 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108404">
+               <placeName type="index">Caverswall</placeName>
+               <placeName type="formInDocument">Carswell</placeName>
+               <region type="parish">Caverswall</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://www.visionofbritain.org.uk/place/7990</idno>
+               <idno>https://www.genuki.org.uk/big/eng/STS/Caverswall</idno>
+               <note type="charter">MS. Ch. Staffs. 26</note>
+            </place>
+            
+            <place type="place" xml:id="place_108405">
+               <placeName type="index">Ewyas Harold</placeName>
+               <placeName type="formInDocument">Ewyas in Herefordshire</placeName>
+               <region type="parish">Ewyas Harold</region>
+               <region type="county">Herefordshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/HEF/EwyasHarold</idno>
+               <idno>https://www.visionofbritain.org.uk/place/4904</idno>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108406">
+               <placeName type="index">Cauntreyne (unidentified)</placeName>
+               <placeName type="formInDocument">Cauntreyne</placeName>
+               <note type="charter">MS. Ch. Salop. 7</note>
+            </place>
+            
+            <place type="place" xml:id="place_108407">
+               <placeName type="index">Battlefield</placeName>
+               <placeName type="formInDocument">chantry of St. Mary Magdalene of Batelfeld</placeName>
+               <region type="parish">Shrewsbury</region>
+               <region type="county">Shropshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Battlefield</idno>
+               <idno>https://www.visionofbritain.org.uk/place/2482</idno>
+               <note type="charter">MS. Ch. Salop. 68</note>
+            </place>
+            
+            <place type="place" xml:id="place_108408">
+               <placeName type="index">Chelsham</placeName>
+               <placeName type="formInDocument">Chelesham</placeName>
+               <region type="parish">Chelsham</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287107b47fc40c23000a14-Chelsham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Chelsham</idno>
+               <note type="charter">MS. Ch. Surrey 5</note>
+            </place>
+            
+            <place type="place" xml:id="place_108409">
+               <placeName type="index">Charlton</placeName>
+               <placeName type="formInDocument">Cherleton</placeName>
+               <region type="parish">Standlynch</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Wiltshire/Standlynch/532886d6b47fc40d380009a2-Charlton</idno>
+               <note type="charter">MS. Ch. Wilts. 22</note>
+               <note type="charter">MS. Ch. Wilts. 23</note>
+            </place>
+            
+            <place type="place" xml:id="place_108410">
+               <placeName type="index">Chillington</placeName>
+               <placeName type="formInDocument">Chetlington</placeName>
+               <region type="parish">Stokenham</region>
+               <region type="county">Devon</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Devon/Stokenham/53284f0db47fc4097e0012e9-Chillington</idno>
+               <note type="charter">MS. Ch. Somerset 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108411">
+               <placeName type="index">Kenchester</placeName>
+               <placeName type="formInDocument">Cheynestre</placeName>
+               <region type="parish">Kenchester</region>
+               <region type="county">Herefordshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/HEF/Kenchester</idno>
+               <idno>https://www.visionofbritain.org.uk/place/4253</idno>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108412">
+               <placeName type="index">Chibburn</placeName>
+               <placeName type="formInDocument">Chibbourne, co. Northd.</placeName>
+               <region type="parish">Widdrington</region>
+               <region type="county">Northumberland</region>
+               <note type="charter">MS. Ch. Northumberland 3</note>
+            </place>
+            
+            <place type="place" xml:id="place_108413">
+               <placeName type="index">Chillington</placeName>
+               <placeName type="formInDocument">Chillington in the county of Stafford</placeName>
+               <region type="parish">Chillington</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Staffordshire/Brewood/53286ff5b47fc40c19000107-Chillington</idno>
+               <note type="charter">MS. Ch. Staffs. 59</note>
+            </place>
+            
+            <place type="place" xml:id="place_108414">
+               <placeName type="formInDocument">Chilton</placeName>
+               <note type="charter">MS. Pedigree Rolls 16</note>
+            </place>
+            
+            <place type="place" xml:id="place_108415">
+               <placeName type="index">Chippenham</placeName>
+               <placeName type="formInDocument">Chippenham</placeName>
+               <region type="parish">Chippenham</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Wiltshire/532886dab47fc40d38000c2a-Chippenham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/WIL/Chippenham</idno>
+               <note type="charter">MS. Ch. Wilts. 8</note>
+            </place>
+            
+            <place type="place" xml:id="place_108416">
+               <placeName type="index">Chobham</placeName>
+               <placeName type="formInDocument">Chobham</placeName>
+               <region type="parish">Chobham</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287107b47fc40c23000a19-Chobham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Chobham</idno>
+               <note type="charter">MS. Ch. Surrey 6</note>
+            </place>
+            
+            <place type="place" xml:id="place_108417">
+               <placeName type="index">Clapton (unidentified)</placeName><!--several possibilities in Somerset alone-->
+               <placeName type="formInDocument">Clapton</placeName>
+               <region type="county">Somerset</region>
+               <note type="charter">MS. Ch. Somerset 42</note>
+            </place>
+            
+            <place type="place" xml:id="place_108418">
+               <placeName type="index">Claverdon</placeName>
+               <placeName type="formInDocument">Claredon, co. Warwick</placeName>
+               <placeName type="formInDocument">Claredon, Warwickshire</placeName>
+               <region type="parish">Claverdon</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/Claverdon/53287435b47fc40c5f000755-Claverdon</idno>
+               <note type="charter">MS. Ch. Somerset 16</note>
+               <note type="charter">MS. Ch. Somerset 17</note>
+            </place>
+            
+            <place type="place" xml:id="place_108419">
+               <placeName type="index">Clotley or Cluddley</placeName>
+               <placeName type="formInDocument">Cloteley</placeName>
+               <placeName type="formInDocument">Clotely</placeName>
+               <placeName type="formInDocument">Clotley</placeName>
+               <region type="parish">Wrockwardine</region>
+               <region type="county">Shropshire</region>
+               <idno>http://epns.nottingham.ac.uk/browse/id/53d8a654b47fc4463d000f82</idno>
+               <note type="charter">MS. Ch. Salop. 12</note>
+               <note type="charter">MS. Ch. Salop. 13</note>
+               <note type="charter">MS. Ch. Salop. 14</note>
+            </place>
+            
+            <place type="place" xml:id="place_108420">
+               <placeName type="index">Closworth</placeName>
+               <placeName type="formInDocument">Clovesworth</placeName>
+               <region type="parish">Closworth</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Closworth</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12612</idno>
+               <note type="charter">MS. Ch. Somerset 48</note>
+            </place>
+            
+            <place type="place" xml:id="place_108421">
+               <placeName type="index">Cobbewell (unidentified)</placeName>
+               <!--perhaps Cobhall in Allensmore, Herefordshire?-->
+               <placeName type="formInDocument">Cobbewell</placeName>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108422">
+               <placeName type="index">Cokeslone (unidentified)</placeName>
+               <placeName type="formInDocument">Cokeslone</placeName>
+               <placeName type="formInDocument">Cokeslone, co. Stafford</placeName>
+               <region type="county">Staffordshire</region>
+               <note type="charter">MS. Ch. Staffs. 27</note>
+               <note type="charter">MS. Ch. Staffs. 53</note>
+            </place>
+            
+            <place type="place" xml:id="place_108423">
+               <placeName type="index">Coleshill</placeName>
+               <placeName type="formInDocument">Colleshull</placeName>
+               <region type="parish">Coleshill</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/5328741cb47fc40c5f00064d-Coleshill</idno>
+               <note type="charter">MS. Ch. Warwick. 6</note>
+            </place>
+            
+            <place type="place" xml:id="place_108424">
+               <placeName type="index">Combe (unidentified)</placeName>
+               <!--?COMBE, a township in the parish of Presteigne, Herefordshire-->
+               <placeName type="formInDocument">Combe</placeName>
+               <note type="charter">MS. Ch. Somerset 9</note>
+            </place>
+            
+            <place type="place" xml:id="place_108425">
+               <placeName type="index">Compton (unidentified)</placeName><!--multiple options-->
+               <placeName type="formInDocument">Compton</placeName>
+               <region type="county">Somerset</region>
+               <note type="charter">MS. Rolls Somerset 6</note>
+               <note type="charter">MS. Rolls Somerset 12</note>
+            </place>
+            
+            <place type="place" xml:id="place_108426">
+               <placeName type="index">Curry Rivel</placeName>
+               <placeName type="formInDocument">Corry Revell</placeName>
+               <region type="parish">Curry Rivel</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.visionofbritain.org.uk/place/12726</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/CurryRivel</idno>
+               <note type="charter">MS. Ch. Somerset 33</note>
+            </place>
+            
+            <place type="place" xml:id="place_108427">
+               <placeName type="index">Cotgrave</placeName>
+               <placeName type="formInDocument">Cotegrave</placeName>
+               <region type="parish">Cotgrave</region>
+               <region type="county">Nottinghamshire</region>
+               <idno>https://www.visionofbritain.org.uk/place/7352</idno>
+               <idno>https://www.genuki.org.uk/big/eng/NTT/Cotgrave</idno>
+               <note type="charter">MS. Ch. Notts. 11</note>
+               <note type="charter">MS. Ch. Notts. 5</note>
+               <note type="charter">MS. Ch. Notts. 4</note>
+               <note type="charter">MS. Ch. Notts. 12</note>
+               <note type="charter">MS. Ch. Notts. 13</note>
+            </place>
+            
+            <place type="place" xml:id="place_108428">
+               <placeName type="index">Cothelstone</placeName>
+               <placeName type="formInDocument">Cothelston</placeName>
+               <placeName type="formInDocument">Cotherstone, co. Somerset</placeName>
+               <region type="parish">Cothelstone</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Cothelstone</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12693</idno>
+               <note type="charter">MS. Ch. Somerset 43a</note>
+               <note type="charter">MS. Ch. Somerset 36</note>
+            </place>
+            
+            <place type="place" xml:id="place_108429">
+               <placeName type="index">Cranmore (East and West)</placeName>
+               <placeName type="formInDocument">CRANMERE</placeName>
+               <region type="parish">East Cranmore</region>
+               <region type="parish">West Cranmore</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/EastCranmore</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/WestCranmore</idno>
+               <note type="charter">MS. Rolls Somerset 8</note>
+            </place>
+            
+            <place type="place" xml:id="place_108430">
+               <placeName type="index">Crail</placeName>
+               <placeName type="formInDocument">Craill</placeName>
+               <region type="parish">Crail</region>
+               <region type="county">Fife</region>
+               <idno>https://www.genuki.org.uk/big/sct/FIF/Crail</idno>
+               <idno>https://www.visionofbritain.org.uk/place/17024</idno>
+               <note type="charter">MS. Ch. Scotland 5</note>
+            </place>
+            
+            <place type="place" xml:id="place_108431">
+               <placeName type="index">Ruislip</placeName>
+               <placeName type="formInDocument">Ruisshlepe</placeName>
+               <region type="parish">Ruislip</region>
+               <region type="county">Middlesex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Middlesex/Ruislip/53282a5ab47fc407a0000245-Ruislip</idno>
+               <note type="charter">MS. Ch. Wilts. 16</note>
+            </place>
+            
+            <place type="place" xml:id="place_108432">
+               <placeName type="index">Cuckney</placeName>
+               <placeName type="formInDocument">Cukenay</placeName>
+               <placeName type="formInDocument">Cukeneia</placeName>
+               <placeName type="formInDocument">Cokenay</placeName>
+               <placeName type="formInDocument">Cokeney</placeName>
+               <placeName type="formInDocument">Kuyekeney</placeName>
+               <region type="parish">Cuckney</region>
+               <region type="county">Nottinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Nottinghamshire/53286becb47fc40bd4000752-Cuckney</idno>
+               <idno>https://www.genuki.org.uk/big/eng/NTT/Cuckney</idno>
+               <note type="charter">MS. Ch. Notts. 17</note>
+               <note type="charter">MS. Ch. Notts. 15</note>
+               <note type="charter">MS. Ch. Notts. 6</note>
+               <note type="charter">MS. Ch. Notts. 16</note>
+               <note type="charter">MS. Ch. Notts. 7</note>
+               <note type="charter">MS. Ch. Notts. 14</note>
+            </place>
+            
+            <place type="place" xml:id="place_108433">
+               <placeName type="index">Curry Mallett</placeName>
+               <placeName type="formInDocument">Curry Mallet in Somersetshire</placeName>
+               <region type="parish">Curry Mallett</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/CurryMallett</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12724</idno>
+               <note type="charter">MS. Ch. Somerset 25</note>
+            </place>
+            
+            <place type="place" xml:id="place_108434">
+               <placeName type="index">The Chinnocks (East, Middle and West)</placeName>
+               <placeName type="formInDocument">Cynnok, Sarum diocese</placeName>
+               <region type="county">Somerset</region>
+               <idno>https://www.wikidata.org/wiki/Q2405885</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12586</idno>
+               <idno>https://www.visionofbritain.org.uk/place/21008</idno>
+               <idno>https://www.visionofbritain.org.uk/place/13127</idno>
+               <note type="charter">MS. Ch. Somerset 46</note>
+            </place>
+            
+            <place type="place" xml:id="place_108435">
+               <placeName type="index">Doncen (unidentified)</placeName>
+               <placeName type="formInDocument">Doncen</placeName>
+               <note type="charter">MS. Ch. Staffs. 19</note>
+            </place>
+            
+            <place type="place" xml:id="place_108436">
+               <placeName type="index">Donne (unidentified)</placeName>
+               <placeName type="formInDocument">Donne, co. Stafford</placeName>
+               <region type="county">Staffordshire</region>
+               <note type="charter">MS. Ch. Staffs. 45</note>
+            </place>
+            
+            <place type="place" xml:id="place_108437">
+               <placeName type="index">Donnington Park</placeName>
+               <placeName type="formInDocument">Donnington Park</placeName>
+               <region type="parish">Castle Donington</region>
+               <region type="county">Leicestershire</region>
+               <idno>https://www.visionofbritain.org.uk/place/10675</idno>
+               <note type="charter">MS. Ch. Flintshire 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108438">
+               <placeName type="index">Donnington</placeName>
+               <placeName type="formInDocument">Donnyngton, Salop</placeName>
+               <region type="parish">Lilleshall</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/Lilleshall/53d8a4bab47fc4463d000657-Donnington</idno>
+               <idno>https://www.visionofbritain.org.uk/place/25311</idno>
+               <note type="charter">MS. Ch. Staffs. 37</note>
+            </place>
+            
+            <place type="place" xml:id="place_108439">
+               <placeName type="index">Downton</placeName>
+               <placeName type="formInDocument">Donton</placeName>
+               <placeName type="formInDocument">Dounton</placeName>
+               <placeName type="formInDocument">Dounton, co. Wilts</placeName>
+               <placeName type="formInDocument">Downton</placeName>
+               <placeName type="formInDocument">Downton, Sarum diocese</placeName>
+               <region type="parish">Downton</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/WIL/Downton</idno>
+               <idno>https://www.visionofbritain.org.uk/place/11723</idno>
+               <note type="charter">MS. Ch. Wilts. 7</note>
+               <note type="charter">MS. Ch. Wilts. 29</note>
+               <note type="charter">MS. Ch. Wilts. 16</note>
+            </place>
+            
+            <place type="place" xml:id="place_108440">
+               <placeName type="index">Drayton</placeName>
+               <placeName type="formInDocument">Drayton in co. Somerset</placeName>
+               <region type="parish">Drayton</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Drayton</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12775</idno>
+               <note type="charter">MS. Ch. Somerset 34</note>
+            </place>
+            
+            <place type="place" xml:id="place_108441">
+               <placeName type="index">Dundee</placeName>
+               <placeName type="formInDocument">Dundee</placeName>
+               <region type="parish">Dundee</region>
+               <region type="county">Angus</region>
+               <idno>https://www.genuki.org.uk/big/sct/ANS/Dundee</idno>
+               <idno>https://www.visionofbritain.org.uk/place/16319</idno>
+               <note type="charter">MS. Ch. Northumberland 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108442">
+               <placeName type="index">Dunsfold</placeName>
+               <placeName type="formInDocument">Duntesfold</placeName>
+               <region type="parish">Dunsfold</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287107b47fc40c23000a23-Dunsfold</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Dunsfold</idno>
+               <note type="charter">MS. Ch. Surrey 9</note>
+            </place>
+            
+            <place type="place" xml:id="place_108443">
+               <placeName type="index">Durrigge / Terrigge (unidentified)</placeName>
+               <placeName type="formInDocument">Durrigge</placeName>
+               <note type="charter">MS. Ch. Misc. 235</note>
+            </place>
+            
+            <place type="place" xml:id="place_108444">
+               <placeName type="index">East Harptree</placeName>
+               <placeName type="formInDocument">East Harptrey</placeName>
+               <region type="parish">East Harptree</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/EastHarptree</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12927</idno>
+               <note type="charter">MS. Ch. Somerset 45</note>
+            </place>
+            
+            <place type="place" xml:id="place_108445">
+               <placeName type="index">East Lambrook</placeName>
+               <placeName type="formInDocument">East Lambrooke</placeName>
+               <region type="parish">East Lambrook</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/EastLambrooke</idno>
+               <idno>https://www.visionofbritain.org.uk/place/20907</idno>
+               <note type="charter">MS. Ch. Somerset 27</note>
+            </place>
+            
+            <place type="place" xml:id="place_108446">
+               <placeName type="index">Edgbolton</placeName>
+               <placeName type="formInDocument">Edgboulton</placeName>
+               <placeName type="formInDocument">Edgebaldon</placeName>
+               <placeName type="formInDocument">Edgebaldon, in the parish of Shawburye</placeName>
+               <region type="parish">Shawbury</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/Shawbury/53d8a647b47fc4463d000f30-Edgebolton</idno>
+               <note type="charter">MS. Ch. Salop. 88</note>
+               <note type="charter">MS. Rolls Salop. 3</note>
+            </place>
+            
+            <place type="place" xml:id="place_108447">
+               <placeName type="index">Edinburgh</placeName>
+               <placeName type="formInDocument">Edinburgh</placeName>
+               <region type="parish">Edinburgh</region>
+               <region type="county">Midlothian</region>
+               <idno>https://www.genuki.org.uk/big/sct/MLN/Edinburgh</idno>
+               <idno>https://www.visionofbritain.org.uk/place/16316</idno>
+               <note type="charter">MS. Ch. Scotland 2</note>
+               <note type="charter">MS. Ch. Scotland 3</note>
+            </place>
 
+            <place type="place" xml:id="place_108448">
+               <placeName type="index">Ercaflewe (unidentified)</placeName>
+               <placeName type="formInDocument">Ercaflewe in Salop</placeName>
+               <region type="county">Shropshire</region>
+               <note type="charter">MS. Ch. Salop. 21</note>
+            </place>
+
+            <place type="place" xml:id="place_108449">
+               <placeName type="index">Edlesborough</placeName>
+               <placeName type="formInDocument">Esilbergh</placeName>
+               <region type="parish">Edlesborough</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/53282ecdb47fc407e300026e-Edlesborough</idno>
+               <idno>https://www.visionofbritain.org.uk/place/5494</idno>
+               <note type="charter">MS. Ch. Staffs. 41</note>
+            </place>
+            
+            <place type="place" xml:id="place_108450">
+               <placeName type="index">Ashbourn</placeName>
+               <placeName type="formInDocument">Esseburn</placeName>
+               <region type="parish">Ashbourn</region>
+               <region type="county">Derbyshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Derbyshire/53284cd7b47fc4095c0016af-Ashbourne</idno>
+               <idno>https://www.visionofbritain.org.uk/place/875</idno>
+               <note type="charter">MS. Ch. Staffs. 46</note>
+            </place>
+            
+            <place type="place" xml:id="place_108451">
+               <placeName type="index">East Grinstead</placeName>
+               <placeName type="formInDocument">Est Grensted</placeName>
+               <region type="parish">East Grinstead</region>
+               <region type="county">Sussex</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/53287233b47fc40c36000b78-East+Grinstead</idno>
+               <idno>https://www.visionofbritain.org.uk/place/141</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/EastGrinstead</idno>
+               <note type="charter">MS. Ch. Surrey 25</note>
+            </place>
+            
+            <place type="place" xml:id="place_108452">
+               <placeName type="index">Est Heche (unidentified)</placeName>
+               <placeName type="formInDocument">Est Heche</placeName>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108453">
+               <placeName type="index">Easington</placeName>
+               <placeName type="formInDocument">Esyngton</placeName>
+               <region type="parish">Slaidburn</region>
+               <region type="county">Yorkshire, West Riding</region>
+               <idno>https://epns.nottingham.ac.uk/browse/West+Riding+of+Yorkshire/Slaidburn/5328827cb47fc40c8100625a-Easington</idno>
+               <note type="charter">MS. Ch. Staffs. 16</note>
+            </place>
+            
+            <place type="place" xml:id="place_108454">
+               <placeName type="index">Evelith</placeName>
+               <placeName type="formInDocument">Evelyn</placeName>
+               <placeName type="formInDocument">Evelyn, in the county of Salop</placeName>
+               <region type="parish">Shifnal</region>
+               <region type="county">Shropshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Shiffnal</idno>
+               <note type="charter">MS. Ch. Salop. 18</note>
+               <note type="charter">MS. Ch. Salop. 22</note>
+            </place>
+            
+            <place type="place" xml:id="place_108455">
+               <placeName type="index">Evercreech</placeName>
+               <placeName type="formInDocument">Evercrich</placeName>
+               <region type="parish">Evercreech</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Evercreech</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12831</idno>
+               <note type="charter">MS. Rolls Somerset 9</note>
+            </place>
+            
+            <place type="place" xml:id="place_108456">
+               <placeName type="index">Farnham</placeName>
+               <placeName type="formInDocument">Farnham</placeName>
+               <region type="parish">Farnham</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287107b47fc40c23000a2e-Farnham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Farnham</idno>
+               <idno>https://www.visionofbritain.org.uk/place/834</idno>
+               <note type="charter">MS. Ch. Surrey 13</note>
+            </place>
+            
+            <place type="place" xml:id="place_108457">
+               <placeName type="index">Farnham Royal</placeName>
+               <placeName type="formInDocument">Farnham, co. Bucks</placeName>
+               <region type="parish">Farnham Royal</region>
+               <region type="county">Buckinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Buckinghamshire/53282ecdb47fc407e3000273-Farnham+Royal</idno>
+               <idno>https://www.genuki.org.uk/big/eng/BKM/FarnhamRoyal</idno>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108458">
+               <placeName type="index">Fordhem (unidentified)</placeName>
+               <placeName type="formInDocument">Fordhem</placeName>
+               <note type="charter">MS. Ch. Wilts. 16</note><!--Frogham?-->
+            </place>
+            
+            <place type="place" xml:id="place_108459">
+               <placeName type="index">Fulford</placeName>
+               <placeName type="formInDocument">Fulford</placeName>
+               <region type="parish">Stone</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://www.visionofbritain.org.uk/place/8089</idno>
+               <note type="charter">MS. Ch. Misc. 231</note>
+            </place>
+            
+            <place type="place" xml:id="place_108460">
+               <placeName type="index">London, St Gabriel Fenchurch</placeName>
+               <placeName type="variant">London, St Mary Fenchurch</placeName>
+               <placeName type="formInDocument">Gabriell Fanchurch, London</placeName>
+               <region type="parish">London, St Gabriel Fenchurch</region>
+               <region type="county">City of London</region>
+               <idno>https://www.genuki.org.uk/big/eng/LND/StGabrielFenchurchstreet</idno>
+               <idno>https://www.wikidata.org/wiki/Q7593107</idno>
+               <note type="charter">MS. Ch. Surrey 19</note>
+            </place>
+            
+            <place type="place" xml:id="place_108461">
+               <placeName type="index">Upton Magna</placeName>
+               <placeName type="formInDocument">Great Upton</placeName>
+               <placeName type="formInDocument">Upton</placeName>
+               <placeName type="formInDocument">Upton under Haghmond</placeName>
+               <placeName type="formInDocument">Upton under Hamon</placeName>
+               <placeName type="formInDocument">Upton under Haughmon</placeName>
+               <placeName type="formInDocument">Upton under Haughmond</placeName>
+               <region type="parish">Upton Magna</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f1a169b47fc4261600022a-Upton+Magna</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/UptonMagna</idno>
+               <idno>https://www.visionofbritain.org.uk/place/10518</idno>
+               <note type="charter">MS. Ch. Salop. 37b </note>
+               <note type="charter">MS. Ch. Salop. 74</note>
+               <note type="charter">MS. Rolls Salop. 3</note>
+               <note type="charter">MS. Ch. Salop. 88</note>
+               <note type="charter">MS. Ch. Salop. 70</note>
+            </place>
+            
+            <place type="place" xml:id="place_108462">
+               <placeName type="index">Hadley</placeName>
+               <placeName type="formInDocument">Hadley, Middlesex</placeName>
+               <region type="parish">Hadley</region>
+               <!--<region type="county">Middlesex</region> old county-->
+               <region type="county">Hertfordshire</region><!-- since 1904-->
+               <idno>https://epns.nottingham.ac.uk/browse/Hertfordshire/53285b93b47fc40ace00071c-Monken+Hadley</idno>
+               <idno>https://www.genuki.org.uk/big/eng/MDX/Hadley</idno>
+               <idno>https://www.visionofbritain.org.uk/place/1799</idno>
+               <note type="charter">MS. Ch. Salop. 26</note>
+            </place>
+            
+            <place type="place" xml:id="place_108463">
+               <placeName type="index">Hadnall</placeName>
+               <placeName type="formInDocument">Hadnall</placeName>
+               <region type="parish">Hadnall</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f1a021b47fc426160001a8-Hadnall</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/ParishIndex</idno>
+               <idno>https://www.visionofbritain.org.uk/place/10366</idno>
+               <note type="charter">MS. Ch. Salop. 38</note>
+            </place>
+            
+            <place type="place" xml:id="place_108464">
+               <placeName type="index">Haughton</placeName>
+               <placeName type="formInDocument">Halghton</placeName>
+               <region type="parish">Shifnal</region>
+               <region type="county">Shropshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Shiffnal</idno>
+               <note type="charter">MS. Ch. Salop. 24</note>
+            </place>
+            
+            <place type="place" xml:id="place_108465">
+               <placeName type="index">Halvergate</placeName>
+               <placeName type="formInDocument">Halvergate</placeName>
+               <region type="parish">Halvergate</region>
+               <region type="county">Norfolk</region>
+               <idno>https://www.genuki.org.uk/big/eng/NFK/Halvergate</idno>
+               <idno>https://www.visionofbritain.org.uk/place/6044</idno>
+               <note type="charter">MS. Ch. Monmouthshire 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108466">
+               <placeName type="index">Harbottle</placeName>
+               <placeName type="formInDocument">Harbottell</placeName>
+               <region type="parish">Harbottle</region>
+               <region type="county">Northumberland</region>
+               <idno>https://www.visionofbritain.org.uk/place/9211</idno>
+               <idno>https://www.wikidata.org/wiki/Q776558</idno>
+               <note type="charter">MS. Ch. Northumberland 3</note>
+            </place>
+            
+            <place type="place" xml:id="place_108467">
+               <placeName type="index">Harborne</placeName>
+               <placeName type="formInDocument">Harbourne</placeName>
+               <region type="parish">Harborne</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/STS/Harborne</idno>
+               <idno>https://www.visionofbritain.org.uk/place/8147</idno>
+               <note type="charter">MS. Ch. Staffs. 56</note>
+            </place>
+            
+            <place type="place" xml:id="place_108468">
+               <placeName type="index">Harlascote (unidentified)</placeName>
+               <placeName type="formInDocument">Harlascote</placeName>
+               <note type="charter">MS. Ch. Salop. 68</note>
+            </place>
+            
+            <place type="place" xml:id="place_108469">
+               <placeName type="index">Hartley</placeName>
+               <placeName type="formInDocument">Hartecla</placeName>
+               <region type="parish">Kirkby Stephen</region>
+               <region type="county">Westmoreland</region>
+               <idno>http://epns.nottingham.ac.uk/browse/Westmorland/Kirkby+Stephen/532876a2b47fc40c6f0013de-Hartley</idno>
+               <note type="charter">MS. Rolls Westmorland 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108470">
+               <placeName type="index">Hastone (unidentified)</placeName>
+               <placeName type="formInDocument">Hastone</placeName>
+               <note type="charter">MS. Ch. Misc.  230</note>
+            </place>
+            
+            <place type="place" xml:id="place_108471">
+               <placeName type="index">Hextons Fm</placeName>
+               <placeName type="formInDocument">Hecstan</placeName>
+               <region type="parish">Upper Arley</region>
+               <region type="county">Worcestershire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Worcestershire/Upper+Arley/53288a0ab47fc40d6b000419-Hextons+Fm</idno>
+               <note type="charter">MS. Ch. Salop. 8</note>
+            </place>
+            
+            <place type="place" xml:id="place_108472">
+               <placeName type="index">Hatton</placeName>
+               <placeName type="formInDocument">Hetton</placeName>
+               <region type="parish">Shifnal</region>
+               <region type="county">Shropshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Shiffnal</idno>
+               <note type="charter">MS. Ch. Salop. 80</note>
+            </place>
+            
+            <place type="place" xml:id="place_108473">
+               <placeName type="index">High Ham</placeName>
+               <placeName type="formInDocument">Higham</placeName>
+               <placeName type="formInDocument">Higham, &amp;c., co. Somerset</placeName>
+               <placeName type="formInDocument">Highame, co. Somerset</placeName>
+               <region type="parish">High Ham</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/HighHam</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12921</idno>
+               <note type="charter">MS. Ch. Somerset 8</note>
+               <note type="charter">MS. Ch. Somerset 7</note>
+               <note type="charter">MS. Ch. Somerset 18</note>
+            </place>
+            
+            <place type="place" xml:id="place_108474">
+               <placeName type="index">High Ercall</placeName>
+               <placeName type="formInDocument">Ercall</placeName>
+               <placeName type="formInDocument">Great Ercall</placeName>
+               <placeName type="formInDocument">Great Ercalle</placeName>
+               <placeName type="formInDocument">Highercall</placeName>
+               <placeName type="formInDocument">Highe Ercalle</placeName>
+               <region type="parish">High Ercall</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f1a024b47fc426160001ac-High+Ercall</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/HighErcall</idno>
+               <note type="charter">MS. Ch. Salop. 92</note>
+               <note type="charter">MS. Ch. Salop. 69</note>
+               <note type="charter">MS. Rolls Salop. 3</note>
+            </place>
+            
+            <place type="place" xml:id="place_108475">
+               <placeName type="index">Hinnington</placeName>
+               <placeName type="formInDocument">Hinintun</placeName>
+               <placeName type="formInDocument">Hynintun</placeName>
+               <placeName type="formInDocument">Hynynton</placeName>
+               <placeName type="formInDocument">Hynynton in the parish of Idsall</placeName>
+               <region type="parish">Shifnal</region>
+               <region type="county">Shropshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Shiffnal</idno>
+               <note type="charter">MS. Ch. Salop. 20</note>
+               <note type="charter">MS. Ch. Salop. 80</note>
+               <note type="charter">MS. Ch. Salop. 21</note>
+               <note type="charter">MS. Ch. Salop. 22</note>
+            </place>
+            
+            <place type="place" xml:id="place_108476">
+               <placeName type="index">'Hockted' (unidentified)</placeName>
+               <placeName type="formInDocument">Hockted</placeName>
+               <note type="charter">MS. Rolls Somerset 13</note>
+            </place>
+            
+            <place type="place" xml:id="place_108477">
+               <placeName type="index">Hodnet</placeName>
+               <placeName type="formInDocument">Hodenettes</placeName>
+               <region type="parish">Hodnet</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53d8a600b47fc4463d000e2f-Hodnet</idno>
+               <note type="charter">MS. Ch. Salop. 46</note>
+            </place>
+            
+            <place type="place" xml:id="place_108478">
+               <placeName type="index">Holloway (unidentified)</placeName>
+               <placeName type="formInDocument">Holloway in the co. of Devon</placeName>
+               <region type="county">Devon</region>
+               <note type="charter">MS. Pedigree Rolls 14</note>
+            </place>
+            
+            <place type="place" xml:id="place_108479">
+               <placeName type="index">Holme next the Sea</placeName>
+               <placeName type="formInDocument">Holm by the sea</placeName>
+               <placeName type="formInDocument">Holm by the sea, in the county of Norfolk</placeName>
+               <region type="parish">Holme next the Sea</region>
+               <region type="county">Norfolk</region>
+               <idno>https://www.genuki.org.uk/big/eng/NFK/Holme_Next_Sea</idno>
+               <idno>https://www.visionofbritain.org.uk/place/5451</idno>
+               <note type="charter">MS. Ch. Salop. 27a </note>
+               <note type="charter">MS. Ch. Salop. 27b</note>
+            </place>
+            
+            <place type="place" xml:id="place_108480">
+               <placeName type="index">Honedeyn (unidentified)</placeName><!--Honington in Warwickshire?-->
+               <placeName type="formInDocument">Honedeyn</placeName>
+               <note type="charter">MS. Ch. Notts. 19</note>
+            </place>
+            
+            <place type="place" xml:id="place_108481">
+               <placeName type="index">Hopton Cangeford</placeName>
+               <placeName type="formInDocument">Hopton</placeName>
+               <placeName type="formInDocument">Hopton Caudinant in co. Salop</placeName>
+               <region type="parish">Hopton Cangeford</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f1a02ab47fc426160001b4-Hopton+Cangeford</idno>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108482">
+               <placeName type="index">Horsey Down</placeName>
+               <placeName type="formInDocument">Horsey downe</placeName>
+               <region type="parish">Cricklade</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/id/532886d3b47fc40d380003ac-Horsey+Down</idno>
+               <note type="charter">MS. Ch. Surrey 14</note>
+               <note type="charter">MS. Ch. Surrey 15</note>
+            </place>
+            
+            <place type="place" xml:id="place_108483">
+               <placeName type="index">Houton Cotes</placeName>
+               <placeName type="formInDocument">Houton Cotes in co. Hereford</placeName>
+               <region type="parish">Bodenham</region>
+               <region type="county">Herefordshire</region>
+               <bibl>A. E. Stamp, E. Salisbury, E. G. Atkinson and J. J. O'Reilly, 'Index of Persons and Places: H', in <title>Calendar of Inquisitions Post Mortem: Volume 10, Edward III</title> (London, 1921), pp. 652-669. <title>British History Online</title> http://www.british-history.ac.uk/inquis-post-mortem/vol10/pp652-669 [accessed 1 March 2022].</bibl>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108484">
+               <placeName type="index">Huish Episcopi</placeName>
+               <placeName type="formInDocument">Huishe Lamporte</placeName>
+               <region type="parish">Huish Episcopi</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/HuishEpiscopi</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12967</idno>
+               <note type="charter">MS. Ch. Somerset 29</note>
+            </place>
+            
+            <place type="place" xml:id="place_108485">
+               <placeName type="index">Hunkinton (unidentified)</placeName><!--Huntington?-->
+               <placeName type="formInDocument">Hunkinton</placeName>
+               <placeName type="formInDocument">Hunkiton</placeName>
+               <!--<region type="parish"></region>-->
+               <region type="county">Shropshire</region>
+               <!-- <idno>https://epns.nottingham.ac.uk/browse/Shropshire/Little+Wenlock/53d8a4d0b47fc4463d0006f1-Huntington</idno>-->
+               <note type="charter">MS. Ch. Salop. 70</note>
+               <note type="charter">MS. Ch. Salop. 88</note>
+            </place>
+            
+            <place type="place" xml:id="place_108486">
+               <placeName type="index">Shifnal</placeName>
+               <placeName type="formInDocument">Iddeshall</placeName>
+               <region type="parish">Shifnal</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f1a153b47fc4261600020c-Shifnal</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Shiffnal</idno>
+               <idno>https://www.visionofbritain.org.uk/place/10474</idno>
+               <note type="charter">MS. Ch. Salop. 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108487">
+               <placeName type="index">Isombridge</placeName>
+               <placeName type="formInDocument">Isombridge</placeName>
+               <placeName type="formInDocument">Isombrudge</placeName>
+               <region type="parish">High Ercall</region>
+               <region type="county">Shropshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/HighErcall</idno>
+               <note type="charter">MS. Rolls Salop. 3</note>
+            </place>
+            
+            <place type="place" xml:id="place_108488">
+               <placeName type="index">Keresley</placeName>
+               <placeName type="formInDocument">Keresle</placeName>
+               <region type="parish">Keresley</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/5328741db47fc40c5f000680-Keresley</idno>
+               <note type="charter">MS. Ch. Warwick. 7</note>
+            </place>
+            
+            <place type="place" xml:id="place_108489">
+               <placeName type="index">Kilcullen</placeName>
+               <placeName type="formInDocument">Kilcullin, co. Kildare</placeName>
+               <region type="parish">Kilcullen</region>
+               <region type="county">Kildare</region>
+               <idno>https://www.genuki.org.uk/big/irl/KID/Kilcullen</idno>
+               <note type="charter">MS. Ch. Ir. 5</note>
+            </place>
+            
+            <place type="place" xml:id="place_108490">
+               <placeName type="index">Kilkenny</placeName>
+               <placeName type="formInDocument">Kilkenny</placeName>
+               <region type="parish">Kilkenny</region>
+               <region type="county">Kilkenny</region>
+               <idno>https://www.genuki.org.uk/big/irl/KIK/Kilkenny</idno>
+               <note type="charter">MS. Ch. Ir. 6</note>
+            </place>
+            
+            <place type="place" xml:id="place_108491">
+               <placeName type="index">Kirkby Stephen</placeName>
+               <placeName type="formInDocument">Kirkby-Stephen</placeName>
+               <region type="parish">Kirkby Stephen</region>
+               <region type="county">Westmorland</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Westmorland/53287693b47fc40c6f001383-Kirkby+Stephen</idno>
+               <idno>https://www.genuki.org.uk/big/eng/WES/KirkbyStephen</idno>
+               <note type="charter">MS. Ch. Westmorland 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108492">
+               <placeName type="index">Kirkcaldy</placeName>
+               <placeName type="formInDocument">Kirkcaldie</placeName>
+               <region type="parish">Kirkcaldy</region>
+               <region type="county">Fife</region>
+               <idno>https://www.genuki.org.uk/big/sct/FIF/Kirkcaldy</idno>
+               <idno>https://www.visionofbritain.org.uk/place/16564</idno>
+               <note type="charter">MS. Ch. Scotland 6</note>
+            </place>
+            
+            <place type="place" xml:id="place_108493">
+               <placeName type="index">Kingston Seymour</placeName>
+               <placeName type="formInDocument">Kyngs Sedge Moore</placeName>
+               <region type="parish">Kingston Seymour</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/KingstonSeymour</idno>
+               <idno>https://www.visionofbritain.org.uk/place/13002</idno>
+               <note type="charter">MS. Ch. Somerset 25</note>
+            </place>
+            
+            <place type="place" xml:id="place_108494">
+               <placeName type="index">Kirdford</placeName>
+               <placeName type="formInDocument">Kyrdeforde, co. Sussex</placeName>
+               <region type="parish">Kirdford</region>
+               <region type="county">Sussex</region>
+               <idno>https://www.genuki.org.uk/big/eng/SSX/Kirdford</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/Sussex/53287234b47fc40c36000bbb-Kirdford</idno>
+               <note type="charter">MS. Ch. Surrey 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108495">
+               <placeName type="index">La Haye (unidentified)</placeName>
+               <placeName type="formInDocument">La Haye</placeName>
+               <region type="county">Shropshire</region>
+               <note type="charter">MS. Ch. Salop. 61</note>
+            </place>
+            
+            <place type="place" xml:id="place_108496">
+               <placeName type="index">Langford</placeName>
+               <placeName type="formInDocument">Langeford</placeName>
+               <placeName type="formInDocument">Langford</placeName>
+               <region type="parish">Langford</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Wiltshire/532886dab47fc40d38000c92-Langford</idno>
+               <note type="charter">MS. Ch. Wilts. 22</note>
+               <note type="charter">MS. Ch. Wilts. 23</note>
+               <note type="charter">MS. Ch. Wilts. 25</note>
+            </place>
+            
+            <place type="place" xml:id="place_108497">
+               <placeName type="index">West Lavington</placeName>
+               <placeName type="variant">Bishop's Lavington</placeName>
+               <placeName type="formInDocument">Lavington</placeName>
+               <placeName type="formInDocument">Lavynton</placeName>
+               <region type="parish">West Lavington</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Wiltshire/532886dab47fc40d38000d1b-West+Lavington</idno>
+               <idno>https://www.genuki.org.uk/big/eng/WIL/WestLavington</idno>
+               <note type="charter">MS. Ch. Wilts. 11</note>
+               <note type="charter">MS. Ch. Wilts. 10</note>
+            </place>
+            
+            <place type="place" xml:id="place_108498">
+               <placeName type="index">Leyre (unidentified)</placeName>
+               <placeName type="formInDocument">Leyre</placeName>
+               <note type="charter">MS. Ch. Staffs. 21</note>
+               <note type="charter">MS. Ch. Staffs. 18</note>
+            </place>
+            
+            <place type="place" xml:id="place_108499">
+               <placeName type="index">Llangeler</placeName>
+               <placeName type="formInDocument">Llangeler</placeName>
+               <region type="parish">Llangeler</region>
+               <region type="county">Carmarthenshire</region>
+               <idno>https://www.genuki.org.uk/big/wal/CMN/Llangeler</idno>
+               <note type="charter">MS. Pedigree Rolls 19</note>
+            </place>
+            
+            <place type="place" xml:id="place_108500">
+               <placeName type="index">Long Stanton</placeName>
+               <placeName type="formInDocument">Long Stanton</placeName>
+               <region type="parish">Long Stanton</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f1a15ab47fc42616000215-Stanton+Long</idno>
+               <note type="charter">MS. Ch. Salop. 96</note>
+            </place>
+            
+            <place type="place" xml:id="place_108501">
+               <placeName type="index">Langley (Hall)</placeName>
+               <placeName type="formInDocument">Longeleye</placeName>
+               <region type="parish">Langley (Hall)</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/Langley+%28Hall%29/53f1a1a7b47fc4261600026f-Langley+%28Hall%29</idno>
+               <note type="charter">MS. Ch. Salop. 1</note>
+               <note type="charter">MS. Ch. Salop. 71</note>
+            </place>
+            
+            <place type="place" xml:id="place_108502">
+               <placeName type="index">Lopen</placeName>
+               <placeName type="formInDocument">Lopene</placeName>
+               <region type="parish">Lopen</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Lopen</idno>
+               <idno>https://www.visionofbritain.org.uk/place/13060</idno>
+               <note type="charter">MS. Ch. Wilts. 26</note>
+            </place>
+            
+            <place type="place" xml:id="place_108503">
+               <placeName type="index">Loxley</placeName>
+               <placeName type="formInDocument">Loxley, in co. Stafford</placeName>
+               <region type="parish">Uttoxeter</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://www.visionofbritain.org.uk/place/25356</idno>
+               <note type="charter">MS. Ch. Staffs. 52</note>
+            </place>
+            
+            <place type="place" xml:id="place_108504">
+               <placeName type="index">Ludlow</placeName>
+               <placeName type="formInDocument">Luddelowe</placeName>
+               <region type="parish">Ludlow</region>
+               <region type="county">Shropshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Ludlow</idno>
+               <idno>https://www.visionofbritain.org.uk/place/629</idno>
+               <note type="charter">MS. Ch. Salop. 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108505">
+               <placeName type="index">Lullynton (unidentified)</placeName><!--none in Warwickshire? Lullington in Somerset?-->
+               <placeName type="formInDocument">Lullyngton</placeName>
+               <region type="county">Warwickshire</region>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108506">
+               <placeName type="index">Lyme Green</placeName>
+               <placeName type="formInDocument">Lymgrene</placeName>
+               <region type="parish">Sutton (near Macclesfield)</region>
+               <region type="county">Cheshire</region>
+               <note type="charter">MS. Ch. Staffs. 55</note>
+            </place>
+            
+            <place type="place" xml:id="place_108507">
+               <placeName type="index">Madeley</placeName>
+               <placeName type="formInDocument">Madeley</placeName>
+               <region type="parish">Madeley</region>
+               <region type="county">Shropshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Madeley</idno>
+               <idno>https://www.visionofbritain.org.uk/place/10416</idno>
+               <note type="charter">MS. Rolls Salop. 3</note>
+            </place>
+            
+            <place type="place" xml:id="place_108508">
+               <placeName type="index">Mavesyn Ridware</placeName>
+               <placeName type="formInDocument">Maveson Rydware, co. Stafford</placeName>
+               <region type="parish">Mavesyn Ridware</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/STS/MavesynRidware</idno>
+               <idno>https://www.visionofbritain.org.uk/place/8487</idno>
+               <note type="charter">MS. Ch. Staffs. 9</note>
+            </place>
+            
+            <place type="place" xml:id="place_108509">
+               <placeName type="index">Meere (unidentified)</placeName>
+               <placeName type="formInDocument">Meere</placeName>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108510">
+               <placeName type="index">Markwich Fm</placeName>
+               <placeName type="formInDocument">Merkewyke</placeName>
+               <region type="parish">Hascombe</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/Hascombe/53287104b47fc40c2300057e-Markwich+Fm</idno>
+               <note type="charter">MS. Ch. Surrey 9</note>
+            </place>
+            
+            <place type="place" xml:id="place_108511">
+               <placeName type="index">Mersh (unidentified)</placeName>
+               <placeName type="formInDocument">Mersh</placeName>
+               <placeName type="formInDocument">Mershe</placeName>
+               <note type="charter">MS. Rolls Northants. 10</note>
+               <note type="charter">MS. Ch. Salop. 10</note>
+            </place>
+            
+            <place type="place" xml:id="place_108512">
+               <placeName type="index">Metheene (unidentified)</placeName><!--Mathern in Monmouthshire?-->
+               <placeName type="formInDocument">Metheene</placeName>
+               <region type="county">Monmouthshire</region>
+               <note type="charter">MS. Ch. Monmouthshire 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108513">
+               <placeName type="index">Midilton (unidentified)</placeName>
+               <placeName type="formInDocument">Midilton</placeName>
+               <note type="charter">MS. Ch. Staffs. 42</note>
+            </place>
+            
+            <place type="place" xml:id="place_108514">
+               <placeName type="index">Mildenhall</placeName>
+               <placeName type="formInDocument">Mildenhall</placeName>
+               <region type="parish">Mildenhall</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Wiltshire/532886dab47fc40d38000cb9-Mildenhall</idno>
+               <idno>https://www.genuki.org.uk/big/eng/WIL/Mildenhall</idno>
+               <note type="charter">MS. Ch. Wilts. 14</note>
+            </place>
+            
+            <place type="place" xml:id="place_108515">
+               <placeName type="index">Mitcham</placeName>
+               <placeName type="formInDocument">Mitcham, Surrey</placeName>
+               <region type="parish">Mitcham</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287108b47fc40c23000a4f-Mitcham</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Mitcham</idno>
+               <note type="charter">MS. Ch. Surrey 7</note>
+            </place>
+            
+            <place type="place" xml:id="place_108516">
+               <placeName type="index">Monkesoryate (unidentified)</placeName>
+               <placeName type="formInDocument">Monkesoryate</placeName>
+               <region type="county">Shropshire</region>
+               <note type="charter">MS. Ch. Salop. 68</note>
+            </place>
+            
+            <place type="place" xml:id="place_108517">
+               <placeName type="index">Monkton Farleigh</placeName>
+               <placeName type="formInDocument">Monks' Farleigh</placeName>
+               <region type="parish">Monkton Farleigh</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Wiltshire/532886dab47fc40d38000cbe-Monkton+Farleigh</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12017</idno>
+               <note type="charter">MS. Ch. Wilts. 9</note>
+            </place>
+            
+            <place type="place" xml:id="place_108518">
+               <placeName type="index">Montacute</placeName>
+               <placeName type="formInDocument">Montecute</placeName>
+               <region type="parish">Montacute</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Montacute</idno>
+               <note type="charter">MS. Ch. Somerset 46</note>
+            </place>
+            
+            <place type="place" xml:id="place_108519">
+               <placeName type="index">Moreley under Haughmond (unidentified)</placeName>
+               <placeName type="formInDocument">Moreley</placeName>
+               <placeName type="formInDocument">Moreley under Hamond</placeName>
+               <placeName type="formInDocument">Moreley under Haughmond</placeName>
+               <placeName type="formInDocument">Morley</placeName>
+               <placeName type="formInDocument">Moreleys</placeName>
+               <region type="county">Shropshire</region>
+               <note type="charter">MS. Ch. Salop. 69</note>
+               <note type="charter">MS. Ch. Salop. 92</note>
+               <note type="charter">MS. Rolls Salop. 3</note>
+               <note type="charter">MS. Ch. Salop. 88</note>
+            </place>
+            
+            <place type="place" xml:id="place_108520">
+               <placeName type="index">Mortlake</placeName>
+               <placeName type="formInDocument">Mortlake</placeName>
+               <placeName type="formInDocument">Mortlake, Surrey</placeName>
+               <region type="parish">Mortlake</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287108b47fc40c23000a52-Mortlake</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Mortlake</idno>
+               <note type="charter">MS. Ch. Surrey 18</note>
+               <note type="charter">MS. Ch. Surrey 19</note>
+            </place>
+            
+            <place type="place" xml:id="place_108521">
+               <placeName type="index">Moreton</placeName>
+               <placeName type="formInDocument">Moreton</placeName>
+               <placeName type="formInDocument">Morton</placeName>
+               <region type="parish">Gnosall</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Staffordshire/Gnosall/53286ff6b47fc40c190003ec-Moreton</idno>
+               <idno>https://www.visionofbritain.org.uk/place/24446</idno>
+               <note type="charter">MS. Ch. Salop. 75</note>
+               <note type="charter">MS. Ch. Salop. 11</note>
+               <note type="charter">MS. Ch. Staffs. 30</note>
+               <note type="charter">MS. Ch. Staffs. 31</note>
+               <note type="charter">MS. Ch. Staffs. 32</note>
+               <note type="charter">MS. Ch. Staffs. 33</note>
+               <note type="charter">MS. Ch. Staffs. 34</note>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+               <note type="charter">MS. Ch. Staffs. 59</note>
+               <note type="charter">MS. Ch. Staffs. 60</note>
+            </place>
+            
+            <place type="place" xml:id="place_108522">
+               <placeName type="index">Mold</placeName>
+               <placeName type="formInDocument">Mould in Flintshire</placeName>
+               <region type="parish">Mold</region>
+               <region type="county">Flintshire</region>
+               <idno>https://www.genuki.org.uk/big/wal/FLN/Mold</idno>
+               <idno>https://www.visionofbritain.org.uk/place/1114</idno>
+               <note type="charter">MS. Ch. Flintshire 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108523">
+               <placeName type="index">Mounton</placeName>
+               <placeName type="formInDocument">Mouncton</placeName>
+               <region type="parish">Mounton</region>
+               <region type="county">Monmouthshire</region>
+               <idno>https://www.visionofbritain.org.uk/place/10813</idno>
+               <idno>https://www.genuki.org.uk/big/wal/MON/Mounton</idno>
+               <note type="charter">MS. Ch. Monmouthshire 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108524">
+               <placeName type="index">Mousley End</placeName>
+               <placeName type="formInDocument">Mousleye</placeName>
+               <region type="parish">Rowington</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/Rowington/53287419b47fc40c5f0003fd-Mousley+End</idno>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108525">
+               <placeName type="index">Middlezoy</placeName>
+               <placeName type="formInDocument">Myddelsoy</placeName>
+               <region type="parish">Middlezoy</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Middlezoy</idno>
+               <idno>https://www.visionofbritain.org.uk/place/13101</idno>
+               <note type="charter">MS. Ch. Somerset 8</note>
+            </place>
+            
+            <place type="place" xml:id="place_108526">
+               <placeName type="index">Naas</placeName>
+               <placeName type="formInDocument">Naas in the county of Kildare</placeName>
+               <region type="parish">Naas</region>
+               <region type="county">Kildare</region>
+               <idno>https://www.genuki.org.uk/big/irl/KID/Naas</idno>
+               <note type="charter">MS. Ch. Ir. 3</note>
+            </place>
+            
+            <place type="place" xml:id="place_108527">
+               <placeName type="index">Nateby</placeName>
+               <placeName type="formInDocument">Nateby</placeName>
+               <region type="parish">Kirkby Stephen</region>
+               <region type="county">Westmorland</region>
+               <idno>http://epns.nottingham.ac.uk/browse/Westmorland/Kirkby+Stephen/532876a2b47fc40c6f0013e2-Nateby</idno>
+               <note type="charter">MS. Rolls Westmorland 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108528">
+               <placeName type="index">Great Ness</placeName>
+               <placeName type="formInDocument">Nesshe</placeName>
+               <region type="parish">Great Ness</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f1a01eb47fc426160001a3-Great+Ness</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/GreatNess</idno>
+               <note type="charter">MS. Ch. Salop. 13</note>
+            </place>
+            
+            <place type="place" xml:id="place_108529">
+               <placeName type="index">Newton</placeName>
+               <placeName type="formInDocument">Newton, in the parish of Blithefield</placeName>
+               <region type="parish">Blithfield</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://www.visionofbritain.org.uk/place/7888</idno>
+               <note type="charter">MS. Ch. Staffs. 14</note>
+            </place>
+            
+            <place type="place" xml:id="place_108530">
+               <placeName type="index">Netheravon</placeName>
+               <placeName type="formInDocument">Netheraven</placeName>
+               <region type="parish">Netheravon</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Wiltshire/532886dab47fc40d38000cbf-Netheravon</idno>
+               <idno>https://www.genuki.org.uk/big/eng/WIL/Netheravon</idno>
+               <note type="charter">MS. Ch. Wilts. 15</note>
+            </place>
+            
+            <place type="place" xml:id="place_108531">
+               <placeName type="index">Netherham (unidentified)</placeName>
+               <placeName type="formInDocument">Netherham</placeName>
+               <note type="charter">MS. Ch. Somerset 8</note>
+            </place>
+            <place type="place" xml:id="place_108532">
+               <placeName type="index">Newbold upon Avon or Newbold Pacey</placeName>
+               <placeName type="formInDocument">Neubold</placeName>
+               <region type="parish">Newbold upon Avon</region>
+               <region type="parish">Newbold Pacey</region>
+               <region type="county">Warwickshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/5328741db47fc40c5f0006a8-Newbold+on+Avon</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/5328741db47fc40c5f0006a9-Newbold+Pacey</idno>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            <place type="place" xml:id="place_108533">
+               <placeName type="index">Newhall</placeName>
+               <placeName type="formInDocument">Neuhall, co. Derby</placeName>
+               <region type="parish">Stanton and Newhall</region>
+               <region type="county">Derbyshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Derbyshire/Stanton+and+Newhall/53284cf5b47fc4095c00190c-Newhall</idno>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            <place type="place" xml:id="place_108534">
+               <placeName type="index">Newport</placeName>
+               <placeName type="formInDocument">Neuport</placeName>
+               <region type="parish">Newport</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f1a13bb47fc426160001eb-Newport</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SAL/Newport</idno>
+               <note type="charter">MS. Ch. Salop. 75</note>
+            </place>
+            
+            <place type="place" xml:id="place_108535">
+               <placeName type="index">Newborough</placeName>
+               <placeName type="formInDocument">Newburgh</placeName>
+               <region type="parish">Newborough</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/STS/Newborough</idno>
+               <idno>https://www.visionofbritain.org.uk/place/8420</idno>
+               <note type="charter">MS. Ch. Salop. 28</note>
+            </place>
+            
+            <place type="place" xml:id="place_108536">
+               <placeName type="index">Newington</placeName>
+               <placeName type="formInDocument">Newington</placeName>
+               <placeName type="formInDocument">ST. MARY'S, NEWINGTON</placeName>
+               <region type="parish">Newington</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287108b47fc40c23000a54-Newington</idno>
+               <idno>https://www.genuki.org.uk/big/eng/SRY/Newington</idno>
+               <note type="charter">MS. Ch. Surrey 22a</note>
+               <note type="charter">MS. Rolls Surrey 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108537">
+               <placeName type="index">Newton St Loe</placeName>
+               <placeName type="formInDocument">Newton St. Elow</placeName>
+               <placeName type="formInDocument">Newton St. Elowe</placeName>
+               <placeName type="formInDocument">Newton St. Loe</placeName>
+               <region type="parish">Newton St Loe</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/NewtonStLoe</idno>
+               <idno>https://www.visionofbritain.org.uk/place/13115</idno>
+               <note type="charter">MS. Ch. Somerset 2</note>
+               <note type="charter">MS. Ch. Somerset 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108538">
+               <placeName type="index">Norley</placeName>
+               <placeName type="formInDocument">Nordeley</placeName>
+               <region type="parish">Norley</region>
+               <region type="county">Cheshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/CHS/Norley</idno>
+               <idno>https://www.visionofbritain.org.uk/place/1483</idno>
+               <note type="charter">MS. Ch. Salop. 30</note>
+               <note type="charter">MS. Ch. Salop. 31</note>
+            </place>
+            
+            <place type="place" xml:id="place_108539">
+               <placeName type="index">North Cadbury</placeName>
+               <placeName type="formInDocument">North Cadbury</placeName>
+               <region type="parish">North Cadbury</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/NorthCadbury</idno>
+               <note type="charter">MS. Ch. Somerset 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108540">
+               <placeName type="index">North Elmham</placeName>
+               <placeName type="formInDocument">North Elmham</placeName>
+               <region type="parish">North Elmham</region>
+               <region type="county">Norfolk</region>
+               <idno>https://www.genuki.org.uk/big/eng/NFK/Elmham_North</idno>
+               <idno>https://www.visionofbritain.org.uk/place/2921</idno>
+               <note type="charter">MS. Ch. Salop. 27b</note>
+            </place>
+            
+            <place type="place" xml:id="place_108541">
+               <placeName type="index">Norbury</placeName>
+               <placeName type="formInDocument">Northbur, co. Stafford</placeName>
+               <region type="parish">Norbury</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f1a13cb47fc426160001ec-Norbury</idno>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108542">
+               <placeName type="index">Northgate</placeName>
+               <placeName type="formInDocument">Northgate</placeName>
+               <placeName type="formInDocument">Northgate near Newerk</placeName>
+               <region type="parish">Newark</region>
+               <region type="county">Nottinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Nottinghamshire/Borough+of+Newark/53286be8b47fc40bd40000bd-Northgate</idno>
+               <note type="charter">MS. Ch. Notts. 25</note>
+               <note type="charter">MS. Ch. Notts. 8</note>
+            </place>
+            
+            <place type="place" xml:id="place_108543">
+               <placeName type="index">Northwood (unidentified)</placeName>
+               <placeName type="formInDocument">Northwood</placeName>
+               <!-- Perhaps one of these in Shropshire?
+                   <idno>https://epns.nottingham.ac.uk/browse/Shropshire/Ellesmere/53d8a638b47fc4463d000ed0-Northwood</idno>
+                <idno>https://epns.nottingham.ac.uk/browse/Shropshire/Prees/53d8a532b47fc4463d00099b-Northwood</idno>-->
+               <note type="charter">MS. Ch. Staffs. 38</note>
+            </place>
+            
+            <place type="place" xml:id="place_108544">
+               <placeName type="index">Northill</placeName>
+               <placeName type="formInDocument">Northyevell, Lincoln diocese</placeName>
+               <region type="parish">Northill</region>
+               <region type="county">Bedfordshire</region>
+               <idno>http://epns.nottingham.ac.uk/browse/id/53282b41b47fc407a9000386</idno>
+               <note type="charter">MS. Ch. Misc. 239</note>
+            </place>
+            
+            <place type="place" xml:id="place_108545">
+               <placeName type="index">Norton</placeName>
+               <placeName type="formInDocument">Norton</placeName>
+               <region type="parish">Norton</region>
+               <region type="county">Nottinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Nottinghamshire/53286bedb47fc40bd40007bd-Norton</idno>
+               <note type="charter">MS. Ch. Notts. 7</note>
+            </place>
+            
+            <place type="place" xml:id="place_108546">
+               <placeName type="index">Ockham</placeName>
+               <placeName type="formInDocument">Ockham, co. Surrey</placeName>
+               <region type="parish">Ockham</region>
+               <region type="county">Surrey</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Surrey/53287108b47fc40c23000a56-Ockham</idno>
+               <idno>https://www.visionofbritain.org.uk/place/1966</idno>
+               <note type="charter">MS. Ch. Surrey 20</note>
+            </place>
+            
+            <place type="place" xml:id="place_108547">
+               <placeName type="index">Oldham</placeName>
+               <placeName type="formInDocument">Oldham</placeName>
+               <region type="parish">Oldham</region>
+               <region type="county">Lancashire</region>
+               <idno>https://www.genuki.org.uk/big/eng/LAN/Oldham</idno>
+               <note type="charter">MS. Ch. Warwick. 20</note>
+            </place>
+            
+            <place type="place" xml:id="place_108548">
+               <placeName type="index">Onleistune (unidentified)</placeName>
+               <placeName type="formInDocument">Onleistune</placeName>
+               <note type="charter">MS. Ch. Misc. 222</note>
+            </place>
+            
+            <place type="place" xml:id="place_108549">
+               <placeName type="index">Orslow</placeName>
+               <placeName type="formInDocument">Orselowe</placeName>
+               <region type="parish">Church Eaton</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Staffordshire/Church+Eaton/53286ff6b47fc40c1900035d-Orslow</idno>
+               <note type="charter">MS. Ch. Salop. 75</note>
+               <note type="charter">MS. Ch. Staffs. 34</note>
+            </place>
+            
+            <place type="place" xml:id="place_108550">
+               <placeName type="index">Othery</placeName>
+               <placeName type="formInDocument">Othe</placeName>
+               <placeName type="formInDocument">OTHE</placeName>
+               <placeName type="parish">Othery</placeName>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Othery</idno>
+               <idno>https://www.visionofbritain.org.uk/place/13133</idno>
+               <note type="charter">MS. Ch. Somerset 29</note>
+               <note type="charter">MS. Rolls Somerset 3</note>
+            </place>
+            
+            <place type="place" xml:id="place_108551">
+               <placeName type="index">Pathe (unidentified)</placeName>
+               <placeName type="formInDocument">Pathe</placeName>
+               <region type="parish">Othery</region>
+               <region type="county">Somerset</region>
+               <bibl>'Othery', in <title>A History of the County of Somerset: Volume 8, the Poldens and the Levels</title>, ed. Robert Dunning (London, 2004), pp. 134-146. <title>British History Online</title> http://www.british-history.ac.uk/vch/som/vol8/pp134-146 [accessed 3 March 2022].</bibl>
+               <note type="charter">MS. Ch. Somerset 29</note>
+            </place>
+            
+            <place type="place" xml:id="place_108552">
+               <placeName type="index">Pembroke</placeName>
+               <placeName type="formInDocument">Pembroke</placeName>
+               <region type="parish">Pembroke</region>
+               <region type="county">Pembrokeshire</region>
+               <idno>https://www.visionofbritain.org.uk/place/1115</idno>
+               <idno>https://www.genuki.org.uk/big/wal/PEM/Pembroke</idno>
+               <note type="charter">MS. Pedigree Rolls 23</note>
+            </place>
+            
+            <place type="place" xml:id="place_108553">
+               <placeName type="index">Penkridge</placeName>
+               <placeName type="formInDocument">Penkeriche within the county of Stafford</placeName>
+               <region type="parish">Penkridge</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Staffordshire/Penkridge/53286fffb47fc40c190007e0-Penkridge</idno>
+               <idno>https://www.genuki.org.uk/big/eng/STS/Penkridge</idno>
+               <note type="charter">MS. Ch. Salop. 68</note>
+            </place>
+            
+            <place type="place" xml:id="place_108554">
+               <placeName type="index">Pensford</placeName>
+               <placeName type="formInDocument">Pensford</placeName>
+               <region type="parish">Pensford</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Pensford</idno>
+               <idno>https://www.visionofbritain.org.uk/place/21589</idno>
+               <note type="charter">MS. Ch. Somerset 1</note>
+               <note type="charter">MS. Ch. Somerset 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108555">
+               <placeName type="index">Perton</placeName>
+               <placeName type="formInDocument">Perton</placeName>
+               <region type="parish">Perton</region>
+               <region type="county">Staffordshire</region>
+               <idno>https://www.wikidata.org/wiki/Q946109</idno>
+               <note type="charter">MS. Ch. Staffs. 37</note>
+            </place>
+            
+            <place type="place" xml:id="place_108556">
+               <placeName type="index">Pola (unidentified)</placeName>
+               <placeName type="formInDocument">Pola</placeName>
+               <note type="charter">MS. Ch. Denbighshire 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108557">
+               <placeName type="index">Polemerick (unidentified)</placeName>
+               <placeName type="formInDocument">Polemerick</placeName>
+               <note type="charter">MS. Ch. Monmouthshire 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108558">
+               <placeName type="index">Putley</placeName>
+               <placeName type="formInDocument">Potteleye</placeName>
+               <region type="parish">Putley</region>
+               <region type="county">Herefordshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/HEF/Putley</idno>
+               <idno>https://www.visionofbritain.org.uk/place/2729</idno>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108559">
+               <placeName type="index">Priddy</placeName>
+               <placeName type="formInDocument">Pridy</placeName>
+               <region type="parish">Priddy</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Priddy</idno>
+               <idno>https://www.visionofbritain.org.uk/place/13154</idno>
+               <note type="charter">MS. Ch. Somerset 45</note>
+            </place>
+            
+            <place type="place" xml:id="place_108560">
+               <placeName type="index">Publow</placeName>
+               <placeName type="formInDocument">Publew</placeName>
+               <placeName type="formInDocument">Publiew</placeName>
+               <region type="parish">Publow</region>
+               <region type="county">Somerset</region>
+               <idno>https://www.genuki.org.uk/big/eng/SOM/Publow</idno>
+               <idno>https://www.visionofbritain.org.uk/place/13156</idno>
+               <note type="charter">MS. Ch. Somerset 1</note>
+               <note type="charter">MS. Ch. Somerset 2</note>
+            </place>
+            
+            <place type="place" xml:id="place_108561">
+               <placeName type="index">King's Pyon</placeName>
+               <placeName type="formInDocument">Pyonia</placeName>
+               <region type="parish">King's Pyon</region>
+               <region type="county">Herefordshire</region>
+               <idno>https://www.genuki.org.uk/big/eng/HEF/KingsPyon</idno>
+               <idno>https://www.wikidata.org/wiki/Q20081205</idno>
+               <note type="charter">MS. Ch. Warwick. 4</note>
+            </place>
+            
+            <place type="place" xml:id="place_108562">
+               <placeName type="index">Radford</placeName>
+               <placeName type="formInDocument">Radeford</placeName>
+               <region type="parish">Radford</region>
+               <region type="county">Nottinghamshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Nottinghamshire/53286bedb47fc40bd40007cd-Radford</idno>
+               <idno>https://www.genuki.org.uk/big/eng/NTT/Radford</idno>
+               <note type="charter">MS. Ch. Notts. 26</note>
+            </place>
+            
+            <place type="place" xml:id="place_108563">
+               <placeName type="index">Redlynch</placeName>
+               <placeName type="formInDocument">Radelynch</placeName>
+               <placeName type="formInDocument">Radelynche</placeName>
+               <region type="parish">Bruton</region>
+               <region type="county">Wiltshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Wiltshire/532886dab47fc40d38000cde-Redlynch</idno>
+               <idno>https://www.visionofbritain.org.uk/place/12070</idno>
+               <note type="charter">MS. Ch. Wilts. 21</note>
+               <note type="charter">MS. Ch. Wilts. 24</note>
+               <note type="charter">MS. Ch. Wilts. 20</note>
+            </place>
+            
+            <place type="place" xml:id="place_108564">
+               <placeName type="index">Radennalle (unidentified)</placeName>
+               <placeName type="formInDocument">Radennalle</placeName>
+               <placeName type="formInDocument">Radeunall</placeName>
+               <placeName type="formInDocument">Radewalle</placeName>
+               <placeName type="formInDocument">Radewelles</placeName>
+               <note type="charter">MS. Rolls Salop. 1</note>
+            </place>
+            
+            <place type="place" xml:id="place_108565">
+               <placeName type="index">Romsley</placeName>
+               <placeName type="formInDocument">Ramesley</placeName>
+               <region type="parish">Romsley</region>
+               <region type="county">Shropshire</region>
+               <idno>https://epns.nottingham.ac.uk/browse/Shropshire/53f1a14ab47fc42616000200-Romsley</idno>
+               <idno>https://www.visionofbritain.org.uk/place/10465</idno>
+               <note type="charter">MS. Ch. Salop. 30</note>
+            </place>
+            
+            <place type="place" xml:id="place_108567">
+               <placeName type="index">Rouen</placeName>
+               <placeName type="formInDocument">Rouen</placeName>
+               <region type="country">France</region>
+               <idno>https://www.wikidata.org/wiki/Q30974</idno>
+               <note type="charter">MS. Ch. Misc. 240</note>
+            </place>
+            
+            
+cont here
+
+7-figure keys - is this a problem?
             <place type="manor" xml:id="place_1083230">
                <placeName type="index">Maids Moreton (Christchurch)</placeName>
                <placeName type="formInDocument"></placeName>
@@ -35181,7 +37485,7 @@
                <placeName type="formInDocument">Greneberue</placeName>
                <region type="parish">Grandborough</region>
                <region type="county">Warwickshire</region>
-               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/Grandborough/53287435b47fc40c5f000772-Grandborough</idno>
+               <idno>https://epns.nottingham.ac.uk/browse/Warwickshire/5328741cb47fc40c5f000668-Grandborough</idno>
                <idno>https://www.genuki.org.uk/big/eng/WAR/Grandborough</idno>
                <note type="charter">MS. Ch. Leics. 17</note>
             </place>
@@ -44299,7 +46603,6 @@
             <place type="country" xml:id="place_109472">
                <placeName type="index">Scotland</placeName>
                <placeName type="formInDocument">scotland</placeName>
-               <placeName type="index">Scotland</placeName>
                <idno>https://www.genuki.org.uk/big/sct</idno>
                <idno>https://www.wikidata.org/wiki/Q22</idno>
                <note type="charter">MS. Ch. Middlesex 49</note>
@@ -48913,6 +51216,7 @@
             <org xml:id="org_103050">
                <orgName type="index">Wallingwells, priory of Benedictine nuns</orgName>
                <orgName type="formInDocument">Wallingwellez</orgName>
+               <region type="county" key="place_000063">Nottinghamshire</region>
                <idno>https://www.wikidata.org/wiki/Q7963117</idno>
                <note type="charter">MS. Ch. Yorks. 242b</note>
             </org>
