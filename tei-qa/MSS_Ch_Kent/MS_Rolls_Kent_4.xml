@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_113258">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Kent 4</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Kent_4</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Kent_4" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Kent 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> Customs of the manor of <placeName type="manor" key="place_1083656">Thorney Lesons, co. Suffolk</placeName>, &amp;c. and copies of charters; 
+                  (<origDate notBefore="1500" notAfter="1525" precision="low">beg. 16th century</origDate>)
+                   </p>
+                  </msItem>
+                  <msItem>
+                     <p>(a) Customs of the tenants of the manor,
+                  whether free or native, concerning their tenures. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(b) <persName>
+                           <forename>Avelina</forename> de <surname>Lucye</surname>
+                        </persName> 
+                     grants to the <orgName key="org_108041">church of St. Thomas the martyr of Lesnes and the canons there</orgName>, 
+                  for the health of her soul and for the souls of 
+                  <persName>
+                           <forename>Richard</forename> de <surname>Luci</surname>
+                        </persName> her father
+                  and <persName>
+                           <forename>Richard</forename> 
+                           <surname>Munfichet</surname>
+                        </persName>
+                     her son, 40s. of rent from her marriage-dowry of <placeName type="manor" key="place_1083656">Thorney</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(c) Note of the appropriation of the church of <placeName key="place_1083511">Rammesden Belhouse</placeName> to the <orgName key="org_108041">abbot and convent of Lesnes</orgName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(d) Notes of annual rents in <placeName key="place_105237">Clopton</placeName>, 50s. 
+                  Pension of 26s. 8d. from the church of <placeName key="place_1083511">Rammesden Belhouse</placeName> and
+                  13s. 4d. from <placeName key="place_1083554">Steple Morden</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p> (e) <persName>
+                           <forename>Walkeline</forename> de <surname>Greinwyche</surname>
+                        </persName> 
+                    grants to the <orgName key="org_108041">abbot and convent of Lesnes</orgName> one part of his land lying
+                    between the land of the <placeName key="place_10834164">church of St. Alphage, Greenwich</placeName>, on
+                  the east, and one wall which descends to the cemetery <pb n="110"/> in the way which
+                  extends to the Thames at the gate of St. Alphage; also one acre of land in 
+                  <placeName type="minor">Mulefelde</placeName> between the land of
+                    the prior of <orgName key="org_108080">Southwarke</orgName> and of
+                  <persName>
+                           <forename>Adam</forename>, <surname type="patronymic">son of Gunnora</surname>
+                        </persName>; 
+                  and 2 [blank] and one parcel of land behind the church of Greenwich.</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="109" to="110">109-110</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

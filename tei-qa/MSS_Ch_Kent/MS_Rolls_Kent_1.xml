@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_113255">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Kent 1</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Kent_1</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Kent_1" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Kent 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> CANTERBURY (Priory of). Enrolment of 52 charters pertaining to the villages of
+                  <placeName key="place_1083479">Middleton</placeName>, <placeName key="place_106051">Bocking</placeName>,
+                  <placeName key="place_105415">Mersea</placeName>, <placeName key="place_105429">Monks-Illegh</placeName>,
+                  <placeName key="place_1083424">Hadley</placeName>, <placeName key="place_104276">Depeham</placeName>, 
+                  <placeName key="place_1083361">Clyve</placeName>, <placeName key="place_1083538">St. Botulph's</placeName>,
+                  <placeName key="place_1083390">Esshe</placeName> and <placeName key="place_1083397">Exeter</placeName>, of lands &amp;c.
+                  belonging to the <orgName key="org_104018">priory of Christ Church, Canterbury</orgName>.
+                  (<origDate notBefore="1270" notAfter="1280" precision="low">c. 1270-80</origDate>.) 
+                   </p>
+                  </msItem>
+                  <msItem>
+                     <p>(a) <persName>
+                           <forename>John</forename> de <surname>Walflet</surname>
+                        </persName> grants to God and B. Mary and to 
+                  <persName>sir <forename>John</forename>, the prior</persName>, and 
+                     <orgName key="org_104018">convent of Christ Church, Canterbury</orgName>, in frankalmoigne, a rent of 3s.
+                  which he was accustomed to receive in the name of one sparrowhawk, and all right and claim
+                  that he has or can have in homages and services, reliefs and heriots, and all
+                  other appurtenances, namely of the fee which was 
+                  <persName>
+                           <forename>Robert</forename> 
+                           <surname>Poyntel</surname>
+                        </persName>'s in the
+                     village of <placeName key="place_1083479">Middleton</placeName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(b) <persName>
+                           <forename>John</forename> de <surname>Walflet</surname>
+                        </persName>
+                  quit-claims to <persName>sir <forename>John</forename>, the prior</persName>, and
+                     <orgName key="org_104018">convent of Christ Church, Canterbury</orgName>, all his right in the above rent
+                  of 3s., and services of the fee of 
+                  <persName>
+                           <forename>Robert</forename> 
+                           <surname>Poyntel</surname>
+                        </persName>'s in
+                     <placeName key="place_1083479">Middleton</placeName>. For this grant the prior and convent
+                     gave to him 60s. sterling by the hands of brother <persName>
+                           <forename>John</forename> de <surname>Hereford</surname> then keeper of the manor of <placeName type="manor" role="person" key="place_1083639">Middleton</placeName>
+                        </persName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(c) <persName>
+                           <forename>William</forename>, <surname type="patronymic">son of Hugh</surname>
+                        </persName>, 
+                     grants to the <orgName key="org_104018">church of St. Mary and the monks</orgName> there in frankalmoigne,
+                     12d. rent in the village of <placeName key="place_1083479">Middleton</placeName>, namely
+                  that which Samuel 'de campo' used to pay for two acres of land in the same
+                  village. Besides he granted and quitclaimed to the monks the homage of the said
+                  Samuel and any other homage that should fall to him by reason of the said rent. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(d) <persName>
+                           <forename>Gilbert</forename>, <surname type="patronymic">son of Henry</surname>
+                        </persName>, 
+                     acknowledges that seven acres of land in the village of <placeName key="place_106051">Bockinges</placeName>
+                     to be the right of the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>,
+                  namely those seven acres which <persName>
+                           <forename>Baldwin</forename> de <surname>Buvetone</surname>
+                        </persName> 
+                  held, which lie between the wood of the said 
+                  prior and convent called 'Le Ho' and the wood of
+                  <persName>
+                           <forename>Richard</forename> de <surname>Boveton</surname>
+                        </persName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+                        <pb n="104"/>
+                  (e) <persName>
+                           <forename>Saer</forename> de <surname>Bredeford</surname>
+                        </persName> grants
+                  to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                  frankalmoigne, the homage and service of <persName nymRef="Branketre">
+                           <forename>Roger</forename>, son of <persName>
+                              <forename>Robert</forename> de <surname>Branketre</surname>
+                           </persName>
+                        </persName>,
+                  and 11d. annual rent with [the worth of] one mark in autumn which the same Roger 
+                  was accustomed to pay for the messuage which 
+                  <persName>
+                           <forename>Roger</forename> le <surname>Drapier</surname>
+                        </persName>
+                  holds of him, and from a field called '<placeName type="minor">Melnefelde</placeName>.'</p>
+                  </msItem>
+                  <msItem>
+                     <p>(f) <persName>Sir <forename>John</forename> de <surname>Bockyng</surname>, kt.</persName>, 
+                  quit-claims all right which he has or can have in a meadow called '<placeName type="minor">Hopimedewe</placeName>' 
+                     in <placeName key="place_106051">Booking</placeName>, to the 
+                     <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in frankalmoigne.
+                  Dated in the month of September, <origDate notBefore="1261-10-28" notAfter="1262-10-27">46 Hen. III</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(g) <persName nymRef="Turry">
+                           <forename>Gilbert</forename>, son of <persName>
+                              <forename>Adam</forename> de  <surname>Turry</surname>
+                           </persName>
+                        </persName>, 
+                     grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, the
+                  whole of his meadow which <persName>
+                           <forename>Adam</forename> de <surname>Turry</surname>
+                        </persName> 
+                  his father held of the feoffment of <persName>
+                           <forename>Matilda</forename> de <surname>Efford</surname>
+                        </persName> 
+                  in the meadow of '<placeName type="minor">Oppymed</placeName>.' To hold the same in
+                  frankalmoigne, paying to the heirs of the said Matilda 8d. annually and to himself and
+                  his heirs one rose on St. John the Baptist day in the cemetery of Brockyng; 
+                  for this donation the prior and convent received the said
+                  Gilbert into the benefits of Christ Church, Canterbury.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(h) <persName>
+                           <forename>Nicholas</forename> 'de Camera'</persName> and 
+                  <persName type="Camera">
+                           <forename>Ysabella</forename> his wife</persName>, formerly wife
+                  of <persName>
+                           <forename>Adam</forename> de <surname>Turri</surname>
+                        </persName>, quit-claim
+                  all right which they have by name of dowry after the death of Adam her husband in the
+                  meadow of '<placeName type="minor">Opimed</placeName>' to the
+                     <orgName key="org_104018">prior and convent of Holy Trinity, Canterbury</orgName>, for ever.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(i) <persName nymRef="Brauketr">
+                           <forename>Roger</forename>, son of <persName>
+                              <forename>Robert</forename> de  <surname>Brauketr</surname>
+                           </persName>
+                        </persName>',
+                     grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                     frankalmoigne, a rent of 13d. in the village of <placeName key="place_106051">Bockyng</placeName>,
+                  viz. 8d. from <persName>
+                           <forename>Robert</forename> 
+                           <surname>Wysman</surname>
+                        </persName>
+                  for a certain croft called '<placeName type="minor">Bredecrofte</placeName>' and &amp;d.
+                  from <persName>
+                           <forename>Roger</forename> le <surname>Vinger</surname>
+                        </persName> for
+                  land the grantor held of <persName>
+                           <forename>Godfrey</forename> le <surname>Dicter</surname>
+                        </persName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(k) <persName>
+                           <forename>Turgis</forename> de <surname>Illeghe</surname>
+                        </persName>
+                     recites a grant from the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>,
+                  for his homage and service, of one virgate of land which he bought from 
+                  <persName>
+                           <forename>Walter</forename> 
+                           <surname>Marescall</surname>
+                        </persName> in the
+                     village of <placeName key="place_106051">Bocking</placeName>, and one half virgate and one half 'forland'
+                  which he bought of <persName>
+                           <forename>William</forename> 
+                           <surname>Ruffus</surname>
+                        </persName> in the same village, to hold the same at an
+                  annual rent of 25s. sterling and 12 loads of barley. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(l) <persName>
+                           <forename>Roger</forename> the <surname>Parker ("Parcarius")</surname>
+                        </persName> and
+                  <persName nymRef="Parker">
+                           <forename>Alina</forename> his wife</persName> grant and
+                     quit-claim to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, all
+                  their right in the whole of that land with appurtenances lying in the village of
+                     <placeName key="place_106051">Bockyng</placeName> which
+                  is called 'Hole-eye,' between the land of the prior and convent on either side.
+                  For this grant &amp;c., recorded in the court of the 
+                     <orgName key="org_108072">prior and convent of Bockyng</orgName>, <origDate notBefore="1248-10-28" notAfter="1249-10-27">33 Hen. III</origDate>, they gave to
+                  Roger and Alina 50s. sterling by the hand of Dunstan a mark of their church. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(m) <persName nymRef="Boninton">
+                           <forename>Simon</forename>, son of <persName>
+                              <forename>Alina</forename> de <surname>Boninton</surname>
+                           </persName>
+                        </persName>,
+                     quit-claims to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, all
+                     his right in the whole of that land which lies in the village of <placeName key="place_106051">Bockynge</placeName>, in the lordship of the prior and convent on either side, and
+                  is called '<placeName type="minor">Holeghe</placeName>' which land Alina his mother 
+                  gave to the said prior and convent. Sealed <origDate notBefore="1248-10-28" notAfter="1249-10-27">33 Hen. III</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(n) <persName>
+                           <forename>Roger</forename> the <surname>Parker</surname>
+                        </persName>
+                  binds himself and his heirs to the 
+                     <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>,
+                  to warrant to <pb n="105"/> them the tenement which he holds by right of
+                     heirship in <placeName key="place_106051">Bockyng</placeName>, viz. the whole of that land called 'Holeghe'
+                  in the same village. Sealed <origDate notBefore="1248-10-28" notAfter="1249-10-27">33 Hen. III</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(o) <persName nymRef="Byendene">
+                           <forename>Amicia</forename>, formerly wife of <persName>
+                              <forename>Robert</forename> 
+                              <surname>Byendene</surname>
+                           </persName>
+                        </persName>, 
+                     quit-claims to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, all
+                  right in a certain meadow called '<placeName type="minor">Opimed</placeName>,' in the
+                     village of <placeName key="place_106051">Bockyng</placeName>; for this quitclaim the prior and convent gave
+                  by the hands of <persName>
+                           <forename>William</forename> de  <surname>Cerring</surname>
+                        </persName>, then
+                     keeper of the manor of <placeName type="manor" key="place_106004">Bockynge</placeName>, 95. sterling. 
+                  Sealed <origDate notBefore="1274-11-20" notAfter="1275-11-19">3 Ed. I</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(p) Convention made on the morrow of the nativity of St. John the Baptist, <origDate when="1277">1277</origDate>, between <persName>sir <forename>Thomas</forename>, the prior of 
+                     <orgName role="prior" key="org_104018">Christ Church, Canterbury</orgName>
+                        </persName>, of the one part,
+                     and <persName>sir <forename>William</forename> called <surname>Folyot</surname>, vicar of <placeName role="vicar" key="place_106051">Bockynge</placeName>
+                        </persName>, 
+                  of the other part, by which the prior grants one croft of the lordship of
+                     <placeName key="place_106051">Bockyng</placeName> lying under the messuage of the said vicar, as it is
+                  inclosed, for the term of his life, at an annual rent of 2s. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(q) <persName>
+                           <forename>Roger</forename>, <surname type="patronymic">son of Gunnilda</surname>
+                        </persName>, 
+                  confirms to <persName>
+                           <forename>Gilbert</forename>, <surname type="patronymic">son of Henry</surname>
+                        </persName>, 
+                  2s. of rent and two men in the month of August, and one penny towards an
+                  aid of 20s., as the charter which Adam his son made to the said Gilbert testifies.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(r) <persName>
+                           <forename>Adam</forename>, son of <persName>
+                              <forename>Roger</forename>, <surname type="patronymic">son of Gunnilda</surname>
+                           </persName>
+                        </persName>, 
+                  grants to <persName>
+                           <forename>Gilbert</forename>, <surname type="patronymic">son of Henry</surname>
+                        </persName>, 
+                  and his heirs, 2s. of rent which <persName nymRef="Bockyng">
+                           <forename>Henry</forename>, son of <persName>
+                              <forename>Walter</forename> de <surname>Bockyng</surname>
+                           </persName>
+                        </persName>, 
+                  was accustomed to pay for certain land which lies in a field called 
+                  '<placeName type="minor">Legha</placeName>' between land of
+                  <persName>
+                           <forename>Roger</forename>, <surname type="patronymic">son of Gunilda</surname>
+                        </persName>, 
+                  and land of <persName>
+                           <forename>Reginald</forename> 
+                           <surname>Heyward</surname>
+                        </persName>; 
+                  and also two men in the month of August which the said Henry was accustomed to find to
+                  reap his corn for one day the said Adam providing their food; and towards an aid of 20s., one penny, and if more, then
+                  more, rendering yearly to him one half-penny; for this grant the said Gilbert 
+                  gave 16s. sterling. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(s) MERSEA, ESSEX. <persName nymRef="Mereseye">
+                           <forename>Godfrey</forename>, son of <persName>
+                              <forename>Geoffrey</forename> de <surname>Mereseye</surname>
+                           </persName>
+                        </persName>, 
+                     grants to <orgName key="org_104018">Christ Church, Canterbury</orgName>, in frankalmoigne, 14d. of annual
+                  rent from <persName>
+                           <forename>Eadward</forename> the <surname>dyer ["tinctore"]</surname>
+                        </persName>
+                  for 5 1/2 acres of land granted to him and his heirs at the above rent. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(t) Convention made between the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, 
+                  of the one part and <persName>
+                           <forename>Ivo</forename> de <surname>Mereseye</surname>
+                        </persName> 
+                  of the other, by which the said prior and convent grant 3 acres of land in
+                  <placeName key="place_105415">Mereseye</placeName>, which were formerly 
+                  <persName>
+                           <forename>Mauwina</forename> de <surname>Mereseye</surname>
+                        </persName>'s 
+                  to him for the term of his life, at an annual rent of 3s. for all services, on condition
+                  of his building dwelling-house there. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(u) MONKS ELEIGH, SUFFOLK. <persName>
+                           <forename>Peter</forename> 
+                           <surname>Bigge</surname> of <placeName role="person" key="place_105419">Meldinges</placeName>
+                        </persName>
+                  quit-claims to <persName>sir <forename>John</forename>, the prior</persName>, and 
+                     <orgName key="org_104018">convent of Christ Church, Canterbury</orgName>, all
+                  his right in 30 acres of land in the village of <placeName key="place_105429">Yllegha</placeName> but 
+                  about which they had had a law-suit; for this quit-claim the
+                  prior and convent gave to him 3 marks sterling. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(v) <persName nymRef="Sigar">
+                           <forename>Thomas</forename>
+                        </persName> and
+                  <persName nymRef="Sigar">
+                           <forename>William</forename>
+                        </persName>, sons of
+                     <persName>
+                           <forename>Richard</forename> 
+                           <surname>Sigar</surname> of <placeName role="person" key="place_105429">Monks Illegh</placeName>
+                        </persName>, 
+                     grant to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                  frank-almoigne, the whole of their pasture in the common way towards
+                     <placeName type="minor">Subire</placeName> in their manor of <placeName type="manor" key="place_1083633">Illegh</placeName>, between a 
+                  field of the prior and convent called '<placeName type="minor">Bivolde</placeName>' on the north, and an alder grove of 
+                  the said prior called '<placeName type="minor">Schortfeu</placeName>'
+                  towards the south, and abuts in length upon the garden of William the sacrist
+                  towards the west, and a pasture of <persName>sir <forename>Matthew</forename> de <surname>Meldinges</surname>
+                        </persName> towards the east. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+                        <pb n="106"/>  
+                  
+                  (w) <persName nymRef="Sigar">
+                           <forename>Emma</forename>, formerly wife of <persName>
+                              <forename>Richard</forename> 
+                              <surname>Sigar</surname> of <placeName role="person" key="place_105429">Monks Illeghe</placeName>
+                           </persName>
+                        </persName>,
+                     quitclaims to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, 
+                  all her right in the pasture described as above (v).</p>
+                  </msItem>
+                  <msItem>
+                     <p>(x) <persName nymRef="Monks Illegh">
+                           <forename>Hugh</forename>, son of <persName>
+                              <forename>Ralph</forename> of <surname>Monks Illegh</surname>
+                           </persName>
+                        </persName>, grants
+                     to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                  frankalmoigne, the homage and service of <persName>
+                           <forename>Anselm</forename> 
+                           <surname>Abot</surname>, gent.</persName>,
+                  7d. annual rent which he was accustomed to pay for 3 acres of land in
+                     <placeName key="place_105429">Monks Illegh</placeName>, in a field called 
+                  '<placeName type="minor">Swdainesland</placeName>' the homage
+                  and service of <persName>
+                           <forename>Adam</forename>, <surname nymRef="patronymic">son of Hugh</surname>
+                        </persName>, 
+                  viz. 4d. of annual rent for a certain messuage held in the same village between the
+                  king's way and the land of <persName>
+                           <forename>Walter</forename> de la  <surname>Mere</surname>
+                        </persName>, and the
+                  homage and service of <persName>
+                           <forename>Walter</forename> de la  <surname>Mere</surname>
+                        </persName>, viz. 5d. of annual rent for one acre of land
+                  in the said village in a field called '<placeName type="minor">Havedland</placeName>,'
+                  with all appurtenances; for which he was admitted to the prayers of the convent. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(y)
+                     <persName>
+                           <forename>Anselm</forename> 
+                           <surname>Abot</surname>
+                        </persName> and <persName nymRef="Abot">
+                           <forename>Agnes</forename> his wife of <placeName role="person" key="place_105429">Monks Illegh</placeName>
+                        </persName> 
+                     grant to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                  frankalmoigne, the homage and service of <persName>
+                           <forename>Hubert</forename> Montchensey ("de Monte Casiesio")</persName>, 
+                  6d. annual rent for 3 acres of land which he held in the village of
+                     <placeName key="place_105429">Monks Illegh</placeName>, in a certain hamlet called '<placeName type="minor">Stacwode</placeName>'; for which they are admitted to the prayers of the convent. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(z) <persName>
+                           <forename>Richard</forename> 
+                           <surname>Daunay</surname>
+                        </persName> and
+                     <persName nymRef="Daunay">
+                           <forename>Claricia</forename> his wife of <placeName role="person" key="place_105429">Monks Illegh</placeName>
+                        </persName> 
+                     grant to the <orgName key="org_104018">church of Christ Church, Canterbury</orgName>, and the monks there,
+                  in frankalmoigne, all right, which they have in 15d. annual rent which
+                  <persName>
+                           <forename>Richard</forename> de <surname>Lelleseye</surname>
+                        </persName> was
+                  accustomed to pay to them for 3 roods of land, which 
+                  <persName>
+                           <forename>Seman</forename>, <surname type="patroymic">son of Augustine</surname>
+                        </persName>, 
+                     sometime held of them in <placeName key="place_105429">Monks Illegh</placeName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(aa) <persName>
+                           <forename>Nicholas</forename> de <surname>Lelleseye</surname>
+                        </persName>,
+                  son of <persName>
+                           <forename>Anselm</forename> de <surname>Lelleseye</surname>
+                        </persName>,
+                     quit-claims to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, all
+                     his right in 2 1/2 acres of wood in <placeName key="place_105429">Monks Illegh</placeName>, which wood lies 
+                  in breadth alongside the wood of the said prior and convent, called 
+                  '<placeName type="minor">Manhey</placeName>' on the east, and the way which leads from
+                     <placeName key="place_105419">Meldinge</placeName> towards <placeName key="place_1083445">Kerseye</placeName> on the west, 
+                  and abuts upon the land of
+                  <persName>
+                           <forename>Richard</forename> de <surname>Watefeld</surname>, kt.</persName>,
+                  called '<placeName type="minor">Wodecroft</placeName>' on the north. 
+                  For this quit-claim the prior and convent gave by the hands of
+                     <persName>
+                           <forename>William</forename> de <surname>Cerring</surname>, then reaper of the manor of <placeName type="manor" role="person" key="place_1083633">Illegh</placeName>
+                        </persName>, 
+                  10s. sterling. Dated the <origDate when="1276-10-10">Saturday after the feast of St. Faith the virgin,
+                  4 Ed. 1</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(bb) <persName>
+                           <forename>Thomas</forename> de <surname>Lelleseye</surname>
+                        </persName>,
+                  son of <persName>
+                           <forename>Anselm</forename> de <surname>Lelleseye</surname>
+                        </persName>,
+                     quit-claims to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, all
+                  his right in the 2 1/2 acres of wood described in (aa), receiving also 10s. 
+                  Dated at the same time. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(cc)
+                  <persName>
+                           <forename>Henry</forename> de <surname>Lelleseye</surname>
+                        </persName>, son of
+                  <persName>
+                           <forename>Anselm</forename> de <surname>Lelleseye</surname>
+                        </persName>,
+                     quit-claims to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, all
+                  his right in the 2 1/2 acres of wood described in (aa), receiving also 10s. 
+                  Dated at the same time. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(dd) HADLEIGH, SUFFOLK. <persName>
+                           <forename>Robert</forename> 
+                           <surname>Ster</surname> of <placeName role="person" type="street" key="place_1083666">Bradestrete</placeName>
+                        </persName> and
+                  <persName nymRef="Ster">
+                           <forename>Matilda</forename> his wife</persName> quit-claim to
+                     <orgName key="org_104018">Christ Church, Canterbury</orgName>, and the monks there, in
+                     frankalmoigne, half an acre of land in <placeName key="place_1083424">Hadleghe</placeName> in a field called
+                  '<placeName type="minor">Dalefeldes</placeName>,' between the demesne of the
+                  court of Hadleghe. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ee) <persName>
+                           <forename>Robert</forename> le <surname>Cornur</surname>
+                        </persName> and
+                  <persName nymRef="Cornur">
+                           <forename>Alice</forename> his wife</persName> quit-claim to
+                     <orgName key="org_104018">Christ Church, <pb n="107"/>Canterbury</orgName>, and the monks
+                     there, in frankalmoigne, half an acre of land in <placeName key="place_1083424">Hadleghe</placeName> in the
+                  field called '<placeName type="minor">Dalefeldes</placeName>,' between the demesne of 
+                  the court of Hadleghe. </p>
+                  </msItem>
+                  <msItem>
+                     <p> (ff) <persName>
+                           <forename>Katherine</forename> de <surname>Audeham</surname>
+                        </persName>,
+                  formerly wife of <persName>
+                           <forename>Roger</forename> de  <surname>Audeham</surname>
+                        </persName>, 
+                    grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                    frankalmoigne, 3 acres of land in <placeName key="place_1083424">Hadlege</placeName> 
+                  called '<placeName type="minor">le Stubbinge</placeName>,' one head abutting upon the
+                  land of <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Eadrich</surname>
+                        </persName>, and
+                  another upon her own land and the land of <persName>
+                           <forename>Matilda</forename> de <surname>Haudeham</surname>
+                        </persName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(gg) <persName nymRef="Haudeham">
+                           <forename>Katherine</forename>, formerly wife</persName>
+                  of <persName>
+                           <forename>Roger</forename> de <surname>Haudeham</surname>
+                        </persName>, in
+                  consideration of a loan of 40s. sterling from 
+                     <persName>
+                           <forename>Henry</forename> 
+                           <surname>Sturdi</surname>, monk of <orgName role="person" key="org_104018">Christ Church, Canterbury</orgName>
+                        </persName>, 
+                  mortgages to him in the name of his church 3 acres of land called 
+                  '<placeName type="minor">le Stubbinge</placeName>' as above; the said 40s.
+                  to be paid within 12 days of the feast day of the Nativity, <origDate notBefore="1256-10-28" notAfter="1257-10-27">41 Hen. III</origDate>,
+                  in default the said 3 acres to remain to the church in frank-almoigne.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(hh) <persName nymRef="Eadriz">John, son of <persName>
+                              <forename>Walter</forename> 
+                              <surname>Eadriz</surname> of <placeName role="person" key="place_1083424">Hadlege</placeName>
+                           </persName>
+                        </persName>,
+                     grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                  frankalmoigne, one half acre of mowing meadow in the
+                  village of <placeName key="place_1083424">Hadlege</placeName>, in a meadow called '<placeName type="minor">Corsfordemed</placeName>' 
+                  between the meadow of <persName>
+                           <forename>William</forename> de  <surname>Gloucestre</surname>
+                        </persName> 
+                  and the bank running towards <placeName type="minor">Prestesbregg</placeName>, one head
+                  abutting on the said bank and another on the wood of <persName>
+                           <forename>Humphrey</forename> de <surname>Denardeston</surname>
+                        </persName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(ii) DEOPHAM, SUFFOLK. <persName nymRef="Marshal">
+                           <forename>Ralph</forename>, son of <persName>
+                              <forename>Richard</forename> the <surname>Marshal</surname> of <placeName role="person" key="place_104276">Depeham</placeName>
+                           </persName>
+                        </persName>, 
+                     grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, his
+                  messuage with lands, rents, edifices and appurtenances which he held of them in <placeName key="place_104276">Depeham</placeName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(kk) <persName nymRef="Marshal">
+                           <forename>Ralph</forename>, son of <persName>
+                              <forename>Richard</forename> the <surname>Marshal (Marescall)</surname> of <placeName role="person" key="place_104276">Depeham</placeName>
+                           </persName>
+                        </persName>,
+                     grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                  frank-almoigne, his messuage, with rents, edifices and appurtenances which he held of 
+                  them in <placeName key="place_104276">Depeham</placeName>, and also all other land to which he may have any 
+                  right there. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(11) <persName nymRef="Sturmi">
+                           <forename>Basilia</forename>, daughter of <persName>
+                              <forename>Hugh</forename> 
+                              <surname>Sturmi</surname>
+                           </persName>
+                        </persName>,
+                     grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                     frankalmoigne, one half acre of land in <placeName key="place_104276">Depeham</placeName> lying between the
+                  land of <persName>
+                           <forename>Richard</forename> del <surname>Hil</surname>
+                        </persName>
+                  towards the west, and the land which was
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Aylward</surname>
+                        </persName>'s towards
+                  the east, and abuts upon the king's street towards the north, and the land of 
+                  <persName>
+                           <forename>Stephen</forename> de la <surname>Grene</surname>
+                        </persName> on
+                  the south; also one rood of land in '<placeName type="minor">Lefstanscroft</placeName>'
+                  lying between the land of  Richard del Hil towards the
+                  north, and the land which was William Aylward's towards the south, and abuts upon the
+                  land of <persName>
+                           <forename>Reginald</forename> 
+                           <surname>Crepyn</surname>
+                        </persName>'s
+                  towards the east, and the church way towards the west. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(mm) <persName>
+                           <forename>Nigel</forename> 
+                           <surname>Crunge</surname> of <placeName role="person" key="place_104276">Depeham</placeName>
+                        </persName> 
+                     grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, one acre
+                  of land which he held of the fee of the church of <placeName key="place_104276">Depeham</placeName> lying in
+                  the field of Depeham in two places, between the lands of
+                  <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Crunge</surname>
+                        </persName> and
+                  <persName>
+                           <forename>Adam</forename> de <surname>Westwelle</surname>
+                        </persName>. 
+                  For this grant the prior gave 12s. of silver. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(nn) <persName>
+                           <forename>Milo</forename>, <surname type="patronymic">son of Elvina</surname> ("<forename>Milo</forename> 
+                           <surname>Elvive</surname>") of <placeName role="person" key="place_104276">Depeham</placeName>
+                        </persName> 
+                     grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, the
+                  whole of that piece of land which lies between
+                  the land of <persName>
+                           <forename>Robert</forename> de <surname>Chaun</surname>
+                        </persName>
+                  and the land which was <persName>
+                           <forename>Gifard</forename> 
+                           <surname>Tholi</surname>
+                        </persName>'s 
+                  in the field of <placeName key="place_104276">Depeham</placeName>; for which they shall give him [yearly]
+                  during his life one comb of barley. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+                        <pb n="108"/>  
+                  
+                  (oo) <persName>
+                           <forename>Robert</forename> 
+                           <surname>Scott</surname>of <placeName role="person" key="place_104276">Depeham</placeName>
+                        </persName> 
+                  and <persName nymRef="Scott">
+                           <forename>Basilia</forename> his wife</persName>
+                  grant to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                  frankalmoigne, one half acre and one rood of land in <placeName key="place_104276">Depeham</placeName>,
+                  described in (ll).</p>
+                  </msItem>
+                  <msItem>
+                     <p>(pp) <persName nymRef="Urry">
+                           <forename>John</forename>, son of <persName>
+                              <forename>Ralph</forename> 
+                              <surname>Urry</surname> of <placeName role="person" key="place_104276">Depeham</placeName>
+                           </persName>
+                        </persName>, 
+                     grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                  frankalmoigne, that mill which Ralph his father gave to him in the
+                  tenement of <placeName key="place_104276">Depeham</placeName>, namely that which is situated in 
+                  '<placeName type="minor">Maydenho</placeName>,' between the land of
+                  <persName>
+                           <forename>Richard</forename>, <surname type="patronymic">son of Avicia</surname>
+                        </persName>, 
+                  towards the west, and the land of <persName>
+                           <forename>David</forename> 
+                           <surname>Ram</surname>
+                        </persName> 
+                  towards the east, and between the land of the said John towards the north and south. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(qq)
+                     <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Urry</surname> of <placeName role="person" key="place_104276">Depeham</placeName>
+                        </persName> confirms the above donation (pp). </p>
+                  </msItem>
+                  <msItem>
+                     <p>(rr) <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Urry</surname> of <placeName role="person" key="place_104276">Depeham</placeName>
+                        </persName>
+                     undertakes, that whereas the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName> 
+                  have granted to him  the lands which <persName nymRef="Breton">
+                           <forename>William</forename>, son of <persName>
+                              <forename>Urric</forename> le <surname>Breton</surname>
+                           </persName>
+                        </persName>, 
+                  held of <persName>
+                           <forename>Henry</forename> de <surname>Rya</surname>
+                        </persName> by the
+                  service of 2s. in <placeName key="place_104276">Depeham</placeName>, he will not buy, claim or appropriate
+                  any land belonging to their demesne in Depeham. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ss) <placeName key="place_1083497">CLYFFE-AT-HOO, KENT</placeName>. <persName>
+                           <forename>William</forename> de <surname>Blomvile</surname>
+                        </persName>,
+                  son of <persName>
+                           <forename>Richard</forename> de <surname>Blomvile</surname>
+                        </persName>,
+                  quit-claims to the prior and convent of Christ Church, Canterbury, and their
+                  successors, all right and claim in one acre of land in <placeName key="place_104276">Depeham</placeName>,
+                  which is called '<placeName type="minor">Schortacre</placeName>,' lying between the land
+                  of <persName>
+                           <forename>Hamo</forename> the <surname>priest</surname>
+                        </persName> on the
+                  east, and the land of <persName>
+                           <forename>William</forename> 
+                           <surname>Bombel</surname>
+                        </persName> 
+                  on the west, and one head abuts upon the King's street which
+                  leads towards <placeName key="place_1083498">Northwich</placeName> on the south, which acre
+                  <persName>
+                           <forename>William</forename> de <surname>Blumvile</surname>
+                        </persName>, his
+                  grandfather, formerly granted to the same church; for which quit-claim he is 
+                  admitted to their benefits and prayers. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(tt) <persName>
+                           <forename>Adam</forename> le <surname>Botiler</surname>
+                        </persName>
+                     quit-claims to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, 
+                  all his right by reason of wardship in a meadow of the said monks in their 
+                  manor of <placeName type="manor" key="place_1083625">Clyve</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(uu) <persName>
+                           <forename>Hugh</forename> 
+                           <surname>Bardulf</surname>
+                        </persName>
+                     grants to <orgName key="org_108045">St. Thomas and the monks</orgName>, 4s. of annual rent paid by
+                  <persName>
+                           <forename>Martin</forename> de <surname>Ho</surname>
+                        </persName> 
+                  at the feast of St. Thomas the apostle. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(vv) <persName>
+                           <forename>Robert</forename> 
+                           <surname>Bardulf</surname>
+                        </persName> confirms
+                  the gift of <persName nymRef="Bardulf">
+                           <forename>Hugh</forename> his brother</persName>,
+                  of the annual rent of 4s. from
+                     <persName nymRef="Talebot">
+                           <forename>Martin</forename>, son of <persName>
+                              <forename>Geoffrey</forename> 
+                              <surname>Talebot</surname> of <placeName role="person" key="place_1083434">Ho</placeName>
+                           </persName>
+                        </persName>, 
+                  as above. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ww) <persName nymRef="St. Botulph's">
+                           <forename>William</forename>, son of <persName>
+                              <forename>Gilbert</forename> of <surname>St. Botulph's</surname>
+                           </persName>
+                        </persName>,
+                  for the health of his soul and
+                  <persName nymRef="St. Botulph's">
+                           <forename>Cecilia</forename> his wife</persName>, grants
+                     to the <orgName key="org_104018">St. Thomas the martyr and the prior and convent of Christ Church, Canterbury</orgName>, 
+                     in frank-almoigne, one piece of land in the village of <placeName key="place_1083538">St. Botulph's</placeName> 
+                  on the east of <placeName type="minor">Barre-ditch</placeName> near the land of
+                  <persName>
+                           <forename>Guy</forename>, <surname type="patronymic">son of Sigar</surname>
+                        </persName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(xx) <persName>
+                           <forename>Guy</forename> de <surname>Esse</surname>
+                        </persName>, son of
+                  <persName>
+                           <forename>Walter</forename> de <surname>Haffeld</surname>
+                        </persName>, grants to
+                     the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, in
+                  frankalmoigne, for the souls of himself, his father, and 
+                  <persName nymRef="Haffeld">
+                           <forename>Matilda</forename> his mother</persName>, one
+                     acre of land in the village of <placeName key="place_1083390">Esse</placeName> with the advowson of the
+                  church of Esse, Norwich diocese, to hold the same for ever. Sealed and offered on 
+                  the high altar of the church of <orgName role="date" key="org_104018">Canterbury</orgName> on the morrow
+                  of the passion of St. Thomas the martyr. (<origDate when="1259">1259</origDate>.) </p>
+                  </msItem>
+                  <msItem>
+                     <p>(yy) EXETER. <persName nymRef="Pomeray">
+                           <forename>Henry</forename>, son of <persName>
+                              <forename>Henry</forename> de la  <surname>Pomeray</surname>
+                           </persName>
+                        </persName>, grants to
+                     the <orgName key="org_104018">monks of Christ Church, Canterbury</orgName>, in frankalmoigne,
+                  an annual rent of <pb n="109"/> half a mark from a messuage which
+                  <persName>
+                           <forename>Richard</forename> 
+                           <surname>Bosketh</surname>
+                        </persName> and
+                  <persName nymRef="Bosketh">
+                           <forename>Beatrix</forename> his wife</persName> held in
+                     the city of <placeName key="place_1083397">Exeter</placeName> in the 
+                     <placeName type="street" key="place_1083668">High Street</placeName>, opposite the <placeName type="minor">Fishery</placeName>,
+                  at a rent of one mark and the other half-mark his father bequethed when dying to 
+                  the said convent.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(zz) <persName nymRef="Priur">
+                           <forename>Richard</forename>, son of <persName>
+                              <forename>Roger</forename> le <surname>Priur</surname> of <placeName role="person" key="place_105429">Monks Illegh</placeName>
+                           </persName>
+                        </persName>, 
+                     grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, 
+                  an annual rent of one mark of silver in frankalmoigne, for one pittance within 
+                  the octave of the translation of St. Thomas the martyr annually in their treasury at
+                  Canterbury for ever, from those who shall hold the said lands after his decease, which
+                  lands were formerly <persName>
+                           <forename>William</forename> 
+                           <surname>Fant</surname>
+                        </persName>'s
+                  and <persName nymRef="Fant">
+                           <forename>Hugh</forename> his brother</persName>'s in the
+                  village of <placeName key="place_105429">Monks Illegh</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(aaa) <persName>
+                           <forename>John</forename> 
+                           <surname>Pycot</surname>
+                        </persName> and
+                  <persName nymRef="Pycot">
+                           <forename>Juliana</forename> his wife</persName> bind
+                     themselves to pay to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, 
+                  one mark of silver annual rent, for one pittance, within the octave of
+                  the translation of St. Thomas the martyr in their treasury at Canterbury for ever,
+                  for the lands and tenements which were formerly 
+                  <persName>
+                           <forename>William</forename> 
+                           <surname>Fant</surname>
+                        </persName>'s and
+                     <persName nymRef="Fant">Hugh his brother</persName> in the village of <placeName key="place_105429">Monks Illegh</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(bbb) HEDLEIGH. <persName>
+                           <forename>Ralph</forename> 
+                           <surname>Eadrich</surname> of <placeName role="person" key="place_1083424">Hadleghe</placeName>
+                        </persName> 
+                     grants to the <orgName key="org_104018">prior and convent of Christ Church, Canterbury</orgName>, 
+                  7 1/2 acres which he bought of <persName nymRef="Haudeham">
+                           <forename>Katherine</forename>, formerly wife of <persName>
+                              <forename>Roger</forename> de <surname>Haudeham</surname>
+                           </persName>
+                        </persName>, 
+                  in the village of <placeName key="place_1083424">Hadleghe</placeName>, and which
+                  <persName nymRef="Haudeham">
+                           <forename>Augustine</forename>, son of the said Katherine</persName>, 
+                  confirmed to him by his charter, of which 2 1/2 acres lie in
+                  '<placeName type="minor">Brunessclade</placeName>' near the land which was formerly
+                  <persName>
+                           <forename>Seardis</forename> the provost of <placeName role="person" key="place_1083430">Haudeham</placeName>
+                        </persName>, 
+                  and 5 roods lie in the field called '<placeName type="minor">Eastfeld</placeName>,'
+                  and one head abuts upon the way called '<placeName type="street" key="place_1083669">Melnestrete</placeName>' 
+                  And 3 1/2 acres lie in the same field and abut on one side upon the land of
+                  <persName>
+                           <forename>Thomas</forename> de <surname>Muttesslo</surname>
+                        </persName>, and
+                  the other upon a wood, rendering annually 2d. For this grant the prior and convent 
+                  gave 8 marks of silver.
+                 </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="103" to="109">103-109</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
