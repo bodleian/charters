@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_113422">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_114006">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Lancs. 8</title>
+            <title>MS. Ch. Hants. 3</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,38 +30,39 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Lancs_8</idno>
+            <idno type="msID">MS_Ch_Hants_3</idno>
             <idno type="collection"><!--TODO--></idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Lancs_8" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Hants_3" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Lancs. 8</idno>
+                  <idno type="shelfmark">MS. Ch. Hants. 3</idno>
                </msIdentifier>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> SKELMERSDALE. Bond in £200 given by 
-               <persName>sir <forename>Thomas</forename> 
-                           <surname>Hesketh</surname> of <placeName role="person" key="place_1083519">Rufforth</placeName>, kt.</persName>, to 
-               <persName>
-                           <forename>Richard</forename> 
-                           <surname>Smalshagh</surname>
-                        </persName> for the
-               performance of certain covenants in a pair of indentures,
-               concerning a sale of a messuage, &amp;c. in <placeName key="place_1083533">Skelmersdale</placeName>. 
-               Dated <origDate when="1556-01-04">4 Jan., 2 and 3 Philip and Mary</origDate>. 
-               [Signed, <persName>
-                           <forename>Thomas</forename> 
-                           <surname>Hesketh</surname>
-                        </persName>]
-                </p>
+                     <p> BEREFORD ST. MARTIN (Wilts). <persName>
+                           <forename>John</forename> 
+                           <surname>Stoford</surname>
+                        </persName>,
+                 son and heir of <persName>
+                           <forename>Joan</forename> 
+                           <surname>Prikemere</surname>
+                        </persName>, 
+                 grants to <persName>
+                           <forename>William</forename> 
+                           <surname>Peracourt</surname>
+                        </persName> the whole of a messuage in the village of
+                 <placeName key="place_1083319">Bereford St. Martin's</placeName>. 
+                 Dated at <placeName role="date" key="place_1083319">Bereford</placeName> aforesaid the Sunday on the
+                 feast of St. Michael, <origDate notBefore="1392-06-22" notAfter="1393-06-21">16 Rich. II</origDate>. 
+                  
+                  </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -70,13 +71,19 @@
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seal.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
                </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                              <citedRange unit="page" from="141" to="141">141</citedRange>
+                                <citedRange unit="page" from="83" to="83">83</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

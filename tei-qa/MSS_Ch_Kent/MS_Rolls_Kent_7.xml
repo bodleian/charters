@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_114002">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Kent 7</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Kent_7</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Kent_7" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Kent 7</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> TUNBRIDGE (Priory of). A further roll of evidences, records of proceedings,
+                  presentations, and other documents appertaining to the 
+                  <orgName key="org_109090">priory of Tunbridge</orgName>; mutilated and partially effaced.
+                      </p>
+                  </msItem>
+                  <msItem>
+                     <p> (a) Appropriation by <persName>
+                           <forename>Walter</forename>, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
+                        </persName>, 
+                  of the church of <placeName key="place_1083351">Chert</placeName> to the 
+                  <orgName key="org_102016">prior and convent of Ledes</orgName>. 
+                  (<origDate when="1320">1320</origDate>.) [Mutilated.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>(b) Confirmation by <persName>H., the prior</persName>, and
+                     <orgName key="org_104018">convent of Christ Church, Canterbury</orgName>, of the appropriation of the
+                     church of <placeName key="place_1083351">Chert</placeName> to the <orgName key="org_102016">prior and convent of Ledes</orgName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(c) Partly obliterated form of a circular letter to a bishop.
+                  [Illegible.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>(d) Appointment of <persName>master <forename>John</forename> de <surname>Waltona</surname> (?), clerk</persName>, 
+                  to appear at the Roman court as proctor for 
+                     <persName>
+                           <forename>William</forename>, prior of <orgName role="prior" key="org_109090">Tunbridge</orgName>
+                        </persName>. 
+                  Dated 10 Kl. Feb., <origDate when="1336">1336</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(e) Letter from <persName>
+                           <forename>William</forename>, the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName>
+                        </persName>,
+                  to the abbot of <orgName role="abbot" key="org_109067">Oseney</orgName> and prior of
+                  <orgName role="prior" key="org_100014">Bernewell</orgName>, that he has appointed
+                  <persName>
+                           <forename>Thomas</forename> de <surname>Roffa</surname>, canon of <orgName role="canon" key="org_102016">Ledes</orgName>
+                        </persName>, 
+                  to appear as his proctor at the 
+                  general chapter of the order of St. Augustine to be held at the
+                  <orgName key="org_109039">priory of St. Frideswide</orgName>. Dated at
+                  <placeName role="date" key="place_109524">Tunbridge</placeName>, 15 Kl. July, <origDate when="1337">1337</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(f) The abbot of <orgName role="abbot" key="org_109067">Oseney</orgName> and
+                     prior of <orgName role="prior" key="org_100014">Bernewell</orgName>, presiding at a
+                  general chapter of the order of St. Augustine,
+                  to the religious of <orgName key="org_108045">St. Gregory of Canterbury</orgName>,
+                  <orgName key="org_109090">Tunbridge</orgName>, <orgName key="org_102014">Heryngham</orgName>, and others,
+                  to cite the priors of <orgName role="prior" key="org_108044">Bradley</orgName>, 
+                  <orgName role="prior" key="org_104031">Walsingham</orgName>, &amp;c. to appear in the next general
+                  chapter in the church of <placeName key="place_1083487">Newenham near Bedford</placeName>, on the octave 
+                  of the Holy Trinity, <origDate when="1340">1340</origDate>, and respecting payment of the 
+                  contributions served for a suit against the abbot of <orgName role="abbot" key="org_110030">Waltham</orgName>. 
+                  Dated by the abbot of Oseney, 8 Id. June, <origDate when="1339">1339</origDate>, and
+                  by the prior of Bernewell the Id. of June, same year. [Partly obliterated.]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(g) Mandate from the abbot of <orgName role="abbot" key="org_109067">Oseney</orgName> and the prior of
+                     <orgName role="prior" key="org_100014">Bernwell</orgName>, presiding at
+                  a general chapter of the order of St. Augustine within the province of Canterbury,
+                  to the priors of <orgName role="prior" key="org_108045">St. Gregory of Canterbury</orgName> and of
+                     <orgName role="prior" key="org_109090">Tunbridge</orgName>, commanding them to
+                  visit the houses, &amp;c. of the order within the dioceses of
+                     <placeName type="diocese" key="place_101092">Rochester</placeName> and
+                     <placeName type="diocese" key="place_104006">Canterbury</placeName>. 
+                  Dated by the abbot of <orgName role="abbot" key="org_109067">Oseney</orgName>, and prior of
+                     <orgName role="prior" key="org_100014">Bernewell</orgName>, <origDate when="1339">1339</origDate>. [Partly obliterated.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>(h) Mandate from the abbot of <orgName role="abbot" key="org_109067">Oseney</orgName> and
+                     prior of <orgName role="prior" key="org_100014">Bernewell</orgName>, presiding at a 
+                  general chapter of the order of St. Augustine in the province of Canterbury, 
+                  to the heads of the monasteries of that order
+                  within the dioceses of <placeName type="diocese" key="place_101092">Rochester</placeName> and
+                     <placeName type="diocese" key="place_104006">Canterbury</placeName>, commanding them <pb n="132"/>
+                  to receive the priors of <orgName role="prior" key="org_108045">St. Gregory of Canterbury</orgName> and
+                     of <orgName role="prior" key="org_109090">Tunbridge</orgName> in a suitable
+                  manner at their visitation, and to carry out sentences of excommunication or
+                  suspension should they be promulgated. Dated 8 Kl. June, <origDate when="1339">1339</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(i) Citation of the abbot of <orgName role="abbot" key="org_108087">Thorntone</orgName> and 
+                     prior of <orgName role="prior" key="org_108064">Kirkham</orgName> to a
+                  general chapter of the order of St. Augustine to be held at 
+                  <placeName key="place_1083489">Newstead near Stamford, Lincoln diocese</placeName>. 
+                  Dated at <placeName role="date" key="place_1083571">Thornton</placeName>, 3 Non. Novemb., and at 
+                  <placeName role="date" key="place_1083449">Kirkham</placeName>, 8 Id. Nov., <origDate when="1340">1340</origDate>.
+                     Received by the priory of <orgName key="org_109090">Tunbridge</orgName>, 4 Kl. Dec., following. 
+                  [Partly obliterated.]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(k) Writ of <persName>King Edward III</persName>, for the collection of a ninth
+                     granted by parliament <origDate notAfter="1341" notBefore="1340">14th of his reign</origDate>, in the county of <placeName type="county" key="place_000031">Kent</placeName>. [Continued on next roll (a).] </p>
+                  </msItem>
+                  <msItem>
+                     <p>(l) Indulgence of 40 days, granted by <persName>
+                           <forename>John</forename>, archbishop of <placeName type="diocese" role="archbishop" key="place_104006">Canterbury</placeName>
+                        </persName>,
+                     to all who shall assist in rebuilding that portion of the priory of <orgName key="org_109090">Tunbridge</orgName>
+                  which was destroyed by fire. Dated .... [<origDate when="1327" precision="low">1327</origDate>(?)]. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(m) Licence granted to <persName>
+                           <forename>Reginald</forename> de <surname>Dik</surname>
+                        </persName> 
+                  for the celebration of mass in his chapel of the manor of
+                     <placeName type="manor" key="place_1083647">Romchedde in the parish of the church of Tonebregge</placeName>
+                     by the bishop of <placeName type="diocese" role="bishop" key="place_101092">Rochester</placeName>. 
+                  Dated .... <origDate when="1338">1338</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(n) Absolution by <persName>
+                           <forename>Robert</forename>, bishop of <placeName role="bishop" type="diocese" key="place_107002">Sarum</placeName>
+                        </persName>, 
+                  from the sentence of suspension passed upon
+                  <persName>
+                           <forename>William</forename> de <surname>Handloo</surname>, priest</persName>, 
+                  for one year, because he solemnized matrimony between
+                  <persName>
+                           <forename>John</forename> de <surname>Foxle</surname>
+                        </persName> and
+                  <persName>
+                           <forename>Matilda</forename> 
+                           <surname>Brocas</surname>
+                        </persName> without the
+                  parochial church of <placeName key="place_108272">Bray</placeName>. 
+                  Dated at <placeName role="date" key="place_1083529">Sheftesbery</placeName>, 5 Id. April,
+                     <origDate when="1332">1332</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(o) Of the weight of lead. Memorandum that a
+                  cart load of lead contains 30 feet, and each foot six stone, and each stone
+                  13 1/2 lb., and one foot contains 81 lb. And so a cart load of lead contains, according
+                  to the weight used at '<placeName type="minor">le Pek</placeName>,' 2430 lb. Item, according to
+                     the weight used at <placeName key="place_108024">Sandwich</placeName>, a cart load of lead ought to weigh six sacks of wool,
+                  and a sack of wool should weigh 52 hooks ["claves"], and each hook contains 7 lb., 
+                  and so a sack of wool weighs 364 lb. And so a cart load of lead weighs by the weight of
+                  wool 2184 lb. And so each cart load of lead at '<placeName type="minor">le Boles</placeName>'
+                  exceeds the weight of wool 246 lb. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(p) Commission from
+                     <persName>H., bishop of <placeName type="diocese" role="bishop" key="place_101092">Rochester</placeName>
+                        </persName>, 
+                     to <persName>
+                           <forename>Adam</forename> de <surname>Murymouth</surname>, canon of <placeName role="person" key="place_100051">London</placeName>
+                        </persName>, for negotiating
+                     the exchange between <persName>
+                           <forename>John</forename> de  <surname>Beylham</surname>, rector of <placeName role="rector" key="place_1083349">Chelesworth</placeName>
+                        </persName>,
+                     and <persName>
+                           <forename>Alan</forename> de <surname>Lavenham</surname>, vicar of <placeName role="vicar" key="place_109524">Tunbridge</placeName>
+                        </persName>. 
+                     Dated at <placeName role="date" key="place_1083427">Hallyng</placeName>, Id. July, <origDate when="1340">1340</origDate>. [Partly obliterated.]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(q)
+                     Institution by <persName>
+                           <forename>Adam</forename> 
+                           <surname>Murymouth</surname>, canon of <placeName role="person" key="place_100051">London</placeName>, commissary of <persName>H., bishop of
+                     <placeName type="diocese" role="person" key="place_101092">Rochester</placeName>
+                           </persName>
+                        </persName>,
+                  of <persName>
+                           <forename>John</forename> de <surname>Beylham</surname>, priest</persName>, 
+                     to the vicarage of <placeName key="place_109524">Tunbridge</placeName>, by the
+                  resignation of <persName>
+                           <forename>Alan</forename> de <surname>Lavenham</surname>
+                        </persName>,
+                  because of an exchange with the church of <placeName key="">Chelesworth, Norwich diocese</placeName>,
+                     on the presentation of the prior of the <orgName role="prior" key="org_103022">hospital of St. John of Jerusalem</orgName>. 
+                     Dated at <placeName role="date" key="place_1083312">Barnes</placeName>, 17 Kl. August, <origDate when="1340">1340</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(r) The <orgName key="org_109090">prior and convent of Tunbridge</orgName> present 
+                  <persName>sir <forename>Roger</forename> de <surname>Frendesbery</surname>
+                        </persName>
+                  to the church of <placeName key="place_1083453">Leigh</placeName> by reason of an exchange with
+                  <persName>
+                           <forename>Henry</forename> de <surname>Shyptone</surname>
+                        </persName>
+                  to the church of <placeName key="place_1083563">Stradselle, Norwich diocese</placeName>. 
+                  Dated 5 Kl. August, <origDate when="1340">1340</origDate>. 
+                  [Partly obliterated.]</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+                        <pb n="133"/> 
+                  
+                  (s) Resignation of the rectory of <placeName key="place_1083563">Stradselle</placeName> by
+                  <persName>
+                           <forename>Roger</forename> de <surname>Frend</surname>
+                        </persName> (sic),
+                  on account of an exchange with 
+                     <persName>
+                           <forename>Henry</forename> de <surname>Shipton</surname>, rector of <placeName role="person" key="place_1083453">Legh</placeName>
+                        </persName>. 
+                  Dated, &amp;c. [Partly obliterated.]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(t) Appointment of proctors by 
+                     <persName>
+                           <forename>Henry</forename> de <surname>Schipton</surname>, rector of <placeName role="person" key="place_1083453">Legh</placeName>
+                        </persName>, 
+                  to act for him in the matter of an exchange with the church of
+                     <placeName key="place_1083563">Stradselle</placeName>. [Partly obliterated.]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(u) Lease from <persName>
+                           <forename>John</forename>, the prior</persName>, and 
+                     <orgName key="org_109090">convent of Tunbridge</orgName> to
+                     <persName>
+                           <forename>Roger</forename> de <surname>Frendesbery</surname>, rector of <placeName role="person" key="place_1083563">Stradeselle</placeName>
+                        </persName>,
+                     of their chapel of <placeName key="place_100033">Denardestone</placeName> for 12 years, at an annual
+                  payment of ten pounds. Dated on the day of St. Peter ad Vinc., <origDate when="1334">1334</origDate>.  [An enrolment of MS. Charter Kent 94.]</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="131" to="133">131-133</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

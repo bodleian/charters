@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_114003">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Kent 8</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Kent_8</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Kent_8" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Kent 8</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la" otherLangs="fr">Latin and French</textLang>
+                  <msItem>
+                     <p> A further long roll of evidences, records of proceedings, presentations, and various
+                  documents appertaining to the <orgName key="org_109090">priory of Tunbridge</orgName>. 
+                   
+                  
+                  (a) Concluding portion of the king's writ, described MS. Rolls Kent 7 (k). <!--TODO, chk the final shelfmark format--></p>
+                  </msItem>
+                  <msItem>
+                     <p>(b) Letter of <persName>
+                           <forename>Hamo</forename>, bishop of <placeName role="bishop" type="diocese" key="place_101092">Rochester</placeName>
+                        </persName>, 
+                  to the king for a writ <hi rend="italic">de excommunicato capiendo</hi> against
+                  <persName>
+                           <forename>Walter</forename> atte <surname>Hale</surname>
+                        </persName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(c) Letter from <persName>
+                           <forename>Robert</forename>, abbot of <orgName role="abbot" key="org_108041">Lesnes</orgName>
+                        </persName>, 
+                  to co-delegates excusing himself from attending to a provision granted by the pope to
+                  <persName>
+                           <forename>Richard</forename> 
+                           <surname>Aleyn</surname> of <placeName role="person" key="place_1083362">Cokelestan</placeName>, a poor clerk of <placeName type="diocese" role="person" key="place_101092">Rochester</placeName> diocese</persName>, 
+                  on account of urgent business touching his monastery, and authorizing their
+                  proceeding without him. [Mutilated.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>(d) Commission from the abbot of D. and the prior of <orgName key="org_109090">Tunbridge</orgName>,
+                  co-delegates with the abbot of <orgName role="abbot" key="org_108041">Lesnes</orgName>, to two canons of
+                  <orgName key="org_108082">St. David's</orgName>, S. de K... and M. de N.
+                  for carrying out the provision granted to the above
+                  <persName>
+                           <forename>Richard</forename> 
+                           <surname>Aleyn</surname>
+                        </persName> by
+                  the pope, to collate him to an ecclesiastical benefice with or without cure of
+                  souls, within the diocese of <placeName type="diocese" key="place_101092">Rochester</placeName> and in 
+                  the gift of the bishop. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(e) Mandate from <persName>
+                           <forename>John</forename>, archbishop of <placeName type="diocese" role="archbishop" key="place_104006">Canterbury</placeName>
+                        </persName>, 
+                     to the bishops and archdeacons of the province of <placeName type="diocese" key="place_104006">Canterbury</placeName>,
+                  ordering them to take steps to prevent the misappropriation of the goods of the
+                  <persName>lord <forename>Hugh</forename> d'<surname>Audele</surname>, late earl of Gloucester</persName>,
+                  deceased, in their several jurisdictions, his executors having made serious
+                  complaints thereon. Dated at <placeName role="date" key="place_102089">Lambeth</placeName>, 5
+                  Id. April, <origDate when="1348">1348</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(f) Appropriation of the church of <placeName key="place_1083590">Westerham</placeName>, with the chapel 
+                     of <placeName key="place_1083382">Edulwesbregge</placeName> annexed, to the 
+                     <orgName key="org_104018">prior and chapter of Christ Church, Canterbury</orgName>, by 
+                     <persName>
+                           <forename>Hamo</forename>, bishop of <placeName role="bishop" type="diocese" key="place_101092">Rochester</placeName>
+                        </persName>, 
+                  on account of their losses viz. inundationss of the sea and by murrain.
+                  with the ordination of the vicarage. Dated at <placeName role="date" key="place_1083427">Hallyng</placeName>, 25 Jan., <origDate when="1327">1327</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(g)
+                     Appropriation of the church of <placeName key="place_1083459">Leddrede, Winchester diocese</placeName>, 
+                     to the <orgName key="org_102016">prior and convent of Ledes</orgName>, (which had been given them 
+                     by the king), by <persName>
+                           <forename>John</forename>, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
+                        </persName>, 
+                  in pursuance of a papal bull on account of the ruinous state of the buildings,
+                  (the see of Winchester being then vacant). (<origDate when="1346">1346</origDate>). </p>
+                  </msItem>
+                  <msItem>
+                     <p>(h) Confirmation by <persName>
+                           <forename>Henry</forename>, the prior</persName>, and
+                     <orgName key="org_104018">convent of Canterbury</orgName> of the appropriation of the church of 
+                     <placeName key="place_1083351">Chart, Canterbury diocese</placeName>, to the 
+                     <orgName key="org_102016">prior and convent of Ledes</orgName>, by 
+                  <persName>
+                           <forename>Walter</forename>, archbishop of <placeName type="diocese" role="archbishop" key="place_104006">Canterbury</placeName>
+                        </persName>, 
+                  for the same reason as in the preceding deed, upon the resignation of 
+                  <persName>
+                           <forename>John</forename> de <surname>Howkynge</surname>, rector</persName>, now made. [See (m) infra.]
+                  [<origDate notBefore="1320" notAfter="1321">1320-21</origDate>.] </p>
+                  </msItem>
+                  <msItem>
+                     <p>(i) A schedule of
+                     debts owing to the <orgName key="org_109090">prior and convent of Tunbridge</orgName>, demanded from 
+                  the executors of <persName>
+                           <forename>Hugh</forename> d'<surname>Audele</surname>, earl of Gloucester</persName>, deceased. 
+                  French</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+                        <pb n="134"/>
+                  
+                  (k) Letter of
+                  attorney from <persName>N., the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName>
+                        </persName>,
+                  appointing G. de B., canon of the church, the proctor of the priory 
+                  receiving oblations and gifts for rebuilding the church,
+                  destroyed by fire, and also to notify the indulgences (amounting in the whole to 8
+                  years and 230 days) from the pope, archbishops, and bishops, to all benefactors,
+                  with participation in the masses and other services of the priory.
+                  [<origDate when="1351">1351</origDate>].</p>
+                  </msItem>
+                  <msItem>
+                     <p>(l)
+                     Indulgence by the pope's authority from <persName>
+                           <forename>Stephen</forename>, archbishop of <placeName type="diocese" role="archbishop" key="place_1083674">Arles</placeName>, and chamberlain of the pope</persName>, 
+                     to all persons in the diocese of <placeName type="diocese" key="place_101092">Rochester</placeName>, 
+                  that plenary absolution may be given by any confessor during the plague now raging,
+                  to every one without exception <hi rend="italic">in articulo mortis</hi>, up to 
+                  the next Easter. 
+                  Dated at <placeName role="date" key="place_103064">Avignon</placeName>, Tuesday, 23 December, <origDate when="1348">1348</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(m) Ordination of the vicarage of <placeName key="place_1083351">Chart, Canterbury diocese</placeName>. 
+                     Dated at <placeName role="date" key="place_102089">Lambeth</placeName>, 4 KL March, <origDate when="1320">1320</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(n) <persName>David, the prior</persName>, and
+                     <orgName key="org_109090">convent of St. Mary Magdalen of Tunbridge</orgName> collate
+                  <persName>
+                           <forename>Nicholas</forename> de <surname>Debeham</surname>, priest</persName>, 
+                     to the vicarage of <placeName key="place_1083294">Teudele</placeName>, on
+                     the recommendation of <persName>
+                           <forename>Laurence</forename>, bishop of <placeName role="bishop" type="diocese" key="place_101092">Rochester</placeName>
+                        </persName>. 
+                     Dated at <placeName role="date" key="place_109524">Tunbridge</placeName>, 5 Kl. March, <origDate when="1273">1273</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(o) The prior of <orgName role="prior" key="org_109090">Tunbridge</orgName> appoints
+                  <persName>
+                           <forename>Henry</forename> de <surname>Deseburgh</surname>
+                        </persName> to
+                  act in all pleas and complaints moved by him, and against him during
+                  his absence. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(p) Letter of the king to the bailiffs of <persName>
+                           <forename>Ralph</forename>, baron of Stafford of Eldyngge</persName>,
+                     allowing the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName> to appear by 
+                  proxy at the court of the said lord of Eldyng.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(q) Petition to the king from the prior and convent for a licence in
+                  mortmain to purchase lands and rents of the value of £10 per annum. 
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(r) Letter
+                     from the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName> to the 
+                  <persName>lady <forename>[Margaret]</forename> de <surname>Clare</surname>
+                        </persName>
+                  thanking her for a gown ["pelice"] brought by <persName>sir <forename>Robert</forename> 
+                           <surname>Cokerel</surname>
+                        </persName>,
+                  and asking for her continued assistance with regard to the appropriation of the
+                  church of <placeName key="place_1083563">Stradesell</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(s) Letter from the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName> to the 
+                  <persName>lady <forename>Margaret</forename> de <surname>Clare</surname>
+                        </persName>,
+                  praying for an allowance of the balance of a debt due to her of £11 9s.
+                  2d. of which they had paid 100s. by the hands of 
+                  <persName>sir <forename>Richard</forename> 
+                           <surname>Cokerel</surname>
+                        </persName>
+                  in consideration of the surrender of the manor of <placeName type="manor" key="place_1083657">Tonebregge Hall</placeName>,
+                  not in the good condition in which it ought to be, and of which the rent was
+                  in the last year reduced by £4. 
+                  [French] </p>
+                  </msItem>
+                  <msItem>
+                     <p>(t)
+                     Mandate from the abbot of <orgName role="abbot" key="org_108085">St. James, Northampton</orgName>,
+                     and the prior of <orgName role="prior" key="org_109053">Dunstaple</orgName>,
+                     presidents of the chapter of the order of St. Augustine, held at <placeName role="date" key="place_107054">Northampton</placeName> in
+                  the Quindene of the Holy Trinity, <origDate when="1350">1350</origDate>, to the priors of
+                     <orgName role="prior" key="org_109090">Tunbridge</orgName> and of <orgName role="prior" key="org_108045">St. Gregory, Canterbury</orgName>, visitors of the order within the
+                     dioceses of <placeName type="diocese" key="place_104006">Canterbury</placeName> and <placeName type="diocese" key="place_101092">Rochester</placeName>, to visit all the houses of the order in the
+                     said dioceses, and to report to a chapter to be held at <placeName role="date" key="place_109413">Oseney</placeName> in the Quindene of
+                  the Holy Trinity, 1353. Dated Ides April, <origDate when="1352">1352</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(u)
+                     Mandate from <persName>
+                           <forename>Hamo</forename>, bishop of <placeName role="bishop" type="diocese" key="place_101092">Rochester</placeName>
+                        </persName>, 
+                     to the rural dean of <placeName type="deanery" role="dean" key="place_1083672">Malling</placeName>,
+                  to cite the clergy and laity of the parish churches within his deanery to appear at the
+                  visitation to be held at certain churches and on certain days specified. 
+                  Dated at <placeName role="date" key="place_1083427">Hallyng</placeName>, 18 Kl. October, <origDate when="1352">1352</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(v) A petition to <persName>lady <forename>[Margaret]</forename> de <surname>Clare</surname>
+                        </persName> 
+                  to prevent her officers from levying fines and holding courts, &amp;c.
+                  within the moiety of the <pb n="135"/> manor of 
+                     <placeName type="manor" key="place_1083616">Bodekesham</placeName>, granted to the
+                     priory of <orgName key="org_109090">Tunbridge</orgName> by 
+                  <persName>
+                           <forename>Richard</forename> de <surname>Clare</surname>, formerly earl of Hertford</persName>, her ancestor.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(w) Letter of the archdeacon of <placeName role="archdeacon" type="archdeaconry" key="place_1083298">Rochester</placeName>
+                     to the dean of <placeName type="deanery" role="dean" key="place_1083672">Malling</placeName>, sending the
+                     summons of <persName>
+                           <forename>John</forename>, bishop of <placeName role="bishop" type="diocese" key="place_101092">Rochester</placeName>
+                        </persName>,
+                  to give their obedience on the Monday next after the feast of SS. Tiburtius and
+                  Valerian, in the cathedral of <placeName role="date" key="place_105470">Rochester</placeName>;
+                     dated at <placeName role="date" key="place_1083427">Hallyng</placeName> 25 March, 1352-[3].
+                     Dated at <placeName role="date" key="place_1083455">Langefeld</placeName>, 2 Kl. April, <origDate when="1353">1353</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(x) Citation from the rural dean of <placeName role="dean" type="deanery" key="place_1083672">Malling</placeName> 
+                  to the clergy of his deanery to appear at the above visitation (w). </p>
+                  </msItem>
+                  <msItem>
+                     <p>(y) Notice of their
+                     proposed visitation of the monasteries of <orgName key="org_108052">Combwell</orgName>, 
+                     <orgName key="org_102016">Ledes</orgName>, and <orgName key="org_108043">Bilsyngton</orgName>, from
+                     the priors of <orgName role="prior" key="org_109090">Tunbridge</orgName> and of 
+                     <orgName key="org_108045">St. Gregory, Canterbury</orgName>, the visitors of houses of
+                  the order of St. Augustine in the dioceses of
+                     <placeName type="diocese" key="place_104006">Canterbury</placeName> and
+                     <placeName type="diocese" key="place_101092">Rochester</placeName>. Dated at
+                     the priory of <orgName role="date" key="org_108045">St. Gregory, Canterbury</orgName>, 13 Kl. May, 
+                     <origDate when="1353">1353</origDate>, and at the priory of <orgName role="date" key="place_109524">Tunbridge</orgName>, 12 Kl. of the same month and year. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(z) Certificate by the priors of <orgName key="org_109090">Tunbridge</orgName> and of 
+                  <orgName key="org_108045">St. Gregory, Canterbury</orgName>, to the abbot of <orgName role="abbot" key="org_110030">Waltham</orgName>
+                  and the prior of <orgName role="prior" key="org_108061">Gisebourne</orgName>, presidents of the
+                  chapter of the order of St. Augustine held, in the monastery of
+                  <orgName role="date" key="org_109067">Oseney</orgName> in the Quindene of the Holy Trinity, 
+                  <origDate when="1353">1353</origDate>, of their having visited the above three houses, 
+                  in accordance with the above mandate (t).
+                  Dated at <placeName role="date" key="place_104247">Canterbury</placeName>, 6 Id. May, <origDate when="1353">1353</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(aa) Mandate from <persName>
+                           <forename>Thomas</forename>, the abbot of the
+                     exempt <orgName role="abbot" key="org_110030">monastery of the Holy Cross of Waltham</orgName>
+                        </persName>, 
+                     who, together with the abbot of <orgName role="abbot" key="org_108034">Leicester</orgName> and prior 
+                     of <orgName role="prior" key="org_108061">Gisborne</orgName>, presided
+                  at the chapter of the order of St. Augustine held at
+                     <orgName role="date" key="org_109067">Oseney</orgName> in the Quindene of the
+                     feast of the Holy Trinity, commanding the prior of <orgName role="prior" key="org_102016">Ledes</orgName> 
+                  to levy and collect from each house of the same order in the diocese of
+                     <placeName type="diocese" key="place_104006">Canterbury</placeName> a payment of one
+                  halfpenny for each mark upon their goods, according to their taxation for the
+                  support of the said order, and to pay the amount collected, together with the
+                  names of those who refuse payment, to the abbot of 
+                     <orgName role="abbot" key="org_110030">Waltham</orgName> within 40 days after the
+                  feast of the Purification of B. V. M. 
+                  Dated at <placeName role="date" key="place_1083578">Waltham</placeName>, 1 Dec., <origDate when="1353">1353</origDate>.
+                     [The mandate is headed as being "pro collecta levanda pro placito pros[ecutionis] contra abbatem de <orgName role="abbot" key="org_105016">Butteleie</orgName>."]
+                     The prior of <orgName key="org_109090">Tunbridge</orgName> satisfied this mandate the Sunday on the
+                  morrow of the conversion of St. Paul, <origDate when="1353">1353</origDate>. Total, 6s.
+                  2 1/2d.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(bb) Letter of <persName>
+                           <forename>John</forename>, bishop of <placeName role="bishop" type="diocese" key="place_101092">Rochester</placeName>
+                        </persName>,
+                  to the dean of <placeName role="dean" type="deanery" key="place_1083672">Mallyng</placeName>, giving
+                  notice of his intended visitation of the deanery of <placeName type="deanery" key="place_1083672">Mallyng</placeName>,
+                  to be held in the church of <placeName key="place_1083383">Eld</placeName> the Thursday and Friday after
+                  the feast of the exaltation of the Holy Cross next ensuing, and commanding him to cite
+                  the clergy, &amp;c., of his deanery with 4, 5, or 6 parishioners
+                  from each parish to the same.
+                  Dated at <placeName role="date" key="place_1083427">Hallyng</placeName>, 14 August, <origDate when="1354">1354</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(cc) Acknowledgment given by
+                  <persName>
+                           <forename>Robert</forename> de <surname>Waldyngfeld</surname>
+                        </persName>, 
+                  <persName>
+                           <forename>Nicholas</forename> 
+                           <surname>Tone</surname>
+                        </persName>, and
+                     <persName>
+                           <forename>William</forename> 
+                           <surname>Osebern</surname>, of <placeName role="person" key="place_100027">Bodekesham</placeName>
+                        </persName>, 
+                  of the receipt of £20 3s. l0d.  from <persName>sir <forename>Henry</forename> 
+                           <surname>Motelot</surname>
+                        </persName> and
+                  <persName>
+                           <forename>Robert</forename> 
+                           <surname>Marchal</surname>
+                        </persName>
+                  to be employed in merchandise for the profit of the said
+                  Henry and Robert, and to be accounted for to them at <placeName key="place_109524">Tunbridge</placeName>
+                  the 2nd of August next. 
+                  Dated at <placeName role="date" key="place_100027">Bodekesham</placeName>, 30 January, <origDate notBefore="1354-01-25" notAfter="1355-01-24">28 Ed. III</origDate>.
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+                        <pb n="136"/> 
+                  
+                  (dd) Condition of the above bond (cc) is that if the
+                  above <persName>
+                           <forename>Robert</forename> 
+                           <surname>Waldingfield</surname>
+                        </persName>,
+                     or any one in his name, pay to the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName>
+                  at Hokday next, after the date of these presents, £12, and at the feast of St. Mary
+                  Magdalen £8 3s. l0d.; then the said bond to be null and void. 
+                  Done at <placeName role="date" key="place_100027">Bodekesham</placeName> the day and year above written. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ee) Letters patent of <persName>King Edward III</persName>, dated at
+                     <placeName role="date" key="place_100060">Westminster</placeName>, <origDate when="1340-04-01">1 April, 14 of his reign</origDate>,
+                     granting licence to <persName>
+                           <forename>John</forename>, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
+                        </persName>, 
+                     to enable him to assign the advowsons of<placeName key="place_1083329"> Boughton Bleau ('Bocton under Blee')</placeName> 
+                     and <placeName key="place_1083509">Preston near Ospringe</placeName> in the county of
+                     <placeName type="county" key="place_000031">Kent</placeName> held <hi rend="italic">in capite</hi>, to
+                     the <orgName key="org_108042">abbot and convent of Faversham</orgName>, in exchange for the 
+                     manor of <placeName type="manor" key="place_1083659">Trynge in co. Hertford</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ff] <persName>
+                           <forename>John</forename>, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
+                        </persName>, 
+                  grants to the <orgName key="org_108042">abbot and convent of Faversham</orgName> the advowsons of the
+                  churches of '<placeName key="place_1083329">Bocton under the Blen</placeName>,' and 
+                  <placeName key="place_1083509">Preston, near Ospringe</placeName>, in exchange for the manor of <placeName type="manor" key="place_1083659">Trynge</placeName>.
+                  Dated at <placeName role="date" key="place_102089">Lamhuth</placeName>, 3 April, <origDate notBefore="1340-01-25" notAfter="1341-01-24">14 Ed. III</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(gg) <persName>
+                           <forename>Robert</forename>, the prior</persName>, and chapter of
+                     <orgName key="org_104018">Christ Church, Canterbury</orgName>, ratify and approve the donation to the
+                     <orgName key="org_108042">abbot and convent of Faversham</orgName> (ff). 
+                  Dated in their chapter, 8 April, <origDate notBefore="1340-01-25" notAfter="1341-01-24">14 Ed. III</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(hh) Appropriation by <persName>
+                           <forename>John</forename>, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
+                        </persName>, 
+                  of the churches of '<placeName key="place_1083329">Bocton subtus le Blen</placeName>' and
+                  <placeName key="place_1083509">Preston near Faversham</placeName> to the 
+                  <orgName key="org_108042">abbot and convent of Faversham</orgName>. Dated in the chapter
+                  of his diocese, 18 May, <origDate when="1340">1340</origDate>, and confirmed by
+                  <persName>
+                           <forename>Robert</forename>, the prior</persName>, and the chapter of
+                  <orgName key="org_104018">Christ Church, Canterbury</orgName>, same time.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(ii) Proceedings in the matter of a licence to
+                  <persName>
+                           <forename>John</forename> de <surname>Osprenge</surname>
+                        </persName> from 
+                     the <orgName key="org_102016">prior and convent of Ledes</orgName>, to quit their house and enter
+                     the <orgName key="org_108070">order of the friars preachers, London</orgName>, upon his
+                  own petition, which he himself was unable to read "pro fletu". 
+                  Dated at <placeName role="date" key="place_1083461">Ledes</placeName>, Monday 4 Id. Nov., <origDate when="1343">1343</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(kk) Letter from <persName>
+                           <forename>Simon</forename>, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
+                        </persName>, 
+                  to <persName>
+                           <forename>Richard</forename> 
+                           <surname>Vagham</surname>, LL.D.</persName>,
+                  revoking the admission of <persName>
+                           <forename>John</forename> de  <surname>Rothewelle</surname>
+                        </persName>
+                  to the church of <placeName key="place_1083413">Great Hardres</placeName>. Dated at
+                  <placeName role="date" key="place_102199">Maghefeld</placeName>, 10 Kl. Nov., <origDate when="1359">1359</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ll) Commission from <persName>
+                           <forename>Simon</forename>, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName>
+                        </persName>,
+                  to the official of the archdeacon of <placeName type="archdeaconry" role="archdeacon" key="place_108085">Canterbury</placeName>,
+                  commanding him to hold an inquiry as to who is the true patron of the church of
+                  <placeName key="place_1083413">Great Hardres</placeName>, revoking certain letters to the same purpose in
+                  which <persName>
+                           <forename>John</forename> de <surname>Rothewell</surname>
+                        </persName> was said to be presented by 
+                  <persName>
+                           <forename>Ralph</forename>, earl of Stafford</persName>, and who was now
+                  presented by the <orgName key="org_109090">prior and convent of Tonebrigge</orgName>.
+                  Dated at <placeName role="date" key="place_102199">Maghefeld</placeName>, 10 Kl. Nov., <origDate when="1359">1359</origDate>. 
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(mm) The <orgName key="org_109090">prior and convent of Tunbridge</orgName> claim from the executors of
+                  <persName>
+                           <forename>Ralph</forename>, late earl of Stafford</persName>, 
+                  certain debts due to them for corn, various rents and for windows in the west gable of the church
+                  for which he had promised to pay (£14 8. 10), and for the maintenance of two friars minor for three
+                  quarters of a year according to a covenant made in the name of 
+                  <persName>
+                           <forename>Hugh</forename>, earl of Stafford</persName> in 7 Rich. II.
+                  Dated <origDate notBefore="1383-06-22" notAfter="1384-06-21">7 Rich. II</origDate>. 
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(nn) Composition for the endowment of the vicarage of 
+                     <placeName key="place_1083294">Teudelle (Tudley)</placeName> made by 
+                  <persName>
+                           <forename>David</forename>, the prior</persName>, and 
+                     <orgName key="org_109090">convent of Tunbridge</orgName> to 
+                  <persName>
+                           <forename>Nicholas</forename> de <surname>Debeham</surname>, priest</persName>. 
+                     Dated at <placeName role="date" key="place_109524">Tunbridge</placeName>, 5 Kl. March, <origDate when="1273">1273</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(oo) Mutilated and illegible deed. <origDate notBefore="1340" notAfter="1349">134(.)</origDate>
+                     </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+                        <pb n="137"/> 
+                  
+                  (pp) Petition from
+                  the <orgName key="org_109090">prior and convent of Tunbridge</orgName> to the pope, concerning the
+                     appropriation of the church of <placeName key="place_1083453" role="church">Legh, Rochester diocese</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(qq) Presentation of <persName>
+                           <forename>Henry</forename> de <surname>Hegham</surname>
+                        </persName> to the
+                     church of <placeName key="place_1083543">St. Mary Magdalen of Stokeby, Canterbury diocese</placeName>, 
+                  by <persName>
+                           <forename>Thomas</forename> the prior</persName> and
+                     <orgName key="org_102016">convent of Ledes</orgName>. 
+                     Dated at <placeName role="date" key="place_1083461">Ledes</placeName>, 19 Nov., <origDate when="1347">1347</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(rr)
+                  <persName>
+                           <forename>Henry</forename> de <surname>Hegham</surname>
+                        </persName>, 
+                     presented to the church of <placeName key="place_1083543">Stokeby</placeName> by the 
+                     <orgName key="org_102016">prior and convent of Ledes</orgName>, appoints A. de B. his attorney to 
+                  act for him in all the business touching the said presentation; being a form for proxy
+                  in such cases. Dated &amp;c. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ss) Letter from the <orgName key="org_109090">prior and canons of Tunbridge</orgName>, to the 
+                  <persName>earl of Lancaster</persName>, asking him to send letters to
+                  <persName>
+                           <forename>Robert</forename> de <surname>Caustone</surname>
+                        </persName> and 
+                  <persName>J. de <surname>Harwell</surname>
+                        </persName>, executors of the late
+                  <persName>earl of Gloucester</persName> [dead by 1347] payment of some money due
+                  from him, which they ask may be given to their lord the 
+                  <persName>baron Stafford</persName>. 
+                  (<origDate when="1348">c. 1348</origDate>)
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(tt) Petition to the king for his licence to appropriate the church of
+                     <placeName key="place_1083453">Legh</placeName> (rated at £32) to the
+                     <orgName key="org_109090">priory of Tunbridge</orgName>. 
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(uu) Letter from <persName>King Edward III</persName> to
+                     <persName>
+                           <forename>John</forename> de <surname>Offord</surname>, dean of <placeName role="dean" type="deanery" key="place_109099">Lincoln</placeName>, and chancellor</persName>, 
+                     granting his licence for the appropriation of the church of <placeName key="place_1083453">Legh</placeName>
+                     to the <orgName key="org_109090">prior and convent of Tunbridge</orgName>, at the
+                  request of <persName>
+                           <forename>Ralph</forename>, baron of Stafford</persName>. 
+                     Dated at <placeName role="date" key="place_100060">Westminster</placeName>, 23 July, <origDate notBefore="1348-01-25" notAfter="1349-01-24">22 Ed. III</origDate> [<origDate when="1345">1345</origDate>]. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(vv) Letters patent tested at <placeName role="date" key="place_100060">Westminster</placeName>, 
+                  23 July, <origDate notBefore="1348-01-25" notAfter="1349-01-24">22 Ed. III</origDate>, for the appropriation of the church of
+                  <placeName key="place_1083453">Legh</placeName> as in (uu). </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ww)
+                     Petition from the <orgName key="org_109090">prior and convent of Tunbridge</orgName> to the 
+                     bishop of <placeName type="diocese" role="bishop" key="place_101092">Rochester</placeName>,
+                  setting forth that their church, chapter house, dormitories, 
+                  refectory, library and vestry, with the books, vestments,
+                  and ornaments, and all the other buildings, have been destroyed by fire, and 
+                  asking that the church of <placeName key="place_1083453">Legh</placeName>,
+                  taxed at £12 per annum, may be appropriated for their support, and also for the 
+                  support of two additional canons whom it is desired to add to their number of ten. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(xx) Letter from <persName>
+                           <forename>Ralph</forename>, baron of Stafford, lord of <placeName role="person" key="place_109524">Tunbridge</placeName>
+                        </persName>, 
+                  [to the archbishop of <placeName type="diocese" role="archbishop" key="place_104006">Canterbury</placeName> (?)] praying him to assist his chaplains
+                     the <orgName key="org_109090">prior and canons of Tunbridge</orgName>, on account of their loss by 
+                  fire and other heavy charges. 
+                  Written at <placeName role="date" key="place_109524">Tunbridge</placeName> the 12th day of December. 
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(yy) Further petition from the <orgName key="org_109090">prior and convent of Tunbridge</orgName>
+                  to the pope, for the appropriation of the
+                  church of <placeName key="place_1083453">Legh, Rochester diocese</placeName>, setting forth the 
+                  disaster which had befallen them, &amp;c and for power to settle the endowment
+                  of the vicarage. (see pp and ww). </p>
+                  </msItem>
+                  <msItem>
+                     <p>(zz) Petition from the <orgName key="org_109090">prior and convent of Tunbridge</orgName> to
+                  the pope, praying him to confirm to them the churches, tithes, privileges, indulgences,
+                  rents and services, lands and possessions, which they
+                  enjoyed before the 11th day of July, <origDate when="1337">1337</origDate>, when their
+                  house was burnt, all their muniments and charters having been destroyed, of which
+                  some are taking advantage to injure them.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(aaa)
+                     Commission from <persName>
+                           <forename>Richard</forename> de  <surname>Haversham</surname>, treasurer of the church of <placeName role="person" key="place_1083470">Llandaff</placeName>
+                        </persName>,
+                     subdelegate of prior of <orgName role="prior" key="org_109080">St. Bartholomew, London</orgName>,
+                     the abbot of <orgName role="abbot" key="org_104037">Westminster</orgName> and
+                     the prior of the <orgName role="prior" key="org_108062">Holy Trinity, London</orgName>, 
+                  appointed by the pope conservators
+                  <pb n="138"/> of the rights and privileges of the 
+                     <orgName key="org_103022">prior and bretheren of the Hospital of St. John of Jerusalem, England</orgName>, 
+                     to the dean of <placeName type="deanery" role="dean" key="place_1083672">Mallyng, Rochester diocese</placeName>, 
+                     commanding him to cite or cause to be cited, <persName>
+                           <forename>David</forename>, the perpetual vicar of <placeName role="vicar" key="place_1083294">Teudele (Tudley)</placeName>
+                        </persName>, 
+                     to appear before the said prior of <orgName role="prior" key="org_109080">St. Bartholomew</orgName>
+                  or one of the above, in the church of St. Bartholomew on the third law day after the
+                  feast of St. Juliana the virgin next following, concerning the usurpation of
+                  ecclesiastical rights and the administration of the sacraments, and also the unjust
+                  taking away of offerings in the church of <placeName key="place_102041">Capelle</placeName>, made 
+                  to the said Hospitallers. 
+                  Dated at <placeName role="date" key="place_100051">London</placeName>, 5 Kl. Feb., <origDate when="1351">1351</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(bbb)
+                  <persName>
+                           <forename>Ralph</forename>, earl of Stafford</persName>, petitions the pope,
+                     that the church of <placeName key="place_1083413">Heghhardres</placeName> with
+                     the chapel of <placeName key="place_1083553">Stellyngge</placeName>, taxed at 40 marks, may be
+                     appropriated to the priory of <orgName key="org_109090">Tunbridge</orgName>, for the support of
+                  two additional canons, reserving a pension of 14 marks for the vicar. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ccc) Letter of <persName>sir <forename>John</forename> de <surname>Harewell</surname>
+                        </persName> to
+                  <persName>sir <forename>Robert</forename> de <surname>Caustone</surname>
+                        </persName>,
+                  touching the settlement of the debts due to the prior of
+                     <orgName role="prior" key="org_109090">Tunbridge</orgName> by 
+                  [<persName>sir <forename>Hugh</forename> de <surname>Audley</surname>, earl of Gloucester</persName>,
+                  deceased]. He has given an acquittance to the baron [Stafford] for 34 marks, which the 
+                  latter will pay to the prior. A further large sum the prior has released on condition
+                  of the <persName>[earl of] Lancaster's</persName> 
+                        <unclear>..</unclear>ding the getting from the king the the enclosed 
+                  the prior the following goods which were in his custody, viz. 'siz
+                  quillers d'or et de jaspre, et en cire oevrez ciiii<hi rend="superscript">xx</hi>x livres, 
+                  xii. pieces de orailes
+                  de leure en amaillez, viii. papilons des margeries, un pyn de ivoir, un tablet de
+                  ivoyr de ymagerie, ii. petitz forcers de ivoyr dount jay donez lun al Eglise a
+                  mettre dedeynz Corpus Christi et altres reliques'; the prior will send "le cire"
+                  to <placeName key="place_100051">London</placeName> to <persName>
+                           <forename>John</forename> de <surname>Weston</surname>
+                        </persName> 
+                  to sell for the best price he can get in past payment 
+                  of the debt, for which also some other things of little value have been left with him.
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(ddd) Petition from the canons of <orgName key="org_109090">Tunbridge</orgName> to the king for 
+                  a licence to purchase £20 of land and rents to the memory of
+                  <persName>
+                           <forename>Hugh</forename> de <surname>Audley</surname>, late earl of Gloucester</persName>, 
+                  and <persName>
+                           <forename>Margaret</forename> his wife</persName>, cousin of the king,
+                  and in part payment of the earl's debt to them. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(eee) Letter of the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName> to 
+                  <persName>sir <forename>Robert</forename> de <surname>Caustone</surname>
+                        </persName>,
+                  recapitulating the contents of the letter
+                  of <persName>sir <forename>John</forename> de <surname>Harewell</surname>
+                        </persName> (ccc).
+                  To the inventory are added "en torches et en tortys"; the "sire" is said to weigh 192 lbs; and
+                  and the things left with him are valued at 6 marks in part payment of a debt of 40 marks; and £200 are 
+                  given to the earl of Lancaster for the licence in mortmain. 
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(fff) Letter from the prior to <persName>
+                           <forename>John</forename> de  <surname>Weston</surname>
+                        </persName>
+                  enclosing the letter of <persName>sir <forename>John</forename> de  <surname>Harewell</surname>
+                        </persName> (ccc), 
+                  and that of the prior to <persName>sir <forename>Robert</forename> de <surname>Caustone</surname>
+                        </persName> (eee), and
+                  telling him that the 'coffre oue eirez' to the pope shall be forwarded to him at the first
+                  opportunity. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ggg) Petition of <persName>Edw. III</persName> to the pope for the appropriation of the
+                     church of <placeName key="place_1083459">Leddrede</placeName>, the priory having been greatly injured and impoverished 
+                     by the siege of the Castle of <placeName key="place_1083461">Ledes</placeName> in the time of Edward II. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(hhh) Appropriation by <persName>
+                           <forename>John</forename>, archbishop of <placeName type="diocese" role="archbishop" key="place_104006">Canterbury</placeName>
+                        </persName>, as legate, of the
+                     church of <placeName key="place_1083459">Ledderede</placeName> to the 
+                     <orgName key="org_102016">prior and convent of Ledes</orgName> reciting the bull of <persName>pope Clement VI</persName>, dated at <placeName role="date" key="place_103064">Avingnon</placeName> ... Kl. Oct. [<origDate when="1344">1344</origDate>]. 
+                     Dated at <placeName role="date" key="place_1083369">Croydone</placeName>, 12 Kl. April, <origDate when="1345">1345</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(iii) Letter from <persName>King Edward III</persName> to 
+                  <persName>pope Clement VI</persName>, setting out the depression of the 
+                     <orgName key="org_102016">priory of Ledes</orgName> in consequence of
+                     the damage done to it during the siege of the castle of <placeName key="place_1083461">Ledes</placeName>.
+                  Dated at
+                     <placeName role="date" key="place_100060">Westminster</placeName>, 24 May, <origDate when="1344">1344</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(kkk) Petition of <persName>King Edward III</persName> to the pope on
+                     behalf of the <orgName key="org_102016">prior and canons of Ledes</orgName> for the appropriation 
+                     of the church of <placeName key="place_1083459">Ledrede, Winchester diocese</placeName>,
+                  valued at 52 marks sterling, to that priory, for the support of six canons. </p>
+                  </msItem>
+                  <msItem>
+                     <p> 
+                        <pb n="139"/> 
+                  
+                  (lll) Letter from <persName>King Edward III</persName> to <persName>A., bishop of <placeName role="bishop" type="diocese" key="place_1083676">Tusculum</placeName>
+                        </persName>, 
+                  urging the application for the appropriation of the church of
+                 <placeName key="place_1083459">Lederede</placeName>. 
+                 Dated at <placeName role="date" key="place_100060">Westminster</placeName>, 5 June.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(mmm) Another petition from <persName>King Edward III</persName> to the pope, on 
+                     behalf of the <orgName key="org_102016">prior and convent of Ledes</orgName>, for the appropriation of
+                     the church of <placeName key="place_1083459">Lederede</placeName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(nnn) Form of a bond for the payment of the stipend allotted to the vicar an appropriated church. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ooo) Petition to the pope by the <orgName key="org_102016">prior and convent of Ledes</orgName>,
+                  setting forth the damage done to them during the siege of the castle of
+                  <placeName key="place_1083461">Ledes</placeName>, as also to their manors and the church of
+                  <placeName key="place_1083353">Chetham</placeName> by burning, and asking that the church
+                  of Stokbery may be appropriated to them. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ppp) Letter from <persName>
+                           <forename>John</forename> 
+                           <surname>Colpeper</surname>
+                        </persName> to the
+                  <persName>earl of Huntyngdon, the King's justice in Kent</persName>, 
+                  to the effect that having been ordered
+                  to commit the office of deputy of the hundred of <placeName type="hundred" key="place_1083579">Wechilston</placeName> 
+                  to <persName>
+                           <forename>Nicholas</forename> 
+                           <surname>Merifeld</surname>
+                        </persName>
+                     in the place of <persName>
+                           <forename>Roger</forename> de <surname>Barden</surname>, the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName>
+                        </persName> begs that the said Nicholas may
+                  be relieved from that office, inasmuch as he has care of possessions of the
+                  prior in <placeName key="place_102036">Brenchesle</placeName>.
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p> (qqq) Letter from the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName> to 
+                  the <persName>earl of Huntyngdon</persName>, praying that
+                  <persName>
+                           <forename>Nicholas</forename> 
+                           <surname>Merifeld</surname>
+                        </persName>,
+                  their sergeant of <placeName role="person" key="place_102036">Brencheslee</placeName>, may not 
+                  be appointed deputy of the hundred of <placeName key="place_1083579">Wechilston</placeName>. 
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(rrr) Letter of thanks from the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName>
+                     [to the archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName> (?)] for some favour.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(sss) <persName>
+                           <forename>John</forename> 
+                           <surname>Vaccham</surname>, alias <surname>Freeman</surname>, rector of <placeName role="rector" key="place_1083453">Leghe, Rochester diocese</placeName>
+                        </persName>, appoints
+                  <persName>master <forename>William</forename> 
+                           <surname>Bradle</surname>, canon of <placeName role="person" key="place_100051">London</placeName>
+                        </persName>, 
+                  <persName>sir <forename>Thomas</forename> 
+                           <surname>Vacham</surname>, priest</persName>, 
+                  and <persName>
+                           <forename>John</forename> 
+                           <surname>Godwyne</surname>, clerk</persName>, 
+                  his proctors to act for him conjointly or severally in all matters
+                  connected with his church or any other ecclesiastical business. Dated at
+                     <placeName role="date" key="place_104247">Canterbury</placeName>, 12 Aug., <origDate when="1354">1354</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(ttt) Letter from the <orgName key="org_109090">prior and canons of Tunbridge</orgName> to 
+                  [the archbishop or archdeacon(?)] of <placeName key="place_104006">Canterbury</placeName>, praying 
+                  him to seal a new bond to be laid before him by 
+                  <persName>
+                           <forename>Thomas</forename> de <surname>Wolton</surname>
+                        </persName> 
+                  in lieu of a former cancelled bond, and recommending the latter to favour, he having resigned his benefice for their advantage. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(uuu) Letter to <persName>
+                           <forename>Thomas</forename> de <surname>Wolton</surname>
+                        </persName> 
+                  enclosing the foregoing (ttt) and the new bond for the [archbishop's (?)] seal
+                  and deprecating his supposing that the insufficiency of the former one was due to any fraudulent intention.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(vvv) Letter from <persName>King Edward III</persName> to 
+                     <persName>
+                           <forename>John</forename> bishop of <placeName role="bishop" type="diocese" key="place_101092">Rochester</placeName>
+                        </persName>, 
+                  soliciting the prayers of the people of his diocese for the
+                  success of his arms in France, in consequence of the conduct of the French at the
+                  court of the pope in refusing to ratify the treaty of Calais. Dated at
+                     <placeName role="date" key="place_100060">Westminster</placeName>, 9 June, 29 of his reign. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(www) Notice of their proposed visitation of
+                     the priory of <orgName key="org_109090">Tunbridge</orgName> from the priors of
+                     <orgName role="prior" key="org_102016">Ledes</orgName> and of 
+                     <orgName key="org_108045">St. Gregory, Canterbury</orgName>,
+                  the visitors of houses of the order of St. Augustine 
+                     in the dioceses of <placeName type="diocese" key="place_104006">Canterbury</placeName>
+                     and <placeName type="diocese" key="place_101092">Rochester</placeName>, on the 8th of June following,
+                  and citing the prior to appear at the general chapter at 
+                     <placeName key="place_1083485">New Place near Staunford</placeName> on the ensuing quidene of St Trinity.
+                     Dated at <placeName role="date" key="place_1083461">Ledes</placeName>, 20 May, <origDate when="1356">1356</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(xxx) Bond given by <persName>
+                           <forename>Roger</forename> de  <surname>Barden</surname>
+                        </persName>
+                  to <persName>
+                           <forename>William</forename> de <surname>Mallyng</surname>, the prior</persName>, 
+                     and the <orgName key="org_109090">convent of Tunbridge</orgName>, to secure the repayment of
+                  a loan of £10 4s. 1d., in case of default a distraint to be levied on his goods.
+                  Dated at <placeName role="date" key="place_109524">Tunbridge</placeName>
+                  the Tuesday next after the feast of St. Kalixtus, pope, <origDate notBefore="1352-01-25" notAfter="1353-01-24">26 Ed. III</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>
+                        <pb n="140"/> 
+                  (yyy) Warrant for preparing letters patent for the repayment at Mich. a year hence
+                  of £4 to the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName>, lent by him to
+                  the king on the 25 June, <origDate notBefore="1347-01-25" notAfter="1348-01-24">21 Ed. III</origDate>.
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(zzz)
+                     Letters patent, dated at <placeName role="date" key="place_100053">Redyng</placeName> 25 June, <origDate notBefore="1347-01-25" notAfter="1348-01-24">21 Ed. III</origDate>, 
+                  promising the repayment at Michaelmas, <origDate when="1348">1348</origDate>, 
+                  of the preceding loan (yyy). </p>
+                  </msItem>
+                  <msItem>
+                     <p>(aaaa) Warrant from <persName>
+                           <forename>Ralph</forename>, earl of Stafford</persName>, 
+                  to <persName>
+                           <forename>John</forename> 
+                           <surname>Fromond</surname>
+                        </persName> 
+                     his receiver for the lordship of <placeName key="place_109524">Tunbridge</placeName>, to allow 
+                     the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName> to keep 60 pigs
+                  free of pannage within the forest of Tunbridge in accordance with the 
+                  charters he has exhibited.
+                  [French]
+                  Dated 9th April, 31 [Ed. III].</p>
+                  </msItem>
+                  <msItem>
+                     <p>(bbbb) <persName>
+                           <forename>John</forename>, son of <persName>
+                              <forename>Thomas</forename> de <surname>Cobeham</surname>
+                           </persName>
+                        </persName>,
+                  quit-claims to <persName nymRef="Colepeper">
+                           <forename>Walter</forename>, son of  <persName>sir <forename>Thomas</forename> 
+                              <surname>Colepeper</surname>
+                           </persName>, kt.</persName>,
+                  all right in all lands and tenements together with rents and
+                  services which will fall to him after the death of <persName nymRef="Colepeper">
+                           <forename>Elizabeth</forename> his mother</persName>, wife of
+                     the said Walter, in the county of Surrey at <placeName key="place_1083406">Gatewick</placeName>. 
+                     Dated at <placeName role="date" key="place_109524">Tunbridge</placeName>, 4 July,
+                  <origDate notBefore="1359-01-25" notAfter="1360-01-24">33 Ed. III</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(cccc) <persName nymRef="Cobeham">
+                           <forename>John</forename>, son of <persName>
+                              <forename>Thomas</forename> de <surname>Cobeham</surname>
+                           </persName>
+                        </persName>, 
+                  remits to
+                  <persName>
+                           <forename>Walter</forename> 
+                           <surname>Colpeper</surname>
+                        </persName> and
+                  <persName nymRef="Colpeper">
+                           <forename>Elizabeth</forename> his wife</persName> all
+                  right in all the lands and tenements,
+                  which will fall to the said John after the decease of Walter and Elizabeth in the
+                  county of <placeName type="county" key="place_000031">Kent</placeName>; nevertheless the said
+                  Walter grants for himself and his heirs, that if the said John or
+                  <persName>
+                           <forename>Thomas</forename> de <surname>Weston</surname>
+                        </persName> in
+                  his name, come and pay to Walter or his attorney £40 in the 
+                     <orgName key="org_109090">priory of Tunbridge</orgName> on the day of the nativity of 
+                  St. John the  Baptist, within 3 years next following the date of these presents,
+                  then this writing of relaxation shall be void. 
+                  Dated at <placeName role="date" key="place_100051">London</placeName>, <origDate when="1359-07-04">4 July, 33 Ed III</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(dddd) <persName nymRef="Cobeham">
+                           <forename>John</forename>, son of <persName>
+                              <forename>Thomas</forename> de <surname>Cobeham</surname>
+                           </persName>
+                        </persName>,
+                  is bound in a sum of 40 marks sterling to <persName nymRef="Colepeper">
+                           <forename>Walter</forename>, son of <persName>sir <forename>Thomas</forename> 
+                              <surname>Colepeper</surname>
+                           </persName>, kt.</persName> 
+                     Dated at <placeName role="date" key="place_100051">London</placeName> in the
+                  house of <persName>
+                           <forename>John</forename> 
+                           <surname>Tamworth</surname>, clerk</persName>, 15 July, <origDate notBefore="1359-01-25" notAfter="1360-01-24">33 Ed. III</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(eeee) 
+                  Condition of the preceding bond; viz to secure the payment of 20 marks at the
+                     <orgName key="org_109090">priory of Tunbridge</orgName> on Easter day after the date of these
+                  presents</p>
+                  </msItem>
+                  <msItem>
+                     <p>(ffff) Letters patent of <persName>King Edward III</persName>, dated at <placeName role="date" key="place_100053">Redyng</placeName>, 
+                  <origDate when="1360-01-24">24 January, 33rd of his reign</origDate>, granting to
+                     <persName>
+                           <forename>John</forename> 
+                           <surname>Parys</surname> of <placeName role="person" key="place_109524">Tunbridge</placeName>
+                        </persName>
+                  and <persName nymRef="Parys">
+                           <forename>Margaret</forename> his wife</persName>
+                  a certain piece of land containing 2 acres of meadow in
+                     <placeName key="place_109524">Tunbridge</placeName>, formerly <persName>
+                           <forename>Roger</forename> 
+                           <surname>Bavent</surname>
+                        </persName>'s, in consideration of the gift by the said John of 
+                     a certain sum of money to the <orgName key="org_108067">prioress and sisters of Dertford</orgName> with their King's consent. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(gggg) Letter of the prior of <orgName role="prior" key="org_109090">Tunbridge</orgName> to the
+                     archbishop of <orgName role="archbishop" type="diocese" key="place_104006">Canterbury</orgName>
+                  desiring to be excused on the ground of poverty from the
+                  charge of some person committed to the custory of the priory by him. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(hhhh) Petition from the
+                     <orgName key="org_109090">prior and convent of Tunbridge</orgName> to 
+                  <persName>Lionel, earl of Ulster</persName>, for the continuance of
+                  their privileges of a daily supply of two cart-loads of wood, 
+                  of pannage for 6-score of pigs, and of the
+                  yearly gift of a stag within his forest of <placeName key="place_109524">Tunbridge</placeName>
+                  at the feast of St. Mary Magd.
+                  [French]</p>
+                  </msItem>
+                  <msItem>
+                     <p>(iiii) Warrant from <persName>
+                           <forename>Ralph</forename>, earl of Stafford and lord of Tunbridge</persName>, to 
+                  <pb n="141"/> 
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Fromond</surname>
+                        </persName> 
+                  his receiver there, to pay to the prior and convent 10 marks. Dated at
+                     <placeName role="date" key="place_109524">Tunbridge</placeName> on the feast of the translation of St. Thomas, <origDate notBefore="1361-01-25" notAfter="1362-01-24">35 Ed. III</origDate>. 
+               [French]
+               </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="133" to="141">133-141</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

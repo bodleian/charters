@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_113422">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_114005">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Lancs. 8</title>
+            <title>MS. Ch. Glouc. unknown</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,37 +30,35 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Lancs_8</idno>
+            <idno type="msID">MS_Ch_Glouc_unknown</idno>
             <idno type="collection"><!--TODO--></idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Lancs_8" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Glouc_unknown" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Lancs. 8</idno>
+                  <idno type="shelfmark">MS. Ch. Glouc. unknown</idno>
                </msIdentifier>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> SKELMERSDALE. Bond in £200 given by 
-               <persName>sir <forename>Thomas</forename> 
-                           <surname>Hesketh</surname> of <placeName role="person" key="place_1083519">Rufforth</placeName>, kt.</persName>, to 
-               <persName>
+                     <p> TEWKESBURY. <persName>
                            <forename>Richard</forename> 
-                           <surname>Smalshagh</surname>
-                        </persName> for the
-               performance of certain covenants in a pair of indentures,
-               concerning a sale of a messuage, &amp;c. in <placeName key="place_1083533">Skelmersdale</placeName>. 
-               Dated <origDate when="1556-01-04">4 Jan., 2 and 3 Philip and Mary</origDate>. 
-               [Signed, <persName>
-                           <forename>Thomas</forename> 
-                           <surname>Hesketh</surname>
-                        </persName>]
+                           <surname>Whytehed</surname>
+                        </persName>, brother of <persName>
+                           <forename>John</forename> 
+                           <surname>Whytehed</surname> of <placeName type="person" key="place_101060">Worcester</placeName>, vicar of
+               <placeName role="vicar" key="place_108092">Fayreford</placeName>
+                        </persName>, quit-claims to <persName>
+                           <forename>William</forename> 
+                           <surname>Tayllor</surname> of <placeName key="place_108043">Tewkesbury</placeName>
+                        </persName> the whole of half a burgage
+               in Tewkesbury. Dated at <placeName role="date" key="place_108043">Tewkesbury</placeName> the Thursday next after the feast of the
+               Exaltation of the Holy Cross, <origDate notBefore="1429-09-01" notAfter="1430-08-31">8 Hen. VI</origDate>. 
                 </p>
                   </msItem>
                </msContents>
@@ -76,7 +74,7 @@
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                              <citedRange unit="page" from="141" to="141">141</citedRange>
+                                <citedRange unit="page" from="646" to="646"/>
                            </bibl>
                         </source>
                      </recordHist>
