@@ -30556,7 +30556,7 @@
                <placeName type="formInDocument">Leigh [Kent]</placeName>
                <region type="parish">Leigh</region>
                <region type="county">Kent</region>
-               <idno>https://www.genuki.org.uk/big/eng/KEN/Leigh</idno>
+               <idno>https://www.genuki.org.uk/big/eng/KEN/Leigh</idno><!-- same as 1083453 ? check -->
             </place>
             
             <place type="place" xml:id="place_107090">
@@ -39386,9 +39386,9 @@
             </place>
             
             <place type="place" xml:id="place_1083432">
-               <placeName type="index">Herne Bay</placeName>
+               <placeName type="index">Herne</placeName>
                <placeName type="formInDocument">Herne</placeName>
-               <region type="parish">Herne Bay</region>
+               <region type="parish">Herne</region><!-- https://www.visionofbritain.org.uk/unit/10217260 -->
                <region type="county">Kent</region>
                <idno>https://www.visionofbritain.org.uk/place/957</idno>
                <idno>https://www.genuki.org.uk/big/eng/KEN/HerneBay</idno>
@@ -41124,8 +41124,8 @@
                <region type="county">Kent</region>
                <idno>https://www.genuki.org.uk/big/eng/KEN/Wooton</idno>
                <idno>https://www.wikidata.org/wiki/Q8034080</idno>
-               <note type="charter">MS. Ch. Durham 2</note>
-               <note type="charter">MS. Ch. Kent. 201</note>
+               <note type="charter">MS. Ch. Durham 2</note><!-- different place -->
+               <note type="charter">MS. Ch. Kent. 201</note><!-- ok -->
             </place>
             
             <place type="place" xml:id="place_1083607"> 
@@ -51680,6 +51680,42 @@
                <region type="parish">Yardley</region>
                <region type="county">Worcestershire</region>
                <note type="charter">MS. Ch. Bucks. 45</note>
+            </place>
+            
+            <place xml:id="place_112067" type="place">
+               <placeName type="index">Elham</placeName>
+               <region type="parish">Elham</region>
+               <region type="county">Kent</region>
+               <idno>https://www.visionofbritain.org.uk/unit/10151533</idno>
+            </place>
+            
+            <place xml:id="place_112068" type="place">
+               <placeName type="index">Witton le Wear</placeName><!-- check -->
+               <placeName type="formInDocument">Wotton</placeName>
+               <region type="parish">Auckland St Andrew</region>
+               <region type="county">Durham</region>
+               <idno>https://www.visionofbritain.org.uk/unit/</idno>
+            </place>
+            
+            <place xml:id="place_112069" type="manor">
+               <placeName type="index">Bramling</placeName>
+               <region type="parish">Ickham</region>
+               <region type="county">Kent</region>
+               <idno>https://discovery.nationalarchives.gov.uk/details/c/F287632</idno>
+               <bibl>
+                  Edward Hasted, 'Parishes: Ickham', in The History and Topographical Survey of the County of Kent: Volume 9 (Canterbury, 1800), pp. 167-179. British History Online http://www.british-history.ac.uk/survey-kent/vol9/pp167-179 [accessed 16 March 2022].
+               </bibl>
+            </place>
+            
+            <place xml:id="place_112070" type="manor">
+               <placeName type="index">Well</placeName>
+               <placeName type="variant">Well Court</placeName>
+               <region type="parish">Ickham</region>
+               <region type="county">Kent</region>
+               <bibl>
+                  Edward Hasted, 'Parishes: Ickham', in The History and Topographical Survey of the County of Kent: Volume 9 (Canterbury, 1800), pp. 167-179. British History Online http://www.british-history.ac.uk/survey-kent/vol9/pp167-179 [accessed 16 March 2022].
+               </bibl>
+               <!-- not found TNA -->
             </place>
  
 

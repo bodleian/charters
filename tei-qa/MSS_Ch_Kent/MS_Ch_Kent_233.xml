@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_113488">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Kent 233</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Kent_233</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Kent_233" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Kent 233</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="en">English</textLang>
+                  <msItem>
+                     <p> ISELHAM (Deanery of). Letter of <persName>
+                           <forename>William</forename> [de <surname>Bottlesham</surname>], bishop of <placeName role="bishop" type="diocese" key="place_101092">Rochester</placeName>
+                        </persName>, 
+               to the dean of <placeName role="dean" type="deanery" key="place_1083671">Iselham</placeName>, for the
+               collection of a subsidy of 4d. in the pound in the said deanery for the 
+               <persName>archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName> [<forename>William</forename> 
+                           <surname>Bourteney</surname>]</persName> 
+               on mandate from <persName>
+                           <forename>Thomas</forename> [<surname type="patronymic">Fitz-Alan</surname>], archbishop of <placeName role="archbishop" type="diocese" key="place_109023">York</placeName>
+                        </persName> 
+               in accordance with bulls [here recited] from <persName>Bonaface IX</persName>).
+               Dated at <placeName role="date" key="place_1083574">Trottesclyve</placeName>, 31 Oct., <origDate when="1395">1395</origDate>. 
+               On the back of the document is an early English poem entitled 'Hec est carta Dei.' 
+               [Metrical verses representing the grant of heaven to men by Christ; drawn up in form of legal grant of land. Printed in Notes &amp; Queries, Ser. <!--WAS: VIII-->IX, vol. viii, p. 240, a version of its charter of Christ.]
+               English and Latin
+                </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                              <citedRange unit="page" from="647" to="647"/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
