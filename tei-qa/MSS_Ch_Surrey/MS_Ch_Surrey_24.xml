@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115275">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Surrey 24</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Surrey_24</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Surrey_24" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Surrey 24</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p> 
+                        <persName>
+                           <forename>John</forename> de <surname>Twynem</surname>
+                        </persName>, receiver of
+                  the moneys of <persName>
+                           <forename>John</forename> de <surname>Britan</surname>, earl of Richemunde, in the barony of Hastyng</persName>, 
+                  acknowledges to have received of 
+                  <persName>
+                           <forename>John</forename> 
+                           <surname>Fillol</surname>
+                        </persName> and
+                  <persName>
+                           <forename>William</forename> de <surname>Northo</surname>
+                        </persName>, assigned
+                  to collect and levy the scutage in the counties of 
+                  <placeName type="county" key="place_000071">Surrey</placeName> and <placeName type="county" key="place_000072">Sussex</placeName>,
+                  the sum of £24 18s. 0d., for the 31st and 34th years of Ed. I. 
+                  Dated at the Chamber "la Chaumbre" in the parish of <placeName key="place_108617">Tycheshurst</placeName>,
+                  Monday on the vigil of St. Thomas Apost., <origDate notBefore="1316-07-08" notAfter="1317-07-07">10 Ed. II</origDate>. 
+                  . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="549" to="549">549</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

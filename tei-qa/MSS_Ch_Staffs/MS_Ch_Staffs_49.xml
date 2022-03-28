@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115366">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Staffs. 49</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Staffs_49</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Staffs_49" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Staffs. 49</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p> BERLESTON. <persName>
+                           <forename>Humphrey</forename>, earl of Stafford and lord of Tonbrygge and of Caus</persName>, 
+               commands receiver general, and his former bailiff or minister of his manor and lordship of 
+               <placeName type="manor" key="place_108682">Berleston</placeName> to pay to
+               <persName>
+                           <forename>Edward</forename> 
+                           <surname>Doly</surname>
+                        </persName> and
+               <persName nymRef="Doly">
+                           <forename>Anne</forename> his wife</persName> an annuity of £10
+               from the profits of the said manor, in pursuance of a grant made by him to them,
+               31 Dec. 3 Hen. VI. 
+               Dated at <placeName role="date" key="place_103244">Hull</placeName>, 12 January, <origDate notBefore="1424-09-01" notAfter="1425-08-31">3 Hen. VI</origDate>. 
+                 
+               . <!--WAS Ch. 180-->
+            </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With seal.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="" to=""/>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

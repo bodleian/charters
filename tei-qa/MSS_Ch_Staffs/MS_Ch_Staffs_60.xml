@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115377">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Staffs. 60</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Staffs_60</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Staffs_60" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Staffs. 60</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p>
+                        <pb n="665"/> An exemplification of a recovery, dated at 
+               <placeName role="date" key="place_100060">Westminster</placeName>, 14 June, <origDate notBefore="1531-04-22" notAfter="1532-04-21">23 Hen. VIII</origDate>, for
+               passing the manor of <placeName type="manor" key="place_108716">Morton</placeName>, with 6 messuages,
+               300 acres of land, 100 acres of meadow, 300 acres of pasture, 100 acres of wood, and
+               100 acres of underwood and furze, with appurtenances in <placeName key="place_108521">Morton</placeName>, to
+               <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Forster</surname>, gent.</persName> 
+                 
+               . <!--WAS Ch. 191--></p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With fragment of seal.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="664" to="665">664-665</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

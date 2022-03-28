@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115120">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Salop. 61</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Salop_61</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Salop_61" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Salop. 61</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p> 
+                        <persName>
+                           <forename>William</forename> 
+                           <surname>Forster</surname> of <placeName role="person" type="county" key="place_000067">Salop</placeName>, draper</persName> 
+               quit-claims to <persName nymRef="Forster">
+                           <forename>Roger</forename>, son of <persName>
+                              <forename>Roger</forename> 
+                              <surname>Forster</surname>
+                           </persName>
+                        </persName>, 
+               all his right in three assarts lying together between the king's way near 
+               <placeName key="place_108633">Welyngton</placeName> and <placeName key="place_108495">La Haye</placeName> of the heir of the Earl of Arundel. 
+               Dated at <placeName role="date" key="place_108633">Welyngton</placeName> the Thursday next after the feast of St. Gregory the pope, <origDate notBefore="1424-09-01" notAfter="1425-08-31">3 Hen. VI</origDate>.
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="394" to="394">394</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

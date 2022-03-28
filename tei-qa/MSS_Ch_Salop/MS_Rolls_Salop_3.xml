@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115133">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Salop. 3</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Salop_3</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Salop_3" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Salop. 3</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p>  UPTON (Fee of). List of the charters concerning the lands and
+               tenements of <persName>
+                           <forename>John</forename> 
+                           <surname>Haines</surname>
+                        </persName> and
+                  <persName nymRef="Haines">
+                           <forename>Anne</forename> his wife</persName>, of
+                  <persName>
+                           <forename>Richard</forename> 
+                           <surname>Swaine</surname>
+                        </persName> and 
+                  <persName nymRef="Swaine">
+                           <forename>Elizabeth</forename> his wife</persName>,
+               of <persName>
+                           <forename>Robert</forename> 
+                           <surname>Rider</surname>
+                        </persName> and 
+                  <persName nymRef="Rider">
+                           <forename>Dorothy</forename> his wife</persName>, of
+                  <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Shawe</surname>
+                        </persName> and 
+                  <persName nymRef="Shawe">
+                           <forename>Margaret</forename> his wife</persName>, lying
+                  and being in <placeName key="place_108519">Moreleys</placeName> within the <pb n="397"/> fee of <placeName key="place_108461">Upton under Haughmond</placeName>,
+                  lately the lands and tenements of <persName>
+                           <forename>John</forename> 
+                           <surname>Clerke</surname> of <placeName role="person" key="place_108446">Edgebaldon</placeName>
+                        </persName>, 
+                  examined, viewed, and diligently compared with the original charters by
+                  <persName>
+                           <forename>Roger</forename> 
+                           <surname>Kyrckbie</surname>, schoolmaster of <placeName role="person" key="place_108633">Wellington</placeName> and notary-public</persName>.
+                  [<origDate notBefore="1509" notAfter="1547">temp. Hen. VIII</origDate>?]
+                  . </p>
+                  </msItem>
+                  <msItem>
+                     <p>(a) <persName>
+                           <forename>Margaret</forename> 
+                           <surname>Hull</surname>
+                        </persName>, 
+                     formerly the wife of <persName>
+                           <forename>Fulk</forename> 
+                           <surname>Hull</surname> of <placeName role="person" key="place_108487">Isombrudge</placeName>
+                        </persName>, 
+                  grants to <persName nymRef="Wilde">
+                           <forename>Joan</forename> wife of <persName>
+                              <forename>Roger</forename> 
+                              <surname>Wilde</surname>
+                           </persName>
+                        </persName>, 
+                  and <persName nymRef="Clerk">
+                           <forename>Elionor</forename> wife of <persName>
+                              <forename>Reginald</forename> 
+                              <surname>Clerk</surname>
+                           </persName>
+                        </persName>, 
+                  her daughters, all her lands and tenements, meadows and pastures, which she has 
+                  in the village and fields of <placeName key="place_108461">Upton under Hamon</placeName> and in
+                     <placeName key="place_108519">Moreley</placeName>, paying annually to the said Margaret during her life 10s.
+                     Dated at <placeName role="date" key="place_108461">Upton</placeName> on the feast of St. John the Baptist, <origDate notBefore="1428-09-01" notAfter="1429-08-31">7 Henry VI</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(b) <persName nymRef="Berryton">
+                           <forename>Alice</forename>, wife of <persName>
+                              <forename>Roger</forename> de <surname>Berryton</surname> of <placeName role="person" key="place_108461">Upton under Haughmon</placeName>
+                           </persName>
+                        </persName>, 
+                  grants to Robert her son all her lands and tenements, &amp;c. in 
+                      <placeName key="place_108461">Upton under Haughmon</placeName> and in <placeName key="place_108519">Moreley</placeName>. 
+                      Dated at <placeName key="place_108461">Upton</placeName> aforesaid, Monday after the feast of St. Nicholas, <origDate notBefore="1369-01-25" notAfter="1370-01-24">43 Ed. III</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(c) <persName>
+                           <forename>Robert</forename> 
+                           <surname>Buryton</surname>, esq., of <placeName role="person" key="place_108519">Moreley</placeName>
+                        </persName>,
+                     grants to <persName nymRef="Hill">
+                           <forename>Margaret</forename> his sister, wife of <persName>
+                              <forename>Fulk</forename> 
+                              <surname>Hill</surname> of <placeName role="person" key="place_108487">Isombridge</placeName>
+                           </persName>
+                        </persName>, the whole of
+                     his messuage with certain land in <placeName key="place_108461">Upton</placeName>. 
+                      Dated at <placeName role="date" key="place_108519">Moreley</placeName>, <origDate notBefore="1400-09-30" notAfter="1401-09-29">2 Hen. IV</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(d) <persName>
+                           <forename>Reginald</forename> 
+                           <surname>Clerke</surname>
+                        </persName> and
+                  <persName>
+                           <forename>Elionor</forename> his wife</persName> grant to
+                  <persName>
+                           <forename>Richard</forename> 
+                           <surname>Upton</surname>, vicar of <placeName role="vicar" key="place_108474">Highe Ercalle</placeName>
+                        </persName>,
+                  all his lands, tenements, &amp;c. in the fee of <placeName key="place_108461">Upton under Haughmond</placeName>, to
+               hold the same during his life, and after his decease to the heirs of Reginald and
+               Elionor lawfully begotten.
+               Dated at <placeName role="date" key="place_108519">Moreley</placeName>, 8 May, <origDate notBefore="1430-09-01" notAfter="1431-08-31">9 Henry VI</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(e) <persName>
+                           <forename>Richard</forename> 
+                           <surname>Upton</surname>, vicar of <placeName role="vicar" key="place_108474">Great Ercalle</placeName>
+                        </persName>, 
+                  quit-claims to <persName>
+                           <forename>Reginald</forename> 
+                           <surname>Clerke</surname>
+                        </persName> 
+                  and <persName nymRef="Clerke">
+                           <forename>Elianor</forename> his wife</persName> all his
+                      right in all lands and tenements within the lordship of <placeName key="place_108519">Moreley under Haughmond</placeName>, 
+                  for the term of their life, and after their death to remain to 
+                  <persName nymRef="Clerke">
+                           <forename>William</forename> their son</persName>, and his
+               heirs lawfully begotten. 
+               Dated at <placeName role="date" key="place_108474">Ercall</placeName> aforesaid, 24 May, <origDate notBefore="1434-09-01" notAfter="1435-08-31">13 Hen. VI</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(f) <persName>
+                           <forename>John</forename> 
+                           <surname>Clerke</surname> of <placeName role="person" key="place_108446">Edgebaldon, in the parish of Shawburye</placeName>
+                        </persName>, 
+                  grants to <persName>
+                           <forename>William</forename> 
+                           <surname>Wynshurste</surname> of <placeName role="person" key="place_108373">Bishburye, in the county of Stafford</placeName>
+                        </persName>,
+                      and <persName>
+                           <forename>Roger</forename> 
+                           <surname>Langeley</surname> of <placeName role="person" key="place_108507">Madeley</placeName>
+                        </persName>,
+               his fourth part of pasture land with appurtenances in 
+                      <placeName key="place_108461">Upton under Haughmon</placeName>, near <placeName type="minor">Ravenswoode</placeName>
+                  and near <placeName type="minor">Whitonsfelde</placeName>. 
+                      Dated at <placeName key="place_108461">Upton</placeName> aforesaid, 26 June, <origDate notBefore="1514-04-22" notAfter="1515-04-21">6 Henry VIII</origDate>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(g) <persName>
+                           <forename>John</forename> 
+                           <surname>Wyelde</surname> of <placeName role="person" key="place_108354">Ardeston</placeName>
+                        </persName>
+                      grants to <persName>
+                           <forename>William</forename> 
+                           <surname>Clerke</surname> of <placeName role="person" key="place_108446">Edgebaldon</placeName>
+                        </persName> 
+                      all the lands, &amp;c. which he has within the lordship of <placeName key="place_108461">Upton under Haughmond</placeName> and
+                      <placeName key="place_108519">Moreley</placeName>, to hold the same by the payment of one red rose at
+                  the feast of St. <persName>
+                           <forename>John</forename> the  <surname>Baptist</surname>
+                        </persName>, if
+               demanded.
+               Dated at <placeName role="date" key="place_108519">Moreley</placeName> the day before the feast of St. Matthew the apostle, <origDate notBefore="1475-03-04" notAfter="1476-03-21">15 Ed. IV</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(h) <persName>
+                           <forename>Richard</forename> 
+                           <surname>Dicher</surname>, senior, late of <placeName role="person" key="place_108446">Edgebaldon</placeName>, yeoman</persName>,
+               quit-claims to <persName>
+                           <forename>Elen</forename> 
+                           <surname>Clerke</surname>
+                        </persName>
+                      all his right in the pastures called <placeName key="place_108519">Moreleys</placeName>, near <placeName type="minor">Ravenswoode</placeName>. 
+                  Dated 2 March, <origDate notBefore="1534-04-22" notAfter="1535-04-21">26 Hen. VIII</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(i) Indenture made at <placeName key="place_108461">Upton</placeName>, 6 June, <origDate notBefore="1496-08-22" notAfter="1497-08-21">12 Hen. VII</origDate>, between
+                     <persName>
+                           <forename>John</forename> 
+                           <surname>Clerke</surname> of <placeName role="person" key="place_108446">Edgebaldon</placeName>
+                        </persName> 
+                      on the one part, and <persName>
+                           <forename>Richard</forename> 
+                           <surname>Upton</surname> of <placeName role="person" key="place_108461">Upton under Haughmond</placeName>
+                        </persName> 
+                      of the other, being a lease of the said John's part of <placeName key="place_104443">Morleys</placeName> to
+               the said Richard for five years, at a yearly rent of 20s. 
+                  English
+                  </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="396" to="397">396-397</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

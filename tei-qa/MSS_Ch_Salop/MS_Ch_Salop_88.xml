@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115092">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Salop. 88</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Salop_88</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Salop_88" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Salop. 88</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p> Indenture made 10 May, <origDate notBefore="1622-03-24" notAfter="1623-03-23">20 James I</origDate>, between 
+               <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Shawe</surname> of <placeName role="person" key="place_108446">Edgboulton</placeName>
+                        </persName>,
+               <persName nymRef="Shawe">
+                           <forename>Margaret</forename> his wife</persName>, one of the 
+               daughters and co-heirs of <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Clerke</surname>
+                        </persName>,
+               and <persName>
+                           <forename>Richard</forename> 
+                           <surname>Shawe</surname>
+                        </persName> their son, of the one part,
+               and <persName>
+                           <forename>Margaret</forename> 
+                           <surname>Freeman</surname> of <placeName role="person" key="place_108485">Hunkiton</placeName>, widow</persName>, of the
+               other part, being a sale of certain lands and tenements called <placeName type="minor">Broade-leasowe</placeName> or
+               <placeName type="minor">Morleys</placeName>, in the parishes of
+               <placeName key="place_108461">Upton under Haghmond</placeName> and <placeName key="place_104443">Morley</placeName> or one of them; the
+               consideration being £33 10s. for the same. 
+                 
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With small seals.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="391" to="391">391</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
