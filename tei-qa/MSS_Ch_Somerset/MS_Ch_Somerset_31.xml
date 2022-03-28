@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115164">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Somerset 31</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Somerset_31</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Somerset_31" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Somerset 31</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p> Indenture made 27 November, <origDate notBefore="1615-03-24" notAfter="1616-03-23">13 James I</origDate>, by which
+               <persName>
+                           <forename>William</forename> 
+                           <surname>Reeve</surname>, citizen arid haberdasher of <placeName role="person" key="place_100051">London</placeName>
+                        </persName>,
+               and <persName>
+                           <forename>Edward</forename> 
+                           <surname>Tayler</surname>, citizen and girdler of <placeName role="person" key="place_100051">London</placeName>
+                        </persName>,
+               in consideration of the receipt of £900, grant and assign to
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Davenport</surname> of <placeName role="person" key="place_108388">Burleigh Parke, co. Leicester</placeName>, esq.</persName>,
+               and <persName>
+                           <forename>Henry</forename> 
+                           <surname>Cutler</surname> of <placeName role="person" key="place_1083326">Blakefordby</placeName>, gent.</persName>, the rent
+               of £274 5s. 11d. with their interest &amp;c. acquired from
+               <persName>
+                           <forename>Katherine</forename>, countess of Hungerford</persName>, in 
+               the estates &amp;c. of <placeName key="place_1083308">Aller</placeName> and <placeName key="place_108348">Allermore</placeName>
+               during the term of the life of the said Katheriue. 
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="401" to="401">401</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

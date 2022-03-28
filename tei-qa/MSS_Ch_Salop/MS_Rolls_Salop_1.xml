@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115131">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Salop. 1</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Salop_1</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Salop_1" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Salop. 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p> HALES-OWEN (Abbey of). Inrolment of six charters relating to the possessions of the
+               abbey in <placeName key="place_108467">Horborne</placeName>. [Written <origDate notBefore="1272" notAfter="1307">temp. Ed. I</origDate>.] 
+               . </p>
+                  </msItem>
+                  <msItem>
+                     <p>(a) <persName>
+                           <forename>John</forename> de <surname>Theshale</surname>
+                        </persName>
+               grants to <persName>
+                           <forename>Richard</forename> de <surname>Egebaston</surname>
+                        </persName> 
+               and <persName nymRef="Egebaston">
+                           <forename>Emma</forename> his wife</persName>, and the 
+               heirs of the said Richard, all the lands and tenements which he has and holds in the
+               village of <placeName key="place_108467">Horborne</placeName>; for
+               this grant the said Richard and Emma gave £55 sterling. 
+               Dated at <placeName role="date" key="place_108467">Horborn</placeName>, St. Valerian's day, <origDate notBefore="1304-11-20" notAfter="1305-11-19">33 Ed. I</origDate>.
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>(b) <persName>Nicholas, the abbot</persName>, and <orgName key="org_108097">convent of Hales Oweyn</orgName> 
+               grant to <persName nymRef="Theshale">
+                           <forename>John</forename>, son of <persName>
+                              <forename>Adam</forename> de <surname>Theshale</surname>
+                           </persName>
+                        </persName>, 
+               and his heirs, for his service and half a mark of silver, one plot of land in their waste
+               of <placeName key="place_108467">Horburn</placeName> lying between the land
+                  of the said John and the way which leads from <placeName key="place_108564">Radeunall</placeName> towards <placeName type="minor">Longeforlong</placeName>, and
+                  extends to the way which leads from <placeName type="minor">Weleye</placeName> towards <placeName key="place_108581">Smethewik</placeName>, for an annual payment of 2d. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(c) <persName>
+                           <forename>Nicholas</forename>, the abbot</persName>, and <orgName key="org_108097">convent of Hales Owayn</orgName> 
+               grant to <persName nymRef="Teshale">
+                           <forename>John</forename>, son of <persName>
+                              <forename>Adam</forename> de  <surname>Teshale</surname>
+                           </persName>
+                        </persName>,
+                  a certain plot of land called <placeName type="minor">Bradeheth</placeName> in <placeName key="place_108467">Horburn</placeName>, lying between the two
+                  ways which extend from <placeName key="place_108564">Radewalle</placeName> towards the church of <placeName key="place_108467">Horeburn</placeName>, and on the other
+                  part towards <placeName key="place_108389">Burmingeham</placeName>, at an annual rent of 4d. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(d) <persName>
+                           <forename>Nicholas</forename>, the abbot</persName>, and
+                  <orgName key="org_108097">convent of Hales Oweyn</orgName> grant to 
+               <persName nymRef="Theshale">
+                           <forename>John</forename>, son of <persName>
+                              <forename>Adam</forename> de <surname>Theshale</surname>
+                           </persName>
+                        </persName>,
+               one plot of land called '<placeName type="minor">le Merx</placeName>' in
+                  <placeName key="place_108467">Horeborn</placeName>, lying near the land of <persName>
+                           <forename>Adam</forename> de <surname>Longforlong</surname>
+                        </persName>
+               and <persName>
+                           <forename>John</forename> le <surname>Prestes</surname>
+                        </persName>, 
+                  between the way leading from <placeName type="minor">Weleye</placeName> towards <placeName key="Burmingham">Burmingham</placeName>, 
+                  and between the way leading from <placeName key="place_108564">Radennalle</placeName> 
+                  towards the church of <placeName key="place_108467">Horborn</placeName>; 
+               paying annually one halfpenny. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(e) <persName>
+                           <forename>Nicholas</forename>, the abbot</persName>, and 
+                  <orgName key="org_108097">convent of Hales Owayn</orgName> grant to <persName nymRef="Teshale">
+                           <forename>John</forename>, son of <persName>
+                              <forename>Adam</forename> de  <surname>Teshale</surname>
+                           </persName>
+                        </persName>, 
+               for his homage and service and for six marks of silver, two plots of
+               land in their waste of <placeName key="place_108467">Horborn</placeName>, namely one plot lying near 
+               <placeName type="minor">Muchelhay</placeName> which is called
+               <placeName type="minor">Honteresleye</placeName>, and one other plot called 
+               <placeName type="minor">Bradeheth</placeName> lying between the land of
+               <persName>
+                           <forename>William</forename> 
+                           <surname>Bogings</surname>
+                        </persName> and the way
+               which leads from <placeName type="minor">Weleye</placeName> towards 
+                  <placeName type="minor">Smethewyk</placeName>, near the way leading from <placeName key="place_108467">Horborne</placeName> towards <placeName key="place_108564">Radewelles</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(f) <persName>
+                           <forename>Martin</forename>, the abbot</persName>,
+                  and <orgName key="org_108097">convent of Hales Owayn</orgName> grant to
+               <persName nymRef="Teshale">
+                           <forename>John</forename>, son of <persName>
+                              <forename>Adam</forename> de <surname>Teshale</surname>
+                           </persName>
+                        </persName>,
+               for his service and for 40s. sterling, one plot of land in their waste of
+                  <placeName key="place_108467">Horeborn</placeName> which is called
+               <placeName type="minor">Canessithe</placeName>, to hold the same for an annual rent of 12d. 
+            </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="396" to="396">396</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

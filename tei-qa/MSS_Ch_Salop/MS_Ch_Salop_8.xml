@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115053">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Salop. 8</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Salop_8</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Salop_8" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Salop. 8</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p>
+                        <pb n="387"/> 
+                        <persName>
+                           <forename>John</forename> 
+                           <surname>Gunny</surname>
+                        </persName>, son of <persName>
+                           <forename>William</forename> 
+                           <surname>Gunny</surname> of <placeName role="person" key="place_108471">Hecstan</placeName>
+                        </persName>, 
+               remits and quitclaims to
+               <persName>
+                           <forename>William</forename> 
+                           <surname>Selymon</surname> of <placeName role="person" key="place_1083522">Bruges</placeName>
+                        </persName>
+               one halfpenny annual rent out of his tenement in <placeName key="place_1083522">Bruges</placeName>,
+               situated in <placeName type="street" key="place_108744">Hungrey way ("vieo")</placeName>, between a tenement of <persName>
+                           <forename>Thomas</forename> the <surname>goldsmith</surname>
+                        </persName> of the one part,
+               and a tenement of <persName>
+                           <forename>Walter</forename> 
+                           <surname>Boldyrig</surname>
+                        </persName> of the other, and 
+               extends itself from the said way to a tenement of 
+               <persName>
+                           <forename>Walter</forename> the <surname>tailor</surname>
+                        </persName>. 
+               Dated at <placeName role="date" key="place_1083522">Bruges</placeName> the Wednesday on the feast
+               of the Translation of St. Thomas, martyr, <origDate notBefore="1304-11-20" notAfter="1305-11-19">33 Ed. I</origDate>. 
+               Witn. <persName>
+                           <forename>Roger</forename> de <surname>Mora</surname>
+                        </persName> and
+               <persName>
+                           <forename>William</forename> de la <surname>Hulle</surname>, provost</persName>, etc.
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="385" to="387">385-387</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

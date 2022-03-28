@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115299">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Westmorland 1</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Westmorland_1</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Westmorland_1" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Rolls Westmorland 1</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p> NATEBY. Charters (inrolled) of grants of lands, woods,
+               &amp;c. in the village of <placeName key="place_108527">Nateby</placeName>. 
+               [Roll written <origDate notBefore="1422" notAfter="1553">temp. Hen. VI or Edw. VI</origDate>.] <!-- check: does this mean Edw. IV? -->
+               </p>
+                  </msItem>
+                  <msItem>
+                     <p>(a) <persName nymRef="Nateby">
+                           <forename>William</forename>, son of <persName>
+                              <forename>Elyas</forename> de <surname>Nateby</surname>
+                           </persName>
+                        </persName>,
+               grants to  <persName>sir <forename>Michael</forename> de <surname>Hartla</surname>
+                        </persName>
+                  all his lands and tenements in the village and field of <placeName key="place_108527">Nateby</placeName>, with all the appurtenances. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(b) <persName>
+                           <forename>Roger</forename> de <surname>Clifford</surname>, jun.</persName>,
+               <persName nymRef="Clifford">
+                           <forename>Isabel</forename> his wife</persName>,
+               <persName>
+                           <forename>Roger</forename> de <surname>Leyburn</surname>
+                        </persName> 
+               and <persName nymRef="Leyburn">
+                           <forename>Idonea</forename> his wife</persName>, grant to
+               <persName>sir <forename>Michael</forename> de <surname>Hartla</surname>
+                        </persName> 
+               a certain vaccary in their forest of <placeName type="minor">Mallyestang</placeName> which is
+               called <placeName type="minor">Snetwayt</placeName>, at an annual rent of 6d.</p>
+                  </msItem>
+                  <msItem>
+                     <p>
+                        <pb n="584"/> 
+               (c) <persName>
+                           <forename>Idonia</forename> de <surname>Leyburne</surname>
+                        </persName>, widow
+                  grants to <persName>
+                           <forename>Michael</forename>, lord of <placeName type="manor" key="place_108701">Hartecla</placeName>
+                        </persName>, 
+                  a licence to enable him to inclose the woods of <placeName key="place_108469">Hartecla</placeName> and
+                  <placeName key="place_108527">Nateby</placeName> with a hedge or ditch, and to hunt therein, which she has by heirship from her father <persName>
+                           <forename>Robert</forename> de <surname>Vipount</surname>
+                        </persName>,
+               who was also the father of <persName>
+                           <forename>Isabella</forename> wife of
+               <persName>
+                              <forename>Roger</forename> de <surname>Clyfford</surname>
+                           </persName>
+                        </persName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(d)  Part of a grant from <persName>King Edward</persName> to
+               <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Rukby</surname>
+                        </persName> "le unncle" of 
+               all the lands and tenements which were
+               <persName>
+                           <forename>Andrew</forename> de <surname>Hertcla</surname>
+                        </persName>'s in the vills
+                  of <placeName key="place_108527">Nateby</placeName> and <placeName key="place_108636">Wherton</placeName>.</p>
+                  </msItem>
+                  <msItem>
+                     <p>(e) <persName>
+                           <forename>Thomas</forename> de <surname>Rokeby</surname>
+                        </persName> "l'uncle"
+                  grants to <persName>
+                           <forename>Richard</forename> 
+                           <surname>Roter</surname>, vicar of <placeName role="vicar" key="place_108380">Briniston</placeName>
+                        </persName>, 
+                  all his lands, &amp;c. in the vills of <placeName key="place_108527">Nateby</placeName> and
+                  <placeName key="place_108636">Querton</placeName>, with the third part of the demesne there, also all
+                  his lands, &amp;c. in <placeName key="place_108580">Slegill</placeName>. 
+                  Dated at <placeName role="date" key="place_108380">Briniston</placeName> on
+               the feast of St. Michael, <origDate notBefore="1356-01-25" notAfter="1357-01-24">30 Ed. III</origDate>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(f) <persName>
+                           <forename>Thomas</forename> de <surname>Musgrave</surname>
+                        </persName> grants to
+               <persName>sir <forename>Michael</forename> de <surname>Hartcla</surname>
+                        </persName> the
+               homage and service of <persName>
+                           <forename>Thomas</forename>, son of <persName>
+                              <forename>John</forename> 
+                              <surname>Snodding</surname>
+                           </persName>
+                        </persName>, for
+                  all the lands, &amp;c. he held in <placeName key="place_108527">Nateby</placeName>. </p>
+                  </msItem>
+                  <msItem>
+                     <p>(g) <persName>
+                           <forename>Richard</forename> 
+                           <surname>Router</surname>, master of the <orgName role="master" key="org_108108">hospital of Keprer</orgName>
+                        </persName>,
+               grants to sir <persName>
+                           <forename>Thomas</forename> de <surname>Mussgrave</surname>, kt.</persName>, 
+                  all the lands, &amp;c. which he has in the villages of <placeName key="place_108636">Querton</placeName> and
+                  <placeName key="place_108527">Nateby</placeName> by the gift of 
+               <persName>sir <forename>Thomas</forename> de <surname>Rukeby</surname>, kt., sen.</persName>
+               Dated at <placeName role="date" key="place_100051">London</placeName>, Wednesday on the feast of St. Leonard,
+               <origDate when="1364">1364</origDate>.</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="" to="584">-584</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

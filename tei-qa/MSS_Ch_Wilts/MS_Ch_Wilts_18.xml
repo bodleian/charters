@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115316">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Wilts. 18</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Wilts_18</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Wilts_18" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Wilts. 18</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p> 
+                        <persName>
+                           <forename>Nicholas</forename> le <surname>Duyn</surname>
+                        </persName> and 
+               <persName nymRef="Duyn">
+                           <forename>Andrew</forename> his brother</persName> agree to 
+               divide between them two parts of a  water-mill in <placeName key="place_108593">Stanlinch</placeName>, and 
+               2 parts of 14 1/2 acres of land in <placeName key="place_108370">Bereford</placeName> and 
+               <placeName type="minor">La Mulecrofte</placeName>, and 2 parts of a field called
+               <placeName type="minor">Battescrofte</placeName>, which mill and land
+               <persName>
+                           <forename>William</forename> le <surname>Duyn</surname>
+                        </persName> the father of
+               the said Nicholas and Andrew gave to them and to 
+               <persName>
+                           <forename>Thomas</forename> le  <surname>Duyn</surname>
+                        </persName> (deceased)
+               for their lives, and from which <persName nymRef="Duyn">
+                           <forename>Joan</forename>
+                        </persName> 
+               the wife of William holds the third part in the name of dowry. 
+               Dated at <placeName role="date" key="place_108593">Stanlinch</placeName> on the feast of the Nativity of our Lord, <origDate notBefore="1318-07-08" notAfter="1319-07-07">12 Ed. II</origDate>. 
+               [In the charter the name Duyn has been altered in ink to something like <persName>
+                           <surname>Boykin</surname>
+                        </persName>.]
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="586" to="586">586</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

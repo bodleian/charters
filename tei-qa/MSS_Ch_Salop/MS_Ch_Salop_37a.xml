@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115088">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Salop. 37a</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Salop_37a</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Salop_37a" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Salop. 37a</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p> 
+                        <pb n="391"/> 
+                        <persName nymRef="Lowe">
+                           <forename>Hugh</forename>, son of <persName>
+                              <forename>Richard</forename> 
+                              <surname>Lowe</surname> of <placeName role="person" type="county" key="place_000067">Salop</placeName>
+                           </persName>
+                        </persName>,
+               quit-claims to <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Forster</surname> of <placeName role="person" type="county" key="place_000067">Salop</placeName>, draper</persName>, all his right in a tenement in <placeName type="county" key="place_000067">Salop</placeName>
+               in the street called <placeName type="street" key="place_108746">Mardefole</placeName>, between the tenement
+               of <persName>
+                           <forename>John</forename> 
+                           <surname>Colle</surname>
+                        </persName>, and the lane leading to the <placeName type="minor">chapel of Romaldesham</placeName>. 
+               Dated at <placeName role="date" type="county" key="place_000067">Salop</placeName> the Friday next before the feast of the Conversion
+               of St. Paul, <origDate notBefore="1427-09-01" notAfter="1428-08-31">6 Hen. VI</origDate>. 
+               Witn. <persName>
+                           <forename>William</forename> 
+                           <surname>Toure</surname>
+                        </persName> and <persName>
+                           <forename>William</forename> 
+                           <surname>Horde</surname>
+                        </persName>, bailiffs of [<placeName role="bailiff" key="place_108578">Shrewsbury</placeName>] etc.
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="390" to="391">390-391</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

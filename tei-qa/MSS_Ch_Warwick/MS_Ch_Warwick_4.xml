@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115283">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Warwick. 4</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Warwick_4</idno>
+            <idno type="collection"><!--TODO--></idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Warwick_4" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Warwick. 4</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p> BEREFORD, &amp;c. Letters patent of <persName>King Edward III</persName>, dated at <placeName role="date" key="place_100060">Westminster</placeName> 6 Feb., <origDate>29 of his reign</origDate>, 
+               making known, that, by an inspection of the rolls of Chancery it appears
+               that with the assent of <persName>
+                           <forename>Bartholomew</forename> de  <surname>Burgherssh</surname>
+                        </persName> 
+               and <persName nymRef="Burgherssh">
+                           <forename>Elizabeth</forename> his second wife</persName>,
+               of <persName>
+                           <forename>Mark</forename> 
+                           <surname>Husee</surname>
+                        </persName>
+               and <persName nymRef="Husee">
+                           <forename>Margery</forename> his third wife</persName>, and
+               <persName nymRef="Ferrars">
+                           <forename>Isabella</forename>
+                        </persName> who was the wife of
+               <persName>
+                           <forename>Henry</forename> de <surname>Ferrars</surname>
+                        </persName>, the fourth
+               of the  daughters and heirs of <persName>
+                           <forename>Theobald</forename> de <surname>Verdon</surname>
+                        </persName>, 
+               deceased, who held of the King Edw. II in capite of the fees
+               and parts of knights' fees and the advowsons of churches which were the said
+               Theobald's have been assigned to Thomas, son and heir of
+               <persName nymRef="Furnivall">
+                           <forename>Joan</forename>
+                        </persName>, who was the wife of
+               <persName>
+                           <forename>Thomas</forename> de <surname>Furnivall</surname>
+                        </persName>, the eldest of
+               the daughters and heirs of the said Theobald, according
+               to the law and custom of England, the underwritten fees and advowsons, viz. in
+               demesne four knights' fees in <placeName key="place_108558">Potteleye</placeName>,
+               <placeName key="place_108411">Cheynestre</placeName>, <placeName key="place_108603">Strote</placeName>,
+               <placeName key="place_108616">Twyldenhyde</placeName>, <placeName key="place_108452">Est <unclear>H</unclear>eche</placeName>,
+               and <placeName key="place_108622">Walnesthorp</placeName>, which <persName>
+                           <forename>Richard</forename> 
+                           <surname>Comyn</surname>
+                        </persName> 
+               and the heirs of <persName>
+                           <forename>William</forename> 
+                           <surname>Comyn</surname>
+                        </persName> had,
+               the fourth part of one knight's fee in <placeName key="place_108346">Aleton</placeName> which
+               <persName>
+                           <forename>Robert</forename> 
+                           <surname>Brown</surname>
+                        </persName> holds,
+               the half of one knight's fee in <placeName key="place_108524">Mousleye</placeName>, which the heirs
+               of <persName>
+                           <forename>Richard</forename> 
+                           <surname>Faype</surname>
+                        </persName> holds, the
+               half of one knight's fee in <placeName key="place_108629">Webbeton</placeName>, <placeName key="place_108421">Cobbewell</placeName>,
+               <placeName key="place_108623">Walshopthorn</placeName>, and <placeName key="place_108509">Meere</placeName>, which 
+               <persName nymRef="Crikentot">
+                           <forename>Roger</forename>
+                        </persName> and 
+               <persName>
+                           <forename>George</forename> 
+                           <surname>Crikentot</surname>
+                        </persName> hold, the 
+               half of one knight's fee in <placeName key="place_108568">Rouleston</placeName>, which pertains to
+               the castle of <placeName key="place_108405">Ewyas in Herefordshire</placeName>, one knight's fee in
+               <placeName key="place_108481">Hopton Caudinant in co. Salop</placeName>, which
+               <persName>
+                           <forename>John</forename> de <surname>Hopton</surname>
+                        </persName> holds
+               the half of one knight's fee in
+               <placeName key="place_108533">Neuhall, co. Derby</placeName>, which the heirs of Robert de la War... holds, 
+               one knight's fee in <placeName key="place_108541">Northbur, co. Stafford</placeName>, which
+               <persName>
+                           <forename>Ralph</forename> de <surname>Botiler</surname>
+                        </persName> holds
+               the half of one knight's
+               fee in <placeName key="place_108370">Bereford, co. Warwick</placeName>, which 
+               <persName>
+                           <forename>John</forename> de <surname>Napfold</surname>
+                        </persName> holds, the
+               half of one knight's fee in <placeName key="place_108505">Lullyngton</placeName> in the same county, which the
+               heir of <persName>
+                           <forename>Peter</forename> de <surname>Walwardyngton</surname>
+                        </persName> 
+               holds, and the reversion of two knights' fees, the half of a knight's fee and a fourth part
+               in <placeName key="place_108561">Pyonia</placeName> and <placeName key="place_108483">Houton Cotes in co. Hereford</placeName>,
+               which <persName>
+                           <forename>Richard</forename> de la <surname>Lynde</surname>, jun.</persName>,
+               <persName>
+                           <forename>Philip</forename> 
+                           <surname>Aphowel</surname>
+                        </persName> and 
+               <persName>
+                           <forename>Rees</forename> 
+                           <surname>Aphowel</surname>
+                        </persName> hold,
+               one knight's fee in <placeName key="place_108608">Thurlaston, co. Warwick</placeName>, which 
+               <persName nymRef="Darset">
+                           <forename>Simon</forename>
+                        </persName> fitz 
+               <persName nymRef="Darset">
+                           <forename>Margery</forename>
+                        </persName> and 
+               <persName>
+                           <forename>John</forename> 
+                           <surname>Darset</surname>
+                        </persName> hold,
+               a fourth part in <placeName key="place_108521">Morton</placeName>, the half of <pb n="582"/> one knight's fee 
+               in <placeName key="place_108481">Hopton</placeName> and <placeName key="place_108351">Alverton, co. Warwick</placeName>, which 
+               the free tenants there hold to have the same after the death of
+               <persName>
+                           <forename>Elizabeth</forename> de <surname>Burgh</surname>
+                        </persName>, who holds
+               the same in dowry after the death of the aforesaid Theobald formerly her husband, together
+               with the advowson of the church of <placeName key="place_108532">Neubold</placeName> and the third 
+               presentation to the church of <placeName key="place_108377">Boseworth, co. Leicester</placeName>, the advowson
+               of moiety of the <orgName key="org_108024">priory of Lantony in Wales</orgName>, and the reversion of the
+               advowson of <placeName key="place_108457">Farnham, co. Bucks</placeName>. 
+                 
+               . </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p>[With fragment of Great seal.]</p>
+                        <idno><!--to be supplied--></idno>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="" to="582">-582</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
