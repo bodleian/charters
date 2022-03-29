@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115334">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115145">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Wilts. 1</title>
+            <title>MS. Ch. Somerset 11</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,28 +30,26 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Wilts_1</idno>
+            <idno type="msID">MS_Ch_Somerset_11</idno>
             <idno type="collection"><!--TODO--></idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Wilts_1" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Somerset_11" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Wilts. 1</idno>
+                  <idno type="shelfmark">MS. Ch. Somerset 11</idno>
                </msIdentifier>
                <msContents>
+                  <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p> WILTS. Letters patent of <persName>Queen Elizabeth</persName>, dated at <placeName role="date" key="place_100060">Westminster</placeName>, 20 Dec., 39 of her reign, appointing <persName>
-                           <forename>John</forename> 
-                           <surname>Dauntesey</surname>, esq., sheriff of the county of <placeName type="county" role="sheriff" key="place_000080">Wilts</placeName>
-                        </persName>. 
-                [Belonged to T. Hearne]
-                  </p>
+                     <p>Indenture made 24 February, <origDate notBefore="1588-11-17" notAfter="1589-11-16">31 Elizabeth</origDate>, by which
+                        <persName><forename>Henry</forename>, earl of Huntingdon</persName>, &amp;tc., in consideration of the receipt of £6000, demises to <persName><forename>Hugh</forename> <surname>Hare</surname>, of the <orgName role="person" key="org_102022">Inner Temple</orgName></persName>, all that manor of <placeName type="manor" key="place_108678">Aller and Aller Chauntery</placeName> with their appurtenances, with the moore called Allermore, for 99 years, at an annual rent of £20.
+                </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -62,8 +60,8 @@
                   </objectDesc>
                   <authDesc>
                      <seal>
-                        <decoNote type="GreatSeal">Great Seal of Elizabeth (2nd)</decoNote>
-                        <idno>MS. Ch. Wilts. 1*</idno>
+                        <decoNote type="shield">Armorial (Hare)</decoNote>
+                        <idno>MS. Ch. Somerset 11*</idno>
                      </seal>
                   </authDesc>
                </physDesc>
@@ -72,9 +70,9 @@
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="588" to="588">588</citedRange>
+                                <citedRange unit="page" from="399" to="399">399</citedRange>
                            </bibl>
-                           <bibl>J. Gilbert Wiblin, <title>Handlist 339e. Seals (including casts and matrisces)</title>, May 1916 (unpublished handlist, Bodleian Library), p. 195</bibl>
+                           <bibl>J. Gilbert Wiblin, <title>Handlist 339e. Seals (including casts and matrisces)</title>, May 1916 (unpublished handlist, Bodleian Library), p. 165</bibl>
                         </source>
                      </recordHist>
                   </adminInfo>
