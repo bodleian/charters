@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_111002">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_107115">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MSS. Ch. Beds. 2-5, 17-19</title>
+            <title>MS. Ch. Berks. 251</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,32 +30,31 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MSS_Ch_Beds_2-5_17-19</idno>
-            <idno type="collection"><!--TODO--></idno>
+            <idno type="msID">MS_Ch_Berks_251</idno>
+            <idno type="collection">Berks</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MSS_Ch_Beds_2-5_17-19" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Berks_251" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MSS. Ch. Beds. 2-5, 17-19</idno>
+                  <idno type="shelfmark">MS. Ch. Berks. 257</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p>
-                  CALDWELL, Priory of. Proceedings in a suit between the
-                  <orgName key="org_111002">abbot and convent of Oseney</orgName> of the one part, and <persName>
-                           <forename>Hugh</forename>, the prior</persName>, 
-                  and <orgName key="org_111005">convent of Caldwell</orgName> of the other, concerning the payment to Oseney of an annual pension of 12
-                  marks. [<origDate notBefore="1322">1322-1323</origDate>.] 
-                  [MS. Ch. Beds. 16 is part of MS. Rolls Beds. 1, to which it has been restored. E.W.B.N. 20.4.1906. The necessary information was given by the Rev. H. Salter.]
-                  . <!--multiple shelfmarks!-->
-               </p>
+                     <p> Letters patent of <persName>King James I</persName>, dated at <placeName role="date" key="place_100060">Westminster</placeName> 
+                  4 April, <origDate when="1621-04-04">19th of his reign</origDate>, confirming to 
+                  <persName>
+                           <forename>Samuel</forename> 
+                           <surname>Fell</surname>, S.T.P.</persName>, the rectory of 
+                  <placeName key="place_107042" role="rectory">Longworth</placeName>, with the chapel of <placeName role="chapel" key="place_107081">Charney</placeName>, notwithstanding any right to the patronage on the part
+                  of the Crown. 
+                  </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -70,7 +69,7 @@
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="1" to="1">1</citedRange>
+                                <citedRange unit="page" from="644" to="644">644</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
