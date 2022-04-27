@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104684">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104003">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Rolls Norfolk 62</title>
+            <title>MS. Ch. Norfolk 3a</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,75 +30,58 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Rolls_Norfolk_62</idno>
+            <idno type="msID">MS_Ch_Norfolk_3a</idno>
             <idno type="collection">Norfolk</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Rolls_Norfolk_62" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Norfolk_3a" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Rolls Norfolk 62</idno>
+                  <idno type="shelfmark">MS. Ch. Norfolk 3a</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> PLUMSTEAD, WITTON, and MELCHAM. Rolls, sewn together. 
-               1. Receipts of rents at <placeName key="place_104641">Wytton Ledhames</placeName>, Thursday after Palm Sunday <origDate notBefore="1492-08-22" notAfter="1493-08-21">8 Hen. VII</origDate>. 
-                </p>
-                  </msItem>
-                  <msItem>
-                     <p>
-               2. Annual rents from <placeName key="place_104330">Great <add>Plumstead</add>
-                        </placeName> and <placeName key="place_104414">Little Plumstead</placeName>. (Temp. <origDate notBefore="1217" notAfter="1307">Hen. III or Edw. I</origDate>.)</p>
-                  </msItem>
-                  <msItem>
-                     <p>
-               3. Holders of land in <placeName key="place_104330">Great Plumstead</placeName>, when 
-               <persName>sir <forename>Edmund</forename> 
-                           <surname>Illeye</surname>
-                        </persName> was lord of the manor. 
-               (<origDate when="1340" precision="low">c. 1340</origDate>)</p>
-                  </msItem>
-                  <msItem>
-                     <p>  
-                        <pb n="238"/> 
-               4. Tenants of the fee of <placeName type="minor">Meleham</placeName> in 
-               <placeName key="place_104330">Great <add>Plumstead</add>
-                        </placeName> and <placeName key="place_104414">Little Plumstead</placeName>. 
-               (A copy of no. 5.) (Made <origDate notBefore="1250" notAfter="1260" precision="low">c. 1250-60</origDate>.)</p>
-                  </msItem>
-                  <msItem>
-                     <p>
-               5. Tenants of the fee of Meleham in <placeName key="place_104330">Great <add>Plumstead</add>
-                        </placeName> and <placeName key="place_104414">Little Plumstead</placeName>. </p>
-                  </msItem>
-                  <msItem>
-                     <p>
-               6. Names of the tenants of the fee. (<origDate notBefore="1250" notAfter="1260" precision="low">c. 1250-60</origDate>) 
+                     <p> ASHWELLTHORPE. Letters of confirmation from <persName>
+                           <forename>Robert</forename>, the
+               prior</persName>, and <orgName key="org_104033">convent of the cathedral church of Norwich</orgName> to 
+               <persName>sir <forename>John</forename> de <surname>Thorpe</surname>, kt.</persName>, for
+               the foundation of a chantry within the church of <placeName key="place_104185">Asshewellethorp</placeName>, containing a
+               recital of (1) confirmation by <persName>
+                           <forename>John</forename>, bp. of <placeName type="diocese" role="bishop" key="place_101090">Norwich</placeName>
+                        </persName>, 
+               (2) letters patent of <persName>King Edward II</persName> dated at <placeName role="date" key="place_100060">Westminster</placeName>, 15 Dec., 5 of his reign, 
+               (3) charter of <persName>sir <forename>John</forename> de <surname>Thorp</surname>, kt.</persName>, granting 
+               a messuage croft and 63s. 4d. annual rents in the village of
+               <placeName key="place_104185">Asshewellethorpe</placeName> for the foundation of the same chantry, 
+               (4) grant from <persName>
+                           <forename>John</forename> de <surname>Claveryngg</surname>, lord of <placeName role="lord" key="place_104377">Horsford</placeName>
+                        </persName>, for the assignment of the said messuage and rents, 
+               (5) grant from <persName>
+                           <forename>John</forename> de <surname>Thorp</surname>, rector of the church of <placeName role="rector" key="place_104185">All Saints, Asshewellethorpe</placeName>
+                        </persName>, confirming the donation of his brother. 
+               Dated at <placeName role="date" key="place_104458">Norwich</placeName>, 10 Kl. July, <origDate when="1316">1316</origDate>. 
                . </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="roll">
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
-               <history>
-                  <provenance>Archive of Norwich Priory</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="237" to="238">237-238</citedRange>
+                                <citedRange unit="page" from="166" to="166">166</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

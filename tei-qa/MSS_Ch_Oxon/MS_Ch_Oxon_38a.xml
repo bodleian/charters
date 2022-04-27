@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109221">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109146">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Oxon. 93</title>
+            <title>MS. Ch. Oxon. 38a</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,48 +30,45 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Oxon_93</idno>
+            <idno type="msID">MS_Ch_Oxon_38a</idno>
             <idno type="collection">Oxon</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Oxon_93" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Oxon_38a" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Oxon. 93</idno>
+                  <idno type="shelfmark">MS. Ch. Oxon. 38a</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <p> 
-                        <pb n="310"/> 
                         <persName>
-                           <forename>John</forename> 
-                           <surname>Halegod</surname> of <placeName role="person" key="place_105449">Oxford</placeName>
-                        </persName> 
-               grants to <persName>
-                           <forename>Thomas</forename> de <surname>Winton</surname>, clerk</persName>, his
-               two houses which lie between the land of 
+                           <forename>Peter</forename> de <surname>Herwell</surname>
+                        </persName>, with the assent of 
+               <persName nymRef="Herwell">
+                           <forename>Christiana</forename> his wife</persName>, grants to 
                <persName>
-                           <forename>Walter</forename> 
-                           <surname>Feteplace</surname>
-                        </persName> on the one part, and the
-               land of <persName>
-                           <forename>Thomas</forename> de <surname>Bedeford</surname>
-                        </persName> on the other, in 
-               the <placeName key="place_109435">parish of St. Mildred, Oxon</placeName>, paying to him and his heirs annually one penny. 
-               For this donation the said Thomas gave 40 pounds sterling. 
-               Witness. <persName>
-                           <forename>Adam</forename> 
-                           <surname>Feteplace</surname>, then mayor of <placeName role="mayor" key="place_105449">Oxford</placeName>
-                        </persName>, Geoffrey ... provosts. [Mutilated.]
-               (<origDate notBefore="1230" notAfter="1260" precision="low">c. 1230-60</origDate>.) 
-                <!--[Wigram no. 628] --> 
-               </p>
+                           <forename>Amicia</forename>, the prioress</persName>, and the
+                        <orgName key="org_107016">nuns of St. Mary and St. Nicholas of Littlemor</orgName>, in alms, with two
+               of his daughters to be made nuns of the same house, one messuage and half a hide of
+               land, and so much meadow as pertains to one hide of land in <placeName key="place_109508">Sydenham</placeName>, and another
+               messuage which <persName>
+                           <forename>Geoffrey</forename>, lord of <placeName type="lord">Hancepe</placeName>
+                        </persName>, 
+               held of him in the same village, paying annually one penny at Easter, and to the chief lords of the
+               fee one pound of pepper. For this donation the prioress gave ta him 60 marks of silver beforehand. 
+               Witness.
+               <persName>
+                           <forename>Richard</forename> de <surname>Saunford</surname>
+                        </persName> etc.
+               (<origDate notBefore="1230" notAfter="1240" precision="low">c. 1230-40</origDate>.) 
+               .</p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -82,22 +79,18 @@
                   </objectDesc>
                </physDesc>
                <history>
-                  <provenance>Archive of Priory of St Frideswide, Oxford</provenance>
+                  <provenance>Archive of Priory of St. Nicholas, Littlemore</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="309" to="310">309-310</citedRange>
+                                <citedRange unit="page" from="299" to="299">299</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
                   </adminInfo>
-                  <listBibl>
-                     <bibl>
-                        <title>The Cartulary of the Monastery of St. Frideswide at Oxford</title>, ed. S. R. Wigram, no. 628</bibl>
-                  </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

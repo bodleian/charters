@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_104003">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109206">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Norfolk 3</title>
+            <title>MS. Ch. Oxon. 69b</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,43 +30,39 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Norfolk_3</idno>
-            <idno type="collection">Norfolk</idno>
+            <idno type="msID">MS_Ch_Oxon_69b</idno>
+            <idno type="collection">Oxon</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Norfolk_3" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Oxon_69b" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Norfolk 3</idno>
+                  <idno type="shelfmark">MS. Ch. Oxon. 69b</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> ASHWELLTHORPE. Letters of confirmation from <persName>
-                           <forename>Robert</forename>, the
-               prior</persName>, and <orgName key="org_104033">convent of the cathedral church of Norwich</orgName> to 
-               <persName>sir <forename>John</forename> de <surname>Thorpe</surname>, kt.</persName>, for
-               the foundation of a chantry within the church of <placeName key="place_104185">Asshewellethorp</placeName>, containing a
-               recital of (1) confirmation by <persName>
-                           <forename>John</forename>, bp. of <placeName type="diocese" role="bishop" key="place_101090">Norwich</placeName>
+                     <p> 
+                        <pb n="307"/> 
+                        <persName>
+                           <forename>Richard</forename>, the <surname>goldsmith</surname>, of <placeName role="person" key="place_105449">Oxford</placeName>
                         </persName>, 
-               (2) letters patent of <persName>King Edward II</persName> dated at <placeName role="date" key="place_100060">Westminster</placeName>, 15 Dec., 5 of his reign, 
-               (3) charter of <persName>sir <forename>John</forename> de <surname>Thorp</surname>, kt.</persName>, granting 
-               a messuage croft and 63s. 4d. annual rents in the village of
-               <placeName key="place_104185">Asshewellethorpe</placeName> for the foundation of the same chantry, 
-               (4) grant from <persName>
-                           <forename>John</forename> de <surname>Claveryngg</surname>, lord of <placeName role="lord" key="place_104377">Horsford</placeName>
-                        </persName>, for the assignment of the said messuage and rents, 
-               (5) grant from <persName>
-                           <forename>John</forename> de <surname>Thorp</surname>, rector of the church of <placeName role="rector" key="place_104185">All Saints, Asshewellethorpe</placeName>
-                        </persName>, confirming the donation of his brother. 
-               Dated at <placeName role="date" key="place_104458">Norwich</placeName>, 10 Kl. July, <origDate when="1316">1316</origDate>. 
-               . </p>
+               grants to <persName>
+                           <forename>John</forename> 
+                           <surname>Log</surname>
+                        </persName> that
+               messuage with appurtenances, in <placeName type="street" key="place_109124">Shidyerdestret, in the parish of St. Mary the Virgin</placeName>,
+               which is on the south part, near to another messuage which he holds of the said
+               Richard, at the corner of the land extending itself from the <placeName key="place_109426">church of St. Edward</placeName>;
+               paying annually for the same 6s. 6d. For this demise the said John gave 1 Ib. of cummin. 
+                <!--[Wigram no. 435] -->  
+               (<origDate notBefore="1220" notAfter="1230" precision="low">c. 1220-30</origDate>.)
+                  . </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -76,16 +72,23 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Priory of St Frideswide, Oxford</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="166" to="166">166</citedRange>
+                                <citedRange unit="page" from="307" to="307">307</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
                   </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <title>The Cartulary of the Monastery of St. Frideswide at Oxford</title>, ed. S. R. Wigram, no. 435</bibl>
+                  </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
