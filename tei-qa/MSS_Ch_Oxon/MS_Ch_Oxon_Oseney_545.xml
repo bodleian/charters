@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115358">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109688">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Radnorshire 2b</title>
+            <title>MS. Ch. Oxon. Oseney 545</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,41 +30,28 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Radnorshire_2b</idno>
-            <idno type="collection"><!--TODO--></idno>
+            <idno type="msID">MS_Ch_Oxon_Oseney_545</idno>
+            <idno type="collection">Oxon</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Radnorshire_2b" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_545" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Radnorshire 2b</idno>
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 545</idno>
                </msIdentifier>
                <msContents>
+                  <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p> Names returned to the Lords of the Council for the counties of 
-                  <placeName type="county" key="place_108663">Glamorgan</placeName>,
-                  <placeName type="county" key="place_108658">Brecknock</placeName>, and 
-                  <placeName type="county" key="place_108671">Radnor</placeName>, to serve the office of High Sheriff, 16 Dec. 1697; 
-                  with the appointment of
-                  <persName>
-                           <forename>Lemuel</forename> 
-                           <surname>Lloyd</surname>
-                        </persName> to be 
-                  High Sheriff of <placeName type="county" key="place_108671">Radnorshire</placeName> in the room of 
-                  <persName>
-                           <forename>Thomas</forename> 
-                           <surname>Williams</surname>
-                        </persName>,
-                  deceased. Dated 7 July, <origDate when="1698">1698</origDate>. 
-                  Both signed by Somers, S.Ch.
-                  . 
-                  <!--TODO, chk shelfmark WAS Welsh Ch. 9 -->
-               </p>
+                     <p> 
+                        <placeName key="place_109538">WALTON, Oxford</placeName>. 
+                     Fragment of a court roll, <date>temp. Ed. II</date>. 
+                     [Almost wholly illegible.]
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -74,12 +61,15 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="" to=""/>
+                                <citedRange unit="page" from="359" to="359">359</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

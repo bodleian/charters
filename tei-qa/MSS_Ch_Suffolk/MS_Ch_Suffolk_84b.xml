@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109664">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105152">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Oxon. Oseney 524c</title>
+            <title>MS. Ch. Suffolk 84b</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,36 +30,39 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Oxon_Oseney_524c</idno>
-            <idno type="collection">Oxon</idno>
+            <idno type="msID">MS_Ch_Suffolk_84b</idno>
+            <idno type="collection">Suffolk</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Oxon_Oseney_524c" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Suffolk_84b" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 524c</idno>
-               </msIdentifier>
+                  <idno type="shelfmark">MS. Ch. Suffolk 84b</idno> <altIdentifier type="folder"> <idno type="folder">MS. Ch. Suffolk a. 1</idno> </altIdentifier> </msIdentifier> 
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> 
-                        <persName>
-                           <forename>William</forename>, the abbot</persName>, and <orgName key="org_109067">convent of Oseney</orgName>, 
-               grant to <persName>
-                           <forename>Giles</forename> de <surname>Stockwelle</surname>
-                        </persName> an easement
-               of their wall in St. Peter in the east, for the two chambers only which are conjoint to their
-               wall which is between <placeName type="minor">Elmehalle</placeName> and
-               <placeName type="minor">Blakehalle</placeName>, for which the said Giles and his heirs undertake to pay annually 4d.
-               (<origDate notBefore="1270" notAfter="1280">c. 1270-80</origDate>.)
-                <!--TODO: CHK shelfmark in situ: edited as 525a, corrected to 525c-->
-                <!--NOTE also that Handlist of Seals has a crossed over entry for 525e [Giles de Stockwelle] but nothing for 524c-->
-                     </p>
+                     <p> BARTON. Grant from <persName>
+                           <forename>Andrew</forename> son of
+                  <persName>
+                              <forename>Walter</forename> 
+                              <surname>Bryen</surname> of <placeName role="person" key="place_105179">Bertone</placeName>
+                           </persName>
+                        </persName> 
+                  to <persName>
+                           <forename>Adam</forename> son of 
+                     <persName>
+                              <forename>Bartholomew</forename> the <surname>Miller</surname> of <placeName role="person" key="place_105179">Bertone</placeName>
+                           </persName>
+                        </persName>, 
+                  for 3s. of a part of his messuage at <placeName key="place_105179">Bertone</placeName>, paying yearly one penny.
+                  (<origDate notBefore="1240" notAfter="1250" precision="low">c. 1240-50</origDate>)
+                  
+                  </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -70,21 +73,19 @@
                   </objectDesc>
                   <authDesc>
                      <seal>
-                        <p>Small seal. </p>
-                        <idno>MS. Ch. Oxon. Oseney 524c*</idno>
-                     </seal>
+                        <p>Fragment of seal.</p>
+                        <idno>MS. Ch. Suffolk 84*</idno>
+                     </seal><!--CHK, is there a seal in Suffolk 84 (as per T&C) or in Suffolk 84a (as per Handlist)?-->
                   </authDesc>
                </physDesc>
-               <history>
-                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
-               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="355" to="355">355</citedRange>
+                              <citedRange unit="page" from="423" to="423">423</citedRange>
                            </bibl>
+                              <bibl>J. Gilbert Wiblin, <title>Handlist 339e. Seals (including casts and matrisces)</title>, May 1916 (unpublished handlist, Bodleian Library), p. 169v</bibl>
                         </source>
                      </recordHist>
                   </adminInfo>

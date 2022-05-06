@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115356">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105765">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Glamorgan 7</title>
+            <title>MS. Ch. Suffolk 138</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,38 +30,35 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Glamorgan_7</idno>
-            <idno type="collection"><!--TODO--></idno>
+            <idno type="msID">MS_Ch_Suffolk_138</idno>
+            <idno type="collection">Suffolk</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Glamorgan_7" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Suffolk_138" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Glamorgan 7</idno>
-               </msIdentifier>
+                  <idno type="shelfmark">MS. Ch. Suffolk 138</idno> <altIdentifier type="folder"> <idno type="folder">MS. Ch. Suffolk a. 2</idno> </altIdentifier> </msIdentifier> 
                <msContents>
+                  <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p> GLAMORGANSHIRE. Writ from <persName>
-                           <forename>Hugh</forename> le <surname>Despenser</surname>, "le fuiz"</persName>, 
-                  to <persName>
-                           <forename>John</forename> 
-                           <surname>Ingge</surname>, sheriff of <placeName type="county" key="place_108663">Glamorganshire</placeName>
-                        </persName>,
-                  commanding him to accept £20 in full satisfaction of £80 for a trespass committed by
+                     <p> Indenture by which <persName>
+                           <forename>William</forename>, the abbot</persName>, and 
+                  <orgName key="org_104015">the convent of Bury St. Edmund</orgName> have demised to 
                   <persName>
-                           <forename>John</forename> le <surname>Butoillier</surname>
-                        </persName> and
-                  <persName>
-                           <forename>Aleyn</forename> de <surname>Veil Chastel</surname>
-                        </persName>. 
-                  Dated at St. Brevel, 5 May, <origDate notBefore="1320-07-08" notAfter="1321-07-07">14 Ed. II</origDate>. 
-                  [French]
-                  . <!--TODO, chk hardcopy for shelfmark--> </p>
+                           <forename>Thomas</forename> 
+                           <surname>Bakon</surname> of <placeName role="person" key="place_105345">Heggesset</placeName>
+                        </persName> 
+                  their manor of <placeName type="manor" key="place_105034">Heggesset</placeName>, for 20 years, paying annually to the
+                  treasurer of the monastery £8. 
+                  Dated 12 September, <origDate notBefore="1503-08-22" notAfter="1504-08-21">19 Hen. VII</origDate>. 
+                  
+                  [Marked 138* on the charter but there is no 138.]
+                  </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -76,7 +73,7 @@
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="" to=""/>
+                                <citedRange unit="page" from="483" to="483">483</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

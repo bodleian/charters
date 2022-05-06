@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109830">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109854">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Oxon. Oseney 443</title>
+            <title>MS. Rolls Oxon. Oseney 3</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,38 +30,34 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Oxon_Oseney_443</idno>
+            <idno type="msID">MS_Rolls_Oxon_Oseney_3</idno>
             <idno type="collection">Oxon</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Oxon_Oseney_443" xml:lang="en">
+            <msDesc xml:id="MS_Rolls_Oxon_Oseney_3" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 443</idno>
+                  <idno type="shelfmark">MS. Rolls Oxon. Oseney 3</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> WATERETON and CUDESLOWE. <persName>
-                           <forename>Simon</forename>, the prior</persName>, and 
-               <orgName key="org_109039">convent of St. Frideswide</orgName> quit-claim to the <orgName key="org_109067">abbot and convent of Oseney</orgName>, 
-                        the suit of their tenants (hominum) in <placeName key="place_109544">Eaton</placeName> and
-               <placeName key="place_109240">Cudeslowe</placeName>, now and for ever, which suit they were accustomed to make from ancient
-               time to their mill, which was called <placeName type="minor">Hulc mill</placeName>. For this renunciation the said abbot
-               and convent remit 2s. for certain tithes of <placeName key="place_109264">Elsefeld</placeName>, and also pay to them half a
-               mark of silver on the feast of St. Michael yearly. 
-               Witness. <persName>
-                           <forename>Vivian</forename>, <surname type="patronymic">son of Ralph</surname>, sheriff</persName> [<origDate when="1221">1221</origDate>]. 
-               . </p>
+                     <p>
+                        <placeName type="manor" key="place_109069">Steeple Claydon</placeName>, 
+                        <placeName type="manor" key="place_109061">Maids Morton</placeName>, and
+                        <placeName type="manor" key="place_109070">Stow [Bucks.]</placeName>. 
+                        [Estreat roll.]
+                        <date>6 Hen. VI or VII</date>. [Mutilated.] 
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet">
+                  <objectDesc form="roll">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
@@ -75,7 +71,10 @@
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="375" to="375">375</citedRange>
+                                <citedRange unit="page" from="378" to="378">378</citedRange>
+                           </bibl>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                              <citedRange unit="page" from="18" to="18">18</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

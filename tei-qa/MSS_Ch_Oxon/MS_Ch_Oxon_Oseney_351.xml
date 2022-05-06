@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109213">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109368">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Oxon. 13a</title>
+            <title>MS. Ch. Oxon. Oseney 351</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,29 +30,34 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Oxon_13a</idno>
+            <idno type="msID">MS_Ch_Oxon_Oseney_351</idno>
             <idno type="collection">Oxon</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Oxon_13a" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_351" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Oxon. 13a</idno>
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 351</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> Copy of the precept addressed to the sheriff of <placeName key="place_105449">Oxon</placeName> concerning the lands of
-               <persName>
-                           <forename>William</forename> de <surname>Hunsingore</surname>
-                        </persName>, in his bailiwick,
-               <origDate notBefore="1325-07-08" notAfter="1326-07-07">19 Ed. II</origDate>. 
-               . </p>
+                     <p>
+                        <placeName type="manor" key="place_108751">FORESTHILL</placeName>,
+                        <placeName type="manor" key="place_108752">THOMELE</placeName>, 
+                        <placeName type="manor" key="place_10875">PYRYE [Waterperry]</placeName>, 
+                        <placeName type="manor" key="place_108753">DRAYCOT</placeName>, and 
+                        <placeName type="manor" key="place_108754">LEDHALE, co. Oxon</placeName>, 
+                        <placeName type="manor" key="place_108755">UMPTON</placeName>, 
+                        <placeName type="manor" key="place_109027">HARTWELL</placeName>,
+                        and <placeName type="manor" key="place_108756">BISCHOPESTON, co. BUCKS.</placeName>. 
+                        Court roll with view of frank pledge for the above manors, Friday before the feast of St. George, <date>22 Ed. III</date>. [Mutilated.]
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -63,14 +68,14 @@
                   </objectDesc>
                </physDesc>
                <history>
-                  <provenance>Archive of Priory of St Frideswide, Oxford</provenance>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="308" to="308">308</citedRange>
+                                <citedRange unit="page" from="327" to="327">327</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

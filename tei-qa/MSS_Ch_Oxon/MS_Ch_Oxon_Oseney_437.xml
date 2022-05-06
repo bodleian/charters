@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115379">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109801">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Wilts. 210</title>
+            <title>MS. Ch. Oxon. Oseney 437</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,27 +30,29 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Wilts_210</idno>
-            <idno type="collection"><!--TODO--></idno>
+            <idno type="msID">MS_Ch_Oxon_Oseney_437</idno>
+            <idno type="collection">Oxon</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Wilts_210" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_437" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Wilts. 210</idno>
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 437</idno>
                </msIdentifier>
                <msContents>
+                  <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> SALISBURY (Diocese of). Letter of <persName>
-                           <forename>John</forename>, bp. of <placeName type="diocese" role="bishop" key="place_107002">Sarum</placeName>
-                        </persName>, to <persName>master <forename>George</forename> 
-                           <surname>Wood</surname>, bachelor of decrees</persName>, for the collection of a subsidy within his diocese. Dated 14 April, <origDate when="1496">1496</origDate>. 
-               . </p>
+                     <p> 
+                        <add><placeName type="manor" key="place_109060">TYWE (Little)</placeName> AND 
+                           <placeName type="manor" key="place_109056">HOGENORTHON</placeName>.</add> 
+                        Court roll, <date>34 Ed. III</date>.
+                        [Mutilated.]
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -60,12 +62,15 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="" to=""/>
+                                <citedRange unit="page" from="371" to="371">371</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

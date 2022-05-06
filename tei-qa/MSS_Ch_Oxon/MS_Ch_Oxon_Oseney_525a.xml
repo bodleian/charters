@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105439">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109663">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Suffolk 522</title>
+            <title>MS. Ch. Oxon. Oseney 525a</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,34 +30,51 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Suffolk_522</idno>
-            <idno type="collection">Suffolk</idno>
+            <idno type="msID">MS_Ch_Oxon_Oseney_525a</idno>
+            <idno type="collection">Oxon</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Suffolk_522" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_525a" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Suffolk 522</idno> <altIdentifier type="folder"> <idno type="folder">MS. Ch. Suffolk a. 6</idno> </altIdentifier> </msIdentifier> 
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 525a</idno>
+               </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> CODDENHAM, &amp;c. <persName>
-                           <forename>Sefuhelus</forename> de <surname>Vlendene</surname>
-                        </persName>
-                  confirms to 
-                  <persName>
-                           <forename>William</forename> de <surname>Cyresi</surname>
-                        </persName>, for his 
-                  homage and service and for 18s., one piece of his land in the village of 
-                  <placeName key="place_105238">Code[n]ham</placeName>; paying annually to him and his
-                  heirs one grain of pepper. 
-                  (<origDate notBefore="1220" notAfter="1230" precision="low">c. 1220-30</origDate>.) 
-                  </p>
+                     <p> OXFORD (St. Peter in the East). <persName>
+                           <forename>Simon</forename>, son of <persName>
+                              <forename>Henry</forename> de <surname>Lekamstede</surname>
+                           </persName>
+                        </persName>, 
+               grants and confirms to <persName>
+                           <forename>Randulph</forename> de <surname>Bruhull</surname>
+                        </persName> 
+               two messuages in <placeName key="place_105449">Oxford</placeName>, which lie under the walls of 
+               <placeName key="place_109441">Oxford, in the parish of St. Peter in the east</placeName>, formerly belonging to Henry his
+               father, paying to him 1/2d., to the lords of the fee, viz. 
+               <persName>
+                           <forename>William</forename> de <surname>Chiltun</surname>
+                        </persName> 3s., and
+               to the <placeName key="place_109441">church of St. Peter in the east</placeName> 6d., and
+               <persName>
+                           <forename>John</forename>, <surname type="patronymic">son of Walter</surname>
+                        </persName>, 6d. 
+               Witnesses. <persName>
+                           <forename>Adam</forename>, <surname type="patronymic">son of Walter</surname>
+                        </persName>, 
+               and <persName>
+                           <forename>John</forename> 
+                           <surname>Cursy</surname>
+                        </persName>, then bailiffs of 
+               <placeName role="person" key="place_105449">Oxford</placeName>. (<origDate when="1241" precision="low">c. 1241</origDate>.) 
+               See Clarke's <title>Wood</title>, III.9.
+                </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -67,12 +84,15 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="452" to="452">452</citedRange>
+                                <citedRange unit="page" from="355" to="355">355</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

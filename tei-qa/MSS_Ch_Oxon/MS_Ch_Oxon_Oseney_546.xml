@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105765">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109688">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Suffolk 138b</title>
+            <title>MS. Ch. Oxon. Oseney 546</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,35 +30,33 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Suffolk_138b</idno>
-            <idno type="collection">Suffolk</idno>
+            <idno type="msID">MS_Ch_Oxon_Oseney_546</idno>
+            <idno type="collection">Oxon</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Suffolk_138b" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_546" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Suffolk 138b</idno> <altIdentifier type="folder"> <idno type="folder">MS. Ch. Suffolk a. 2</idno> </altIdentifier> </msIdentifier> 
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 546</idno>
+               </msIdentifier>
                <msContents>
                   <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p> Indenture by which <persName>
-                           <forename>William</forename>, the abbot</persName>, and 
-                  <orgName key="org_104015">the convent of Bury St. Edmund</orgName> have demised to 
-                  <persName>
-                           <forename>Thomas</forename> 
-                           <surname>Bakon</surname> of <placeName role="person" key="place_105345">Heggesset</placeName>
-                        </persName> 
-                  their manor of <placeName type="manor" key="place_105034">Heggesset</placeName>, for 20 years, paying annually to the
-                  treasurer of the monastery £8. 
-                  Dated 12 September, <origDate notBefore="1503-08-22" notAfter="1504-08-21">19 Hen. VII</origDate>. 
-                  
-                  [Marked 138* on the charter but there is no 138.]
-                  </p>
+                     <p> 
+                     WALTON, WORTON, and TWENTYACRE. 
+                     Court roll of <placeName key="place_109538">Walton</placeName>,
+                        <placeName key="place_109393">Worton</placeName>, and
+                        <placeName key="place_108766">Twentyacre</placeName>, held at 
+                        <placeName role="date" key="place_109538">Walton</placeName> the Thursday ...
+                     St. George, <date>32 Ed. III</date>.
+                     Also for <date>31 Ed. III</date>.
+                     [Mutilated, and largely illegible.]
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -68,12 +66,15 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="483" to="483">483</citedRange>
+                                <citedRange unit="page" from="359" to="359">359</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

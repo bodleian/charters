@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100040">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109213">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Worcs. St. Wolstan 18</title>
+            <title>MS. Ch. Oxon. Oseney 13a</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,27 +30,29 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Worcs_St_Wolstan_18</idno>
-            <idno type="collection">Cambs</idno>
+            <idno type="msID">MS_Ch_Oxon_Oseney_13a</idno>
+            <idno type="collection">Oxon</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Worcs_St_Wolstan_18" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_13a" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Worcs. St. Wolstan 18</idno>
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 13a</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> 
-                        <persName><forename>Alexander</forename>, son and heir of <persName>sir <forename>Geoffrey</forename> <surname>D'Abitot</surname> of <placeName role="person" key="place_101038">Hindelep</placeName>, kt.</persName></persName>, quit-claims to
-               <orgName key="org_101009">St. Wlstan's</orgName>, in frankalmoigne, all his right in .... <pb n="592"/> in the manor of
-                        <placeName type="manor" key="place_101007">Hindelep</placeName> called <placeName type="minor">Bekleshill</placeName>, <placeName type="minor">Benhull</placeName>, and <placeName type="minor">Swyllecroft</placeName>. [Mutilated.] (<origDate when="1280" precision="low">c. 1280</origDate>.)  .</p>
+                     <p> Copy of the precept addressed to the sheriff of <placeName key="place_105449">Oxon</placeName> concerning the lands of
+               <persName>
+                           <forename>William</forename> de <surname>Hunsingore</surname>
+                        </persName>, in his bailiwick,
+               <origDate notBefore="1325-07-08" notAfter="1326-07-07">19 Ed. II</origDate>. 
+               </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -61,14 +63,14 @@
                   </objectDesc>
                </physDesc>
                <history>
-                  <provenance>Archive of the <orgName role="fmo" key="org_101009">hospital of St. Wolstan</orgName>.</provenance>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="591" to="592">591-592</citedRange>
+                                <citedRange unit="page" from="308" to="308">308</citedRange>
                            </bibl>
                         </source>
                      </recordHist>

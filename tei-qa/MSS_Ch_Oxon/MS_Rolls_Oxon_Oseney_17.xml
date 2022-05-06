@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_100088">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_550027">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Worcs. St. Wolstan 57</title>
-            <respStmt xml:id="TC">
-               <resp when="1878">Cataloguer</resp>
-               <persName>W. H. Turner</persName>
-               <persName>H. O. Coxe</persName>
+            <title>MS. Rolls Oxon. Oseney 17</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
             </respStmt>
             <respStmt xml:id="TA">
                <resp when="2020">Encoding</resp>
@@ -22,7 +21,7 @@
                <orgName type="unit">Bodleian Libraries</orgName>
                <orgName type="institution">University of Oxford</orgName>
                <street>Weston Library, Broad Street</street>
-               <settlement key="place_7011931">Oxford</settlement>
+               <settlement>Oxford</settlement>
                <postCode>OX1 3BG</postCode>
                <country>United Kingdom</country>
             </address>
@@ -30,49 +29,51 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Worcs_St_Wolstan_57</idno>
-            <idno type="collection">Cambs</idno>
+            <idno type="msID">MS_Rolls_Oxon_Oseney_17</idno>
+            <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Worcs_St_Wolstan_57" xml:lang="en">
+            <msDesc xml:id="MS_Rolls_Oxon_Oseney_17" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Worcs. St. Wolstan 57</idno>
+                  <collection>Deposited Deeds Christ Church</collection>
+                  <idno type="shelfmark">MS. Rolls Oxon. Oseney 17</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> 
-                        <persName>
-                           <forename>William</forename> de <surname>Ombresleye</surname>
-                        </persName> of <placeName role="person" key="place_101060">Worcester</placeName> grants to <persName>
-                           <forename>William</forename> 
-                           <surname>Carter</surname>
-                        </persName> four acres of land in
-               divers parcels in .... near <placeName key="place_101060">Worcester</placeName>. [<origDate when="1300" precision="low">c. 1300</origDate>] [Fragment.] . </p>
+                     <p>  
+                        <pb n="379"/> 
+                        <placeName type="manor" key="place_108760">Ledwell</placeName>.
+                        Court roll, <date>33 and 34 Ed. III</date>.
+                        [Mutilated and defaced.] 
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet">
+                  <objectDesc form="roll">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
                <history>
-                  <provenance>Archive of the <orgName role="fmo" key="org_101009">hospital of St. Wolstan</orgName>.</provenance>
+                  <provenance>Archive of Oseney abbey.</provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="596" to="596">596</citedRange>
+                              <citedRange unit="page" from="379" to="379">379</citedRange>
+                           </bibl>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
+                                <citedRange unit="page" from="18" to="18">18</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
@@ -82,7 +83,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2020-10">First online publication</change>
+         <change when="2021-02">First online publication</change>
       </revisionDesc>
    </teiHeader>
    <text>
