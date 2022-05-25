@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_109716">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Oxon. Oseney 563</title>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2020">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement key="place_7011931">Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Oxon_Oseney_563</idno>
+            <idno type="collection">Oxon</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Oxon_Oseney_563" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <idno type="shelfmark">MS. Ch. Oxon. Oseney 563</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p> 
+                        Portion of the will of <persName>[<forename>Henry</forename> de <surname>Caddesdon</surname>], archdeacon of <placeName role="archdeanery" key="place_106034">Leicester</placeName></persName>, 
+                        appointing <persName><forename>Thomas</forename> [de <surname>Cudlinton</surname>], abbot of <orgName role="abbot" key="org_109067">Oseney</orgName></persName>, 
+                        his executor, and leaving his library of books, good, &amp;tc. to various persons, and <pb n="661"/> considerable benefactions to 
+                        <orgName key="org_109067">Oseney</orgName>. 
+                        Among the legatees are 
+                        <persName><forename>John</forename> de <surname>Belvers</surname>, his official, rector of <placeName role="rector" key="place_109353">Kyrkeby Mallory</placeName></persName>, 
+                        <persName><forename>Richard</forename> de <surname>Medmenham</surname>, rector of <placeName role="rector" key="place_109532">Upton-on-Severn</placeName></persName>,
+                        <persName><forename>Philip</forename>, chaplain of <placeName role="chaplain" key="place_109579">Wyrthorp, near Staunford</placeName></persName>, 
+                        <persName><forename>John</forename>, chaplain of <placeName role="chaplain" key="place_108767">Epwell</placeName></persName>, 
+                        <persName><forename>Peter</forename>, rector of <placeName role="rector" key="place_109392">Nayleston</placeName></persName>, 
+                        <persName><forename>Alexander</forename>, rector of <placeName role="rector" key="place_109476">Shakerstone</placeName></persName>, &amp;tc.
+                        (<date when="1354">1354</date>).
+                     </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Abbey of St Mary, Oseney</provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                <citedRange unit="page" from="660" to="661">660-661</citedRange>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
