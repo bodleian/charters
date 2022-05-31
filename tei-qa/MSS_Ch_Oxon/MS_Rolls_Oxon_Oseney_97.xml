@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_550074">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_550049">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Rolls Oxon. Oseney 108</title>
+            <title>MS. Rolls Oxon. Oseney 97</title>
             <respStmt xml:id="DY">
                <resp when="1931">Cataloguer</resp>
                <persName>N. Denholm-Young</persName>
@@ -29,12 +29,12 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Rolls_Oxon_Oseney_108</idno>
+            <idno type="msID">MS_Rolls_Oxon_Oseney_97</idno>
             <idno type="collection">Deposited Deeds Christ Church</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Rolls_Oxon_Oseney_108" xml:lang="en">
+            <msDesc xml:id="MS_Rolls_Oxon_Oseney_97" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -42,14 +42,21 @@
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
                   <collection>Deposited Deeds Christ Church</collection>
-                  <idno type="shelfmark">MS. Rolls Oxon. Oseney 108</idno>
+                  <idno type="shelfmark">MS. Rolls Oxon. Oseney 97</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p>Account roll, <placeName key="place_109546">Watlington</placeName>. <persName>
-                           <forename>Simon</forename> of <surname>Couele</surname>
-                        </persName>, sergeant (a view of account). Mich.—21 Dec. <origDate notBefore="1339-01-25" notAfter="1340-01-24">13 Ed. III</origDate>. (1 <hi rend="italic">m.</hi>) </p>
+                     <p>
+                        <placeName type="manor" key="place_109060">Little Tew</placeName>. 
+                        <persName><forename>John</forename> of <surname>Santford</surname>, reeve</persName>. 
+                        <date>17 Ed. I</date>. 
+                        (1 <hi rend="italic">m.</hi>)
+                        
+                      <!-- T&amp;C has slightly different information:  OXFORD. The account of <persName><forename>John</forename> <surname>Samford</surname>, provost of ...</persName> [name lost; qu. <placeName>Barton</placeName>?], 
+                        from Mich., <date>12 Ed. [I], to the same feast, 13 Ed. I</date>. 
+                        [<persName><forename>John</forename> <surname>Poygnent</surname>, seneschal</persName>]-->
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -66,6 +73,9 @@
                   <adminInfo>
                      <recordHist>
                         <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                              <citedRange unit="page" from="384" to="384">384</citedRange>
+                           </bibl>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society 92 (1931), p.
                                 <citedRange unit="page" from="15" to="15">15</citedRange>
                            </bibl>
