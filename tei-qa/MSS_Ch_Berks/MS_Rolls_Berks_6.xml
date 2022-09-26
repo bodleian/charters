@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_211001">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Rolls Berks. 6</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2022">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Rolls_Berks_6</idno>
+            <idno type="collection">Berks</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Rolls_Berks_6" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Berks</collection>
+                  <idno type="shelfmark">MS. Rolls Berks. 6</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Rolls Berks. (box 2)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p>
+                        <placeName key="place_106143">Radley</placeName>. <origDate notBefore="1601" notAfter="1615"/>. </p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
+                           <listBibl>
+                              <bibl facs="02_00559.tif">Calendar slip</bibl>
+                              <bibl facs="02_00560.tif">Calendar slip</bibl>
+                              <bibl facs="02_00561.tif">Calendar slip</bibl>
+                              <bibl facs="02_00562.tif">Calendar slip</bibl>
+                              <bibl facs="02_00563.tif">Calendar slip</bibl>
+                              <bibl facs="02_00564.tif">Calendar slip</bibl>
+                              <bibl facs="02_00565.tif">Calendar slip</bibl>
+                              <bibl facs="02_00566.tif">Calendar slip</bibl>
+                              <bibl facs="02_00567.tif">Calendar slip</bibl>
+                              <bibl facs="02_00568.tif">Calendar slip</bibl>
+                              <bibl facs="02_00569.tif">Calendar slip</bibl>
+                              <bibl facs="02_00570.tif">Calendar slip</bibl>
+                              <bibl facs="02_00571.tif">Calendar slip</bibl>
+                              <bibl facs="02_00572.tif">Calendar slip</bibl>
+                              <bibl facs="02_00573.tif">Calendar slip</bibl>
+                              <bibl facs="02_00574.tif">Calendar slip</bibl>
+                              <bibl facs="02_00575.tif">Calendar slip</bibl>
+                              <bibl facs="02_00576.tif">Calendar slip</bibl>
+                              <bibl facs="02_00577.tif">Calendar slip</bibl>
+                              <bibl facs="02_00578.tif">Calendar slip</bibl>
+                              <bibl facs="02_00579.tif">Calendar slip</bibl>
+                              <bibl facs="02_00580.tif">Calendar slip</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2022-05">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
