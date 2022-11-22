@@ -4,7 +4,6 @@ declare option saxon:output "indent=yes";
 
 declare variable $collection := collection('../tei-qa/?select=*.xml;recurse=yes');
 declare variable $countryauthorities := doc('../places.xml')/tei:TEI/tei:text/tei:body//tei:listPlace/tei:place[@xml:id and @type='country'];
-declare variable $worksauthority := doc("../works.xml");
 
 declare function local:origin($countrykeyatts as attribute()*, $solrfield as xs:string) as element()*
 {
@@ -25,16 +24,6 @@ declare function local:origin($countrykeyatts as attribute()*, $solrfield as xs:
             <field name="{ $solrfield }">[MISSING]</field>
     else
         ()
-};
-
-declare function local:workSubjects($workkeyatts as attribute()*, $solrfield as xs:string) as element()*
-{
-    (: Lookup works referenced in this manuscript in the works authority, to get the associated subject classifications :)
-    let $workkeys as xs:string* := distinct-values(for $att in $workkeyatts return tokenize($att/data(), '\s+')[string-length() gt 0])
-    let $worksubjectrefs as xs:string* := distinct-values($worksauthority/tei:TEI/tei:text/tei:body//tei:listBibl/tei:bibl[@xml:id = $workkeys]/tei:term[@ref]/tokenize(@ref, '\s*#')[string-length() gt 0])
-    for $ref in $worksubjectrefs 
-        return 
-        <field name="{ $solrfield }">{ $worksauthority/tei:TEI/tei:teiHeader/tei:encodingDesc/tei:classDecl/tei:taxonomy/tei:category[@xml:id = $ref][1]/tei:catDesc/string() }</field>      
 };
 
 declare function local:buildSummaries($ms as document-node()) as xs:string*
@@ -71,7 +60,6 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
     let $head := normalize-space(string-join($msdescorpart/tei:head//text(), ''))
     let $authors := distinct-values($msdescorpart//tei:msItem/tei:author/normalize-space())
     let $numauthors := count($authors)
-    let $worktitles := distinct-values(for $t in $msdescorpart//tei:msItem/tei:title[1]/normalize-space() return if (ends-with($t, '.')) then substring($t, 1, string-length($t)-1) else $t)
     let $datesoforigin := distinct-values($msdescorpart/tei:history/tei:origin//tei:origDate/normalize-space())
     let $placesoforigin := distinct-values($msdescorpart/tei:history/tei:origin//tei:origPlace/normalize-space())
 
@@ -86,11 +74,6 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                 concat(string-join(subsequence($authors, 1, 2), ', '), ', etc.')
             else
                 string-join($authors, ', ')
-        else if (count($worktitles) gt 0) then
-            if (count($worktitles) gt 2) then 
-                concat(string-join(subsequence($worktitles, 1, 2), ', '), ', etc.')
-            else
-                string-join($worktitles, ', ')
         else if (count($msdescorpart//tei:msItem) gt 1) then
             'Untitled works or fragments'
         else
@@ -135,7 +118,7 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                 let $mainshelfmark := ($ms/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type='shelfmark'])[1]
                 let $allshelfmarks := $ms//tei:msIdentifier//tei:idno[(@type, parent::tei:altIdentifier/@type)=('shelfmark','part','former')]
                 let $oldshelfmarks := $ms//tei:msIdentifier/tei:altIdentifier[@type='former']/tei:idno[not(@subtype)]
-                let $subfolders := string-join(tokenize(substring-after(base-uri($ms), 'collections/'), '/')[position() lt last()], '/')
+                let $subfolders := string-join(tokenize(substring-after(base-uri($ms), 'tei-qa/'), '/')[position() lt last()], '/')
                 let $htmlfilename := concat($msid, '.html')
                 let $htmldoc := doc(concat('html/', $subfolders, '/', $htmlfilename))
                 (:
@@ -178,7 +161,6 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                     { bod:languages($ms//tei:sourceDesc//tei:textLang, 'lang_sm') }
                     { local:origin($ms//tei:sourceDesc//tei:origPlace/tei:country/@key, 'ms_origin_sm') }
                     { bod:centuries($ms//tei:origin//tei:origDate, 'ms_date_sm') }
-                    { local:workSubjects($ms//tei:msItem/tei:title/@key, 'wk_subjects_sm') }
                     { bod:strings2many(local:buildSummaries($ms), 'ms_summary_sm') }
                     { bod:indexHTML($htmldoc, 'ms_textcontent_tni') }
                     { bod:displayHTML($htmldoc, 'display') }
