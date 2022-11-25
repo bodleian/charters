@@ -19,7 +19,7 @@ if [ "$1" == "reuse" ]; then
     if [ $ageofsolrdir -ge 1 ]; then
         echo -n "The solr files are $ageofsolrdir hours old. "
         while true; do
-            read -p "Are you sure you want to send these to the production Solr server?? [Yes|No] " answer
+            read -r -p "Are you sure you want to send these to the production Solr server?? [Yes|No] " answer
             case $answer in
                 [Yy]|YES|Yes|yes ) break;;
                 [Nn]|NO|No|no ) echo "Abandoning re-indexing. The production server has not been updated."; exit 0;;
@@ -28,7 +28,7 @@ if [ "$1" == "reuse" ]; then
         done
     fi
     # Send the files to Solr
-    printf "manuscript\nperson\nplace" | xargs -I {} -P 2 ./generate-solr-document.sh "{}s.xquery" "{}s_index.xml" {} $SERVER $1
+    printf "manuscript\nplace" | xargs -I {} -P 2 ./generate-solr-document.sh "{}s.xquery" "{}s_index.xml" {} $SERVER "$1"
 
 else
 
@@ -64,7 +64,7 @@ else
     if [ "$1" == "force" ] || [ "$1" == "noindex" ]; then
 
         echo "Rebuilding index files two at a time..."
-        printf "manuscript\nperson\nplace" | xargs -I {} -P 2 ./generate-solr-document.sh "{}s.xquery" "{}s_index.xml" {} $SERVER $1
+        printf "manuscript\nplace" | xargs -I {} -P 2 ./generate-solr-document.sh "{}s.xquery" "{}s_index.xml" {} $SERVER "$1"
         if [ $? -gt 0 ]; then
             echo
             echo "WARNING: One or more index files was not completed. The web site will not be fully updated. Check the log files in the solr subfolder."
@@ -75,8 +75,7 @@ else
 
         # Default mode is interactive - build one index at a time, prompting before sending to Solr
         set -e
-        ./generate-solr-document.sh "manuscripts.xquery" "manuscripts_index.xml" manuscript $SERVER $1
-        ./generate-solr-document.sh "persons.xquery" "persons_index.xml" person $SERVER $1
-        ./generate-solr-document.sh "places.xquery" "places_index.xml" place $SERVER $1
+        ./generate-solr-document.sh "manuscripts.xquery" "manuscripts_index.xml" manuscript $SERVER "$1"
+        ./generate-solr-document.sh "places.xquery" "places_index.xml" place $SERVER "$1"
     fi
 fi
