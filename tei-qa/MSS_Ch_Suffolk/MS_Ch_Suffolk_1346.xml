@@ -42,15 +42,21 @@
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Ch. Suffolk 1346</idno> <altIdentifier type="folder"> <idno type="folder">MS. Ch. Suffolk a. 13</idno> </altIdentifier> </msIdentifier> 
+                  <idno type="shelfmark">MS. Ch. Suffolk 1346</idno> 
+                  <altIdentifier type="folder"> 
+                     <idno type="folder">MS. Ch. Suffolk a. 13</idno> 
+                  </altIdentifier> 
+               </msIdentifier> 
+               
+               <head><!--no document type-->Merstham, etc.; 22 Oct., 20 James [I]</head>
                <msContents>
                   <textLang mainLang="en">English</textLang>
                   <msItem>
                      <p> Conveyance by <persName>
                            <forename>Robert</forename> 
-                           <surname>Berney</surname> of <placeName role="person" key="place_105385">Langley, Norfolk</placeName>, gent.</persName> 
+                           <surname>Berney</surname> of <placeName role="person" key="place_105385">Langley (Langley, Norfolk)</placeName>, gent.</persName> 
                   to <persName>
-                     <forename>John</forename> Duke of <placeName type="duchy" role="duke" key="place_1083242">Worlingham, Suff.</placeName>
+                           <forename>John</forename> Duke of <placeName type="duchy" role="duke" key="place_1083242">Worlingham, Suff.</placeName>
                            <!-- TODO -->, esq.</persName>, 
                   <persName>
                            <forename>Thomas</forename> 
@@ -58,7 +64,7 @@
                   and <persName>
                            <forename>Robert</forename> 
                            <surname>Harper</surname> of <placeName role="person" key="place_104435">Mendham</placeName>, yeoman</persName>, 
-                  of his manors etc. of <placeName type="manor" key="place_105051">Meastham</placeName> and other towns adjoining in 
+                  of his manors etc. of <placeName type="manor" key="place_105051">Merstham (Meastham)</placeName> and other towns adjoining in 
                   <placeName type="county" key="place_000061">Norfolk</placeName> and Suffolk, in trust for himself and 
                   <persName>his wife Mary</persName>. <origDate when="1622-10-22">22 Oct., 20 James [I]</origDate>.
                   </p>
@@ -74,9 +80,11 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><p>This record is based on a calendar prepared in 1878 and some details may be incorrect. If you spot any errors please inform <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> and <email>generalsecretary@suffolkinstitute.org.uk</email>.</p>
+                        <source>
+                           <p>This record is based on a calendar prepared in 1878 and some details may be incorrect. If you spot any errors please inform <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> and <email>generalsecretary@suffolkinstitute.org.uk</email>.</p>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="497" to="497">497</citedRange><!--TODO this is handwritten extra page, there exists 497, 497* and the printed 497 > how to number these?-->
+                                <citedRange unit="page" from="497" to="497">497</citedRange>
+                              <!--TODO this is handwritten extra page, there exists 497, 497* and the printed 497 > how to number these?-->
                            </bibl>
                         </source>
                      </recordHist>
