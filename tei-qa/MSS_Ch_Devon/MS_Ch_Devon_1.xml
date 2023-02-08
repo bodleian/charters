@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_406002">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_406101">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>MS. Ch. Devon 1</title>
-            <respStmt xml:id="BOD">
-               <resp>Cataloguer</resp>
-               <persName>Bodleian library staff</persName>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
             </respStmt>
             <respStmt xml:id="TA">
-               <resp when="2022">Encoding</resp>
+               <resp when="2020">Encoding</resp>
                <persName>Tuija Ainonen</persName>
             </respStmt>
          </titleStmt>
@@ -21,7 +22,7 @@
                <orgName type="unit">Bodleian Libraries</orgName>
                <orgName type="institution">University of Oxford</orgName>
                <street>Weston Library, Broad Street</street>
-               <settlement>Oxford</settlement>
+               <settlement key="place_7011931">Oxford</settlement>
                <postCode>OX1 3BG</postCode>
                <country>United Kingdom</country>
             </address>
@@ -30,7 +31,7 @@
             </distributor>
             <!--Availability statement will be added here-->
             <idno type="msID">MS_Ch_Devon_1</idno>
-            <idno type="collection">Devon</idno>
+            <idno type="collection"><!--TODO--></idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
@@ -41,25 +42,31 @@
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <collection>Devon</collection>
                   <idno type="shelfmark">MS. Ch. Devon 1</idno>
-                  <altIdentifier>
-                     <idno type="orderableItem">MS. Ch. Devon. a.1</idno>
-                  </altIdentifier>
                </msIdentifier>
                <msContents>
+                  <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p>. </p>
+                     <p> . CHULMLEIGH. Deed (not executed) by which <persName><forename>Hugh</forename> <surname>Bury</surname> of <placeName role="person" key="place_113071">Chulmeleigh</placeName></persName> assigns to
+                       <persName><forename>Jane</forename> Sibil <surname>Gray</surname>, late wife of <persName><forename>Arthur</forename>, lord Gray of Wilton</persName></persName>, deceased, all his
+                        estate, interest, &amp;c., for a term of years in certain lands, &amp;c., in
+                        <placeName key="place_113071">Chulmeleigh</placeName>. Dated <origDate notAfter="1608-03-23" notBefore="1607-03-24">5 James I</origDate>.  </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
-                           <listBibl>
-                              <bibl facs="">Calendar slip</bibl>
-                           </listBibl>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                            <citedRange unit="page" from="48" to="48">48</citedRange>
+                           </bibl>
                         </source>
                      </recordHist>
                   </adminInfo>
@@ -68,7 +75,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2022-05">First online publication</change>
+         <change when="2020-10">First online publication</change>
       </revisionDesc>
    </teiHeader>
    <text>
