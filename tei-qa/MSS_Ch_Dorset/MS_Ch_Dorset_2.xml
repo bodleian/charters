@@ -5,12 +5,13 @@
       <fileDesc>
          <titleStmt>
             <title>MS. Ch. Dorset 2</title>
-            <respStmt xml:id="BOD">
-               <resp>Cataloguer</resp>
-               <persName>Bodleian library staff</persName>
+            <respStmt xml:id="TC">
+               <resp when="1878">Cataloguer</resp>
+               <persName>W. H. Turner</persName>
+               <persName>H. O. Coxe</persName>
             </respStmt>
             <respStmt xml:id="TA">
-               <resp when="2022">Encoding</resp>
+               <resp when="2020">Encoding</resp>
                <persName>Tuija Ainonen</persName>
             </respStmt>
          </titleStmt>
@@ -21,7 +22,7 @@
                <orgName type="unit">Bodleian Libraries</orgName>
                <orgName type="institution">University of Oxford</orgName>
                <street>Weston Library, Broad Street</street>
-               <settlement>Oxford</settlement>
+               <settlement key="place_7011931">Oxford</settlement>
                <postCode>OX1 3BG</postCode>
                <country>United Kingdom</country>
             </address>
@@ -30,7 +31,7 @@
             </distributor>
             <!--Availability statement will be added here-->
             <idno type="msID">MS_Ch_Dorset_2</idno>
-            <idno type="collection">Dorset</idno>
+            <idno type="collection"><!--TODO--></idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
@@ -41,25 +42,28 @@
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <collection>Dorset</collection>
                   <idno type="shelfmark">MS. Ch. Dorset 2</idno>
-                  <altIdentifier>
-                     <idno type="orderableItem">MS. Ch. Dorset a.1</idno>
-                  </altIdentifier>
                </msIdentifier>
                <msContents>
+                  <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p>. </p>
+                     <p><!--todo--></p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
-                           <listBibl>
-                              <bibl facs="">Calendar slip</bibl>
-                           </listBibl>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                            <citedRange unit="page" from="49" to="49">49</citedRange>
+                           </bibl>
                         </source>
                      </recordHist>
                   </adminInfo>
@@ -68,7 +72,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2022-05">First online publication</change>
+         <change when="2020-10">First online publication</change>
       </revisionDesc>
    </teiHeader>
    <text>
