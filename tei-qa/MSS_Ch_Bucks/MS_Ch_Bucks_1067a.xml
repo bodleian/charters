@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/GVogeler/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_3121008">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_312961">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Bucks. 1114</title>
+            <title>MS. Ch. Bucks. 1067a</title>
             <respStmt xml:id="BOD">
                <resp>Cataloguer</resp>
                <persName>Bodleian library staff</persName>
@@ -29,12 +29,12 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Bucks_1114</idno>
+            <idno type="msID">MS_Ch_Bucks_1067</idno>
             <idno type="collection">Bucks</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Bucks_1114" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Bucks_1067" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -42,7 +42,7 @@
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
                   <collection>Bucks</collection>
-                  <idno type="shelfmark">MS. Ch. Bucks. 1114</idno>
+                  <idno type="shelfmark">MS. Ch. Bucks. 1067a</idno>
                   <altIdentifier>
                      <idno type="orderableItem">MS. Ch. Bucks. c. 5</idno>
                   </altIdentifier>
@@ -50,7 +50,7 @@
                <msContents>
                   <msItem>
                      <p>
-                        <placeName key=""/>. <origDate notBefore="" notAfter=""/>. MISSING?. </p>
+                        <placeName key="place_112007">Beaconsfield</placeName>. <origDate when="1344 ">1344 </origDate>. </p>
                   </msItem>
                </msContents>
                <additional>
@@ -59,7 +59,7 @@
                         <source>
                            <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
                            <listBibl>
-                              <bibl facs="">Calendar slip</bibl>
+                              <bibl facs="03_00194.tif">Calendar slip</bibl>
                            </listBibl>
                         </source>
                      </recordHist>
