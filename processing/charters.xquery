@@ -166,7 +166,7 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                     { local:place($ms//tei:sourceDesc//tei:placeName[@role='person']/@key, 'ch_from_', '_sm')}
                     { local:place($ms//tei:sourceDesc//tei:placeName[@role='date']/@key, 'ch_dated_', '_sm')}
                     
-                    
+                     <field name="ch_orgname_s">{ $ms//tei:sourceDesc//tei:orgName//text()/normalize-space(.) }</field>                    
                     
                     { bod:strings2many($ms//tei:sourceDesc//tei:authDesc/tei:seal/tei:decoNote/@type, 'sl_decoration_sm') }
                     { bod:strings2many(local:buildSummaries($ms), 'ms_summary_sm') }
