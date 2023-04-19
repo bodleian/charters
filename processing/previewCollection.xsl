@@ -26,7 +26,7 @@
     <!-- Set up the collection of files to be converted -->
     <!-- files and recurse parameters defaulting to '*.xml' and 'no' respectively -->
     <xsl:param name="files" select="'*.xml'"/>
-    <xsl:param name="collection" select="'MSS_Ch_Suffolk'"></xsl:param>
+    <xsl:param name="collection" select="'MSS_Ch_Cambs'"></xsl:param>
     <xsl:param name="recurse" select="'yes'"/>
     <xsl:variable name="path">
         <xsl:value-of
@@ -35,8 +35,8 @@
     </xsl:variable>
     
     <!-- the main collection of all the documents we are dealing with -->
-    <xsl:variable name="doc" select="collection($path)"/>
-    
+    <xsl:variable name="doc" select="sort(collection($path))"/>
+        
     
     
     <!-- Wrap the output resulting from the above in html and body tags, for previewing

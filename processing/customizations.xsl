@@ -90,10 +90,21 @@
         </span>
     </xsl:template>
     
+    <!-- this needs refinement to deal with multiple seals (e.g. Ch. Suffolk 1044 or 1084) -->
     <xsl:template match="seal/idno">
         <xsl:text>(</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>)</xsl:text>
+    </xsl:template>
+    
+    <!-- todo: seal legend -->
+    
+    <xsl:template match="pb">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="surname">
+        <xsl:apply-templates/>
     </xsl:template>
     
     <!-- This is an override of the template in msdesc2html.xsl, which outputs a div. Maybe the choice should be based on context? -->
