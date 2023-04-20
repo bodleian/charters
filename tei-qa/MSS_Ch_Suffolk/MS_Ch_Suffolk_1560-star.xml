@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_240088">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_240087">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Suffolk 1561</title>
+            <title>MS. Ch. Suffolk 1560*</title>
             <respStmt xml:id="BOD">
                <resp>Cataloguer</resp>
                <persName>Bodleian library staff</persName>
@@ -29,12 +29,12 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Suffolk_1561</idno>
+            <idno type="msID">MS_Ch_Suffolk_1560*</idno>
             <idno type="collection">Suffolk</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Suffolk_1561" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Suffolk_1560" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -42,10 +42,10 @@
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
                   <collection>Suffolk</collection>
-                  <idno type="shelfmark">MS. Ch. Suffolk 1561</idno>
+                  <idno type="shelfmark">MS. Ch. Suffolk 1560*</idno>
                </msIdentifier>
                
-               <head><!--no document type--><!--no place-->; </head>
+               <head>Seal of Butley Priory </head>
                <msContents>
                   <msItem>
                      <p>Seal only. </p>
@@ -54,9 +54,7 @@
                <physDesc>
                   <authDesc>
                      <seal>
-                        <decoNote type="shield">Armorial seal of <persName>Sir <forename>Thomas</forename> 
-                              <surname>Barnardston</surname>
-                           </persName>.</decoNote>
+                        <p>Seal of <orgName key="org_105016">Priory of Butley</orgName> [Cast available.]</p>
                      </seal>
                   </authDesc>
                </physDesc>
@@ -64,7 +62,7 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Record based on the Bodleian Library handlist of seals.</p>
+                           <bibl>J. Gilbert Wiblin, <title>Handlist 339e. Seals (including casts and matrisces)</title>, May 1916 (unpublished handlist, Bodleian Library), p. 175v</bibl>
                          <p>This record is based on a 20th-century handwritten calendar and some information may be incorrect. References to more recent editions, if available, are provided in the bibliography. Please send any additional corrections to <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> or <email>generalsecretary@suffolkinstitute.org.uk</email>.</p></source>
                      </recordHist>
                   </adminInfo>
