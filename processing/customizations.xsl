@@ -81,23 +81,41 @@
         <xsl:apply-templates/>
     </xsl:template>
     
-    <xsl:template match="authDesc/seal">
-        <span class="seal">
-            <b>
-                <xsl:text>Seal(s):</xsl:text>
-             </b>   
+    <!-- seals -->
+    <!-- may need refinement  -->
+    <xsl:template match="authDesc">
             <xsl:apply-templates/>
-        </span>
     </xsl:template>
     
-    <!-- this needs refinement to deal with multiple seals (e.g. Ch. Suffolk 1044 or 1084) -->
+    <xsl:template match="seal">
+        <div class="seal"><span class="seal">
+            <b>
+                <xsl:text>Seal:</xsl:text>
+             </b>   
+            <xsl:apply-templates/>
+        </span></div>
+    </xsl:template>
+    
+    <xsl:template match="seal/decoNote">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="seal/p">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="seal/legend">
+        <xsl:text>Legend: ‘</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>’</xsl:text>
+    </xsl:template>
+    
     <xsl:template match="seal/idno">
         <xsl:text>(</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>)</xsl:text>
     </xsl:template>
     
-    <!-- todo: seal legend -->
     
     <xsl:template match="pb">
         <xsl:apply-templates/>
