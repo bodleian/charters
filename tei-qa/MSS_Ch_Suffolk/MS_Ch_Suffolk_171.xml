@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105961">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105961">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 2</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Grant; Mildenhall; 3 Elizabeth (1560-1561)</head>
+               <head>Grant;  Mildenhall; 1560</head>
                <msContents>
                   <textLang mainLang="en">English</textLang>
                   <msItem>
@@ -61,7 +59,7 @@
                   of the <placeName key="place_103034">Duchy of Lancaster</placeName>
                         <!-- or org? check -->, to which the manor of 
                   <placeName type="manor" key="place_105052">Mildenhall (Mildenhale)</placeName> is lately annexed, £54 10s. 4d. 
-                  Dated <origDate notBefore="1560-11-17" notAfter="1561-11-16">24 Nov., 3 Elizabeth</origDate>. 
+                  Dated <origDate when="1560-11-24">24 Nov., 3 Elizabeth (1560)</origDate><!--1560-11-17|1561-11-16-->. 
                    
                   
                   </p>
