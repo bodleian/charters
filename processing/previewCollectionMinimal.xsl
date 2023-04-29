@@ -26,7 +26,7 @@
     <!-- Set up the collection of files to be converted -->
     <!-- files and recurse parameters defaulting to '*.xml' and 'no' respectively -->
     <xsl:param name="files" select="'*.xml'"/>
-    <xsl:param name="collection" select="'MSS_Ch_Cambs'"></xsl:param>
+    <xsl:param name="collection" select="'MSS_Ch_Suffolk'"></xsl:param>
     <xsl:param name="recurse" select="'yes'"/>
     <xsl:variable name="path">
         <xsl:value-of
@@ -52,7 +52,8 @@
             <body style="padding:2em ! important;">
                 <xsl:for-each select="$doc">
                    
-                    <xsl:sort select="format-number(number(substring-after(.//tei:idno[@type='shelfmark'], 'bs. ')), '0000')"/>
+                    <xsl:sort collation="http://www.w3.org/2013/collation/UCA?numeric=yes;reorder=Latn,digit"/>
+                    <!-- see: https://stackoverflow.com/questions/28071757/xslt-sort-alphabetically-then-numerically -->
                 <h1 itemprop="name">
                     <xsl:value-of select="./tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type='shelfmark']/text()"/>
                 </h1>
