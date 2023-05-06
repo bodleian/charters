@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105422">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105422">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,14 +45,14 @@
                      <idno type="folder">MS. Ch. Suffolk a. 4</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Confirmation; Chilton, etc.; 4 Hen. VII (1488-1489)</head>
+               <head>Confirmation;  Chilton, etc.; 1489</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <p>
                         <persName>
                            <forename>Richard</forename> 
-                           <surname>Symoii</surname> of <placeName role="person" key="place_105311">Great Waldingfield</placeName></persName>,
+                           <surname>Symon</surname> of <placeName role="person" key="place_105311">Great Waldingfield</placeName></persName>,
                   <persName>
                            <forename>John</forename> 
                            <surname>Sydey</surname>, servant</persName> of
@@ -72,7 +70,7 @@
                            <surname>Lorkyn</surname>
                         </persName> her son, and others, 
                   a cottage and garden in <placeName key="place_105236">Chilton</placeName>. 
-                  Dated at <placeName role="date" key="place_105236">Chilton</placeName>, 31 March, <origDate notBefore="1488-08-22" notAfter="1489-08-21">4 Hen. VII</origDate>. 
+                  Dated at <placeName role="date" key="place_105236">Chilton</placeName>, <origDate when="1489-03-31">31 March, 4 Hen. VII (1489)</origDate><!--1488-08-22|1489-08-21-->. 
                   </p>
                   </msItem>
                </msContents>

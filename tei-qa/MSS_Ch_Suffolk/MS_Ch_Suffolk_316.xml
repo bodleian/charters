@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105663">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105663">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +45,11 @@
                      <idno type="folder">MS. Ch. Suffolk a. 4</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Bond; Glemsford, etc.; 26 Hen. VI (1447-1448)</head>
+               <head>Bond;  Glemsford, etc.; 1447</head>
                <msContents>
                   <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p> Indenture made 2 December, <origDate notBefore="1447-09-01" notAfter="1448-08-31">26 Hen. VI</origDate>, between 
+                     <p> Indenture made <origDate when="1447-12-02">2 December, 26 Hen. VI (1447)</origDate><!--1447-09-01|1448-08-31-->, between 
                   <persName>
                            <forename>Walter</forename> 
                            <surname>Caleys</surname> of <placeName role="person" key="place_104322">Glemsford</placeName>

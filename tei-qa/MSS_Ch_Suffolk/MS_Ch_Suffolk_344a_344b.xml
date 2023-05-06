@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105691">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105691">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -54,8 +52,8 @@
                      <p> The will of <persName>
                            <forename>John</forename> 
                            <surname>Brewster</surname> of <placeName role="person" key="place_104322">Glemsford</placeName>, clothier</persName>, 
-                  dated 11 October, <origDate when="1547">1547</origDate>. 
-                  Probate attached, dated 21 October, <origDate when="1547">1547</origDate>. 
+                  dated <origDate when="1547">11 October, 1547</origDate>. 
+                  Probate attached, dated <origDate when="1547">21 October, 1547</origDate>. 
                <!--CHK h/l, is the double shelfmark okay?--> </p>
                   </msItem>
                </msContents>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105319">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105319">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 2</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Demise; Bury St Edmunds; 38 Hen. VI (1459-1460)</head>
+               <head>Demise;  Bury St Edmunds; 1460</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -61,7 +59,7 @@
                            <surname>Somere</surname> of <placeName role="person" key="place_104540">Bury St Edmunds (Bury)</placeName>, taylor</persName>, 
                   a tenement in <placeName key="place_104540">Bury St Edmunds (Bury)</placeName> in the street called <placeName type="street" key="place_105111">le Estgatestrete</placeName> <!-- corr:Briggs -->
                   for 98 years, at an annual rent of 3s. 
-                  Dated at <placeName role="date" key="place_104540">Bury St Edmunds (Bury)</placeName>, 5 February, <origDate notBefore="1459-09-01" notAfter="1460-08-31">38 Hen. VI</origDate>. 
+                  Dated at <placeName role="date" key="place_104540">Bury St Edmunds (Bury)</placeName>, <origDate when="1460-02-05">5 February, 38 Hen. VI (1460)</origDate><!--1459-09-01|1460-08-31-->. 
                   </p>
                   </msItem>
                </msContents>
@@ -78,7 +76,7 @@
                         <source>
                            
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="440" to="440">440</citedRange>
+                              <citedRange unit="page" from="440" to="440">440</citedRange>; some readings of place-names corrected ex inf. Keith Briggs.
                            </bibl>
                          <p>This record is based on a calendar prepared in 1878 and some information may be incorrect. References to more recent editions, if available, are provided in the bibliography. Please send any additional corrections to <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> or <email>generalsecretary@suffolkinstitute.org.uk</email>.</p></source>
                      </recordHist>

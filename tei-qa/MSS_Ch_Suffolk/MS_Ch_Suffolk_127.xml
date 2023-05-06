@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105321">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105321">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 2</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Demise; Bury St Edmunds; 18 Ed. IV (1478-1479)</head>
+               <head>Demise;  Bury St Edmunds; 1478</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -77,7 +75,7 @@
                            <surname>Coote</surname></persName>'s 
                   and a lane called '<placeName type="street" key="place_105106">Bryteslane</placeName><!-- corr:Briggs -->;' also
                   another messuage in the same town and street. 
-                  Dated at <placeName role="date" key="place_104540">Bury St Edmunds (Bury St. Edmund)</placeName>, 9 March, <origDate notBefore="1478-03-04" notAfter="1479-03-21">18 Ed. IV</origDate>. 
+                  Dated at <placeName role="date" key="place_104540">Bury St Edmunds (Bury St. Edmund)</placeName>, <origDate when="1478-03-09">9 March, 18 Ed. IV (1478)</origDate><!--1478-03-04|1479-03-21-->. 
                   Witn. <persName>
                            <forename>Walter</forename> 
                            <surname>Thurston</surname>, alderman</persName>,
@@ -103,7 +101,7 @@
                         <source>
                            
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="440" to="440">440</citedRange>
+                              <citedRange unit="page" from="440" to="440">440</citedRange>; some readings of place-names corrected ex inf. Keith Briggs.
                            </bibl>
                          <p>This record is based on a calendar prepared in 1878 and some information may be incorrect. References to more recent editions, if available, are provided in the bibliography. Please send any additional corrections to <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> or <email>generalsecretary@suffolkinstitute.org.uk</email>.</p></source>
                      </recordHist>

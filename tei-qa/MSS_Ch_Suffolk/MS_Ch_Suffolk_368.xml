@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_1051200">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_1051200">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,7 +46,7 @@
                   </altIdentifier> 
                </msIdentifier> 
                
-               <head>Grant; Sudbury All Saints; 24 Hen. VI (1445-1446)</head>
+               <head>Grant;  Sudbury All Saints; 1446</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -66,7 +64,7 @@
                            <forename>Thomas</forename> 
                            <surname>Aldows</surname></persName>, a messuage in
                   <placeName key="place_105522">Sudbury All Saints (Sudbery, in the parish of All Saints)</placeName>. 
-                  Dated at <placeName role="date" key="place_105520">Sudbury (Sudbery)</placeName>, 27 Jan., <origDate notBefore="1445-09-01" notAfter="1446-08-31">24 Hen. VI</origDate>. 
+                  Dated at <placeName role="date" key="place_105520">Sudbury (Sudbery)</placeName>, <origDate when="1446-01-27">27 Jan., 24 Hen. VI (1446)</origDate><!--1445-09-01|1446-08-31-->. 
                   </p>
                   </msItem>
                </msContents>

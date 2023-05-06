@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105670">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105670">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 4</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Grant; Glemsford; 38 Hen. VI (1459-1460)</head>
+               <head>Grant;  Glemsford; 1459</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -59,7 +57,7 @@
                            <forename>John</forename> 
                            <surname>West</surname>, parson of <placeName role="parson" key="place_105506">Stanstead (Stansted)</placeName></persName>, and others one piece of
                   land in <placeName key="place_104322">Glemsford</placeName>. 
-                  Dated at <placeName role="date" key="place_104322">Glemsford</placeName>, 2 October, <origDate notBefore="1459-09-01" notAfter="1460-08-31">38 Hen. VI</origDate>. 
+                  Dated at <placeName role="date" key="place_104322">Glemsford</placeName>, <origDate when="1459-10-02">2 October, 38 Hen. VI (1459)</origDate><!--1459-09-01|1460-08-31-->. 
                   </p>
                   </msItem>
                </msContents>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105695">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105695">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +45,11 @@
                      <idno type="folder">MS. Ch. Suffolk a. 4</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Sale; Glemsford; 32 Elizabeth (1589-1590)</head>
+               <head>Sale;  Glemsford; 1590</head>
                <msContents>
                   <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p>Indenture dated 2 October, <origDate notBefore="1589-11-17" notAfter="1590-11-16">32 Elizabeth</origDate>, by which
+                     <p>Indenture dated <origDate when="1590-10-02">2 October, 32 Elizabeth (1590)</origDate><!--1589-11-17|1590-11-16-->, by which
                   <persName>
                            <forename>John</forename> 
                            <surname>Jermyn</surname>

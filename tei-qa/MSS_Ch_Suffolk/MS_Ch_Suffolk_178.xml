@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105361">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105361">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 2</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Grant; Bury St Edmunds; 3 James I (1605-1606)</head>
+               <head>Grant;  Bury St Edmunds; 1605</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -59,12 +57,12 @@
                            <surname>Corksage</surname> of <placeName role="person" key="place_105506">Stanstead (Stansteed)</placeName>, taylor</persName>, 
                   a cottage or shop situate in '<placeName type="street" key="place_105132">le Rayngate streete</placeName>' in 
                   <placeName key="place_104540">Bury St Edmunds (Bury St. Edmund)</placeName>, near a sherehowse and three pieces of a
-                  farm ("fandi") lying near the tenement of 
+                  farm ("<unclear>pandi</unclear>") lying near the tenement of 
                   <persName>
                            <forename>Alice</forename> 
                            <surname>Corksage</surname>, widow</persName>, being part of 
                   a garden called le <placeName type="minor">Sentryyard</placeName>. 
-                  Dated 19 July, <origDate notBefore="1605-03-24" notAfter="1606-03-23">3 James I</origDate>.
+                  Dated <origDate when="1605-07-19">19 July, 3 James I (1605)</origDate><!--1605-03-24|1606-03-23-->.
                   </p>
                   </msItem>
                </msContents>

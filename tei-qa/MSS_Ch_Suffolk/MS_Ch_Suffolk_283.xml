@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105430">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105430">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +45,11 @@
                      <idno type="folder">MS. Ch. Suffolk a. 4</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Demise; Chilton; 19 Hen. VIII (1527-1528)</head>
+               <head>Demise;  Chilton; 1527</head>
                <msContents>
                   <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p> Indenture dated 4 Sept., <origDate notBefore="1527-04-22" notAfter="1528-04-21">19 Hen. VIII</origDate>, by which
+                     <p> Indenture dated <origDate when="1527-09-04">4 Sept., 19 Hen. VIII (1527)</origDate><!--1527-04-22|1528-04-21-->, by which
                   <persName>
                            <forename>Robert</forename> 
                            <surname>Crane</surname> of <placeName role="person" key="place_105236">Chilton (Chilton, in the county of Suffolk)</placeName>, esq.</persName>,

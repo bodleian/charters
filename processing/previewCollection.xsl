@@ -26,7 +26,7 @@
     <!-- Set up the collection of files to be converted -->
     <!-- files and recurse parameters defaulting to '*.xml' and 'no' respectively -->
     <xsl:param name="files" select="'*.xml'"/>
-    <xsl:param name="collection" select="'MSS_Ch_Cambs'"></xsl:param>
+    <xsl:param name="collection" select="'MSS_Ch_Suffolk'"></xsl:param>
     <xsl:param name="recurse" select="'yes'"/>
     <xsl:variable name="path">
         <xsl:value-of

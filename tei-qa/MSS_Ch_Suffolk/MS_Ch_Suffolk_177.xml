@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105360">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105360">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 2</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Recognizance; 1 James I (1603-1604)</head>
+               <head>Recognizance; 1604</head>
                <msContents>
                   <textLang mainLang="en">English</textLang>
                   <msItem>
@@ -56,7 +54,7 @@
                            <surname>Milward</surname> of <placeName role="person" key="place_104540">Bury St Edmunds (Bury St. Edmund)</placeName>
                         </persName> 
                   on her being allowed to keep an alehouse in that town. 
-                  Dated 24 January, <origDate notBefore="1603-03-24" notAfter="1604-03-23">1 James I</origDate>. 
+                  Dated <origDate when="1604-01-24">24 January, 1 James I (1604)</origDate><!--1603-03-24|1604-03-23-->. 
                   
                   </p>
                   </msItem>

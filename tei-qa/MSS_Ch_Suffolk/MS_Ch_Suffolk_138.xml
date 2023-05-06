@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105765">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105765">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 2</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Demise; Hessett; 19 Hen. VII (1503-1504)</head>
+               <head>Demise;  Hessett; 1503</head>
                <msContents>
                   <textLang mainLang="en">English</textLang>
                   <msItem>
@@ -60,7 +58,7 @@
                         </persName> 
                   their manor of <placeName type="manor" key="place_105034">Hessett (Heggesset)</placeName>, for 20 years, paying annually to the
                   treasurer of the monastery £8. 
-                  Dated 12 September, <origDate notBefore="1503-08-22" notAfter="1504-08-21">19 Hen. VII</origDate>. 
+                  Dated <origDate when="1503-09-12">12 September, 19 Hen. VII (1503)</origDate><!--1503-08-22|1504-08-21-->. 
                   
                   [Marked 138* on the charter but there is no 138.]
                   </p>

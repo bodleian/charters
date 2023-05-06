@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105661">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105661">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 4</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Demise; Glemsford; 21 Hen. VI (1442-1443)</head>
+               <head>Demise;  Glemsford; 1443</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -62,7 +60,7 @@
                            <surname>Petywette</surname>
                         </persName> and 
                   others one croft of land lying in the village of <placeName key="place_104322">Glemsford</placeName>. 
-                  Dated 29 April, <origDate notBefore="1442-09-01" notAfter="1443-08-31">21 Hen. VI</origDate>. [Partly effaced.]
+                  Dated <origDate when="1443-04-29">29 April, 21 Hen. VI (1443)</origDate><!--1442-09-01|1443-08-31-->. [Partly effaced.]
                   </p>
                   </msItem>
                </msContents>

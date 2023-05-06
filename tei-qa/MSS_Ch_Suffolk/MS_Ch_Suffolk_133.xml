@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105798">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105798">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 2</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Lease; Ingham; 1 Richard III, etc. (1483-1484)</head>
+               <head>Lease;  Ingham; 1483</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -64,7 +62,7 @@
                   manor of <placeName type="manor" key="place_105041">Ingham</placeName> and all
                   that belongs to it, except the advowson of the church, for 70 years, paying
                   annually to the cellarer of the monastery £16. 
-                  Dated 10 Sept., <origDate notBefore="1483-06-26" notAfter="1484-06-25">1 Richard III</origDate>. 
+                  Dated <origDate when="1483-09-10">10 Sept., 1 Richard III (1483)</origDate><!--1483-06-26|1484-06-25-->. 
                   [Roughly altered as a draft for a lease from <persName>abbot <forename>John</forename>
                         </persName> to
                   <persName>

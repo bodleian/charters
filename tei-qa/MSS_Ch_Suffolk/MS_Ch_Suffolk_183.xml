@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105366">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105366">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +45,11 @@
                      <idno type="folder">MS. Ch. Suffolk a. 2</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Appointment of deputy steward; 21 Charles II (1680-1681)</head>
+               <head>Appointment of deputy steward; 1680</head>
                <msContents>
                   <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p> Indenture made 14 April, <origDate notBefore="1680-01-30" notAfter="1681-01-29">21 Charles II</origDate>, by which 
+                     <p> Indenture made <origDate when="1680-04-14">14 April, 21 Charles II (1680)</origDate><!--1680-01-30|1681-01-29-->, by which 
                   <persName>
                            <forename>James</forename>, earl of <placeName role="earl" type="earldom" key="place_100076">Suffolk</placeName>, steward of the franchises of <placeName role="person" key="place_104540">Bury St Edmunds (Bury St. Edmund)</placeName></persName>, appoints <pb n="445"/>
                         <persName>

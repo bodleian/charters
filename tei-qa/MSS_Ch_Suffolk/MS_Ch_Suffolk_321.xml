@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105668">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105668">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 4</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Grant; Glemsford; 30 Hen. VI (1451-1452)</head>
+               <head>Grant;  Glemsford; 1452</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -67,7 +65,7 @@
                            <surname>Warde</surname> of <placeName role="person" key="place_104322">Glemsford</placeName>
                         </persName> 
                   and others one piece of land in the parish of <placeName key="place_104322">Glemsford</placeName>. 
-                  Dated at <placeName role="date" key="place_104322">Glemsford</placeName> 14 May, <origDate notBefore="1451-09-01" notAfter="1452-08-31">30 Hen. VI</origDate>.
+                  Dated at <placeName role="date" key="place_104322">Glemsford</placeName> <origDate when="1452-05-14">14 May, 30 Hen. VI (1452)</origDate><!--1451-09-01|1452-08-31-->.
                   </p>
                   </msItem>
                </msContents>

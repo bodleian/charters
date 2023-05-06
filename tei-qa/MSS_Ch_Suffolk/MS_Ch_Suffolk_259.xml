@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105224">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105224">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 4</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Sale; Boxford, etc.; 18 Elizabeth (1575-1576)</head>
+               <head>Sale;  Boxford, etc.; 1575</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -61,7 +59,7 @@
                            <surname>Walton</surname>
                         </persName> certain lands &amp;c. 
                   in the parishes of <placeName key="place_105189">Boxford</placeName> and <placeName key="place_105304">Groton</placeName>. 
-                  Dated 10 December, <origDate notBefore="1575-11-17" notAfter="1576-11-16">18 Elizabeth</origDate>. 
+                  Dated <origDate when="1575-12-10">10 December, 18 Elizabeth (1575)</origDate><!--1575-11-17|1576-11-16-->. 
                   </p>
                   </msItem>
                </msContents>

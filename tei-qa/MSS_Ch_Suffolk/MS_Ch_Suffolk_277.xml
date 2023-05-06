@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105424">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105424">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +45,7 @@
                      <idno type="folder">MS. Ch. Suffolk a. 4</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Grant; Chilton, etc.; 11 Hen. VII (1495-1496)</head>
+               <head>Grant;  Chilton, etc.; 1496</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
@@ -79,8 +77,8 @@
                            <surname>Parker</surname>
                         </persName> a cottage with a 
                   garden in <placeName key="place_105236">Chilton</placeName>, for the use of the said Robert Syday. 
-                  Dated at <placeName role="date" key="place_105236">Chilton</placeName>, 29 June, <origDate notBefore="1495-08-22" notAfter="1496-08-21">11 Hen. VII</origDate>.
-                     :</p>
+                  Dated at <placeName role="date" key="place_105236">Chilton</placeName>, <origDate when="1496-06-29">29 June, 11 Hen. VII (1496)</origDate><!--1495-08-22|1496-08-21-->.
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>

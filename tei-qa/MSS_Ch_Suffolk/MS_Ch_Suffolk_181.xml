@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105364">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105364">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,11 +45,11 @@
                      <idno type="folder">MS. Ch. Suffolk a. 2</idno> 
                   </altIdentifier> 
                </msIdentifier> 
-               <head>Receipt; 24 Charles I (1648-1649)</head>
+               <head>Receipt; 1648</head>
                <msContents>
                   <textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p> Indenture made 6 October, <origDate notBefore="1648-03-27" notAfter="1649-03-26">24 Charles I</origDate>, by which 
+                     <p> Indenture made <origDate when="1648-10-06">6 October, 24 Charles I (1648)</origDate><!--1648-03-27|1649-03-26-->, by which 
                   <persName>
                            <forename>Myles</forename> 
                            <surname>Burgh</surname>, gent., alderman and keeper of the gaol of <placeName role="person" key="place_104540">Bury St Edmunds (Bury St. Edmund)</placeName></persName>, 
