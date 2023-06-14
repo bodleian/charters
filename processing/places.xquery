@@ -76,7 +76,7 @@ declare variable $allinstances :=
         let $instances := $allinstances[key = $id]
         let $roles := distinct-values(for $role in distinct-values($instances/role/text()) return bod:personRoleLookup($role))
         
-        let $links := for $link in $placeororg/tei:region[@type]
+        let $links := for $link in $placeororg/tei:region[@type and @key]
                         return concat(
                         '/catalog/', 
                         $link/@key, 
