@@ -76,6 +76,15 @@ declare variable $allinstances :=
         let $instances := $allinstances[key = $id]
         let $roles := distinct-values(for $role in distinct-values($instances/role/text()) return bod:personRoleLookup($role))
         
+        let $links := for $link in $placeororg/tei:region[@type]
+                        return concat(
+                        '/catalog/', 
+                        $link/@key, 
+                        '|', 
+                        $link/text(),
+                        '|',
+                        $link/@type
+                    )
         (: Output a Solr doc element :)
         return if (count($instances) gt 0) then
             <doc>
@@ -95,6 +104,14 @@ declare variable $allinstances :=
                 else
                     ()
                 }
+                { 
+
+                for $link in $links
+                    order by tokenize($link, '\|')[2]
+                    return
+                    <field name="link_place_smni">{ $link }</field>
+                }
+                
                 {
                 (: Roles (typically for organizations such as monasteries that were former owners) :)
                 for $role in $roles
