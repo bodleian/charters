@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_115293">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800413">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MSS. Ch. Warwick. 14-19</title>
-            <respStmt xml:id="TC">
-               <resp when="1878">Cataloguer</resp>
-               <persName>W. H. Turner</persName>
-               <persName>H. O. Coxe</persName>
+            <title>MS. Ch. Eng. 30</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
             </respStmt>
             <respStmt xml:id="TA">
-               <resp when="2020">Encoding</resp>
+               <resp when="2022">Encoding</resp>
                <persName>Tuija Ainonen</persName>
             </respStmt>
          </titleStmt>
@@ -22,7 +21,7 @@
                <orgName type="unit">Bodleian Libraries</orgName>
                <orgName type="institution">University of Oxford</orgName>
                <street>Weston Library, Broad Street</street>
-               <settlement key="place_7011931">Oxford</settlement>
+               <settlement>Oxford</settlement>
                <postCode>OX1 3BG</postCode>
                <country>United Kingdom</country>
             </address>
@@ -30,48 +29,44 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MSS_Ch_Warwick_14-19</idno>
-            <idno type="collection"><!--TODO--></idno>
+            <idno type="msID">MS_Ch_Eng_30</idno>
+            <idno type="collection">England</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MSS_Ch_Warwick_14-19" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Eng_30" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MSS. Ch. Warwick. 14-19</idno>
+                  <collection>England</collection>
+                  <idno type="shelfmark">MS. Ch. Eng. 30</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Eng. c. 1</idno>
+                  </altIdentifier>
                </msIdentifier>
+               <head>Order for livery of clothing; 1456</head>
                <msContents>
                   <msItem>
-                     <p> Appointments of <persName>
-                           <forename>Henry</forename> 
-                           <surname>Delves</surname> , esq.</persName>, 
-               and <persName>
-                           <forename>Timothy</forename> 
-                           <surname>St. Nicholas</surname>, esq.</persName>,
-               as justices of the peace for the county of <placeName type="county" key="place_108673">Warwick</placeName>,
-               with the oaths for the same appointments. 
-               Dated at <placeName role="date" key="place_100060">Westminster</placeName>, 13 Nov., <origDate>10 George I</origDate>.
-               . <!--TODO, multiple shelfmark, ok?--></p>
+                     <p>
+                        <placeName key="place_104181">England</placeName>. Order from <persName>Henry VI</persName> to <persName><forename>Henry</forename> <surname>Fillongley</surname>, <roleName>Keeper of the Wardrobe</roleName></persName>, to give his wife's niece, Marie, two pieces of rich crimson cloth and other items for her marriage. <placeName role="date" key="place_109366">Lichfield</placeName>, <origDate when="1456-09-09">9 Sept. 1456 (35 Henry VI)</origDate>. </p>
                   </msItem>
                </msContents>
-               <physDesc>
-                  <objectDesc form="sheet">
-                     <supportDesc material="perg">
-                        <support>parchment</support>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
+               <history>
+                  <acquisition>Purchased, Sotheby's 26 June 1974, lot 2943.</acquisition>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="583" to="583">583</citedRange>
-                           </bibl>
+                           <p>Record based on a handwritten calendar
+                                                  slip (not dated) created by Bodleian Library
+                                                  staff.</p>
+                           <listBibl>
+                              <bibl facs="01_00030.tif">Calendar slip</bibl>
+                           </listBibl>
                         </source>
                      </recordHist>
                   </adminInfo>
@@ -80,7 +75,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2020-10">First online publication</change>
+         <change when="2022-05">First online publication</change>
       </revisionDesc>
    </teiHeader>
    <text>
