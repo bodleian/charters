@@ -168,6 +168,7 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                     { bod:languages($ms//tei:sourceDesc//tei:textLang, 'lang_sm') }
 
                     { bod:centuries($ms//tei:sourceDesc//tei:origDate, 'ch_date_sm') }
+                    { bod:years($ms//tei:sourceDesc//tei:origDate) }
                     
                     { local:place($ms//tei:sourceDesc//tei:placeName[not(@role)]/@key, 'ch_granted_', '_sm')}
                     { local:place($ms//tei:sourceDesc//tei:placeName[@role='person']/@key, 'ch_from_', '_sm')}
