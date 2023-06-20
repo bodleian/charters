@@ -165,7 +165,7 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                     else
                         ()
                     }
-                    { bod:languages($ms//tei:sourceDesc//tei:textLang, 'lang_sm') }
+                    { bod:languages($ms//tei:sourceDesc//tei:textLang, 'lang_sm', 'Unknown') }
 
                     { bod:centuries($ms//tei:sourceDesc//tei:origDate, 'ch_date_sm') }
                     { bod:years($ms//tei:sourceDesc//tei:origDate) }
