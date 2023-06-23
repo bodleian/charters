@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800512">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800502">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Ch. Denbighshire 4</title>
+            <title>MS. Ch. Caermarthenshire 1</title>
             <respStmt xml:id="BOD">
                <resp>Cataloguer</resp>
                <persName>Bodleian library staff</persName>
@@ -29,12 +29,12 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Ch_Denbighshire_4</idno>
+            <idno type="msID">MS_Ch_Caermarthenshire_1</idno>
             <idno type="collection">Wales</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Denbighshire_4" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Caermarthenshire_1" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -42,15 +42,15 @@
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
                   <collection>Wales</collection>
-                  <idno type="shelfmark">MS. Ch. Denbighshire 4</idno>
+                  <idno type="shelfmark">MS. Ch. Caermarthenshire 1</idno>
                   <altIdentifier>
-                     <idno type="orderableItem">MS. Ch. Wales a.2</idno>
+                     <idno type="orderableItem">MS. Ch. Wales a.1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <msItem>
                      <p>
-                        <placeName key="place_113282">Llaethfaen</placeName>. <origDate notBefore="1516" notAfter="1517">1516-1517 </origDate>. </p>
+                        <placeName key="place_113280">Llanwinio</placeName>, <placeName key="place_113289">Llanbadarn Trefeglwys</placeName>. <origDate when="1735">1735</origDate>. </p>
                   </msItem>
                </msContents>
                <additional>
@@ -61,7 +61,8 @@
                                                   slip (not dated) created by Bodleian Library
                                                   staff.</p>
                            <listBibl>
-                              <bibl facs="29_00041.tif">Calendar slip</bibl>
+                              <bibl facs="29_00022.tif">Calendar slip</bibl>
+                              <bibl facs="29_00023.tif">Calendar slip</bibl>
                            </listBibl>
                         </source>
                      </recordHist>
