@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800419">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Eng. 36</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2022">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Eng_36</idno>
+            <idno type="collection">England</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Eng_36" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>England</collection>
+                  <idno type="shelfmark">MS. Ch. Eng. 36</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Eng. c.1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Order for livery of clothing; 1456</head>
+               <msContents>
+                  <textLang mainLang="en">English</textLang>
+                  <msItem>
+                     <p>
+                        <placeName key="place_104181">England</placeName>. Order from <persName>Henry VI</persName> to <persName><forename>Henry</forename> <surname>Filongley</surname>, <roleName>Keeper of the Wardrobe</roleName></persName>, to give livery of clothing to <persName><forename>Robert</forename> <surname>Durrant</surname></persName>,  <persName><forename>Robert</forename> <surname>Lilford</surname></persName>, <persName><forename>Raulyn</forename> <surname>Pride</surname></persName> <persName><forename>William</forename> <surname>Kingeston</surname></persName>, <persName><forename>John</forename> <surname>Munday</surname></persName>, <persName><forename>Richard</forename> <surname>George</surname></persName>, and <persName><forename>John</forename> <surname>Cokesden</surname></persName>, who 'were herebefore dissappoynted and put out from oure service without demerite as it is aide by force' by the Lords of the Council. <placeName role="date" key="place_108148">Leicester</placeName>, <origDate when="1457-01-05">5 Jan. 1457 (35 Henry VI)</origDate>. </p>
+                  </msItem>
+               </msContents>
+               <history>
+                  <acquisition>Purchased, Sotheby's 26 June 1974, lot 2943.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Based on a handwritten calendar
+                                                  slip (not dated) created by Bodleian Library
+                                                  staff.</p>
+                           <listBibl>
+                              <bibl facs="01_00036.tif">Calendar slip</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2022-05">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

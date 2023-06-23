@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_800403">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Eng. 19</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2022">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Eng_19</idno>
+            <idno type="collection">England</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Eng_19" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>England</collection>
+                  <idno type="shelfmark">MS. Ch. Eng. 19</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Eng. c. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Receipt, 1431</head>
+               <msContents>
+                  <msItem>
+                     <p>
+                        <placeName key="place_104181">England</placeName>. Receipt from <persName><forename>Henry</forename> <surname>Beaufort</surname>, <roleName>cardinal of England</roleName></persName>, acknowledging the receipt of £1238 from <persName>Sir <forename>John</forename> <surname>Tirell</surname>, <roleName>treasurer of the king's household</roleName></persName>, at <placeName key="place_108567">Rouen</placeName>. <origDate when="1431-07-12">12 July 1431 (9 Henry VI)</origDate>. </p>
+                  </msItem>
+               </msContents>
+               <history>
+                  <acquisition>Purchased, Sotheby's 26 June 1974, lot 2943.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Record adapted from a handwritten calendar
+                                                  slip (not dated) created by Bodleian Library
+                                                  staff.</p>
+                           <listBibl>
+                              <bibl facs="01_00017.tif">Calendar slip</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2022-05">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

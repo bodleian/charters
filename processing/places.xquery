@@ -76,8 +76,30 @@ declare variable $allinstances :=
         let $instances := $allinstances[key = $id]
         let $roles := distinct-values(for $role in distinct-values($instances/role/text()) return bod:personRoleLookup($role))
         
+        let $parentlinks := for $link in $placeororg/tei:region[@type and @key]
+                        return concat(
+                        '/catalog/', 
+                        $link/@key, 
+                        '|', 
+                        $link/text(),
+                        '|',
+                        $link/@type
+                    )
+         let $childlinks := for $link in $authorityentries[tei:region/@key = $id]
+                        let $linkorg := exists($link/self::tei:org)
+                        return if ($linkorg) then
+                        ()
+                         else
+                         concat(
+                        '/catalog/', 
+                        $link/@xml:id,
+                        '|',
+                        if ($link/tei:placeName[@type='index']) then normalize-space($link/tei:placeName[@type='index'][1]/string()) else normalize-space($link/tei:placeName[1]/string()),
+                        '|',
+                        $link/@type
+                    )
         (: Output a Solr doc element :)
-        return if (count($instances) gt 0) then
+        return if (count($instances) ge 0) then
             <doc>
                 <field name="type">place</field>
                 <field name="pk">{ $id }</field>
@@ -95,6 +117,14 @@ declare variable $allinstances :=
                 else
                     ()
                 }
+                { 
+
+                for $link in ($parentlinks, $childlinks)
+                    order by tokenize($link, '\|')[2]
+                    return
+                    <field name="link_place_smni">{ $link }</field>
+                }
+                
                 {
                 (: Roles (typically for organizations such as monasteries that were former owners) :)
                 for $role in $roles

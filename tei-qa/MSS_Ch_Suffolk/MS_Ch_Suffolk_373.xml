@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_105221">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_1051205">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,7 +33,7 @@
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Ch_Suffolk_373" xml:lang="en">
+            <msDesc xml:id="MS_Ch_Suffolk_373b" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -46,22 +46,34 @@
                   </altIdentifier> 
                </msIdentifier> 
                
-               <head>Release; 1574</head>
+               <head>Demise;  Sudbury; 1503</head>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <p> 
                         <persName>
-                           <forename>Humphrey</forename> 
-                           <surname>Yarmouth</surname> of <placeName role="person" key="place_105340">Henstead (Hensted)</placeName></persName>, co. Suffolk, 
-                  remits and quitclaims to
+                           <forename>John</forename> 
+                           <surname>Wyna</surname> of <placeName role="person" key="place_105520">Sudbury</placeName>, draper</persName>, and
                   <persName>
-                           <forename>William</forename> 
-                           <surname>Sydnor</surname> of <placeName role="person" key="place_105185">Blundeston</placeName>
-                        </persName> all right of action. 
-                  Dated <origDate when="1574-08-02">2 August, 16 Elizabeth (1574)</origDate><!--1573-11-17|1574-11-16-->. 
+                           <forename>Thomas</forename> 
+                           <surname>Loveday</surname>, carpenter</persName>, demise to
+                  <persName>
+                           <forename>Robert</forename> 
+                           <surname>Finch</surname> of <placeName role="person" key="place_105205">Bulmer (Bulmere, Essex)</placeName>, clerk</persName>, and
+                  <persName>
+                           <forename>Joan</forename> 
+                           <surname>Dawson</surname></persName>, widow, of the same place 
+                  two messuages in <placeName key="place_105520">Sudbury</placeName>. 
+                  Dated <origDate when="1503-05-22">22 May, 18 Hen. VII (1503)</origDate><!--1502-08-22|1503-08-21-->. 
                    
-                  </p>
+                  [<persName>
+                           <forename>John</forename> 
+                           <surname>Levyng</surname>, mayor of <placeName role="mayor" key="place_105520">Sudbury</placeName>
+                        </persName> and 
+                  <persName>
+                           <forename>Thomas</forename> 
+                           <surname>Raynold</surname>, chamberlain</persName>]
+                  .<!-- check shelfmark, just 373 in cal --> </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -71,7 +83,7 @@
                      </supportDesc>
                   </objectDesc>
                   <authDesc>
-                        <p>With two seals (detached, kept separately).</p>
+                     <p>With two seals (detached, kept separately).</p>
                      <seal>
                         <p>Indistinct</p>
                         <idno>MS. Ch. Suffolk 373*a</idno>
@@ -88,9 +100,8 @@
                         <source>
                            
                            <listBibl><bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="430" to="430">430</citedRange>
-                           </bibl>
-                           <bibl>J. Gilbert Wiblin, <title>Handlist 339e. Seals (including casts and matrisces)</title>, May 1916 (unpublished handlist, Bodleian Library), p. 170v</bibl></listBibl>
+                                <citedRange unit="page" from="520" to="520">520</citedRange>
+                           </bibl></listBibl>
                          <p>This record is based on a calendar prepared in 1878 and some information may be incorrect. References to more recent editions, if available, are provided in the bibliography. Please send any additional corrections to <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> or <email>generalsecretary@suffolkinstitute.org.uk</email>.</p></source>
                      </recordHist>
                   </adminInfo>
