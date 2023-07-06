@@ -75,7 +75,9 @@ declare variable $allinstances :=
         (: Get info in all the instances in the manuscript description files :)
         let $instances := $allinstances[key = $id]
         let $roles := distinct-values(for $role in distinct-values($instances/role/text()) return bod:personRoleLookup($role))
-        
+        let $parishes := $placeororg/tei:region[@type="parish"]
+        let $counties := $placeororg/tei:region[@type="county"]
+
         let $parentlinks := for $link in $placeororg/tei:region[@type and @key]
                         return concat(
                         '/catalog/', 
@@ -116,6 +118,16 @@ declare variable $allinstances :=
                             <field name="pl_type_s">{ $type }</field>
                 else
                     ()
+                }
+                {
+                for $parish in $parishes
+                return
+                    <field name="pl_region_parish_sm">{ concat($parish/text(), if ($parish/@key) then concat('|', '/catalog/',$parish/@key) else '') }</field>
+                }
+                {
+                for $county in $counties
+                return
+                    <field name="pl_region_county_sm">{ concat($county/text(), if ($county/@key) then concat('|', '/catalog/',$county/@key) else '') }</field>
                 }
                 { 
 
