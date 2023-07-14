@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_920487">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D.D. Dawkins c.32/I D 1/30</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2023">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_DD_Dawkins_c32_I_D_1_30</idno>
+            <idno type="collection">Dawkins</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_DD_Dawkins_c32_I_D_1_30" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Dawkins</collection>
+                  <idno type="shelfmark">MS. D.D. Dawkins c.32/I D 1/30</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D.D. Dawkins c.32</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p>
+                        <placeName key="place_109464">Salford (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_113536">Mamhilad (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_113537">Goetre (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_113538">Goldcliff (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_113539">Nash (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_113560">Llanhilleth (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_113561">St
+                        Woollos (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_113562">Newport (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_113563">Mynyddislwyn (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_113564">Bedwas (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_113565">Penallt (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_113566">Gwelhelog Fawr (Oxfordshire|Monmouthshire|Herefordshire)</placeName>, <placeName key="place_1083517">Ross (Oxfordshire|Monmouthshire|Herefordshire)</placeName>. <origDate when="1793">1793</origDate>. </p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
+                           <listBibl>
+                              <bibl facs="21_00798.tif">Calendar slip</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2023-07">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
