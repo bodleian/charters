@@ -51,6 +51,7 @@
             </head>
             <body style="padding:2em ! important;">
                 <xsl:for-each select="$doc">
+                    <xsl:sort collation="http://www.w3.org/2013/collation/UCA?numeric=yes;reorder=Latn,digit"/>
                 <h1 itemprop="name">
                     <xsl:value-of select="./tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type='shelfmark']/text()"/>
                 </h1>
