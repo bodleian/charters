@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_1051499">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_1051499">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -57,8 +55,8 @@
                            <surname>Hothot</surname></persName>, and their fellows, 
                   held at <placeName type="manor" key="place_105057">Newton Hall (Newton)</placeName> the Monday after the feast of the Purification of the Blessed Virgin, 
                   <origDate notBefore="1397-06-22" notAfter="1398-06-21">21 Rich. II</origDate>. 
-                  Court held <origDate notBefore="1394-06-22" notAfter="1395-06-21">25 April, 18 Rich. II</origDate>
-                  Do. <origDate notBefore="1392-06-22" notAfter="1393-06-21">7 Feb., 16 Rich. II</origDate>.
+                  Court held <origDate when="1395-04-25">25 April, 18 Rich. II (1395)</origDate><!--1394-06-22|1395-06-21-->
+                  Do. <origDate when="1393-02-07">7 Feb., 16 Rich. II (1393)</origDate><!--1392-06-22|1393-06-21-->.
                   Do. the Friday after St. Mark's day, <origDate notBefore="1389-06-22" notAfter="1390-06-21">13 Rich. II</origDate>.
                      </p>
                   </msItem>
