@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910721">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910729">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MSS. D.D. Radcliffe 1135-1152</title>
+            <title>MSS. D.D. Radcliffe 1104-1134</title>
             <respStmt xml:id="BOD">
                <resp>Cataloguer</resp>
                <persName>Bodleian library staff</persName>
@@ -29,12 +29,12 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MSS_DD_Radcliffe_1135-1152</idno>
+            <idno type="msID">MSS_DD_Radcliffe_1104-1134</idno>
             <idno type="collection">Radcliffe</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MSS_DD_Radcliffe_1135-1152" xml:lang="en">
+            <msDesc xml:id="MSS_DD_Radcliffe_1104-1134" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -42,25 +42,21 @@
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
-                  <idno type="shelfmark">MSS. D.D. Radcliffe 1135-1152</idno>
+                  <idno type="shelfmark">MSS. D.D. Radcliffe 1104-1134</idno>
                   <altIdentifier>
-                     <idno type="orderableItem"/>
+                     <idno type="orderableItem">MS. D.D. Radcliffe d. 28</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <p>
-                        <placeName key="place_113308">Stony Stratford</placeName>, <placeName key="place_113310">Wolverton</placeName>. <origDate notAfter="1662" notBefore="1607">1607-1662</origDate>.</p>
+                     <p>Item level descriptions not available. <!-- TODO? --> Date not given in handlist.</p>
                   </msItem>
                </msContents>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
-                           <listBibl>
-                              <bibl facs="Not in slips.">Calendar slip</bibl>
-                           </listBibl>
+                           <p>Summary record based on the Bodleian Library handlist.</p>
                         </source>
                      </recordHist>
                   </adminInfo>
