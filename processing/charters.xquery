@@ -1,4 +1,5 @@
 import module namespace bod = "http://www.bodleian.ox.ac.uk/bdlss" at "lib/msdesc2solr.xquery";
+declare namespace map="http://www.w3.org/2005/xpath-functions/map";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare option saxon:output "indent=yes";
 
@@ -12,22 +13,26 @@ declare function local:place($placekeysatts as attribute()*, $solrfield as xs:st
     return
         tokenize($att/data(), '\s+')[string-length() gt 0])
     let $outputnames := map {
-        1: "county",
-        2: "parish",
-        3: "place"
+        "county": 1,
+        "parish" : 2,
+        "place" :3
     }
     let $complete_places as element()* := (
     for $placekey in $placekeys
     return
         let $place := $placeauthorities[@xml:id = $placekey]
-        let $county := $place/tei:region[@type = 'county']/text()
-        let $parish := $place/tei:region[@type = 'parish']/text()
-        let $index := $place/tei:placeName[@type = 'index']/text()
-        for $val at $pos in ($county, $parish, $index)
+        let $map := map{
+            'county': $place/tei:region[@type = 'county']/text(),
+            'parish': $place/tei:region[@type = 'parish']/text(),
+            'index': $place/tei:placeName[@type = 'index']/text()
+        }
+        for $key in map:keys($map)
+        order by $outputnames($key)
+        let $val := $map($key)
         return
             <field
-                name="{$solrfield}{$outputnames($pos)}{$solrsuffix}"
-                type="{$outputnames($pos)}">{$val}</field>
+                name="{$solrfield}{$key}{$solrsuffix}"
+                type="{$key}">{$val}</field>
     )
     for $type in distinct-values($complete_places/@type)
     for $p in distinct-values($complete_places[@type = $type]/text())
