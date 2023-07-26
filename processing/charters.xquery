@@ -15,7 +15,7 @@ declare function local:place($placekeysatts as attribute()*, $solrfield as xs:st
     let $outputnames := map {
         "county": 1,
         "parish" : 2,
-        "place" :3
+        "index" :3
     }
     let $complete_places as element()* := (
     for $placekey in $placekeys
@@ -27,8 +27,9 @@ declare function local:place($placekeysatts as attribute()*, $solrfield as xs:st
             'index': $place/tei:placeName[@type = 'index']/text()
         }
         for $key in map:keys($map)
-        order by $outputnames($key)
-        let $val := $map($key)
+        order by $placekey, $outputnames($key)
+        (: Places can belong to more than one county, for example :)
+        for $val in $map($key)
         return
             <field
                 name="{$solrfield}{$key}{$solrsuffix}"
