@@ -206,17 +206,42 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                                 }
                                 {bod:languages($ms//tei:sourceDesc//tei:textLang, 'lang_sm', 'Unknown')}
                                 
-                                {bod:centuries($ms//tei:sourceDesc//tei:origDate, 'ch_date_sm')}
+                                {bod:centuries($ms//tei:sourceDesc//tei:origDate, 'ch_date_sm', 'Unknown')}
                                 {bod:years($ms//tei:sourceDesc//tei:origDate)}
                                 
                                 {local:place($ms//tei:sourceDesc//tei:placeName[not(@role)]/@key, 'ch_granted_', '_sm')}
                                 {local:place($ms//tei:sourceDesc//tei:placeName[@role = 'person']/@key, 'ch_from_', '_sm')}
                                 {local:place($ms//tei:sourceDesc//tei:placeName[@role = 'date']/@key, 'ch_dated_', '_sm')}
                                 
+                                {
+                                if ($ms//tei:sourceDesc//tei:seal[tei:idno[string-length(.) gt 0]]) then
+                                <field name="seals">
+                                { 
+                                
+                                for $seal at $pos in $ms//tei:sourceDesc//tei:seal[tei:idno[string-length(.) gt 0]]
+                                return
+                                <doc>
+                                <field
+                                    name="type">seal</field>
+                                    <field
+                                    name="pk">{$msid}_seal_{$pos}</field>
+                                <field
+                                    name="id">{$msid}_seal_{$pos}</field>
+          
+                                {bod:one2one($seal/tei:idno, 'title', 'error')}
+                                {bod:strings2many($seal//tei:orgName//text()/normalize-space(.), 'sl_orgname_sm')}
+                                {bod:strings2many($seal//tei:persName, 'sl_persname_sm')}
+                                {bod:strings2many($seal//tei:legend, 'sl_legend_sm')}
+                                {bod:strings2many($seal/tei:decoNote, 'sl_decoration_sm')}
+                                </doc>
+                                
+                                }
+                                </field>
+                                else ()
+                                }
 
-                                {bod:strings2many($ms//tei:sourceDesc//tei:orgName//text()/normalize-space(.), 'ch_orgname_sm')}
-                                {bod:strings2many($ms//tei:sourceDesc//tei:persName, 'ch_persname_sm')}
-                                {bod:strings2many($ms//tei:sourceDesc//tei:authDesc/tei:seal/tei:decoNote/@type, 'sl_decoration_sm')}
+
+                                
                                 {bod:strings2many(local:buildSummaries($ms), 'ms_summary_sm')}
                                 {bod:indexHTML($htmldoc, 'ms_textcontent_tni')}
                                 {bod:displayHTML($htmldoc, 'display')}
