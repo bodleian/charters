@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_230852">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_230852">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,6 +51,13 @@
                         <placeName key="place_109207">Chesterton</placeName>. <origDate notBefore="1595" notAfter="1596">1595-1596 </origDate>. </p>
                   </msItem>
                </msContents>
+	    <authDesc>
+	        <seal>
+      <p>Seal user unknown. <seg type="attachment">Detached seal</seg>. </p>
+      <decoNote>padlock</decoNote>
+      <legend>FIDE ET TACITVRNITATE [Fide et Taciturnitate]</legend>
+      <idno>MS. Ch. Oxon. 1148*</idno>
+   </seal></authDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

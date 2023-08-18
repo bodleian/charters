@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_231272">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_231272">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,6 +51,14 @@
                         <placeName key="place_105449">Oxford</placeName>. <origDate when="1713 ">1713 </origDate>. </p>
                   </msItem>
                </msContents>
+	    <authDesc>
+	        <seal>
+      <p>Seal of <persName>St John's College, University of Oxford</persName>. <seg type="attachment">Detached seal</seg>. </p>
+      <condition>Badly damaged.</condition>
+      <ab type="note">Broken.</ab>
+      <ab type="note">Paper-covered.</ab>
+      <idno>MS. Ch. Oxon. 1568*</idno>
+   </seal></authDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

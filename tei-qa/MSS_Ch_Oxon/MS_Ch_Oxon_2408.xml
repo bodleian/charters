@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_232116">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_232116">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,6 +47,14 @@
                      <p>Seal only.</p>
                   </msItem>
                </msContents>
+	    <authDesc>
+	        <seal>
+      <p>Seal user unknown. <seg type="attachment">Detached seal</seg>. </p>
+      <decoNote>cipher of several letters or merchant's mark</decoNote>
+      <condition>Badly damaged.</condition>
+      <ab type="note">Broken.</ab>
+      <idno>MS. Ch. Oxon. 2408*</idno>
+   </seal></authDesc>
                <physDesc>
                   <authDesc>
                      <seal>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_232578">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_232578">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,6 +47,13 @@
                      <p>Seal only.</p>
                   </msItem>
                </msContents>
+	    <authDesc>
+	        <seal>
+      <p>Seal user unknown. <seg type="attachment">Detached seal</seg>. </p>
+      <legend>Deus est amor</legend>
+      <ab type="note">Seal found at Oxford.</ab>
+      <idno>MS. Ch. Oxon. 2909*</idno>
+   </seal></authDesc>
                <physDesc>
                   <authDesc>
                      <seal>

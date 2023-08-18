@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_232418">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_232418">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,6 +47,12 @@
                      <p>Seal only.</p>
                   </msItem>
                </msContents>
+	    <authDesc>
+	        <seal>
+      <p>Seal of <persName>Chancellor of Oxford</persName>. <seg type="attachment">Detached seal</seg>. </p>
+      <ab type="note">Third seal (see Salter).</ab>
+      <idno>MS. Ch. Oxon. 2744*</idno>
+   </seal></authDesc>
                <physDesc>
                   <authDesc>
                      <seal>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_232424">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_232424">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,6 +47,13 @@
                      <p>Seal only.</p>
                   </msItem>
                </msContents>
+	    <authDesc>
+	        <seal>
+      <p>Seal of <persName>New College, University of Oxford</persName>. <seg type="attachment">Detached seal</seg>. </p>
+      <origDate>1600</origDate>
+      <ab type="note">Reverse of seal.</ab>
+      <idno>MS. Ch. Oxon. 2750*</idno>
+   </seal></authDesc>
                <physDesc>
                   <authDesc>
                      <seal>

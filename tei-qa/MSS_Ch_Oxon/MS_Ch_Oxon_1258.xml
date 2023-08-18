@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_230962">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_230962">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,6 +51,12 @@
                         <placeName key="place_108767">Epwell</placeName>. <origDate when="1687 ">1687 </origDate>. </p>
                   </msItem>
                </msContents>
+	    <authDesc>
+	        <seal>
+      <p>Seal user unknown. <seg type="attachment">Detached seal</seg>. </p>
+      <decoNote>eagle, two headed</decoNote>
+      <idno>MS. Ch. Oxon. 1258*</idno>
+   </seal></authDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

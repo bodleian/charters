@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_232430">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_232430">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,6 +47,12 @@
                      <p>Seal only.</p>
                   </msItem>
                </msContents>
+	    <authDesc>
+	        <seal>
+      <p>Seal of <persName>Oseney Abbey</persName>. <seg type="attachment">Detached seal</seg>. <seg type="shape">pointed oval (vesica)</seg>.</p>
+      <ab type="note">Second seal.</ab>
+      <idno>MS. Ch. Oxon. 2756*</idno>
+   </seal></authDesc>
                <physDesc>
                   <authDesc>
                      <seal>
