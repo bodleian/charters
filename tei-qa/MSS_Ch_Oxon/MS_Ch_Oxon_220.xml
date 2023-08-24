@@ -47,20 +47,27 @@
                      <idno type="orderableItem">MS. Ch. Oxon. a.12</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
+               <msContents><textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p>TEI record missing, printed on p. 662. </p>
+                     <p> An exemplification of a fine made on the octave of the Holy
+                        Trinity, 29 Hen. VIII, by which the manors of <pb n="662"/> <placeName type="manor" key="place_109031">Aston</placeName>,
+                        <placeName type="manor" key="place_109032">Bampton</placeName>, and <placeName type="manor" key="place_114029">Golleffers</placeName>, with certain lands and rents, are granted to <persName><forename>Roland</forename> <surname>Hyll</surname></persName> by
+                        <persName>George, earl of Huntingdon</persName>, and others. Dated at <placeName role="date" key="place_100060">Westminster</placeName>, <origDate when="1538-11-16">16 October, 30
+                           Hen. VIII (1538)</origDate>.  </p>
                   </msItem>
                </msContents>
+               <authDesc>
+                  <seal>
+                     <p>[With seal, detached.] </p>
+                     <idno>MS. Ch. Oxon. 220*</idno><!-- check -->
+                  </seal>
+               </authDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
-                           <listBibl>
-                              <bibl facs="">Calendar slip</bibl>
-                           </listBibl>
-                        </source>
+                        <source> <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                           <citedRange unit="page" from="661" to="662">661-662</citedRange>
+                        </bibl></source>
                      </recordHist>
                   </adminInfo>
                </additional>

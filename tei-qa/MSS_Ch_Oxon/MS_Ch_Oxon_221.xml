@@ -47,20 +47,26 @@
                      <idno type="orderableItem">MS. Ch. Oxon. a.12</idno>
                   </altIdentifier>
                </msIdentifier>
-               <msContents>
+               <msContents><textLang mainLang="en">English</textLang>
                   <msItem>
-                     <p>TEI record missing, printed on p. 662. </p>
+                     <p>Indenture made <origDate when="1543-01-31">31 Jan., 34 Hen. VIII (1543)</origDate>, by which <persName><forename>John</forename>  <surname>Olyver</surname> </persName>, the
+                        dean, and the chapter of <orgName key="org_101005">Ch. Ch.</orgName> lease to <persName><forename>John</forename>  <surname>Oglethorpe</surname>  of <placeName role="person" key="place_107052">Newyngton, co. Oxford</placeName></persName>,
+                        their manor or lordship of <placeName type="manor" key="place_109039">Byndesey</placeName>, with the wyke and St. Margaret's well, mansion-place and chapel there, for 80
+                        years, at an annual rent of £18.</p>
                   </msItem>
                </msContents>
+               <authDesc>
+                  <seal>
+                     <p> [With seal, detached]. </p><!-- check -->
+                     <idno>MS. Ch. Oxon. 222*</idno>
+                  </seal>
+               </authDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
-                           <listBibl>
-                              <bibl facs="">Calendar slip</bibl>
-                           </listBibl>
-                        </source>
+                        <source> <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                           <citedRange unit="page" from="662" to="662">662</citedRange>
+                        </bibl></source>
                      </recordHist>
                   </adminInfo>
                </additional>
