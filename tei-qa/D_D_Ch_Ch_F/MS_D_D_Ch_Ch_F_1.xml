@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600001">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600001">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,7 +48,8 @@
                      <p>
                         <placeName/>
                         Charter of <persName>Henry III</persName> altering the date of the Fair.
-                        <origDate notBefore="1227-02-28" notAfter="1228-02-28"><supplied>1227/28</supplied>, Feb. 28 </origDate>
+                        <origDate notBefore="1227-02-28" notAfter="1228-02-28">
+                           <supplied>1227/28</supplied>, Feb. 28 </origDate>
                      </p>
                   </msItem>
                </msContents>
@@ -65,10 +64,16 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <listBibl><bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society o.s. 92 (1931), p. 21
+                           <listBibl>
+                              <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society o.s. 92 (1931), p. 21
                                 <citedRange unit="page" from="21" to="21"/>
-                           </bibl>
-                           <bibl>Robert Wigram, <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="1" to="1">1</citedRange>, <citedRange unit="entry" from="49" to="49">no. 49</citedRange> (<citedRange unit="page" from="51" to="52">pp. 51-52</citedRange>)</bibl></listBibl>
+                              </bibl>
+                              <bibl>Robert Wigram, <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="1" to="1">1</citedRange>, <citedRange unit="entry" from="49" to="49">no. 49</citedRange> (<citedRange unit="page" from="51" to="52"><ref target="https://hdl.handle.net/2027/yul.11366390_001_00?urlappend=%3Bseq=75">
+                                    
+                                    pp. 51-52
+                                 
+                                 </ref></citedRange>)</bibl>
+                           </listBibl>
                         </source>
                      </recordHist>
                   </adminInfo>

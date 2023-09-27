@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600032">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600032">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,7 +48,7 @@
                      <p>
                         <placeName key="place_109426">Oxford, St. Edward’s</placeName>
                         <persName><forename>Henry</forename> of <surname>Stanford</surname></persName> to <persName><forename>Richard</forename> de la <surname>Sale</surname></persName> and others. Gift of the same messuage. <supplied>See MS. D. D. Ch. Ch. F. 31.</supplied> 
-                        <origDate notBefore="1346-01-11" notAfter="1347-01-11"></origDate>
+                        <origDate notBefore="1346-01-11" notAfter="1347-01-11"/>
                      </p>
                   </msItem>
                </msContents>
@@ -67,7 +65,7 @@
                         <source>
                            <listBibl><bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society o.s. 92 (1931), p. <citedRange unit="page" from="25" to="25">25</citedRange>
                            </bibl>
-                           <bibl>Robert Wigram, <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="1" to="1">1</citedRange>, <citedRange unit="entry" from="189" to="189">no. 189</citedRange> (<citedRange unit="page" from="152" to="153">pp. 152-53</citedRange>)</bibl></listBibl>
+                           <bibl>Robert Wigram, <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="1" to="1">1</citedRange>, <citedRange unit="entry" from="189" to="189">no. 189</citedRange> (<citedRange unit="page" from="152" to="153"><ref target="https://hdl.handle.net/2027/yul.11366390_001_00?urlappend=%3Bseq=176">pp. 152-53</ref></citedRange>)</bibl></listBibl>
                         </source>
                      </recordHist>
                   </adminInfo>

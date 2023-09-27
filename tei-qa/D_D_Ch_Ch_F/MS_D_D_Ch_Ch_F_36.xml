@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600036">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_600036">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,7 +49,7 @@
                         <placeName key="place_109432">Oxford, St. Michael's, South</placeName>
                         <persName><forename>Thomas</forename> of <surname>Worminghall</surname></persName> to the Prior of <orgName role="prior" key="org_109039">St. Frideswide</orgName>.
                         Quitclaim of the same rent. <supplied>MS. D. D. Ch. Ch. F. 35.</supplied>
-                        <origDate notBefore="1331-03-11" notAfter="1332-03-11"></origDate>
+                        <origDate notBefore="1331-03-11" notAfter="1332-03-11"/>
                      </p>
                   </msItem>
                </msContents>
@@ -73,7 +71,7 @@
                         <source>
                            <listBibl><bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society o.s. 92 (1931), p. <citedRange unit="page" from="26" to="26">26</citedRange>
                            </bibl>
-                           <bibl>Robert Wigram, <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="1" to="1">1</citedRange>, <citedRange unit="entry" from="198" to="198">no. 198</citedRange> (<citedRange unit="page" from="157" to="157">p. 157</citedRange>)</bibl></listBibl>
+                           <bibl>Robert Wigram, <title>The cartulary of the Monastery of St. Frideswide at Oxford</title>, 2 vols. (1895-6), <citedRange unit="volume" from="1" to="1">1</citedRange>, <citedRange unit="entry" from="198" to="198">no. 198</citedRange> (<citedRange unit="page" from="157" to="157"><ref target="https://hdl.handle.net/2027/yul.11366390_001_00?urlappend=%3Bseq=181">p. 157</ref></citedRange>)</bibl></listBibl>
                         </source>
                      </recordHist>
                   </adminInfo>
