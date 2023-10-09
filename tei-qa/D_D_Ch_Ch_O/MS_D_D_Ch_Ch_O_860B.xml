@@ -3,17 +3,13 @@
       <fileDesc>
          <titleStmt>
             <title>MS. D. D. Ch. Ch. O. 860B</title>
-            <respStmt xml:id="HS">
-               <resp when="1929">Cataloguer</resp>
-               <persName>H. E. Salter</persName>
-            </respStmt>
             <respStmt xml:id="DY">
                <resp when="1931">Cataloguer</resp>
                <persName>N. Denholm-Young</persName>
             </respStmt>
             <respStmt xml:id="TA">
                <resp when="2020">Encoding</resp>
-               <persName>Tuija Ainonen</persName>
+               <persName>Matthew Holford</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -48,13 +44,12 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--Salter 1094 does not appear to have copies/cirographs etc, so not sure what Denholm-Younge means with this -->
                   <msItem>
-                     <p><!-- insert Salter text here, including date, and add necessary markup --></p>
+                     <p><placeName key="place_109442">Oxford, St. Thomas parish</placeName>. Quitclaim by <persName><forename>Thomas</forename> <surname>Goodfelawe</surname></persName> to <persName><forename>Hugh</forename> <surname>Cok</surname></persName> of a garden in <placeName type="street" key="place_109115">Irishman's Street</placeName> [as in MS. D. D. Ch. Ch. O. 860]. At <placeName role="date" key="place_114031">Windsor</placeName>, <origDate notAfter="1410-09-29" notBefore="1409-09-30">11 Henry IV [no date]</origDate>. [Another copy (draft?) of MS. D. D. Ch. Ch. O. 860A.]</p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet"> 
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
@@ -65,9 +60,9 @@
                      <recordHist>
                         <source>
                            <listBibl><bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society o.s. 92 (1931), p.
-                                <citedRange unit="page" from="5" to="5">5</citedRange>
+                              <citedRange unit="page" from="5" to="5">5</citedRange>
                            </bibl>
-                           <bibl>H. E. Salter, <title>Cartulary of Oseney Abbey</title>, 6 vols. (1929-1936), <citedRange unit="volume" from="XXX" to="XXX">XXX</citedRange>, <citedRange unit="entry" from="1094" to="1094">no. 1094</citedRange> (<citedRange unit="page" from="XXX" to="XXX">pp. XXX-XXX</citedRange>)</bibl></listBibl>
+                           </listBibl>
                         </source>
                      </recordHist>
                   </adminInfo>
