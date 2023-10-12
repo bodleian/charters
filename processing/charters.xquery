@@ -214,12 +214,14 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                                 {local:place($ms//tei:sourceDesc//tei:placeName[@role = 'date']/@key, 'ch_dated_', '_sm')}
                                 
                                 {
-                                if ($ms//tei:sourceDesc//tei:seal[tei:idno[string-length(.) gt 0]]) then
+                                if ($ms//tei:sourceDesc//tei:seal) then
                                 <field name="seals">
                                 { 
                                 
-                                for $seal at $pos in $ms//tei:sourceDesc//tei:seal[tei:idno[string-length(.) gt 0]]
+                                for $seal at $pos in $ms//tei:sourceDesc//tei:seal
                                 return
+                                
+                                
                                 <doc>
                                 <field
                                     name="type">seal</field>
@@ -227,8 +229,10 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                                     name="pk">{$msid}_seal_{$pos}</field>
                                 <field
                                     name="id">{$msid}_seal_{$pos}</field>
-          
-                                {bod:one2one($seal/tei:idno, 'title', 'error')}
+                                    
+                                
+                                {bod:one2one($seal/tei:idno, 'title', '[As for document]')}
+                                
                                 {bod:strings2many($seal//tei:orgName//text()/normalize-space(.), 'sl_orgname_sm')}
                                 {bod:strings2many($seal//tei:persName, 'sl_persname_sm')}
                                 {bod:strings2many($seal//tei:legend, 'sl_legend_sm')}
@@ -237,7 +241,8 @@ declare function local:buildSummary($msdescorpart as element()) as xs:string
                                 
                                 }
                                 </field>
-                                else ()
+                                
+                                 else ()
                                 }
 
 

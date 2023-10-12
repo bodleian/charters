@@ -25,6 +25,23 @@
         <xsl:apply-templates/>
     </xsl:template>
     
+    <xsl:template match="listBibl/bibl[@facs]">
+        <div class="{name()}">
+            <xsl:variable name="facs-url">
+                <xsl:choose>
+                    <xsl:when test="starts-with(@facs, 'http')">
+                        <xsl:value-of select="@facs" />
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="concat($website-url, '/images/ms/', substring(@facs, 1, 3), '/', @facs)" />
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
+            <a href="{$facs-url}">
+                <xsl:apply-templates/>
+            </a>
+        </div>
+    </xsl:template>
     
     
     <!-- TODO: Move these templates to msdesc2html.xsl if applicable to all catalogues? -->
@@ -157,7 +174,7 @@
         <div class="abbreviations">
             <xsl:processing-instruction name="ni"/>
             <h3>Abbreviations</h3>
-            <p>View <a href="https://github.com/bodleian/medieval-mss/wiki/Abbreviations" target="_blank">list of abbreviations</a> and <a href="https://github.com/bodleian/medieval-mss/wiki/Conventions" target="_blank">editorial conventions</a>.</p>
+            <p>View <a href="https://github.com/bodleian/charters/wiki/Abbreviations" target="_blank">list of abbreviations</a> and <a href="https://github.com/bodleian/charters/wiki/Conventions" target="_blank">editorial conventions</a>.</p>
             <xsl:processing-instruction name="ni"/>
         </div>
         <xsl:apply-templates select="/TEI/teiHeader/revisionDesc[change][1]"/>
@@ -195,8 +212,99 @@
     </xsl:template>
     
     
+    <xsl:template name="batch">
+    <!-- Set up the collection of files to be converted. The path must be supplied in batch mode, and must be a full
+             path because this stylesheet is normally imported by convert2HTML.xsl via a URL. -->
+    <xsl:variable name="path">
+        <xsl:choose>
+            <xsl:when test="starts-with($collections-path, '/')">
+                <!-- UNIX-like systems -->
+                <xsl:value-of select="concat('file://', $collections-path, '/?select=', $files, ';on-error=warning;recurse=', $recurse)"/>
+            </xsl:when>
+            <xsl:when test="matches($collections-path, '[A-Z]:/')">
+                <!-- Git Bash on Windows -->
+                <xsl:value-of select="concat('file:///', $collections-path, '/?select=', $files, ';on-error=warning;recurse=', $recurse)"/>
+            </xsl:when>
+            <xsl:when test="matches($collections-path, '[A-Z]:\\')">
+                <!-- Windows -->
+                <xsl:value-of select="concat('file:///', replace($collections-path, '\\', '/'), '/?select=', $files, ';on-error=warning;recurse=', $recurse)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:copy-of select="bod:logging('error', 'A full path to the collections folder containing source TEI must be specified', .)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
     
-    <!-- TODO: Add quick links drop-down to header -->
+    <!-- For each item in the collection -->
+    <xsl:for-each select="collection($path)">
         
+        <xsl:choose>
+            <xsl:when test="string-length(/TEI/@xml:id/string()) eq 0">
+                
+                <!-- Cannot do anything if there is no @xml:id on the root TEI element -->
+                <xsl:copy-of select="bod:logging('warn', 'Cannot process manuscript without @xml:id for root TEI element', /TEI, base-uri())"/>
+                
+            </xsl:when>
+            <xsl:otherwise>
+                
+                <!-- Build HTML in a variable so it can be post-processed to strip out undesirable HTML code -->
+                <xsl:variable name="outputdoc" as="element()">
+                    <xsl:choose>
+                        <xsl:when test="$output-full-html">
+                            <html xmlns="http://www.w3.org/1999/xhtml">
+                                <head>
+                                    <title></title>
+                                </head>
+                                <body>
+                                    <div class="content tei-body" id="{/TEI/@xml:id}">
+                                        <xsl:call-template name="Header"/>
+                                        <xsl:choose>
+                                            <xsl:when test="/TEI/teiHeader/fileDesc/sourceDesc/msDesc">
+                                                <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc"/>
+                                                <xsl:call-template name="Funding"/>
+                                                <xsl:call-template name="AbbreviationsKey"/>
+                                                <xsl:call-template name="Footer"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:apply-templates select="/TEI/text/body"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                     
+                                        
+                                    </div>
+                                </body>
+                            </html>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <div>
+                                <div class="content tei-body" id="{/TEI/@xml:id}">
+                                    <xsl:call-template name="Header"/>
+                                    <xsl:apply-templates select="/TEI/teiHeader/fileDesc/sourceDesc/msDesc"/>
+                                    <xsl:call-template name="Funding"/>
+                                    <xsl:call-template name="AbbreviationsKey"/>
+                                    <xsl:call-template name="Footer"/>
+                                </div>
+                            </div>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+                
+                <!-- Create output HTML files -->
+                <xsl:variable name="subfolders" select="tokenize(substring-after(base-uri(.), $collections-path), '/')[position() ne last()]"/>
+                <xsl:variable name="outputpath" select="concat('./html/', string-join($subfolders, '/'), '/', /TEI/@xml:id/string(), '.html')"/>
+                <xsl:result-document href="{$outputpath}" method="xhtml" encoding="UTF-8" indent="yes">
+                    
+                    <!-- Applying templates on the HTML already built, with a mode, to strip out undesirable HTML code -->
+                    <xsl:apply-templates select="$outputdoc" mode="stripoutempty"/>
+                    
+                </xsl:result-document>
+                
+            </xsl:otherwise>
+        </xsl:choose>
+        
+    </xsl:for-each>
+    </xsl:template>
+    
     
 </xsl:stylesheet>
+
