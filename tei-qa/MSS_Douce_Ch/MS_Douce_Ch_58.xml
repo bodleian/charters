@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900248">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Douce Ch. 58</title>
+            <respStmt xml:id="BOD">
+               <resp when="1840">Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2023">Encoding</resp>
+               <persName>Matthew Holford</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Douce_Ch_58</idno>
+            <idno type="collection">Douce</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Douce_Ch_58" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Douce</collection>
+                  <idno type="shelfmark">MS. Douce Ch. 58</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Douce Ch. a. 1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>Inspeximus of a certificate of Nicholas Baleygh, lieutenant of the Flete
+                        prison, that William Henstede, mayor of Norwich, was stated in the "lygger"
+                        of the prison to have been committed thither on 21 Feby. 21 Henr. VI. and
+                        liberated on bail the 26 of March following; with seal. Dat. Westm. 3 Jun.
+                        22 Edw. 4.</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal</p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl>
+                              <bibl>
+                                 <title>Catalogue of the printed books and manuscripts bequeathed by Francis Douce, esq. to the Bodleian Library</title> (Oxford, 1840), <citedRange unit="page" from="72" to="72">
+                                    <ref target="https://archive.org/details/catalogueofprint00bodluoft/page/72/mode/1up">p. 72</ref>
+                                 </citedRange>
+                              </bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2023-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
