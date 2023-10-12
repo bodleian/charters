@@ -28,7 +28,7 @@ if [ "$1" == "reuse" ]; then
         done
     fi
     # Send the files to Solr
-    printf "charters\nplace" | xargs -I {} -P 2 ./generate-solr-document.sh "{}s.xquery" "{}s_index.xml" {} $SERVER "$1"
+    printf "charters\nplace\ncollections" | xargs -I {} -P 2 ./generate-solr-document.sh "{}s.xquery" "{}s_index.xml" {} $SERVER "$1"
 
 else
 
@@ -64,7 +64,7 @@ else
     if [ "$1" == "force" ] || [ "$1" == "noindex" ]; then
 
         echo "Rebuilding index files two at a time..."
-        printf "charter\nplace" | xargs -I {} -P 2 ./generate-solr-document.sh "{}s.xquery" "{}s_index.xml" {} $SERVER "$1"
+        printf "charter\nplace\ncollections" | xargs -I {} -P 2 ./generate-solr-document.sh "{}s.xquery" "{}s_index.xml" {} $SERVER "$1"
         if [ $? -gt 0 ]; then
             echo
             echo "WARNING: One or more index files was not completed. The web site will not be fully updated. Check the log files in the solr subfolder."
@@ -77,5 +77,6 @@ else
         set -e
         ./generate-solr-document.sh "charters.xquery" "charters_index.xml" charter $SERVER "$1"
         ./generate-solr-document.sh "places.xquery" "places_index.xml" place $SERVER "$1"
+        ./generate-solr-document.sh "collections.xquery" "collections_index.xml" place $SERVER "$1"
     fi
 fi

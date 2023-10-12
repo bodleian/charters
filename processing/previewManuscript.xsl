@@ -16,7 +16,7 @@
     
     <!-- Set URL here to allow links (e.g. to persons or places) to work
          when previewing (only if destinations already exist on the web site.) -->
-    <xsl:variable name="website-url" as="xs:string" select="'http://medieval.bodleian.ox.ac.uk'"/>
+    <xsl:variable name="website-url" as="xs:string" select="'https://charters.bodleian.ox.ac.uk'"/>
     
     <!-- Wrap the output resulting from the above in html and body tags, for previewing
          while editing the TEI in Oxygen. Do not add anything else to this stylesheet. -->
