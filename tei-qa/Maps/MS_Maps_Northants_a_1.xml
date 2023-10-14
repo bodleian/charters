@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_110194">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_108015">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Maps England a.</title>
+            <title>MS. Maps Northants. a. 1</title>
             <respStmt xml:id="TC">
                <resp when="1878">Cataloguer</resp>
                <persName>W. H. Turner</persName>
@@ -30,26 +28,32 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Maps_England_a</idno>
-            <idno type="collection">Maps</idno>
+            <idno type="msID">MS_Maps_Northants_a_1</idno>
+            <idno type="collection">Northants. (Northamptonshire)</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Maps_England_a" xml:lang="en">
+            <msDesc xml:id="MS_Map_Northants_a_1" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <idno type="shelfmark">MS. Maps England a.</idno>
+                  <idno type="shelfmark">MS. Maps Northants. a. 1</idno>
+                  <altIdentifier type="former">
+                     <idno>MS. Rolls Northants. 1</idno>
+                  </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p> Plan of the 2nd, 3rd, and 4th floors of the <orgName key="org_110012">Fleet prison</orgName>, and of the 2nd and 3rd floors of y<hi rend="superscript">e</hi> dwelling houses next y<hi rend="superscript">e</hi> ditch. 
-               <!--<bibl type="shelfmark">MS. Rolls Middlesex 18</bibl>. shelfmark cancelled and replaced, CHK!! --> 
-                </p>
+                     <p> BOUGHTON. Plan of the house and gardens of <placeName key="place_108003">Boughton</placeName>, taken in the year 
+               <origDate when="1712">1712</origDate> by <persName>
+                           <surname>Delahaye</surname>
+                        </persName>.
+                <!--CHK shelfmark!-->
+               <!--WAS: <bibl type="shelfmark">Northamptonshire Rolls, 1</bibl>.--> </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -64,7 +68,7 @@
                      <recordHist>
                         <source>
                            <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                                <citedRange unit="page" from="165" to="165">165</citedRange>
+                                <citedRange unit="page" from="255" to="255">255</citedRange> [<ref target="https://books.google.co.uk/books?id=rvIUAAAAQAAJ&amp;pg=PA255#v=onepage&amp;q&amp;f=false">Google Books</ref>]
                            </bibl>
                         </source>
                      </recordHist>
