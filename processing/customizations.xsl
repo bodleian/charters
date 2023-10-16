@@ -117,6 +117,10 @@
         <xsl:apply-templates/>
     </xsl:template>
     
+    <xsl:template match="seal/condition">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
     <xsl:template match="seal/p">
         <xsl:apply-templates/>
     </xsl:template>
