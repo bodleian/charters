@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930339">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930473">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. D.D. Risley B. II. 6/23 CHECK</title>
+            <title>MS. D.D. Risley A. XIII. 3/26</title>
             <respStmt xml:id="BOD">
                <resp>Cataloguer</resp>
                <persName>Bodleian library staff</persName>
@@ -29,12 +29,12 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_DD_Risley_B_II_6_23_CHECK</idno>
+            <idno type="msID">MS_DD_Risley_A_XIII_3_26</idno>
             <idno type="collection">D. D. Risley</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_DD_Risley_B_II_6_23_CHECK" xml:lang="en">
+            <msDesc xml:id="MS_DD_Risley_A_XIII_3_26" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -42,15 +42,15 @@
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
-                  <idno type="shelfmark">MS. D.D. Risley B. II. 6/23 CHECK</idno>
+                  <idno type="shelfmark">MS. D.D. Risley A. XIII. 3/26</idno>
                   <altIdentifier>
-                     <idno type="orderableItem">MS. D.D. Risley c. 51</idno>
+                     <idno type="orderableItem">MS. D.D. Risley c. 32</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <msItem>
-                     <p>
-                        <placeName key="place_113610">West Adderbury (Oxfordshire)</placeName>. <origDate when="1743">1743</origDate>. </p>
+                     <p><!-- reference appears to be incorrect.  -->
+                        <placeName key="place_109164">Banbury (Oxfordshire)</placeName>. <origDate when="1650">1650</origDate>. </p>
                   </msItem>
                </msContents>
                <additional>
@@ -59,7 +59,7 @@
                         <source>
                            <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
                            <listBibl>
-                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/ac47347d-2f3e-471d-8a42-188e00dfed04.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/ef2d35fc-20a2-4f9d-b35e-f2b55494924c.json">Calendar slip</bibl>
                            </listBibl>
                         </source>
                      </recordHist>
