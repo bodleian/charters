@@ -94,7 +94,7 @@
     </xsl:template>
     
     <!-- added for charters -->
-    <xsl:template match="msItem/p/origDate">
+    <xsl:template match="msItem/p//origDate">
         <xsl:apply-templates/>
     </xsl:template>
     
