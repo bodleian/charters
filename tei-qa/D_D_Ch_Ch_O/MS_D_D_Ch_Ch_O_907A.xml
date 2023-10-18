@@ -48,17 +48,23 @@
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
-                  <!--TODO: CHK no idea what this charter is, since 33C is Oseney ch. 907 there doesn't seem to be a duplicate of it-->
                   <msItem>
-                     <p><!-- insert Salter text here, including date, and add necessary markup --></p>
+                     <p><orgName key="org_109041">Oxford, Collegiate church of St. George</orgName>. A confirmation by <persName><forename>Walter</forename>, archbishop of <placeName role="archbishop" type="diocese" key="place_104006">Canterbury</placeName></persName> of the churches appropriated to <orgName key="org_109067">Oseney</orgName>. 
+                        <origDate when="1320-02-12">Feb. 12, 1320</origDate>. [Duplicate of MS. D. D. Ch. Ch. O. 907.]</p>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="sheet"><!--change if necessary-->
+                  <objectDesc form="sheet">
                      <supportDesc material="perg">
                         <support>parchment</support>
                      </supportDesc>
                   </objectDesc>
+                  <authDesc>
+                     <seal>
+                        <p><persName>Walter archbishop of Canterbury</persName> (fragment)</p>
+                        <!-- nb: not noted in Salter -->
+                     </seal>
+                  </authDesc>
                </physDesc>
                <additional>
                   <adminInfo>
@@ -67,7 +73,7 @@
                            <listBibl><bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society o.s. 92 (1931), p.
                                 <citedRange unit="page" from="6" to="6">6</citedRange>
                            </bibl>
-                           <bibl>H. E. Salter, <title>Cartulary of Oseney Abbey</title>, 6 vols. (1929-1936), <citedRange unit="volume" from="XXX" to="XXX">XXX</citedRange>, <citedRange unit="entry" from="33C" to="33C">no. 33C</citedRange> (<citedRange unit="page" from="XXX" to="XXX">pp. XXX-XXX</citedRange>)</bibl></listBibl>
+                              <bibl>H. E. Salter, <title>Cartulary of Oseney Abbey</title>, 6 vols. (1929-1936), <citedRange unit="volume" from="4" to="4">4</citedRange>, <citedRange unit="entry" from="33C" to="33C">no. 33C</citedRange> (<citedRange unit="page" from="48" to="49">pp. 48-49</citedRange>)</bibl></listBibl>
                         </source>
                      </recordHist>
                   </adminInfo>
