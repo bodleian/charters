@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_234931">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_560001">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Rolls Oxon. 152</title>
-            <respStmt xml:id="BOD">
-               <resp>Cataloguer</resp>
-               <persName>Bodleian library staff</persName>
+            <title>MS. D. D. Ch. Ch. O. R. 84</title>
+            <respStmt xml:id="DY">
+               <resp when="1931">Cataloguer</resp>
+               <persName>N. Denholm-Young</persName>
             </respStmt>
             <respStmt xml:id="TA">
-               <resp when="2022">Encoding</resp>
-               <persName>Tuija Ainonen</persName>
+               <resp when="2023">Encoding</resp>
+               <persName>Matthew Holford</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -29,38 +27,44 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Rolls_Oxon_152</idno>
-            <idno type="collection">Oxon. (Oxfordshire)</idno>
+            <idno type="msID">MS_D_D_Ch_Ch_O_R_84</idno>
+            <idno type="collection">D. D. Ch. Ch. (Deposited Deeds Christ Church)</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Rolls_Oxon_152" xml:lang="en">
+            <msDesc xml:id="MS_D_D_Ch_Ch_O_R_84" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  <collection>Oxfordshire</collection>
-                  <idno type="shelfmark">MS. Rolls Oxon. 152</idno>
-                  <altIdentifier>
-                     <idno type="orderableItem">unclear in the Handlist</idno>
-                  </altIdentifier>
+                  <collection key="collection_100009">D. D. Ch. Ch. (Deposited Deeds Christ Church)</collection>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. O. R. 84</idno>
                </msIdentifier>
                <msContents>
+                  <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p><!-- identification from MDR -->
-                        <placeName key="place_108802">Upton</placeName>. <origDate notBefore="1338" notAfter="1339">1338-1339 </origDate>. </p>
+                     <p>Court roll. <placeName key="place_109036">[Black] Burton</placeName>. <origDate when="1300-11-07">7 Nov. 28 Ed. I</origDate>. (1 <hi rend="italic">m.</hi>) </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <provenance>Archive of Oseney abbey.</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
-                           <listBibl>
-                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/4ce73dd1-088d-48e1-bbcd-d96ba582f6c1.json">Calendar slip</bibl>
-                           </listBibl>
+                           <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society o.s. 92 (1931), p.
+                                <citedRange unit="page" from="17" to="17">17</citedRange>
+                           </bibl>
                         </source>
                      </recordHist>
                   </adminInfo>
@@ -69,7 +73,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2022-05">First online publication</change>
+         <change when="2021-02">First online publication</change>
       </revisionDesc>
    </teiHeader>
    <text>

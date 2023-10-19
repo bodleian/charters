@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_550053">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_560004">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. Rolls Oxon. Oseney 100</title>
+            <title>MS. D. D. Ch. Ch. O. R. 87</title>
             <respStmt xml:id="DY">
                <resp when="1931">Cataloguer</resp>
                <persName>N. Denholm-Young</persName>
             </respStmt>
             <respStmt xml:id="TA">
-               <resp when="2020">Encoding</resp>
-               <persName>Tuija Ainonen</persName>
+               <resp when="2023">Encoding</resp>
+               <persName>Matthew Holford</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -27,34 +27,28 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_Rolls_Oxon_Oseney_100</idno>
-            <idno type="collection">Oxon. (Oxfordshire)</idno>
+            <idno type="msID">MS_D_D_Ch_Ch_O_R_87</idno>
+            <idno type="collection">D. D. Ch. Ch. (Deposited Deeds Christ Church)</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_Rolls_Oxon_Oseney_100" xml:lang="en">
+            <msDesc xml:id="MS_D_D_Ch_Ch_O_R_87" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
-                  
-                  <idno type="shelfmark">MS. Rolls Oxon. Oseney 100</idno>
+                  <collection key="collection_100009">D. D. Ch. Ch. (Deposited Deeds Christ Church)</collection>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. O. R. 87</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p>
-                        <placeName key="place_114035">Upton</placeName> 
-                        <placeName type="manor" key="place_108751">Forest Hill</placeName>,
-                        <placeName type="manor" key="place_108750">Waterperry</placeName>,
-                        <placeName type="manor" key="place_108803">Thornby</placeName>, 
-                        <placeName type="manor" key="place_108804">Ledhall</placeName>, 
-                        <placeName type="manor" key="place_108753">Draycot</placeName>. Court roll. 
-                        <date>33-34 Ed. III</date>. 
-                        [Partly effaced by damp.]
-                        (1 <hi rend="italic">m.</hi>) </p>
+                     <p>Court roll. Contemporary transcript from a plea roll of an action brought by <orgName key="org_109067">Osney Abbey</orgName>
+                            against Thomas Derby, rector of <placeName role="rector">Hampton (Gloucs.)</placeName> for £20 arrears of a 20/-
+                            rent. The writ was dated 4 Jan. <origDate notBefore="1507-08-22" notAfter="1508-08-21">23 Hen. VII</origDate>. Adjournment, for a jury to
+                            be summoned, till the quinzaine of Easter. ‘Hilary term <origDate notBefore="1508-08-22" notAfter="1509-08-21">24 Hen. VII</origDate>. rot. 424.’ (1 <hi rend="italic">m.</hi>) </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -71,12 +65,9 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <listBibl><bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
-                              <citedRange unit="page" from="384" to="384">384</citedRange> [<ref target="https://books.google.co.uk/books?id=rvIUAAAAQAAJ&amp;pg=PA384#v=onepage&amp;q&amp;f=false">Google Books</ref>]
-                           </bibl>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society o.s. 92 (1931), p.
-                                <citedRange unit="page" from="19" to="19">19</citedRange>
-                           </bibl></listBibl>
+                                <citedRange unit="page" from="17" to="17">17</citedRange>
+                           </bibl>
                         </source>
                      </recordHist>
                   </adminInfo>
