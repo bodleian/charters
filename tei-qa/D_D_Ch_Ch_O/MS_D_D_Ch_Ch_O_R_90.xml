@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_550050">
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/relax_ng_compact/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_560042">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>MS. D. D. Ch. Ch. O. R. 97.</title>
+            <title>MS. D. D. Ch. Ch. O. R. 90</title>
             <respStmt xml:id="DY">
                <resp when="1931">Cataloguer</resp>
                <persName>N. Denholm-Young</persName>
             </respStmt>
             <respStmt xml:id="TA">
-               <resp when="2020">Encoding</resp>
-               <persName>Tuija Ainonen</persName>
+               <resp when="2023">Encoding</resp>
+               <persName>Matthew Holford</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -29,12 +29,12 @@
                <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
             </distributor>
             <!--Availability statement will be added here-->
-            <idno type="msID">MS_D_D_Ch_Ch_O_R_97</idno>
+            <idno type="msID">MS_D_D_Ch_Ch_O_R_90</idno>
             <idno type="collection">D. D. Ch. Ch. (Deposited Deeds Christ Church)</idno>
             <idno type="catalogue">Western</idno>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="MS_D_D_Ch_Ch_O_R_97" xml:lang="en">
+            <msDesc xml:id="MS_D_D_Ch_Ch_O_R_90" xml:lang="en">
                <msIdentifier>
                   <country>United Kingdom</country>
                   <region type="county">Oxfordshire</region>
@@ -42,15 +42,13 @@
                   <institution>University of Oxford</institution>
                   <repository>Bodleian Library</repository>
                   <collection key="collection_100009">D. D. Ch. Ch. (Deposited Deeds Christ Church)</collection>
-                  <idno type="shelfmark">MS. D. D. Ch. Ch. O. R. 97.</idno>
+                  <idno type="shelfmark">MS. D. D. Ch. Ch. O. R. 90</idno>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p>Account roll, <placeName key="place_109373">Little Tew</placeName>.  <persName>
-                           <forename>John</forename> 
-                           <surname>Samford</surname>
-                        </persName>, reeve. <origDate notBefore="1284-11-20" notAfter="1285-11-19">13 Ed. I</origDate>. (1 <hi rend="italic">m.</hi>) </p>
+                     <p><orgName key="org_109067">Osney Abbey</orgName>. Incomplete rental of <placeName key="place_105449">Oxford city</placeName> property. <origDate notAfter="1399" notBefore="1377">[Temp. Ric. II.]</origDate> 
+                     </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -68,7 +66,7 @@
                      <recordHist>
                         <source>
                            <bibl>N. Denholm-Young, <title>Cartulary of the Mediaeval Archives of Christ Church</title>, Oxford Historical Society o.s. 92 (1931), p.
-                                <citedRange unit="page" from="15" to="15">15</citedRange>
+                                <citedRange unit="page" from="20" to="20">20</citedRange>
                            </bibl>
                         </source>
                      </recordHist>
