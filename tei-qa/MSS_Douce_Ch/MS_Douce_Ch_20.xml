@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900217">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900217">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,11 +48,10 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p>Carta Lancelot! Wharton, prioris monasterii S. Fidis, de Horsham, co.
-                        Norfolc. confirmans Augustino Styward, civi et aldermanno Norwici, Nicholao
-                        Hare, et Leonardo Spencer, tenementa quaedam vacua in villa de Norwico, pro
-                        quatuor denariis annuatim solvendis; cum sigillo. Dat. 7 Apr. 24 Henr.
-                        VIII.</p>
+                     <p>Carta Lanceloti Wharton, prioris monasterii <placeName key="place_105205">S. Fidis, de Horsham, co.
+                        Norfolc.</placeName> confirmans Augustino Styward, civi et aldermanno <placeName key="place_105205" role="person">Norwici</placeName>, Nicholao
+                        Hare, et Leonardo Spencer, tenementa quaedam vacua in villa de <placeName role="place_105205">Norwico</placeName>, pro
+                        quatuor denariis annuatim solvendis; cum sigillo. Dat. <origDate when="1533-04-07">7 Apr. 24 Hen. VIII</origDate>.</p><!-- TODO: Horsham St Faith should be org not place -->
                   </msItem>
                </msContents>
                <physDesc>

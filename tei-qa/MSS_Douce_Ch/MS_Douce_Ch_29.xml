@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900224">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900224">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,7 +49,7 @@
                   <textLang mainLang="en">English (?)</textLang>
                   <msItem>
                      <p>Proclamation forbidding the exportation of grain from England. Orig. Dat.
-                        Westm. 28 Jan. 8 Eliz. Printed in the Archaeologia, xiv. p,</p>
+                        <placeName role="date" key="place_100060">Westm.</placeName> <origDate when="1566-01-28">28 Jan. 8 Eliz.</origDate> Printed in the <title>Archaeologia</title>, xiv. p. 27</p>
                   </msItem>
                </msContents>
                <additional>

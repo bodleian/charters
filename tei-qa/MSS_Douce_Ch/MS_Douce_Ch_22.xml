@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900219">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900219">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,8 +49,8 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <p>Literae patentes ad requisitionem Edw. Chambers, Tho. Fowler, et Wil.
-                        Swaddon, burgensium, factae, de antiquo dominio burgi de Calne coronae
-                        Angliae ; cum sigillo. Dat. Westm. 24 Maii, 11 Eliz.</p>
+                        Swaddon, burgensium, factae, de antiquo dominio burgi de <placeName key="place_111750">Calne</placeName> coronae
+                        Angliae ; cum sigillo. Dat. <placeName role="date" key="place_100060">Westm.</placeName> 24 Maii, <origDate notBefore="1568-11-17" notAfter="1569-11-16">11 Eliz.</origDate></p>
                   </msItem>
                </msContents>
                <physDesc>

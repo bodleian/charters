@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900220">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900220">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,13 +50,13 @@
                   <msItem>
                      <p>Indenture for the lease of certain parcels of land of sir C. Framlingham,
                         deceased, to Bassingborne Gaudie his cousin and heir, with seal and
-                        signature of Cecil, lord Burleigh. Dat. 3 Dec. 38 Eliz.</p>
+                        signature of Cecil, lord Burleigh. Dat. <origDate when="1595-12-03">3 Dec. 38 Eliz.</origDate></p>
                   </msItem>
                </msContents>
                <physDesc>
                   <authDesc>
                      <seal>
-                        <p>Seal</p>
+                        <p><persName>Cecil, lord Burleigh</persName></p>
                      </seal>
                   </authDesc>
                </physDesc>
