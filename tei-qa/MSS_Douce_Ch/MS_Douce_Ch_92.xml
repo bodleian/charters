@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900279">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900279">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,9 +48,8 @@
                <msContents>
                   <textLang mainLang="en">English (?)</textLang>
                   <msItem>
-                     <p>Testimonial relating to the manor of Estbekham feoffed by William Maryot
-                        of Crowemere, to John Clement and John Rudde of Crowemere. Dat. Bekham, 23
-                        Hen. VI.</p>
+                     <p>Testimonial relating to the manor of <placeName key="place_104205">Estbekham</placeName> feoffed by William Maryot
+                        of <placeName role="person" key="place_104272">Crowemere</placeName>, to John Clement and John Rudde of <placeName role="person" key="place_104272">Crowemere</placeName>. Dat. <placeName role="date" key="place_104205">Bekham</placeName>, <origDate notBefore="1444-09-01" notAfter="1445-08-31">23 Hen. VI</origDate>.</p>
                   </msItem>
                </msContents>
                <additional>

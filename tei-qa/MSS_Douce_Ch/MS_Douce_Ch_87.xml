@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900274">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900274">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,9 +49,9 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <p>Johannis Hasard et Edmundi Dallyng Capellani, cartae indentatae
-                        constituentes Joh. Hoghurd, de Pudeltoune, et Joh. Aimer, attornatos suos ad
+                        constituentes Joh. Hoghurd, de <placeName key="place_114044" role="person">Pudeltoune</placeName>, et Joh. Aimer, attornatos suos ad
                         deliberandam pro se Edithae, uxoris Willelmi de Peytevyn, seisinam in terris
-                        de Chesilborneforde, Develyssh et Pudeltoune. Dat. 1 Hen. VI.</p>
+                        de <placeName key="place_114042">Chesilborneforde</placeName>, <placeName key="place_114043">Develyssh</placeName> et <placeName key="place_114044">Pudeltoune</placeName>. Dat. <origDate notBefore="1422-09-01" notAfter="1423-08-31">1 Hen. VI</origDate>.</p>
                   </msItem>
                </msContents>
                <additional>

@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900278">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900278">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -49,9 +49,9 @@
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
                      <p>Willelmi Peytevyn, carta confirmans Johanni Churchull, vicario eccl. de
-                        Pudeltoune, et Roberto Clifford de Warham terras et tenementa in
-                        Chesilborneforde, Develyssh et Pudeltoune. [co. Dorset.] Dat.
-                        Chesilborneforde, 2 Hen. V.</p>
+                        <placeName key="place_114044" role="vicar">Pudeltoune</placeName>, et Roberto Clifford de <placeName key="place_113076" role="person">Warham</placeName> terras et tenementa in
+                        <placeName key="place_114042">Chesilborneforde</placeName>, <placeName key="place_114043">Develyssh</placeName> et <placeName key="place_114044">Pudeltoune</placeName>. [co. Dorset.] Dat.
+                        <placeName role="date" key="place_114042">Chesilborneforde</placeName>, <origDate notBefore="1414-03-21" notAfter="1415-03-20">2 Hen. V</origDate>.</p>
                   </msItem>
                </msContents>
                <additional>

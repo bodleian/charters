@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900275">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900275">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,11 +48,10 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p>Rogeri de Walessch, Domini de Langetone in Purbyk, scriptum indentatum,
+                     <p>Rogeri de Walessch, Domini de <placeName role="person" key="place_114048">Langetone in Purbyk</placeName>, scriptum indentatum,
                         concedens (certis conditionibus) et confirmans, Henrico atte Chapele,
-                        capellano, cauteriam suam de Whylcheswode in Purbyk, etc. ad terminum vitae
-                        ejus. Dat. apud Chikerell, die Mart. prox. ante fest. S.Martini, 47 Edw.
-                        III.</p>
+                        capellano, cauteriam suam de <placeName key="place_114047">Whylcheswode in Purbyk</placeName>, etc. ad terminum vitae
+                        ejus. Dat. apud <placeName key="place_114049">Chikerell</placeName>, die Mart. prox. ante fest. S.Martini, <origDate when="1373-11-15">47 Edw. III (15 Nov. 1373)</origDate>.</p>
                   </msItem>
                </msContents>
                <additional>

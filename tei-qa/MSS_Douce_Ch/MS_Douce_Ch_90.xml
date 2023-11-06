@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900277">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_900277">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,9 +48,9 @@
                <msContents>
                   <textLang mainLang="la">Latin</textLang>
                   <msItem>
-                     <p>Ricardi Peper, de Methelwold, carta concedens et confirmans Agneti de
-                        Batescroft, sorori suae, peciam terrae jacentem apud Coppele. Dat.
-                        Methelwold, 12 Edw. III.</p>
+                     <p>Ricardi Peper, de <placeName key="place_104437" role="person">Methelwold</placeName>, carta concedens et confirmans Agneti de
+                        Batescroft, sorori suae, peciam terrae jacentem apud <placeName>Coppele</placeName>. Dat.
+                        <placeName key="place_104437" role="dated">Methelwold</placeName>, <origDate notBefore="1338-01-25" notAfter="1339-01-24">12 Edw. III</origDate>.</p>
                   </msItem>
                </msContents>
                <additional>
