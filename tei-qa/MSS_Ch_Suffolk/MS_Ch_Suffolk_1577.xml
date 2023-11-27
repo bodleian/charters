@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_240110">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Suffolk 1577</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2022">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Suffolk_1577</idno>
+            <idno type="collection">Suffolk</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Suffolk_1577" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Suffolk</collection>
+                  <idno type="shelfmark">MS. Ch. Suffolk 1577</idno>
+                  <idno type="ieArk">ark:29072/x0p5547r41hd</idno>
+                  <idno type="crArk">ark:29072/x0p8418n24t8</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Suffolk. c.1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <head>Covenant to produce title deeds; 26 November 1829</head>
+               <msContents>
+                  <textLang mainLang="en">English</textLang>
+                  <msItem>
+                     <p>Hollesley and Alderton. (1) Sir Charles William Flint, knight, Great Queen Street, Westminster, Middlesex. John George Woodford, col., and John Atholl Hammet, Lombard Street, London. (2) John Wollnough of Hollesley, Suffolk, gent. Covenant to produce title deeds to an estate called Vertues Farm in <placeName key="place_105359">Hollesley</placeName> and <placeName key="place_105156">Alderton</placeName>, co. Suff., which (1) purchased from (2), but also relating to property of (2) in Alderton.
+
+                       
+                        <origDate when="1829-11-26">26 November 1829.</origDate>.
+
+                     </p>
+                  </msItem>
+               </msContents>
+               <history>
+                  <acquisition when="1920-04-07">Purchased Sotheby's, 7 April 1920, lot 539.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Record based on a handwritten calendar slip (not dated, c. 1973) created by Bodleian Library staff.</p>
+                           <listBibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/c47d217f-6b56-4565-ab0f-d05b98550962.json#?c=0&amp;m=0&amp;s=0&amp;cv=336&amp;r=0&amp;xywh=0%2C-1062%2C2752%2C3522">Calendar slip</bibl>
+                           </listBibl>
+                         <p>This record is based on a 20th-century handwritten calendar and some information may be incorrect. References to more recent editions, if available, are provided in the bibliography. Please send any additional corrections to <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> or <email>generalsecretary@suffolkinstitute.org.uk</email>.</p></source>
+                     </recordHist>
+                  </adminInfo><!--<surrogates><bibl type="digital-facsimile" subtype="full"><ref target="https://digital.bodleian.ox.ac.uk/objects/48e32e6a-e828-441d-b118-ab77dee43970/"><title>Digital Bodleian</title><note>(full digital facsimile)</note></ref></bibl></surrogates>-->
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2023-11">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
