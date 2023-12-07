@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_940023">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Bertie c.19/3</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2023">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_DD_Bertie_c19_3</idno>
+            <idno type="collection">D. D. Bertie</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_DD_Bertie_c19_3" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100054">D. D. Bertie</collection>
+                  <idno type="shelfmark">MS. D. D. Bertie c.19/3</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D. D. Bertie c. 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="deed to lead the uses of a fine">
+                     <p>
+                        <seg type="docType">Deed to lead the uses of a fine.</seg>
+                        <placeName key="place_113894">Beckley (Oxfordshire) (manor)</placeName>, <placeName key="place_113895">Horton (Oxfordshire) (manor)</placeName>, <placeName key="place_113917">Oddington (Oxfordshire) (manor)</placeName>, <placeName key="place_113288">Sydenham (Oxfordshire) (manor)</placeName>, <placeName key="place_109170">Beckley (Oxfordshire)</placeName>, <placeName key="place_113890">Sulhamstead Abbots (Berkshire) (manor)</placeName>, <placeName key="place_113918">Burghfield
+                        Sheffield (Berkshire) (manor)</placeName>, <placeName key="place_113891">Ufton Nivet (Berkshire) (manor)</placeName>, <placeName key="place_113888">Grazeley (Berkshire) (manor)</placeName>, <placeName key="place_113921">Amners Court (Berkshire) (manor)</placeName>, <placeName key="place_113892">Burghfield (Berkshire) (manor)</placeName>, <placeName key="place_113664">Wytham (Berkshire) (manor)</placeName>, <placeName key="place_113922">Botley (Berkshire) (manor)</placeName>, <placeName key="place_113923">South
+                        Hinksey (Berkshire) (manor)</placeName>, <placeName key="place_113663">Seacourt (Berkshire) (manor)</placeName>, <placeName key="place_113924">Chawley (Berkshire) (manor)</placeName>, <placeName key="place_113925">Hillend
+                        Farm (Berkshire) (manor)</placeName>, <placeName key="place_113926">Stroud (Berkshire) (manor)</placeName>, <placeName key="place_113919">Whitley (Berkshire) (manor)</placeName>, <placeName key="place_109565">Wytham (Berkshire)</placeName>, <placeName key="place_1083255">Cumnor (Berkshire)</placeName>, <placeName key="place_113920">Farmoor (Berkshire)</placeName>, <placeName key="place_106143">Radley (Berkshire)</placeName>, <placeName key="place_113927">Wellfield (Buckinghamshire)</placeName>, <placeName key="place_111879">Ludgershall (Buckinghamshire)</placeName>, <placeName key="place_109190">Brill (Buckinghamshire)</placeName>. <origDate when="1598">1598</origDate>. </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Sir Henry Norreys</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Lady Margery Norreys</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
+                           <listBibl>
+                              <bibl facs="02_01049.tif">Calendar slip</bibl>
+                              <bibl facs="02_01050.tif">Calendar slip</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">603267092</idno></custEvent></custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2023-12">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
