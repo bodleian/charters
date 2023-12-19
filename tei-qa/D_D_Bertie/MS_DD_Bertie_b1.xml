@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_940139">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Bertie b.1</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2023">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_DD_Bertie_b1</idno>
+            <idno type="collection">D. D. Bertie</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_DD_Bertie_b1" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100054">D. D. Bertie</collection>
+                  <idno type="shelfmark">MS. D. D. Bertie b.1</idno><idno type="crArk">ark:29072/x0k35694634w</idno>
+                  <idno type="ieArk">ark:29072/x037720d56cx</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D. D. Bertie b.1</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="court book">
+                     <p>
+                        <seg type="docType">Court book.</seg>
+                        <placeName key="place_113898">Clifton (Burcot) (Oxfordshire)</placeName>, <placeName key="place_113901">Drayton St. Leonard (Oxfordshire) (manor)</placeName>, <placeName key="place_113899">Wendlebury (Oxfordshire) (manor)</placeName>, <placeName key="place_113696">Crowell (Oxfordshire) (manor)</placeName>, <placeName key="place_113894">Beckley (Oxfordshire) (manor)</placeName>, <placeName key="place_113895">Horton (Oxfordshire) (manor)</placeName>, <placeName key="place_108795">Chesterton (Oxfordshire) (manor)</placeName>, <placeName key="place_113903">Thame (Oxfordshire) (manor)</placeName>, <placeName key="place_113900">Dorchester (Oxfordshire) (manor)</placeName>, <placeName key="place_113902">Priestend (Oxfordshire)</placeName>, <placeName key="place_113897">Long Crendon (Buckinghamshire) (manor)</placeName>. <origDate notBefore="1685" notAfter="1706">1685-1706 </origDate>. </p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
+                           <listBibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/f7512a5d-1b7c-4b88-a41e-b0ace5b224f8.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/6c5e3f60-deea-43d9-a58b-a9ad58f7debe.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/495b82c4-9a09-45ca-ab93-78064dd2dfbd.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/a9aa92bd-c6aa-4171-93fc-11447be75c4b.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/b5030078-1950-4d19-be53-c9e1817637cf.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/6832a658-04b2-4da4-a6eb-4c06c1976a49.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/77ce9eca-5f93-4fc4-bbf7-64a6fabc6982.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/398a1cf4-22a4-4d51-8ed7-652884fd52ed.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/f3d667a2-4f9d-4df7-b84b-a38d65e3ad91.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/b2fcd2e6-e55a-4d64-9540-ef0434bc39ce.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/e02eb803-1784-4ab4-bd07-06f8c2af5d42.json">Calendar slip</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">603267062</idno></custEvent></custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2023-12">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

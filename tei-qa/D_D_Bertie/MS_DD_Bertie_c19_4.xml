@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_940024">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Bertie c.19/4</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2023">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_DD_Bertie_c19_4</idno>
+            <idno type="collection">D. D. Bertie</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_DD_Bertie_c19_4" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100054">D. D. Bertie</collection>
+                  <idno type="shelfmark">MS. D. D. Bertie c.19/4</idno><idno type="ieArk">ark:29072/x07p88ch48q6</idno><idno type="crArk">ark:29072/x07m01bm65dv</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D. D. Bertie c. 19</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="entail">
+                     <p>
+                        <seg type="docType">Deed of entail male.</seg>
+                        <placeName key="place_113900">Dorchester (Oxfordshire) (manor)</placeName>, <placeName key="place_108041">Dorchester (Oxfordshire)</placeName>, <placeName key="place_107104">Headington (Oxfordshire)</placeName>, <placeName key="place_109318">Henley upon Thames (Oxfordshire)</placeName>, <placeName key="place_113928">Stow
+                        Wood (Oxfordshire)</placeName>, <placeName key="place_111964">Shotover (Oxfordshire)</placeName>, <placeName key="place_113933">Marlston (Berkshire)</placeName>, <placeName key="place_113932">Hampstead Norris (Berkshire) (manor)</placeName>, <placeName key="place_113934">Arbor Farm (Berkshire) (manor)</placeName>, <placeName key="place_113888">Grazeley (Berkshire) (manor)</placeName>, <placeName key="place_113921">Amners
+                        Court (Berkshire) (manor)</placeName>, <placeName key="place_108272">Bray (Berkshire)</placeName>, <placeName key="place_108122">Cookham (Berkshire)</placeName>, <placeName key="place_108826">Hampstead
+                        Norris (Berkshire)</placeName>, <placeName key="place_113929">Buckfold (Berkshire)</placeName>, <placeName key="place_113930">Ashampstead (Berkshire)</placeName>, <placeName key="place_113935">Bowdown (Berkshire)</placeName>, <placeName key="place_108821">Twyford (Berkshire)</placeName>, <placeName key="place_111288">Compton (Berkshire)</placeName>, <placeName key="place_113931">Everington (Berkshire)</placeName>, <placeName key="place_109567">Wokingham (Berkshire)</placeName>, <placeName key="place_100053">Reading (Berkshire)</placeName>, <placeName key="place_1083255">Cumnor (Berkshire)</placeName>, <placeName key="place_110083">Kentish
+                        Town (Middlesex)</placeName>, <placeName key="place_113937">Newtown (Hampshire)</placeName>, <placeName key="place_111970">Stadhampton (Oxfordshire)</placeName>, <placeName key="place_113936">Chislehampton (Oxfordshire)</placeName>. <origDate when="1600">1600</origDate>. </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Sir Henry Norreys</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
+                           <listBibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/f682d1f8-1133-48d0-9833-dca39518b668.json">Calendar slip</bibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/b1541f89-60ef-4624-bebb-2e85688857bb.json">Calendar slip</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">603267092</idno></custEvent></custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2023-12">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
