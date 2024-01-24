@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_950071">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Ewelme a. 7/A.55</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2023">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Ewelme_a_7_A55</idno>
+            <idno type="collection">D. D. Ewelme</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Ewelme_a_7_A55" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100055">D. D. Ewelme</collection>
+                  <idno type="shelfmark">MS. D. D. Ewelme a. 7/A.55</idno><idno type="ieArk">ark:29072/x04t64gp438q</idno><idno type="crArk">ark:29072/x04q77fs59zn</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D. D. Ewelme a. 7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="release|bond">
+                     <p>
+                        <seg type="docType">Release (Bond of indemnification).</seg>
+                        <placeName key="place_109260">Ewelme (Oxfordshire)</placeName>. <origDate when="1573">1573</origDate>. <seg type="seal">Seal missing.</seg></p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
+                           <listBibl>
+                              <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/948b1b90-3b17-4c0a-b4fc-7d61757bb6f2.json">Calendar slip</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2023-12">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
