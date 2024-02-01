@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930423">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930423">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. II. 7/11</idno>
-                  <idno type="ieArk">ark:29072/x0rb68xb65rg</idno><idno type="crArk">ark:29072/x0r781wf82fq</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0rb68xb65rg</idno>
+                  <idno type="crArk">ark:29072/x0r781wf82fq</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,15 @@
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>, <placeName key="place_109386">Milton (Oxfordshire)</placeName>, <placeName key="place_109164">Banbury (Oxfordshire)</placeName>, <placeName key="place_113624">Easington (Oxfordshire)</placeName>, <placeName key="place_113622">Calthorpe (Oxfordshire)</placeName>, <placeName key="place_111951">Neithrop (Oxfordshire)</placeName>, <placeName key="place_113623">Wickham (Oxfordshire)</placeName>. <origDate when="1781">1781</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>John Barber</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

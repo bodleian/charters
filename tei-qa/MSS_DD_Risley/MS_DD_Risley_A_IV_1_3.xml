@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930310">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930310">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. IV. 1/3</idno>
-                  <idno type="ieArk">ark:29072/x03197xn208s</idno><idno type="crArk">ark:29072/x02z10wr36z4</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x03197xn208s</idno>
+                  <idno type="crArk">ark:29072/x02z10wr36z4</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 15</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,22 @@
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>, <placeName key="place_113610">West Adderbury (Oxfordshire)</placeName>, <placeName key="place_109386">Milton (Oxfordshire)</placeName>. <origDate when="1731">1731</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seal of Barber and part of signature cut away; seal of Willes
+                        detached</summary>
+                     <seal>
+                        <p>
+                           <persName>Edward Barber</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>John Willes</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

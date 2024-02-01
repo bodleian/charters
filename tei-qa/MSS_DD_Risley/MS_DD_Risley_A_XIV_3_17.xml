@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930016">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930016">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XIV. 3/17</idno>
-                  <idno type="ieArk">ark:29072/x06m311q19hw</idno><idno type="crArk">ark:29072/x06h440t3661</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x06m311q19hw</idno>
+                  <idno type="crArk">ark:29072/x06h440t3661</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 34</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,15 @@
                         <placeName key="place_111025">Luton (Bedfordshire)</placeName>, <placeName key="place_111427">King's Walden (Hertfordshire)</placeName>, <placeName key="place_113584">Offley (Hertfordshire)</placeName>, <placeName key="place_113585">Lilley (Hertfordshire)</placeName>. <origDate when="1619">1619</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Thomas Bygge</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

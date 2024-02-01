@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930544">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930544">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -44,13 +46,24 @@
                  <!-- <altIdentifier> todo - check
                      <idno type="orderableItem">MS. D.D. Risley c. 24</idno>
                   </altIdentifier>-->
-               <idno type="ieArk">ark:29072/x0td96k2159z</idno><idno type="crArk">ark:29072/x0tb09j5320h</idno></msIdentifier>
+                  <idno type="ieArk">ark:29072/x0td96k2159z</idno>
+                  <idno type="crArk">ark:29072/x0tb09j5320h</idno>
+               </msIdentifier>
                <msContents>
                   <msItem>
                      <p>
                         <placeName key="place_113622">Calthorpe (Oxfordshire)</placeName>, <placeName key="place_113623">Wickham (Oxfordshire)</placeName>, <placeName key="place_109164">Banbury (Oxfordshire)</placeName>. <origDate notBefore="1556" notAfter="1557">1556-1557 </origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Henry Halleheade</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

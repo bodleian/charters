@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930633">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930633">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley D. I. 2/2-3</idno>
-                  <idno type="ieArk">ark:29072/x0r207tp160m</idno><idno type="crArk">ark:29072/x0qz20ss32pd</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0r207tp160m</idno>
+                  <idno type="crArk">ark:29072/x0qz20ss32pd</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 74</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,52 @@
                         <placeName key="place_109341">Kingham (Oxfordshire)</placeName>, <placeName key="place_111102">Wootton (Lincolnshire)</placeName>. <origDate when="1699">1699</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Dame Elizabeth Penyston</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Sir Fairemeadow Penyston</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Theophilus Leigh</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Henry
+                        Collett</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Cornelia Philirista Maria Peniston</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Popia Penyston</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Thomas
+                        Hale</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Letitia Hale</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

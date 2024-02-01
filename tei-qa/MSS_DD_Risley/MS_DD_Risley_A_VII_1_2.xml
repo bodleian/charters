@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930545">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930545">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. VII. 1/2</idno>
-                  <idno type="ieArk">ark:29072/x0wm117n484x</idno><idno type="crArk">ark:29072/x0wh246r64tq</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0wm117n484x</idno>
+                  <idno type="crArk">ark:29072/x0wh246r64tq</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 23</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,17 @@
                         <placeName key="place_113622">Calthorpe (Oxfordshire)</placeName>, <placeName key="place_113623">Wickham (Oxfordshire)</placeName>. <origDate when="1595">1595</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seal, red, on tag</summary>
+                     <seal>
+                        <p>
+                           <persName>Sir Anthony Cope</persName>
+                        </p>
+                        <decoNote>Crest of Cope</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

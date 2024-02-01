@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930688">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930688">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. I. 2/4</idno>
-                  <idno type="ieArk">ark:29072/x05712m7537h</idno><idno type="crArk">ark:29072/x05425kb69xf</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x05712m7537h</idno>
+                  <idno type="crArk">ark:29072/x05425kb69xf</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 38</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,46 @@
                         <placeName key="place_109386">Milton (Oxfordshire)</placeName>, <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>. <origDate when="1720">1720</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Mary Lawley</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Richard Crofton</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>William Huckwell</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Elizabeth Huckwell</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Thomas
+                        Haines</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Margaret Haines</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Sarah Lovell</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

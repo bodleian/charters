@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930095">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930095">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley D. I. 2/7</idno>
-                  <idno type="ieArk">ark:29072/x0rv042s82gs</idno><idno type="crArk">ark:29072/x0rr171w9952</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0rv042s82gs</idno>
+                  <idno type="crArk">ark:29072/x0rr171w9952</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 74</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,15 @@
                         <placeName key="place_111102">Wootton (Lincolnshire)</placeName>, <placeName key="place_109341">Kingham (Oxfordshire)</placeName>. <origDate when="1702">1702</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Thomas Hale</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

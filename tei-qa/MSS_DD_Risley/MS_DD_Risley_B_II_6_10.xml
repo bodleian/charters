@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930266">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930266">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 6/10</idno>
-                  <idno type="ieArk">ark:29072/x0mk61rh003z</idno><idno type="crArk">ark:29072/x0mg74qm16sw</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0mk61rh003z</idno>
+                  <idno type="crArk">ark:29072/x0mg74qm16sw</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 51</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,67 @@
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>. <origDate when="1717">1717</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>John James</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Hogan James</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>William Fynmore</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Martha Fynmore</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Richard
+                        Young</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Elizabeth Young</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Giles Hanwell</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Sarah Hanwell</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>William Mathews</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Nathaniel
+                        Apletree</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Edward Mitchel</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

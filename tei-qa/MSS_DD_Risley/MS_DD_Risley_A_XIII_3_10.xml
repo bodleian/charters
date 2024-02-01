@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930213">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930213">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XIII. 3/10</idno>
-                  <idno type="ieArk">ark:29072/x0dv13zt681s</idno><idno type="crArk">ark:29072/x0dr26xx84qk</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0dv13zt681s</idno>
+                  <idno type="crArk">ark:29072/x0dr26xx84qk</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 32</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,20 @@
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>. <origDate when="1692">1692</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Jane Webb</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>James Belcher</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

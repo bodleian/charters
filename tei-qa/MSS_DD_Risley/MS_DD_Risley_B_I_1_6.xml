@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930624">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930624">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. I. 1/6</idno>
-                  <idno type="ieArk">ark:29072/x02801ph53x7</idno><idno type="crArk">ark:29072/x02514nm70mc</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x02801ph53x7</idno>
+                  <idno type="crArk">ark:29072/x02514nm70mc</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 37</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,14 @@
                         <placeName key="place_109056">Hook Norton (Oxfordshire) (manor)</placeName>, <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>. <origDate when="1720">1720</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seal, red, small</summary>
+                     <seal>
+                        <decoNote>Animal</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

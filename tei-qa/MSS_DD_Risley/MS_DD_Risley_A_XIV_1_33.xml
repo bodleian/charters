@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930043">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930043">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XIV. 1/33</idno>
-                  <idno type="ieArk">ark:29072/x02v23vv53q1</idno><idno type="crArk">ark:29072/x02r36tz70d5</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x02v23vv53q1</idno>
+                  <idno type="crArk">ark:29072/x02r36tz70d5</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 34</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,15 @@
                         <placeName key="place_113586">Shefford (Bedfordshire)</placeName>, <placeName key="place_113583">Campton (Bedfordshire)</placeName>. <origDate notBefore="1588" notAfter="1589">1588-1589 </origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Edward Feilde</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

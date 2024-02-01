@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930427">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930427">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. II. 7/13</idno>
-                  <idno type="ieArk">ark:29072/x0rx913p65mb</idno><idno type="crArk">ark:29072/x0rv042s829w</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0rx913p65mb</idno>
+                  <idno type="crArk">ark:29072/x0rv042s829w</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,30 @@
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>. <origDate when="1782">1782</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Rev John Pyefinch</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Martha Barber</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Nicholas Smythe</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Richard Bignell</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

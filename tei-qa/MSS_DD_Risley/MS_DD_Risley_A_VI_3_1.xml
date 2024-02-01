@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930141">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930141">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. VI. 3/1</idno>
-                  <idno type="ieArk">ark:29072/x03j333336vm</idno><idno type="crArk">ark:29072/x03f462653jr</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x03j333336vm</idno>
+                  <idno type="crArk">ark:29072/x03f462653jr</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 22</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,16 @@
                         <placeName key="place_113615">Grimsbury (Oxfordshire)</placeName>. <origDate notBefore="1664" notAfter="1665">1664-1665 </origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seal, red, on tag</summary>
+                     <seal>
+                        <p>
+                           <persName>Thomas Lambert</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

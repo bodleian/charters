@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930551">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930551">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. IX. 1/3</idno>
-                  <idno type="ieArk">ark:29072/x0kh04dp83kz</idno><idno type="crArk">ark:29072/x0kd17ct0088</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0kh04dp83kz</idno>
+                  <idno type="crArk">ark:29072/x0kd17ct0088</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 25</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,16 @@
                         <placeName key="place_113622">Calthorpe (Oxfordshire)</placeName>, <placeName key="place_109164">Banbury (Oxfordshire)</placeName>. <origDate when="1635">1635</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Sealed on a tag, but seal missing</summary>
+                     <seal>
+                        <p>
+                           <persName>Nathaniel Abbotts</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

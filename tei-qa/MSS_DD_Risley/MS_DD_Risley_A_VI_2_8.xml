@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930139">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930139">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. VI. 2/8</idno>
-                  <idno type="ieArk">ark:29072/x03484zj03m1</idno><idno type="crArk">ark:29072/x03197xn2095</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x03484zj03m1</idno>
+                  <idno type="crArk">ark:29072/x03197xn2095</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 22</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,22 @@
                         <placeName key="place_113615">Grimsbury (Oxfordshire)</placeName>. <origDate when="1652">1652</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seals, two, red, on tags</summary>
+                     <seal>
+                        <p>
+                           <persName>William Vanham</persName>
+                        </p>
+                        <decoNote>Initials N V and device </decoNote>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Thomas Brome[?]</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

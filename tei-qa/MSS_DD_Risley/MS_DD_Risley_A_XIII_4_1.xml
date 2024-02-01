@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930506">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930506">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XIII. 4/1</idno>
-                  <idno type="ieArk">ark:29072/x0ks65hc33jm</idno><idno type="crArk">ark:29072/x0kp78gg507r</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0ks65hc33jm</idno>
+                  <idno type="crArk">ark:29072/x0kp78gg507r</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 33</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,13 @@
                         <placeName key="place_109044">Bloxham (Oxfordshire) (manor)</placeName>, <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>. <origDate when="1631">1631</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Third great seal of Charles I, part broken off, otherwise in good
+                        condition</summary>
+                     
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
