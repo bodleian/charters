@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_951017">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D.D. Tyrwhitt-Drake c.1/19</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2023">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_DD_Tyrwhitt-Drake_c1_19</idno>
+            <idno type="collection">D. D. Tyrwhitt</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_DD_Tyrwhitt-Drake_c1_19" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100056">D. D. Tyrwhitt</collection>
+                  <idno type="shelfmark">MS. D. D. Tyrwhitt-Drake c. 1/19</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem"><!--to be supplied--></idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="receipt">
+                     <p>
+                        <seg type="docType">8 Receipts.</seg>
+                        <placeName key="place_109212">Chippinghurst (Oxon.)</placeName>. <origDate notBefore="1647" notAfter="1785">1647-1785 </origDate>. </p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
+                           <listBibl>
+                              <bibl facs="13_00758.tif">Calendar slip</bibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-02">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
