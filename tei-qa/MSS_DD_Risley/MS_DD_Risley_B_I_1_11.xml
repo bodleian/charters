@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930461">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930461">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. I. 1/11</idno>
-                  <idno type="ieArk">ark:29072/x00p096820zf</idno><idno type="crArk">ark:29072/x00k225c37nt</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x00p096820zf</idno>
+                  <idno type="crArk">ark:29072/x00k225c37nt</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 37</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,12 @@
                         <placeName key="place_109488">Steeple Aston (Oxfordshire)</placeName>. <origDate when="1740">1740</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seal, red</summary>
+                     
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

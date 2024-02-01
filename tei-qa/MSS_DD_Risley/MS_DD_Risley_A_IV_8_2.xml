@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930374">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930374">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. IV. 8/2</idno>
-                  <idno type="ieArk">ark:29072/x0gh93gz848m</idno><idno type="crArk">ark:29072/x0gf06g300z7</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0gh93gz848m</idno>
+                  <idno type="crArk">ark:29072/x0gf06g300z7</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 17</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,20 @@
                         <placeName key="place_113610">West Adderbury (Oxfordshire)</placeName>. <origDate when="1761">1761</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Thomas Tounshend</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Elizabeth Tounshend</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930661">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930661">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 10/3</idno>
-                  <idno type="ieArk">ark:29072/x0ng451h49vr</idno><idno type="crArk">ark:29072/x0nc580m66jw</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0ng451h49vr</idno>
+                  <idno type="crArk">ark:29072/x0nc580m66jw</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 53</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,20 @@
                         <placeName key="place_109386">Milton (Oxfordshire)</placeName>. <origDate when="1681">1681</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>William Colton [?]</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Mary Colton [?]</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

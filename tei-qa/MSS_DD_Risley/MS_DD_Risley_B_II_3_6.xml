@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930183">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930183">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 3/6</idno>
-                  <idno type="ieArk">ark:29072/x0ht24wj67dg</idno><idno type="crArk">ark:29072/x0hq37vn843m</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0ht24wj67dg</idno>
+                  <idno type="crArk">ark:29072/x0hq37vn843m</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,31 @@
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>, <placeName key="place_109386">Milton (Oxfordshire)</placeName>. <origDate notBefore="1663" notAfter="1664">1663-1664 </origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>William Turner</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Elizabeth Clarke</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Richard Glover</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Thomas Clarke the
+                        elder</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930270">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930270">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. II. 5/4</idno>
-                  <idno type="ieArk">ark:29072/x0pk02c9665q</idno><idno type="crArk">ark:29072/x0pg15bd82vh</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0pk02c9665q</idno>
+                  <idno type="crArk">ark:29072/x0pg15bd82vh</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 3</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,25 @@
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>, <placeName key="place_109386">Milton (Oxfordshire)</placeName>, <placeName key="place_109044">Milmead (Oxfordshire) (manor)</placeName>, <placeName key="place_109164">Banbury (Oxfordshire)</placeName>, <placeName key="place_113624">Easington (Oxfordshire)</placeName>, <placeName key="place_113622">Calthorpe (Oxfordshire)</placeName>, <placeName key="place_111951">Neithrop (Oxfordshire)</placeName>, <placeName key="place_113623">Wickham (Oxfordshire)</placeName>. <origDate when="1718">1718</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Edward Barber</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>William Drake</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Elizabeth Drake</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

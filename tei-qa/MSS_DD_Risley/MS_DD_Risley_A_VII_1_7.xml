@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930469">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930469">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. VII. 1/7</idno>
-                  <idno type="ieArk">ark:29072/x0xs55mb47v1</idno><idno type="crArk">ark:29072/x0xp68kf64j5</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0xs55mb47v1</idno>
+                  <idno type="crArk">ark:29072/x0xp68kf64j5</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 23</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,23 @@
                         <placeName key="place_109164">Banbury (Oxfordshire)</placeName>, <placeName key="place_113623">Wickham (Oxfordshire)</placeName>, <placeName key="place_113622">Calthorpe (Oxfordshire)</placeName>. <origDate when="1628">1628</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seal, mostly now missing, but red and with same device as that in MS. D.D.
+                        Risley A.VII. 1/8</summary>
+                     <seal>
+                        <p>
+                           <persName>Thomas Halhed</persName>
+                        </p>
+                        <decoNote>Initials T H with crossed (swords?) between</decoNote>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Anne Turton</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

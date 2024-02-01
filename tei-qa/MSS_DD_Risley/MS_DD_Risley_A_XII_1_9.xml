@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930569">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930569">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XII. 1/9</idno>
-                  <idno type="ieArk">ark:29072/x0wh246r64v3</idno><idno type="crArk">ark:29072/x0wd375v81j7</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0wh246r64v3</idno>
+                  <idno type="crArk">ark:29072/x0wd375v81j7</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,17 @@
                         <placeName key="place_109210">Chastleton (Oxfordshire)</placeName>. <origDate when="1614">1614</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seal, red, small, round</summary>
+                     <seal>
+                        <p>
+                           <persName>Edward Ockeley</persName>
+                        </p>
+                        <decoNote>Horse's head</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

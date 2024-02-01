@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930538">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930538">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. I. 1/7</idno>
-                  <idno type="ieArk">ark:29072/x02f75r920jn</idno><idno type="crArk">ark:29072/x02b88qd377x</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x02f75r920jn</idno>
+                  <idno type="crArk">ark:29072/x02b88qd377x</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 37</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,14 @@
                         <placeName key="place_111905">Bodicote (Oxfordshire)</placeName>. <origDate when="1723">1723</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seal, red, small</summary>
+                     <seal>
+                        <decoNote>Classical device</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

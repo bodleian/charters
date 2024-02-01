@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930064">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930064">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley D. I. 1/2</idno>
-                  <idno type="ieArk">ark:29072/x0p8418n16d3</idno><idno type="crArk">ark:29072/x0p5547r3337</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0p8418n16d3</idno>
+                  <idno type="crArk">ark:29072/x0p5547r3337</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 73</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,15 @@
                         <placeName key="place_111365">Bourton on the Hill (Gloucestershire)</placeName>, <placeName key="place_113597">Bourton on the Hill and Condicote (Gloucestershire) (manor)</placeName>. <origDate when="1587">1587</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>John Rose</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

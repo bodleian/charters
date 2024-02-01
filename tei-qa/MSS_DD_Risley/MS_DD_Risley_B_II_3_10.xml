@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930340">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930340">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 3/10</idno>
-                  <idno type="ieArk">ark:29072/x09p290b0255</idno><idno type="crArk">ark:29072/x09k41zf18v0</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x09p290b0255</idno>
+                  <idno type="crArk">ark:29072/x09k41zf18v0</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,36 @@
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>, <placeName key="place_109386">Milton (Oxfordshire)</placeName>. <origDate when="1743">1743</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>William Turner</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Ann Gardner</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Edward Robinson</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>John Turner</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>George
+                        Eddowes</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

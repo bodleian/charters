@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930520">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930520">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 2/8</idno>
-                  <idno type="ieArk">ark:29072/x09306t0029d</idno><idno type="crArk">ark:29072/x09019s3190p</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x09306t0029d</idno>
+                  <idno type="crArk">ark:29072/x09019s3190p</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 47</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,26 @@
                         <placeName key="place_111905">Bodicote (Oxfordshire)</placeName>. <origDate when="1623">1623</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seals of Edward and Thomas Hall, paper covered</summary>
+                     <seal>
+                        <p>
+                           <persName>Edward Hall</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Richard Hall</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Thomas Hall junior</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930511">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930511">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 2/5</idno>
-                  <idno type="ieArk">ark:29072/x08g84mn02f3</idno><idno type="crArk">ark:29072/x08c97kr194c</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x08g84mn02f3</idno>
+                  <idno type="crArk">ark:29072/x08c97kr194c</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 47</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,22 @@
                         <placeName key="place_111905">Bodicote (Oxfordshire)</placeName>. <origDate when="1617">1617</origDate>. </p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seals: Thomas Hall: covered with strip of cloth and tied round with fine
+                        string; Margaret Hall: seal missing</summary>
+                     <seal>
+                        <p>
+                           <persName>Thomas Hall junior</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Margaret Hall</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
