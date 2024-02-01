@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930202">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930202">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 3/30</idno>
-                  <idno type="ieArk">ark:29072/x0f1881m34qx</idno><idno type="crArk">ark:29072/x0dz010q51dg</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0f1881m34qx</idno>
+                  <idno type="crArk">ark:29072/x0dz010q51dg</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Will">
                      <p>
+                        <seg type="docType">Copy of Will.</seg>
                         <placeName key="place_113610">West Adderbury (Oxfordshire)</placeName>, <placeName key="place_109386">Milton (Oxfordshire)</placeName>. <origDate when="1681">1681</origDate>. </p>
                   </msItem>
                </msContents>

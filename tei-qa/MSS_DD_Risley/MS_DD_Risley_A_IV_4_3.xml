@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930335">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930335">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. IV. 4/3</idno>
-                  <idno type="ieArk">ark:29072/x08k71nh85nn</idno><idno type="crArk">ark:29072/x08g84mn02bz</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x08k71nh85nn</idno>
+                  <idno type="crArk">ark:29072/x08g84mn02bz</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 16</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Deed to lead the uses of a fine">
                      <p>
+                        <seg type="docType">Covenant to levy a fine.</seg>
                         <placeName key="place_113610">West Adderbury (Oxfordshire)</placeName>. <origDate notBefore="1742" notAfter="1743">1742-1743 </origDate>. </p>
                   </msItem>
                </msContents>

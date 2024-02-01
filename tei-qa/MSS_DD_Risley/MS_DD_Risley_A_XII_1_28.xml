@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930622">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930622">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XII. 1/28</idno>
-                  <idno type="ieArk">ark:29072/x0rb68xb65t7</idno><idno type="crArk">ark:29072/x0r781wf82hg</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0rb68xb65t7</idno>
+                  <idno type="crArk">ark:29072/x0r781wf82hg</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Marriage settlement">
                      <p>
+                        <seg type="docType">Articles of agreement relating to marriage settlement.</seg>
                         <placeName key="place_109317">Hempton (Oxfordshire)</placeName>, <placeName key="place_1083238">Deddington (Oxfordshire) (manor)</placeName>. <origDate when="1695">1695</origDate>. </p>
                   </msItem>
                </msContents>

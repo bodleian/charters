@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930405">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930405">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. I. 6/1/1-2</idno>
-                  <idno type="ieArk">ark:29072/x0f4752h182h</idno><idno type="crArk">ark:29072/x0f1881m34r9</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0f4752h182h</idno>
+                  <idno type="crArk">ark:29072/x0f1881m34r9</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 42</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Deed to lead the uses of a fine|Lease and release">
                      <p>
+                        <seg type="docType">Covenant to levy a fine and lease and release.</seg>
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>, <placeName key="place_109056">Hook Norton (Oxfordshire) (manor)</placeName>, <placeName key="place_113630">Swerford (Oxfordshire) (manor)</placeName>. <origDate when="1770">1770</origDate>. </p>
                   </msItem>
                </msContents>

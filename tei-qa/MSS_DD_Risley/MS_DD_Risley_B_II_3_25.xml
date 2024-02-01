@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930346">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930346">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 3/25</idno>
-                  <idno type="ieArk">ark:29072/x0d791sg687k</idno><idno type="crArk">ark:29072/x0d504rk84xs</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0d791sg687k</idno>
+                  <idno type="crArk">ark:29072/x0d504rk84xs</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Mortgage">
                      <p>
+                        <seg type="docType">Mortgage.</seg>
                         <placeName key="place_113610">West Adderbury (Oxfordshire)</placeName>. <origDate notBefore="1745" notAfter="1746">1745-1746 </origDate>. </p>
                   </msItem>
                </msContents>

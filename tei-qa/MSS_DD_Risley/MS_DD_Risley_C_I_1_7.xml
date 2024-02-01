@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930623">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930623">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,15 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley C. I. 1/7</idno>
-                  <idno type="ieArk">ark:29072/x0kp78gg50bw</idno><idno type="crArk">ark:29072/x0kk91fk6718</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0kp78gg50bw</idno>
+                  <idno type="crArk">ark:29072/x0kk91fk6718</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 61</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
-                     <p>
+                  <msItem><!--document type not found-->
+                     <p><!--document type not found-->
                         <placeName key="place_109317">Hempton (Oxfordshire)</placeName>, <placeName key="place_1083238">Deddington (Oxfordshire) (manor)</placeName>. <origDate notBefore="1805" notAfter="1831">1805-1831 </origDate>. </p>
                   </msItem>
                </msContents>

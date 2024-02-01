@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930585">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930585">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,15 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. VII. 1/3</idno>
-                  <idno type="ieArk">ark:29072/x0x059c681cr</idno><idno type="crArk">ark:29072/x0ww72b99821</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0x059c681cr</idno>
+                  <idno type="crArk">ark:29072/x0ww72b99821</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 23</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
-                     <p>
+                  <msItem><!--document type not found-->
+                     <p><!--document type not found-->
                         <placeName key="place_113624">Easington (Oxfordshire)</placeName>. <origDate notBefore="1601" notAfter="1602">1601-1602 </origDate>. </p>
                   </msItem>
                </msContents>

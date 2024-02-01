@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930548">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930548">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. IX. 1/8</idno>
-                  <idno type="ieArk">ark:29072/x0mg74qm16pr</idno><idno type="crArk">ark:29072/x0mc87pq33cw</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0mg74qm16pr</idno>
+                  <idno type="crArk">ark:29072/x0mc87pq33cw</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 25</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Bargain and sale">
                      <p>
+                        <seg type="docType">Bargain and sale.</seg>
                         <placeName key="place_113622">Calthorpe (Oxfordshire)</placeName>, <placeName key="place_109164">Banbury (Oxfordshire)</placeName>. <origDate when="1608">1608</origDate>. </p>
                   </msItem>
                </msContents>

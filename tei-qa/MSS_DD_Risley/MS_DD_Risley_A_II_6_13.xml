@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930409">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930409">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. II. 6/13</idno>
-                  <idno type="ieArk">ark:29072/x0qz20ss32hh</idno><idno type="crArk">ark:29072/x0qv33rw496s</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0qz20ss32hh</idno>
+                  <idno type="crArk">ark:29072/x0qv33rw496s</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Will|Grant of probate">
                      <p>
+                        <seg type="docType">Certified copy of will with grant of probate attached [PCC].</seg>
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>. <origDate when="1772">1772</origDate>. </p>
                   </msItem>
                </msContents>

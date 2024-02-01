@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930406">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930406">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. I. 6/2</idno>
-                  <idno type="ieArk">ark:29072/x0fb494884pt</idno><idno type="crArk">ark:29072/x0f7623d01c7</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0fb494884pt</idno>
+                  <idno type="crArk">ark:29072/x0f7623d01c7</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 42</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Exemplification|Common recovery">
                      <p>
+                        <seg type="docType">Exemplification of a common recovery.</seg>
                         <placeName key="place_113630">Swerford (Oxfordshire) (manor)</placeName>, <placeName key="place_109056">Hook Norton (Oxfordshire) (manor)</placeName>, <placeName key="place_113631">Wigginton (Oxfordshire) (manor)</placeName>, <placeName key="place_113632">Southrop (Gloucestershire) (manor)</placeName>, <placeName key="place_111952">Nether
                         Worton (Oxfordshire)</placeName>, <placeName key="place_109386">Milton (Oxfordshire)</placeName>, <placeName key="place_111905">Bodicote (Oxfordshire)</placeName>, <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>. <origDate when="1770">1770</origDate>. </p>
                   </msItem>

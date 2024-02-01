@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930546">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930546">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. VII. 1/4</idno>
-                  <idno type="ieArk">ark:29072/x0x633f0480t</idno><idno type="crArk">ark:29072/x0x346d364pm</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0x633f0480t</idno>
+                  <idno type="crArk">ark:29072/x0x346d364pm</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 23</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Bargain and sale">
                      <p>
+                        <seg type="docType">Bargain and sale.</seg>
                         <placeName key="place_113622">Calthorpe (Oxfordshire)</placeName>. <origDate notBefore="1601" notAfter="1602">1601-1602 </origDate>. </p>
                   </msItem>
                </msContents>

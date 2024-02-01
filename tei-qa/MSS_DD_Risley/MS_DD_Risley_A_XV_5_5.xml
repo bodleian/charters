@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930098">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930098">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XV. 5/5</idno>
-                  <idno type="ieArk">ark:29072/x0fb494884m2</idno><idno type="crArk">ark:29072/x0f7623d019g</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0fb494884m2</idno>
+                  <idno type="crArk">ark:29072/x0f7623d019g</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 36</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Partition">
                      <p>
+                        <seg type="docType">Copy of part of deed of division [division of property, one part].</seg>
                         <placeName key="place_113646">Westminster, Coventry Street (Middlesex) (street)</placeName>, <placeName key="place_113648">Westminster, Frith Street (Middlesex) (street)</placeName>, <placeName key="place_113647">Westminster, Duke
                         Street (Middlesex) (street)</placeName>, <placeName key="place_113649">Westminster, Knightsbridge (Middlesex) (street)</placeName>, <placeName key="place_113654">Warner Street (Middlesex) (street)</placeName>. <origDate when="1752">1752</origDate>. </p>
                   </msItem>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930021">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930021">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XIV. 1/5</idno>
-                  <idno type="ieArk">ark:29072/x03t945r86tv</idno><idno type="crArk">ark:29072/x03r074w03hk</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x03t945r86tv</idno>
+                  <idno type="crArk">ark:29072/x03r074w03hk</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 34</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Release|Quitclaim">
                      <p>
+                        <seg type="docType">Release and Quitclaim.</seg>
                         <placeName key="place_113586">Shefford (Bedfordshire)</placeName>, <placeName key="place_113583">Campton (Bedfordshire)</placeName>. <origDate when="1486">1486</origDate>. recte 204. </p>
                   </msItem>
                </msContents>

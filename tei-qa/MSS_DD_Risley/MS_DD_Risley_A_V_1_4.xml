@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930556">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930556">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. V. 1/4</idno>
-                  <idno type="ieArk">ark:29072/x05x21tg369s</idno><idno type="crArk">ark:29072/x05t34sk530x</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x05x21tg369s</idno>
+                  <idno type="crArk">ark:29072/x05t34sk530x</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 19</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Deed to lead the uses of a fine|Deed to make a tenant to the&#xA;                        precipe">
                      <p>
+                        <seg type="docType">Deed to lead the uses of a fine and a recovery.</seg>
                         <placeName key="place_113622">Calthorpe (Oxfordshire)</placeName>, <placeName key="place_111951">Neithrop (Oxfordshire)</placeName>, <placeName key="place_113623">Wickham (Oxfordshire)</placeName>, <placeName key="place_113624">Easington (Oxfordshire)</placeName>, <placeName key="place_109164">Banbury (Oxfordshire)</placeName>, <placeName key="place_113615">Grimsbury (Oxfordshire and Northamptonshire)</placeName>, <placeName key="place_109581">Great Milton (Oxfordshire)</placeName>. <origDate when="1647">1647</origDate>. </p>
                   </msItem>
                </msContents>

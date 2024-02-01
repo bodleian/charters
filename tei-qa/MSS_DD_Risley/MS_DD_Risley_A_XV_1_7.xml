@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930123">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930123">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,15 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XV. 1/7</idno>
-                  <idno type="ieArk">ark:29072/x09z90305220</idno><idno type="crArk">ark:29072/x09w032368rb</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x09z90305220</idno>
+                  <idno type="crArk">ark:29072/x09w032368rb</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 35</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
-                     <p>
+                  <msItem><!--document type not found-->
+                     <p><!--document type not found-->
                         <placeName key="place_105502">St Martin in the Fields (Middlesex)</placeName>, <placeName key="place_110093">London, St Anne Within the Liberty of Westminster
                         (St Anne Soho) (Middlesex)</placeName>, <placeName key="place_113069">St George Hanover Square (Middlesex)</placeName>. <origDate when="1752">1752</origDate>. </p>
                   </msItem>

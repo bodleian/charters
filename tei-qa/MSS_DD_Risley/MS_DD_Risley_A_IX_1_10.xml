@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930467">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930467">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. IX. 1/10</idno>
-                  <idno type="ieArk">ark:29072/x0h989r350r0</idno><idno type="crArk">ark:29072/x0h702q667fs</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0h989r350r0</idno>
+                  <idno type="crArk">ark:29072/x0h702q667fs</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 25</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Bond">
                      <p>
+                        <seg type="docType">Bond to perform.</seg>
                         <placeName key="place_109164">Banbury (Oxfordshire)</placeName>, <placeName key="place_111951">Neithrop (Oxfordshire)</placeName>. <origDate when="1614">1614</origDate>. </p>
                   </msItem>
                </msContents>

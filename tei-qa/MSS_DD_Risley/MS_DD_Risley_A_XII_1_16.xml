@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930614">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930614">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XII. 1/16</idno>
-                  <idno type="ieArk">ark:29072/x0ns064599rw</idno><idno type="crArk">ark:29072/x0np193916f6</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0ns064599rw</idno>
+                  <idno type="crArk">ark:29072/x0np193916f6</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Rental">
                      <p>
+                        <seg type="docType">Rental.</seg>
                         <placeName key="place_111923">Fawler (Oxfordshire)</placeName>, <placeName key="place_109479">Sibford Gower (Oxfordshire)</placeName>, <placeName key="place_109511">Sibford Ferris (Oxfordshire)</placeName>, <placeName key="place_108767">Epwell (Oxfordshire)</placeName>, <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>, <placeName key="place_109510">Temple
                            Cowley (Oxfordshire)</placeName>, <placeName key="place_105449">Oxford (Oxfordshire)</placeName>. <origDate>'no date'</origDate>.   </p>
                   </msItem>

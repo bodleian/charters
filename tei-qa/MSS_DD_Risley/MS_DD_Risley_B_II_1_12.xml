@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930535">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930535">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,17 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 1/12</idno>
-                  <idno type="ieArk">ark:29072/x04b29b703dv</idno><idno type="crArk">ark:29072/x047429b2033</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x04b29b703dv</idno>
+                  <idno type="crArk">ark:29072/x047429b2033</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 46</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Mortgage|Promissory note|Account|Acknowledgement">
                      <p>
+                        <seg type="docType">Mortgage, with promissory note; account of money due on mortgage;
+                        acknowledgement of possession of monies due.</seg>
                         <placeName key="place_111905">Bodicote (Oxfordshire)</placeName>. <origDate when="1708">1708</origDate>. </p>
                   </msItem>
                </msContents>

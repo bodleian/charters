@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930752">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930752">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. X. 1/5</idno>
-                  <idno type="ieArk">ark:29072/x0h415p9846p</idno><idno type="crArk">ark:29072/x0h128nf00wn</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0h415p9846p</idno>
+                  <idno type="crArk">ark:29072/x0h128nf00wn</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 26</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Mortgage|Assignment of lease Mortgage|Assignment of lease">
                      <p>
+                        <seg type="docType">Mortgage by assignment of lease Mortgage by assignment of lease.</seg>
                         <placeName key="place_113589">South Stoke (Oxfordshire) (manor)</placeName>, <placeName key="place_107105">South Stoke (Oxfordshire)</placeName>, <placeName key="place_107050">Moulsford (Berkshire)</placeName>, <placeName key="place_113634">Checkendon (Oxfordshire)</placeName>, <placeName key="place_107032">Goring (Oxfordshire)</placeName>, <placeName key="place_108255">Caversham (Oxfordshire)</placeName>. <origDate when="1689">1689</origDate>. </p>
                   </msItem>
                </msContents>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930203">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930203">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 3/31-33</idno>
-                  <idno type="ieArk">ark:29072/x0f7623d01bv</idno><idno type="crArk">ark:29072/x0f4752h1814</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0f7623d01bv</idno>
+                  <idno type="crArk">ark:29072/x0f4752h1814</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Assignment|Bond|Release">
                      <p>
+                        <seg type="docType">Assignment [of lands]; Bond; Release.</seg>
                         <placeName key="place_113610">West Adderbury (Oxfordshire)</placeName>. <origDate when="1684">1684</origDate>. </p>
                   </msItem>
                </msContents>

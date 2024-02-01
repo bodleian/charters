@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930204">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930204">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. I. 1/7</idno>
-                  <idno type="ieArk">ark:29072/x0qn59q382mb</idno><idno type="crArk">ark:29072/x0qj72p6999q</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0qn59q382mb</idno>
+                  <idno type="crArk">ark:29072/x0qj72p6999q</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Poor relief papers">
                      <p>
+                        <seg type="docType">Papers rel to poor relief 1685-1838.</seg>
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>. <origDate notBefore="1685" notAfter="1838">1685-1838 </origDate>. </p>
                   </msItem>
                </msContents>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930078">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930078">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. II. 4/1</idno>
-                  <idno type="ieArk">ark:29072/x0kd17ct007w</idno><idno type="crArk">ark:29072/x0k930bx16xx</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0kd17ct007w</idno>
+                  <idno type="crArk">ark:29072/x0k930bx16xx</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Marriage settlement|Lease">
                      <p>
+                        <seg type="docType">Marriage settlement: lease for a year.</seg>
                         <placeName key="place_113603">East Anton (Hampshire)</placeName>, <placeName key="place_111885">Andover (Hampshire)</placeName>, <placeName key="place_113602">Kings Enham (Hampshire)</placeName>, <placeName key="place_113601">Knights Enham (Hampshire)</placeName>, <placeName key="place_113599">Nether Wallop (Hampshire)</placeName>, <placeName key="place_113600">Over
                         Wallop (Hampshire)</placeName>, <placeName key="place_108137">Broughton (Hampshire)</placeName>, <placeName key="place_113598">Grately (Hampshire)</placeName>. <origDate when="1681">1681</origDate>. </p>
                   </msItem>

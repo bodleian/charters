@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930492">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930492">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. II. 9/2</idno>
-                  <idno type="ieArk">ark:29072/x0tb09j531zs</idno><idno type="crArk">ark:29072/x0t722h848n5</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0tb09j531zs</idno>
+                  <idno type="crArk">ark:29072/x0t722h848n5</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Deed to lead the uses of a fine">
                      <p>
+                        <seg type="docType">Deed to lead to uses of a fine.</seg>
                         <placeName key="place_109164">Banbury (Oxfordshire)</placeName>, <placeName key="place_109253">Drayton (Oxfordshire)</placeName>. <origDate notBefore="1695" notAfter="1696">1695-1696 </origDate>. </p>
                   </msItem>
                </msContents>

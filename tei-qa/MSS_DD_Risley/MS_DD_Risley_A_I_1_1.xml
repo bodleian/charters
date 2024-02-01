@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930724">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930724">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,17 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. I. 1/1</idno>
-                  <idno type="ieArk">ark:29072/x0mw22v549x4</idno><idno type="crArk">ark:29072/x0ms35t866m8</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0mw22v549x4</idno>
+                  <idno type="crArk">ark:29072/x0ms35t866m8</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Certificate|Subscription|Oath">
                      <p>
+                        <seg type="docType">Certificate [of subscription to 39 Articles and taking oath of Supremacy
+                        at matriculation].</seg>
                         <orgName key="org_109027">Oxford University</orgName>. <origDate when="1777">1777</origDate>. </p>
                   </msItem>
                </msContents>

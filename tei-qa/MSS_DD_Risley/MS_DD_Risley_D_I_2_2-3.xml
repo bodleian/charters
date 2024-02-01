@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930633">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930633">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley D. I. 2/2-3</idno>
-                  <idno type="ieArk">ark:29072/x0r207tp160m</idno><idno type="crArk">ark:29072/x0qz20ss32pd</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0r207tp160m</idno>
+                  <idno type="crArk">ark:29072/x0qz20ss32pd</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 74</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Quitclaim">
                      <p>
+                        <seg type="docType">Quitclaim and copy.</seg>
                         <placeName key="place_109341">Kingham (Oxfordshire)</placeName>, <placeName key="place_111102">Wootton (Lincolnshire)</placeName>. <origDate when="1699">1699</origDate>. </p>
                   </msItem>
                </msContents>

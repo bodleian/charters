@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930490">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930490">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. VI. 4/5</idno>
-                  <idno type="ieArk">ark:29072/x05425kb69t9</idno><idno type="crArk">ark:29072/x05138jf86hf</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x05425kb69t9</idno>
+                  <idno type="crArk">ark:29072/x05138jf86hf</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 22</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Lease">
                      <p>
+                        <seg type="docType">Counterpart lease for years.</seg>
                         <placeName key="place_109164">Banbury (Oxfordshire)</placeName>. <origDate notBefore="1694" notAfter="1695">1694-1695 </origDate>. </p>
                   </msItem>
                </msContents>

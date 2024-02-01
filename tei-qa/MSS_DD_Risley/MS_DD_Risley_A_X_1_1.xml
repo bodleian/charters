@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930743">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930743">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. X. 1/1</idno>
-                  <idno type="ieArk">ark:29072/x0fq977v17vz</idno><idno type="crArk">ark:29072/x0fn106z34jm</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0fq977v17vz</idno>
+                  <idno type="crArk">ark:29072/x0fn106z34jm</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 26</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Marriage settlement">
                      <p>
+                        <seg type="docType">Marriage settlement.</seg>
                         <placeName key="place_113589">South Stoke (Oxfordshire) (manor)</placeName>, <placeName key="place_107105">South
                         Stoke (Oxfordshire)</placeName>, <placeName key="place_113615">Grimsbury (Oxfordshire and Northamptonshire)</placeName>, <placeName key="place_107050">Moulsford (Berkshire)</placeName>, <placeName key="place_113634">Checkendon (Oxfordshire)</placeName>, <placeName key="place_107032">Goring (Oxfordshire)</placeName>, <placeName key="place_108255">Caversham (Oxfordshire)</placeName>. <origDate notBefore="1662" notAfter="1663">1662-1663 </origDate>. </p>
                   </msItem>

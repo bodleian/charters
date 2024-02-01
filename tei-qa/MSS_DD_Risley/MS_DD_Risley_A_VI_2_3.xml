@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930134">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930134">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. VI. 2/3</idno>
-                  <idno type="ieArk">ark:29072/x02514nm70h7</idno><idno type="crArk">ark:29072/x02227mq876h</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x02514nm70h7</idno>
+                  <idno type="crArk">ark:29072/x02227mq876h</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 22</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Abstract of title">
                      <p>
+                        <seg type="docType">Record of land holding.</seg>
                         <placeName key="place_113615">Grimsbury (Oxfordshire)</placeName>. <origDate notBefore="1636" notAfter="1637">1636-1637 </origDate>. </p>
                   </msItem>
                </msContents>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930778">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930778">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. VII. 1/20</idno>
-                  <idno type="ieArk">ark:29072/x0ws859f14r0</idno><idno type="crArk">ark:29072/x0wp988j31f4</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0ws859f14r0</idno>
+                  <idno type="crArk">ark:29072/x0wp988j31f4</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 23</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Mortgage">
                      <p>
+                        <seg type="docType">Mortgage.</seg>
                         <placeName key="place_113623">Wickham (Oxfordshire)</placeName>, <placeName key="place_111951">Neithrop (Oxfordshire)</placeName>, <placeName key="place_113622">Calthorpe (Oxfordshire)</placeName>, <placeName key="place_113624">Easington (Oxfordshire)</placeName>, <placeName key="place_109164">Banbury (Oxfordshire)</placeName>. <origDate when="1709">1709</origDate>. </p>
                   </msItem>
                </msContents>

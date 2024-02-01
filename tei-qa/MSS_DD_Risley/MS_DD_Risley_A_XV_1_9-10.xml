@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930109">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930109">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XV. 1/9-10</idno>
-                  <idno type="ieArk">ark:29072/x0bc386j8594</idno><idno type="crArk">ark:29072/x0b8515p020j</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0bc386j8594</idno>
+                  <idno type="crArk">ark:29072/x0b8515p020j</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 35</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Lease|Insurance policy">
                      <p>
+                        <seg type="docType">Lease, with Insurance policy.</seg>
                         <placeName key="place_113647">Westminster, Duke Street (Middlesex) (street)</placeName>. <origDate when="1785">1785</origDate>. </p>
                   </msItem>
                </msContents>

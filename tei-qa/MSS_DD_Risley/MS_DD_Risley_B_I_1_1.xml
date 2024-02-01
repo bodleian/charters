@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930756">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930756">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. I. 1/1</idno>
-                  <idno type="ieArk">ark:29072/x008612p87q4</idno><idno type="crArk">ark:29072/x005741t04df</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x008612p87q4</idno>
+                  <idno type="crArk">ark:29072/x005741t04df</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 37</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Lease">
                      <p>
+                        <seg type="docType">Lease for life (counterpart).</seg>
                         <placeName key="place_109506">Swerford (Oxfordshire)</placeName>. <origDate when="1683">1683</origDate>. </p>
                   </msItem>
                </msContents>

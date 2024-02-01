@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930311">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930311">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,15 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. I. 3/4 i</idno>
-                  <idno type="ieArk">ark:29072/x0bk128b520t</idno><idno type="crArk">ark:29072/x0bg257f68pr</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0bk128b520t</idno>
+                  <idno type="crArk">ark:29072/x0bg257f68pr</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
-                     <p>
+                  <msItem><!--document type not found-->
+                     <p><!--document type not found-->
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>. <origDate when="1732">1732</origDate>. </p>
                   </msItem>
                </msContents>

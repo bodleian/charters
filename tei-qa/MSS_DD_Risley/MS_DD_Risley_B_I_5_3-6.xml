@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930394">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930394">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. I. 5/3-6</idno>
-                  <idno type="ieArk">ark:29072/x0dz010q51fv</idno><idno type="crArk">ark:29072/x0dv13zt684x</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0dz010q51fv</idno>
+                  <idno type="crArk">ark:29072/x0dv13zt684x</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 41</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Enclosure Act|Enclosure Award">
                      <p>
+                        <seg type="docType">Enclosure Act and Award.</seg>
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>. <origDate notBefore="1766" notAfter="1768">1766-1768 </origDate>. </p>
                   </msItem>
                </msContents>

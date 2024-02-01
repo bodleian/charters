@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930049">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930049">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley D. I. 3/3</idno>
-                  <idno type="ieArk">ark:29072/x0sn009x48z5</idno><idno type="crArk">ark:29072/x0sj139165nj</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0sn009x48z5</idno>
+                  <idno type="crArk">ark:29072/x0sj139165nj</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 74</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Order">
                      <p>
+                        <seg type="docType">Order of commissioners for ejcting scandalous ministers.</seg>
                         <placeName key="place_111283">Buscot (Berkshire)</placeName>. <origDate when="1654">1654</origDate>. </p>
                   </msItem>
                </msContents>

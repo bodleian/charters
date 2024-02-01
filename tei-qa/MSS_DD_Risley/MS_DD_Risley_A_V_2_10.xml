@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930605">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930605">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. V. 2/10</idno>
-                  <idno type="ieArk">ark:29072/x079407z02nw</idno><idno type="crArk">ark:29072/x076537219bd</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x079407z02nw</idno>
+                  <idno type="crArk">ark:29072/x076537219bd</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 20</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Bargain and sale|Deed to make a tenant to the precipe">
                      <p>
+                        <seg type="docType">Bargain and sale and Covenant to lead to Common Recovery.</seg>
                         <placeName key="place_113624">Easington (Oxfordshire)</placeName>, <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>, <placeName key="place_109386">Milton (Oxfordshire)</placeName>. <origDate when="1759">1759</origDate>. </p>
                   </msItem>
                </msContents>

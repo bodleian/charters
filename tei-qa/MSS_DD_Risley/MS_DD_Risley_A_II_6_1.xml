@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930784">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930784">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. II. 6/1</idno>
-                  <idno type="ieArk">ark:29072/x0qj72p6998b</idno><idno type="crArk">ark:29072/x0qf85nb15z9</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0qj72p6998b</idno>
+                  <idno type="crArk">ark:29072/x0qf85nb15z9</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Lease|Marriage settlement">
                      <p>
+                        <seg type="docType">Lease for a year (part of marriage settlement).</seg>
                         <placeName key="place_113636">Newtown (Shropshire)</placeName>, <placeName key="place_113637">Northwood (Shropshire)</placeName>, <placeName key="place_113638">Wolverley (Shropshire)</placeName>, <placeName key="place_113639">Wem (Shropshire)</placeName>, <placeName key="place_108010">Coventry (Warwickshire)</placeName>, <placeName key="place_1083511">Ramsden Bellhouse (Essex)</placeName>. <origDate when="1753">1753</origDate>. </p>
                   </msItem>
                </msContents>

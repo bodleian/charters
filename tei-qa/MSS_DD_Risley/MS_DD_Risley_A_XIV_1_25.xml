@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930005">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930005">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XIV. 1/25</idno>
-                  <idno type="ieArk">ark:29072/x012579t544v</idno><idno type="crArk">ark:29072/x00z708x70tn</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x012579t544v</idno>
+                  <idno type="crArk">ark:29072/x00z708x70tn</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 34</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Release">
                      <p>
+                        <seg type="docType">Release.</seg>
                         <placeName key="place_113583">Campton (Bedfordshire)</placeName>. <origDate when="1542">1542</origDate>. </p>
                   </msItem>
                </msContents>

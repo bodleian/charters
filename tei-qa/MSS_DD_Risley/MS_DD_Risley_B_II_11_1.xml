@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930638">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930638">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 11/1</idno>
-                  <idno type="ieArk">ark:29072/x0p8418n16bb</idno><idno type="crArk">ark:29072/x0p5547r331g</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0p8418n16bb</idno>
+                  <idno type="crArk">ark:29072/x0p5547r331g</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 54</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Feoffment">
                      <p>
+                        <seg type="docType">Feoffment.</seg>
                         <placeName key="place_109386">Milton (Oxfordshire)</placeName>. <origDate when="1601">1601</origDate>. </p>
                   </msItem>
                </msContents>

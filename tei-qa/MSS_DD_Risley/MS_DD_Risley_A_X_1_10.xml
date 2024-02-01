@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930742">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930742">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. X. 1/10</idno>
-                  <idno type="ieArk">ark:29072/x0fx719m84gq</idno><idno type="crArk">ark:29072/x0ft848r0151</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0fx719m84gq</idno>
+                  <idno type="crArk">ark:29072/x0ft848r0151</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 26</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Court book">
                      <p>
+                        <seg type="docType">Court book (IV).</seg>
                         <placeName key="place_113589">South Stoke (Oxfordshire) (manor)</placeName>. <origDate notBefore="1662" notAfter="1702">1662-1702 </origDate>. </p>
                   </msItem>
                </msContents>

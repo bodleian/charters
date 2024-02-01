@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930140">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930140">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. VI. 2/9</idno>
-                  <idno type="ieArk">ark:29072/x03b5919707w</idno><idno type="crArk">ark:29072/x037720d86xx</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x03b5919707w</idno>
+                  <idno type="crArk">ark:29072/x037720d86xx</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 22</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Exemplification|Common recovery">
                      <p>
+                        <seg type="docType">Exemplification of a common recovery.</seg>
                         <placeName key="place_113615">Grimsbury (Oxfordshire)</placeName>. <origDate when="1652">1652</origDate>. </p>
                   </msItem>
                </msContents>

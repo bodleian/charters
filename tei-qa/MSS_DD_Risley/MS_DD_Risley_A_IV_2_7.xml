@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930210">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930210">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. IV. 2/7</idno>
-                  <idno type="ieArk">ark:29072/x06t053g862s</idno><idno type="crArk">ark:29072/x06q182m02rr</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x06t053g862s</idno>
+                  <idno type="crArk">ark:29072/x06q182m02rr</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 15</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Deed to lead the uses of a fine">
                      <p>
+                        <seg type="docType">Declaration of the uses of a fine.</seg>
                         <placeName key="place_109150">Adderbury (Oxfordshire)</placeName>, <placeName key="place_109386">Milton (Oxfordshire)</placeName>. <origDate when="1689">1689</origDate>. </p>
                   </msItem>
                </msContents>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930055">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930055">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XII. 1/34</idno>
-                  <idno type="ieArk">ark:29072/x0sx61dk98s4</idno><idno type="crArk">ark:29072/x0st74cq15gf</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0sx61dk98s4</idno>
+                  <idno type="crArk">ark:29072/x0st74cq15gf</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Will">
                      <p>
+                        <seg type="docType">Copy of Will.</seg>
                         <placeName key="place_109065">Oving (Buckinghamshire) (manor)</placeName>. <origDate when="1770">1770</origDate>. </p>
                   </msItem>
                </msContents>

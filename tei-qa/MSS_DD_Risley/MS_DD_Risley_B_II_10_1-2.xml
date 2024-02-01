@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930654">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930654">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,17 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 10/1-2</idno>
-                  <idno type="ieArk">ark:29072/x0n870zq837x</idno><idno type="crArk">ark:29072/x0n583xt99xv</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0n870zq837x</idno>
+                  <idno type="crArk">ark:29072/x0n583xt99xv</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 53</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Will|Grant of probate|Legal papers">
                      <p>
+                        <seg type="docType">Will, 2 copies, and probate, plus bundle of papers relating to dispute
+                        concerning will.</seg>
                         <placeName key="place_109386">Milton (Oxfordshire)</placeName>. <origDate notBefore="1660" notAfter="1661">1660-1661 </origDate>. </p>
                   </msItem>
                </msContents>

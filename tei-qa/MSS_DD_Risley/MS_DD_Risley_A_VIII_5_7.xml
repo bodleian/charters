@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930463">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930463">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,17 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. VIII. 5/7</idno>
-                  <idno type="ieArk">ark:29072/x0t722h848pj</idno><idno type="crArk">ark:29072/x0t435gc65cp</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0t722h848pj</idno>
+                  <idno type="crArk">ark:29072/x0t435gc65cp</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 25</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Letters patent|Grant">
                      <p>
+                        <seg type="docType">Office copy of letters patent with translation [grant to bishop of Oxford
+                        of property etc].</seg>
                         <placeName key="place_109164">Banbury (Oxfordshire)</placeName>, <placeName key="place_113625">Hardwick (Oxfordshire)</placeName>. <origDate when="1589">1589</origDate>. </p>
                   </msItem>
                </msContents>

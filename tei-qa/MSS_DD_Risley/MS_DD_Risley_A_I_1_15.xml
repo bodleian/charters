@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930148">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930148">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,17 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. I. 1/15</idno>
-                  <idno type="ieArk">ark:29072/x0p2676v49nn</idno><idno type="crArk">ark:29072/x0nz805z66bs</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0p2676v49nn</idno>
+                  <idno type="crArk">ark:29072/x0nz805z66bs</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Lay subsidy, collector's account">
                      <p>
+                        <seg type="docType">Extract from lay subsidy roll, account of collector (1st of 3 x subsidies
+                        granted to James I in.</seg>
                         <placeName key="place_108127">Bullingdon Hundred (Oxfordshire) (hundred)</placeName>, <placeName key="place_113617">Thame Hundred (Oxfordshire) (hundred)</placeName>, <placeName key="place_113618">Dorchester Hundred (Oxfordshire) (hundred)</placeName>. <origDate when="1624">1624</origDate>. </p>
                   </msItem>
                </msContents>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930529">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930529">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,17 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley B. II. 2/12</idno>
-                  <idno type="ieArk">ark:29072/x07366653639</idno><idno type="crArk">ark:29072/x070795852s3</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x07366653639</idno>
+                  <idno type="crArk">ark:29072/x070795852s3</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 47</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Deed to make a tenant to the precipe">
                      <p>
+                        <seg type="docType">Lease and release to make a tenant to the freehold to suffer a
+                        recovery.</seg>
                         <placeName key="place_111905">Bodicote (Oxfordshire)</placeName>. <origDate notBefore="1704" notAfter="1705">1704-1705 </origDate>. </p>
                   </msItem>
                </msContents>

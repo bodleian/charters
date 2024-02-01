@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930717">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930717">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. II. 9/3</idno>
-                  <idno type="ieArk">ark:29072/x0tq57nq656v</idno><idno type="crArk">ark:29072/x0tm70mt81wr</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0tq57nq656v</idno>
+                  <idno type="crArk">ark:29072/x0tm70mt81wr</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Will|Grant of probate">
                      <p>
+                        <seg type="docType">Copy of Will with Grant of Probate attached.</seg>
                         <placeName key="place_111951">Neithrop (Oxfordshire)</placeName>, <placeName key="place_109253">Drayton (Oxfordshire)</placeName>. <origDate notBefore="1713" notAfter="1714">1713-1714 </origDate>. </p>
                   </msItem>
                </msContents>

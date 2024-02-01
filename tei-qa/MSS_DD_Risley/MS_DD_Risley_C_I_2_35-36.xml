@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930079">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930079">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,15 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley C. I. 2/35-36</idno>
-                  <idno type="ieArk">ark:29072/x0kw52j816zm</idno><idno type="crArk">ark:29072/x0ks65hc33nr</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0kw52j816zm</idno>
+                  <idno type="crArk">ark:29072/x0ks65hc33nr</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Risley c. 62</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
-                     <p>
+                  <msItem><!--document type not found-->
+                     <p><!--document type not found-->
                         <orgName key="org_109044">Winchester College</orgName>. <origDate notBefore="1764" notAfter="1824">1764-1824 </origDate>. </p>
                   </msItem>
                </msContents>

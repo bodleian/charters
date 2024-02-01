@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930584">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930584">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,14 +43,18 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. II. 9/18</idno>
-                  <idno type="ieArk">ark:29072/x0sx61dk98qc</idno><idno type="crArk">ark:29072/x0st74cq15dp</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0sx61dk98qc</idno>
+                  <idno type="crArk">ark:29072/x0st74cq15dp</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Survey">
                      <p>
-                        <placeName key="place_109253">Drayton (Oxfordshire)</placeName>. <origDate>'no date'. </origDate> </p>
+                        <seg type="docType">Survey.</seg>
+                        <placeName key="place_109253">Drayton (Oxfordshire)</placeName>. <origDate>'no date'. </origDate> 
+                     </p>
                   </msItem>
                </msContents>
                <additional>

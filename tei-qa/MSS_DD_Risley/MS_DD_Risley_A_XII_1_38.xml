@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930629">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_930629">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Risley</collection>
                   <idno type="shelfmark">MS. D.D. Risley A. XII. 1/38</idno>
-                  <idno type="ieArk">ark:29072/x0tq57nq658m</idno><idno type="crArk">ark:29072/x0tm70mt81zh</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0tq57nq658m</idno>
+                  <idno type="crArk">ark:29072/x0tm70mt81zh</idno>
+                  <altIdentifier>
                      <idno type="orderableItem"><!--to be supplied--></idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Exemplification|Letters patent|Final concord">
                      <p>
+                        <seg type="docType">Final concord exemplification of by letters patent.</seg>
                         <placeName key="place_113633">Kingham (Oxfordshire) (manor)</placeName>. <origDate when="1617">1617</origDate>. </p>
                   </msItem>
                </msContents>
