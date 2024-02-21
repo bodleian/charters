@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_805144">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_805144">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Weld</collection>
                   <idno type="shelfmark">MS. D.D. Weld c. 2/8</idno>
-                  <idno type="ieArk">ark:29072/x0cf95jc01ts</idno><idno type="crArk">ark:29072/x0cc08hg18hg</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0cf95jc01ts</idno>
+                  <idno type="crArk">ark:29072/x0cc08hg18hg</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Weld c. 2</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,16 @@
                         <placeName key="place_113102">Pipe</placeName>. <origDate when="1678">1678</origDate>.</p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Seal missing</summary>
+                     <seal>
+                        <p>
+                           <persName>William Webloe</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
@@ -60,7 +74,14 @@
                               <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/3fcc3f65-5904-42c2-af5e-ea8a9e6faccb.json">Calendar slip</bibl>
                            </listBibl>
                         </source>
-                     </recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">603267337</idno></custEvent></custodialHist>
+                     </recordHist>
+                     <availability status="offsite">
+                        <p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p>
+                     </availability>
+                     <custodialHist>
+                        <custEvent type="barcode">Barcode: <idno type="barcode">603267337</idno>
+                        </custEvent>
+                     </custodialHist>
                   </adminInfo>
                </additional>
             </msDesc>

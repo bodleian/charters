@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_805041">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_805041">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Weld</collection>
                   <idno type="shelfmark">MS. D.D. Weld c. 10/4</idno>
-                  <idno type="ieArk">ark:29072/x037720d703f</idno><idno type="crArk">ark:29072/x0v405s898m7</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x037720d703f</idno>
+                  <idno type="crArk">ark:29072/x0v405s898m7</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Weld c. 10</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -60,7 +64,14 @@
                               <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/d4003008-94a5-48b2-916b-41cdbb1e4063.json">Calendar slip</bibl>
                            </listBibl>
                         </source>
-                     </recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">603267345</idno></custEvent></custodialHist>
+                     </recordHist>
+                     <availability status="offsite">
+                        <p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p>
+                     </availability>
+                     <custodialHist>
+                        <custEvent type="barcode">Barcode: <idno type="barcode">603267345</idno>
+                        </custEvent>
+                     </custodialHist>
                   </adminInfo>
                </additional>
             </msDesc>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_805116">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_805116">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Weld</collection>
                   <idno type="shelfmark">MS. D.D. Weld c 1/1</idno>
-                  <idno type="ieArk">ark:29072/x0xd07gs14rk</idno><idno type="crArk">ark:29072/x0x920fw31ft</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0xd07gs14rk</idno>
+                  <idno type="crArk">ark:29072/x0x920fw31ft</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Weld c 1</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,14 @@
                         <placeName key="place_113102">Pipe</placeName>. <origDate when="1293">1293</origDate>.</p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <decoNote>Star</decoNote>
+                        <legend>With legend (?)</legend>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
@@ -60,7 +72,14 @@
                               <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/63f42c6c-fc9c-4c20-af82-b701b4c43cc1.json">Calendar slip</bibl>
                            </listBibl>
                         </source>
-                     </recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">603267336</idno></custEvent></custodialHist>
+                     </recordHist>
+                     <availability status="offsite">
+                        <p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p>
+                     </availability>
+                     <custodialHist>
+                        <custEvent type="barcode">Barcode: <idno type="barcode">603267336</idno>
+                        </custEvent>
+                     </custodialHist>
                   </adminInfo>
                </additional>
             </msDesc>

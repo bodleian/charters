@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_805027">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_805027">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,7 +43,9 @@
                   <repository>Bodleian Library</repository>
                   <collection>Weld</collection>
                   <idno type="shelfmark">MS. D.D. Weld c. 6/3-5</idno>
-                  <idno type="ieArk">ark:29072/x0x920fw31g6</idno><idno type="crArk">ark:29072/x0x633f0485q</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0x920fw31g6</idno>
+                  <idno type="crArk">ark:29072/x0x633f0485q</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Weld c. 6</idno>
                   </altIdentifier>
                </msIdentifier>
@@ -51,6 +55,25 @@
                         <placeName key="place_113092">Chillworth</placeName>. <origDate when="1660">1660</origDate>.</p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>
+                           <persName>Sir George Symeon</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Dame Margaret Symeon</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Edward Symeon</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>
@@ -60,7 +83,14 @@
                               <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/4e10f3a2-a591-4b47-977c-9cf5b90e654a.json">Calendar slip</bibl>
                            </listBibl>
                         </source>
-                     </recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">603267341</idno></custEvent></custodialHist>
+                     </recordHist>
+                     <availability status="offsite">
+                        <p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p>
+                     </availability>
+                     <custodialHist>
+                        <custEvent type="barcode">Barcode: <idno type="barcode">603267341</idno>
+                        </custEvent>
+                     </custodialHist>
                   </adminInfo>
                </additional>
             </msDesc>
