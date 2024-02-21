@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910360">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910360">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 350</idno>
-                  <idno type="ieArk">ark:29072/x0gh93gz8443</idno><idno type="crArk">ark:29072/x0gf06g300tq</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0gh93gz8443</idno>
+                  <idno type="crArk">ark:29072/x0gf06g300tq</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 4</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Inquisition">
                      <p>
+                        <seg type="docType">Inquisition[into estates]. Indenture.</seg>
                         <placeName key="place_113324">Woughton on the Green</placeName>, <placeName key="place_113310">Wolverton</placeName>, <placeName key="place_113315">Walton</placeName>. <origDate when="1546">1546</origDate>.</p>
                   </msItem>
                </msContents>

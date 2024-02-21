@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910022">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910022">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,22 +43,28 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 231</idno>
-                  <idno type="ieArk">ark:29072/x0kd17ct003c</idno><idno type="crArk">ark:29072/x0k930bx16sd</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0kd17ct003c</idno>
+                  <idno type="crArk">ark:29072/x0k930bx16sd</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Quitclaim">
                      <p>
+                        <seg type="docType">Quitclaim.</seg>
                         <placeName key="place_113309">Calverton</placeName>. <origDate when="1302">1302</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal><p>Seal of <persName>Sibilla daughter of Walter of Hyntes</persName>.</p>
-                     <decoNote>Eight-pointed star</decoNote>
-                     <legend>SIBILL . HINT .</legend>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Sibilla daughter of Walter of Hyntes</persName>.</p>
+                        <decoNote>Eight-pointed star</decoNote>
+                        <legend>SIBILL . HINT .</legend>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

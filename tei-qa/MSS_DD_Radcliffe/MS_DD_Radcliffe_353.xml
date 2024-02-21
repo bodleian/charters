@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910369">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910369">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 353</idno>
-                  <idno type="ieArk">ark:29072/x0h415p9840d</idno><idno type="crArk">ark:29072/x0h128nf00pc</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0h415p9840d</idno>
+                  <idno type="crArk">ark:29072/x0h128nf00pc</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 4</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Final concord">
                      <p>
+                        <seg type="docType">Copy of fine.</seg>
                         <placeName key="place_113325">Little Billing</placeName>, <placeName key="place_113329"> Wootton (Huntingdon Fee)</placeName>, <placeName key="place_113328">Farndon</placeName>, <placeName key="place_113320">Wolverton</placeName>, <placeName key="place_113326">Stony
                         Stratford</placeName>, <placeName key="place_113330">Walton</placeName>, <placeName key="place_113335">Creighton</placeName>, <placeName key="place_113334">Stramshall</placeName>, <placeName key="place_113336">Great Barr</placeName>, <placeName key="place_113331">Glascote</placeName>. <origDate when="1598">1598</origDate>.</p>
                   </msItem>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910648">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910648">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 614</idno>
-                  <idno type="ieArk">ark:29072/x0d504rk84rw</idno><idno type="crArk">ark:29072/x0d217qq01f6</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0d504rk84rw</idno>
+                  <idno type="crArk">ark:29072/x0d217qq01f6</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 18</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
+                        <seg type="docType">Grant and confirmation.</seg>
                         <placeName key="place_113343">Frolesworth</placeName>. <origDate when="1383">1383</origDate>.</p>
                   </msItem>
                </msContents>

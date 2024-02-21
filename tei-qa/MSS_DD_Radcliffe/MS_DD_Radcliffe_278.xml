@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910091">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910091">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,25 +43,30 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 278</idno>
-                  <idno type="ieArk">ark:29072/x0xg94hn97rf</idno><idno type="crArk">ark:29072/x0xd07gs14f5</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0xg94hn97rf</idno>
+                  <idno type="crArk">ark:29072/x0xd07gs14f5</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Release">
                      <p>
+                        <seg type="docType">Release with warranty.</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>. <origDate when="1459">1459</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <summary>Two seals, one armorial.</summary>
-                  <seal>
-                     <p>Seal of <persName>Thomas Rokus</persName>.</p>
-                  </seal>
-                  <seal>
-                     <p>Seal of <persName>Richard Tyrell</persName>.</p>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <summary>Two seals, one armorial.</summary>
+                     <seal>
+                        <p>Seal of <persName>Thomas Rokus</persName>.</p>
+                     </seal>
+                     <seal>
+                        <p>Seal of <persName>Richard Tyrell</persName>.</p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

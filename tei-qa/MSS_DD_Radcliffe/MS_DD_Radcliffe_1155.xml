@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910637">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910637">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,15 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 1155</idno>
-                  <idno type="ieArk">ark:29072/x0pn89d64995</idno><idno type="crArk">ark:29072/x0pk02c9660t</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0pn89d64995</idno>
+                  <idno type="crArk">ark:29072/x0pk02c9660t</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 29</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
-                     <p>
+                  <msItem class="lease">
+                     <p><seg type="docType">Lease.</seg>
                         <placeName key="place_113336">Great Barr</placeName>, <placeName key="place_113335">Creighton</placeName>, <placeName key="place_108619">Uttoxeter</placeName>, <placeName key="place_113331">Glascote</placeName>. <origDate when="1628">1628</origDate>.</p>
                   </msItem>
                </msContents>

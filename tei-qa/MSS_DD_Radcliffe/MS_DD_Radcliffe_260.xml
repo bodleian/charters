@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910069">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910069">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,22 +43,27 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 260</idno>
-                  <idno type="ieArk">ark:29072/x0sq87bt31zz</idno><idno type="crArk">ark:29072/x0sn009x48nr</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0sq87bt31zz</idno>
+                  <idno type="crArk">ark:29072/x0sn009x48nr</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Settlement (dispute) Lease">
                      <p>
+                        <seg type="docType">Indenture recording settlement of disputes Lease (32 years).</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>, <placeName key="place_113310">Wolverton</placeName>. <origDate when="1320">1320</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>John le Forester</persName> (??).</p>
-                     <decoNote>Squirrel</decoNote>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>John le Forester</persName> (??).</p>
+                        <decoNote>Squirrel</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

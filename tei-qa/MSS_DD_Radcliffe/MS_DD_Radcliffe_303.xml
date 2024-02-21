@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910122">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910122">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 303</idno>
-                  <idno type="ieArk">ark:29072/x04f16c386gw</idno><idno type="crArk">ark:29072/x04b29b70356</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x04f16c386gw</idno>
+                  <idno type="crArk">ark:29072/x04b29b70356</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 3</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Lease">
                      <p>
+                        <seg type="docType">Lease (21 years). Indenture.</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>. <origDate when="1627">1627</origDate>.</p>
                   </msItem>
                </msContents>

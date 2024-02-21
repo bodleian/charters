@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910139">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910139">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,24 +43,29 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 531</idno>
-                  <idno type="ieArk">ark:29072/x0sx61dk98nm</idno><idno type="crArk">ark:29072/x0st74cq15bx</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0sx61dk98nm</idno>
+                  <idno type="crArk">ark:29072/x0st74cq15bx</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 12</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Deed to lead the uses of a fine">
                      <p>
+                        <seg type="docType">Declaration of use of fine.</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>, <placeName key="place_113310">Wolverton</placeName>, <placeName key="place_113309">Calverton</placeName>. <origDate when="1652">1652</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>Thomas Gibbs of Honnington</persName>.</p>
-                  </seal>
-                  <seal>
-                     <p>Seal of <persName>Percy Langracke of Wolverton</persName>.</p>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Thomas Gibbs of Honnington</persName>.</p>
+                     </seal>
+                     <seal>
+                        <p>Seal of <persName>Percy Langracke of Wolverton</persName>.</p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

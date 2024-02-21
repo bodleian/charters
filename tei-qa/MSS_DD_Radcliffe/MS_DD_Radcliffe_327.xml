@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910178">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910178">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,23 +43,28 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 327</idno>
-                  <idno type="ieArk">ark:29072/x09c67wn520m</idno><idno type="crArk">ark:29072/x09880vr68pn</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x09c67wn520m</idno>
+                  <idno type="crArk">ark:29072/x09880vr68pn</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 4</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
+                        <seg type="docType">Grant and confirmation with warranty.</seg>
                         <placeName key="place_113315">Walton</placeName>. <origDate notBefore="1275" notAfter="1325">1275-1325</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>Richard Asce of Walton</persName>.</p>
-                     <decoNote>Device</decoNote>
-                     <legend>S. RICARD ACE</legend>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Richard Asce of Walton</persName>.</p>
+                        <decoNote>Device</decoNote>
+                        <legend>S. RICARD ACE</legend>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

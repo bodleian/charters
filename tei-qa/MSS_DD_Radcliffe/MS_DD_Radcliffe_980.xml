@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910367">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910367">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,21 +43,25 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 980</idno>
-                  <idno type="ieArk">ark:29072/x0d791sg6832</idno><idno type="crArk">ark:29072/x0d504rk84s8</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0d791sg6832</idno>
+                  <idno type="crArk">ark:29072/x0d504rk84s8</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe e. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
-                     <p>
+                  <msItem class="Letters patent|Licence to alienate">
+                     <p><seg type="docType">Licence [to alienate?] (letters patent).</seg>
                         <placeName key="place_113325">Little Billing</placeName>, <placeName key="place_113336">Great Barr</placeName>, <placeName key="place_113335">Creighton</placeName>, <placeName key="place_113320">Wolverton</placeName>. <origDate when="1597">1597</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>Queen Elizabeth I</persName>.</p>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Queen Elizabeth I</persName>.</p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910046">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910046">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 469</idno>
-                  <idno type="ieArk">ark:29072/x09w032368kf</idno><idno type="crArk">ark:29072/x09s1616858k</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x09w032368kf</idno>
+                  <idno type="crArk">ark:29072/x09s1616858k</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 10</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Release">
                      <p>
+                        <seg type="docType">Indenture recording release for life with warranty.</seg>
                         <placeName key="place_111182">Padbury</placeName>. <origDate when="1337">1337</origDate>.</p>
                   </msItem>
                </msContents>

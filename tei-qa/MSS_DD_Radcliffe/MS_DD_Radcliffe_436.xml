@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910607">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910607">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 436</idno>
-                  <idno type="ieArk">ark:29072/x02r36tz7078</idno><idno type="crArk">ark:29072/x02n49t286xf</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x02r36tz7078</idno>
+                  <idno type="crArk">ark:29072/x02n49t286xf</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 9</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Assignment of term">
                      <p>
+                        <seg type="docType">Assignment [of term in trust] Indenture Tripartite.</seg>
                         <placeName key="place_113320">Wolverton</placeName>, <placeName key="place_113326">Stony Stratford</placeName>, <placeName key="place_113309">Calverton</placeName>. <origDate when="1694">1694</origDate>.</p>
                   </msItem>
                </msContents>

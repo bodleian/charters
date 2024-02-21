@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910310">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910310">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,24 +43,29 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 134</idno>
-                  <idno type="ieArk">ark:29072/x0v118rd14zd</idno><idno type="crArk">ark:29072/x0tx31qh31nj</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0v118rd14zd</idno>
+                  <idno type="crArk">ark:29072/x0tx31qh31nj</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
+                        <seg type="docType">Grant and confirmation with warranty.</seg>
                         <placeName key="place_113310">Wolverton</placeName>. <origDate when="1407">1407</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <decoNote>Letter B</decoNote>
-                  </seal>
-                  <seal>
-                     <decoNote>Letter H between two sprigs</decoNote>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <decoNote>Letter B</decoNote>
+                     </seal>
+                     <seal>
+                        <decoNote>Letter H between two sprigs</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910118">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910118">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,22 +43,27 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 643</idno>
-                  <idno type="ieArk">ark:29072/x0mg74qm16m0</idno><idno type="crArk">ark:29072/x0mc87pq3394</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0mg74qm16m0</idno>
+                  <idno type="crArk">ark:29072/x0mc87pq3394</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 19</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Assignment of lease">
                      <p>
+                        <seg type="docType">Assignment Lease for 21 years.</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>. <origDate when="1621">1621</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>Arthur Clare of Stony Stratford, labourer</persName>.</p>
-                     <decoNote>Eagle displayed</decoNote>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Arthur Clare of Stony Stratford, labourer</persName>.</p>
+                        <decoNote>Eagle displayed</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

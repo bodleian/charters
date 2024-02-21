@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910530">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910530">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,14 +43,17 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 977</idno>
-                  <idno type="ieArk">ark:29072/x0cf95jc01mh</idno><idno type="crArk">ark:29072/x0cc08hg1896</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0cf95jc01mh</idno>
+                  <idno type="crArk">ark:29072/x0cc08hg1896</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 21</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
-                        <placeName><!--key  not found in places.xml -->Wolverton</placeName>. <origDate when="1672">1672</origDate>.</p>
+                        <seg type="docType">Grant and release [of reversion].</seg>
+                        <placeName key="place_113320">Wolverton (manor)</placeName>. <origDate when="1672">1672</origDate>.</p>
                   </msItem>
                </msContents>
                <additional>

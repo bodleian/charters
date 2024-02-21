@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910105">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910105">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,21 +43,26 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 291</idno>
-                  <idno type="ieArk">ark:29072/x01n79h553s1</idno><idno type="crArk">ark:29072/x01j92g870g8</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x01n79h553s1</idno>
+                  <idno type="crArk">ark:29072/x01j92g870g8</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 3</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
+                        <seg type="docType">Grant and confirmation with warranty.</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>. <origDate when="1503">1503</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Unidentified seal.</p>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Unidentified seal.</p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

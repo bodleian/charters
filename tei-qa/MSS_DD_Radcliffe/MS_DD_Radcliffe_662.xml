@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910382">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910382">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 662</idno>
-                  <idno type="ieArk">ark:29072/x0rn301115n3</idno><idno type="crArk">ark:29072/x0rj430432b7</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0rn301115n3</idno>
+                  <idno type="crArk">ark:29072/x0rj430432b7</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe c. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Final concord">
                      <p>
+                        <seg type="docType">Record copy of Final concord.</seg>
                         <placeName key="place_113320">Wolverton (manor and advowson)</placeName>, <placeName key="place_113310">Wolverton</placeName>, <placeName key="place_113308">Stony Stratford</placeName>, <placeName key="place_113309">Calverton</placeName>, <placeName key="place_113325">(Little) Billing (manor)</placeName>, <placeName key="place_113328">Farndon (manor)</placeName>, <placeName key="place_113356">Cosgrave</placeName>, <placeName>Old Stratford</placeName>, <placeName key="place_133371">Moulton</placeName>, <placeName key="place_113336">(Great) Barr (manor)</placeName>,<placeName key="place_109155">Aldridge</placeName>, <placeName key="place_113335">Creighton (manor)</placeName>, <placeName key="place_108286">Tamworth</placeName>, <placeName key="place_113334">Stramshall</placeName>, <placeName key="place_114022">Perry Hall (manor)</placeName>,<placeName key="place_113361">Glascote (manor)</placeName>, etc. <origDate when="1628">1628</origDate>.</p>
                   </msItem>
                </msContents>

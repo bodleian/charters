@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910018">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910018">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,19 +43,26 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 19</idno>
-                  <idno type="ieArk">ark:29072/x08336h268xz</idno><idno type="crArk">ark:29072/x08049g585m3</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x08336h268xz</idno>
+                  <idno type="crArk">ark:29072/x08049g585m3</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
+                        <seg type="docType">Grant [Will].</seg>
                         <placeName key="place_113306">Bow Brickhill</placeName>, <placeName key="place_108856">Simpson</placeName>, <placeName key="place_113307">Fenny Stratford</placeName>. <origDate when="1428">1428</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal><p>One seal surviving (of originally seven); fragment only.</p></seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>One seal surviving (of originally seven); fragment only.</p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

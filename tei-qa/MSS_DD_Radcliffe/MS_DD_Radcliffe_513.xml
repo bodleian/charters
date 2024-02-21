@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910385">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910385">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 513</idno>
-                  <idno type="ieArk">ark:29072/x0nz805z667n</idno><idno type="crArk">ark:29072/x0nv935282xp</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0nz805z667n</idno>
+                  <idno type="crArk">ark:29072/x0nv935282xp</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 11</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Letters patent|Final concord|Exemplification">
                      <p>
+                        <seg type="docType">Letters patent exemplifying a final concord.</seg>
                         <placeName key="place_113320">Wolverton (manor)</placeName>,
                         <placeName key="place_113308">Stony Stratford</placeName>,
                         <placeName key="place_113309">Calverton</placeName>,

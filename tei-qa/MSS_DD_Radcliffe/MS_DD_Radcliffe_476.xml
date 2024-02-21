@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910231">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910231">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,23 +43,28 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 476</idno>
-                  <idno type="ieArk">ark:29072/x0cf95jc01jr</idno><idno type="crArk">ark:29072/x0cc08hg187f</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0cf95jc01jr</idno>
+                  <idno type="crArk">ark:29072/x0cc08hg187f</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 10</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
+                        <seg type="docType">Grant and confirmation with warranty.</seg>
                         <placeName key="place_113310">Wolverton</placeName>. <origDate notBefore="1300" notAfter="1325">1300-1325</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>Mariota daughter of Stephen Herui</persName>. <seg type="shape">Vesica</seg>.</p>
-                     <decoNote>Device (with cross)</decoNote>
-                     <legend>S. MARIE FIL. STEPH.</legend>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Mariota daughter of Stephen Herui</persName>. <seg type="shape">Vesica</seg>.</p>
+                        <decoNote>Device (with cross)</decoNote>
+                        <legend>S. MARIE FIL. STEPH.</legend>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

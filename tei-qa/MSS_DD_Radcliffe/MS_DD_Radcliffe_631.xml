@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910703">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910703">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 631</idno>
-                  <idno type="ieArk">ark:29072/x0hx11xf50j9</idno><idno type="crArk">ark:29072/x0ht24wj677k</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0hx11xf50j9</idno>
+                  <idno type="crArk">ark:29072/x0ht24wj677k</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 18</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Bargain and sale">
                      <p>
+                        <seg type="docType">Bargain and sale.</seg>
                         <placeName key="place_113358">Alvescot</placeName>, <placeName key="place_111971">Swalcliffe</placeName>. <origDate when="1651">1651</origDate>.</p>
                   </msItem>
                </msContents>

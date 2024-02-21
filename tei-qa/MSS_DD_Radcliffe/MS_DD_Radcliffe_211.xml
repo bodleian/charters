@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910674">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910674">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,23 +43,30 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 211</idno>
-                  <idno type="ieArk">ark:29072/x0f1881m34fw</idno><idno type="crArk">ark:29072/x0dz010q514f</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0f1881m34fw</idno>
+                  <idno type="crArk">ark:29072/x0dz010q514f</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Agreement">
                      <p>
+                        <seg type="docType">Agreement. Indenture.</seg>
                         <placeName key="place_133372">Little Billing</placeName>. <origDate when="1689">1689</origDate>.</p>
                   </msItem>
                </msContents>
                <physDesc>
                   <authDesc>
                      <seal>
-                        <p><persName>Thomas Bedford</persName></p>
+                        <p>
+                           <persName>Thomas Bedford</persName>
+                        </p>
                      </seal>
                      <seal>
-                        <p><persName>Thomas Gilberd</persName></p>
+                        <p>
+                           <persName>Thomas Gilberd</persName>
+                        </p>
                      </seal>
                   </authDesc>
                </physDesc>

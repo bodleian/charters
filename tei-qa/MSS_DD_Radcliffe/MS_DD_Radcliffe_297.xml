@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910354">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910354">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,28 +43,33 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 297</idno>
-                  <idno type="ieArk">ark:29072/x02v23vv53hr</idno><idno type="crArk">ark:29072/x02r36tz706w</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x02v23vv53hr</idno>
+                  <idno type="crArk">ark:29072/x02r36tz706w</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 3</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Agreement">
                      <p>
+                        <seg type="docType">Agreement. Indenture.</seg>
                         <placeName key="place_113310">Wolverton</placeName>. <origDate when="1526">1526</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <summary>Three seals (of an original five)</summary>
-                  <seal>
-                     <p>Unidentified.</p>
-                  </seal>
-                  <seal>
-                     <p>Unidentified.</p>
-                  </seal>
-                  <seal>
-                     <p>Unidentified.</p>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <summary>Three seals (of an original five)</summary>
+                     <seal>
+                        <p>Unidentified.</p>
+                     </seal>
+                     <seal>
+                        <p>Unidentified.</p>
+                     </seal>
+                     <seal>
+                        <p>Unidentified.</p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

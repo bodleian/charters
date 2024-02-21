@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910079">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910079">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 279</idno>
-                  <idno type="ieArk">ark:29072/x0xp68kf64c8</idno><idno type="crArk">ark:29072/x0xk81jj812h</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0xp68kf64c8</idno>
+                  <idno type="crArk">ark:29072/x0xk81jj812h</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Confirmation">
                      <p>
+                        <seg type="docType">Confirmation with warranty.</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>. <origDate notBefore="1300" notAfter="1500">1300-1500</origDate>.</p>
                   </msItem>
                </msContents>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910230">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910230">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,23 +43,28 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 62</idno>
-                  <idno type="ieArk">ark:29072/x0fb494884gj</idno><idno type="crArk">ark:29072/x0f7623d015z</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0fb494884gj</idno>
+                  <idno type="crArk">ark:29072/x0f7623d015z</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
+                        <seg type="docType">Grant and confirmation.</seg>
                         <placeName key="place_113310">Wolverton</placeName>. <origDate notBefore="1200" notAfter="1300">1200-1300</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>Sabrina wife of Walter de Lindeseya</persName>.</p>
-                     <decoNote>Device</decoNote>
-                     <legend xml:lang="fr">SIGILL. SABIN / LE FEM GWALT ...</legend>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Sabrina wife of Walter de Lindeseya</persName>.</p>
+                        <decoNote>Device</decoNote>
+                        <legend xml:lang="fr">SIGILL. SABIN / LE FEM GWALT ...</legend>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

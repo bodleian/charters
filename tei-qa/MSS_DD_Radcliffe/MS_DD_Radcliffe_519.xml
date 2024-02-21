@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910395">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910395">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 519</idno>
-                  <idno type="ieArk">ark:29072/x0q524jn65z8</idno><idno type="crArk">ark:29072/x0q237hr82nd</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0q524jn65z8</idno>
+                  <idno type="crArk">ark:29072/x0q237hr82nd</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 12</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Bargain and sale Bargain and sale">
                      <p>
+                        <seg type="docType">Indenture. Bargain and sale Indenture. Bargain and sale.</seg>
                         <placeName key="place_113320">Wolverton (manor and advowson)</placeName>,
                         <placeName key="place_113326">Stony Stratford (manor)</placeName>,
                         <placeName key="place_113325">(Little) Billing (manor)</placeName>, 
@@ -69,17 +74,19 @@
                         <origDate when="1636">1636</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>Sir Thomas Temple of Burton Dassett</persName>.</p>
-                  </seal>
-                  <seal>
-                     <p>Seal of <persName>Henry Sandys of Little Horwood</persName>.</p>
-                  </seal>
-                  <seal>
-                     <p>Seal of <persName>Edward Longville of Wolverton</persName>.</p>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Sir Thomas Temple of Burton Dassett</persName>.</p>
+                     </seal>
+                     <seal>
+                        <p>Seal of <persName>Henry Sandys of Little Horwood</persName>.</p>
+                     </seal>
+                     <seal>
+                        <p>Seal of <persName>Edward Longville of Wolverton</persName>.</p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

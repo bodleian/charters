@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910603">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910603">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 708</idno>
-                  <idno type="ieArk">ark:29072/x03r074w03df</idno><idno type="crArk">ark:29072/x03n2040203x</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x03r074w03df</idno>
+                  <idno type="crArk">ark:29072/x03n2040203x</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe c. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Revocation|Settlement">
                      <p>
+                        <seg type="docType">Notification of revocation of settlement.</seg>
                         <placeName key="place_113310">Wolverton</placeName>, <placeName key="place_113308">Stony Stratford</placeName>, <placeName key="place_133372">Little Billing</placeName>. <origDate when="1692">1692</origDate>.</p>
                   </msItem>
                </msContents>

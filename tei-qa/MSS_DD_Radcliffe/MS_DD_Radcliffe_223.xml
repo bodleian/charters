@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910694">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910694">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 223</idno>
-                  <idno type="ieArk">ark:29072/x0hm50ts00hn</idno><idno type="crArk">ark:29072/x0hh63sw176x</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0hm50ts00hn</idno>
+                  <idno type="crArk">ark:29072/x0hh63sw176x</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
+                        <seg type="docType">Grant.</seg>
                         <placeName key="place_107054">Northampton</placeName>. <origDate notBefore="1379" notAfter="1380">1379-1380 </origDate>.</p>
                   </msItem>
                </msContents>

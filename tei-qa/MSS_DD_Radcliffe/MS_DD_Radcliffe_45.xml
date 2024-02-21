@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910209">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910209">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,23 +43,28 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 45</idno>
-                  <idno type="ieArk">ark:29072/x05q47rp69jb</idno><idno type="crArk">ark:29072/x05m60qs867k</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x05q47rp69jb</idno>
+                  <idno type="crArk">ark:29072/x05m60qs867k</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant in frankalmoign">
                      <p>
+                        <seg type="docType">Grant and confirmation in free alms with warranty.</seg>
                         <placeName key="place_113310">Wolverton</placeName>. <origDate notBefore="1250" notAfter="1260">1250-1260 </origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>William Vis "de Lu" of Wolverton</persName>.</p>
-                     <legend>SIGILL. WILLELMI VIS DE LU</legend>
-                     <decoNote>Wolf's head</decoNote>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>William Vis "de Lu" of Wolverton</persName>.</p>
+                        <legend>SIGILL. WILLELMI VIS DE LU</legend>
+                        <decoNote>Wolf's head</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

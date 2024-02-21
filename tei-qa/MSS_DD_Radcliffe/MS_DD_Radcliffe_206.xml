@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910657">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910657">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 206</idno>
-                  <idno type="ieArk">ark:29072/x0cv43nx34q4</idno><idno type="crArk">ark:29072/x0cr56n151dh</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0cv43nx34q4</idno>
+                  <idno type="crArk">ark:29072/x0cr56n151dh</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
+                        <seg type="docType">Indenture. Grant and confirmation with warranty.</seg>
                         <placeName key="place_108172">Market Harborough</placeName>. <origDate when="1343">1343</origDate>.</p>
                   </msItem>
                </msContents>

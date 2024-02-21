@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910384">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910384">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 514</idno>
-                  <idno type="ieArk">ark:29072/x0p5547r32v7</idno><idno type="crArk">ark:29072/x0p2676v49jh</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0p5547r32v7</idno>
+                  <idno type="crArk">ark:29072/x0p2676v49jh</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 11</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Deed to lead the uses of a fine">
                      <p>
+                        <seg type="docType">Agreement to levy a fine.</seg>
                         <placeName key="place_113320">Wolverton (manor)</placeName>,
                         <placeName key="place_113326">Stony Stratford (manor)</placeName>,
                         <placeName key="place_113309">Calverton</placeName>,
@@ -62,14 +67,16 @@
 <origDate when="1628">1628</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>Francis Longvill of Little Billing</persName>.</p>
-                  </seal>
-                  <seal>
-                     <p>Seal of <persName>Thomas Pilkington of Northampton, gentleman</persName>.</p>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Francis Longvill of Little Billing</persName>.</p>
+                     </seal>
+                     <seal>
+                        <p>Seal of <persName>Thomas Pilkington of Northampton, gentleman</persName>.</p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

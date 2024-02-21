@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910678">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910678">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 216</idno>
-                  <idno type="ieArk">ark:29072/x0g158bh67jx</idno><idno type="crArk">ark:29072/x0fx719m8472</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0g158bh67jx</idno>
+                  <idno type="crArk">ark:29072/x0fx719m8472</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant of wardship">
                      <p>
+                        <seg type="docType">Notification [letters patent - not royal] [of wardship of lands and tenements].</seg>
                         <placeName key="place_108199">Little Bowden</placeName>. <origDate when="1346">1346</origDate>.</p>
                   </msItem>
                </msContents>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910600">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910600">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,15 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 432 433</idno>
-                  <idno type="ieArk">ark:29072/x02b88qd3708</idno><idno type="crArk">ark:29072/x02801ph53pk</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x02b88qd3708</idno>
+                  <idno type="crArk">ark:29072/x02801ph53pk</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 8</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
-                     <p>
+                  <msItem class="draft|conveyance">
+                     <p><seg type="docType">Draft conveyance.</seg>
                         <placeName key="place_113314">Stony Stratford, East Side</placeName>, <placeName key="place_113310">Wolverton</placeName>. <origDate when="1690">1690</origDate>.</p>
                   </msItem>
                </msContents>

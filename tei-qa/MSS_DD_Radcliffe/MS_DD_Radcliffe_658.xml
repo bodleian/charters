@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910364">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910364">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,26 +43,31 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 658</idno>
-                  <idno type="ieArk">ark:29072/x0qn59q382jk</idno><idno type="crArk">ark:29072/x0qj72p6997z</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0qn59q382jk</idno>
+                  <idno type="crArk">ark:29072/x0qj72p6997z</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 19</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Bargain and sale">
                      <p>
+                        <seg type="docType">Bargain and sale.</seg>
                         <placeName key="place_113310">Wolverton</placeName>. <origDate when="1585">1585</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>Arthur Longevile</persName>.</p>
-                     <decoNote>Initials R.B.</decoNote>
-                  </seal>
-                  <seal>
-                     <p>Seal of <persName>Judith wife of Arthur Longevile</persName>.</p>
-                     <decoNote>Device</decoNote>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Arthur Longevile</persName>.</p>
+                        <decoNote>Initials R.B.</decoNote>
+                     </seal>
+                     <seal>
+                        <p>Seal of <persName>Judith wife of Arthur Longevile</persName>.</p>
+                        <decoNote>Device</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

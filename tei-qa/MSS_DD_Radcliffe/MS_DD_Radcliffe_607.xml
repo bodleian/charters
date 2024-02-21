@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910635">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910635">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 607</idno>
-                  <idno type="ieArk">ark:29072/x0bk128b51s6</idno><idno type="crArk">ark:29072/x0bg257f68gg</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0bk128b51s6</idno>
+                  <idno type="crArk">ark:29072/x0bg257f68gg</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 18</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Final concord">
                      <p>
+                        <seg type="docType">Final concord.</seg>
                         <placeName key="place_113324">Woughton on the Green</placeName>, <placeName key="place_113304">Nash</placeName>, <placeName key="place_113307">Fenny Stratford</placeName>, <placeName key="place_113306">Bow Brickhill</placeName>. <origDate when="1364">1364</origDate>.</p>
                   </msItem>
                </msContents>

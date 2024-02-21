@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910042">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910042">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 20</idno>
-                  <idno type="ieArk">ark:29072/x0bg257f68cb</idno><idno type="crArk">ark:29072/x0bc386j852g</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0bg257f68cb</idno>
+                  <idno type="crArk">ark:29072/x0bc386j852g</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Delivery|Schedule of deeds">
                      <p>
+                        <seg type="docType">Indenture testifying to delivery of specified evidences.</seg>
                         <placeName key="place_113311">Haversham</placeName>. <origDate when="1434">1434</origDate>.</p>
                   </msItem>
                </msContents>

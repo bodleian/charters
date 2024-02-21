@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910012">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910012">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,19 +43,26 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 460</idno>
-                  <idno type="ieArk">ark:29072/x08336h26902</idno><idno type="crArk">ark:29072/x08049g585pv</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x08336h26902</idno>
+                  <idno type="crArk">ark:29072/x08049g585pv</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 10</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
+                        <seg type="docType">Grant and confirmation with warranty.</seg>
                         <placeName key="place_113305">Aston Abbots</placeName>, <placeName key="place_114021">Halton</placeName>, "Lystark", <placeName key="place_113315">Walton</placeName>. <origDate when="1374">1374</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal><decoNote>Ass's head on helmet above shield with chevron.</decoNote></seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <decoNote>Ass's head on helmet above shield with chevron.</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

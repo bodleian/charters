@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910280">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910280">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,22 +43,27 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 490</idno>
-                  <idno type="ieArk">ark:29072/x0gm80hv67gb</idno><idno type="crArk">ark:29072/x0gh93gz845g</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0gm80hv67gb</idno>
+                  <idno type="crArk">ark:29072/x0gh93gz845g</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 10</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Quitclaim">
                      <p>
+                        <seg type="docType">Quitclaim.</seg>
                         <placeName key="place_113310">Wolverton</placeName>, <placeName key="place_113308">Stony Stratford</placeName>. <origDate when="1344">1344</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>Thomas le Forester of Stony Stratford</persName>.</p>
-                     <decoNote>Armorial</decoNote>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Thomas le Forester of Stony Stratford</persName>.</p>
+                        <decoNote>Armorial</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

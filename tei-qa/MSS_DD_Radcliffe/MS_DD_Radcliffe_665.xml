@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910392">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910392">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,14 +43,17 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 665</idno>
-                  <idno type="ieArk">ark:29072/x0s7526c15hr</idno><idno type="crArk">ark:29072/x0s4655g326w</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0s7526c15hr</idno>
+                  <idno type="crArk">ark:29072/x0s4655g326w</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe c. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Will">
                      <p>
-                        <placeName key="place_113308">Stony Stratford</placeName>, <placeName key="place_113310">Wolverton</placeName>, <placeName key="place_113309">Calverton</placeName>, <placeName><!--key place_133374 not found in places.xml -->Furtho</placeName>. <origDate when="1634">1634</origDate>.</p>
+                        <seg type="docType">Transcript of will.</seg>
+                        <placeName key="place_113308">Stony Stratford</placeName>, <placeName key="place_113310">Wolverton</placeName>, <placeName key="place_113309">Calverton</placeName>, <placeName key="place_133374">Furtho</placeName>. <origDate when="1634">1634</origDate>.</p>
                   </msItem>
                </msContents>
                <additional>

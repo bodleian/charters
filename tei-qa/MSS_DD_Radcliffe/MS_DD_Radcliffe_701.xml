@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910396">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910396">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 701</idno>
-                  <idno type="ieArk">ark:29072/x02b88qd3721</idno><idno type="crArk">ark:29072/x02801ph53rb</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x02b88qd3721</idno>
+                  <idno type="crArk">ark:29072/x02801ph53rb</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe c. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Bargain and sale">
                      <p>
+                        <seg type="docType">Bargain and sale.</seg>
                         <placeName key="place_113320">Wolverton (manor)</placeName>,
                         <placeName key="place_113326">Stony Stratford (manor)</placeName>,
                         <placeName key="place_113325">(Little) Billing (manor)</placeName>, 

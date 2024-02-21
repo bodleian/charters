@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910665">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910665">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 452</idno>
-                  <idno type="ieArk">ark:29072/x06969z169d7</idno><idno type="crArk">ark:29072/x06682x4863g</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x06969z169d7</idno>
+                  <idno type="crArk">ark:29072/x06682x4863g</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 9</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Confirmation">
                      <p>
+                        <seg type="docType">Confirmation. Indenture.</seg>
                         <placeName key="place_113325">Little Billing</placeName>, <placeName key="place_113329">Wootton (Huntingdon Fee)</placeName>, <placeName key="place_113328">Farndon</placeName>, <placeName key="place_107054">Northampton</placeName>, <placeName key="place_108009">Cotton
                         End</placeName>, <placeName key="place_133368">Stoke</placeName>, <placeName key="place_133369">Alderton</placeName>, <placeName key="place_133370">Great Billing</placeName>, <placeName key="place_133371">Moulton</placeName>. <origDate when="1527">1527</origDate>.</p>
                   </msItem>
@@ -55,7 +60,8 @@
                <physDesc>
                   <authDesc>
                      <seal>
-                        <p><persName>Thomas Sterke</persName> (not heraldic)</p>
+                        <p>
+                           <persName>Thomas Sterke</persName> (not heraldic)</p>
                      </seal>
                   </authDesc>
                </physDesc>

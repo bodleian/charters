@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910712">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910712">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,14 +43,17 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 633</idno>
-                  <idno type="ieArk">ark:29072/x0j9602083sk</idno><idno type="crArk">ark:29072/x0j6731400gw</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0j9602083sk</idno>
+                  <idno type="crArk">ark:29072/x0j6731400gw</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 18</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Final concord Grant">
                      <p>
-                        <placeName key="place_133363">Marston Green</placeName>, <placeName key="place_108423">Coleshill</placeName>, <placeName><!--key place_133364 not found in places.xml -->Marston Culy</placeName>. <origDate notBefore="1323" notAfter="1338">1323 and 1338 (two documents)</origDate>.</p>
+                        <seg type="docType">Transcript of Final concord [Not indented] Transcript of grant and confirmation with warranty for lifetime only.</seg>
+                        <placeName key="place_133363">Marston Green</placeName>, <placeName key="place_108423">Coleshill</placeName>, <placeName key="place_133364">Marston Culy</placeName>. <origDate notBefore="1323" notAfter="1338">1323 and 1338 (two documents)</origDate>.</p>
                   </msItem>
                </msContents>
                <additional>

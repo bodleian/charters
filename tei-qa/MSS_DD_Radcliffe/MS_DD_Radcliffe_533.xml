@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910428">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910428">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,20 +43,25 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 533</idno>
-                  <idno type="ieArk">ark:29072/x0tb09j531w1</idno><idno type="crArk">ark:29072/x0t722h848kd</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0tb09j531w1</idno>
+                  <idno type="crArk">ark:29072/x0t722h848kd</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 12</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Bond">
                      <p>
+                        <seg type="docType">Bond.</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>, <placeName key="place_113310">Wolverton</placeName>. <origDate when="1655">1655</origDate>.</p>
                   </msItem>
                </msContents>
                <physDesc>
                   <authDesc>
                      <seal>
-                        <p><persName>Gabriel Penn, of Pookley in Passenham, Northamptonshire, gentleman</persName></p>
+                        <p>
+                           <persName>Gabriel Penn, of Pookley in Passenham, Northamptonshire, gentleman</persName>
+                        </p>
                      </seal>
                   </authDesc>
                </physDesc>

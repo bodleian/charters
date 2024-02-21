@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910353">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910353">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 160</idno>
-                  <idno type="ieArk">ark:29072/x01r66j2372v</idno><idno type="crArk">ark:29072/x01n79h553rn</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x01r66j2372v</idno>
+                  <idno type="crArk">ark:29072/x01n79h553rn</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant|Letters of attorney">
                      <p>
+                        <seg type="docType">Grant and confirmation and letter of attorney.</seg>
                         <placeName key="place_113310">Wolverton</placeName>, <placeName key="place_113308">Stony Stratford</placeName>. <origDate notBefore="1517" notAfter="1518">1517-1518 </origDate>.</p>
                   </msItem>
                </msContents>

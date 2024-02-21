@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910341">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910341">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,22 +43,27 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 504</idno>
-                  <idno type="ieArk">ark:29072/x0m039k50011</idno><idno type="crArk">ark:29072/x0kw52j816qz</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0m039k50011</idno>
+                  <idno type="crArk">ark:29072/x0kw52j816qz</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 11</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Quitclaim">
                      <p>
+                        <seg type="docType">Quitclaim with warranty.</seg>
                         <placeName key="place_113310">Wolverton</placeName>, <placeName key="place_113308">Stony Stratford</placeName>. <origDate when="1469">1469</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <p>Seal of <persName>Thomas Edy of Stony Stratford, gentleman</persName>.</p>
-                     <decoNote>Device</decoNote>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Seal of <persName>Thomas Edy of Stony Stratford, gentleman</persName>.</p>
+                        <decoNote>Device</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

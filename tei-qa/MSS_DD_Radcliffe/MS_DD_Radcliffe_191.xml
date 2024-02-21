@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910471">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910471">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 191</idno>
-                  <idno type="ieArk">ark:29072/x08g84mn0252</idno><idno type="crArk">ark:29072/x08c97kr18v0</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x08g84mn0252</idno>
+                  <idno type="crArk">ark:29072/x08c97kr18v0</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Release">
                      <p>
+                        <seg type="docType">Release. Settlement upon trusts. 1 (last) membrane only.</seg>
                         <placeName key="place_113330">Walton</placeName>,
                         <placeName key="place_113318">Nash (Whaddon)</placeName>,
                         <placeName key="place_113308">Stony Stratford</placeName>,

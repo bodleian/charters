@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910031">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910031">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 14</idno>
-                  <idno type="ieArk">ark:29072/x0w6634314p5</idno><idno type="crArk">ark:29072/x0w3763631c9</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0w6634314p5</idno>
+                  <idno type="crArk">ark:29072/x0w3763631c9</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Bond">
                      <p>
+                        <seg type="docType">Bond to pay debt.</seg>
                         <placeName key="place_113309">Calverton</placeName>. <origDate notBefore="1506" notAfter="1507">1506-1507 </origDate>.</p>
                   </msItem>
                </msContents>

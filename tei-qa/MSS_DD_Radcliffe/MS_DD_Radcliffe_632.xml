@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910709">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910709">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,14 +43,17 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 632</idno>
-                  <idno type="ieArk">ark:29072/x0j386071755</idno><idno type="crArk">ark:29072/x0j098zb33vr</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0j386071755</idno>
+                  <idno type="crArk">ark:29072/x0j098zb33vr</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 18</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Final concord">
                      <p>
-                        <placeName><!--key  not found in places.xml -->Bushbrooke</placeName>. <origDate when="1254">1254</origDate>.</p>
+                        <seg type="docType">Record of final concord. Not indented..</seg>
+                        <placeName>Bushbrooke</placeName>. <origDate when="1254">1254</origDate>.</p>
                   </msItem>
                </msContents>
                <additional>

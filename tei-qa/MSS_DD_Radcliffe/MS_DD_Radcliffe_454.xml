@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910667">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910667">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,20 +43,24 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 454</idno>
-                  <idno type="ieArk">ark:29072/x06q182m02nm</idno><idno type="crArk">ark:29072/x06m311q19b0</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x06q182m02nm</idno>
+                  <idno type="crArk">ark:29072/x06m311q19b0</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 9</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Lease">
                      <p>
+                        <seg type="docType">Lease (21 years). Indenture.</seg>
                         <placeName key="place_133372">Little Billing</placeName>. <origDate notBefore="1617" notAfter="1618">1617-1618 </origDate>.</p>
                   </msItem>
                </msContents>
                <physDesc>
                   <authDesc>
                      <seal>
-                        <p><persName>Stephen Atterbury of Little Howton, Northamptonshire, husbandman</persName> (amorphous)</p>
+                        <p>
+                           <persName>Stephen Atterbury of Little Howton, Northamptonshire, husbandman</persName> (amorphous)</p>
                      </seal>
                   </authDesc>
                </physDesc>

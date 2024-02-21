@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910186">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910186">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,27 +43,33 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 336</idno>
-                  <idno type="ieArk">ark:29072/x0cc08hg1862</idno><idno type="crArk">ark:29072/x0c821gk34wz</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0cc08hg1862</idno>
+                  <idno type="crArk">ark:29072/x0c821gk34wz</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 4</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Lease">
                      <p>
+                        <seg type="docType">Demise. Indenture.</seg>
                         <placeName key="place_113330">Walton</placeName>. <origDate when="1394">1394</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <summary>Two seals on one strip.</summary>
-                  <seal>
-                     <p>Seal of <persName>Richard Payn</persName> (?).</p>
-                     <decoNote>Bearded head</decoNote>
-                  </seal>
-                  <seal>
-                     <p>Seal of <persName>Isabel with of Richard Payn</persName>(?).</p>
-                     <legend>Sigllum Elizabet <unclear>Dardolf</unclear></legend>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <summary>Two seals on one strip.</summary>
+                     <seal>
+                        <p>Seal of <persName>Richard Payn</persName> (?).</p>
+                        <decoNote>Bearded head</decoNote>
+                     </seal>
+                     <seal>
+                        <p>Seal of <persName>Isabel with of Richard Payn</persName>(?).</p>
+                        <legend>Sigllum Elizabet <unclear>Dardolf</unclear>
+                        </legend>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

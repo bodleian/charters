@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910551">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910551">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 181</idno>
-                  <idno type="ieArk">ark:29072/x06969z169bg</idno><idno type="crArk">ark:29072/x06682x4861q</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x06969z169bg</idno>
+                  <idno type="crArk">ark:29072/x06682x4861q</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Unidentified (fragment)">
                      <p>
+                        <seg type="docType">Indenture  [last membrane missing].</seg>
                         <placeName key="place_113310">Wolverton</placeName>, <placeName key="place_113308">Stony Stratford</placeName>, <placeName key="place_113309">Calverton</placeName>, <placeName key="place_133371">Moulton</placeName>, <placeName key="place_113356">Cosgrove</placeName>, <placeName key="place_133370">(Great?) Billing</placeName>. <origDate notBefore="1677" notAfter="1678">1677-1678 </origDate>.</p>
                   </msItem>
                </msContents>

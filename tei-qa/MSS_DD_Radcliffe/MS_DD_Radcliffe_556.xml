@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910487">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910487">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 556</idno>
-                  <idno type="ieArk">ark:29072/x002870x20wz</idno><idno type="crArk">ark:29072/x000000137k0</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x002870x20wz</idno>
+                  <idno type="crArk">ark:29072/x000000137k0</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 14</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Attornment">
                      <p>
+                        <seg type="docType">Attornment to collect debt.</seg>
                         <placeName key="place_113310">Wolverton</placeName>. <origDate when="1665">1665</origDate>.</p>
                   </msItem>
                </msContents>

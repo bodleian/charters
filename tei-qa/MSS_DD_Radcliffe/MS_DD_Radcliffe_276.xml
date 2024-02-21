@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910089">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910089">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,19 +43,26 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 276</idno>
-                  <idno type="ieArk">ark:29072/x0x346d364hq</idno><idno type="crArk">ark:29072/x0x059c6816v</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0x346d364hq</idno>
+                  <idno type="crArk">ark:29072/x0x059c6816v</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Release">
                      <p>
+                        <seg type="docType">Release and confirmation. Indenture.</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>. <origDate when="1453">1453</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal><p>Three seals (?)</p></seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <p>Three seals (?)</p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

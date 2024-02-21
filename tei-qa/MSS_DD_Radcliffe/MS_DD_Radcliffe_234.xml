@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910030">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910030">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,23 +43,28 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 234</idno>
-                  <idno type="ieArk">ark:29072/x0m039k499zw</idno><idno type="crArk">ark:29072/x0kw52j816n6</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0m039k499zw</idno>
+                  <idno type="crArk">ark:29072/x0kw52j816n6</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant">
                      <p>
+                        <seg type="docType">Grant and confirmation with warranty.</seg>
                         <placeName key="place_113309">Calverton</placeName>. <origDate when="1483">1483</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <summary>Two seals: of <persName>William Turvile of Stony Stratford</persName> and <persName>Joan his wife</persName> (?)</summary>
-                  <seal>
-                     <decoNote>W.R. (?)</decoNote>
-                     <condition>Damaged</condition>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <summary>Two seals: of <persName>William Turvile of Stony Stratford</persName> and <persName>Joan his wife</persName> (?)</summary>
+                     <seal>
+                        <decoNote>W.R. (?)</decoNote>
+                        <condition>Damaged</condition>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

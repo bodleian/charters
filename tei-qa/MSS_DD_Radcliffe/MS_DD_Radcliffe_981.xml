@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910708">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910708">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,15 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 981</idno>
-                  <idno type="ieArk">ark:29072/x0df65v834qj</idno><idno type="crArk">ark:29072/x0db78tc51dp</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0df65v834qj</idno>
+                  <idno type="crArk">ark:29072/x0db78tc51dp</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe f. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
-                     <p>
+                  <msItem class="Letters patent|Grant of wardship">
+                     <p><seg type="docType">Letters patent. Custody granted for wardship</seg>
                         <placeName key="place_113335">Creighton</placeName>, <placeName key="place_113361">Glascote</placeName>. <origDate when="1558">1558</origDate>.</p>
                   </msItem>
                </msContents>

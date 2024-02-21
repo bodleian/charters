@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910426">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910426">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,20 +43,24 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 378</idno>
-                  <idno type="ieArk">ark:29072/x0pg15bd82rc</idno><idno type="crArk">ark:29072/x0pc289h99fn</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0pg15bd82rc</idno>
+                  <idno type="crArk">ark:29072/x0pc289h99fn</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 5</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Feoffment">
                      <p>
+                        <seg type="docType">Enfeoffment.</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>. <origDate when="1654">1654</origDate>.</p>
                   </msItem>
                </msContents>
                <physDesc>
                   <authDesc>
                      <seal>
-                        <p><persName>Christopher Rigby, citizen and merchant-tailor of London</persName> (indistinct)</p>
+                        <p>
+                           <persName>Christopher Rigby, citizen and merchant-tailor of London</persName> (indistinct)</p>
                      </seal>
                   </authDesc>
                </physDesc>

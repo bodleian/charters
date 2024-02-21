@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910328">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910328">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,31 +43,36 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 464</idno>
-                  <idno type="ieArk">ark:29072/x08w32r635g6</idno><idno type="crArk">ark:29072/x08s45q9525b</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x08w32r635g6</idno>
+                  <idno type="crArk">ark:29072/x08s45q9525b</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 10</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Letters of attorney">
                      <p>
+                        <seg type="docType">Letter of attorney.</seg>
                         <placeName key="place_113309">Calverton</placeName>. <origDate when="1461">1461</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <summary>Three seals, one missing</summary>
-                  <seal>
-                     <p>Seal of <persName>John Boteler, parson of Haversham</persName>.</p>
-                  </seal>
-                  <seal>
-                     <p>Seal of <persName>Thomas Edy</persName>.</p>
-                  </seal>
-                  <seal>
-                     <p>Seal of <persName>Henry Schrove</persName>.</p>
-                  </seal>
-                  <seal>
-                     <p>Seal of <persName>John Smyth</persName>.</p>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <summary>Three seals, one missing</summary>
+                     <seal>
+                        <p>Seal of <persName>John Boteler, parson of Haversham</persName>.</p>
+                     </seal>
+                     <seal>
+                        <p>Seal of <persName>Thomas Edy</persName>.</p>
+                     </seal>
+                     <seal>
+                        <p>Seal of <persName>Henry Schrove</persName>.</p>
+                     </seal>
+                     <seal>
+                        <p>Seal of <persName>John Smyth</persName>.</p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

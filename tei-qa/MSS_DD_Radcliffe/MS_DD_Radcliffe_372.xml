@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910412">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910412">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,20 +43,24 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 372</idno>
-                  <idno type="ieArk">ark:29072/x0n870zq831n</idno><idno type="crArk">ark:29072/x0n583xt99qk</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0n870zq831n</idno>
+                  <idno type="crArk">ark:29072/x0n583xt99qk</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 5</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Quitclaim">
                      <p>
+                        <seg type="docType">Quitclaim.</seg>
                         <placeName key="place_113310">Wolverton</placeName>. <origDate when="1644">1644</origDate>.</p>
                   </msItem>
                </msContents>
                <physDesc>
                   <authDesc>
                      <seal>
-                        <p><persName>Arthur Spenser of Stony Stratford, musician</persName> (indistinct)</p>
+                        <p>
+                           <persName>Arthur Spenser of Stony Stratford, musician</persName> (indistinct)</p>
                      </seal>
                   </authDesc>
                </physDesc>

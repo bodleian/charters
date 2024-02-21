@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910689">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910689">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 456</idno>
-                  <idno type="ieArk">ark:29072/x073666535wp</idno><idno type="crArk">ark:29072/x070795852kt</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x073666535wp</idno>
+                  <idno type="crArk">ark:29072/x070795852kt</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 9</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Security Grant">
                      <p>
+                        <seg type="docType">Security. Indenture [property to be held in trust for use of 2.] Grant and confirmation with warranty.</seg>
                         <placeName key="place_107054">Northampton</placeName>. <origDate when="1260">1260</origDate>.</p>
                   </msItem>
                </msContents>

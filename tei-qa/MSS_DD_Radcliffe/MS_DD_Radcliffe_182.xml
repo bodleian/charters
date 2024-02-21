@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910552">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910552">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 182</idno>
-                  <idno type="ieArk">ark:29072/x06h440t35z1</idno><idno type="crArk">ark:29072/x06d56zx52nz</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x06h440t35z1</idno>
+                  <idno type="crArk">ark:29072/x06d56zx52nz</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Declaration">
                      <p>
+                        <seg type="docType">Declaration of limitation for marriage portion.</seg>
                         <placeName key="place_113310">Wolverton</placeName>, <placeName key="place_113308">Stony Stratford</placeName>, <placeName key="place_133372">Little Billing</placeName>. <origDate notBefore="1677" notAfter="1678">1677-1678 </origDate>.</p>
                   </msItem>
                </msContents>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910127">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910127">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 645</idno>
-                  <idno type="ieArk">ark:29072/x0mw22v549vc</idno><idno type="crArk">ark:29072/x0ms35t866jh</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0mw22v549vc</idno>
+                  <idno type="crArk">ark:29072/x0ms35t866jh</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 19</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Covenant to save harmless">
                      <p>
+                        <seg type="docType">Counterpart of covenant to keep harmless.</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>. <origDate when="1641">1641</origDate>.</p>
                   </msItem>
                </msContents>

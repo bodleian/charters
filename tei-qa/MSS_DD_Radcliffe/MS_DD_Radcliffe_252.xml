@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910059">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910059">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,21 +43,26 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 252</idno>
-                  <idno type="ieArk">ark:29072/x0qz20ss32c0</idno><idno type="crArk">ark:29072/x0qv33rw4928</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0qz20ss32c0</idno>
+                  <idno type="crArk">ark:29072/x0qv33rw4928</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Settlement (dispute)|Case">
                      <p>
+                        <seg type="docType">Settlement of legal case [in Curia Regis].</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>. <origDate when="1310">1310</origDate>.</p>
                   </msItem>
                </msContents>
-               <physDesc><authDesc>
-                  <seal>
-                     <decoNote>Figure on horseback (?)</decoNote>
-                  </seal>
-               </authDesc></physDesc>
+               <physDesc>
+                  <authDesc>
+                     <seal>
+                        <decoNote>Figure on horseback (?)</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
                <additional>
                   <adminInfo>
                      <recordHist>

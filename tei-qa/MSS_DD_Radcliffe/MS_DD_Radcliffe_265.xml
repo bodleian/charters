@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910076">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910076">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 265</idno>
-                  <idno type="ieArk">ark:29072/x0tq57nq652b</idno><idno type="crArk">ark:29072/x0tm70mt81r7</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0tq57nq652b</idno>
+                  <idno type="crArk">ark:29072/x0tm70mt81r7</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Discharge">
                      <p>
+                        <seg type="docType">Release from debt.</seg>
                         <placeName key="place_113308">Stony Stratford</placeName>. <origDate when="1354">1354</origDate>.</p>
                   </msItem>
                </msContents>

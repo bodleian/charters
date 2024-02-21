@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910411">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910411">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,20 +43,24 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 526</idno>
-                  <idno type="ieArk">ark:29072/x0rr171w98x2</idno><idno type="crArk">ark:29072/x0rn301115mq</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0rr171w98x2</idno>
+                  <idno type="crArk">ark:29072/x0rn301115mq</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 12</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Conveyance (no further details)">
                      <p>
+                        <seg type="docType">[No details] [Release? Marriage settlement].</seg>
                         <placeName key="place_113310">Wolverton</placeName>. <origDate when="1644">1644</origDate>.</p>
                   </msItem>
                </msContents>
                <physDesc>
                   <authDesc>
                      <seal>
-                        <p><persName>Thomas Eason of Wolverton Ende, tailor</persName> (broken)</p>
+                        <p>
+                           <persName>Thomas Eason of Wolverton Ende, tailor</persName> (broken)</p>
                      </seal>
                   </authDesc>
                </physDesc>

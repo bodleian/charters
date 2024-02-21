@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910432">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910432">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 170</idno>
-                  <idno type="ieArk">ark:29072/x03x816n69w2</idno><idno type="crArk">ark:29072/x03t945r86k6</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x03x816n69w2</idno>
+                  <idno type="crArk">ark:29072/x03t945r86k6</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 2</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Receipt">
                      <p>
+                        <seg type="docType">Receipt.</seg>
                         <placeName key="place_113310">Wolverton</placeName>. <origDate when="1655">1655</origDate>.</p>
                   </msItem>
                </msContents>

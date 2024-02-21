@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910205">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910205">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 47</idno>
-                  <idno type="ieArk">ark:29072/x0b2773w356q</idno><idno type="crArk">ark:29072/x09z903051wr</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0b2773w356q</idno>
+                  <idno type="crArk">ark:29072/x09z903051wr</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe a. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Grant in frankalmoign">
                      <p>
+                        <seg type="docType">Grant and confirmation in free alms with warranty.</seg>
                         <placeName key="place_113310">Wolverton</placeName>. <origDate notBefore="1246" notAfter="1248">1246-1248 </origDate>.</p>
                   </msItem>
                </msContents>

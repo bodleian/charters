@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910636">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910636">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MS. D.D. Radcliffe 608</idno>
-                  <idno type="ieArk">ark:29072/x0br86b418dr</idno><idno type="crArk">ark:29072/x0bn9997353w</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0br86b418dr</idno>
+                  <idno type="crArk">ark:29072/x0bn9997353w</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe d. 18</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="Assignment of lease">
                      <p>
+                        <seg type="docType">Assignment of lease.</seg>
                         <placeName key="place_103146">Durham</placeName>, <placeName key="place_113332">Cambois</placeName>, <placeName key="place_113333">North Seaton</placeName>. <origDate when="1664">1664</origDate>.</p>
                   </msItem>
                </msContents>

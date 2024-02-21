@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910723">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_910723">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,15 @@
                   <repository>Bodleian Library</repository>
                   <collection>Radcliffe</collection>
                   <idno type="shelfmark">MSS. D.D. Radcliffe 841-969</idno>
-                  <idno type="ieArk">ark:29072/x0jh343s508n</idno><idno type="crArk">ark:29072/x0jd472w66zk</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0jh343s508n</idno>
+                  <idno type="crArk">ark:29072/x0jd472w66zk</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. D.D. Radcliffe c. 3</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
-                     <p>Item level descriptions not available. <!-- TODO? -->
+                  <msItem><!--document type not found-->
+                     <p><!--document type not found-->Item level descriptions not available. <!-- TODO? -->
                         <origDate notAfter="1700" notBefore="1601">17th century</origDate>.</p>
                   </msItem>
                </msContents>
