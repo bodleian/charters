@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_953058">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Dodsworth 76, fol. 110</title>
+            <respStmt xml:id="BOD">
+               <resp when="1878">Cataloguer</resp>
+               <persName>H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="HW">
+               <resp when="2024">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Dodsworth_76_fol_110</idno>
+            <idno type="collection">Dodsworth</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Dodsworth_76_fol_110" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100060">Dodsworth</collection>
+                  <idno type="shelfmark">MS. Dodsworth 76, fol. 110</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Dodsworth 76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="grant|letters of attorney">
+                     <p>
+                        <seg type="docType">Grant, power of attorney.</seg>
+                        <placeName key="place_111506">Gate Burton (Lincolnshire)</placeName>, <placeName key="place_111063">Lea (Lincolnshire)</placeName>, <placeName key="place_116148">Temple Hurst (Yorkshire, West Riding)</placeName>, <placeName key="place_111147">East and West Retford (Nottinghamshire)</placeName>, <placeName key="place_116147">Rampton (Nottinghamshire)</placeName>, <placeName key="place_116149">Littleborough
+                        ferry (Nottinghamshire)</placeName>. <origDate when="1403">1 September, 4 Hen. IV (1403)</origDate>. Grant from John, lord Darcy of Menell, to Sir John de Melton, kt., Thomas Clarell, esq., John de Moore, rector of Beghton, Thomas Mapirlay, Robert Plomley, Elias de Blyth, and John Daunay, all lands and tenements, rents, etc., which were William Mortoyn's, in the villages of Gatburton and Lee, or elsewhere within the county of Lincoln, and in Hyrst, in the county of York, and in the villages of Retford in le Cley and Rampton, in the county of Nottingham, together with the whole of the ferry (cum toto passagio) beyond the Trent, called Lytylburgh fery. Dated at Gatburton. Subjoined is the power of attorney to Nicholas Daunay and John Grayne to deliver seisin to the said parties of the lands, etc. enumerated in the preceding charter. Dated at Gatburton on the same day as the grant (contemporary copy).</p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                                    <citedRange unit="page" from="679" to="680">679-680</citedRange> [<ref target="https://books.google.co.uk/books?id=rvIUAAAAQAAJ&amp;pg=PA679#v=onepage&amp;q&amp;f=false">Google Books</ref>]</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-05">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
