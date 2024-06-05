@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_951907">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Eng. hist. a. 2 no. IV (fol. 5a)</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2023">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Eng_hist_a_2_no_IV_(fol_5a)</idno>
+            <idno type="collection">Crawford</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Eng_hist_a_2_no_IV_fol_5a" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100059">Crawford</collection>
+                  <idno type="shelfmark">MS. Eng. hist. a. 2 no. IV (fol. 5a)</idno><idno type="ieArk">ark:29072/x0jw827c21sc</idno><idno type="crArk">ark:29072/x0js956g38gn</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Eng. hist. a. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p>
+                        <placeName key="place_111348">East Ham</placeName>, <placeName key="place_113978">Wennington</placeName>, <placeName key="place_113979">Great Fanton Hall alias Fan
+                        Hall</placeName>, <placeName key="place_111687">Morden</placeName>, <placeName key="place_113980">Aldenham</placeName>, <placeName key="place_113983">Holwell</placeName>, <placeName key="place_111424">Datchworth</placeName>, <placeName key="place_1083582">Watton-at-Stone</placeName>, <placeName key="place_113984">Chollington</placeName>, <placeName key="place_113981">Bleccenham
+                        (lost)</placeName>, <placeName key="place_113982">Lothereslege
+                        (lost)</placeName>, <placeName key="place_113346">Staines</placeName>, <placeName key="place_113985">Teddington</placeName>, <placeName key="place_113986">Halliford</placeName>, <placeName key="place_113987">Feltham</placeName>, <placeName key="place_113988">Ashford</placeName>. King Edgar to Westminster Abbey [St Peter's, Thorney], confirmation,
+                        reciting a bull of Pope John [Pope John XIII], of liberties and of land at
+                        Ham (in East Ham), Wennington, Essex; Morden, Surrey; Fanton (Hall) in North
+                        Benfleet, Essex; Aldenham, Herts.; Bleccenham and Lothereslege (both lost,
+                        in Hendon), Middx; Holwell, Datchworth and Watton-at-Stone, Herts.;
+                        Chollington in Eastbourne, Sussex; Staines, with Teddington, Halliford,
+                        Feltham and Ashford, Middx.  <origDate when="0969">969, Id. Maii (= May 15)</origDate>
+                     </p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Adapted from Napier and Stevenson with reference to the Electronic Sawyer record (see bibliography for details).</p>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>To ensure its preservation, access to this item is restricted, and readers are asked to work from reproductions and published descriptions as far as possible. If you wish to apply to see the original, please click the request button above. When your request is received, you will be asked to contact the relevant curator outlining the subject of your research, the importance of this item to that research, and the resources you have already consulted.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <title>The Crawford collection of early charters and documents now in the Bodleian library</title>, ed. Arthur S. Napier and William Henry Stevenson (1895), no. VI (pp. <ref target="https://archive.org/details/crawfordcollecti00napi/page/12/mode/1up">12</ref>-18)</bibl>
+                     <bibl>The Electronic Sawer: Online Catalogue of Anglo-Saxon Charters, no. <ref target="https://esawyer.lib.cam.ac.uk/charter/774.html">774</ref>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-02">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

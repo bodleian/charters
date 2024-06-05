@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_951902">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Eng. hist. a. 2 no. II a (fol. 2a)</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2023">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Eng_hist_a_2_no_II_a_(fol_2a)</idno>
+            <idno type="collection">Crawford</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Eng_hist_a_2_no_II_a_fol_2a" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100059">Crawford</collection>
+                  <idno type="shelfmark">MS. Eng. hist. a. 2 no. II a (fol. 2a)</idno><idno type="ieArk">ark:29072/x0jh343s88jc</idno><idno type="crArk">ark:29072/x0jd472x057p</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Eng. hist. a. 2</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p>
+                        <placeName key="place_109239">Crediton</placeName>. Boundaries of Creedy land, Devon, for the foundation of Crediton
+                        monastery. <origDate notBefore="1060" notAfter="1100">[mid 11th century]</origDate>[Manuscript: s. xi med].</p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Adapted from Napier and Stevenson with reference to the Electronic Sawyer record (see bibliography for details).</p>
+                        </source>
+                     </recordHist>
+                     <availability status="restricted">
+                        <p>To ensure its preservation, access to this item is restricted, and readers are asked to work from reproductions and published descriptions as far as possible. If you wish to apply to see the original, please click the request button above. When your request is received, you will be asked to contact the relevant curator outlining the subject of your research, the importance of this item to that research, and the resources you have already consulted.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>
+                        <title>The Crawford collection of early charters and documents now in the Bodleian library</title>, ed. Arthur S. Napier and William Henry Stevenson (1895), no. II (pp. <ref target="https://archive.org/details/crawfordcollecti00napi/page/3/mode/1up">3</ref>-4)</bibl>
+                     <bibl>The Electronic Sawer: Online Catalogue of Anglo-Saxon Charters, no. <ref target="https://esawyer.lib.cam.ac.uk/charter/1546b.html">1546b</ref>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-02">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
