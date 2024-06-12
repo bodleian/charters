@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_954271">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Brocas 264</title>
+            <respStmt xml:id="HW">
+               <resp when="2024">Cataloguer</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+            <respStmt xml:id="MLH">
+               <resp when="2024">Encoding</resp>
+               <persName>Matthew Holford</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Brocas_264</idno>
+            <idno type="collection">D. D. Brocas</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Brocas_264" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100061">D. D. Brocas</collection>
+                  <idno type="shelfmark">MS. D. D. Brocas 264</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D. D. Brocas a. 1/6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="confirmation (deed)">
+                     <p>
+                        <seg type="docType">Confirmation.</seg>
+                        <placeName key="place_116047">Roche Court (Hampshire)</placeName>. <origDate when="1691">3 William and Mary. Aug. 10, 1691</origDate>. Indenture tripartite made between (1) Dame Jane Gardiner of Roch Court,
+                        Hampshire, widow; (2) Sir Brocas Gardiner of the Inner Temple, London,
+                        baronet, son and heir apparent of Dame Jane, and (3) Barnard Gardiner,
+                        fellow of All Souls College, University of Oxford, gent., being a release by
+                        (1) to (2) of the manor of Northfareham otherwise Rochcourt, Hampshire, Sir
+                        Brocas Gardiner to pay Dame Jane £95 per annum for life from the issues of
+                        the manor, and to pay Barnard Gardiner £25 per annum for life, during the
+                        life of Dame Jane and Jane Thorner of St Martin in the Fields, Middlesex,
+                        widow and grandmother of Barnard Gardiner, if they live so long (endorsed
+                        with two memoranda: 1. Agreement between the parties to contribute to costs
+                        at law incurred by Sir Brocas Gardiner regarding recovery of rent and
+                        maintenance of the manor; 2. Agreement dated 7 June 1693 made between Sir
+                        Brocas Gardiner and David Moris of Lambeth, Surrey, to whom Dame Jane was
+                        then married, that Sir Brocas Gardiner would pay all taxes assessed on the
+                        £95 payable to Dame Jane under the Act of Parliament for granting to their
+                        Majesties an Aide of 4s in the pound for one year for Carrying on a Vigorous
+                        War against France [granted 20 March 1693 or later] or any other Act
+                        hereafter, signed and sealed by David Moris and Jane Gardiner. .</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Red wax; round; applied to seal tag</summary>
+                     <seal>
+                        <p>
+                           <persName>Jane Gardiner</persName>
+                        </p>
+                        <decoNote>Armorial</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Preliminary description by Helen Watt, May 2024.</p>
+                        </source></recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">XXXX</idno></custEvent></custodialHist></adminInfo>
+                     
+               
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

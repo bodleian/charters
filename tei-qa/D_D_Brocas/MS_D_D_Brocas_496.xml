@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_954509">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Brocas 496</title>
+            <respStmt xml:id="HW">
+               <resp when="2024">Cataloguer</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+            <respStmt xml:id="MLH">
+               <resp when="2024">Encoding</resp>
+               <persName>Matthew Holford</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Brocas_496</idno>
+            <idno type="collection">D. D. Brocas</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Brocas_496" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100061">D. D. Brocas</collection>
+                  <idno type="shelfmark">MS. D. D. Brocas 496</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D. D. Brocas a. 1/9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="lease">
+                     <p>
+                        <seg type="docType">Lease.</seg>
+                        <placeName key="place_116175">Bradley (Hampshire)</placeName>. <origDate when="1633">9 Chas. I. July 13, 1633</origDate>. Indenture made between (1) Thomas Brocas of Beaureper, Hampshire, esq.,
+                        and (2) Thomas Taylor of Bradley, Hampshire, esq., Thomas Westall of
+                        Beckingsfield, Buckinghamshire, gent., Thomas Sherman of Bramley, Hampshire,
+                        clerk, and Henry Fesant of London, gent., being a lease of the ten parts of
+                        the manor of Bradley in twelve parts to be divided (signed and sealed by
+                        Taylor, Westall, and Feasant, and presumably also sealed by Sherman).</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Red wax; round; seal of (1) a fragment; (2) a very small fragment; (3)
+                        lump of wax; (4) damaged</summary>
+                     <seal>
+                        <p>
+                           <persName>Thomas Taylor</persName>
+                        </p>
+                        <decoNote>Unidentified</decoNote>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Thomas Westall</persName>
+                        </p>
+                        <decoNote>Unidentified</decoNote>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Thomas Sherman</persName>
+                        </p>
+                        <decoNote>Unidentified</decoNote>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Henry Fesant</persName>
+                        </p>
+                        <decoNote>Anchor</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Preliminary description by Helen Watt, May 2024.</p>
+                        </source></recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">XXXX</idno></custEvent></custodialHist></adminInfo>
+                     
+               
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
