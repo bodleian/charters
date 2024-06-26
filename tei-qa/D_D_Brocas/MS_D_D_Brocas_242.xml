@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_954248">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Brocas 242</title>
+            <respStmt xml:id="HW">
+               <resp when="2024">Cataloguer</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+            <respStmt xml:id="MLH">
+               <resp when="2024">Encoding</resp>
+               <persName>Matthew Holford</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Brocas_242</idno>
+            <idno type="collection">D. D. Brocas</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Brocas_242" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100061">D. D. Brocas</collection>
+                  <idno type="shelfmark">MS. D. D. Brocas 242</idno><idno type="ieArk">ark:29072/x09z903090db</idno><idno type="crArk">ark:29072/x09w03240736</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D. D. Brocas a. 1/4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="mortgage">
+                     <p>
+                        <seg type="docType">Mortgage.</seg>
+                        <placeName key="place_116047">Roche Court (Hampshire)</placeName>. <origDate when="1657">1657, Jan. 27</origDate>. Indenture quadripartite made between (1) Oliver Brocas of North Farham
+                        alias Roch Court, Hampshire, gent., and Richard Brocas of St. Paul's Covent
+                        Garden, Middlesex, gent., (2) Charles Fox, citizen and Leatherseller of
+                        London, and Thomas Evans, citizen and Vintner of London; (3) Simon Benet of
+                        Beach Hampton, Buckinghamshire, esq., and (4) Thomas Russell of St. Martin
+                        Ludgate, London, gent., being a mortgage by (1) to (3) of the manor of North
+                        Farham alias Roch Court, Hampshire, and the manor house called Roch Court
+                        and lands in North Farham, together with a schedule of leases (signed and
+                        sealed by Oliver Brocas; Richard Brocas; unknown, perhaps Charles Fox or
+                        Simon Benet; and Thomas Evans) (endorsed: The Mortgage from Mr Oliver Brocas
+                        &amp; Mr Richard Brocas for £1534; with a note of dates of payment over
+                        three years and amounts payable).</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Red wax; round; once paper covered; one a fragment</summary>
+                     <seal>
+                        <p>
+                           <persName>Oliver Brocas</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Richard Brocas</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Unidentifed</persName>
+                        </p>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Thomas Evans</persName>
+                        </p>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Preliminary description by Helen Watt, May 2024.</p>
+                        </source></recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">604078535</idno></custEvent></custodialHist></adminInfo>
+                     
+               
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

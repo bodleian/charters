@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_954601">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Brocas 588</title>
+            <respStmt xml:id="HW">
+               <resp when="2024">Cataloguer</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+            <respStmt xml:id="MLH">
+               <resp when="2024">Encoding</resp>
+               <persName>Matthew Holford</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Brocas_588</idno>
+            <idno type="collection">D. D. Brocas</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Brocas_588" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100061">D. D. Brocas</collection>
+                  <idno type="shelfmark">MS. D. D. Brocas 588</idno><idno type="ieArk">ark:29072/x00c483m09d4</idno><idno type="crArk">ark:29072/x008612q263c</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D. D. Brocas a. 1/12</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="bargain and sale">
+                     <p>
+                        <seg type="docType">Bargain and sale.</seg>
+                        <placeName key="place_111395">Beaurepaire (Hampshire)</placeName>, <placeName key="place_116049">Cranes (Hampshire)</placeName>, <placeName key="place_111716">Bramley (Hampshire)</placeName>. <origDate when="1678">29 Chas. II. Jan. 21, 1678</origDate>. Indenture made between (1) Sir William Gardiner, Bart., Dame Jane his
+                        wife, Thomas Brocas of Beaurepaire, Hampshire, esq., and Richard Downing,
+                        gent., son and heir of Abraham Downing esq., deceased, late sergeant skinner
+                        to His Majesty and (2) John Cateline of Stepney, Middlesex, gent., and
+                        Richard Johnson, of Sherborne St John, Hampshire, gent., being a bargain and
+                        sale by (1) to (2) of the manors of Beaurepaire and Cranes, and land in
+                        Bramley known as The Yard, Hampshire. (signed by the parties in 1).</p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Preliminary description by Helen Watt, May 2024.</p>
+                        </source></recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">604078543</idno></custEvent></custodialHist></adminInfo>
+                     
+               
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

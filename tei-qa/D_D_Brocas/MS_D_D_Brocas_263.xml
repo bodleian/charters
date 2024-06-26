@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_954270">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Brocas 263</title>
+            <respStmt xml:id="HW">
+               <resp when="2024">Cataloguer</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+            <respStmt xml:id="MLH">
+               <resp when="2024">Encoding</resp>
+               <persName>Matthew Holford</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Brocas_263</idno>
+            <idno type="collection">D. D. Brocas</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Brocas_263" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100061">D. D. Brocas</collection>
+                  <idno type="shelfmark">MS. D. D. Brocas 263</idno><idno type="ieArk">ark:29072/x0gq67jr899p</idno><idno type="crArk">ark:29072/x0gm80hw0603</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D. D. Brocas a. 1/6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="assignment of term">
+                     <p>
+                        <seg type="docType">Assignment of a term of years.</seg>
+                        <placeName key="place_116047">Roche Court (Hampshire)</placeName>. <origDate when="1684">36 Chas. II. Dec. 16, 1684</origDate>. Indenture quadripartite made between (1) Abraham Cowley of St Albans,
+                        Hertfordshire, gent., (2) Hugh Chamberlen of St Clement Danes, Middlesex,
+                        esq., (3) Thomas Bromfeild of New Inne, Middlesex, gent., and (4)
+                        Christopher Davenport of New Inne, Middlesex, gent, reciting a lease dated
+                        25 October 30 Chas. II, 1678, made by Chamberlen as executor of Elizabeth
+                        Walden to Thomas Singleton of a messuage in North Faraham, Hampshire, and
+                        lands [details given], parcel of the manor of Roch Court, being an
+                        assignment of the residue of a term of 99 in the same property by (1) and
+                        (2) to (3) and (4).</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Red wax; round; applied to seal tags</summary>
+                     <seal>
+                        <p>
+                           <persName>Abraham Cowley</persName>
+                        </p>
+                        <decoNote>Boar</decoNote>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Hugh Chamberlen</persName>
+                        </p>
+                        <decoNote>Amorial</decoNote>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Thomas Bromfeild</persName>
+                        </p>
+                        <decoNote>Armorial</decoNote>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Christopher
+                        Davenport</persName>
+                        </p>
+                        <decoNote>Armorial</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Preliminary description by Helen Watt, May 2024.</p>
+                        </source></recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">604078537</idno></custEvent></custodialHist></adminInfo>
+                     
+               
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

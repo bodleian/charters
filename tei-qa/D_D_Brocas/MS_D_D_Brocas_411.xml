@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_954421">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Brocas 411</title>
+            <respStmt xml:id="HW">
+               <resp when="2024">Cataloguer</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+            <respStmt xml:id="MLH">
+               <resp when="2024">Encoding</resp>
+               <persName>Matthew Holford</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Brocas_411</idno>
+            <idno type="collection">D. D. Brocas</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Brocas_411" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100061">D. D. Brocas</collection>
+                  <idno type="shelfmark">MS. D. D. Brocas 411</idno><idno type="ieArk">ark:29072/x0n009w271pp</idno><idno type="crArk">ark:29072/x0mw22v588cz</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D. D. Brocas a. 1/9</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="conveyance (no further details)">
+                     <p>
+                        <seg type="docType">Sale.</seg>
+                        <placeName key="place_116042">Steventon (Hampshire)</placeName>, <placeName key="place_116043">Steventon (Hampshire)</placeName>. <origDate when="1648">1648, Dec. 3</origDate>. Thomas Brocas of Beaurepaire, Edmund Brockett 'of Beaurepaire gentleman',
+                        and Ed. Peninngton, yeoman of Little Brickhill, Buckinghamshire, sell to
+                        Peter Hussey, of Lincoln's Inn, Thomas Webb, Thomas and George Mynn of
+                        Epsom, Surrey, the twelfth part of the manor, advowson, and premises of
+                        Steventon ('in twelve parts to be divided').</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Red wax; fragment only; seals of (2) and (3) missing</summary>
+                     <seal>
+                        <p>
+                           <persName>Peter Hussey</persName>
+                        </p>
+                        <decoNote>Armorial</decoNote>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Thomas Webbe</persName>
+                        </p>
+                        <decoNote/>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>George Mynn</persName>
+                        </p>
+                        <decoNote/>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Preliminary description by Helen Watt, May 2024.</p>
+                        </source></recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">604078540</idno></custEvent></custodialHist></adminInfo>
+                     
+                     <listBibl>
+                        <bibl>M. Burrows, <title>The Family of Brocas of Beaurepaire .. </title> (London, 1886), <ref target="https://archive.org/details/familyofbrocasof00burruoft/familyofbrocasof00burruoft/page/346/mode/2up">p. 346</ref>
+                        </bibl>
+                     </listBibl>
+               
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

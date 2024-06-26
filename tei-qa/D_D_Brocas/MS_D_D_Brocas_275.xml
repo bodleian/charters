@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_954282">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. D. D. Brocas 275</title>
+            <respStmt xml:id="HW">
+               <resp when="2024">Cataloguer</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+            <respStmt xml:id="MLH">
+               <resp when="2024">Encoding</resp>
+               <persName>Matthew Holford</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_D_D_Brocas_275</idno>
+            <idno type="collection">D. D. Brocas</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_D_D_Brocas_275" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100061">D. D. Brocas</collection>
+                  <idno type="shelfmark">MS. D. D. Brocas 275</idno><idno type="ieArk">ark:29072/x0k930bx55cr</idno><idno type="crArk">ark:29072/x0k643b17224</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. D. D. Brocas a. 1/7</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="release">
+                     <p>
+                        <seg type="docType">Release.</seg>
+                        <placeName key="place_111399">Fareham (Hampshire)</placeName>. <origDate when="1702">1 Anne. Mar. 24, 1702</origDate>. Indenture made between (1) Henry Wilkes of Newland in the parish of
+                        Titchfeild, Hampshire, yeoman, and Mary his wife, and (2) Richard Callaway
+                        of Fareham, Hampshire, yeoman, being a release by (1) to (2) of the Red Lion
+                        Inn, and land in Fareham (endorsed: '24th March 1701. Deeds of the Red Lyon
+                        Inn. No. 1').</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <summary>Red wax; round; applied to seal tag</summary>
+                     <seal>
+                        <p>
+                           <persName>Henry Wilkes</persName>
+                        </p>
+                        <decoNote>Initials C B with crest</decoNote>
+                     </seal>
+                     <seal>
+                        <p>
+                           <persName>Mary Wilkes</persName>
+                        </p>
+                        <decoNote>Initials C B with crest</decoNote>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Preliminary description by Helen Watt, May 2024.</p>
+                        </source></recordHist><availability status="offsite"><p>Please note that this material is held in our offsite storage facility. Orders submitted by 10am Monday-Friday will be available for consultation within 24 hours.</p></availability><custodialHist><custEvent type="barcode">Barcode: <idno type="barcode">604078538</idno></custEvent></custodialHist></adminInfo>
+                     
+               
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-06">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
