@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_953040">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Dodsworth 76, fol. 83</title>
+            <respStmt xml:id="BOD">
+               <resp when="1878">Cataloguer</resp>
+               <persName>H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="HW">
+               <resp when="2024">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Dodsworth_76_fol_83</idno>
+            <idno type="collection">Dodsworth</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Dodsworth_76_fol_83" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100060">Dodsworth</collection>
+                  <idno type="shelfmark">MS. Dodsworth 76, fol. 83</idno><idno type="ieArk">ark:29072/x0v692t620b5</idno><idno type="crArk">ark:29072/x0v405s9371v</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Dodsworth 76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="grant|letters of attorney">
+                     <p>
+                        <seg type="docType">Grant, appointment of attorney.</seg>
+                        <placeName key="place_000028">Hertfordshire () (county)</placeName>, <placeName key="place_000018">Essex () (county)</placeName>, <placeName key="place_000080">Wiltshire () (county)</placeName>, <placeName key="place_000026">Hampshire () (county)</placeName>, <placeName key="place_116080">Great Stambridge (Essex) (manor)</placeName>. <origDate when="1485">4 November, I Hen. VII (1485). </origDate>. Grant from Sir Humphrey Stanley, kt., John Stokes, John Grene, William Burton, Richard Doughty, gentlemen, in accordance with the last will of William Benstede, esq., deceased, to Jocosa Dudley, all and singular the lordships, manors, lands, etc., in the counties of Hertford, Essex, Wiltes, and Southampton, or elsewhere within England, which they had to the use of the said William Benstede, by the concession of John Botyller, esq., John Clopton, esq., and Henry Sotehyll, except the manor of Stondbrugge in Essex, to hold the same for her life, with remainder to Edward Benstede and his heirs for ever ; and the said Sir Humphrey and the others appoint John Byrche their attorney for the delivery of seisin.</p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                                    <citedRange unit="page" from="677" to="677">677</citedRange> [<ref target="https://books.google.co.uk/books?id=rvIUAAAAQAAJ&amp;pg=PA677#v=onepage&amp;q&amp;f=false">Google Books</ref>]</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-05">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

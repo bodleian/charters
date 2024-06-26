@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_953239">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Dodsworth 76, fol. 132</title>
+            <respStmt xml:id="BOD">
+               <resp when="1878">Cataloguer</resp>
+               <persName>H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="HW">
+               <resp when="2024">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Dodsworth_76_fol_132</idno>
+            <idno type="collection">Dodsworth</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Dodsworth_76_fol_132" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100060">Dodsworth</collection>
+                  <idno type="shelfmark">MS. Dodsworth 76, fol. 132</idno><idno type="ieArk">ark:29072/x02227mr25qx</idno><idno type="crArk">ark:29072/x01z40kv42d2</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Dodsworth 76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="writ|letters patent">
+                     <p>
+                        <seg type="docType">Writ to prepare Letters patent.</seg>
+                        <placeName key="place_000031">[Kent?] (England) (county)</placeName>. <origDate when="1471">6 July and 24 Nov. [?], 11 Ed. IV (1471). </origDate>. Writ from King Edward IV to Robert [Stillington], bishop of Bath and Wells, the chancellor, commanding him to prepare letters patent to John, son and heir of Sir Edward Broke, kt., deceased, granting him all the lands etc., of his late father. Dated at Westminster. A memorandum in added that the writ was delivered to the Chancellor for execution on 24 Nov. [?] in that year.</p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                                    <citedRange unit="page" from="699" to="699">699</citedRange> [<ref target="https://books.google.co.uk/books?id=rvIUAAAAQAAJ&amp;pg=PA699#v=onepage&amp;q&amp;f=false">Google Books</ref>]</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-05">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

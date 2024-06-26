@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_953103">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Dodsworth 76, fol. 45</title>
+            <respStmt xml:id="BOD">
+               <resp when="1878">Cataloguer</resp>
+               <persName>H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="HW">
+               <resp when="2024">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Dodsworth_76_fol_45</idno>
+            <idno type="collection">Dodsworth</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Dodsworth_76_fol_45" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100060">Dodsworth</collection>
+                  <idno type="shelfmark">MS. Dodsworth 76, fol. 45</idno><idno type="ieArk">ark:29072/x0mg74qm557q</idno><idno type="crArk">ark:29072/x0mc87pq71xh</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Dodsworth 76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="grant">
+                     <p>
+                        <seg type="docType">Grant.</seg>
+                        <orgName key="org_112039">Bordesley, Cistercian abbey</orgName>. <origDate notBefore="1241" notAfter="1245">[c.1241-1245] (1245). </origDate>. Grant from Geoffrey de Beniggewrth,, son of William de Beniggewrth, to the abbot and convent of Bordeslege in perpetual fee farm the whole of his lands with rents and all appurtenances of Houteselva and Tysho, and of Pilardinton and Whatcote in the county of "Warewic, paying annually to him and his heirs one mark of silver in the church of All Saints, Norhamton, and to the chief lord of Tysho 4s., and to the prior of Pilardinton in one year 10s., and in another year 11s. 4d. Witness: Philip de Assellis, then sheriff of Warewic.</p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                                    <citedRange unit="page" from="686" to="686">686</citedRange> [<ref target="https://books.google.co.uk/books?id=rvIUAAAAQAAJ&amp;pg=PA686#v=onepage&amp;q&amp;f=false">Google Books</ref>]</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-05">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

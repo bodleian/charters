@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_953069">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Dodsworth 76, fol. 29*</title>
+            <respStmt xml:id="BOD">
+               <resp when="1878">Cataloguer</resp>
+               <persName>H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="HW">
+               <resp when="2024">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Dodsworth_76_fol_29s</idno>
+            <idno type="collection">Dodsworth</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Dodsworth_76_fol_29s" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100060">Dodsworth</collection>
+                  <idno type="shelfmark">MS. Dodsworth 76, fol. 29*</idno><idno type="ieArk">ark:29072/x0gx41mj5624</idno><idno type="crArk">ark:29072/x0gt54kn72rx</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Dodsworth 76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="grant">
+                     <p>
+                        <seg type="docType">Grant.</seg>
+                        <placeName key="place_116092">Stallingborough (Lincolnshire) (manor)</placeName>. <origDate when="1295">[Feast of St. Peter ad vincula, 23 Ed. I?] (1295). </origDate>. Grant from Robert, son of Sir Norman de Arcy, kt., to Sir Philip de Kyme, kt., the whole of his manor of Stalyngburgh with appurtenances ; also the homage and whole of the services of William de Moigne, Agnes le Moigne, and others, which they held of him in the county of Lincoln; also he grants Walter Scharpe his native, with all his chattels, etc., to hold the same for ever (copy).</p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                                    <citedRange unit="page" from="681" to="681">681</citedRange> [<ref target="https://books.google.co.uk/books?id=rvIUAAAAQAAJ&amp;pg=PA681#v=onepage&amp;q&amp;f=false">Google Books</ref>]</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-05">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_953041">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Dodsworth 76, fol. 7</title>
+            <respStmt xml:id="BOD">
+               <resp when="1878">Cataloguer</resp>
+               <persName>H. Turner</persName>
+               <persName>H. O. Coxe</persName>
+            </respStmt>
+            <respStmt xml:id="HW">
+               <resp when="2024">Encoding</resp>
+               <persName>Helen Watt</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Dodsworth_76_fol_7</idno>
+            <idno type="collection">Dodsworth</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Dodsworth_76_fol_7" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100060">Dodsworth</collection>
+                  <idno type="shelfmark">MS. Dodsworth 76, fol. 7</idno><idno type="ieArk">ark:29072/x0r781wg2117</idno><idno type="crArk">ark:29072/x0r494vk37q5</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Dodsworth 76</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem class="inquisition post mortem">
+                     <p>
+                        <seg type="docType">Inquisition.</seg>
+                        <placeName key="place_116086">Brampton (Huntingdonshire) (manor)</placeName>. <origDate when="1348">4 October, 22 Ed. III (1348). </origDate>. Inquisition taken at Huntingdon before Guido de Seyncler, escheator of the counties of Hunts and Cambridge, 4 October, 22 Ed. III, by the oaths of John Dike and others, who say that Laurence de Hastyniges, late earl of Pembroke, held in his demesne as of fee the day he died, the manor of Brampton in the co. of Huntingdon, of the king in capite by the service of two knights' fees; and there is a ruinous chief messuage there, worth nothing, and the lands (described in full) etc., are worth in annual rents £41 19s 2 1/4d; and the said jury say the earl died the Friday on the feast of the beheading of St. John the Bapt. last past, and that John de Hastynges is his son and heir, aged one year and more.</p>
+                  </msItem>
+               </msContents>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>W. H. Turner and H. O. Coxe, <title>Calendar of charters and rolls preserved in the Bodleian library</title> (Oxford, 1878) [annotated copy, Bodleian Library R.Ref.741], 
+                                                    <citedRange unit="page" from="677" to="677">677</citedRange> [<ref target="https://books.google.co.uk/books?id=rvIUAAAAQAAJ&amp;pg=PA677#v=onepage&amp;q&amp;f=false">Google Books</ref>]</bibl>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-05">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
