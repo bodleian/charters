@@ -1,0 +1,88 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_250236">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Yorks. 582</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2022">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Yorks_582</idno>
+            <idno type="collection">Yorks. (Yorkshire)</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Yorks_582" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Yorkshire</collection>
+                  <idno type="shelfmark">MS. Ch. Yorks. 582</idno>
+                  <idno type="ieArk">ark:29072/x0j098zb73s7</idno><idno type="crArk">ark:29072/x0j38607573n</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Yorks. c.4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>Notification by William [Greenfield], archbishop of York, of definitive sentence in favour of the claim of the <orgName key="org_103019">priory of Holy Trinity, York</orgName>, to the churches of <placeName key="place_103253">Leeds</placeName>, York St Trinity, <placeName key="place_111826">Bilbrough</placeName>, and a moiety of <placeName key="place_103222">Hootton Pagnel</placeName>, pensions from <placeName key="place_103253">Leeds</placeName>, <placeName key="place_103046">Adel</placeName>, and <placeName key="place_103439">Wintringham</placeName>, and tithes in <placeName key="place_103044">Aberford</placeName> and <placeName key="place_111824">Barton-le-Street</placeName>. Dated at <placeName role="date">Bishop Burton</placeName>, <origDate when="1311-03-28">5 kal. Apr. [28 March] 1311</origDate>.  
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal><p><persName>William Greenfield, archbishop of York</persName> (fragment)</p></seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <acquisition>Transferred from the History Faculty, University of Oxford, in 2020.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Description by Matthew Holford, July 2024.</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl><title>The register of William Greenfield, lord archbishop of York, 1306-1315</title>, ed. W. Brown and A. Hamilton Thompson, II, no. 928.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2022-07">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_250238">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Yorks. 584</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Mike Webb</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2024">Encoding</resp>
+               <persName>Matthew Holford</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Yorks_584</idno>
+            <idno type="collection">Yorks. (Yorkshire)</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Yorks_584" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Yorkshire</collection>
+                  <idno type="shelfmark">MS. Ch. Yorks. 584</idno>
+                  <idno type="ieArk">ark:29072/x0p5547r77d8</idno><idno type="crArk">ark:29072/x0p8418n60q0</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Yorks. c.4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="en">English</textLang>
+                  <msItem>
+                     <p>Will of <persName>Elizabeth Smith of <placeName key="place_103334" role="person">Selby</placeName></persName>, Yorkshire, <origDate when="1681-01-29">29 Jan 1681</origDate> [N.S.], proved 29 Jul 1681, with seal of the Official of Prerogative Court of York   </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal><p><orgName>Official of Prerogative Court of York</orgName> </p></seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <acquisition>Found in the John Johnson collection.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Description by Mike Webb, September 2024.</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_250237">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Yorks. 583</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Bodleian library staff</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2022">Encoding</resp>
+               <persName>Tuija Ainonen</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Yorks_583</idno>
+            <idno type="collection">Yorks. (Yorkshire)</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Yorks_583" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Yorkshire</collection>
+                  <idno type="shelfmark">MS. Ch. Yorks. 583</idno>
+                  <idno type="ieArk">ark:29072/x0ht24wk0757</idno><idno type="crArk">ark:29072/x0hx11xf90gs</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Yorks. c.4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="en">English</textLang>
+                  <msItem>
+                     <p>Award by Dr Hugh Weston, Dr William Cliff, and Mr William Grinestede, in arbitration between the dean and chapter of <orgName key="org_101005">Christ Church, Oxford</orgName>, and John Thorneton, vicar of Leeds, concerning £10 annual pension from the church of <placeName key="place_103253">Leeds</placeName>, parcel of the possessions of the dissolved <orgName key="org_103019">priory of Holy Trinity, York</orgName>, granted by Henry VIII to Christ Church on 11 Dec. 1546. John to pay the pension from henceforth with arrears of £16. Dated <origDate when="1553-11-24">24 Nov. 1 Mary [1553]</origDate>. 
+                        
+                        </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>Seals and signatures of Dr Hugh Weston, Dr William Cliff (seal missing), and Mr Hugh Grinestede (Grinysted)
+                     <seal><p><persName>Hugh Weston</persName> (indistinct)</p></seal>
+                     <seal><p><persName>Hugh Grinstede</persName> (fragmentary, indistinct)</p></seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <acquisition>Transferred from the History Faculty, University of Oxford, in 2020.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Description by Matthew Holford, July 2024.</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl><title>The register of William Greenfield, lord archbishop of York, 1306-1315</title>, ed. W. Brown and A. Hamilton Thompson, II, no. 928.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2022-07">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_250239">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Yorks. 585</title>
+            <respStmt xml:id="BOD">
+               <resp>Cataloguer</resp>
+               <persName>Mike Webb</persName>
+            </respStmt>
+            <respStmt xml:id="TA">
+               <resp when="2024">Encoding</resp>
+               <persName>Matthew Holford</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Yorks_585</idno>
+            <idno type="collection">Yorks. (Yorkshire)</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Yorks_585" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Yorkshire</collection>
+                  <idno type="shelfmark">MS. Ch. Yorks. 585</idno>
+                  <idno type="ieArk">ark:29072/x0pc289j4413</idno><idno type="crArk">ark:29072/x0pg15bf27bz</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Yorks. c.4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="en">English</textLang>
+                  <msItem>
+                     <p>Indenture between <persName>Thomas Root, silkweaver of <placeName key="place_103334" role="person">Selby</placeName></persName>, and his wife Margaret, <origDate when="1693-01-25">25 Jan 1693</origDate>, concerning a messuage or tenement in Cruce parish [St. Crux], Great Shambles, <placeName key="place_103421">York</placeName>, with personal seals attached.</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <authDesc>
+                     <seal><p><persName>Thomas Root</persName> </p></seal>
+                     <seal><p><persName>Margaret Root</persName> </p></seal>
+                  </authDesc>
+               </physDesc>
+               <history>
+                  <acquisition>Found in the John Johnson collection, January 2015.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Description by Mike Webb, September 2024.</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-09">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
