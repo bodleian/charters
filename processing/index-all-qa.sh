@@ -19,16 +19,16 @@ if [ "$1" == "reuse" ]; then
     if [ $ageofsolrdir -ge 1 ]; then
         echo -n "The solr files are $ageofsolrdir hours old. "
         while true; do
-            read -r -p "Are you sure you want to send these to the production Solr server?? [Yes|No] " answer
+            read -r -p "Are you sure you want to send these to the QA Solr server?? [Yes|No] " answer
             case $answer in
                 [Yy]|YES|Yes|yes ) break;;
-                [Nn]|NO|No|no ) echo "Abandoning re-indexing. The production server has not been updated."; exit 0;;
+                [Nn]|NO|No|no ) echo "Abandoning re-indexing. The QA server has not been updated."; exit 0;;
                 * ) echo;;
             esac
         done
     fi
     # Send the files to Solr
-    printf "charters\nplace\ncollection" | xargs -I {} -P 2 ./generate-solr-document.sh "{}s.xquery" "{}s_index.xml" {} $SERVER "$1"
+    printf "charter\nplace\ncollection" | xargs -I {} -P 2 ./generate-solr-document.sh "{}s.xquery" "{}s_index.xml" {} $SERVER "$1"
 
 else
 
