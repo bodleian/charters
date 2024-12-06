@@ -1,0 +1,96 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><!-- shelfmark goes here --></title>
+            <respStmt>
+               <resp>Cataloguer</resp>
+               <persName><!-- your name here --></persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <repository>Lincoln College</repository>
+                  <idno type="shelfmark"></idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <p><!-- abstract here --></p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support><!-- material --></support>
+                        <extent>
+                           <dimensions unit="mm">
+                              <height></height>
+                              <width></width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote></handNote>
+                  </handDesc>
+                  <additions>
+                     <p><!-- use for endorsements --></p>
+                  </additions>
+                  <authDesc>
+                     <seal ><p> <!-- use for shape, attachment. --></p>
+                        <material></material>
+                        <dimensions></dimensions>
+                        <decoNote></decoNote>
+                        <legend></legend>
+                     </seal>
+                  </authDesc>
+               </physDesc>
+               <diploDesc>
+                  <copyStatus></copyStatus>
+                  <p></p>
+               </diploDesc>
+               <history>
+                  <origin>
+                     <origPlace></origPlace>
+                     <origDate></origDate>
+                  </origin>
+                  <provenance></provenance>
+                  <acquisition></acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p></p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="transcription"><!-- text goes here -->
+            <p></p>
+            <diploPart></diploPart>
+         </div>
+         <div type="translation">
+            <p></p>
+            <diploPart></diploPart>
+         </div>
+      </body>
+   </text>
+</TEI>
