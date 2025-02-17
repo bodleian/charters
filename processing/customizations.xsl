@@ -93,7 +93,7 @@
         <xsl:text>|</xsl:text>
     </xsl:template>
     
-    <!-- added for charters -->
+    <!-- added for charters - needs to be p//origDate as some p contain lists which contain dates -->
     <xsl:template match="msItem/p//origDate">
         <xsl:apply-templates/>
     </xsl:template>
