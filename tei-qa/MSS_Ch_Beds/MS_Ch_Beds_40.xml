@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_212013">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_212013">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,16 +40,19 @@
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
-                  <repository>Bodleian Library</repository><collection key="collection_100001">Beds. (Bedfordshire)</collection>
-                  
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100001">Beds. (Bedfordshire)</collection>
                   <idno type="shelfmark">MS. Ch. Beds. 40</idno>
-                  <idno type="ieArk">ark:29072/x0c247ds63bd</idno><idno type="crArk">ark:29072/x0bz60cw801j</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0c247ds63bd</idno>
+                  <idno type="crArk">ark:29072/x0bz60cw801j</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. Ch. Beds. a. 1/4</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="grant">
                      <p>
+                        <seg type="docType">Grant</seg>. 
                         <placeName key="place_108828">Arlesey</placeName>. <origDate notBefore="1175" notAfter="1200">1175-1200</origDate>. </p>
                   </msItem>
                </msContents>
@@ -67,9 +72,8 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
-         <change when="2022-05">First online publication</change>
-      </revisionDesc>
+      <change when="2025-06">Matthew Holford: add document type.</change>
+      <change when="2022-05">First online publication</change>
    </teiHeader>
    <text>
       <body>

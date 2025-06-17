@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_212008">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_212008">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,16 +40,19 @@
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
-                  <repository>Bodleian Library</repository><collection key="collection_100001">Beds. (Bedfordshire)</collection>
-                  
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100001">Beds. (Bedfordshire)</collection>
                   <idno type="shelfmark">MS. Ch. Beds. 35</idno>
-                  <idno type="ieArk">ark:29072/x09w032363m3</idno><idno type="crArk">ark:29072/x09s16168097</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x09w032363m3</idno>
+                  <idno type="crArk">ark:29072/x09s16168097</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. Ch. Beds. a. 1/1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="copy_of_will">
                      <p>
+                        <seg type="docType">Copy of will</seg>. 
                         <placeName key="place_111160">Leighton Buzzard</placeName>. <origDate notBefore="1874" notAfter="1876">1874-1876 </origDate>. </p>
                   </msItem>
                </msContents>
@@ -67,9 +72,8 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
-         <change when="2022-05">First online publication</change>
-      </revisionDesc>
+      <change when="2025-06">Matthew Holford: add document type.</change>
+      <change when="2022-05">First online publication</change>
    </teiHeader>
    <text>
       <body>
