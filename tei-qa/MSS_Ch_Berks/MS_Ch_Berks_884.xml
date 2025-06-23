@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_211543">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_211543">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,16 +40,19 @@
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
-                  <repository>Bodleian Library</repository><collection key="collection_100002">Berks. (Berkshire)</collection>
-                  
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100002">Berks. (Berkshire)</collection>
                   <idno type="shelfmark">MS. Ch. Berks. 884</idno>
-                  <idno type="ieArk">ark:29072/x07m01bm47s3</idno><idno type="crArk">ark:29072/x07h149q64g7</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x07m01bm47s3</idno>
+                  <idno type="crArk">ark:29072/x07h149q64g7</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. Ch. Berks. c. 9</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="lease_for_99_years">
                      <p>
+                        <seg type="docType">Lease for 99 years</seg>. 
                         <placeName key="place_111274">Frilsham</placeName>. <origDate when="1682">1682 </origDate>. </p>
                   </msItem>
                </msContents>
@@ -67,6 +72,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2025-06">Matthew Holford: add document type.</change>
          <change when="2022-05">First online publication</change>
       </revisionDesc>
    </teiHeader>
