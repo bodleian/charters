@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_120138">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_120138">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,16 +40,19 @@
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
-                  <repository>Bodleian Library</repository><collection key="collection_100002">Berks. (Berkshire)</collection>
-                  
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100002">Berks. (Berkshire)</collection>
                   <idno type="shelfmark">MS. Ch. Berks. 650b</idno>
-                  <idno type="ieArk">ark:29072/x09s161680jw</idno><idno type="crArk">ark:29072/x09p29099775</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x09s161680jw</idno>
+                  <idno type="crArk">ark:29072/x09p29099775</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. Ch. Berks. c. 4</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="assignment">
                      <p>
+                        <seg type="docType">Assignment</seg>. 
                         <placeName key="place_108808">Finchampstead</placeName>. <origDate when="1572">1572</origDate>. </p>
                   </msItem>
                </msContents>
@@ -68,6 +73,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2025-06">Matthew Holford: add document type.</change>
          <change when="2022-05">First online publication</change>
       </revisionDesc>
    </teiHeader>
