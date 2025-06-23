@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_120062">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_120062">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,27 +40,32 @@
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
-                  <repository>Bodleian Library</repository><collection key="collection_100002">Berks. (Berkshire)</collection>
-                  
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100002">Berks. (Berkshire)</collection>
                   <idno type="shelfmark">MS. Ch. Berks. 355</idno>
-                  <idno type="ieArk">ark:29072/x012579t495n</idno><idno type="crArk">ark:29072/x00z708x65vf</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x012579t495n</idno>
+                  <idno type="crArk">ark:29072/x00z708x65vf</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. Ch. Berks. a. 10</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="lease">
                      <p>
+                        <seg type="docType">Lease</seg>. 
                         <placeName key="place_109253">Drayton</placeName>. <origDate when="1410">1410</origDate>. </p>
                   </msItem>
                </msContents>
                <physDesc>
                   <authDesc>
                      <summary>Two seals on one tag; one broken</summary>
-                     <seal><p>(detached, kept separately)</p>
+                     <seal>
+                        <p>(detached, kept separately)</p>
                         <decoNote type="device">Device</decoNote>
                         <idno>MS. Ch. Berks. 355*a</idno>
                      </seal>
-                     <seal><p>(detached, kept separately)</p>
+                     <seal>
+                        <p>(detached, kept separately)</p>
                         <decoNote type="device">Device</decoNote>
                         <idno>MS. Ch. Berks. 355*b</idno>
                      </seal>
@@ -74,13 +81,17 @@
                            </listBibl>
                            <bibl>J. Gilbert Wiblin, <title>Handlist 339e. Seals (including casts and matrices)</title>, May 1916 (unpublished handlist, Bodleian Library), p. 4v</bibl>
                         </source>
-                     </recordHist><availability status="detachedSeal"><p>The seal(s) from this charter have been detached and are now stored separately. To request consultation please email <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>.</p></availability>  
+                     </recordHist>
+                     <availability status="detachedSeal">
+                        <p>The seal(s) from this charter have been detached and are now stored separately. To request consultation please email <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>.</p>
+                     </availability>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2025-06">Matthew Holford: add document type.</change>
          <change when="2022-05">First online publication</change>
       </revisionDesc>
    </teiHeader>

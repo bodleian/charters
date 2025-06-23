@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_120085">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_120085">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,18 +40,22 @@
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
-                  <repository>Bodleian Library</repository><collection key="collection_100002">Berks. (Berkshire)</collection>
-                  
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100002">Berks. (Berkshire)</collection>
                   <idno type="shelfmark">MS. Ch. Berks. 505</idno>
-                  <idno type="ieArk">ark:29072/x05999n431j4</idno><idno type="crArk">ark:29072/x05712m7487x</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x05999n431j4</idno>
+                  <idno type="crArk">ark:29072/x05712m7487x</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. Ch. Berks. c. 1</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
                   <textLang mainLang="fr">French</textLang>
-                  <msItem>
-                     <p>Grant of a crest to <persName><forename>Thomas</forename> <surname>Ingelfeld</surname> of Berkshire, knight</persName>. <origDate when="1513">1513</origDate>. </p>
-                     
+                  <msItem class="grant_of_arms_(a_crest)">
+                     <p>
+                        <seg type="docType">Grant of arms (a crest)</seg>. Grant of a crest to <persName>
+                           <forename>Thomas</forename>
+                           <surname>Ingelfeld</surname> of Berkshire, knight</persName>. <origDate when="1513">1513</origDate>. </p>
                   </msItem>
                </msContents>
                <physDesc>
@@ -77,6 +83,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2025-06">Matthew Holford: add document type.</change>
          <change when="2022-05">First online publication</change>
       </revisionDesc>
    </teiHeader>

@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_211071">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_211071">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,21 +40,26 @@
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
-                  <repository>Bodleian Library</repository><collection key="collection_100002">Berks. (Berkshire)</collection>
-                  
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100002">Berks. (Berkshire)</collection>
                   <idno type="shelfmark">MS. Ch. Berks. 292</idno>
-                  <idno type="ieArk">ark:29072/x0jd472w6277</idno><idno type="crArk">ark:29072/x0j9602078xh</idno><altIdentifier> <idno type="orderableItem">MS. Ch. Berks. a. 9/3</idno>
+                  <idno type="ieArk">ark:29072/x0jd472w6277</idno>
+                  <idno type="crArk">ark:29072/x0j9602078xh</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Berks. a. 9/3</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="indenture">
                      <p>
+                        <seg type="docType">Indenture</seg>. 
                         <placeName key="place_108272">Bray</placeName>. <origDate notBefore="1638" notAfter="1639">1638-1639 </origDate>. </p>
                   </msItem>
                </msContents>
                <physDesc>
                   <authDesc>
-                     <seal><p>(detached, kept separately)</p>
+                     <seal>
+                        <p>(detached, kept separately)</p>
                         <decoNote type="initials">Initials PA (broken)</decoNote>
                         <idno>MS. Ch. Berks. 292*</idno>
                      </seal>
@@ -68,13 +75,17 @@
                            </listBibl>
                            <bibl>J. Gilbert Wiblin, <title>Handlist 339e. Seals (including casts and matrices)</title>, May 1916 (unpublished handlist, Bodleian Library), p. 4</bibl>
                         </source>
-                     </recordHist><availability status="detachedSeal"><p>The seal(s) from this charter have been detached and are now stored separately. To request consultation please email <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>.</p></availability>  
+                     </recordHist>
+                     <availability status="detachedSeal">
+                        <p>The seal(s) from this charter have been detached and are now stored separately. To request consultation please email <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>.</p>
+                     </availability>
                   </adminInfo>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2025-06">Matthew Holford: add document type.</change>
          <change when="2022-05">First online publication</change>
       </revisionDesc>
    </teiHeader>
