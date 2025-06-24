@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_235193">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_235193">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,13 +43,16 @@
                   <repository>Bodleian Library</repository>
                   <collection>Oxfordshire</collection>
                   <idno type="shelfmark">MS. Ch. Oxon. d.4/34</idno>
-                  <idno type="ieArk">ark:29072/x0xd07gs137j</idno><idno type="crArk">ark:29072/x0x920fw29xk</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x0xd07gs137j</idno>
+                  <idno type="crArk">ark:29072/x0x920fw29xk</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">MS. Ch. Oxon. d.4</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="lease">
                      <p>
+                        <seg type="docType">Lease</seg>. 
                         <placeName key="place_109217">Cholsey etc</placeName>. <origDate notBefore="1361" notAfter="1362">1361-1362 </origDate>. </p>
                   </msItem>
                </msContents>
@@ -68,6 +73,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2025-06">Matthew Holford: add document type.</change>
          <change when="2022-05">First online publication</change>
       </revisionDesc>
    </teiHeader>

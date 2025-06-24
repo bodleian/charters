@@ -1,4 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_211013">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_211013">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,16 +40,19 @@
                   <region type="county">Oxfordshire</region>
                   <settlement>Oxford</settlement>
                   <institution>University of Oxford</institution>
-                  <repository>Bodleian Library</repository><collection key="collection_100002">Berks. (Berkshire)</collection>
-                  
+                  <repository>Bodleian Library</repository>
+                  <collection key="collection_100002">Berks. (Berkshire)</collection>
                   <idno type="shelfmark">MS. Rolls Berks. 24</idno>
-                  <idno type="ieArk">ark:29072/x047429989fk</idno><idno type="crArk">ark:29072/x06d56zx483n</idno><altIdentifier>
+                  <idno type="ieArk">ark:29072/x047429989fk</idno>
+                  <idno type="crArk">ark:29072/x06d56zx483n</idno>
+                  <altIdentifier>
                      <idno type="orderableItem">not marked</idno>
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <msItem class="court_roll_entries">
                      <p>
+                        <seg type="docType">Court roll entries</seg>. 
                         <placeName key="place_1083255">Cumnor</placeName>, <placeName key="place_107028">Crendon</placeName>, <placeName key="place_109170">Beckley etc</placeName>, <placeName key="place_108041">Dorchester</placeName>, <placeName key="place_111321">Priestend</placeName>, <placeName key="place_109514">Old Thame</placeName>. <origDate when="1629">1629 </origDate>. </p>
                   </msItem>
                </msContents>
@@ -72,6 +77,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2025-06">Matthew Holford: add document type.</change>
          <change when="2022-05">First online publication</change>
       </revisionDesc>
    </teiHeader>
