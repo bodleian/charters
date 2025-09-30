@@ -7,6 +7,10 @@
                <resp>Cataloguer</resp>
                <persName>Bodleian library staff</persName>
             </respStmt>
+            <respStmt xml:id="MLH">
+               <resp when="2025">Cataloguer</resp>
+               <persName>Matthew Holford</persName>
+            </respStmt>
             <respStmt xml:id="TA">
                <resp when="2022">Encoding</resp>
                <persName>Tuija Ainonen</persName>
@@ -46,16 +50,17 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <msItem>
+                  <textLang mainLang="en">English</textLang>
+                  <msItem class="rental">
                      <p>
-                        <placeName key="place_109565">Wytham</placeName>. <origDate notBefore="1491" notAfter="1492">1491-1492</origDate>. </p>
+                        <placeName key="place_109565">Wytham</placeName>. <seg type="docType">Rental.</seg> <origDate when="1492-02-03">3 Feb. 7 Hen. VII (1492)</origDate>. On the dorse is a note of grants in <placeName key="place_109474">Seacourt</placeName> to the <orgName key="org_109082">Benedictine nunnery of Studley Priory</orgName> for which William Harcourt pays 40s. yearly to the priory.</p>
                   </msItem>
                </msContents>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Summary record based on a handwritten calendar slip (not dated) created by Bodleian Library staff.</p>
+                           <p>Adapted from a handwritten calendar slip (not dated) created by Bodleian Library staff; additional description by Matthew Holford, 2025.</p>
                            <listBibl>
                               <bibl facs="https://iiif.bodleian.ox.ac.uk/iiif/viewer/?iiif-content=https://iiif.bodleian.ox.ac.uk/iiif/canvas/00a7395a-e5be-4c39-8a03-814df89182a0.json">Calendar slip</bibl>
                            </listBibl>
@@ -67,6 +72,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2025-09">Description updated.</change>
          <change when="2022-05">First online publication</change>
       </revisionDesc>
    </teiHeader>
