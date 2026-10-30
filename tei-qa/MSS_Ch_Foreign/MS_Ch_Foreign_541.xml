@@ -1,0 +1,87 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_420430">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Foreign 541</title>
+            <respStmt xml:id="BCBB">
+               <resp when="1977">Cataloguer</resp>
+               <persName>Bruce Barker-Benfield</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Foreign_541</idno>
+            <idno type="collection">Foreign</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Foreign_541" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Foreign</collection>
+                  <idno type="shelfmark">MS. Ch. Foreign 541</idno>
+                  <idno type="ieArk">ark:29072/x05999n5772d</idno><idno type="crArk">ark:29072/x05d86p260c4</idno><altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Foreign c. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents><textLang mainLang="la">Latin</textLang>
+                  <msItem>
+                     <p>Alfonso V of Aragon and I of Naples, grant of an exemption from taxes to Jacobus Tau de Legognana and his son Laudedio in respect of possessions in "Sancti Angeli"
+                        and "Castroveteri" in the province of "Aprutii"
+                         <placeName role="date">Torre de Greco</placeName>, <origDate when="1449">18 Sept. 1449</origDate>. </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc> <handDesc><handNote>Humanistic script. Chancery notes.</handNote></handDesc>
+                 
+                  <authDesc> 
+                     <seal><p><persName>Alfonso V and I</persName> (fragment)</p> 
+                     </seal> 
+                  </authDesc>  
+               </physDesc> 
+                 <history>
+                    <provenance>Maggs, Catalogue 982 (1977), no. 405; bought for £95.</provenance>
+                 </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Summary description by Bruce Barker-Benfield, 1977.</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml-model href="https://raw.githubusercontent.com/bodleian/CEI2TEI/master/tei_cei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="charter_420431">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS. Ch. Foreign 542</title>
+            <respStmt xml:id="BCBB">
+               <resp when="1978">Cataloguer</resp>
+               <persName>Bruce Barker-Benfield</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Special Collections, Bodleian Libraries</publisher>
+            <address>
+               <orgName type="department">Special Collections</orgName>
+               <orgName type="unit">Bodleian Libraries</orgName>
+               <orgName type="institution">University of Oxford</orgName>
+               <street>Weston Library, Broad Street</street>
+               <settlement>Oxford</settlement>
+               <postCode>OX1 3BG</postCode>
+               <country>United Kingdom</country>
+            </address>
+            <distributor>
+               <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+            </distributor>
+            <!--Availability statement will be added here-->
+            <idno type="msID">MS_Ch_Foreign_542</idno>
+            <idno type="collection">Foreign</idno>
+            <idno type="catalogue">Western</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Ch_Foreign_542" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>University of Oxford</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection>Foreign</collection>
+                  <idno type="shelfmark">MS. Ch. Foreign 542</idno>
+                  <idno type="ieArk">ark:29072/x05h73pz43pr</idno><idno type="crArk">ark:29072/x05m60qv270z</idno><altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Foreign c. 4</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents><textLang mainLang="fr">French</textLang>
+                  <msItem>
+                     <p>Contemporary copy of an order of Charles VI, King of France, concerning the treatment of 38 English prisoners being held in one of the Northern ports during the 
+                        Hundred Years War
+                        <placeName role="date" key="place_114012">Paris (?)</placeName>, <origDate when="1385">c. 1385</origDate>. </p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc> 
+               </physDesc> 
+                 <history>
+                    <provenance>Sir Thomas Phillipps, MS. 36657</provenance>
+                    <provenance>Christie's, 8 March 1978, lot. 129 (with MS. Ch. Foreign 543)</provenance>
+                 </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Summary description by Bruce Barker-Benfield, 1978.</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2026-10">First online publication</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>

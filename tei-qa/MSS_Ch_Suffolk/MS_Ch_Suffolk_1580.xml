@@ -3,13 +3,9 @@
       <fileDesc>
          <titleStmt>
             <title>MS. Ch. Suffolk 1580</title>
-            <respStmt xml:id="BOD">
-               <resp>Cataloguer</resp>
-               <persName>Bodleian library staff</persName>
-            </respStmt>
-            <respStmt xml:id="TA">
-               <resp when="2022">Encoding</resp>
-               <persName>Tuija Ainonen</persName>
+            <respStmt xml:id="BCBB">
+               <resp when="1977">Cataloguer</resp>
+               <persName>Bruce Barker-Benfield</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -41,27 +37,45 @@
                   <repository>Bodleian Library</repository>
                   <collection>Suffolk</collection>
                   <idno type="shelfmark">MS. Ch. Suffolk 1580</idno>
-               <idno type="ieArk">ark:29072/x00c483k701r</idno><idno type="crArk">ark:29072/x008612p86qs</idno></msIdentifier>
+               <idno type="ieArk">ark:29072/x00c483k701r</idno><idno type="crArk">ark:29072/x008612p86qs</idno>
+                  <altIdentifier>
+                     <idno type="orderableItem">MS. Ch. Suffolk c. 1</idno>
+                  </altIdentifier></msIdentifier>
                
                
                <msContents>
                   <msItem>
-                     <p>Listed as relating to <placeName key="place_104540">Bury St Edmunds (Bury St. Edmunds)</placeName>: missing (?).</p>
+                     <p>Grant by John Busshe, fuller, to Richard Frost, chalpain, of a messuage in <placeName key="place_104540">Bury St Edmunds</placeName>
+                        previously held by Thomas Lynne, 'lemynour' (illuminator). <placeName key="place_104540" role="date">Bury St Edmunds</placeName>, <origDate when="1502">1502</origDate>.</p>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc material="perg">
+                        <support>parchment</support>
+                     </supportDesc>
+                  </objectDesc>
+                  <authDesc> 
+                     <seal><p>Fragment of seal, illegible.</p> 
+                     </seal> 
+                  </authDesc> 
+               </physDesc>
+               <history>
+                  <provenance>Maggs, Cat. 982 (1977), no. 69.</provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Record based on the Bodleian Library handlist of charters.</p>
-                         <p>This record is based on a 20th-century handwritten calendar and some information may be incorrect. References to more recent editions, if available, are provided in the bibliography. Please send any additional corrections to <email>specialcollections.enquiries@bodleian.ox.ac.uk</email> or <email>generalsecretary@suffolkinstitute.org.uk</email>.</p></source>
-                     </recordHist>
-                  </adminInfo><surrogates><bibl type="digital-facsimile" subtype="full"><ref target=""><title>Digital Bodleian</title> <note>(full digital facsimile)</note></ref></bibl></surrogates>
+                           <p>Summary description by Bruce Barker-Benfield, 1977.</p></source>
+                                  </recordHist>
+                  </adminInfo><!--<surrogates><bibl type="digital-facsimile" subtype="full"><ref target=""><title>Digital Bodleian</title> <note>(full digital facsimile)</note></ref></bibl></surrogates>-->
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
+         <change when="2026-10">Record revised.</change>
          <change when="2022-05">First online publication</change>
       </revisionDesc>
    </teiHeader>
